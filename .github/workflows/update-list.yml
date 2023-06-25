@@ -19,7 +19,6 @@ jobs:
         wget "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&mimetype=plaintext" -O Common/Peter_Lowe's_Blocklist.txt
         wget "https://badmojr.gitlab.io/1hosts/Lite/adblock.txt" -O Common/1Host(Lite).txt
         wget "https://badmojr.gitlab.io/1hosts/mini/adblock.txt" -O Common/1Host(mini).txt
-        wget "https://someonewhocares.org/hosts/zero/hosts" -O Common/Dan_Pollock's_List.txt
         wget "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/personal-blackwhite.txt" -O Common/HaGeZi_Personal_Black_White.txt
         wget "https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt" -O Common/The_NoTracking_blocklist.txt
         wget "https://small.oisd.nl/" -O Common/OISD_Blocklist_Small.txt
