@@ -13,19 +13,18 @@ jobs:
       uses: actions/checkout@v2
     - name: Update list
       run: |
-        wget "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt" -O Common/AdGuard_DNS_filter.txt
-        wget "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt" -O Common/AdGuard_DNS_filter.txt
-        wget "https://adaway.org/hosts.txt" -O Common/AdAway_Default_Blocklist.txt
-        wget "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&mimetype=plaintext" -O Common/Peter_Lowe's_Blocklist.txt
-        wget "https://badmojr.gitlab.io/1hosts/Lite/adblock.txt" -O Common/1Host(Lite).txt
-        wget "https://badmojr.gitlab.io/1hosts/mini/adblock.txt" -O Common/1Host(mini).txt
-        curl "https://someonewhocares.org/hosts/zero/hosts" 
-        cp hosts Common/Dan_Pollocks_List.txt
-        wget "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/personal-blackwhite.txt" -O Common/HaGeZi_Personal_Black_White.txt
-        wget "https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt" -O Common/The_NoTracking_blocklist.txt
-        wget "https://small.oisd.nl/" -O Common/OISD_Blocklist_Small.txt
-        wget "https://big.oisd.nl/" -O Common/OISD_Blocklist_Big.txt
-        wget "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts" -O Common/Steven_Black's_list.txt
+        wget "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt" -O "Common/AdGuard_DNS_filter.txt"
+        wget "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt" -O "Common/AdGuard_DNS_filter.txt"
+        wget "https://adaway.org/hosts.txt" -O "Common/AdAway_Default_Blocklist.txt"
+        wget "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&mimetype=plaintext" -O "Common/Peter_Lowe's_Blocklist.txt"
+        wget "https://badmojr.gitlab.io/1hosts/Lite/adblock.txt" -O "Common/1Host(Lite).txt"
+        wget "https://badmojr.gitlab.io/1hosts/mini/adblock.txt" -O "Common/1Host(mini).txt"
+        wget "https://someonewhocares.org/hosts/zero/hosts" -O "Common/Dan_Pollocks_List.txt"
+        wget "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/personal-blackwhite.txt" -O "Common/HaGeZi_Personal_Black_White.txt"
+        wget "https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt" -O "Common/The_NoTracking_blocklist.txt"
+        wget "https://small.oisd.nl/" -O "Common/OISD_Blocklist_Small.txt"
+        wget "https://big.oisd.nl/" -O "Common/OISD_Blocklist_Big.txt"
+        wget "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts" -O "Common/Steven_Black's_list.txt"
         wget "https://malware-filter.gitlab.io/malware-filter/phishing-filter-agh.txt" -O "Security\Phishing URL Blocklist (PhishTank and OpenPhish).txt"
         wget "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt" -O "Security\Dandelion Sprout's Anti-Malware List.txt"
         wget "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt" -O "Security\NoCoin Filter List.txt"
