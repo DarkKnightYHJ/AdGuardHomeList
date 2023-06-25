@@ -13,9 +13,7 @@ jobs:
       uses: actions/checkout@v2
     - name: Update list
       run: |
-        cd lists
-        rm Malware
-        wget https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Malware
+        wget "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt" -O common/AdGuard_DNS_filter.txt
     - name: Commit changes
       uses: EndBug/add-and-commit@v7
       with:
