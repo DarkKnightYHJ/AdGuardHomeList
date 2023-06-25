@@ -2,7 +2,7 @@ name: Update List
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 1 * * *'
+    - cron: '0 * * * *'
 
 jobs:
   update-list:
@@ -47,10 +47,10 @@ jobs:
         author_name: Knight Yang
         message: "Update List By Github Action"
       env:
-        GITHUB_TOKEN: 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
+        GITHUB_TOKEN: ${{ secrets.MY_SECRET }}
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
         branch: main
       env:
-        GITHUB_TOKEN: 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
+        GITHUB_TOKEN: ${{ secrets.MY_SECRET }}
