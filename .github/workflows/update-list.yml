@@ -1,0 +1,32 @@
+name: Update List
+on:
+  schedule:
+    - cron: '0 1 * * *'
+
+jobs:
+  update-list:
+    name: Update Malware List
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v2
+    - name: Update list
+      run: |
+        cd lists
+        rm Malware
+        wget https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Malware
+    - name: Commit changes
+      uses: EndBug/add-and-commit@v7
+      with:
+        add: .
+        author_email: knight_yhj@163.com
+        author_name: Knight Yang
+        message: "Update Malware List"
+      env:
+        GITHUB_TOKEN: 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
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        branch: main
+      env:
+        GITHUB_TOKEN: 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
