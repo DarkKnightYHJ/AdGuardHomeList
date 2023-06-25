@@ -11,10 +11,6 @@ jobs:
     steps:
     - name: Checkout repo
       uses: actions/checkout@v2
-    - name: Get current time
-      uses: actions/date@v2
-      with:
-        format: 'YYYY-MM-DDTHH:mm:ssZ'
     - name: Update list
       run: |
         wget "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt" -O "Common/AdGuard_DNS_filter.txt"
