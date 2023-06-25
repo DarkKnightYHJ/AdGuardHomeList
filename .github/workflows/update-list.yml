@@ -14,13 +14,38 @@ jobs:
     - name: Update list
       run: |
         wget "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt" -O Common/AdGuard_DNS_filter.txt
+        wget "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt" -O Common/AdGuard_DNS_filter.txt
+        wget "https://adaway.org/hosts.txt" -O Common/AdAway_Default_Blocklist.txt
+        wget "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&mimetype=plaintext" -O Common/Peter_Lowe's_Blocklist.txt
+        wget "https://badmojr.gitlab.io/1hosts/Lite/adblock.txt" -O Common/1Host(Lite).txt
+        wget "https://badmojr.gitlab.io/1hosts/mini/adblock.txt" -O Common/1Host(mini).txt
+        wget "https://someonewhocares.org/hosts/zero/hosts" -O Common/Dan_Pollock's_List.txt
+        wget "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/personal-blackwhite.txt" -O Common/HaGeZi_Personal_Black_White.txt
+        wget "https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt" -O Common/The_NoTracking_blocklist.txt
+        wget "https://small.oisd.nl/" -O Common/OISD_Blocklist_Small.txt
+        wget "https://big.oisd.nl/" -O Common/OISD_Blocklist_Big.txt
+        wget "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts" -O Common/Steven_Black's_list.txt
+        wget "https://malware-filter.gitlab.io/malware-filter/phishing-filter-agh.txt" -O "Security\Phishing URL Blocklist (PhishTank and OpenPhish).txt"
+        wget "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt" -O "Security\Dandelion Sprout's Anti-Malware List.txt"
+        wget "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt" -O "Security\NoCoin Filter List.txt"
+        wget "https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt" -O "Security\Scam Blocklist by DurableNapkin.txt"
+        wget "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Malware" -O "Security\ShadowWhisperer's Malware List.txt"
+        wget "https://raw.githubusercontent.com/AssoEchap/stalkerware-indicators/master/generated/hosts" -O "Security\Stalkerware Indicators List.txt"
+        wget "https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hosts" -O "Security\The Big List of Hacked Malware Web Sites.txt"
+        wget "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh.txt" -O "Security\Malicious URL Blocklist (URLHaus).txt"
+        wget "https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt" -O "Others\CHN AdRules DNS List.txt"
+        wget "https://anti-ad.net/easylist.txt" -O "Others\CHN anti-AD.txt"
+        wget "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GameConsoleAdblockList.txt" -O "Others\Dandelion Sprouts Game Console Adblock List.txt"
+        wget "https://raw.githubusercontent.com/nickspaargaren/no-google/master/pihole-google-adguard.txt" -O "Others\No Google.txt"
+        wget "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt" -O "Others\Perflyst and Dandelion Sprout's Smart-TV Blocklist.txt"
+        wget "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt" -O "Others\WindowsSpyBlocker Hosts spy rules.txt"
     - name: Commit changes
       uses: EndBug/add-and-commit@v7
       with:
         add: .
         author_email: knight_yhj@163.com
         author_name: Knight Yang
-        message: "Update Malware List"
+        message: "Update List By Github Action"
       env:
         GITHUB_TOKEN: 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
     - name: Push changes
