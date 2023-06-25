@@ -11,6 +11,10 @@ jobs:
     steps:
     - name: Checkout repo
       uses: actions/checkout@v2
+    - name: Get current time
+      uses: actions/date@v2
+      with:
+        format: 'YYYY-MM-DDTHH:mm:ssZ'
     - name: Update list
       run: |
         wget "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt" -O "Common/AdGuard_DNS_filter.txt"
@@ -45,4 +49,4 @@ jobs:
         github_token: ${{ secrets.MY_SECRET }}
         author_email: knight_yhj@163.com
         author_name: Knight Yang
-        message: "Update List By Github Action @${date}"
+        message: "Update List By Github Action (committed at $(date +"%Y-%m-%dT%H:%M:%SZ")"
