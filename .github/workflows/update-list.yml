@@ -13,7 +13,11 @@ jobs:
       uses: actions/checkout@v3
     - name: Update list
       run: |
-        wget "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt" -O "Common/AdGuard_DNS_filter.txt"
+        wget "https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt" -O "Common/abp-filters-anti-cv.txt"
+        wget "https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt" -O "Common/easylistchina+easylist.txt"
+        wget "https://filters.adtidy.org/android/filters/15_optimized.txt" -O "Common/15_optimized.txt"
+        wget "https://anti-ad.net/adguard.txt" -O "Common/adguard.txt"
+        wget "https://easylist.to/easylist/easylist.txt" -O "Common/EasyList.txt"
         wget "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt" -O "Common/AdGuard_DNS_filter.txt"
         wget "https://adaway.org/hosts.txt" -O "Common/AdAway_Default_Blocklist.txt"
         wget "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&mimetype=plaintext" -O "Common/Peter_Lowes_Blocklist.txt"
@@ -39,6 +43,13 @@ jobs:
         wget "https://raw.githubusercontent.com/nickspaargaren/no-google/master/pihole-google-adguard.txt" -O "Others/No Google.txt"
         wget "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt" -O "Others/Perflyst and Dandelion Sprouts Smart-TV Blocklist.txt"
         wget "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt" -O "Others/WindowsSpyBlocker Hosts spy rules.txt"
+        wget "https://raw.iqiq.io/o0HalfLife0o/list/master/README.md" -O "o0HalfLife0o/README.md"
+        wget "https://raw.iqiq.io/o0HalfLife0o/list/master/ad-edentw.txt" -O "o0HalfLife0o/ad-edentw.txt"
+        wget "https://raw.iqiq.io/o0HalfLife0o/list/master/ad-mo.txt" -O "o0HalfLife0o/ad-edentw.txt"
+        wget "https://raw.iqiq.io/o0HalfLife0o/list/master/ad-pc.txt" -O "o0HalfLife0o/ad-edentw.txt"
+        wget "https://raw.iqiq.io/o0HalfLife0o/list/master/ad.txt" -O "o0HalfLife0o/ad-edentw.txt"
+        wget "https://raw.iqiq.io/o0HalfLife0o/list/master/ad2.txt" -O "o0HalfLife0o/ad-edentw.txt"
+        wget "https://raw.iqiq.io/o0HalfLife0o/list/master/ad3.txt" -O "o0HalfLife0o/ad-edentw.txt"
     - name: Get Current Time
       id: t1
       uses: Kaven-Universe/github-action-current-date-time@v1
