@@ -39,19 +39,16 @@ jobs:
         wget "https://raw.githubusercontent.com/nickspaargaren/no-google/master/pihole-google-adguard.txt" -O "Others/No Google.txt"
         wget "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt" -O "Others/Perflyst and Dandelion Sprouts Smart-TV Blocklist.txt"
         wget "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt" -O "Others/WindowsSpyBlocker Hosts spy rules.txt"
-    - name: Test1
+    - name: Get Current Time
       id: t1
       uses: Kaven-Universe/github-action-current-date-time@v1
       with:
-        format: "YYYY_MM_DD HH_mm_ss_SSS"
+        format: "YYYY-MM-DD HH:mm:ss"
         # Use the output from the `t1` step
-    - name: Output1
-      run: |
-        echo "The time was ${{ steps.t1.outputs.time }}"
     - name: Commit & Push changes
       uses: actions-js/push@master
       with:
         github_token: ${{ secrets.MY_SECRET }}
         author_email: knight_yhj@163.com
         author_name: Knight Yang
-        message: 'Update List By Github Action (committed at ${{ steps.get-current-time.outputs.time }})'
+        message: 'Update List By Github Action (committed at ${{ steps.t1.outputs.time }})'
