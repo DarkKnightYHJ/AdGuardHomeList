@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repo
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Update list
       run: |
         wget "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt" -O "Common/AdGuard_DNS_filter.txt"
@@ -40,14 +40,14 @@ jobs:
         wget "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt" -O "Others/Perflyst and Dandelion Sprouts Smart-TV Blocklist.txt"
         wget "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt" -O "Others/WindowsSpyBlocker Hosts spy rules.txt"
     - name: Test1
-          id: t1
-          uses: Kaven-Universe/github-action-current-date-time@v1
-          with:
-            format: "YYYY_MM_DD HH_mm_ss_SSS"
+      id: t1
+      uses: Kaven-Universe/github-action-current-date-time@v1
+      with:
+        format: "YYYY_MM_DD HH_mm_ss_SSS"
         # Use the output from the `t1` step
     - name: Output1
-          run: |
-            echo "The time was ${{ steps.t1.outputs }}"
+      run: |
+        echo "The time was ${{ steps.t1.outputs }}"
     - name: Commit & Push changes
       uses: actions-js/push@master
       with:
