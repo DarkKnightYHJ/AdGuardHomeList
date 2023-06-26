@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: r8El6HGpJgxntRytHbXV/g
+! Checksum: CMFJDHmwsdaGrEBpzvqITg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202306261408
-! Last Modified: 2023年06月26日 14:08
+! Version: 202306262010
+! Last Modified: 2023年06月26日 20:10
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2913,6 +2913,10 @@ newduba.cn###jq_youxi
 ||xnzetb.xyz^
 ||moead.xyz^
 ||zrgbh6bm.icu^
+||baidubdvjssv.com^
+||goxob6wo.icu^
+||yupov6ks.icu^
+||atbdkmt.xyz^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
 ##a[href$="/aa8a1j.com"]
@@ -23119,7 +23123,7 @@ m.babytree.com##script + a[class]
 /analytics.gif?
 /analytics.html?
 /analytics.js/v1/*
-/analytics.prod.
+/analytics.prod.$domain=~fifteen.eu
 /analytics.v1.js
 /analytics/?event
 /analytics/abtest/*
@@ -31824,6 +31828,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sitealyse.de^$third-party
 ||sitebro.de^$third-party
 ||slogantrend.de^$third-party
+||smarketer.de^$third-party
 ||space-link.de^$third-party
 ||spacehits.net^$third-party
 ||speedcount.de^$third-party

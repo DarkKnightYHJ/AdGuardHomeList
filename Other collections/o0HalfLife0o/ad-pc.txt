@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2fWd9VcNvye1wJGf4dHz2A
+! Checksum: kPMP23BPo1HezP4z8biXnw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202306261408
-! Last Modified: 2023年06月26日 14:08
+! Version: 202306262010
+! Last Modified: 2023年06月26日 20:10
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2593,7 +2593,6 @@ tieba.baidu.com##.tuijian-wrap
 /eureka/eureka.js
 /eureka_ban/*
 /event.ng/*
-/exads/*
 /exitpop.
 /exitpopunder.
 /exitpopunder_
@@ -21393,6 +21392,7 @@ _800x80_
 ##.card-captioned.crd > .crd--cnt > .s2nPlayer
 ##.ck-anyclips
 ##.ck-anyclips-article
+##.exco-container
 ##.ez-sidebar-wall-ad
 ##.ez-video-wrap
 ##.inline-iframe.article--content-embed
@@ -56009,6 +56009,7 @@ quora.com##.PageContentsLayout___StyledBox-d2uxks-0 > .q-box > .q-sticky > .qu-p
 ask.com##.PartialKelkooResults
 hulu.com##.PauseAdCreative-wrap
 imgur.com##.PrimisPlayerContainer
+stocktwits.com##.Primis_container__KwtjV
 tech.hindustantimes.com##.ProductAffilateWrapper
 citybeat.com,clevescene.com,cltampa.com##.PromoTopBar
 sciencealert.com##.Purch_Y_C_0_1-container
@@ -58738,6 +58739,7 @@ goal.com##[data-name="ad-leaderboard"]
 polygon.com##[data-native-ad-id^="container"]
 namepros.com##[data-np-ga-event="ad"]
 jeffdornik.com##[data-pin-url]
+stocktwits.com##[data-pos]
 washingtonpost.com##[data-qa="article-body-ad"]
 washingtonpost.com##[data-qa="right-rail-ad"]
 ginx.tv##[data-ref]
@@ -64158,6 +64160,10 @@ newduba.cn###jq_youxi
 ||xnzetb.xyz^
 ||moead.xyz^
 ||zrgbh6bm.icu^
+||baidubdvjssv.com^
+||goxob6wo.icu^
+||yupov6ks.icu^
+||atbdkmt.xyz^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
 ##a[href$="/aa8a1j.com"]
@@ -82062,7 +82068,7 @@ fqsousou.com,kengso.com#@#.user-share
 /analytics.gif?
 /analytics.html?
 /analytics.js/v1/*
-/analytics.prod.
+/analytics.prod.$domain=~fifteen.eu
 /analytics.v1.js
 /analytics/?event
 /analytics/abtest/*
@@ -90767,6 +90773,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sitealyse.de^$third-party
 ||sitebro.de^$third-party
 ||slogantrend.de^$third-party
+||smarketer.de^$third-party
 ||space-link.de^$third-party
 ||spacehits.net^$third-party
 ||speedcount.de^$third-party
