@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 7iLLqei/9gHZfBexzKVxZA
-! Version: 202306271340
+! Checksum: JSvrHGG/o62JZeCBUViBVg
+! Version: 202306271450
 ! Title: ABP filters
-! Last modified: 27 Jun 2023 13:40 UTC
+! Last modified: 27 Jun 2023 14:50 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://github.com/abp-filters/abp-filters-anti-cv
 !
@@ -700,7 +700,7 @@ vidlo.us,abcvideo.cc,extramovies.casa,hdvid.online,pstream.net,dlapk4all.com,pan
 mult34.com,remaxhd.one#$#abort-current-inline-script decodeURI; abort-on-property-read decodeURIComponent
 hdvid.online#$#abort-on-property-read Fingerprint2; abort-on-property-read atob
 123-movies.city,actvid.com,cineb.net,hdtoday.tv,moviesjoy.to,solarmovie.pe,vidbem.com,upload4earn.org,uploadbyte.com,watchseries.ma,yts.mx,zoechip.com#$#abort-on-property-read localStorage
-dood.pm,dood.so,dood.to,dood.video,dood.watch,dood.la,dood.wf,dood.ws,doodstream.co,doodstream.com,streamsb.net#$#abort-on-property-read DoodPop; abort-on-property-write adb; abort-on-property-write cRAds; abort-on-property-write xRds; abort-on-property-write xPoPAdS
+dood.pm,dood.so,dood.to,dood.video,dood.watch,dood.la,dood.wf,dood.ws,doodstream.co,doodstream.com,dooood.com,streamsb.net#$#abort-on-property-read DoodPop; abort-on-property-write adb; abort-on-property-write cRAds; abort-on-property-write xRds; abort-on-property-write xPoPAdS
 youdbox.com,vudeo.io,vudeo.co,vudeo.net#$#abort-current-inline-script String.fromCharCode XMLHttpRequest
 filecrypt.cc,filecrypt.co#$#abort-on-property-read isAdblock
 hclips.com,upornia.com#$#abort-on-property-read adver
