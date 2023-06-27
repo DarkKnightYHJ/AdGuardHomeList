@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202306270502
+! Version: 202306270536
 ! Title: EasyList
-! Last modified: 27 Jun 2023 05:02 UTC
+! Last modified: 27 Jun 2023 05:36 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -9811,6 +9811,7 @@ _800x80_
 ##.SkyAdContainer
 ##.SkyAdContent
 ##.SkyScraperAd
+##.SovrnAd
 ##.Sponsor-container
 ##.SponsorHeader
 ##.SponsorIsland
@@ -20538,6 +20539,7 @@ _800x80_
 ##[data-revive-zoneid]
 ##[data-role="tile-ads-module"]
 ##[data-template-type="nativead"]
+##[data-testid="ad_testID"]
 ##[href="//sexcams.plus/"]
 ##[href="https://jdrucker.com/gold"] > img
 ##[href="https://masstortfinancing.com"] img
@@ -55755,6 +55757,7 @@ mangasect.com,manhuaplus.com##.OUTBRAIN
 kentonline.co.uk##.PSDRGC
 govtech.com##.Page-billboard
 afar.com##.Page-header-hat
+apnews.com##.Page-header-leaderboardAd
 quora.com##.PageContentsLayout___StyledBox-d2uxks-0 > .q-box > .q-sticky > .qu-pb--medium
 ask.com##.PartialKelkooResults
 hulu.com##.PauseAdCreative-wrap
