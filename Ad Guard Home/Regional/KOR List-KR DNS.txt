@@ -86,7 +86,7 @@
   <meta name="current-catalog-service-hash" content="82c569b93da5c18ed649ebd4c2c79437db4611a6a1373e805a3cb001c64130b7">
 
 
-  <meta name="request-id" content="7000:644A:33C869:4F4A10:649AFCC1" data-pjax-transient="true"/><meta name="html-safe-nonce" content="091e3a6ad81f157a1bf29b7202e3ce18c8153b48101d488d70c9eeee79328df4" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiI3MDAwOjY0NEE6MzNDODY5OjRGNEExMDo2NDlBRkNDMSIsInZpc2l0b3JfaWQiOiI2MDc0Njg0NjIxMzkyMTE2OTI5IiwicmVnaW9uX2VkZ2UiOiJpYWQiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true"/><meta name="visitor-hmac" content="afb84e5b546e3f9fa2b48b289b79a3d01543abdd7466b058f28c0b14e9142588" data-pjax-transient="true"/>
+  <meta name="request-id" content="A898:0909:4F6058:789932:649B0BC3" data-pjax-transient="true"/><meta name="html-safe-nonce" content="71f9e3ea7f606882f54e4d952d4c685c2b02441181b7cdaf7f3b9d8c3d76339c" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJBODk4OjA5MDk6NEY2MDU4Ojc4OTkzMjo2NDlCMEJDMyIsInZpc2l0b3JfaWQiOiIzOTA1ODE5MDI4NDY0Nzk4NjU5IiwicmVnaW9uX2VkZ2UiOiJpYWQiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true"/><meta name="visitor-hmac" content="2586b58c83f97a4c3eb09265f808cf7fadb5166c4e7de61486485ad174ddff10" data-pjax-transient="true"/>
 
 
     <meta name="hovercard-subject-tag" content="repository:187433796" data-turbo-transient>
@@ -593,7 +593,7 @@
           spellcheck="false"
           autocomplete="off"
         >
-        <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="5Xg95bPPHqPfLchPkXpYcJqLN6glZ9AUlxp5yFHEVDtPYi89bQ36buzTLOlAU7naIZ480mZ1JzL1lXBxt00OGQ==" />
+        <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="uF2qjrWdDPhjiYn4nNBQ0DzoeTuY3efaehki6OcXhfllOK4/YarsUVmw/tbWOsh6V+HZOFtQ9yZHlFVa0g7Ppw==" />
         <input type="hidden" class="js-site-search-type-field" name="type" >
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" aria-hidden="true" class="mr-1 header-search-key-slash"><path fill="none" stroke="#979A9C" opacity=".4" d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"></path><path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path></svg>
 
@@ -2438,43 +2438,122 @@ AdGuard 플렛폼에서는 별도의 안내가 없는 경우 AdGuard 베이스 �
 </a></h2>
 
 
-    <include-fragment src="/List-KR/List-KR/contributors_list?count=26&amp;current_repository=List-KR&amp;items_to_show=11" aria-busy="true" aria-label="Loading contributors">
-      <ul class="list-style-none d-flex flex-wrap mb-n2">
-          <li class="mb-2 ">
-            <div class="Skeleton avatar avatar-user mr-2" style="width:32px;height:32px;"></div>
-          </li>
-          <li class="mb-2 ">
-            <div class="Skeleton avatar avatar-user mr-2" style="width:32px;height:32px;"></div>
-          </li>
-          <li class="mb-2 ">
-            <div class="Skeleton avatar avatar-user mr-2" style="width:32px;height:32px;"></div>
-          </li>
-          <li class="mb-2 ">
-            <div class="Skeleton avatar avatar-user mr-2" style="width:32px;height:32px;"></div>
-          </li>
-          <li class="mb-2 ">
-            <div class="Skeleton avatar avatar-user mr-2" style="width:32px;height:32px;"></div>
-          </li>
-          <li class="mb-2 ">
-            <div class="Skeleton avatar avatar-user mr-2" style="width:32px;height:32px;"></div>
-          </li>
-          <li class="mb-2 ">
-            <div class="Skeleton avatar avatar-user mr-2" style="width:32px;height:32px;"></div>
-          </li>
-          <li class="mb-2 ">
-            <div class="Skeleton avatar avatar-user mr-2" style="width:32px;height:32px;"></div>
-          </li>
-          <li class="mb-2 ">
-            <div class="Skeleton avatar avatar-user mr-2" style="width:32px;height:32px;"></div>
-          </li>
-          <li class="mb-2 ">
-            <div class="Skeleton avatar avatar-user mr-2" style="width:32px;height:32px;"></div>
-          </li>
-          <li class="mb-2 ">
-            <div class="Skeleton avatar avatar-user mr-2" style="width:32px;height:32px;"></div>
-          </li>
-      </ul>
-</include-fragment>
+    
+  <ul class="list-style-none d-flex flex-wrap mb-n2">
+    <li class="mb-2 mr-2"
+        >
+      <a href="https://github.com/piquark6046"
+          class=""
+            data-hovercard-type="user" data-hovercard-url="/users/piquark6046/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self"
+          
+        >
+        <img src="https://avatars.githubusercontent.com/u/98787049?s=64&amp;v=4" alt="@piquark6046" size="32" height="32" width="32" data-view-component="true" class="avatar circle" />
+      </a>
+    </li>
+    <li class="mb-2 mr-2"
+        >
+      <a href="https://github.com/seia-soto"
+          class=""
+            data-hovercard-type="user" data-hovercard-url="/users/seia-soto/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self"
+          
+        >
+        <img src="https://avatars.githubusercontent.com/u/30369714?s=64&amp;v=4" alt="@seia-soto" size="32" height="32" width="32" data-view-component="true" class="avatar circle" />
+      </a>
+    </li>
+    <li class="mb-2 mr-2"
+        >
+      <a href="https://github.com/green1052"
+          class=""
+            data-hovercard-type="user" data-hovercard-url="/users/green1052/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self"
+          
+        >
+        <img src="https://avatars.githubusercontent.com/u/34261355?s=64&amp;v=4" alt="@green1052" size="32" height="32" width="32" data-view-component="true" class="avatar circle" />
+      </a>
+    </li>
+    <li class="mb-2 mr-2"
+        >
+      <a href="https://github.com/JobcenterTycoon"
+          class=""
+            data-hovercard-type="user" data-hovercard-url="/users/JobcenterTycoon/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self"
+          
+        >
+        <img src="https://avatars.githubusercontent.com/u/48647394?s=64&amp;v=4" alt="@JobcenterTycoon" size="32" height="32" width="32" data-view-component="true" class="avatar circle" />
+      </a>
+    </li>
+    <li class="mb-2 mr-2"
+        >
+      <a href="https://github.com/Raiden-Ei"
+          class=""
+            data-hovercard-type="user" data-hovercard-url="/users/Raiden-Ei/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self"
+          
+        >
+        <img src="https://avatars.githubusercontent.com/u/79850607?s=64&amp;v=4" alt="@Raiden-Ei" size="32" height="32" width="32" data-view-component="true" class="avatar circle" />
+      </a>
+    </li>
+    <li class="mb-2 mr-2"
+        >
+      <a href="https://github.com/yous"
+          class=""
+            data-hovercard-type="user" data-hovercard-url="/users/yous/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self"
+          
+        >
+        <img src="https://avatars.githubusercontent.com/u/853977?s=64&amp;v=4" alt="@yous" size="32" height="32" width="32" data-view-component="true" class="avatar circle" />
+      </a>
+    </li>
+    <li class="mb-2 mr-2"
+        >
+      <a href="https://github.com/Alex-302"
+          class=""
+            data-hovercard-type="user" data-hovercard-url="/users/Alex-302/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self"
+          
+        >
+        <img src="https://avatars.githubusercontent.com/u/8361299?s=64&amp;v=4" alt="@Alex-302" size="32" height="32" width="32" data-view-component="true" class="avatar circle" />
+      </a>
+    </li>
+    <li class="mb-2 mr-2"
+        >
+      <a href="https://github.com/Yuki2718"
+          class=""
+            data-hovercard-type="user" data-hovercard-url="/users/Yuki2718/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self"
+          
+        >
+        <img src="https://avatars.githubusercontent.com/u/58900598?s=64&amp;v=4" alt="@Yuki2718" size="32" height="32" width="32" data-view-component="true" class="avatar circle" />
+      </a>
+    </li>
+    <li class="mb-2 mr-2"
+        >
+      <a href="https://github.com/gaeulbyul"
+          class=""
+            data-hovercard-type="user" data-hovercard-url="/users/gaeulbyul/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self"
+          
+        >
+        <img src="https://avatars.githubusercontent.com/u/830515?s=64&amp;v=4" alt="@gaeulbyul" size="32" height="32" width="32" data-view-component="true" class="avatar circle" />
+      </a>
+    </li>
+    <li class="mb-2 mr-2"
+        >
+      <a href="https://github.com/sanvit"
+          class=""
+            data-hovercard-type="user" data-hovercard-url="/users/sanvit/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self"
+          
+        >
+        <img src="https://avatars.githubusercontent.com/u/4323051?s=64&amp;v=4" alt="@sanvit" size="32" height="32" width="32" data-view-component="true" class="avatar circle" />
+      </a>
+    </li>
+    <li class="mb-2 mr-2"
+        >
+      <a href="https://github.com/Baw-Appie"
+          class=""
+            data-hovercard-type="user" data-hovercard-url="/users/Baw-Appie/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self"
+          
+        >
+        <img src="https://avatars.githubusercontent.com/u/15670271?s=64&amp;v=4" alt="@Baw-Appie" size="32" height="32" width="32" data-view-component="true" class="avatar circle" />
+      </a>
+    </li>
+</ul>
+
+
+
 
   <div data-view-component="true" class="mt-3">
     <a text="small" href="/List-KR/List-KR/graphs/contributors" data-view-component="true">
