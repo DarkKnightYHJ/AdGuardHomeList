@@ -10,4 +10,4 @@ services:
             - '53:53/udp'
             - '3000:3000/tcp'
         restart: always
-        image: run
+        image: adguard/adguardhome
