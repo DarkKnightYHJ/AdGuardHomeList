@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: eDBCKcVkJBJYhPrMHtJNPw
-! Version: 202306291340
+! Checksum: Jeew1hgqwtPBmGCNaSvuRw
+! Version: 202306291450
 ! Title: EasyList China+EasyList
-! Last modified: 29 Jun 2023 13:40 UTC
+! Last modified: 29 Jun 2023 14:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -2791,6 +2791,7 @@ newduba.cn###jq_youxi
 ||hesramfi.com^
 ||yklfg.cn^
 ||rfto9i.icu^
+||kifyeldd.top^
 !
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
@@ -7889,8 +7890,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||0722fc.com/index/index.php?/ajax/get_adv/
 ||0722fc.com/index/tools/js.php
 ||073img.com/*/|
-||073img.com^$subdocument
-||0758net.com/data/attachment/portal/
 ||07908.com/images/
 ||0kkbb.com/js/i.js
 ||0o0.ooo/2017/01/13/58787d42bbad6.jpg
@@ -12292,6 +12291,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||0460.com/images/ad/
+||07073.com/api/getKfList?
+||07073.com/pc/js/right-ad.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 pornbest.org,ptt.sex##.links.row
@@ -15646,7 +15648,6 @@ jia360.com##.news_adv:nth-child(3)
 aguitar.cn##.news_b
 auto-online.com.tw##.news_content > div[style="width:728px;margin:10px auto"]
 oschina.net##.news_detai_above_ad
-07073.com##.news_list1_tu
 yxdown.com##.news_tl
 chinamedevice.cn##.news_ylqx
 chinamedevice.cn##.news_ylqx3
@@ -16168,7 +16169,6 @@ sonimei.cn##.style03
 guofs.com##.style2
 qq.com##.style_modal-wrap__UnbtS
 cnbeta.com##.sub-title
-07073.com##.subarea_ad
 cam4.tw##.subfoot-section
 etest8.com##.subtop2right
 ltn.com.tw##.suggest_full .C5
@@ -17803,6 +17803,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@||073img.com/*,*,
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
@@ -17884,7 +17885,6 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@_cpc_cpm_$domain=fydy8.com|saraba1st.com
 @@||012.tw^$script,domain=apk.tw
 @@||060s.com/images_ad/*.png
-@@||073img.com/*,*,
 @@||10010.cn^*/ad
 @@||10010.com^$generichide
 @@||10086.cn^$generichide
@@ -48570,8 +48570,10 @@ browsershots.org#@#.advert_area
 ||dallavel.com^
 ||dalyai.com^
 ||dalyio.com^
+||dalymix.com^
 ||dalysb.com^
 ||dalysh.com^
+||dalysv.com^
 ||damaged-shop.pro^
 ||damedamehoy.xyz^
 ||dammarsnektons.com^
@@ -50064,6 +50066,7 @@ browsershots.org#@#.advert_area
 ||ekmas.com^
 ||ekovfgtgcjqg.com^
 ||ekqtxmkexabmrsr.com^
+||ekrnhbmrbbvwdro.com^
 ||elaboratehall.pro^
 ||elajowser.com^
 ||elandsbasses.com^
@@ -50588,6 +50591,7 @@ browsershots.org#@#.advert_area
 ||extentitle.space^
 ||externalwidelycompany.com^
 ||extra33.com^
+||extractdissolve.com^
 ||extractforgiveness.com^
 ||extremereach.io^
 ||extremeshredcharm.com^
@@ -50839,6 +50843,7 @@ browsershots.org#@#.advert_area
 ||fbfd396918c60838.com^
 ||fbgdc.com^
 ||fbmedia-ckl.com^
+||fbpgdlprsiz.com^
 ||fbsbpieebwpi.com^
 ||fc2ppv.buzz^
 ||fc9115d2c7.com^
@@ -55054,6 +55059,7 @@ browsershots.org#@#.advert_area
 ||lifoll.com^
 ||liftdna.com^
 ||ligatus.com^
+||lighes.com^
 ||lightfoot.top^
 ||lightlygavetusk.com^
 ||lightlyrelinquish.com^
@@ -56492,6 +56498,7 @@ browsershots.org#@#.advert_area
 ||muzoohat.net^
 ||muzzleabbot.com^
 ||muzzlematrix.com^
+||mvcwfqntrnatng.com^
 ||mvdwjofacq.com^
 ||mvevuokyzah.com^
 ||mvlvxzhxjci.com^
@@ -56622,6 +56629,7 @@ browsershots.org#@#.advert_area
 ||nanesbewail.com^
 ||nannot.com^
 ||nanouwho.com^
+||napainsi.net^
 ||napesropes.com^
 ||napkinlucent.com^
 ||naplesspeisage.com^
@@ -57842,6 +57850,7 @@ browsershots.org#@#.advert_area
 ||origer.info^
 ||originatelamenttedious.com^
 ||originedreting.site^
+||originjargon.com^
 ||origintube.com^
 ||origunix.com^
 ||orkoedthroug.xyz^
@@ -58803,6 +58812,7 @@ browsershots.org#@#.advert_area
 ||pitadt.com^
 ||pitchedfurs.com^
 ||pitchedsprout.com^
+||pithgregor.com^
 ||pitiersamara.com^
 ||pitors.com^
 ||pitpastraja.com^
@@ -60790,6 +60800,7 @@ browsershots.org#@#.advert_area
 ||rixaka.com^
 ||rjw4obbw.com^
 ||rkfodhkxmf.com^
+||rkgwzfwjgk.com^
 ||rkjnazpgfihz.com^
 ||rkomf.com^
 ||rkykhuadppmi.com^
@@ -65256,6 +65267,7 @@ browsershots.org#@#.advert_area
 ||vjgqzvmgd.com^
 ||vjzlgtnaov.com^
 ||vkgtrack.com^
+||vkitfufickpy.com^
 ||vknrfwwxhxaxupqp.pro^
 ||vknvimxmvsndhx.com^
 ||vkosaqcacra.com^
@@ -69053,8 +69065,10 @@ browsershots.org#@#.advert_area
 ||dailyc24.com^$popup
 ||daizoode.com^$popup
 ||dalyio.com^$popup
+||dalymix.com^$popup
 ||dalysb.com^$popup
 ||dalysh.com^$popup
+||dalysv.com^$popup
 ||daredcoil.com^$popup
 ||dark-reader.com^$popup
 ||darsell.life^$popup
@@ -69282,6 +69296,7 @@ browsershots.org#@#.advert_area
 ||exporder-patuility.com^$popup
 ||exrtbsrv.com^$popup
 ||extensions-media.com^$popup
+||extractdissolve.com^$popup
 ||extremiu.top^$popup
 ||ezadblocker.com^$popup
 ||ezcgojaamg.com^$popup
@@ -70139,6 +70154,7 @@ browsershots.org#@#.advert_area
 ||ngeoziadiyc4hi2e.com^$popup
 ||ngfruitiesmatc.info^$popup
 ||nicesthoarfrostsooner.com^$popup
+||niftiesrotonde.com^$popup
 ||nimrute.com^$popup
 ||ninancukankin.info^$popup
 ||nipwaghue.com^$popup
