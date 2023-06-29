@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: iZ8a2ctjXVH8+k2IK8sfvw
+! Checksum: lWSE43JYMe+3hC24b7/SBg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202306291407
-! Last Modified: 2023年06月29日 14:07
+! Version: 202306292009
+! Last Modified: 2023年06月29日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -41968,7 +41968,6 @@ browsershots.org#@#.advert_area
 ||sixtybirthsuperstition.com^
 ||sizeilksohs.com^
 ||siziermamas.com^
-||sizyreelingly.com^
 ||sizzlerisoflor.com^
 ||sjhfnmfki.com^
 ||sjomilbedwarf.digital^
@@ -55716,6 +55715,7 @@ hardwaretimes.com###tie-block_1077
 hardwaretimes.com###tie-block_1239
 hardwaretimes.com###tie-block_2144
 hardwaretimes.com###tie-block_3197
+siasat.com###tie-block_3274
 supercheats.com###titlebar
 supercheats.com###titlebar_banner
 box-core.net,mma-core.com###tlbrd
@@ -58224,7 +58224,7 @@ coinpedia.org,siasat.com##.stream-item-inline-post
 conservativebrief.com##.stream-item-mag
 how2electronics.com##.stream-item-top
 todayuknews.com##.stream-item-top-wrapper
-hardwaretimes.com##.stream-item-widget
+hardwaretimes.com,siasat.com##.stream-item-widget
 coinpedia.org##.stream-title
 stellar.ie##.stuck
 news.stv.tv##.stv-article-gam-slot
@@ -81714,10 +81714,7 @@ fqsousou.com,kengso.com#@#.user-share
 -geoIP.js
 -inview-tracker.
 -optimization-metrics.
--page-analytics.
 -quantcast-measurement.
--rttracking.
--sa-tracker-
 -scroll-tracker.js
 -track-inview.
 -tracking-pixel.
@@ -81738,8 +81735,6 @@ fqsousou.com,kengso.com#@#.user-share
 .com/hitlog?
 .com/log/?
 .com/log?event
-.com/log?srvc
-.com/log?type
 .com/mm.gif?
 .com/pvlog?
 .com/s/at?site
@@ -81768,14 +81763,11 @@ fqsousou.com,kengso.com#@#.user-share
 .ntpagetag.
 .php?action=browse&
 .php?action_name=
-.php?hey_stat=
 .php?logRefer=
 .php?logType=
 .php?notrack=
 .php?p=stats&
 .php?ping=
-.php?refcode=
-.php?self=
 .php?stats=
 .php?tracking=
 .sharecounter.$third-party
@@ -81783,12 +81775,11 @@ fqsousou.com,kengso.com#@#.user-share
 .siteclarity.
 .sitetracking.
 .skimlinks.js
-.snowplowanalytics.$domain=~snowplowanalytics.com
+.snowplowanalytics.
 .stats?action=
 .svc/?tracking_id=
 .tv/log?event
 .v4.analytics.
-.vsTracking.
 .web-vitals-reporting.
 /.well-known/shopify/monorail
 /0.gif?
@@ -81911,7 +81902,6 @@ fqsousou.com,kengso.com#@#.user-share
 /adv?pixel_
 /adviewtrack.
 /advstats/*
-/adwords-conversion-tracking.
 /adwords-tracker.
 /adx_remote.
 /aff_i?offer_id=
@@ -84063,7 +84053,6 @@ fqsousou.com,kengso.com#@#.user-share
 /pageview_candidate.
 /pageviews-counter-
 /pageviews.gif?
-/pageviews/*$domain=~mediawiki.org|~pageviews.wmcloud.org|~quiz.mkpo.li|~tools.wmflabs.org|~wikimedia.org|~wikipedia.org
 /pageviews?token=
 /pageviews_counter.
 /PageviewsTracker.
@@ -85325,7 +85314,6 @@ fqsousou.com,kengso.com#@#.user-share
 /vtrack.aspx
 /vtrack.php?
 /vtrack?vid=
-/vtracker.$domain=~vtracker.org
 /vTracker_
 /vwFiles/analytics/*
 /w.gif?
@@ -85376,7 +85364,6 @@ fqsousou.com,kengso.com#@#.user-share
 /webstats/track.php?
 /webstats_counter/*
 /webtag.js
-/webtrack.$domain=~webtrack.ballcolegrave.co.uk|~webtrack.ballseed.com|~webtrack.dhlecs.com|~webtrack.dhlglobalmail.com
 /webtracker.
 /webtracking/*$~subdocument,domain=~wwwapps.ups.com
 /webtraffic.js
@@ -85403,6 +85390,7 @@ fqsousou.com,kengso.com#@#.user-share
 /wlexpert_tracker.
 /wlexpert_tracker/*
 /wmxtracker.js
+/woocommerce-google-adwords-conversion-tracking-tag/*
 /woopra.js
 /worldwide_analytics/*
 /wp-click-track/*
@@ -92950,6 +92938,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pico.tools/metrics/
 ||ping-admin.ru^$third-party
 ||ping.dozuki.com^
+||ping.fastsimon.com^
 ||ping.instantsearchplus.com^
 ||pings.conviva.com^
 ||pings.vidpulse.com^
