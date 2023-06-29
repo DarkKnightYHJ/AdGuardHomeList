@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5yK+thvu6lyxBx8nXh0PZA
-! Version: 202306290450
+! Checksum: uOHaKoI7KaZxoK6QwHqzUA
+! Version: 202306290550
 ! Title: Fanboy's Annoyance List
-! Last modified: 29 Jun 2023 04:50 UTC
+! Last modified: 29 Jun 2023 05:50 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -24,7 +24,6 @@
 /copy_text.js
 /cx-scrolldepth.js
 /dealsaver/widget/*
-/devtools-detector.
 /disable-right-click-
 /disable-right-click/*
 /disablerightclick.
@@ -2861,6 +2860,8 @@ _vpcookieconsent/
 ###taboola-text-2-columns-mix
 ###taboola-vid-container
 ###taboola-widget-wrapper
+###taboola_bottom
+###taboola_side
 ###taboola_wrapper
 ##.divider-taboola
 ##.js-taboola
@@ -42187,6 +42188,7 @@ musicboard.app##div[class^="popup_overlay_"]
 berlitz.com##div[class^="style__StickyAlertWrapper-sc-"]
 start.gg##div[class^="styles_banner_"]
 coin360.com##div[class^="styles_cookiesBanner_"]
+toptal.com##div[class^="theme_cookie-banner-theme_"]
 youtube.com##div[class^="ytd-consent"]
 gitpod.io##div[data-analytics*="cookie"]
 docs.portainer.io##div[data-rnwr700-1moh23t-e1k2in-tceitz="true"]
@@ -43084,6 +43086,7 @@ telesatellite.com#?#.encadre.bleu:-abp-has(a[href^="https://eepurl.com/"])
 ! ---------- Arabic Site Specific Hiding Rules ----------
 !
 pramgnet.com###PoPAI
+sigma-4pc.com###check-also-box
 mawdoo3.com###move-down
 alkawthartv.ir###scroll
 iwaatch.com##.s-up
@@ -43694,6 +43697,7 @@ skynewsarabia.com##.fb_messanger
 albayan.ae##.follow-google
 alekhbariya.net##.icon-bar
 qatarradio.qa##.icon-social
+kharphonk.com##.pinit
 hannibaltv.com.tn##.rs_bas
 pramgnet.com##.sbnr
 maannews.net##.sc
