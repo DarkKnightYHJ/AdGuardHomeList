@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: C2vpkxGHXHN8etknWhAr2w
-! Version: 202306301040
+! Checksum: YvC6MtTpiJsfI82mvG6f7A
+! Version: 202306301201
 ! Title: ABP filters
-! Last modified: 30 Jun 2023 10:40 UTC
+! Last modified: 30 Jun 2023 12:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://github.com/abp-filters/abp-filters-anti-cv
 !
@@ -400,7 +400,7 @@ ajaxshowtime.com#?#div:-abp-properties(content: "Advertentie";)
 ajaxshowtime.com##div.leaderboard_ad + div
 ! *** abp-filters-anti-cv:english.txt ***
 ! #CV-691
-ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph#$#race start; hide-if-contains-visible-text /Sponsored|Anzeige|Sponsorisé|Sponsorizzato|Sponsorowane|Gesponsord|Patrocinado|贊助/ 'div[id="srp-river-results"] li[data-viewport]' 'div[id="srp-river-results"] li[data-viewport] div[class="s-item__details clearfix"]>div:last-child>span>span>span' 'color: rgba(0,0,0,1)' '-disable-bg-color-check: true' '-check-is-contained: true'; hide-if-contains-visible-text /S⁣p⁣o⁣n⁣s⁣o⁣r⁣e⁣d|d⁣e⁣r⁣o⁣s⁣n⁣o⁣p⁣S⁣|A⁣n⁣z⁣e⁣i⁣g⁣e|e⁣g⁣i⁣e⁣z⁣n⁣A|S⁣p⁣o⁣n⁣s⁣o⁣r⁣i⁣s⁣é⁣⁣|é⁣s⁣i⁣r⁣o⁣s⁣n⁣o⁣p⁣S⁣⁣|S⁣p⁣o⁣n⁣s⁣o⁣r⁣i⁣z⁣z⁣a⁣t⁣o⁣⁣|o⁣t⁣a⁣z⁣z⁣i⁣r⁣o⁣s⁣n⁣o⁣p⁣S|S⁣p⁣o⁣n⁣s⁣o⁣r⁣o⁣w⁣a⁣n⁣e|e⁣n⁣a⁣w⁣o⁣r⁣o⁣s⁣n⁣o⁣p⁣S⁣⁣|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|d⁣r⁣o⁣s⁣n⁣o⁣p⁣s⁣e⁣G|P⁣a⁣t⁣r⁣o⁣c⁣i⁣n⁣a⁣d⁣o|o⁣d⁣a⁣n⁣i⁣c⁣o⁣r⁣t⁣a⁣P|贊⁣助|助⁣贊/ 'ul[class^="srp-results"]>li[data-viewport]' 'ul[class^="srp-results"]>li[data-viewport] span.s-item__sep--rev' 'position:absolute'; race stop;
+ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph#$#race start; hide-if-contains-visible-text /Sponsored|Anzeige|Sponsorisé|Sponsorizzato|Sponsorowane|Gesponsord|Patrocinado|贊助/ 'div[id="srp-river-results"] li[data-viewport]' 'div[id="srp-river-results"] li[data-viewport] div[class="s-item__details clearfix"]>div:last-child>span>span>span' 'color: rgba(0,0,0,1)' '-disable-bg-color-check: true' '-check-is-contained: true'; hide-if-contains-visible-text /S⁣p⁣o⁣n⁣s⁣o⁣r⁣e⁣d|d⁣e⁣r⁣o⁣s⁣n⁣o⁣p⁣S⁣|A⁣n⁣z⁣e⁣i⁣g⁣e|e⁣g⁣i⁣e⁣z⁣n⁣A|S⁣p⁣o⁣n⁣s⁣o⁣r⁣i⁣s⁣é⁣⁣|é⁣s⁣i⁣r⁣o⁣s⁣n⁣o⁣p⁣S⁣⁣|S⁣p⁣o⁣n⁣s⁣o⁣r⁣i⁣z⁣z⁣a⁣t⁣o⁣⁣|o⁣t⁣a⁣z⁣z⁣i⁣r⁣o⁣s⁣n⁣o⁣p⁣S|S⁣p⁣o⁣n⁣s⁣o⁣r⁣o⁣w⁣a⁣n⁣e|e⁣n⁣a⁣w⁣o⁣r⁣o⁣s⁣n⁣o⁣p⁣S⁣⁣|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|d⁣r⁣o⁣s⁣n⁣o⁣p⁣s⁣e⁣G|P⁣a⁣t⁣r⁣o⁣c⁣i⁣n⁣a⁣d⁣o|o⁣d⁣a⁣n⁣i⁣c⁣o⁣r⁣t⁣a⁣P|贊⁣助|助⁣贊/ 'ul[class^="srp-results"]>li[data-viewport]' 'ul[class^="srp-results"]>li[data-viewport] span.s-item__sep--rev' 'position:absolute'; hide-if-contains-visible-text /.{2,}/ 'ul[class^="srp-results"]>li[data-viewport]' 'ul[class^="srp-results"]>li[data-viewport] span.s-item__sep' 'position:absolute'; race stop;
 ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph##div[data-view]>a[class="srp-1p__link"]
 ! #CV-737
 cnn.com#$#strip-fetch-query-parameter caid warnermediacdn.com; strip-fetch-query-parameter afid warnermediacdn.com
@@ -1351,15 +1351,13 @@ vebotv.today#$#abort-current-inline-script $ vb-pr-box
 plvb.xyz#$#abort-on-property-read adsTvc; abort-on-property-read adsPlayer; abort-on-property-read ads; abort-on-property-read keyPlayer; abort-on-property-read adsPopupPlayer;
 hh3dhay.com,hh3dhay.xyz#$#abort-current-inline-script document.createElement /break|case/
 luotphim1.net,luotphim.to,luotphimtv1.com,webphim1.com#$#json-prune '0.time_mobile 0.time 0.link_video 0.link_video_mobile 0.link 0.link_mobile 1.time_mobile 1.time 1.link_video 1.link_video_mobile 1.link 1.link_mobile'
-hiphimmoi.net#$#abort-current-inline-script $ urlAdsMbIntro
 cafef.vn,gamek.vn,genk.vn,kenh14.vn#$#override-on-property-read ADMStorageFileCDN noopFunc
-vaoroi13.online#$#override-property-read adsTvcs ''
 bongda365a.net#$#override-property-read isSkipAds true
 zingnews.vn#$#abort-on-property-read adtimaConfig
 baomoi.com#$#abort-on-property-write AdtimaBaomoi
 ! Popup/Popunder/Clickunder
 fembed.com,femax20.com,zo3x.ml,mrdhan.com,m.blogtruyen.vn,viettoons.tv#$#abort-on-property-read open
-phimgiff.net,ophimhd.net,phimraphot.net#$#abort-current-inline-script jQuery popurl
+phimraphot.net#$#abort-current-inline-script jQuery popurl
 khophimhd.net,downloadsachmienphi.com,tvhay.top#$#abort-current-inline-script JSON.parse atob
 truyen2u.net#$#abort-current-inline-script eval
 tapmoi.net#$#abort-on-property-read SmartPopunder
@@ -1369,20 +1367,19 @@ sexphimhd.net,gvnvh18.com,g18vn.com#$#abort-current-inline-script Math
 360thethao.net#$#abort-current-inline-script onload /puURL/
 xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
 xnxx-sex-videos.com#$#override-property-read user_out false
-xuongphim18z.com,phimtopz.com,truyensieuhay.com,tvchill.org,hiphimmoi.net,quangcaoyenbai.com,fullcrackpc.com,khoaiphim.com#$#abort-on-property-read document.cookie
+xuongphim18z.com,phimtopz.com,truyensieuhay.com,tvchill.org,quangcaoyenbai.com,fullcrackpc.com,khoaiphim.com#$#abort-on-property-read document.cookie
 phimmoiiii123.com,ophimmoi.net#$#abort-on-property-read matchMedia
 metruyenchu.com#$#abort-on-property-write window.onclick
 ##[href^="//mage98rquewz.com/"]
 *$third-party,script,domain=sexdiaryz.xyz
 truyentuan.com#$#abort-current-inline-script $ btpop
-nguontvhd.com#$#abort-current-inline-script encodeURIComponent popunder
 ||pssy.xyz^$domain=animevisub.net
 player-cdn.com#$#override-property-read detectAdBlockAll noopFunc; override-property-read detectAdBlock noopFunc
 player-cdn.com###playback-fake
-xoilac4.com##.modal.fade.show
-xoilac4.com#$#abort-current-inline-script jQuery popupBanners
-xoilac4.com#$#abort-on-property-read adsRedirectPopups
-xoilac4.com#$#abort-current-inline-script jQuery overlay
+xoilac78.tv##.modal.fade.show
+xoilac78.tv#$#abort-current-inline-script jQuery popupBanners
+xoilac78.tv#$#abort-on-property-read adsRedirectPopups
+xoilac78.tv#$#abort-current-inline-script jQuery overlay
 sexdiaryz.us#$#abort-on-property-read parseInt
 linkneverdie.net#$#abort-current-inline-script document.createElement script;abort-current-inline-script $ open;override-on-property-read setTimeout noopFunc
 javnong.cc#$#abort-on-property-read Math.round
