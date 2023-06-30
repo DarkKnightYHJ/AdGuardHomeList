@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: +yARRbhaAQgmIFUELV6dZQ
-! Version: 202306301551
+! Checksum: D3p3ivVcYinxo3I25/bz8g
+! Version: 202306301640
 ! Title: EasyPrivacy
-! Last modified: 30 Jun 2023 15:51 UTC
+! Last modified: 30 Jun 2023 16:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3681,6 +3681,7 @@
 /webstats/track.php?
 /webstats_counter/*
 /webtag.js
+/webtrack.js
 /webtracker.
 /webtracking/*$~subdocument,domain=~wwwapps.ups.com
 /webtraffic.js
@@ -3713,6 +3714,7 @@
 /wp-click-track/*
 /wp-clickmap/*
 /wp-content/plugins/confection/bridge.php
+/wp-content/plugins/pageviews/*
 /wp-content/tracker.
 /wp-counter.php
 /wp-js/analytics.
@@ -12094,6 +12096,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||webservices.websitepros.com^
 ||webstats.thaindian.com^
 ||websuccess-data.com/tracker.js
+||webtrack.chd01.com^
+||webtrack.savoysystems.co.uk^$third-party
 ||webtracker.apicasystem.com^
 ||webvoo.com/wt/Track.aspx
 ||webvoo.com^*/logtodb.
@@ -12822,6 +12826,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||videostats.kakao.com^
 ||w3t.cn^*/fx.js
 ||web-trace.ksapisrv.com^
+||webtrack.pospal.cn^
 ||yigouw.com/c.js
 ! Croatian
 ||tracking.vid4u.org^
