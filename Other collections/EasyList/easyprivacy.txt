@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: pUFZtPg/lU46WcMMEyD/Jg
-! Version: 202307021040
+! Checksum: oxK1eZES/vDQK92DsWnK1Q
+! Version: 202307021201
 ! Title: EasyPrivacy
-! Last modified: 02 Jul 2023 10:40 UTC
+! Last modified: 02 Jul 2023 12:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -33502,7 +33502,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||src.fedoraproject.org/static/issues_stats.js?$~third-party
 @@||src.litix.io/shakaplayer/*/shakaplayer-mux.js
 @@||ssl-images-amazon.com^*/satelliteLib-$script,domain=audible.com
-@@||ssl.gstatic.com/analytics/$script,domain=analytics.google.com
 @@||startribune.com/analytics-assets/sitecatalyst/appmeasurement.js$~third-party
 @@||statcounter.com/css/packed/statcounter-$stylesheet,~third-party
 @@||statcounter.com/js/packed/statcounter-$script,~third-party
@@ -33628,8 +33627,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ! Allowlists to fix broken pages of tracking companies
 ! Heatmap
 @@||heatmap.it^$domain=heatmap.com|heatmap.it|heatmap.me|heatmap.org
-! Google
-@@||google.com/analytics/$domain=analytics.google.com
 !----------------Allowlists to fix broken international sites-----------------!
 ! *** easylist:easyprivacy/easyprivacy_allowlist_international.txt ***
 !

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HyQiGA3RdioFq6LpzRwXLg
+! Checksum: 10skCjtCilJKaAfhAp7+Kw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202307021406
-! Last Modified: 2023年07月02日 14:06
+! Version: 202307022008
+! Last Modified: 2023年07月02日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2994,6 +2994,8 @@ newduba.cn###jq_youxi
 ||dheear.site^
 ||dmxfdp.xyz^
 ||bgbyzv.xyz^
+||l23jhjfasd.xyz^
+||jtpu9s.icu^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
 ##a[href$="/aa8a1j.com"]
@@ -23236,7 +23238,6 @@ m.babytree.com##script + a[class]
 /analytics/trackevent
 /analytics/visit/*
 /Analytics/Visitor.
-/analytics/web/*
 /analytics/wss?
 /analytics?body=
 /analytics?http_referer
@@ -26502,7 +26503,6 @@ m.babytree.com##script + a[class]
 /web-vitals-
 /web-vitals.
 /web-vitals/*
-/web/analytics.$script
 /web/push?
 /web_analytics/*
 /web_answertip.
@@ -29000,7 +29000,6 @@ _mongo_stats/
 ||opstag.com^$third-party
 ||optify.net^$third-party
 ||optimix.asia^$third-party
-||optimizely.com^$third-party
 ||optimost.com^$third-party
 ||optimove.net^$third-party
 ||optorb.com^$third-party
@@ -30911,6 +30910,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||headyhook.com^
 ||healflowers.com^
 ||hearinglizards.com^
+||heartbreakingmind.com^
 ||hearthorn.com^
 ||heavyplayground.com^
 ||helpcollar.com^
@@ -32841,7 +32841,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.firespring.com^
 ||analytics.foresee.com^
 ||analytics.formstack.com^
-||analytics.google.com^$third-party
 ||analytics.gooogol.com^
 ||analytics.groupe-seb.com^
 ||analytics.growthphysics.com^
@@ -33120,6 +33119,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cc.swiftype.com^
 ||ccexperimentsstatic.oracleoutsourcing.com^
 ||cdn-channels-pixel.ex.co^
+||cdn-pci.optimizely.com^
 ||cdn.trafficexchangelist.com^$third-party
 ||cdn.usefathom.com^
 ||cdn3.net/pixe/
@@ -34141,6 +34141,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||open.delivery.net^
 ||openxcdn.net^$third-party
 ||optimeeze.appspot.com^
+||optimizely.com/log
 ||optmn.cloud/hb/
 ||ora.tv/j/ora_evttracking.js
 ||orb.ee/collect
@@ -46785,7 +46786,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||info.kubotausa.com^
 ||intelpartneralliance.intel.com^
 ||learn.liensolutions.com^
-||seek.intel.com^
 ||smb.info.shutterstock.com^
 ||tracking.aconex.com^
 ||tracking.guidehouse.com^
@@ -53222,7 +53222,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||src.fedoraproject.org/static/issues_stats.js?$~third-party
 @@||src.litix.io/shakaplayer/*/shakaplayer-mux.js
 @@||ssl-images-amazon.com^*/satelliteLib-$script,domain=audible.com
-@@||ssl.gstatic.com/analytics/$script,domain=analytics.google.com
 @@||startribune.com/analytics-assets/sitecatalyst/appmeasurement.js$~third-party
 @@||statcounter.com/css/packed/statcounter-$stylesheet,~third-party
 @@||statcounter.com/js/packed/statcounter-$script,~third-party
@@ -53305,9 +53304,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 !! imrworldwide.com/*ggc
 @@||imrworldwide.com/novms/js/2/ggc$script,domain=9now.com.au|adelaidenow.com.au|advertiser.com.au|bestrecipes.com.au|byronnews.com.au|cairnspost.com.au|coffscoastadvocate.com.au|couriermail.com.au|dailyexaminer.com.au|espn.com|frasercoastchronicle.com.au|gattonstar.com.au|geelongadvertiser.com.au|gladstoneobserver.com.au|goldcoastbulletin.com.au|heraldsun.com.au|ipswichadvertiser.com.au|la7.it|news-mail.com.au|news.com.au|noosanews.com.au|ntnews.com.au|sky.it|sunshinecoastdaily.com.au|theaustralian.com.au|themercury.com.au|theweeklytimes.com.au|townsvillebulletin.com.au|tvnow.de|video.corriere.it|weeklytimesnow.com.au|whitsundaytimes.com.au
 @@||imrworldwide.com/v60.js$domain=adelaidenow.com.au|advertiser.com.au|bestrecipes.com.au|byronnews.com.au|cairnspost.com.au|coffscoastadvocate.com.au|corriereadriatico.it|couriermail.com.au|dailyexaminer.com.au|fanpage.it|frasercoastchronicle.com.au|gattonstar.com.au|geelongadvertiser.com.au|gladstoneobserver.com.au|goldcoastbulletin.com.au|heraldsun.com.au|huffingtonpost.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|ipswichadvertiser.com.au|la7.it|last.fm|leggo.it|musicfeeds.com.au|news-mail.com.au|noosanews.com.au|ntnews.com.au|nzherald.co.nz|quotidianodipuglia.it|realestateview.com.au|sf.se|sunshinecoastdaily.com.au|theaustralian.com.au|themercury.com.au|theweeklytimes.com.au|threenow.co.nz|townsvillebulletin.com.au|video.deejay.it|video.espresso.repubblica.it|video.ilsecoloxix.it|video.lastampa.it|video.repubblica.it|weatherchannel.com.au|weeklytimesnow.com.au|whitsundaytimes.com.au
-!! optimizely.com
-@@||cdn.optimizely.com/js/$domain=bikesales.com.au|compassion.com|creditsesame.com|fandom.com|fedex.com|freeshipping.com|heroku.com|kabeleins.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de|tcgplayer.com
-@@||optimizely.com/datafiles/$domain=alaskaair.com|guildeducation.com|hm.com|nike.com|printify.me|talktalk.co.uk|tommy.com|wallapop.com
 !! mpsnare.iesnare.com
 @@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|enmasse.com|equifax.ca|jbhifi.com.au|login.skype.com|oreillyauto.com|power.fi|princessauto.com|usbank.com|verkkokauppa.com|vitacost.com|westernunion.com
 !! tag.aticdn.net
@@ -53339,7 +53335,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||omtrdc.net/b/ss/$image,domain=britishairways.com|halifax-online.co.uk
 @@||omtrdc.net/rest/$xmlhttprequest
 @@||heatmap.it^$domain=heatmap.com|heatmap.it|heatmap.me|heatmap.org
-@@||google.com/analytics/$domain=analytics.google.com
 !----------------Allowlists to fix broken international sites-----------------!
 !---------- German ----------
 @@||adconsole.ch/api/ws-businessclick/*/data.json$domain=finanzen.ch
