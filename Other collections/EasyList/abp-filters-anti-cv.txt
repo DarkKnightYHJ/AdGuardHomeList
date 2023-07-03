@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: vynp5IWJ3s0xruWFFSsbGA
-! Version: 202307031040
+! Checksum: zRZqBvEX3ygY+WVsgc/lBg
+! Version: 202307031202
 ! Title: ABP filters
-! Last modified: 03 Jul 2023 10:40 UTC
+! Last modified: 03 Jul 2023 12:02 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://github.com/abp-filters/abp-filters-anti-cv
 !
@@ -1337,7 +1337,7 @@ netflix-izle.com#$#override-property-read reklam_1 undefined; override-property-
 ! *** abp-filters-anti-cv:vietnamese.txt ***
 ! MISC
 blog.abit.vn#$#abort-on-property-read document.cookie
-phimmoi4s.com#$#json-prune ads
+phimmoi4s.com#$#json-prune ads;abort-current-inline-script setTimeout click_time
 90phut6.live#$#abort-current-inline-script $ overlay;abort-current-inline-script setTimeout overlay
 aoe.vn#$#abort-on-property-read parseInt
 gametv.vn#$#abort-current-inline-script $ homeModal
