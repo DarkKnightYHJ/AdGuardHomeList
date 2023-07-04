@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4BXdOzsGqNeOSBbYaGW/Zg
-! Version: 202307041041
+! Checksum: HTCi44U/pLPSVEVI1kucfw
+! Version: 202307041202
 ! Title: EasyList China+EasyList
-! Last modified: 04 Jul 2023 10:41 UTC
+! Last modified: 04 Jul 2023 12:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -19346,19 +19346,19 @@ webkaka.com##td[id$="_SPONSOR"]
 ||webkaka.com/script/cp.js
 ||webkaka.com^*x50.
 !#wnacg.com
-htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@##adsbox
-htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.Flagrow-Ads-under-header
-htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.RMss1
-htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.Text-Advertising
-htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.a_ssk_cn
-htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.a_xsfl
-htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.ctm_ad
-htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.ff-ads
-htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.google-ads
-htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.hlol_ad
-wnacg.com,wnacg.org##a[href^="http"]:not([href*="wnacg."]) img
-wnacg.com,wnacg.org##img[width="399"][height*="6"]
-wnacg.com,wnacg.org##script + div > a > img
+wnacg.com#@##adsbox
+wnacg.com#@#.Flagrow-Ads-under-header
+wnacg.com#@#.RMss1
+wnacg.com#@#.Text-Advertising
+wnacg.com#@#.a_ssk_cn
+wnacg.com#@#.a_xsfl
+wnacg.com#@#.ctm_ad
+wnacg.com#@#.ff-ads
+wnacg.com#@#.google-ads
+wnacg.com#@#.hlol_ad
+wnacg.com##a[href^="http"]:not([href*="wnacg."]) img
+wnacg.com##img[width="399"][height*="6"]
+wnacg.com##script + div > a > img
 ||wnacg.*/1605524662751.gif
 ||wnacg.*/1sdfdc1/
 ||wnacg.*/58s/
@@ -19370,9 +19370,6 @@ wnacg.com,wnacg.org##script + div > a > img
 ||wnacg.*/w7z/
 ||wnacg.*/w8z/
 ||wnacg.*/zec/
-||wnacg.org/img/500_60
-||wnacg.org/img/wap
-||wnacgcdn.top/data/game/
 !#W
 !#x
 !#Y
@@ -22454,7 +22451,6 @@ fqsousou.com,kengso.com#@#.user-share
 /partneradwidget.
 /partnerbanner.
 /partnerbanner/*
-/partners/ad-
 /partners/ads/*
 /partnership-ads/*
 /partnerships-ads-
@@ -31530,6 +31526,7 @@ _800x80_
 ##.ad_avu_300x250
 ##.ad_back
 ##.ad_background
+##.ad_background_1
 ##.ad_background_true
 ##.ad_bank_wrapper
 ##.ad_banner
@@ -37872,6 +37869,8 @@ _800x80_
 ##.p-ad-outbreak
 ##.p-ad-rectangle
 ##.p-ad-thumbnail-txt
+##.p-ads-billboard
+##.p-ads-rec
 ##.p-post-ad
 ##.p2_right_ad
 ##.p75_sidebar_ads
@@ -75930,6 +75929,7 @@ getdroidtips.com,journeybytes.com,thebeaverton.com,thisisanfield.com,unfinishedm
 theepochtimes.com##.ai_recommendation
 anoopcnair.com,apkmirror.com,askpython.com,beckernews.com,bizpacreview.com,boxingnews24.com,browserhow.com,constructionreviewonline.com,crankers.com,hard-drive.net,journeybytes.com,net-load.com,planetanalog.com,roadaheadonline.co.za,theamericantribune.com,windowslatest.com,yugatech.com##.ai_widget
 petitchef.com,station-drivers.com,tennistemple.com##.akcelo-wrapper
+allkpop.com##.akp2_wrap
 lyricsmode.com##.al-c-banner
 wikihow.com##.al_method
 altfi.com##.alert
@@ -76543,6 +76543,7 @@ mazterize.com##.dl-g
 crash.net##.dmpu
 crash.net##.dmpu-container
 nationalworld.com,scotsman.com##.dmpu-item
+vice.com##.docked-slot-renderer
 quora.com##.dom_annotate_ad_image_ad
 quora.com##.dom_annotate_ad_text_ad
 thenationonlineng.net##.dorvekp-post-bottom
@@ -77289,6 +77290,7 @@ blockchair.com##.native-sentence
 phillyvoice.com##.native-sponsor
 tekno.kompas.com##.native-wrap
 seura.fi##.nativead:not(.list)
+vice.com##.nav-bar__article-spacer
 thetechpoint.org##.navigation-banner
 majorgeeks.com##.navigation-light
 vocm.com##.nccBigBox

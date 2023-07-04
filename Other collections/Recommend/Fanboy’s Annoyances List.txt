@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2GK4LdUUlkZVpPfmEc2z6Q
-! Version: 202307041041
+! Checksum: KyuU/yx1j2+sLyKNWb/8OQ
+! Version: 202307041202
 ! Title: Fanboy's Annoyance List
-! Last modified: 04 Jul 2023 10:41 UTC
+! Last modified: 04 Jul 2023 12:02 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -3727,7 +3727,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.notificacao.registerPush
 ##.notification-prompt-wrapper
 ##.notification-upsell-push
-##.notification_popup
 ##.notify-optin-wrap
 ##.ns-notification-popup
 ##.ntfc_overlay
@@ -3852,6 +3851,8 @@ dashboard.razorpay.com#@##credential_picker_container
 ##a[href^="http://www.mobi24.net/"]
 ##a[href^="https://www.mobi24.net/"]
 ##amp-app-banner
+! substack
+##.subscription-widget-wrap > .show-subscribe
 ! spot.im Notifications
 ##[class*="NotificationsBell__notificationsWrapper-"]
 ! International
@@ -37426,7 +37427,7 @@ skysports.com##.android-banner
 filmix.ac##.android-telegram-main
 coincodex.com##.app
 washingtonpost.com##.app-adoption-banner
-similarweb.com,spooncast.net,whosampled.com##.app-banner
+similarweb.com,spooncast.net,substack.com,whosampled.com##.app-banner
 republika.rs##.app-box
 financialexpress.com,indianexpress.com##.app-btn
 klook.com##.app-download
@@ -37622,6 +37623,7 @@ i.redd.it,reddit.com##[bundlename="bottom_bar_xpromo"]
 travala.com##[class*="BannerApp_container"]
 qwant.com##[class*="DownloadQwantApp-module_"]
 qwant.com##[class*="MobileAppToast-module_"]
+substack.com##[class*="frontend-components-SubscribePrompt"]
 reddit.com##[data-testid="bottom-cell-wrapper"]
 reddit.com##[data-testid="bottom-sheet-upsell-wrapper"]
 weatherbug.com##[href="/appdownload"]
@@ -39687,6 +39689,7 @@ myanimelist.net##.js-sns-icon-container
 gagadget.com##.js-toplink-container
 itnwwe.com##.kadence-column_09a01f-df
 kdnuggets.com##.kd_bottom
+levernews.com##.kg-callout-card-blue
 4sysops.com##.kleo-quick-contact-wrapper
 echonewshub.com,jugomobile.com##.l-shared-sec
 kedglobal.com##.laFlow
@@ -46183,8 +46186,8 @@ forumrowerowe.org##.ckg
 aterima-work.pl##.cm-popup-wrapper
 pracuj.pl##.cmulq7z
 sklep.szprychy.com##.config-messages
-ercomer.pl,miodykrupiec.pl,motohid.pl,planszostrefa.pl,questsport.shop,skarbyroztocza.com##.consents
 rozetka.pl##.consent-layout
+ercomer.pl,miodykrupiec.pl,motohid.pl,planszostrefa.pl,questsport.shop,skarbyroztocza.com##.consents
 isystemy.pl##.cookie-div-main
 lotto.pl##.cookie-wall
 ksiazece.pl,laserx.eu,lech.pl,lechpils.pl,tyskie.pl,zubr.pl##.cookies--cloak
@@ -46491,8 +46494,8 @@ printn1.ru###info-bott-message
 patee.ru###informer2
 fastbox.su###jsUsePersonalDataBlock
 upread.ru###kuk
-alfazdrav.ru###modalcookie
 volnamobile.ru###message-block-cookie
+alfazdrav.ru###modalcookie
 forum-windows.net###ntf
 rosbank.ru###personal-data-processing
 hyundai-electronics.com.ru,iru.ru###policyBlockForFirstVisit
@@ -48367,3 +48370,7 @@ insiderintelligence.com#@#.osano-cm-window
 @@||cmp.osano.com^$script,subdocument,xmlhttprequest,domain=insider.com|insiderintelligence.com
 @@||usercentrics.eu^$script,subdocument,xmlhttprequest,domain=boerse-online.de|immonet.de
 @@||js.hs-banner.com^$domain=insider-inc.com
+! FD-4028
+@@||consentmanager.net^$third-party,domain=onmeda.de
+onmeda.de#@#.cmpwrapper
+onmeda.de#@#.cmpboxWelcomeGDPR
