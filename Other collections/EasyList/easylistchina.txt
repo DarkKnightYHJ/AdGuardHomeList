@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1Hdxj8SodxL809kdrVXdIA
-! Version: 202307042250
+! Checksum: sIQJSfTWryc4kPJ2Q7qqkQ
+! Version: 202307050050
 ! Title: EasyList China
-! Last modified: 04 Jul 2023 22:50 UTC
+! Last modified: 05 Jul 2023 00:50 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1515,6 +1515,7 @@ newduba.cn###jq_youxi
 ~mgtv.com##a[target="_blank"] > img[src*="hitv.com"]
 ##a[target="_blank"][onclick*="广告点击"]
 ##body .has-ad
+##A[href*="kdocs.cn"] > IMG[src*=".ax1x.com/"]
 ##body[onload*="u()"] > #x
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
@@ -1589,6 +1590,13 @@ newduba.cn###jq_youxi
 ||dhkipdsc.xyz^
 ||donchen501.cn^
 ||hfqdipw.cn^
+||hsadeg.site^
+||hanwdsii.com^
+||abrnfctkn.xyz^
+||powedw.com^
+||sq59.cn^
+||tqdctl.xyz^
+||3400.org^
 ||tgbevv.xyz^
 ||wuye3d.com^
 ||xiaoxiuapp.com^
