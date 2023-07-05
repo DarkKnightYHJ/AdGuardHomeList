@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Xq/tKRRXbno5cXwir8N70A
-! Version: 202307050950
+! Checksum: gDt2AI7zUYg2ecZhf3U+4Q
+! Version: 202307051040
 ! Title: Fanboy's Annoyance List
-! Last modified: 05 Jul 2023 09:50 UTC
+! Last modified: 05 Jul 2023 10:40 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -48375,7 +48375,15 @@ insiderintelligence.com#@#.osano-cm-window
 @@||cmp.osano.com^$script,subdocument,xmlhttprequest,domain=insider.com|insiderintelligence.com
 @@||usercentrics.eu^$script,subdocument,xmlhttprequest,domain=boerse-online.de|immonet.de
 @@||js.hs-banner.com^$domain=insider-inc.com
+! FD-4027
+@@/borlabs-cookie/*$~script,domain=kombi.de
+kombi.de#@##BorlabsCookieBox
+kombi.de#@#.BorlabsCookie
+kombi.de#@#div.show-cookie-box
+kombi.de#@#.cookie-box
 ! FD-4028
 @@||consentmanager.net^$third-party,domain=onmeda.de
 onmeda.de#@#.cmpwrapper
 onmeda.de#@#.cmpboxWelcomeGDPR
+! FD-4030
+@@||cmp.tvspielfilm.de^$domain=tvspielfilm.de
