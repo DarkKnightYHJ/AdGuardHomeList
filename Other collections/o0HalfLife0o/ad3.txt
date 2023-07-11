@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: L8g6Y+Nhzragr79kU5h8Aw
+! Checksum: JPIeVQD+uHHujmVMHtEvKQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202307112010
-! Last Modified: 2023年07月11日 20:10
+! Version: 202307120207
+! Last Modified: 2023年07月12日 02:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -294,7 +294,6 @@ stgowan.com
 .js?advertID=
 .la/style/vue.js?v=
 .life/ads/
-.xyz/o.js$script,third-party
 .live/o.js$script,third-party
 .lu/ads/
 .me/gg.js
@@ -326,6 +325,7 @@ stgowan.com
 .xyz/99x/
 .xyz/ad/
 .xyz/js/ads/
+.xyz/o.js$script,third-party
 .xyz/upload/ad/
 .xyz/vh1/$script,third-party
 .zone/ads/
@@ -1756,6 +1756,7 @@ newduba.cn###jq_youxi
 ||194.59.220.161^
 ||23.234.217.11^
 ||23.234.217.12^
+##a[href*="/mug749.vip"]
 ||3400.org^
 ||52kuwang.cn^
 ||abrnfctkn.xyz^
@@ -1771,17 +1772,22 @@ newduba.cn###jq_youxi
 ||csedasdme.xyz^
 ||cuioxbqi.com^
 ||cyq3noz.icu^
+||dadde.cn^
 ||dd778899dd.com^
 ||dhkipdsc.xyz^
 ||donchen501.cn^
+||dstbekdf.xyz^
 ||dstbunkfw.xyz^
 ||duoying.vip^$third-party
+||eghyahl.cn^
 ||erfskhnpter.xyz^
 ||euitx.cn^
 ||evidhjksdtgyxrh.xyz^
 ||eyq3nog.icu^
 ||fjsytjs.cn^
+||fuliwang.cc^
 ||glhdan.site^
+||gyq3bew.icu^
 ||hanwdsii.com^
 ||hdpdrandpd.xyz^
 ||hfqdipw.cn^
@@ -1793,25 +1799,31 @@ newduba.cn###jq_youxi
 ||ipadf.xyz^
 ||jh16csf.com^
 ||jpqed.xyz^
+||jrmrijv.icu^
 ||jujcjz.xyz^
 ||kahgjjd.com^
 ||kgeesh.site^
 ||kl91ccp.com^
 ||kxm1b0u.com^
+||laink.xyz^
 ||lanver.fun^
+||lgohse.fun^
 ||lwide.xyz^
 ||metaversemolecule.com^
+||moobtcnse.xyz^
 ||nryqr.cn^
 ||one6u.xyz^
 ||pirxzl.xyz^
 ||plbs9k.icu^
 ||powedw.com^
+||pstvvb.xyz^
 ||qhx1h2g.com^
 ||qifyeldy.top^
 ||relafp.xyz^
 ||ronbbf.xyz^
 ||rtumdhdk.xyz^
 ||rtumwzp.icu^
+||sa8zdui.com^
 ||soushubah.com^$third-party
 ||sq59.cn^
 ||tgbevv.xyz^
@@ -1823,28 +1835,16 @@ newduba.cn###jq_youxi
 ||v1gyb.xyz^
 ||wubizigeng.com^
 ||wuye3d.com^
+||wyq3rum.icu^
 ||xccadc.com^
 ||xiaoxiuapp.com^
 ||yh18h8s.com^
 ||ymhyw6.lol^
 ||zerolcp.cn^
-||sa8zdui.com^
-||jrmrijv.icu^
-||fuliwang.cc^
-||lgohse.fun^
-||zypzzv.xyz^
-||eghyahl.cn^
-||pstvvb.xyz^
-||dstbekdf.xyz^
-||moobtcnse.xyz^
-||wyq3rum.icu^
-||laink.xyz^
-||dadde.cn^
-||gyq3bew.icu^
 ||zfcdirf.icu^
 ||zfteiv.xyz^
 ||zonyff.xyz^
-##a[href*="/mug749.vip"]
+||zypzzv.xyz^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
 ##a[href$="/aa8a1j.com"]
@@ -11771,9 +11771,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-cnki.net##.translateOutAdLink
-hk01.com##.min-h-\[250px\].mb-3
-th-sjy.com##.banner-post
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -13751,6 +13748,7 @@ acfun.cn##.banner-href[href^="http"]:not([href*=".acfun."])
 hupu.com##.banner-item[data-ad-params*=":"]
 crsky.com##.banner-leader
 wenku.baidu.com##.banner-more-title
+th-sjy.com##.banner-post
 smzdm.com##.banner-stuff
 qq.com,sogou.com##.banner-vda
 firefoxchina.cn##.banner-words
@@ -15003,6 +15001,7 @@ zjhlcp.com##.middle_list
 huamu.cn##.midle-ad-list
 fenghuo.in##.mimi
 6.cn##.min-ad-box
+hk01.com##.min-h-\[250px\].mb-3
 cnr.cn,jxcn.cn##.min-news-box
 nowcoder.com##.mini-banner
 xunlei.com##.mini-pop
@@ -15868,6 +15867,7 @@ ifeng.com##.trade
 chinabidding.com.cn##.train
 dict.baidu.com##.tran-download-ad
 fanyi.baidu.com##.trans-side-ad-wrap
+cnki.net##.translateOutAdLink
 hao123.com##.treasure-game
 hao123.com##.treasure-item
 megatime.com.tw,pchome.com.tw##.tripplead
@@ -35146,10 +35146,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||targeting.focas.jp^
 ||tr.c-tag.net^
 ||tr.slvrbullet.com^
+||track.list-finder.jp^
 ||track.span-smt.jp^
 ||track.thebase.in^
 ||tracker-rec.smart-bdash.com^
 ||tracker.520call.me^
+||tracker.durasite.net^
 ||trk.fensi.plus^
 ||uh.nakanohito.jp^
 ||userdive.com^$third-party
@@ -55463,7 +55465,7 @@ arketing.indianadunes.com^
 @@||pvtag.yahoo.co.jp^$script,domain=paypaymall.yahoo.co.jp
 @@||query.petametrics.com^$image,xmlhttprequest,domain=comics.mecha.cc
 @@||rtoaster.jp/Rtoaster.js$domain=peachjohn.co.jp|satofull.jp
-@@||rtoaster.jp^$script,domain=lexus.jp|melonbooks.co.jp
+@@||rtoaster.jp^$script,domain=lexus.jp|melonbooks.co.jp|pro.logitec.co.jp
 @@||s.yjtag.jp/tag.js$script,domain=baseball.yahoo.co.jp|soccer.yahoo.co.jp|www.epson.jp
 @@||sail-horizon.com/spm/spm.v1.min.js$script,domain=voguegirl.jp
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
