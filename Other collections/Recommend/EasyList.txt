@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tlXgdDECRmTK3kw85qKuVw
-! Version: 202307110050
+! Checksum: D4H+rR53EPN8aLMUVVGmng
+! Version: 202307110220
 ! Title: EasyList
-! Last modified: 11 Jul 2023 00:50 UTC
+! Last modified: 11 Jul 2023 02:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6887,6 +6887,7 @@ _800x80_
 ###bodyAd4
 ###body_728_ad
 ###body_ad
+###body_centered_ad
 ###bodymainAd
 ###book-ad
 ###bordeaux-preemptive-ad-0
@@ -20881,6 +20882,8 @@ _800x80_
 ##span[id^="ezoic-pub-ad-placeholder-"]
 ##topadblock
 ##zeus-ad
+! https://github.com/easylist/easylist/pull/16654
+##.mntl-leaderboard-spacer
 ! Ads for parked domains https://github.com/easylist/easylist/commit/f96a71b82c
 ##a[href*=".cfm?fp="][href*="&maxads="]
 ! CitrusAd
@@ -54118,6 +54121,7 @@ browsershots.org#@#.advert_area
 ||manytoon.com/script/$script
 ||marineterms.com/images/banners/
 ||marketscreener.com/content_openx.php
+||marketwatch.com/asset/ace/ace.min.js
 ||mas.martech.yahoo.com^$domain=mail.yahoo.com
 ||masternodes.online/baseimages/
 ||maxgames.com/img/sponsor_
@@ -55709,7 +55713,6 @@ pastemagazine.com###middle_rectangle
 myjoyonline.com###mjo-article-left_rectangle_mid
 dbltap.com###mm-player-placeholder-large-screen
 mmorpg.com###mmorpg_desktop_list_1
-brides.com,byrdie.com,instyle.com,investopedia.com,lifewire.com,people.com,shape.com,thespruce.com,travelandleisure.com,verywellhealth.com###mntl-leaderboard-header_1-0
 sportskeeda.com###mob3-cnx-container-bottom
 pocketgamer.com###mobile-background
 express.co.uk###mobile_floating_test
@@ -57338,6 +57341,7 @@ cometbird.com##.gg_250x250
 cornish-times.co.uk,farnhamherald.com,iomtoday.co.im##.ggzoWi
 ghacks.net##.ghacks-ad
 ghacks.net##.ghacks_ad_code
+cnx-software.com##.ghelpme
 goodmenproject.com##.gmp-instream-wrap
 givemesport.com##.gms-ad
 givemesport.com##.gms-billboard-container
@@ -57383,7 +57387,6 @@ gulf-times.com##.gt-horizontal-ad
 gulf-times.com##.gt-square-desktop-ad
 gulf-times.com##.gt-vertical-ad
 animenewsnetwork.com##.gutter
-cnx-software.com##.gvoodoo
 distractify.com,inquisitr.com,okmagazine.com,radaronline.com##.gwofgg
 thetimes.co.uk##.gyLkkj
 tvcancelrenew.com##.h-72
@@ -59092,6 +59095,7 @@ health.news,naturalnews.com,newstarget.com##[href^="https://www.brighteon.tv"]
 seganerds.com##[href^="https://www.canadacasino.ca/"]
 seganerds.com##[href^="https://www.casinonic.com/"]
 anonfiles.com##[href^="https://www.encrouter.com/"]
+rebelnews.com##[href^="https://www.eventbrite.com/"]
 seganerds.com##[href^="https://www.ewinracing.com/"]
 gamecopyworld.com,gamecopyworld.eu##[href^="https://www.kinguin.net/"]
 perezhilton.com##[href^="https://www.mytrue10.com/"]
