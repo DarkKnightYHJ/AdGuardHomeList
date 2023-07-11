@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1OryfgszdBJQmDKce7UzWA
-! Version: 202307102250
+! Checksum: 71nGIFXdAPkoKzu6LQQdWw
+! Version: 202307110050
 ! Title: EasyList China+EasyList
-! Last modified: 10 Jul 2023 22:50 UTC
+! Last modified: 11 Jul 2023 00:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -123,6 +123,7 @@
 .js?advertID=
 .la/style/vue.js?v=
 .life/ads/
+.xyz/o.js$script,third-party
 .live/o.js$script,third-party
 .lu/ads/
 .me/gg.js
@@ -1657,9 +1658,19 @@ newduba.cn###jq_youxi
 ||yh18h8s.com^
 ||ymhyw6.lol^
 ||zerolcp.cn^
+||sa8zdui.com^
+||jrmrijv.icu^
+||fuliwang.cc^
+||lgohse.fun^
+||zypzzv.xyz^
+||eghyahl.cn^
+||pstvvb.xyz^
+||dstbekdf.xyz^
+||moobtcnse.xyz^
 ||zfcdirf.icu^
 ||zfteiv.xyz^
 ||zonyff.xyz^
+##a[href*="/mug749.vip"]
 !
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
@@ -25390,7 +25401,6 @@ _800x80_
 ###adblock2
 ###adblock4
 ###adblockbottom
-###adblockerMess
 ###adbn
 ###adbnr
 ###adboard
@@ -25762,12 +25772,6 @@ _800x80_
 ###adsbox
 ###adsbox-left
 ###adsbox-right
-###adsbox1
-###adsbox2
-###adsbox3
-###adsbox336x280
-###adsbox4
-###adsbox728x90
 ###adscenter
 ###adscolumn
 ###adscontainer
@@ -25778,16 +25782,13 @@ _800x80_
 ###adsense-468x60
 ###adsense-area
 ###adsense-bottom
-###adsense-head-spacer
 ###adsense-header
 ###adsense-link
 ###adsense-links
 ###adsense-middle
 ###adsense-post
-###adsense-post-300x250
 ###adsense-right
 ###adsense-sidebar
-###adsense-slot-1
 ###adsense-tag
 ###adsense-text
 ###adsense-top
@@ -25802,7 +25803,6 @@ _800x80_
 ###adsenseContainer
 ###adsenseHeader
 ###adsenseLeft
-###adsenseOne
 ###adsenseWrap
 ###adsense_300x250
 ###adsense_banner_top
@@ -25818,7 +25818,6 @@ _800x80_
 ###adsense_r_side_sticky_container
 ###adsense_sidebar
 ###adsense_top
-###adsense_unit5
 ###adsenseheader
 ###adsensehorizontal
 ###adsensempu
@@ -25870,7 +25869,6 @@ _800x80_
 ###adsmiddle
 ###adsnews
 ###adsonar
-###adsonarBlock
 ###adspace
 ###adspace-1
 ###adspace-2
@@ -26010,23 +26008,13 @@ _800x80_
 ###advBoxBottom
 ###advCarrousel
 ###advHome
-###advHomevideo
 ###advHook-Middle1
 ###advRectangle
 ###advRectangle1
 ###advSkin
 ###advTop
 ###advWrapper
-###adv_01
-###adv_02
-###adv_11
 ###adv_300
-###adv_5
-###adv_52
-###adv_6
-###adv_62
-###adv_65
-###adv_7
 ###adv_728
 ###adv_728x90
 ###adv_BoxBottom
@@ -26035,19 +26023,11 @@ _800x80_
 ###adv_LdbMastheadPush
 ###adv_Reload
 ###adv_Skin
-###adv_SkinLdb
-###adv_adsense_300_dx
-###adv_adsense_300_m
 ###adv_bootom
 ###adv_border
-###adv_box_a
 ###adv_center
 ###adv_config
 ###adv_contents
-###adv_google_300
-###adv_google_728
-###adv_halfpage
-###adv_halfpage_title
 ###adv_holder
 ###adv_leaderboard
 ###adv_mob
@@ -26322,15 +26302,10 @@ _800x80_
 ###after-dfp-ad-mid3
 ###after-dfp-ad-mid4
 ###after-dfp-ad-top
-###after-download-ad
-###after-header-ad-left
-###after-header-ad-right
 ###after-header-ads
 ###after-top-menu-ads
 ###after_ad
 ###after_bottom_ad
-###after_bottom_ad_2
-###after_button_ad_desktop
 ###after_heading_ad
 ###after_title_ad
 ###amazon-ads
@@ -26536,7 +26511,6 @@ _800x80_
 ###block-openads-5
 ###block-sidebarad1
 ###block-sponsors
-###block-vh-dfp-dfp-ad-r2
 ###blockAd
 ###blockAds
 ###block_ad
@@ -38188,7 +38162,6 @@ _800x80_
 ##.railad
 ##.railadspace
 ##.ray-floating-ads-container
-##.razon_stickyad
 ##.rc-sponsored
 ##.rcom-freestar-ads-widget
 ##.re-AdTop1Container
@@ -38675,10 +38648,6 @@ _800x80_
 ##.sheknows-infuse-ad
 ##.shift-ad
 ##.shoppingGoogleAdSense
-##.short-ad
-##.short-sidebar-ad-bottom
-##.short-sidebar-ad-component
-##.short-sidebar-ad-sticky
 ##.shortads
 ##.shortadvertisement
 ##.show-desk-ad
