@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KJFpYbaTSgH/MZLFik6omw
+! Checksum: lNcN4mZsyT9j+sEHAj6iLA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202307121407
-! Last Modified: 2023年07月12日 14:07
+! Version: 202307122010
+! Last Modified: 2023年07月12日 20:10
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -37,18 +37,14 @@ static.g.iqiyi.com
 ||ssports.iqiyi.com/json/shop/shopInfo
 ||ssports.iqiyi.com/app/$media,object-subrequest
 show.ssports.com
-v.qq.com###player .txp_zt_content
+!v.qq.com###player .txp_zt_content
 v.qq.com##.quick_games.quick_item,div.card-wrap
 qq.com##.mod_ad, .txp_ad, div.l_qq_com, .txp-watermark, .txp_ad_link, .txp_zt_video, .adWrap, .iwan-wrapper
 qq.com#@#+js(nowebrtc)
-video.qq.com#@#+js(set,RTCPeerConnection,null)
-video.qq.com#@#+js(no-xhr-if,/trace\.|\/collect/)
-video.qq.com#@#+js(no-fetch-if,/trace\.|beacon\./)
-video.qq.com#@#+js(json-prune,ads adList.item)
 qq.com##+js(set,RTCPeerConnection,null)
 qq.com##+js(no-xhr-if,/trace\.|\/collect/)
 qq.com##+js(no-fetch-if,/trace\.|beacon\./)
-qq.com##+js(json-prune,ads adList.item)
+qq.com##+js(json-prune,ads ad.pause adList.item)
 !qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
 !qq.com##+js(aopr, Beacon.prototype.fail)
 @@||union.video.qq.com/fcgi-bin/$script,domain=qq.com
@@ -1851,6 +1847,8 @@ newduba.cn###jq_youxi
 ||oifyeldk.top^
 ||xcvwrj.xyz^
 ||jokerlulm.com^
+||kyq3hky.icu^
+||dosre12.xyz^
 ||zfcdirf.icu^
 ||zfteiv.xyz^
 ||zonyff.xyz^
@@ -11779,8 +11777,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||zjtu.tv/add.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+duangks.com###a_d_sidebar
+line.me##.midAdModule-root
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2

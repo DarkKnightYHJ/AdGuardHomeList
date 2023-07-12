@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: v4nF+EgSBBawK8mPBI9wuw
+! Checksum: 6bsEKsqAeTvEI4us6BYstw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202307121407
-! Last Modified: 2023年07月12日 14:07
+! Version: 202307122010
+! Last Modified: 2023年07月12日 20:10
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -21286,6 +21286,7 @@ _800x80_
 ##topadblock
 ##zeus-ad
 ##.mntl-leaderboard-spacer
+##.shopee-search-user-brief
 ##a[href*=".cfm?fp="][href*="&maxads="]
 ##.CitrusBannerWrapper--enollj
 ##[class^="tile-picker__CitrusBannerContainer-sc-"]
@@ -56198,7 +56199,6 @@ dict.cc###recthomebot
 tapatalk.com###relatedblogbar
 10minutemail.net,eel.surf7.net.my,javatpoint.com###right
 msguides.com###right-bottom-camp
-rustlabs.com###right-column > .sub-info-block
 comicbookrealm.com###right-rail > .module
 purewow.com###right-rail-ad
 gogetaroomie.com###right-space
@@ -60334,6 +60334,7 @@ noon.com#?#span[class*="productContaine"]:-abp-has(div:-abp-contains(Sponsored))
 mg.co.za#?#article:-abp-has(.sponsored-single)
 metager.org#?#.result:-abp-has(.mark:-abp-contains(Ad))
 metager.org#?#.result:-abp-has(span:-abp-contains(partnershop))
+rustlabs.com#?#.sub-info-block:-abp-has(#banner)
 rakuten.com#?#div[data-productid]:-abp-has(div.productList_sponsoredAds_RUS)
 alibaba.com#?#.J-offer-wrapper:-abp-contains(Top sponsor listing)
 officedepot.com#?#.od-col:-abp-has(.od-product-card-region-colors-sponsored)
@@ -63730,6 +63731,8 @@ newduba.cn###jq_youxi
 ||oifyeldk.top^
 ||xcvwrj.xyz^
 ||jokerlulm.com^
+||kyq3hky.icu^
+||dosre12.xyz^
 ||zfcdirf.icu^
 ||zfteiv.xyz^
 ||zonyff.xyz^
@@ -73658,8 +73661,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||zjtu.tv/add.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+duangks.com###a_d_sidebar
+line.me##.midAdModule-root
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -116980,18 +116986,14 @@ static.g.iqiyi.com
 ||ssports.iqiyi.com/json/shop/shopInfo
 ||ssports.iqiyi.com/app/$media,object-subrequest
 show.ssports.com
-v.qq.com###player .txp_zt_content
+!v.qq.com###player .txp_zt_content
 v.qq.com##.quick_games.quick_item,div.card-wrap
 qq.com##.mod_ad, .txp_ad, div.l_qq_com, .txp-watermark, .txp_ad_link, .txp_zt_video, .adWrap, .iwan-wrapper
 qq.com#@#+js(nowebrtc)
-video.qq.com#@#+js(set,RTCPeerConnection,null)
-video.qq.com#@#+js(no-xhr-if,/trace\.|\/collect/)
-video.qq.com#@#+js(no-fetch-if,/trace\.|beacon\./)
-video.qq.com#@#+js(json-prune,ads adList.item)
 qq.com##+js(set,RTCPeerConnection,null)
 qq.com##+js(no-xhr-if,/trace\.|\/collect/)
 qq.com##+js(no-fetch-if,/trace\.|beacon\./)
-qq.com##+js(json-prune,ads adList.item)
+qq.com##+js(json-prune,ads ad.pause adList.item)
 !qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
 !qq.com##+js(aopr, Beacon.prototype.fail)
 @@||union.video.qq.com/fcgi-bin/$script,domain=qq.com
