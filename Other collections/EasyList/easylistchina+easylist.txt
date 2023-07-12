@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Mz0kfCHVqIB8xmoXf3xfTQ
-! Version: 202307120950
+! Checksum: Dl3w2te2HtBQF6Sd2BjoHQ
+! Version: 202307121040
 ! Title: EasyList China+EasyList
-! Last modified: 12 Jul 2023 09:50 UTC
+! Last modified: 12 Jul 2023 10:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -11613,6 +11613,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||zjtu.tv/add.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -40558,6 +40559,8 @@ _800x80_
 ##zeus-ad
 ! https://github.com/easylist/easylist/pull/16654
 ##.mntl-leaderboard-spacer
+! shopee.cl,shopee.cn,shopee.co.id,shopee.co.th.. https://github.com/easylist/easylist/pull/16659
+##.shopee-search-user-brief
 ! Ads for parked domains https://github.com/easylist/easylist/commit/f96a71b82c
 ##a[href*=".cfm?fp="][href*="&maxads="]
 ! CitrusAd
