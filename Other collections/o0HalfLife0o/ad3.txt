@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4gf/YOk6qsIqA/L5CjIJEg
+! Checksum: Ra2sYMChbInuz+6THrps6Q
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202307130834
-! Last Modified: 2023年07月13日 08:34
+! Version: 202307132010
+! Last Modified: 2023年07月13日 20:10
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1585,6 +1585,7 @@ newduba.cn###jq_youxi
 ~hrtsea.com##.widget_ui_ads
 ##.widget_ui_asb
 ##.widget_ui_aub
+##A[href*="kdocs.cn"] > IMG[src*="sstv."]
 ##.widget_ui_textasb
 ##.widget_ui_textaub
 ##.wordurl[style="   width: 42%; float:left; text-align: center;"]
@@ -1858,6 +1859,9 @@ newduba.cn###jq_youxi
 ||xmxupz.xyz^
 ||hstbrt.xyz^
 ||gkjmev3.com^
+||lifyeldl.top^
+||dadbj.cn^
+||kyq3xch.icu^
 ||zfteiv.xyz^
 ||ziravd.xyz^
 ||zonyff.xyz^
@@ -11787,8 +11791,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||bianshengruanjian.com/tu/%E6%89%93%E8%B5%8F.
+||dykshao.cn/image/$third-party
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+ip138.com###banner
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2

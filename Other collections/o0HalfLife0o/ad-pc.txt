@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uRpmDe0AyTf41zB1gZsVeQ
+! Checksum: sukaCpzNYSXqc74Q/10zQQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202307131407
-! Last Modified: 2023年07月13日 14:07
+! Version: 202307132010
+! Last Modified: 2023年07月13日 20:10
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -31047,7 +31047,6 @@ browsershots.org#@#.advert_area
 ||fiumaralupin.space^
 ||fivelegant.com^
 ||fivetrafficroads.com^
-||fiveyardlab.com^
 ||fiwhibse.com^
 ||fixbreakthrough.com^
 ||fixchidie.com^
@@ -63326,6 +63325,7 @@ newduba.cn###jq_youxi
 ~hrtsea.com##.widget_ui_ads
 ##.widget_ui_asb
 ##.widget_ui_aub
+##A[href*="kdocs.cn"] > IMG[src*="sstv."]
 ##.widget_ui_textasb
 ##.widget_ui_textaub
 ##.wordurl[style="   width: 42%; float:left; text-align: center;"]
@@ -63599,6 +63599,9 @@ newduba.cn###jq_youxi
 ||xmxupz.xyz^
 ||hstbrt.xyz^
 ||gkjmev3.com^
+||lifyeldl.top^
+||dadbj.cn^
+||kyq3xch.icu^
 ||zfteiv.xyz^
 ||ziravd.xyz^
 ||zonyff.xyz^
@@ -73528,8 +73531,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||bianshengruanjian.com/tu/%E6%89%93%E8%B5%8F.
+||dykshao.cn/image/$third-party
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+ip138.com###banner
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
