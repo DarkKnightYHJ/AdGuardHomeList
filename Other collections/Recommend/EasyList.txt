@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: QDp6I4ZtRYNTdAI0b/rUmQ
-! Version: 202307141450
+! Checksum: jqxLTgu0VvxlC18PvnTV/w
+! Version: 202307141550
 ! Title: EasyList
-! Last modified: 14 Jul 2023 14:50 UTC
+! Last modified: 14 Jul 2023 15:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2257,6 +2257,7 @@
 /generic.ads.
 /get-ads-by-zones/*
 /get.ad?
+/get/?go=1&data=
 /get/ad.
 /get/ad/*
 /get/ad?
@@ -3629,7 +3630,6 @@
 ?adcontext=
 ?adformat=
 ?adfox_
-?adslot=
 ?adspot_
 ?adunitid=
 ?advertiser=
@@ -29197,6 +29197,7 @@ browsershots.org#@#.advert_area
 ||dsstrk.com^
 ||dsultra.com^
 ||dsvkgvrftkpds.com^
+||dt4ever.com^
 ||dtcpdvnojquf.com^
 ||dteakfzixo.com^
 ||dtmpub.com^
@@ -33351,6 +33352,7 @@ browsershots.org#@#.advert_area
 ||instraffic.com^
 ||instructionluxuriant.com^
 ||instructorstudied.com^
+||instrumenttactics.com^
 ||insumber.com^
 ||insurancehealth.info^
 ||insureabatis.com^
@@ -40369,6 +40371,7 @@ browsershots.org#@#.advert_area
 ||reminews.com^
 ||remintrex.com^
 ||remipedembosk.com^
+||remnas.com^
 ||remorsefulindependence.com^
 ||remotequeen.pro^
 ||removedispel.com^
@@ -54202,6 +54205,7 @@ browsershots.org#@#.advert_area
 ||mafvertizing.crazygames.com^
 ||mail-ads.google.com^
 ||mail.aol.com/d/gemini_api/?adCount=
+||manga18fx.com/js/main-v001.js
 ||mangahub.io/iframe/
 ||manhwascan.net/my2023/my2023
 ||manytoon.com/script/$script
@@ -54815,7 +54819,8 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|9anime.id|adbl
 ||analsexstars.com/og/
 ||anybunny.tv/js/main.ex.js
 ||anyporn.com/aa/
-||anysex.com/*/serv
+||anysex.com/*oio/|$script
+||anysex.com/2-2-temparoryo/
 ||atube.xxx/static/js/abb.js
 ||aucdn.net^$media,domain=clgt.one
 ||avn.com/server/
@@ -55001,7 +55006,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|9anime.id|adbl
 ||javxnxx.pro/pscript.js
 ||jennylist.xyz/t63fd79f7055.js
 ||jhat1n4.xhamster.com^
-||joysporn.sex/js/pj.js
+||joysporn.sex/js/kj.js
 ||jy8dc.xhamster.com^
 ||k-teen.com/banner/
 ||kafdlwyw4z.xhamster.com^
@@ -55034,6 +55039,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|9anime.id|adbl
 ||mopoga.com/img/aff_
 ||mostsexyporn.com/wp-content/uploads/2019/02/live-cam-sex.jpg
 ||multi.xxx/js/chaturbest.js
+||mycloud123.top/assets/jquery/p2adult.js
 ||mylistcrawler.com/wp-content/plugins/elfsight-popup-cc/
 ||mylust.com/154-5imcjoe8o7f/
 ||mylust.com/b/
@@ -55215,6 +55221,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|9anime.id|adbl
 ||xxxvideotube.net/banner.gif
 ||xxxvogue.net/_ad
 ||xxxxsx.com/sw.js
+||yespornpleasexxx.com/wp-content/litespeed/js/
 ||ynoymse4.xhamster.com^
 ||yotta.scrolller.com^
 ||youjizz.com/KWIKY*.mp4$rewrite=abp-resource:blank-mp4,domain=youjizz.com
@@ -55234,7 +55241,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|9anime.id|adbl
 ! (/sw.js)
 /^https?:\/\/.*\/.*sw[0-9._].*/$script,xmlhttprequest,domain=1vag.com|4tube.com|adult-channels.com|analdin.com|biguz.net|bogrodius.com|chikiporn.com|fantasti.cc|fuqer.com|fux.com|hclips.com|heavy-r.com|hog.tv|megapornx.com|milfzr.com|mypornhere.com|niceporn.xxx|porn555.com|pornchimp.com|pornerbros.com|pornj.com|pornl.com|pornototale.com|porntube.com|sexu.com|sss.xxx|thisav.com|titkino.net|tubepornclassic.com|tuberel.com|tubev.sex|txxx.com|vidmo.org|vpornvideos.com|xozilla.com|youporn.lc|youpornhub.it|yourdailypornstars.com
 !
-/^https?:\/\/.*\/[a-z0-9A-Z_]{2,15}\.(php|jx|jsx|1ph|jsf|jz|jsm|j$)/$script,subdocument,domain=4kporn.xxx|4tube.com|alotporn.com|alphaporno.com|alrincon.com|amateur8.com|anyporn.com|anysex.com|badjojo.com|bdsmstreak.com|bestfreetube.xxx|bigtitslust.com|bravotube.net|cockmeter.com|crazyporn.xxx|daftporn.com|ebony8.com|erome.com|exoav.com|fantasti.cc|fapality.com|fapnado.com|fetishshrine.com|freeporn8.com|gfsvideos.com|gotporn.com|hdporn24.org|hdpornmax.com|hdtube.porn|hellporno.com|hottorrent.org|hqsextube.xxx|hqtube.xxx|iceporn.com|imgderviches.work|imx.to|its.porn|katestube.com|lesbian8.com|love4porn.com|lustypuppy.com|manhwa18.cc|maturetubehere.com|megatube.xxx|milffox.com|momxxxfun.com|openloadporn.co|orsm.net|pervclips.com|porn-plus.com|porndr.com|pornicom.com|pornid.xxx|pornotrack.net|pornrabbit.com|pornwatchers.com|pornwhite.com|pussy.org|redhdtube.xxx|rule34.art|sexvid.porn|sexvid.pro|sexvid.xxx|sexytorrents.info|shameless.com|sleazyneasy.com|smutty.com|sortporn.com|stepmom.one|stileproject.com|str8ongay.com|tnaflix.com|urgayporn.com|vikiporn.com|wankoz.com|xbabe.com|xcafe.com|xhqxmovies.com|xxx-torrent.net|xxxdessert.com|xxxextreme.org|xxxonxxx.com|yourlust.com|youx.xxx|zbporn.com|zbporn.tv
+/^https?:\/\/.*\/[a-z0-9A-Z_]{2,15}\.(php|jx|jsx|1ph|jsf|jz|jsm|j$)/$script,subdocument,domain=4kporn.xxx|4tube.com|alotporn.com|alphaporno.com|alrincon.com|amateur8.com|anyporn.com|badjojo.com|bdsmstreak.com|bestfreetube.xxx|bigtitslust.com|bravotube.net|cockmeter.com|crazyporn.xxx|daftporn.com|ebony8.com|erome.com|exoav.com|fantasti.cc|fapality.com|fapnado.com|fetishshrine.com|freeporn8.com|gfsvideos.com|gotporn.com|hdporn24.org|hdpornmax.com|hdtube.porn|hellporno.com|hottorrent.org|hqsextube.xxx|hqtube.xxx|iceporn.com|imgderviches.work|imx.to|its.porn|katestube.com|lesbian8.com|love4porn.com|lustypuppy.com|manhwa18.cc|maturetubehere.com|megatube.xxx|milffox.com|momxxxfun.com|openloadporn.co|orsm.net|pervclips.com|porn-plus.com|porndr.com|pornicom.com|pornid.xxx|pornotrack.net|pornrabbit.com|pornwatchers.com|pornwhite.com|pussy.org|redhdtube.xxx|rule34.art|sexvid.porn|sexvid.pro|sexvid.xxx|sexytorrents.info|shameless.com|sleazyneasy.com|smutty.com|sortporn.com|stepmom.one|stileproject.com|str8ongay.com|tnaflix.com|urgayporn.com|vikiporn.com|wankoz.com|xbabe.com|xcafe.com|xhqxmovies.com|xxx-torrent.net|xxxdessert.com|xxxextreme.org|xxxonxxx.com|yourlust.com|youx.xxx|zbporn.com|zbporn.tv
 ! eporner
 /^https?:\/\/.*\.eporner\.com\/[0-9a-f]{10,}\/$/$script,domain=eporner.com
 ! thegay.com
@@ -60052,6 +60059,7 @@ bing.com##[id$="adsMvCarousel"]
 bing.com##a[href*="/aclick?ld="]
 ! *** easylist:easylist/easylist_specific_hide_abp.txt ***
 ! Advanced element hiding rules for Adblock Plus
+klmanga.io#?##movie-last-movie > li:-abp-has(> center > ins[data-width="300"])
 acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#?#.product-card-col:-abp-contains(Sponsored)
 acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#?#.master-product-carousel:-abp-has([data-carousel-driven="sponsored-products"])
 asda.com#?#.co-item:-abp-has(.co-item__sponsored-label)
@@ -60407,6 +60415,7 @@ usasexguide.nl###uiISGAdFooter
 fetishshrine.com###under-player
 fetishshrine.com,pervclips.com###under-video
 wetpussygames.com###under728
+fakings.com###undervideo
 kisscos.net###v-overlay
 homemoviestube.com###v_right
 drtuber.com###video_list_banner
@@ -60579,6 +60588,7 @@ sxyprn.com##.cbd
 stepmom.one##.cblidovr
 stepmom.one##.cblrghts
 porntry.com##.center-spot
+fakings.com##.centrado
 thefappeningblog.com##.cl-exl
 bigtitsgallery.net##.classifiedAd
 xhamster.com##.clipstore-bottom
@@ -61020,7 +61030,7 @@ bustyporn.com##.widget-friends
 rpclip.com##.widget-item-wrap
 interviews.adultdvdtalk.com##.widget_adt_performer_buy_links_widget
 hentaiprn.com,whipp3d.com##.widget_block
-hotcelebshome.com,javcrave.com,pussycatxx.com##.widget_custom_html
+arcjav.com,hotcelebshome.com,javcrave.com,pussycatxx.com##.widget_custom_html
 gifsauce.com##.widget_live
 totsantcugat.info##.widget_meta.widget.col-sm-3
 hentaiblue.com##.widget_text
