@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xJkXRIhUljyFez5O10kwww
+! Checksum: WhgBK34PYvk+P33gcq5/GA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202307152008
-! Last Modified: 2023年07月15日 20:08
+! Version: 202307160204
+! Last Modified: 2023年07月16日 02:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -2021,6 +2021,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /app.ads.
 /app/ads.
 /app/ads/*
+/app/manga/themes/*/ads/pop.js
 /aptads/*
 /apu.php?*&zoneid=
 /arcads.js
@@ -4131,7 +4132,6 @@ _advertise.
 _advertisehere.
 _advertisement-
 _advertisement/
-_advertisement_$domain=~media.ccc.de
 _advertisements/
 _advertising.
 _advertising/$domain=~advertising.scoop.co.nz
@@ -23917,6 +23917,7 @@ browsershots.org#@#.advert_area
 ||allactualstories.com^
 ||allayravage.com^
 ||allcommonblog.com^
+||allcommonstories.com^
 ||allcoolnewz.com^
 ||allcoolposts.com^
 ||allegationhamperexit.com^
@@ -26794,6 +26795,7 @@ browsershots.org#@#.advert_area
 ||carrellsubdit.com^
 ||carryhummight.com^
 ||carrysincubi.com^
+||cartedneogene.com^
 ||cartining-specute.com^
 ||cartoonpeecommissioner.com^
 ||caruagedlr.com^
@@ -28636,6 +28638,7 @@ browsershots.org#@#.advert_area
 ||degaswassail.website^
 ||degeronium.com^
 ||deggerfletton.com^
+||deghooda.net^
 ||degmfmog.xyz^
 ||degrainbro.website^
 ||degutu.xyz^
@@ -30128,6 +30131,7 @@ browsershots.org#@#.advert_area
 ||eputysolomon.com^
 ||eqacypykxa.com^
 ||eqads.com^
+||equabilityassortshrubs.com^
 ||equabilitythereupon.com^
 ||equesk.com^
 ||equilibriumindifferentsoak.com^
@@ -31692,6 +31696,7 @@ browsershots.org#@#.advert_area
 ||giantaffiliates.com^
 ||gianwho.com^
 ||gibaivoa.com^
+||gibbarwaiting.com^
 ||gibbousbalaic.com^
 ||gibeleftyeuro.com^
 ||gidaxlzi.com^
@@ -33083,6 +33088,7 @@ browsershots.org#@#.advert_area
 ||hypogeeinial.com^
 ||hypogynbalker.com^
 ||hypoot.com^
+||hypots.com^
 ||hypozoabytes.life^
 ||hyrcanquittor.com^
 ||hyrewusha.pro^
@@ -34442,6 +34448,7 @@ browsershots.org#@#.advert_area
 ||kmapagpkik.com^
 ||kmkixuha.com^
 ||kmmsfoqbhc.xyz^
+||kmodukuleqasfo.info^
 ||kmqkdhqaqt.com^
 ||kmyunderthf.info^
 ||knackseafood.com^
@@ -36379,6 +36386,7 @@ browsershots.org#@#.advert_area
 ||mpsqvsylctp.com^
 ||mpsuadv.ru^
 ||mptentry.com^
+||mptgate.com^
 ||mpununmrsiur.com^
 ||mqabjtgli.xyz^
 ||mqarrenothanca.xyz^
@@ -37065,6 +37073,7 @@ browsershots.org#@#.advert_area
 ||nosebleedlonerdays.com^
 ||nossairt.net^
 ||nosselaune.space^
+||nostormidentification.com^
 ||nostrilquarryprecursor.com^
 ||nostromedia.com^
 ||notabilitysedative.com^
@@ -41394,6 +41403,7 @@ browsershots.org#@#.advert_area
 ||sandcomemunicat.info^
 ||sandelf.com^
 ||sandflyligules.com^
+||sandyconference.com^
 ||sanggilregard.com^
 ||sangogne.com^
 ||sanhitaamerce.uno^
@@ -44014,6 +44024,7 @@ browsershots.org#@#.advert_area
 ||toogeepaun.com^
 ||toolsthwartgrim.com^
 ||toolsyjejune.com^
+||toolsyjejunen.com^
 ||toomeepi.xyz^
 ||toonoost.net^
 ||toorebutheh.xyz^
@@ -46239,6 +46250,7 @@ browsershots.org#@#.advert_area
 ||wmober.com^
 ||wmolgnjo.xyz^
 ||wmptctl.com^
+||wmpuem.com^
 ||wndvcmyrqwnbdy.xyz^
 ||wnjjhksaue.com^
 ||wnp.com^
@@ -53884,6 +53896,7 @@ browsershots.org#@#.advert_area
 ||cmix.org/teasers/
 ||creamgoodies.com/potd/
 ||creative.imagetwistcams.com^$subdocument
+||creative.myasian.live/widgets/
 ||creative.stripchat.com^
 ||creative.strpjmp.com^
 ||ddfcash.com^$third-party
@@ -54102,6 +54115,7 @@ browsershots.org#@#.advert_area
 !----------------------Specific advert blocking filters-----------------------!
 /asgg.php$domain=ghostbin.me|paste.fo
 ||0xtracker.com/assets/advertising/
+||123.manga1001.top^
 ||123animehub.cc/final
 ||1337x.*/images/x28.jpg
 ||1337x.*/images/x2x8.jpg
@@ -54338,6 +54352,7 @@ browsershots.org#@#.advert_area
 ||jobsora.com/img/banner/
 ||jordantimes.com/accu/
 ||jpg.church/quicknoisilyheadbites.js
+||js.mangajp.top^
 ||kaas.am/hhapia/
 ||kendrickcoleman.com/images/banners/
 ||kissanime.com.ru/api/pop*.php
@@ -56610,7 +56625,7 @@ freepik.com##.adobe-detail
 freepik.com##.adobe-grid-design
 flightglobal.com,thriftyfun.com##.adp
 vice.com##.adph
-1sale.com,1v1.lol,7billionworld.com,9jaflaver.com,achieveronline.co.za,canstar.com.au,canstarblue.co.nz,cheapies.nz,climatechangenews.com,coingax.com,cryptonomist.ch,currencyrate.today,energyforecastonline.co.za,esports.com,eventcinemas.co.nz,filmapik21.tv,flashx.tv,geo.tv,govtrack.us,gramfeed.com,hockeyfeed.com,i24news.tv,idiva.com,indiatimes.com,inspirock.com,investing.com,knowyourmeme.com,m.economictimes.com,mangasect.com,marinetraffic.com,mb.com.ph,mehrnews.com,meta-calculator.com,mini-ielts.com,miningprospectus.co.za,motogp.com,mugshots.com,nbc.na,news.nom.co,nsfwyoutube.com,russia-insider.com,russian-faith.com,savevideo.me,sgcarmart.com,sherdog.com,stars-portraits.com,straitstimes.com,teamblind.com,tehrantimes.com,tellerreport.com,thenews.com.pk,thestar.com.my,viamichelin.com,viamichelin.ie,y8.com,yummy.ph##.ads
+1sale.com,1v1.lol,7billionworld.com,9jaflaver.com,achieveronline.co.za,canstar.com.au,canstarblue.co.nz,cheapies.nz,climatechangenews.com,coingax.com,cryptonomist.ch,currencyrate.today,energyforecastonline.co.za,esports.com,eventcinemas.co.nz,filmapik21.tv,flashx.tv,geo.tv,govtrack.us,gramfeed.com,hockeyfeed.com,i24news.tv,idiva.com,indiatimes.com,inspirock.com,investing.com,knowyourmeme.com,m.economictimes.com,mangasect.com,marinetraffic.com,mb.com.ph,mehrnews.com,meta-calculator.com,mini-ielts.com,miningprospectus.co.za,motogp.com,mugshots.com,nbc.na,news.nom.co,nsfwyoutube.com,piliapp.com,russia-insider.com,russian-faith.com,savevideo.me,sgcarmart.com,sherdog.com,stars-portraits.com,straitstimes.com,teamblind.com,tehrantimes.com,tellerreport.com,thenews.com.pk,thestar.com.my,viamichelin.com,viamichelin.ie,y8.com,yummy.ph##.ads
 moneycontrol.com##.ads-320-50
 dallasinnovates.com##.ads-article-body
 dnaindia.com,wionews.com##.ads-box-300x250
@@ -57115,7 +57130,7 @@ careerindia.com##.cmscontent-top
 thisismoney.co.uk##.cnr5
 letras.com##.cnt-space-top
 hollywoodunlocked.com##.cnx-player
-180gadgets.com,9to5linux.com,academicful.com,americansongwriter.com,androidsage.com,animatedtimes.com,anoopcnair.com,askpython.com,asurascans.com,autodaily.com.au,bigleaguepolitics.com,boxingnews24.com,browserhow.com,charlieintel.com,chromeunboxed.com,conservativebrief.com,cookingwithdog.com,crimereads.com,cryptobriefing.com,cryptopotato.com,cryptoreporter.info,cryptoslate.com,dcenquirer.com,dexdotexe.com,eurweb.com,exeo.app,fandomwire.com,flickeringmyth.com,flyingmag.com,freemagazines.top,gameinfinitus.com,gatewaynews.co.za,geekdashboard.com,getdroidtips.com,goodyfeed.com,greekreporter.com,hard-drive.net,hollywoodunlocked.com,indianhealthyrecipes.com,inspiredtaste.net,iotwreport.com,journeybytes.com,lithub.com,medievalists.net,mpost.io,nationalfile.com,nintendoeverything.com,notalwaysright.com,organicfacts.net,patriotfetch.com,protrumpnews.com,pureinfotech.com,quickanswer.blog,redrightvideos.com,reneweconomy.com.au,reptilesmagazine.com,rezence.com,roadaheadonline.co.za,rok.guide,sdnews.com,simscommunity.info,storypick.com,streamingbetter.com,superwatchman.com,talkers.com,techpp.com,techrounder.com,techviral.net,theautopian.com,thecinemaholic.com,thedriven.io,thegamehaus.com,thegatewaypundit.com,thenipslip.com,thewincentral.com,trendingpolitics.com,trendingpoliticsnews.com,twistedvoxel.com,videogamer.com,walletinvestor.com,waves4you.com,wbiw.com,welovetrump.com,wepc.com,win.gg,wisden.com,zerohanger.com##.code-block
+180gadgets.com,9to5linux.com,academicful.com,americansongwriter.com,androidsage.com,animatedtimes.com,anoopcnair.com,askpython.com,asurascans.com,autodaily.com.au,bigleaguepolitics.com,boxingnews24.com,browserhow.com,charlieintel.com,chillinghistory.com,chromeunboxed.com,conservativebrief.com,cookingwithdog.com,crimereads.com,cryptobriefing.com,cryptopotato.com,cryptoreporter.info,cryptoslate.com,dcenquirer.com,dexdotexe.com,eurweb.com,exeo.app,fandomwire.com,flickeringmyth.com,flyingmag.com,freemagazines.top,gameinfinitus.com,gatewaynews.co.za,geekdashboard.com,getdroidtips.com,goodyfeed.com,greekreporter.com,hard-drive.net,hollywoodunlocked.com,indianhealthyrecipes.com,inspiredtaste.net,iotwreport.com,journeybytes.com,lithub.com,medievalists.net,mpost.io,nationalfile.com,nintendoeverything.com,notalwaysright.com,organicfacts.net,patriotfetch.com,protrumpnews.com,pureinfotech.com,quickanswer.blog,redrightvideos.com,reneweconomy.com.au,reptilesmagazine.com,rezence.com,roadaheadonline.co.za,rok.guide,sdnews.com,simscommunity.info,storypick.com,streamingbetter.com,superwatchman.com,talkers.com,techpp.com,techrounder.com,techviral.net,theautopian.com,thecinemaholic.com,thedriven.io,thegamehaus.com,thegatewaypundit.com,thenipslip.com,thewincentral.com,trendingpolitics.com,trendingpoliticsnews.com,twistedvoxel.com,videogamer.com,walletinvestor.com,waves4you.com,wbiw.com,welovetrump.com,wepc.com,win.gg,wisden.com,zerohanger.com##.code-block
 storytohear.com,thefamilybreeze.com,thetravelbreeze.com,theworldreads.com,womensmethod.com##.code-block > center p
 streamtelly.com##.code-block-1
 coinpaprika.com##.coinzilla-ad--desktop
@@ -58203,6 +58218,7 @@ axn-asia.com,onetvasia.com##.pane-dart-dart-tag-300x250-rectangle
 insidehighered.com##.pane-dfp
 thebarentsobserver.com##.pane-title
 comedycentral.com.au##.pane-vimn-coda-gpt-panes
+wunderground.com##.pane-wu-fullscreenweather-ad-box-atf
 khmertimeskh.com##.panel-grid-cell
 panarmenian.net##.panner_2
 battlefordsnow.com,cfjctoday.com,everythinggp.com,huskiefan.ca,larongenow.com,meadowlakenow.com,nanaimonewsnow.com,northeastnow.com,panow.com,rdnewsnow.com,sasknow.com,vernonmatters.ca##.parallax-breakout
@@ -58783,6 +58799,7 @@ sbenny.com##.t3-masthead
 emoneyspace.com##.t_a_c
 ucompares.com##.tablepress-id-46
 6abc.com##.taboola
+gizmodo.com,kotaku.com,theonion.com,theroot.com##.taboola-container
 protocol.com##.tag-sponsored
 spectrum.ieee.org##.tag-type-whitepaper
 ghanaweb.com,thefastmode.com##.takeover
@@ -59770,7 +59787,7 @@ decrypt.co,metabattle.com##div[style^="min-width: 300px;"]
 keybr.com##div[style^="position:relative;min-width:"]
 gtaforums.com##div[style^="text-align: center; margin: 0px 0px 10px;"]
 live365.com##div[style^="width: 300px;"]
-napuzba.com##div[style^="width:336px"]
+mn4u.net,napuzba.com##div[style^="width:336px"]
 jwire.com.au##div[style^="width:468px;"]
 imgbabes.com##div[style^="width:604px;"]
 interglot.com,sodapdf.com,stopmalvertising.com##div[style^="width:728px;"]
@@ -61923,7 +61940,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
 -1316632262.cos.
-.com/sitejs/hansan.js
 -1688-wp-media/ads/
 -90mh-gg.
 .bid/ads/
@@ -61995,6 +62011,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 .com/Runtime/js/psCreat.js
 .com/sc/*?n=$script,third-party
 .com/sh/to/$script,third-party,xmlhttprequest
+.com/sitejs/hansan.js
 .com/static/js/ad.js
 .com/style/vue.js?v=
 .com/tonglan.js
@@ -63502,8 +63519,10 @@ newduba.cn###jq_youxi
 ||bdates.fun^
 ||berylnbb.com^
 ||betcss.site^
+||bifyeldv.top^
 ||bkhblj.xyz^
 ||boewgph.icu^
+||bttazsyk.icu^
 ||caider.fun^
 ||chiese.site^
 ||ciadre.fun^
@@ -63548,12 +63567,14 @@ newduba.cn###jq_youxi
 ||hypwbv.xyz^
 ||hzhabei.cn^
 ||ipadf.xyz^
+||iplm.cc^
 ||jdcnwd.com^
 ||jh16csf.com^
 ||jhzfwl.cn^
 ||jokerlulm.com^
 ||jpqed.xyz^
 ||jrmrijv.icu^
+||jszavs1.com^
 ||jujcjz.xyz^
 ||kahgjjd.com^
 ||kgeesh.site^
@@ -63570,6 +63591,7 @@ newduba.cn###jq_youxi
 ||metaversemolecule.com^
 ||mlstx.cn^
 ||moobtcnse.xyz^
+||ngbthf.xyz^
 ||nieae.xyz^
 ||nryqr.cn^
 ||oifyeldk.top^
@@ -63578,11 +63600,14 @@ newduba.cn###jq_youxi
 ||pcvzpj.xyz^
 ||pirxzl.xyz^
 ||plbs9k.icu^
+||pmxalz.xyz^
 ||powedw.com^
 ||pr88vhg.com^
 ||pstvvb.xyz^
 ||qhx1h2g.com^
 ||qifyeldy.top^
+||qqnde.xyz^
+||qselic.top^
 ||rdufuxr.icu^
 ||relafp.xyz^
 ||ronbbf.xyz^
@@ -63595,6 +63620,7 @@ newduba.cn###jq_youxi
 ||ssjuxsc.cn^
 ||tgbevv.xyz^
 ||tifyeldi.top^
+||tmwbszn.icu^
 ||tqdctl.xyz^
 ||uejdsw.com^
 ||ulojlvmejkaem.xyz^
@@ -63613,13 +63639,6 @@ newduba.cn###jq_youxi
 ||zcvyzsyd.icu^
 ||zerolcp.cn^
 ||zfcdirf.icu^
-||jszavs1.com^
-||tmwbszn.icu^
-||qselic.top^
-||pmxalz.xyz^
-||qqnde.xyz^
-||ngbthf.xyz^
-||iplm.cc^
 ||zfteiv.xyz^
 ||ziravd.xyz^
 ||zonyff.xyz^
@@ -79548,6 +79567,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||money18.on.cc/js/adbanner.js
 @@||moneysave.info^$generichide
 @@||monnsutogatya.com^$elemhide
+@@||moyens.net^$generichide
 @@||ms332.com^$generichide
 @@||muzlan.top/ads/banner.png
 @@||muzlan.top^$generichide
