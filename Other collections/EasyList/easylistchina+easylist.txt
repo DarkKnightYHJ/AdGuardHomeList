@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KU1YC7ekUu0Q7va89LgXxQ
-! Version: 202307160102
+! Checksum: 1bQLa2v6s/bFn19U4IJ7yQ
+! Version: 202307160240
 ! Title: EasyList China+EasyList
-! Last modified: 16 Jul 2023 01:02 UTC
+! Last modified: 16 Jul 2023 02:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -7303,7 +7303,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||102tv.cn/js/main.js
 ||107.172.176.197^
 ||107.182.131.103/cache/?q=/images/
-||107cine.com/front/js/layer.js
 ||108.171.248.234^
 ||10fang.com/static/skin/tfy/layer/layer.js
 ||11.mydrivers.com/drivers/
@@ -11664,6 +11663,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+16fan.com##.item-newad
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -14234,8 +14234,6 @@ admin5.com##.float_both_index
 iqiyi.com##.float_div
 iqiyi.com##.float_div_r
 jpsub.com##.floatbar_div
-107cine.com##.flow-other
-107cine.com##.flow_right > div[style="margin-top:20px;"]
 sojson.com##.fly-hezuo
 followme.cn##.fm-banner-social
 cnblogs.com##.focus-gg
@@ -14555,7 +14553,7 @@ oschina.net##.index-ad-wrap
 cndesign.com##.index-add
 py.cn##.index-advert
 speedtest.cn##.index-advertising
-16fan.com,jianshen8.com,manwa.me##.index-banner
+jianshen8.com,manwa.me##.index-banner
 1avlang.com,avavl4.com,avlang.com##.index-info > .tac
 kpd122.com,ssp28.pw##.index-owl-carousel
 bilibili.com##.index-promote
@@ -16257,7 +16255,6 @@ peizimenhu.com##a[href^="http"]:not([href*=".peizimenhu."]) > img[src^="data/att
 wn789.com##a[href^="http"]:not([href*="://www.wn789."]) > img
 ilvruan.com##a[href^="http"]:not([href*="ilvruan"]) > img
 stock87.com##a[href^="http"]:not([href*="stock87."]) > img[src*="uploadfiles/image/"]
-107cine.com##a[href^="http://107cine.com/ads/"]
 hepuwang.com##a[href^="http://ad."]
 m.nownews.com##a[href^="http://ad1.nownews.com"]
 big5.china.com.cn##a[href^="http://big5.china.com.cn/gate/big5/"]:not([href*="/science."])
@@ -19739,7 +19736,6 @@ fqsousou.com,kengso.com#@#.user-share
 !-----------------------General advert blocking filters-----------------------!
 ! *** easylist:easylist/easylist_general_block.txt ***
 -ad-300x600-
--ad-336x280-
 -ad-458x80.
 -ad-banner-
 -ad-bottom-
@@ -19927,15 +19923,12 @@ fqsousou.com,kengso.com#@#.user-share
 .cgi?ad=
 .ch/adv/
 .clkads.
-.club/ads.
 .club/js/popunder.js
 .cn/sc/*?n=$script,third-party
-.co/ads?
 .com/?ad=
 .com/a?pagetype
 .com/ad/$~image,third-party,domain=~mediaplex.com|~warpwire.com
 .com/ad?
-.com/adclk?
 .com/adds/
 .com/adinf/
 .com/adlib/
@@ -19953,7 +19946,6 @@ fqsousou.com,kengso.com#@#.user-share
 .cz/adv/
 .cz/affil/
 .cz/bannery/
-.ec/ads/
 .eg/ads/
 .es/adv/
 .eu/ads/$domain=~scutt.eu
@@ -19975,11 +19967,9 @@ fqsousou.com,kengso.com#@#.user-share
 .in/ads/
 .info/ads-
 .info/ads/
-.intad/
 .io/ads/
 .is/ads/
 .jp/ads/$third-party,domain=~hs-exp.jp
-.jsp?adcode=
 .ke/ads/
 .lazyload-ad-
 .lazyload-ad.
@@ -20025,10 +20015,8 @@ fqsousou.com,kengso.com#@#.user-share
 .php?ad_
 .php?adsid=
 .php?adv=
-.php?adv_
 .php?affid=$domain=~cancun-discounts.com
 .php?clicktag=
-.php?id=ads_
 .php?nats=
 .php?zone_id=
 .php?zoneid=
@@ -20045,18 +20033,15 @@ fqsousou.com,kengso.com#@#.user-share
 .textads.
 .th/ads/
 .to/ads/
-.topad.
 .tv/adl.
 .tv/ads.
 .tv/ads/$image,script,subdocument
-.twoads.
 .tz/ads/
 .ug/ads/
 .uk/ads.
 .uk/adv/
 .us/ads.
 .us/ads/
-.utils.ads.
 .vert.ad.
 .weborama.js
 .widgets.ad?
@@ -20082,10 +20067,8 @@ fqsousou.com,kengso.com#@#.user-share
 /AA/rndskittytor.com/*
 /AA/theologicalpresentation.com/*
 /ab_fl.js$script
-/active-ad-
 /ad--unit.
 /ad-125.
-/ad-400.
 /ad-468-
 /ad-600-
 /ad-amz.
@@ -20332,12 +20315,10 @@ fqsousou.com,kengso.com#@#.user-share
 /ad_print.
 /ad_provider.
 /ad_rectangle_
-/ad_red.
 /ad_refresh.
 /ad_refresher.
 /ad_reloader_
 /ad_render_
-/ad_rentangle.
 /ad_request.
 /ad_right.
 /ad_right_
@@ -20376,7 +20357,6 @@ fqsousou.com,kengso.com#@#.user-share
 /ad_text_
 /ad_tile/*
 /ad_title_
-/ad_tools/*
 /ad_top.
 /ad_top/*
 /ad_top_
@@ -20547,39 +20527,22 @@ fqsousou.com,kengso.com#@#.user-share
 /adjug.
 /adjuggler?
 /adkeys.
-/adkingpro-
-/adkingpro/*
-/adlabel.$domain=~adlabel.adgoal.de
 /adlabel_
 /adlantis.
 /adlayer.
 /adlead.$domain=~adlead.co.il|~adlead.com|~adlead.pro|~adlead.ru
-/adleader.
 /adleft.
-/adleft/*
-/adleftsidebar.
 /adlib.$domain=~adlib.info|~adlib.mu|~catharijneconvent.nl|~rws.nl
-/adline.$domain=~adline.co.il|~adline.com|~adline.si
-/adlink-$domain=~adlinktech.com|~github.com|~github.io
-/adlink.$domain=~adlink.com|adlink.guru|~adlinktech.com|~github.com
-/adlink/*$domain=~adlinktech.com|~github.com
 /adlink?
 /adlinks.$domain=~adlinks.io|~adlinks.to
-/adlinks_
-/adloader/*
 /adlog.
 /adlogger_
 /admage.
 /admain.
-/adman-$domain=~adman-industries.com
-/adman.$domain=~adman.com|~adman.ee|~adman.press.pl|~adman.studio
-/adman/*
 /adman_
 /admanager.$~object,~xmlhttprequest,domain=~admanager.alzura.com|~admanager.google.com|~admanager.opera.com|~admanager.roku.com
 /admanager/*$~object,domain=~blog.google|~konograma.com
 /admanager3.
-/admanager_$domain=~konograma.com
-/admanagers/*
 /admarker.$domain=~admarker.co.il
 /admarker_
 /adMarketplace.$domain=~admarketplace.brave.com
@@ -20674,15 +20637,12 @@ fqsousou.com,kengso.com#@#.user-share
 /ads-loader.
 /ads-rectangle.
 /ads-right.
-/ads-screen.
 /ads-sidebar-
 /ads-skyscraper.
 /ads-templateslist.
-/ads.bmp?
 /ads.bundle.
 /ads.cfm?
 /ads.client-
-/ads.cms
 /ads.dll/*
 /ads.entry_
 /ads.jplayer.
@@ -20799,7 +20759,6 @@ fqsousou.com,kengso.com#@#.user-share
 /ads/square-
 /ads/square.
 /ads/sub/*
-/ads/syndicated/*
 /ads/taboola/*
 /ads/tags?
 /ads/takeovers/*
@@ -20809,7 +20768,6 @@ fqsousou.com,kengso.com#@#.user-share
 /ads/tile-
 /ads/top-
 /ads/top.
-/ads/tr_
 /ads/tracker/*
 /ads/tso
 /ads/v/*
@@ -20854,15 +20812,8 @@ fqsousou.com,kengso.com#@#.user-share
 /ads468.
 /ads468x60.
 /ads468x60_
-/ads4j.
-/ads4n.
-/ads5.
-/ads5/*
-/ads5t.
-/ads6/*
 /ads600-
 /ads7.
-/ads7/*
 /ads728.
 /ads728e.
 /ads728x90.
@@ -20942,7 +20893,6 @@ fqsousou.com,kengso.com#@#.user-share
 /adscale.$domain=~adscale.com|~adscale.dev|~adscale.io|~adscale.net|~adscale.pl
 /adscale_$domain=~adscale.com|~adscale.dev
 /adscbg/*
-/adscdn.
 /adsco.$domain=~adsco.com|~adsco.nl
 /adscontent.
 /adscontent2.
@@ -20968,7 +20918,6 @@ fqsousou.com,kengso.com#@#.user-share
 /adSearch?
 /adsec.$domain=~adsec.gr|~adsec.kinsta.cloud
 /adsecondary.
-/adsen/*
 /adsense-$domain=~www.google.com
 /adsense1.
 /adsense2.
@@ -21044,15 +20993,12 @@ fqsousou.com,kengso.com#@#.user-share
 /adsindie/*
 /adsinsert.
 /adsinteractive-
-/adsite/*
-/adsites/*
 /adskin/*
 /adsky.
 /adskyright.
 /adskyscraper.
 /adslide.
 /adslider-
-/adslider/*
 /adslides.
 /adsline.
 /AdsLoad.
@@ -21109,7 +21055,6 @@ fqsousou.com,kengso.com#@#.user-share
 /adssp.
 /adssrv.
 /adstatic.
-/adstemp/*
 /adstemplate/*
 /adsterra_
 /adstitle.
@@ -21122,7 +21067,6 @@ fqsousou.com,kengso.com#@#.user-share
 /Adstream?
 /adstream_
 /adStrip.
-/adstrk.
 /adstub.
 /adstx.
 /adstyle.$~stylesheet,domain=~adstyle.com
@@ -21177,7 +21121,6 @@ fqsousou.com,kengso.com#@#.user-share
 /adtype.
 /adtype=
 /adultadworldpop_
-/adunit/*$domain=~propelmedia.com
 /adunits.
 /adunits/*
 /adunits?
@@ -21200,7 +21143,6 @@ fqsousou.com,kengso.com#@#.user-share
 /adv.jsp
 /adv/?rad_$domain=~rakuten.co.jp
 /adv/adriver
-/adv/banner_
 /adv/box-
 /adv/interstitial.
 /adv/interstitial/*
@@ -21222,15 +21164,12 @@ fqsousou.com,kengso.com#@#.user-share
 /adv4.$domain=~adv4.me
 /Adv468.
 /adv5.
-/adv6.
-/adv8.
 /adv_2.
 /adv_468.
 /adv_468_
 /adv_ads_
 /adv_banner_
 /adv_box_
-/adv_display.
 /adv_head.
 /adv_horiz.
 /adv_image/*
@@ -21295,7 +21234,6 @@ fqsousou.com,kengso.com#@#.user-share
 /advertisingbanner.
 /advertisingbanner/*
 /advertisingbanner_
-/advertisingbutton.
 /advertisingmodule.
 /advertisings.
 /advertisingWebRenderer.min.js
@@ -21388,7 +21326,6 @@ fqsousou.com,kengso.com#@#.user-share
 /afr?auid=
 /afs/ads/*
 /ajax/ad/*
-/ajax/ads_
 /ajaxAd?
 /ajs.php?
 /ajs?auid=
@@ -21426,7 +21363,6 @@ fqsousou.com,kengso.com#@#.user-share
 /app/ads.
 /app/ads/*
 /app/manga/themes/*/ads/pop.js
-/aptads/*
 /apu.php?*&zoneid=
 /arcads.js
 /Article-Ad-
@@ -21449,7 +21385,6 @@ fqsousou.com,kengso.com#@#.user-share
 /atlads/*
 /atlads1/*
 /atnads/*
-/atrads.
 /attractivebuilt.com/*
 /audio-ads/*
 /audioads/*
@@ -21515,7 +21450,6 @@ fqsousou.com,kengso.com#@#.user-share
 /banner_adv/*
 /banner_dfp.
 /banner_dfp_
-/banner_id/*
 /banner_iframe_
 /bannerad.
 /bannerad/*
@@ -21609,7 +21543,6 @@ fqsousou.com,kengso.com#@#.user-share
 /burt/adv_
 /button_ads/*
 /buttonad/*
-/ButtonAd_
 /buttonads.
 /buttonads/*
 /buyad.
@@ -21628,7 +21561,6 @@ fqsousou.com,kengso.com#@#.user-share
 /carbonads/*
 /carousel_ads.
 /carouselads.
-/cbgads.
 /cci-ads-
 /cdn.ad.
 /cdn.ads.
@@ -21812,7 +21744,6 @@ fqsousou.com,kengso.com#@#.user-share
 /displayads2.
 /displayads3.
 /displayadsiframe.
-/displaybanner/*
 /div-ads.
 /dlfeatads.
 /dmcads_
@@ -21823,7 +21754,6 @@ fqsousou.com,kengso.com#@#.user-share
 /download-ad.
 /download/ad.
 /download/ad/*$domain=~dr.dk
-/download/ads
 /drsup-admanager-
 /drsup-admanager/*
 /dspads.
@@ -21843,7 +21773,6 @@ fqsousou.com,kengso.com#@#.user-share
 /embed/ad/*
 /embed/ads.
 /embed_ad.
-/entrepreneurrestorationthereby.com/*
 /ero-ads-
 /ero-ads_
 /ero-advertising.
@@ -21883,20 +21812,16 @@ fqsousou.com,kengso.com#@#.user-share
 /external_ads.
 /externalad.
 /externalads/*
-/extra_ads/*
 /fc_ads.
 /feature/ads/*
 /fel456.js$script
 /file/ad.
-/file/ads/*
-/fileadmin/ads/*
 /files/ad-
 /files/ad/*
 /files/ads-
 /files/ads/*
 /fimserve.
 /finads.
-/first-ad_
 /fixSpecialAdHome.
 /flag_ads.
 /flash/ad/*
@@ -21911,7 +21836,6 @@ fqsousou.com,kengso.com#@#.user-share
 /flesh_banner
 /fleshlight.$domain=~fleshlight.com|~fleshlight.zendesk.com
 /fleshlightcash_
-/flexads?
 /fload.js
 /float-ads/*
 /float_ad.
@@ -21948,7 +21872,6 @@ fqsousou.com,kengso.com#@#.user-share
 /framead-
 /framead_
 /frameads.
-/frameads1.
 /frameads_
 /frameadsz.
 /freead.
@@ -21959,7 +21882,6 @@ fqsousou.com,kengso.com#@#.user-share
 /froloa.js
 /front/ad/*
 /front/ads-
-/frontads/*
 /frontend/ads/*
 /frontend_loader.js
 /frontpagead/*
@@ -21979,7 +21901,6 @@ fqsousou.com,kengso.com#@#.user-share
 /generate_ads.
 /generateAds.
 /generateadtag.
-/generic-ad.
 /generic.ads.
 /get-ads-by-zones/*
 /get.ad?
@@ -21991,13 +21912,10 @@ fqsousou.com,kengso.com#@#.user-share
 /get_adds_
 /get_ads.
 /getad.$domain=~getad.pl|~getad.spd.pt
-/getad/*
-/getAd;
 /getad?
 /getAdAjax/*
 /getadcontent.
 /getadds.
-/GetAdForCallBack?
 /getadframe.
 /getAdList?
 /getads-
@@ -22035,7 +21953,6 @@ fqsousou.com,kengso.com#@#.user-share
 /google-ads/*
 /google-adsense-$domain=~webst8.com
 /google-adsense.
-/google-adverts-
 /google-afc-
 /google-afc.
 /google-dfp-
@@ -22056,7 +21973,6 @@ fqsousou.com,kengso.com#@#.user-share
 /googleads_
 /googleadsafc_
 /googleadsafs_
-/googleAdScripts.
 /GoogleAdSense-
 /googleadsense.
 /googleadservices/*
@@ -22070,7 +21986,6 @@ fqsousou.com,kengso.com#@#.user-share
 /gpt_ads-
 /grid-ad.
 /gsnads-
-/gtv_ads.
 /Handlers/Ads.
 /header-ad-
 /header-ad.
@@ -22164,7 +22079,6 @@ fqsousou.com,kengso.com#@#.user-share
 /imfloat.
 /img-ads.
 /img-ads/*
-/img-advert-
 /img.ads.
 /img/_ad.
 /img/ad-
@@ -22313,7 +22227,6 @@ fqsousou.com,kengso.com#@#.user-share
 /leftad_
 /leftads.
 /legion-advertising-atlasastro/*
-/lg.php?adid=
 /li.blogtrottr.com/imp?
 /lijit-ad-
 /lijitads.
@@ -22338,7 +22251,6 @@ fqsousou.com,kengso.com#@#.user-share
 /logads.
 /logo-ad.
 /logo-ads.
-/logo/ads_
 /logoads.
 /logoutad.
 /longad.
@@ -22390,7 +22302,6 @@ fqsousou.com,kengso.com#@#.user-share
 /moatsdk.min.js
 /mob-ad.
 /mobile-ad.
-/mobile-ads/*
 /mobile_ad.
 /mobile_ad/*
 /mobile_ads-
@@ -22450,8 +22361,6 @@ fqsousou.com,kengso.com#@#.user-share
 /newadvert/*
 /newaff/float
 /nugg.min.js
-/nuggad.
-/nuggad/*
 /Nuggad?
 /nwm-fcn.min.js
 /nwm-pw2.min.js
@@ -22525,7 +22434,6 @@ fqsousou.com,kengso.com#@#.user-share
 /pagepeelpro.
 /PageTopAD.
 /paidads/*
-/panelad.
 /parking_caf_
 /parseForAds.
 /partner-ad-
@@ -22560,7 +22468,6 @@ fqsousou.com,kengso.com#@#.user-share
 /performance_ads/*
 /performancingads/*
 /permanent/ads/*
-/persadpub/*
 /petrol-ad-
 /pfpadv.
 /pgad.
@@ -22577,7 +22484,6 @@ fqsousou.com,kengso.com#@#.user-share
 /phpadsnew/*
 /phpbb_ads/*
 /pic/ads/*
-/pic_adv/*
 /picture/ad/*
 /pictureads/*
 /pictures/ads/*
@@ -22629,7 +22535,6 @@ fqsousou.com,kengso.com#@#.user-share
 /pool.ads.
 /pool/ad/*
 /pop-under.
-/pop?tid=
 /pop_8_2.js
 /pop_ad.
 /pop_ads.
@@ -22669,7 +22574,6 @@ fqsousou.com,kengso.com#@#.user-share
 /popupdfp.
 /popupunder.
 /post-ad-
-/post/ads/*
 /post_ads_
 /postad.
 /postprocad.
@@ -22706,7 +22610,6 @@ fqsousou.com,kengso.com#@#.user-share
 /promo/ad_
 /promo/ads/*
 /promo/affiframe.
-/promoAd.
 /PromosAds/*
 /promotions/ads.
 /promotions/ads/*
@@ -22747,14 +22650,12 @@ fqsousou.com,kengso.com#@#.user-share
 /purch-ad-
 /pushdownAd.
 /pustrck.js
-/PVButtonAd.
 /queryAdContent.
 /quick_ads/*
 /quigo_ad
 /radioAdEmbed.
 /radioadembedgenre.
 /radioAdEmbedGPT.
-/rads/b/*
 /rail_ad_
 /railad.
 /railads.
@@ -22827,8 +22728,6 @@ fqsousou.com,kengso.com#@#.user-share
 /s.ashx?btag
 /sbar.json?key=
 /sc-tagmanager/*
-/script/ad.$~script
-/script/ads_
 /script/java.php?$xmlhttprequest
 /script/nasu.js$third-party
 /script/nrsu.js$third-party
@@ -22953,7 +22852,6 @@ fqsousou.com,kengso.com#@#.user-share
 /slot/dfp/*
 /smalAds.
 /small_ad.
-/small_ad_
 /small_ads/*
 /smallad-
 /smartad-
@@ -22967,18 +22865,15 @@ fqsousou.com,kengso.com#@#.user-share
 /smartlinks.epl?
 /smb/ads/*
 /smeadvertisement/*
-/smoozed-ad/*
 /socialads.$domain=~socialads.eu|~socialads.guru
 /socialads/*
 /soralink.js
 /soralink/*$~stylesheet
 /sp/delivery/*
 /space_ad.
-/spacead/*
 /spacedesc=
 /spark_ad.
 /spc.php
-/spc_fi.php
 /spcjs.php
 /special-ads/*
 /special_ad.
@@ -22988,7 +22883,6 @@ fqsousou.com,kengso.com#@#.user-share
 /specialctrl.js
 /spiderad/*
 /splash_ads_
-/SplashAd_
 /sponlink.
 /spons/banners/*
 /sponslink_
@@ -23051,8 +22945,6 @@ fqsousou.com,kengso.com#@#.user-share
 /stream-ad.
 /streamads.
 /style_ad.
-/styleads2.
-/styles/ad/*
 /Styles/Ad_
 /styles/ads.
 /styles/ads/*
@@ -23061,7 +22953,6 @@ fqsousou.com,kengso.com#@#.user-share
 /superads_
 /suv4.js
 /SWMAdPlayer.
-/syads.
 /synad2.
 /synad3.
 /sync2ad.
@@ -23071,9 +22962,7 @@ fqsousou.com,kengso.com#@#.user-share
 /system/ads/*
 /system/ads_
 /system_ad.
-/systemad.$domain=~systemad.com.pl|~systemad.eu|~systemad.pl
 /systemad_
-/tabads/*
 /taboola-footer.
 /taboola-header.
 /taboola_7.4.1.js
@@ -23083,7 +22972,6 @@ fqsousou.com,kengso.com#@#.user-share
 /taboolaSection.
 /tag-adv.
 /tag_oas.
-/tag_sys.
 /tagadv_
 /tardisrocinante/austin.js
 /targetingAd.
@@ -23095,7 +22983,6 @@ fqsousou.com,kengso.com#@#.user-share
 /templates/ad.
 /templates/ad/*
 /templates/ads/*
-/templates/adv_
 /text_ad.
 /text_ad_
 /text_ads.
@@ -23155,7 +23042,6 @@ fqsousou.com,kengso.com#@#.user-share
 /uploads/adv/*
 /uploads/adv_
 /uploads/xadv_
-/user/ads?
 /user_ads/*
 /userad.$domain=~userad.info
 /userad/*
@@ -23183,7 +23069,6 @@ fqsousou.com,kengso.com#@#.user-share
 /vert_ad.
 /vghd.gif
 /vghd2.gif
-/vice-ads.
 /video-ad-overlay.
 /video-ad.
 /video-ads-player.
@@ -23313,10 +23198,7 @@ fqsousou.com,kengso.com#@#.user-share
 /yads.$domain=~yads.org.il
 /yads/*
 /yads_
-/yahoo-ad-
 /yahoo-ads/*
-/yahoo/ads.
-/YahooAd_
 /yahooads.
 /yahooads/*
 /yahooadsapi.
@@ -23349,12 +23231,10 @@ fqsousou.com,kengso.com#@#.user-share
 =dynamicads&
 =half-page-ad&
 =partnerad&
-=textads&
 ?ab=1&zoneid=
 ?ad_number=
 ?adarea=
 ?adcontext=
-?adformat=
 ?adfox_
 ?adspot_
 ?adunitid=
@@ -23384,7 +23264,6 @@ _ad_choices.
 _ad_content.
 _ad_count=
 _ad_courier.
-_ad_desktop_
 _ad_engine/
 _ad_expand_
 _ad_footer.
@@ -23448,7 +23327,6 @@ _adchoice.
 _adchoices.
 _adcode_
 _adcom.
-_adcontent/
 _adcount=
 _adengage.
 _adengage_
@@ -23514,7 +23392,6 @@ _adsjs.
 _adskin.
 _adskin_
 _adslist.
-_adsys_
 _adtech-
 _adtech.
 _adtech/$~stylesheet
@@ -23523,7 +23400,6 @@ _adtext_
 _adtitle.
 _adunit.
 _adunits/
-_adv_label.
 _adv_open_x/
 _advert.
 _advert/
@@ -23551,7 +23427,6 @@ _asyncspc.
 _background_ad.
 _background_ad/
 _banner-ad.
-_banner_ad-
 _banner_ad.
 _banner_ad/
 _banner_ad_
@@ -23598,11 +23473,8 @@ _headerad.
 _images/ad.
 _images/ad_
 _images/ads/
-_js_ads.
-_js_ads/
 _layerad.
 _left_ad.
-_mid_ad.
 _panel_ads.
 _partner_ad.
 _pop_ad.
@@ -23612,7 +23484,6 @@ _popunder_
 _popupunder.
 _post_ads.
 _preorderad.
-_prime_ad.
 _promo_ad/
 _pushads.
 _radio_ad_
@@ -23640,13 +23511,9 @@ _sidebar_ad_
 _sidebarad_
 _site_sponsor
 _skinad.
-_Slot_Adv_
 _small_ad.
-_sponsor/css/
 _sponsor_banners/
-_sponsor_logic.
 _sponsoredlinks_
-_Spot-Ad_
 _square_ad-
 _square_ad.
 _static/ads/
@@ -23655,7 +23522,6 @@ _sticky_ad.
 _StickyAd.
 _survey_ad_
 _text_ads.
-_textad_$~media
 _textads.
 _textads/
 _top_ad.
@@ -23667,7 +23533,6 @@ _video_ads_
 _videoad.
 _web-advert.
 _Web_ad.
-_web_ad_
 _webad.
 _webad_
 _WebBannerAd_
@@ -23815,7 +23680,6 @@ _prebid8.
 /stn-player/*
 !
 &sadbl=1&chu=
-/g00/*/clientprofiler/adb
 ?zoneid=*&ab=1
 ! linkbucks.com script
 /webservices/jsparselinks.aspx?$script
@@ -23833,7 +23697,6 @@ _prebid8.
 ! Anti-Adblock
 -adblocker-detection/
 -detect-adblock.
-/abp_detection/*
 /abtest_ab.js
 /ad-blocking-advisor/*
 /ad-blocking-alert/*
