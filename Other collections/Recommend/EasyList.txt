@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: aMw+JZvmLOYshhzVKXULIA
-! Version: 202308070850
+! Checksum: oOyW5cyaWxw93VMbDm+Mnw
+! Version: 202308070950
 ! Title: EasyList
-! Last modified: 07 Aug 2023 08:50 UTC
+! Last modified: 07 Aug 2023 09:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2912,7 +2912,6 @@
 /skyadjs/*
 /skyadright.
 /skyplayer-ads-
-/skyscraper-ad.
 /skyscraper_ad_
 /skyscraperad.
 /slide_in_ads_
@@ -7075,6 +7074,7 @@ _800x80_
 ###gad300x250
 ###gad728x90
 ###gads300x250
+###gadsOverlayUnit
 ###gads_middle
 ###galleries-tower-ad
 ###gallery-ad
@@ -53607,7 +53607,7 @@ browsershots.org#@#.advert_area
 ||goldmoney.com/~/media/Images/Banners/
 ||google.com/adsense/ad
 ||google.com/adsense/domains
-||google.com/adsense/search/
+||google.com/adsense/search/$third-party
 ||google.com/dp/ads
 ||google.com/pagead/
 ||googleadapis.l.google.com^$third-party
@@ -62895,6 +62895,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||gakushuin.ac.jp/ad/common/$~third-party
 @@||ganma.jp/view/magazine/viewer/pages/advertisement/googleAdSense.html|$~third-party,xmlhttprequest
 @@||getjad.io/library/$script,domain=allocine.fr
+@@||google.com/adsense/search/ads.js$domain=news.biglobe.ne.jp
 @@||gunosy.co.jp/img/ad/$image,~third-party
 @@||hinagiku-u.ed.jp/wp54/wp-content/themes/hinagiku/images/$image,~third-party
 @@||ias.global.rakuten.com/adv/$script,domain=rakuten.co.jp
