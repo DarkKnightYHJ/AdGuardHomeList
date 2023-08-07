@@ -13,71 +13,396 @@ jobs:
       uses: actions/checkout@v3
     - name: Update list
       run: |
-        wget "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt" -O "Ad Guard Home/General/AdGuard_DNS_filter.txt"
-        wget "https://adaway.org/hosts.txt" -O "Ad Guard Home/General/AdAway_Default_Blocklist.txt"
-        wget "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&mimetype=plaintext" -O "Ad Guard Home/General/Peter_Lowes_Blocklist.txt"
-        wget "https://badmojr.gitlab.io/1hosts/Lite/adblock.txt" -O "Ad Guard Home/General/1Host(Lite).txt"
-        wget "https://badmojr.gitlab.io/1hosts/mini/adblock.txt" -O "Ad Guard Home/General/1Host(mini).txt"
-        wget "https://someonewhocares.org/hosts/zero/hosts" -O "Ad Guard Home/General/Dan_Pollocks_List.txt"
-        wget "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/personal-blackwhite.txt" -O "Ad Guard Home/General/HaGeZi_Personal_Black_White.txt"
-        wget "https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt" -O "Ad Guard Home/General/The_NoTracking_blocklist.txt"
-        wget "https://small.oisd.nl/" -O "Ad Guard Home/General/OISD_Blocklist_Small.txt"
-        wget "https://big.oisd.nl/" -O "Ad Guard Home/General/OISD_Blocklist_Big.txt"
-        wget "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts" -O "Ad Guard Home/General/Steven_Blacks_list.txt"
-        wget "https://malware-filter.gitlab.io/malware-filter/phishing-filter-agh.txt" -O "Ad Guard Home/Security/Phishing URL Blocklist (PhishTank and OpenPhish).txt"
-        wget "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt" -O "Ad Guard Home/Security/Dandelion Sprouts Anti-Malware List.txt"
-        wget "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt" -O "Ad Guard Home/Security/NoCoin Filter List.txt"
-        wget "https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt" -O "Ad Guard Home/Security/Scam Blocklist by DurableNapkin.txt"
-        wget "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Malware" -O "Ad Guard Home/Security/ShadowWhisperers Malware List.txt"
-        wget "https://raw.githubusercontent.com/AssoEchap/stalkerware-indicators/master/generated/hosts" -O "Ad Guard Home/Security/Stalkerware Indicators List.txt"
-        wget "https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hosts" -O "Ad Guard Home/Security/The Big List of Hacked Malware Web Sites.txt"
-        wget "https://curbengh.github.io/malware-filter/urlhaus-filter-agh.txt" -O "Ad Guard Home/Security/Malicious URL Blocklist (URLHaus).txt"
-        wget "https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt" -O "Ad Guard Home/Regional/CHN AdRules DNS List.txt"
-        wget "https://anti-ad.net/easylist.txt" -O "Ad Guard Home/Regional/CHN anti-AD.txt"
-        wget "https://raw.githubusercontent.com/hufilter/hufilter/master/hufilter-dns.txt" -O "Ad Guard Home/Regional/HUN Huflter.txt"
-        wget "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/aghome.txt" -O "Ad Guard Home/Regional/IDN ABPindo.txt"
-        wget "https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHosts.txt" -O "Ad Guard Home/Regional/IRN PersianBlocker list.txt"
-        wget "https://github.com/List-KR/List-KR" -O "Ad Guard Home/Regional/KOR List-KR DNS.txt"
-        wget "https://raw.githubusercontent.com/yous/YousList/master/hosts.txt" -O "Ad Guard Home/Regional/KOR YousList.txt"
-        wget "https://raw.githubusercontent.com/EasyList-Lithuania/easylist_lithuania/master/EasyListLithuaniaHosts.txt" -O "Ad Guard Home/Regional/LIT EasyList Lithuania.txt"
-        wget "https://raw.githubusercontent.com/cchevy/macedonian-pi-hole-blocklist/master/hosts.txt" -O "Ad Guard Home/Regional/MKD Macedonian Pi-hole Blocklist.txt"
-        wget "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianExperimentalList%20alternate%20versions/NordicFiltersAdGuardHome.txt" -O "Ad Guard Home/Regional/NOR Dandelion Sprouts nordiske filtre.txt"
-        wget "https://hole.cert.pl/domains/domains_adblock.txt" -O "Ad Guard Home/Regional/CERT Polska List of malicious domains.txt"
-        wget "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/hostfile.txt" -O "Ad Guard Home/Regional/POL Polish filters for Pi-hole.txt"
-        wget "https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/master/Frellwits-Swedish-Hosts-File.txt" -O "Ad Guard Home/Regional/SWE Frellwit's Swedish Hosts File.txt"
-        wget "https://raw.githubusercontent.com/bkrucarci/turk-adlist/master/hosts" -O "Ad Guard Home/Regional/TUR turk-adlist.txt"
-        wget "https://raw.githubusercontent.com/symbuzzer/Turkish-Ad-Hosts/main/adguard/filter.txt" -O "Ad Guard Home/Regional/TUR Turkish Ad Hosts.txt"
-        wget "https://abpvn.com/android/abpvn.txt" -O "Ad Guard Home/Regional/VNM ABPVN List.txt"
-        wget "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GameConsoleAdblockList.txt" -O "Ad Guard Home/Others/Dandelion Sprouts Game Console Adblock List.txt"
-        wget "https://raw.githubusercontent.com/nickspaargaren/no-google/master/pihole-google-adguard.txt" -O "Ad Guard Home/Others/No Google.txt"
-        wget "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt" -O "Ad Guard Home/Others/Perflyst and Dandelion Sprouts Smart-TV Blocklist.txt"
-        wget "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt" -O "Ad Guard Home/Others/WindowsSpyBlocker Hosts spy rules.txt"      
-        wget "https://raw.githubusercontent.com/o0HalfLife0o/list/master/README.md" -O "Other collections/o0HalfLife0o/README.md"
-        wget "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-edentw.txt" -O "Other collections/o0HalfLife0o/ad-edentw.txt"
-        wget "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-mo.txt" -O "Other collections/o0HalfLife0o/ad-mo.txt"
-        wget "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-pc.txt" -O "Other collections/o0HalfLife0o/ad-pc.txt"
-        wget "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad.txt" -O "Other collections/o0HalfLife0o/ad.txt"
-        wget "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad2.txt" -O "Other collections/o0HalfLife0o/ad2.txt"
-        wget "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad3.txt" -O "Other collections/o0HalfLife0o/ad3.txt"
-        wget "https://easylist.to/easylist/easylist.txt" -O "Other collections/EasyList/easylist.txt"
-        wget "https://easylist-downloads.adblockplus.org/easylistchina.txt" -O "Other collections/EasyList/easylistchina.txt"		
-        wget "https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt" -O "Other collections/EasyList/abp-filters-anti-cv.txt"
-        wget "https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt" -O "Other collections/EasyList/easylistchina+easylist.txt"
-        wget "https://easylist-downloads.adblockplus.org/easyprivacy.txt" -O "Other collections/EasyList/easyprivacy.txt"
-        wget "https://www.i-dont-care-about-cookies.eu/abp/" -O "Other collections/Others/i-dont-care-about-cookies.txt"
-        wget "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt" -O "Other collections/Others/cjx-annoyance.txt"
-        wget "https://filters.adtidy.org/android/filters/15_optimized.txt" -O "Other collections/Others/15_optimized.txt"
-        wget "https://anti-ad.net/adguard.txt" -O "Other collections/Others/adguard.txt"
-        wget "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt" -O "Other collections/Recommend/AdGuard DNS Filter.txt"
-        wget "https://easylist-downloads.adblockplus.org/easylist.txt" -O "Other collections/Recommend/EasyList.txt"
-        wget "https://easylist-downloads.adblockplus.org/easylistchina.txt" -O "Other collections/Recommend/EasyList China.txt"
-        wget "https://easylist-downloads.adblockplus.org/easyprivacy.txt" -O "Other collections/Recommend/EasyPrivacy.txt"
-        wget "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad.txt" -O "Other collections/Recommend/Halflife.txt"
-        wget "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt" -O "Other collections/Recommend/Xinggsf.txt"
-        wget "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt" -O "Other collections/Recommend/Xinggsf Video.txt"
-        wget "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt" -O "Other collections/Recommend/Adblock Warning Removal List.txt"
-        wget "https://anti-ad.net/easylist.txt" -O "Other collections/Recommend/Anti-AD.txt"
-        wget "https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt" -O "Other collections/Recommend/Fanboy’s Annoyances List.txt"
+        if wget "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt" -O "Ad Guard Home/General/AdGuard_DNS_filter.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://adaway.org/hosts.txt" -O "Ad Guard Home/General/AdAway_Default_Blocklist.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if  wget "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&mimetype=plaintext" -O "Ad Guard Home/General/Peter_Lowes_Blocklist.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://badmojr.gitlab.io/1hosts/Lite/adblock.txt" -O "Ad Guard Home/General/1Host(Lite).txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://badmojr.gitlab.io/1hosts/mini/adblock.txt" -O "Ad Guard Home/General/1Host(mini).txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://someonewhocares.org/hosts/zero/hosts" -O "Ad Guard Home/General/Dan_Pollocks_List.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/personal-blackwhite.txt" -O "Ad Guard Home/General/HaGeZi_Personal_Black_White.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt" -O "Ad Guard Home/General/The_NoTracking_blocklist.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://small.oisd.nl/" -O "Ad Guard Home/General/OISD_Blocklist_Small.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://big.oisd.nl/" -O "Ad Guard Home/General/OISD_Blocklist_Big.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts" -O "Ad Guard Home/General/Steven_Blacks_list.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://malware-filter.gitlab.io/malware-filter/phishing-filter-agh.txt" -O "Ad Guard Home/Security/Phishing URL Blocklist (PhishTank and OpenPhish).txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt" -O "Ad Guard Home/Security/Dandelion Sprouts Anti-Malware List.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt" -O "Ad Guard Home/Security/NoCoin Filter List.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt" -O "Ad Guard Home/Security/Scam Blocklist by DurableNapkin.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Malware" -O "Ad Guard Home/Security/ShadowWhisperers Malware List.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/AssoEchap/stalkerware-indicators/master/generated/hosts" -O "Ad Guard Home/Security/Stalkerware Indicators List.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hosts" -O "Ad Guard Home/Security/The Big List of Hacked Malware Web Sites.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://curbengh.github.io/malware-filter/urlhaus-filter-agh.txt" -O "Ad Guard Home/Security/Malicious URL Blocklist (URLHaus).txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt" -O "Ad Guard Home/Regional/CHN AdRules DNS List.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://anti-ad.net/easylist.txt" -O "Ad Guard Home/Regional/CHN anti-AD.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/hufilter/hufilter/master/hufilter-dns.txt" -O "Ad Guard Home/Regional/HUN Huflter.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/aghome.txt" -O "Ad Guard Home/Regional/IDN ABPindo.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHosts.txt" -O "Ad Guard Home/Regional/IRN PersianBlocker list.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://github.com/List-KR/List-KR" -O "Ad Guard Home/Regional/KOR List-KR DNS.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/yous/YousList/master/hosts.txt" -O "Ad Guard Home/Regional/KOR YousList.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/EasyList-Lithuania/easylist_lithuania/master/EasyListLithuaniaHosts.txt" -O "Ad Guard Home/Regional/LIT EasyList Lithuania.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/cchevy/macedonian-pi-hole-blocklist/master/hosts.txt" -O "Ad Guard Home/Regional/MKD Macedonian Pi-hole Blocklist.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianExperimentalList%20alternate%20versions/NordicFiltersAdGuardHome.txt" -O "Ad Guard Home/Regional/NOR Dandelion Sprouts nordiske filtre.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://hole.cert.pl/domains/domains_adblock.txt" -O "Ad Guard Home/Regional/CERT Polska List of malicious domains.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/hostfile.txt" -O "Ad Guard Home/Regional/POL Polish filters for Pi-hole.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/master/Frellwits-Swedish-Hosts-File.txt" -O "Ad Guard Home/Regional/SWE Frellwit's Swedish Hosts File.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/bkrucarci/turk-adlist/master/hosts" -O "Ad Guard Home/Regional/TUR turk-adlist.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/symbuzzer/Turkish-Ad-Hosts/main/adguard/filter.txt" -O "Ad Guard Home/Regional/TUR Turkish Ad Hosts.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://abpvn.com/android/abpvn.txt" -O "Ad Guard Home/Regional/VNM ABPVN List.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GameConsoleAdblockList.txt" -O "Ad Guard Home/Others/Dandelion Sprouts Game Console Adblock List.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/nickspaargaren/no-google/master/pihole-google-adguard.txt" -O "Ad Guard Home/Others/No Google.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt" -O "Ad Guard Home/Others/Perflyst and Dandelion Sprouts Smart-TV Blocklist.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt" -O "Ad Guard Home/Others/WindowsSpyBlocker Hosts spy rules.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/o0HalfLife0o/list/master/README.md" -O "Other collections/o0HalfLife0o/README.md"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-edentw.txt" -O "Other collections/o0HalfLife0o/ad-edentw.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-mo.txt" -O "Other collections/o0HalfLife0o/ad-mo.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-pc.txt" -O "Other collections/o0HalfLife0o/ad-pc.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad.txt" -O "Other collections/o0HalfLife0o/ad.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad2.txt" -O "Other collections/o0HalfLife0o/ad2.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad3.txt" -O "Other collections/o0HalfLife0o/ad3.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://easylist.to/easylist/easylist.txt" -O "Other collections/EasyList/easylist.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://easylist-downloads.adblockplus.org/easylistchina.txt" -O "Other collections/EasyList/easylistchina.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt" -O "Other collections/EasyList/abp-filters-anti-cv.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt" -O "Other collections/EasyList/easylistchina+easylist.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://easylist-downloads.adblockplus.org/easyprivacy.txt" -O "Other collections/EasyList/easyprivacy.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://www.i-dont-care-about-cookies.eu/abp/" -O "Other collections/Others/i-dont-care-about-cookies.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt" -O "Other collections/Others/cjx-annoyance.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://filters.adtidy.org/android/filters/15_optimized.txt" -O "Other collections/Others/15_optimized.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://anti-ad.net/adguard.txt" -O "Other collections/Others/adguard.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt" -O "Other collections/Recommend/AdGuard DNS Filter.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://easylist-downloads.adblockplus.org/easylist.txt" -O "Other collections/Recommend/EasyList.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://easylist-downloads.adblockplus.org/easylistchina.txt" -O "Other collections/Recommend/EasyList China.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://easylist-downloads.adblockplus.org/easyprivacy.txt" -O "Other collections/Recommend/EasyPrivacy.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad.txt" -O "Other collections/Recommend/Halflife.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt" -O "Other collections/Recommend/Xinggsf.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt" -O "Other collections/Recommend/Xinggsf Video.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt" -O "Other collections/Recommend/Adblock Warning Removal List.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://anti-ad.net/easylist.txt" -O "Other collections/Recommend/Anti-AD.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
+        if wget "https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt" -O "Other collections/Recommend/Fanboy’s Annoyances List.txt"; then
+          echo "Download successful"
+        else
+          echo "Download failed"
+        fi
+
       continue-on-error: true
     - name: Get Current Time
       id: t1
