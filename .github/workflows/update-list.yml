@@ -78,6 +78,7 @@ jobs:
         wget "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt" -O "Other collections/Recommend/Adblock Warning Removal List.txt"
         wget "https://anti-ad.net/easylist.txt" -O "Other collections/Recommend/Anti-AD.txt"
         wget "https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt" -O "Other collections/Recommend/Fanboy’s Annoyances List.txt"
+      continue-on-error: true
     - name: Get Current Time
       id: t1
       uses: Kaven-Universe/github-action-current-date-time@v1
