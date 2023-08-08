@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: U2/gKdjGvWtxa7QT1+xgtg
-! Version: 202308072240
+! Checksum: IH5HCl4IlrOt2bbbuysi/A
+! Version: 202308080031
 ! Title: EasyList China
-! Last modified: 07 Aug 2023 22:40 UTC
+! Last modified: 08 Aug 2023 00:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1469,7 +1469,7 @@ newduba.cn###jq_youxi
 ##a[href*=".com/?Extend="]
 ##a[href*=".com/Register.aspx?aid="]
 ##a[href*=".com/Register/?a="]
-##a[href*=".com?aff="]
+~allthingsopen.org##a[href*=".com?aff="]
 ##a[href*=".com?intr="]
 ~shenguangai.com##a[href*=".shenguangai.com/"]
 ##a[href*=".taobao.com"] > .top1
@@ -2032,6 +2032,13 @@ newduba.cn###jq_youxi
 ||ziravd.xyz^
 ||znyjmbh.icu^
 ||zonyff.xyz^
+||xmawwbz.icu^
+||thesac7.top^
+||hgjjk45.com^
+||vghnnh.xyz^
+||uwgnpkd.cn^
+||mkjnbg.com^
+||laljjn.xyz^
 ||zxrcfw.com^
 ||zypzzv.xyz^
 !
@@ -11615,8 +11622,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||vps234.com/resources/images/hosting-promotion/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+imnks.com##.adTags
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17873,7 +17882,6 @@ jmcomic1.city,jmcomic1.win##a[href^="http"]:not([href*="jmcom"]) > img
 ||18comic.*/media/albums/*?$media
 ||18comic.*/media/logo/
 ||18comic.*/static/resources/files/*0x
-||18comic.*/static/resources/images/*.gif
 ||18comic.*/static/resources/images/168/
 ||18comic.*/static/resources/images/300
 ||18comic.*/static/resources/images/JGG/
