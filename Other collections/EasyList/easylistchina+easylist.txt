@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: nIzH/Tj2RQs4viNZ0Fmj1A
-! Version: 202308081202
+! Checksum: iU8VqQA/Gv6aoXEr+KSM8A
+! Version: 202308081250
 ! Title: EasyList China+EasyList
-! Last modified: 08 Aug 2023 12:02 UTC
+! Last modified: 08 Aug 2023 12:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -11633,6 +11633,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||vps234.com/resources/images/hosting-promotion/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+hkgolden.com##.hkg-ad
 imnks.com##.adTags
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -40438,6 +40439,7 @@ kincho.co.jp,niji-gazo.com#@#.ad-block
 job.inshokuten.com,sexgr.net,webbtelescope.org#@#.ad-box
 dbook.docomo.ne.jp,dmagazine.docomo.ne.jp#@#.ad-button
 livedoorblogstyle.jp#@#.ad-center
+newegg.com#@#.ad-click
 backcar.fr,flat-ads.com,job.inshokuten.com#@#.ad-content
 dbook.docomo.ne.jp,dmagazine.docomo.ne.jp#@#.ad-cover
 wallpapers.com#@#.ad-enabled
@@ -40577,7 +40579,8 @@ bloomberg.com#@#.page-ad
 rottentomatoes.com#@#.page_ad
 player.ex.co#@#.pbs__player
 gumtree.com#@#.postad
-komplett.dk,komplett.no,komplett.se,komplettbedrift.no,komplettforetag.se#@#.product-ad
+komplett.dk,komplett.no,komplett.se,komplettbedrift.no,komplettforetag.se,newegg.com#@#.product-ad
+newegg.com#@#.product-ads
 ebaumsworld.com#@#.promoAd
 galaopublicidade.com#@#.publicidade
 eneuro.org,jneurosci.org#@#.region-ad-top
@@ -41068,6 +41071,7 @@ browsershots.org#@#.advert_area
 ||369c1a9a90.com^
 ||369c83119d.com^
 ||36d1ef387c.com^
+||37.44x.io^
 ||3711c45955.com^
 ||37e5693aa7.com^
 ||3819544f76.com^
@@ -49216,6 +49220,7 @@ browsershots.org#@#.advert_area
 ||elasticad.net^
 ||elaterconditin.info^
 ||elbertmemoria.com^
+||elbowsmouldoral.com^
 ||eldestcasualelements.com^
 ||eldestcontribution.com^
 ||eldestequivalentdrain.com^
@@ -53047,6 +53052,7 @@ browsershots.org#@#.advert_area
 ||ingramony.com^
 ||ingraveminever.com^
 ||inhabitantquestions.com^
+||inhabitkosha.com^
 ||inhaletroubledgentle.com^
 ||inheresunlying.guru^
 ||inheretherme.com^
@@ -54366,6 +54372,7 @@ browsershots.org#@#.advert_area
 ||labsappland.com^
 ||labsoacu.com^
 ||lacanggha.com^
+||lacertfeedlot.com^
 ||lackgoodwillmagnet.com^
 ||lacquerreddeform.com^
 ||ladbrokesaffiliates.com.au^
@@ -61393,6 +61400,7 @@ browsershots.org#@#.advert_area
 ||rvxqnjsczubld.com^
 ||rwated.com^
 ||rwfnpayyn.xyz^
+||rwjqdbimphvg.com^
 ||rwkdqtenbr.com^
 ||rwkqbunoehe.com^
 ||rwtujypxp.xyz^
@@ -64868,6 +64876,7 @@ browsershots.org#@#.advert_area
 ||twistads.com^
 ||twistconcept.com^
 ||twisteryirr.com^
+||twithdifyferukentas.info^
 ||twittad.com^
 ||twohrxbrns.com^
 ||twokidjay.com^
@@ -65643,6 +65652,7 @@ browsershots.org#@#.advert_area
 ||vddf0.club^
 ||vdlvry.com^
 ||vdopia.com^
+||vdoubt.com^
 ||vebadu.com^
 ||vectisamerica.com^
 ||vecturequotes.com^
@@ -65999,6 +66009,7 @@ browsershots.org#@#.advert_area
 ||voosegou.xyz^
 ||vooshagy.net^
 ||vooshozo.com^
+||voowiche.com^
 ||voqqdmezdbbr.com^
 ||voredi.com^
 ||vossulekuk.com^
@@ -67209,6 +67220,7 @@ browsershots.org#@#.advert_area
 ||xxyrsunjbcuj.xyz^
 ||xyardnle.com^
 ||xydbpbnmo.com^
+||xyhuoi.com^
 ||xyjaewocysv.com^
 ||xylansudra.cam^
 ||xylaoppress.com^
@@ -80602,6 +80614,7 @@ coffeeordie.com##div.HtmlModule > [href]
 steamgifts.com##div.dont_block_me
 baking-forums.com,windows10forums.com##div.message--post.message
 forward.com##div.sticky-container:first-child
+newegg.com##div.swiper-slide[data-sponsored-catalyst]
 inverse.com##div.zz
 liverpoolway.co.uk##div[align="center"] > a[href]
 nexusradio.com##div[align=center]

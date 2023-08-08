@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202308081208
+! Version: 202308081229
 ! Title: EasyList
-! Last modified: 08 Aug 2023 12:08 UTC
+! Last modified: 08 Aug 2023 12:29 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -20716,6 +20716,7 @@ kincho.co.jp,niji-gazo.com#@#.ad-block
 job.inshokuten.com,sexgr.net,webbtelescope.org#@#.ad-box
 dbook.docomo.ne.jp,dmagazine.docomo.ne.jp#@#.ad-button
 livedoorblogstyle.jp#@#.ad-center
+newegg.com#@#.ad-click
 backcar.fr,flat-ads.com,job.inshokuten.com#@#.ad-content
 dbook.docomo.ne.jp,dmagazine.docomo.ne.jp#@#.ad-cover
 wallpapers.com#@#.ad-enabled
@@ -20855,7 +20856,8 @@ bloomberg.com#@#.page-ad
 rottentomatoes.com#@#.page_ad
 player.ex.co#@#.pbs__player
 gumtree.com#@#.postad
-komplett.dk,komplett.no,komplett.se,komplettbedrift.no,komplettforetag.se#@#.product-ad
+komplett.dk,komplett.no,komplett.se,komplettbedrift.no,komplettforetag.se,newegg.com#@#.product-ad
+newegg.com#@#.product-ads
 ebaumsworld.com#@#.promoAd
 galaopublicidade.com#@#.publicidade
 eneuro.org,jneurosci.org#@#.region-ad-top
@@ -21346,6 +21348,7 @@ browsershots.org#@#.advert_area
 ||369c1a9a90.com^
 ||369c83119d.com^
 ||36d1ef387c.com^
+||37.44x.io^
 ||3711c45955.com^
 ||37e5693aa7.com^
 ||3819544f76.com^
@@ -45926,6 +45929,7 @@ browsershots.org#@#.advert_area
 ||vddf0.club^
 ||vdlvry.com^
 ||vdopia.com^
+||vdoubt.com^
 ||vebadu.com^
 ||vectisamerica.com^
 ||vecturequotes.com^
@@ -47256,6 +47260,8 @@ browsershots.org#@#.advert_area
 ||wwpush22.com^
 ||wwrpfevyca.com^
 ||wwry.xyz^
+||www6.hentai-zone.com^
+||www8.upload-pics.com^
 ||wwwadcntr.com^
 ||wwwowww.xyz^
 ||wwwpromoter.com^
@@ -47491,6 +47497,7 @@ browsershots.org#@#.advert_area
 ||xxyrsunjbcuj.xyz^
 ||xyardnle.com^
 ||xydbpbnmo.com^
+||xyhuoi.com^
 ||xyjaewocysv.com^
 ||xylansudra.cam^
 ||xylaoppress.com^
@@ -60884,6 +60891,7 @@ coffeeordie.com##div.HtmlModule > [href]
 steamgifts.com##div.dont_block_me
 baking-forums.com,windows10forums.com##div.message--post.message
 forward.com##div.sticky-container:first-child
+newegg.com##div.swiper-slide[data-sponsored-catalyst]
 inverse.com##div.zz
 liverpoolway.co.uk##div[align="center"] > a[href]
 nexusradio.com##div[align=center]
