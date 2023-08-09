@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VkJ5FdEKFzfMkY7Mut13kQ
+! Checksum: Zk+01L2CnL+zPTT/WgxPsw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202308092009
-! Last Modified: 2023年08月09日 20:09
+! Version: 202308100206
+! Last Modified: 2023年08月10日 02:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -795,13 +795,10 @@ tieba.baidu.com##.tuijian-wrap
 /ad/dfp/*
 /ad/empty.
 /ad/err?
-/ad/files/*
 /ad/get_
 /ad/getban?
 /ad/guest/*
 /ad/html/*
-/ad/iframe.
-/ad/iframe/*
 /ad/image/*
 /ad/images/*$domain=~studiocalling.it
 /ad/img/*
@@ -810,7 +807,6 @@ tieba.baidu.com##.tuijian-wrap
 /ad/index/*
 /Ad/Index?
 /ad/index_
-/ad/inline?
 /ad/jsonp/*
 /ad/leaderboard.
 /ad/load.
@@ -1732,6 +1728,8 @@ tieba.baidu.com##.tuijian-wrap
 /adunits.
 /adunits/*
 /adunits?
+/adUnitsBreakpoints.
+/adUnitsData.
 /adunix.
 /adutil.
 /adutils.
@@ -2509,6 +2507,7 @@ tieba.baidu.com##.tuijian-wrap
 /googleadsafc_
 /googleadsafs_
 /GoogleAdSense-
+/googleAdsManager.
 /googleadsmodule.
 /googleadunit?
 /googleafc.
@@ -31701,7 +31700,6 @@ browsershots.org#@#.advert_area
 ||get-things-done.net^
 ||get2m5sgstohne.com^
 ||get2nesoft1.ru^
-||getadjacent.com^
 ||getadx.com^
 ||getalltraffic.com^
 ||getapo.com^
@@ -33274,7 +33272,6 @@ browsershots.org#@#.advert_area
 ||hypozoabytes.life^
 ||hyrcanquittor.com^
 ||hyrewusha.pro^
-||hyros.com^
 ||hystericalpotprecede.com^
 ||hystrixcreped.com^
 ||hyyaofjnidwiyg.com^
@@ -49142,6 +49139,7 @@ browsershots.org#@#.advert_area
 ||hotelscombined.com.au^$third-party
 ||hprofits.com^$third-party
 ||httpool.com^$third-party
+||hyros.com^$third-party
 ||ibannerexchange.com^$third-party
 ||ibillboard.com^$third-party
 ||icorp.ro^$third-party
@@ -61136,7 +61134,7 @@ greatist.com##aside
 everydayrussianlanguage.com##aside img[src^="/wp-content/themes/edr/img/"]
 thefinancialbrand.com##aside[class][style*="cursor:"]
 geoguessr.com##aside[class^="ad_"]
-filecrypt.co##button:not(.deleteall):not(.clearup):not(#cnl_btn):not(.dlcdownload):not(.pff):not(.addnew):not(.submit)
+filecrypt.cc,filecrypt.co##button:not(.deleteall):not(.clearup):not(#cnl_btn):not(.dlcdownload):not(.pff):not(.addnew):not(.submit)
 psycom.net##center > .vh-quiz-qborder
 mangas-raw.com##center > div[style]
 greekreporter.com##center > p > [href]
@@ -61162,6 +61160,7 @@ coincodex.com##div[class*="_sticky-header"]
 pcgamer.com,techcrunch.com,tomsguide.com,tomshardware.com##div[class*="ad-unit"]
 issuu.com##div[class*="adPlacement"]
 issuu.com##div[class*="adSkyscraper"]
+dallasnews.com##div[class*="features-ads"]
 ladbible.com,unilad.co.uk##div[class*="margin-Advert"]
 apkcombo.com##div[class*="revamp-ads"]
 cryptoslate.com,newsbtc.com##div[class*="sticky-header"]
@@ -61259,6 +61258,7 @@ momondo.at,momondo.be,momondo.ca,momondo.ch,momondo.cl,momondo.co.nz,momondo.co.
 linustechtips.com##div[data-role="sidebarAd"]
 ecosia.org##div[data-test-id="mainline-result-ad"]
 investing.com##div[data-test="ad-slot-visible"]
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[data-testid="cellInnerDiv"] > div.css-1dbjc4n > div[class="css-1dbjc4n"] > div[class="css-1dbjc4n"][data-testid="placementTracking"]
 qwant.com##div[data-testid="productAdsMicrosoft.container"]
 chrome-stats.com##div[id*="billboard_responsive"]
 thenewspaper.gr##div[id*="thene-"]
@@ -61934,7 +61934,6 @@ tossinggames.com#?#tbody:-abp-contains(Please visit our below advertisers)
 tripadvisor.at,tripadvisor.be,tripadvisor.ca,tripadvisor.ch,tripadvisor.cl,tripadvisor.cn,tripadvisor.co,tripadvisor.co.id,tripadvisor.co.il,tripadvisor.co.kr,tripadvisor.co.nz,tripadvisor.co.uk,tripadvisor.co.za,tripadvisor.com,tripadvisor.com.ar,tripadvisor.com.au,tripadvisor.com.br,tripadvisor.com.eg,tripadvisor.com.gr,tripadvisor.com.hk,tripadvisor.com.mx,tripadvisor.com.my,tripadvisor.com.pe,tripadvisor.com.ph,tripadvisor.com.sg,tripadvisor.com.tr,tripadvisor.com.tw,tripadvisor.com.ve,tripadvisor.com.vn,tripadvisor.de,tripadvisor.dk,tripadvisor.es,tripadvisor.fr,tripadvisor.ie,tripadvisor.in,tripadvisor.it,tripadvisor.jp,tripadvisor.nl,tripadvisor.pt,tripadvisor.ru,tripadvisor.se#?#.listItem:-abp-has(.sponsored_v2)
 tumblr.com#?#.ge_yK:-abp-has(.hM19_)
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid="UserCell"]:-abp-has(path[d$="10H8.996V8h7v7z"])
-twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion,twitter.com##div[data-testid="cellInnerDiv"] > div.css-1dbjc4n > div[class="css-1dbjc4n"] > div[class="css-1dbjc4n"][data-testid="placementTracking"]
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid="eventHero"]:-abp-has(path[d$="10H8.996V8h7v7z"])
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#article[data-testid="tweet"]:-abp-has(path[d$="10H8.996V8h7v7z"])
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid="trend"]:-abp-has(path[d$="10H8.996V8h7v7z"])
@@ -61951,7 +61950,7 @@ xing.com#?#div[class^="styles-grid-col-"]:-abp-has(span[class^="MediaObject-Medi
 yelp.at,yelp.be,yelp.ca,yelp.ch,yelp.cl,yelp.co.jp,yelp.co.nz,yelp.co.uk,yelp.com,yelp.com.ar,yelp.com.au,yelp.com.br,yelp.com.hk,yelp.com.mx,yelp.com.ph,yelp.com.sg,yelp.com.tr,yelp.cz,yelp.de,yelp.dk,yelp.es,yelp.fi,yelp.fr,yelp.ie,yelp.it,yelp.my,yelp.nl,yelp.no,yelp.pl,yelp.pt,yelp.se#?#div[class^=" container_"]:-abp-has(a[href^="/adredir?"])
 1001tracklists.com#?#a[onclick^='gaLnkTr']
 bestbuy.com#?#[id^="atwb-ninja-carousel"]
-filecrypt.co#?#div:-abp-properties(max-width: 900px;)
+filecrypt.co,filecrypt.cc#?#div:-abp-properties(max-width: 900px;)
 metager.org#?#.result:-abp-has(a[href^="https://r.search.yahoo.com/"])
 metager.org#?#.result:-abp-has(a[href^="https://metager.org"][href*="/partner/r?"])
 virtuagirlgirls.com###DynamicBackgroundWrapper
@@ -65147,11 +65146,14 @@ newduba.cn###jq_youxi
 ||89mtdab.xyz^
 ||a8age.com^
 ||a9able.com^
+||aaenv48847h.com^
 ||abdluv.xyz^
 ||abrnfctkn.xyz^
 ||akdie.xyz^
 ||allcp.xyz^
 ||amerzbj.cn^
+||aqvwn18102h.com^
+||b4g7k9d2.com^
 ||baiduisjkbvsjkl.com^
 ||baiduvjsbvjknlsvsv.com^
 ||baitaiz.com^
@@ -65216,6 +65218,7 @@ newduba.cn###jq_youxi
 ||dojyiu8.com^
 ||donchen501.cn^
 ||dosre12.xyz^
+||dqjojx.xyz^
 ||dstbekdf.xyz^
 ||dstbunkfw.xyz^
 ||duoying.vip^$third-party
@@ -65223,6 +65226,7 @@ newduba.cn###jq_youxi
 ||dyeperd.icu^
 ||dzkwj0y.xyz^
 ||eamqbaqzaewwq.top^
+||ebscb0l.xyz^
 ||eers0cy.com^
 ||eghyahl.cn^
 ||eheb8.cn^
@@ -65269,6 +65273,7 @@ newduba.cn###jq_youxi
 ||gyq3bew.icu^
 ||gyutmrp.com^
 ||hacde3.icu^
+||haffo70.com^
 ||hanwdsii.com^
 ||hasgde.site^
 ||hbqabbg.cn^
@@ -65302,6 +65307,7 @@ newduba.cn###jq_youxi
 ||hujunhao.name^
 ||huoju.asia^
 ||hxhohd.xyz^
+||hxinitv.icu^
 ||hyeqp.xyz^
 ||hypwbv.xyz^
 ||hzhabei.cn^
@@ -65384,6 +65390,7 @@ newduba.cn###jq_youxi
 ||metaversemolecule.com^
 ||mifyeldx.top^
 ||misapopait.com^
+||mkjnba.com^
 ||mkjnbg.com^
 ||mkjnha.com^
 ||mlstx.cn^
@@ -65489,12 +65496,14 @@ newduba.cn###jq_youxi
 ||thesac2.top^
 ||thesac7.top^
 ||tifyeldi.top^
+||tknkfd.xyz^
 ||tlprlf.xyz^
 ||tmwbszn.icu^
 ||toastspinner.com^
 ||tptp002.cfd^
 ||tpvuxt.xyz^
 ||tqdctl.xyz^
+||tseda1.icu^
 ||tseda6.icu^
 ||ttykabh.icu^
 ||tushwjp.icu^
@@ -65514,6 +65523,7 @@ newduba.cn###jq_youxi
 ||vcydyzd.icu^
 ||vghnnh.xyz^
 ||vhjxrj.xyz^
+||vlgkotr.cn^
 ||vmdlxj.xyz^
 ||vnfsbl.xyz^
 ||vpsgu.cn^
@@ -65543,6 +65553,7 @@ newduba.cn###jq_youxi
 ||xlvqhx.xyz^
 ||xmawwbz.icu^
 ||xmxupz.xyz^
+||xn--jvrp4x1zyfta.net^
 ||xn--zw0autp42d.cn^
 ||xpcwrgy.cn^
 ||xpicj1.cc^
@@ -65551,6 +65562,7 @@ newduba.cn###jq_youxi
 ||xukang09.cn^
 ||xukou.net^
 ||yegziyf.cn^
+||ygzqlnt.cn^
 ||yh18h8s.com^
 ||yhhnjg.com^
 ||yjnhkd.com^
@@ -65573,14 +65585,6 @@ newduba.cn###jq_youxi
 ||ziravd.xyz^
 ||znyjmbh.icu^
 ||zonyff.xyz^
-||haffo70.com^
-||vlgkotr.cn^
-||tseda1.icu^
-||hxinitv.icu^
-||mkjnba.com^
-||dqjojx.xyz^
-||tknkfd.xyz^
-||ygzqlnt.cn^
 ||zxrcfw.com^
 ||zypzzv.xyz^
 ##a[href$="/1c626.com"]
@@ -115165,6 +115169,8 @@ arketing.indianadunes.com^
 ||s.pixfs.net/visitor.pixplug.in/
 ||sbeacon.sina.com.cn^
 ||sfp.safe.baidu.com^
+||shopee.tw/__t__
+||shopee.tw/v2/shpsec/web/report
 ||shrek.6.cn^
 ||sina.com.cn/view?
 ||sinajs.cn/open/api/js/wb.js
