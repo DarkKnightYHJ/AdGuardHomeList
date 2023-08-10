@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CHZJUiNpstqEKWB2502xUg
-! Version: 202308101250
+! Checksum: gfECFtLj61V2eAUNAqNf5w
+! Version: 202308101340
 ! Title: EasyList
-! Last modified: 10 Aug 2023 12:50 UTC
+! Last modified: 10 Aug 2023 13:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -61525,6 +61525,7 @@ bing.com##[id$="adsMvCarousel"]
 bing.com##a[href*="/aclick?ld="]
 ! *** easylist:easylist/easylist_specific_hide_abp.txt ***
 ! Advanced element hiding rules for Adblock Plus
+skyscanner.com,skyscanner.net#?#div:-abp-has(>a[data-testid="inline-brand-banner"])
 aliexpress.com,aliexpress.us#?#a[class*="manhattan--container"]:-abp-has(span[class^="manhattan--ad"])
 skyscanner.com,skyscanner.net#?#div>a:-abp-has(div[class^="DefaultBanner_sponsorshipRow"])
 meijer.com#?#.product-grid__product:-abp-has(.product-tile__sponsored)
