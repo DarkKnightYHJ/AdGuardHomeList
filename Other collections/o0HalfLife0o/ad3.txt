@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9OBN1+EdA8xvche1QgM/Bw
+! Checksum: 8qwacDS8iq/s9/N/GtKLOg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202308112007
-! Last Modified: 2023年08月11日 20:07
+! Version: 202308120203
+! Last Modified: 2023年08月12日 02:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -190,6 +190,7 @@ stgowan.com
 -1316632262.cos.
 -1316899192.cos.
 -1688-wp-media/ads/
+/os230718.oss-
 -90mh-gg.
 .bid/ads/
 .blog/ads/
@@ -2252,6 +2253,10 @@ newduba.cn###jq_youxi
 ||ziravd.xyz^
 ||znyjmbh.icu^
 ||36mghtd.xyz^
+||egipsbvlgn.xyz^
+||lingsiqiwu.com^
+||baidudvbjkbssjvsvv.com^
+||duyvtanrheje.xyz^
 ||zonyff.xyz^
 ||zvasuzb.icu^
 ||zxrcfw.com^
@@ -22838,6 +22843,7 @@ m.babytree.com##script + a[class]
 /bundle/analytics.
 /bundles/metrics.
 /bunsen/events/*
+/bv-analytics.js
 /byside_webcare.
 /bytro/logs/*
 /c.gif?
@@ -35737,6 +35743,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||error-collector.ted.com^
 ||error.fc2.com/blog/$image
 ||error.fc2.com/blog3/$script
+||errorreports.couponcabin.com^
 ||et.nytimes.com^
 ||et.tidal.com^
 ||etsy.com/bcn/beacon
@@ -35840,6 +35847,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||geoip.ifunny.co^
 ||geolocation.forbes.com^
 ||getadblock.com/js/log.js
+||getpocket.com/t/
+||getpocket.com/web-utilities/public/static/te.js
 ||gettyimages.*/pulse$ping
 ||ghacks.net/statics/px.gif
 ||github.com/_private/browser/stats
@@ -36308,6 +36317,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||slipstream.skyscanner.net^
 ||smallpdf.com/build/track-js.js
 ||smassets.net/assets/anonweb/anonweb-click-
+||smetrics.couponcabin.com^
 ||smetrics.ralphlauren.com^
 ||snapchat.com/web/metrics
 ||solidtorrents.to/ping
