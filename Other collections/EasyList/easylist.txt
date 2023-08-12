@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202308120357
+! Version: 202308120437
 ! Title: EasyList
-! Last modified: 12 Aug 2023 03:57 UTC
+! Last modified: 12 Aug 2023 04:37 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -45009,6 +45009,7 @@ browsershots.org#@#.advert_area
 ||trollwarningpaws.com^
 ||tromairiememasdaq.com^
 ||trombocrack.com^
+||tronads.io^
 ||troncomelets.com^
 ||troolyhonks.com^
 ||troozescript.store^
@@ -48155,6 +48156,7 @@ browsershots.org#@#.advert_area
 ||zypenetwork.com^
 ||zypy2h6rgfux.com^
 ! $document blocks
+||adservice.google.$document
 ||bet365.com/*?affiliate=$document
 ||dianomi.com^$document
 ||maquiags.com^$document
@@ -60602,6 +60604,7 @@ stocktwits.com##[data-pos]
 washingtonpost.com##[data-qa="article-body-ad"]
 washingtonpost.com##[data-qa="right-rail-ad"]
 ginx.tv##[data-ref]
+disqus.com##[data-role="ad-content"]
 washingtonpost.com##[data-sc-c="adslot"]
 trakt.tv##[data-snigel-id]
 amp.theguardian.com##[data-sort-time="1"]
