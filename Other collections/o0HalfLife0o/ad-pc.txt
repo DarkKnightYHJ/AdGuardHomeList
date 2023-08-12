@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kaMjXb3L1qMQRIxI9LjM2A
+! Checksum: SxWQj5QRFz5MCbJY8dD0pQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202308121402
-! Last Modified: 2023年08月12日 14:02
+! Version: 202308122007
+! Last Modified: 2023年08月12日 20:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -767,7 +767,6 @@ tieba.baidu.com##.tuijian-wrap
 /ad.html?
 /ad.min.
 /ad.php?
-/ad.popup?
 /ad.skin.
 /ad.slot.
 /ad.view?
@@ -889,11 +888,8 @@ tieba.baidu.com##.tuijian-wrap
 /ad_horisontal.
 /ad_horiz.
 /ad_horizontal.
-/ad_html/*
-/ad_icons/*
 /ad_iframe.
 /ad_iframe_
-/ad_ima-
 /ad_image.
 /ad_image2.
 /ad_images/*
@@ -1104,10 +1100,7 @@ tieba.baidu.com##.tuijian-wrap
 /adheader.
 /adheading_
 /adhelper.
-/adhost.$domain=~adhost.dk
-/adhref.$domain=~adhref.com
 /adiframe?
-/adiframe_
 /adiframe|*|adtech;
 /adimage.
 /adimage/*
@@ -1121,8 +1114,6 @@ tieba.baidu.com##.tuijian-wrap
 /adinjector_
 /adinsert.
 /adj.php?
-/adjk.
-/adjoin.
 /adjs.php
 /adjs/*$~image
 /adjs?
@@ -1595,7 +1586,7 @@ tieba.baidu.com##.tuijian-wrap
 /adStrip.
 /adstub.
 /adstx.
-/adstyle.$~stylesheet,domain=~adstyle.com
+/adstyle.$~stylesheet,domain=~adstyle.com|~adstyle.jp
 /adsup.$domain=~adsup.lk|~adsup.me|~adsup.pl
 /adsvr.
 /adsweb.
@@ -1774,7 +1765,6 @@ tieba.baidu.com##.tuijian-wrap
 /advertss/*
 /adverttop.
 /advideo.$domain=~advideo.pro|~advideo.site
-/adview.$domain=~adview.mu|~adview.mx|~adview.online|~adview.su
 /adview/*
 /adview?
 /adview_
@@ -1790,12 +1780,6 @@ tieba.baidu.com##.tuijian-wrap
 /adwidgets/*
 /adwiz.
 /adwiz/*
-/adwizard.
-/adwizard/*
-/adwizard_
-/adwolf.
-/adword.
-/adworks.$domain=~adworks.att.com|~adworks.co.il|~adworks.fi|~adworks.jobijoba.io|~adworks.net
 /adwrapper/*
 /adx.$domain=~adx.acrosspf.com|~adx.business|~adx.co.nz|~adx.cx|~adx.nz|~adx.rs|~adx.ru|~adx.traveledge.com|~adx.tribefire.com|~adx.uk.com|~adx.world|~adx.wowfi.com|~journals.uchicago.edu|~solutionshill.com
 /adx/ads?
@@ -2692,9 +2676,6 @@ tieba.baidu.com##.tuijian-wrap
 /mainad.$domain=~mainad.ru
 /manageads/*
 /marfeel_sw.
-/markpop.js
-/masonad.gif
-/masterad.
 /mbads?
 /mbn_ad.
 /mcad.php
@@ -3070,7 +3051,6 @@ tieba.baidu.com##.tuijian-wrap
 /related-ads.
 /relatedads.
 /relevance_ad.
-/remaven.
 /remove-ads.
 /remove_ads.
 /ren.gif?
@@ -3094,7 +3074,6 @@ tieba.baidu.com##.tuijian-wrap
 /rightad.
 /rightad/*
 /rightads.$domain=~rightads.co.uk
-/rollad.
 /rolloverads/*
 /rotatingad.
 /rotationad.
@@ -3109,7 +3088,6 @@ tieba.baidu.com##.tuijian-wrap
 /script/suurl4.php?$third-party
 /script/ut.js?cb=$third-party
 /script/wait.php?*=$xmlhttprequest
-/scripts/ad_
 /scripts/afc/*
 /scripts/chatur.js
 /scripts/zanox-
@@ -3200,10 +3178,6 @@ tieba.baidu.com##.tuijian-wrap
 /skinad.
 /skinads/*
 /skins/ads/*
-/skn_ad/*
-/skyad.
-/skyad_
-/skyadjs/*
 /skyadright.
 /skyplayer-ads-
 /skyscraper_ad_
@@ -3221,8 +3195,6 @@ tieba.baidu.com##.tuijian-wrap
 /sliderAds.
 /slideshow/ads.
 /slidetopad.
-/slot/dfp/*
-/smalAds.
 /small_ad.
 /small_ads/*
 /smallad-
@@ -3256,7 +3228,6 @@ tieba.baidu.com##.tuijian-wrap
 /spiderad/*
 /splash_ads_
 /sponlink.
-/spons/banners/*
 /sponslink_
 /sponsor-ad
 /sponsor-banner.
@@ -3431,8 +3402,6 @@ tieba.baidu.com##.tuijian-wrap
 /vast_ads_
 /VASTAdPlugin.
 /vastVpaid.
-/vb/ads/*
-/vboard/ads/*
 /vclkads.
 /vendor-ads-
 /vendors~ads.
@@ -3674,7 +3643,6 @@ _ad_slot=
 _ad_small.
 _ad_sponsor/
 _ad_square.
-_ad_template_
 _ad_top_
 _ad_units_
 _ad_utils-
@@ -3691,7 +3659,6 @@ _adcall.
 _adcall_
 _adchoice.
 _adchoices.
-_adcount=
 _adengage.
 _adengage_
 _adframe.$domain=~adsystem.pl
@@ -3699,7 +3666,6 @@ _adframe/
 _adframe_
 _adfunction.
 _adhesion.
-_adhoc?
 _adhome.
 _adhome_
 _adlabel_
@@ -3733,7 +3699,6 @@ _adserver.
 _adsetup.
 _adsframe.
 _adshow.
-_adsjs.
 _adskin.
 _adskin_
 _adtech-
@@ -3780,9 +3745,6 @@ _bannerads_
 _bottom_ads.
 _bottom_ads_
 _box_ad_
-_btnad_
-_bucks_ad.
-_button_ad_
 _buttonad.
 _centre_ad.
 _collect/ads/
@@ -3824,7 +3786,6 @@ _pop_under.
 _popunder_
 _popupunder.
 _post_ads.
-_preorderad.
 _pushads.
 _railads.
 _rectangle_ads.
@@ -3840,7 +3801,6 @@ _right_ads_
 _rightad.
 _rightad1.
 _rightad_
-_show_ads=
 _side-ad_
 _sidead.
 _sidebar_ad.
@@ -62031,6 +61991,7 @@ pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.c
 pollunit.com#?#.owl-carousel:-abp-has(.carousel-ad)
 porn-w.org#?#.align-items-center.list-row:-abp-has(.col:empty)
 porn-w.org#?#.row:-abp-contains(Promotion Bot)
+radio.net#?#div:-abp-has(> div > div > [id^="RAD_D_"])
 radioreference.com#?#.box.gradient:-abp-has(a[href*="&Click="])
 rawstory.com#?#.body-description > div:-abp-contains(ADVERTISEMENT)
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#article.Post:-abp-has(a[rel="nofollow noopener sponsored"])
@@ -65739,6 +65700,8 @@ newduba.cn###jq_youxi
 ||lknhrnd.com^
 ||jothvz.xyz^
 ||jmbluyxkl.xyz^
+||uslbaht.top^
+||uxmwh0f.xyz^
 ||zonyff.xyz^
 ||zvasuzb.icu^
 ||zxrcfw.com^
@@ -85260,14 +85223,9 @@ fqsousou.com,kengso.com#@#.user-share
 /logviewedpage?
 /logViewImpression/*
 /logwebhit.
-/logwriter.php
-/lotame_audiences.
 /ls.gif?
 /lunametrics-
-/lycostrack.js
 /m.gif?
-/m1x1.jpg
-/m360lib.js
 /madAnalytics.js
 /magento/page-visit?
 /magento2.js
@@ -85279,16 +85237,10 @@ fqsousou.com,kengso.com#@#.user-share
 /matomo/*$domain=~github.com|~hub.docker.com|~matomo.org|~wordpress.org
 /maxymiser.
 /Maxymiser/*
-/mbcom.tracking.
-/mbox/at/*
 /mcookie.aspx
 /mcount.cgi?
 /mcounter/*
-/md.js?country=
-/mdwtc/click_thru/*
-/measure/data-capture/*
 /measure/pixel/*
-/measure/spring.
 /measure/visit/*
 /media-analytics.min.
 /media-analytics/*
@@ -85308,8 +85260,6 @@ fqsousou.com,kengso.com#@#.user-share
 /metrics-backend/*
 /metrics-ga.
 /metrics/event?
-/metrics/ga.html?
-/metrics/image.gif?
 /metrics/init?
 /metrics/metrics$domain=~docs.datadoghq.com|~spatineo.com
 /metrics/onload
@@ -85318,18 +85268,14 @@ fqsousou.com,kengso.com#@#.user-share
 /metrics/stat.
 /metrics/statsd/*
 /metrics/survey/*
-/metrics/tpi?
 /metrics/track/*
 /metrics/v1/frontend/*
 /metrics/vanity/?
-/metricsISCS.
 /metrika/tag.js
 /mi/insite/*
 /mianalytics.
-/micro.php?action=view&
 /microsoft.cognitiveservices.speech.sdk.bundle.js
 /min/gtm/*
-/minder-tracker.
 /mint/?js
 /mint/?record
 /mintstats/?js
@@ -97312,6 +97258,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||newzit.com/setABframe.html
 ||nextdoor.com/events/
 ||nflshop.com/api/track
+||nike.com/assets/measure/data-capture/
 ||nimbusweb.me/gtlytics.js
 ||no9pldds1lmn3.soundcloud.com^
 ||noodle.backmarket.io^

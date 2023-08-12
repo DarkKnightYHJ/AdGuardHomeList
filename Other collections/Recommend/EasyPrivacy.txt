@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: f2ZGN2N6Dq/MxKHvzSm7bA
-! Version: 202308121040
+! Checksum: OK/IWPquHvZPlz+i3bHl+w
+! Version: 202308121150
 ! Title: EasyPrivacy
-! Last modified: 12 Aug 2023 10:40 UTC
+! Last modified: 12 Aug 2023 11:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1847,14 +1847,9 @@
 /logviewedpage?
 /logViewImpression/*
 /logwebhit.
-/logwriter.php
-/lotame_audiences.
 /ls.gif?
 /lunametrics-
-/lycostrack.js
 /m.gif?
-/m1x1.jpg
-/m360lib.js
 /madAnalytics.js
 /magento/page-visit?
 /magento2.js
@@ -1866,16 +1861,10 @@
 /matomo/*$domain=~github.com|~hub.docker.com|~matomo.org|~wordpress.org
 /maxymiser.
 /Maxymiser/*
-/mbcom.tracking.
-/mbox/at/*
 /mcookie.aspx
 /mcount.cgi?
 /mcounter/*
-/md.js?country=
-/mdwtc/click_thru/*
-/measure/data-capture/*
 /measure/pixel/*
-/measure/spring.
 /measure/visit/*
 /media-analytics.min.
 /media-analytics/*
@@ -1895,8 +1884,6 @@
 /metrics-backend/*
 /metrics-ga.
 /metrics/event?
-/metrics/ga.html?
-/metrics/image.gif?
 /metrics/init?
 /metrics/metrics$domain=~docs.datadoghq.com|~spatineo.com
 /metrics/onload
@@ -1905,18 +1892,14 @@
 /metrics/stat.
 /metrics/statsd/*
 /metrics/survey/*
-/metrics/tpi?
 /metrics/track/*
 /metrics/v1/frontend/*
 /metrics/vanity/?
-/metricsISCS.
 /metrika/tag.js
 /mi/insite/*
 /mianalytics.
-/micro.php?action=view&
 /microsoft.cognitiveservices.speech.sdk.bundle.js
 /min/gtm/*
-/minder-tracker.
 /mint/?js
 /mint/?record
 /mintstats/?js
@@ -14036,6 +14019,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||newzit.com/setABframe.html
 ||nextdoor.com/events/
 ||nflshop.com/api/track
+||nike.com/assets/measure/data-capture/
 ||nimbusweb.me/gtlytics.js
 ||no9pldds1lmn3.soundcloud.com^
 ||noodle.backmarket.io^
