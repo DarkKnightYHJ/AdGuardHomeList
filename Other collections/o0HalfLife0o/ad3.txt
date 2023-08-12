@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0UMIsmKteDBLxbMQCrq6Eg
+! Checksum: dAo0CK7aovXnCZLHnt9A2Q
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202308120822
-! Last Modified: 2023年08月12日 08:22
+! Version: 202308121402
+! Last Modified: 2023年08月12日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2263,6 +2263,8 @@ newduba.cn###jq_youxi
 ||hqdlhgx.cn^
 ||tuplzt.xyz^
 ||lknhrnd.com^
+||jothvz.xyz^
+||jmbluyxkl.xyz^
 ||zonyff.xyz^
 ||zvasuzb.icu^
 ||zxrcfw.com^
@@ -7360,7 +7362,7 @@ $popup,third-party,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downh
 $image,third-party,domain=lady1.top
 $script,third-party,domain=52movieba.com|66s.cc|audio699.com|btsow.cfd|kan-tv.com|m.supfree.net|xiaoheimi.net
 $script,third-party,websocket,domain=52codes.net
-$third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com
+$third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|webhd.cc
 $websocket,domain=5nj.com|cechi8.com
 .194007.com/4058.gif
 .gif|$domain=7mshipin.org|viidii.info
@@ -11848,9 +11850,13 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.com/images/a_d_
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
+||86uk.com/banners/
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+6park.com##A[href*="bpropolis."]
+6park.com##A[href*="jdoqocy."]
+6park.com##A[href*="geekbuying."]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -16386,8 +16392,8 @@ dapenti.com##a[href*="cashier.iqiyi.com"]
 cnbeta.com,editcode.net,itboth.com,itkeyword.com,ruyo.net,zhanzhangb.com##a[href*="cloud.tencent.com"]
 bilibili.com##a[href*="cm.bilibili.com"][data-target-url*="gaoneng.bilibili.com"]
 bilibili.com##a[href*="cm.bilibili.com"][data-target-url*="gaoneng.bilibili.com"] + .bili-video-card__info
-bilibili.com##a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"])
-bilibili.com##a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]) + .bili-video-card__info
+bilibili.com##a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bilibili.com/"])
+bilibili.com##a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bilibili.com/"]) + .bili-video-card__info
 comicat.org,kisssub.org##a[href*="db."]
 china.com.cn##a[href*="dwz.cn"]
 tiexue.net##a[href*="game.tiexue."]
@@ -26370,7 +26376,6 @@ _mongo_stats/
 ||ffe390afd658c19dcbf707e0597b846d.de^
 ||firstblackphase.com^
 ||fleraprt.com^
-||fmhy.net^
 ||fn-pz.com^
 ||fourtimessmelly.com^
 ||fpapi.io^
@@ -27418,6 +27423,7 @@ _mongo_stats/
 ||flxpxl.com^$third-party
 ||flyingpt.com^$third-party
 ||flyspy.co^$third-party
+||fmhy.net^$third-party
 ||fndrsp.net^$third-party
 ||followercounter.com^$third-party
 ||footprintdns.com^$third-party
@@ -35387,6 +35393,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.kkb.com.tr^
 ||collector.wawlabs.com^
 ||hulyagedikci.com/vhit.php?
+||iyzipay.com/buyer-protection/assets/js/analytics.js
 ||statistics.daktilo.com^
 ||stats.vidyome.com^
 ||tracking.venturify.at^
@@ -36151,6 +36158,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ohm-dot-hackster-io.appspot.com^
 ||okx.com/jsstat/sb?
 ||online-umwandeln.de/analytics.js
+||ontraport.com/opt_assets/static/js/logging.js
 ||opendesktop.org/l/fp
 ||ophan.theguardian.com^
 ||optimizely.com/js/geo.js
@@ -53954,6 +53962,7 @@ arketing.indianadunes.com^
 ||compteur.developpez.com^
 ||courrierinternational.com/*&vtag=
 ||developpez.com/public/js/log.js
+||donnons.org/log.js
 ||e.legalstart.fr^
 ||e.m6web.fr/events
 ||easeus.com/default/js/aff_buy_tracking.js
