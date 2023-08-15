@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: DGinvPs/doeLCnwxQoTNuA
-! Version: 202308150750
+! Checksum: hC2/M7Iy1bkOth6K8yPbAQ
+! Version: 202308150840
 ! Title: ABP filters
-! Last modified: 15 Aug 2023 07:50 UTC
+! Last modified: 15 Aug 2023 08:40 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://github.com/abp-filters/abp-filters-anti-cv
 !
@@ -1370,7 +1370,7 @@ cafef.vn,gamek.vn,genk.vn,soha.vn,tuoitre.vn#$#override-property-read ADMStorage
 bongda365a.club#$#override-property-read isSkipAds true
 zingnews.vn#$#abort-on-property-read adtimaConfig
 baomoi.com#$#abort-on-property-write AdtimaBaomoi
-xoivo7.info#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
+xoivo7.info,vaoroi13.online#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 kenh14.vn#$#override-property-read Constants.allowAds false
 vndoc.com#$#override-property-read seconds 0
 ! Popup/Popunder/Clickunder
