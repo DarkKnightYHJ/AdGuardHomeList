@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 49ZV/A1nsLnVF+eIqpz16A
+! Checksum: 3C05nC+FWK5/tvnF1uaqPQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202308150823
-! Last Modified: 2023年08月15日 08:23
+! Version: 202308151406
+! Last Modified: 2023年08月15日 14:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1246,8 +1246,6 @@ tieba.baidu.com##.tuijian-wrap
 /ads/default_
 /ads/delivery.
 /ads/delivery?
-/ads/design-
-/ads/desktop-
 /ads/dfp.
 /ads/dfp?
 /ads/display/*
@@ -1478,7 +1476,6 @@ tieba.baidu.com##.tuijian-wrap
 /adsfac.
 /adsfetch.
 /adsforwp-
-/adshandler.
 /adsheader.
 /adshider.
 /adshow-
@@ -1607,6 +1604,7 @@ tieba.baidu.com##.tuijian-wrap
 /adttext-
 /adttext.
 /adultadworldpop_
+/adunit/track-view
 /adunits.
 /adunits/*
 /adunits?
@@ -2280,39 +2278,21 @@ tieba.baidu.com##.tuijian-wrap
 /framead_
 /frameads.
 /frameads_
-/frameadsz.
-/freead.
-/freead2.
 /frequencyads.
-/frnads.
 /fro_lo.js
 /froloa.js
-/front/ad/*
-/front/ads-
 /frontend/ads/*
 /frontend_loader.js
 /frontpagead/*
 /funcript*.php?pub=
-/gam_ad.
-/gam_ad_
-/gam_ads.
-/gamads/*
 /gdpr-ad-script.
-/geminivideoads/*
-/gen-ad-
-/gen_ads_
-/genads.
-/genads/*
-/general-ad-
 /generate_ad.
 /generate_ads.
 /generateAds.
 /generateadtag.
 /generic.ads.
 /get-ads-by-zones/*
-/get.ad?
 /get/?go=1&data=
-/get/ad.
 /get/ad/*
 /get/ad?
 /get_ad_
@@ -2389,8 +2369,6 @@ tieba.baidu.com##.tuijian-wrap
 /horizontal_ad.
 /horizontalAd.
 /hostedads.
-/hostgator-ad.
-/hosting/ads/*
 /House-Ad-
 /house-ad.
 /house-ad/*
@@ -2508,30 +2486,13 @@ tieba.baidu.com##.tuijian-wrap
 /innerads.
 /insertAd.
 /insertads.
-/insideAD.
 /instreamad/*
 /intelliad.
-/intellitext.$domain=~intellitext.com|~intellitext.hu|~intellitext.us
-/interad.$domain=~interad.gr
 /internAds.
 /internal-ad-
-/internet_ad_
 /intextads.
-/inv/ads/*
-/invideoad.
-/inviteads/*
-/invoke-2.js
-/inx-ad.
-/ipadad.
-/iserver/ccid=
-/iserver/site=
-/JavaScript/Ads-
-/javascript/gpt-
-/javascript/oas.
-/javascript/oas?
-/javascripts/ads/*
+/invoke.js
 /Javascripts/SBA-
-/jetpack-ads/*
 /jquery-ads.
 /jquery.ad.
 /jquery.adi.
@@ -5619,10 +5580,6 @@ _800x80_
 ###admod2
 ###admpubottom
 ###admpubottom2
-###admpudyn1
-###admpudyn2
-###admpudyn3
-###admpudyn4
 ###admpufoot
 ###admpumiddle
 ###admpumiddle2
@@ -6047,8 +6004,6 @@ _800x80_
 ###adtophp
 ###adtrafficright
 ###adtxt
-###adundergame
-###adunderpicture
 ###adunit
 ###adunit-article-bottom
 ###adunit_video
@@ -6069,10 +6024,6 @@ _800x80_
 ###adv-box
 ###adv-companion-iframe
 ###adv-container
-###adv-ext-ext-1
-###adv-ext-ext-2
-###adv-fb-container
-###adv-google
 ###adv-gpt-box-container1
 ###adv-gpt-masthead-skin-container1
 ###adv-halfpage
@@ -6092,10 +6043,6 @@ _800x80_
 ###adv-sticky-1
 ###adv-sticky-2
 ###adv-text
-###adv-textlink1
-###adv-textlink2
-###adv-textlink3
-###adv-textlink4
 ###adv-title
 ###adv-top
 ###adv-top-skin
@@ -11655,8 +11602,6 @@ _800x80_
 ##.ad_mid_post_body
 ##.ad_middle
 ##.ad_middle_banner
-##.ad_middle_hub_page
-##.ad_mnu
 ##.ad_mobile
 ##.ad_mod
 ##.ad_module
@@ -11666,19 +11611,10 @@ _800x80_
 ##.ad_mpu_top
 ##.ad_mr
 ##.ad_mrec
-##.ad_mrec_title_article
-##.ad_mrect
-##.ad_mrectangle
-##.ad_msg
-##.ad_multiad_lbsl
 ##.ad_native
 ##.ad_native_xrail
-##.ad_network_content
-##.ad_new_box01
-##.ad_new_box02
 ##.ad_news
 ##.ad_news_text
-##.ad_newsstream
 ##.ad_no_border
 ##.ad_note
 ##.ad_notice
@@ -11692,12 +11628,10 @@ _800x80_
 ##.ad_p360
 ##.ad_pagebody
 ##.ad_panel
-##.ad_panorama_extra
 ##.ad_paragraphs_desktop_container
 ##.ad_partner
 ##.ad_partners
 ##.ad_pause
-##.ad_perma-panorama
 ##.ad_pic
 ##.ad_place
 ##.ad_placeholder
@@ -11707,20 +11641,15 @@ _800x80_
 ##.ad_placement
 ##.ad_placement_300x250
 ##.ad_placement_small
-##.ad_plane_336
 ##.ad_plus
-##.ad_policy_link_br
 ##.ad_position
 ##.ad_post
-##.ad_posttop
-##.ad_power
 ##.ad_primary
 ##.ad_promo
 ##.ad_promo1
 ##.ad_promo_spacer
 ##.ad_push
 ##.ad_r
-##.ad_r1_menu
 ##.ad_rakuten
 ##.ad_rakuten_wrapper
 ##.ad_rec
@@ -11734,7 +11663,6 @@ _800x80_
 ##.ad_regular2
 ##.ad_regular3
 ##.ad_reminder
-##.ad_report_btn
 ##.ad_response
 ##.ad_rhs
 ##.ad_right
@@ -14284,7 +14212,6 @@ _800x80_
 ##.banner_468x60
 ##.banner_728_90
 ##.banner_728x90
-##.banner_ad
 ##.banner_ad-728x90
 ##.banner_ad_300x250
 ##.banner_ad_728x90
@@ -15798,7 +15725,6 @@ _800x80_
 ##.fullSizeAd
 ##.fullWidthAd
 ##.full_AD
-##.full_ad
 ##.full_ad_box
 ##.full_ad_row
 ##.full_width_ad
@@ -24834,6 +24760,7 @@ browsershots.org#@#.advert_area
 ||bclikeqt.com^
 ||bcloudhost.com^
 ||bcprm.com^
+||bctagb56.xyz^
 ||bcuiaw.com^
 ||bcwxcwvwmcsplf.xyz^
 ||bda644bea5.com^
@@ -25409,6 +25336,7 @@ browsershots.org#@#.advert_area
 ||bloggerex.com^
 ||blogherads.com^
 ||blondhoverhesitation.com^
+||blondtheirs.com^
 ||bloodkneel.com^
 ||bloodyfrighten.com^
 ||blooks.info^
@@ -27030,6 +26958,7 @@ browsershots.org#@#.advert_area
 ||cludderrattons.com^
 ||cluethydash.com^
 ||cluewauling.life^
+||clumperrucksey.life^
 ||cluodlfare.com^
 ||clutchlilts.com^
 ||cluttercallousstopped.com^
@@ -28152,6 +28081,7 @@ browsershots.org#@#.advert_area
 ||debrium-surbara.com^
 ||debsis.com^
 ||debtminusmaternal.com^
+||debtslooselavatory.com^
 ||debutedhogward.com^
 ||decademical.com^
 ||decatorfending.uno^
@@ -39673,6 +39603,7 @@ browsershots.org#@#.advert_area
 ||ponchowafesargb.com^
 ||ponderousmuffled.com^
 ||pondinternet.com^
+||pondov.cfd^
 ||pongidsrunback.com^
 ||ponierpeewees.digital^
 ||ponk.pro^
@@ -41705,6 +41636,7 @@ browsershots.org#@#.advert_area
 ||rocketdashedjoining.com^
 ||rocketlinks.ru.com^
 ||rocketme.top^
+||rocketplaintiff.com^
 ||rocketyield.com^
 ||rockfellertest.com^
 ||rockyou.net^
@@ -48817,6 +48749,7 @@ browsershots.org#@#.advert_area
 ||advertstream.com^$third-party
 ||advertur.ru^$third-party
 ||advg.jp^$third-party
+||adviad.com^$third-party
 ||advideum.com^$third-party
 ||advinci.net^$third-party
 ||advmd.com^$third-party
@@ -57123,6 +57056,8 @@ audioreview.com,carlow-nationalist.ie,cellmapper.net,craigclassifiedads.com,dekh
 lingojam.com###adsense-area-label
 ip-address.org###adsleft
 momjunction.com###adsolut
+dict.leo.org###adv-drectangle1
+leo.org###adv-wbanner
 ventoy.net###adv_titles
 ventoy.net###adv_titles_foot
 radioonline.fm###advertise_center
@@ -58253,6 +58188,7 @@ timesofindia.indiatimes.com##.addblock
 longevity.technology##.addvertisment
 aish.com##.adholder-sidebar
 auto-data.net##.adin
+watchcartoononline.bz##.adkiss
 boards.4channel.org##.adl
 animalfactguide.com,msn.com,portlandmonthlymag.com,romsgames.net,sportsmediawatch.com##.adlabel
 prokerala.com##.adm-unit
@@ -58562,6 +58498,7 @@ renonr.com##.below-header-widgets
 gobankingrates.com##.bestbanks-slidein
 aiscore.com##.bet365
 nationalworld.com##.bfQGof
+hotnewhiphop.com##.bg-ad-bg-color
 bgr.com##.bg-black
 whatismyisp.com##.bg-blue-50
 republicworld.com##.bg-f0f0f0
@@ -59270,6 +59207,7 @@ gulf-times.com##.gt-vertical-ad
 animenewsnetwork.com##.gutter
 distractify.com,inquisitr.com,okmagazine.com,radaronline.com##.gwofgg
 thetimes.co.uk##.gyLkkj
+worldpopulationreview.com##.h-64
 tvcancelrenew.com##.h-72
 buzzly.art##.h-min.overflow-hidden
 target.com##.h-position-fixed-bottom
@@ -59837,6 +59775,7 @@ lawandcrime.com,mediaite.com##.o-promo-unit
 afkgaming.com##.o-yqC
 comicbook.com##.oas
 jpost.com##.ob-widget
+comiko.net##.ob-widget-items-container
 officedepot.com##.od-search-piq-banner-ads__lower-leaderboard
 flashscore.co.za##.oddsPlacement
 softexia.com##.offer
@@ -65807,6 +65746,9 @@ newduba.cn###jq_youxi
 ||tggsd07.com^
 ||byvlph.xyz^
 ||jqkcett.icu^
+||zszhln.xyz^
+||sensifyfugged.com^
+||simblotusitate.com^
 ||zonyff.xyz^
 ||zvasuzb.icu^
 ||zxrcfw.com^
@@ -97203,6 +97145,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||isharemetric.rediff.com^
 ||ivx.lacompagnie.com^
 ||j927.statnews.com^
+||jansatta.com/api/capture/ua
 ||jav4tv.com/player/analytics
 ||javhd.com/ascripts/gcu.js
 ||javhd.com/rstat
@@ -115062,6 +115005,7 @@ arketing.indianadunes.com^
 ||navigation-timing.meinestadt.de^
 ||nct.ui-portal.de^
 ||netzwelt.de/log?
+||news.de/track.php
 ||newsdeutschland.com/RPC.php
 ||nickles.de/ivw/
 ||nius.de/monitoring
