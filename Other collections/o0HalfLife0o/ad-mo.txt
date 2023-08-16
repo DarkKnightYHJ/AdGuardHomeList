@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yfmJw6b7qrrHHuyyu8+Org
+! Checksum: 24aPuXseLYoKpEZHpvFbYQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202308161406
-! Last Modified: 2023年08月16日 14:06
+! Version: 202308162008
+! Last Modified: 2023年08月16日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -2737,7 +2737,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /popupunder.
 /post-ad-
 /post_ads_
-/postad.
 /pounder-$~image
 /pp-ad.
 /ppd_ads.
@@ -2751,7 +2750,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /printad.
 /printad/*
 /prism_ad/*
-/proads/*
 /proadvertising.
 /proadvertising_
 /processad.
@@ -2908,17 +2906,12 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ServeAd?
 /serveads.
 /Server/AD/*
-/server/ads/*
-/servewebads/*
 /service/ad/*
 /service/ads/*
 /service/adv/*
 /services/ads/*
 /servlet/view/*
 /set_adcode?
-/share/ads/*
-/shared/ad_
-/shared/ads/*
 /show-ad.
 /show.ad?
 /show?zone_id=
@@ -3005,19 +2998,13 @@ pan.baidu.com##.upload-bar.global-clearfix
 /smartadserver.$domain=~smartadserver.com|~smartadserver.com.br|~smartadserver.de|~smartadserver.es|~smartadserver.fr|~smartadserver.it|~smartadserver.pl|~smartadserver.ru
 /smartadserver/*$domain=~smartadserver.com|~smartadserver.de|~smartadserver.fr
 /smartlinks.epl?
-/smb/ads/*
-/smeadvertisement/*
-/socialads.$domain=~socialads.eu|~socialads.guru
-/socialads/*
 /soralink.js
 /soralink/*$~stylesheet
 /sp/delivery/*
 /space_ad.
 /spacedesc=
-/spark_ad.
 /spc.php
 /spcjs.php
-/special-ads/*
 /special_ad.
 /special_ads.
 /special_ads/*
@@ -3084,11 +3071,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /story_ads_
 /storyads.
 /stream-ad.
-/streamads.
 /style_ad.
-/Styles/Ad_
-/styles/ads.
-/styles/ads/*
 /subAd.
 /sugarads-
 /superads_
@@ -20257,6 +20240,7 @@ _800x80_
 ##.ht_outbrain
 ##.js-outbrain-container
 ##.ob-ad-carousel-layout
+##.ob-feed-layout
 ##.ob-hover
 ##.ob-p.ob-dynamic-rec-container
 ##.ob-strip-layout
@@ -57053,6 +57037,7 @@ smbc-comics.com###comicright > div[style]
 mirror.co.uk###comments-standalone-mpu
 kotaku.com,qz.com###commerce-inset-wrapper
 cpuid.com###console_log
+miniwebtool.com###contain300-1
 miniwebtool.com###contain300-2
 gearspace.com###container__DesktopFDAdBanner
 gearspace.com###container__DesktopForumdisplayHalfway
@@ -58398,7 +58383,7 @@ stuff.tv##.block-hcm-external-blocks
 mondoweiss.net##.block-head-c
 newsweek.com##.block-ibtmedia-dfp
 endocrineweb.com,practicalpainmanagement.com##.block-oas
-justthenews.com##.block-simple-blockad-728-90
+justthenews.com##.block-simple-block
 kaotic.com##.block-toplist
 worldtimebuddy.com##.block2
 macmusic.org##.block440Adv
@@ -60484,6 +60469,7 @@ videogameschronicle.com##.vgc-productsblock
 bestlifeonline.com,eatthis.com,hellogiggles.com##.vi-video-wrapper
 express.co.uk##.viafoura-standalone-mpu
 vice.com##.vice-ad__container
+justthenews.com##.video--container
 songkick.com##.video-ad-wrapper
 cyclinguptodate.com##.video-container
 forbes.com,nasdaq.com##.video-placeholder
@@ -62988,6 +62974,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||cdn.advertserve.com^$domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
 @@||cdn.bidder.dev/clients/$script,domain=forces.net
 @@||chycor.co.uk/cms/advert_search_thumb.php$image,domain=chycor.co.uk
+@@||cloudfront.net/js/common/invoke.js
 @@||commons.wikimedia.org/w/api.php?$~third-party,xmlhttprequest
 @@||connatix.com*/connatix.player.$script,domain=ebaumsworld.com|funker530.com|washingtonexaminer.com
 @@||content.pouet.net/avatars/adx.gif$image,~third-party
@@ -65611,6 +65598,7 @@ newduba.cn###jq_youxi
 ||bmptbyb.com^
 ||vhutitpu.icu^
 ||zcbfjd.xyz^
+||mnpbxjq.cn^
 ||zonyff.xyz^
 ||zvasuzb.icu^
 ||zxrcfw.com^
@@ -91775,6 +91763,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stiffstem.com^
 ||stingsquirrel.com^
 ||stockingsneeze.com^
+||stomachscience.com^
 ||storescissors.com^
 ||storeslope.com^
 ||storesurprise.com^
@@ -97088,6 +97077,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||m.facebook.com/ajax/weblite_resources_timing_logging/
 ||ma.redhat.com^
 ||macys.com/tag_path/
+||mail.proton.me/api/data/v1/stats
 ||mail.yahoo.com/f/track/
 ||mangadex.org/api/event
 ||mangadex.org/p.js
