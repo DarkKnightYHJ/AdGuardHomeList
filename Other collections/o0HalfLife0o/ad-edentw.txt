@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6Ma/KHzZTqcHLAvT64NwmQ
+! Checksum: 91u9Pl10Dufh5jhChuD8zQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202308162008
-! Last Modified: 2023年08月16日 20:08
+! Version: 202308170203
+! Last Modified: 2023年08月17日 02:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1142,6 +1142,7 @@ gekkou.com.br#$#abort-current-inline-script document.querySelectorAll popMagic
 gofilmes.me#$#abort-on-property-read zfgformats
 betteranime.net#$#abort-current-inline-script document.createElement _mdttdpu
 torrentdosfilmes.eu#$#abort-current-inline-script document.createElement /break|case/
+mangalivre.net#$#hide-if-matches-xpath './/div[contains(@style,"pointer-events")]/ancestor-or-self::div[@style][1]'
 ! #CV-667
 filmesonlinegratis.com#$#abort-current-inline-script Math zfgloaded
 ! *** abp-filters-anti-cv:romanian.txt ***
