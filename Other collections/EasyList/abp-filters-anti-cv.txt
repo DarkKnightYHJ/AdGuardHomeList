@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: U0lQ5iJqBiaGn9fkx9hM7g
-! Version: 202308161341
+! Checksum: fkWCpmAAInpRd/AwFeEZbg
+! Version: 202308161441
 ! Title: ABP filters
-! Last modified: 16 Aug 2023 13:41 UTC
+! Last modified: 16 Aug 2023 14:41 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://github.com/abp-filters/abp-filters-anti-cv
 !
@@ -1143,6 +1143,7 @@ gekkou.com.br#$#abort-current-inline-script document.querySelectorAll popMagic
 gofilmes.me#$#abort-on-property-read zfgformats
 betteranime.net#$#abort-current-inline-script document.createElement _mdttdpu
 torrentdosfilmes.eu#$#abort-current-inline-script document.createElement /break|case/
+mangalivre.net#$#hide-if-matches-xpath './/div[contains(@style,"pointer-events")]/ancestor-or-self::div[@style][1]'
 ! #CV-667
 filmesonlinegratis.com#$#abort-current-inline-script Math zfgloaded
 ! *** abp-filters-anti-cv:romanian.txt ***
