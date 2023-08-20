@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: MBoA49CQnt8UYBwbg2li/A
-! Version: 202308201440
+! Checksum: oEB2pqDcRcjzEWjpasfO1g
+! Version: 202308201550
 ! Title: EasyList China+EasyList
-! Last modified: 20 Aug 2023 14:40 UTC
+! Last modified: 20 Aug 2023 15:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -2196,6 +2196,11 @@ newduba.cn###jq_youxi
 ||zvasuzb.icu^
 ||zxrcfw.com^
 ||ctienlf.top^
+||vkjsnvk.com^
+||oaclrst.cn^
+||vujzkkz.cn^
+||cupfox.app^$third-party
+||7xixi.site^
 ||zypzzv.xyz^
 ||zzisnvb.cn^
 !
@@ -11783,8 +11788,12 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||pixfs.net/module/fullPage/dist/ad-full-page-enter-fly.
+||okbmf.com/imgad/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+5054399.com###gg2
+5054399.com###gg
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -13321,7 +13330,7 @@ gamer.com.tw##.a-mercy-d:not([href*=".gamer."])
 159i.com##.a2.style25
 159i.com##.a2d
 159i.com##.a3d
-cupfox.app##.a4-box[class^="jsx-"]
+cupfox.app##.a5-box[class^="jsx-"]
 159i.com##.a4d
 thinkphp.cn##.a6
 chacuo.net##.a96090
@@ -80852,13 +80861,13 @@ coincodex.com##div[class*="_sticky-header"]
 pcgamer.com,techcrunch.com,tomsguide.com,tomshardware.com##div[class*="ad-unit"]
 issuu.com##div[class*="adPlacement"]
 issuu.com##div[class*="adSkyscraper"]
+justthenews.com##div[class*="block-simple-blockad-"]
 dallasnews.com##div[class*="features-ads"]
 ladbible.com,unilad.co.uk##div[class*="margin-Advert"]
 apkcombo.com##div[class*="revamp-ads"]
 cryptoslate.com,newsbtc.com##div[class*="sticky-header"]
 politico.com##div[class*="styles_supercube_"]
 serverhunter.com##div[class*="why"]
-justthenews.com##div[class="block-simple-blockad-"]
 walmart.com##div[class="mv3 ml3 mv4-xl mh0-xl"][data-testid="sp-item"]
 timesofindia.com##div[class^="ATF_container_"]
 arkadium.com##div[class^="Ad-adContainer"]
