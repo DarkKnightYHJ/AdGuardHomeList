@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: k2mz2kk+EJZ5QH9HC4cy6g
-! Version: 202308211440
+! Checksum: 2Z5X2lPaLa3Fcjz1qNlDaA
+! Version: 202308211550
 ! Title: EasyList
-! Last modified: 21 Aug 2023 14:40 UTC
+! Last modified: 21 Aug 2023 15:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -789,6 +789,7 @@
 /ads/footer-
 /ads/footer.
 /ads/footer_
+/ads/gam_prebid-
 /ads/get/*
 /ads/gpt/*
 /ads/header-
@@ -1401,7 +1402,7 @@
 /bannerads-
 /bannerads.
 /bannerads/*
-/banners.*/go/page/
+/banners.*/go/page/*
 /banners.*/piclist?
 /banners.cgi?
 /banners/468
@@ -3347,7 +3348,6 @@ _widget_ad.
 /prodprebidheader-
 /pubfig.min.js
 /tagman/*
-_prebid-$script
 _prebid.js
 _prebid8.
 ! Invideo adverts
@@ -22150,6 +22150,7 @@ browsershots.org#@#.advert_area
 ||agooxouy.net^
 ||agoutafrecket.digital^
 ||agqankaz.com^
+||agqovdqajj.com^
 ||agraffesalps.com^
 ||agraglie.net^
 ||agrarianbeepsensitivity.com^
@@ -25399,6 +25400,7 @@ browsershots.org#@#.advert_area
 ||candiruarf.com^
 ||candypeaches.com^
 ||canelastram.com^
+||cangatu.xyz^
 ||canjacvinum.com^
 ||canjarltaox.com^
 ||canlistabbed.com^
@@ -56415,7 +56417,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|9anime.id|adbl
 ||plx.porndig.com^
 ||porn-star.com/buttons/
 ||porndoe.com/wp-contents/channel?
-||pornerbros.com/nativeexternal/
+||pornerbros.com/lolaso/
 ||pornforrelax.com/kiadtgyzi/
 ||porngals4.com/img/b/
 ||porngo.tube/tdkfiololwb/
@@ -63049,6 +63051,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||thepiratebay.org/cdn-cgi/challenge-platform/$~third-party
 @@||thetvdb.com/banners/$image,domain=tvtime.com
 @@||thingiverse.com/assets/ad/$image,~third-party
+@@||thisiswaldo.com/static/js/$script,domain=bestiefy.com
 @@||townhall.com/resources/dist/js/prebid-pjmedia.js$script,domain=pjmedia.com
 @@||tractorshed.com/photoads/upload/$~third-party
 @@||tradingview.com/adx/$subdocument,domain=adx.ae
@@ -63229,7 +63232,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 !! cbssports.com|newson.us|worldsurfleague.com
 @@||pubads.g.doubleclick.net/ssai/
 !! g.doubleclick.net/tag/js/gpt.js
-@@||g.doubleclick.net/tag/js/gpt.js$script,xmlhttprequest,domain=accuweather.com|adamtheautomator.com|blastingnews.com|bloomberg.com|chromatographyonline.com|devclass.com|digitaltrends.com|edy.rakuten.co.jp|epaper.timesgroup.com|filmweb.pl|formularywatch.com|games.coolgames.com|indy100.com|managedhealthcareexecutive.com|mediaite.com|medicaleconomics.com|nycgo.com|olx.pl|physicianspractice.com|standard.co.uk|telsu.fi|theta.tv|weather.com
+@@||g.doubleclick.net/tag/js/gpt.js$script,xmlhttprequest,domain=accuweather.com|adamtheautomator.com|bestiefy.com|blastingnews.com|bloomberg.com|chromatographyonline.com|devclass.com|digitaltrends.com|edy.rakuten.co.jp|epaper.timesgroup.com|filmweb.pl|formularywatch.com|games.coolgames.com|indy100.com|managedhealthcareexecutive.com|mediaite.com|medicaleconomics.com|nycgo.com|olx.pl|physicianspractice.com|standard.co.uk|telsu.fi|theta.tv|weather.com
 !! googletagservices.com/tag/js/gpt.js
 @@||googletagservices.com/tag/js/gpt.js$domain=chegg.com|chelseafc.com|epaper.timesgroup.com|farfeshplus.com|k2radio.com|koel.com|kowb1290.com|nationalreview.com|nationalworld.com|nbcsports.com|scotsman.com|tv-asahi.co.jp|uefa.com|vimeo.com|vlive.tv|voici.fr|windalert.com
 !! g.doubleclick.net/gpt/pubads_impl_
