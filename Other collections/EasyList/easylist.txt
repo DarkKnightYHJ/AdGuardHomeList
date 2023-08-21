@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202308210944
+! Version: 202308211043
 ! Title: EasyList
-! Last modified: 21 Aug 2023 09:44 UTC
+! Last modified: 21 Aug 2023 10:43 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -56926,6 +56926,7 @@ asianjournal.com###fancybox-overlay
 asianjournal.com###fancybox-wrap
 thedrinknation.com###fcBanner
 fandom.com###featured-video__player-container
+getyarn.io###filtered-bottom
 investing.com###findABroker
 healthshots.com###fitnessTools
 healthshots.com###fitnessToolsAdBot
@@ -59648,6 +59649,7 @@ insauga.com##.proper-content-dynamic
 planetf1.com,planetrugby.com##.ps-block-a
 kathmandupost.com##.pt-0
 gonintendo.com##.pt-5
+getyarn.io##.pt3p > div
 seattlepi.com##.pt40
 1980-games.com,coleka.com,flash-mp3-player.net,gameslol.net,theportugalnews.com,tolonews.com##.pub
 starsinsider.com##.pub-container
@@ -61173,6 +61175,7 @@ windycitymediagroup.com,windycitytimes.com##img[name="Sponsor"]
 callofwar.com,supremacy1914.com##img[referrerpolicy]
 nsfwyoutube.com##img[src*="data"]
 1337x.to,duplichecker.com##img[src*="data:image"]
+bollyflix.asia##img[src^="https://www-opensocial.googleusercontent.com/gadgets/proxy?"]
 eevblog.com##img[src^="https://www.eevblog.com/images/comm/eevblog_banner_"]
 check-host.net##img[style="width: 700px"]
 bcmagazine.net##img[style^="width:300px;"]
@@ -63283,7 +63286,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||site-banner.hange.jp/adshow?$domain=animallabo.hange.jp
 @@||smartadserver.com/genericpost$domain=filmweb.pl
 @@||so-net.ne.jp/access/hikari/minico/ad/images/$~third-party
-@@||stats.g.doubleclick.net/dc.js$script,domain=chintaistyle.jp
+@@||stats.g.doubleclick.net/dc.js$script,domain=chintaistyle.jp|gyutoro.com
 @@||suntory.co.jp/beer/kinmugi/css2020/ad.css?
 @@||suntory.co.jp/beer/kinmugi/img/ad/$image,~third-party
 @@||tenki.jp/storage/static-images/top-ad/
