@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pJ7HxlOg8DCfb/4vAKbltg
-! Version: 202308221640
+! Checksum: nvgkwUIBnROrOSR56iThbw
+! Version: 202308221750
 ! Title: EasyList China+EasyList
-! Last modified: 22 Aug 2023 16:40 UTC
+! Last modified: 22 Aug 2023 17:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -78119,6 +78119,7 @@ spiceworks.com##.centerthe1
 thefastmode.com##.channel_long
 coincodex.com##.chart-pos.mobile-b
 sevenforums.com,tenforums.com##.chill
+hannaford.com##.citrus_ad_banner
 businessinsider.in##.clmb_eoa
 kissanime.com.ru##.close_ad_button
 news18.com##.closestickybtn
@@ -79760,6 +79761,7 @@ investing.com##.sponsoredArticle
 tech.hindustantimes.com##.sponsoredBox
 coinmarketcap.com##.sponsoredMark
 circleid.com##.sponsoredTopicCard
+hannaford.com##.sponsored_product
 meijer.com##.sponsoredproducts
 ar15.com,armageddonexpo.com,audiforums.com,f1gamesetup.com,ferrarichat.com,hotrodhotline.com,jaguarforums.com,pypi.org,thebugle.co.za,waamradio.com,wbal.com,webtorrent.io##.sponsors
 vuejs.org##.sponsors-aside-text
@@ -81293,6 +81295,11 @@ bing.com##[id$="adsMvCarousel"]
 bing.com##a[href*="/aclick?ld="]
 ! *** easylist:easylist/easylist_specific_hide_abp.txt ***
 ! Advanced element hiding rules for Adblock Plus
+hannaford.com#?#.header-2:-abp-contains(Sponsored Suggestions)
+hannaford.com#?#.plp_thumb_wrap:-abp-has([data-citrusadimpressionid])
+freshdirect.com#?#.swiper-slide:-abp-contains(Sponsored)
+giantfood.com,giantfoodstores.com,martinsfoods.com#?#.product-cell:-abp-has(.flag_label--sponsored)
+giantfood.com,giantfoodstores.com,martinsfoods.com#?#.zone-block:-abp-contains(Sponsored Suggestions)
 dictionary.com,thesaurus.com#?#main div[class]:-abp-has(> [data-type="ad-vertical"])
 skyscanner.com,skyscanner.net#?#div:-abp-has(>a[data-testid="inline-brand-banner"])
 aliexpress.com,aliexpress.us#?#a[class*="manhattan--container"]:-abp-has(span[class^="manhattan--ad"])
@@ -82188,6 +82195,7 @@ pornmd.com##.suggestions-box
 simply-hentai.com##.superbanner
 holymanga.net##.svl_ads_right
 exhibporno.com##.syn
+boundhub.com##.t2op
 boundhub.com##.tab7le
 18porn.sex,18teensex.tv,429men.com,4kporn.xxx,4wank.com,amateurporn.me,bigtitslust.com,danude.com,daporn.com,fapnow.xxx,fpo.xxx,freeporn8.com,fuqer.com,gayck.com,hentai-moon.com,heroero.com,hoes.tube,intporn.com,japaneseporn.xxx,jav.gl,javwind.com,mrdeepfakes.com,multi.xxx,onlyhentaistuff.com,pornchimp.com,porndr.com,pornmix.org,rare-videos.net,sortporn.com,tabootube.xxx,watchmygf.xxx,xcavy.com,xgroovy.com,xxxshake.com##.table
 sxyprn.com##.tbd
@@ -82205,7 +82213,6 @@ toppixxx.com##.thumbad
 cliniqueregain.com,tallermaintenancar.com##.thumbs
 smutty.com##.tig_following_tags2
 drtuber.com##.title-sponsored
-boundhub.com##.t2op
 daporn.com,fpo.xxx,hentai-moon.com,pornmix.org,scatxxxporn.com##.top
 jav.work##.top-banner
 pornfaia.com##.top-banner-single
@@ -83051,6 +83058,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||uze-ads.com/ads/$~third-party
 @@||valuecommerce.com^$image,domain=pointtown.com
 @@||yads.c.yimg.jp/js/yads-async.js$domain=kobe-np.co.jp|yahoo.co.jp
+@@||youchien.net/ad/*/ad/img/$~third-party
+@@||youchien.net/css/ad_side.css$~third-party
 @@||yuru-mbti.com/static/css/adsense.css$~third-party
 ! Allowlists to fix broken pages of advertisers
 ! Google
