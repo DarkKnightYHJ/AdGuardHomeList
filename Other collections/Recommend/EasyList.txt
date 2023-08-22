@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2rc8MMkyuP1tZqAsoE6mrg
-! Version: 202308220250
+! Checksum: plezDO1CapFUZnrXayFd7Q
+! Version: 202308220350
 ! Title: EasyList
-! Last modified: 22 Aug 2023 02:50 UTC
+! Last modified: 22 Aug 2023 03:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -482,11 +482,7 @@
 /ad_medium_
 /ad_mobile.
 /ad_mobile_
-/ad_mpu.
-/ad_news.
-/ad_note.
 /ad_notice.
-/ad_option_
 /ad_overlay.
 /ad_page_
 /ad_paper_
@@ -761,25 +757,14 @@
 /ads/article-
 /ads/article.
 /ads/assets/*
-/ads/async/*
 /ads/banner-
 /ads/banner?
 /ads/banner_
 /ads/banners/*
-/ads/beacon.
-/ads/bg_
 /ads/bottom.
 /ads/bottom/*
-/ads/cache/*
 /ads/cbr.
-/ads/center-
-/ads/center.
-/ads/click_
 /ads/common/*
-/ads/config/*
-/ads/core.
-/ads/create_
-/ads/default_
 /ads/delivery.
 /ads/delivery?
 /ads/dfp.
@@ -790,7 +775,6 @@
 /ads/footer.
 /ads/footer_
 /ads/gam_prebid-
-/ads/get/*
 /ads/gpt/*
 /ads/header-
 /ads/header.
@@ -809,15 +793,9 @@
 /ads/index.
 /ads/index/*
 /ads/index_
-/ads/info/*
-/ads/inline.
 /ads/js/*
 /ads/leaderboard-
 /ads/leaderboard.
-/ads/leaderboard/*
-/ads/leaderboard?
-/ads/leaderboard_
-/ads/loading.
 /ads/native.
 /ads/native/*
 /ads/oas-
@@ -828,18 +806,12 @@
 /ads/panel.
 /ads/player-
 /ads/popout.
-/ads/popshow.
 /ads/popup.
 /ads/popup_
-/ads/post-
-/ads/postscribe.
 /ads/preroll-
 /ads/preroll/*
 /ads/preroll_
-/ads/prod/*
-/ads/promo_
 /ads/proxy-
-/ads/rect_
 /ads/rectangle_
 /ads/revgen.
 /ads/right.
@@ -856,11 +828,7 @@
 /ads/sponsor
 /ads/square-
 /ads/square.
-/ads/sub/*
 /ads/taboola/*
-/ads/tags?
-/ads/text/*
-/ads/third-
 /ads/top-
 /ads/top.
 /ads/tracker/*
@@ -937,9 +905,6 @@
 /ads_files/*
 /ads_footer.
 /ads_frame.
-/ads_gallery/*
-/ads_global.
-/ads_ifr.
 /ads_iframe.
 /ads_image/*
 /ads_images/*
@@ -958,8 +923,6 @@
 /ads_start.
 /ads_text_
 /ads_top_
-/ads_ui.
-/ads_view.
 /adsadview.
 /AdsAjaxRefresh.
 /adsAPI.$domain=~snap.com|~snapchat.com
@@ -1038,20 +1001,9 @@
 /adsManagerV2.
 /adsmm.dll/*
 /adsnative_
-/adsnew.
-/adsnew/*
-/adsnip.
-/adsnippet.
-/adsniptrack.
 /adsonar.
-/adsource_
-/adsoverlay_
 /adspace.$~stylesheet,domain=~adspace.pro
-/adspace/*$domain=~adspaceagency.com
-/adspace1.
-/adspace2.
 /adspace?
-/adspacer.
 /adspan.
 /adsplay.
 /AdsPlugin.
@@ -1072,18 +1024,11 @@
 /adsrv.
 /adsrv/*
 /adsrv2/*
-/adsrvmedia/*
 /adsscript.
 /adsserv.
 /adsserver.
 /adsservice.
-/adsshow/*
-/adssp.
-/adssrv.
-/adstatic.
 /adstemplate/*
-/adstop.
-/adstop_
 /adstracking.
 /adstream.
 /adstream_
@@ -1557,11 +1502,9 @@
 /cpxads.
 /csp/ads?
 /css/ads-
-/css/ads300_
 /css/adsense
 /css/adv.
 /css/adz.
-/cssjs/ads/*
 /cube_ads/*
 /cubead.
 /cubeads/*
@@ -1637,16 +1580,9 @@
 /displayad.$~script
 /displayad/*
 /displayad?
-/displayadbanner_
 /displayAdFrame.
-/displayadiframe.
-/displayadleader.
 /displayads.
 /displayads/*
-/displayads1.
-/displayads2.
-/displayads3.
-/displayadsiframe.
 /dmcads_
 /doubleclick.aspx
 /doubleclick.min
@@ -2637,7 +2573,6 @@
 /sponsor-banner.
 /sponsor-box?
 /sponsor-links.
-/sponsor/click.
 /sponsor_ads.
 /sponsorad.
 /sponsorad2.
@@ -2653,15 +2588,11 @@
 /sponsored_ad/*
 /sponsored_ad_
 /sponsored_ads/*
-/sponsored_content-
 /sponsored_link.
 /sponsored_links_
 /sponsored_text.
 /sponsored_title.
-/sponsored_top.
 /sponsoredads/*
-/sponsoredbanner/*
-/sponsoredcontent.
 /sponsoredlinks.
 /sponsoredlinks/*
 /sponsoredlinks?
@@ -3101,17 +3032,9 @@ _adsframe.
 _adshow.
 _adskin.
 _adskin_
-_adtech-
-_adtech.
-_adtech/$~stylesheet
-_adtech_
 _adtext_
 _adtitle.
-_adunit.
-_adunits/
 _adv_open_x/
-_advert.
-_advert/
 _advert_label.
 _advert_vert
 _advertise-$domain=~linkedin.com
@@ -55285,6 +55208,7 @@ browsershots.org#@#.advert_area
 ||musicstreetjournal.com/banner/
 ||myabandonware.com/media/img/gog/
 ||myanimelist.net/c/i/images/event/
+||mybrowseraddon.com/ads/core.js
 ||myunique.info/wp-includes/js/pop.js
 ||n.gemini.yahoo.com^
 ||nameproscdn.com/images/backers/
