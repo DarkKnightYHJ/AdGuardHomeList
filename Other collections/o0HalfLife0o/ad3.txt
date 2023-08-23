@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: adgKSS7FVnGAeLgiDZ5E6w
+! Checksum: a5HNOK6BkkQfnBqEQN43XA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202308232008
-! Last Modified: 2023年08月23日 20:08
+! Version: 202308240201
+! Last Modified: 2023年08月24日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1794,6 +1794,7 @@ newduba.cn###jq_youxi
 ||52acc.cn^
 ||52kuwang.cn^
 ||5ggj5cp.com^
+||5lfgdju.com^
 ||777aa999aa.com^
 ||7xixi.site^
 ||8861198.com^
@@ -1949,6 +1950,7 @@ newduba.cn###jq_youxi
 ||fddxbn.xyz^
 ||feiln.xyz^
 ||fengyukun03.cn^
+||fgetmzx.icu^
 ||fhglcpf.icu^
 ||fiktvlnc.icu^
 ||fjsytjs.cn^
@@ -1987,6 +1989,7 @@ newduba.cn###jq_youxi
 ||hdfdsdaw.com^
 ||hdpdrandpd.xyz^
 ||hegk01a.top^
+||hegk02a.top^
 ||hegk03a.top^
 ||hegk05a.top^
 ||hfjk3wa.com^
@@ -2181,6 +2184,7 @@ newduba.cn###jq_youxi
 ||one6u.xyz^
 ||oopej.xyz^
 ||ooqwc.xyz^
+||oqyiapj.cn^
 ||oslbahk.top^
 ||ossfile001.com^
 ||owlinggnomist.com^
@@ -2199,6 +2203,7 @@ newduba.cn###jq_youxi
 ||pjsbuhl.icu^
 ||plbs9k.icu^
 ||pmxalz.xyz^
+||pnlhnx.xyz^
 ||poqiod.com^
 ||powedw.com^
 ||pr88vhg.com^
@@ -2397,16 +2402,11 @@ newduba.cn###jq_youxi
 ||zmdjbl.xyz^
 ||znyjmbh.icu^
 ||zonyff.xyz^
+||zpotkvpy.icu^
 ||zszhln.xyz^
 ||zvasuzb.icu^
 ||zwfkxb.xyz^
 ||zxrcfw.com^
-||5lfgdju.com^
-||fgetmzx.icu^
-||hegk02a.top^
-||pnlhnx.xyz^
-||oqyiapj.cn^
-||zpotkvpy.icu^
 ||zypzzv.xyz^
 ||zzisnvb.cn^
 ##a[href$="/1c626.com"]
@@ -11175,6 +11175,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||seek68.cn/img/*.gif
 ||sefu8j.com/index.php?m=poster&
 ||segmentfault.com/sponsor/
+||sentcss.com/get/cors/spread/
 ||seojiaoshi.cn/banner/
 ||seowhy.com/ask/img/*gg
 ||seqing.world/qq/qq.js
@@ -22729,6 +22730,7 @@ m.babytree.com##script + a[class]
 /analytics/collect?
 /analytics/collector.
 /analytics/collector/*
+/analytics/comscore.js
 /analytics/dist/*
 /analytics/embed/*
 /analytics/engine/*
@@ -23831,7 +23833,6 @@ m.babytree.com##script + a[class]
 /hash_stat_bulk/*
 /hc/activity
 /hc_pixel.gif?
-/headerpixel.gif?
 /headupstats.gif?
 /healthanalytics.js
 /heatmap_log.js
