@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hf0cU3VUeQxmuNZfloxvCw
-! Version: 202308231154
+! Checksum: LYMpf0yB/s2sYS6/tAUlBA
+! Version: 202308231250
 ! Title: EasyList China+EasyList
-! Last modified: 23 Aug 2023 11:54 UTC
+! Last modified: 23 Aug 2023 12:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -11829,6 +11829,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||sentcss.com/get/cors/spread/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -22285,17 +22286,13 @@ fqsousou.com,kengso.com#@#.user-share
 /realmedia_mjx.
 /realmedia_mjx_
 /reclama/*
-/reclame/*$domain=~github.com
 /recommendations/ad.
 /rect_ad.
 /rectangle_ad.
 /redirect/?spot_id=
 /redirect?tid=
 /redirect_awe.
-/redpop_ads/*
-/refads/*
 /refreshads-
-/reklam-ads2.
 /reklam.$domain=~github.com|~reklam.com.tr
 /reklam/*$domain=~cloudflare.com|~github.com|~reklam.com.tr
 /reklama/*$domain=~github.com
@@ -22307,13 +22304,9 @@ fqsousou.com,kengso.com#@#.user-share
 /reklame/*
 /related-ads.
 /relatedads.
-/relevance_ad.
 /remove-ads.
 /remove_ads.
 /ren.gif?
-/render-ad/*
-/renewalad/*
-/repeat_adv.
 /report_ad.
 /report_ad_
 /requirejs/ads/*
@@ -22382,8 +22375,6 @@ fqsousou.com,kengso.com#@#.user-share
 /show_ads_
 /showad/*
 /showad_
-/showadcode.
-/showadcode2.
 /showads_
 /showadvert.
 /showadvertising.
@@ -22394,7 +22385,6 @@ fqsousou.com,kengso.com#@#.user-share
 /side-ads-
 /side-ads/*
 /side_ads/*
-/side_adverts.
 /sidead.
 /sidead1.
 /sidead2.
@@ -75442,7 +75432,7 @@ browsershots.org#@#.advert_area
 ||g.ibtimes.sg/sys/js/minified-video.js
 ||geo.dailymotion.com/libs/player/$script,domain=mb.com.ph|philstarlife.com
 ||go.trvdp.com^
-||jwpcdn.com^$script,domain=bgr.com|dexerto.com|zimbio.com
+||jwpcdn.com^$script,domain=bgr.com|decider.com|dexerto.com|zimbio.com
 ||jwplayer.com^$domain=americansongwriter.com|dexerto.com|gamesradar.com|ginx.tv|kiplinger.com|soulbounce.com|spokesman-recorder.com|thestreet.com|tomshardware.com|variety.com|videogames.si.com|whathifi.com
 ||live.primis.tech^$third-party
 ||minute.ly^$third-party
@@ -79117,6 +79107,7 @@ english.nv.ua##.nts-video-wrapper
 marineelectronics.com,marinetechnologynews.com##.nwm-banner
 kueez.com,trendexposed.com,wackojacko.com##.nya-slot
 nypost.com##.nyp-s2n-wrapper
+decider.com##.nyp-video-player
 golfdigest.com##.o-ArticleRecirc
 lawandcrime.com,mediaite.com##.o-promo-unit
 afkgaming.com##.o-yqC
