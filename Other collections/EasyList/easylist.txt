@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202308241002
+! Version: 202308241039
 ! Title: EasyList
-! Last modified: 24 Aug 2023 10:02 UTC
+! Last modified: 24 Aug 2023 10:39 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -56060,6 +56060,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|adblockeronsta
 ||nvlqrvvtp6n.xhamster.com^
 ||oi.hqbang.com^
 ||oj.4wank.com^
+||ok.4wank.net^
 ||oldies.name/ok/
 ||orgyxxxhub.com/js/138eka326.js
 ||orgyxxxhub.com/js/965eka57.js
@@ -61255,6 +61256,7 @@ bing.com##[id$="adsMvCarousel"]
 bing.com##a[href*="/aclick?ld="]
 ! *** easylist:easylist/easylist_specific_hide_abp.txt ***
 ! Advanced element hiding rules for Adblock Plus
+4wank.com#?#.video-holder > center > :-abp-contains(/^Advertisement$/)
 hannaford.com#?#.header-2:-abp-contains(Sponsored Suggestions)
 hannaford.com#?#.plp_thumb_wrap:-abp-has([data-citrusadimpressionid])
 freshdirect.com#?#.swiper-slide:-abp-contains(Sponsored)
@@ -61534,7 +61536,6 @@ youngamateursporn.com###inplayer_block
 freebunker.com,imagesnake.com,imgcarry.com,pornbus.org###introOverlayBg
 hentaiprn.com###l_340
 postyourpuss.com###leaderboard
-amateurporn.me###list_videos_videos_watched_right_now_items > [class="item"]
 xfantasy.su###listing-ba
 redtube.com###live_models_row_wrap
 bootyoftheday.co###lj
@@ -61880,7 +61881,7 @@ pornfaia.com##.footer-bnrz
 youporn.com,youporngay.com##.footer-element-container
 pornburst.xxx##.footer-iframe
 4tube.com##.footer-la-jesi
-4kporn.xxx,amateurporn.co,camstreams.tv,danude.com,fpo.xxx,scatxxxporn.com##.footer-margin
+4kporn.xxx,alotporn.com,amateurporn.co,camstreams.tv,danude.com,fpo.xxx,scatxxxporn.com##.footer-margin
 cliniqueregain.com##.footer-promo
 cbhours.com##.footer-section
 pornhd.com##.footer-zone
@@ -61903,7 +61904,7 @@ bravoteens.com,bravotube.net##.good_list_wrap
 kbjfree.com##.h-\[250px\]
 amateur-vids.eu,mature.community,mature.mom,mature.sexy,milf.community,milf.mom,milf.plus,milf.sexy##.happy-footer
 indianpornvideos2.com##.happy-footer-mobile
-koreanstreamer.xyz##.happy-header
+hdporn92.com,koreanstreamer.xyz##.happy-header
 indianpornvideos2.com##.happy-header-mobile
 cheemsporn.com,nudeof.com,sexseeimage.com,yporn.tv##.happy-inside-player
 sexseeimage.com##.happy-player-beside
@@ -62030,6 +62031,7 @@ bigtitslust.com,sortporn.com##.pignr.item
 boundhub.com##.pla4ce
 camvideos.tv,exoav.com,jizzoncam.com,rare-videos.net##.place
 3movs.com##.player + .aside
+alotporn.com##.player + center
 xhamster.com##.player-add-overlay
 vivud.com,zmovs.com##.player-aside-banners
 sexu.site##.player-block__line
@@ -62163,7 +62165,7 @@ holymanga.net##.svl_ads_right
 exhibporno.com##.syn
 boundhub.com##.t2op
 boundhub.com##.tab7le
-18porn.sex,18teensex.tv,429men.com,4kporn.xxx,4wank.com,amateurporn.co,amateurporn.me,bigtitslust.com,danude.com,daporn.com,fapnow.xxx,fpo.xxx,freeporn8.com,fuqer.com,gayck.com,hentai-moon.com,heroero.com,hoes.tube,intporn.com,japaneseporn.xxx,jav.gl,javwind.com,mrdeepfakes.com,multi.xxx,onlyhentaistuff.com,pornchimp.com,porndr.com,pornmix.org,rare-videos.net,sortporn.com,tabootube.xxx,watchmygf.xxx,xcavy.com,xgroovy.com,xxxshake.com##.table
+18porn.sex,18teensex.tv,429men.com,4kporn.xxx,4wank.com,alotporn.com,amateurporn.co,amateurporn.me,bigtitslust.com,danude.com,daporn.com,fapnow.xxx,fpo.xxx,freeporn8.com,fuqer.com,gayck.com,hentai-moon.com,heroero.com,hoes.tube,intporn.com,japaneseporn.xxx,jav.gl,javwind.com,mrdeepfakes.com,multi.xxx,onlyhentaistuff.com,pornchimp.com,porndr.com,pornmix.org,rare-videos.net,sortporn.com,tabootube.xxx,watchmygf.xxx,xcavy.com,xgroovy.com,xxxshake.com##.table
 sxyprn.com##.tbd
 amateurvoyeurforum.com##.tborder[width="99%"][cellpadding="6"]
 pronpic.org##.teaser
@@ -62179,7 +62181,7 @@ toppixxx.com##.thumbad
 cliniqueregain.com,tallermaintenancar.com##.thumbs
 smutty.com##.tig_following_tags2
 drtuber.com##.title-sponsored
-daporn.com,fpo.xxx,hentai-moon.com,pornmix.org,scatxxxporn.com##.top
+4wank.com,daporn.com,fpo.xxx,hentai-moon.com,pornmix.org,scatxxxporn.com##.top
 jav.work##.top-banner
 pornfaia.com##.top-banner-single
 sexvid.xxx##.top-cube
@@ -62353,6 +62355,7 @@ sexhimmel.com##[href^="https://www.amarotic.com/"]
 porngames.club##[href^="https://www.familyporngames.games/"]
 porngames.club##[href^="https://www.porngames.club/friends/out.php"]
 koreanstreamer.xyz##[href^="https://www.saltycams.com"]
+alotporn.com,amateurporn.me##[id^="list_videos_"] > [class="item"]
 youjizz.com,youporngay.com##[img][src*="blob:"]
 tophentai.biz##[src*="hentaileads/"]
 hentaigasm.com##[src^="https://add2home.files.wordpress.com/"]
