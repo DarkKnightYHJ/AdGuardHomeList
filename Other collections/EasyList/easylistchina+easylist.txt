@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: nNZ/S0hjEwJFEh473IdCQA
-! Version: 202308242240
+! Checksum: l3b93T5KuDiGir/LEb0raw
+! Version: 202308250030
 ! Title: EasyList China+EasyList
-! Last modified: 24 Aug 2023 22:40 UTC
+! Last modified: 25 Aug 2023 00:30 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -2260,6 +2260,8 @@ newduba.cn###jq_youxi
 ||zvasuzb.icu^
 ||zwfkxb.xyz^
 ||zxrcfw.com^
+||zdwykjd.icu^
+||xhpghv.xyz^
 ||zypzzv.xyz^
 ||zzisnvb.cn^
 !
@@ -11851,6 +11853,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||weiyun.com/cgi-bin/tianshu_get?position=4&
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -13288,6 +13291,7 @@ china.com.cn##.Banner_right
 58avgo.com##.BillingRight
 lenovo.com.cn##.BottomBar
 ltn.com.tw##.C3.boxTitle
+ltn.com.tw##DIV[class*="adHeight"]
 18avhub.com,18avtube.com,mm-cg.com##.CN_qmvtoy
 zhihu.com##.Card.Banner
 3464.com##.CommonBody > .CommonListArea:nth-child(3)
@@ -21061,12 +21065,6 @@ fqsousou.com,kengso.com#@#.user-share
 /advanced-ads-$domain=~wordpress.org
 /advbanner/*$~image
 /advbanners/*$~image
-/adver.$domain=~adver.biz|~adver.by|~adver.live|~adver.media|~adver.vn
-/adverfisement.
-/adverfisement2.
-/adverserve.
-/adversting/*
-/adversting?
 /advert.$~script,domain=~advert.ae|~advert.club|~advert.com.tr|~advert.ee|~advert.ge|~advert.io|~advert.media|~advert.org.pl|~motortrader.com.my
 /advert01.
 /advert1.
@@ -21082,11 +21080,6 @@ fqsousou.com,kengso.com#@#.user-share
 /advert_$domain=~canalplus.com
 /advertbanner.
 /advertbox.
-/advertise-$~script,domain=~ads.microsoft.com|~advertise-solution.nl|~bingads.microsoft.com
-/advertisements-
-/advertisements?
-/advertisements_
-/advertiserwidget.
 /advertising/banner_
 /advertising/banners/*
 /advertising2.
@@ -21946,8 +21939,6 @@ fqsousou.com,kengso.com#@#.user-share
 /mac-ad?
 /mad_ad.
 /mads.php?
-/magic-ad/*
-/magic-ads/*
 /main/ad/*
 /main/ad_
 /main_ad.

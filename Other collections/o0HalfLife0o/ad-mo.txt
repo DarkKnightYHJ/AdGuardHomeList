@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: paLzTvBYEh8Rk3+E18ee4w
+! Checksum: vHY5mlNu8OEXuFGbQCqSyg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202308250204
-! Last Modified: 2023年08月25日 02:04
+! Version: 202308250824
+! Last Modified: 2023年08月25日 08:24
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -65479,6 +65479,8 @@ newduba.cn###jq_youxi
 ||zvasuzb.icu^
 ||zwfkxb.xyz^
 ||zxrcfw.com^
+||zdwykjd.icu^
+||xhpghv.xyz^
 ||zypzzv.xyz^
 ||zzisnvb.cn^
 ##a[href$="/1c626.com"]
@@ -75068,6 +75070,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||weiyun.com/cgi-bin/tianshu_get?position=4&
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -76505,6 +76508,7 @@ china.com.cn##.Banner_right
 58avgo.com##.BillingRight
 lenovo.com.cn##.BottomBar
 ltn.com.tw##.C3.boxTitle
+ltn.com.tw##DIV[class*="adHeight"]
 18avhub.com,18avtube.com,mm-cg.com##.CN_qmvtoy
 zhihu.com##.Card.Banner
 3464.com##.CommonBody > .CommonListArea:nth-child(3)
@@ -116995,6 +116999,7 @@ arketing.indianadunes.com^
 ||juejin.cn/content_api/v1/advert/query_adverts?
 ||djljz.cn/Plugins/Template/XJLY/js/app.
 !------------------------Specific element hiding rules------------------------!
+kdocs.cn##.business-list-wrap
 tencent.com##.cdc-commercial-swiper
 focus.cn##.module-common-float-im
 focus.cn##.shequn-code-img
