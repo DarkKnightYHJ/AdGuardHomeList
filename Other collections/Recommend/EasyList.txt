@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: DC5OFTiW5sAvWN7sbHgyDw
-! Version: 202308250150
+! Checksum: JKElcsGRkxRnFuOS6gDIVw
+! Version: 202308250240
 ! Title: EasyList
-! Last modified: 25 Aug 2023 01:50 UTC
+! Last modified: 25 Aug 2023 02:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1096,8 +1096,6 @@
 /advbanners/*$~image
 /advert.$~script,domain=~advert.ae|~advert.club|~advert.com.tr|~advert.ee|~advert.ge|~advert.io|~advert.media|~advert.org.pl|~motortrader.com.my
 /advert01.
-/advert1.
-/advert1/*
 /advert2.
 /advert24.
 /advert3.
@@ -1113,20 +1111,15 @@
 /advertising/banners/*
 /advertising2.
 /advertising?
-/advertising_$domain=~advertising.scoop.co.nz
-/advertisingbanner.
-/advertisingbanner/*
 /advertisingmodule.
 /advertisingWebRenderer.min.js
 /advertisment-
-/advertisment/*
+/advertisment/*$~image
 /advertisment_
-/advertisments/*
+/advertisments/*$~image
 /advertlayer.
-/advertmedia/*
 /advertorial-
 /advertorial/*
-/advertorials/*
 /advertphp/*
 /advertpro/*
 /advertrail.
@@ -1977,7 +1970,6 @@
 /manageads/*
 /marfeel_sw.
 /mbads?
-/mbn_ad.
 /mcad.php
 /mda-ads/*
 /media/ad/*
@@ -2000,7 +1992,6 @@
 /mini_ads.
 /miniads?
 /miniadvert.
-/mint/ads/*
 /mmads-
 /mmads.
 /moatsdk.min.js
@@ -2021,17 +2012,10 @@
 /modules/ad/*
 /modules/ad_
 /modules/ads/*
-/monetize-show-ads
 /moneyball/ads/*
 /mpads/*
 /mpuad.
 /MPUAd/*
-/msnadimg.
-/msnads/*
-/msnads1.
-/msnpop.
-/msnpopup.
-/msnpopup4.
 /mydirtyhobby.$domain=~mydirtyhobby.com|~mydirtyhobby.de|~mydirtyhobby.to
 /mysimpleads/*
 /n4403ad.
@@ -2121,9 +2105,7 @@
 /pagepeelads.
 /pagepeelpro.
 /PageTopAD.
-/paidads/*
 /parking_caf_
-/parseForAds.
 /partner-ad-
 /partner.ads.
 /Partner_Ad/*
@@ -2136,9 +2118,6 @@
 /partnerbanner.
 /partnerbanner/*
 /partners/ads/*
-/partnership-ads/*
-/partnerships-ads-
-/parts/ad/*
 /pauseadextension.
 /pcad.js?
 /pch_ad/*
@@ -2146,7 +2125,6 @@
 /peel_ads/*
 /peelad/*
 /peelads/*
-/peeljs.php
 /peeltl.
 /peeltr.
 /pfe/current/*
@@ -5806,9 +5784,6 @@ _800x80_
 ###billboard-ad
 ###billboard-atf
 ###billboard_ad
-###bing-text-ad-1
-###bing-text-ad-2
-###bing-text-ad-3
 ###bingadcontainer2
 ###blkAds1
 ###blkAds2
