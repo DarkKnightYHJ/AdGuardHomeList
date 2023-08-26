@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202308261100
+! Version: 202308261158
 ! Title: EasyList
-! Last modified: 26 Aug 2023 11:00 UTC
+! Last modified: 26 Aug 2023 11:58 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -36,13 +36,11 @@
 -ad.jpg.pagespeed.
 -ad.jpg?
 -ad.php?
--adap.$domain=~l-adap.org
 -adbanner.
 -adbox-
 -adfliction.
 -adfliction/
 -adimage-
--adloader-
 -ads-banner.
 -ads-bottom.
 -ads-management/
@@ -53,14 +51,11 @@
 -ads/assets/$domain=~web-ads.org
 -adserver/
 -adskin.
--adslots.
 -adsonar.
 -adspace.$domain=~metaverse-adspace.com
 -advertise/
 -advertisement_
 -advertising/assets/
--advertising_
--advertisment-
 -adverts.min.
 -article-ad-
 -article-ad.
@@ -1101,11 +1096,6 @@
 /advertisment_
 /advertisments/*$~image
 /advertlayer.
-/advertorial-
-/advertorial/*
-/advertphp/*
-/advertpro/*
-/advertrail.
 /advertright.
 /adverts.$~script,domain=~adverts.ie|~adverts.org.ua
 /adverts/*$~xmlhttprequest
@@ -48749,6 +48739,7 @@ browsershots.org#@#.advert_area
 ||tagjunction.com^$third-party
 ||tailsweep.com^$third-party
 ||taiphaib.net^$third-party
+||takeads.com^$third-party
 ||talaropa.com^$third-party
 ||tangozebra.com^$third-party
 ||tankeuro.com^$third-party
@@ -57420,6 +57411,7 @@ allscrabblewords.com,mpog100.com##.ad3
 india.com##.ad5
 cricketcountry.com##.ad90mob300
 chron.com,crypto-news-flash.com,greenwichtime.com,houstonchronicle.com,mysanantonio.com,seattlepi.com,sfchronicle.com,sfgate.com,thetelegraph.com,timesunion.com##.adBanner
+medibang.com##.adBlock__pc
 bigislandnow.com##.adBreak
 m.economictimes.com,someecards.com,trailspace.com##.adContainer
 etymonline.com##.adContainer--6CVz1

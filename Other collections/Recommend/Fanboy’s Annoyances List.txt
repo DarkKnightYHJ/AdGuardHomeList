@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: sJT9/FEZU5+Bpri6mAyhFg
-! Version: 202308261040
+! Checksum: xWN0Ra7Y/fgeHsrw6yvBgw
+! Version: 202308261150
 ! Title: Fanboy's Annoyance List
-! Last modified: 26 Aug 2023 10:40 UTC
+! Last modified: 26 Aug 2023 11:50 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -124,7 +124,6 @@
 /csBackToTop.js
 /dynamic-to-top/*
 /go_to_top.
-/goToTop.
 /hs.go-to.js
 /hs.go-to.min.js
 /ic_pagetop.
@@ -19030,6 +19029,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ###ccpaContainer
 ###ccpaFooter
 ###ccpa_banner
+###ccpa_consent_banner
 ###ccs-notification
 ###ccservice-cookiesinfo
 ###cct-box
@@ -36048,7 +36048,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||fuse.forbes.com^
 ||gallup.com/ux/gcb/
 ||gdpr.internetbrands.com^
-||getadblock.com/js/cookie_notification.js
+||gdpr-api.sharethis.com^
 ||government-and-constitution.org/js/consent.js
 ||harpercollins.co.uk/js/cookie.js
 ||hunstoncanoeclub.co.uk/media/system/js/modal.js
@@ -37139,7 +37139,7 @@ news.mingpao.com###return_top_2023
 baystatebanner.com###scroll-back
 aeromalls.com,ecrater.com,gadgetstouse.com,hard-drive.net,hotels.com,iphoneitalia.com,safetydetectives.com,theblondeabroad.com,thefintechtimes.com,yoshuabengio.org###scroll-to-top
 trutone.ca###scroll-top
-morbidology.com,theoverclocker.com,uska.ch,wdet.org###scroll-up
+morbidology.com,spuf.org,theoverclocker.com,uska.ch,wdet.org###scroll-up
 permanentstyle.com###scrollToTop
 123ink.ca,americanmusical.com,itdevices.ca,kingofcocaine.com,primecables.ca###scrollUp
 vipcars.com###scroll_top
@@ -37174,6 +37174,7 @@ goodwillfinds.com##.b-back_to_top
 celebritycruises.com,err.ee,onthegotours.com,savoredjourneys.com,wanderlustcrew.com##.back-to-top
 dealnews.com##.back-to-top-outer
 topuniversities.com##.back_top
+atozmath.com##.backToTop33
 paradisehill.cc##.block-to-top
 bravotube.net##.btn-up
 qmul.ac.uk##.btt__inner
@@ -37254,6 +37255,7 @@ newrepublic.com##.upArrow
 itweb.co.za##.v-btn--bottom
 tiktok.com##[aria-label="Scroll to the top"]
 motorsport.com##[data-id="documentScrollToTop"]
+kimcartoon.li##[href="#"]
 nordstrom.com##[href="#back-to-top"]
 nexusmods.com##[title="Back to top"]
 wallpaperflare.com##[title="back to top"]
@@ -40035,7 +40037,7 @@ faithwire.com##.social__buttons
 moroccoworldnews.com##.social__media
 snopes.com##.social_comments_app_wrapper
 commondreams.org##.social_icon
-audi-sport.net,eurogamer.net,trustedreviews.com,woodworkforinventor.com##.social_icons
+audi-sport.net,eurogamer.net,metacritic.com,trustedreviews.com,woodworkforinventor.com##.social_icons
 dnaindia.com##.social_icons_colored
 moneycontrol.com##.social_icons_wrapper
 captainaltcoin.com##.social_link
