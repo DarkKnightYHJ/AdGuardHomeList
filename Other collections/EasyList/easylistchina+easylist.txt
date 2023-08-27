@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /RfCYO2axWY6KvofjWp2Jw
-! Version: 202308271150
+! Checksum: 2cRkuHej1cDJymvUt8uqqA
+! Version: 202308271240
 ! Title: EasyList China+EasyList
-! Last modified: 27 Aug 2023 11:50 UTC
+! Last modified: 27 Aug 2023 12:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1453,6 +1453,7 @@ newduba.cn###jq_youxi
 ##.wzad
 ##.xstui-content__acc
 ##.xzbox-gh
+##.bl > .gg
 ##.y.mtw[style="padding: 0px 10px;"]
 ##.zhanzhang_tuijian_btn
 ##.zhedangceng_ggg
@@ -9853,7 +9854,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||img588.net/images/*.gif
 ||img599.net/images/*0x
 ||img599.net^$domain=18board.com|18p2p.com
-||imgadsame.liba.com^
 ||imgbaiduxz.xyz/jsjsjs/
 ||imgbox.com^$domain=jiyingw.vip
 ||imgchili.net/media/image*.gif
@@ -11880,9 +11880,12 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||adimg.liba.com^
 ||xitongzhijia.net/theme/2020/js/10033_
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+libaclub.com##.ui-ad
+libaclub.com#?#.ui-list-item:-abp-has(>.ui-list-item-title>a[onclick^="SendAd"])
 yuepuwang.com##.topban
 onlinedown.net##.king-soft-area
 szxx.com.cn###A1
@@ -77271,6 +77274,7 @@ sciencenews.org##.ad-block-leaderboard__freestar___Ologr
 cryptodaily.co.uk##.ad-bottom-spacing
 save.ca##.ad-box
 mv-voice.com##.ad-break
+npr.org##.ad-config
 12news.com,9news.com,9to5google.com,9to5mac.com,aad.org,advfn.com,all3dp.com,athleticbusiness.com,audiokarma.org,beeradvocate.com,beliefnet.com,bizjournals.com,biznews.com,bolavip.com,businessinsider.com,cbs8.com,cc.com,ccjdigital.com,computerworld.com,driven.co.nz,ecr.co.za,electrek.co,empireonline.com,engineeringnews.co.za,equipmentworld.com,etcanada.com,fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox7austin.com,fox9.com,foxbusiness.com,foxla.com,foxnews.com,funkidslive.com,gfinityesports.com,globalspec.com,gmanetwork.com,grammarbook.com,hbr.org,howstuffworks.com,huffpost.com,insidehook.com,insider.com,intouchweekly.com,khou.com,koat.com,ktvu.com,lifeandstylemag.com,macstories.net,mail.com,mangakakalot.app,memuplay.com,metro.us,metrophiladelphia.com,miningweekly.com,mobilesyrup.com,modernhealthcare.com,msnbc.com,my9nj.com,nbcnews.com,newrepublic.com,nzherald.co.nz,oneesports.gg,opb.org,papermag.com,physiology.org,pixiv.net,punchng.com,realsport101.com,reason.com,refinery29.com,roadandtrack.com,scroll.in,seattletimes.com,slideshare.net,songkick.com,sportskeeda.com,thelocal.at,thelocal.ch,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se,themarketherald.ca,toofab.com,uploadvr.com,usmagazine.com,vanguardngr.com,wogx.com##.ad-container
 sciencealert.com##.ad-desktop\:block
 cnn.com##.ad-feedback__modal
@@ -78286,6 +78290,7 @@ momjunction.com,stylecraze.com##.flying-carpet-wrapper
 radiozindagi.com##.foot_top
 advocate.com,emergencyemail.org,out.com##.footer
 allthatsinteresting.com,scientificamerican.com##.footer-banner
+wst.tv##.footer-logos
 supercars.com##.footer-promo
 filma24.ch##.footer-reklama
 skidrowcodexreloaded.com##.footer-sticky
@@ -80741,7 +80746,7 @@ abpclub.co.uk##img[width="118"]
 howtogermany.com##img[width="120"]
 lyngsat-logo.com,lyngsat-maps.com,lyngsat-stream.com,lyngsat.com,newswireni.com,webhostingtalk.com##img[width="160"]
 fashionpulis.com##img[width="250"]
-airplaydirect.com,americaoutloud.com,bigeye.ug,completesports.com,cryptomining-blog.com,cryptoreporter.info,dotsauce.com,espnrichmond.com,flsentinel.com,forexmt4indicators.com,freedomhacker.net,gamblingnewsmagazine.com,gameplayinside.com,goodcarbadcar.net,kenyabuzz.com,kiwiblog.co.nz,mauitime.com,mkvcage.com,movin100.com,mycolumbuspower.com,naijaloaded.com.ng,newzimbabwe.com,onislandtimes.com,ouo.press,punchng.com,reviewparking.com,robhasawebsite.com,sacobserver.com,seguintoday.com,themediaonline.co.za,theolivepress.es,therep.co.za,thewillnigeria.com,tntribune.com,wantedinafrica.com,wantedinrome.com,wschronicle.com##img[width="300"]
+airplaydirect.com,americaoutloud.com,bigeye.ug,completesports.com,cryptomining-blog.com,cryptoreporter.info,dotsauce.com,espnrichmond.com,flsentinel.com,forexmt4indicators.com,freedomhacker.net,gamblingnewsmagazine.com,gameplayinside.com,goodcarbadcar.net,kenyabuzz.com,kiwiblog.co.nz,mauitime.com,mkvcage.com,movin100.com,mycolumbuspower.com,naijaloaded.com.ng,newzimbabwe.com,onislandtimes.com,ouo.press,punchng.com,reviewparking.com,robhasawebsite.com,sacobserver.com,seguintoday.com,themediaonline.co.za,theolivepress.es,therep.co.za,thewillnigeria.com,tntribune.com,waamradio.com,wantedinafrica.com,wantedinrome.com,wschronicle.com##img[width="300"]
 everybithelps.co.uk##img[width="300"][height="300"]
 boxthislap.org##img[width="300px"]
 independent.co.ug##img[width="320"]

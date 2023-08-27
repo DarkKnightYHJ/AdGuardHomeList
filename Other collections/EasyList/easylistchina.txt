@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SwVJvYz9BS7+XNEZKdbX1w
-! Version: 202308271150
+! Checksum: Q/C+/ZFri56J7clqVP9KXg
+! Version: 202308271250
 ! Title: EasyList China
-! Last modified: 27 Aug 2023 11:50 UTC
+! Last modified: 27 Aug 2023 12:50 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1451,6 +1451,7 @@ newduba.cn###jq_youxi
 ##.wzad
 ##.xstui-content__acc
 ##.xzbox-gh
+##.bl > .gg
 ##.y.mtw[style="padding: 0px 10px;"]
 ##.zhanzhang_tuijian_btn
 ##.zhedangceng_ggg
@@ -9851,7 +9852,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||img588.net/images/*.gif
 ||img599.net/images/*0x
 ||img599.net^$domain=18board.com|18p2p.com
-||imgadsame.liba.com^
 ||imgbaiduxz.xyz/jsjsjs/
 ||imgbox.com^$domain=jiyingw.vip
 ||imgchili.net/media/image*.gif
@@ -11878,9 +11878,12 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||adimg.liba.com^
 ||xitongzhijia.net/theme/2020/js/10033_
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+libaclub.com##.ui-ad
+libaclub.com#?#.ui-list-item:-abp-has(>.ui-list-item-title>a[onclick^="SendAd"])
 yuepuwang.com##.topban
 onlinedown.net##.king-soft-area
 szxx.com.cn###A1
