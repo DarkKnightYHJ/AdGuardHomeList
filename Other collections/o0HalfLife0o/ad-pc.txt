@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4IYjfiK89iT/Gpcq7Yb7Sw
+! Checksum: 3kQxkAysMCg7OUjW5AC72A
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202308270825
-! Last Modified: 2023年08月27日 08:25
+! Version: 202308271402
+! Last Modified: 2023年08月27日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -546,12 +546,8 @@ tieba.baidu.com##.tuijian-wrap
 -Web-Ads.
 -web-advert-
 -Web-Advert.
-.ad.footer.
-.ad.wrapper.
 .ad6media.$domain=~ad6media.fr
 .adbutler-
-.adnetwork.$domain=~adnetwork.ie|~adnetwork.sk
-.adpartner.$domain=~adpartner.cz|~adpartner.de|~adpartner.jp
 .adriver.$~object,domain=~adriver.co|~adriver.tech
 .adrotate.
 .ads-lazy.
@@ -562,7 +558,6 @@ tieba.baidu.com##.tuijian-wrap
 .ads.darla.
 .adsbox.$domain=~adsbox.in
 .adsdk.
-.adserv/
 .adserver.
 .adService.$domain=~adservice.com
 .adsremote.
@@ -870,12 +865,10 @@ tieba.baidu.com##.tuijian-wrap
 /ad_iframe.
 /ad_iframe_
 /ad_image.
-/ad_image2.
 /ad_images/*
 /ad_img.
 /ad_img/*
 /ad_include.
-/Ad_Index?
 /ad_index_
 /ad_insert.
 /ad_label_
@@ -1005,7 +998,6 @@ tieba.baidu.com##.tuijian-wrap
 /adcommon?
 /adconfig.
 /adconfigproxy.
-/adcontainer?
 /adcontents_
 /adcount.$domain=~adcount.com|~adcount.fi
 /adcounter.
@@ -1052,7 +1044,6 @@ tieba.baidu.com##.tuijian-wrap
 /adimage/*
 /adimage?
 /adimages.
-/adimg.$domain=~adimg.ru|~nate.com
 /adinclude.
 /adinit.
 /adinject.$domain=~adinject.com
@@ -1062,13 +1053,7 @@ tieba.baidu.com##.tuijian-wrap
 /adj.php?
 /adjs.php
 /adjs/*$~image
-/adjs?
-/adjs_
-/adjsmp.
-/adjson.
-/adjug.
 /adjuggler?
-/adkeys.
 /adlabel_
 /adlantis.
 /adlayer.
@@ -1084,13 +1069,8 @@ tieba.baidu.com##.tuijian-wrap
 /admanager3.
 /admarker.$domain=~admarker.co.il
 /admarker_
-/adMarketplace.$domain=~admarketplace.brave.com
-/admaster.$domain=~admaster.biz
 /admaster?
 /admaven.
-/admeld_
-/admgr.
-/admin/ad_
 /admixer-
 /admixer_
 /admob.$domain=~google.com
@@ -1109,6 +1089,7 @@ tieba.baidu.com##.tuijian-wrap
 /adotube_adapter.
 /adotubeplugin.
 /adoverlay.
+/adpartner.min.js
 /adplacement.
 /adplayer.$script,domain=~adplayer.media|~adplayer.pro
 /adplugin.
@@ -1532,12 +1513,7 @@ tieba.baidu.com##.tuijian-wrap
 /advertserve.
 /advertsky.
 /advertsquare.
-/advertss/*
 /adverttop.
-/advideo.$domain=~advideo.pro|~advideo.site
-/adview/*
-/adview?
-/adview_
 /adviewas3.
 /advrotator.
 /advrotator_
@@ -1581,8 +1557,6 @@ tieba.baidu.com##.tuijian-wrap
 /affiliate/ads/*
 /affiliate/banner/*
 /affiliate/banners/*
-/affiliate/promo-
-/affiliate/promo/*
 /affiliateads/*
 /affiliates/banner
 /afr.php?
@@ -2000,17 +1974,14 @@ tieba.baidu.com##.tuijian-wrap
 /float_ad.
 /floatad_
 /floatads.
-/floatadv.
+/floatadv.js
 /floater_ad.
 /floating-ad-
 /floatingad.
 /FloatingAd_
 /floatingads.
-/flv-ad-
 /flyad/*
 /flyads/*
-/flyers/ads/*
-/flytead.
 /footad-
 /footad.
 /footer-ad-
@@ -2044,7 +2015,6 @@ tieba.baidu.com##.tuijian-wrap
 /generate_ads.
 /generateAds.
 /generateadtag.
-/generic.ads.
 /get-ads-by-zones/*
 /get/?go=1&data=
 /get/ad/*
@@ -2064,8 +2034,6 @@ tieba.baidu.com##.tuijian-wrap
 /getadverts?
 /getsponslinks.
 /getTextAD.
-/gifs/ads/*
-/global-ads_
 /globalad.$domain=~globalad.com.br
 /globalads-
 /google-ad?
@@ -2736,7 +2704,6 @@ tieba.baidu.com##.tuijian-wrap
 /searchad_
 /secureads.
 /select_adv?
-/serv.ads.
 /servads.
 /servead.
 /servead/*
@@ -2746,7 +2713,6 @@ tieba.baidu.com##.tuijian-wrap
 /service/ad/*
 /service/ads/*
 /service/adv/*
-/services/ads/*
 /servlet/view/*
 /set_adcode?
 /show-ad.
@@ -2804,7 +2770,6 @@ tieba.baidu.com##.tuijian-wrap
 /skinads/*
 /skins/ads/*
 /skyadright.
-/skyplayer-ads-
 /skyscraper_ad_
 /skyscraperad.
 /slide_in_ads_
@@ -2979,22 +2944,6 @@ tieba.baidu.com##.tuijian-wrap
 /txt_adv.
 /txtad.
 /txtads/*
-/u-ads.
-/update_ads/*
-/uplimg/ads/*
-/upload/ads/*$domain=~ads.ae
-/UploadAds/*
-/uploaded/ads/*
-/UploadedAds/*
-/uploads/ads/*$domain=~bayie.com
-/uploads/adv/*
-/uploads/adv_
-/uploads/xadv_
-/user_ads/*
-/userad.$domain=~userad.info
-/userad/*
-/userads/*
-/utep/ad/*
 /v1/ads/*
 /v2/a/push/js/*
 /v2/ads/*
@@ -3086,7 +3035,6 @@ tieba.baidu.com##.tuijian-wrap
 /wix-ad.
 /wixads.
 /wixads/*
-/wlbetathome/bannerflow/*
 /wordpress-ads-plug-in/*
 /wp-ad.min.
 /wp-auto-affiliate-links/*
@@ -3115,14 +3063,12 @@ tieba.baidu.com##.tuijian-wrap
 /wp-content/uploads/useful_banner_manager_banners/*
 /wp-popup-scheduler/*
 /wp-srv/ad/*
-/wp_ad_250_
 /wp_pro_ad_system/*
 /wpadgu-
 /wpbanners_show.php
 /wppas.
 /wppas/*
 /wppas_
-/wpproadds.
 /wpx-bannerize_
 /wrapper/ads/*
 /www/ad/*
@@ -3246,8 +3192,6 @@ _ad_small.
 _ad_sponsor/
 _ad_square.
 _ad_top_
-_ad_units_
-_ad_utils-
 _ad_wrapper.
 _adbanner.
 _adbanner/
@@ -3259,19 +3203,11 @@ _adbox_
 _adcall.
 _adchoice.
 _adchoices.
-_adengage.
-_adengage_
 _adframe.$domain=~adsystem.pl
-_adframe/
 _adframe_
-_adfunction.
-_adhesion.
 _adhome.
 _adhome_
 _adlabel_
-_adlog.
-_admanager/
-_admarking_
 _adnetwork.
 _adpartner.
 _adplugin.
@@ -3282,9 +3218,6 @@ _adrotator.
 _ads.cgi
 _ads.cms?
 _ads.php?
-_ads_index_
-_ads_partner.
-_ads_profile.
 _ads_reporting.
 _ads_targeting.
 _ads_text.
@@ -3293,7 +3226,6 @@ _ads_updater-
 _adscommon.
 _adscript.
 _adserve.
-_adserve/
 _adserver.
 _adsetup.
 _adsframe.
@@ -3307,11 +3239,8 @@ _advert_label.
 _advert_vert
 _advertise-$domain=~linkedin.com
 _advertise.
-_advertisehere.
 _advertisement-
 _advertisement/
-_advertisements/
-_advertising.
 _advertisment.
 _advertorial.
 _advertorial_
@@ -3391,7 +3320,6 @@ _sidebar_ad.
 _sidebar_ad/
 _sidebar_ad_
 _sidebarad_
-_site_sponsor
 _skinad.
 _small_ad.
 _sponsoredlinks_
@@ -55593,6 +55521,7 @@ browsershots.org#@#.advert_area
 ||techonthenet.com/javascript/pb.js
 ||techporn.ph/wp-content/uploads/Ad-
 ||techsparx.com/imgz/udemy/
+||telegraph.co.uk/telegraph-advertising/tmg-gpt.min.js
 ||thedailysheeple.com/images/banners/
 ||thefinancialexpress.com.bd/images/rocket-250-250.png
 ||theindependentbd.com/assets/images/banner/
@@ -57484,6 +57413,8 @@ thedailybeast.com##.CheatSheetList__placeholder
 thedailybeast.com##.Cheat__top-ad
 tutiempo.net##.ContBannerTop
 dappradar.com##.Container--bottomBanners
+songmeanings.com##.Container_ATFR_300
+songmeanings.com##.Container_ATF_970
 swarajyamag.com##.CrIrA
 ulta.com##.CriteoProductRail
 calcalistech.com##.Ctech_general_banner
@@ -57652,6 +57583,7 @@ cnn.com##.ad-feedback__modal
 simracingsetup.com##.ad-fixed-bottom
 mobilesyrup.com##.ad-goes-here
 pinkvilla.com##.ad-heder-320-50
+andscape.com##.ad-incontent-wrapper
 dailyuptea.com##.ad-info
 mariopartylegacy.com##.ad-long
 pedestrian.tv##.ad-no-mobile
@@ -58684,6 +58616,7 @@ freedomfirstnetwork.com##.freed-1
 moviemistakes.com##.freestarad
 sciencenews.org##.from-nature-index__wrapper___2E2Z9
 cryptocompare.com##.front-page-info-wrapper
+slickdeals.net##.frontpageGrid__bannerAd
 fxempire.com##.frzZuq
 tripstodiscover.com##.fs-dynamic
 tripstodiscover.com##.fs-dynamic__label
@@ -60779,7 +60712,7 @@ metager.org##a[href^="https://r.search.yahoo.com/"]
 nosubjectlosangeles.com,richardvigilantebooks.com##a[href^="https://rebrand.ly/"]
 disasterscans.com##a[href^="https://recall-email.onelink.me/"]
 narkive.com##a[href^="https://rfnm.io/?"]
-emalm.com##a[href^="https://s.click.aliexpress.com/"]
+emalm.com,linkdecode.com##a[href^="https://s.click.aliexpress.com/"]
 997wpro.com##a[href^="https://seascapeinc.com/"]
 everybithelps.co.uk##a[href^="https://shop.trezor.io/"]
 wbnq.com,wbwn.com,wjbc.com##a[href^="https://stjude.org/radio/"]
@@ -65548,6 +65481,9 @@ newduba.cn###jq_youxi
 ||nbtfbb.xyz^
 ||danstr.fun^
 ||81wx.info^
+||sbcjahdc.com^
+||999pro.top^
+||l4efwdtg.icu^
 ||zypzzv.xyz^
 ||zzisnvb.cn^
 ##a[href$="/1c626.com"]
@@ -72276,7 +72212,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||daweijita.com/201*430.
 ||daweijita.com/201*ad.
 ||daweijita.com/2014/08/ad_head
-||dayfund.cn/images/uds/
+||dayfund.*/images/uds/
 ||daynews.co/cdn-cgi/apps/
 ||daysou.com/images/huaweicloud.png
 ||dbmp4.com/js/foot.
@@ -75139,8 +75075,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||xitongzhijia.net/theme/2020/js/10033_
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+yuepuwang.com##.topban
 onlinedown.net##.king-soft-area
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -77194,7 +77132,6 @@ jrj.com.cn##.bd.pa10.bgn
 newxue.com##.bd500
 33am.cn##.bd_980_90
 52tian.net,starbaby.cn##.bdad
-cnscore.com##.bdbanner
 1010jiajiao.com##.bdgg
 baidu.com##.bds-list-ads
 pinshan.com##.bea_adv2
@@ -81611,7 +81548,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||t*.baidu.com/it/u=*,*&fm=76$third-party
 !#BaiduUnion
 /css_js/*$domain=aiyangedu.com|duanmeiwen.com|jy135.com|oh100.com|qunzou.com|ruiwen.com|unjs.com|yjbys.com|yuwenmi.com
-?*=*=*=$subdocument,domain=00cha.com|01fy.cn|06ps.com|08160.cn|10000xing.cn|100how.com|1010jiajiao.com|1024sj.com|11467.com|114piaowu.com|120ask.com|192ly.com|1ppt.com|1ting.com|201980.com|21hubei.com|263y.com|2hanju.com|2liang.net|315hyw.com|32r.com|32xp.com|360changshi.com|360doc.cn|360zuowen.com|39.net|4aqq.com|5000yan.com|515fa.com|51edu.com|51sxue.com|51test.net|51zxw.net|52wubi.com|52zxw.com|5djiaren.com|5h.com|5nd.com|5seestar.com|64foot.com|66law.cn|7y7.com|800400.net|86huoche.com|8794.cn|911cha.com|91jucai.com|91zhongkao.com|949949.com|9553.com|99.com.cn|9939.com|9ht.com|ab126.com|admin5.com|aihami.com|aiyangedu.com|aizhan.com|ankangwang.com|annhe.net|apple886.com|arpun.com|askci.com|aspku.com|atobo.com|b2b168.com|b2b6.com|baicaolu.net|baotang5.com|bbdj.com|bendibao.com|bianzhile.com|blog.sina.cn|boosj.com|bu-shen.com|bytravel.cn|c1km4.com|chajiaotong.com|chazidian.com|china.com|chinacar.com.cn|chinakaoyan.com|chinawj.com.cn|chuiyue.com|cidianwang.com|cjcp.com.cn|cnbanbao.cn|cncn.com|cnkang.com|cnlinfo.net|coozhi.com|cr173.com|csai.cn|cyyangqiguan.com|d17.cc|d1xz.net|daquan.com|dayfund.cn|dgzj.com|diangon.com|ditiezu.com|diyifanwen.com|diyju.com|dugoogle.com|dxsbb.com|eastday.com|enterdesk.com|exam58.com|fangdaijisuanqi.com|faxingzhan.com|friok.com|fun48.com|game234.com|gaosan.com|gaotie.cn|gucheng.com|gugu5.com|guidaye.com|gulongbbs.com|gushiwen.cn|hc23.com|hqhot.com|huangye88.com|hxnews.com|hydcd.com|icauto.com.cn|idongde.com|isanxia.com|ixinwei.com|ixiunv.com|jeasyui.net|jf258.com|jianbihua.com|jianbihuadq.com|jinbaodm.com|jingdianlaoge.com|jintang114.org|jj20.com|jy135.com|latiaozixun.net|liuxue86.com|m.douban.com|makepolo.com|mama.cn|meishij.net|mipcache.bdstatic.com|miyudaquan.com|mmyuer.com|nanhuwang.com|oh100.com|pansoso.com|phb123.com|pig66.com|pikacn.com|pingguolv.com|pingshu8.com|ppzuowen.com|qcrx.cn|qcwxjs.com|qizuang.com|qm120.com|qncye.com|qqzhi.com|quwenqushi.com|riji.cn|riji100zi.com|rr95.com|ruiwen.com|sc115.com|shadafang.com|shangc.net|shenchuang.com|souid.com|ssqzj.com|szdushi.com.cn|szhk.com|tvmao.com|uzuzuz.com|weather.com.cn|webshu.net|wenkuxiazai.com|wenshenxiu.com|wenzhangba.com|wmxa.cn|woyaogexing.com|xiachufang.com|xiangha.com|xiao84.com|xiaole8.com|xiegw.cn|xywy.com|xzbu.com|yanyue.cn|yaozui.com|yellowurl.cn|yiqig.cn|yiyouliao.com|yjbys.com|yuwenmi.com|yxlady.com|yyrtv.com|zdface.com|zhifure.com|zhongyoo.com|zixuntop.com|ziyuanm.com|zjbiz.net|zuowen8.com|zuowenku.net|zuowenwang.net
+?*=*=*=$subdocument,domain=00cha.com|01fy.cn|06ps.com|08160.cn|10000xing.cn|100how.com|1010jiajiao.com|1024sj.com|11467.com|114piaowu.com|120ask.com|192ly.com|1ppt.com|1ting.com|201980.com|21hubei.com|263y.com|2hanju.com|2liang.net|315hyw.com|32r.com|32xp.com|360changshi.com|360doc.cn|360zuowen.com|39.net|4aqq.com|5000yan.com|515fa.com|51edu.com|51sxue.com|51test.net|51zxw.net|52wubi.com|52zxw.com|5djiaren.com|5h.com|5nd.com|5seestar.com|64foot.com|66law.cn|7y7.com|800400.net|86huoche.com|8794.cn|911cha.com|91jucai.com|91zhongkao.com|949949.com|9553.com|99.com.cn|9939.com|9ht.com|ab126.com|admin5.com|aihami.com|aiyangedu.com|aizhan.com|ankangwang.com|annhe.net|apple886.com|arpun.com|askci.com|aspku.com|atobo.com|b2b168.com|b2b6.com|baicaolu.net|baotang5.com|bbdj.com|bendibao.com|bianzhile.com|blog.sina.cn|boosj.com|bu-shen.com|bytravel.cn|c1km4.com|chajiaotong.com|chazidian.com|china.com|chinacar.com.cn|chinakaoyan.com|chinawj.com.cn|chuiyue.com|cidianwang.com|cjcp.com.cn|cnbanbao.cn|cncn.com|cnkang.com|cnlinfo.net|coozhi.com|cr173.com|csai.cn|cyyangqiguan.com|d17.cc|d1xz.net|daquan.com|dgzj.com|diangon.com|ditiezu.com|diyifanwen.com|diyju.com|dugoogle.com|dxsbb.com|eastday.com|enterdesk.com|exam58.com|fangdaijisuanqi.com|faxingzhan.com|friok.com|fun48.com|game234.com|gaosan.com|gaotie.cn|gucheng.com|gugu5.com|guidaye.com|gulongbbs.com|gushiwen.cn|hc23.com|hqhot.com|huangye88.com|hxnews.com|hydcd.com|icauto.com.cn|idongde.com|isanxia.com|ixinwei.com|ixiunv.com|jeasyui.net|jf258.com|jianbihua.com|jianbihuadq.com|jinbaodm.com|jingdianlaoge.com|jintang114.org|jj20.com|jy135.com|latiaozixun.net|liuxue86.com|m.douban.com|makepolo.com|mama.cn|meishij.net|mipcache.bdstatic.com|miyudaquan.com|mmyuer.com|nanhuwang.com|oh100.com|pansoso.com|phb123.com|pig66.com|pikacn.com|pingguolv.com|pingshu8.com|ppzuowen.com|qcrx.cn|qcwxjs.com|qizuang.com|qm120.com|qncye.com|qqzhi.com|quwenqushi.com|riji.cn|riji100zi.com|rr95.com|ruiwen.com|sc115.com|shadafang.com|shangc.net|shenchuang.com|souid.com|ssqzj.com|szdushi.com.cn|szhk.com|tvmao.com|uzuzuz.com|weather.com.cn|webshu.net|wenkuxiazai.com|wenshenxiu.com|wenzhangba.com|wmxa.cn|woyaogexing.com|xiachufang.com|xiangha.com|xiao84.com|xiaole8.com|xiegw.cn|xywy.com|xzbu.com|yanyue.cn|yaozui.com|yellowurl.cn|yiqig.cn|yiyouliao.com|yjbys.com|yuwenmi.com|yxlady.com|yyrtv.com|zdface.com|zhifure.com|zhongyoo.com|zixuntop.com|ziyuanm.com|zjbiz.net|zuowen8.com|zuowenku.net|zuowenwang.net
 ||003store.com^
 ||0512s.com^$third-party
 ||0755rc.com^$third-party
@@ -82172,7 +82109,6 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||jab88.com^
 ||jb.dianshu119.com^
 ||jb.ecar168.cn^
-||jc1.dayfund.cn^
 ||jc1.dayfund.com.cn^
 ||jddaw.com^
 ||jeepyy.com^$third-party
@@ -82373,10 +82309,8 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||static*.365inews.com^
 ||static.gaomaer.cn^
 ||static.ichehome.com^
-||static.jiaquyi.com^
 ||static.meijiacun.com^
 ||static.rongkao.com^
-||t.cnscore.com^
 ||t1.612.com^
 ||t1.xuefen.com.cn^
 ||taobc.com^
@@ -94238,6 +94172,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||metrics.scribblelive.com^
 ||metrics.userguiding.com^
 ||metrix.emagister.com^
+||mikeneko.apollo.moe/js/script.js
 ||minutemediacdn.com/campaign-manager-client/
 ||mixpanel.com/track?
 ||mj-snowplow-static-js.s3.amazonaws.com^
