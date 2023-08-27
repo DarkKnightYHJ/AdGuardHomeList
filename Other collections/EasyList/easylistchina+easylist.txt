@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: EciqY8SVCdeJKEUvixK5+g
-! Version: 202308271040
+! Checksum: /RfCYO2axWY6KvofjWp2Jw
+! Version: 202308271150
 ! Title: EasyList China+EasyList
-! Last modified: 27 Aug 2023 10:40 UTC
+! Last modified: 27 Aug 2023 11:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -39517,7 +39517,6 @@ dr.dk#@#.banner-ad-container
 popporn.com,webphunu.net#@#.block-ad
 shop.asobistore.jp#@#.block-sponsor
 ixbtlabs.com#@#.bottom_ad_block
-poder360.com.br#@#.box-advertising
 wired.com#@#.box-radvert
 9l.pl#@#.boxAds
 canonsupports.com#@#.box_ads
@@ -76633,6 +76632,7 @@ lordz.io###lordz-io_300x250
 lordz.io###lordz-io_300x250_2
 lordz.io###lordz-io_728x90
 rxresource.org###lowerdrugsAd
+lowes.com###lws_hp_recommendations_belowimage_1
 hackerbot.net###madiv
 hackerbot.net###madiv2
 hackerbot.net###madiv3
@@ -78758,6 +78758,7 @@ netwerk24.com##.love2meet
 tigerdroppings.com##.lowLead
 bikeroar.com##.lower-panel
 greatbritishlife.co.uk##.lp_track_vertical2
+lowes.com##.lws_pdp_recommendations_sponsored
 thestreet.com##.m-balloon-header
 si.com##.m-balloon-header--spacer
 politifact.com##.m-billboard
@@ -79317,6 +79318,7 @@ smartasset.com##.riklam-container
 rocket-league.com##.rlg-footer-ads-container
 rocket-league.com##.rlg-trading-ad
 rocket-league.com##.rlg-trading-spacer
+costco.com##.rm-grid-product
 indiatimes.com##.rmfp
 rebelnews.com##.rn-article-ad
 rebelnews.com##.rn-sidebar-ad
@@ -81099,6 +81101,7 @@ bing.com##[id$="adsMvCarousel"]
 bing.com##a[href*="/aclick?ld="]
 ! *** easylist:easylist/easylist_specific_hide_abp.txt ***
 ! Advanced element hiding rules for Adblock Plus
+lowes.com#?#.tile_group:-abp-has(.sponsored-badge)
 4wank.com#?#.video-holder > center > :-abp-contains(/^Advertisement$/)
 hannaford.com#?#.header-2:-abp-contains(Sponsored Suggestions)
 hannaford.com#?#.plp_thumb_wrap:-abp-has([data-citrusadimpressionid])
