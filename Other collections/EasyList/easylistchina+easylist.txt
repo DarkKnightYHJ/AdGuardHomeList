@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1Pn9ZfaCtUvtH9fr1nWQ7w
-! Version: 202308281040
+! Checksum: Es8V5AVKmbF7IKeIUEdaGg
+! Version: 202308281202
 ! Title: EasyList China+EasyList
-! Last modified: 28 Aug 2023 10:40 UTC
+! Last modified: 28 Aug 2023 12:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1469,6 +1469,7 @@ newduba.cn###jq_youxi
 ##a#wrapper_left_bg[target="_blank"]
 ##a#wrapper_right_bg[target="_blank"]
 ##a.ad_links
+##.adv-couplets
 ##a.hengfu > img.hengfu
 ##a[clickmode="ad"]
 ##a[href$=".cc:8443"]
@@ -1544,6 +1545,7 @@ newduba.cn###jq_youxi
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
 ##div#ad_id
+###adv-fixed-square
 ##div#xinxi
 ##div[bannerlist]
 ~ix8.la##div[class^="ADTOPLB_"]
@@ -8161,7 +8163,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||acgnx.se/images/adwork/
 ||acgnz.cn/static/b.js
 ||acgnz.cn/static/i.js
-||achost.top/banner/
 ||acode.b2b.cn/JS/
 ||acodes.b2b.cn^
 ||act.chinatimes.com/aimg/
@@ -11887,6 +11888,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||achost.top/uploads/ads/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -12652,7 +12654,7 @@ jiangjunzy.com###index-lb
 ydss.cn###indexBlad
 hdmoli.com###index_banner
 baidu.com###index_banner_top
-2dfan.com,3dmgame.com,galge.fun###index_bg_box
+3dmgame.com###index_bg_box
 qiyeku.com###index_gg
 sm.cn###index_haodongxi
 baidu.com###index_right_float
