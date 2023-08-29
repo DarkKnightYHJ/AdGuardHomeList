@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BjOv4lZp7fXTre9+srKCAQ
+! Checksum: yP7OvCuOsyao6MgULdBrUg
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202308290824
-! Last Modified: 2023年08月29日 08:24
+! Version: 202308291406
+! Last Modified: 2023年08月29日 14:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1281,11 +1281,8 @@ newduba.cn###jq_youxi
 ##.add-gg
 ##.addddddwarp
 ##.adlistcss
-##.adpc > .module
-##.adpc > .promo-link-
-##.adpc > .promot-link-
-##.adpc > .promot-link_
-##.adpc > .promt-link_
+##.promtlink_[style="position:relative;width:100%;height:100%;"]
+##.promolink-[style="position:relative;width:100%;height:100%;"]
 ##.ads > #video_playr_sider
 ##.ads > a > img[src*=".sinaimg."]
 ##.ads-after-content
@@ -2477,6 +2474,8 @@ newduba.cn###jq_youxi
 ||thcaes.top^
 ||jygiizv.icu^
 ||vvxhth.xyz^
+||ktienld.top^
+||oaihiiacb.com^
 ||zypzzv.xyz^
 ||zzisnvb.cn^
 ##a[href$="/1c626.com"]
@@ -12063,6 +12062,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+mrmad.com.tw#?#div[id^="mrmad-"]:-abp-has(>.adsbygoogle)
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
