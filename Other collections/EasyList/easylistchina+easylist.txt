@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: iNaZSYg39ASgmo8uKVgkzw
-! Version: 202308291451
+! Checksum: 7OIONOFWip0UKrI2X46Hnw
+! Version: 202308291550
 ! Title: EasyList China+EasyList
-! Last modified: 29 Aug 2023 14:51 UTC
+! Last modified: 29 Aug 2023 15:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -22,7 +22,6 @@
 -*-*-*-*.panda^$script,third-party
 -1316632262.cos.
 -1316899192.cos.
-:8888/js/cctv.js
 -1688-wp-media/ads/
 -90mh-gg.
 .bid/ads/
@@ -743,6 +742,7 @@
 :818/nowscore/
 :88/999pc/
 :88/lighttpd/default/
+:8888/js/cctv.js
 :8888/mb1/pc_
 :8888/mb1/wap_
 :8888/zhu/pc_
@@ -1114,8 +1114,6 @@ newduba.cn###jq_youxi
 ##.add-gg
 ##.addddddwarp
 ##.adlistcss
-##.promtlink_[style="position:relative;width:100%;height:100%;"]
-##.promolink-[style="position:relative;width:100%;height:100%;"]
 ##.ads > #video_playr_sider
 ##.ads > a > img[src*=".sinaimg."]
 ##.ads-after-content
@@ -1154,6 +1152,7 @@ newduba.cn###jq_youxi
 ##.banner-cctv-A2
 ##.banner-cctv-Topping
 ##.bdyp-sygg-ul
+##.before_playing_cctv.yc
 ##.below_ads
 ##.bg > img[src*=".meituan.net"]
 ##.bjxhf
@@ -1367,6 +1366,8 @@ newduba.cn###jq_youxi
 ##.postmessage > #googleFirst
 ##.postmessage > #googleSecond
 ##.privilege-promote
+##.promolink-[style="position:relative;width:100%;height:100%;"]
+##.promtlink_[style="position:relative;width:100%;height:100%;"]
 ##.propa_bottom
 ##.pure-g[onclick*="float"]
 ##.qpdb + a[href]
@@ -1523,7 +1524,6 @@ newduba.cn###jq_youxi
 ##a[href^="http"] > img[src*="pic.rmb.bdstatic.com/"][src$=".gif"]
 ##a[href^="http://ad.moemoe."]
 ##a[href^="javascript:GoDb"]
-##.before_playing_cctv.yc
 ##a[href^="javascript:gl012"]
 ##a[href^="javascript:gl012"] + img
 ##a[id][href*="/?aff="]
@@ -1662,6 +1662,7 @@ newduba.cn###jq_youxi
 ||asdyui16.cn^
 ||b4g7k9d2.com^
 ||bai128.xyz^
+||baiduapp.app^
 ||baidudvbjkbssjvsvv.com^
 ||baiduisjkbvsjkl.com^
 ||baiduvjsbvjknlsvsv.com^
@@ -1764,6 +1765,7 @@ newduba.cn###jq_youxi
 ||donchen501.cn^
 ||dosre12.xyz^
 ||dqjojx.xyz^
+||dsbjdeh.cn^
 ||dstbekdf.xyz^
 ||dstbunkfw.xyz^
 ||duoying.vip^$third-party
@@ -1901,6 +1903,7 @@ newduba.cn###jq_youxi
 ||iqgoukn.cn^
 ||islbaho.top^
 ||itienlo.top^
+||j7ifivzy.icu^
 ||jakid.xyz^
 ||janwzsqi.icu^
 ||jayhou.top^
@@ -1933,6 +1936,7 @@ newduba.cn###jq_youxi
 ||jujcjz.xyz^
 ||jutwzssh.icu^
 ||jvjlkih.com^
+||jygiizv.icu^
 ||jyvith.xyz^
 ||jzdgn.cn^
 ||jzdwl4.cn^
@@ -1955,6 +1959,7 @@ newduba.cn###jq_youxi
 ||koljnda.com^
 ||kqubxdb.cn^
 ||kslbahd.top^
+||ktienld.top^
 ||kuxkddg.cn^
 ||kv8899.com^
 ||kwcmrfb.cn^
@@ -2048,6 +2053,7 @@ newduba.cn###jq_youxi
 ||nunxhv.com^
 ||nxhwvt.xyz^
 ||oaclrst.cn^
+||oaihiiacb.com^
 ||oifyeldk.top^
 ||oijmds.com^
 ||oiunga.com^
@@ -2075,6 +2081,7 @@ newduba.cn###jq_youxi
 ||pjsbuhl.icu^
 ||plbs9k.icu^
 ||pmxalz.xyz^
+||pnhp3x1.com^
 ||pnlhnx.xyz^
 ||poqiod.com^
 ||powedw.com^
@@ -2120,6 +2127,7 @@ newduba.cn###jq_youxi
 ||rtumdhdk.xyz^
 ||rtumwzp.icu^
 ||rvzlobj.cn^
+||rznscya.cn^
 ||sa8zdui.com^
 ||sacfasv.com^
 ||sacre.cn^
@@ -2153,6 +2161,7 @@ newduba.cn###jq_youxi
 ||tfttbd.xyz^
 ||tgbevv.xyz^
 ||tggsd07.com^
+||thcaes.top^
 ||thesac2.top^
 ||thesac3.top^
 ||thesac4.top^
@@ -2211,9 +2220,11 @@ newduba.cn###jq_youxi
 ||vujzkkz.cn^
 ||vvdzucs.cn^
 ||vvwuqxp.icu^
+||vvxhth.xyz^
 ||vwfppr.xyz^
 ||vxhtxt.xyz^
 ||vzvvifw.cn^
+||wcv68kw.com^
 ||wddsva0.com^
 ||wlgxaij.cn^
 ||wnzle.com^
@@ -2298,23 +2309,11 @@ newduba.cn###jq_youxi
 ||znyjmbh.icu^
 ||zonyff.xyz^
 ||zpotkvpy.icu^
+||zpsovpgyk.xyz^
 ||zszhln.xyz^
 ||zvasuzb.icu^
 ||zwfkxb.xyz^
 ||zxrcfw.com^
-||zpsovpgyk.xyz^
-||rznscya.cn^
-||pnhp3x1.com^
-||thcaes.top^
-||jygiizv.icu^
-||vvxhth.xyz^
-||ktienld.top^
-||oaihiiacb.com^
-||dsbjdeh.cn^
-||baiduapp.app^
-||wcv68kw.com^
-||ktienld.top^
-||j7ifivzy.icu^
 ||zypzzv.xyz^
 ||zzisnvb.cn^
 !
@@ -11903,7 +11902,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-mrmad.com.tw#?#div[id^="mrmad-"]:-abp-has(>.adsbygoogle)
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17183,6 +17181,7 @@ libaclub.com#?#.ui-list-item:-abp-has(>.ui-list-item-title>a[onclick^="SendAd"])
 linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__description span:-abp-contains(/促銷內容|广告/))
 linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__sub-description span:-abp-contains(/促銷內容|广告/))
 mongoing.com#?#.widget_custom_html:-abp-has(> .custom-html-widget > a[href^="http"]:not([href*="mongoing.com"]))
+mrmad.com.tw#?#div[id^="mrmad-"]:-abp-has(>.adsbygoogle)
 muchong.com#?#.forum_Post_index:-abp-has(nobr:-abp-contains(18))
 mydowndown.com#?#.bs-component:-abp-has(>a[href*="97jez.com"])
 nicotv.biz,nicotv.club,nicotv.me##nav + .ff-bg > .slide
@@ -75654,6 +75653,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|adblockeronsta
 ||go.stripchat.beeg.com^
 ||go.strpjmp.com^
 ||h8abihk.xhamster.com^
+||hd21.*/templates/base_master/js/jquery.shows2.min.js
 ||hdporn24.org/vcrtlrvw/
 ||hdpornfree.xxx/rek/
 ||hdpornmax.com/tmp/
@@ -75799,6 +75799,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|adblockeronsta
 ||picshick.com/b9ng.js
 ||pimpandhost.com/mikakoko/
 ||pleasuregirl.net/bload
+||plibcdn.com/templates/base_master/js/jquery.shows2.min.js
 ||plx.porndig.com^
 ||porn-star.com/buttons/
 ||porndoe.com/wp-contents/channel?
@@ -75896,6 +75897,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|adblockeronsta
 ||tranny.one/bdb.php
 ||trannygem.com/ai
 ||tryboobs.com/bfr/
+||tubeon.*/templates/base_master/js/jquery.shows2.min.js
 ||tuberel.com/looppy/
 ||tubev.sex/td24f164e52654fc593c6952240be1dc210935fe/
 ||tubxporn.xxx/js/xp.js
@@ -75910,6 +75912,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|adblockeronsta
 ||vipergirls.to/clientscript/poptrigger_
 ||vipergirls.to/files/k2s.gif
 ||viptube.com/player_right_ntv_
+||vivatube.*/templates/base_master/js/jquery.shows2.min.js
 ||vndevtop.com/lvcsm/abck-banners/
 ||voyeurhit.com/ffpqvfaczp/
 ||warashi-asian-pornstars.fr/wapdb-img/ep/
@@ -75923,6 +75926,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|adblockeronsta
 ||wcareviews.com/bv/
 ||wetpussygames.com/t78d42b806a3.js
 ||wi9u5paiwo.xhamster.com^
+||winporn.*/templates/base_master/js/jquery.shows2.min.js
 ||wwwxxx.uno/pop-code.js
 ||x0r.urlgalleries.net^
 ||x1hub.com/alexia_anders_jm.gif
@@ -75955,6 +75959,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|adblockeronsta
 ||xxxvideotube.net/banner.gif
 ||xxxvogue.net/_ad
 ||xxxxsx.com/sw.js
+||yeptube.*/templates/base_master/js/jquery.shows2.min.js
 ||yespornpleasexxx.com/wp-content/litespeed/js/
 ||ynoymse4.xhamster.com^
 ||yotta.scrolller.com^
