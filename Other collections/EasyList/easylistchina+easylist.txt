@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vm+X3EUds/dEelu8WJ4kbQ
-! Version: 202309012140
+! Checksum: 1bcgekRc9FM9WnsNfxWb/A
+! Version: 202309012240
 ! Title: EasyList China+EasyList
-! Last modified: 01 Sep 2023 21:40 UTC
+! Last modified: 01 Sep 2023 22:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -33610,6 +33610,7 @@ _800x80_
 ##.connatix-container
 ##.connatix-hodler
 ##.connatix-holder
+##.connatix-main-container
 ##.connatix-wrapper
 ##.connatix-wysiwyg-container
 ##.consoleAd
@@ -74326,8 +74327,6 @@ browsershots.org#@#.advert_area
 ||dzxr711a4yw31.cloudfront.net^
 ! Google Hosted scripts
 ||googleapis.com/qmftp/$script
-! Used for VPN Warning ads
-||trust.zone^$third-party
 ! Anti-Adblock
 ||anti-adblock.herokuapp.com^
 ! *** easylist:easylist/easylist_thirdparty_popup.txt ***
@@ -78716,6 +78715,9 @@ tuko.co.ke##.l-adv-branding__top
 iphonelife.com##.l-header
 wwe.com##.l-hybrid-col-frame_rail-wrap
 si.com##.l-inline.m-detail--feature-container
+letssingit.com##.lai_all_special
+letssingit.com##.lai_desktop_header
+letssingit.com##.lai_desktop_inline
 purewow.com##.lander-interstital-ad
 3dprint.com##.lap-block-items
 ptonline.com##.large-horizontal-banner
