@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: bmtbAHcNnAgOAkf2mwZNNw
-! Version: 202308312240
+! Checksum: usLGHZ7DiDejk1rtUSIyOg
+! Version: 202309010030
 ! Title: EasyPrivacy
-! Last modified: 31 Aug 2023 22:40 UTC
+! Last modified: 01 Sep 2023 00:30 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -502,7 +502,6 @@
 /awp.log
 /awpys.log
 /aws-analytics.js
-/aws-analytics/*
 /awstats.js
 /awstats_misc_tracker
 /azion-pulse.js
@@ -3502,6 +3501,7 @@
 ://collect.*/pageview
 ://collector.*/event
 ://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
+://gtrack.*/dye
 ://internal-matomo.
 ://lightning.*/launch/
 ://matomo.$domain=~matomo.org
@@ -13309,6 +13309,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||alljapanesepass.com/rstat
 ||als-svc.nytimes.com^
 ||altruja.de/js/micro/integration-ga.js
+||alwayslucky.com/platform/webvitals
 ||amazon.com/1/aiv-web-player/1/OE^
 ||amazon.com/1/events/$domain=~aws.amazon.com
 ||amazon.com/empty.gif?$image
