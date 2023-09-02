@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1bcgekRc9FM9WnsNfxWb/A
-! Version: 202309012240
+! Checksum: 7OxnP7DGD4HKqYyLYixmSQ
+! Version: 202309020020
 ! Title: EasyList China+EasyList
-! Last modified: 01 Sep 2023 22:40 UTC
+! Last modified: 02 Sep 2023 00:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -2351,6 +2351,11 @@ newduba.cn###jq_youxi
 ||zwfkxb.xyz^
 ||zxrcfw.com^
 ||zypzzv.xyz^
+||udeztrb.cn^
+||hgiaef.site^
+||etienlw.top^
+||jxtejf.xyz^
+||jxmiyrh.icu^
 ||zzisnvb.cn^
 !
 ##a[href$="/1c626.com"]
@@ -11939,6 +11944,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||58cdn.com.cn/nowater/webim/big/n_v2acfbdb173d7a411a89aff3ae0cc05d71.
+||6yso.com/wp-content/uploads/*-300-x-
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -22390,10 +22397,8 @@ fqsousou.com,kengso.com#@#.user-share
 /xads.php
 /xadvertisement.
 /xclicks.
-/xhfloatAdv.
 /xpopunder.
 /xpopup.js
-/xtendmedia.$domain=~xtendmedia.dk
 /yads-
 /yads.$domain=~yads.org.il
 /yads/*
@@ -22403,8 +22408,6 @@ fqsousou.com,kengso.com#@#.user-share
 /yahooads/*
 /yahooadsapi.
 /yhs/ads?
-/yieldlab.$domain=~yieldlab.com|~yieldlab.science
-/ysc_csc_news
 /yume_ad_library_
 /zanox/banner/*
 /zcredirect?
@@ -22413,7 +22416,6 @@ fqsousou.com,kengso.com#@#.user-share
 ://a.ads.
 ://ad-api-
 ://ad1.
-://adcl.$domain=~adcl.co.nz|~adcl.com|~adcl.screenconnect.com
 ://adn.*/zone/$subdocument
 ://ads.$~image,domain=~ads.8designers.com|~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.band|~ads.bestprints.biz|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.cafebazaar.ir|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.doordash.com|~ads.elevateplatform.co.uk|~ads.finance|~ads.google.com|~ads.gree.net|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kazakh-zerno.net|~ads.kifli.hu|~ads.knuspr.de|~ads.lapalingo.com|~ads.listonic.com|~ads.magalu.com|~ads.mba|~ads.mercadolivre.com.br|~ads.mgid.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nipr.ac.jp|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.rohlik.cz|~ads.route.cc|~ads.safi-gmbh.ch|~ads.scotiabank.com|~ads.selfip.com|~ads.shopee.cn|~ads.shopee.co.th|~ads.shopee.com.br|~ads.shopee.com.mx|~ads.shopee.com.my|~ads.shopee.kr|~ads.shopee.ph|~ads.shopee.pl|~ads.shopee.sg|~ads.shopee.tw|~ads.shopee.vn|~ads.smartnews.com|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.typepad.jp|~ads.us.tiktok.com|~ads.viksaffiliates.com|~ads.vk.com|~ads.watson.ch|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com
 ://ads2.
@@ -22424,12 +22426,9 @@ fqsousou.com,kengso.com#@#.user-share
 ://banner.$third-party
 ://banners.$third-party
 ://promo.$~media,third-party,domain=~myshopify.com|~promo.com|~shopifycloud.com|~slidely.com
-=advanced-ads-
-=advertiser/
 =affiliate_ad_viewed&
 =DisplayAd&
 =displayAds&
-=dynamicads&
 =half-page-ad&
 =partnerad&
 ?ab=1&zoneid=
@@ -22496,7 +22495,6 @@ _ad_size.
 _ad_sky.
 _ad_skyscraper.
 _ad_small.
-_ad_sponsor/
 _ad_square.
 _ad_top_
 _ad_wrapper.
@@ -22513,15 +22511,11 @@ _adchoices.
 _adframe.$domain=~adsystem.pl
 _adframe_
 _adhome.
-_adhome_
 _adlabel_
 _adnetwork.
 _adpartner.
 _adplugin.
 _adright.
-_adright2.
-_adrotate-
-_adrotator.
 _ads.cgi
 _ads.cms?
 _ads.php?
@@ -22644,13 +22638,10 @@ _top_ad.
 _top_ad_
 _topad.
 _vertical_ad.
-_video_ads_
-_videoad.
 _web-advert.
 _Web_ad.
 _webad.
 _webad_
-_WebBannerAd_
 _widget_ad.
 ||cacheserve.*/promodisplay/
 ||cacheserve.*/promodisplay?
