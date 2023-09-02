@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Y9UX2lvuZQRH/wg9QcMf1A
-! Version: 202309020240
+! Checksum: 5TVGWwgx0EYECZwYLYynPw
+! Version: 202309020350
 ! Title: Fanboy's Annoyance List
-! Last modified: 02 Sep 2023 02:40 UTC
+! Last modified: 02 Sep 2023 03:50 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -39456,6 +39456,7 @@ news.artnet.com##.theme-newsletter-signup
 !#include fanboy_newsletter_specific_uBO.txt
 ! *** easylist:fanboy-addon/fanboy_newsletter_specific_ABP.txt ***
 ! fanboy_newsletter_specific_ABP.txt
+headphonesty.com#?#div:-abp-has(> form[action*="subscribe"])
 ! *** easylist:fanboy-addon/fanboy_social_specific_hide.txt ***
 artistdirect.com###FollowBut
 c-sharpcorner.com###IconContainer
