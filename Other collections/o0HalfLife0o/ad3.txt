@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SYU32U6adHbaL6+eS2ZbDw
+! Checksum: SqIMW0VMqxYT2J/o+f+WgQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202309020823
-! Last Modified: 2023年09月02日 08:23
+! Version: 202309021402
+! Last Modified: 2023年09月02日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -24009,26 +24009,15 @@ m.babytree.com##script + a[class]
 /koko-analytics-
 /koko-analytics/*/script.js
 /kontera.js
-/krux-pixel.
-/krux-sass-helper.
+/krux-sass-helper.js
 /krux.js
-/ktag/*
 /LandingPageHitLog.aspx?
 /lasso-ga.js
-/lc-sentry.
-/lead-tracking.
-/lead-tracking/*
 /leadgen/ga.js
-/leadgen_track
-/leads-tracker-
 /leadtag.js
-/lftracker.
-/lftracker_
 /lib/analytics.
 /lib/snowplow-
 /library/svy/broker.js
-/library_analytics.
-/librato-collector.
 /libs/tracker.js
 /liferay-analytics-
 /lightspeed_tracker.
@@ -24039,24 +24028,16 @@ m.babytree.com##script + a[class]
 /linkpulse.js
 /linktrack.js
 /linktracker.js
-/linktracker/*
 /linktracking.
 /livecounter.php?wid=
 /livestats.js
 /livezilla/server.php?request=track&
 /ljcounter/*
-/llbmetrics.
-/llntrack.
 /load.gif?
-/load.js.gz?
 /load_analytics.
-/load_time_metrics?
-/loadcounter.
-/loader-counter.
 /loader/counter.js
 /localga.js
 /locotrack.js
-/log-ads.
 /log-nt/*
 /log-reporter.
 /log-view.
@@ -26517,6 +26498,7 @@ _mongo_stats/
 ||lmepbq.com^
 ||logicanalytics.io^
 ||logtail.com^
+||loopcybersec.com^
 ||lsdm.co^
 ||maggieeatstheangel.com^
 ||matheranalytics.com^
@@ -26599,6 +26581,7 @@ _mongo_stats/
 ||sbgsodufuosmmvsdf.info^
 ||sc-static.net^
 ||screen13.com^$image
+||script.ac^
 ||seadform.net^
 ||securedvisit.com^
 ||selphiu.com^
@@ -28171,6 +28154,7 @@ _mongo_stats/
 ||newrelic.com^$third-party
 ||newrrb.bid^$third-party
 ||nextstat.com^$third-party
+||nexx360.io^$third-party
 ||ngmco.net^$third-party
 ||nicequest.com^$third-party
 ||niftymaps.com^$third-party
@@ -28356,7 +28340,6 @@ _mongo_stats/
 ||portfold.com^$third-party
 ||posst.co^$third-party
 ||postaffiliatepro.com^$third-party
-||posthog.com^$third-party
 ||prchecker.info^$third-party
 ||precisioncounter.com^$third-party
 ||predicta.net^$third-party
@@ -29793,6 +29776,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||carpentercomparison.com^
 ||carriagecan.com^
 ||carscannon.com^
+||cartkitten.com^
 ||carvecakes.com^
 ||castcream.com^
 ||catalogdiscovery.com^
@@ -32240,6 +32224,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||app.carnow.com/dealers/track_visitor
 ||app.link/_r?$script,third-party
 ||app.opmnstr.com/v2/geolocate/
+||app.posthog.com/static/array.js
 ||app.yesware.com/t/$third-party
 ||appdynamics.com/geo/$third-party
 ||appinthestore.com/click/
@@ -34214,6 +34199,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||v-h.tv/pixel/
 ||v.shopify.com^
 ||va.tawk.to/log
+||validate.onecount.net^$image
 ||vanilladev.com/analytics.
 ||vast.com/vimpressions.js$third-party
 ||vcita.com/tr_
@@ -36159,6 +36145,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lexa.realestate.com.au^
 ||lexology.com/pd.js
 ||libhunt.com/api/ahoy/event
+||librato-collector.genius.com^
 ||lightstep.medium.systems^*/reports
 ||link.kogan.com^
 ||link2.strawberrynet.com^$image
@@ -36325,6 +36312,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||p.fusevideo.net^
 ||p.hentaiforce.net^
 ||p.sfx.ms/is/invis.gif
+||pac.thescottishsun.co.uk^
 ||pac.thesun.co.uk^
 ||pagesix.com/blaize/datalayer
 ||pappagallu.onefootball.com^
@@ -53983,6 +53971,7 @@ arketing.indianadunes.com^
 ||jobs.ch/api/v1/public/product/track/
 ||js.tag24.de/main.js
 ||leipziger-stadtplan.com/t.gif
+||llntrack.messe-duesseldorf.de^
 ||lokalwerben.t-online.de^
 ||metrics.n-tv.de^
 ||mlm-tracking-service.meinestadt.de^
@@ -54145,6 +54134,7 @@ arketing.indianadunes.com^
 ||jeu.net/hits.js
 ||jscrambler.com^$script,domain=airfrance.fr
 ||lacentrale.fr/collect
+||lacentrale.fr/static/fragment-sentry/lc-sentry.js
 ||ldlc.com/V4px/js/ldlcmachine.js
 ||leboncoin.fr/rav-monitoring/
 ||lecho.be/fb2?
