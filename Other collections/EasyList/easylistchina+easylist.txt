@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UQuigyepzoF8p11hTeiTkw
-! Version: 202309021340
+! Checksum: qFUvXebV5nrcpvgWJPXjZw
+! Version: 202309021440
 ! Title: EasyList China+EasyList
-! Last modified: 02 Sep 2023 13:40 UTC
+! Last modified: 02 Sep 2023 14:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -16338,6 +16338,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@||mcmod.cn/js/jquery.cookie.js
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
@@ -16526,6 +16527,9 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||ads.tiktok.com^$generichide
 @@||ads.tiktok.com^$~third-party
 @@||adsense.woso.cn^$~third-party
+@@||demo.ama.pub^$generichide
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=demo.ama.pub
+@@||adnxs.com/prebid/prebid.js$domain=demo.ama.pub
 @@||adserver.juicyads.com/js/jads.js$domain=netflav.com
 @@||adservice.google.com/adsid/integrator.js$domain=logi.im
 @@||advert.kf5.com^
