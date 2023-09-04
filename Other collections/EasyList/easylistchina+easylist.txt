@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ehwsIq14UOrsRUMd0ih+kQ
-! Version: 202309040640
+! Checksum: HWf0Dr8pGo0FgrPJ2NL9SA
+! Version: 202309040751
 ! Title: EasyList China+EasyList
-! Last modified: 04 Sep 2023 06:40 UTC
+! Last modified: 04 Sep 2023 07:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -8965,7 +8965,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||jlmhk.com/images/data/
 ||jlpcn.net/img/300p-
 ||jmbbs.cn/sjgg/
-||jmcomic.asia/iframe_
 ||jmhfw.com/index.php?/ajax/get_adv/
 ||jmydm.com/jspage/ftt.js
 ||jnlc.com/www/fund/newsmarket
@@ -17069,27 +17068,14 @@ guailie.com#@#.google-ad
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
 ||17ce.com^*_$image
 !#18comic.org
-18comic.org,18comic.vip,18comic1.art,18comic2.art###guide-modal
-18comic.org,18comic.vip,18comic1.art,18comic2.art##.modal-backdrop
-##.thumb-overlay-albums > .col-xs-12[style="display: flex;justify-content: center;"]
-18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#?#:-abp-has(>script+ins)
-18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
-18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href*=".taobao.com"]
-18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href*="//"]:not([href*="18comic."]) > img
+18comic.org,18comic.vip###guide-modal
+18comic.org,18comic.vip##.modal-backdrop
+18comic.org,18comic.vip,jm-comic2.club#?#:-abp-has(>script+ins)
+18comic.org,18comic.vip#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
+18comic.org,18comic.vip##a[href*="//"]:not([href*="18comic."]) > img
 jm-comic2.club##a[href*="//"]:not([href*="jm-comic"]) > img
-jmcomic1.city,jmcomic1.win##a[href*="//"]:not([href*="jmcom"]) > img
-18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="264"][data-width="956"]
-18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win##div[style="cursor: pointer;"] > img[src*="/media/albums/"]
-18comic.org,18comic.vip,18comic1.art,18comic2.art##div[style^="position: fixed; top:"]
-jm-comic2.club#?#:-abp-has(>script+ins)
-||18comic.*/iframe
 ||18comic.*/media/albums/*?$media
-||18comic.*/media/logo/
-||18comic.*/static/resources/files/*0x
-||18comic.*/static/resources/images/168/
-||18comic.*/static/resources/images/300
-||18comic.*/static/resources/images/JGG/
-||jmcomic1.*/media/albums/*?$media
+||jm-comic2.club/media/albums/*?$media
 !#2
 !#3
 !#4
