@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: NBNe1qgQIsF/pAr1v7PQ2g
-! Version: 202309041040
+! Checksum: iDWt1xVaKVzZx/3qUZzgPg
+! Version: 202309041202
 ! Title: ABP filters
-! Last modified: 04 Sep 2023 10:40 UTC
+! Last modified: 04 Sep 2023 12:02 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://github.com/abp-filters/abp-filters-anti-cv
 !
@@ -1164,7 +1164,7 @@ zen.yandex.ru##div[class*="is-parent-size_undefined"]
 ||razlozhi.ru^$script,header=report-to
 avtovzglyad.ru,dni.ru,baby.ru#$#abort-on-property-read Ya
 kakprosto.ru#$#abort-current-inline-script document.createElement String.fromCharCode; abort-on-property-write window.yaProxy; abort-on-property-write Object.defineProperty
-/^https?://www\.liveinternet\.ru/[^\s]{100,}/$xmlhttprequest,header=X-Xss-Protection
+||liveinternet.ru^$xmlhttprequest,header=Uniformat-Product-Type
 otzovik.com#$#abort-on-property-read Object.prototype.RtbBlockCreateWrapper
 gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru#$#abort-on-property-read Object.prototype.showRTB
 yandex.by,yandex.fr,yandex.kz,~telephony.yandex.ru,yandex.ru,yandex.ua,yandex.uz##[class*="mg-grid__"]>div[class*=_status_success]
