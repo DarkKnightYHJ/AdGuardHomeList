@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XiIJFOkVD3+yQD6d+Ajd1w
-! Version: 202309050150
+! Checksum: Tsbg0G3fuSQcroRpt7YvbA
+! Version: 202309050250
 ! Title: EasyList China+EasyList
-! Last modified: 05 Sep 2023 01:50 UTC
+! Last modified: 05 Sep 2023 02:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -2381,6 +2381,7 @@ newduba.cn###jq_youxi
 ||oyfnkle.cn^
 ||lgoewtd.icu^
 ||zbzbzb.xyz^
+||ptfxh.com^
 ||zzisnvb.cn^
 !
 ##a[href$="/1c626.com"]
@@ -6076,6 +6077,7 @@ newduba.cn###jq_youxi
 !long-term
 ##a[href*=".xacg.info/"]
 ##button[onclick*=".xacg.info/"]
+||d37d9zbli5ytch.cloudfront.net^
 ||06789.xyz^
 ||114la.com^$third-party,domain=~ylmf.com
 ||114lm.com^$third-party
@@ -10810,6 +10812,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+hcbbs.com###diynavtop
+hcbbs.com##.ke-zeroborder
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -19620,7 +19624,6 @@ fqsousou.com,kengso.com#@#.user-share
 /adserver_
 /adservers-
 /adservice-
-/adservice.$domain=~adservice.io|~github.com|~githubusercontent.com|~telsu.fi
 /adservices.
 /adservices/*
 /adserving.
@@ -76080,7 +76083,6 @@ fxsforexsrbijaforum.com###pun-announcement
 onmsft.com###pwDeskSkyBtf1
 sporcle.com###quiz-right-rail-unit-2
 techmeme.com###qwdbfwh
-unfair.co###r_sidebarwidgeted
 comicbookrealm.com###rad
 rawstory.com###rawstory_front_2_container
 reverso.net###rca
@@ -76185,6 +76187,7 @@ newsfirst.lk###sponsored-content-1
 hiphopkit.com###sponsored-sidebar
 techmeme.com###sponsorposts
 fastseduction.com,geekwire.com,landreport.com,whenitdrops.com###sponsors
+colourlovers.com###sponsors-links
 ourworldofenergy.com###sponsors_container
 rent.ie###sresult_banner
 tokder.org###ssss
@@ -77461,7 +77464,7 @@ buzzfeed.com,buzzfeednews.com##.desktop-sticky-ad_desktopStickyAdWrapper__a_tyF
 hanime.tv##.desktop.htvad
 randomarchive.com##.desktop[style="text-align:center"]
 coingape.com##.desktopds
-flashscore.co.za,soccer24.com##.detailLeaderboard
+flashscore.co.za,flashscore.com,livescore.in,soccer24.com##.detailLeaderboard
 floridapolitics.com##.dfad
 coingape.com##.dfd
 gadgetsnow.com,nationaljeweler.com,pastemagazine.com,theonion.com##.dfp
@@ -79746,7 +79749,6 @@ unblockit.boo##a[href^="/netflixPromo"]
 tehrantimes.com##a[href^="/redirect/ads/"]
 xbox-hq.com##a[href^="banners.php?"]
 ghostbin.me##a[href^="http://bit.ly/"]
-dvdtalk.com##a[href^="http://dvdtalk.pricegrabber.com/"]
 iamdisappoint.com,shitbrix.com,tattoofailure.com##a[href^="http://goo.gl/"]
 notbanksyforum.com##a[href^="http://l-13.org/"]
 inquirer.net##a[href^="http://ruby.inquirer.net/"]
