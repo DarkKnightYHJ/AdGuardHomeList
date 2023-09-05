@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: l8bArHZFZGnDIsb+nNcDFg
+! Checksum: vhETmkQeZwL6fINp2+DjbA
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202309051406
-! Last Modified: 2023年09月05日 14:06
+! Version: 202309052008
+! Last Modified: 2023年09月05日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1462,6 +1462,7 @@ newduba.cn###jq_youxi
 ##.ksads
 ##.kuandu > .bottommob
 ##.leftadv
+##[style="display: flex; justify-content: space-between; width: 100%;"] > [style*="margin-bottom: 6px; background"]
 ##.leftd + .rightd
 ##.leo-container .ssr1
 ##.link > .image[src*=".qhimg.com/"]
@@ -1778,7 +1779,6 @@ newduba.cn###jq_youxi
 ||23.234.217.11^
 ||23.234.217.12^
 ||cupfox.app^$third-party
-##[style*="mi-img.com"]
 ##[style*="sotv.me"]
 ##a[href*=".f2ocoin.com/"]
 ##a[href*=".n7.org.cn"]
@@ -2548,6 +2548,7 @@ newduba.cn###jq_youxi
 ||lgoewtd.icu^
 ||zbzbzb.xyz^
 ||ptfxh.com^
+||ztqdkzn.cn^
 ||zzisnvb.cn^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
@@ -10976,6 +10977,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+am730.com.hk##.adbox
 hcbbs.com###diynavtop
 hcbbs.com##.ke-zeroborder
 szxx.com.cn###A1
