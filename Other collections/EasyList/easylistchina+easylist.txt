@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WV3Gq5rkD+eFMuSe1jikaQ
-! Version: 202309071202
+! Checksum: 6VJ3ue0sL6ipnjYEUfsRhA
+! Version: 202309071250
 ! Title: EasyList China+EasyList
-! Last modified: 07 Sep 2023 12:02 UTC
+! Last modified: 07 Sep 2023 12:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -11083,7 +11083,7 @@ p2peye.com###article_content a[ref="nofollow"]
 doyo.cn###article_top_down
 360doc.cn###artnewdiv
 360doc.com###arttopbdad
-baidu.com,bdimg.com###aside-ad
+baidu.com,bdimg.com,tieba.com###aside-ad
 csdn.net###asideCustom36733263
 csdn.net###asideCustom65392991
 baidu.com###asideLeft
@@ -13380,8 +13380,8 @@ smzdm.com##.feed-stuff
 firefoxchina.cn##.feed-tm11
 kalvin.cn##.fell_advertisement_box
 3dmgame.com##.fell_left_advertisement
-baidu.com,bdimg.com##.fengchao-wrap
-baidu.com,bdimg.com##.fengchao-wrap-feed
+baidu.com,bdimg.com,tieba.com##.fengchao-wrap
+baidu.com,bdimg.com,tieba.com##.fengchao-wrap-feed
 home.ifeng.com##.fengjc02
 hao.360.cn##.festival_snatch
 firefoxchina.cn##.ff-banner
@@ -14582,7 +14582,7 @@ baidu.com##.sfc-image-content-adtext
 baidu.com##.sfc-image-content-waterfall-item > div:not([class]) > .sfc-image-content-cell
 speedtest.cn##.shade
 pcsoft.com.cn##.shang11-top
-baidu.com,bdimg.com##.shield-agent-tb-feed
+baidu.com,bdimg.com,tieba.com##.shield-agent-tb-feed
 hao.rising.cn##.shop-site
 teepr.com##.shop-widget
 qiushibaike.com##.shopwindow
@@ -15563,8 +15563,8 @@ idanmu.ee##aside > div[class="widget "]
 zhujiceping.com##aside[id^="custom_html-"]
 cn.bing.com#?##b_results > li:-abp-has(.b_adProvider)
 baidu.com#?#.c-gap-bottom-small:-abp-has(>a>div>div[class^="jr-stock-open-account-"])
-baidu.com,bdimg.com#?#.l_post:-abp-has(div[class*=" fc-"])
-baidu.com,bdimg.com#?#.thread_item_box:-abp-has(div[class*=" fc-"])
+baidu.com,bdimg.com,tieba.com#?#.l_post:-abp-has(div[class*=" fc-"])
+baidu.com,bdimg.com,tieba.com#?#.thread_item_box:-abp-has(div[class*=" fc-"])
 bdimg.com,tieba.baidu.com,tieba.com#?#.tl_shadow:-abp-has(> .ti_item > .ti_infos > .label_text_tag:-abp-contains(广告))
 benyixiwang.com#?#p:-abp-has(a[href="http://www.sm9166.com"])
 bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
@@ -15607,7 +15607,7 @@ bitauto.com##div > ins[data-type="ad_play"]
 cq.qq.com##div.clearfix[style*="1000"]
 win0168.com##div.item
 duonaolive.com##div.nav-mobile
-baidu.com,bdimg.com##div.thread_item_box[style="position: relative;"]
+baidu.com,bdimg.com,tieba.com##div.thread_item_box[style="position: relative;"]
 weibo.com##div[ad-data]
 xchina.fun##div[adid]
 fx168.com##div[adisload]
@@ -72684,6 +72684,7 @@ browsershots.org#@#.advert_area
 ||bc.coupons.com^
 ||bc.vc/js/link-converter.js
 ||beauties-of-ukraine.com/export.js
+||bescore.com/libs/e.js
 ||bet365.com/favicon.ico$third-party
 ||bgtw.chimeratool.com^
 ||bharatmatrimony.com/matrimoney/matrimoneybanners/
@@ -77197,6 +77198,7 @@ timesofisrael.com##.banner-placeholder
 tweakreviews.com##.banner-placement__article
 balkangreenenergynews.com##.banner-premium
 bikepacking.com##.banner-sidebar
+livescores.biz##.banner-slot-filled
 vedantu.com##.banner-text
 historydaily.org,israelnationalnews.com,news12.com,pwinsider.com,usahealthcareguide.com##.banner-top
 wpneon.com##.banner-week
@@ -77324,6 +77326,7 @@ syfy.com##.blog-post-section__zergnet
 blogto.com##.blogto-sticky-banner
 manhwaindo.id##.blox
 techspot.com##.blu
+bescore.com##.bn
 nilechronicles.com##.bn-lg-sidebar
 snow-forecast.com,weather-forecast.com##.bn-placeholder
 gearspace.com##.bnb--inline
@@ -78355,6 +78358,7 @@ wccftech.com##.main-background-wrap
 sporcle.com##.main-content-unit-wrapper
 numuki.com##.main-header-responsive-wrapper
 ggrecon.com##.mainVenatusBannerContainer
+livescores.biz##.make-a-bet_wrap
 color-hex.com##.margin10
 fandom.com##.marketplace
 imgur.com,pushsquare.com,songlyrics.com##.masthead
@@ -79338,6 +79342,7 @@ gptoday.net##.top-banner-leaderboard
 numuki.com##.top-banner-responsive-wrapper
 gamewatcher.com##.top-banners-wrapper
 papermag.com##.top-billboard__below-title-ad
+livescores.biz##.top-bk
 blockchair.com##.top-buttons-wrap
 procyclingstats.com##.top-cont
 foodrenegade.com##.top-cta
@@ -80067,6 +80072,7 @@ tld-list.com##div.row > .text-center > .ib
 forward.com##div.sticky-container:first-child
 newegg.com##div.swiper-slide[data-sponsored-catalyst]
 inverse.com##div.zz
+boxing-social.com##div[ad-slot]
 liverpoolway.co.uk##div[align="center"] > a[href]
 informer.com##div[align="center"][style="margin:10px"]
 nexusradio.com##div[align=center]
