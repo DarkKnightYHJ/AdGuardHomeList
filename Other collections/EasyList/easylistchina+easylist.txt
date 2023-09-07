@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OPAtcvQf+3GlZHtf1Jl3nA
-! Version: 202309071450
+! Checksum: 6X1HnW7WJwQbL5QtmuZ+ew
+! Version: 202309071550
 ! Title: EasyList China+EasyList
-! Last modified: 07 Sep 2023 14:50 UTC
+! Last modified: 07 Sep 2023 15:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1769,6 +1769,7 @@ newduba.cn###jq_youxi
 ||dd667788dd.com^
 ||dd778899dd.com^
 ||ddush.xyz^
+||degjidp.icu^
 ||dehaer.site^
 ||derew6xbsc.xyz^
 ||desac7.icu^
@@ -1873,6 +1874,7 @@ newduba.cn###jq_youxi
 ||hacde10.icu^
 ||hacde3.icu^
 ||haffo70.com^
+||haise10.top^
 ||hanwdsii.com^
 ||hasgde.site^
 ||hbqabbg.cn^
@@ -1921,6 +1923,8 @@ newduba.cn###jq_youxi
 ||hujunhao.name^
 ||hummingexam.com^
 ||huoju.asia^
+||hvdath.xyz^
+||hwnod.xyz^
 ||hxhohd.xyz^
 ||hxinitv.icu^
 ||hyeqp.xyz^
@@ -1995,6 +1999,7 @@ newduba.cn###jq_youxi
 ||kmjndas.com^
 ||kmnhgna.com^
 ||knjmhmk.com^
+||knliylh.cn^
 ||kodfn.xyz^
 ||koljnda.com^
 ||kqubxdb.cn^
@@ -2051,6 +2056,7 @@ newduba.cn###jq_youxi
 ||lwide.xyz^
 ||lycjsix.cn^
 ||lzmvcrp.icu^
+||mdhxyhl.cn^
 ||mdwhxw.com^
 ||metaversemolecule.com^
 ||mh616.org^
@@ -2202,6 +2208,7 @@ newduba.cn###jq_youxi
 ||shulsbs.cn^
 ||simblotusitate.com^
 ||sjbgyak.cn^
+||solaron.top^
 ||soushubah.com^$third-party
 ||sq59.cn^
 ||ssdfgq7.com^
@@ -2248,6 +2255,7 @@ newduba.cn###jq_youxi
 ||tseda1.icu^
 ||tseda6.icu^
 ||tslbahi.top^
+||ttienli.top^
 ||ttykabh.icu^
 ||tuplzt.xyz^
 ||tushwjp.icu^
@@ -2274,6 +2282,7 @@ newduba.cn###jq_youxi
 ||uyq3ruf.icu^
 ||v1gyb.xyz^
 ||vcydyzd.icu^
+||vexilorath.com^
 ||vfzfrx.xyz^
 ||vghnnh.xyz^
 ||vhjxrj.xyz^
@@ -2365,6 +2374,7 @@ newduba.cn###jq_youxi
 ||zbx01.com^
 ||zbzbzb.xyz^
 ||zcbfjd.xyz^
+||zcgqsd.icu^
 ||zcvyzsyd.icu^
 ||zddpnf.xyz^
 ||zdwykjd.icu^
@@ -2396,16 +2406,6 @@ newduba.cn###jq_youxi
 ||zwfkxb.xyz^
 ||zxrcfw.com^
 ||zypzzv.xyz^
-||haise10.top^
-||mdhxyhl.cn^
-||degjidp.icu^
-||vexilorath.com^
-||hvdath.xyz^
-||zcgqsd.icu^
-||hwnod.xyz^
-||solaron.top^
-||ttienli.top^
-||knliylh.cn^
 ||zzisnvb.cn^
 !
 ##a[href$="/1c626.com"]
@@ -10774,6 +10774,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zhibok8.com/js/scroll.js
 ||zhifuok.com/19xa.jpg
 ||zhihu.com/api/*banners/
+||zhihu.com/api/v4/brand/question/*/card
+||zhihu.com/api/v4/commercial/ecommerce
 ||zhihu.com/commercial_api/banners_
 ||zhihu.com/node/Banner?
 ||zhimg.com/80/v2-503830bc48217331677fc5c7b67eee12.
@@ -10835,8 +10837,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-xgw5.com###app-card-list
-xgw5.com##div[style="z-index:10;margin-bottom: 10px;margin-top:10px"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -11062,6 +11062,7 @@ airav.cc###air_top_banner
 ali213.net###ali-js-4
 aizhan.com###all_text_content
 liisex.com###apDiv22
+xgw5.com###app-card-list
 qzone.qq.com###appCanvasRecentAppActivity > .activity-area
 qzone.qq.com###appCanvasRightBottomTips
 qzone.qq.com###appCanvasRightTopQBoss
@@ -12310,6 +12311,7 @@ duba.com##.J_side_activity
 edu.qq.com##.L
 dasai8.com##.L > font[color="#0000FF"]
 solarbe.com##.LT_banner
+zhihu.com##.LinkCard-ecommerceLoadingCard
 oilchem.net##.LzAdv
 zhihu.com##.MBannerAd
 price.com.hk,uwants.com##.MFV
@@ -16000,6 +16002,7 @@ se533.com##div[style="width:960px;margin:0 auto;text-align:center;"]
 codeceo.com##div[style="width:970px;margin:0 auto"]
 cool3c.com##div[style="width:98%;border:1px solid #ddd;padding:5px;margin-top:5px;"]
 77kpp.com##div[style="z-index:1000000;position: fixed;top:0;left:0;"]
+xgw5.com##div[style="z-index:10;margin-bottom: 10px;margin-top:10px"]
 v2ex.com##div[style][onclick*="geekhub."]
 360doc.com##div[style^="height: 90px; padding-top: 13px;"]
 gaoqing.fm##div[style^="height:258px;background-image:"]
@@ -18893,7 +18896,6 @@ fqsousou.com,kengso.com#@#.user-share
 -ad.php?
 -adbanner.
 -adbox-
--adimage-
 -ads-banner.
 -ads-bottom.
 -ads-management/
@@ -40176,6 +40178,7 @@ browsershots.org#@#.advert_area
 ||ahgcumvpyal.com^
 ||ahjopnbimr.com^
 ||ahjrinrucmp.com^
+||ahjshyoqlo.com^
 ||ahlbhiaq.com^
 ||ahlefind.com^
 ||ahnioppshfwq.com^
@@ -42694,6 +42697,7 @@ browsershots.org#@#.advert_area
 ||bmmauazi.com^
 ||bmpgkspo.xyz^
 ||bmptbyb.com^
+||bmqtvmdg.xyz^
 ||bmvjxiiijtebtu.com^
 ||bmybkeo.com^
 ||bmycupptafr.com^
@@ -43262,6 +43266,7 @@ browsershots.org#@#.advert_area
 ||buytieposer.com^
 ||buzzardcraizey.com^
 ||buzzvids-direct.com^
+||bvcsfcx.com^
 ||bvmcdn.com^
 ||bvmcdn.net^
 ||bvnlrqvinhsje.com^
@@ -44109,6 +44114,7 @@ browsershots.org#@#.advert_area
 ||cjvdfw.com^
 ||cjxomyilmv.com^
 ||ckeckstatus.biz^
+||ckofrnk.com^
 ||ckohixbcyzm.com^
 ||ckrf1.com^
 ||ckuwrlxngdrfk.com^
@@ -46853,6 +46859,7 @@ browsershots.org#@#.advert_area
 ||eergaroa.com^
 ||eergithi.com^
 ||eeroawug.com^
+||eersutoo.net^
 ||eeshemto.com^
 ||eesihighlyrec.xyz^
 ||eessoost.net^
@@ -54870,6 +54877,7 @@ browsershots.org#@#.advert_area
 ||nedouseso.com^
 ||neechube.net^
 ||neechuce.net^
+||needeevo.xyz^
 ||needierstraits.website^
 ||needleworkemmaapostrophe.com^
 ||neednguarded.space^
@@ -58724,6 +58732,7 @@ browsershots.org#@#.advert_area
 ||qxeemdpaerfjer.xyz^
 ||qxhspimg.com^
 ||qxrbu.com^
+||qxuelcdfvgecwpb.com^
 ||qxyam.com^
 ||qxycdoexyj.com^
 ||qyajwjyjnavzq.top^
@@ -60837,6 +60846,7 @@ browsershots.org#@#.advert_area
 ||sighcrowdivorce.com^
 ||sigherdoless.com^
 ||sighsuspectshaped.com^
+||sightercanidae.com^
 ||sightjutfar.com^
 ||sighttermportent.com^
 ||sigilsspeiss.com^
@@ -65134,6 +65144,7 @@ browsershots.org#@#.advert_area
 ||watchnewpics.info^
 ||watchnewpics.space^
 ||watchnewvids.online^
+||watchnewvids.space^
 ||watchnewvids.today^
 ||watchtaro.com^
 ||watchthistop.net^
@@ -81042,7 +81053,7 @@ youjizz.com###rightVideoPrs
 sexuhot.com###right_div_1
 sexuhot.com###right_div_2
 badjojo.com###rightcol
-porntop.com###s-suggesters
+onlyporn.tube,porntop.com###s-suggesters
 homemade.xxx###scrollhere
 sexyandfunny.com###sexy-links
 javtiful.com###showerm
@@ -81346,6 +81357,7 @@ badjojo.com##.footera
 mansurfer.com##.footerbanner
 videocelebs.net##.fp-brand
 xpics.me##.frequently
+onlyporn.tube##.ft
 jizzbunker.com,jizzbunker2.com##.ftrzx1
 teenpornvideo.fun##.full-ave
 kompoz2.com,pornvideos4k.com,roleplayers.co##.full-bns-block
@@ -81547,7 +81559,7 @@ cam4.com##.removeAds
 cyberleaks.to##.responsive_banner
 cumlouder.com##.resumecard
 porndroids.com,pornjam.com##.resumecard__banner
-bdsmx.tube,hotmovs.com,javdoe.fun,javdoe.sh,javtape.site,porntop.com##.right
+bdsmx.tube,hotmovs.com,javdoe.fun,javdoe.sh,javtape.site,onlyporn.tube,porntop.com##.right
 pornoreino.com##.right-side
 definebabe.com##.right-sidebar
 empflix.com##.rightBarBannersx
