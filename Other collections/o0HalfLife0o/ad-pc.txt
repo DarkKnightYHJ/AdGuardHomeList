@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Ik7a5mQgyNuR/F9gdRiyUw
+! Checksum: OBqZiRRR0xtqxiYTa3Svkg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202309090823
-! Last Modified: 2023年09月09日 08:23
+! Version: 202309091402
+! Last Modified: 2023年09月09日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -11864,6 +11864,7 @@ _800x80_
 ##.adtech-ad-widget
 ##.adtech-banner
 ##.adtech-boxad
+##.adtech-copy
 ##.adtech-video-2
 ##.adtech-wrapper
 ##.adtechMobile
@@ -56333,6 +56334,7 @@ browsershots.org#@#.advert_area
 ||playoncenter.com^$third-party
 ||playwire.com/bolt/js/$script,third-party
 ||rumble.com^$domain=tiphero.com
+||sonar.viously.com^
 ||sportrecs.com/redirect/embed/
 ||tldw.me^$third-party
 ||ultimedia.com/js/common/smart.js$script,third-party
@@ -58581,6 +58583,7 @@ phillyvoice.com##.article-sponsor-sticky
 thelocal.com,thelocal.dk,thelocal.se##.article-sponsored
 people.com##.articleContainer__rail
 audizine.com##.articleIMG
+financemagnates.com##.article__mpu-banner
 ubergizmo.com##.article_card_promoted
 wikiwand.com##.article_footerStickyAd__wvdui
 news18.com##.article_mad
@@ -60819,6 +60822,7 @@ spectrum.ieee.org##.top-leader-container
 1071thepeak.com,gpfans.com,thedailystar.net##.top-leaderboard
 webmd.com##.top-picks
 speedtest.net##.top-placeholder
+financemagnates.com##.top-side-unit
 cryptoslate.com##.top-sticky
 playbuzz.com##.top-stickyplayer-container
 news18.com##.topAdd
@@ -64003,6 +64007,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.alpha^$script,third-party
 -*-*-*-*.panda^$script,third-party
+/yinghua4567/*.js
 -1316632262.cos.
 -1316899192.cos.
 -1688-wp-media/ads/
@@ -66400,6 +66405,7 @@ newduba.cn###jq_youxi
 ||azukgee.cn^
 ||hwfoct.icu^
 ||pchznf.xyz^
+||xrb0owc.icu^
 ||zzisnvb.cn^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
@@ -73256,7 +73262,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||liwupuba.com/livead/
 ||ll.gxsky.com^
 ||llj22.com/1.gif
-||lndayp.com/4567/
 ||lnzqw.net/js/
 ||localau.vip/plugin/ad_
 ||localau.vip/plugin/pause.php
@@ -75394,7 +75399,6 @@ hao.360.cn###festival_fly + .couten
 6665.com###fgdiy01
 6665.com###fgdiy09
 17173.com###finalTuijian
-ysw191.com###fix
 elecfans.com###fix-tdkad
 ofweek.com###fixedADWrap
 1111.baidu.com,bdimg.com,live.baidu.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###fixed_bar
@@ -83669,28 +83673,18 @@ fqsousou.com,kengso.com#@#.user-share
 /count/count.cgi?
 /count?pid=
 /count_js.
-/count_stats/*
-/countbk.
-/CountContent?
 /counter-js.php
 /Counter.ashx?
 /counter.asp?
 /counter.aspx?
 /counter.cgi/*
 /counter.cgi?
-/counter.do?
 /counter.js.php
-/counter.lt?
 /counter.php?chcounter_mode=
 /counter.php?width=
 /counter.pl?
-/counter.visit?
 /counter/acnt.php?
-/counter/action_
-/counter/article?
-/counter/ashow/*
 /counter/collect?
-/counter/ct.php?
 /counter/stat.
 /counter/views/*
 /counter1.gif?
@@ -83705,7 +83699,7 @@ fqsousou.com,kengso.com#@#.user-share
 /countinj.cgi?
 /countly.js
 /countly.min.js
-/countpixel.
+/countpixel.asp
 /countstat.php?
 /countus.php
 /create-lead.js
@@ -83721,9 +83715,7 @@ fqsousou.com,kengso.com#@#.user-share
 /csp_204?
 /csp_log?
 /cta-loaded.js
-/ctd-tealium.
 /ctr_tracking.php?
-/ctracker/*$domain=~charmtracker.com
 /custom-analytics.js
 /CustomTrackingScript.js
 /cv/conversion.js
@@ -83739,14 +83731,11 @@ fqsousou.com,kengso.com#@#.user-share
 /d1VisitsCounter.
 /data.mistat.
 /data_collect.js
-/datacapture/track
 /datacollectionapi-client/*
 /datadome/*
-/dataunlocker-prod.
+/dataunlocker-prod.js
 /dataunlocker.js
 /datawrapper.gif?
-/dbdm-events.
-/dbdm-events/*
 /dcjs/prod/*
 /dcs_tag.js
 /default/pAnalytics
@@ -83756,8 +83745,6 @@ fqsousou.com,kengso.com#@#.user-share
 /demdex.js
 /demdex/*
 /detm-container-
-/device-fingerprint.
-/dg/default/cs?
 /DG/DEFAULT/rest/*
 /dh-analytics-prod/*
 /diffuser.js
@@ -93192,6 +93179,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||felix.data.tm-awx.com/batch
 ||felix.data.tm-awx.com/pageConfig
 ||felix.data.tm-awx.com/pageview
+||fenix.walkerllaw.org^
 ||filament-stats.herokuapp.com^
 ||filesonic.com/referral/$third-party
 ||fingerprinter-production.herokuapp.com^
@@ -93787,6 +93775,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||p.delivery.net^$third-party
 ||p.metrilo.com^
 ||p.placed.com^
+||p.skimresources.com^
 ||p.typekit.net^
 ||p.yotpo.com^
 ||p0.com/1x1
@@ -94091,7 +94080,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||soccer.ru/counter/
 ||socialannex.com/c-sale-track/$script
 ||solutions.invocacdn.com^
-||sonar.viously.com^
 ||sourceforge.net/tracker/$~xmlhttprequest
 ||southafricahome.com/statsmodulev2/
 ||sp-wukong-tracker.b-cdn.net^
