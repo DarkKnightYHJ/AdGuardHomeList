@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WsXC7136OtHgLL9NpJ/Ohw
+! Checksum: 2YsHNMRz1F0eHDVuEsOeWw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202309130203
-! Last Modified: 2023年09月13日 02:03
+! Version: 202309130824
+! Last Modified: 2023年09月13日 08:24
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2624,6 +2624,15 @@ newduba.cn###jq_youxi
 ||zwfkxb.xyz^
 ||zxrcfw.com^
 ||zypzzv.xyz^
+||xtjpdfr.cn^
+||hwivedn.icu^
+||boats8.top^
+||pjy55d.com^
+||yyefao.com^
+||fqpxzr.xyz^
+||uslsxe.com^
+||nwera.xyz^
+||xeikwh.icu^
 ||zzisnvb.cn^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
@@ -21408,7 +21417,6 @@ m.babytree.com##script + a[class]
 -click-tracker.
 -didomi.js
 -ga-tracker.
--ga-tracking/
 -gatracker.
 -geoIP.js
 -inview-tracker.
@@ -22318,6 +22326,7 @@ m.babytree.com##script + a[class]
 /ecanalytics.js
 /ecap.min.js
 /ecblank.gif?
+/ecg-js-ga-tracking/*
 /ecom/status.jsp?
 /edAnalyticsWrapper.js
 /edata.js
