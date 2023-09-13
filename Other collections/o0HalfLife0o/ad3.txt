@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: e5rYa8IABU6b8zPtvlk0ng
+! Checksum: z6qZI3Q1F4JYyjiQbyDhoA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202309131406
-! Last Modified: 2023年09月13日 14:06
+! Version: 202309132009
+! Last Modified: 2023年09月13日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -11065,6 +11065,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+zngame.net#?##portal_block_69_content > li:-abp-has(a[href^="http"])
+zngame.net##.GzList
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -26596,6 +26598,7 @@ _mongo_stats/
 ||infoprodata.com^$third-party
 ||informz.net^$third-party
 ||ingage.tech^$third-party
+||ingest-lr.com^$third-party
 ||inimbus.com.au^$third-party
 ||innertrends.com^$third-party
 ||innovateads.com^$third-party
@@ -34786,6 +34789,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||drugs.com/api/logger/
 ||drugs.com/img/pixel.gif
 ||dtag.breadfinancial.com^
+||dtksoft.com/ajax/log^
 ||dubz.co/analytics/
 ||duckduckgo.com/t/
 ||dumpster.cam4.com^
@@ -54186,7 +54190,7 @@ arketing.indianadunes.com^
 @@||js.captcha-display.com/xhr_tag.js$script,domain=auth.garena.com
 @@||js.datadome.co/tags.js$script,domain=sso.garena.com
 @@||js.monitor.azure.com/scripts/$script,domain=microsoft.com|rubex.efilecabinet.net
-@@||js.sentry-cdn.com^$script,domain=app.homebinder.com|book.dmm.com|interacty.me|jobs.ch|pizzahut.com.au
+@@||js.sentry-cdn.com^$script,domain=app.homebinder.com|book.dmm.com|etsy.com|interacty.me|jobs.ch|pizzahut.com.au
 @@||jsrdn.com/s/$script,domain=distro.tv
 @@||jumbe.zaius.com/v2/zaius.gif?$domain=subscriptions.management
 @@||kameleoon.eu/kameleoon.js$script,domain=buttercloth.com
