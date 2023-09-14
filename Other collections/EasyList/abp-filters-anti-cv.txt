@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: tBwVV4Dmz3QPmECA8VyPIA
-! Version: 202309140750
+! Checksum: hqbiXxx6EfSHUC0KZiIbkw
+! Version: 202309140850
 ! Title: ABP filters
-! Last modified: 14 Sep 2023 07:50 UTC
+! Last modified: 14 Sep 2023 08:50 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://github.com/abp-filters/abp-filters-anti-cv
 !
@@ -651,7 +651,7 @@ bing.com#?#li[class="b_algo"]:-abp-has(>[class="ad_ml1ESLItem"])
 bing.com#?#li[class="b_algo"]:-abp-has(a[href="#"]:not([class]))
 ! #CV-1190
 instacart.com#$#hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' li 'li div[aria-label="Product"]'
-instacart.com#$#hide-if-matches-xpath '//img[@alt="Sponsored"][contains(@src,"sponsored_badge_text")]/ancestor::div[@aria-label="Product"]/parent::div[1]'
+instacart.com#$#hide-if-matches-xpath '//img[@alt="Sponsored"][contains(@src,"sponsored_")]/ancestor::div[@aria-label="Product"]/parent::div[1]'
 instacart.com#$#hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::header'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")][@data-testid]/ancestor::a[contains(@href,"interaction_id")]/ancestor::section[@id][@class][not(@id="store-wrapper") and not(@id="js-app")]'
@@ -1424,6 +1424,7 @@ truyen35.vn#$#abort-current-inline-script jQuery click_ads
 ! FDA-2830
 @@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|
 ! FD-3979
+@@||discreetquarter.com^$script,xmlhttprequest
 @@||2znp09oa.com^$script,xmlhttprequest
 @@||4jnzhl0d0.com^$script,xmlhttprequest
 @@||5mcwl.pw^$script,xmlhttprequest
