@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: M861DDVYjcF7Q3g93XslFg
-! Version: 202309150240
+! Checksum: An+lxaF2GNhlboy3KhlaXg
+! Version: 202309150350
 ! Title: Fanboy's Annoyance List
-! Last modified: 15 Sep 2023 02:40 UTC
+! Last modified: 15 Sep 2023 03:50 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -1449,8 +1449,9 @@ _twitter_follow.
 .PrivacyDataNotice.
 /1_cookie.js
 /24cookiebar.js
-/?spu_action=*spu_load&
-/__enzuzo-cookiebar.
+/?spu_action=spu_load$xmlhttprequest
+/__enzuzo-cookiebar.js
+/_cookie_banner.js
 /_cookie_consentement.js
 /_cookieconsent.js
 /_cookielaw_mip.js
@@ -2149,6 +2150,7 @@ _twitter_follow.
 /mdv.cookie.
 /mea-legal-consent.
 /mediamus-cookie.js
+/mekanismi_cookie_alert/*
 /messagingNoTcfApi.js
 /meWantCookies1.8.js
 /mfe-cookies/*
@@ -2291,12 +2293,10 @@ _twitter_follow.
 /tealium-external/*
 /Team23_SimpleCookie/*
 /terms_of_service.js
-/tfcookie.
-/thcookie.
+/tfcookie.js
+/thcookie.js
 /tm.cookie.js
-/tnzcookie-
 /tnzcookie/*
-/toaster-checker.
 /top/gdpr_
 /toucanCookie.
 /tracking-opt-in.
@@ -2320,11 +2320,10 @@ _twitter_follow.
 /util/gdpr/*
 /vhs-assets-cookie-
 /w034CookieDirective.js
-/w4.cookiebar.
+/w4.cookiebar.js
 /wa_lib.js
 /Wamoco_CookieConsentUi/*
-/warnCookies.
-/webflow-consent-manager
+/warnCookies.js
 /webtoffee-gdpr-cookie-consent/*
 /webtrekk_gdpr.js
 /webtrekk_gdpr.min.js
@@ -2353,12 +2352,9 @@ _twitter_follow.
 /z7_cookiemanager.
 /zdconsent.
 /zdprivacy.
-/zebra_cookie.
+/zebra_cookie.js
 /zgdpr.min.js
 ://ccm.*/app.js?
-_alert_cookie/
-_cookie_alert/
-_cookie_banner.
 _cookie_bar.
 _cookie_bar/
 _cookie_cnil.
@@ -39716,6 +39712,7 @@ yardbarker.com##.msnfc
 theworld.org##.mui-style-dfyfg6-socialShareMenu
 movehub.com##.mvhub-social-button
 cryptotvplus.com##.mvp-alp-soc-wrap
+techweekmag.com##.mvp-top-soc-wrap
 adexchanger.com##.nav-sharebox
 denofgeek.com##.nav-social__items
 triblive.com##.navbar-right
@@ -39953,6 +39950,7 @@ todayonline.com##.subcription-two
 npr.org,symmetrymagazine.org,thefinance.sg,topbet.eu##.subscribe
 jasonwatmore.com##.subscribe-buttons
 newsandguts.com##.subscribeBar
+techweekmag.com##.supersharer
 arigatojapan.co.jp##.swp-hover-pin-button
 echonewshub.com,jugomobile.com##.t-shared-sec
 okgoals.com##.tabrow
@@ -41406,6 +41404,7 @@ quazel.com,veed.io##.fs-cc-banner3_component
 ooux.com##.fs-cc-banner3_component-2
 objectbay.com##.fs-cc-component
 f-secure.com##.fs-consent
+ssactivewear.com##.fs_cc-banner_component
 dorkingrfc.com##.fsi-layout-notices
 relishbistroseattle.com##.fsn-notifications
 evermotion.org##.full-overlay
