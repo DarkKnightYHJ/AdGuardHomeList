@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yHc14uIThRhZaiy9hgSa5w
+! Checksum: 4hVzYp2O0r285hA1bdHL8g
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202309151406
-! Last Modified: 2023年09月15日 14:06
+! Version: 202309152008
+! Last Modified: 2023年09月15日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2661,6 +2661,8 @@ newduba.cn###jq_youxi
 ||vktztp.xyz^
 ||evb0gxo.icu^
 ||alemu4s.com^
+||ynfxxbp.xyz^
+||gcbflvx.cn^
 ||zzisnvb.cn^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
@@ -11092,6 +11094,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||imageoss.com/images/*_GIF2400x120_
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+163.com##.expoure_track_item
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -21984,8 +21987,6 @@ m.babytree.com##script + a[class]
 /benchmarketingsmarttag/*
 /better-analytics/*
 /bf.gif?ac=
-/bicomscore.
-/bicomscore_
 /bineos.min.js
 /bing-bat.js
 /bingimpression?
@@ -22479,11 +22480,8 @@ m.babytree.com##script + a[class]
 /ewtrack.
 /EWTRACK_
 /exactag.js
-/exelator.
 /exittracker.
-/exittraffic.
 /expcount/*
-/experiment/impressions.js
 /extendedAnalytics.
 /external-tracking.
 /external/nielsen_
@@ -54219,6 +54217,7 @@ arketing.indianadunes.com^
 @@||ingest.sentry.io/api/$xmlhttprequest,domain=orionprotocol.io|tesco.com
 @@||ipapi.co/json/$xmlhttprequest,domain=168.dailymaverick.co.za|audius.co
 @@||ipinfo.io/?token=$domain=assurancemortgage.com|webtv.ert.gr
+@@||ipv4.seeip.org/jsonip$domain=empire-streaming.app
 @@||js-agent.newrelic.com^$domain=alliantcreditunion.com|giftcards.com|kapwing.com
 @@||js.captcha-display.com/xhr_tag.js$script,domain=auth.garena.com
 @@||js.datadome.co/tags.js$script,domain=sso.garena.com
