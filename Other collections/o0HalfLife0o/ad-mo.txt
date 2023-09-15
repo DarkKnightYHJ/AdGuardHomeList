@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Pr3IW8JvWOW5v3CKfNpJIQ
+! Checksum: 6OCVxUJBnUwlTcgzAKW7Tg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202309150205
-! Last Modified: 2023年09月15日 02:05
+! Version: 202309150824
+! Last Modified: 2023年09月15日 08:24
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -6694,6 +6694,7 @@ _800x80_
 ###preroll_ads
 ###preroll_compainion_ad
 ###primis-container
+###primis_player
 ###print_ads
 ###printads
 ###privateads
@@ -10730,6 +10731,7 @@ _800x80_
 ##.ads-728by90
 ##.ads-728x90
 ##.ads-970-250-show
+##.ads-980x90
 ##.ads-above-comments
 ##.ads-ad
 ##.ads-ads-top
@@ -18527,6 +18529,7 @@ _800x80_
 ##a[href^="https://trk.softonixs.xyz/"]
 ##a[href^="https://trk.sportsflix4k.club/"]
 ##a[href^="https://tsartech.g2afse.com/"]
+##a[href^="https://tweakostensibleinstaller.com/"]
 ##a[href^="https://twinrdsrv.com/"]
 ##a[href^="https://twinrdsyn.com/"]
 ##a[href^="https://u.expresstech.io/"]
@@ -23926,6 +23929,7 @@ browsershots.org#@#.advert_area
 ||bodsoakr.xyz^
 ||bodyguardencouraged.com^
 ||boenedb.com^
+||boeneds.com^
 ||boeojpmxvwbgn.com^
 ||boffinsoft.com^
 ||boffoadsfeeds.com^
@@ -45800,6 +45804,7 @@ browsershots.org#@#.advert_area
 ||unhidemeets.com^
 ||unhorseaa.com^
 ||unhosepedalo.com^
+||unhrjzn.com^
 ||unicast.com^
 ||unicorndirtiness.com^
 ||unicornpride123.com^
@@ -53378,6 +53383,7 @@ browsershots.org#@#.advert_area
 ||turnnagin.live^$popup
 ||tutvp.com^$popup
 ||tvas-b.pw^$popup
+||tweakostensibleinstaller.com^$popup
 ||twentiethparticipation.com^$popup
 ||twerwew.org.^$popup
 ||twerwew.org^$popup
@@ -60659,7 +60665,6 @@ dosgamesarchive.com##.rectangle
 knowyourmeme.com##.rectangle-unit-wrapper
 redferret.net##.redfads
 arras.io##.referral
-windowsreport.com##.refmedprd-b
 al-monitor.com##.region--after-content
 middleeasteye.net##.region-before-navigation
 steveharveyfm.com##.region-recommendation-right
@@ -61981,6 +61986,7 @@ imagetopdf.com,pdfkit.com,pdftoimage.com,topdf.com,webpconverter.com##div[class^
 technologyreview.com##div[class^="headerTemplate__leaderboardRow-"]
 localjewishnews.com##div[class^="local-feed-banner-ads"]
 nationalmemo.com,spectrum.ieee.org,theodysseyonline.com##div[class^="rblad-"]
+windowsreport.com##div[class^="refmedprd"]
 staples.com##div[class^="sku-configurator__banner"]
 mydramalist.com##div[class^="spnsr"]
 kijiji.ca##div[class^="sponsored-"]
@@ -62134,6 +62140,7 @@ bollyflix.loan,downloadlagu321.site,dramacool.sr,streamingcommunity.mom,uwatchfr
 123movies.net,4anime.gg,actvid.com,apkmody.io,batotoo.com,beetoon.net,bollyflix.loan,bravoporn.com,cineb.net,coloredmanga.com,downloadlagu321.site,dragontranslation.com,dramacool.sr,gogoanime.co.in,gogoanime.run,harimanga.com,hds-streaming-hd.com,himovies.to,hurawatch.cc,iflixmovies.lol,instamod.co,jujutsukaisenonline.net,leercapitulo.com,linksly.co,mangadna.com,mangageko.com,mangahere.today,manganatos.com,mangatigre.net,manhuafast.com,manhwadesu.ink,manhwalist.xyz,membed.net,messitv.net,miraculous.to,movies-watch.com.pk,moviesmod.pro,nkiri.com,prmovies.beauty,putlocker.vc,putlockers.fm,putlockers.li,sflix.se,sockshare.ac,ssoap2day.to,streamingcommunity.mom,sukidesuost.info,tamilyogi.bike,uwatchfre.cam,waploaded.com,watchomovies.net,y-2mate.com,yomovies.team,ytmp3.cc,yts-subs.com##iframe[style*="z-index: 2147483647"]
 dexdotexe.com##iframe[title="Top Games"]
 premiumtimesng.com##img[alt$=" Ad"]
+bailagentnetwork.com##img[alt*="Affiliate_BailAgentNetwork"]
 windycitymediagroup.com,windycitytimes.com##img[alt*="Sponsor"]
 hiphopkit.com##img[alt="Zappy"]
 therainbowtimesmass.com##img[alt="banner ad"]
@@ -62529,6 +62536,7 @@ kroger.com#?#.AutoGrid-cell:-abp-has(.ProductCard-tags>div>svg.kds-Icon)
 kroger.com#?#.KDSProductCarouselView--default:-abp-has(>.kds-Card>.ProductCard-tags>div>svg.kds-Icon)
 corvetteblogger.com#?#aside.td_block_template_1.widget.widget_text:-abp-has(>h4.block-title>span:-abp-contains(Visit Our Sponsors))
 templateshub.net#?#.col-lg-4.col-md-6:-abp-has(>div.singel-course)
+bailagentnetwork.com#?#div.box-bottom:-abp-has(a[rel="noopener nofollow"])
 thebay.com#?#div.product:-abp-has(div.citrus-sponsored)
 oneindia.com#?#.one-news-links ul li:-abp-has(> div:only-child)
 autotrader.co.uk#?#li:-abp-has(section[data-testid="trader-seller-listing"]>span[data-testid="FEATURED_LISTING"])
@@ -66823,6 +66831,15 @@ newduba.cn###jq_youxi
 ||54dbg.xyz^
 ||xybnfn.xyz^
 ||1jc5t.xyz^
+||tuhzjrr.cn^
+||lestv7.icu^
+||fsmhub.icu^
+||dektcvna.icu^
+||jkzbjv.xyz^
+||ceshi1.ink^
+||789peizi.com^
+||vktztp.xyz^
+||evb0gxo.icu^
 ||zzisnvb.cn^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
