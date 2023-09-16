@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: qY3GLrZ/QK3DmuAR1qQrMQ
-! Version: 202309161150
+! Checksum: qM/JIgaBb8wCC+OjSEl1BQ
+! Version: 202309161240
 ! Title: EasyPrivacy
-! Last modified: 16 Sep 2023 11:50 UTC
+! Last modified: 16 Sep 2023 12:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -91,16 +91,11 @@
 .php?stats=
 .php?tracking=
 .sharecounter.$third-party
-.sitecatalyst.js
-.siteclarity.
-.sitetracking.
 .skimlinks.js
 .snowplowanalytics.$domain=~snowplowanalytics.com
 .stats?action=
 .svc/?tracking_id=
-.tv/log?event
 .v4.analytics.
-.web-vitals-reporting.
 /.webscale/rum?
 /.well-known/shopify/monorail
 /0.gif?
@@ -155,7 +150,7 @@
 /abc.gif?
 /access.php?referrer=
 /accessanalyzer/tracker?
-/AccessCounter/*
+/AccessCounter/index.cgi?
 /accesstracking/*
 /acclog.cgi?
 /acecounter/*
@@ -327,6 +322,7 @@
 /analytics.html?
 /analytics.js/v1/*
 /analytics.prod.$domain=~fifteen.eu
+/analytics.sitecatalyst.js
 /analytics.v1.js
 /analytics/?event
 /analytics/abtest/*
