@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3/aFsrv84M9JQeKV1Q4v0A
+! Checksum: BHPJwQIX0m+OyVr6lRx6UQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202309171404
-! Last Modified: 2023年09月17日 14:04
+! Version: 202309172007
+! Last Modified: 2023年09月17日 20:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -66963,6 +66963,8 @@ newduba.cn###jq_youxi
 ||cnied.xyz^
 ||bnets1.icu^
 ||nmlfev.icu^
+||szn0ehq.icu^
+||ixxoo.asia^
 ||zzisnvb.cn^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
@@ -75394,6 +75396,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+xkeba.com###diy90
+xkeba.com##.GzList
+sxpojie.top##.a_h
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -84055,6 +84060,7 @@ fqsousou.com,kengso.com#@#.user-share
 /certifica.js
 /certona.
 /Certona/*
+/cf-analytics/*
 /cfformprotect/js/cffp.js
 /cgi-bin/cnt/*
 /cgi-bin/count.cgi?
@@ -92932,6 +92938,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||a.getflowbox.com^
 ||a.hcaptcha.com^
 ||a.mobify.com^
+||a.opumo.net^
 ||a2z.com/sping?
 ||aan.amazon.com^$third-party
 ||accesswire.com/img.ashx
