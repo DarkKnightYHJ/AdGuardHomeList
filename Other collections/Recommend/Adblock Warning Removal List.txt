@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vSUl15pX2/3yELPnU0AE9g
-! Version: 202309182140
+! Checksum: LZonG9FNRsubGOFuwDRsxw
+! Version: 202309182240
 ! Title: Adblock Warning Removal List
-! Last modified: 18 Sep 2023 21:40 UTC
+! Last modified: 18 Sep 2023 22:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/antiadblockfilters
 ! Licence: https://easylist.to/pages/licence.html
@@ -309,8 +309,10 @@ shadbase.com##img[alt="adblock"]
 ! Firstparty whitelist
 @@||ankrzkz.sbs/js/boxad.js?$script,~third-party
 ! Thirdparty whitelist
+@@||alwingulla.com/88/tag.min.js$domain=darkino.online
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rockmods.net
 ! Generichide
+@@||darkino.online^$generichide
 @@||docs.w3cub.com^$generichide
 @@||www.ifon.ca^$generichide
 ! *** antiadblockfilters:antiadblockfilters/antiadblock_finnish.txt ***
