@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9/x6JU7tMWw9NDd4M8znCw
-! Version: 202309181950
+! Checksum: pkEHKu3V7T7yUQHU+z+Wsg
+! Version: 202309182040
 ! Title: Adblock Warning Removal List
-! Last modified: 18 Sep 2023 19:50 UTC
+! Last modified: 18 Sep 2023 20:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/antiadblockfilters
 ! Licence: https://easylist.to/pages/licence.html
@@ -306,6 +306,8 @@ redtube.com###as_131
 redtube.com###slidePanelContainerAB
 redtube.com##.qb
 shadbase.com##img[alt="adblock"]
+! Firstparty whitelist
+@@||ankrzkz.sbs/js/boxad.js?$script,~third-party
 ! Thirdparty whitelist
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rockmods.net
 ! Generichide
