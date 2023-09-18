@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2jM45GbNAXE+NxULP9Npmw
-! Version: 202309180640
+! Checksum: kX5HH/qGEx8Yb8aUoDWt2A
+! Version: 202309180750
 ! Title: Fanboy's Annoyance List
-! Last modified: 18 Sep 2023 06:40 UTC
+! Last modified: 18 Sep 2023 07:50 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -1409,8 +1409,6 @@ _twitter_follow.
 -cookies-notice/
 -eu-cookie/$script
 -eu-cookies/$script
--gdpr-compliance/
--gdpr-consents/
 -gdpr-cookie-$~script
 -gdpr-min.
 -gdpr-popup.
@@ -1620,11 +1618,11 @@ _twitter_follow.
 /cookie_banner.
 /cookie_banner/*
 /cookie_banner_
-/cookie_bar.
+/cookie_bar.js
 /cookie_bar/*
 /cookie_consent.$~stylesheet
 /cookie_consent/*
-/cookie_consent_
+/cookie_consent_min_js.js
 /cookie_flyout.js
 /cookie_gateway.
 /cookie_header.
@@ -2130,6 +2128,7 @@ _twitter_follow.
 /neo-cookie-policy.js
 /newprivacypolicy.js
 /nibirumail.cookie.min.js
+/ninja-gdpr-compliance/assets/home/js/app.js
 /nl-cookie-law.js
 /nsd-cookie-banner.js
 /ob_rgpd/*
@@ -2236,10 +2235,10 @@ _twitter_follow.
 /sni_cookie_privacy/*
 /sp-config.min.js
 /spmsg20180522.js
+/stm-gdpr-compliance/assets/js/scripts.js
 /super-cookie/swfobject/*
 /superCookie-min.js
 /SwagCookiePermission/*
-/syncCookie/*
 /tc_privacy/privacy.js
 /tcf/cookie.js
 /tcf2.js
@@ -2264,6 +2263,7 @@ _twitter_follow.
 /usecookies.js
 /util/gdpr/*
 /vhs-assets-cookie-
+/vo-gdpr-compliance/Assets/js/front.min.js
 /w034CookieDirective.js
 /w4.cookiebar.js
 /wa_lib.js
@@ -2285,6 +2285,7 @@ _twitter_follow.
 /wp-content/plugins/zigcookie/*
 /wp-cookie-allow/*$script,stylesheet
 /wp-gdpr-compliance/*
+/wp-gdpr-compliance/assets/js/front.min.js
 /wp-tarteaucitron-
 /wpjslib-ecom.js
 /wpjslib-sgap.js
