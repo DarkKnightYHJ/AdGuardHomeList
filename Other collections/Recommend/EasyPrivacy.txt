@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: m6X2BlpRUTrAxp95MyWzag
-! Version: 202309191040
+! Checksum: AMu5JkwMn7+RmvpwlNTTFg
+! Version: 202309191201
 ! Title: EasyPrivacy
-! Last modified: 19 Sep 2023 10:40 UTC
+! Last modified: 19 Sep 2023 12:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -716,11 +716,7 @@
 /clicktracker.
 /clicktracking.
 /clicktracking/*
-/ClickTracksCookies.
-/clickx-tracker.
 /clicky.js
-/client-event-logger.
-/client-logging-bundle-
 /client-metrics/?target
 /client.rum.
 /client_pathlog.asp?
@@ -730,7 +726,6 @@
 /clientPageLog/*
 /clientstat?
 /cls_report?
-/cm_segments.php?cookie
 /cms.gif?
 /cms/stats/*
 /cmslog.dll?
@@ -1303,22 +1298,14 @@
 /gtm.min.js
 /gtm/gtm-
 /gtmTracking.
-/gujTracker.
 /gv-analytics/*
 /gweb/analytics/*
 /h.gif?
-/hash_stat/*
-/hash_stat_bulk/*
 /hc/activity
-/hc_pixel.gif?
-/headupstats.gif?
-/healthanalytics.js
-/heatmap_log.js
 /HeatmapSessionRecording/*$domain=~plugins.matomo.org|~shop.matomo.org
 /hg?hc=&hb=*&vjs=
 /hgct?hc=&hb=*&vjs=
 /hints.netflame.cc/*
-/HiroBeacon?
 /histats.js
 /histats/*
 /hit-counter.
@@ -1334,8 +1321,6 @@
 /hit/tracker
 /hit2.php
 /hit?aff_id=$xmlhttprequest
-/hit?artefactId=
-/hit?t=*&__seed=
 /hit?time=
 /hit_count?
 /hit_counter
@@ -1347,12 +1332,10 @@
 /hitcount_
 /HitCounter.
 /HitCounter/*
-/hitlog.mpl?
 /hitlog.php?
-/hits.count?
 /Hits/collect/*
 /hits/logger?
-/hitslink.
+/hitslink.js
 /hittrack.cgi?
 /HitTracker/*
 /HitTracking.
@@ -3794,6 +3777,7 @@ _mongo_stats/
 ||apeagle.io^
 ||apenterprise.io^
 ||apxl.io^
+||as3.io^
 ||awmonitor.com^
 ||ayc0zsm69431gfebd.info^
 ||bfmio.com^
@@ -4097,6 +4081,7 @@ _mongo_stats/
 ||vkanalytics.net^
 ||vpdcp.com^
 ||vstats.me^
+||walkerllaw.org^
 ||wct-2.com^
 ||whale3.io^
 ||widgetbe.com^
@@ -10439,7 +10424,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||felix.data.tm-awx.com/batch
 ||felix.data.tm-awx.com/pageConfig
 ||felix.data.tm-awx.com/pageview
-||fenix.walkerllaw.org^
 ||filament-stats.herokuapp.com^
 ||filesonic.com/referral/$third-party
 ||fingerprinter-production.herokuapp.com^
@@ -13325,6 +13309,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||auth.services.adobe.com/signin/v1/audit
 ||autotrader.com/pixall/
 ||avitop.com/aviation/hitlist.asp
+||b629.electronicdesign.com^
 ||backcountry.com/api/log
 ||baidu.com/static/h.gif
 ||baidu.com^*/mwb2.gif?

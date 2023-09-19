@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: IMymLfVRDb0FPoNLrwb7fw
+! Checksum: 6d6NCQKL4yWxA67nSc4rrA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202309191406
-! Last Modified: 2023年09月19日 14:06
+! Version: 202309192009
+! Last Modified: 2023年09月19日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -189,6 +189,7 @@ stgowan.com
 -*-*-*-*.alpha^$script,third-party
 -*-*-*-*.panda^$script,third-party
 -1316632262.cos.
+.com/js/bnnr_
 -1316899192.cos.
 -1688-wp-media/ads/
 -90mh-gg.
@@ -2704,6 +2705,7 @@ newduba.cn###jq_youxi
 ||jtwewpi.cn^
 ||unmsrvh.cn^
 ||analystrati.com^
+||bwdiy.cn^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
 ##a[href$="/ky6y.com"]
@@ -22389,6 +22391,7 @@ m.babytree.com##script + a[class]
 /dtrack.js
 /duel-analytics.js
 /dwanalytics-
+/dy-coll-nojq-min.js
 /dynamic.ziftsolutions.com/*
 /DynamicAnalytics.js
 /dynamicyield/*
@@ -23555,58 +23558,37 @@ m.babytree.com##script + a[class]
 /pixel/impression?
 /pixel/nvrwe?
 /pixel/sbs?
-/pixel/stats/?
-/pixel/stream/*
 /pixel/view?
 /pixel/visit?
 /pixel1/impression.
 /pixel2.gif?
-/pixel?id=
 /pixel?tag=
 /pixel?type=
-/pixel_event_data?
 /pixel_iframe.
 /pixel_tag.
 /pixel_track.
 /pixel_tracking.
 /pixel_tracking?
 /pixel_V2.
-/pixelappcollector.
-/pixelArticolo?
 /pixelcounter.$domain=~pixelcounter.co.uk|~pixelcounter.com|~pixelcounter.dev|~pixelcounter.org|~pixelcounters.co.uk|~pixelcounters.uk
-/pixelframe/*
-/PixelImg.asp
 /pixeljs/*
 /pixellog.
-/PixelNedstat.
 /pixelNew.js
-/pixelpropagate.
+/pixelpropagate.js
 /pixels.jsp?
 /pixels/track?
 /pixelstats/*
-/pixeltag.
-/pixelTargetingCacheBuster.
+/pixeltag.js
 /pixeltrack.
 /pixeltracker.
 /PixelTracking.
 /pixeltracking/*
-/pixiedust-build.js
-/pixLogVisit.
-/pixMark.png?
 /pixy.gif?
-/PKAnalytics.
-/planetstat.
+/planetstat.php
 /plausible.js$domain=~plausible.io
 /plausible.outbound-links.js$domain=~plausible.io
 /player-test-impression?
 /player/stats.php?
-/player_counter.ashx?
-/PlayerDashboardLoggingService.svc/json/StartSession?
-/playerlogger.
-/playerstats.gif?
-/playertracking/*
-/plgtrafic.
-/plingatracker.
 /plog?id
 /plogger/*
 /plugins/catman/*
@@ -23618,19 +23600,10 @@ m.babytree.com##script + a[class]
 /plugins/userinfo.gif?
 /plugins/visitors-traffic-
 /plugins/wordfence/visitor.php?
-/plzcrawlme.js
 /pm/pixel.
 /pmc-cxense.js
-/PmsPixel?
-/pmspxl.
-/point_roll.
 /pointeur.gif?
-/PointRoll.
-/PointRollAnonymous.
 /pomegranate.js
-/popanalytics.
-/popupCookieWriter.
-/popuplog/*
 /post-tracking/*
 /postcounter.php?
 /postlog?
@@ -25263,6 +25236,7 @@ _mongo_stats/
 ||apeagle.io^
 ||apenterprise.io^
 ||apxl.io^
+||as3.io^
 ||awmonitor.com^
 ||ayc0zsm69431gfebd.info^
 ||bfmio.com^
@@ -25566,6 +25540,7 @@ _mongo_stats/
 ||vkanalytics.net^
 ||vpdcp.com^
 ||vstats.me^
+||walkerllaw.org^
 ||wct-2.com^
 ||whale3.io^
 ||widgetbe.com^
@@ -26625,6 +26600,7 @@ _mongo_stats/
 ||hybrid.ai^$third-party
 ||hyfntrak.com^$third-party
 ||hyperactivate.com^$third-party
+||hyperdx.io^$third-party
 ||hypestat.com^$third-party
 ||iaudienc.com^$third-party
 ||ib-ibi.com^$third-party
@@ -31855,7 +31831,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||felix.data.tm-awx.com/batch
 ||felix.data.tm-awx.com/pageConfig
 ||felix.data.tm-awx.com/pageview
-||fenix.walkerllaw.org^
 ||filament-stats.herokuapp.com^
 ||filesonic.com/referral/$third-party
 ||fingerprinter-production.herokuapp.com^
@@ -33126,6 +33101,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.scenepass.com^
 ||tracking.searchmarketing.com^
 ||tracking.sembox.it^$third-party
+||tracking.server.bytecon.com^
 ||tracking.sexcash.com^
 ||tracking.sezzle.com^
 ||tracking.sharplink.us^
@@ -34682,6 +34658,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||auth.services.adobe.com/signin/v1/audit
 ||autotrader.com/pixall/
 ||avitop.com/aviation/hitlist.asp
+||b629.electronicdesign.com^
 ||backcountry.com/api/log
 ||baidu.com/static/h.gif
 ||baidu.com^*/mwb2.gif?
@@ -35569,6 +35546,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||streamadblocker.com/stat/
 ||streamadblocker.store/stat/
 ||streamadblocker.xyz/stat/
+||streamlabs.com/web/data/ping
 ||streamstats.prd.dlive.tv^
 ||streamta.pe/stat/
 ||streamta.site/stat/
