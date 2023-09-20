@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jMYBTAv88j9goCzVsvGwrw
-! Version: 202309202041
+! Checksum: rACLoRN8E1c902uPI2Qgvw
+! Version: 202309202140
 ! Title: Fanboy's Annoyance List
-! Last modified: 20 Sep 2023 20:41 UTC
+! Last modified: 20 Sep 2023 21:40 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -1394,23 +1394,14 @@ _twitter_follow.
 -cookie-consent/$~script,domain=~django-cookie-consent.readthedocs.io
 -cookie-dialog.
 -cookie-filter/$script
--cookie-form.lib.
 -cookie-law-popup.
--cookie-manager?
--cookie-message.js
 -cookie-notice-
 -cookie-notice.
--cookie-notice/
 -cookie-policy.
 -cookie-popup.
--CookieInfo.
--cookiePolicy.
--cookies-notice/
 -eu-cookie/$script
 -eu-cookies/$script
 -gdpr-cookie-$~script
--gdpr-min.
--gdpr-popup.
 -rodo.min.js
 .cookie-law.$script
 .cookielaw.js
@@ -1749,19 +1740,23 @@ _twitter_follow.
 /cookienotice.
 /cookienotice/*$script
 /cookienotice/Js/*
-/cookienotif.
-/cookieNotification.
+/cookienotif.js
+/cookieNotification.js
+/cookieNotification.min.js
 /CookieNotification/*
-/CookieNotifier.
+/CookieNotifier.js
+/CookieNotifier.min.js
 /cookienotify-
 /cookieNSCconsent.
 /cookieok.js
 /cookieopt-min.js
-/cookieOverlay.
-/cookieparty.
+/cookieOverlay.js
+/cookieparty.config.php
+/cookieparty.min.js
 /cookieplugin/cookie.
 /cookiepolicy-
-/cookiepolicy.
+/cookiepolicy.js
+/cookiepolicy.min.js
 /cookiepolicy/*
 /cookiepolicy_
 /CookiePolicyAlert_
