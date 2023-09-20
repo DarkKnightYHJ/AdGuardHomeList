@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XEfEYhqg2Q1yHXhUnqIPYw
-! Version: 202309200950
+! Checksum: axpZQf4FJk+B+KKvN72k1g
+! Version: 202309201041
 ! Title: EasyList China+EasyList
-! Last modified: 20 Sep 2023 09:50 UTC
+! Last modified: 20 Sep 2023 10:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -76925,7 +76925,7 @@ dokicloud.one,fmoviefree.net###overlay-center
 mzzcloud.life,rabbitstream.net,rapid-cloud.ru,streamrapid.ru###overlay-container
 drivevideo.xyz###overlays
 animexin.vip###overplay
-aninews.in,gadgets360.com,hardwaretimes.com,justthenews.com,ndtv.com,oneindia.com,wionews.com###parentDiv0
+aninews.in,gadgets360.com,hardwaretimes.com,justthenews.com,ndtv.com,oneindia.com,wionews.com,zeebiz.com###parentDiv0
 mg.co.za###partner-content
 hwbot.org###partner-tiles
 cnn.com###partner-zone
@@ -82692,6 +82692,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||ads.adthrive.com/sites/$script,domain=adamtheautomator.com|mediaite.com|packhacker.com
 @@||ads.freewheel.tv/|$media,domain=cnbc.com|fxnetworks.com|my.xfinity.com|nbc.com|nbcsports.com
 @@||ads.kbmax.com^$domain=adspipe.com
+@@||ads.pubmatic.com/adserver/js/$script,domain=zeebiz.com
 @@||ads.pubmatic.com/AdServer/js/pwtSync/$subdocument,domain=independent.co.uk
 @@||ads.roblox.com/v1/sponsored-pages$xmlhttprequest,domain=roblox.com
 @@||ads.rogersmedia.com^$subdocument,domain=cbc.ca
@@ -82926,6 +82927,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||yaytrade.com^*/chunks/pages/advert/$~third-party
 @@||yimg.com/rq/darla/*/g-r-min.js$domain=yahoo.com
 @@||z.moatads.com^$script,domain=standard.co.uk
+@@||zeebiz.com/ads/$image,~third-party
 @@||zohopublic.com^*/ADManager_$subdocument,xmlhttprequest,domain=manageengine.com|zohopublic.com
 ! Webcompat fixes (Avoid any potential filters being applied to non-ad domains)
 @@||challenges.cloudflare.com/turnstile/$script
