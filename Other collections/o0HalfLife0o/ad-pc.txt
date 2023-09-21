@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4snzlKxUceUlcq+8eACHLA
+! Checksum: 4CXRxXlxuKP1Lod/RlA8CQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202309211407
-! Last Modified: 2023年09月21日 14:07
+! Version: 202309212009
+! Last Modified: 2023年09月21日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -944,14 +944,12 @@ tieba.baidu.com##.tuijian-wrap
 /adsbox.$~script,domain=~adsbox.com.sg|~adsbox.in
 /adscontrol.
 /adscontroller.
-/adscroll.
-/adsdaq_
+/adscroll.js
 /adsdelivery.
 /adsdelivery/*
 /adsensegoogle.js
 /adserv.
 /adserve/*
-/adserve_
 /adserver-
 /adserver.$~xmlhttprequest,domain=~konograma.com
 /adserver1-
@@ -960,11 +958,7 @@ tieba.baidu.com##.tuijian-wrap
 /adserver2/*
 /adserver3.
 /adserver?
-/adservice-
-/adservices.
-/adservices/*
 /adserving.
-/adserving/*
 /adserv|*|adtech;
 /adsheader.
 /adsimage/*
@@ -1211,22 +1205,13 @@ tieba.baidu.com##.tuijian-wrap
 /beacon/ads/*
 /beacon/ads?
 /bg-advert-
-/bg/ads/*
-/bg_ads_
-/bg_adv_
-/bigad.
-/bigad_
-/bigboxad.
-/blockad_
 /blogad.
 /blogad_
 /blogads-
 /blogads.
 /blogads/*
-/blogads_
 /bnr_ad_
 /bnrsrv.
-/bottom-ad-
 /bottom-ads.
 /bottom-advert-
 /bottom_ad.
@@ -1234,18 +1219,13 @@ tieba.baidu.com##.tuijian-wrap
 /bottom_adv.
 /bottom_adv_
 /bottomad.
-/bottomad/*
 /bottomads.
 /Box-ad-
 /box_ad_
-/box_ads_
 /brightcovead.
 /bsa-plugin-pro-
 /bsa-pro-
-/buttonad/*
 /buttonads.
-/buttonads/*
-/buyclicks/*
 /buysellads-
 /buysellads.
 /call/pubif/*
@@ -1353,11 +1333,6 @@ tieba.baidu.com##.tuijian-wrap
 /display-ad/*
 /display-ads-$domain=~google.co.uk|~google.com|~google.com.au
 /display-ads/*
-/display.ad.
-/display/ads/*
-/display/ads?
-/display?ad_
-/display_ad$domain=~ads.instacart.com
 /displayad.$~script
 /displayad/*
 /displayad?
@@ -2223,9 +2198,6 @@ tieba.baidu.com##.tuijian-wrap
 /widgetad.
 /widgets/ads.
 /widgets/sponsored/*
-/wix-ad.
-/wixads.
-/wixads/*
 /wordpress-ads-plug-in/*
 /wp-ad.min.
 /wp-auto-affiliate-links/*
@@ -2276,10 +2248,6 @@ tieba.baidu.com##.tuijian-wrap
 /xclicks.
 /xpopunder.
 /xpopup.js
-/yahoo-ads/*
-/yahooads.
-/yahooads/*
-/yahooadsapi.
 /yhs/ads?
 /yume_ad_library_
 /zanox/banner/*
@@ -22103,6 +22071,7 @@ browsershots.org#@#.advert_area
 ||aralomomolachan.com^
 ||arangoyaffing.com^
 ||arautsod.com^
+||arbersunroof.com^
 ||arbitrarypoppyblackmail.com^
 ||arbourrenewal.com^
 ||arbourtalessterile.com^
@@ -24987,6 +24956,7 @@ browsershots.org#@#.advert_area
 ||chaintopdom.nl^
 ||chainwalladsery.com^
 ||chainwalladsy.com^
+||chaiphuy.com^
 ||chaiptut.xyz^
 ||chairgaubsy.com^
 ||chairmansmile.com^
@@ -27060,6 +27030,7 @@ browsershots.org#@#.advert_area
 ||dictatormiserablealec.com^
 ||dictionarycoefficientapparently.com^
 ||dictiontajik.com^
+||dictumstortil.com^
 ||dictysoph.website^
 ||didiessyrt.com^
 ||didinejaspoid.com^
@@ -31101,6 +31072,7 @@ browsershots.org#@#.advert_area
 ||gumlahlerot.com^
 ||gummierhedera.life^
 ||gungpurre.com^
+||gunksjalapic.com^
 ||gunnersriser.guru^
 ||gunreset.com^
 ||gunsaidi.xyz^
@@ -38970,6 +38942,7 @@ browsershots.org#@#.advert_area
 ||pittinekunai.com^
 ||piturisieged.com^
 ||pityneedsdads.com^
+||pitypericu.com^
 ||pitysuffix.com^
 ||piupiucreed.life^
 ||pivotrunner.com^
@@ -39833,6 +39806,7 @@ browsershots.org#@#.advert_area
 ||psognaih.xyz^
 ||psoogaix.net^
 ||psoolikoagy.com^
+||psoompou.xyz^
 ||psoonuxo.net^
 ||psoorgou.com^
 ||psoorsen.com^
@@ -56715,6 +56689,7 @@ browsershots.org#@#.advert_area
 ||vtube.to/api/spots/
 ||wafvertizing.crazygames.com^
 ||wall.vgr.com^
+||web-oao.ssp.yahoo.com/admax/
 ||webcamtests.com/MyShowroom/view.php?
 ||webstick.blog/images/images-ads/
 ||welovemanga.one/uploads/bannerv.gif
@@ -59157,8 +59132,10 @@ saabplanet.com##.baner
 rhumbarlv.com##.banlink
 1001games.com,alistapart.com,arcadebomb.com,armageddonexpo.com,bikechatforums.com,birminghamworld.uk,bristolworld.com,bsc.news,btcmanager.com,ca-flyers.com,caixinglobal.com,caribvision.tv,cmo.com.au,coryarcangel.com,derbyshiretimes.co.uk,dominicantoday.com,doncasterfreepress.co.uk,elyricsworld.com,euobserver.com,eurochannel.com,exalink.fun,fifetoday.co.uk,filmmakermagazine.com,flvtomp3.cc,footballtradedirectory.com,forexpeacearmy.com,funpic.hu,gartic.io,garticphone.com,glasgowworld.com,gr8.cc,gsprating.com,hartlepoolmail.co.uk,hortidaily.com,hyipexplorer.com,ibtimes.co.in,ibtimes.co.uk,imedicalapps.com,insidefutbol.com,irishpost.com,israelnationalnews.com,japantimes.co.jp,jpost.com,kissasians.org,lincolnshireworld.com,liverpoolworld.uk,livescore.in,londonworld.com,manchesterworld.uk,marinelink.com,mercopress.com,miltonkeynes.co.uk,mmorpg.com,mob.org,nationalworld.com,newcastleworld.com,news.am,news.net,northamptonchron.co.uk,northantstelegraph.co.uk,northumberlandgazette.co.uk,oncyprus.com,onlineconvertfree.com,pharmatimes.com,portsmouth.co.uk,powerboat.world,reversephonesearch.com.au,roblox.com,scientificamerican.com,smartcarfinder.com,speedcafe.com,sputniknews.com,starradionortheast.co.uk,subscene.com,sumodb.com,sussexexpress.co.uk,sweeting.org,swzz.xyz,tass.com,thefanhub.com,thefringepodcast.com,thehun.com,thestar.co.uk,timeslive.co.za,timesofisrael.com,tmi.me,toyworldmag.co.uk,unblockstreaming.com,vibilagare.se,vloot.io,warwickshireworld.com,weatheronline.co.uk,weekly-ads.us,worldtimeserver.com,xbiz.com,ynetnews.com,yorkshirepost.co.uk##.banner
 papermag.com##.banner--ad__placeholder
+onlineradiobox.com##.banner--header
 oilprice.com##.banner--inPage
 puzzlegarage.com##.banner--inside
+onlineradiobox.com##.banner--vertical
 freepik.com##.banner-adobe
 schoolguide.co.za##.banner-bar
 schoolguide.co.za##.banner-bar-bot
@@ -61644,6 +61621,7 @@ mydramalist.com##[class^="zrsx_"]
 dribbble.com##[data-ad-data*="ad_link"]
 greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-ad]
 builtbybit.com##[data-advertisement-id]
+czechtheworld.com##[data-affiliate]
 paste.fo##[data-asid]
 walmart.ca##[data-automation="flipkartDisplayAds"]
 jobstreet.com.sg##[data-automation="homepage-banner-ads"]
@@ -61795,6 +61773,7 @@ yts.mx##[href^="https://stARtgAMinG.net/"]
 terraria.wiki.gg##[href^="https://store.steampowered.com/app/"]
 brighteon.com##[href^="https://support.brighteon.com/"]
 beforeitsnews.com,highshortinterest.com##[href^="https://tinyurl.com/"]
+tripsonabbeyroad.com##[href^="https://tp.media/"]
 minidl.org##[href^="https://uploadgig.com/premium/index/"]
 mailshub.in##[href^="https://www.amazon.in/"]
 workhouses.org.uk##[href^="https://www.awin1.com"]
@@ -62693,6 +62672,7 @@ bing.com##.pa_sb
 bing.com##.productAd
 bing.com##[id$="adsMvCarousel"]
 bing.com##a[href*="/aclick?ld="]
+tripsonabbeyroad.com#?#.e-con-inner:-abp-has(tp-cascoon)
 sainsburys.co.uk#?#.pt-grid-item:-abp-has([data-test-id="citrus-label"])
 blitz.gg#?#.aside-content-column:-abp-has(.display-ad)
 heb.com#?#div:-abp-has(>div[id^="hrm-banner-shotgun"])
@@ -67076,6 +67056,8 @@ newduba.cn###jq_youxi
 ||gniew.xyz^
 ||sdjvbsjbvas.com^
 ||lrdyfz.xyz^
+||gcgggct.cn^
+||p1corn.com^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
 ##a[href$="/ky6y.com"]
@@ -96473,7 +96455,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||za.zdn.vn^
 ||zalo.me/v3/w/_zaf.gif
 !-----------------Individual tracking systems-----------------!
-||0123movie.net/cdn-cgi/trace
 ||123rf.com/apicore-index/traffic_log
 ||40svintageporn.com/hit
 ||4hds.com/js/camstats.js
@@ -97129,6 +97110,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||log.klook.com^
 ||log.quora.com^
 ||log.snapdeal.com^
+||log.v.ssp.yahoo.com^
 ||log.webnovel.com^
 ||logger.nerdwallet.com^
 ||logging.api.intuit.com^
