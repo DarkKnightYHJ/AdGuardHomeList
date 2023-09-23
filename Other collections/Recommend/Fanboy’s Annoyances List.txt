@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4mpi1t/t+0eyEQB743USmg
-! Version: 202309230031
+! Checksum: d6x1hvtMvxV03kILCDxR7Q
+! Version: 202309230120
 ! Title: Fanboy's Annoyance List
-! Last modified: 23 Sep 2023 00:31 UTC
+! Last modified: 23 Sep 2023 01:20 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -1494,6 +1494,7 @@ _twitter_follow.
 /cmp3p.js
 /cmp_didomi.js
 /cmp_shim.js
+/cmpBundle.min.js
 /cmpCookie.js
 /cmpui-banner.js
 /cmpui-popup.js
@@ -1796,53 +1797,47 @@ _twitter_follow.
 /cookies-policy-
 /cookies-policy.
 /cookies-policy/*
-/cookies-popup.
+/cookies-popup.js
+/cookies-popup.min.js
 /cookies-window.js
 /cookies-window.min.js
 /cookies.dyn.js
-/cookies/*/gdpr_
-/cookies/pixel.
-/cookies/popup.
-/cookies_acceptance.
-/cookies_alert.
-/cookies_auto-
-/cookies_bar.
-/Cookies_button_
-/cookies_cnil.
+/cookies_alert.js
+/cookies_alert.min.js
+/cookies_bar.js
+/cookies_cnil.js
 /cookies_directive.
-/cookies_gdpr.
-/cookies_it.
-/cookies_komunikat.
+/cookies_gdpr.js
+/cookies_gdpr.min.js
+/cookies_it.js
+/cookies_komunikat.js
 /cookies_law.js
 /cookies_policy.js
 /cookies_policy.min.js
 /cookies_popup.js
-/Cookies_Pro/*
+/Cookies_Pro.js
 /cookies_tlo.
-/CookiesAcception.
-/CookiesAgreement/*
 /cookiesApproval.js
 /cookiesbanner.js
 /cookiesbanner/*
 /CookiesBanner_
 /cookiesConsent.
 /cookiescontrol-
-/cookiesCSS.
-/cookiesdirective.
-/cookiesdisclaimer.
-/cookieser.
+/cookiesdirective.js
+/cookiesdirective.min.js
+/cookiesdisclaimer.js
+/cookieser.js
 /cookieSettings.
 /CookieSettingsManager?
 /cookiesgdpr?
-/cookiesJS.
-/cookiesLayer.
-/cookieslegal.
-/cookiesLegales.
+/cookiesJS.js
+/cookieslayer.js
 /CookiesManager.
 /cookiesNotification.
-/cookiespolicy.
+/cookiespolicy.js
 /cookiespolicynotificationbar/*
-/cookiesPopup.
+/cookiesPopup.js
+/cookiesPopup.min.js
 /cookiestatement.
 /cookiestrip.
 /cookiesWidget/*
@@ -1965,17 +1960,11 @@ _twitter_follow.
 /gdpr-rw-cookie-notice.min.js
 /gdpr-v2.js
 /gdpr.bundle.
-/gdpr.eu.htm
-/gdpr.htm
 /gdpr.js
-/gdpr.min.
+/gdpr.min.js
 /gdpr/assets/*$domain=~hartmanngruppe.net
 /gdpr/banner.js
 /gdpr/bundle.min.js
-/gdpr/cmp/*
-/gdpr/cookie-
-/gdpr/CookieConsent
-/gdpr/cookies/*
 /gdpr/disp.js
 /gdpr/gdpr-
 /gdpr/gdpr.$script
@@ -1989,18 +1978,17 @@ _twitter_follow.
 /gdpr/spd.
 /gdpr/third-party-
 /gdpr/tracker-loaders.js
-/gdpr_check.
 /gdpr_consent.
 /gdpr_css/*
-/gdpr_footer.
+/gdpr_dfp.js
+/gdpr_footer.js
 /gdpr_js/*
 /gdpr_ncoi.
 /gdpr_notice.
 /gdpr_optout.
-/gdpr_plugin.
+/gdpr_plugin.js
 /gdpr_popup.js
 /gdpr_popup.min.js
-/gdpr_s.
 /gdpr_status.
 /GDPRCard/*
 /gdprcompliance/*
@@ -42390,6 +42378,8 @@ lovehoney.ca,lovehoney.co.nz,lovehoney.com,lovehoney.eu##.dis_message
 maidenfrance.fr,plurielmedia.com,rencontres-gratuite.fr###headband
 !! PrivacyBanner_
 holidayinnclub.com,payloadcms.com##[class^="PrivacyBanner_"]
+!! #cookies_acceptance
+courtika.com,essor.ca,groupedpa.com,laturquoise.ca,pmtroy.com,rockebilly.com,tremblayassurance.com,univesta.com###cookies_acceptance
 !! .consent-box
 ostsee24.de,photofiltres.fr##.consent-box
 !! style_container__
@@ -47695,6 +47685,7 @@ ants.vn##.sg-popup-content
 ||advgo.net/borostcf/
 ||atv.pe/wp-content/plugins/ned-cookies-form/
 ||cookies.unidadeditorial.es^
+||digitalmedia-comunicacion.com/cookie/v2/script2.js
 !
 ! ---------- Swedish ----------
 !
