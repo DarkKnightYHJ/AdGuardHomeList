@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qplaflxOyDa8b040bBYsnw
+! Checksum: 3W5IPUUkUJ+QMRKV52/8+w
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202309240202
-! Last Modified: 2023年09月24日 02:02
+! Version: 202309240826
+! Last Modified: 2023年09月24日 08:26
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -67075,6 +67075,13 @@ newduba.cn###jq_youxi
 ||zxrcfw.com^
 ||zypzzv.xyz^
 ||zzisnvb.cn^
+||zents8.top^
+||mlhdvjv.xyz^
+||lctcbtly.xyz^
+||jwltpv.xyz^
+||voxirf.xyz^
+||sbdvjsbjslkv.com^
+||asclan.icu^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
 ##a[href$="/ky6y.com"]
@@ -83070,6 +83077,7 @@ _rony.js$script,third-party
 ##body > div[style="width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !important; flex-flow: row wrap !important; background: rgb(255, 255, 255) !important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important;"]
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##iframe[src*=".xxmh"][src*="?u="]
+##div[style^="line-height"][style*="http"][style$="fixed;"]
 ##script + #strl
 ##script + #strl + div[style]
 ##script + [id][style="width:100%;height:auto;min-height:120px;position:relative;display:block;"]
