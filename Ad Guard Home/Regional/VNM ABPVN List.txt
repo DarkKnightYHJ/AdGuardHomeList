@@ -1,7 +1,7 @@
 #Android host file - Adaway
 #
 # Title: ABPVN List
-# Updated: 22 Sep 2023 10:35 UTC+7
+# Updated: 25 Sep 2023 11:04 UTC+7
 # License: ABPVN
 # Please report any unblocked ads or problems by email or in our forums
 # Email: support@abpvn.com
@@ -2283,6 +2283,13 @@
 0.0.0.0 mobileanalytics.us-east-1.amazonaws.com
 #[popadex-*.us-east-1.elb.amazonaws.com]
 0.0.0.0 popadex-1919430815.us-east-1.elb.amazonaws.com
+#[s3.amazonaws.com]
+0.0.0.0 adtago.s3.amazonaws.com
+0.0.0.0 adtechvideo.s3.amazonaws.com
+0.0.0.0 advice-ads.s3.amazonaws.com
+0.0.0.0 analytics.s3.amazonaws.com
+0.0.0.0 analyticsengine.s3.amazonaws.com
+0.0.0.0 sprocket-ping.s3.amazonaws.com
 #[a2z.com]
 0.0.0.0 prod.cm.publishers.advertising.a2z.com
 0.0.0.0 metrics.client-eng.a2z.com
