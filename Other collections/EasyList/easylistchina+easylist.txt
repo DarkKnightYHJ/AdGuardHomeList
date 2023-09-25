@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: t/ZmnGn4UF1Y5jeSN7IRDg
-! Version: 202309250850
+! Checksum: 83/1iJknAm5e6l9ofPsx7w
+! Version: 202309250950
 ! Title: EasyList China+EasyList
-! Last modified: 25 Sep 2023 08:50 UTC
+! Last modified: 25 Sep 2023 09:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -10986,6 +10986,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+weibo.com#?#.card-wrap:-abp-has(>.card>i[style*="%E5%B9%"])
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -82966,7 +82967,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||letocard.fr/wp-content/uploads/$image,~third-party
 @@||linkbucks.com/tmpl/$image,stylesheet
 @@||live.primis.tech/live/$script,domain=eurogamer.net|vg247.com
-@@||live.streamtheworld.com/partnerIds$domain=iheart.com
+@@||live.streamtheworld.com/partnerIds$domain=iheart.com|player.amperwave.net
 @@||lokopromo.com^*/adsimages/$~third-party
 @@||looker.com/api/internal/$~third-party
 @@||luminalearning.com/affiliate-content/$image,~third-party
