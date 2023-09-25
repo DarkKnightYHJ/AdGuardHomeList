@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XzyMxmaFcVKyDGzbzObTag
+! Checksum: gHmFxeDcBmggpqB003upqw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202309250202
-! Last Modified: 2023年09月25日 02:02
+! Version: 202309250825
+! Last Modified: 2023年09月25日 08:25
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -338,16 +338,12 @@ pan.baidu.com##.upload-bar.global-clearfix
 -ad-458x80.
 -ad-banner-
 -ad-bottom-
--ad-button-
 -ad-column-
--ad-horizontal.
 -ad-manager/$~stylesheet
 -ad-right.
--ad-sidebar-
 -ad-sidebar.
 -ad-unit.
 -ad-util.
--ad-vertical-
 -ad.jpg.pagespeed.
 -ad.jpg?
 -adbanner.
@@ -362,7 +358,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 -article-ad.
 -assets/ads.$~script
 -auto-ads-
--banner-ad-
 -banner-ad.
 -banner-ad_
 -banner-ads-$~script
@@ -370,7 +365,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 -cpm-ad.
 -cpm-ads.
 -display-ads.
--footerads-
 -footerads.
 -gpt-ad-$~xmlhttprequest
 -housead-
@@ -391,7 +385,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 -sticky-ad-
 -strip-ads-
 -takeover-ad-
--top-ad.
 -top-ads.
 -web-advert-
 -Web-Advert.
@@ -480,14 +473,10 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad-choices-
 /ad-choices.
 /ad-controller.
-/ad-emea.
 /ad-engine.
-/ad-header.
 /ad-image.
-/ad-label-
-/ad-label.
 /ad-left.
-/ad-overlay-
+/ad-overlay-anything/*
 /ad-overlay.
 /ad-provider.js
 /ad-renderer.
@@ -507,7 +496,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad.skin.
 /ad/a.aspx?
 /ad/banner.
-/ad/banner_
 /ad/banners/*
 /ad/common/*
 /ad/common_
@@ -539,7 +527,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad_300250.
 /ad_728.
 /ad_area.
-/ad_article_
 /ad_banner/*
 /ad_base.
 /ad_bottom.
@@ -550,9 +537,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad_choices_
 /ad_code.
 /ad_common.
-/ad_container_
-/ad_content.
-/ad_count.
 /ad_display.
 /ad_engine?
 /ad_exo.
@@ -1241,6 +1225,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /external_ads.
 /externalad.
 /externalads/*
+/fastclick.min.js
 /fc_ads.
 /fel456.js$script
 /files/ad/*
@@ -67090,6 +67075,13 @@ newduba.cn###jq_youxi
 ||zxrcfw.com^
 ||zypzzv.xyz^
 ||zzisnvb.cn^
+||gqgfrgx.cn^
+||haise2.top^
+||ddlvpmt.xyz^
+||rtnuld.xyz^
+||uslsjwnk.xyz^
+||venum.top^
+||ecmwsx.icu^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
 ##a[href$="/ky6y.com"]
@@ -83807,6 +83799,7 @@ fqsousou.com,kengso.com#@#.user-share
 /analytics.*/ping/?
 /analytics.*/track
 /analytics.ad.
+/analytics.analytics/*
 /analytics.bundled.js
 /analytics.collect.
 /analytics.config.js
@@ -84547,27 +84540,26 @@ fqsousou.com,kengso.com#@#.user-share
 /frontend-sentry-
 /fsrscripts/*
 /fusion/lucid/data/*
-/g2insights.
 /g_track.php?
-/ga-async-
 /ga-audiences?
 /ga-collect?
 /ga-events.js
 /ga-links.js
-/ga-lite.
+/ga-lite.min.js
 /ga-local.js
-/ga-multidomain.
-/ga-script.
+/ga-multidomain.js
+/ga-script.js
 /ga-scroll-events.js
 /ga-se-async.js
 /ga-targets.js
-/ga-track-
-/ga-track.
-/ga-tracker-
-/ga-tracker.
+/ga-track-code.js
+/ga-track-external.js
+/ga-track.js
+/ga-track.min.js
+/ga-tracker.js
 /ga-tracking-
-/ga-tracking.
-/ga-tracking/*
+/ga-tracking.js
+/ga-tracking.min.js
 /ga.gif?
 /ga.js?grid
 /ga.jsp?$image
@@ -84764,6 +84756,7 @@ fqsousou.com,kengso.com#@#.user-share
 /host-analyticsjs-local/*
 /hs_track.
 /hsc/trk/*
+/hubspot-ga-tracking.js
 /i.gif?
 /i.php?i=
 /i.png?id=
@@ -84829,6 +84822,7 @@ fqsousou.com,kengso.com#@#.user-share
 /instart.js
 /interaction/beacon
 /intercept.js
+/intercept/intercept.js
 /IPbeacon.
 /ipdvdc/*
 /iperceptions.
@@ -84875,36 +84869,28 @@ fqsousou.com,kengso.com#@#.user-share
 /json?mbox=
 /json?referer=
 /jsonp_geoip?
-/jsstat.
+/jsstat.cgi?
 /jstatphp.
 /jstats.php
-/jstats/js/*
-/jtracking/*
 /jump/?jl=
-/jump/clk1.
+/jump/clk1.php
 /kaiseki/script.php
 /kaiseki/track.php?
 /kaizentrack/*
-/kameleoon-iframe.
+/kameleoon-iframe.html
 /kameleoon.js
 /kameleoon.min.js
 /kameleoon/script.
 /keen-tracker.
 /keen-tracking-
-/keen-tracking.
+/keen-tracking.js
+/keen-tracking.min.js
 /keen.min.js
-/keenio.min.js
-/Kelkooid?
-/kelkooSponsoredLinks.
-/KenticoActivityLogger/*
+/KenticoActivityLogger/Logger.js
 /keypress.js$script
 /keywee.js
-/keywordlogger.
-/kissmetrics.
-/kissmetrics/*
-/KISSmetricsTrackCode.
-/klaviyo_analytics.
-/KochavaAnalytics.
+/kissmetrics.js
+/klaviyo_analytics.js
 /koko-analytics-collect.php
 /koko-analytics/assets/dist/js/*
 /kontera.js
@@ -84914,7 +84900,7 @@ fqsousou.com,kengso.com#@#.user-share
 /lasso-ga.js
 /leadgen/ga.js
 /leadtag.js
-/lib/analytics.
+/lib/analytics.js
 /lib/snowplow-
 /library/svy/broker.js
 /libs/tracker.js
@@ -85742,33 +85728,27 @@ fqsousou.com,kengso.com#@#.user-share
 /rpFingerprint?
 /rr/t?step=
 /rrweb-record-
-/rt_tag.
-/rt_track.
-/rt_track_
+/rt_tag.js
+/rt_tag.ofs.js
+/rt_track.js
 /rtac/gif?
 /rtd.js
 /rtkbeacon.gif?
 /rtm-tracking.
 /rtoaster.js
-/rtracker.
-/rubics_trk
-/rudder-analytics.
-/rum-dytrc.
+/rtracker.min.js
+/rtracker/ofs.rtt.js
+/rudder-analytics.js
+/rudder-analytics.min.js
 /rum-telemetry/*
 /rum-track?
 /rum.gif?
 /rum.js/*
-/rum.min.
+/rum.min.js
 /rum/events
 /rum/id?
 /rum/performance
-/rum?ddsource=
-/rum_cmp?
-/rumcdn.
-/rumstat.
-/rumtag.
 /run/perf
-/runtimejs/intercept/*
 /ruxitagentjs_
 /rwtag.gif?
 /rwtag.js
@@ -97240,6 +97220,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||no9pldds1lmn3.soundcloud.com^
 ||noblocktape.com/stat/
 ||noodle.backmarket.io^
+||nordace.com/track.js
 ||nordstrom.com/api/cake/
 ||nordstrom.com/api/cupcake/
 ||norton.com/service/norton/head?
