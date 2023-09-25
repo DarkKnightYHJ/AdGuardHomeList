@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: Dow/ByXUoU5g8Nr1TK5Wnw
-! Version: 202309251640
+! Checksum: Jmhb4xvmrz13uYDzUxrSxw
+! Version: 202309251750
 ! Title: EasyPrivacy
-! Last modified: 25 Sep 2023 16:40 UTC
+! Last modified: 25 Sep 2023 17:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1058,6 +1058,7 @@
 /ga-collect?
 /ga-events.js
 /ga-links.js
+/ga-lite.js
 /ga-lite.min.js
 /ga-local.js
 /ga-multidomain.js
@@ -2243,6 +2244,7 @@
 /rt_tag.js
 /rt_tag.ofs.js
 /rt_track.js
+/rt_track_event.js
 /rtac/gif?
 /rtd.js
 /rtkbeacon.gif?
@@ -11165,6 +11167,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rum.layer0.co^
 ||rum.perfops.net^
 ||rum.uptime.com^
+||rumstat.cdnvideo.ru^
 ||run.app/data.log
 ||run.app/metrics/
 ||rw.marchex.io^
