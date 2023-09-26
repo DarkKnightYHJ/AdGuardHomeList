@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ScCFr08/+m1XkaSAZf6xYQ
-! Version: 202309252240
+! Checksum: zh8BuOEE75Kci691AJOsLQ
+! Version: 202309260031
 ! Title: EasyList China+EasyList
-! Last modified: 25 Sep 2023 22:40 UTC
+! Last modified: 26 Sep 2023 00:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -2590,6 +2590,14 @@ newduba.cn###jq_youxi
 ||zxrcfw.com^
 ||zypzzv.xyz^
 ||zzisnvb.cn^
+||krjzxie.cn^
+||boats5.top^
+||asryrzpu.xyz^
+||imbikh.icu^
+||lniwe.xyz^
+||pvlnjwr.xyz^
+||rdpsht.xyz^
+||bzthxv.xyz^
 !
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
@@ -10987,6 +10995,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||scupio.net/kanglei/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -19048,7 +19057,6 @@ fqsousou.com,kengso.com#@#.user-share
 -ads-right.
 -ads/assets/$domain=~web-ads.org
 -adverts.min.
--article-ad.
 -assets/ads.$~script
 -auto-ads-
 -banner-ad.
@@ -19063,15 +19071,12 @@ fqsousou.com,kengso.com#@#.user-share
 -housead-
 -page-ad.
 -page-peel/
--panel-ad.
--panel_ad_
 -PcmModule-Taboola-
 -peel-ads-
 -popexit.
 -popunder.
 -publicidad.
 -right-ad.
--side-ad-
 -side-ad.
 -sidebar-ad.
 -sponsor-ad.
@@ -19492,7 +19497,6 @@ fqsousou.com,kengso.com#@#.user-share
 /ads_iframe.
 /ads_image/*
 /ads_images/*
-/ads_left_
 /ads_loader.
 /ads_manager.
 /ads_sidebar.
@@ -19617,14 +19621,10 @@ fqsousou.com,kengso.com#@#.user-share
 /advertbanner.
 /advertising/banner_
 /advertising/banners/*
-/advertising2.
-/advertising?
-/advertisingmodule.
 /advertisingWebRenderer.min.js
 /advertisment-
 /advertisment/*$~image
 /advertisment_
-/advertisments/*$~image
 /advertright.
 /adverts.$~script,domain=~adverts.ie|~adverts.org.ua
 /adverts/*$~xmlhttprequest
@@ -19635,7 +19635,6 @@ fqsousou.com,kengso.com#@#.user-share
 /advtBanner.
 /adwidget_
 /adwidgets/*
-/adx/ads?
 /adx2.
 /adx_exo_
 /adz/js/*
@@ -19757,37 +19756,24 @@ fqsousou.com,kengso.com#@#.user-share
 /bannerserve/*
 /bannerserver/*
 /bannerserver?
-/base_ads.
-/baseAd.
 /beacon/ad/*
 /beacon/ads/*
-/beacon/ads?
 /bg-advert-
 /blogad.
 /blogad_
-/blogads-
-/blogads.
-/blogads/*
-/bnr_ad_
-/bnrsrv.
 /bottom-ads.
 /bottom_ad.
 /bottom_ads.
-/bottom_adv.
 /bottomad.
 /bottomads.
-/Box-ad-
 /box_ad_
 /brightcovead.
 /bsa-plugin-pro-
 /bsa-pro-
-/buttonads.
 /buysellads.
 /call/pubif/*
 /call/pubj/*
-/call_ads/*
 /callAdserver?
-/CarbonAds.
 /cdn.ad.
 /cdn.ads.
 /cgi-bin/ad/*
@@ -19799,10 +19785,7 @@ fqsousou.com,kengso.com#@#.user-share
 /click?adv=
 /clickads/*
 /clicksor.$domain=~clicksor.com
-/clkads.
-/cmg_ad.
 /cms_ads.js
-/cnads.js
 /code/native.js?h=$script
 /code/pops.js?h=$script
 /code/silent.js?h=$script
@@ -19822,8 +19805,6 @@ fqsousou.com,kengso.com#@#.user-share
 /content/ads/*
 /content_ad.
 /contentAd.
-/context_ad/*
-/context_ads.
 /contextad.
 /contextads.
 /core-ads.
@@ -20226,21 +20207,13 @@ fqsousou.com,kengso.com#@#.user-share
 /pagead/html/*
 /pagead/lvz?
 /pagead/osd.
-/pagead?
-/PageBottomAD.
-/pageear.
+/pageear.js
 /pageear/*
-/pageear_
-/pagepeel-
 /pagepeel.
 /pagepeel/*
-/pagepeel_
-/pagepeelads.
-/pagepeelpro.
-/PageTopAD.
+/pagepeelpro.js
 /parking_caf_
 /partner-ad-
-/partner.ads.
 /Partner_Ad/*
 /partner_ads/*
 /partner_ads_
@@ -20251,9 +20224,7 @@ fqsousou.com,kengso.com#@#.user-share
 /partnerbanner.
 /partnerbanner/*
 /partners/ads/*
-/pauseadextension.
 /pcad.js?
-/pch_ad/*
 /peel.php?
 /peel_ads/*
 /peelad/*
@@ -20266,7 +20237,6 @@ fqsousou.com,kengso.com#@#.user-share
 /phpads.
 /phpads/*
 /phpads2/*
-/phpadserver/*
 /phpadsnew/*
 /phpbb_ads/*
 /pioneersuspectedjury.com/*
@@ -20290,7 +20260,7 @@ fqsousou.com,kengso.com#@#.user-share
 /plugins/ads/*
 /plugins/adsanity-
 /plugins/advanced-ads/*$domain=~wordpress.org
-/plugins/ane-banners-
+/plugins/ane-banners-entre-links/*
 /plugins/ane-preroll-
 /plugins/cactus-ads/*$script,stylesheet
 /plugins/cpx-advert/*$script
@@ -20312,13 +20282,10 @@ fqsousou.com,kengso.com#@#.user-share
 /pop_8_2.js
 /pop_ad.
 /pop_ads.
-/pop_packcpm.
 /pop_under.
 /pop_under/*
 /popads/*
 /popads_
-/poprotator.
-/popshow.$~stylesheet
 /popu.js
 /popunder-
 /popunder/*
@@ -20334,7 +20301,6 @@ fqsousou.com,kengso.com#@#.user-share
 /popunders/*
 /popundr.
 /popundr/*
-/popup-builder-$~image,~stylesheet
 /popup-domination/*$~stylesheet
 /popup2.js
 /popup3.js

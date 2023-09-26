@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Ar+DEErbHDFnvJyfJHnYyQ
+! Checksum: 202IXm63AGDlqnBoxRrsRA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202309260206
-! Last Modified: 2023年09月26日 02:06
+! Version: 202309260825
+! Last Modified: 2023年09月26日 08:25
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -467,7 +467,6 @@ tieba.baidu.com##.tuijian-wrap
 -ads-right.
 -ads/assets/$domain=~web-ads.org
 -adverts.min.
--article-ad.
 -assets/ads.$~script
 -auto-ads-
 -banner-ad.
@@ -482,15 +481,12 @@ tieba.baidu.com##.tuijian-wrap
 -housead-
 -page-ad.
 -page-peel/
--panel-ad.
--panel_ad_
 -PcmModule-Taboola-
 -peel-ads-
 -popexit.
 -popunder.
 -publicidad.
 -right-ad.
--side-ad-
 -side-ad.
 -sidebar-ad.
 -sponsor-ad.
@@ -911,7 +907,6 @@ tieba.baidu.com##.tuijian-wrap
 /ads_iframe.
 /ads_image/*
 /ads_images/*
-/ads_left_
 /ads_loader.
 /ads_manager.
 /ads_sidebar.
@@ -1036,14 +1031,10 @@ tieba.baidu.com##.tuijian-wrap
 /advertbanner.
 /advertising/banner_
 /advertising/banners/*
-/advertising2.
-/advertising?
-/advertisingmodule.
 /advertisingWebRenderer.min.js
 /advertisment-
 /advertisment/*$~image
 /advertisment_
-/advertisments/*$~image
 /advertright.
 /adverts.$~script,domain=~adverts.ie|~adverts.org.ua
 /adverts/*$~xmlhttprequest
@@ -1054,7 +1045,6 @@ tieba.baidu.com##.tuijian-wrap
 /advtBanner.
 /adwidget_
 /adwidgets/*
-/adx/ads?
 /adx2.
 /adx_exo_
 /adz/js/*
@@ -1176,37 +1166,24 @@ tieba.baidu.com##.tuijian-wrap
 /bannerserve/*
 /bannerserver/*
 /bannerserver?
-/base_ads.
-/baseAd.
 /beacon/ad/*
 /beacon/ads/*
-/beacon/ads?
 /bg-advert-
 /blogad.
 /blogad_
-/blogads-
-/blogads.
-/blogads/*
-/bnr_ad_
-/bnrsrv.
 /bottom-ads.
 /bottom_ad.
 /bottom_ads.
-/bottom_adv.
 /bottomad.
 /bottomads.
-/Box-ad-
 /box_ad_
 /brightcovead.
 /bsa-plugin-pro-
 /bsa-pro-
-/buttonads.
 /buysellads.
 /call/pubif/*
 /call/pubj/*
-/call_ads/*
 /callAdserver?
-/CarbonAds.
 /cdn.ad.
 /cdn.ads.
 /cgi-bin/ad/*
@@ -1218,10 +1195,7 @@ tieba.baidu.com##.tuijian-wrap
 /click?adv=
 /clickads/*
 /clicksor.$domain=~clicksor.com
-/clkads.
-/cmg_ad.
 /cms_ads.js
-/cnads.js
 /code/native.js?h=$script
 /code/pops.js?h=$script
 /code/silent.js?h=$script
@@ -1241,8 +1215,6 @@ tieba.baidu.com##.tuijian-wrap
 /content/ads/*
 /content_ad.
 /contentAd.
-/context_ad/*
-/context_ads.
 /contextad.
 /contextads.
 /core-ads.
@@ -1645,21 +1617,13 @@ tieba.baidu.com##.tuijian-wrap
 /pagead/html/*
 /pagead/lvz?
 /pagead/osd.
-/pagead?
-/PageBottomAD.
-/pageear.
+/pageear.js
 /pageear/*
-/pageear_
-/pagepeel-
 /pagepeel.
 /pagepeel/*
-/pagepeel_
-/pagepeelads.
-/pagepeelpro.
-/PageTopAD.
+/pagepeelpro.js
 /parking_caf_
 /partner-ad-
-/partner.ads.
 /Partner_Ad/*
 /partner_ads/*
 /partner_ads_
@@ -1670,9 +1634,7 @@ tieba.baidu.com##.tuijian-wrap
 /partnerbanner.
 /partnerbanner/*
 /partners/ads/*
-/pauseadextension.
 /pcad.js?
-/pch_ad/*
 /peel.php?
 /peel_ads/*
 /peelad/*
@@ -1685,7 +1647,6 @@ tieba.baidu.com##.tuijian-wrap
 /phpads.
 /phpads/*
 /phpads2/*
-/phpadserver/*
 /phpadsnew/*
 /phpbb_ads/*
 /pioneersuspectedjury.com/*
@@ -1709,7 +1670,7 @@ tieba.baidu.com##.tuijian-wrap
 /plugins/ads/*
 /plugins/adsanity-
 /plugins/advanced-ads/*$domain=~wordpress.org
-/plugins/ane-banners-
+/plugins/ane-banners-entre-links/*
 /plugins/ane-preroll-
 /plugins/cactus-ads/*$script,stylesheet
 /plugins/cpx-advert/*$script
@@ -1731,13 +1692,10 @@ tieba.baidu.com##.tuijian-wrap
 /pop_8_2.js
 /pop_ad.
 /pop_ads.
-/pop_packcpm.
 /pop_under.
 /pop_under/*
 /popads/*
 /popads_
-/poprotator.
-/popshow.$~stylesheet
 /popu.js
 /popunder-
 /popunder/*
@@ -1753,7 +1711,6 @@ tieba.baidu.com##.tuijian-wrap
 /popunders/*
 /popundr.
 /popundr/*
-/popup-builder-$~image,~stylesheet
 /popup-domination/*$~stylesheet
 /popup2.js
 /popup3.js
@@ -60095,6 +60052,7 @@ thetoyinsider.com##.header-drop-zone
 autental.com##.header-grid-items
 allmovie.com,realestate.com.au,theoldie.co.uk##.header-leaderboard
 realestate.com.au##.header-leaderboard-portal
+sdxcentral.com##.header-lemur
 nationalheraldindia.com##.header-m__ad-top__36Hpg
 thenewspaper.gr##.header-promo
 times.co.zm##.header-pub
@@ -67235,6 +67193,14 @@ newduba.cn###jq_youxi
 ||zxrcfw.com^
 ||zypzzv.xyz^
 ||zzisnvb.cn^
+||krjzxie.cn^
+||boats5.top^
+||asryrzpu.xyz^
+||imbikh.icu^
+||lniwe.xyz^
+||pvlnjwr.xyz^
+||rdpsht.xyz^
+||bzthxv.xyz^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
 ##a[href$="/ky6y.com"]
@@ -75630,6 +75596,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||scupio.net/kanglei/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -94890,6 +94857,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.ozwebsites.biz^
 ||stats.phoenix-widget.com^
 ||stats.polldaddy.com^
+||stats.prebytes.com^
 ||stats.pusher.com^
 ||stats.sa-as.com^
 ||stats.sawlive.tv^
@@ -116317,6 +116285,7 @@ arketing.indianadunes.com^
 @@||dev.visualwebsiteoptimizer.com/j.php$script,domain=gravitydefyer.com|wakefit.co
 @@||dev.visualwebsiteoptimizer.com/web/$script,domain=gravitydefyer.com|wakefit.co
 @@||docs.google.com/*/viewdata$~third-party
+@@||driverfix.com^*/index_src.php?tracking=$~third-party
 @@||dw.com.com/js/dw.js$domain=cbsnews.com|tv.com
 @@||dz9qn8fh4jznm.cloudfront.net/script.js$script,domain=bostonglobe.com
 @@||easternbank.com/sites/easternbank/files/google_tag/eastern_bank/google_tag.script.js$script,~third-party
@@ -116640,6 +116609,7 @@ arketing.indianadunes.com^
 @@||extreme-ip-lookup.com/json/$xmlhttprequest,domain=skaitv.gr
 !---------- French ----------
 @@||actiris.be/urchin.js
+@@||ausha.tsbluebox.com^$media,domain=podcast.ausha.co
 @@||caf.fr^*/smarttag.js$script,~third-party
 @@||cmp.telerama.fr/js/telerama.min.js$~third-party
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
