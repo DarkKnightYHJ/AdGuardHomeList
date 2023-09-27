@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: rlKz0NbRxyqA6D7cQ05qLg
-! Version: 202309271641
+! Checksum: ovQlgzzUvmKdPKk8lEXK9A
+! Version: 202309271750
 ! Title: ABP filters
-! Last modified: 27 Sep 2023 16:41 UTC
+! Last modified: 27 Sep 2023 17:50 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -670,7 +670,7 @@ instacart.com#$#hide-if-matches-xpath './/a[@href]//img[@data-testid]/following:
 instacart.com#$#hide-if-matches-xpath './/span[text()]/preceding::div[@aria-hidden="true"]/preceding::source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/ancestor::header[@id][@class][1]'
 ! #CV-1213
 samsclub.com#$#hide-if-matches-xpath '//img[contains(@class,"sc-pc-image-small-controller")]/preceding::div[contains(@class,"sc-sponsored-simple")][contains(text(),"Sponsored")]/ancestor::div[contains(@class,"sc-product-carousel-canary-card-has-sponsored-product")]'
-samsclub.com#$#hide-if-matches-xpath './/span[@class="sc-specials-label"]/following::a[@role="button"]/ancestor::div[@class="sc-sba-modules-logo"]/parent::div[@class="sc-sba-modules"]'
+samsclub.com#$#hide-if-matches-xpath './/span[@class="sc-specials-label"]/following::a[@role="button"]/ancestor::div[@class="sc-sba-modules-logo"]/parent::div[contains(@class,"sc-sba-modules")][1]'
 samsclub.com#$#hide-if-labelled-by /Sponsored/ button div[class*="carousel-slide"]
 samsclub.com##div[class="analytics"][data-strategy="Sponsored products"]
 ! #CV-663
