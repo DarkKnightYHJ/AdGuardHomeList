@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GYyVcDsdv3cI0EcWxz+u8A
+! Checksum: 2yLb/HBJKgP7DL/gNQZdFQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202309271407
-! Last Modified: 2023年09月27日 14:07
+! Version: 202309272009
+! Last Modified: 2023年09月27日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -25651,6 +25651,7 @@ browsershots.org#@#.advert_area
 ||confvtt.com^
 ||congestionbeautycrystal.com^
 ||congestit.com^
+||congostudia.com^
 ||congressaffrayghosts.com^
 ||congressbench.com^
 ||coningweedery.store^
@@ -39377,6 +39378,7 @@ browsershots.org#@#.advert_area
 ||prdredir.com^
 ||pre4sentre8dhf.com^
 ||preachribbonsummoned.com^
+||prearmscachet.uno^
 ||precedechampion.com^
 ||precedenowadaysbarbecue.com^
 ||precedentadministrator.com^
@@ -67253,6 +67255,7 @@ newduba.cn###jq_youxi
 ||znrtfj.xyz^
 ||mowec.xyz^
 ||pjzmbhf.cn^
+||zacff.com^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
 ##a[href$="/ky6y.com"]
@@ -75651,6 +75654,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+manhuadb.com##.d-flex.px-2
+manhuadb.com##.comicbook-index
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -88111,7 +88116,6 @@ _mongo_stats/
 ||clickcease.com^$third-party
 ||clickclick.net^$third-party
 ||clickdensity.com^$third-party
-||clickdimensions.com^$third-party
 ||clickening.com^$third-party
 ||clickferret.com^$third-party
 ||clickguard.com^$third-party
@@ -93497,6 +93501,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||click.appinthestore.com^
 ||click360v2-ingest.azurewebsites.net^
 ||clickchatsold.com/d0/
+||clickdimensions.com/ts.js
 ||clicker.com^*pageurl$third-party
 ||clickfunnels.com/assets/pushcrew.js$third-party
 ||clickfunnels.com/cf.js
@@ -97514,6 +97519,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ranker.com/api/tracking/comscore
 ||rankhit.china.com^
 ||ras.yahoo.com^
+||rbc.ua/enghits/
 ||realestate.com.au^*/p.js
 ||realitytvworld.com/images/pixel.gif
 ||reddit.com/static/pixel.png$image
@@ -116148,6 +116154,7 @@ arketing.indianadunes.com^
 ||iys.org.tr/mti-popts.js
 ||sahibinden.com/sbbi/
 ||stats.birgun.net^
+||tracker.blutv.com^
 |http://r.i.ua^
 |https://r.i.ua^
 ||at.ua/stat/
