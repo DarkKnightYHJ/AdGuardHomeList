@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: iUdfS6jZRjps5CrWiugSBA
+! Checksum: Z+12KyUUCs75RdcRyvsldg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202309270206
-! Last Modified: 2023年09月27日 02:06
+! Version: 202309270825
+! Last Modified: 2023年09月27日 08:25
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -64340,7 +64340,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||v.fwmrm.net/crossdomain.xml$xmlhttprequest
 @@||warpwire.com/AD/
 @@||warpwire.net/AD/
-@@||web-ads.pulse.weatherbug.net/api/ads/targeting/$domain=weatherbug.net
+@@||web-ads.pulse.weatherbug.net/api/ads/targeting/$domain=weatherbug.com
 @@||webbtelescope.org/files/live/sites/webb/$image,~third-party
 @@||widgets.jobbio.com^*/display.min.js$domain=interestingengineering.com
 @@||worldgravity.com^$script,domain=hotstar.com
@@ -64683,6 +64683,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.alpha^$script,third-party
 -*-*-*-*.panda^$script,third-party
+/release100009ts?$script,third-party
 -1316632262.cos.
 -1316899192.cos.
 -1688-wp-media/ads/
@@ -67264,6 +67265,14 @@ newduba.cn###jq_youxi
 ||zxrcfw.com^
 ||zypzzv.xyz^
 ||zzisnvb.cn^
+||mwqucr.icu^
+||recds4.icu^
+||bnpfdzp.xyz^
+||jijozdrg.xyz^
+||nlrsbd.xyz^
+||mwqucr.icu^
+||znrtfj.xyz^
+||mowec.xyz^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
 ##a[href$="/ky6y.com"]
@@ -96884,7 +96893,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||collect.reagroupdata.com.au^
 ||collect.stepstone.co.uk^
 ||collect.thunder-io.com^
-||collections-api.realestate.com.au^
 ||collector-px0py5pczn.octopart.com^
 ||collector.cint.com^
 ||collector.fiverr.com^
