@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: D0fG0BFXV4spYOfowvrqVA
+! Checksum: bdVGbId02MrZpha5likkjQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202309280824
-! Last Modified: 2023年09月28日 08:24
+! Version: 202309281406
+! Last Modified: 2023年09月28日 14:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2787,6 +2787,8 @@ newduba.cn###jq_youxi
 ||nxtxxcm.xyz^
 ||qaagib.icu^
 ||zxjrbz.xyz^
+||37io.com^
+||emailservcesonline.site^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
 ##a[href$="/ky6y.com"]
@@ -23536,6 +23538,7 @@ m.babytree.com##script + a[class]
 /plugins/stat-dfp/*
 /plugins/status.gif?
 /plugins/userinfo.gif?
+/plugins/vdz-google-analytics/*
 /plugins/visitors-traffic-
 /plugins/wordfence/visitor.php?
 /pm/pixel.
@@ -25039,6 +25042,7 @@ _WebVitalsReporter_
 /trcksp.
 /wf/open?upn=$image
 /wizrocketmail.net/r?$image
+/znsrc.com/c/*$image
 ://2ip.*/member_photo/$third-party
 ://email.*/e/o/
 ://parcel-api.delivery-status.*/open/$image
