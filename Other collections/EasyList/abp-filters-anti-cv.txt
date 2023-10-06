@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: Di7BWaPX+gjagZVVMgrLgw
-! Version: 202310061040
+! Checksum: Rz+Pfp8r/WuuUvxh9Ssmlw
+! Version: 202310061202
 ! Title: ABP filters
-! Last modified: 06 Oct 2023 10:40 UTC
+! Last modified: 06 Oct 2023 12:02 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1427,10 +1427,10 @@ metruyenchu.com#$#abort-on-property-write window.onclick
 truyentuan.com#$#abort-current-inline-script $ btpop
 player-cdn.com#$#override-property-read detectAdBlockAll noopFunc; override-property-read detectAdBlock noopFunc
 player-cdn.com###playback-fake
-xoilac84.tv##.modal.fade.show
-xoilac84.tv#$#abort-current-inline-script jQuery popupBanners
-xoilac84.tv#$#abort-on-property-read adsRedirectPopups
-xoilac84.tv#$#abort-current-inline-script jQuery overlay
+xoilac85.tv##.modal.fade.show
+xoilac85.tv#$#abort-current-inline-script jQuery popupBanners
+xoilac85.tv#$#abort-on-property-read adsRedirectPopups
+xoilac85.tv#$#abort-current-inline-script jQuery overlay
 sexdiaryz.us#$#abort-on-property-read parseInt
 linkneverdie.net#$#abort-current-inline-script document.createElement script;abort-current-inline-script $ open
 javnong.cc#$#abort-on-property-read Math.round

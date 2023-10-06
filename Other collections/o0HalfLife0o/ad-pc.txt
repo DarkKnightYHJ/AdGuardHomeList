@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 57GFt7B9abSPp6NRphz3BA
+! Checksum: 0rY+oXWyE9SM4luQRdhxvg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202310061407
-! Last Modified: 2023年10月06日 14:07
+! Version: 202310062009
+! Last Modified: 2023年10月06日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -62968,7 +62968,7 @@ electricianforum.co.uk##.gb-sponsored
 givemesport.com##.gms-videos-container
 videogames.si.com##.is-exco-player
 anandtech.com##.jwplayer
-gamesradar.com,tomshardware.com,whathifi.com##.jwplayer__widthsetter
+gamesradar.com,tomsguide.com,tomshardware.com,whathifi.com##.jwplayer__widthsetter
 space.com##.jwplayer__wrapper
 southernliving.com##.karma-sticky-rail
 gearjunkie.com##.ldm_ad
@@ -62980,7 +62980,7 @@ swimswam.com##.polls-461
 kidspot.com.au##.secondary-video
 playbuzz.com##.stickyplayer-container
 mentalfloss.com##.style_k8mr7b-o_O-style_1ts1q2h
-gamesradar.com,tomshardware.com,whathifi.com##.vid-present
+gamesradar.com,tomsguide.com,tomshardware.com,whathifi.com##.vid-present
 petapixel.com##.video-aspect-wrapper
 gearjunkie.com##.video-jwplayer
 consequence.net##.video_container
@@ -66693,6 +66693,7 @@ newduba.cn###jq_youxi
 ||jndxsuy.xyz^
 ||lwwlkj1.cn^
 ||mmvjuti.cn^
+||liuyi22.cn^
 ||yhtpsy8888.cc^
 ##[style*="sotv.me"]
 ##a[href$="/1c626.com"]
@@ -70916,6 +70917,7 @@ newduba.cn###jq_youxi
 ||zzzhuoxiaqu.online^
 !long-term
 ##a[href*=".xacg.info/"]
+||94lm.com^
 ##button[onclick*=".xacg.info/"]
 ||06789.xyz^
 ||114la.com^$third-party,domain=~ylmf.com
@@ -75646,9 +75648,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||vsping.com/website/ads?
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
+vsping.com##.cell > span > a[href]:not([href*=".vsping.com"])
 szxx.com.cn###A2
 gpcxw.com###AA2
 yahoo.com###ACT_crazy
