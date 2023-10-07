@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: E+3fT8cpdV/q/uHYDHo9ww
-! Version: 202310071240
+! Checksum: hV1j17NyoaSZoG4XLr9cxQ
+! Version: 202310071340
 ! Title: EasyList China+EasyList
-! Last modified: 07 Oct 2023 12:40 UTC
+! Last modified: 07 Oct 2023 13:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -81101,6 +81101,7 @@ express.co.uk##div[id^="taboola-"]
 filehorse.com##div[id^="td-"]
 birrapedia.com##div[id^="textoDivPublicidad_"]
 theroanoketribune.org##div[id^="thero-"]
+yovizag.com##div[id^="v-yovizag-"]
 weraveyou.com##div[id^="werav-"]
 mommypoppins.com##div[id^="wrapper-div-gpt-ad-"]
 wallpaperflare.com##div[itemtype$="WPAdBlock"]
@@ -81350,7 +81351,7 @@ electricianforum.co.uk##.gb-sponsored
 givemesport.com##.gms-videos-container
 videogames.si.com##.is-exco-player
 anandtech.com##.jwplayer
-gamesradar.com,tomsguide.com,tomshardware.com,whathifi.com##.jwplayer__widthsetter
+gamesradar.com,tomshardware.com,whathifi.com##.jwplayer__widthsetter
 space.com##.jwplayer__wrapper
 southernliving.com##.karma-sticky-rail
 gearjunkie.com##.ldm_ad
@@ -81613,6 +81614,7 @@ klmanga.io#?##movie-last-movie > li:-abp-has(> center > ins[data-width="300"])
 acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#?#.product-card-col:-abp-contains(Sponsored)
 acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#?#.master-product-carousel:-abp-has([data-carousel-driven="sponsored-products"])
 asda.com#?#.co-item:-abp-has(.co-item__sponsored-label)
+yovizag.com#?#.jeg_column:-abp-has(>.jeg_wrapper > .jeg_ad)
 fanatics.com#?#.product-card:-abp-has(.sponsored-badge)
 walmart.ca#?#div[data-automation="product"]:-abp-has(div[data-automation="sponsored-indicator-wrapper"])
 boots.com#?#li.estore_product_container:-abp-has(.sponsored)
@@ -83091,6 +83093,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||signin.verizon.com^*/affiliate/$subdocument,xmlhttprequest
 @@||somewheresouth.net/banner/banner.php$image
 @@||sportsnet.ca/wp-content/plugins/bwp-minify/$domain=sportsnet.ca
+@@||startrek.website/pictrs/image/$xmlhttprequest
 @@||stat-rock.com/player/$domain=4shared.com|adplayer.pro
 @@||static.doubleclick.net/instream/ad_status.js$script,domain=ignboards.com
 @@||static.vrv.co^$media,domain=crunchyroll.com
