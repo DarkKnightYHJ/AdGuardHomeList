@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SKYhb4sFeygtx+dgwFsTrg
-! Version: 202310091040
+! Checksum: Gmk/rJ9G/5yl1fAn68Dptg
+! Version: 202310091202
 ! Title: EasyList China+EasyList
-! Last modified: 09 Oct 2023 10:40 UTC
+! Last modified: 09 Oct 2023 12:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -10654,6 +10654,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+yahoo.com##div[data-content="廣告"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -43371,7 +43372,6 @@ browsershots.org#@#.advert_area
 ||choupaig.xyz^
 ||choupsee.com^
 ||chozeers.xyz^
-||chpadblock.com^
 ||chpjnxbxvzmqpx.com^
 ||chpok.pw^
 ||chrantary-vocking.com^
@@ -67970,6 +67970,7 @@ browsershots.org#@#.advert_area
 ||cdnreference.com^$third-party
 ||charltonmedia.com^$third-party
 ||chitika.com^$third-party
+||chpadblock.com^$~image
 ||cibleclick.com^$third-party
 ||cinarra.com^$third-party
 ||citrusad.com^$third-party
@@ -75445,6 +75446,7 @@ browsershots.org#@#.advert_area
 ||saabsunited.com/wp-content/uploads/*banner
 ||sat-universe.com/wos2.png
 ||sat-universe.com/wos3.gif
+||save-editor.com/b/in/ad/
 ||sawfirstdelivery.com/master/delivery.js
 ||sbfull.com/assets/jquery/jquery-3.2.min.js?
 ||sbfull.com/js/mainpc.js
@@ -79884,6 +79886,7 @@ brandsoftheworld.com##.seedling
 hypestat.com##.sem_banner
 shareus.io##.seperator-tag
 searchencrypt.com##.serp__top-ads
+save-editor.com##.set_wrapper
 shortorial.com##.sgpb-popup-dialog-main-div-wrapper
 analyticsinsight.net,shortorial.com##.sgpb-popup-overlay
 stockhouse.com##.sh-ad
