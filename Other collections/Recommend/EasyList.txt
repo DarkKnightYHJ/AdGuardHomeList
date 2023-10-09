@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LGLOg38MpLh9Azoivg1H9w
-! Version: 202310090030
+! Checksum: wHxQTOGWYgKKNCiUHFk0PQ
+! Version: 202310090120
 ! Title: EasyList
-! Last modified: 09 Oct 2023 00:30 UTC
+! Last modified: 09 Oct 2023 01:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -9928,6 +9928,7 @@ _800x80_
 ##.adform__topbanner
 ##.adfoxly-overlay
 ##.adfoxly-place-delay
+##.adfoxly-wrapper
 ##.adframe
 ##.adframe2
 ##.adframe_banner
@@ -64401,6 +64402,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||givingassistant.org/Advertisers/$~third-party
 @@||global-uploads.webflow.com/*_dimensions-$image,domain=dimensions.com
 @@||gn-web-assets.api.bbc.com/bbcdotcom/assets/$script,domain=bbc.co.uk
+@@||go.ezodn.com/tardisrocinante/lazy_load.js?$script,domain=raiderramble.com
 @@||gocomics.com/assets/ad-dependencies-$script,~third-party
 @@||google.com/images/integrations/$image,~third-party
 @@||googleadservices.com/pagead/conversion_async.js$script,domain=zubizu.com
