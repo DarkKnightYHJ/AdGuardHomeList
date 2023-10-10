@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: QZUw6FwKLL5Yv/KdQuqHhg
-! Version: 202310100850
+! Checksum: 30NpU2xQzN1NfocFumrWFQ
+! Version: 202310100950
 ! Title: ABP filters
-! Last modified: 10 Oct 2023 08:50 UTC
+! Last modified: 10 Oct 2023 09:50 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -673,7 +673,6 @@ instacart.com#$#hide-if-matches-xpath './/span[text()]/preceding::div[@aria-hidd
 ! #CV-1832
 lowes.com#$#hide-if-matches-xpath './/div[@class="southdeep-badge"][contains(text(),"Sponsored")]/ancestor::div[@class="carousel-inner-container "]/preceding::h2[@class][@role][contains(text(),"Sponsored")]/ancestor-or-self::div[@class="scaf-rec"]'
 lowes.com#$#hide-if-matches-xpath './/section[@id="listItems"]/div[count(child::div) = 3]/div/div[contains(@class,"LormnProductBadgeStyle")]/ancestor::div[contains(@class,"tile_group")]/*'
-lowes.com#$#hide-if-matches-computed-xpath './/section[@id="listItems"]/div/div[@data-tile="{{}}"]/*' './/section[@id="listItems"]//div[@data-selector="prd-lormn-badge"]/..' '/data-tile="(.*?)"/'; hide-if-matches-computed-xpath './/section[@id="listItems"]/div/div[contains(@class,"InstallMsg")][following-sibling::node()[1][self::div and @data-tile="{{}}"]]/*' './/section[@id="listItems"]//div[@data-selector="prd-lormn-badge"]/..' '/data-tile="(.*?)"/'
 ! #CV-1213
 samsclub.com#$#hide-if-matches-xpath '//img[contains(@class,"sc-pc-image-small-controller")]/preceding::div[contains(@class,"sc-sponsored-simple")][contains(text(),"Sponsored")]/ancestor::div[contains(@class,"sc-product-carousel-canary-card-has-sponsored-product")]'
 samsclub.com#$#hide-if-matches-xpath './/span[@class="sc-specials-label"]/following::a[@role="button"]/ancestor::div[@class="sc-sba-modules-logo"]/parent::div[contains(@class,"sc-sba-modules")][1]'

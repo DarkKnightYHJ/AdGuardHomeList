@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Version: 350.202310040906
+! Version: 350.202310100808
 ! Title: I don't care about cookies
 ! Expires: 3 days
 ! Licence: https://www.gnu.org/licenses/gpl-3.0.html
 ! Homepage: https://www.i-dont-care-about-cookies.eu/
-! Last modified: 04 Oct 2023 09:06 UTC
+! Last modified: 10 Oct 2023 08:08 UTC
 !
 !
 ! GLOBAL RULES
@@ -3304,7 +3304,7 @@
 ###bandeauCookieIdweb
 ##.uucookies-container:not(body):not(html)
 ##.cookienav:not(body):not(html)
-##.cookieAgreement:not(body):not(html)
+###cookie-pref-disclaimer
 ###acceptCookiesHolder
 ###cookiepanel
 ##.policy-cookie:not(body):not(html)
@@ -6332,7 +6332,7 @@
 ##.rmgCookieAlert:not(body):not(html)
 ###blockCookieInfo
 ##.cookies_eu_sa:not(body):not(html)
-~fello.se,~telia.se##cookie-consent
+~fello.se##cookie-consent
 ###cbcookies-bottom
 ###lapiech_cookies_field
 ##.vp-cookie-consent:not(body):not(html)
@@ -12997,7 +12997,7 @@
 ###kindleApp_eucookie_banner_center
 ##.experiencefragment-cookie
 ###BarCookiesContainer
-###root music-notification-ribbon
+###__next div[data-testid*="cookie-permission"]
 ##.CookiesHandlerWrapper
 ###cookieplease.cookieplease
 ~pensjonistforbundet.no###__next div[class*="cookieConsent"]
@@ -13720,7 +13720,7 @@
 ###klaro > .klaro > .bg
 ###data-tracking-banner
 ##.fixed[data-cy*="cookie-notice"]
-###__next div[data-testid*="cookie-permission"]
+##.fp-cookie-modal
 !
 ! CUSTOM RULES
 !
@@ -22542,7 +22542,6 @@ asus.com###cookieTable, #cookie-policy-info
 florinus.lt##.blah_blah_blah_holder
 finis-feinstes.at##.cookie-shadow
 chocoladepartners.nl##.ec-notices
-amazon.com##.accept-cookies--modal
 superbexperience.com###root > div > .container-style
 historiademexicobreve.com##.wpfront-fixed-position
 jolstad.no##.show-cookie-pop-up
@@ -22571,7 +22570,6 @@ northernpowergrid.com##.ch2-open-settings-btn
 activobank.pt##.overlay-cookies, #cookies
 swisstours.com##.cookiesApproval
 eobuwie.com.pl##.modal-consents
-amazon.co.uk###cookie-pref-disclaimer
 jvctv.eu##div[id*="cookieModule"]
 metar-taf.com##.cookies
 yesterdaystractors.com###dvCookieMessage
@@ -22904,6 +22902,9 @@ dbvis.com###cookies-modal
 kamiennagrota.pl##.uk-notification
 bansdiving.de##.uk-notification
 checkmate.gr##.uk-notification
+amazon.com##.accept-cookies--modal, .a20m-cookie-consent-banner
+sonomix.ch###rgpd
+lydshop.no###cookie-consent-modal, .modal-backdrop
 !
 ! SCRIPT BLOCKING
 !
@@ -23155,7 +23156,7 @@ eu_cookie_banner.js^
 /modules/idxcookies/*
 /javascript/cookieser.js
 /cookiesWidget/widget.js
-consent.cookiebot.com$domain=~deutschesapothekenportal.de|~storyhouseegmont.dk|~storyhouseegmont.no|~storyhouseegmont.se|~egmont.com|~plaion.com|~runescape.com|~jyllands-posten.dk|~tme.eu|~stadtmobil.de|~wwf.fi|~login.nos.pt|~asambeauty.com|~cineplex.de|~berlingske.dk|~digimon.kochfilms.de|~kino.dk|~hoyavision.com|~koeln.de|~cliente.nos.pt|~parkerlebnis.de|~deadwalk.io|~linak.es|~linak.de|~cajamar.es|~digitaltrends.com|~mein-grundeinkommen.de|~werder.de|~finanzmarktwelt.de|~danbolig.dk|~bt.dk|~scubadiving.com|~biomarkt.de|~harzwasserwerke.de|~stern.de|~dasinvestment.com|~derivate.bnpparibas.com|~werkenbijlidl.nl|~swspremberg.de|~nngroup.com|~bankia.es|~bergbauernmilch.de|~ekstrabladet.dk|~epochtimes.de
+consent.cookiebot.com$domain=~deutschesapothekenportal.de|~storyhouseegmont.dk|~storyhouseegmont.no|~storyhouseegmont.se|~egmont.com|~plaion.com|~runescape.com|~jyllands-posten.dk|~apoteket.se|~tme.eu|~stadtmobil.de|~wwf.fi|~login.nos.pt|~asambeauty.com|~cineplex.de|~berlingske.dk|~digimon.kochfilms.de|~kino.dk|~hoyavision.com|~koeln.de|~cliente.nos.pt|~parkerlebnis.de|~deadwalk.io|~linak.es|~linak.de|~cajamar.es|~digitaltrends.com|~mein-grundeinkommen.de|~werder.de|~finanzmarktwelt.de|~danbolig.dk|~bt.dk|~scubadiving.com|~biomarkt.de|~harzwasserwerke.de|~stern.de|~dasinvestment.com|~derivate.bnpparibas.com|~werkenbijlidl.nl|~swspremberg.de|~nngroup.com|~bankia.es|~bergbauernmilch.de|~ekstrabladet.dk|~epochtimes.de
 /ccp-sites/components/structure/cookie-notification/*
 /cookies-info.js
 cookies.algo.at
@@ -23761,7 +23762,7 @@ jquery.smartCookie.min.js^
 /js/CookieConsentNew
 /CookieManagerUi.js
 /widgets/global/vendors~LegalCookies
-/getCookieConsent
+/getCookieConsent$domain=~lydshop.no
 /kssCookieManager/*
 /ModalCookiesPrivacy.php
 /CookiesManager/CookiesManager.js
@@ -24285,7 +24286,6 @@ coco.we-online.com$domain=we-online.com
 /rcs_cpmt/*$domain=open.online|style.corriere.it|giroditalia.it
 /ph-cookie-helper-mu/*$domain=uwartsonline.nl
 .consent-$domain=pcgames.de
-/cookie-preferences$domain=halebop.se
 /Libs/cookies$domain=nadeta.cz
 /standard-cookies/*$domain=standard.sk
 /Disclaimer.js$domain=private.com
@@ -24307,6 +24307,7 @@ analytics-consent-manager*$domain=terveystalo.com
 seznam.cz$domain=firmy.cz
 poool.fr/access.min.js$script,domain=spektrum.de
 /wimc_gtm_consent/*$domain=wingo.ch
+/cookie-preferences$domain=halebop.se
 !
 ! FILTERLIST ONLY
 !
