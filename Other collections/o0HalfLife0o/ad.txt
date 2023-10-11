@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3PXcVDpelr+lcqj5ldHWeA
+! Checksum: Wc1wDGqXRvtfjANDf8JRXg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202310110825
-! Last Modified: 2023年10月11日 08:25
+! Version: 202310111407
+! Last Modified: 2023年10月11日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2320,6 +2320,10 @@ newduba.cn###jq_youxi
 ||cadizer.com^
 ||ebmlsvw.cn^
 ||jvjmjt.xyz^
+||gmx22.top^
+||gixgav.icu^
+||cadizer.com^
+||1bctkn.xyz^
 ##[style*="sotv.me"]
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
@@ -7822,7 +7826,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||ax.ifeng.com^
 ||ax1x.com/2020/06/14/NSoyHe.png
 ||ax1x.com^$domain=caibaojian.com|hktvyb.com|zzvips.com
-||axutongxue.*/js/pp
+||axutongxue.*/js/yes.
 ||ayxz.com/images/$script
 ||ayxz.com/images/enkj_small.gif
 ||azhibo.*/media/aimg/*.gif
@@ -11276,6 +11280,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+axutongxue.com,axutongxue.net###ccacc
+zztt24.com##.event-notice
+zztt24.com##.gotoclick
+nivod4.tv,nivod5.tv##.qy20-h-carousel__li:nth-child(-n+2)
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17529,6 +17537,7 @@ guailie.com#@#.google-ad
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
 ||17ce.com^*_$image
 !#18comic.org
+18-comic.work,18comic.org,18comic.vip##.div_sticky2
 18-comic.work,18comic.org,18comic.vip###guide-modal
 18-comic.work,18comic.org,18comic.vip##.modal-backdrop
 18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img
@@ -20277,6 +20286,7 @@ _box_ad_
 ||infogram.com^$domain=hk01.com
 ||letvcdn.com/lc02_live/201803/18/23/40/1521387641261new.
 !------------------------Specific element hiding rules------------------------!
+yisu.com##.coupon-get-link
 on.cc##.appinstall
 36kr.com##.app-track-card
 fnjiasu.com##.sidebar_download
