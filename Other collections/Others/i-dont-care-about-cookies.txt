@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Version: 350.202310100808
+! Version: 350.202310110845
 ! Title: I don't care about cookies
 ! Expires: 3 days
 ! Licence: https://www.gnu.org/licenses/gpl-3.0.html
 ! Homepage: https://www.i-dont-care-about-cookies.eu/
-! Last modified: 10 Oct 2023 08:08 UTC
+! Last modified: 11 Oct 2023 08:45 UTC
 !
 !
 ! GLOBAL RULES
@@ -2385,7 +2385,7 @@
 ##.acepta_cookies:not(body):not(html)
 ##.js-cookie-disclaimer
 ###usoPoliticaCookies
-~conotoxia.com,~cinkciarz.pl###cookies-wrapper
+~conotoxia.com###cookies-wrapper
 ###cookie-legal
 ###cookienoticetab
 ###tins_cookie_bar
@@ -13333,7 +13333,7 @@
 ##.cookiesBackground
 ##.app-cookies-notification
 ###cmplz-cookiebanner-container
-###CookieConsentDialog
+###CookieConsentDialog:not(.modal)
 ##.js-modal-first-cookie
 ##.SiteLayout-cookieBar
 ###__next div[aria-labelledby*="cookie-dialog"]
@@ -13721,6 +13721,8 @@
 ###data-tracking-banner
 ##.fixed[data-cy*="cookie-notice"]
 ##.fp-cookie-modal
+##.cookie-accept-popover
+###toast-cookie-info
 !
 ! CUSTOM RULES
 !
@@ -13763,7 +13765,6 @@ oushop.com##body > div:not([id]):not([class])
 mocnopomocni.pl##body > div:not([id]):not([class])
 instal.si##body > img, .urejanjecenter, .urejanjecenter + table
 megashopbot.com###alertBar
-daft.ie###notify-container, .strapline-container
 vegetus.nl###tracking
 thetoyshop.com###entCNDiv
 direct-croatia.com###site_nt
@@ -17202,12 +17203,8 @@ przypinka.pl###cookie
 cfd.dk###cn_footerSlideContainer
 nomenclator.org###barrack
 allegorithmic.com###root > div > div > .ui.container > .ui.inverted.segment
-meteored.com.ar###gpdr, #GPDR, #gdpr, #GDPR
-ilmeteo.net###gpdr, #GPDR, #gdpr, #GDPR
-tempo.pt###gpdr, #GPDR, #gdpr, #GDPR
 antena3.ro###gpdr, #GPDR, #gdpr, #GDPR
 quag.com###gpdr, #GPDR, #gdpr, #GDPR
-meteored.pe###gpdr, #GPDR, #gdpr, #GDPR
 yourweather.co.uk###gpdr, #GPDR, #gdpr, #GDPR
 klei.com###gpdr, #GPDR, #gdpr, #GDPR
 bit-tech.net###gpdr, #GPDR, #gdpr, #GDPR
@@ -17218,7 +17215,6 @@ internetspeedtracker.com###gpdr, #GPDR, #gdpr, #GDPR
 branah.com###gpdr, #GPDR, #gdpr, #GDPR
 boredbutton.com###gpdr, #GPDR, #gdpr, #GDPR
 datalounge.com###gpdr, #GPDR, #gdpr, #GDPR
-meteored.mx###gpdr, #GPDR, #gdpr, #GDPR
 kleientertainment.com###gpdr, #GPDR, #gdpr, #GDPR
 t2informatik.de###sidebar-divibar
 quirion.de##.alert, #alert
@@ -23732,6 +23728,7 @@ cmp.springernature.com
 determinator.service-cmp.com
 ||seznam.cz/js/cmp2/scmp.js$script
 ||seznam.cz/js/cmp2/scmp-external.js$script
+cmp.meteored.com
 ||gofundme.com/js/3.0/visitorCookie.js$script
 /CookiesDirective
 CookieAccept/affirmation.js
@@ -23978,6 +23975,7 @@ nanoGDPR.min.js^
 /orejime.js
 ||jsdelivr.net/npm/cookify$script
 /cbgCConsent.js
+/js/bundle/GDPRConsent/*
 /iubenda_cs$domain=~radiomontecarlo.net|~tomshw.it|~repubblica.it|~video.lastampa.it|~nablawave.com|~buondi.it|~tgcom24.mediaset.it|~mediasetinfinity.mediaset.it|~telerama.fr|~skuola.net
 /amp-user-notification-
 /api/rest/settings/public?fields=endUserAgreement
@@ -24308,6 +24306,8 @@ seznam.cz$domain=firmy.cz
 poool.fr/access.min.js$script,domain=spektrum.de
 /wimc_gtm_consent/*$domain=wingo.ch
 /cookie-preferences$domain=halebop.se
+/cmp_puk.js$domain=commerzbank.de
+/ckpl-webc.min.js$domain=cinkciarz.pl
 !
 ! FILTERLIST ONLY
 !
