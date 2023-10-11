@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5pN+xnloYnvTCCpq3PAvgw
-! Version: 202310110250
+! Checksum: 2fH++8MwVfML9Eckkifz3w
+! Version: 202310110350
 ! Title: EasyList China+EasyList
-! Last modified: 11 Oct 2023 02:50 UTC
+! Last modified: 11 Oct 2023 03:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -7227,7 +7227,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||ax.ifeng.com^
 ||ax1x.com/2020/06/14/NSoyHe.png
 ||ax1x.com^$domain=caibaojian.com|hktvyb.com|zzvips.com
-||axutongxue.*/js/pp
+||axutongxue.*/js/yes.
 ||ayxz.com/images/$script
 ||ayxz.com/images/enkj_small.gif
 ||azhibo.*/media/aimg/*.gif
@@ -10681,6 +10681,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+axutongxue.com,axutongxue.net###ccacc
 zztt24.com##.event-notice
 zztt24.com##.gotoclick
 nivod4.tv,nivod5.tv##.qy20-h-carousel__li:nth-child(-n+2)
@@ -16937,6 +16938,7 @@ guailie.com#@#.google-ad
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
 ||17ce.com^*_$image
 !#18comic.org
+18-comic.work,18comic.org,18comic.vip##.div_sticky2
 18-comic.work,18comic.org,18comic.vip###guide-modal
 18-comic.work,18comic.org,18comic.vip##.modal-backdrop
 18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img
