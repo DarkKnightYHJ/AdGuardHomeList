@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Version: 350.202310110845
+! Version: 350.202310120806
 ! Title: I don't care about cookies
 ! Expires: 3 days
 ! Licence: https://www.gnu.org/licenses/gpl-3.0.html
 ! Homepage: https://www.i-dont-care-about-cookies.eu/
-! Last modified: 11 Oct 2023 08:45 UTC
+! Last modified: 12 Oct 2023 08:06 UTC
 !
 !
 ! GLOBAL RULES
@@ -2385,7 +2385,7 @@
 ##.acepta_cookies:not(body):not(html)
 ##.js-cookie-disclaimer
 ###usoPoliticaCookies
-~conotoxia.com###cookies-wrapper
+###cookies-wrapper
 ###cookie-legal
 ###cookienoticetab
 ###tins_cookie_bar
@@ -10117,7 +10117,7 @@
 ###site-cookie-notice
 ##.js-global-skrp-messages
 ###___gatsby [class*="module--cookie"]
-##.alert-dismissible[id*="cookiechoice"]
+##.alert-dismissible[id*="cookie"]
 ###cooknote-div
 ###gdpr-info-container
 ##.flash-message.flash-rgpd
@@ -13723,6 +13723,7 @@
 ##.fp-cookie-modal
 ##.cookie-accept-popover
 ###toast-cookie-info
+##.fd-consent-main
 !
 ! CUSTOM RULES
 !
@@ -18842,7 +18843,6 @@ po-bandzie.com.pl##.elementor-popup-modal
 mesenzo.com###OneTimePopupDialog, .OneTimePopupDialog-overlay
 bankgiroloterij.nl###avgDialog
 bsd.net##div[data-which-id="eprivacy-banner"]
-hudy.cz##.info-bar
 top-trails-of-germany.de##footer .note
 neatorobotics.com###neato_cp_notice
 geers.pl##.ConsentWrapper
@@ -22573,7 +22573,6 @@ framer.com##div[data-framer-name="EU"]
 sescsp.org.br##.container-policy, .overlay
 solidaris-wallonie.be##app-pop-up-tracking
 stuffthatworks.health##.snackbar-disclaimer
-nytimes.com##.gdpr.expanded-dock + div, .CookieBanner > .banner__container, #alertBannerMount
 dalmatinskiportal.hr##.accept-cookies-modal
 10015.io##main > section ~ div:last-child
 knowunity.de##.Toastify ~ div
@@ -22788,8 +22787,6 @@ palit.com###pp_overlay, #pp_info
 mod.io###container ~ .tw-fixed
 yomiuri.co.jp###consentModal
 helmholtz.software##.fixed[data-testid="cookie-consent-matomo"]
-depo.lv##.depo-cookies, .w-full.fixed.bottom-0
-depo.ee##.depo-cookies, .w-full.fixed.bottom-0
 moddrop.com##.cm-fill-bot
 promobit.com.br###__next .fixed.bottom-0
 withlocals.com##aside[class*="CookieConsent"], div[class*="CookieOverlay"]
@@ -22901,6 +22898,11 @@ checkmate.gr##.uk-notification
 amazon.com##.accept-cookies--modal, .a20m-cookie-consent-banner
 sonomix.ch###rgpd
 lydshop.no###cookie-consent-modal, .modal-backdrop
+gvg-glasfaser.de##.Container_CookieHint
+depo.lv##.depo-cookies
+depo.ee##.depo-cookies
+nytimes.com###dock-container[data-testid*="gdpr"]
+hudy.cz##.cookie-modal
 !
 ! SCRIPT BLOCKING
 !
@@ -23975,7 +23977,9 @@ nanoGDPR.min.js^
 /orejime.js
 ||jsdelivr.net/npm/cookify$script
 /cbgCConsent.js
+/ckpl-webc.min.js
 /js/bundle/GDPRConsent/*
+/js/klaro-no-
 /iubenda_cs$domain=~radiomontecarlo.net|~tomshw.it|~repubblica.it|~video.lastampa.it|~nablawave.com|~buondi.it|~tgcom24.mediaset.it|~mediasetinfinity.mediaset.it|~telerama.fr|~skuola.net
 /amp-user-notification-
 /api/rest/settings/public?fields=endUserAgreement
@@ -24178,7 +24182,6 @@ trcking.min.js^$domain=canalplus.com|canal-plus.com
 /CookieLayer.js$domain=multipower.com
 /cookie_management.js$domain=meteoradar.ch
 /Cookie/*$domain=nif.no
-/klaro-no-css.js$domain=frag-einen-anwalt.de
 /cookieconsent/*$domain=stema.de|expert.es
 /cookieBox.js$domain=vinos.de
 /cmp$domain=schwaebische.de|gameswelt.ch|gameswelt.de|gameswelt.at
@@ -24307,7 +24310,7 @@ poool.fr/access.min.js$script,domain=spektrum.de
 /wimc_gtm_consent/*$domain=wingo.ch
 /cookie-preferences$domain=halebop.se
 /cmp_puk.js$domain=commerzbank.de
-/ckpl-webc.min.js$domain=cinkciarz.pl
+/scmp-int.js$domain=mapy.cz
 !
 ! FILTERLIST ONLY
 !
