@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SAUSnVompIqMHOW/XZBOaQ
+! Checksum: mGEgFCjqmBgJWi3H7ttEWA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202310130206
-! Last Modified: 2023年10月13日 02:06
+! Version: 202310130825
+! Last Modified: 2023年10月13日 08:25
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1900,6 +1900,14 @@ newduba.cn###jq_youxi
 ||xxkswdf.icu^
 ||y341i.xyz^
 ||yepgdita.xyz^
+||ocwdkp.icu^
+||gmx21.top^
+||zbxtcwi.xyz^
+||haise3.top^
+||mqrupjsm.xyz^
+||qwjtdcl.cn^
+||rcnldz.xyz^
+||vdggsd013.com^
 ||yhlzadr.xyz^
 ||yhtpsy8888.cc^
 ||yutiqf.icu^
@@ -23333,62 +23341,26 @@ m.babytree.com##script + a[class]
 /RecordClickv2.
 /RecordHit?
 /recstatsv2.
-/redirectexittrack.php?
-/redis_stats/*
-/reelevant.js
-/ref_analytics.
-/refer-tracking.
 /referadd?
-/referal-cookie.
-/referer.gif?
 /referer/visitor/*
-/refererRecord.
-/referral-tracking.
-/referral_tracker.
-/referral_tracking.
+/referral-tracking.js
+/referral_tracking.js
 /referrer.js
 /referrer.php?*http
-/referrer_invisible.js?
-/referrer_tracking.
-/refresh_uid?$script
-/refstats.asp?
-/reftracker.
-/reg_stat.php?
-/register_pageview?
-/register_stats.php?
-/registeradevent?
-/RegisterWebPageVisit.
-/RemoteTargetingService.
-/render?trackingId=
+/referrer_invisible.js
+/referrer_tracking.js
+/reftracker.js
 /renderTimingPixel.
-/report/click?
-/report/impression?
-/report?event_
-/report_visit.
-/reporting.do?
-/reporting/analytics.js
+/report_visit.php
 /reporting/metrics
-/request_tracker+
-/RequestTrackerServlet?
-/resmeter.js
-/ResonateAnalytics.
+/ResonateAnalytics.min.js
 /resource?zones=
-/resourcestat.
 /rest/analytics/*
-/restats_
-/resxclsa.
-/resxclsa_
+/resxclsa.js
 /resxclsx.js
-/ret_pixels/*
-/retarget_pixel.
-/retargeting-pixels.
-/retargetingScript/*
-/revenue-science.
-/revenuescience.
-/revenuescience_
-/RevenueScienceAPI.
+/retarget_pixel.php
+/retargeting-pixels.php
 /revinit.js
-/revsci.
 /revtracking/*
 /rgea.min.js
 /rich-relevance.
@@ -28806,6 +28778,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||jimny.pro^
 ||joblessdrum.com^
 ||joyoussurprise.com^
+||jubilantcanyon.com^
 ||justicejudo.com^
 ||k54nw.pw^
 ||kitesquirrel.com^
@@ -29062,6 +29035,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||proudprose.com^
 ||psychedelicarithmetic.com^
 ||psychedelicchess.com^
+||pubimgs.com^
 ||puffyloss.com^
 ||puffypaste.com^
 ||puffypull.com^
@@ -29601,6 +29575,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||whirlwealth.com^
 ||whiskyqueue.com^
 ||whisperingbadge.com^
+||whisperingcascade.com^
 ||whisperingcrib.com^
 ||whisperingsummit.com^
 ||whispermeeting.com^
@@ -54057,6 +54032,7 @@ arketing.indianadunes.com^
 @@||sephora-track.inside-graph.com/ig.js$domain=sephora.com
 @@||sephora.com/js/ufe/isomorphic/thirdparty/fp.min.js$script,~third-party
 @@||service.apport.net/apport-spa-common/src/tracking/tracking.js$~third-party
+@@||services.chipotle.com/__imp_apg__/$~third-party
 @@||shoonya.finvasia.com/fingerprint2.min.js$script,~third-party
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
 @@||shopify.com/shopifycloud/boomerang/shopify-boomerang-$domain=rydewear.com

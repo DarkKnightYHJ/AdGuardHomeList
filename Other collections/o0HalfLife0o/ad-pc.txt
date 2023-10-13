@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: l646UEPsF/L2NvKIv174Ig
+! Checksum: PGdDFrfg7pPpZAHzhEMy5A
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202310130206
-! Last Modified: 2023年10月13日 02:06
+! Version: 202310130825
+! Last Modified: 2023年10月13日 08:25
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -21824,6 +21824,7 @@ browsershots.org#@#.advert_area
 ||ap-srv.net^
 ||ap3lorf0il.com^
 ||apalbs.com^
+||aparlayship.com^
 ||apatheticdrawerscolourful.com^
 ||apatheticformingalbeit.com^
 ||apathiaherbist.com^
@@ -29755,6 +29756,7 @@ browsershots.org#@#.advert_area
 ||forseisemelo.top^
 ||forsookjaeger.com^
 ||forsphealan.com^
+||forsungstoolie.com^
 ||fortaillowon.com^
 ||fortaiwy.xyz^
 ||fortdaukthw.hair^
@@ -31985,6 +31987,7 @@ browsershots.org#@#.advert_area
 ||huloxakuxukwduo.xyz^
 ||hulsairtid.com^
 ||humaffableconsulate.com^
+||humanjeep.com^
 ||humble-green.pro^
 ||humblecooperate.com^
 ||humbledleelang.com^
@@ -34469,6 +34472,7 @@ browsershots.org#@#.advert_area
 ||licenseelegance.com^
 ||licereason.space^
 ||lichtpass.com^
+||lickinggetting.com^
 ||lickingimprovementpropulsion.com^
 ||licmiwot.com^
 ||licoshnit.com^
@@ -42680,6 +42684,7 @@ browsershots.org#@#.advert_area
 ||shamelesspersonality.pro^
 ||shamelessspank.com^
 ||shanaurg.net^
+||shanorin.com^
 ||shapelcounset.xyz^
 ||shapeonefoldonefoldmagistrate.com^
 ||share-server.com^
@@ -52285,6 +52290,7 @@ browsershots.org#@#.advert_area
 ||jomtingi.net^$popup
 ||journeyembankmentsubjects.com^$popup
 ||jpgtrk.com^$popup
+||jpmldwvjqd.xyz^
 ||jqtree.com^$popup
 ||jrpkizae.com^$popup
 ||jsmentry.com^$popup
@@ -52406,6 +52412,7 @@ browsershots.org#@#.advert_area
 ||letzonke.com^$popup
 ||leveragetypicalreflections.com^$popup
 ||libertystmedia.com^$popup
+||lickinggetting.com^$popup
 ||lickingimprovementpropulsion.com^$popup
 ||lie2anyone.com^$popup
 ||liedebris.com^$popup
@@ -53741,6 +53748,7 @@ browsershots.org#@#.advert_area
 ||taprtopcldfard.co^$popup
 ||taprtopcldfb.co^$popup
 ||taroads.com^$popup
+||tausoota.xyz^
 ||tchinaprecenta.info^$popup
 ||tczzzlwpss.com^$popup
 ||td563.com^$popup
@@ -55201,7 +55209,7 @@ browsershots.org#@#.advert_area
 ||api-player.globalsun.io/api/publishers/player/content?category_id=*&adserver_id=$xmlhttprequest
 ||api.140proof.com^
 ||api.bitp.it^
-||app.clickfunnels.com^
+||app.clickfunnels.com^$~stylesheet
 ||apps.media-lab.ai^
 ||aspencore.com/syndication/v3/partnered-content/
 ||assets.sheetmusicplus.com^$third-party
@@ -57605,6 +57613,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|adblockeronsta
 ||eentent.streampiay.me^$popup
 ||fentent.streampiay.fun^$popup
 ||fentent.streampiay.me^$popup
+||flashtalking.com^$popup,domain=twitch.tv
 ||flaticon.com/edge/banner/$popup
 ||flixhq.ru/?$popup
 ||gentent.streampiay.fun^$popup
@@ -63305,6 +63314,7 @@ msn.com##.modernRightRail_topAd_container_2col_newRR-DS-EntryPoint1-1
 msn.com##.outeradcontainer
 msn.com##.qohvco-DS-EntryPoint1-1
 msn.com##.river-background
+msn.com##.views-right-rail-top-display
 msn.com##.views-right-rail-top-display-ad
 msn.com##.windowsBannerAdContainer-DS-EntryPoint1-1
 msn.com##[class^="articlePage_eoabContent"]
@@ -66942,6 +66952,14 @@ newduba.cn###jq_youxi
 ||xxkswdf.icu^
 ||y341i.xyz^
 ||yepgdita.xyz^
+||ocwdkp.icu^
+||gmx21.top^
+||zbxtcwi.xyz^
+||haise3.top^
+||mqrupjsm.xyz^
+||qwjtdcl.cn^
+||rcnldz.xyz^
+||vdggsd013.com^
 ||yhlzadr.xyz^
 ||yhtpsy8888.cc^
 ||yutiqf.icu^
@@ -86062,62 +86080,26 @@ fqsousou.com,kengso.com#@#.user-share
 /RecordClickv2.
 /RecordHit?
 /recstatsv2.
-/redirectexittrack.php?
-/redis_stats/*
-/reelevant.js
-/ref_analytics.
-/refer-tracking.
 /referadd?
-/referal-cookie.
-/referer.gif?
 /referer/visitor/*
-/refererRecord.
-/referral-tracking.
-/referral_tracker.
-/referral_tracking.
+/referral-tracking.js
+/referral_tracking.js
 /referrer.js
 /referrer.php?*http
-/referrer_invisible.js?
-/referrer_tracking.
-/refresh_uid?$script
-/refstats.asp?
-/reftracker.
-/reg_stat.php?
-/register_pageview?
-/register_stats.php?
-/registeradevent?
-/RegisterWebPageVisit.
-/RemoteTargetingService.
-/render?trackingId=
+/referrer_invisible.js
+/referrer_tracking.js
+/reftracker.js
 /renderTimingPixel.
-/report/click?
-/report/impression?
-/report?event_
-/report_visit.
-/reporting.do?
-/reporting/analytics.js
+/report_visit.php
 /reporting/metrics
-/request_tracker+
-/RequestTrackerServlet?
-/resmeter.js
-/ResonateAnalytics.
+/ResonateAnalytics.min.js
 /resource?zones=
-/resourcestat.
 /rest/analytics/*
-/restats_
-/resxclsa.
-/resxclsa_
+/resxclsa.js
 /resxclsx.js
-/ret_pixels/*
-/retarget_pixel.
-/retargeting-pixels.
-/retargetingScript/*
-/revenue-science.
-/revenuescience.
-/revenuescience_
-/RevenueScienceAPI.
+/retarget_pixel.php
+/retargeting-pixels.php
 /revinit.js
-/revsci.
 /revtracking/*
 /rgea.min.js
 /rich-relevance.
@@ -91535,6 +91517,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||jimny.pro^
 ||joblessdrum.com^
 ||joyoussurprise.com^
+||jubilantcanyon.com^
 ||justicejudo.com^
 ||k54nw.pw^
 ||kitesquirrel.com^
@@ -91791,6 +91774,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||proudprose.com^
 ||psychedelicarithmetic.com^
 ||psychedelicchess.com^
+||pubimgs.com^
 ||puffyloss.com^
 ||puffypaste.com^
 ||puffypull.com^
@@ -92330,6 +92314,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||whirlwealth.com^
 ||whiskyqueue.com^
 ||whisperingbadge.com^
+||whisperingcascade.com^
 ||whisperingcrib.com^
 ||whisperingsummit.com^
 ||whispermeeting.com^
@@ -116786,6 +116771,7 @@ arketing.indianadunes.com^
 @@||sephora-track.inside-graph.com/ig.js$domain=sephora.com
 @@||sephora.com/js/ufe/isomorphic/thirdparty/fp.min.js$script,~third-party
 @@||service.apport.net/apport-spa-common/src/tracking/tracking.js$~third-party
+@@||services.chipotle.com/__imp_apg__/$~third-party
 @@||shoonya.finvasia.com/fingerprint2.min.js$script,~third-party
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
 @@||shopify.com/shopifycloud/boomerang/shopify-boomerang-$domain=rydewear.com
