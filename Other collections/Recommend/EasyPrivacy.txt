@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: YUPMKvHu/q8Rcp/xOveMCw
-! Version: 202310132140
+! Checksum: D8njUfg6DvFaN9ujHUbtEg
+! Version: 202310132240
 ! Title: EasyPrivacy
-! Last modified: 13 Oct 2023 21:40 UTC
+! Last modified: 13 Oct 2023 22:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -852,6 +852,7 @@
 /dataunlocker.js
 /datawrapper.gif?
 /dcjs/prod/*
+/dcs.gif?
 /dcs_tag.js
 /default/pAnalytics
 /delivery/lg.
@@ -3924,6 +3925,7 @@ _mongo_stats/
 ||spinnaker-js.com^
 ||stack-sonar.com^
 ||stat.ovh^
+||statisticsplatform.com^
 ||statsbox.info^
 ||stpmgo.com^
 ||summerhamster.com^
@@ -32514,7 +32516,9 @@ arketing.indianadunes.com^
 ||yjtag.yahoo.co.jp^
 ||zatsubitown.com/mailfriend/kaiseki
 ! Korean
+||11st.co.kr/st/
 ||ad-log.dable.io^
+||adoffice.11st.co.kr^
 ||aem-collector.daumkakao.io^
 ||auction.co.kr/ad/log.js
 ||auction.co.kr/montelena.js
@@ -32530,6 +32534,7 @@ arketing.indianadunes.com^
 ||log.zdnet.co.kr^
 ||naver.com/PostView.nhn?$image
 ||nil.naver.com^
+||rake.11st.co.kr^
 ||seoul.co.kr/weblog/
 ||sp.naver.com^
 ||stat.i3.dmm.com^
@@ -33447,7 +33452,7 @@ arketing.indianadunes.com^
 @@||digitrend.it/wonder-marketing/assets/wordpress/js/videojs.ga.js?$script,domain=vrsicilia.it
 @@||jsdelivr.net^*/keen-tracking.min.js$domain=nextquotidiano.it
 @@||kataweb.it/wt/wt.js?http$domain=gelocal.it|video.huffingtonpost.it|video.ilsecoloxix.it|video.lastampa.it|video.repubblica.it
-@@||livesicilia.it/wp-content/plugins/digistream/digiplayer/js/videojs.ga.js?$script,third-party
+@@||livesicilia.it/wp-content/plugins/digistream/digiplayer/js/videojs.ga.js?$script,~third-party
 @@||repubblica.it/pw/pw.js?deskurl=$domain=gelocal.it|ilsecoloxix.it|lastampa.it
 @@||thron.com/shared/plugins/tracking/current/tracking-library-min.js$domain=dainese.com
 @@||timvision.it/libs/fingerprint/fingerprint.js
