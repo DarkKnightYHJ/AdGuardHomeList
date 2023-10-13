@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mGEgFCjqmBgJWi3H7ttEWA
+! Checksum: ERWJsgBMKaE82mZ5Zq3yow
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202310130825
-! Last Modified: 2023年10月13日 08:25
+! Version: 202310132009
+! Last Modified: 2023年10月13日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1908,6 +1908,9 @@ newduba.cn###jq_youxi
 ||qwjtdcl.cn^
 ||rcnldz.xyz^
 ||vdggsd013.com^
+||nerydw.xyz^
+||aueajkn.cn^
+||aueajkn.cn^
 ||yhlzadr.xyz^
 ||yhtpsy8888.cc^
 ||yutiqf.icu^
@@ -10869,8 +10872,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||juejin.cn/content_api/v1/advert/query_adverts?
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+juejin.cn##.advertisement
+ruanyifeng.com##p[style="text-align:center;font-size: 16px;"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -53970,6 +53976,7 @@ arketing.indianadunes.com^
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=change.org|frigidaire.com
 @@||mxpnl.com^$domain=mixpanel.com
 @@||myaccount.chicagotribune.com/assets/scripts/tag-manager/googleTag.js$~third-party
+@@||nationwide.com/myaccount/includes/images/x.gif$~third-party
 @@||natureetdecouvertes.com^*/pixel.png$~third-party
 @@||netcoresmartech.com/smartechclient.js$domain=hdfcfund.com
 @@||new.abb.com/ruxitagentjs_$~third-party
