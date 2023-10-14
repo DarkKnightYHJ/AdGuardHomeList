@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: O+5MKbSBbQ4sWEaL16rN4w
-! Version: 202310141750
+! Checksum: EsoSyo4VV3P0MmxhIJWHcw
+! Version: 202310141840
 ! Title: EasyPrivacy
-! Last modified: 14 Oct 2023 17:50 UTC
+! Last modified: 14 Oct 2023 18:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3035,7 +3035,6 @@
 /web-js-telemetry-service/*
 /web-pixel-shopify-app-pixel@
 /web-pixel-shopify-custom-pixel@
-/web-vitals-
 /web-vitals.
 /web-vitals/*
 /web/push?
@@ -3590,6 +3589,7 @@ omni.soundestlink.com$image
 /csi_204?$image,other,ping,script
 /gen_204?$image,other,ping,script
 /generate_204?$image
+||google.*/url?$ping
 ||google.com/gen_204?
 ||googleapis.com^*/gen_204?
 ||gstatic.com/gen_204?
