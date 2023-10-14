@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: h93NVsaIiwi6wkeu8pi0Yg
+! Checksum: 0Lfb9Y1mFWF0gmOBfgUSlw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202310140824
-! Last Modified: 2023年10月14日 08:24
+! Version: 202310141406
+! Last Modified: 2023年10月14日 14:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -59091,6 +59091,7 @@ gamesadshopper.com##.AD
 advfn.com##.APS_TOP_BANNER_468_X_60_container
 bendsource.com,buzzfeed.com,federalnewsnetwork.com,imgur.io,iotworldtoday.com,lonelyplanet.com,naturalproductsinsider.com,sevendaysvt.com,styleweekly.com,tasty.co,tucsonweekly.com##.Ad
 deseret.com##.Ad-space
+thingiverse.com##.AdBanner__adBanner--GpB5d
 petfinder.com##.AdUnitParagraph-module--adunitContainer--2b7a6
 therealdeal.com##.AdUnit_adUnitCenter__FKOWE
 complex.com##.AdWrapper__AdPlaceholderContainer-sc-15idjh1-0
@@ -66869,6 +66870,9 @@ newduba.cn###jq_youxi
 ||llblwzg.xyz^
 ||oprece.xyz^
 ||smlpcz.icu^
+||z91f4.top^
+||mryqtym.cn^
+||24w0p.com^
 ||yutiqf.icu^
 ||zbxtcwi.xyz^
 ||zchvyet.cn^
@@ -75830,6 +75834,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||ds1.kaijia.com^
+||baizhan.net/js/136/jingyun_righttop.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -86551,31 +86557,15 @@ fqsousou.com,kengso.com#@#.user-share
 /tracker/emos2_
 /tracker/event?
 /tracker/imp?
-/tracker/log?
-/tracker/track?
-/tracker/trackView?
-/tracker/visitor/*
-/tracker_article
-/tracker_async.
-/tracker_pageview.
-/tracker_pixel.
-/trackerGif?
+/tracker_async.js
 /trackerPageAnalytics.js
-/trackerpixel.js
-/trackEvent.js?
-/trackEvent.min.js?
-/trackga.
-/trackGAEvents.
-/trackImpression/*
-/trackimps?
-/tracking-analytics-
-/tracking-cookie.
+/trackEvent.js
+/trackga.js
+/trackga.min.js
+/tracking-analytics-events.js
+/tracking-cookie.js
 /tracking-events.js
-/tracking-info.gif?
 /tracking-links.js
-/tracking-pixel.
-/tracking-pixel/*
-/tracking.*/impression?
 /tracking.jsp?sid=
 /tracking/airdog
 /tracking/common.
@@ -91926,6 +91916,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||soaprange.com^
 ||soapsmoke.com^
 ||soggysponge.com^
+||solarislabyrinth.com^
 ||somberattack.com^
 ||somberscarecrow.com^
 ||sombersea.com^
@@ -96565,6 +96556,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.media.onet.pl^
 ||stats.ulixes.pl^
 ||statystyki.panelek.com^
+||tp.convertiser.com^
 ||tracking.novem.pl^
 ||trc.gpcdn.pl^
 ||wymiana.org/stat/
@@ -97993,6 +97985,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracker.nbcuas.com^
 ||tracker.ranker.com^
 ||tracker.shopclues.com^
+||tracking.bloomberg.com^
 ||tracking.carsales.com.au^
 ||tracking.christianpost.com^
 ||tracking.digitalocean.com^
