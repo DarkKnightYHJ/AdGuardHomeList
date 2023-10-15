@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OKSHn+8FX42FL22cC1kPUQ
+! Checksum: iyUSVhJI2wzadGbLNey72Q
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202310150203
-! Last Modified: 2023年10月15日 02:03
+! Version: 202310150827
+! Last Modified: 2023年10月15日 08:27
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1929,6 +1929,10 @@ newduba.cn###jq_youxi
 ||yhlzadr.xyz^
 ||yhtpsy8888.cc^
 ||yutiqf.icu^
+||athecsz.cn^
+||xqgduov.cn^
+||bgbqfqwi.xyz^
+||vdggsd015.com^
 ||z91f4.top^
 ||zbxtcwi.xyz^
 ||zchvyet.cn^
@@ -24253,7 +24257,6 @@ m.babytree.com##script + a[class]
 /web-js-telemetry-service/*
 /web-pixel-shopify-app-pixel@
 /web-pixel-shopify-custom-pixel@
-/web-vitals-
 /web-vitals.
 /web-vitals/*
 /web/push?
@@ -24784,6 +24787,7 @@ omni.soundestlink.com$image
 /csi_204?$image,other,ping,script
 /gen_204?$image,other,ping,script
 /generate_204?$image
+||google.*/url?$ping
 ||google.com/gen_204?
 ||googleapis.com^*/gen_204?
 ||gstatic.com/gen_204?
@@ -24962,6 +24966,7 @@ _mongo_stats/
 ||go-mpulse.net^
 ||googleoptimize.com^
 ||googletagmanager.com^
+||gw-dv.vip^
 ||hdmtools.com^
 ||hs-analytics.net^
 ||hsadspixel.net^
@@ -30390,6 +30395,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||a-counter.kiev.ua^$third-party
 ||adblockmetrics.ru^$third-party
 ||admile.ru^$third-party
+||adsmediator.com^$third-party
 ||adx.com.ru^$third-party
 ||airlogs.ru^$third-party
 ||announcement.ru^$third-party
@@ -32421,6 +32427,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.big-boards.com^
 ||stats.bitgravity.com^
 ||stats.bluebillywig.com^
+||stats.bradmax.com^
 ||stats.callnowbutton.com^
 ||stats.cmcigroup.com^
 ||stats.curds.io^
@@ -34460,6 +34467,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cstats.sankakucomplex.com^
 ||cultofmac.com/djrxqhzkbsgf.js
 ||cvs.com/tnadstlinj.js
+||cwt.citywire.info^
 ||d.skk.moe^
 ||dailymail.co.uk/geo/
 ||dailymail.co.uk/rta2/
@@ -35132,6 +35140,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sharesies.com/v1/track
 ||shavetape.cash/stat/
 ||shazam.com/services/metrics/
+||shobiddak.com/logging/
 ||shopeemobile.com/*/tr/
 ||shopmetric.rediff.com^
 ||siberiantimes.com/counter/
@@ -35247,6 +35256,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||swarm.video/stats/
 ||t.3hentai.net^
 ||t.9gag.com^
+||t.airasia.com^
 ||t.allmodern.com^
 ||t.appsflyer.com^
 ||t.av.st^
@@ -53582,6 +53592,7 @@ arketing.indianadunes.com^
 ||fb.ru/stat/
 ||fontanka.ru/api/metrics/
 ||fotostrana.ru/start/
+||goya.rutube.ru^
 ||hh.ru/analytics^
 ||hh.ru/stat?
 ||irecommend.ru/collect/
@@ -54200,7 +54211,6 @@ arketing.indianadunes.com^
 @@||komas19.xyz/cdn-cgi/apps/$script,~third-party
 !----------------Allowlists to fix broken international sites-----------------!
 !---------- German ----------
-## + js(set-cookie, consentAll, 1)
 @@||adconsole.ch/api/ws-businessclick/*/data.json$domain=finanzen.ch
 @@||adnz.co/dmp/publisher.js$domain=finanzen.ch
 @@||adnz.co/header.js?adTagId=$domain=finanzen.ch
