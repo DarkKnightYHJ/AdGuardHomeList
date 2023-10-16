@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: RphWhFwYYELapHdXGW31+g
-! Version: 202310160750
+! Checksum: aIsI1h177gS9UGhJzS1heg
+! Version: 202310160850
 ! Title: ABP filters
-! Last modified: 16 Oct 2023 07:50 UTC
+! Last modified: 16 Oct 2023 08:50 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1412,7 +1412,7 @@ cafef.vn,gamek.vn,genk.vn,soha.vn,tuoitre.vn#$#override-property-read ADMStorage
 bongda365c.com#$#override-property-read isSkipAds true
 zingnews.vn#$#abort-on-property-read adtimaConfig
 baomoi.com#$#abort-on-property-write AdtimaBaomoi
-xoivo7.info,vaoroi13.online#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
+xoivoa.site,vaoroi13.online#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 kenh14.vn#$#override-property-read Constants.allowAds false
 vndoc.com#$#override-property-read seconds 0
 phimvuihd.org#$#override-property-read urlAds ''
@@ -1424,7 +1424,7 @@ thienhatruyen.com#$#abort-current-inline-script $ pc-popup-2
 sexphimhd.net,gvnvh18.com#$#abort-current-inline-script Math
 xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
 xnxx-sex-videos.com#$#override-property-read user_out false
-xuongphim18z.com,phimtopz.com,truyensieuhay.com,tvchill.org,quangcaoyenbai.com,khoaiphim.com,phimmoi.im#$#abort-on-property-read document.cookie
+xuongphim18z.com,phimtopz.com,truyensieuhay.com,tvchill.org,quangcaoyenbai.com,khoaiphim.com,phimmoi.im,phimbom.net#$#abort-on-property-read document.cookie
 phimmoiiii123.com#$#abort-on-property-read matchMedia
 metruyenchu.com#$#abort-on-property-write window.onclick
 ##[href^="//mage98rquewz.com/"]
