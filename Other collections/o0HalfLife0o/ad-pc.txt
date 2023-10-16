@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: a57SNNpScJcfW9yvpglVOA
+! Checksum: PfPmwHIVed4E510ppG3x8g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202310160826
-! Last Modified: 2023年10月16日 08:26
+! Version: 202310161407
+! Last Modified: 2023年10月16日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -67082,6 +67082,8 @@ newduba.cn###jq_youxi
 ||ovfvkfc.xyz^
 ||aniede.xyz^
 ||vdggsd016.com^
+||gmx17.top^
+||gmx13.top^
 ||z91f4.top^
 ||zbxtcwi.xyz^
 ||zchvyet.cn^
@@ -76397,7 +76399,7 @@ bbs-mychat.com###cate_top > tr > .f_one
 sina.com.tw###cboxOverlay
 mangabz.com###cc1
 mangabz.com###cc2
-axutongxue.com,axutongxue.net###ccacc
+axutongxue.com,axutongxue.net###dasopf
 yigujin.cn###cebianlan img[src*="/tp/"]
 dapenti.com###center > div[align="center"][target="_blank"]
 55188.com###center-pic
@@ -84315,7 +84317,6 @@ fqsousou.com,kengso.com#@#.user-share
 /akamai_analytics_
 /AkamaiAnalytics.
 /alog.min.js
-/alweb.rfk.
 /amazon-affiliate-
 /amp-access/cta/*
 /amp-access/cta?
@@ -84417,7 +84418,6 @@ fqsousou.com,kengso.com#@#.user-share
 /analytics/layer
 /analytics/mbox_
 /analytics/metric/*
-/analytics/newrelic_
 /analytics/page_view.
 /analytics/pageview
 /analytics/rt?
@@ -84434,44 +84434,27 @@ fqsousou.com,kengso.com#@#.user-share
 /analytics/trackevent
 /analytics/visit/*
 /Analytics/Visitor.
-/analytics/wss?
-/analytics?body=
 /analytics?http_referer
 /analytics?token=
-/analytics_embed.
-/analytics_frame.
-/analytics_id.
-/analytics_js/*
-/analytics_min.
-/analytics_ping.
-/analytics_prod.
-/analytics_push.
-/analytics_tag.
-/analytics_tracker
+/analytics_js/client.js
+/analytics_prod.js
+/analytics_tag.js
+/analytics_tracker.js
 /analytics_v2.js
-/analytics_wbc.
-/analytics_www.
-/analyticsConfig?
+/analytics_wbc.min.js
+/analytics_www.js
 /AnalyticsDataLayer.
-/AnalyticsEvent.
-/analyticsFooter.
-/analyticsid.
-/analyticsjs.
+/AnalyticsEvent.js
+/analyticsFooter.js
+/analyticsjs.js
 /analyticsjs/*
-/analyticsScript.
-/analyticsscript_
-/analyticstick.
-/analyticstrack.
-/analyticstracking.
-/analyticstracking?
-/analyticstracking_
-/analytix/events
-/anametrix/*
+/analyticsscript.ashx
+/analyticstrack.js
+/analyticstracking.js
+/anametrix/cas.js
 /anapixel.
 /anclytic-ajax.
-/angular-tag.
-/angular-tag_
-/angularlytics.
+/angular-tag.js
 /anonymous_user_guid.gif?
 /api-analytics.
 /api-insights/log?
