@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: DE5no3gg8ZyFAlNLwSQQMA
-! Version: 202310170950
+! Checksum: G93xxGq2nP0k6N070jp1Yg
+! Version: 202310171040
 ! Title: EasyList
-! Last modified: 17 Oct 2023 09:50 UTC
+! Last modified: 17 Oct 2023 10:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -63224,6 +63224,8 @@ lowes.com#?#.tile_group:-abp-has(.sponsored-badge)
 4wank.com#?#.video-holder > center > :-abp-contains(/^Advertisement$/)
 hannaford.com#?#.header-2:-abp-contains(Sponsored Suggestions)
 hannaford.com#?#.plp_thumb_wrap:-abp-has([data-citrusadimpressionid])
+truthsocial.com#?#.relative > .p-4:-abp-has(a[href*="/@TruthAds"])
+truthsocial.com#?#.status-unlisted.status__wrapper:-abp-has(div:-abp-contains(Sponsored Truth))
 freshdirect.com#?#.swiper-slide:-abp-contains(Sponsored)
 giantfood.com,giantfoodstores.com,martinsfoods.com#?#.product-cell:-abp-has(.flag_label--sponsored)
 giantfood.com,giantfoodstores.com,martinsfoods.com#?#.zone-block:-abp-contains(Sponsored Suggestions)

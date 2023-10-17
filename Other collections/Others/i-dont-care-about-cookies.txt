@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Version: 350.202310120806
+! Version: 350.202310170904
 ! Title: I don't care about cookies
 ! Expires: 3 days
 ! Licence: https://www.gnu.org/licenses/gpl-3.0.html
 ! Homepage: https://www.i-dont-care-about-cookies.eu/
-! Last modified: 12 Oct 2023 08:06 UTC
+! Last modified: 17 Oct 2023 09:04 UTC
 !
 !
 ! GLOBAL RULES
@@ -705,7 +705,7 @@
 ###scc-mask
 ###cookiesAlert
 ###layer_cookie
-~mercedes-benz.cr,~effector.pl,~e-zikoapteka.pl,~autoersatzteile.de,~autoteiledirekt.de,~nike.com##.cookies-popup:not(body):not(html)
+~mercedes-benz.cr,~effector.pl,~allecco.pl,~e-zikoapteka.pl,~zikodermo.pl,~autoersatzteile.de,~autoteiledirekt.de,~nike.com##.cookies-popup:not(body):not(html)
 ###user-cookie-message
 ###cookie-information
 ##div[aria-describedby*="cookie-info"]
@@ -965,7 +965,7 @@
 ###cookie-monster-bar
 ###footerCookies
 ###cookie-accept-panel
-~e-zikoapteka.pl##.cookies-info:not(body):not(html)
+~allecco.pl,~e-zikoapteka.pl,~zikodermo.pl##.cookies-info:not(body):not(html)
 ###cnil-cookie
 ~educhel.ru,~eduface.ru,~edumsko.ru##.cookies_popup:not(body):not(html)
 ##.cookies_popup_bottom_container
@@ -9036,7 +9036,7 @@
 ##.adn-cookie-pannel-container
 ##.initial-cmp-container-overlay
 ###hidden-cookie-message
-~nytimes.com##.expanded.gdpr
+##.expanded.gdpr
 ###dsgvo-container
 ##body > .ccdiv
 ###ng-cc[open]
@@ -13241,7 +13241,7 @@
 ###rndcookie_banner
 ###app-root div[class*="CookiesBanner"]
 ##.sticky[x-data*="CookieBanner"]
-##.amgdprjs-bar-template
+~primor.eu##.amgdprjs-bar-template
 ###ckieBnr_footer
 ##.cookies-manage-popin
 ###dsgvo a[href*="CCM"]
@@ -13724,6 +13724,7 @@
 ##.cookie-accept-popover
 ###toast-cookie-info
 ##.fd-consent-main
+##gdpr-policy-banner
 !
 ! CUSTOM RULES
 !
@@ -17048,7 +17049,6 @@ homenet.no###toast, .toast
 tellshell.shell.com###toast, .toast
 sotec-consulting.com##.toast-container
 stodola.pl##.toast-container
-r-studio.com###pp-info
 cheapsslsecurity.com##.popuphome
 notariat-schoeffmann.at##body > div:not([id]):not([class])
 nimbusweb.me##.ncp1-message
@@ -17861,7 +17861,6 @@ komtet.ru###alert-users
 actionaid.fr##.rgpd
 costillasalhorno.com###cookies
 nfumutual.co.uk##section[aria-describedby="cookiedesc"]
-r-wipe.com###pp-info
 go.com##body[data-ad_system] > div[style*="fixed"], .terms-alert-fixed
 espn.com##.Tooltip--fixed.Tooltip--fixed-bottom, .alert.alert--fixed
 baywa-re.it##.gg_cookie
@@ -18200,7 +18199,6 @@ selle-proust.fr##.elementor-popup-modal
 stoppub.fr##.elementor-popup-modal
 golder.com##.popcookies
 amara.com###consent-modal
-r-tt.com###pp-info
 grainsystems.com##.disclaimerpopup
 warmbat.nl##.cookie
 wasted.fr###cookies
@@ -21150,7 +21148,6 @@ argeles-sur-mer.com##.cookies-global
 pharmasimple.com###pharmabiscuit-popin
 ibisahome.com###cookies
 westend61.de###cookie_Modal
-aliexpress.com##.ui-mask, .gdpr-dialog-class, #j-aliexpress-notice, #container-for-smart-banner ~ div:not([id]):not([class*=" "]):not([style]):nth-last-child(2), #voyager-gdpr, .site-notice-header
 aromes-et-liquides.fr###rgpdcookie
 boomin.com##div[data-testid*="cookie-modal"]
 panasonicproclub.com###over
@@ -22673,7 +22670,6 @@ pildorasdefe.net##.cookies
 academy.com##.content-wrapper > div > div[role="complementary"]
 menobr.ru##div[class*="cookieContainer"]
 swissborg.com##.cookieBox + div
-mckinseyaccelerate.com##doc-layout-cookie-policy-banner
 alvexo.com##.sticky_cookies_txt
 donnons.org##.noconsent-info
 att.com###gpc-banner-container
@@ -22903,6 +22899,16 @@ depo.lv##.depo-cookies
 depo.ee##.depo-cookies
 nytimes.com###dock-container[data-testid*="gdpr"]
 hudy.cz##.cookie-modal
+gasspisen.se###__next > #slide-out + div ~ div
+aliexpress.com###gdpr-new-container, #voyager-gdpr
+cc.cz##.b-cookie-bar
+octopusenergy.it###content ~ div
+octopusenergy.es##div[data-testid="iconCookies"]
+drive-image.com###pp-info
+r-studio.com###pp-info
+r-wipe.com###pp-info
+r-tt.com###pp-info
+1password.com##main ~ .w-full.fixed.bottom-0, #js-cookie-banner-new
 !
 ! SCRIPT BLOCKING
 !
@@ -23787,7 +23793,7 @@ digitrust.mgr.consensu.org
 sharethis.mgr.consensu.org
 webads.mgr.consensu.org
 etarget.mgr.consensu.org
-optad360.mgr.consensu.org$domain=~infogliwice.pl|~zlubaczowa.pl
+optad360.mgr.consensu.org
 shinystat.mgr.consensu.org
 dan.mgr.consensu.org
 ogury.mgr.consensu.org
@@ -24311,6 +24317,7 @@ poool.fr/access.min.js$script,domain=spektrum.de
 /cookie-preferences$domain=halebop.se
 /cmp_puk.js$domain=commerzbank.de
 /scmp-int.js$domain=mapy.cz
+privacy-mgmt.com$domain=immobilien.derstandard.at
 !
 ! FILTERLIST ONLY
 !
