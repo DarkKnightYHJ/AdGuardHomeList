@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pjhlP1Krn4NDcwQeO9hZFg
-! Version: 202310172141
+! Checksum: QJQNMxhwYlpXpgqb8vvdog
+! Version: 202310172240
 ! Title: EasyList China+EasyList
-! Last modified: 17 Oct 2023 21:41 UTC
+! Last modified: 17 Oct 2023 22:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -77170,6 +77170,7 @@ theteche.com###custom_html-8
 laineygossip.com###date-banner
 helpwithwindows.com###desc
 fastfoodnutrition.org###desk_leader_ad
+deccanherald.com###desktop-ad
 republicworld.com###desktop-livetv-728-90
 infotel.ca###desktopBannerBottom
 infotel.ca###desktopBannerFooter
@@ -82066,6 +82067,8 @@ yovizag.com#?#.jeg_column:-abp-has(>.jeg_wrapper > .jeg_ad)
 fanatics.com#?#.product-card:-abp-has(.sponsored-badge)
 walmart.ca#?#div[data-automation="product"]:-abp-has(div[data-automation="sponsored-indicator-wrapper"])
 boots.com#?#li.estore_product_container:-abp-has(.sponsored)
+deccanherald.com#?#div#container-text:-abp-contains(ADVERTISEMENT)
+deccanherald.com#?#span.container-text:-abp-contains(ADVERTISEMENT)
 ulta.com#?#li.ProductListingResults__productCard:-abp-has(.ProductCard__badge>p:-abp-contains(Sponsored))
 kroger.com#?#.AutoGrid-cell:-abp-has(.ProductCard-tags>div>svg.kds-Icon)
 kroger.com#?#.KDSProductCarouselView--default:-abp-has(>.kds-Card>.ProductCard-tags>div>svg.kds-Icon)
