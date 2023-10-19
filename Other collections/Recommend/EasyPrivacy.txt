@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: AWPsIT1TUbYp6SUW/shKNw
-! Version: 202310190031
+! Checksum: 6w/iOko5ojTkJRsJz73wgw
+! Version: 202310190120
 ! Title: EasyPrivacy
-! Last modified: 19 Oct 2023 00:31 UTC
+! Last modified: 19 Oct 2023 01:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1611,6 +1611,7 @@
 /metricool.js
 /metrics-backend/*
 /metrics-ga.
+/metrics/bambuser.min.js
 /metrics/event?
 /metrics/init?
 /metrics/metrics$domain=~docs.datadoghq.com|~spatineo.com
@@ -11790,6 +11791,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||yottaa.com/rapid.min.js
 ||youborafds01.com/data?
 ||zapcdn.space/zapret.js
+||zendesk.com/frontendevents/pv?
 ||zengenti.com/tags/
 ||ziffdavisb2b.com^*/tracker.js
 ||zineone.com^*/event
@@ -11934,7 +11936,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dn34cbtcv9mef.cloudfront.net^
 ||dnn506yrbagrg.cloudfront.net^
 ||dnxlgencstz4.cloudfront.net^
-||dp64mxip2za0c.cloudfront.net^
 ||dr3fr5q4g2ul9.cloudfront.net^
 ||drlimmode9ddd.cloudfront.net^
 ||dsbahmgppc0j4.cloudfront.net^
@@ -12760,6 +12761,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cafe24.com/cfa.js
 ||cafe24.com/weblog.js
 ||cm-exchange.toast.com^
+||event.hackle.io^
 ||log.adplex.co.kr^
 ||log.cizion.com^
 ||log.mofa.go.kr^
@@ -14345,7 +14347,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vrbo.com/serp/api/metrics
 ||vsco.co/api/cantor/track
 ||w3-reporting.reddit.com^
+||wa.childrensplace.com^
 ||wa.gmx.co.uk^
+||wa.gymboree.com^
+||wa.pjplace.com^
+||wa.sugarandjade.com^
 ||waaw.ac/cdn-cgi/trace
 ||waaw.to/cdn-cgi/trace
 ||waaw1.tv/cdn-cgi/trace
@@ -14359,6 +14365,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||web.whatsapp.com/wam
 ||weblog.flyasiana.com^
 ||webmd.com/static/v/c?
+||weedmaps.com/pixel?
 ||wellsfargo.com/as/jsLog
 ||wellsfargo.com/dti_apg/
 ||wellsfargo.com/jenny/
@@ -32510,8 +32517,10 @@ arketing.indianadunes.com^
 ||aem-collector.daumkakao.io^
 ||auction.co.kr/ad/log.js
 ||auction.co.kr/montelena.js
+||bizlog-gateway.myrealtrip.com^
 ||chosun.com/hitlog/
 ||count.munhwa.com^
+||data-logdelivery.wconcept.co.kr^
 ||daumcdn.net^*/awsa.js
 ||gmarket.co.kr/js/common/uuid.js
 ||hits.zdnet.co.kr^
@@ -32530,6 +32539,7 @@ arketing.indianadunes.com^
 ||stat.tiara.daum.net^
 ||stat.tiara.kakao.com^
 ||stat.tiara.tistory.com^
+||stat.wanted.jobs^
 ||track.tiara.daum.net^
 ||track.tiara.kakao.com^
 ||tracker.cauly.co.kr^
