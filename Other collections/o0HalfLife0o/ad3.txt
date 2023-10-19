@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: u4LAbOx9o+v844d/xX5KrQ
+! Checksum: xyY5DrJNNldtlmXCDebsmA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202310190207
-! Last Modified: 2023年10月19日 02:07
+! Version: 202310190825
+! Last Modified: 2023年10月19日 08:25
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1984,6 +1984,15 @@ newduba.cn###jq_youxi
 ||yutiqf.icu^
 ||z1wfe.top^
 ||z91f4.top^
+||rkds2.icu^
+||gmx47.top^
+||myyxox.icu^
+||icvsleec.xyz^
+||lianglili2.cn^
+||yxrxsov.xyz^
+||wvtem.com^
+||ugvbsrbht.xyz^
+||dvnqhdmze.xyz^
 ||zbxtcwi.xyz^
 ||zchvyet.cn^
 ||zcpsc.top^
@@ -21860,6 +21869,7 @@ m.babytree.com##script + a[class]
 /c?siteID=$image,script
 /c_track.php?
 /cache/analytics.
+/cache_warmer/track/*
 /cached-scripts/analytics.js
 /caixinlog.js
 /call-tracking.js
@@ -22010,6 +22020,7 @@ m.babytree.com##script + a[class]
 /collect?r=
 /collect?tid=
 /collect?type=
+/collect?v=
 /collect_data.php?
 /collect_stat.
 /collector/beacon
@@ -22863,6 +22874,7 @@ m.babytree.com##script + a[class]
 /madAnalytics.js
 /magento/page-visit?
 /magento2.js
+/marfeelanalytics.js
 /marketing-analytics.js
 /martypixel?
 /matomo-tracking.
@@ -25003,6 +25015,7 @@ _mongo_stats/
 ||ia-dmp.com^
 ||iconmediapixel.com^
 ||iconnode.com^
+||id-ward.com^
 ||id5-sync.com^
 ||idx.lat^
 ||impactcdn.com^
@@ -31955,6 +31968,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||metrics.pico.tools^
 ||metrics.scribblelive.com^
 ||metrics.userguiding.com^
+||metrika.cdn112.com^
 ||metrix.emagister.com^
 ||mikeneko.apollo.moe/js/script.js
 ||minutemediacdn.com/campaign-manager-client/
@@ -33632,6 +33646,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tanx.com/t/tanxcollect.js
 ||taobao.com/tracker.
 ||tce.alicdn.com^
+||tieszhu.com/e.html
 ||tns.simba.taobao.com^
 ||toruk.tanx.com^
 ||tr.n2.hk^
@@ -34124,6 +34139,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||traktor.ru^*/counter.php?
 ||uc.xddi.ru^
 ||ulogin.ru/js/stats.js
+||umnico.com/tracker/
 ||upstats.yadro.ru^
 ||uptolike.com/widgets/*/imp?
 ||visitor-microservice.ext.p-a.im^
@@ -34377,6 +34393,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||behance.net/v2/logs
 ||bfp.capitalone.com^
 ||bhphotovideo.com/aperture/shared/js/dataLayer.js
+||bi.banggood.com^
 ||bigw.com.au/api/event/
 ||bigw.com.au/events/
 ||bing.com/fd/ls/GLinkPing.aspx?
@@ -34608,6 +34625,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events.santander.co.uk^
 ||events.squarespace.com^
 ||events.turbosquid.com^
+||events2.www.edenfantasys.com^
 ||evs.sgmt.loom.com^$script
 ||expedia.*/cl/
 ||expressvpn.com/__px.gif?
@@ -35115,6 +35133,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rbc.ua/enghits/
 ||realestate.com.au^*/p.js
 ||realitytvworld.com/images/pixel.gif
+||rec.banggood.com^
 ||reddit.com/static/pixel.png$image
 ||reddit.com/timings/
 ||redditmedia.com/gtm/jail?
@@ -52997,6 +53016,8 @@ arketing.indianadunes.com^
 ||flog.pressplay.cc^
 ||forum.zuvio.com.tw/api/article/finish
 ||frog.yuanfudao.com^
+||ftwo-feedback.autohome.com.cn^
+||ftwo-receiver.autohome.com.cn^
 ||gentian-frd.hjapi.com^
 ||gia.jd.com^
 ||gk.sina.cn^
@@ -53006,6 +53027,7 @@ arketing.indianadunes.com^
 ||hujiang.com/v2/log
 ||i-cable.com/ci/tracking/
 ||i-tm.com.tw/api/itm-tracker.js$domain=pixnet.net
+||idm.api.autohome.com.cn^
 ||ifeng.com/i?p=
 ||imgstat.baidu.com^
 ||improving.wuzhuiso.com^
@@ -53507,6 +53529,7 @@ arketing.indianadunes.com^
 ||log.zdnet.co.kr^
 ||naver.com/PostView.nhn?$image
 ||nil.naver.com^
+||pds.auction.co.kr^
 ||rake.11st.co.kr^
 ||seoul.co.kr/weblog/
 ||sp.naver.com^
@@ -53518,6 +53541,7 @@ arketing.indianadunes.com^
 ||track.tiara.kakao.com^
 ||tracker.cauly.co.kr^
 ||uts.auction.co.kr^
+||utsssl.auction.co.kr^
 ||wcs.naver.com^
 ||weblog.eseoul.go.kr^
 ||weblog2.eseoul.go.kr^
