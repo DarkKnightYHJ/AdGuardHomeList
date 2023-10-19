@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: MoG+rjNySLVl0/G2Ow04hg
-! Version: 202310190840
+! Checksum: k1Nj/08dr3+Qu4uj2RsN0w
+! Version: 202310190950
 ! Title: ABP filters
-! Last modified: 19 Oct 2023 08:40 UTC
+! Last modified: 19 Oct 2023 09:50 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1217,7 +1217,7 @@ filmesonlinegratis.com#$#abort-current-inline-script Math zfgloaded
 zen.yandex.ru##div[class*="is-parent-size_undefined"]
 ~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,~telephony.yandex.ru,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr##div[class*="item_type_"][class*="item_rendered"]
 ||razlozhi.ru^$script,header=report-to
-avtovzglyad.ru,dni.ru,baby.ru,doramatv.live,selflib.me#$#abort-on-property-read Ya
+avtovzglyad.ru,dni.ru,baby.ru,selflib.me#$#abort-on-property-read Ya
 kakprosto.ru#$#abort-current-inline-script document.createElement String.fromCharCode; abort-on-property-write window.yaProxy; abort-on-property-write Object.defineProperty
 ||liveinternet.ru^$xmlhttprequest,header=Uniformat-Product-Type
 otzovik.com#$#abort-on-property-read Object.prototype.RtbBlockCreateWrapper
@@ -1226,6 +1226,7 @@ yandex.by,yandex.fr,yandex.kz,~telephony.yandex.ru,yandex.ru,yandex.ua,yandex.uz
 razlozhi.ru,24smi.org,auto.ru,drive2.ru,gorodrabot.ru,kinopoisk.ru#$#abort-on-property-read Element.prototype.attachShadow; abort-on-iframe-property-read Element.prototype.attachShadow
 24smi.org#$#abort-on-property-write document.cookie; cookie-remover /^/
 gorodrabot.ru#$#abort-on-property-read Object.prototype.storeBlockSettings
+||doramatv.live^$header=x-yandex-req-id
 ! #CV-659
 ringside24.com,gagadget.com#$#abort-on-property-read localStorage
 newsyou.info#$#abort-on-property-read localStorage
@@ -1417,7 +1418,7 @@ rainanime.net#$#abort-on-property-read NativeAd
 ! #CV-1809
 mercadolibre.com.ar,mercadolibre.com.bo,mercadolivre.com.br,mercadolibre.cl,mercadolibre.com.co,mercadolibre.co.cr,mercadolibre.com.do,mercadolibre.com.ec,mercadolibre.com.gt,mercadolibre.com.hn,mercadolibre.com.mx,mercadolibre.com.ni,mercadolibre.com.pa,mercadolibre.com.py,mercadolibre.com.pe,mercadolibre.com.sv,mercadolibre.com.uy,mercadolibre.com.ve#$#hide-if-matches-xpath './/div[@class="ui-search-item__pub-container"]/preceding::a[@rel="nofollow,sponsored"]/ancestor::div[contains(@class,"ui-search-result__wrapper")]'
 mercadolibre.com.ar,mercadolibre.com.bo,mercadolivre.com.br,mercadolibre.cl,mercadolibre.com.co,mercadolibre.co.cr,mercadolibre.com.do,mercadolibre.com.ec,mercadolibre.com.gt,mercadolibre.com.hn,mercadolibre.com.mx,mercadolibre.com.ni,mercadolibre.com.pa,mercadolibre.com.py,mercadolibre.com.pe,mercadolibre.com.sv,mercadolibre.com.uy,mercadolibre.com.ve#$#hide-if-matches-xpath './/span[@class="ui-search-sidebar-advertising__title"][text()]/ancestor::div[@class="ui-search-sidebar-advertising title-advertising"]/parent::div[@class="ui-search-sidebar-advertising__display"]'
-mercadolibre.com.ar,mercadolibre.com.bo,mercadolivre.com.br,mercadolibre.cl,mercadolibre.com.co,mercadolibre.co.cr,mercadolibre.com.do,mercadolibre.com.ec,mercadolibre.com.gt,mercadolibre.com.hn,mercadolibre.com.mx,mercadolibre.com.ni,mercadolibre.com.pa,mercadolibre.com.py,mercadolibre.com.pe,mercadolibre.com.sv,mercadolibre.com.uy,mercadolibre.com.ve#$#hide-if-matches-xpath './/div[@class="andes-carousel-snapped__wrapper"]/preceding::a[@rel="nofollow, sponsored"]/preceding::p[contains(@class,"ui-recommendations-font-color--GRAY")]/ancestor-or-self::section[@class="ui-recommendations-carousel-wrapper-ref"]'
+mercadolibre.com.ar,mercadolibre.com.bo,mercadolivre.com.br,mercadolibre.cl,mercadolibre.com.co,mercadolibre.co.cr,mercadolibre.com.do,mercadolibre.com.ec,mercadolibre.com.gt,mercadolibre.com.hn,mercadolibre.com.mx,mercadolibre.com.ni,mercadolibre.com.pa,mercadolibre.com.py,mercadolibre.com.pe,mercadolibre.com.sv,mercadolibre.com.uy,mercadolibre.com.ve#$#hide-if-matches-xpath './/a[@rel="nofollow, sponsored"]//ancestor-or-self::section[@class="ui-recommendations-carousel-wrapper-ref"][1]'
 ! *** abp-filters-anti-cv:turkish.txt ***
 ! #CV-717
 yandex.com.tr#$#hide-if-contains reklam li.serp-item 'li.serp-item div.label'
