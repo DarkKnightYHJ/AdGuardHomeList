@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xyY5DrJNNldtlmXCDebsmA
+! Checksum: MAE3q4L2WiRPRN+xl0ZkGg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202310190825
-! Last Modified: 2023年10月19日 08:25
+! Version: 202310191407
+! Last Modified: 2023年10月19日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1993,6 +1993,10 @@ newduba.cn###jq_youxi
 ||wvtem.com^
 ||ugvbsrbht.xyz^
 ||dvnqhdmze.xyz^
+||fmvbyji.cn^
+||gmx45.top^
+||gth112.com^
+||dwerzv.xyz^
 ||zbxtcwi.xyz^
 ||zchvyet.cn^
 ||zcpsc.top^
@@ -22905,6 +22909,7 @@ m.babytree.com##script + a[class]
 /metricool.js
 /metrics-backend/*
 /metrics-ga.
+/metrics/bambuser.min.js
 /metrics/event?
 /metrics/init?
 /metrics/metrics$domain=~docs.datadoghq.com|~spatineo.com
@@ -23379,6 +23384,7 @@ m.babytree.com##script + a[class]
 /pvcounter.
 /pvcounter/*
 /pvcounter?
+/PvCountUp.action
 /pvmax.js
 /pvnoju.js
 /px.gif?
@@ -24165,26 +24171,20 @@ m.babytree.com##script + a[class]
 /users/track?
 /UserTraceCookie?
 /usertrack.aspx?
-/usertrack/sa.
 /usertracking.js
-/usrtrck-
-/usrtrck_
-/utag.ga.
-/utag.loader-
-/utag.loader.
-/utag.sync.
-/utag_data.
-/utm-tracking.
+/utag.loader.js
+/utag.sync.js
+/utag_data.js
+/utm-tracking.js
 /utm.gif?
-/utm_cookie.
+/utm_cookie.js
+/utm_cookie.min.js
 /utrack.js?
 /utrack?
 /utracker.js
 /uutils.fcg?
 /v.gif?
 /v1/adn/visit|
-/v1/impressions
-/v1/page-hit
 /v1/pixel.js
 /v1/pixel?
 /v1/stats/track
@@ -24192,20 +24192,14 @@ m.babytree.com##script + a[class]
 /v4/analytics/*$~xmlhttprequest
 /v4/metrics
 /v60.js
-/va-stat.
 /valnet-header.
-/valnetinccom-adapter.
-/valueclickbrands/*
-/vanillaanalytics/*
-/vanillastats/*
+/valnetinccom-adapter.js
+/vanillaanalytics/js/vendors/js.cookie.js
 /vastlog.txt?
-/vblntpagetag.
 /vecapture.js
-/vendemologserver-
-/vendor/analytics.
+/vendor/analytics.js
 /vendor/analytics/*
-/vendor/xtcore.
-/vertical-stats.
+/vendor/xtcore.js
 /vestigo/v1/measure
 /vglnk.js
 /vgwort/*
@@ -24214,26 +24208,18 @@ m.babytree.com##script + a[class]
 /video/tracking.js
 /video_count.php?
 /videoanalytic/*
-/videojs-analytics.
-/videojs-tracking.
+/videojs-analytics.js
 /videojs.ga.
-/VideoTracking.
-/vidtrack.
+/videotracking.js
+/vidtrack.js
 /view-tracking/*$image
 /view.gif?
-/View/PvCountUp.
 /view_stats.js.php
-/viewcount-service.
 /ViewCounter/*
 /viewerimpressions?
 /views_tracking/*
 /viewtracking.aspx?
 /viewTracking.min.js
-/viglink_
-/vimn_tracking.
-/vip-analytics.
-/viperbar/stats.php?
-/visci-interface.
 /visistat.js
 /visit-tag?
 /visit-tracker.js
@@ -24246,15 +24232,13 @@ m.babytree.com##script + a[class]
 /visit?id=
 /visit_log.js
 /visit_pixel?
-/visit_tracking.
 /VisitCounter.
 /visitinfo.js
 /VisitLog.asmx
 /visitor-event?
 /visitor-js/?
-/visitor-params.
+/visitor-params.js
 /Visitor.aspx?
-/visitor.cgi?aff
 /visitor.gif?ts=
 /visitor.js?key=
 /visitor.min.js
@@ -24262,7 +24246,7 @@ m.babytree.com##script + a[class]
 /visitor_id.jsp
 /visitor_info?
 /VisitorAPI.js
-/visitorCookie.
+/visitorCookie.js
 /visitorcountry.svc/*
 /VisitorIdentification.js
 /visitors/screencount?
@@ -24270,45 +24254,24 @@ m.babytree.com##script + a[class]
 /visitortracker.pl?
 /visits/pixel?
 /visits?aff_
-/visits_contor.
 /VisitSite.js
 /VisitTracking?
-/visitWebPage?_
-/visscore.
-/visual_revenue.
-/visualdna-
-/visualdna.
+/visscore.tag.min.js
 /visualrevenue.js
-/visualsciences.
-/visualsciences_
-/visualstat/stat.php
 /vjslog?
-/vmtracking.
-/vpstats.
-/vptrack_
 /vs-track.js
 /vs.gif?
-/vs/track.
-/vs_track.
 /vsl/imp?
 /vstat.php
-/vstrack.
 /vtrack.aspx
 /vtrack.php?
 /vtrack?vid=
-/vTracker_
 /vwFiles/analytics/*
 /w.gif?
 /wa.gif?
-/wa?ctag
-/wa_tracker.
-/wa_tracker_
-/wanalytics/*
-/watchonline_cookies.
-/wbstats/index/*
+/wa_tracker.js
 /wcount.php?
-/wdg/tracking-
-/web-analytics.
+/web-analytics.js
 /web-api/log/*
 /web-data-ingress?
 /web-js-telemetry-service/*
@@ -24318,8 +24281,8 @@ m.babytree.com##script + a[class]
 /web-vitals/*
 /web/push?
 /web_analytics/*
-/web_answertip.
-/Web_JS_Stats.
+/web_answertip.js
+/Web_JS_Stats.js
 /web_logger/*
 /web_tracking_
 /web_traffic_capture.js
@@ -24346,31 +24309,19 @@ m.babytree.com##script + a[class]
 /webstats_counter/*
 /webtag.js
 /webtrack.js
-/webtracker.
+/webtracker.dll
 /webtracking/*$~subdocument,domain=~wwwapps.ups.com
 /webtraffic.js
-/webtraxs.
-/webtrekk_mediaTracking.
-/webtrekk_teaserTracking.
-/webtrends.min.
-/webtrends/webtrends.
-/weizenbock/dist/*
+/webtraxs.js
+/webtrekk_mediaTracking.min.js
+/webtrends.js
+/webtrends.min.js
 /wf-beacon-
-/wffm-cookies.
-/wfmanalytics/*
-/wh_tracking.
 /whisper?event=
 /white_pixel.gif?
-/widget/track_event
 /wildfire/i/CIMP.gif?
-/wisdom_tracking.
-/wiseRtSvcVisit.
 /wix-engage-visitors-
-/wjcounter-
-/wjcounter.
-/wjcountercore.
-/wlexpert_tracker.
-/wlexpert_tracker/*
+/wlexpert_tracker.js
 /wmxtracker.js
 /woocommerce-google-adwords-conversion-tracking-tag/*
 /woopra.js
@@ -25182,6 +25133,7 @@ _mongo_stats/
 ||uidapi.com^
 ||uqd.io^
 ||ustat.info^
+||venture-365-inspired.com^
 ||venusrevival.com^
 ||vfgte.com^
 ||videoplayerhub.com^
@@ -33005,6 +32957,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||yottaa.com/rapid.min.js
 ||youborafds01.com/data?
 ||zapcdn.space/zapret.js
+||zendesk.com/frontendevents/pv?
 ||zengenti.com/tags/
 ||ziffdavisb2b.com^*/tracker.js
 ||zineone.com^*/event
@@ -33147,7 +33100,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dn34cbtcv9mef.cloudfront.net^
 ||dnn506yrbagrg.cloudfront.net^
 ||dnxlgencstz4.cloudfront.net^
-||dp64mxip2za0c.cloudfront.net^
 ||dr3fr5q4g2ul9.cloudfront.net^
 ||drlimmode9ddd.cloudfront.net^
 ||dsbahmgppc0j4.cloudfront.net^
@@ -33936,6 +33888,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cafe24.com/cfa.js
 ||cafe24.com/weblog.js
 ||cm-exchange.toast.com^
+||event.hackle.io^
 ||log.adplex.co.kr^
 ||log.cizion.com^
 ||log.mofa.go.kr^
@@ -35502,7 +35455,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vrbo.com/serp/api/metrics
 ||vsco.co/api/cantor/track
 ||w3-reporting.reddit.com^
+||wa.childrensplace.com^
 ||wa.gmx.co.uk^
+||wa.gymboree.com^
+||wa.pjplace.com^
+||wa.sugarandjade.com^
 ||waaw.ac/cdn-cgi/trace
 ||waaw.to/cdn-cgi/trace
 ||waaw1.tv/cdn-cgi/trace
@@ -35516,6 +35473,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||web.whatsapp.com/wam
 ||weblog.flyasiana.com^
 ||webmd.com/static/v/c?
+||weedmaps.com/pixel?
 ||wellsfargo.com/as/jsLog
 ||wellsfargo.com/dti_apg/
 ||wellsfargo.com/jenny/
@@ -53517,8 +53475,10 @@ arketing.indianadunes.com^
 ||aem-collector.daumkakao.io^
 ||auction.co.kr/ad/log.js
 ||auction.co.kr/montelena.js
+||bizlog-gateway.myrealtrip.com^
 ||chosun.com/hitlog/
 ||count.munhwa.com^
+||data-logdelivery.wconcept.co.kr^
 ||daumcdn.net^*/awsa.js
 ||gmarket.co.kr/js/common/uuid.js
 ||hits.zdnet.co.kr^
@@ -53537,6 +53497,7 @@ arketing.indianadunes.com^
 ||stat.tiara.daum.net^
 ||stat.tiara.kakao.com^
 ||stat.tiara.tistory.com^
+||stat.wanted.jobs^
 ||track.tiara.daum.net^
 ||track.tiara.kakao.com^
 ||tracker.cauly.co.kr^
