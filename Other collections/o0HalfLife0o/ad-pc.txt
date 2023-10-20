@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HV6779+F6zCBulOj73YGpQ
+! Checksum: Po4jcmODA+TfAAbr9S2JKQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202310201407
-! Last Modified: 2023年10月20日 14:07
+! Version: 202310202008
+! Last Modified: 2023年10月20日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -24716,6 +24716,7 @@ browsershots.org#@#.advert_area
 ||ccaahdancza.com^
 ||ccdneniusruhebl.com^
 ||ccgkudwutf.com^
+||ccgzcavzbmztk.com^
 ||ccieoqej.xyz^
 ||ccjzuavqrh.com^
 ||ccmdcinut.com^
@@ -27944,6 +27945,7 @@ browsershots.org#@#.advert_area
 ||ecipientconcertain.info^
 ||ecityalittl.buzz^
 ||eclatedpewy.com^
+||eclebgjz.com^
 ||eclkmpbn.com^
 ||eclkmpsa.com^
 ||eclogicmeows.com^
@@ -61402,6 +61404,7 @@ thebarentsobserver.com##.pane-title
 comedycentral.com.au##.pane-vimn-coda-gpt-panes
 wunderground.com##.pane-wu-fullscreenweather-ad-box-atf
 khmertimeskh.com##.panel-grid-cell
+tutorialspoint.com##.panel-htop.layout-panel-east
 panarmenian.net##.panner_2
 battlefordsnow.com,cfjctoday.com,everythinggp.com,huskiefan.ca,larongenow.com,meadowlakenow.com,nanaimonewsnow.com,northeastnow.com,panow.com,rdnewsnow.com,sasknow.com,vernonmatters.ca##.parallax-breakout
 hltv.org##.parimatch-firstcol-box
@@ -67161,6 +67164,9 @@ newduba.cn###jq_youxi
 ||hcgbhq.com^
 ||nbxymdy.cn^
 ||zzyy19.top^
+||gelbjvl.cn^
+||omzxutfm.com^
+||pdweoyw.cn^
 ||zbxtcwi.xyz^
 ||zchvyet.cn^
 ||zcpsc.top^
@@ -76127,6 +76133,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+bilibili.com##.activity-slider[style="width: 1220px;"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -117816,11 +117823,14 @@ arketing.indianadunes.com^
 ||biancheng.net/templets/new/images/index_pc/fudaoban_
 ||3dmgame.com/page/js/indexalert_ad.
 ||nicelinks.site/ad-block-
-||juejin.cn/content_api/v1/advert/query_adverts?
 ||djljz.cn/Plugins/Template/XJLY/js/app.
 ||infogram.com^$domain=hk01.com
 ||letvcdn.com/lc02_live/201803/18/23/40/1521387641261new.
 !------------------------Specific element hiding rules------------------------!
+51cto.com##.right-fixadv
+51cto.com###advCanvas
+7k7k.com##.pendant
+7k7k.com###flashAds
 yisu.com##.coupon-get-link
 on.cc##.appinstall
 36kr.com##.app-track-card
