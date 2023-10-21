@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6bVAqAOAH62ZKN78yfzt3A
+! Checksum: 8N1BBvIZ6OH9QwLdmV3CjQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202310210824
-! Last Modified: 2023年10月21日 08:24
+! Version: 202310211405
+! Last Modified: 2023年10月21日 14:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2016,6 +2016,11 @@ newduba.cn###jq_youxi
 ||zzyy20.top^
 ||asfybkiy.xyz^
 ||usxuyr.icu^
+||zzyy17.top^
+||bzvhgbr.xyz^
+||foizico.cn^
+||fptdxkm.com^
+||faxffjo.com^
 ||zchvyet.cn^
 ||zcpsc.top^
 ||zents2.top^
@@ -21550,16 +21555,14 @@ m.babytree.com##script + a[class]
 /affilinetRetargeting.
 /afftrack.
 /afftracking.
-/aftrack.
+/aftrack.asp
 /aggbug.aspx?
 /ahoy/events
 /ahoy/visits
-/AIT_Analytics.
+/AIT_Analytics.js
 /ajax-hits-counter/*
 /ajax-track-page-view/*
-/ajax-track-view.
 /ajax/analytics/*
-/ajax/heatmap-
 /ajax/log?
 /ajax/stat/*
 /ajax_video_counter.php?
@@ -21589,17 +21592,12 @@ m.babytree.com##script + a[class]
 /amp/log.json
 /amp/pingback?
 /amp_pingback/*
-/ampmetrics.
 /analyse.js
 /analysis-logger/*
 /analysisTag.js
 /analytic-client.
-/analytic/context?
 /analytic/pageview
-/analytic?publisher
-/analyticReporting.
 /analytics-amplitude-
-/analytics-assets/*
 /analytics-beacon-
 /analytics-cdn.
 /analytics-client-
@@ -21706,14 +21704,12 @@ m.babytree.com##script + a[class]
 /analyticstrack.js
 /analyticstracking.js
 /anametrix/cas.js
-/anapixel.
-/anclytic-ajax.
+/anclytic-ajax.html
 /angular-tag.js
 /anonymous_user_guid.gif?
 /api-analytics.
 /api-insights/log?
 /api/0/stats
-/api/bfb_write_log
 /api/cmp_tracker
 /api/ComScorePageView
 /api/drpStats
@@ -22313,10 +22309,8 @@ m.babytree.com##script + a[class]
 /fbevents.min.js
 /fbpix-events-
 /fbpixel.js
-/fbpixel/*
-/fe/track/*
 /fe_logger?
-/figanalytics/*
+/figanalytics-short-ttl.js
 /fingerprint.js
 /fingerprint.min.js
 /fingerprint2.js
@@ -23395,6 +23389,7 @@ m.babytree.com##script + a[class]
 /pvcounter/*
 /pvcounter?
 /PvCountUp.action
+/pvevents.gif?
 /pvmax.js
 /pvnoju.js
 /px.gif?
@@ -30448,6 +30443,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||musiccounter.ru^$third-party
 ||mystat-in.net^$third-party
 ||mytopf.com^$third-party
+||netlog.ru^$third-party
 ||opentracking.ru^$third-party
 ||otclick-adv.ru^$third-party
 ||pladform.ru^$third-party
@@ -33572,7 +33568,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||js.static.m1905.cn/pingd.js
 ||log.hiiir.com^
 ||log.tagtic.cn^
+||mcs.zijieapi.com^
 ||mlt01.com/cmp.htm$third-party
+||mon.zijieapi.com^
 ||msg.71.am^
 ||netease.com/track/
 ||netease.com/web/performance?
@@ -33621,6 +33619,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||videostats.kakao.com^
 ||w3t.cn^*/fx.js
 ||web-trace.ksapisrv.com^
+||webstat.qiumibao.com^
 ||webtrack.pospal.cn^
 ||wlog.kuaishou.com^
 ||yigouw.com/c.js
@@ -33909,6 +33908,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ngc1.nsm-corp.com^
 ||performanceplay.co.kr^
 ||recobell.io/rest/logs?
+||saluton.cizion.com^
 ||sas.nsm-corp.com^
 ||skplanet.com/pixel?
 ||skplanet.com/pixelb?
@@ -34177,12 +34177,16 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||top.zp.ua/counter/
 ||tracker.prom.ua^
 ||webvitals.luxnet.ua^
+||accesstrade.vn/js/trackingtag/
 ||analytics.yomedia.vn^
 ||countervov.emitech.vn^
 ||f-emc.ngsp.gov.vn^
 ||fpt.shop/fa_tracking.js
+||px.dmp.zaloapp.com^
+||st-a.cdp.asia^
 ||tracking.aita.gov.vn^
 ||tracking3.vnncdn.net^
+||za.zalo.me^
 ||za.zdn.vn^
 ||zalo.me/v3/w/_zaf.gif
 !-----------------Individual tracking systems-----------------!
@@ -35018,6 +35022,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pcmag.com/js/z0WVjCBSEeGLoxIxOQVEwQ.min.js
 ||pendo.scopus.com/data/ptm.gif
 ||perf.mouser.com^
+||perr.hola.org^
 ||pf.newegg.com^
 ||ph.thenextweb.com^
 ||phonearena.com/_track.php
@@ -35557,6 +35562,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||zerohedge.com/statistics-ajax?
 ||zillowstatic.com/contact-pixel/$image,domain=zillow.com
 ||zion-telemetry.api.cnn.io^
+||zoosk.com/cs/tp.png?
 ://track.opentable.
 ://www.vinted.*/relay/events
 ||akamaihd.net^$image,domain=globalnews.ca|nycgo.com|stcatharinesstandard.ca
@@ -52939,9 +52945,11 @@ arketing.indianadunes.com^
 ||17173.com/ping.js
 ||17173.com/pv?
 ||4399.com/js/4399stat.js
+||4399.com/plugins/tj/event?
 ||4399stat.5054399.com^
 ||55bbs.com/east.html
 ||591.com.tw/stats/
+||9game.cn/stat/
 ||a.itsmore.cn^
 ||accwww9.53kf.com^
 ||adstats.tencentmusic.com^
@@ -52954,6 +52962,7 @@ arketing.indianadunes.com^
 ||analytics.cnblogs.com^
 ||analytics.oceanengine.com^
 ||analytics.shop.hisense.com^
+||api.ea3w.com/hits.js
 ||apilog-web.acfun.cn^
 ||apiwmda.58.com.cn^
 ||applog.yiche.com^
@@ -53010,6 +53019,7 @@ arketing.indianadunes.com^
 ||jcm.jd.com^$script,third-party
 ||jcmonitor.xcar.com.cn^
 ||jiayuan.com^*/pv.js
+||js.ea3w.com/pv.js
 ||kn007.net/snmp.php
 ||le.com/op/
 ||log.aliyuncs.com^
@@ -53079,6 +53089,7 @@ arketing.indianadunes.com^
 ||reportsk.web.sdo.com^
 ||retcode.taobao.com^
 ||rlogs.youdao.com^
+||ro.aiwan4399.com^
 ||s.360.cn^
 ||s.pixfs.net/js/pixlogger.min.js
 ||s.pixfs.net/visitor.pixplug.in/
@@ -53122,6 +53133,7 @@ arketing.indianadunes.com^
 ||theporn.cc/anyalytics?
 ||tianxun.com/ajax_website_statistics.
 ||titan24.com/scripts/stats.js
+||tj.img4399.com^
 ||tongji.mafengwo.cn^
 ||tongji.xinmin.cn^
 ||tongji2.vip.duba.net/__infoc.gif?
@@ -53140,6 +53152,7 @@ arketing.indianadunes.com^
 ||trail.53kf.com^
 ||uestat.video.qiyi.com^
 ||utrack.hexun.com^
+||uuu9.com/s.php?
 ||v.blog.sohu.com/dostat.do?
 ||vatrack.hinet.net^
 ||vipstatic.com/mars/
@@ -53163,10 +53176,12 @@ arketing.indianadunes.com^
 ||ylog.huya.com^
 ||youku.com/log/
 ||yxdown.com/count.js
+||zcool.com.cn/track/
 ||zhihu-web-analytics.zhihu.com^
 ||zhihu.com/collector/
 ||zhihu.com/zbst/events/
 ||zio.xcar.com.cn^
+||zol-img.com.cn^*/logger.js
 ||zongheng.com^*/logger.min.js
 ||zz.bdstatic.com^
 ||avaz.ba/update/hits/
@@ -53228,6 +53243,7 @@ arketing.indianadunes.com^
 ||topspin.npo.nl^
 ||track.pexi.nl^
 ||tracking.voordeeluitjes.nl^
+||tvgids.nl/collect
 ||tweakers.net/x/build/wedonttrack.
 ||tweakers.net/x/scripts/min/os1a2z.js
 ||txrx.bol.com^
@@ -53492,6 +53508,7 @@ arketing.indianadunes.com^
 ||auction.co.kr/ad/log.js
 ||auction.co.kr/montelena.js
 ||bizlog-gateway.myrealtrip.com^
+||cdp.yna.co.kr^
 ||chosun.com/hitlog/
 ||count.munhwa.com^
 ||data-logdelivery.wconcept.co.kr^
