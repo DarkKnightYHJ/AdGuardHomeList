@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6j5ZoGwMop1s6QqXyDKrew
+! Checksum: 62LSYfw5+oU40YPYW3rmlA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202310220202
-! Last Modified: 2023年10月22日 02:02
+! Version: 202310220827
+! Last Modified: 2023年10月22日 08:27
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2026,6 +2026,11 @@ newduba.cn###jq_youxi
 ||zbxtcwi.xyz^
 ||zchvyet.cn^
 ||zcpsc.top^
+||ycmgeb.icu^
+||gslejoki.xyz^
+||zzyy18.top^
+||ndvfwlv.cn^
+||nrzzaep.xyz^
 ||zents2.top^
 ||zzyy17.top^
 ||zzyy19.top^
@@ -21596,18 +21601,14 @@ m.babytree.com##script + a[class]
 /analytic-client.
 /analytic/pageview
 /analytics-amplitude-
-/analytics-beacon-
 /analytics-cdn.
-/analytics-client-
+/analytics-client-identification/*
 /analytics-collector
-/analytics-core-bundle-
-/analytics-data-collector.
+/analytics-data-collector.js
+/analytics-data-collector.min.js
 /analytics-dotcom/*
 /analytics-efukt.
-/analytics-endpoint.
-/analytics-event-
-/analytics-event.
-/analytics-event/*
+/analytics-event.js
 /analytics-events-
 /analytics-facade.
 /analytics-gjc-min.js
@@ -21615,18 +21616,14 @@ m.babytree.com##script + a[class]
 /analytics-hit?
 /analytics-ingestion/*
 /analytics-ingress-
-/analytics-initial-
 /analytics-js/*
-/analytics-minimal.
-/analytics-ping.
-/analytics-plugin/*
-/analytics-pusher/*
-/analytics-reporter/*
+/analytics-minimal-v4.js
+/analytics-minimal.js
+/analytics-ping.js
 /analytics-sdk.
-/analytics-secure.
-/analytics-tag.
+/analytics-secure.js
 /analytics-tracker/*
-/analytics-tracking.
+/analytics-tracking.js
 /analytics.*/event?
 /analytics.*/ping/?
 /analytics.*/track
@@ -21686,6 +21683,7 @@ m.babytree.com##script + a[class]
 /Analytics/Visitor.
 /analytics?http_referer
 /analytics?token=
+/analytics_events.js
 /analytics_js/client.js
 /analytics_prod.js
 /analytics_tag.js
@@ -22709,6 +22707,7 @@ m.babytree.com##script + a[class]
 /kissmetrics.js
 /klaviyo_analytics.js
 /koko-analytics-collect.php
+/koko-analytics-pro/assets/dist/js/script.js
 /koko-analytics/assets/dist/js/*script.js
 /kontera.js
 /krux-sass-helper.js
@@ -32606,6 +32605,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tm.tradetracker.net^
 ||tm.vendemore.com^
 ||tms.fmm.io^
+||tmtarget.com/tracking/
 ||to.getnitropack.com^
 ||toast.com/log
 ||toast.com/sendid?

@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: qx/1j6bw/DxBHBq5YFWh1g
-! Version: 202310212241
+! Checksum: +CmPH0J0xf9rkZOAiA2JCA
+! Version: 202310220031
 ! Title: EasyPrivacy
-! Last modified: 21 Oct 2023 22:41 UTC
+! Last modified: 22 Oct 2023 00:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -263,18 +263,14 @@
 /analytic-client.
 /analytic/pageview
 /analytics-amplitude-
-/analytics-beacon-
 /analytics-cdn.
-/analytics-client-
+/analytics-client-identification/*
 /analytics-collector
-/analytics-core-bundle-
-/analytics-data-collector.
+/analytics-data-collector.js
+/analytics-data-collector.min.js
 /analytics-dotcom/*
 /analytics-efukt.
-/analytics-endpoint.
-/analytics-event-
-/analytics-event.
-/analytics-event/*
+/analytics-event.js
 /analytics-events-
 /analytics-facade.
 /analytics-gjc-min.js
@@ -282,18 +278,14 @@
 /analytics-hit?
 /analytics-ingestion/*
 /analytics-ingress-
-/analytics-initial-
 /analytics-js/*
-/analytics-minimal.
-/analytics-ping.
-/analytics-plugin/*
-/analytics-pusher/*
-/analytics-reporter/*
+/analytics-minimal-v4.js
+/analytics-minimal.js
+/analytics-ping.js
 /analytics-sdk.
-/analytics-secure.
-/analytics-tag.
+/analytics-secure.js
 /analytics-tracker/*
-/analytics-tracking.
+/analytics-tracking.js
 /analytics.*/event?
 /analytics.*/ping/?
 /analytics.*/track
@@ -353,6 +345,7 @@
 /Analytics/Visitor.
 /analytics?http_referer
 /analytics?token=
+/analytics_events.js
 /analytics_js/client.js
 /analytics_prod.js
 /analytics_tag.js
@@ -1376,6 +1369,7 @@
 /kissmetrics.js
 /klaviyo_analytics.js
 /koko-analytics-collect.php
+/koko-analytics-pro/assets/dist/js/script.js
 /koko-analytics/assets/dist/js/*script.js
 /kontera.js
 /krux-sass-helper.js
@@ -11352,6 +11346,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tm.tradetracker.net^
 ||tm.vendemore.com^
 ||tms.fmm.io^
+||tmtarget.com/tracking/
 ||to.getnitropack.com^
 ||toast.com/log
 ||toast.com/sendid?
