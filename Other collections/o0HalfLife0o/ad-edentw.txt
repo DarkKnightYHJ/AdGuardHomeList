@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2fTp9FcbktVaQcV4eaNvVA
+! Checksum: 65pmVdPbErTKXiNQLqEeVQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202310242008
-! Last Modified: 2023年10月24日 20:08
+! Version: 202310250206
+! Last Modified: 2023年10月25日 02:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -670,7 +670,7 @@ instacart.com#$#hide-if-matches-xpath './/a[@href]//img[@data-testid]/following:
 instacart.com#$#hide-if-matches-xpath './/span[text()]/preceding::div[@aria-hidden="true"]/preceding::source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/ancestor::*[@id][@class][1]'
 instacart.com#$#hide-if-matches-xpath './/div[count(child::span[@style and text()])=2]/parent::div//div[contains(text(),"Picked")]/ancestor::div[@data-testid][1]'
 ! #CV-1832
-lowes.com#$#hide-if-matches-xpath './/div[@class="southdeep-badge"][contains(text(),"Sponsored")]/ancestor::div[@class="carousel-inner-container "]/preceding::h2[@class][@role][contains(text(),"Sponsored")]/ancestor-or-self::div[@class="scaf-rec"]'
+lowes.com#$#hide-if-matches-xpath './/div[@class][contains(text(),"Sponsored")]/ancestor::div[@class="carousel-inner-container "]/preceding::h2[@class][@role][contains(text(),"Sponsored")]/ancestor-or-self::div[contains(@class,"recommended")][1]'
 lowes.com#$#hide-if-matches-xpath './/section[@id="listItems"]/div[count(child::div) = 3]/div/div[contains(@class,"LormnProductBadgeStyle")]/ancestor::div[contains(@class,"tile_group")]/*'
 lowes.com#$#hide-if-matches-xpath './/section[@id="listItems"]/div/div[@data-tile=//section[@id="listItems"]/div/div[@data-tile][@order]//span[text()="Sponsored"]/ancestor::div[@data-tile][@order]/@data-tile]/*'
 ! #CV-1213
@@ -1186,8 +1186,7 @@ poczta.o2.pl##dd-holder[slot^="BANNER_TOP"]
 poczta.o2.pl##dd-holder[slot^="DOUBLE_BILLBOARD"]
 poczta.o2.pl##dd-holder[slot^="FEED_RECTANGLE_"]
 poczta.o2.pl###placeholder56
-sportowefakty.wp.pl#$#hide-if-matches-xpath '//div[@class ][1]/div[not(*) and not(normalize-space())][@class][not(contains(@class,"gallerybox"))]/ancestor::div[@class][1][not(contains(@class,"npp-container")) and not(string-length(@class)=41) and not(string-length(@class)=7)]'
-sportowefakty.wp.pl#$#hide-if-matches-xpath './/img[string-length(@src)>155]/following::span/a[string-length(@href)>1000]/ancestor::li[@class]'
+sportowefakty.wp.pl#$#hide-if-matches-xpath './/a[@href][@class][@*]/img[@class][@src][not(@alt)]/parent::a/ancestor::div[not(contains(@class,"layout"))][string-length(@class)>=5][contains(normalize-space(), "")][3]'; hide-if-matches-xpath './/*[@class]//a[@target][contains(@href,"adblock")]/parent::div//ancestor::div[not(contains(@class,"npp-container")) and not(string-length(@class)=41) and not(string-length(@class)=7) and not(contains(@*,"layout")) and not(contains(@class,"column"))][5]/div[@class]'; hide-if-matches-xpath './/img[string-length(@src)>155]/following::span/a[string-length(@href)>1000]/ancestor::li[@class]'; 
 www.wp.pl#$#abort-on-property-write Object.prototype.directOnly
 www.wp.pl#$#hide-if-matches-xpath './/span[contains(text(),"Okazje")]/parent::div/ancestor-or-self::div[2]'
 o2.pl##div[class$="cevoIl"]
