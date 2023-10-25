@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oK5eOmvu2MIJVlCakOTm1Q
+! Checksum: 6AR+5Wm6l4VuK0o5yalI4g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202310251407
-! Last Modified: 2023年10月25日 14:07
+! Version: 202310252008
+! Last Modified: 2023年10月25日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -57782,11 +57782,6 @@ $csp=worker-src 'none',domain=torlock.com|alltube.pl|alltube.tv|centrum-dramy.pl
 ||pirateiro.com^$csp=script-src 'self' 'unsafe-inline' https://hcaptcha.com *.hcaptcha.com
 ||activistpost.com^$csp=script-src *.leadpages.net *.gstatic.com *.google.com *.googleapis.com *.playwire.com *.facebook.com *.bootstrapcdn.com
 $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.cloudflare.com *.google.com *.addthis.com *.addthisedge.com *.facebook.net *.twitter.com *.jquery.com,domain=kinos.to|kinox.am|kinox.bz|kinox.click|kinox.cloud|kinox.club|kinox.digital|kinox.direct|kinox.express|kinox.fun|kinox.fyi|kinox.gratis|kinox.io|kinox.lol|kinox.me|kinox.mobi|kinox.pub|kinox.sh|kinox.sx|kinox.to|kinox.tube|kinox.tv|kinox.wtf|kinoz.to,~third-party
-!!
-@@||googlevideo.com/videoplayback?*&pfa=$xmlhttprequest,domain=m.youtube.com|music.youtube.com|www.youtube.com
-@@||googlevideo.com/videoplayback?*yt_live_broadcast&$xmlhttprequest,domain=m.youtube.com|music.youtube.com|www.youtube.com
-@@||googlevideo.com/videoplayback?*yt_premiere_broadcast&$xmlhttprequest,domain=m.youtube.com|music.youtube.com|www.youtube.com
-||googlevideo.com/videoplayback?*&ctier=L&$xmlhttprequest,domain=m.youtube.com|music.youtube.com|www.youtube.com
 @@||doubleclick.net/gampad/*adPositionName%3Dsuperbanner_$xmlhttprequest,domain=spiegel.de
 @@||doubleclick.net/getconfig$xmlhttprequest,domain=spiegel.de
 @@||g.doubleclick.net/gampad/ads?*superbanner_3$xmlhttprequest,domain=spiegel.de
@@ -67424,6 +67419,7 @@ newduba.cn###jq_youxi
 ||dunrnd.com^
 ||juljrd.xyz^
 ||sregfle.cn^
+||ghbdsbfd.com^
 ||zzyy20.top^
 ##[style*="sotv.me"]
 ##a[href$="/1c626.com"]
@@ -85113,8 +85109,7 @@ fqsousou.com,kengso.com#@#.user-share
 /collect?type=
 /collect?v=
 /collect_data.php?
-/collect_stat.
-/collector/beacon
+/collect_stat.js
 /collector/hit?
 /collector/pageview
 /collector/v1/event
@@ -85127,24 +85122,21 @@ fqsousou.com,kengso.com#@#.user-share
 /common/ga.js
 /common/tracker.js
 /compile/AppMeasurement.
-/comscore-js-
 /comscore-min.js
 /comscore?
 /comscore_beacon/*
 /comscore_pageview
-/comscorebeacon.
 /confiant.js
 /configuration-stat.js
 /contentiq.js
-/conversion_async.
+/conversion_async.js
 /convertro.js
 /cookie.gif?
 /cookie_ga.js
-/cookieAnalytics.
+/cookieAnalytics.js
 /cookieId.htm
 /cookies/render?
-/cookietag?
-/coopcommerce-pixel.
+/coopcommerce-pixel.js
 /coradiant.js
 /core-tracking.js
 /coretracking.php?
@@ -85159,7 +85151,7 @@ fqsousou.com,kengso.com#@#.user-share
 /count.png?
 /count/count.cgi?
 /count?pid=
-/count_js.
+/count_js.php
 /counter-js.php
 /Counter.ashx?
 /counter.asp?
@@ -85286,7 +85278,6 @@ fqsousou.com,kengso.com#@#.user-share
 /elqidg.js
 /elqimg.js
 /elqscr.js
-/elqtrk.
 /elt.gif?
 /eluminate?
 /email/track/*$image
@@ -85920,6 +85911,7 @@ fqsousou.com,kengso.com#@#.user-share
 /metrics-ga.
 /metrics/bambuser.min.js
 /metrics/event?
+/metrics/ga.js
 /metrics/init?
 /metrics/metrics$domain=~docs.datadoghq.com|~spatineo.com
 /metrics/onload
@@ -86059,28 +86051,19 @@ fqsousou.com,kengso.com#@#.user-share
 /opinionlab.js
 /optiextension.dll?$script
 /optimizelyjs/*
-/optimost-
-/optimost.
-/Optimost/*
 /optimost_
 /optmzly/*
 /ossleads_analytics.js
 /ot_e404.gif?
 /OtAutoBlock.js
 /ouibounce.min.js
-/ovstats.
 /ow_analytics.
 /owa.Analytics.m.js
 /owa.tracker-combined-min.js
-/ox-trackings.
-/ox_stats.
 /oxAnalytics.
-/oxtracker.
 /p.gif?
-/packaged-js/trackers.
-/packed.analytics.
 /page-addviews?
-/page-analytics.
+/page-analytics.js
 /page-events/trackclick/*
 /page-track.
 /page-view.gif?
@@ -86093,17 +86076,13 @@ fqsousou.com,kengso.com#@#.user-share
 /page_imp;
 /page_monitor_log?
 /page_perf_log
-/pageaction/trackEvent
 /pagead/conversion_
 /PageCount.php?
 /pageCounter.adp?
 /pagedot.gif?
-/pageeventcounter;
 /PageHit.ashx
-/PageHitPixel.
 /pagehits/*
 /pagelogger/connector.php?
-/pageloggerobyx.
 /pagestat/*
 /pagestat?
 /PageStatistics/*
@@ -86784,11 +86763,12 @@ fqsousou.com,kengso.com#@#.user-share
 /taevents-
 /tag/tag.jsp?
 /tag?tags=
-/tagAnalyticsCNIL.
+/taganalyticscnil.js
+/tagAnalyticscnil.php
 /tagCNIL.js
-/tagcommander_
+/tagcommander/prd/*
 /tagmanager/event?
-/tagmanager/pptm.
+/tagmanager/pptm.js
 /tags.js?org_id=
 /tailtarget.js
 /talpa-analytics-
@@ -87146,26 +87126,23 @@ fqsousou.com,kengso.com#@#.user-share
 /visit-tag?
 /visit-tracker.js
 /visit.gif?
-/visit/?*&ref=
-/visit/init?
 /visit/log.js?
 /visit/record.gif?
 /visit/record?
 /visit?id=
 /visit_log.js
-/visit_pixel?
 /VisitCounter.
+/visitcounter.do
+/visitcounter.js
 /visitinfo.js
 /VisitLog.asmx
-/visitor-event?
-/visitor-js/?
 /visitor-params.js
 /Visitor.aspx?
 /visitor.gif?ts=
 /visitor.js?key=
 /visitor.min.js
-/visitor/identity?
 /visitor_id.jsp
+/visitor_info.js
 /visitor_info?
 /VisitorAPI.js
 /visitorCookie.js
@@ -87204,7 +87181,6 @@ fqsousou.com,kengso.com#@#.user-share
 /web_analytics/*
 /web_answertip.js
 /Web_JS_Stats.js
-/web_logger/*
 /web_traffic_capture.js
 /WebAnalytics.$domain=~webanalytics.italia.it
 /webAnalytics/*
@@ -87215,8 +87191,7 @@ fqsousou.com,kengso.com#@#.user-share
 /weblog.php?
 /webmonitor/collect/*
 /webstat.js
-/WebStat2.
-/webstat_
+/WebStat2.asmx
 /webstatistics.php?
 /webstats.js
 /webstats.php
@@ -87268,7 +87243,6 @@ fqsousou.com,kengso.com#@#.user-share
 /wtid.js
 /wtinit.js
 /wtrack?event=
-/wtstats/*
 /wwwcount.cgi?
 /wxhawkeye.js
 /wysistat.js
@@ -87278,7 +87252,6 @@ fqsousou.com,kengso.com#@#.user-share
 /xiti.js
 /xn_track.min.js
 /xstat.aspx?
-/xstat/*
 /xtclick.js
 /xtclicks.js
 /xtcore.js
@@ -89096,6 +89069,7 @@ _mongo_stats/
 ||hybrid.ai^$third-party
 ||hyfntrak.com^$third-party
 ||hyperactivate.com^$third-party
+||hypercounter.com^$third-party
 ||hyperdx.io^$third-party
 ||hypestat.com^$third-party
 ||iaudienc.com^$third-party
@@ -97644,6 +97618,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hilton.com/zJbufaUX/
 ||hindustantimes.com/res/images/one-pixel.png
 ||hits.cyberdrop.me^
+||hlogger.heraldcorp.com^
 ||hltv.org/scripts/hltv-tracking.js
 ||homedepot.ca/mr/thd-ca-prod.js
 ||hoo.be/api/hoobe/analytics
@@ -98306,6 +98281,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.kueez.com^
 ||track.mrgugu.com^
 ||track.netzero.net^
+||track.sodapdf.com^
 ||track.thesaurus.com^
 ||track.ultimate-guitar.com^
 ||tracker.affiliate.iqbroker.com^
@@ -117121,7 +117097,7 @@ arketing.indianadunes.com^
 !! google-analytics.com/analytics.js
 @@||google-analytics.com/analytics.js$domain=beinsports.com|brooklinen.com|carnesvizzera.ch|cmoa.jp|enmotive.com|healthrangerstore.com|hobbyhall.fi|infoconso-multimedia.fr|jackbox.tv|k2radio.com|koel.com|kowb1290.com|ligtv.com.tr|meritonsuites.com.au|nabortu.ru|news.gamme.com.tw|novatv.bg|papajohns.com|poiskstroek.ru|rzd.ru|saturn.at|schweizerfleisch.ch|skaties.lv|stressless.com|teddyfood.com|tracking.narvar.com|tradera.com|tribuna.com|truwin.com|tuasaude.com|tv3play.no|unicef.de|viandesuisse.ch|vox.de|westernunion.com|worldsbiggestpacman.com|xxl.se
 !! googletagmanager.com/gtag/js
-@@||googletagmanager.com/gtag/js$domain=academy.com|acornonline.com|afisha.timepad.ru|aliexpress.com|carhartt-wip.com|cbslocal.com|cmoa.jp|devclass.com|dholic.co.jp|ejgiftcards.com|enmotive.com|factory.pixiv.net|game.anymanager.io|herculesstands.com|honeystinger.com|hostingvergelijker.nl|inforesist.org|kawasaki.com|liene-life.com|livongo.com|m.putlocker.how|mediaite.com|modehasen.de|montcopa.org|nihontsushin.com|oko.sh|panflix.com.br|papajohns.com|radiosarajevo.ba|rintraccialamiaspedizione.it|schwab.com|seatmaps.com|starblast.io|timparty.tim.it|toptal.com|virginmedia.com|virginplus.ca|winefolly.com|winhappy.com|xl-bygg.no|zf1.tohoku-epco.co.jp
+@@||googletagmanager.com/gtag/js$domain=academy.com|acornonline.com|afisha.timepad.ru|aliexpress.com|carhartt-wip.com|cbslocal.com|cmoa.jp|devclass.com|dholic.co.jp|ejgiftcards.com|enmotive.com|factory.pixiv.net|game.anymanager.io|herculesstands.com|honeystinger.com|hostingvergelijker.nl|inforesist.org|kawasaki.com|liene-life.com|livongo.com|m.putlocker.how|mediaite.com|mirrativ.com|modehasen.de|montcopa.org|nihontsushin.com|oko.sh|panflix.com.br|papajohns.com|radiosarajevo.ba|rintraccialamiaspedizione.it|schwab.com|seatmaps.com|starblast.io|timparty.tim.it|toptal.com|virginmedia.com|virginplus.ca|winefolly.com|winhappy.com|xl-bygg.no|zf1.tohoku-epco.co.jp
 !! googleoptimize.com/optimize.js
 @@||googleoptimize.com/optimize.js$domain=binglee.com.au|grasshopper.com|in.bookmyshow.com|inquirer.com|investing.com|lacomer.com.mx|lodgecastiron.com|tentree.ca|virginmedia.com
 !! google-analytics.com/plugins/ua/ec.js
