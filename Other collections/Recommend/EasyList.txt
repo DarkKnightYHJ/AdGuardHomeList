@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: MS1nQixzHpGQ9Y2/EuaXyA
-! Version: 202310272240
+! Checksum: 6jcA5ELpz8u0c9FTPOlgvg
+! Version: 202310280030
 ! Title: EasyList
-! Last modified: 27 Oct 2023 22:40 UTC
+! Last modified: 28 Oct 2023 00:30 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -62228,7 +62228,6 @@ chron.com,seattlepi.com##[data-block-type="ad"]
 theblaze.com##[data-category="SPONSORED"]
 gab.com##[data-comment="gab-ad-comment"]
 curbed.com##[data-concert="prelude"]
-yahoo.com##[data-content="Advertisement"]
 axios.com##[data-cy="injected-promo"]
 greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-empty]
 ginx.tv##[data-ez-ph-id]
@@ -63109,6 +63108,8 @@ booking.com##.sr-motivate-messages
 ##.section-subheader > .section-hotel-prices-header
 ! yahoo
 yahoo.com###Horizon-ad
+yahoo.com###Lead-0-Ad-Proxy
+yahoo.com###adsStream
 yahoo.com###defaultLREC
 finance.yahoo.com###mrt-node-Lead-0-Ad
 sports.yahoo.com###mrt-node-Lead-1-Ad
@@ -63128,6 +63129,7 @@ yahoo.com###sda-MON
 yahoo.com###sda-WFPAD
 mail.yahoo.com###slot_LREC
 yahoo.com###viewer-LDRB
+yahoo.com###viewer-LREC2
 yahoo.com###viewer-LREC2-iframe
 yahoo.com##.Feedback
 finance.yahoo.com##.ad-lrec3
@@ -63148,7 +63150,9 @@ yahoo.com##.searchCenterTopAds
 yahoo.com##.sys_shopleguide
 yahoo.com##.viewer-sda-container
 groupon.com##[data-bhc$="sponsored_carousel"]
+yahoo.com##[data-content="Advertisement"]
 mail.yahoo.com##[data-test-id^="pencil-ad"]
+yahoo.com##[data-wf-beacons]
 finance.yahoo.com##[id^="defaultLREC"]
 mail.yahoo.com##[rel="noreferrer"][data-test-id][href^="https://beap.gemini.yahoo.com/mbclk?"]
 yahoo.com##a[data-test-id="large-image-ad"]

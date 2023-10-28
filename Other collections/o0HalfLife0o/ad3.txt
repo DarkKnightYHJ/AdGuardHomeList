@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7yNhlddKorHoY8sRVLB54w
+! Checksum: 4MDFFyJ5Je1ROTBaADUO5g
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202310280205
-! Last Modified: 2023年10月28日 02:05
+! Version: 202310280823
+! Last Modified: 2023年10月28日 08:23
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2106,6 +2106,17 @@ newduba.cn###jq_youxi
 ||zzyy17.top^
 ||zzyy18.top^
 ||zzyy19.top^
+||lwhffh.xyz^
+||fepmpify.xyz^
+||rntdqwc.xyz^
+||wyoaij.icu^
+||naweslt.cn^
+||jupeicha.cn^
+||unqrroh.cn^
+||mrthav.xyz^
+||gmx40.top^
+||vrivslffndepxqd.xyz^
+||clcmdie.com^
 ||zzyy20.top^
 ##[style*="sotv.me"]
 ##a[href$="/1c626.com"]
@@ -21443,7 +21454,7 @@ m.babytree.com##script + a[class]
 &EventType=DataDealImpression&
 &EventType=Impression&
 &hitType=pageview&
-&http_referer=$script,xmlhttprequest,domain=~facebook.com|~jobscore.com
+&http_referer=$script,xmlhttprequest,domain=~biletomat.pl|~facebook.com|~jobscore.com
 &refer=http$script
 &t=pageview&
 -adobe-analytics.
@@ -23194,7 +23205,6 @@ m.babytree.com##script + a[class]
 /plugins/vdz-google-analytics/*
 /plugins/visitors-traffic-
 /plugins/wordfence/visitor.php?
-/plugins/wp-monero-miner/*
 /pm/pixel.
 /pmc-cxense.js
 /pointeur.gif?
@@ -23873,46 +23883,36 @@ m.babytree.com##script + a[class]
 /tracking/log?
 /tracking/networktrackingservlet
 /tracking/open?
-/tracking/pageview.
 /tracking/pixel.
 /tracking/referrer?
 /tracking/thirdpartytag.js
 /tracking/trackpageview
 /tracking/user_sync_widget?
 /tracking/views/*
-/tracking/xtcore.
-/tracking202/*
+/tracking/xtcore.js
+/tracking202/static/landing.php
 /Tracking?id=
 /tracking?referrer
 /Tracking?t=
 /tracking?vs=
-/tracking_ajax.
-/tracking_frame_
-/tracking_headerJS_
 /tracking_id_
-/tracking_iframe.
-/tracking_pix.
 /tracking_pixel
 /tracking_unitary/*
-/trackingab?
 /trackingCode-
 /trackingCode.js
-/TrackingCookieCheck.
-/TrackingCookieCheck?
 /trackingcookies.
 /trackingDTM.js
 /trackingEventsBlocks/*
-/trackingFooter.
+/trackingFooter.js
 /trackingGA.js
-/TrackingHandler.
-/trackingheader.
+/TrackingHandler.js
+/trackingheader.js
 /trackingImpression/*
 /trackingp.gif
 /trackingPixel.
 /TrackingPixel/*
-/trackingScriptLoader.
 /trackingTools.
-/trackingVtm.
+/trackingVtm.js
 /trackIt.js
 /trackit.php?
 /trackit.pl?
@@ -23921,11 +23921,11 @@ m.babytree.com##script + a[class]
 /tracklog.
 /trackmerchant.js
 /trackmvisit?
-/tracknat.
 /trackopen.cgi?
 /trackPage.js?
 /trackpagecover?
-/trackpageview.
+/trackpageview.js
+/trackpageview.php
 /trackPageView/*
 /TrackPageview?
 /trackpixel?
@@ -23941,10 +23941,8 @@ m.babytree.com##script + a[class]
 /trackvisit?
 /TrackVisitors/*
 /TrackWebPage?
-/traffic-source-cookie.
-/traffic-source-cookie/*
+/traffic-source-cookie.min.js
 /traffic/status.gif?
-/traffic/track^
 /traffic_record.php?
 /TrafficCookie.js
 /traffictrade/*
@@ -24156,7 +24154,9 @@ m.babytree.com##script + a[class]
 /wp-content/tracker.js
 /wp-js/analytics.js
 /wp-monero-miner-class.js
+/wp-monero-miner-util.min.js
 /wp-monero-miner.js
+/wp-monero-miner.min.js
 /wp-slimstat.js
 /wp-slimstat.min.js
 /wp-statistics-tracker.min.js
@@ -25919,6 +25919,7 @@ _mongo_stats/
 ||haveamint.com^$third-party
 ||hbwrapper.com^$third-party
 ||heapanalytics.com^$third-party
+||heatmap.com^$third-party
 ||heatmap.it^$third-party
 ||heatmap.services^$third-party
 ||hellosherpa.com^$third-party
@@ -30115,6 +30116,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stat.4u.pl^$third-party
 ||stat.pl^$third-party
 ||tagcdn.com^$third-party
+||trafficscanner.pl^$third-party
 ||volvelle.tech^$third-party
 ||way2traffic.com^$third-party
 ||ad5track.com^$third-party
@@ -54005,6 +54007,7 @@ arketing.indianadunes.com^
 @@||wsj.net/iweb/static_html_files/cxense-candy.js$script,domain=marketwatch.com
 @@||www.ups.com/WebTracking/processInputRequest
 @@||xeroshoes.co.uk/affiliate/scripts/trackjs.js$~third-party
+@@||xfinity.com/stream/js/api/fingerprint.js$~third-party
 @@||yottaa.net^$script,domain=containerstore.com|hannaandersson.com
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 !! amplitude.com/libs
