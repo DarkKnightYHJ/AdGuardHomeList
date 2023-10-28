@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: aJuUCiwiS+J4dAGtAwtV9w
-! Version: 202310280150
+! Checksum: q0Ht7aJUQRkWTwsWMRQOEg
+! Version: 202310280240
 ! Title: Fanboy's Annoyance List
-! Last modified: 28 Oct 2023 01:50 UTC
+! Last modified: 28 Oct 2023 02:40 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -36836,6 +36836,9 @@ instagram.com##.HoverCard
 ! Google notifications
 www.google.com##[jscontroller][data-limp] > .zQSHZb.cH2VZe[style^="right:"] > .gLpFG
 ##div > div + [aria-label="promo"][role="region"][data-ved]
+! google.com Signin pop
+google.com###div[jscontroller="MaoVMd"][jsdata*="nTLyye;"]
+google.com##div.nD2EKb.VEELad
 ! Feedback Buttons
 startpage.com###feedback-button-container
 pbtech.com###feedback-side
