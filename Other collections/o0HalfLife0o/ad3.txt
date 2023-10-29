@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ApxFxCR+lvH4OmkCmnrfHg
+! Checksum: 3KAOhRz2OCNnmjGUiMW14Q
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202310290827
-! Last Modified: 2023年10月29日 08:27
+! Version: 202310291403
+! Last Modified: 2023年10月29日 14:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2128,6 +2128,10 @@ newduba.cn###jq_youxi
 ||aidmat.icu^
 ||gmx39.top^
 ||tgjdbx.xyz^
+||huxifena.cn^
+||ikmhndd.com^
+||17123.net^
+||waxin0gjue.cn^
 ||zzyy20.top^
 ##[style*="sotv.me"]
 ##a[href$="/1c626.com"]
@@ -22946,12 +22950,9 @@ m.babytree.com##script + a[class]
 /mistat-data/*
 /mistats/*
 /mixpanel-init.
-/mixpanel-measurement.
 /mixpanel.$domain=~mixpanel.com
-/mixpanel_beacon.
 /mixpanel_tracker.
 /mlopen_track.
-/mm-metrics.
 /mm_track/*
 /mmclient.js
 /mmcore.js
@@ -33974,6 +33975,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||aftonbladet.se/blogportal/view/statistics?$third-party
 ||collector.schibsted.io^
 ||eniro.com/pixel/
+||evt-api.ntm.eu^
 ||vizzit.se^$third-party
 ||pixel.smartmedia.tj^
 ||sal.isanook.com^

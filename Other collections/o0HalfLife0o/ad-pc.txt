@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: liHbnvFQL90I2Z6TIuVhCQ
+! Checksum: MFjECvCT/qw/XVShmdJM/g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202310290827
-! Last Modified: 2023年10月29日 08:27
+! Version: 202310291403
+! Last Modified: 2023年10月29日 14:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1073,7 +1073,6 @@ tieba.baidu.com##.tuijian-wrap
 /asrv/campaign/*
 /asset/ad/*
 /assets/ad/*
-/assets/ads-
 /assets/ads/*$domain=~outlook.live.com
 /asyncjs.php
 /asyncspc.php
@@ -50963,6 +50962,7 @@ browsershots.org#@#.advert_area
 ||aj1574.online^$popup
 ||ajkrls.com^$popup
 ||ajkzd9h.com^$popup
+||ajump2.com^$popup
 ||akmxts.com^$popup
 ||akumeha.onelink.me^$popup
 ||akutapro.com^$popup
@@ -52049,6 +52049,7 @@ browsershots.org#@#.advert_area
 ||gripelive.com^$popup
 ||groininsightclaimed.com^$popup
 ||grown-zero-breeze-belong.xyz^$popup
+||grtya.com^$popup
 ||grtyj.com^$popup
 ||gruffermail.com^$popup
 ||grumblecrytopless.com^$popup
@@ -57276,6 +57277,7 @@ browsershots.org#@#.advert_area
 ||myanimelist.net/c/i/images/event/
 ||mybrowseraddon.com/ads/core.js
 ||myunique.info/wp-includes/js/pop.js
+||myvidster.com/js/myv_ad_camp2.php
 ||n.gemini.yahoo.com^
 ||nameproscdn.com/images/backers/
 ||nativetimes.com/images/banners/
@@ -59975,9 +59977,12 @@ hannity.com,inspiredot.net##.banner_ad
 snopes.com##.banner_ad_between_sections
 asmag.com##.banner_box
 news.am##.banner_click
+barnstormers.com##.banner_holder
 camfuze.com##.banner_inner
 livecharts.co.uk##.banner_long
+barnstormers.com##.banner_mid
 weatheronline.co.uk##.banner_oben
+barnstormers.com##.banner_rh
 nationaljeweler.com##.banner_wrapper
 wdwmagic.com##.bannerad_300px
 mamul.am##.bannerb
@@ -67368,6 +67373,10 @@ newduba.cn###jq_youxi
 ||aidmat.icu^
 ||gmx39.top^
 ||tgjdbx.xyz^
+||huxifena.cn^
+||ikmhndd.com^
+||17123.net^
+||waxin0gjue.cn^
 ||zzyy20.top^
 ##[style*="sotv.me"]
 ##a[href$="/1c626.com"]
@@ -85866,12 +85875,9 @@ fqsousou.com,kengso.com#@#.user-share
 /mistat-data/*
 /mistats/*
 /mixpanel-init.
-/mixpanel-measurement.
 /mixpanel.$domain=~mixpanel.com
-/mixpanel_beacon.
 /mixpanel_tracker.
 /mlopen_track.
-/mm-metrics.
 /mm_track/*
 /mmclient.js
 /mmcore.js
@@ -96894,6 +96900,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||aftonbladet.se/blogportal/view/statistics?$third-party
 ||collector.schibsted.io^
 ||eniro.com/pixel/
+||evt-api.ntm.eu^
 ||vizzit.se^$third-party
 ||pixel.smartmedia.tj^
 ||sal.isanook.com^
