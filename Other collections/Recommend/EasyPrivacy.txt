@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: Z5vAHQ5BcwOcpLF3VKfWog
-! Version: 202310300031
+! Checksum: 5hlbO/4U0j+0P/Koz7H7jw
+! Version: 202310300120
 ! Title: EasyPrivacy
-! Last modified: 30 Oct 2023 00:31 UTC
+! Last modified: 30 Oct 2023 01:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -728,6 +728,7 @@
 /counter/stat.
 /counter/views/*
 /counter1.gif?
+/counter2.gif?
 /counter5.min.js
 /counter?action=
 /counter?id=
@@ -791,6 +792,7 @@
 /disp_cnt.php
 /dispatch.fcgi?
 /divolte.js
+/dl-web-pixel.js
 /dla_tracker.js
 /dlpageping?
 /dm.gif?
@@ -1125,6 +1127,7 @@
 /GTag/general_tracker.js
 /gtag/js?
 /gtm-listeners.js
+/gtm-suite.js
 /gtm.js
 /gtm.min.js
 /gtm/gtm-
@@ -4445,7 +4448,6 @@ _mongo_stats/
 ||getclicky.com^$third-party
 ||getconversion.net^$third-party
 ||getdrip.com^$third-party
-||getelevar.com^$third-party
 ||getfreebl.com^$third-party
 ||getlasso.co^$third-party
 ||getpublica.com^$third-party
@@ -9988,6 +9990,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||geoip.nekudo.com^
 ||geolocation.outreach.com^
 ||geoservice.curse.com^
+||getelevar.com/shops/*/events.js
 ||getglue.com^*/count?
 ||getkudos.me/a?$image
 ||getmetrical.com/storagesync
@@ -10060,6 +10063,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||highwebmedia.com/CACHE/js/output.92c98302d256.js
 ||hit.mybestpro.com^
 ||hits.dealer.com^
+||hits.getelevar.com^
 ||hits.informer.com^
 ||hktracker.hankookilbo.com^
 ||hm.baidu.com^$third-party
@@ -10185,6 +10189,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||klarnaservices.com/v1/osm-client-script/
 ||klarnaservices.com^$image,third-party
 ||klaviyo.com/onsite/js/sentry.
+||klaviyo.com/onsite/track-analytics?
 ||klickly.com/track
 ||kmib.co.kr/ref/
 ||kochava.com/track/$third-party
@@ -10378,6 +10383,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||moco.yukata.dev/get/$image,third-party
 ||modules.ooyala.com^*/analytics-
 ||mon.domdog.io^
+||monitor-api.blackcrow.ai^
 ||monitor-frontend-collector.a.bybit-aws.com^
 ||monitor.azure.com^
 ||monitoring.iraiser.eu^
@@ -11394,6 +11400,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||x.babe.today^
 ||x.disq.us^
 ||x.weather.com^
+||xp2023-pix.s3.amazonaws.com^
 ||yahoo.co.jp/js/s_retargeting.js
 ||yahoo.com/sync/casale/
 ||yandex.*/data?referrer=
