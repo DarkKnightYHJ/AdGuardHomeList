@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: HdPCMEOj3if6Ys2BYb7wSw
-! Version: 202310292241
+! Checksum: Z5vAHQ5BcwOcpLF3VKfWog
+! Version: 202310300031
 ! Title: EasyPrivacy
-! Last modified: 29 Oct 2023 22:41 UTC
+! Last modified: 30 Oct 2023 00:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -131,8 +131,7 @@
 /_visitcount?
 /a.gif?
 /a/performance_timing/*
-/a8c-analytics.
-/a8c-analytics/*
+/a8c-analytics.js
 /aap/stats
 /abc.gif?
 /access.php?referrer=
@@ -146,9 +145,7 @@
 /action/analytics
 /activity.gif?
 /AD/PageHits.
-/adb-analytics
 /adb1.gif?
-/adblock_logging.
 /add_page_view?
 /addEvent?action=
 /addLinker.js
@@ -536,7 +533,7 @@
 /call.tracker.js
 /callbacks/stats?
 /capture_client.js
-/CaptureStat.
+/CaptureStat.asmx
 /cdn-cgi/beacon/*
 /cdn-cgi/ping?$image
 /cdn-cgi/rum?
@@ -2656,6 +2653,7 @@
 /visscore.tag.min.js
 /visualrevenue.js
 /vjslog?
+/vli-platform/adb-analytics@
 /vs-track.js
 /vs.gif?
 /vsl/imp?
@@ -11152,6 +11150,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking-api-4lasu2nlcq-ew.a.run.app^
 ||tracking-api.hotmart.com^
 ||tracking-api.mangopulse.net^
+||tracking-na.hawksearch.com^
 ||tracking.adalyser.com^
 ||tracking.ads.global-fashion-group.com^
 ||tracking.aegpresents.com^

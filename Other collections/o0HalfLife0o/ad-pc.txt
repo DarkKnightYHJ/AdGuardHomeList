@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: d5nIGFjQ2qQ5Ji7mUnbdBQ
+! Checksum: NCzNtZcBwBH/yuo5mpn+MQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202310300204
-! Last Modified: 2023年10月30日 02:04
+! Version: 202310300826
+! Last Modified: 2023年10月30日 08:26
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -58339,6 +58339,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 ||icepbns.com^$popup,domain=iceporn.com
 ||livejasmin.com/pu/$popup
 ||missav.com/pop?$popup
+||nhentai.net/api/_/popunder?$popup
 ||porndude.link/porndudepass$popup,domain=theporndude.com
 ||videowood.tv/pop?$popup
 ||xtapes.to/out.php$popup
@@ -67395,6 +67396,16 @@ newduba.cn###jq_youxi
 ||zcpsc.top^
 ||zents2.top^
 ||zjdruhn.xyz^
+||esnysd.icu^
+||pxxnejx.xyz^
+||gmx34.top^
+||hunklm.com^
+||jiangjinmoa.cn^
+||uuzsfpju.xyz^
+||bmxvxl.xyz^
+||gmx36.top^
+||n019q.com^
+||bdlexn.xyz^
 ||zzyy17.top^
 ||zzyy18.top^
 ||zzyy19.top^
@@ -84526,8 +84537,7 @@ fqsousou.com,kengso.com#@#.user-share
 /_visitcount?
 /a.gif?
 /a/performance_timing/*
-/a8c-analytics.
-/a8c-analytics/*
+/a8c-analytics.js
 /aap/stats
 /abc.gif?
 /access.php?referrer=
@@ -84541,9 +84551,7 @@ fqsousou.com,kengso.com#@#.user-share
 /action/analytics
 /activity.gif?
 /AD/PageHits.
-/adb-analytics
 /adb1.gif?
-/adblock_logging.
 /add_page_view?
 /addEvent?action=
 /addLinker.js
@@ -84931,7 +84939,7 @@ fqsousou.com,kengso.com#@#.user-share
 /call.tracker.js
 /callbacks/stats?
 /capture_client.js
-/CaptureStat.
+/CaptureStat.asmx
 /cdn-cgi/beacon/*
 /cdn-cgi/ping?$image
 /cdn-cgi/rum?
@@ -87051,6 +87059,7 @@ fqsousou.com,kengso.com#@#.user-share
 /visscore.tag.min.js
 /visualrevenue.js
 /vjslog?
+/vli-platform/adb-analytics@
 /vs-track.js
 /vs.gif?
 /vsl/imp?
@@ -97241,8 +97250,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||consumer.org.nz/session/ping/
 ||containers.appdomain.cloud/api/send-log$domain=ibm.com
 ||conversion.mooncard.co^
-||coomer.party/api/event
-||coomer.su/api/event
+||coomer.su/api/v1/event
 ||copilot-telemetry.githubusercontent.com^
 ||count.rin.ru^
 ||coursehero.com/v1/data-tracking
@@ -97584,8 +97592,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kayak.*/vestigo/measure
 ||kbb.com/pixall/
 ||kck.st/web/track
-||kemono.party/api/event
-||kemono.su/api/event
+||kemono.su/api/v1/event
 ||kinesis.us-east-1.analytics.edmentum.com^
 ||kkam.com/rest/high/api/cogitoergosum^
 ||klm.us/CWZUvc/
