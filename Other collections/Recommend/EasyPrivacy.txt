@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: dlgsSDZ8kKHkJCwRNl98VQ
-! Version: 202311010150
+! Checksum: GCImZEGXk2a9xqu6ZVCvEg
+! Version: 202311010220
 ! Title: EasyPrivacy
-! Last modified: 01 Nov 2023 01:50 UTC
+! Last modified: 01 Nov 2023 02:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1044,6 +1044,7 @@
 /get_site_data?requestUUID=
 /getbglog.js
 /getclicky.js
+/getintent.js
 /getlog.gif
 /getstats.js.php
 /gigyaGAIntegration.js
@@ -1247,7 +1248,8 @@
 /js_tracker.js
 /js_tracker.min.js
 /js_tracking?
-/jscounter.
+/jscounter.js
+/jscounter.php
 /jscripts/analytics.js
 /jserrLog?
 /jslogger.php?ref=
@@ -1343,7 +1345,6 @@
 /log/sentry/*
 /log/server?
 /log/track/*
-/log/ux_analytics^
 /log/views/*
 /log/web?
 /log2.php?
@@ -1415,7 +1416,6 @@
 /logview?referrer=
 /logview_new.js
 /logviewedpage?
-/logViewImpression/*
 /ls.gif?
 /lunametrics-
 /m.gif?
@@ -1429,21 +1429,17 @@
 /matomo.js$domain=~github.com
 /matomo.php
 /matomo/*$domain=~github.com|~hub.docker.com|~matomo.org|~wordpress.org
-/maxymiser.
-/Maxymiser/*
 /mcookie.aspx
 /mcount.cgi?
 /mcounter/*
 /measure/pixel/*
 /measure/visit/*
 /media-analytics.min.
-/media-analytics/*
-/media_viewed_tracking.
-/medialaanUniversalTracker.
+/medialaanUniversalTracker.js
 /mediametrie.js
 /mediateGA.js
 /megacounter/*
-/mendelstats.
+/mendelstats.js
 /meta-analytics/*
 /meta-tracker/*
 /metatraffic/track.asp?
@@ -1452,7 +1448,6 @@
 /metrica/sp.js
 /metricool.js
 /metrics-backend/*
-/metrics-ga.
 /metrics/bambuser.min.js
 /metrics/event?
 /metrics/ga.js
@@ -1461,7 +1456,6 @@
 /metrics/onload
 /metrics/ping?
 /metrics/rum
-/metrics/stat.
 /metrics/statsd/*
 /metrics/survey/*
 /metrics/track/*
@@ -2376,21 +2370,16 @@
 /track?referer=
 /track?referrer=
 /track_click?
-/track_clicks_
 /track_event.
 /track_framework_metrics?
-/track_general_stat.
+/track_general_stat.php
 /track_js/?
-/track_metric/*
-/track_outbound_
 /track_page_view?
 /track_pageview?
 /track_pixel?
 /track_proxy?
 /track_stat?
-/track_video.php?id=
-/track_views.
-/track_visit.
+/track_visit.js
 /track_visit?
 /track_visitor?
 /trackBatchEvents?
@@ -2401,8 +2390,6 @@
 /tracker.ga.
 /tracker.gif?
 /tracker/?key=
-/tracker/app.
-/tracker/emos2_
 /tracker/event?
 /tracker/imp?
 /tracker_async.js
@@ -2416,7 +2403,7 @@
 /tracking-links.js
 /tracking.jsp?sid=
 /tracking/airdog
-/tracking/common.
+/tracking/common.html
 /tracking/cookies?
 /tracking/digitaldata.js
 /tracking/events/*
@@ -2429,7 +2416,6 @@
 /tracking/log?
 /tracking/networktrackingservlet
 /tracking/open?
-/tracking/pixel.
 /tracking/referrer?
 /tracking/thirdpartytag.js
 /tracking/trackpageview
@@ -2518,6 +2504,7 @@
 /trovit-analytics.js
 /truehits.php?
 /tw-track.js
+/twiga.js
 /tynt.js
 /u.gif?
 /ucount.php?
@@ -2531,14 +2518,10 @@
 /umt.gif?
 /unbxdAnalytics.js
 /UniqueUserVisit?
-/Universal-Federated-Analytics.
-/universal-trackers/*
-/universal-tracking-
 /updatestats.js
 /urchin.gif?
 /urchin.html?
 /urchin.js
-/urchinstats.
 /user-context?referrer=
 /userdata_n?
 /userfingerprinttoken/*$xmlhttprequest
@@ -12522,6 +12505,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||inforotor.net/rotor/
 ||ip.up66.ru^
 ||izhevskinfo.ru/count/
+||k50.ru/tracker/
 ||karelia.info/counter/
 ||kraken.rambler.ru^
 ||kvartirant.ru/counter.php?
@@ -13034,6 +13018,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dropbox.com/jse
 ||dropbox.com/log/
 ||dropbox.com/log_
+||dropbox.com/prompt/log_impression?
 ||drudgereport.com/204.png
 ||drugs.com/api/logger/
 ||drugs.com/img/pixel.gif
