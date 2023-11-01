@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CXV+AkYPFSb0wmBNKbVL8g
-! Version: 202311010302
+! Checksum: 7NdxXER3iEWtGXvBpu7fsQ
+! Version: 202311010410
 ! Title: Fanboy's Annoyance List
-! Last modified: 01 Nov 2023 03:02 UTC
+! Last modified: 01 Nov 2023 04:10 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -1377,7 +1377,7 @@ _twitter_follow.
 /aviso_cookies.css
 /aviso_cookies.js
 /avisos_legales/cookies.js
-/aw-cookie.
+/AwCookieConsent.js
 /aws-cookie/*
 /b2c.cookie-
 /bandeau.cookie.js
@@ -1409,7 +1409,6 @@ _twitter_follow.
 /ccm19/*
 /ccpa/getPrivacyFlag?
 /ccpa/prod/*
-/cdcookie/*
 /checkCookieConsent/*
 /ckpl-webc.min.js
 /cm-body.js
@@ -1434,7 +1433,6 @@ _twitter_follow.
 /cnil.js
 /cnil.min.js
 /complianz.min.js
-/component-CookieConsent.
 /consent-banner-
 /consent-box.js
 /consent-dialog.
@@ -1680,7 +1678,7 @@ _twitter_follow.
 /CookieNotifier.js
 /CookieNotifier.min.js
 /cookienotify-
-/cookieNSCconsent.
+/cookieNSCconsent.min.js
 /cookieok.js
 /cookieopt-min.js
 /cookieOverlay.js
@@ -1975,6 +1973,7 @@ _twitter_follow.
 /im_eucookie.
 /img/gdpr/*
 /implied-consent.min.js
+/implied-cookie-consent/*
 /impresacookiepolicy/*
 /in2cookiemodal/*
 /info_cookie.js
@@ -2137,6 +2136,7 @@ _twitter_follow.
 /qoob.cookielaw.min.js
 /quantastCmp.js
 /quantcast-choice.js
+/quick-cookie-consent-public.js
 /rdm-daac-notice-public.js
 /real-cookie-banner/*
 /redandblue-cookies/*
@@ -2187,6 +2187,7 @@ _twitter_follow.
 /super-cookie/swfobject/*
 /superCookie-min.js
 /SwagCookiePermission/*
+/ta2021-plugin-cookie-consent/*
 /tc_privacy/privacy.js
 /tcf/cookie.js
 /tcf2.js
@@ -2204,8 +2205,10 @@ _twitter_follow.
 /TWCCookies/*
 /twcdisclaimer.js
 /uc-cmp/loader.js
+/uk-cookie-consent-js.js
 /ukcookie.js
 /um-gdpr.min.js
+/umich-cookie-consent/*
 /unibo-cookies.min.js
 /unitb-cmp.js
 /usecookies.js
@@ -2222,6 +2225,7 @@ _twitter_follow.
 /webtrekk_gdpr.js
 /webtrekk_gdpr.min.js
 /wecoma-lite.js
+/wf-cookie-consent/*
 /widget_cookieschecker.js
 /widget_privacy/*
 /widgets/cookies-
@@ -45068,6 +45072,7 @@ ineoskoeln.de##.c-alert
 abraxas.ch##.c-disclaimer--default
 frankenmarkter.at##.c-window
 brk-muenchen.de##.caBanner
+switchonshop.com##.cb
 sushiworldlouvain.be##.cc-banner
 bresser.de##.cc-modal-backdrop
 aussenrollo.de##.cc-screen
@@ -48336,7 +48341,7 @@ onas.org.pl#@#div.cookies-visible
 coastalliving.com,commercialtrucktrader.com,cookinglight.com,efarma.com,esselunga.it,essence.com,ew.com,fix-price.com,food.com,fortune.com,gct.com,golf.com,health.com,hellogiggles.com,instyle.com,metallica.com,mirjan24.pl,my.games,ochotnicy.waw.pl,people.com,realsimple.com,ria.com,si.com,slovnaftludom.sk,smooth-on.com,southernliving.com,time.com,touchnote.com,travelandleisure.com,zulily.com#@#div.gdpr
 nutaku.net#@#div.js-disclaimer
 dbschenker.com#@#div.privacy-modal
-securiti.ai,skfbearingselect.com#@#div.privacy-notice
+linkezeitung.de,securiti.ai,skfbearingselect.com#@#div.privacy-notice
 arzagagolf.it#@#div.v-cookie
 inspirock.com,loxam.com#@#div.with-cookie
 what3words.com#@#div[class^="CookieNotice"]
@@ -48512,6 +48517,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||leanlibrary.com/wp-content/plugins/complianz-gdpr/assets/js/cookieconsent.min.js$~third-party
 @@||lecourrier-du-soir.com^*/uk-cookie-consent-js
 @@||lightningmaps.org^*/cookieconsent.$script,stylesheet
+@@||linkezeitung.de/wp-content/plugins/gdpr-notice-original/view/assets/js/gdpr.js
 @@||lockwood-avenue.com^*/cookielaw/$~third-party
 @@||login.csdisco.com^$generichide
 @@||logitech.com/etc.clientlibs/logitech-common/clientlibs/onetrust.$~third-party
