@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7NdxXER3iEWtGXvBpu7fsQ
-! Version: 202311010410
+! Checksum: fMUl09d2TwunLLx6EmvAng
+! Version: 202311010502
 ! Title: Fanboy's Annoyance List
-! Last modified: 01 Nov 2023 04:10 UTC
+! Last modified: 01 Nov 2023 05:02 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -110,9 +110,9 @@
 -scroll-to-top/
 /appBackToTop/*
 /appBackToTop_
-/avada-to-top.
+/avada-to-top.js
 /back-top-btn.
-/back_to_top.$script
+/back_to_top.js
 /back_to_top_
 /bg_scrollup_button.
 /bt_pagetop.
@@ -1313,7 +1313,6 @@ _twitter_follow.
 -cookie-consent-$~script
 -cookie-consent.$~script,domain=~django-cookie-consent.readthedocs.io
 -cookie-consent.js
--cookie-consent/$~script,domain=~django-cookie-consent.readthedocs.io
 -cookie-dialog.
 -cookie-filter/$script
 -cookie-law-popup.
@@ -1370,6 +1369,7 @@ _twitter_follow.
 /asesor-cookies-para-la-ley-en-espana/html/front/principal.js
 /assets/gdpr/*
 /assets/kwkuni.js
+/aucor-cookie-consent/*
 /avada-privacy.js
 /avg-cookie.js
 /avia-snippet-cookieconsent.js
@@ -1397,10 +1397,12 @@ _twitter_follow.
 /borlabs-cookie.min.js
 /borlabs-cookie/vendor-list.json
 /branding/cb-scripts-
+/bs5-cookie-consent/*
 /build/js/it-cc.js
 /bundle-gdpr.min.js
 /c4s_cookie_notification/*
 /cbgCConsent.js
+/cc-cookie-consent/*
 /cc_cookie.js
 /ccbundle.min.js
 /ccbundle2.min.js
@@ -1467,6 +1469,9 @@ _twitter_follow.
 /cookie-compliance.
 /cookie-consent-dialog.js
 /cookie-consent-dialogue.js
+/cookie-consent-lib.js
+/cookie-consent-main/asm_config.js
+/cookie-consent-min.js
 /cookie-consent.js
 /cookie-consent.min.js
 /cookie-control.js
@@ -1946,6 +1951,8 @@ _twitter_follow.
 /gestione_cookie.js
 /GetCookieMessageDisplay?
 /getEUPrivacyPolicy.
+/gp-cookie-consent/*
+/grt-cookie-consent.min.js
 /gtm-consent.js
 /header.cookies.
 /header/cnil-
@@ -1970,6 +1977,8 @@ _twitter_follow.
 /ig_consent-
 /ig_cookie_
 /ik-rgpd.
+/ilmenite-cookie-consent.min.js
+/ilmenite-cookie-consent/*
 /im_eucookie.
 /img/gdpr/*
 /implied-consent.min.js
@@ -2097,6 +2106,7 @@ _twitter_follow.
 /plugin_cookie/*
 /plugins/cookie-$~script,~stylesheet
 /plugins/gdpr/*
+/Plumrocket_CookieConsent/js/lib/js.cookie.js
 /pm_assets/privacy/*$script
 /policy_cookie.js
 /policyaccept.js
@@ -2130,6 +2140,7 @@ _twitter_follow.
 /pum-site-scripts-
 /pum-site-scripts.
 /pwcookielaw.js
+/pwd-cookie-consent/*
 /pxpcookies.js
 /qc-consent.js
 /qciol.min.js
@@ -2182,6 +2193,7 @@ _twitter_follow.
 /sni_cookie_privacy/*
 /sp-config.min.js
 /sp-dsgvo-public.min.js
+/spcookieconsent/*
 /spmsg20180522.js
 /stm-gdpr-compliance/assets/js/scripts.js
 /super-cookie/swfobject/*
@@ -2244,6 +2256,7 @@ _twitter_follow.
 /wpjslib-sgap.js
 /wpjslib-stat.js
 /wpmaster-cookie/*
+/wps-cookie-consent/public/assets/js/main.js
 /ws5_eucookie/*
 /wx-cookie-
 /x13eucookies/*
@@ -48647,8 +48660,6 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||ebok.vectra.pl/components/layout/cookie-bar/
 @@||firkloveren.no/skin/$script,stylesheet
 @@||footroll.pl/js/vendor/cookiebox.min.js
-@@||fundacjapsom.pl/wp-content/plugins/uk-cookie-consent/js/uk-cookie-consent-js.js$script
-@@||gieldykryptowalut.pl/wp-content/plugins/uk-cookie-consent/assets/js/uk-cookie-consent-js.js$script
 @@||holiday.aquila.pl/min/f=/js/$script
 @@||iccreabanca.it/SiteAssets/js/cookie_js/cookies.dyn.js
 @@||idg.se/idg-consent.min.js$script
