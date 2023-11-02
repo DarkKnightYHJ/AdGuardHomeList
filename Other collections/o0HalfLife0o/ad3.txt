@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YGoqZj/RXL566W/3IddRTg
+! Checksum: icFjE5ntb/n6rfiSb18cbw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202311021406
-! Last Modified: 2023年11月02日 14:06
+! Version: 202311022008
+! Last Modified: 2023年11月02日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -21665,7 +21665,6 @@ m.babytree.com##script + a[class]
 /adm_tracking.js
 /adobe-analytics-$domain=~business.adobe.com
 /adobe-analytics.js
-/adobe-analytics/*$script
 /adobe-analytics2.js
 /adobe-prd/*
 /adobe.visitor-
@@ -34209,6 +34208,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beacon.shutterfly.com^
 ||beacon.walmart.com^
 ||beacon.wikia-services.com^
+||bearblog.dev/hit/
 ||beforeitsnews.com/core/ajax/counter/count.php^
 ||behance.net/log
 ||behance.net/v2/logs
@@ -34260,6 +34260,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||carsandbids.com/a/p
 ||cbc.ca/g/stats/
 ||centerblog.net/stats.js
+||ch3ngl0rd.com/hit/
 ||change.org/api-proxy/-/bandit/pull
 ||change.org/api-proxy/-/et
 ||change.org/api-proxy/-/event_tracker
