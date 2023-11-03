@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: eF8fRYMpzwmkIESANopmvQ
-! Version: 202311031502
+! Checksum: TcZ3dh+rWatsHxs2RrJRhA
+! Version: 202311031610
 ! Title: EasyList China+EasyList
-! Last modified: 03 Nov 2023 15:02 UTC
+! Last modified: 03 Nov 2023 16:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1712,6 +1712,7 @@ newduba.cn###jq_youxi
 ||dwerzv.xyz^
 ||ebmlsvw.cn^
 ||eejwvwoo.xyz^
+||eglizqf.cn^
 ||eht116.com^
 ||ekzzed.icu^
 ||esnysd.icu^
@@ -1722,6 +1723,7 @@ newduba.cn###jq_youxi
 ||faxffjo.com^
 ||fcgmoas.cn^
 ||fcgxidqwcx.xyz^
+||fenem.top^
 ||fepmpify.xyz^
 ||fkjsjwbs.xyz^
 ||fluhmmr.cn^
@@ -1889,6 +1891,7 @@ newduba.cn###jq_youxi
 ||pajhvd.xyz^
 ||pdweoyw.cn^
 ||pexavfro.xyz^
+||pfrbnl.xyz^
 ||phwrju.xyz^
 ||pidurrmu.xyz^
 ||ppvpmrt.xyz^
@@ -1898,6 +1901,7 @@ newduba.cn###jq_youxi
 ||pxxnejx.xyz^
 ||qauksl.icu^
 ||qbhjokk.xyz^
+||qboywc.xyz^
 ||qbswezw.cn^
 ||qinjgh.icu^
 ||qmoxxhc.cn^
@@ -1949,6 +1953,7 @@ newduba.cn###jq_youxi
 ||uwfxvvm.cn^
 ||vdggsd001.com^
 ||vdggsd002.com^
+||vdggsd003.com^
 ||vdggsd005.com^
 ||vdggsd006.com^
 ||vdggsd007.com^
@@ -1977,6 +1982,7 @@ newduba.cn###jq_youxi
 ||wqvbuj.icu^
 ||wrtjojn.xyz^
 ||wuruigroup.com^
+||wutsldsk.xyz^
 ||wuyaw.cn^
 ||wvtem.com^
 ||wyoaij.icu^
@@ -1984,6 +1990,7 @@ newduba.cn###jq_youxi
 ||xdfdqce.xyz^
 ||xg6hb.xyz^
 ||xkfigjh.cn^
+||xlca666.site^
 ||xmvmir.icu^
 ||xqgduov.cn^
 ||xrcembm.cn^
@@ -1992,6 +1999,7 @@ newduba.cn###jq_youxi
 ||xxfphsg.cn^
 ||xxkswdf.icu^
 ||y341i.xyz^
+||ybrbdft.xyz^
 ||ycgkol.icu^
 ||ycmgeb.icu^
 ||yepgdita.xyz^
@@ -2012,14 +2020,6 @@ newduba.cn###jq_youxi
 ||zents2.top^
 ||zjdruhn.xyz^
 ||zlncvn.xyz^
-||pfrbnl.xyz^
-||wutsldsk.xyz^
-||ybrbdft.xyz^
-||vdggsd003.com^
-||fenem.top^
-||qboywc.xyz^
-||xlca666.site^
-||eglizqf.cn^
 ||zzyy17.top^
 ||zzyy18.top^
 ||zzyy19.top^
@@ -10995,11 +10995,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-gamersky.com##.ad_cmt_cont
-tmioe.com###custom_html-4
-toy-people.com##.right_bottom_bb
-toy-people.com##.rightAd_3002502
-toy-people.com##.article_insertAD
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -11423,6 +11418,7 @@ wjx.cn###ctl01_ContentPlaceHolder1_divProMsg
 free.com.tw###custom_html-11
 hexieshe.cn###custom_html-2
 24kplus.com###custom_html-3
+tmioe.com###custom_html-4
 18avinin.com,27ka.cn,sunnylife.tw###custom_html-5
 vikacg.com###custom_html-9
 makaidong.com###cyWallsplugin
@@ -12715,6 +12711,7 @@ huanqiu.com##.ad_all
 download.csdn.net##.ad_area_1
 zhibo8.cc##.ad_box_250
 csdn.net##.ad_class
+gamersky.com##.ad_cmt_cont
 gamme.com.tw##.ad_down
 benxiang.com##.ad_duilian
 smm.cn##.ad_front_container
@@ -12932,6 +12929,7 @@ xvna.com##.articleAD
 xuite.net##.articleExtAd
 eprice.com.hk##.article__content > div[style*="text-align"]
 360kuai.com##.article__content__yyconfig
+toy-people.com##.article_insertAD
 toutiao.com##.article_link[data-tag="ad"]
 24en.com##.article_part_top
 ssr.tools##.asb
@@ -13505,7 +13503,7 @@ eprice.com.tw##.emome-ad
 huya.com##.end-ab-wrap
 firefoxchina.cn##.engine-jokes
 hao123.com##.enter1
-423down.com##.entry > P[style="font-size: 20px;"]
+423down.com##.entry > p[style="font-size: 20px;"]
 423down.com##.entry > p[style^="color:red"]
 hackhw.com##.entry-banner
 idanmu.ee##.entry-body > div[class]:first-child
@@ -14632,6 +14630,7 @@ baby-kingdom.com##.right5
 baidu.com##.rightAd-skin
 jsphp.net##.rightAdBtm-wrap
 toy-people.com##.rightAd_300250
+toy-people.com##.rightAd_3002502
 afzhan.com,iqiyi.com##.rightAdv
 jmw.com.cn##.rightCouplet
 iqiyi.com##.rightLink
@@ -14641,6 +14640,7 @@ niotv.com##.right_ad1
 eastday.com##.right_adv_1
 eastday.com##.right_adv_2
 eastday.com##.right_adv_3
+toy-people.com##.right_bottom_bb
 cztv.com##.right_box
 qqyy.com##.right_dcotor_tab
 ifeng.com##.right_gg
