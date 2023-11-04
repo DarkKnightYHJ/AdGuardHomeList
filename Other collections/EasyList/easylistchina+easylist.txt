@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bAy45uuUWbmvHdaNEX4C9w
-! Version: 202311032302
+! Checksum: Xw8uTK4rabe2bPmt9c3vNw
+! Version: 202311040050
 ! Title: EasyList China+EasyList
-! Last modified: 03 Nov 2023 23:02 UTC
+! Last modified: 04 Nov 2023 00:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -11002,6 +11002,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+vikacg.com##a[href^="http"] > img[src^="/assets/main/"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17097,6 +17098,8 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||online.unionpay.com/ads/$script
 @@||orientaldaily.on.cc/js/oncc-ad.js
 @@||ozabc.com^$generichide
+@@||yummy.best^$generichide
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=yummy.best
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=23qb.net|4spaces.org|aboluowang.com|assbbs.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org
@@ -19787,7 +19790,6 @@ fqsousou.com,kengso.com#@#.user-share
 /cgi-bin/ads.
 /cgi-bin/ads/*
 /cgi-bin/ads_
-/clever_ads.js
 /click/zone?
 /click?adv=
 /clickads/*
@@ -20753,7 +20755,6 @@ fqsousou.com,kengso.com#@#.user-share
 ://promo.$~media,third-party,domain=~myshopify.com|~promo.com|~shopifycloud.com|~slidely.com
 =affiliate_ad_viewed&
 =half-page-ad&
-=partnerad&
 ?ab=1&zoneid=
 ?adspot_
 ?adunitid=
@@ -27068,6 +27069,7 @@ _800x80_
 ##.ad-homepage-one
 ##.ad-hor
 ##.ad-horizontal
+##.ad-horizontal-large
 ##.ad-horizontal-top
 ##.ad-horizontal-top-wrapper
 ##.ad-house-btac
@@ -42822,6 +42824,7 @@ browsershots.org#@#.advert_area
 ||bullymust.com^
 ||bulochka.xyz^
 ||bulrev.com^
+||bulserv.com^
 ||bultaika.net^
 ||bultenanogra.cfd^
 ||bulyiel.com^
@@ -77629,6 +77632,7 @@ cloudwards.net,guitaradvise.com###cbox
 linuxinsider.com###cboxOverlay
 curseforge.com###cdm-zone-03
 godbolt.org###ces
+romsmania.games###click-widget-banner
 xcalibrscans.com###close-teaser
 oneindia.com###closePopupDiv
 whocallsme.com###cnt_1
@@ -77814,6 +77818,7 @@ downloadsafer.com###homebannerbottom
 hometheaterreview.com###homepagehorizontalad
 semiconductor-today.com###homeright
 nutritioninsight.com,packaginginsights.com###horizontalblk
+skylinewebcams.com###hostedby
 check-host.net###hostings
 webmd.com###hp-ad-container
 blog.hubspot.com###hs_cos_wrapper_blog_post_sticky_cta
@@ -78113,6 +78118,7 @@ dead-frog.com###site_top
 namemc.com###skin_wrapper
 dafont.com###sky
 dailymail.co.uk###sky-right
+skylinewebcams.com###skylinewebcams-ads2
 dailydooh.com###skysbar
 holiday-weather.com,omniglot.com,w3schools.com,zerochan.net###skyscraper
 nitrome.com###skyscraper_box
@@ -78547,6 +78553,7 @@ premierguitar.com##.a_promo
 fastfoodnutrition.org##.a_rect
 informer.com##.aa-728
 informer.com##.aa0
+romsmania.games##.aawp
 ncomputers.org,servertest.online##.ab
 freedownloadmanager.org##.ab1
 freedownloadmanager.org##.ab320
@@ -80777,6 +80784,7 @@ kotaku.com##.sc-6zn1bq-0
 distractify.com,inquisitr.com,okmagazine.com,radaronline.com##.sc-fTZrbU
 scotsman.com##.sc-igwadP
 sankakucomplex.com##.scad
+soyacincau.com##.scadslot-widget
 bangordailynews.com##.scaip
 newindianexpress.com##.scc
 radiotimes.com##.schedule__row-list-item-advert
@@ -81384,7 +81392,7 @@ domaingang.com##.widget_execphp
 bestlifeonline.com,hellogiggles.com##.widget_gm_karmaadunit_widget
 faroutmagazine.co.uk##.widget_grv_mpu_widget
 theiphoneappreview.com##.widget_links
-247media.com.ng,aboutcrypto.info,appleworld.today,captainaltcoin.com,closerweekly.com,cozyberries.com,dbknews.com,deshdoaba.com,foreverconscious.com,glitched.online,granitegrok.com,intouchweekly.com,kashmirreader.com,kkfm.com,lifeandstylemag.com,londonnewsonline.co.uk,mensjournal.com,nikonrumors.com,patriotfetch.com,pctechmag.com,prajwaldesai.com,robinhoodnews.com,rok.guide,rsbnetwork.com,showbiz411.com,sportsspectrum.com,theoverclocker.com,ubuntu101.co.za,wakingtimes.com,washingtonmonthly.com,webscrypto.com,wgow.com,wgowam.com,wlevradio.com##.widget_media_image
+247media.com.ng,aboutcrypto.info,appleworld.today,captainaltcoin.com,closerweekly.com,cozyberries.com,dbknews.com,deshdoaba.com,foreverconscious.com,glitched.online,granitegrok.com,intouchweekly.com,kashmirreader.com,kkfm.com,lifeandstylemag.com,londonnewsonline.co.uk,marqueesportsnetwork.com,mensjournal.com,nikonrumors.com,patriotfetch.com,pctechmag.com,prajwaldesai.com,robinhoodnews.com,rok.guide,rsbnetwork.com,showbiz411.com,sportsspectrum.com,theoverclocker.com,ubuntu101.co.za,wakingtimes.com,washingtonmonthly.com,webscrypto.com,wgow.com,wgowam.com,wlevradio.com##.widget_media_image
 cracked-games.org##.widget_metaslider_widget
 nypost.com##.widget_nypost_dfp_ad_widget
 nypost.com##.widget_nypost_vivid_concerts_widget

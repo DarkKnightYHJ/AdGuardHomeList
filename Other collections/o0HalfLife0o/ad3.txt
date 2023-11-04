@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1q/N3ouQBprWSGGUyYtPWQ
+! Checksum: N0O4zwW/gYEc4XAhtGb+iQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202311040206
-! Last Modified: 2023年11月04日 02:06
+! Version: 202311040824
+! Last Modified: 2023年11月04日 08:24
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2186,6 +2186,13 @@ newduba.cn###jq_youxi
 ||zents2.top^
 ||zjdruhn.xyz^
 ||zlncvn.xyz^
+||zys13.top^
+||cklithuw.xyz^
+||cammak.xyz^
+||ktvtxir.xyz^
+||egadfe.xyz^
+||vdggsd004.com^
+||pptclb.xyz^
 ||zzyy17.top^
 ||zzyy18.top^
 ||zzyy19.top^
@@ -11159,6 +11166,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+vikacg.com##a[href^="http"] > img[src^="/assets/main/"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17254,6 +17262,8 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||online.unionpay.com/ads/$script
 @@||orientaldaily.on.cc/js/oncc-ad.js
 @@||ozabc.com^$generichide
+@@||yummy.best^$generichide
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=yummy.best
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=23qb.net|4spaces.org|aboluowang.com|assbbs.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org
@@ -21953,12 +21963,10 @@ m.babytree.com##script + a[class]
 /beacon/user-data
 /beacon/v1/batch?
 /beacon?cust=
-/beaconconfigs/*
-/beacons-external.
 /beacons?data=
 /behavior/web/pv?
-/benchmarketingsmarttag/*
-/better-analytics/*
+/benchmarketingsmarttag/get?
+/better-analytics/js/loader.php
 /bf.gif?ac=
 /bineos.min.js
 /bing-bat.js
@@ -21971,20 +21979,12 @@ m.babytree.com##script + a[class]
 /blank.gif?*%
 /blank.gif?*&
 /blogcounter.js
-/bluekai.
-/bluekai/*
-/blueKaiAnalytics.
-/bluekaicookieinfo.
-/BlueKaiPixel/*
-/bluetracker/*
-/bm-bam-trk.
+/bluekai.js
 /bom/analytics/*
 /boomerang-latest.js
 /boomerang-latest.min.js
-/boomerang-minified-
 /boomerang.js
 /boomerang/beacon
-/boomLogger.
 /boomr.js
 /boost-sd-analytic.js
 /boost_stats.php
@@ -21992,17 +21992,15 @@ m.babytree.com##script + a[class]
 /botd.gif?
 /bower_components/fp/fp.js
 /bpsma.js
-/branchMetrics.
+/branchMetrics.js
 /brandAnalytics.js
-/brightcove/tracking/*
 /brightedge.js
 /brightspot/analytics/*
 /brightTag-min.js
 /browserinfo?f.sid=
-/bsp-analytics.
+/bsp-analytics.min.
 /bstat.js
 /btrack.php?
-/buffermetrics/*
 /bugcounter.php?
 /bundle-analytics.js
 /bundle.tracking.js
@@ -22032,7 +22030,7 @@ m.babytree.com##script + a[class]
 /cdn-cgi/zaraz/*
 /cdn_cookie_service.html
 /cedexis.js
-/cedexis/*
+/cedexis.radar.js
 /census/RecordHit
 /certifica-js14.js
 /certifica.js
@@ -22090,30 +22088,23 @@ m.babytree.com##script + a[class]
 /clickrecord.php?
 /clicks/servlet/*
 /clickscript.js
-/clickstats.
+/clickstats.php
 /clickstream.aspx?
 /clickstream.js
 /clickstream/visit?
-/clicktag.
-/ClickTail.
-/clicktale-
-/clicktale.
-/clicktale/*
-/clicktale_
-/clicktalecdn.
-/ClickTrack.
+/clicktag.js
+/ClickTail.js
+/clicktale.js
+/ClickTrack.js
 /clicktrack?
-/clicktracker.
-/clicktracking.
-/clicktracking/*
+/clicktracker.js
+/clicktracker.php
+/clicktracking.js
 /clicky.js
 /client-metrics/?target
-/client.rum.
 /client_pathlog.asp?
 /clientele/reports/*
-/clientEventLog/*
-/clientlib-analytics-
-/clientPageLog/*
+/clientlib-analytics-core.
 /clientstat?
 /cls_report?
 /cms.gif?
@@ -22121,7 +22112,7 @@ m.babytree.com##script + a[class]
 /cmslog.dll?
 /cn-fe-stats/*
 /cn-track?
-/cnstats.
+/cnstats.js
 /cnstats/*
 /cnt-combined.php?
 /cnt.aspx?
@@ -22130,11 +22121,10 @@ m.babytree.com##script + a[class]
 /cnt/cnt.php?
 /cnt/start.php?
 /cnt_js.php?
-/cntpixel.
 /cnvtr.js
 /cocoon-master/lib/analytics/access.
-/CofinaHits.
-/cohesion-latest.
+/CofinaHits.js
+/cohesion-latest.min.js
 /coinhive.min.js
 /coinimp-cache/*
 /collect.gif?
@@ -24076,6 +24066,7 @@ m.babytree.com##script + a[class]
 /vecapture.js
 /vendor/analytics.js
 /vendor/analytics/*
+/vendor/cedexis/*
 /vendor/xtcore.js
 /vestigo/v1/measure
 /vglnk.js
@@ -24269,6 +24260,7 @@ m.babytree.com##script + a[class]
 ://analytics.*/pageview/
 ://beacon.*/track
 ://blue.*/script.js
+://client.rum.
 ://collect.*/pageview
 ://collector.*/event
 ://elqtrk.
@@ -24639,6 +24631,7 @@ _mongo_stats/
 ||adstk.io^
 ||adultium.com^
 ||agkn.com^
+||agma-analytics.de^
 ||allvideometrika.com^
 ||alpha1trk.com^
 ||altopd.com^
@@ -30876,6 +30869,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||clickiocdn.com/utr/
 ||clicks.dealer.com^
 ||clicks.tyuwq.com^
+||clicktalecdn.sslcs.cdngc.net^
 ||clickthru.lefbc.com^$third-party
 ||clicktime.symantec.com^$script,third-party
 ||clicktracker.iscan.nl^
@@ -32301,6 +32295,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.mpthemes.net^
 ||stats.nebula.fi^
 ||stats.netbopdev.co.uk^
+||stats.netdriven.com^
 ||stats.olark.com^
 ||stats.ozwebsites.biz^
 ||stats.phoenix-widget.com^
@@ -35344,6 +35339,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||video.mobile.yahoo.com/log|$xmlhttprequest
 ||views.arabnews.com^
 ||views.asura.gg^
+||views.asurascans.com^
 ||vimeo.com/ablincoln/
 ||vimeocdn.com/js_opt/logging_combined.min.js
 ||visualstudio.com/v2/track
