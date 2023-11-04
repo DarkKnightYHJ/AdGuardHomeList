@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: N0O4zwW/gYEc4XAhtGb+iQ
+! Checksum: bWZdZh9FXh8mEu6eY8tlog
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202311040824
-! Last Modified: 2023年11月04日 08:24
+! Version: 202311041403
+! Last Modified: 2023年11月04日 14:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2193,6 +2193,7 @@ newduba.cn###jq_youxi
 ||egadfe.xyz^
 ||vdggsd004.com^
 ||pptclb.xyz^
+||hfjhr.cn^
 ||zzyy17.top^
 ||zzyy18.top^
 ||zzyy19.top^
@@ -24020,7 +24021,6 @@ m.babytree.com##script + a[class]
 /uds/stats?
 /uecomscore_cmp_event_mundo.js
 /uem-ep.js
-/ui/analytics/*
 /uisprime/track
 /umami.js
 /umg-analytics/*
@@ -53908,6 +53908,7 @@ arketing.indianadunes.com^
 @@||ipapi.co/json/$xmlhttprequest,domain=168.dailymaverick.co.za|audius.co
 @@||ipinfo.io/?token=$domain=assurancemortgage.com|webtv.ert.gr
 @@||ipv4.seeip.org/jsonip$domain=empire-streaming.app
+@@||join.southerncross.co.nz/quote/_assets/js/sx/app/helpers/gtm.js
 @@||js-agent.newrelic.com^$domain=alliantcreditunion.com|giftcards.com|kapwing.com
 @@||js.captcha-display.com/xhr_tag.js$script,domain=auth.garena.com
 @@||js.datadome.co/tags.js$script,domain=sso.garena.com

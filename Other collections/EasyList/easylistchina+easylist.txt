@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qIr8yV3FpH3p7UflcBA5PQ
-! Version: 202311040502
+! Checksum: PCe5q1enN3ULrNNPjpnNog
+! Version: 202311040611
 ! Title: EasyList China+EasyList
-! Last modified: 04 Nov 2023 05:02 UTC
+! Last modified: 04 Nov 2023 06:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -82795,6 +82795,7 @@ twitter.com#?#div[data-testid="trend"]:-abp-has(path[d$="10H8.996V8h7v7z"])
 twitter.com#?#div[data-testid="UserCell"]:-abp-has(path[d$="10H8.996V8h7v7z"])
 twitter.com#?#h2[role="heading"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/)
 tympanus.net#?#article:-abp-has(header:-abp-has(.ct-sponsored))
+vidplay.lol#?#body > div > div[class][style]:-abp-has(> div > div > a[target="_blank"])
 vofomovies.info#?#a13:-abp-contains( Ad)
 walmart.ca#?#div[data-automation="product"]:-abp-has(div[data-automation="sponsored-indicator-wrapper"])
 walmart.com#?#div[class="mb1 ph1 pa0-xl bb b--near-white w-25"]:-abp-has(div[data-ad-component-type="wpa-tile"])
