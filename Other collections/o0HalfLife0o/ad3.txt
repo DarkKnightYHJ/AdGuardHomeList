@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gR1OnTPKjodBVJHjiNEFgQ
+! Checksum: 9uSCuD3kEpQUfaytuelRKg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202311050202
-! Last Modified: 2023年11月05日 02:02
+! Version: 202311050828
+! Last Modified: 2023年11月05日 08:28
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2197,6 +2197,13 @@ newduba.cn###jq_youxi
 ||zjdruhn.xyz^
 ||zlncvn.xyz^
 ||zys13.top^
+||zys15.top^
+||omkxes.xyz^
+||wlzlrlp.xyz^
+||lkdybkwi.xyz^
+||fehrda.xyz^
+||xzvahr.xyz^
+||tcvmtp.xyz^
 ||zzyy17.top^
 ||zzyy18.top^
 ||zzyy19.top^
@@ -21770,7 +21777,7 @@ m.babytree.com##script + a[class]
 /analytics-events-
 /analytics-facade.
 /analytics-gjc-min.js
-/analytics-helper.
+/analytics-helper.js
 /analytics-hit?
 /analytics-ingestion/*
 /analytics-ingress-
@@ -26508,6 +26515,7 @@ _mongo_stats/
 ||nstracking.com^$third-party
 ||nuconomy.com^$third-party
 ||nuggad.net^$third-party
+||nullitics.com^$third-party
 ||nuloox.com^$third-party
 ||numerino.cz^$third-party
 ||nyltx.com^$third-party
