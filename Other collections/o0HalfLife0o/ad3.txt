@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rFGsGf+VAX73TjcFqoR0bQ
+! Checksum: 8oo2o88yqR7a1jNpj3bmaw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202311060826
-! Last Modified: 2023年11月06日 08:26
+! Version: 202311061407
+! Last Modified: 2023年11月06日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2209,6 +2209,9 @@ newduba.cn###jq_youxi
 ||idddlon.xyz^
 ||zys16.top^
 ||uavejnys.xyz^
+||xjxbdh.xyz^
+||fotaxf.xyz^
+||zuugfj.cn^
 ||zzyy17.top^
 ||zzyy18.top^
 ||zzyy19.top^
@@ -20232,6 +20235,7 @@ _box_ad_
 ||tencent.com/developer/api/common/getOneAds
 !------------------------Specific element hiding rules------------------------!
 baidu.com##.player-pause-code
+123pan.com##.ant-carousel
 baidu.com##.landrightbanner
 51cto.com##.right-fixadv
 51cto.com###advCanvas
@@ -21312,6 +21316,7 @@ m.babytree.com##script + a[class]
 /v.gif?logtype=
 /yesky/js/counter/*
 /zcool-analytics.js
+||lzp.plus^
 ||wujiupic.com^
 ||video.qq.com/checktime?
 ||cdn-data-cloud.com/history/
@@ -30967,6 +30972,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||collect.usefathom.com^
 ||collector-*.px-client.net^
 ||collector-api.99designs.com^
+||collector-api.frspecifics.com^
 ||collector-soompi.viki.io^
 ||collector.api.video^
 ||collector.appconsent.io^
