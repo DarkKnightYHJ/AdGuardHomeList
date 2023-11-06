@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WesxKjqyBlhvnXl27dKytQ
-! Version: 202311061102
+! Checksum: QbeEVEZ2EF+2SLKyvGBvmQ
+! Version: 202311061220
 ! Title: EasyList
-! Last modified: 06 Nov 2023 11:02 UTC
+! Last modified: 06 Nov 2023 12:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -57075,7 +57075,7 @@ browsershots.org#@#.advert_area
 ! firework
 ||fireworkapi1.com^$domain=boldsky.com
 ! In-page video advertising.
-||anyclip.com^$script,third-party
+||anyclip.com^$script,third-party,domain=~dictionary.com
 ||api.dailymotion.com^$domain=philstarlife.com
 ||api.fw.tv^
 ||avantisvideo.com^$third-party
