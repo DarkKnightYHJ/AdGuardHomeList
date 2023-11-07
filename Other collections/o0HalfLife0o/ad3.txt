@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FMpKgtHocd0asJbFJHNUnw
+! Checksum: ztlUKrILxng5R69or59qEw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202311071406
-! Last Modified: 2023年11月07日 14:06
+! Version: 202311072008
+! Last Modified: 2023年11月07日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2219,6 +2219,8 @@ newduba.cn###jq_youxi
 ||znwzcmd.cn^
 ||2c0a5.xyz^
 ||azdiqsb.cn^
+||wyiegt.icu^
+||eyjvq.xyz^
 ||zzyy17.top^
 ||zzyy18.top^
 ||zzyy19.top^
@@ -19012,6 +19014,7 @@ wnacg.com##script + div > a > img
 ||hdsrc-a.akamaihd.net^
 !----------------------Fixed Fanboy's Social Blocking List--------------------!
 eastday.com#@##leftShare
+123pan.com#@#.share-list
 189.cn#@##linkShare
 gfan.com,gfan.net.cn#@##shareBox
 189.cn,zdzdm.com#@##share_list
@@ -21585,7 +21588,6 @@ m.babytree.com##script + a[class]
 -adobe-analytics.
 -adobe-analytics/
 -adobeDatalayer_bridge.js
--amp-error-reporting.
 -click-tracker.
 -didomi.js
 -geoIP.js
@@ -21601,15 +21603,8 @@ m.babytree.com##script + a[class]
 .com/counter?
 .com/dc.gif?
 .com/g.gif?
-.com/hitlog?
 .com/log/?
-.com/log?event
-.com/pvlog?
-.com/stats.ashx?
-.com/stats.aspx?
 .com/track?$~object
-.com/tracking?
-.com/vtrack|
 .content_tracking.js
 .de/h.gif?
 .de/l.gif?
@@ -21617,7 +21612,6 @@ m.babytree.com##script + a[class]
 .EventTracking.
 .gatracking.js
 .gif?Log=
-.Google.Tracker.js
 .jp/pv?
 .lms-analytics/
 .net/l.gif?
@@ -22825,6 +22819,7 @@ m.babytree.com##script + a[class]
 /lasso-ga.js
 /leadgen/ga.js
 /leadtag.js
+/leage.google.tracker.js
 /lhnhelpouttab-current.min.js
 /lib/analytics.js
 /lib/snowplow-
@@ -23331,6 +23326,7 @@ m.babytree.com##script + a[class]
 /pvcounter/*
 /PvCountUp.action
 /pvevents.gif?
+/pvlog.js
 /pvmax.js
 /pvnoju.js
 /px.gif?
@@ -24685,6 +24681,7 @@ _mongo_stats/
 ||cdnhst.xyz^
 ||ciqtracking.com^
 ||cityrobotflower.com^
+||ck123.io^
 ||ckies.net^
 ||clarity.ms^
 ||clearbitscripts.com^
