@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: QRdJSZsbiBPi1zCqEPpKKw
-! Version: 202311071610
+! Checksum: CAT+FHvqG0uaBBuWiZqHQw
+! Version: 202311071651
 ! Title: EasyPrivacy
-! Last modified: 07 Nov 2023 16:10 UTC
+! Last modified: 07 Nov 2023 16:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2336,6 +2336,7 @@
 /track_pixel?
 /track_proxy?
 /track_stat?
+/track_video.php?id=
 /track_visit.js
 /track_visit?
 /track_visitor?
@@ -13958,6 +13959,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||walmart.ca/api/home-page/logger
 ||walmart.ca/api/landing-page/beacon-logger
 ||walmartimages.com/dfw/4ff9c6c9-d9a0/$domain=walmart.com
+||wattpad.com/js/tracker/app.
 ||wc.yahoodns.net^$image
 ||wccftech.com/cnt7vfDVvWa3.js
 ||web.whatsapp.com/wam
