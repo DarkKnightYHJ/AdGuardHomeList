@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: s3V7P0sMjsdvI1Ul5mLPJw
-! Version: 202311081502
+! Checksum: JUZCtktTR39qQcoNUXhhtg
+! Version: 202311081611
 ! Title: ABP filters
-! Last modified: 08 Nov 2023 15:02 UTC
+! Last modified: 08 Nov 2023 16:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -2889,3 +2889,11 @@ nettruyenus.net#$#abort-on-property-read sp
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument
 ! FD-4039
 @@||dzen.ru/partner2/mailru-morda|$xmlhttprequest,domain=mail.ru
+! *** abp-filters-anti-cv:distribution/abp-filters-partners.txt ***
+! Filters to be used by distribution partners
+! #CV-782
+www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#json-prune '0.playerResponse.adPlacements 0.playerResponse.playerAds 1.playerResponse.adPlacements 1.playerResponse.playerAds 2.playerResponse.adPlacements 2.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds ytInitialPlayerResponse.adPlacements ytInitialPlayerResponse.playerAds adPlacements playerAds'
+www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read playerResponse.adPlacements undefined;
+www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
+! Fallback
+www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#simulate-mouse-event button.ytp-ad-skip-button$delay=0
