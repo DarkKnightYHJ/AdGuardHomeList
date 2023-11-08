@@ -4,7 +4,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2023-11-08T06:01:23.329Z
+! Last modified: 2023-11-08T12:01:25.621Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.22
 !
@@ -12137,6 +12137,7 @@ vkcdnservice.appspot.com^
 ||framentyder.pro^
 ||frameworkdeserve.com^
 ||francetobaccotrading.com^
+||franciatirribi.com^
 ||francisunbeget.com^
 ||francoistsjacqu.info^
 ||franecki.net^
@@ -25829,6 +25830,7 @@ vkcdnservice.appspot.com^
 ||spinbiased.com^
 ||spinbox.net^
 ||spinbox1.com^
+||spinderirpe.com^
 ||spinna.online^
 ||spinna.shop^
 ||spinna.site^
@@ -27826,6 +27828,7 @@ vkcdnservice.appspot.com^
 ||treenghsas.com^
 ||treepullmerriment.com^
 ||trehtnoas.com^
+||treitrejewfish.com^
 ||trekstereo.com^
 ||trellian.com^
 ||tremblingpitcher.com^
@@ -31125,6 +31128,7 @@ vkcdnservice.appspot.com^
 ||zatloudredr.com^
 ||zatnoh.com^
 ||zaubanel.com^
+||zaucharo.xyz^
 ||zauglomo.net^
 ||zauglust.net^
 ||zaumaico.com^
@@ -33774,6 +33778,9 @@ vkcdnservice.appspot.com^
 ||startup.mobile.yandex.net^
 ||startup-mobile.ap.yandex-net.ru^
 !
+||ad*.mtgglobals.com^
+||ad-*.amazonaws.com^
+||tapulsads.ru^
 ||*-hb-bid-feedback.mtgglobals.com^
 ||ads-sdk.nianticlabs.com^
 ||ad.mediamixer.co.kr^
@@ -37921,6 +37928,13 @@ vkcdnservice.appspot.com^
 ! More info: https://getadmiral.com/products/measure
 ! Add same rules to the Admiral section of Annoyances filter
 !
+||headydegree.com^
+||creatorpassenger.com^
+||firsttexture.com^
+||tearfulglass.com^
+||planebasin.com^
+||stakingbasket.com^
+||needlessnorth.com^
 ||scaredsong.com^
 ||truculentrate.com^
 ||ethereallagoon.com^
@@ -39084,6 +39098,7 @@ vkcdnservice.appspot.com^
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||analytics.innologica.com^
 ||track.wattpad.com^
 ||analytics.keepstreams.com^
 ||analytics.gamesdrive.net^
@@ -41250,6 +41265,7 @@ inapps.appsflyersdk.com^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
 !
+||event-collector.moviesanywhere.com^
 ||us-east-1.paa-reporting-advertising.amazon^
 ||analytics.nianticlabs.com^
 ||sg.log.ulivetv.net^
@@ -41797,6 +41813,7 @@ inapps.appsflyersdk.com^
 ||bx-cloud.com^
 ||bydst.com^
 ||cadsuta.net^
+||catsunrunjam.com^
 ||cdnhst.xyz^
 ||ciqtracking.com^
 ||cityrobotflower.com^
@@ -43198,7 +43215,6 @@ inapps.appsflyersdk.com^
 ||fewjuice.com^
 ||fifthborder.com^
 ||financefear.com^
-||firsttexture.com^
 ||flowersornament.com^
 ||flowerycreature.com^
 ||foamypain.com^
@@ -43229,7 +43245,6 @@ inapps.appsflyersdk.com^
 ||handyfireman.com^
 ||harborcaption.com^
 ||hauntlist.com^
-||headydegree.com^
 ||hearinglizards.com^
 ||heartbreakingmind.com^
 ||helpcollar.com^
@@ -43294,7 +43309,6 @@ inapps.appsflyersdk.com^
 ||motionflowers.com^
 ||motionlessbelief.com^
 ||muterange.com^
-||needlessnorth.com^
 ||needyneedle.com^
 ||nightwound.com^
 ||nothingunit.com^
@@ -43320,7 +43334,6 @@ inapps.appsflyersdk.com^
 ||pinpointpotato.com^
 ||piquantprice.com^
 ||placeframe.com^
-||planebasin.com^
 ||planesorder.com^
 ||plantrelation.com^
 ||plausiblecable.com^
@@ -43442,7 +43455,6 @@ inapps.appsflyersdk.com^
 ||spottedsmile.com^
 ||springsister.com^
 ||spurioussquirrel.com^
-||stakingbasket.com^
 ||stampknot.com^
 ||stat.pet^
 ||stayaction.com^
@@ -43474,7 +43486,6 @@ inapps.appsflyersdk.com^
 ||tastelesstoes.com^
 ||tastesnake.com^
 ||tdzvm.pw^
-||tearfulglass.com^
 ||tediousticket.com^
 ||teenytinycellar.com^
 ||telephoneapparatus.com^
@@ -44331,6 +44342,7 @@ inapps.appsflyersdk.com^
 ||d2rnkf2kqy5m6h.cloudfront.net^
 ||d2t77mnxyo7adj.cloudfront.net^
 ||d2wy8f7a9ursnm.cloudfront.net^
+||d2zue0pgsssbc6.cloudfront.net^
 ||d31y97ze264gaa.cloudfront.net^
 ||d34r8q7sht0t9k.cloudfront.net^
 ||d36u3psykfwy91.cloudfront.net^
@@ -50560,8 +50572,8 @@ inapps.appsflyersdk.com^
 ! # A hosts file that aims to get rid of ads, tracking, scams & badware on (mostly) Swedish websites
 ! # ----
 ! # title:          Frellwit's Swedish Hosts File
-! # last updated:   2023-11-05 05:40:19 CET
-! # entries:        1197
+! # last updated:   2023-11-08 07:03:44 CET
+! # entries:        1194
 ! # format:         hosts (hosts -- in hosts file format)
 ! # homepage:       https://github.com/lassekongo83/Frellwits-filter-lists/
 ||1terms.com^
@@ -50674,7 +50686,6 @@ inapps.appsflyersdk.com^
 ||buzzador.com^
 ||cache6.riedta.com^
 ||campersverige.com.se^
-||cardata.se^
 ||cargodisplayads.com^
 ||carneoam.com^
 ||casinotoplists.com^
@@ -50815,7 +50826,6 @@ inapps.appsflyersdk.com^
 ||levaochbo.compricer.se^
 ||libring.com^
 ||live.demand.supply^
-||ljuskompaniet.se^
 ||loader.wisepops.com^
 ||loewe.com.se^
 ||log-api.newrelic.com^
@@ -51107,7 +51117,6 @@ inapps.appsflyersdk.com^
 ||tracking.etidning.fagersta-posten.se^
 ||tracking.fagersta-posten.se^
 ||traffic.feedremedy.com^
-||trafikstyrelsen.com^
 ||trckr1.nordiskemedier.dk^
 ||tretorn-rea.com.se^
 ||ubembed.com^
@@ -51538,9 +51547,9 @@ inapps.appsflyersdk.com^
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 05 Nov 2023 22:44 UTC+7
-! OriginalVersion: 2311052244
-! Blocked: 845 rules
+! Last modified: 08 Nov 2023 14:37 UTC+7
+! OriginalVersion: 2311081437
+! Blocked: 846 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
 !
@@ -52770,6 +52779,12 @@ inapps.appsflyersdk.com^
 ||ndbaxn.xyz^
 ||aispyd.icu^
 ||whols.cn^
+||elas666.pics^
+||wyohm.xyz^
+||apis301.com^
+||1k2l3m4n5o.com^
+||c1ecda.com^
+||virginiasibyl.com^
 ||zzyy17.top^
 ||zzyy18.top^
 ||zzyy19.top^
