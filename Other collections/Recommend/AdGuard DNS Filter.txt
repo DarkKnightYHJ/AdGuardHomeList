@@ -4,7 +4,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2023-11-10T00:02:20.727Z
+! Last modified: 2023-11-10T06:01:14.256Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.22
 !
@@ -42410,6 +42410,7 @@ inapps.appsflyersdk.com^
 ||delicatecascade.com^
 ||delicateducks.com^
 ||delightfulhour.com^
+||dependenttrip.com^
 ||desertedbreath.com^
 ||desertedrat.com^
 ||desirebucket.com^
@@ -51549,9 +51550,9 @@ inapps.appsflyersdk.com^
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 08 Nov 2023 14:37 UTC+7
-! OriginalVersion: 2311081437
-! Blocked: 846 rules
+! Last modified: 10 Nov 2023 10:57 UTC+7
+! OriginalVersion: 2311101057
+! Blocked: 845 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
 !
@@ -51758,6 +51759,7 @@ inapps.appsflyersdk.com^
 ||quangcao-*.epicdn.me^
 ||quangcao.thanhnien.vn^
 ||quangcao.tuoitre.vn^
+||realclick.vn^
 ||rec.aiservice.vn^
 ||s.tuoitre.vn^
 ||sbbanner-com.cdn.ampproject.org^
@@ -52199,7 +52201,6 @@ inapps.appsflyersdk.com^
 ||quangcaococcoc.vn^
 ||quangcaodantri.vn^
 ||r.tinmoi24.vn^
-||realclick.vn^
 ||report.mediahub.vn^
 ||report.vnay.vn^
 ||report2.mediahub.vn^
@@ -52307,7 +52308,6 @@ inapps.appsflyersdk.com^
 ||truoctran.com^
 ||ttus.tructiepbongda.me^
 ||tvc.biphim.club^
-||tvnotice.kg.garena.vn^
 ||upfile16.mediaphim.com^
 ||user.headlines.pw^
 ||userstats.shopee.vn^
@@ -52804,6 +52804,7 @@ inapps.appsflyersdk.com^
 ||jppxnhe.xyz^
 ||whqgyo.xyz^
 ||icwnix.icu^
+||bxbyll.xyz^
 ||zzyy17.top^
 ||zzyy18.top^
 ||zzyy19.top^
@@ -58001,6 +58002,8 @@ analytics-*.aasaam.com
 ||apptracking.irancell.ir^
 ||websocket.ilna.ir^
 ! # >> J <<
+||sentry.alibaba.ir^
+||tracker.jabama.com^
 ! # >> K <<
 ||kar-sentry.karnameh.com^
 ! # https://github.com/MasterKia/PersianBlocker/issues/101
