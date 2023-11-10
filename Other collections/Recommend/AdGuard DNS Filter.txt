@@ -4,7 +4,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2023-11-10T12:01:16.528Z
+! Last modified: 2023-11-10T14:14:07.209Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.22
 !
@@ -5438,6 +5438,7 @@ vkcdnservice.appspot.com^
 ||baubogla.com^
 ||bauchleredries.com^
 ||baunaurou.com^
+||bauptost.net^
 ||baustraightu.com^
 ||bauvaikul.com^
 ||bauweethie.com^
@@ -6246,6 +6247,7 @@ vkcdnservice.appspot.com^
 ||bonyspecialist.pro^
 ||bonzai.ad^
 ||bonzesantra.life^
+||boodaisi.xyz^
 ||boogopee.com^
 ||bookadil.com^
 ||bookbannershop.com^
@@ -18665,6 +18667,7 @@ vkcdnservice.appspot.com^
 ||mycasinoaccounts.com^
 ||mycdn.co^
 ||mycdn2.co^
+||mycelesterno.com^
 ||myckdom.com^
 ||myclickpush.com^
 ||mycoolfeed.com^
@@ -22423,6 +22426,7 @@ vkcdnservice.appspot.com^
 ||ptoahaistais.com^
 ||ptoajait.net^
 ||ptoangir.com^
+||ptoapouk.com^
 ||ptobsagn.com^
 ||ptoftheca.xyz^
 ||ptonauls.net^
@@ -58320,6 +58324,8 @@ analytics-*.aasaam.com
 ! Source name: Exception rules
 ! Source: Filters/exceptions.txt
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/164769
+@@||cdn.us*.exponea.com^|
 ! Blocked by CNAME data.adobedc.net
 @@||data.digital.costco.ca^|
 @@||data.digital.costco.com^|
