@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3feUR2cVgGz9l8KqSmkJLQ
-! Version: 202311111002
+! Checksum: r4ePEUKPAGF7mMAm/PaBJg
+! Version: 202311111102
 ! Title: Fanboy's Annoyance List
-! Last modified: 11 Nov 2023 10:02 UTC
+! Last modified: 11 Nov 2023 11:02 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -1890,7 +1890,8 @@ _twitter_follow.
 /gdpr-cmp-
 /gdpr-compliance.js
 /gdpr-consent-
-/gdpr-consent.
+/gdpr-consent.js
+/gdpr-consent.min.js
 /gdpr-consent/*
 /gdpr-cookie-compliance/dist/scripts/main.js
 /gdpr-cookie.js
@@ -1927,7 +1928,7 @@ _twitter_follow.
 /gdpr_footer.js
 /gdpr_js/*
 /gdpr_ncoi.
-/gdpr_notice.
+/gdpr_notice.js
 /gdpr_optout.
 /gdpr_plugin.js
 /gdpr_popup.js
@@ -1938,9 +1939,8 @@ _twitter_follow.
 /gdprcookie.
 /gdprcookie/*
 /gdprcookiepolicy.js
-/gdprDialog.
+/gdprDialog.js
 /gdprmain/*
-/GDPRModalCounter.
 /gdprnotice.
 /gdprpopup.
 /GDPRPopup/*
@@ -2040,6 +2040,7 @@ _twitter_follow.
 /leyCookies.js
 /lgdpscript.min.js
 /lgpd-cookie/*
+/lin_gdpr_cookiejar.js
 /ll_cookie_bar.js
 /loadcookieconsent.js
 /loom-cookie.js
@@ -2211,6 +2212,7 @@ _twitter_follow.
 /tm.cookie.js
 /tnzcookie/*
 /toucanCookie.js
+/tronic_gdpr-wordpress/js/scripts.js
 /trustArcHelper.js
 /trwcookieconsent/*
 /ttgcookieconsent-
@@ -35672,7 +35674,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||mad-daily.com^*/cp-module-
 ||marketwatch.com/asset/ace/djcmp.
 ||masaltos.com/js/cookies-
-||medicalnewstoday.com/_next/chunks/modal-0cb79-legacy.js
+||medicalnewstoday.com/api/ccpa
 ||mms.cmpsky.com^
 ||myanimelist.net/js/cmp.js
 ||mymuesli.com/assets/js/modules/Default/Static/Consent.js
@@ -41412,6 +41414,7 @@ prospan.com.au##.eu-privacy
 bojoko.com##.evt-notification-bottom
 ezil.me##.ew776696
 exidegroup.com##.exide-gtm-scripts-modal-wrapper
+exitlag.com##.exl-cookie-banner
 reolink.com##.explorer-n-privacy
 forums.xfinity.com##.f-cmp-flyout-wrapper
 remitly.com##.f4lpvwd
@@ -47818,6 +47821,7 @@ ants.vn##.sg-popup-content
 !
 ! ---------- Dutch ----------
 !
+||ccm.npo.nl^
 ||cmp.deondernemer.nl^
 ||cookie.vrt.be^
 ||cookie.wieni.be^
