@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1KbFAAe/o6T/r3ZI0nKzpQ
-! Version: 202311111211
+! Checksum: Eo38Yf+oqYFLt/Qy0+W/2w
+! Version: 202311111302
 ! Title: EasyList China+EasyList
-! Last modified: 11 Nov 2023 12:11 UTC
+! Last modified: 11 Nov 2023 13:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -82693,6 +82693,8 @@ wayfair.com#?#div[data-hb-id="Grid.Item"]:-abp-has(div.FeaturedProductFlag:-abp-
 webtools.fineaty.com#?#div[class*=" hidden-"]:-abp-has(.adsbygoogle)
 winaero.com#?#p:-abp-contains(Advertisement)
 windowsreport.com#?#section.hide-mbl:-abp-has(a[href^="https://out.reflectormedia.com/"])
+wish.com#?#div[class^="WishExpressProductsRow__FeedTileColumnWrapper-"]:-abp-has(div[class^="FeedTile__ProductBoostLabelWrapper-"])
+wish.com#?#div[class^="ProductGrid__FeedTileWidthWrapper-"]:-abp-has(div[class^="FeedTile__ProductBoostLabelWrapper-"])
 wowcher.co.uk#?#.two-by-two-deal:-abp-has(a[href*="src=sponsored_search_"])
 youtube.com#?#ytd-rich-item-renderer:-abp-has(> .ytd-rich-item-renderer > ytd-ad-slot-renderer)
 youtube.com#?#ytd-rich-item-renderer:-abp-has(ytd-display-ad-renderer)
