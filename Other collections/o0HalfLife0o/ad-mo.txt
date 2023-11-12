@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9jYY1UQcGfkYUeglK5JCGA
+! Checksum: 06pYZ/2vTmMH6NAyhxiCvQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202311122007
-! Last Modified: 2023年11月12日 20:07
+! Version: 202311130202
+! Last Modified: 2023年11月13日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -15044,6 +15044,7 @@ _800x80_
 ##.lr-pack-ad
 ##.lr_skyad
 ##.lrec-container
+##.lst_ads
 ##.luxeAd
 ##.lv-Adunit
 ##.lyrics-inner-ad-wrap
@@ -18609,8 +18610,8 @@ _800x80_
 ##.zergpowered
 ##display-ad-component
 ##div[id^="zergnet-widget"]
-###searchResultsList > div > div[onclick$="'inline.ad'});"]
-##.resultsList > div > div > div.G-5c[role="tab"][tabindex="0"]
+##.resultsList > div > div > div > div.G-5c[role="tab"][tabindex="0"] > .yuAt-pres-rounded
+##.resultsList > div > div > div > div[data-resultid$="-sponsored"]
 dez.ro#@##ad-carousel
 so-net.ne.jp#@##ad-p3
 53.com#@##ad-rotator
@@ -19917,6 +19918,7 @@ browsershots.org#@#.advert_area
 ||abbgrysbok.store^
 ||abbotpredicateemma.com^
 ||abbronzongor.com^
+||abbtrupp.com^
 ||abburmyer.com^
 ||abcconducted.com^
 ||abclefabletor.com^
@@ -22526,6 +22528,7 @@ browsershots.org#@#.advert_area
 ||b6143975c9.com^
 ||b6750bc2a1.com^
 ||b6880ffb9a.com^
+||b70f0a4569.com^
 ||b719c1d1e8.com^
 ||b73uszzq3g9h.com^
 ||b76e86c54d.com^
@@ -28140,6 +28143,7 @@ browsershots.org#@#.advert_area
 ||ensetepoggies.com^
 ||ensignconfinedspurt.com^
 ||ensignpancreasrun.com^
+||ensinthetertaning.com^
 ||ensosignal.com^
 ||ensueswill.com^
 ||entailresponded.com^
@@ -29282,6 +29286,7 @@ browsershots.org#@#.advert_area
 ||fleshlyzombis.com^
 ||flewke.com^
 ||flexlinks.com^
+||flhdqtto.com^
 ||flickerbridge.com^
 ||flickeringintention.pro^
 ||fliddercharm.space^
@@ -32618,6 +32623,7 @@ browsershots.org#@#.advert_area
 ||irishorridamount.com^
 ||irizin.com^
 ||irkantyip.com^
+||irkilgw.com^
 ||irmmamksywbwt.com^
 ||ironboe.com^
 ||ironcladmemory.pro^
@@ -32929,6 +32935,7 @@ browsershots.org#@#.advert_area
 ||jecorinsetover.guru^
 ||jecromaha.info^
 ||jedotsad.xyz^
+||jedrixurykpjl.com^
 ||jeehaish.com^
 ||jeehathu.com^
 ||jeejujou.net^
@@ -34871,6 +34878,7 @@ browsershots.org#@#.advert_area
 ||lyssapebble.com^
 ||lythonefa.com^
 ||lythrumnoetics.website^
+||lyvbqbvwlbery.top^
 ||lyvbqbvwllblj.top^
 ||lyvbqbvwllvnb.top^
 ||lywasnothycant.info^
@@ -36163,6 +36171,7 @@ browsershots.org#@#.advert_area
 ||mxsuikhqaggf.com^
 ||mxtads.com^
 ||mxuiso.com^
+||mxzluxet.com^
 ||my-hanson.com^
 ||my.shymilftube.com^
 ||my1elitclub.com^
@@ -36693,6 +36702,7 @@ browsershots.org#@#.advert_area
 ||nixopho.com^
 ||niyamabusiest.casa^
 ||nization.com^
+||njfxmqvonppwq.com^
 ||njlzougyfjo.com^
 ||njufnhkmqpk.xyz^
 ||njvacw.xyz^
@@ -41193,6 +41203,7 @@ browsershots.org#@#.advert_area
 ||resigndictationhorns.com^
 ||resignedsauna.com^
 ||resilesfuriant.guru^
+||resinherjecling.com^
 ||resinyanthdia.com^
 ||resistcorrectly.com^
 ||resistsarcasm.com^
@@ -42932,6 +42943,7 @@ browsershots.org#@#.advert_area
 ||sjomilbedwarf.digital^
 ||sjtactic.com^
 ||sjtbhdeakgsgr.com^
+||sjteyeztnf.com^
 ||skatestooped.com^
 ||skcapepyshdr.xyz^
 ||skeeingfondu.life^
@@ -45767,6 +45779,7 @@ browsershots.org#@#.advert_area
 ||twaonhcjwoaouj.com^
 ||twazzyoidwlfe.com^
 ||tweeseconable.website^
+||twelfthdistasteful.com^
 ||twelvethighpostal.com^
 ||twentiethparticipation.com^
 ||twentyalight.com^
@@ -65232,6 +65245,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||book.com.tw/image/getImage?$domain=books.com.tw
 @@||c.ad6media.fr/l.js$domain=scan-manga.com
 @@||candidate.hr-manager.net/Advertisement/PreviewAdvertisement.aspx$subdocument,~third-party
+@@||catchapp.net/ad/img/$~third-party
 @@||cinema.pia.co.jp/img/ad/$image,~third-party
 @@||clj.valuecommerce.com/*/vcushion.min.js
 @@||cloudflare.com^*/videojs-contrib-ads.js$domain=wtk.pl
@@ -67007,6 +67021,7 @@ newduba.cn###jq_youxi
 ||88lajs3.com^
 ||88lajs4.com^
 ||88lajs6.com^
+||913mj.xyz^
 ||999aa666bb.com^
 ||a4bj6.xyz^
 ||aaknmt.icu^
@@ -67038,6 +67053,7 @@ newduba.cn###jq_youxi
 ||bgbqfqwi.xyz^
 ||bgdgpbpm.xyz^
 ||bjtgds.xyz^
+||bmtfka93.xyz^
 ||bmxvxl.xyz^
 ||bnets9.icu^
 ||bnnfvd.xyz^
@@ -67045,6 +67061,7 @@ newduba.cn###jq_youxi
 ||bollenhurkle.com^
 ||bpbfymv.xyz^
 ||brorzpj.cn^
+||bthypgm.cn^
 ||bxbyll.xyz^
 ||bydcxdy.cn^
 ||bzbopfh.cn^
@@ -67066,6 +67083,7 @@ newduba.cn###jq_youxi
 ||cntc8.icu^
 ||crazyit8.com^
 ||crhabkd.cn^
+||csmfee.xyz^
 ||cthbini.xyz^
 ||cuvtnzv.cn^
 ||cxpjrqa.cn^
@@ -67081,6 +67099,7 @@ newduba.cn###jq_youxi
 ||dpj0uvy.icu^
 ||dqlfabc.cn^
 ||dqzehgha.xyz^
+||drjyjr.xyz^
 ||drtyuigj.xyz^
 ||dsbfpt.xyz^
 ||dskjhs.com^
@@ -67167,6 +67186,7 @@ newduba.cn###jq_youxi
 ||gqleov.icu^
 ||grthhr.xyz^
 ||gscsahv011.com^
+||gscsahv012.com^
 ||gslejoki.xyz^
 ||gth112.com^
 ||gwdobvs.cn^
@@ -67177,6 +67197,8 @@ newduba.cn###jq_youxi
 ||hchuviq.cn^
 ||hcqumrjbx.xyz^
 ||hfjhr.cn^
+||hibj.online^
+||hixutb.xyz^
 ||hjnjjcw.xyz^
 ||hkrytf.xyz^
 ||hnkhgw.com^
@@ -67202,6 +67224,7 @@ newduba.cn###jq_youxi
 ||ionjkcj.cn^
 ||iqs871.com^
 ||irtefs.xyz^
+||itwzlyq.com^
 ||iujlwn.icu^
 ||iuvssgh.cn^
 ||jevwdao.cn^
@@ -67219,6 +67242,7 @@ newduba.cn###jq_youxi
 ||jvjmjt.xyz^
 ||kaaqgf.icu^
 ||kjdbcjkmc.com^
+||kkmsa.top^
 ||klfbnklddfbkn.com^
 ||klwhuci.cn^
 ||knhmgn.com^
@@ -67269,6 +67293,7 @@ newduba.cn###jq_youxi
 ||mvng.cn^
 ||mwfyab.icu^
 ||myyxox.icu^
+||mzthbna.xyz^
 ||n019q.com^
 ||nangongmall.com^
 ||naweslt.cn^
@@ -67284,6 +67309,7 @@ newduba.cn###jq_youxi
 ||njrnwan.cn^
 ||njtbiml.xyz^
 ||nndytv.xyz^
+||nnfalf.xyz^
 ||nofizx.xyz^
 ||nrzzaep.xyz^
 ||nubcdaqa.xyz^
@@ -67322,11 +67348,13 @@ newduba.cn###jq_youxi
 ||qmoxxhc.cn^
 ||qmwx4.xyz^
 ||qoqoangry.com^
+||qqvlsr.icu^
 ||qtq632.com^
 ||quqtone.cn^
 ||quzmtpxw.xyz^
 ||qwesaz.com^
 ||qwjtdcl.cn^
+||qwnmfiti.xyz^
 ||rcnithgm.xyz^
 ||rcnldz.xyz^
 ||rkds1.icu^
@@ -67407,6 +67435,7 @@ newduba.cn###jq_youxi
 ||whdwydt.cn^
 ||whols.cn^
 ||whqgyo.xyz^
+||whranc.cn^
 ||wjoxqd.com^
 ||wkrcbszi.xyz^
 ||wlzlrlp.xyz^
@@ -67421,6 +67450,7 @@ newduba.cn###jq_youxi
 ||wymzwy.cn^
 ||wyoaij.icu^
 ||wyohm.xyz^
+||x2y22.fun^
 ||xcqbbcqpl.xyz^
 ||xdfdqce.xyz^
 ||xg6hb.xyz^
@@ -67431,6 +67461,7 @@ newduba.cn###jq_youxi
 ||xmvmir.icu^
 ||xqgduov.cn^
 ||xrcembm.cn^
+||xucyufv.icu^
 ||xvorpqz.cn^
 ||xvzfyra.xyz^
 ||xxfphsg.cn^
@@ -67466,22 +67497,6 @@ newduba.cn###jq_youxi
 ||zys15.top^
 ||zys16.top^
 ||zyzo.cn^
-||qwnmfiti.xyz^
-||csmfee.xyz^
-||mzthbna.xyz^
-||xucyufv.icu^
-||gscsahv012.com^
-||x2y22.fun^
-||drjyjr.xyz^
-||hixutb.xyz^
-||qqvlsr.icu^
-||913mj.xyz^
-||hibj.online^
-||bthypgm.cn^
-||whranc.cn^
-||nnfalf.xyz^
-||kkmsa.top^
-||itwzlyq.com^
 ||zzyy17.top^
 ||zzyy18.top^
 ||zzyy19.top^
