@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: d8Ay5K50YEAgcf4287KhJQ
-! Version: 202311122102
+! Checksum: Pl1Jbwz9oZs1Y50SSJeahw
+! Version: 202311122202
 ! Title: EasyPrivacy
-! Last modified: 12 Nov 2023 21:02 UTC
+! Last modified: 12 Nov 2023 22:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5164,7 +5164,6 @@ _mongo_stats/
 ||portfold.com^$third-party
 ||posst.co^$third-party
 ||postaffiliatepro.com^$third-party
-||posthog.com^$third-party
 ||prchecker.info^$third-party
 ||prebidmanager.com^$third-party
 ||precisioncounter.com^$third-party
@@ -9197,6 +9196,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||app.carnow.com/dealers/track_visitor
 ||app.link/_r?$script,third-party
 ||app.opmnstr.com/v2/geolocate/
+||app.posthog.com/e/?compression=
+||app.posthog.com/e/?ip=
 ||app.posthog.com/static/array.js
 ||app.yesware.com/t/$third-party
 ||appinthestore.com/click/
