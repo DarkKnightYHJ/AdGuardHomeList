@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 1qn3MpUz917ZO5PAat7/Rw
-! Version: 202311151501
+! Checksum: NG41vgFCYc73eppxpgVKDg
+! Version: 202311151610
 ! Title: ABP filters
-! Last modified: 15 Nov 2023 15:01 UTC
+! Last modified: 15 Nov 2023 16:10 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -692,7 +692,7 @@ walmart.com##div[data-testid^="carousel-ad"] > div[id^="ITEM-SponsoredProductCar
 walmart.com##div[id^="SEARCH-SponsoredProductCarousel"]
 walmart.com#$#hide-if-contains-visible-text /Sponsored/ 'section div[data-item-id]' div span
 ! #CV-1488
-pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#$#hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class][@style][count(child::*)>=10]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role][1]'; hide-if-matches-xpath './/div[@title][contains(text(),"Sponsorisée") or contains(text(),"Anzeige") or contains(text(),"Promocionado") or contains(text(),"Gesponsord") or contains(text(),"Promowane") or contains(text(),"Patrocinado") or contains(text(),"Publicidade") or contains(text(),"Sponsorizzato")]/ancestor::div[@data-test-id="pin"]';
+pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#$#hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class][@style][count(child::*)>=10]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; hide-if-matches-xpath './/div[@title][contains(text(),"Sponsorisée") or contains(text(),"Anzeige") or contains(text(),"Promocionado") or contains(text(),"Gesponsord") or contains(text(),"Promowane") or contains(text(),"Patrocinado") or contains(text(),"Publicidade") or contains(text(),"Sponsorizzato")]/ancestor::div[@data-test-id="pin"]';
 ! #CV-1485
 cvs.com#$#hide-if-matches-xpath './/div[@class]/*[contains(@shelf-type,"criteo")]/ancestor::div[@class][1]'
 cvs.com##.stencil-criteo-shelf
