@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: sdC93WzC2/ANBfT8GT29jA
-! Version: 202311162301
+! Checksum: H0hx3K2GNlJMmfpN/v6BGQ
+! Version: 202311170051
 ! Title: EasyList China+EasyList
-! Last modified: 16 Nov 2023 23:01 UTC
+! Last modified: 17 Nov 2023 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -78798,7 +78798,7 @@ dnaindia.com,wionews.com##.ads-box-300x250
 wionews.com##.ads-box-300x300
 dnaindia.com,wionews.com##.ads-box-970x90
 dnaindia.com,wionews.com##.ads-box-d90-m300
-gosunoob.com,indianexpress.com,roblox.com,spotify.com,wccftech.com##.ads-container
+gosunoob.com,indianexpress.com,matrixcalc.org,roblox.com,spotify.com,wccftech.com##.ads-container
 fintech.tv##.ads-img
 kiz10.com##.ads-medium
 bangkokpost.com##.ads-related
@@ -82939,7 +82939,7 @@ twitter.com#?#article[data-testid="tweet"]:-abp-has(path[d$="10H8.996V8h7v7z"])
 twitter.com#?#div[data-testid="eventHero"]:-abp-has(path[d$="10H8.996V8h7v7z"])
 twitter.com#?#div[data-testid="trend"]:-abp-has(path[d$="10H8.996V8h7v7z"])
 twitter.com#?#div[data-testid="UserCell"]:-abp-has(path[d$="10H8.996V8h7v7z"])
-twitter.com#?#h2[role="heading"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/)
+twitter.com#?#h2[role="heading"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสมพนธ|परचरत|বজঞপত|تشہیر شدہ|مروج|تبلیغی|מקודם/)
 tympanus.net#?#article:-abp-has(header:-abp-has(.ct-sponsored))
 vidplay.lol#?#body > div > div[class][style]:-abp-has(> div > div > a[target="_blank"])
 vofomovies.info#?#a13:-abp-contains( Ad)
@@ -82955,6 +82955,7 @@ wish.com#?#div[class^="ProductGrid__FeedTileWidthWrapper-"]:-abp-has(div[class^=
 wowcher.co.uk#?#.two-by-two-deal:-abp-has(a[href*="src=sponsored_search_"])
 youtube.com#?#ytd-rich-item-renderer:-abp-has(> .ytd-rich-item-renderer > ytd-ad-slot-renderer)
 youtube.com#?#ytd-rich-item-renderer:-abp-has(ytd-display-ad-renderer)
+youtube.com#?#ytd-watch-info-text > #info-container > #info > span:-abp-contains(/\d+\s[pP]rod/)
 yovizag.com#?#.jeg_column:-abp-has(>.jeg_wrapper > .jeg_ad)
 ! *** easylist:easylist_adult/adult_specific_hide.txt ***
 virtuagirlgirls.com###DynamicBackgroundWrapper
