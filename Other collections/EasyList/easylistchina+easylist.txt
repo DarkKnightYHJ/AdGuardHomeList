@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: sT67AMvKJp3nZSbLqZDxOg
-! Version: 202311180610
+! Checksum: bWmtFyFN1tY9XBI5oLd9Fg
+! Version: 202311180702
 ! Title: EasyList China+EasyList
-! Last modified: 18 Nov 2023 06:10 UTC
+! Last modified: 18 Nov 2023 07:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1486,8 +1486,9 @@ newduba.cn###jq_youxi
 ~alicdn.com##a > img[width="960"][src*=".alicdn.com/"]
 ~sinaimg.cn##a > img[width="960"][src*=".sinaimg."]
 ~sinaimg.cn##a > img[width="980"][src*=".sinaimg."]
-##a#wrapper_left_bg[target="_blank"]
-##a#wrapper_right_bg[target="_blank"]
+##a#wrapper_left_bg
+##A#wrapper_left_bg\ llll
+##a#wrapper_right_bg
 ##a.hengfu > img.hengfu
 ##a[clickmode="ad"]
 ##a[href$=".cc:8443"]
@@ -2213,6 +2214,8 @@ newduba.cn###jq_youxi
 ||dwq661.biz^
 ||7dusx.xyz^
 ||jeqxuvv.icu^
+||888cool.cn^
+||1cjzfyb.com^
 ||zzyy17.top^
 ||zzyy18.top^
 ||zzyy19.top^
@@ -80388,6 +80391,7 @@ extremetech.com##.min-h-24
 copyprogramming.com##.min-h-250
 uwufufu.com##.min-h-\[253px\]
 uwufufu.com##.min-h-\[300px\]
+insiderintelligence.com##.min-h-top-banner
 stripes.com##.min-h90
 mumsnet.com##.min-w-\[300px\]
 moviemeter.com##.minheight250
