@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: U03LyvSolkUUbkGvZCi00w
-! Version: 202311191501
+! Checksum: Q1/waY7VLjZwNd9K6mO5bg
+! Version: 202311191602
 ! Title: EasyList China
-! Last modified: 19 Nov 2023 15:01 UTC
+! Last modified: 19 Nov 2023 16:02 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1626,6 +1626,7 @@ newduba.cn###jq_youxi
 ||23.234.217.12^
 ||cupfox.app^$third-party
 !
+##a[href*=".sng.link/"]
 ||05826.online^
 ||0a2b3c4d5e.com^
 ||0efghij.com^
@@ -1662,6 +1663,7 @@ newduba.cn###jq_youxi
 ||88lajs3.com^
 ||88lajs4.com^
 ||88lajs6.com^
+||8d07a.xyz^
 ||913mj.xyz^
 ||999aa666bb.com^
 ||a4bj6.xyz^
@@ -1729,6 +1731,7 @@ newduba.cn###jq_youxi
 ||cklithuw.xyz^
 ||clcmdie.com^
 ||cmdcdacq.xyz^
+||cnrdlpk.xyz^
 ||cntc8.icu^
 ||cojvur.icu^
 ||crazyit8.com^
@@ -1772,6 +1775,7 @@ newduba.cn###jq_youxi
 ||eht116.com^
 ||ekzzed.icu^
 ||elas666.pics^
+||elemea.xyz^
 ||eqcwpeo.cn^
 ||erutxdk.cn^
 ||eshbqn.icu^
@@ -1914,6 +1918,7 @@ newduba.cn###jq_youxi
 ||juljrd.xyz^
 ||jupeicha.cn^
 ||jvjmjt.xyz^
+||jwxwnr.xyz^
 ||k6syi.space^
 ||kaaqgf.icu^
 ||kaezakkjt.com^
@@ -2049,6 +2054,7 @@ newduba.cn###jq_youxi
 ||qwesaz.com^
 ||qwjtdcl.cn^
 ||qwnmfiti.xyz^
+||qyoqeq.xyz^
 ||r9ffi.fun^
 ||rcnithgm.xyz^
 ||rcnldz.xyz^
@@ -2062,6 +2068,7 @@ newduba.cn###jq_youxi
 ||rrfccx.com^
 ||rslkhj.xyz^
 ||rvreuxi.cn^
+||rvvji.online^
 ||rzflhxn.cn^
 ||scqaaf.cn^
 ||serda10.icu^
@@ -2074,6 +2081,7 @@ newduba.cn###jq_youxi
 ||splfnok.cn^
 ||sqevnrb.com^
 ||sregfle.cn^
+||srldkqj.cn^
 ||srlhgo.cn^
 ||suzoqz.icu^
 ||syjkscy.cn^
@@ -2132,8 +2140,10 @@ newduba.cn###jq_youxi
 ||vhhxnb.xyz^
 ||virginiasibyl.com^
 ||vivienjumpe.com^
+||vixajghi.xyz^
 ||vizhtd.xyz^
 ||vjzjpt.xyz^
+||vozftn.xyz^
 ||vrivslffndepxqd.xyz^
 ||vrnrpzy.xyz^
 ||vttqld.xyz^
@@ -2163,6 +2173,7 @@ newduba.cn###jq_youxi
 ||xcholvbc.xyz^
 ||xcqbbcqpl.xyz^
 ||xdfdqce.xyz^
+||xfqrsjq.cn^
 ||xg6hb.xyz^
 ||xjxbdh.xyz^
 ||xkfigjh.cn^
@@ -2216,17 +2227,6 @@ newduba.cn###jq_youxi
 ||zys16.top^
 ||zyzo.cn^
 ||zzyy17.top^
-||rvvji.online^
-||srldkqj.cn^
-||xfqrsjq.cn^
-||vozftn.xyz^
-||qyoqeq.xyz^
-||vixajghi.xyz^
-||cnrdlpk.xyz^
-||jwxwnr.xyz^
-||elemea.xyz^
-||8d07a.xyz^
-##a[href*=".sng.link/"]
 ||zzyy18.top^
 ||zzyy19.top^
 ||zzyy20.top^
@@ -11202,11 +11202,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-zhujiceping.com##.fcode > center > table
-zhujiceping.com##.orbui
-zhujiceping.com##.widget_custom_html
-yemancomic.com##div[style^="position:fixed;"]
-zkk78.com##div[style^="position:fixed;"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -13752,6 +13747,7 @@ duba.com,iduba.com,newduba.cn,uu114.cn##.fav_box
 mydrivers.com##.fbh_float
 baidu.com##.fc-ad-line
 baidu.com##.fc-wenku-ad
+zhujiceping.com##.fcode > center > table
 jq22.com##.fdad
 maxthon.cn##.feast-gift-search
 id97.cc##.fed-part-case > a
@@ -14616,7 +14612,7 @@ read.qidian.com##.operation-wrap
 iqiyi.com##.oppo
 baidu.com##.optimus
 66huacai.com,kuaihou.com##.orange
-2yjw.com,fuliba2021.net,itdog.cn##.orbui
+2yjw.com,fuliba2021.net,itdog.cn,zhujiceping.com##.orbui
 fuliba2021.net,ypojie.com##.orbui-post-footer
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.order_repost_wrap
 jdwx.info,motobuy.com.tw##.other
@@ -15469,7 +15465,7 @@ didispace.com##.widget-wrap > p[style="text-align: left;padding-bottom: 20px;lin
 doubibackup.com##.widgetRoller
 fulibl.com##.widget_banner
 hackhw.com##.widget_content_b
-ruyo.net,winandmac.com##.widget_custom_html
+ruyo.net,winandmac.com,zhujiceping.com##.widget_custom_html
 22vd.com##.widget_custom_html:last-child
 ssr.tools##.widget_custom_html:nth-child(n+2)
 423down.com##.widget_d_banner
@@ -16402,7 +16398,7 @@ a-i-l-s-a.com,buscodepto.com##div[style^="position: fixed;"]
 chineseinla.com##div[style^="position:absolute;"][style$=":0px;top:30px;"]
 52youpiao.com##div[style^="position:fixed; right:40px;"]
 jinbaodm.com##div[style^="position:fixed; top"]
-tvyb03.com##div[style^="position:fixed;"]
+tvyb03.com,yemancomic.com,zkk78.com##div[style^="position:fixed;"]
 mydrivers.com##div[style^="position:fixed;left:50%;bottom:200px;"]
 stock87.com##div[style^="position:relative;width:1000px;height:90px;"]
 v.163.com##div[style^="width: 140px; height: 199px;"]
