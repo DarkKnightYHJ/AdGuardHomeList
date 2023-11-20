@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: X60P3vDOKutGYgTntmz0Yw
+! Checksum: 2zj7alpo7gTJEwATnCdnHQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202311200827
-! Last Modified: 2023年11月20日 08:27
+! Version: 202311201407
+! Last Modified: 2023年11月20日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -757,7 +757,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads_bg.
 /ads_bottom.
 /ads_bottom_
-/ads_controller.
+/ads_controller.js
 /ads_dfp/*
 /ads_display.
 /ads_files/*
@@ -63250,6 +63250,7 @@ comics.org##div[style="height:90px"]
 streamingsites.com##div[style="margin-bottom: 10px; display: flex;"]
 upjoke.com##div[style="margin-bottom:0.5rem; min-height:250px;"]
 gsmarena.com##div[style="margin-left: -10px; margin-top: 30px; height: 145px;"]
+disneydining.com##div[style="min-height:125px;"]
 askdifference.com##div[style="min-height:280px;"]
 newser.com##div[style="min-height:398px;"]
 technical.city##div[style="padding-bottom: 20px"] > div[style="min-height: 250px"]
@@ -67810,6 +67811,9 @@ newduba.cn###jq_youxi
 ||rgpujh.xyz^
 ||haxqxd.xyz^
 ||feijied.xyz^
+||rett.top^
+||zhangyuting04.cn^
+||holdntlc.com^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -92656,6 +92660,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||troubledtail.com^
 ||troubleshade.com^
 ||truckstomatoes.com^
+||truculentrate.com^
 ||tumblebirds.com^
 ||tumbleicicle.com^
 ||tutorthing.com^
@@ -117246,6 +117251,7 @@ arketing.indianadunes.com^
 @@||hobbyking.com^*/gtm.js$script,~third-party
 @@||hotstarext.com/web-messages/core/error/v52.json$xmlhttprequest,domain=hotstar.com
 @@||identity.mparticle.com^$xmlhttprequest
+@@||ignitetv.shaw.ca/js/api/fingerprint.js$~third-party
 @@||ikea.com^*/analyticsEvent.$script,~third-party
 @@||imgur.com/min/px.js$~third-party
 @@||indeed.com/rpc/log/myjobs/$~third-party
