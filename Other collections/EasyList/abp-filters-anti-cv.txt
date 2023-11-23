@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: y6zlkYd4rmchb8SOUbN5Qw
-! Version: 202311230902
+! Checksum: TBZ6KOVmQNLmMY7ISORU3g
+! Version: 202311231002
 ! Title: ABP filters
-! Last modified: 23 Nov 2023 09:02 UTC
+! Last modified: 23 Nov 2023 10:02 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1332,7 +1332,7 @@ vprognoze.ru#$#abort-on-property-read bannersBillboard
 vk.com,vk.ru#$#abort-on-property-read vk__adsLight.adsShowed
 transkarpatia.net#$#abort-current-inline-script document.createElement redtram
 terrikon.com#$#abort-on-property-read bdy
-sports.ru#$#abort-on-property-read Sports.pageData.user_zones_config
+sports.ru#$#abort-on-property-read Sports.pageData.browserTime
 sdamgia.ru#$#abort-on-property-read Object.prototype.getRenderToElement
 ||vgtimes.ru^$xmlhttprequest,header=x-yandex-req-id
 ! Prevent auto reload
