@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: c2rbAf7yvmJaRG1l5xAdDQ
-! Version: 202311231102
+! Checksum: njyP/7hB4jOOYh4Y86yweA
+! Version: 202311231210
 ! Title: EasyList
-! Last modified: 23 Nov 2023 11:02 UTC
+! Last modified: 23 Nov 2023 12:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -18370,6 +18370,8 @@ _800x80_
 ##.resultsList > div > div > div > div.G-5c[role="tab"][tabindex="0"] > .yuAt-pres-rounded
 ##.resultsList > div > div > div > div[data-resultid$="-sponsored"]
 ! *** easylist:easylist/easylist_allowlist_general_hide.txt ***
+questaseratv.it#@#.channelBoxAds
+questaseratv.it#@#.gptslot
 dez.ro#@##ad-carousel
 so-net.ne.jp#@##ad-p3
 53.com#@##ad-rotator
@@ -18591,6 +18593,7 @@ outinthepaddock.com.au#@#.topads
 codedevstuff.blogspot.com,hassiweb-programming.blogspot.com#@#.vertical-ads
 ads.google.com,youtube.com#@#.video-ads
 javynow.com#@#.videos-ad
+sacbee.com#@#.wps-player-wrap
 gumtree.com.au#@#[data-ad-name]
 globsads.com#@#[href^="http://globsads.com/"]
 mypillow.com#@#[href^="http://mypillow.com/"] > img
@@ -57411,7 +57414,7 @@ browsershots.org#@#.advert_area
 ||cdn.ex.co^$third-party
 ||cdn.thejournal.ie/media/hpto/$image
 ||channelexco.com/player/$third-party
-||connatix.com^$third-party,domain=~accuweather.com|~elnuevoherald.com|~huffpost.com|~loot.tv|~miamiherald.com
+||connatix.com^$third-party,domain=~accuweather.com|~elnuevoherald.com|~huffpost.com|~loot.tv|~miamiherald.com|~sacbee.com
 ||delivery.vidible.tv/jsonp/
 ||dywolfer.de^
 ||elements.video^$third-party
@@ -61370,7 +61373,6 @@ pcgamesn.com##.nn_mobile_mpu2_wrapper
 pcgamesn.com##.nn_mobile_mpu_wrapper
 trueachievements.com,truesteamachievements.com,truetrophies.com##.nn_player_w
 publishedreporter.com##.no-bg-box-model
-marketbeat.com##.no-underline
 ferrarichat.com##.node_sponsor
 greyhound-data.com##.non-sticky-publift
 startpage.com##.nord-vpn-promo
@@ -64974,6 +64976,8 @@ tokyomotion.com#?#.is-gapless > .has-text-centered:-abp-has(> div > .adv)
 youporn.com#?#aside:-abp-has(a.ad-remove)
 !-----------------------Allowlists to fix broken sites------------------------!
 ! *** easylist:easylist/easylist_allowlist.txt ***
+@@||delivery-cdn-cf.adswizz.com/adswizz/js/SynchroClient*.js$script,domain=tunein.com
+@@||synchrobox.adswizz.com/register2.php$script,domain=tunein.com
 @@||2mdn.net/instream/html5/ima3.js$script,domain=earthtv.com|techrepublic.com|zdnet.com
 @@||4cdn.org/adv/$image,xmlhttprequest,domain=4channel.org
 @@||4channel.org/adv/$image,xmlhttprequest,domain=4channel.org
