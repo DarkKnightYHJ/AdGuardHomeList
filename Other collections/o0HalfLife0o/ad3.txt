@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZAAgXASV5ye7X1xcnJJmeA
+! Checksum: o+R0H0bAtPXKF6ibJtczUA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202311250206
-! Last Modified: 2023年11月25日 02:06
+! Version: 202311250825
+! Last Modified: 2023年11月25日 08:25
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2457,6 +2457,14 @@ newduba.cn###jq_youxi
 ||zys16.top^
 ||zyzo.cn^
 ||zzyy17.top^
+||jiangyahuid.top^
+||bjhhbox.xyz^
+||uebipacy.xyz^
+||q4v3c.site^
+||kfckcu.xyz^
+||pezttb.xyz^
+||leidad.xyz^
+||pvnzrr.xyz^
 ||zzyy18.top^
 ||zzyy19.top^
 ||zzyy20.top^
@@ -27725,6 +27733,7 @@ _mongo_stats/
 ||webclicktracker.com^$third-party
 ||webcounter.co.za^$third-party
 ||webcounter.ws^$third-party
+||webengage.co^$third-party
 ||webengage.com^$third-party
 ||webeyez.com^$third-party
 ||webflowmetrics.com^$third-party
@@ -30834,6 +30843,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||amazonaws.com/searchdiscovery-satellite-production/
 ||amazonaws.com/storejs/a/JKRHRQG/ge.js
 ||amazonaws.com/v1/apps/*/events
+||amazonaws.com/webengage-files/
 ||amazonaws.com^*/prod_analytics
 ||amazonpay.com/customerInsight?
 ||amp-error-reporting.appspot.com^
@@ -54620,6 +54630,7 @@ arketing.indianadunes.com^
 @@||baidu.com/api/bidder/$domain=jump2.bdimg.com
 @@||gtimg.com/qqcdn/*/beacon.min.js$script,domain=qq.com
 @@||hk.on.cc/js/v4/urchin.js
+@@||iwrite.unipus.cn/js/main/GPT.js$~third-party
 @@||nobook.com/open-interface/official-sensors.git/$script,~third-party
 @@||tianyancha.com^*/sensorsdata.$script,~third-party
 !---------- Czech ----------

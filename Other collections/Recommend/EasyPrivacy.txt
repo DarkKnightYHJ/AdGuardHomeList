@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: AkFp1ca7xt/qDGwE8SKlvA
-! Version: 202311242301
+! Checksum: iZSHlLQ1cicG8OjiW4eQmQ
+! Version: 202311250050
 ! Title: EasyPrivacy
-! Last modified: 24 Nov 2023 23:01 UTC
+! Last modified: 25 Nov 2023 00:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5941,6 +5941,7 @@ _mongo_stats/
 ||webclicktracker.com^$third-party
 ||webcounter.co.za^$third-party
 ||webcounter.ws^$third-party
+||webengage.co^$third-party
 ||webengage.com^$third-party
 ||webeyez.com^$third-party
 ||webflowmetrics.com^$third-party
@@ -9101,6 +9102,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||amazonaws.com/searchdiscovery-satellite-production/
 ||amazonaws.com/storejs/a/JKRHRQG/ge.js
 ||amazonaws.com/v1/apps/*/events
+||amazonaws.com/webengage-files/
 ||amazonaws.com^*/prod_analytics
 ||amazonpay.com/customerInsight?
 ||amp-error-reporting.appspot.com^
@@ -33152,6 +33154,7 @@ arketing.indianadunes.com^
 @@||baidu.com/api/bidder/$domain=jump2.bdimg.com
 @@||gtimg.com/qqcdn/*/beacon.min.js$script,domain=qq.com
 @@||hk.on.cc/js/v4/urchin.js
+@@||iwrite.unipus.cn/js/main/GPT.js$~third-party
 @@||nobook.com/open-interface/official-sensors.git/$script,~third-party
 @@||tianyancha.com^*/sensorsdata.$script,~third-party
 !
