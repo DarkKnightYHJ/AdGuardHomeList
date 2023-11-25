@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: K71nuAakahIsG0eZ7SX5jg
-! Version: 202311251102
+! Checksum: Kj7CuoLCvtNaylSM0mklYg
+! Version: 202311251211
 ! Title: EasyList China+EasyList
-! Last modified: 25 Nov 2023 11:02 UTC
+! Last modified: 25 Nov 2023 12:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -11286,10 +11286,13 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.com/images/a_d_
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
+||91bixin.net/api/adv/
+||91bixin.net/api/chdd/liveAdv?
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-jindianle.com##.advertbox
+yufile.com##.fb_r > a
+yufile.com##.lo_box
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2

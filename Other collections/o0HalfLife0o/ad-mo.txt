@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gWboqPohm/3UdBDmGmrV2g
+! Checksum: /b7c7iAZYXTQO4khpDWHcQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202311251406
-! Last Modified: 2023年11月25日 14:06
+! Version: 202311252007
+! Last Modified: 2023年11月25日 20:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -57163,6 +57163,7 @@ browsershots.org#@#.advert_area
 ||brighteon.tv/Assets/ARF/
 ||brudirect.com/images/banners/
 ||bugsfighter.com/wp-content/uploads/2020/07/malwarebytes-banner.jpg
+||bullchat.com/sponsor/
 ||bunnycdn.ru/assets/_bnx/$domain=fmovies.to
 ||c21media.net/wp-content/plugins/sam-images/
 ||cafonline.com/image/upload/*/sponsors/
@@ -77012,9 +77013,13 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.com/images/a_d_
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
+||91bixin.net/api/adv/
+||91bixin.net/api/chdd/liveAdv?
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+yufile.com##.fb_r > a
+yufile.com##.lo_box
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -94468,13 +94473,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||click360v2-ingest.azurewebsites.net^
 ||clickchatsold.com/d0/
 ||clickdimensions.com/ts.js
-||clicker.com^*pageurl$third-party
-||clickfunnels.com/assets/pushcrew.js$third-party
-||clickfunnels.com/cf.js
-||clickfunnels.com/userevents/
-||clickfunnels.com^*/track?
-||clickiocdn.com/clickiotag_log/
-||clickiocdn.com/consent/log/
 ||clickiocdn.com/utr/
 ||clicks.dealer.com^
 ||clicks.tyuwq.com^
@@ -95090,8 +95088,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hpr.outbrain.com^
 ||hqq.tv/js/counters.js
 ||hrzn-nxt.com/pxl?
-||hsforms.com^*/counters.gif
-||hsforms.com^*/timings.gif$image
+||hsforms.com/embed/v3/counters.gif
 ||hspbotdetection.azurewebsites.net^
 ||hub.reacti.co/index.js
 ||hubspot.com/analytics/
