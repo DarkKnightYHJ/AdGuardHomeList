@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: NuAqqlpTaCjWS7YlfYmNJA
-! Version: 202311260902
+! Checksum: HGaP/D43STTHwb3GvX1a7A
+! Version: 202311261002
 ! Title: EasyPrivacy
-! Last modified: 26 Nov 2023 09:02 UTC
+! Last modified: 26 Nov 2023 10:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1687,6 +1687,7 @@
 /pixeltracker.
 /PixelTracking.js
 /pixeltracking/*
+/pixelyoursite/dist/scripts/public.js
 /pixy.gif?
 /planetstat.php
 /plausible.js$domain=~plausible.io
@@ -10622,6 +10623,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||plausible.io/js/p.js
 ||plausible.io/js/plausible.
 ||plausibleio.workers.dev^$third-party
+||play.adtonos.com^
 ||play.ht/views/
 ||player.ooyala.com/errors/report?
 ||playtomic.com/Tracker/
@@ -13595,6 +13597,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pendo.scopus.com/data/ptm.gif
 ||perf.mouser.com^
 ||perr.hola.org^
+||petametrics.com^$domain=meidastouch.com
 ||pf.newegg.com^
 ||ph.thenextweb.com^
 ||phonearena.com/_track.php
