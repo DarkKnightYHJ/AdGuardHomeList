@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ikchjApKPoKbZErZidOVlQ
+! Checksum: ia+7MWCQ9/FExbE0kY/lvw
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202311272009
-! Last Modified: 2023年11月27日 20:09
+! Version: 202311280206
+! Last Modified: 2023年11月28日 02:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -2495,6 +2495,7 @@ newduba.cn###jq_youxi
 ||ahgfdhp.xyz^
 ||danun.cn^
 ||poiwer.com^
+||ttgjwxp.icu^
 ||zzyy18.top^
 ||zzyy19.top^
 ||zzyy20.top^
@@ -11475,6 +11476,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+anjian.com##.ImgTop
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -14781,7 +14783,7 @@ firefoxchina.cn##.module-banner
 meiyida01.com,myd666.tv##.module-blocklist
 v.qq.com##.module-image[style*="width:1100px;"]
 v.qq.com##.module-image[style*="width:1240px;"]
-netfly.tv##.module-tglist
+netfly.lol##.module-tglist
 i.maxthon.cn##.module.tools-main[data-s-n="bottom"]
 html-js.com##.module[style="padding:0;"]
 moegirl.org.cn##.moe-card[data-region="oversea"]
@@ -15906,7 +15908,7 @@ liaocao.tv,nicotv.me##[onclick]
 nfmovies.com##[onclick^="openurl()"]
 duonaolive.com##[onclick^="track"]
 iplaysoft.com##[style*="width:3"][style*="height:2"]
-netfly.tv##[style^="display: flex; justify-content:"]
+netfly.lol##[style^="display: flex; justify-content:"]
 axutongxue.com,axutongxue.net##[style^="height:58px;"]
 fffdm.com##[style^="width"][style*="height"]
 kisssub.org##a > img[src*=".0o0.ooo/"]
