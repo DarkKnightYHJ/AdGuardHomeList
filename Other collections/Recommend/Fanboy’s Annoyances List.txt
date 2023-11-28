@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: I84o39KJr02MbniUrdkVwQ
-! Version: 202311282202
+! Checksum: lXF6DnqCq1A0yACZbiqtpA
+! Version: 202311282301
 ! Title: Fanboy's Annoyance List
-! Last modified: 28 Nov 2023 22:02 UTC
+! Last modified: 28 Nov 2023 23:01 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -14,31 +14,14 @@
 ! *** easylist:fanboy-addon/fanboy_annoyance_general_block.txt ***
 /1-popupally-pro-code.js
 /amp-apester-
-/antirightclick.js
 /arscode-ninja-popups/*$~stylesheet
-/block-right-click.js
-/browserDetection/jquery.reject.js
-/cf-christmasification-public.js
-/cf-christmasification-public.min.js
-/christmas-snow.js
-/console-blocker/app-detect.js
 /copy_text.js
 /cx-scrolldepth.js
 /dealsaver/widget/*
-/disable-right-click-images/script.js
-/disable-right-click-js.js
-/disablerightclick.js
 /dreamgrow-scroll-triggered-box/js/script.js
 /ExitIntentPopUp.js
 /fartscroll.js
-/jcwp-copy-paste-blocker/jcorgcpbjs.js
 /jquery.simplemodal.$script,domain=breakingdefense.com
-/jquery.snow.js
-/letitsnow.min.js
-/magic-snowflakes/dist/snowflakes.min.js
-/no-right-click-images.js
-/no-right-click.js
-/norightclick.js
 /nrelate_js.min.js
 /onlineopinionV5/oo_engine.min.js
 /onlineopinionV5/oo_style.js
@@ -46,7 +29,6 @@
 /opinionlab/oo_style.css
 /plugins/advanced-browser-check/js/script.js
 /plugins/popup-maker/*$script,domain=~tracktion.com
-/plugins/rightclick/*
 /plugins/scroll-triggered-boxes/assets/js/script.min.js
 /plugins/wordpress-popup/*$~stylesheet
 /plugins/wp-emailfeedburnerpop/*
@@ -56,17 +38,6 @@
 /q2w3-fixed-widget.min.js
 /rating-widget/resources/css/site-rating.css
 /recommend.php$subdocument,~third-party
-/script/snow.js
-/snow-fall.js
-/snow-falling.js
-/snow-storm.js
-/snowfall-master.min.js
-/snowfall.jquery.js
-/snowfall.jquery.min.js
-/snowstorm-min.js
-/snowstorm.js
-/snowstorm.min.js
-/snowstorm2.js
 /tab-slide/assets/js/tab_slide.js
 /tapatalkdetect.js
 /upprev.js
@@ -75,11 +46,44 @@
 /vto_plus/js_loader.php
 /w/index.php?title=*:bannercontroller
 /wp-content/plugins/popover/js/public.min.js
+/wpmu-lib/js/wpmu-ui.3.min.js
+! Anti-Rightclick/copy/devtools
+/antirightclick.js
+/block-right-click.js
+/browserDetection/jquery.reject.js
+/console-blocker/app-detect.js
+/disable-right-click-images/script.js
+/disable-right-click-js.js
+/disablerightclick.js
+/jcwp-copy-paste-blocker/jcorgcpbjs.js
+/no-right-click-images.js
+/no-right-click.js
+/norightclick.js
+/plugins/rightclick/*
+! Anti-Snow affects
+/cf-christmasification-public.js
+/cf-christmasification-public.min.js
+/christmas-snow.js
+/jquery.snow.js
+/letitsnow.min.js
+/magic-snowflakes/dist/snowflakes.min.js
+/puresnow.js
+/script/snow.js
+/snow-fall.js
+/snow-falling.js
+/snow-storm.js
+/snow/snow.js
+/snowfall-master.min.js
+/snowfall.jquery.js
+/snowfall.jquery.min.js
+/snowstorm-min.js
+/snowstorm.js
+/snowstorm.min.js
+/snowstorm2.js
 /wp-snow-effect-pro-public.js
 /wp-snow-effect-pro/public/js/jsnow.js
 /wp-snow-effect-public.js
 /wp-snow-effect/public/js/jsnow.js
-/wpmu-lib/js/wpmu-ui.3.min.js
 ! https://github.com/easylist/easylist/pull/8551
 /journey/compiler/*
 ! sounds
@@ -1273,6 +1277,7 @@ _twitter_follow.
 /cookie-banner.js
 /cookie-banner.min.js
 /cookie-banner/*
+/cookie-banner_v2.js
 /cookie-bar.js
 /cookie-bar.min.js
 /cookie-check.js
