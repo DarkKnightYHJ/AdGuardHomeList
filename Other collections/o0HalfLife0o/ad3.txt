@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GJIs2XYXYgo0FE+0OfRX/g
+! Checksum: bSlOP/flpw0Aw2MHiF1OYA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202311291407
-! Last Modified: 2023年11月29日 14:07
+! Version: 202311292009
+! Last Modified: 2023年11月29日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2517,6 +2517,7 @@ newduba.cn###jq_youxi
 ||bavkvoks.xyz^
 ||oouiqi.xyz^
 ||fxkfhbn.xyz^
+||commonwealthproficient.com^
 ||zzyy18.top^
 ||zzyy19.top^
 ||zzyy20.top^
@@ -11495,6 +11496,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||jubaibaic.com/xx/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -19444,7 +19446,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@/hitCount_$xmlhttprequest,domain=on.cc
 @@/iplookup.$domain=cankaoxiaoxi.com|dongfeng-nissan.com.cn|huomao.com|loldk.com|sina.com.cn
 @@/log/report/*$script,domain=bilibili.com
-@@/sensorsdata-$domain=zkh.com
+@@/sensorsdata-$domain=aixiaoyuan.cn|zkh.com
 @@/sensorsdata.$domain=36kr.com|binance.com|by56.com|canon.com.cn|chuanglan.com|fenbi.com|imooc.com|kuque.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com|ttcdw.cn|xinrenxinshi.com|zzjiasuqi.com
 @@/setCookie?$domain=ctrip.com|ctrip.com.hk|pinyin.cn
 @@/urchin.js$domain=on.cc
@@ -54596,6 +54598,7 @@ arketing.indianadunes.com^
 @@||wpfc.ml/b.gif$image,domain=holybooks.com
 @@||wsj.net/iweb/static_html_files/cxense-candy.js$script,domain=marketwatch.com
 @@||www.ups.com/WebTracking/processInputRequest
+@@||wwwcache.wral.com/presentation/v3/scripts/providers/analytics/ga.js$~third-party
 @@||xeroshoes.co.uk/affiliate/scripts/trackjs.js$~third-party
 @@||xfinity.com/stream/js/api/fingerprint.js$~third-party
 @@||yottaa.net^$script,domain=containerstore.com|hannaandersson.com
