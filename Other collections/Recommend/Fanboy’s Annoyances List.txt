@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: lXF6DnqCq1A0yACZbiqtpA
-! Version: 202311282301
+! Checksum: LnBGQ35KExHv9fznISSPnQ
+! Version: 202311290051
 ! Title: Fanboy's Annoyance List
-! Last modified: 28 Nov 2023 23:01 UTC
+! Last modified: 29 Nov 2023 00:51 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -44,16 +44,25 @@
 /upprev_js.php
 /userlike-cdn-
 /vto_plus/js_loader.php
-/w/index.php?title=*:bannercontroller
 /wp-content/plugins/popover/js/public.min.js
 /wpmu-lib/js/wpmu-ui.3.min.js
 ! Anti-Rightclick/copy/devtools
 /antirightclick.js
+/block-console.js
 /block-right-click.js
 /browserDetection/jquery.reject.js
+/console-ban.min.js
 /console-blocker/app-detect.js
+/detect.dev.js
+/devtools-detect.js
+/devtools-detect/index.js
+/devtools-detector.js
+/devtools-detector.min.js
+/disable-devtool.js
+/disable-devtool.min.js
 /disable-right-click-images/script.js
 /disable-right-click-js.js
+/disabled-source-disabled-right-click-and-content-protection/*
 /disablerightclick.js
 /jcwp-copy-paste-blocker/jcorgcpbjs.js
 /no-right-click-images.js
@@ -347,7 +356,6 @@ _revotas_push.
 /newsletter/subscriber/*
 /newsletter/subscription/*
 /newsletter2011_
-/newsletter_background_
 /newsletter_banner.jpg
 /newsletter_banner.png
 /newsletter_wdgts.js
@@ -362,8 +370,7 @@ _revotas_push.
 /newsletters/widget/*
 /NewsletterSubscription.js
 /newsletterwidget/mngcep/mg2nw.min.js
-/overlays/newsletter-
-/plugins/newsletter/*
+/plugins/newsletter/subscription/validate.js
 /plugins/optin-monster/assets/js/api.js
 /popinnewsletter.css
 /popinNewsletter.js
@@ -407,14 +414,12 @@ _revotas_push.
 -share-bar/$~stylesheet
 -share-buttons2.
 -share-buttons3/$~stylesheet
--share-master/
 -share-save/
 -share-sprite-
 -share-sprite.
 -share-tools-
 -share-twiiter.
 -share-whatsapp.
--share2-master/
 -sharebar-
 -sharebar.
 -ShareButton2.
@@ -677,6 +682,7 @@ _revotas_push.
 /footerTwitterIcon.
 /gadgets/Social/*
 /gallery/social/*$image
+/gen-share-master/assets/js/frontend/application.min.js
 /GetPocketButton_
 /gfx/socials/*
 /gg-share.
@@ -780,6 +786,7 @@ _revotas_push.
 /plugins/wp-social-toolbar-pro/js/corescripts.js
 /plugins/wp-tweet-button/tweetn.png
 /prisna-social-counter.css
+/qa-social-share.css
 /Resources/twitter-$~xmlhttprequest
 /rrshare.js
 /scrollShareMenu.html
@@ -789,6 +796,7 @@ _revotas_push.
 /share-button?
 /share-controller.js
 /share-controller.min.js
+/share-leadoff-public.js
 /share-on-diaspora-css.php
 /share.php?buttons=
 /share/count?
@@ -1022,6 +1030,7 @@ _revotas_push.
 /suivez-nous-youtube.
 /synved-social/image/*
 /tabs/social/*
+/tarful-share-public.js
 /tools/newSideShare/*
 /tweet_footer.
 /tweetbutton.
@@ -34325,6 +34334,8 @@ dashboard.razorpay.com#@##credential_picker_container
 ||jobs.thejobnetwork.com^$third-party
 ||jobvite.com/widget20.js$third-party
 ||js.brow.si^$third-party
+||jsdelivr.net/npm/devtools-detector
+||jsdelivr.net/npm/disable-devtool
 ||judge.me^$third-party
 ||jugglu.com^$third-party
 ||justanswer.com^$third-party
@@ -35276,6 +35287,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||rule34.xxx/images/shirt2.jpg
 ||sabcnews.com^*-iabsa-
 ||sp-marketing-assets.s3.us-west-2.amazonaws.com^$domain=heraldnet.com
+||wikimedia.org/w/index.php?title=Special:BannerLoader
 ! ---------- Scroll To Top Buttons ----------
 ||breedingmoms.com/js/top.js
 ||dailypioneer.com/images/top.png
@@ -35673,7 +35685,6 @@ appbrain.com###send-email
 datamation.com,support.mozilla.org###sg-popup
 songsterr.com###showroom
 realitytvworld.com###sideheadlinescontainer2
-wikipedia.org###siteNotice
 phonescoop.com###socpage
 rediff.com###span_subscibe
 softpedia.com###spsbtns
@@ -35952,6 +35963,7 @@ startpage.com###block-display
 apkmody.io###body-fixed-footer
 fflogs.com,warcraftlogs.com###bottom-banner-fallback
 aeon.co###bottom-portal
+wikipedia.org###centralNotice
 dailymail.co.uk###chromelessPlayer
 theguardian.com###contact-the-guardian
 euractiv.com###contribs_banner
@@ -36002,6 +36014,7 @@ fflogs.com,warcraftlogs.com###right-ad-box
 fflogs.com###right-vertical-banner
 pocketgamer.com###site-background
 humblebundle.com###site-xpromo-banner
+wikipedia.org###siteNotice
 orbispatches.com###sitetop
 marinetraffic.com###skyscraper_container_front
 undark.org###special-message
@@ -36081,7 +36094,7 @@ newsroom.co.nz##.article-support
 damemagazine.com##.article-support-bump
 damemagazine.com##.article-top-donate-bump
 aarp.org##.backgroundParsys
-freecodecamp.org,monkeytype.com,singsnap.com##.banner
+freecodecamp.org,monkeytype.com,singsnap.com,wikipedia.org##.banner
 flaticon.com##.banner-campaign
 icij.org##.banner-donation-default-inline
 icij.org##.banner-donation-default-sidebar
