@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /Xg3G6aTpwbh4i3KMOiQRg
-! Version: 202311301502
+! Checksum: o2ueg6/rLeM69rSNf4q6tA
+! Version: 202311301611
 ! Title: EasyList China+EasyList
-! Last modified: 30 Nov 2023 15:02 UTC
+! Last modified: 30 Nov 2023 16:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -21,7 +21,6 @@
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.alpha^$script,third-party
 -*-*-*-*.as^$script,third-party
-/os2023001.oss-$script
 -*-*-*-*.panda^$script,third-party
 -1316632262.cos.
 -1316899192.cos.
@@ -534,6 +533,7 @@
 /opbb/float.js
 /opbb/obpp.tpl
 /os1019.oss-cn-quanzhou.
+/os2023001.oss-$script
 /os230718.oss-
 /page/?s=$third-party
 /page/index.php?s=$third-party
@@ -1364,6 +1364,7 @@ newduba.cn###jq_youxi
 ##.partialViewSlider-outerwrapper
 ##.pasuAD
 ~dongman8.com##.pc_acmsd
+##.pccb > .ng-star-inserted
 ##.pcd_ad
 ##.pcgg
 ##.photo-two > a[onclick^="_czc."]
@@ -1441,9 +1442,11 @@ newduba.cn###jq_youxi
 ##.txp_ad[data-role="txpad-interact-pause"]
 ##.txtguanggao
 ##.uk-width-1-1.adbox
+##.vg-overlay-pause
 ##.video-holder > a[target="_blank"] > img[src*=".360buyimg.com"]
 ##.video-info-aux + div[style^="border-radius: 5px;"]
 ##.video-item-ads
+##.video-player > .gg-bg-cover
 ##.video_details > .banner
 ##.w-full > .banner.el-carousel
 ##.w100b > .m_adv
@@ -1586,9 +1589,6 @@ newduba.cn###jq_youxi
 ##dl#listwoBox
 ##img#GGADIMG
 ##img#adv1
-##.pccb > .ng-star-inserted
-##.video-player > .gg-bg-cover
-##.vg-overlay-pause
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
 ##img[data-src*=".alicdn.com/img/ibank/"][src="/static/images/loadingerror.gif"]
 ##img[onclick*=".qq.com/doc/"]
@@ -1678,9 +1678,12 @@ newduba.cn###jq_youxi
 ||88lajs4.com^
 ||88lajs6.com^
 ||8d07a.xyz^
+||8zkt7.xyz^
 ||913mj.xyz^
 ||999aa666bb.com^
 ||a4bj6.xyz^
+||aadmei.xyz^
+||aaiwuq.xyz^
 ||aaknmt.icu^
 ||actrqdr.cn^
 ||aflsj.com^
@@ -1692,6 +1695,7 @@ newduba.cn###jq_youxi
 ||aispyd.icu^
 ||aknkvallbfml.com^
 ||albsgdq.cn^
+||ameidj.xyz^
 ||anhlnnm.cn^
 ||aniede.xyz^
 ||anjneia.xyz^
@@ -1710,6 +1714,7 @@ newduba.cn###jq_youxi
 ||azdiqsb.cn^
 ||bachou.cn^
 ||bavkvoks.xyz^
+||bbccf12.xyz^
 ||bbfnrn.xyz^
 ||bcovazp.icu^
 ||bctxtl.xyz^
@@ -1814,6 +1819,7 @@ newduba.cn###jq_youxi
 ||elas666.pics^
 ||elemea.xyz^
 ||elprput.xyz^
+||emynwlz.xyz^
 ||eqcwpeo.cn^
 ||eraygc.xyz^
 ||erutxdk.cn^
@@ -1846,6 +1852,7 @@ newduba.cn###jq_youxi
 ||fortxfq.cn^
 ||fotaxf.xyz^
 ||fptdxkm.com^
+||fqtljn.xyz^
 ||fsgiosi.com^
 ||ftzzbx.xyz^
 ||fwhhcpj.xyz^
@@ -1911,9 +1918,11 @@ newduba.cn###jq_youxi
 ||gszetzdm.xyz^
 ||gth112.com^
 ||gwdobvs.cn^
+||gxx4t.online^
 ||haise3.top^
 ||haise4.top^
 ||haise5.top^
+||hanadrmc.xyz^
 ||haree.cn^
 ||haxqxd.xyz^
 ||hcgbhq.com^
@@ -1961,6 +1970,7 @@ newduba.cn###jq_youxi
 ||ionjkcj.cn^
 ||iqs871.com^
 ||irtefs.xyz^
+||isnd.top^
 ||itwzlyq.com^
 ||iujlwn.icu^
 ||iuvssgh.cn^
@@ -2007,6 +2017,7 @@ newduba.cn###jq_youxi
 ||knhmgn.com^
 ||knuaxfv.cn^
 ||koyuod.xyz^
+||kqbrgl.icu^
 ||kshrsf.icu^
 ||ksrgsc.xyz^
 ||ktvtxir.xyz^
@@ -2047,6 +2058,7 @@ newduba.cn###jq_youxi
 ||m05ib.xyz^
 ||m2k3j7x8.com^
 ||mads7.icu^
+||max211.top^
 ||mbiypew.cn^
 ||mcds7.icu^
 ||mcds9.icu^
@@ -2077,6 +2089,7 @@ newduba.cn###jq_youxi
 ||naweslt.cn^
 ||nbxymdy.cn^
 ||nbycjpo.cn^
+||ncjpbv.xyz^
 ||ndbaxn.xyz^
 ||ndvfwlv.cn^
 ||neeujqf.cn^
@@ -2107,8 +2120,10 @@ newduba.cn###jq_youxi
 ||olltcqg.xyz^
 ||omkxes.xyz^
 ||omzxutfm.com^
+||onxtxdm.xyz^
 ||ooejkd.xyz^
 ||oouiqi.xyz^
+||operqr.top^
 ||oprece.xyz^
 ||orssengseen.com^
 ||ovfvkfc.xyz^
@@ -2181,6 +2196,7 @@ newduba.cn###jq_youxi
 ||rrfccx.com^
 ||rshsk.xyz^
 ||rslkhj.xyz^
+||rt004.top^
 ||rvreuxi.cn^
 ||rvvji.online^
 ||rxrdjb.xyz^
@@ -2296,6 +2312,7 @@ newduba.cn###jq_youxi
 ||wuyaw.cn^
 ||wvtem.com^
 ||wwwww.asia^
+||wwxufo.com^
 ||wyiegt.icu^
 ||wymzwy.cn^
 ||wyoaij.icu^
@@ -2310,6 +2327,7 @@ newduba.cn###jq_youxi
 ||xixil.cn^
 ||xjxbdh.xyz^
 ||xkfigjh.cn^
+||xkjmjj.com^
 ||xlam.cn^
 ||xlca666.site^
 ||xmvmir.icu^
@@ -2368,24 +2386,6 @@ newduba.cn###jq_youxi
 ||zys16.top^
 ||zyzo.cn^
 ||zzyy17.top^
-||aadmei.xyz^
-||onxtxdm.xyz^
-||isnd.top^
-||gxx4t.online^
-||aaiwuq.xyz^
-||hanadrmc.xyz^
-||ncjpbv.xyz^
-||bbccf12.xyz^
-||emynwlz.xyz^
-||kqbrgl.icu^
-||ameidj.xyz^
-||fqtljn.xyz^
-||max211.top^
-||8zkt7.xyz^
-||rt004.top^
-||operqr.top^
-||xkjmjj.com^
-||wwxufo.com^
 ||zzyy18.top^
 ||zzyy19.top^
 ||zzyy20.top^
@@ -38125,6 +38125,7 @@ browsershots.org#@#.advert_area
 ||041353e6dd.com^
 ||04cb2afab7.com^
 ||04cbf4193b.com^
+||059e71004b.com^
 ||05w0bq3nbq9b.top^
 ||063f828cf2.com^
 ||0676el9lskux.top^
@@ -40260,6 +40261,7 @@ browsershots.org#@#.advert_area
 ||ajozrjh.com^
 ||ajrkm1.com^
 ||ajvjpupava.com^
+||ajvnragtua.com^
 ||ajxx98.online^
 ||ak-tracker.com^
 ||akaiksots.com^
@@ -42122,6 +42124,7 @@ browsershots.org#@#.advert_area
 ||belickitungchan.com^
 ||beliet.com^
 ||believemefly.com^
+||believeradar.com^
 ||believersheet.com^
 ||belikeelean.life^
 ||belittlepads.com^
@@ -44809,6 +44812,7 @@ browsershots.org#@#.advert_area
 ||cotingavintry.website^
 ||coubte.com^
 ||coudswamper.com^
+||couhiboa.com^
 ||couldburgeon.com^
 ||coumasha.xyz^
 ||councedvdvg.club^
@@ -45201,6 +45205,7 @@ browsershots.org#@#.advert_area
 ||cypressreel.com^
 ||cyprie.com^
 ||cyrigh.com^
+||cystisolor.com^
 ||cysumhqvrjvrs.xyz^
 ||cythat.com^
 ||cytlbwfhbopqati.xyz^
@@ -45647,6 +45652,7 @@ browsershots.org#@#.advert_area
 ||demeepsi.xyz^
 ||dementeddug.com^
 ||dementedstalesimultaneous.com^
+||demersefiques.com^
 ||demersekeld.com^
 ||demned.com^
 ||democracyendlesslyzoo.com^
@@ -47256,6 +47262,7 @@ browsershots.org#@#.advert_area
 ||enfeoffcaraipi.com^
 ||enftvgnkylijcp.xyz^
 ||enfuck.com^
+||engagementdepressingseem.com^
 ||engagementpolicelick.com^
 ||engineseeker.com^
 ||engingsecondu.com^
@@ -48274,6 +48281,7 @@ browsershots.org#@#.advert_area
 ||filippiwilled.uno^
 ||filletdose.com^
 ||filletnails.com^
+||fillingimpregnable.com^
 ||fillsitsy.cam^
 ||filmesonlinegratis.com^
 ||filmreorganizeford.com^
@@ -48586,6 +48594,7 @@ browsershots.org#@#.advert_area
 ||foodme.info^
 ||foodowingweapon.com^
 ||foojimie.net^
+||foolerybonded.com^
 ||foolish-devil.pro^
 ||foolishcheek.pro^
 ||foomaque.net^
@@ -51759,6 +51768,7 @@ browsershots.org#@#.advert_area
 ||iokenattharmiinl.xyz^
 ||ionakasulba.info^
 ||ionakasulba.xyz^
+||ionicsshelyak.com^
 ||ionigravida.com^
 ||ionistkhaya.website^
 ||ioniumentomic.com^
@@ -52606,6 +52616,7 @@ browsershots.org#@#.advert_area
 ||kauzishy.com^
 ||kavanga.ru^
 ||kawescgm.com^
+||kaxnoyxs.com^
 ||kayspeewees.com^
 ||kazanbossterrifying.com^
 ||kazanwhoeveryowl.com^
@@ -53409,6 +53420,7 @@ browsershots.org#@#.advert_area
 ||leoyard.com^
 ||lepetitdiary.com^
 ||lephaush.net^
+||lepiotaspectry.com^
 ||leptaasellus.digital^
 ||lerrdoriak.com^
 ||leskdywzbfk.com^
@@ -57387,6 +57399,7 @@ browsershots.org#@#.advert_area
 ||oxbowfog.com^
 ||oxenturftrot.com^
 ||oxfoadv.store^
+||oxhdtgmlryv.com^
 ||oxkgcefteo.com^
 ||oxkpbuv.com^
 ||oxlandvoicing.digital^
@@ -61253,6 +61266,7 @@ browsershots.org#@#.advert_area
 ||sagrew.com^
 ||sagroagh.com^
 ||sahandkeightg.xyz^
+||saheckas.xyz^
 ||saiceezu.xyz^
 ||saidflightmusician.com^
 ||saikeela.net^
@@ -61478,6 +61492,7 @@ browsershots.org#@#.advert_area
 ||scillathemons.com^
 ||sciniphruffin.com^
 ||scipnd.xyz^
+||scisselfungus.com^
 ||scissorsaccordancedreamt.com^
 ||scl6gc5l.site^
 ||scnd-tr.com^
@@ -64033,6 +64048,7 @@ browsershots.org#@#.advert_area
 ||theelrou.net^
 ||theenfu.com^
 ||theensos.xyz^
+||theepsie.com^
 ||theerdax.com^
 ||theextensionexpert.com^
 ||thefacux.com^
@@ -66424,6 +66440,7 @@ browsershots.org#@#.advert_area
 ||vqglaz.com^
 ||vqjfiuwbqpvwrn.xyz^
 ||vqjvnjxbgnz.com^
+||vqzbzuhhxhcf.com^
 ||vraatdwugla.com^
 ||vrbmhngqjh.com^
 ||vrfupfyu.com^
@@ -66487,6 +66504,7 @@ browsershots.org#@#.advert_area
 ||vvtadblk.online^
 ||vvvljeqasz.com^
 ||vvwbjuaerbgmrjm.com^
+||vvyfeixscj.com^
 ||vvyqxxgxlnptc.com^
 ||vvzzphefzcdfr.com^
 ||vwedfijcm.xyz^
@@ -66571,6 +66589,7 @@ browsershots.org#@#.advert_area
 ||waitingpresen.com^
 ||waiwodemanila.com^
 ||wakelardassistance.com^
+||wakenssponged.com^
 ||walaheewakwafi.com^
 ||walkamorous.com^
 ||walkedcreak.com^
@@ -70937,6 +70956,7 @@ browsershots.org#@#.advert_area
 ||encroachsnortvarnish.com^$popup
 ||enemieshemisphere.com^$popup
 ||eneverals.biz^$popup
+||engagementdepressingseem.com^$popup
 ||enlightencentury.com^$popup
 ||enloweb.com^$popup
 ||entainpartners.com^$popup,third-party
@@ -71050,6 +71070,7 @@ browsershots.org#@#.advert_area
 ||fifteenthhardboiledbanker.com^$popup
 ||fiinnancesur.com^$popup
 ||filestube.com^$popup,third-party
+||fillingimpregnable.com^$popup
 ||finalice.net^$popup
 ||finance-hot-news.com^$popup
 ||findanonymous.com^$popup
@@ -71071,6 +71092,7 @@ browsershots.org#@#.advert_area
 ||flairadscpc.com^$popup
 ||flamebeard.top^$popup
 ||flashymass.com^$popup
+||flelgwe.site^$popup
 ||flingforyou.com^$popup
 ||flixcontentshop.com^$popup
 ||floweryduck.cc^$popup
@@ -72843,6 +72865,7 @@ browsershots.org#@#.advert_area
 ||slidecaffeinecrown.com^$popup
 ||slideff.com^$popup
 ||slikslik.com^$popup
+||slimfiftywoo.com^$popup
 ||slimspots.com^$popup
 ||slipdashedundermine.com^$popup
 ||slipperydeliverance.com^$popup
@@ -73084,6 +73107,7 @@ browsershots.org#@#.advert_area
 ||thechleads.pro^$popup
 ||thechronicles2.xyz^$popup
 ||thecloudvantnow.com^$popup
+||theepsie.com^$popup
 ||theextensionexpert.com^$popup
 ||thefacux.com^$popup
 ||thencemutinyhamburger.com^$popup
@@ -74424,9 +74448,12 @@ browsershots.org#@#.advert_area
 ||1187531871.rsc.cdn77.org^
 ||1194047269.rsc.cdn77.org^
 ||1437953666.rsc.cdn77.org^
+||1537621450.rsc.cdn77.org^
 ||1540685764.rsc.cdn77.org^
 ||1675450967.rsc.cdn77.org^
+||1713481975.rsc.cdn77.org^
 ||1736253261.rsc.cdn77.org^
+||1872859781.rsc.cdn77.org^
 ||360playvid.com^$third-party
 ||360playvid.info^$third-party
 ||a-delivery.rmbl.ws^
@@ -82470,7 +82497,6 @@ aliexpress.com,aliexpress.us##div[data-spm="seoads"]
 ecosia.org##div[data-test-id="mainline-result-ad"]
 investing.com##div[data-test="ad-slot-visible"]
 twitter.com##div[data-testid="cellInnerDiv"] > div > div[class] > div[class][data-testid="placementTracking"]
-twitter.com##div[data-testid="cellInnerDiv"] > div.css-1dbjc4n > div[class="css-1dbjc4n"] > div[class="css-1dbjc4n"][data-testid="placementTracking"]
 qwant.com##div[data-testid="pam.container"]
 qwant.com##div[data-testid="productAdsMicrosoft.container"]
 manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##div[data-testid^="sponsored-product"]
