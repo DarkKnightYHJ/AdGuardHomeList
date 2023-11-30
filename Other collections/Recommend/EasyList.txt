@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tMRwguVrSm451WZWt+ppNw
-! Version: 202311300051
+! Checksum: zAs7D25dyPM3v8Mbc1PYaA
+! Version: 202311300150
 ! Title: EasyList
-! Last modified: 30 Nov 2023 00:51 UTC
+! Last modified: 30 Nov 2023 01:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -62484,6 +62484,7 @@ coles.com.au##[data-testid="banner-container-desktop"]
 sbs.com.au##[data-testid="hbs-widget-skeleton"]
 forbes.com##[data-testid="locked-top-ad-container"]
 imdb.com##[data-testid="media-sheet__attr-banner"]
+you.com##[data-testid="microsoft-ads"]
 washingtonpost.com##[data-testid="placeholder-box"]
 abcnews.go.com##[data-testid="prism-static-embed"]
 abcnews.go.com##[data-testid="prism-sticky-ad"]
@@ -63416,7 +63417,6 @@ yahoo.com##li[data-test-locator="stream-related-ad-item"]
 youtube.com###YtKevlarVisibilityIdentifier
 youtube.com###YtSparklesVisibilityIdentifier
 youtube.com###feed-pyv-container
-youtube.com###merch-shelf
 youtube.com###player-ads
 youtube.com###video-masthead
 youtube.com##.ad-showing > .html5-video-container
@@ -63605,6 +63605,7 @@ atlanticsuperstore.ca,fortinos.ca,loblaws.ca,maxi.ca,newfoundlandgrocerystores.c
 autotrader.co.uk#?#li:-abp-has(section[data-testid="trader-seller-listing"]>span[data-testid="FEATURED_LISTING"])
 autotrader.co.uk#?#li:-abp-has(section[data-testid="trader-seller-listing"]>span[data-testid="PROMOTED_LISTING"])
 backpack.tf,backpacktf.com#?#.panel:-abp-contains(createAd)
+qwant.com#?#.result--ext:-abp-has([data-testid="adResult"])
 infographicjournal.com#?#.et_pb_widget:-abp-contains(Partners)
 infographicjournal.com#?#.et_pb_module:-abp-contains(Partners)
 infographicjournal.com#?#.et_pb_module:-abp-contains(Partners) + .et_pb_module
