@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vDlubG184JU2opCFid3wHA
+! Checksum: ype7v8HB4t4KlmP0HEMywQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202312021406
-! Last Modified: 2023年12月02日 14:06
+! Version: 202312022008
+! Last Modified: 2023年12月02日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2574,6 +2574,8 @@ newduba.cn###jq_youxi
 ||tunovl.xyz^
 ||ieequd.icu^
 ||latu.cc^
+||qgl27.xyz^
+||jhl1993.cn^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -10648,6 +10650,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.com/images/a_d_
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
+||58cdn.com.cn/nowater/webim/big/n_v2e722db7ca7f1458d92b7d6e57f833548.
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
@@ -11674,7 +11677,6 @@ tingroom.com###play_ggr
 7k7k.com###player-ad
 bljiex.com###player_pause
 jyacht.com###playergg
-tvyb03.com###playlistbtn
 mail.qq.com###plp_ad_container
 image.baidu.com###plz-albums
 image.baidu.com###plz-head-banner
@@ -30456,6 +30458,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cc.swiftype.com^
 ||ccexperimentsstatic.oracleoutsourcing.com^
 ||cdn-channels-pixel.ex.co^
+||cdn-ds.com/analytics/
 ||cdn.sourcesync.io/open-pixel/source-pixel.js
 ||cdn.usefathom.com^
 ||cdnjs.work/metrics.js
@@ -31036,6 +31039,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gleam.io^$script,third-party
 ||global.ssl.fastly.net/native/
 ||gml-grp.com^*&affid=$subdocument,third-party
+||go.activengage.com^
 ||go.com/capmon/GetDE/?
 ||go.techtarget.com^$image,xmlhttprequest
 ||go.toutapp.com^$third-party
