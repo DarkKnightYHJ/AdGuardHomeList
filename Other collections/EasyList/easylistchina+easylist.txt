@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: EDmR5fuJGdltoKAmMADnYA
-! Version: 202312020802
+! Checksum: ppqu0nxO3PlzHvd72vpfew
+! Version: 202312020902
 ! Title: EasyList China+EasyList
-! Last modified: 02 Dec 2023 08:02 UTC
+! Last modified: 02 Dec 2023 09:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -10498,6 +10498,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
+tvyb03.com##a[href*=".qq.com"]
 szxx.com.cn###A2
 gpcxw.com###AA2
 yahoo.com###ACT_crazy
@@ -19468,7 +19469,6 @@ fqsousou.com,kengso.com#@#.user-share
 /googleafc.js
 /googleafs.js
 /gpt.js$script,xmlhttprequest
-/gpt.min.js
 /gpt_ads-public.js
 /headerads1.php
 /homepage_ads/*$domain=~swedishbeauty.com
@@ -30755,6 +30755,7 @@ _800x80_
 ##.bg-ad-gray
 ##.bg-ads
 ##.bg-ads-space
+##.bg-grey-ad
 ##.bgAdBlue
 ##.bg_ad
 ##.bg_ads
