@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: I8E0XGixBzupef5KVJFnvA
-! Version: 202312040951
+! Checksum: UhPiUQ7x7Q4Vu8xCwD9/BA
+! Version: 202312041101
 ! Title: EasyPrivacy
-! Last modified: 04 Dec 2023 09:51 UTC
+! Last modified: 04 Dec 2023 11:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -232,6 +232,7 @@
 /analytics-ingestion/*
 /analytics-ingress-
 /analytics-js/*
+/analytics-library.js
 /analytics-minimal-v4.js
 /analytics-minimal.js
 /analytics-ping.js
@@ -294,7 +295,6 @@
 /AnalyticsEvent.js
 /analyticsFooter.js
 /analyticsjs.js
-/analyticsjs/*
 /analyticsscript.ashx
 /analyticstrack.js
 /analyticstracking.js
@@ -339,8 +339,8 @@
 /AppMeasurement.js
 /AppMeasurement.min.js
 /AppMeasurement2.js
-/AppMeasurement_Module_
-/AppMeasurementCustom.
+/AppMeasurement_Module_ActivityMap.min.js
+/AppMeasurementCustom.min.js
 /aptrk.js
 /ard.png?
 /aria-web-telemetry-
@@ -362,7 +362,6 @@
 /at.gif?
 /atapixel.js
 /atatus.js
-/athena/tracking/*
 /atrk.gif?
 /atrk.js
 /audience-extraction.js
@@ -630,7 +629,6 @@
 /common/analytics.js
 /common/ga.js
 /common/tracker.js
-/compile/AppMeasurement.
 /comscore-min.js
 /comscore?
 /comscore_beacon/*
@@ -673,7 +671,7 @@
 /counter.pl?
 /counter/acnt.php?
 /counter/collect?
-/counter/stat.
+/counter/stat.php
 /counter/views/*
 /counter1.gif?
 /counter2.gif?
@@ -695,9 +693,7 @@
 /CreateAnalytics.js
 /CreateCookieSSO_
 /criteo.$domain=~criteo.blotout.io|~criteo.github.io|~criteo.investorroom.com
-/Criteo/*
-/criteo_
-/criteoRTA.
+/criteoRTA.js
 /crypta.js
 /csi?v=*&action=
 /csi?v=2&s=
@@ -1392,6 +1388,7 @@
 /lunametrics-
 /m.gif?
 /madAnalytics.js
+/magento-storefront-event-collector@
 /magento/page-visit?
 /magento2.js
 /magpie.js
@@ -10364,6 +10361,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lycos.com/hb.js
 ||m.stripe.com^$third-party,domain=~stripe.network
 ||ma.logsss.com^
+||magento-recs-sdk.adobe.net^
 ||magnify.net/decor/track/
 ||mail-app.com/pvtracker/
 ||mail.ru/dstat?
