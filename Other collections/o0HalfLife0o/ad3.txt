@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FDbwu10BRiNxyJc78A2WEQ
+! Checksum: oWTDSvWz4ULUO7BzkSRAKQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202312040827
-! Last Modified: 2023年12月04日 08:27
+! Version: 202312041407
+! Last Modified: 2023年12月04日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2598,6 +2598,9 @@ newduba.cn###jq_youxi
 ||lutrbr.xyz^
 ||bbrnpj.xyz^
 ||9g659.xyz^
+||xn--gmq238c5fy.com^
+||xn--9kq29i0tjy6b044actm.com^
+||v34s6r.com^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -6200,7 +6203,8 @@ $websocket,domain=5nj.com|cechi8.com
 /images/sgcrwj*.jpg
 /img/skin/*_bg.$domain=firefox.com.cn|firefoxchina.cn
 /img/skin/tao$domain=firefox.com.cn|firefoxchina.cn
-/jquery.modal.$domain=1909.me|8se.me|litu100.xyz|xchina.co|xchina.fun|xchina.pro
+/jquery.modal.$domain=1909.me|8se.me|litu100.xyz
+||xchina.*/plugins/jquery.modal/
 /mydisplay.$domain=400gb.com|bego.cc|ctfile.com|pipipan.com
 /o.js$domain=nicotv.me|tptoon.com
 /r/video/*$domain=youxi.baidu.com
@@ -10676,6 +10680,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+xchina.biz##.push-top
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -21277,11 +21282,9 @@ m.babytree.com##script + a[class]
 /analyse.js
 /analysis-logger/*
 /analysisTag.js
-/analytic-client.
 /analytic/pageview
 /analytics-amplitude-
 /analytics-async-loader.js
-/analytics-cdn.
 /analytics-client-identification/*
 /analytics-collector
 /analytics-data-collector.js
@@ -21310,8 +21313,7 @@ m.babytree.com##script + a[class]
 /analytics.*/event?
 /analytics.*/ping/?
 /analytics.*/track
-/analytics.ad.
-/analytics.analytics/*
+/analytics.analytics/analytics.min.js
 /analytics.bundled.js
 /analytics.config.js
 /analytics.do
@@ -22777,18 +22779,15 @@ m.babytree.com##script + a[class]
 /plugins/vdz-google-analytics/*
 /plugins/visitors-traffic-
 /plugins/wordfence/visitor.php?
-/pm/pixel.
 /pmc-cxense.js
 /pointeur.gif?
 /pomegranate.js
-/post-tracking/*
 /postcounter.php?
 /postlog?
 /postview.gif?
-/powercount.
-/powr-counter.
 /pp/micro.tag.min.js
-/pphlogger.
+/pphlogger.js
+/pphlogger.php
 /ppms.js
 /pr.php?
 /preparecookies?callback=$domain=~mirapodo.de|~mytoys.de|~yomonda.de
@@ -22837,7 +22836,6 @@ m.babytree.com##script + a[class]
 /pvcount.php
 /pvcounter.cgi
 /pvcounter.js
-/pvcounter/*
 /PvCountUp.action
 /pvevents.gif?
 /pvlog.js
@@ -22860,9 +22858,7 @@ m.babytree.com##script + a[class]
 /qtracker-v3-min.js
 /quant.js
 /quantcast.js
-/quantcast/*
-/quantcast_
-/quantcastjs/*
+/Quantcast/cmp_v2.js
 /quantserve.com/*
 /QuotaService.RecordEvent?
 /r.gif?
@@ -22908,22 +22904,21 @@ m.babytree.com##script + a[class]
 /revinit.js
 /revtracking/*
 /rgea.min.js
-/rich-relevance.
-/RioTracking2.
 /risk_fp_log?
 /riveted.js
 /riveted.min.js
 /rivraddon.js
-/rkrt_tracker-
-/rlvt-track/*
+/rkrt_tracker-viajs.php
 /rm-gtm-google-analytics-for-wordpress/js/gtm-player.js
 /rm.gif?
 /rmntracking.js
 /rntracking.js
-/roi_tracker.
-/roiengine.
-/roitrack.
-/roitracker.
+/roi_tracker.js
+/roi_tracker.min.js
+/roiengine.js
+/roitrack.cgi
+/roitrack.js
+/roitrack.php
 /roitracker2.js
 /rollbar.js
 /rollbar.min.js
@@ -22938,7 +22933,8 @@ m.babytree.com##script + a[class]
 /rpc/preccount?
 /rpFingerprint?
 /rr/t?step=
-/rrweb-record-
+/rrweb-record-pack.js
+/rrweb-record.min.js
 /rt_tag.js
 /rt_tag.ofs.js
 /rt_track.js
@@ -22946,7 +22942,6 @@ m.babytree.com##script + a[class]
 /rtac/gif?
 /rtd.js
 /rtkbeacon.gif?
-/rtm-tracking.
 /rtoaster.js
 /rtracker.min.js
 /rtracker/ofs.rtt.js
@@ -22972,11 +22967,9 @@ m.babytree.com##script + a[class]
 /s.gif?
 /s_code_global_context.js
 /s_trans.gif?
-/s_trans_nc.
 /sa-tracker-
 /sa.gif?
 /safelinkconverter.js
-/sage_tracker.
 /salog.js
 /SAPOWebAnalytics/*
 /satismeter.js
@@ -22994,27 +22987,23 @@ m.babytree.com##script + a[class]
 /scroll-analytics-
 /scroll-track.js
 /scroll-tracker.
-/scroll-tracking.
 /SdaAnalytics.js
 /sdc.js
 /sdc1.js
 /sdc2.js
 /sdctag1.js
 /sdctag2.js
-/sdcTrackingCode.
+/sdcTrackingCode.js
 /sdk/impressions
-/sdp-tagcollector.
 /search-cookie.aspx?$image
-/second-scroll~trackers.
-/secure-stats.
-/securetracker.
+/securetracker.js
 /seed.gif?
 /segment/api/*
 /segment/js/*
 /segmentify.js
 /segmentio.js
 /sendLogs?cid
-/sensor.modern.ncl.
+/sensor.modern.ncl.min.js
 /sensor/statistic?
 /sensorsdata-
 /sensorsdata.$domain=~sensorsdata.cn
@@ -23022,9 +23011,8 @@ m.babytree.com##script + a[class]
 /sentry-logger.js
 /sentry/bundle.min.js
 /seo.taCo.min.js
-/seostats/*
-/seotracker/*
-/SEOTracking.
+/seostats.php
+/seotracking-v3.js
 /server.php?request=track&output=
 /server/detect.php?
 /service/track?
@@ -23780,6 +23768,7 @@ m.babytree.com##script + a[class]
 /zhugeio.js
 /ztracker.js
 ://a869.
+://analytics-cdn.
 ://analytics.*/collect
 ://analytics.*/event
 ://analytics.*/hits/
@@ -31840,6 +31829,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sdrive.skoda-auto.com^
 ||sdtagging.azureedge.net^
 ||searchcompletion.com/BannerHandler.ashx
+||secure-stats.pingdom.com^
 ||secure.ed4.net/GSI/$third-party
 ||secure.ifbyphone.com^$third-party
 ||secure.merchantadvantage.com^
@@ -53083,6 +53073,7 @@ arketing.indianadunes.com^
 ||retty.me/gen204.php
 ||retty.me/javascripts/common/logging.js
 ||revive-chat.io/js/tracking-min.js
+||rtm-tracking.zozo.jp^
 ||sankei.co.jp/js/analytics/
 ||scinable.net/access?
 ||scis.tbs.co.jp^
