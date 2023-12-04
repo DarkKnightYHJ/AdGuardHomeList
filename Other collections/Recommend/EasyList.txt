@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jiGON37XP3O3LDrUv7izlA
-! Version: 202312041101
+! Checksum: LikTo7vDKY/fLDIfFU3UDA
+! Version: 202312041210
 ! Title: EasyList
-! Last modified: 04 Dec 2023 11:01 UTC
+! Last modified: 04 Dec 2023 12:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -243,7 +243,7 @@
 /ad_wrapper.
 /adanalytics.
 /adaptvadplayer.
-/adasset/*
+/adasset/*$~script
 /adasync.
 /adbanner2.
 /adbanners/*
@@ -62621,6 +62621,7 @@ tvzoneuk.com##[data-hook="HtmlComponent"]
 jeffdornik.com##[data-image-info]
 phoneia.com##[data-index]
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-layout="ad"]
+independent.co.uk##[data-mpu1]
 goal.com##[data-name="ad-leaderboard"]
 polygon.com##[data-native-ad-id^="container"]
 namepros.com##[data-np-ga-event="ad"]
