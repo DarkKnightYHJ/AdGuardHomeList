@@ -4,7 +4,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2023-12-05T12:01:22.419Z
+! Last modified: 2023-12-05T18:01:02.887Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.22
 !
@@ -22,6 +22,21 @@
 !
 !
 !
+||vrcjleonnurifjy.xyz^
+||ecoulsou.xyz^
+||rtwdzxstpanmn.com^
+||amofqosgs.com^
+||zteollhhyaqez.com^
+||qsoxiekkfjl.com^
+||tpbsxcsa.com^
+||ijmrburud.com^
+||gcuylkyvi.com^
+||xnvdigrbb.com^
+||avnmjtqu.com^
+||abciwvjp.com^
+||woopteem.net^
+||getbestpolojpob.org^
+||ipmathematical.org^
 ||core.dimatter.ai^
 ||naumkamebian.com^
 ||hmrxsxvl.com^
@@ -1514,6 +1529,7 @@
 ! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
 !
 !
+||d2fnnovf9qvlf2.cloudfront.net^
 ||d25sca3heoa1so.cloudfront.net^
 ||d3u8vuldqjolr7.cloudfront.net^
 ||d2lzu2a5ishr7o.cloudfront.net^
@@ -8217,6 +8233,7 @@ vkcdnservice.appspot.com^
 ||collegerayas.com^
 ||colliersads.com^
 ||collisionasheseliminate.com^
+||collowhypoxis.com^
 ||colognenobilityfrost.com^
 ||cologu.com^
 ||colombomyeloid.live^
@@ -11200,6 +11217,7 @@ vkcdnservice.appspot.com^
 ||escaatwite.com^
 ||escalatenetwork.com^
 ||escers.com^
+||eschelbolts.com^
 ||escthermae.com^
 ||escy55gxubl6.com^
 ||esdcubited.uno^
@@ -12448,6 +12466,7 @@ vkcdnservice.appspot.com^
 ||fqanulluixeis.com^
 ||fqdwrgbbkmlbh.com^
 ||fqeqbpacetlols.com^
+||fqfjmojnjslr.com^
 ||fqkwn.com^
 ||fqtfwulmcdw.com^
 ||fqybolmt.com^
@@ -12888,6 +12907,7 @@ vkcdnservice.appspot.com^
 ||geedoovu.net^
 ||geejooji.com^
 ||geeksundigne.com^
+||geerairu.net^
 ||geetaury.net^
 ||geethoap.com^
 ||geijnyklkdy.xyz^
@@ -12907,6 +12927,7 @@ vkcdnservice.appspot.com^
 ||generalebad.xyz^
 ||generalizebusinessman.com^
 ||generalizeruffleembroidery.com^
+||generallyrefinelollipop.com^
 ||generateplunderstrew.com^
 ||generationscloveinappropriate.com^
 ||generatorgenuinelyupcoming.com^
@@ -14944,6 +14965,7 @@ vkcdnservice.appspot.com^
 ||ilinouck.net^
 ||ilkmawgod.site^
 ||illallwoe.com^
+||illegaleaglewhistling.com^
 ||illegallyshoulder.com^
 ||illegalprotected.com^
 ||illegibledismiss.com^
@@ -15564,6 +15586,7 @@ vkcdnservice.appspot.com^
 ||iswhatappyouneed.net^
 ||iswhelectual.cc^
 ||isymybwvzl.com^
+||isywjrtn.com^
 ||itahandkeight.xyz^
 ||itaisabirs.com^
 ||italianforesee.com^
@@ -18441,6 +18464,7 @@ vkcdnservice.appspot.com^
 ||milkygoodness.xyz^
 ||milkywaynewspaper.com^
 ||millennialmedia.com^
+||millierinlaces.com^
 ||millionsskinny.com^
 ||millsurfaces.com^
 ||millustry.top^
@@ -23151,6 +23175,7 @@ vkcdnservice.appspot.com^
 ||qadserve.com^
 ||qadservice.com^
 ||qagkyeqxv.xyz^
+||qajgarohwobh.com^
 ||qajvfiqafqto.com^
 ||qajwizsifaj.com^
 ||qalruhvcoa.com^
@@ -25763,6 +25788,7 @@ vkcdnservice.appspot.com^
 ||situationfondlehindsight.com^
 ||situationhostilitymemorable.com^
 ||situbathool.com^
+||siumssoftish.com^
 ||siversbesomer.space^
 ||sixft-apart.com^
 ||sixmosorts.uno^
@@ -31919,6 +31945,7 @@ vkcdnservice.appspot.com^
 ||zwaar.net^
 ||zwbbkjvzqbyba.top^
 ||zwbbkjvzqembe.top^
+||zwjezmzbyerkj.top^
 ||zwmvyzyrlvava.top^
 ||zwnoeqzsuz.com^
 ||zwqzxh.com^
@@ -38617,7 +38644,6 @@ vkcdnservice.appspot.com^
 !+ PLATFORM(windows, mac, android)
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
-!
 ||analytics.peraichi.com^
 ||ddl.alma.iltalehti.fi^
 ||azq.zozo.jp^
@@ -52166,9 +52192,9 @@ inapps.appsflyersdk.com^
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 03 Dec 2023 20:48 UTC+7
-! OriginalVersion: 2312032048
-! Blocked: 844 rules
+! Last modified: 05 Dec 2023 22:51 UTC+7
+! OriginalVersion: 2312052251
+! Blocked: 850 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
 !
@@ -52227,6 +52253,11 @@ inapps.appsflyersdk.com^
 ||apilog.mytvnet.vn^
 ||apilogduration.mytvnet.vn^
 ||apinas.nct.vn^
+||app.harafunnel.com^
+||app.haraloyalty.com^
+||app.harasocial.com^
+||apps.haraads.com^
+||assets.harafunnel.com^
 ||atdnetwork.com^
 ||banners-gallery.coccoc.com^
 ||blogstatistics.sapoapps.vn^
@@ -52260,6 +52291,7 @@ inapps.appsflyersdk.com^
 ||elogs.vnexpress.net^
 ||eva-ad.24hstatic.com^
 ||ezca.asia^
+||facebook-ads.hara.vn^
 ||facebookinbox-omni-onapp.haravan.com^
 ||ff.imacdn.com^
 ||fly-ads.net^
@@ -52268,14 +52300,12 @@ inapps.appsflyersdk.com^
 ||gammaplatform.com^
 ||gammassp.com^
 ||genmonet.com^
+||google-ads.hara.vn^
 ||google-shopping-v2.sapoapps.vn^
 ||google-shopping.sapoapps.vn^
 ||googleshopping.sapoapps.vn^
 ||groupstats.chat.zalo.me^
 ||groupstats.event.zalo.me^
-||haraads.com^
-||harafunnel.com^
-||haraloyalty.com^
 ||hotngay.vn^
 ||itim.vn^
 ||jeoway.com^
@@ -52397,6 +52427,7 @@ inapps.appsflyersdk.com^
 ||static.accesstrade.vn^
 ||statistic-blog-v2.sapoapps.vn^
 ||stats.dev.zaloapp.com^
+||stats.hara.vn^
 ||stats.hc.score.dmp.zalo.me^
 ||stats.lab.zalo.ai^
 ||stats.stg.zaloapp.com^
@@ -52412,6 +52443,7 @@ inapps.appsflyersdk.com^
 ||tebrand.asia^
 ||tebrand.vn^
 ||testcentre.vn^
+||tiktok-ads.hara.vn^
 ||tjme.io^
 ||tpmedia.online^
 ||track.accesstrade.vn^
@@ -53143,6 +53175,7 @@ inapps.appsflyersdk.com^
 ||dwerzv.xyz^
 ||dwq661.biz^
 ||dzdxnbc.xyz^
+||dzvy7.space^
 ||e3inu.space^
 ||eapect.icu^
 ||ebmlsvw.cn^
@@ -53263,6 +53296,7 @@ inapps.appsflyersdk.com^
 ||haise5.top^
 ||hanadrmc.xyz^
 ||hangzhouhdb.top^
+||haokanshipin.com^
 ||haree.cn^
 ||haxqxd.xyz^
 ||hcgbhq.com^
@@ -53332,6 +53366,7 @@ inapps.appsflyersdk.com^
 ||jingxuanjingyan.com^
 ||jjvzqjh.xyz^
 ||jlhlnd.xyz^
+||jltolz.xyz^
 ||jmhngn.com^
 ||jmvvpb.xyz^
 ||jndxsuy.xyz^
@@ -53563,6 +53598,8 @@ inapps.appsflyersdk.com^
 ||rxrdjb.xyz^
 ||rycff.online^
 ||rzflhxn.cn^
+||s5ue6.com^
+||sbhduht.xyz^
 ||scqaaf.cn^
 ||sdklcnskvbks.com^
 ||serda10.icu^
@@ -53574,8 +53611,10 @@ inapps.appsflyersdk.com^
 ||slkdfg.com^
 ||sllo.top^
 ||smlpcz.icu^
+||sotunet.com^
 ||splfnok.cn^
 ||sqevnrb.com^
+||sqgnqc.xyz^
 ||sregfle.cn^
 ||srldkqj.cn^
 ||srlhgo.cn^
@@ -53618,6 +53657,7 @@ inapps.appsflyersdk.com^
 ||ugwxwy.xyz^
 ||uhjxitn.xyz^
 ||uidwyx.icu^
+||uiszwh.icu^
 ||ukjwyv.icu^
 ||ulrvkee.xyz^
 ||uncs7.top^
@@ -53632,6 +53672,7 @@ inapps.appsflyersdk.com^
 ||v34s6r.com^
 ||vainews.cn^
 ||valerieurania.com^
+||vbzrkme.xyz^
 ||vdggsd001.com^
 ||vdggsd002.com^
 ||vdggsd003.com^
@@ -53694,6 +53735,7 @@ inapps.appsflyersdk.com^
 ||xfqrsjq.cn^
 ||xfztgxt.com^
 ||xg6hb.xyz^
+||xgrcfz.xyz^
 ||xixil.cn^
 ||xjxbdh.xyz^
 ||xkfigjh.cn^
@@ -53721,6 +53763,7 @@ inapps.appsflyersdk.com^
 ||ycgkol.icu^
 ||ycmgeb.icu^
 ||yepgdita.xyz^
+||ygfgzmzo.xyz^
 ||yhlzadr.xyz^
 ||yhtpsy8888.cc^
 ||yivkzvog.xyz^
@@ -53746,6 +53789,7 @@ inapps.appsflyersdk.com^
 ||zents2.top^
 ||zhangyuting04.cn^
 ||zhongfumzzew.com^
+||ziyzcu.buzz^
 ||zjdruhn.xyz^
 ||zlncvn.xyz^
 ||zmfcnlvu.xyz^
@@ -53760,15 +53804,6 @@ inapps.appsflyersdk.com^
 ||zyzo.cn^
 ||zzyy17.top^
 ||zzyy18.top^
-||dzvy7.space^
-||sqgnqc.xyz^
-||sotunet.com^
-||xgrcfz.xyz^
-||sbhduht.xyz^
-||ygfgzmzo.xyz^
-||vbzrkme.xyz^
-||jltolz.xyz^
-||haokanshipin.com^
 ||zzyy19.top^
 ||zzyy20.top^
 ||01v62.xyz^
