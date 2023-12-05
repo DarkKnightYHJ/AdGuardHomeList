@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OfLNygVyp7RNq68A0Jg6qg
-! Version: 202312042301
+! Checksum: O/MNmiMmnE0FDmXMmEZmgw
+! Version: 202312050050
 ! Title: EasyList
-! Last modified: 04 Dec 2023 23:01 UTC
+! Last modified: 05 Dec 2023 00:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -141,7 +141,6 @@
 /ad-engine.js
 /ad-left.js
 /ad-overlay-anything/*
-/ad-provider.js
 /ad-scripts--
 /ad-scroll.js
 /ad-server.$~script
@@ -347,6 +346,7 @@
 /ads/delivery.
 /ads/display/*
 /ads/footer.
+/ads/ga-audiences?
 /ads/gam_prebid-
 /ads/header.
 /ads/image/*
@@ -18394,7 +18394,7 @@ guloggratis.dk#@##adcontent
 lifeinvader.com#@##ads-col
 ads.nipr.ac.jp#@##ads-header
 ads.nipr.ac.jp#@##ads-menu
-herstage.com#@##ads-wrapper
+finvtech.com,herstage.com,scitechi.com,soulfitr.com,sportynew.com,travel13.com,usatravel.tips,watchinfilm.com#@##ads-wrapper
 mafagames.com#@##adsContainer
 video.tv-tokyo.co.jp#@##adspace
 globalsecurity.org#@##adtop
@@ -18467,6 +18467,7 @@ walkingclub.org.uk#@#.ad_div
 admanager.line.biz#@#.ad_frame
 modelhorseblab.com#@#.ad_global_header
 myhouseabroad.com,njuskalo.hr,starbuy.sk.data10.websupport.sk#@#.ad_item
+muzines.co.uk#@#.ad_main
 huffingtonpost.co.uk#@#.ad_spot
 kpanews.co.kr#@#.ad_top
 genshinimpactcalculator.com#@#.adban
@@ -34885,6 +34886,7 @@ browsershots.org#@#.advert_area
 ||mairunoa.xyz^
 ||maisoope.xyz^
 ||maisvznypp.com^
+||maithooh.net^
 ||maiuschaco.com^
 ||majasgaol.com^
 ||majesticinsensitive.com^
@@ -40271,6 +40273,7 @@ browsershots.org#@#.advert_area
 ||qebuvi.xyz^
 ||qel-qel-fie.com^
 ||qelqlunebz.com^
+||qemyetwxfcwhtyy.com^
 ||qeqaqnvwmbkyj.top^
 ||qfdn3gyfbs.com^
 ||qfisatztut.com^
@@ -41609,6 +41612,7 @@ browsershots.org#@#.advert_area
 ||rouinfernapean.com^
 ||roujonoa.net^
 ||roulediana.com^
+||roumakie.com^
 ||roumucee.com^
 ||rounca.com^
 ||rouncepreyful.com^
@@ -59083,6 +59087,7 @@ frequence-radio.com###pub_listing_top
 elevationmap.net###publift_home_billboard
 fxsforexsrbijaforum.com###pun-announcement
 onmsft.com###pwDeskSkyBtf1
+d4builds.gg###pwParentContainer
 sporcle.com###quiz-right-rail-unit-2
 techmeme.com###qwdbfwh
 comicbookrealm.com###rad
@@ -59916,6 +59921,7 @@ chargedretail.co.uk,foodstuffsa.co.za,thinkcomputers.org##.apPluginContainer
 insideevs.com,motor1.com##.apb
 thetoyinsider.com##.apb-adblock
 eurogamer.net##.apester_block
+d4builds.gg##.app__ad__leaderboard
 classicfm.com##.apple_music
 icon-icons.com##.apu
 icon-icons.com##.apu-mixed-packs
@@ -60001,7 +60007,7 @@ investordaily.com.au##.b-topLeaderboard
 bizcommunity.com##.b-topbanner
 maritimeprofessional.com##.b300x250
 coin360.com##.b5BiRm
-crypto.news##.b6470de94dc
+crypto.news,nft.news##.b6470de94dc
 iol.co.za##.bDEZXQ
 vidcloud9.me##.backdrop
 namepros.com##.backer
@@ -61669,6 +61675,7 @@ pixabay.com##.present-g-item
 flobzoo.com##.preview2bannerspot
 manutd.com##.primary-header-sponsors
 tech.hindustantimes.com##.primeDay
+advfn.com##.primis-container
 sportskeeda.com##.primis-player-container
 astrology.com##.primis-video-module-horoscope
 rockpapershotgun.com##.primis_wrapper
@@ -62313,6 +62320,7 @@ forbes.com##.top-ad-container
 artistdirect.com##.top-add
 n4g.com,techspy.com##.top-ads-container-outer
 jamieoliver.com##.top-avocado
+advfn.com##.top-ban-wrapper
 automotive-fleet.com,businessfleet.com,cfl.ca,fleetfinancials.com,forbesindia.com,government-fleet.com,howsecureismypassword.net,ncaa.com,rigzone.com,schoolbusfleet.com,wltreport.com##.top-banner
 smartasset.com##.top-banner-ctr
 gptoday.net##.top-banner-leaderboard
@@ -65248,7 +65256,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||lastpass.com/images/ads/$image,~third-party
 @@||letocard.fr/wp-content/uploads/$image,~third-party
 @@||linkbucks.com/tmpl/$image,stylesheet
-@@||live.primis.tech/live/$script,domain=eurogamer.net|vg247.com
+@@||live.primis.tech^$script,domain=eurogamer.net|vg247.com|xxlmag.com
 @@||live.streamtheworld.com/partnerIds$domain=iheart.com|player.amperwave.net
 @@||lokopromo.com^*/adsimages/$~third-party
 @@||looker.com/api/internal/$~third-party
@@ -65420,6 +65428,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||tidal.com^$generichide
 @@||tv.youtube.com^$generichide
 @@||web.archive.org^$generichide
+@@||www.youtube.com^$generichide
 ! @@||web.basemark.com^$generichide
 @@||web.telegram.org^$generichide
 @@||whatsapp.com^$generichide

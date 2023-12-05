@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UhK0MUCjIjCkEvGZIN6SZA
+! Checksum: 0QIFfG+rkAisrdkMENeqPg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202312050207
-! Last Modified: 2023年12月05日 02:07
+! Version: 202312050827
+! Last Modified: 2023年12月05日 08:27
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2603,6 +2603,14 @@ newduba.cn###jq_youxi
 ||zyzo.cn^
 ||zzyy17.top^
 ||zzyy18.top^
+||dzvy7.space^
+||sqgnqc.xyz^
+||sotunet.com^
+||xgrcfz.xyz^
+||sbhduht.xyz^
+||ygfgzmzo.xyz^
+||vbzrkme.xyz^
+||jltolz.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -21990,6 +21998,7 @@ m.babytree.com##script + a[class]
 /fpv2.js
 /freecgi/count.cgi?
 /friendbuy.min.js
+/frontend-gtag.js
 /frontend-gtag.min.js
 /frontend-metrics/*
 /frontend-sentry-
@@ -23285,6 +23294,7 @@ m.babytree.com##script + a[class]
 /talpa-analytics-
 /TargetAnalyticsAPI-
 /tc_analytics.
+/tc_imp.gif?
 /tccl.min.js
 /tck/gif/*
 /teal-comscore-
@@ -24442,6 +24452,7 @@ _mongo_stats/
 ||techpump.com^
 ||test.vast^
 ||testingmetriksbre.ru^
+||thatmonkeybites3.com^
 ||the-ozone-project.com^
 ||thefontzone.com^
 ||tkrconnector.com^
@@ -29226,6 +29237,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lddt.de^$third-party
 ||leserservice-tracking.de^$third-party
 ||link-empfehlen24.de^$third-party
+||listrakbi.com^$third-party
 ||lokalleads-cci.com^$third-party
 ||losecounter.de^$third-party
 ||lumitos.com^$third-party
@@ -30022,6 +30034,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sayyac.net^$third-party
 ||sitetistik.com^$third-party
 ||sortext.com^$third-party
+||tagon.co^$third-party
 ||visilabs.net^$third-party
 ||webservis.gen.tr^$third-party
 ||webtemsilcisi.com^$third-party
@@ -32950,6 +32963,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events.newsroom.bi^
 ||events.sk.ht^
 ||free.fr/services/compteur_page.php?
+||houston.advgo.net^
 ||humanoid.fr/register-impression?
 ||i-services.net^*/compteur.php?
 ||img-static.com/CERISE.gif?
@@ -35094,6 +35108,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||yahoo.com/_td_api/beacon/
 ||yahoo.com/beacon/
 ||yahoo.com/beacon?
+||yahoo.com/pageview?
 ||yahoo.net/pixel.gif
 ||yandex.*/clck/$~ping
 ||yandex.*/count/
@@ -35239,6 +35254,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||booktopia.com.au/Ns7aBMIv/init.js
 ||brownsshoes.com/IZ/2tcS0qiG/init.js
 ||build.com/2Ztkihy4/init.js
+||calm.com/api/12Xk43jk/init.js
 ||calvinklein.us/n8ANl15k/init.js
 ||carbon38.com/A44kxi5a/init.js
 ||careermatch.com/oGckki0e/init.js
@@ -52225,6 +52241,7 @@ arketing.indianadunes.com^
 ||zelle.odencat.com^
 ||zombieslayer.kano.link^
 !-----------------International individual tracking systems-----------------!
+||20min.ch/ana/
 ||agnes.waz.de^
 ||analytics.adliners.de^
 ||analytics.daasrv.net^
@@ -52238,6 +52255,7 @@ arketing.indianadunes.com^
 ||basicthinking.de/stats/
 ||behave.sn.at^
 ||berliner-stadtplan.com/t.gif
+||bilder11.markt.de^
 ||braunschweiger-zeitung.de/stats/
 ||buzzfeed.at/bi/bootstrap/
 ||buzzfeed.de/bi/bootstrap/
@@ -52247,6 +52265,7 @@ arketing.indianadunes.com^
 ||chefkoch.de/tracking/
 ||click.alternate.de^
 ||cmp2.channelpartner.de^
+||cnt.wetteronline.de^
 ||comparis.ch/comparis/Tracking/
 ||computerbase.de/api2/$ping,xmlhttprequest
 ||computerbase.de/nlytcz
@@ -53567,6 +53586,8 @@ arketing.indianadunes.com^
 @@||content.gap.com/fp/tags.js$script,domain=oldnavy.gap.com
 @@||coremetrics.com*/eluminate.js
 @@||coxbusiness.com/R136/assets/newrelic/newrelic.js$~third-party
+@@||cpt-static.gannettdigital.com/universal-web-client/master/latest/elements/vendor/adobe/app-measurement.html$xmlhttprequest
+@@||cpt-static.gannettdigital.com/universal-web-client/master/latest/elements/vendor/adobe/visitor-api.html$xmlhttprequest
 @@||cqcounter.com^$domain=cqcounter.com
 @@||cults3d.com/packs/js/quantcast-$~third-party
 @@||cvs.com/shop-assets/js/VisitorAPI.js$~third-party
