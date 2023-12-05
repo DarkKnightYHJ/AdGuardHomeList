@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: lMAS0e7pWr4cVYIRku35Zw
-! Version: 202312051210
+! Checksum: g8lgbISXQn6AQWUt2Dw9ag
+! Version: 202312051311
 ! Title: EasyList China+EasyList
-! Last modified: 05 Dec 2023 12:10 UTC
+! Last modified: 05 Dec 2023 13:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -2455,6 +2455,7 @@ newduba.cn###jq_youxi
 ||vbzrkme.xyz^
 ||jltolz.xyz^
 ||haokanshipin.com^
+||uiszwh.icu^
 ||zzyy19.top^
 ||zzyy20.top^
 !
@@ -10534,8 +10535,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||4gamers.com.tw/site/api/aols/media?
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+423down.com##.entry > P[style^="font-size"] > A[href*="/go."]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -16848,7 +16851,7 @@ guailie.com#@#.google-ad
 18comic.org,18comic.vip,18-comic.work#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
 18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img
 18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img + [style]
-18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > span[style*="back"]
+18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > [style*="back"]
 ||18-comic.work/media/albums/*?$media
 ||18comic.*/media/albums/*?$media
 !#2
@@ -43685,6 +43688,7 @@ browsershots.org#@#.advert_area
 ||collegerayas.com^
 ||colliersads.com^
 ||collisionasheseliminate.com^
+||collowhypoxis.com^
 ||colognenobilityfrost.com^
 ||cologu.com^
 ||colombomyeloid.live^
@@ -46082,6 +46086,7 @@ browsershots.org#@#.advert_area
 ||econtinue.xyz^
 ||econtinuedidg.com^
 ||ecortb.com^
+||ecoulsou.xyz^
 ||ecound.com^
 ||ecpms.net^
 ||ecrwqu.com^
@@ -46720,6 +46725,7 @@ browsershots.org#@#.advert_area
 ||escaatwite.com^
 ||escalatenetwork.com^
 ||escers.com^
+||eschelbolts.com^
 ||escthermae.com^
 ||escy55gxubl6.com^
 ||esdcubited.uno^
@@ -61502,6 +61508,7 @@ browsershots.org#@#.advert_area
 ||situationfondlehindsight.com^
 ||situationhostilitymemorable.com^
 ||situbathool.com^
+||siumssoftish.com^
 ||siversbesomer.space^
 ||sixft-apart.com^
 ||sixmosorts.uno^
@@ -66619,6 +66626,7 @@ browsershots.org#@#.advert_area
 ||wooledswards.com^
 ||woolenabled.com^
 ||woolsawaq.com^
+||woopteem.net^
 ||wootmedia.net^
 ||wootoash.net^
 ||woovoree.net^

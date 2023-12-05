@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vuukimmCUZ9hVpPI01arWA
-! Version: 202312051210
+! Checksum: Yarr943i+cmijD5IR4E/vA
+! Version: 202312051311
 ! Title: EasyList China
-! Last modified: 05 Dec 2023 12:10 UTC
+! Last modified: 05 Dec 2023 13:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -2453,6 +2453,7 @@ newduba.cn###jq_youxi
 ||vbzrkme.xyz^
 ||jltolz.xyz^
 ||haokanshipin.com^
+||uiszwh.icu^
 ||zzyy19.top^
 ||zzyy20.top^
 !
@@ -10532,8 +10533,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||4gamers.com.tw/site/api/aols/media?
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+423down.com##.entry > P[style^="font-size"] > A[href*="/go."]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -16846,7 +16849,7 @@ guailie.com#@#.google-ad
 18comic.org,18comic.vip,18-comic.work#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
 18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img
 18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img + [style]
-18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > span[style*="back"]
+18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > [style*="back"]
 ||18-comic.work/media/albums/*?$media
 ||18comic.*/media/albums/*?$media
 !#2
