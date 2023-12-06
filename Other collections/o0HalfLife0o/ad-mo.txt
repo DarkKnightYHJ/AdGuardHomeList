@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YjCd9UCHggsTWrJk1+ks6w
+! Checksum: aErLX3HRlUPZ/ljbmbW7Dg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202312061407
-! Last Modified: 2023年12月06日 14:07
+! Version: 202312062009
+! Last Modified: 2023年12月06日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -1094,6 +1094,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /delivery/apu.php
 /delivery/avw.
 /delivery/fc.
+/delivery/lg.php
 /delivery/spc.
 /delivery_ads/*
 /dfp.min.js$third-party
@@ -55790,6 +55791,7 @@ browsershots.org#@#.advert_area
 ||shink.in/js/script.js
 ||shopmyshelf.us^$third-party
 ||shorte.st/link-converter.min.js
+||signup.asurion.com^$subdocument
 ||siteground.com/img/affiliate/
 ||siteground.com/img/banners/
 ||skimresources.com^$script,subdocument,third-party
@@ -58648,10 +58650,10 @@ healthbenefitstimes.com###ad-image-below
 thetimes.co.uk###ad-intravelarticle-inline
 dvdsreleasedates.com###ad-movie
 dappradar.com###ad-nft-top
-thedailymash.co.uk,thepoke.co.uk###ad-sidebar-1
-thedailymash.co.uk,thepoke.co.uk###ad-sidebar-2
-thedailymash.co.uk,thepoke.co.uk###ad-sidebar-3
-thedailymash.co.uk,thepoke.co.uk###ad-sidebar-4
+thedailymash.co.uk,thepoke.co.uk,thetab.com###ad-sidebar-1
+thedailymash.co.uk,thepoke.co.uk,thetab.com###ad-sidebar-2
+thedailymash.co.uk,thepoke.co.uk,thetab.com###ad-sidebar-3
+thedailymash.co.uk,thepoke.co.uk,thetab.com###ad-sidebar-4
 agegeek.com,boards.net,investing.com,mtaeta.info,notbanksyforum.com,pimpandhost.com,realgearonline.com,repairalmostanything.com,timeanddate.com,wordhippo.com,wordreference.com###ad1
 agegeek.com,investing.com,pimpandhost.com###ad2
 exchangerates.org.uk,investing.com###ad3
@@ -59543,6 +59545,7 @@ forum.mobilism.org###v-mobilism-org-0
 nutritioninsight.com###verticlblks
 filmibeat.com,goodreturns.in,mykhel.com,oneindia.com###verticleLinks
 ghgossip.com###vi-sticky-ad
+investing.com###video
 sportskeeda.com###video-player-container--
 forums.tomsguide.com###video_ad
 gumtree.com.au###view-item-page__leaderboard-wrapper
@@ -60456,6 +60459,8 @@ zdnet.com##.c-adDisplay_container_incontent-all-top
 tuko.co.ke##.c-adv
 legit.ng##.c-adv--video-placeholder
 cnet.com##.c-asurionBottomBanner
+cnet.com##.c-asurionInteractiveBanner
+cnet.com##.c-asurionInteractiveBanner_wrapper
 newstalkzb.co.nz##.c-background
 elnacional.cat##.c-banner
 truck1.eu##.c-banners
@@ -68307,6 +68312,12 @@ newduba.cn###jq_youxi
 ||jspqhh.xyz^
 ||awareista.com^
 ||zigyspv.icu^
+||linj.top^
+||yshlor.icu^
+||ioswhi.com^
+||xiaohuishu.top^
+||05pg9z.com^
+||p5kzev.com^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -84504,6 +84515,7 @@ fqsousou.com,kengso.com#@#.user-share
 .gatracking.js
 .gif?Log=
 .jp/pv?
+.jp/static/js/track.js
 .lms-analytics/
 .net/l.gif?
 .no/app/aas/a
@@ -84576,6 +84588,7 @@ fqsousou.com,kengso.com#@#.user-share
 /a8c-analytics.js
 /aap/stats
 /abc.gif?
+/acc/acctag.js
 /access.php?referrer=
 /accessanalyzer/tracker?
 /AccessCounter/index.cgi?
@@ -85047,7 +85060,6 @@ fqsousou.com,kengso.com#@#.user-share
 /collect/pv?
 /collect/sdk?$domain=~iugu.com
 /collect/stats?
-/collect/tracking.
 /collect/view?
 /collect/view_count?
 /collect?appName
@@ -85068,10 +85080,8 @@ fqsousou.com,kengso.com#@#.user-share
 /collector/pageview
 /collector/v1/event
 /collector?report=
-/collectStats;
 /collectsysteminfo?
-/com_joomla-visites/*
-/com_joomlawatch/*
+/com_joomlawatch/img.php
 /common/analytics.js
 /common/ga.js
 /common/tracker.js
@@ -85109,7 +85119,6 @@ fqsousou.com,kengso.com#@#.user-share
 /Counter.ashx?
 /counter.asp?
 /counter.aspx?
-/counter.cgi/*
 /counter.cgi?
 /counter.js.php
 /counter.php?width=
@@ -85168,7 +85177,6 @@ fqsousou.com,kengso.com#@#.user-share
 /dcs.gif?
 /dcs_tag.js
 /default/pAnalytics
-/delivery/lg.
 /detm-container-ftr.js
 /detm-container-hdr.js
 /DG/DEFAULT/rest/*
@@ -85185,7 +85193,7 @@ fqsousou.com,kengso.com#@#.user-share
 /dlpageping?
 /dm.gif?
 /dmp/pixel.js
-/dmu2panalytics/views/*
+/dmu2panalytics/ajax_call.php?
 /doctracking.js
 /dolWebAnalytics.js
 /dom-event-tracker.min.js
@@ -85194,7 +85202,6 @@ fqsousou.com,kengso.com#@#.user-share
 /dot.gif?
 /dow_analytics.js
 /dpistat/updater.php
-/drive-analytics/*
 /drwebstat.js
 /dspixel.js
 /dtm_cm.js
@@ -85211,8 +85218,6 @@ fqsousou.com,kengso.com#@#.user-share
 /e_stat?g_id=
 /eatms.js
 /ebonetag.js
-/ebs/tracking.
-/ebs/tracking/*
 /ecanalytics.js
 /ecap.min.js
 /ecblank.gif?
@@ -85336,6 +85341,7 @@ fqsousou.com,kengso.com#@#.user-share
 /firm_tracking.js
 /fkounter/counter.js
 /fkounter5/counter.js
+/flowplayer.drive-analytics.min.js
 /flushimpressions?
 /flv_tracking.
 /flying-analytics/*
@@ -85549,7 +85555,8 @@ fqsousou.com,kengso.com#@#.user-share
 /hit_counter
 /hit_img.cfm?
 /hitbox.js
-/hitCount.
+/hitCount.js
+/hitCount.php
 /hitcount/*
 /hitcount?
 /HitCounter.
@@ -85638,6 +85645,7 @@ fqsousou.com,kengso.com#@#.user-share
 /ivw/SP/*$image,script
 /j.gif?
 /jgs_portal_log_bildschirm.php?
+/joomla-visites.php
 /jquery-gatracker.js
 /jquery.analytics.js
 /jquery.audiencetarget.js
@@ -85648,16 +85656,14 @@ fqsousou.com,kengso.com#@#.user-share
 /jquery.iframetracker.min.js
 /jquery.trackstar.js
 /js-sdk-event.min.js
-/js/_analytics/*
+/js/_analytics.js
 /js/analitics.js
 /js/count.js.
 /js/counter.js?
 /js/dart.js
 /js/hbx.js
-/js/lead-tracking/*
 /js/logger?
 /js/quantcast-
-/js_event_tracking/*
 /js_ibeat_ext.cms
 /js_log_error.js
 /js_logger.php
@@ -85703,6 +85709,7 @@ fqsousou.com,kengso.com#@#.user-share
 /krux.js
 /LandingPageHitLog.aspx?
 /lasso-ga.js
+/lead-tracking.min.js
 /leadgen/ga.js
 /leadtag.js
 /leage.google.tracker.js
@@ -85981,6 +85988,9 @@ fqsousou.com,kengso.com#@#.user-share
 /onetag/*
 /onl/track.php?
 /onlinecount.php
+/oo/*/l.js
+/oo/*/lsync.js
+/oo/cl*.js?rd=
 /opdc.js
 /open/log/*
 /openpixel.gif?
@@ -85994,6 +86004,8 @@ fqsousou.com,kengso.com#@#.user-share
 /ot_e404.gif?
 /OtAutoBlock.js
 /ouibounce.min.js
+/outLoging.js
+/outLoging2.js
 /owa.Analytics.m.js
 /owa.tracker-combined-min.js
 /oxAnalytics.js
@@ -86610,9 +86622,8 @@ fqsousou.com,kengso.com#@#.user-share
 /status-beacon/*
 /status/impression?
 /StatV1?
-/stcollection.
 /stdlog?
-/storeAdvImpression.
+/storeAdvImpression.jsp
 /stp.gif?
 /stracking.js
 /sTrackStats.
@@ -86626,7 +86637,8 @@ fqsousou.com,kengso.com#@#.user-share
 /stwc-counter/*
 /stwc/code.js
 /submission/pageview
-/supercookie.
+/supercookie.asp
+/supercookie.js
 /superstats.$domain=~superstats.com|~superstats.dk
 /sw/analytics.js
 /swa_t.gif?
@@ -86643,8 +86655,6 @@ fqsousou.com,kengso.com#@#.user-share
 /t/event?
 /t?referer=
 /t?tcid=
-/tab_impression_logging/*
-/tablytics.
 /tacoda.
 /tacoda_
 /taevents-
@@ -87002,6 +87012,7 @@ fqsousou.com,kengso.com#@#.user-share
 /VisitSite.js
 /VisitTracking?
 /visscore.tag.min.js
+/vissense.js
 /visualrevenue.js
 /vjslog?
 /vli-platform/adb-analytics@
@@ -87467,10 +87478,6 @@ omni.soundestlink.com$image
 /ajax/eulerian/*
 /eulerian.js
 /r/ucb.js$script,~third-party
-/magnet/render.
-/re-engage/render.
-/targeting/render.
-/vissense.js
 /client_204?$image,other,ping,script
 /csi_204?$image,other,ping,script
 /gen_204?$image,other,ping,script
@@ -87480,18 +87487,13 @@ omni.soundestlink.com$image
 ||google.com/gen_204?
 ||googleapis.com^*/gen_204?
 ||gstatic.com/gen_204?
--logabpstatus.
-/ab_track.
+/ab_track.js
 /adb.policy.js
-/adblock?action=
-/adblocker-check.
-/adblocker/pixel.
 /adblockLogger/*
+/sk-logabpstatus.php
 /wp-admin/admin-ajax.php?action=adblockvisitor$~third-party
 /ws_client?zone=gen$websocket
 /wutime-adblocktracker/*
-_adblock_stat.
-_mongo_stats/
 !-----------------Third-party tracking domains-----------------!
 ||00px.net^
 ||1cros.net^
@@ -116399,6 +116401,7 @@ arketing.indianadunes.com^
 ||bc.nhk.jp^
 ||beacon.watch.impress.co.jp^
 ||beat.yourtv.jp^
+||blozoo.info/js/ranktool/
 ||bookoffonline.co.jp/files/inc_js/ac/
 ||bookoffonline.co.jp/files/tracking/
 ||carview.co.jp/include_api/log/
@@ -116434,6 +116437,7 @@ arketing.indianadunes.com^
 ||logql.yahoo.co.jp^
 ||m-oo-m.com/data/report/
 ||mangaraw.to/api/v1/view/
+||mayla.jp/TRACKING/
 ||measure.ameblo.jp^
 ||minkou.jp/js/tracking.js
 ||mixi.net/static/js/build/mixi-analysis.production.js
@@ -116443,9 +116447,11 @@ arketing.indianadunes.com^
 ||nhk.or.jp^*/bc.js
 ||nicovideo.jp/api/counter/
 ||nikkei.com/.resources/tracking/
+||odsyms15.com/impression?
 ||pvtag.yahoo.co.jp^
 ||pw.gigazine.net^
 ||pzd.rakuten.co.jp^
+||rakuten.co.jp/com/js/omniture/
 ||rakuten.co.jp/gw.js
 ||rat.rakuten.co.jp^
 ||rdsig.yahoo.co.jp^$image
