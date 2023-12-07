@@ -4,7 +4,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2023-12-07T12:01:27.850Z
+! Last modified: 2023-12-07T17:28:47.034Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.22
 !
@@ -1637,8 +1637,6 @@
 ||spyglass.octanime.net^
 ||ad.aceplanet.co.kr^
 ||ad.phaserep.com^
-||vast.holmesmind.com^
-||ad.holmesmind.com^
 ||j83ad.speedrun.com^
 ||tontent.powv1deo.cc^
 ||my.shymilftube.com^
@@ -8992,6 +8990,7 @@ vkcdnservice.appspot.com^
 ||cypressreel.com^
 ||cyprie.com^
 ||cyrigh.com^
+||cyrxvpnu.com^
 ||cystisolor.com^
 ||cysumhqvrjvrs.xyz^
 ||cythat.com^
@@ -9445,6 +9444,7 @@ vkcdnservice.appspot.com^
 ||demurerbewary.live^
 ||denansgdfier.info^
 ||denansgdfierc.com^
+||denarocepa.com^
 ||denbeigemark.com^
 ||denbsd.com^
 ||dencejvlq.com^
@@ -10771,6 +10771,7 @@ vkcdnservice.appspot.com^
 ||eggerscorr.com^
 ||egglessunfrees.uno^
 ||eggsiswensa.com^
+||eggsreunitedpainful.com^
 ||eggytiptops.com^
 ||egknjiycidfj.com^
 ||egloochy.com^
@@ -24123,6 +24124,7 @@ vkcdnservice.appspot.com^
 ||resinyanthdia.com^
 ||resistcorrectly.com^
 ||resistsarcasm.com^
+||resistshy.com^
 ||resizerlooch.com^
 ||resnaulum.com^
 ||resniks.pro^
@@ -25039,6 +25041,7 @@ vkcdnservice.appspot.com^
 ||savouryadolescent.com^
 ||savoyedpollet.life^
 ||savtvkdny.xyz^
+||sawalinitwits.com^
 ||sawanincreasein.info^
 ||saweatherco.com^
 ||sawfishdiapsid.com^
@@ -25957,6 +25960,7 @@ vkcdnservice.appspot.com^
 ||slimlyeneas.com^
 ||slimreply.pro^
 ||slimy-sport.pro^
+||slinkyfoliot.com^
 ||slipperspinchingsyntax.com^
 ||slipperswallpaper.com^
 ||slippery-bed.pro^
@@ -26582,6 +26586,7 @@ vkcdnservice.appspot.com^
 ||starvationdefence.com^
 ||starvegingerwaist.com^
 ||starverwear.com^
+||starvybryan.com^
 ||stastips.net^
 ||stat-rock.com^
 ||statcamp.net^
@@ -27190,6 +27195,7 @@ vkcdnservice.appspot.com^
 ||syruphamster.com^
 ||sysdmt.com^
 ||syseinpoundaym.info^
+||sysoutvariola.com^
 ||system-notify.app^
 ||systeme-business.online^
 ||systemengagedwisely.com^
@@ -28600,6 +28606,7 @@ vkcdnservice.appspot.com^
 ||tuffoonincaged.com^
 ||tufteraureous.digital^
 ||tugarmyindistinct.com^
+||tuglikevertigo.com^
 ||tugust.com^
 ||tuitionpancake.com^
 ||tujajnatzbmo.com^
@@ -28753,6 +28760,7 @@ vkcdnservice.appspot.com^
 ||tytothwarts.com^
 ||tytyeastfeukufun.info^
 ||tywdchppfgds.xyz^
+||tzaristdiploma.com^
 ||tzegilo.com^
 ||tzgygfy.com^
 ||tzugumojfm.com^
@@ -29029,6 +29037,7 @@ vkcdnservice.appspot.com^
 ||unevenregime.com^
 ||unfainfraseirs.org^
 ||unfairpromritual.com^
+||unfaithfulgoddess.com^
 ||unfaithfulmakeryearly.com^
 ||unfeeddizoic.com^
 ||unfieryneutral.com^
@@ -31285,6 +31294,7 @@ vkcdnservice.appspot.com^
 ||xprivate.cc^
 ||xpsavuyxtfnqphw.com^
 ||xqdfnqfgixjwpdb.xyz^
+||xqfwhxbfxhpjko.com^
 ||xqgwymog.xyz^
 ||xqhifbjhixb.com^
 ||xqmyebdrunebsh.xyz^
@@ -35127,8 +35137,8 @@ vkcdnservice.appspot.com^
 !
 !
 !
+||prod-mhaa.mhtr.be^
 ||dmp.eland-tech.com^
-||stat.gn01.top^
 ||ohmy.bid^
 ||nakanohito.jp^
 ||analytics.fcgtalent.fi^
@@ -38699,6 +38709,9 @@ vkcdnservice.appspot.com^
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||cellar-analytics.mapion.co.jp^
+||event.hackle.io^
+||r.aachener-zeitung.de^
 ||analytics.dealmoon.com^
 ||tagmanager.yodobashi.com^
 ||d2cli4kgl5uxre.cloudfront.net^
@@ -45728,7 +45741,6 @@ inapps.appsflyersdk.com^
 ||atanx.alicdn.com^
 ||beacon.sina.com.cn^
 ||beaconcdn.qq.com^
-||c.holmesmind.com^
 ||click.bokecc.com^
 ||cms.grandcloud.cn^
 ||collector2c.zhihuishu.com^
@@ -45846,7 +45858,6 @@ inapps.appsflyersdk.com^
 ||tracker.520call.me^
 ||userdive.com^
 ! Korean
-||event.hackle.io^
 ||log.mofa.go.kr^
 ||logs-partners.coupang.com^
 ||megadata.co.kr^
@@ -50678,7 +50689,6 @@ inapps.appsflyersdk.com^
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
-||cdn.holmesmind.com^
 ||aziekg.xyz^
 ||max211.top^
 ||st-fly.b-cdn.net^
@@ -51107,6 +51117,7 @@ inapps.appsflyersdk.com^
 ||gema-online.de^
 ||holyjesus.de^
 ||spd-spenden.de^
+||swissadserver.ch^
 ||wirverkaufennichts.de^
 ||wixnm.com^
 !
@@ -53118,6 +53129,7 @@ inapps.appsflyersdk.com^
 ||3i2i.com^
 ||3uvz5.xyz^
 ||415677.com^
+||44180055.cn^
 ||44jui.top^
 ||5jzu5t.com^
 ||6528fdyngk.xyz^
@@ -53134,7 +53146,9 @@ inapps.appsflyersdk.com^
 ||8d07a.xyz^
 ||8zkt7.xyz^
 ||913mj.xyz^
+||96kso.online^
 ||999aa666bb.com^
+||99zns.top^
 ||9g659.xyz^
 ||9i8i.com^
 ||a4bj6.xyz^
@@ -53194,6 +53208,7 @@ inapps.appsflyersdk.com^
 ||birgga.top^
 ||bjhhbox.xyz^
 ||bjtgds.xyz^
+||bmatgg18.xyz^
 ||bmtfka93.xyz^
 ||bmxvxl.xyz^
 ||bnets9.icu^
@@ -53242,6 +53257,7 @@ inapps.appsflyersdk.com^
 ||cthbini.xyz^
 ||cuvtnzv.cn^
 ||cvtbdap.xyz^
+||cwrxgb.icu^
 ||cxpjrqa.cn^
 ||cy5kr.fun^
 ||danun.cn^
@@ -53379,6 +53395,7 @@ inapps.appsflyersdk.com^
 ||gmx46.top^
 ||gmx47.top^
 ||gmx48.top^
+||gn01.top^
 ||gnuoipb.cn^
 ||gqleov.icu^
 ||grthhr.xyz^
@@ -53417,6 +53434,7 @@ inapps.appsflyersdk.com^
 ||hkvuzv.xyz^
 ||hnkhgw.com^
 ||holdntlc.com^
+||holmesmind.com^
 ||hooe.top^
 ||hrtinqj.cn^
 ||hshmbx.xyz^
@@ -53438,6 +53456,7 @@ inapps.appsflyersdk.com^
 ||icwnix.icu^
 ||idddlon.xyz^
 ||ieequd.icu^
+||iephrenhq.com^
 ||igkgag.xyz^
 ||ikmhndd.com^
 ||iknhgj.com^
@@ -53450,6 +53469,7 @@ inapps.appsflyersdk.com^
 ||ioswhi.com^
 ||iqs871.com^
 ||irtefs.xyz^
+||isna.top^
 ||isnd.top^
 ||itwzlyq.com^
 ||iujlwn.icu^
@@ -53486,6 +53506,8 @@ inapps.appsflyersdk.com^
 ||jvjmjt.xyz^
 ||jwjzf.online^
 ||jwxwnr.xyz^
+||jxuhurp.icu^
+||jzlso.xyz^
 ||k6syi.space^
 ||kaaqgf.icu^
 ||kaezakkjt.com^
@@ -53540,6 +53562,7 @@ inapps.appsflyersdk.com^
 ||lryqef.xyz^
 ||lutrbr.xyz^
 ||lvnlrmn.xyz^
+||lvzkfcm.cn^
 ||lwhffh.xyz^
 ||lwmzoaf.cn^
 ||lwwlkj1.cn^
@@ -53548,6 +53571,9 @@ inapps.appsflyersdk.com^
 ||m05ib.xyz^
 ||m2k3j7x8.com^
 ||mads7.icu^
+||manymgsgn.com^
+||maxun066.top^
+||maxun118.top^
 ||mbiypew.cn^
 ||mcds7.icu^
 ||mcds9.icu^
@@ -53569,6 +53595,7 @@ inapps.appsflyersdk.com^
 ||mpgsqk.xyz^
 ||mphhgat.xyz^
 ||mqrupjsm.xyz^
+||mrs30w.com^
 ||mrthav.xyz^
 ||mryqtym.cn^
 ||muycpg.xyz^
@@ -53602,6 +53629,7 @@ inapps.appsflyersdk.com^
 ||nrzzaep.xyz^
 ||ntlzvrv.xyz^
 ||nubcdaqa.xyz^
+||nwpcptmm.xyz^
 ||nyfgpbsc.xyz^
 ||nyhgjmlg.xyz^
 ||nyhgvn.xyz^
@@ -53653,6 +53681,7 @@ inapps.appsflyersdk.com^
 ||pzwjonv.icu^
 ||q4v3c.site^
 ||qauksl.icu^
+||qbcmws.xyz^
 ||qbhjokk.xyz^
 ||qboywc.xyz^
 ||qbswezw.cn^
@@ -53685,6 +53714,7 @@ inapps.appsflyersdk.com^
 ||rcnldz.xyz^
 ||rett.top^
 ||rfrhfh.xyz^
+||rfxnff.xyz^
 ||rgpujh.xyz^
 ||rivdxb.xyz^
 ||rjwljrf.xyz^
@@ -53812,6 +53842,7 @@ inapps.appsflyersdk.com^
 ||vpqko.fun^
 ||vrdxznr.xyz^
 ||vrivslffndepxqd.xyz^
+||vrnblp.xyz^
 ||vrnrpzy.xyz^
 ||vrosqolcg.com^
 ||vttqld.xyz^
@@ -53859,6 +53890,7 @@ inapps.appsflyersdk.com^
 ||xn--gmq238c5fy.com^
 ||xqgduov.cn^
 ||xrcembm.cn^
+||xrllybr.xyz^
 ||xrrhwgj.xyz^
 ||xucyufv.icu^
 ||xvorpqz.cn^
@@ -53874,6 +53906,7 @@ inapps.appsflyersdk.com^
 ||ybrbdft.xyz^
 ||ycgkol.icu^
 ||ycmgeb.icu^
+||yddbysa.xyz^
 ||yepgdita.xyz^
 ||ygfgzmzo.xyz^
 ||yhlzadr.xyz^
@@ -53886,6 +53919,7 @@ inapps.appsflyersdk.com^
 ||ynulcpt.cn^
 ||yongzhen8.com^
 ||yshlor.icu^
+||ysxt9.com^
 ||ytezym.xyz^
 ||yuanxiaa.cn^
 ||yuanxiab.cn^
@@ -53918,23 +53952,6 @@ inapps.appsflyersdk.com^
 ||zyzo.cn^
 ||zzyy17.top^
 ||zzyy18.top^
-||xrllybr.xyz^
-||qbcmws.xyz^
-||99zns.top^
-||96kso.online^
-||vrnblp.xyz^
-||yddbysa.xyz^
-||isna.top^
-||rfxnff.xyz^
-||iephrenhq.com^
-||nwpcptmm.xyz^
-||maxun066.top^
-||maxun118.top^
-||lvzkfcm.cn^
-||cwrxgb.icu^
-||manymgsgn.com^
-||bmatgg18.xyz^
-||44180055.cn^
 ||zzyy19.top^
 ||zzyy20.top^
 ||01v62.xyz^
@@ -58186,6 +58203,7 @@ analytics-*.aasaam.com
 ||oscaranimation.in^
 ||on-click.ir^
 ! # >> P <<
+||pushq.ir^
 ||pooye-ads.com^
 ||promizer.com^
 ! # ^ Example: eghtesadonline.com
@@ -58637,6 +58655,9 @@ analytics-*.aasaam.com
 ! Source name: Exception rules
 ! Source: Filters/exceptions.txt
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/167622
+! Blocked by CNAME extole.com
+@@||refer.discover.com^|
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167320
 @@||cmp.inmobi.com^|
 ! https://github.com/AdguardTeam/AdguardFilters/issues/164769
