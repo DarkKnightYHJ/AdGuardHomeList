@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hh2NEg8DnCjPmOZtaALKYQ
+! Checksum: m3QAg+H9zkekimslp9eoWQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202312081400
-! Last Modified: 2023年12月08日 14:00
+! Version: 202312082000
+! Last Modified: 2023年12月08日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -60525,6 +60525,7 @@ armenpress.am##.bnrcontainer
 apkmody.io##.body-fixed-footer
 saharareporters.com##.body-inject
 boingboing.net##.boing-leaderboard-below-menu
+boingboing.net##.boing-primis-video-in-article-content
 btcmanager.com##.boo_3oo_6oo
 cmo.com.au##.boombox
 everydayrussianlanguage.com##.border
@@ -63015,6 +63016,7 @@ stocktwits.com##[data-pos]
 washingtonpost.com##[data-qa="article-body-ad"]
 washingtonpost.com##[data-qa="right-rail-ad"]
 ginx.tv##[data-ref]
+euroweeklynews.com##[data-revive-zoneid]
 disqus.com##[data-role="ad-content"]
 washingtonpost.com##[data-sc-c="adslot"]
 trakt.tv##[data-snigel-id]
@@ -63158,6 +63160,7 @@ health.news,naturalnews.com,newstarget.com##[href^="https://www.brighteon.tv"]
 work.ink##[href^="https://www.buff.game/buff-download/"]
 seganerds.com##[href^="https://www.canadacasino.ca/"]
 seganerds.com##[href^="https://www.casinonic.com/"]
+ratemycourses.io##[href^="https://www.essaypal.ai"]
 rebelnews.com##[href^="https://www.eventbrite.com/"]
 seganerds.com##[href^="https://www.ewinracing.com/"]
 gamecopyworld.com,gamecopyworld.eu##[href^="https://www.kinguin.net/"]
@@ -63965,7 +63968,9 @@ yahoo.com##div[style*="/ads/"]
 yahoo.com##li[data-test-locator="stream-related-ad-item"]
 youtube.com###YtKevlarVisibilityIdentifier
 youtube.com###feed-pyv-container
+youtube.com###main > #banner.ytd-merch-shelf-renderer
 youtube.com###related > div#player-ads
+youtube.com###scroll-container > #items.ytd-merch-shelf-renderer
 youtube.com###ytd-player button.ytp-suggested-action-badge
 youtube.com##.ad-showing > .html5-video-container
 youtube.com##.companion-ad-container
@@ -63973,8 +63978,6 @@ youtube.com##.promoted-sparkles-text-search-root-container
 youtube.com##.statement-banner-foreground-content
 youtube.com##.ytd-action-companion-ad-renderer
 youtube.com##.ytd-carousel-ad-renderer
-youtube.com##.ytd-compact-promoted-video-renderer
-youtube.com##.ytd-merch-shelf-renderer
 youtube.com##.ytd-player-legacy-desktop-watch-ads-renderer
 youtube.com##.ytd-promoted-sparkles-text-search-renderer
 youtube.com##.ytd-promoted-video-renderer
@@ -63983,9 +63986,7 @@ youtube.com##.ytd-video-masthead-ad-primary-video-overlay-renderer
 youtube.com##.ytd-video-masthead-ad-v3-renderer
 youtube.com##.ytp-ad-action-interstitial-background-container
 youtube.com##.ytp-ad-action-interstitial-slot
-youtube.com##.ytp-ad-button
 youtube.com##.ytp-ad-overlay-container
-youtube.com##.ytp-ad-player-overlay-flyout-cta
 youtube.com##.ytp-ad-progress
 youtube.com##.ytp-ad-progress-list
 youtube.com##YTM-PROMOTED-VIDEO-RENDERER
@@ -68503,6 +68504,7 @@ newduba.cn###jq_youxi
 ||wzzlnld.xyz^
 ||kvhtsvy.xyz^
 ||zpzlbv.xyz^
+||ytlcz.cn^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -87737,7 +87739,6 @@ omni.soundestlink.com$image
 ||briskpelican.io^
 ||brontops.com^
 ||brsrvr.com^
-||btdmp.com^
 ||btloader.com^
 ||bx-cloud.com^
 ||bydst.com^
@@ -95740,6 +95741,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.99acres.com^
 ||track.atgstores.com^$third-party
 ||track.bannedcelebs.com^
+||track.btdmp.com^
 ||track.coherentpath.com^
 ||track.contently.com^
 ||track.cordial.io^
@@ -117437,7 +117439,7 @@ arketing.indianadunes.com^
 !! google-analytics.com/ga.js
 @@||google-analytics.com/ga.js$domain=meritonsuites.com.au
 !! browser.sentry-cdn.com
-@@||browser.sentry-cdn.com^$domain=acustica-audio.com|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|menshealth.com|podcasty.seznam.cz|roomster.com|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
+@@||browser.sentry-cdn.com^$domain=acustica-audio.com|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|menshealth.com|podcasty.seznam.cz|roomster.com|shop.dns-net.de|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
 !! adobedtm.com^*/satelliteLib-
 @@||adobedtm.com^*/satelliteLib-$script,domain=absa.co.za|ally.com|americanexpress.com|as.com|auspost.com.au|backcountry.com|bmw.com.au|canadapost-postescanada.ca|ceair.com|collegeboard.org|conad.it|costco.com|crackle.com|crackle.com.ar|crackle.com.br|crackle.com.ec|crackle.com.mx|crackle.com.pe|crackle.com.py|crave.ca|crimewatchdaily.com|dhl.de|directline.com|elgiganten.se|elkjop.no|eonline.com|fcbarcelona.cat|fcbarcelona.cn|fcbarcelona.com|fcbarcelona.es|fcbarcelona.fr|fcbarcelona.jp|firststatesuper.com.au|gigantti.fi|godigit.com|hellobank.fr|hgtv.com|hrw.com|ilsole24ore.com|jeep.com|laredoute.be|laredoute.ch|laredoute.co.uk|laredoute.com|laredoute.es|laredoute.fr|laredoute.it|laredoute.pl|laredoute.pt|laredoute.ru|lenovo.com|lowes.com|malaysiaairlines.com|mastercard.us|mathworks.com|monoprice.com|myaetnasupplemental.com|nbcnews.com|nfl.com|nflgamepass.com|nofrills.ca|nrj.fr|oprah.com|oracle.com|pnc.com|poweredbycovermore.com|radiko.jp|realtor.com|redbull.tv|repco.co.nz|sbb.ch|searspartsdirect.com|shoppersdrugmart.ca|smooth.com.au|sony.jp|stuff.co.nz|subaru.com|support.nec-lavie.jp|tatacliq.com|telegraph.co.uk|timewarnercable.com|tou.tv|usanetwork.com|vanityfair.com|vtr.com|wayin.com|wired.com|wowway.net
 !! adobedtm.com^*-libraryCode_source.min.js

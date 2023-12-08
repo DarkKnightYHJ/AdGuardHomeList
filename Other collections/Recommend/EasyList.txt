@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: O0G5NP6/kJBX8tnUCWQVRA
-! Version: 202312081102
+! Checksum: ++Mz4/WvAMwawFDIIichJw
+! Version: 202312081211
 ! Title: EasyList
-! Last modified: 08 Dec 2023 11:02 UTC
+! Last modified: 08 Dec 2023 12:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -60259,6 +60259,7 @@ armenpress.am##.bnrcontainer
 apkmody.io##.body-fixed-footer
 saharareporters.com##.body-inject
 boingboing.net##.boing-leaderboard-below-menu
+boingboing.net##.boing-primis-video-in-article-content
 btcmanager.com##.boo_3oo_6oo
 cmo.com.au##.boombox
 everydayrussianlanguage.com##.border
@@ -63711,7 +63712,9 @@ yahoo.com##li[data-test-locator="stream-related-ad-item"]
 youtube.com###YtKevlarVisibilityIdentifier
 ! youtube.com###YtSparklesVisibilityIdentifier
 youtube.com###feed-pyv-container
+youtube.com###main > #banner.ytd-merch-shelf-renderer
 youtube.com###related > div#player-ads
+youtube.com###scroll-container > #items.ytd-merch-shelf-renderer
 youtube.com###ytd-player button.ytp-suggested-action-badge
 youtube.com##.ad-showing > .html5-video-container
 youtube.com##.companion-ad-container
@@ -63719,7 +63722,6 @@ youtube.com##.promoted-sparkles-text-search-root-container
 youtube.com##.statement-banner-foreground-content
 youtube.com##.ytd-action-companion-ad-renderer
 youtube.com##.ytd-carousel-ad-renderer
-youtube.com##.ytd-merch-shelf-renderer
 youtube.com##.ytd-player-legacy-desktop-watch-ads-renderer
 youtube.com##.ytd-promoted-sparkles-text-search-renderer
 youtube.com##.ytd-promoted-video-renderer
