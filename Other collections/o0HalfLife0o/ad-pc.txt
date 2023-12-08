@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: j1awXKy+RYsHJq3P1mBvGw
+! Checksum: weJMsPjz1aI7WoS3MBAZxQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202312080207
-! Last Modified: 2023年12月08日 02:07
+! Version: 202312080800
+! Last Modified: 2023年12月08日 08:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -24319,6 +24319,7 @@ browsershots.org#@#.advert_area
 ||cahvpbsikxvvm.xyz^
 ||caicuptu.xyz^
 ||caigluph.xyz^
+||caigobou.com^
 ||caimoasy.net^
 ||cainauhi.xyz^
 ||cainismlungee.uno^
@@ -27817,6 +27818,7 @@ browsershots.org#@#.advert_area
 ||echoachy.xyz^
 ||echoizepheeal.uno^
 ||echskbpghlc.com^
+||eciivxqtur.com^
 ||ecipientconcertain.info^
 ||ecityalittl.buzz^
 ||eclatedpewy.com^
@@ -28367,6 +28369,7 @@ browsershots.org#@#.advert_area
 ||eoveukrnme.info^
 ||eoweridus.com^
 ||eownouncillors.info^
+||eoxaxdglxecvguh.xyz^
 ||epacash.com^
 ||epagogerepines.com^
 ||epailseptox.com^
@@ -32272,6 +32275,7 @@ browsershots.org#@#.advert_area
 ||iletterismyper.info^
 ||ilgwuqgvdzl.com^
 ||iliifmido.xyz^
+||iliketomakingpics.com^
 ||ilinouck.net^
 ||ilkmawgod.site^
 ||illallwoe.com^
@@ -38125,6 +38129,7 @@ browsershots.org#@#.advert_area
 ||orlowedonhisdhilt.info^
 ||ormolustuke.top^
 ||ornery-animal.pro^
+||oroodsee.xyz^
 ||orpheushooven.com^
 ||orqaxjj.com^
 ||orqrdm.com^
@@ -51128,6 +51133,7 @@ browsershots.org#@#.advert_area
 ||acrossheadquartersanchovy.com^$popup
 ||actio.systems^$popup
 ||actiondesk.com^$popup,third-party
+||activate-game.com^$popup
 ||aculturerpa.info^$popup
 ||ad-free.info^$popup
 ||ad-guardian.com^$popup
@@ -53203,6 +53209,7 @@ browsershots.org#@#.advert_area
 ||noughttrustthreshold.com^$popup
 ||novechufa.xyz^$popup
 ||november-lax.com^$popup
+||november-sin.com^$popup
 ||novitrk7.com^$popup
 ||novitrk8.com^$popup
 ||nowaynoconvs.net^$popup
@@ -58466,7 +58473,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|adblockeronsta
 ||phonerotica.com/resources/img/banners/
 ||pics-x.com/api/get_ad/
 ||picshick.com/b9ng.js
-||pimpandhost.com/mikakoko/
+||pimpandhost.com^$subdocument
 ||pisshamster.com/prerolls/
 ||pleasuregirl.net/bload
 ||plibcdn.com/templates/base_master/js/jquery.shows2.min.js
@@ -63957,7 +63964,6 @@ yahoo.com##div[id^="gemini-item-"]
 yahoo.com##div[style*="/ads/"]
 yahoo.com##li[data-test-locator="stream-related-ad-item"]
 youtube.com###YtKevlarVisibilityIdentifier
-youtube.com###YtSparklesVisibilityIdentifier
 youtube.com###feed-pyv-container
 youtube.com###related > div#player-ads
 youtube.com###ytd-player button.ytp-suggested-action-badge
@@ -64496,6 +64502,7 @@ namethatporn.com##.a_br_b
 upornia.com##.aa_label
 namethatporn.com##.aaaabr
 pimpandhost.com##.aaablock_yes
+pimpandhost.com##.ablock_yes
 cambb.xxx,chaturbate.com,dlgal.com,playboy.com,rampant.tv,sex.com,signbucks.com,tallermaintenancar.com,tehvids.com,thehentaiworld.com,thehun.net,tiktits.com,uflash.tv,xcafe.com##.ad
 x13x.space##.ad-banner
 coomer.party,coomer.su,kemono.party,kemono.su,pinflix.com,urlgalleries.net##.ad-container
@@ -65592,7 +65599,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||photofunia.com/effects/$image,~third-party
 @@||pjtra.com/b/$image,domain=extrarebates.com
 @@||player.aniview.com/script/$script,domain=odysee.com
-@@||player.anyclip.com/anyclip-widget/lre-widget/$script,domain=dictionary.com|video.timeout.com|video.venturebeat.com
 @@||player.avplayer.com^$script,domain=explosm.net|gamingbible.co.uk|justthenews.com|ladbible.com
 @@||player.ex.co/player/$script,domain=theautopian.com
 @@||player.odycdn.com/api/$xmlhttprequest,domain=odysee.com
@@ -65827,6 +65833,10 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||g.doubleclick.net/pagead/ads$subdocument,domain=game.anymanager.io|game.goo.ne.jp
 !! g.doubleclick.net/pagead/ppub_config
 @@||g.doubleclick.net/pagead/ppub_config$domain=bloomberg.com|independent.co.uk|repretel.com|telsu.fi|weather.com
+!! anyclip.com (non-invideo ads only)
+@@||anyclip.com/anyclip-widget/$script,domain=dictionary.com|heute.at|video.timeout.com
+@@||anyclip.com/main.js$script,domain=video.timeout.com
+@@||anyclip.com/static/$script,domain=video.timeout.com
 @@/banner/ad/*$image,domain=achaloto.com
 @@||about.smartnews.com/ja/wp-content/assets/img/advertisers/ad_$~third-party
 @@||ad-api-v01.uliza.jp^$script,xmlhttprequest,domain=golfnetwork.co.jp|tv-asahi.co.jp
@@ -68484,6 +68494,13 @@ newduba.cn###jq_youxi
 ||zyzo.cn^
 ||zzyy17.top^
 ||zzyy18.top^
+||uito.top^
+||ydv7k.cyou^
+||wwhsxwow.xyz^
+||cnqaaa.xyz^
+||hdbppx.xyz^
+||murdyq.com^
+||wzzlnld.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
