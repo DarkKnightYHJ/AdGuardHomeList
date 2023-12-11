@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0keX8PllCOmeSlouDT+L/g
+! Checksum: 7xhc7TVNFDT9QjiaJwPuQA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202312110200
-! Last Modified: 2023年12月11日 02:00
+! Version: 202312110800
+! Last Modified: 2023年12月11日 08:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2695,6 +2695,16 @@ newduba.cn###jq_youxi
 ||zzbmxl.xyz^
 ||zzyy17.top^
 ||zzyy18.top^
+||zf4.top^
+||zxpvalr.xyz^
+||sltle.icu^
+||ptflrj.xyz^
+||aerbgpn.xyz^
+||limopf.top^
+||ravzbd.xyz^
+||ukkkmg.xyz^
+||ucjevgue.xyz^
+||seutop.icu^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -22342,6 +22352,7 @@ m.babytree.com##script + a[class]
 /insitemetrics/uRMJ/ujutilv2sll.js
 /instantpage.js
 /instart.js
+/intake/v2/rum.js
 /interaction/beacon
 /intercept/intercept.js
 /IOL.Analytics.Tracking.min.js
@@ -23419,6 +23430,7 @@ m.babytree.com##script + a[class]
 /touch-clarity.
 /TouchClarity.
 /touchclarity/*
+/tr.gif?
 /tr/pageview/*
 /trace-Update.php?
 /trace/link/*$image
@@ -24386,6 +24398,7 @@ omni.soundestlink.com$image
 ||id-ward.com^
 ||id5-sync.com^
 ||idx.lat^
+||ilius.net^
 ||impactcdn.com^
 ||impactradius-event.com^
 ||imrworldwide.com^
@@ -33326,6 +33339,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||links.boom.ge^
 ||glami.gr/js/compiled/pt.js
 ||kwikmotion.com^*/videojs-kwikstat.min.js
+||stats-real-clients.zentech.gr^
 ||walla.co.il/stats/
 ||gpr.hu/pr.pr?
 ||heartbeat.pmd.444.hu^
@@ -33600,7 +33614,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics-coletor-site.ojc.com.br^
 ||analytics-stamp.confi.com.vc^
 ||analytics.spun.com.br^
-||api.nobeta.com.br^
 ||b2w.io/event/
 ||biggylabs.com.br/track-api/v2/track/site?
 ||collect.chaordicsystems.com^
@@ -33985,6 +33998,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||arttrk.com/pixel/
 ||as.coinbase.com/metrics
 ||assets.instacart.com^
+||atlas.samsung.com/dls2/dtransf/wl?
 ||atrack.allposters.com^
 ||ats.alot.com^
 ||audacy.com/data-events/
@@ -34939,6 +34953,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.vk-portal.net^
 ||stats.wordpress.com^
 ||stats.wwitv.com^
+||stats2.mytuner.mobi^
 ||stayz.com.au/cl/data/omgpixel.json
 ||strcloud.in/stat/
 ||streamadblocker.com/stat/
@@ -35004,6 +35019,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||taiwanplus.com/api/video/startVideo
 ||tao.barstoolsports.com^
 ||tapeblocker.com/stat/
+||tapenoads.com/stat/
 ||tapewithadblock.com/stat/
 ||tapewithadblock.org/stat/
 ||taplytics-umami.grubhub.com^
