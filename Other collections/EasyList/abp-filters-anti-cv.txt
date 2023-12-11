@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 0vh/yfy1dArTmjTA/Y+iEQ
-! Version: 202312110810
+! Checksum: iV2DuJKRFHF0DPUmoQaWFA
+! Version: 202312110901
 ! Title: ABP filters
-! Last modified: 11 Dec 2023 08:10 UTC
+! Last modified: 11 Dec 2023 09:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -417,7 +417,7 @@ cnn.com#$#strip-fetch-query-parameter caid warnermediacdn.com; strip-fetch-query
 ! #CV-1149
 etsy.com#$#race start; hide-if-contains-visible-text '/[aA](\\s)*d(\\s)*by/' li 'li[class] div > :is(div, p)' 'width: /^[0-9]px/'; hide-if-contains-visible-text '/[aA](\\s)*d(\\s)*b(\\s)*y/' li 'li[class] div > :is(div, p)' 'width: /^[0-9]px/'; race stop;
 etsy.com#$#hide-if-matches-xpath '//span[@data-is-ad][@data-ad-label][contains(text(),"Ad by")]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
-etsy.com#$#hide-if-matches-xpath './/span[@data-ad-label="Ad by Etsy seller"]/preceding::a[contains(@class,"b58")][not(contains(@class,"bbd"))][@data-palette-listing-image]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
+etsy.com#$#hide-if-matches-xpath './/span[@data-ad-label="Ad by Etsy seller"]/preceding::a[contains(@class,"b66")][not(contains(@class,"b08"))][@data-palette-listing-image]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
 etsy.com#$#hide-if-matches-xpath './/h2[@class="wt-text-title-largest"][contains(text(),"By Etsy sellers")]/preceding::p[contains(text(),"Sponsored")]/ancestor-or-self::div[@data-appears-component-name="web_home_strv_ads"]'
 etsy.com##a[href*="listing_page_ad_row"]
 ! #CV-1056
@@ -1484,10 +1484,10 @@ metruyenchu.com#$#abort-on-property-write window.onclick
 truyentuan.com#$#abort-current-inline-script $ btpop
 player-cdn.com#$#override-property-read detectAdBlockAll noopFunc; override-property-read detectAdBlock noopFunc
 player-cdn.com###playback-fake
-xoilac95.tv##.modal.fade.show
-xoilac95.tv#$#abort-current-inline-script jQuery popupBanners
-xoilac95.tv#$#abort-on-property-read adsRedirectPopups
-xoilac95.tv#$#abort-current-inline-script jQuery overlay
+xoilac87.net##.modal.fade.show
+xoilac87.net#$#abort-current-inline-script jQuery popupBanners
+xoilac87.net#$#abort-on-property-read adsRedirectPopups
+xoilac87.net#$#abort-current-inline-script jQuery overlay
 sexdiaryz.us#$#abort-on-property-read parseInt
 linkneverdie.net#$#abort-current-inline-script document.createElement optad;abort-on-property-read pushOnPageGala
 javnong.cc#$#abort-on-property-read Math.round
