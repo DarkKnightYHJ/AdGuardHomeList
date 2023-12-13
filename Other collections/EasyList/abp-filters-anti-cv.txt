@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: BARkB3BM7VbYydMfHaXhnw
-! Version: 202312131602
+! Checksum: CFuQdTvumVXqppkjQaMfnA
+! Version: 202312131702
 ! Title: ABP filters
-! Last modified: 13 Dec 2023 16:02 UTC
+! Last modified: 13 Dec 2023 17:02 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -711,7 +711,7 @@ manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it#$#hide-if-contain
 manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##div[data-testid^="sponsored-brand-banner"]
 manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##div[data-testid^="sponsored-product"]
 ! #CV-1914
-instagram.com#$#hide-if-has-and-matches-style * 'article[class]~*>div' 'article[class]~*>div>div span:last-of-type *>svg[style]' '/./' '/(width: [2-9])/'
+instagram.com#$#race start; hide-if-matches-xpath '//article[@class]//span[text()]//following::a[contains(@class,"_ad")][contains(@href,"facebook.com/ads/ig_redirect/?")]/ancestor::div[5]'; hide-if-has-and-matches-style * 'article[class]~*>div' 'article[class]~*>div>div span:last-of-type *>svg[style]' '/./' '/(width: [2-9])/'; race stop;
 ! #CV-1940
 ||adgarden.market^$domain=factfeed.com|mdrntoday.com|travelroo.com
 factfeed.com,mdrntoday.com,travelroo.com###vidazooAd
