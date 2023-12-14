@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: Tixo+49HR2yg2QbSi3N41g
-! Version: 202312140141
+! Checksum: b+4IFS/4iJRVYKbijhP37w
+! Version: 202312140211
 ! Title: EasyPrivacy
-! Last modified: 14 Dec 2023 01:41 UTC
+! Last modified: 14 Dec 2023 02:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -829,6 +829,7 @@
 /events/page-viewed
 /events/pixelEvent
 /events/track/*
+/events/tracking
 /events/view-form-open
 /events/view?
 /events?data=
@@ -5228,6 +5229,7 @@ omni.soundestlink.com$image
 ||realcounter.eu^$third-party
 ||realcounters.com^$third-party
 ||reallyfreegeoip.org^$third-party
+||realtimewebstats.com^$third-party
 ||realtimewebstats.net^$third-party
 ||realtracker.com^$third-party
 ||realytics.io^$third-party
@@ -11041,6 +11043,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stileproject.com/vhtk/
 ||storage.googleapis.com/afs-prod/tags
 ||storage.googleapis.com/nchq-dj-nid/prod/sp_v1.js
+||storage.googleapis.com/snowplow-cto-office-tracker-bucket/
 ||storage.googleapis.com/tm-frend-graffiti/
 ||storage.syncmedia.io/libs/sm_capture_
 ||streamads.com/view?
@@ -13705,6 +13708,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pcmag.com/js/z0WVjCBSEeGLoxIxOQVEwQ.min.js
 ||pendo.scopus.com/data/ptm.gif
 ||perf.mouser.com^
+||performance-logger.minted.com^
 ||perr.hola.org^
 ||petametrics.com^$domain=meidastouch.com
 ||pf.newegg.com^
