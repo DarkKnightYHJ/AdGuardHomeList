@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 0qRtl7wpw3vHuSjBEZjS/A
-! Version: 202312151211
+! Checksum: tEu/gniFoD/mJpVkXM1AtA
+! Version: 202312151302
 ! Title: EasyPrivacy
-! Last modified: 15 Dec 2023 12:11 UTC
+! Last modified: 15 Dec 2023 13:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2679,6 +2679,7 @@
 ://tracker.*/pageview
 ://tracking.*/beacon/
 ://tracking.*/event
+://tracking.*/tracking.js
 ?[AQB]&ndh=1&t=
 ?act=counter&
 ?action=event&
@@ -14099,6 +14100,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.christianpost.com^
 ||tracking.digitalocean.com^
 ||tracking.engineering.cloud.seek.com.au^
+||tracking.epicgames.com^
+||tracking.fortnite.com^
 ||tracking.hsn.com^
 ||tracking.shopstyle.co.uk^
 ||tracking.shopstyle.com^
