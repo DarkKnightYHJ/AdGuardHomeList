@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YWXz6V3jT1fbRLEQYX+9WA
-! Version: 202312160602
+! Checksum: L3Y3c37PbwOJukC+yhM9dA
+! Version: 202312160702
 ! Title: EasyList China+EasyList
-! Last modified: 16 Dec 2023 06:02 UTC
+! Last modified: 16 Dec 2023 07:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1551,7 +1551,6 @@ newduba.cn###jq_youxi
 ##a[href^="/ad/"] > img[id][src*="hdslb.com"]
 ##a[href^="/hy-"][ontouchstart]
 ##a[href^="/template/1/html/ad/"]
-##a[href^="http"] > img[src*="p.sda1.dev"]
 ##a[href^="http"] > img[src*="pic.rmb.bdstatic.com/"][src$=".gif"]
 ##a[href^="http://ad.moemoe."]
 ##a[href^="javascript:GoDb"]
@@ -2618,6 +2617,8 @@ newduba.cn###jq_youxi
 ||nrfhbd.xyz^
 ||cfateu.xyz^
 ||acemof.top^
+||qvrdlvz.cn^
+##a[href*="/abg0066.com"]
 ||zzyy19.top^
 ||zzyy20.top^
 !
