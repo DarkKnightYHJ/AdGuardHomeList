@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fC0/aajeZ8s9WbA+LN9zAQ
+! Checksum: g/nLZM1samlFhOaMiWM6/Q
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202312180800
-! Last Modified: 2023年12月18日 08:00
+! Version: 202312181400
+! Last Modified: 2023年12月18日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -68458,6 +68458,11 @@ newduba.cn###jq_youxi
 ||zotcjeig.xyz^
 ||vljjtj.xyz^
 ||fghhbp.xyz^
+||uvpqrydt.xyz^
+||dotuij.top^
+||bvpqrydt.xyz^
+||alwaysc.com^
+||vpqrydt.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -93879,7 +93884,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||app.carnow.com/dealers/track_visitor
 ||app.link/_r?$script,third-party
 ||app.opmnstr.com/v2/geolocate/
-||app.posthog.com^$script,xmlhttprequest
+||app.posthog.com/e/?compression=
+||app.posthog.com/e/?ip=
+||app.posthog.com/static/array.js
+||app.posthog.com/static/recorder-v2.js
 ||app.yesware.com/t/$third-party
 ||appinthestore.com/click/
 ||apple.com/hvr/mw/v1/spile
