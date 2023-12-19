@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: awPosFyzTCTzGfJhSNNZkw
+! Checksum: Rf22O70QR6HZ4TTvXQCyHQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202312190200
-! Last Modified: 2023年12月19日 02:00
+! Version: 202312190800
+! Last Modified: 2023年12月19日 08:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -589,10 +589,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /addyn/3.0/*
 /addyn|*;adtech;
 /addyn|*|adtech;
-/adengine.
-/adfallback.
-/adfeed.
-/adfooter.
+/adengine.js
 /adfox/loader.js
 /adfshow?
 /adfurikun/*$~image
@@ -841,26 +838,13 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adv-socialbar-scroll.js
 /adv.css?
 /adv/adriver
-/adv/kelkoo_
-/adv/mjx.
-/adv/preroll_
-/adv/skin.
-/adv/skin_
-/adv1.
-/adv2.$domain=~adv2.com
-/adv3.
-/adv4.$domain=~adv4.me
-/Adv468.
-/adv5.
+/adv/mjx.js
 /adv_2.
 /adv_468.
 /adv_468_
 /adv_ads_
 /adv_banner_
 /adv_box_
-/adv_head.
-/adv_horiz.
-/adv_left_
 /adv_out.js
 /adv_teasers.js
 /adv_vert.js
@@ -884,7 +868,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /advertisment-
 /advertisment/*$~image
 /advertisment_
-/advertright.
 /adverts.$~script,domain=~0xacab.org|~adverts.ie|~adverts.org.ua|~github.com|~gitlab.com
 /adverts/*$~xmlhttprequest
 /adverts_
@@ -909,7 +892,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /affads/*
 /affbanner/*
 /affbanners/*
-/affclick/*
 /affiliate/ad/*
 /affiliate/ads/*
 /affiliate/banner/*
@@ -926,7 +908,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ame-dfp/*
 /amp-ad-
 /amp-connatix-
-/amp4ads-
+/amp4ads-host-v0.js
 /ane-popup-banner.js
 /ane-popup.js
 /ane-preroll/preroll.js
@@ -942,9 +924,8 @@ pan.baidu.com##.upload-bar.global-clearfix
 /api/v1/ad/*
 /apopwin.js
 /app/manga/themes/*/ads/pop.js
-/apu.php?*&zoneid=
+/apu.php?
 /arcads.js
-/asrv/campaign/*
 /asset/ad/*
 /assets/ads/*$~image,domain=~outlook.live.com
 /asyncjs.php
@@ -952,8 +933,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /auto.ad.
 /awaps-ad-sdk-$script
 /awe2.js
-/awempire.
-/awepop.
 /background_ad_
 /ban.php?
 /ban160.php
@@ -18804,6 +18783,7 @@ mobiili.fi#@#.header_ad
 iedrc.org#@#.home-ad
 thelincolnite.co.uk#@#.inline-ad
 elektro.info.pl,mashingup.jp#@#.is-sponsored
+iplogger.org#@#.item-ads
 vukajlija.com#@#.large-advert
 realgfporn.com#@#.large-right-ad
 atea.com,ateadirect.com,knowyourmobile.com,nlk.org.np#@#.logo-ad
@@ -50373,6 +50353,7 @@ browsershots.org#@#.advert_area
 ||offersquared.com^$third-party
 ||og-affiliate.com^$third-party
 ||okanjo.com^$third-party
+||onetag-sys.com^$third-party
 ||onlyalad.net^$third-party
 ||onsafelink.com^$script,third-party
 ||onscroll.com^$third-party
@@ -55695,7 +55676,6 @@ browsershots.org#@#.advert_area
 ||nitroflare.com/img/banners/
 ||noagentfees.com^$subdocument,domain=independent.com.mt
 ||oilofasia.com/images/banners/
-||onetag-sys.com/prebid-request
 ||onnetwork.tv/widget/
 ||ooproxy.azurewebsites.net^$xmlhttprequest,domain=imasdk.googleapis.com
 ||orangebuddies.nl/image/banners/
@@ -68519,6 +68499,15 @@ newduba.cn###jq_youxi
 ||zzbmxl.xyz^
 ||zzyy17.top^
 ||zzyy18.top^
+||kuxfznnf.xyz^
+||bvnjeqa.xyz^
+||uckgqa.xyz^
+||n2faw.site^
+||iolsrikq.xyz^
+||ectyet.top^
+||vvlhrz.xyz^
+||demifa.top^
+||rsvvfx.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -89611,21 +89600,15 @@ omni.soundestlink.com$image
 ||ojrq.net^$third-party
 ||okt.to^$third-party
 ||oktopost.com^$third-party
-||omarsys.com^$third-party
 ||ometria.com^$third-party
 ||omguk.com^$third-party
 ||omkt.co^$third-party
 ||omniconvert.com^$third-party
-||omtvxcle.com^$third-party
 ||onaudience.com^$third-party
 ||ondu.ru^$third-party
 ||onefeed.co.uk^$third-party
-||oneimpress.io^$third-party
 ||onelink.me^$image,script,third-party
 ||onestat.com^$third-party
-||onetag-sys.com^$third-party
-||onetag.io^$third-party
-||ongsono.com^$third-party
 ||oniad.com^$third-party
 ||online-metrix.net^$third-party
 ||onlinepbx.ru^$third-party
