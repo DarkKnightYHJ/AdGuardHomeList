@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: C6EQUY5q5JbYd0vGqybheQ
-! Version: 202312191502
+! Checksum: dT0EOl7/mw2+67RYAEoFmQ
+! Version: 202312191602
 ! Title: ABP filters
-! Last modified: 19 Dec 2023 15:02 UTC
+! Last modified: 19 Dec 2023 16:02 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -961,7 +961,6 @@ pussyspace.com,pussyspace.net#$#prevent-listener loadex; prevent-listener exoJsP
 torrentgalaxy.to#$#hide-if-matches-xpath './/*[contains(@title, "Ads")]/parent::div/ancestor:: div[@id="click"]/ancestor::div[@onmouseover][@onmouseout]'; hide-if-matches-xpath './/img[contains(@class,"img-")]/parent::div/ancestor::a[contains(@href,"zub.pnp")]/ancestor-or-self::div[1]';
 ||footfetishvid.com/*/*.php^$domain=footfetishvid.com
 ||*.com/*fbeea*.js^$domain=footfetishvid.com
-outlook.live.com#?#div[style*="top: 0px"]:-abp-has(>div:-abp-contains(Ad))
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
