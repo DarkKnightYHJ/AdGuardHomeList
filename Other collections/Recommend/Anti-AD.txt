@@ -1,9 +1,9 @@
 !Title: anti-AD
-!Version: 20231220001221
+!Version: 20231220004615
 !Homepage: https://github.com/privacy-protection-tools/anti-AD
 !!!note! If you are using "AdGuard", please load https://anti-ad.net/adguard.txt
 !!!This list only applies to "AdGuard Home".
-!Total lines: 71026
+!Total lines: 71056
 @@||939394.xyz^
 @@||ad-maven.com^
 @@||ad.azure.com^
@@ -88,12 +88,11 @@
 @@||widget.sndcdn.com^
 @@||ad.nl^
 /^(\S+\.)?9377[a-z0-9]{2}\.com$/$dnstype=A
-/^(\S+\.)?ad(s?[\d]+|m|s)?\./$denyallow=nucdn.net|azureedge.net|alibabacorp.com|alibabadns.com
+/^(\S+\.)?ad(s?[\d]+|m|s)?\.[0-9\-a-z]+\./$denyallow=nucdn.net|azureedge.net|alibabacorp.com|alibabadns.com
 @@||ad.vivo.com.cn^
 @@||ads.alafish.cn^
 @@||ads.doordash.com^
 @@||ads.elevateplatform.co.uk^
-@@||ads.finance^
 @@||ads.google.com^
 @@||ads.kazakh-zerno.net^
 @@||ads.lingxing.com^
@@ -3759,10 +3758,17 @@
 ||ad-shield.io^
 ||ad-track.jp^
 ||ad-vice.biz^
+||ad.gt^
+||ad.guru^
+||t.ad.nl^
+||ad.plus^
+||ad.style^
 ||ad1data.com^
 ||ad1de41c7f.com^
 ||ad1rtb.com^
 ||ad1x.com^
+||ad20.net^
+||ad2023.site^
 ||ad2adnetwork.biz^
 ||ad2iction.com^
 ||ad2links.com^
@@ -3775,6 +3781,9 @@
 ||ad6011520d.com^
 ||ad64463ef9.com^
 ||ad6media.fr^
+||ad7.com^
+||ad8.cc^
+||ad999.biz^
 ||adabra.com^
 ||webts.adac.de^
 ||adacado.com^
@@ -4442,9 +4451,15 @@
 ||ads-adv.top^
 ||ads-pixiv.net^
 ||ads-twitter.com^
+||ads.cc^
+||ads01.com^
+||ads2550.bid^
 ||ads2ads.net^
+||ads360.cn^
 ||ads4g.pl^
 ||ads4trk.com^
+||ads8.com^
+||ads80.com^
 ||adsafeprotected.com^
 ||adsafety.net^
 ||adsagony.com^
@@ -5482,6 +5497,7 @@
 ||aishowbger.com^
 ||aisnj.cn^
 ||aisouk.cn^
+||log.aispeech.com^
 ||a8.ssl.aispr.jp^
 ||aispyd.icu^
 ||aisrvyvstyq.xyz^
@@ -5801,6 +5817,7 @@
 ||alifbouche.digital^
 ||alifixed.cn^
 ||g.aligames.com^
+||cddp-track.aligames.com^
 ||alightbornbell.com^
 ||images.go.alightsolutions.com^
 ||alighttelescopecausing.com^
@@ -6168,6 +6185,7 @@
 ||amap-aos-info-nogw.amap.com^
 ||optimus-ads.amap.com^
 ||dualstack-logs.amap.com^
+||v6-adashx.ut.amap.com^
 ||amarceusan.com^
 ||amarfa.ir^
 ||ablinks.info.amaro.com^
@@ -9692,6 +9710,7 @@
 ||beiwaicd.com^
 ||beiyu.xin^
 ||sdk.beizi.biz^
+||api-htp.beizi.biz^
 ||bejesustrolly.guru^
 ||bejolteonor.com^
 ||qn.bejson.com^
@@ -12358,6 +12377,7 @@
 ||sw.cailawyer.cn^
 ||caimoasy.net^
 ||cainauhi.xyz^
+||v6-adashx.ut.cainiao.com^
 ||vip.cainiaofx.com^
 ||p7h1silo3f.app.cainthus.com^
 ||isjoui.cainz.com^
@@ -16789,6 +16809,7 @@
 ||log.cpex.cz^
 ||cpfclassifieds.com^
 ||cpgo.xyz^
+||a8cv.cpi.ad.jp^
 ||cpl1.ru^
 ||cplayer.pw^
 ||cpm-ad.com^
@@ -21555,6 +21576,7 @@
 ||h-adashx.ut.ele.me^
 ||mobile-pubt.ele.me^
 ||newton-api.ele.me^
+||v6-adashx.ut.ele.me^
 ||elearl.com^
 ||eleavers.com^
 ||top.elec.ru^
@@ -50332,6 +50354,8 @@
 ||quantummetric.com^
 ||quantumws.net^
 ||quarepush.com^
+||applog.lc.quark.cn^
+||adtrack.quark.cn^
 ||app.info.quark.com^
 ||ama.quarks.de^
 ||wa.quarks.de^
@@ -53263,6 +53287,7 @@
 ||sakulyavoluspa.tech^
 ||a8cv.sakura-forest.com^
 ||sakura-traffic.com^
+||a8cv.secure.sakura.ad.jp^
 ||a8.sakuradome-direct.com^
 ||a8.sakuratravel.jp^
 ||salamaleyum.com^
@@ -59009,6 +59034,7 @@
 ||ip.taobao.com^
 ||accscdn.m.taobao.com^
 ||acs.wapa.taobao.com^
+||v6-adashx.ut.taobao.com^
 ||taobaoad.com^
 ||taobaobo5.com^
 ||pics.taobaocdn.com^
@@ -65115,6 +65141,7 @@
 ||volatilevessel.com^
 ||volatintptr.com^
 ||volcanoimplement.com^
+||volceapplog.com^
 ||voldarinis.com^
 ||l.voleousa.com^
 ||volgograd-info.ru^
@@ -67461,6 +67488,7 @@
 ||spinfo.wps.cn^
 ||teinfo.wps.cn^
 ||wpsweb-dc.wps.cn^
+||co-sentry.wps.cn^
 ||adres.wpscdn.cn^
 ||img.gou.wpscdn.cn^
 ||tracker.wpserveur.net^
@@ -68129,6 +68157,7 @@
 ||migrate.driveapi.micloud.xiaomi.net^
 ||mlog.search.xiaomi.net^
 ||sec-cdn.static.xiaomi.net^
+||sentry.d.xiaomi.net^
 ||ww.xiaopiaoyou.com^
 ||xiaopinwo.com^
 ||xiaosaguniang.xyz^
@@ -70140,6 +70169,7 @@
 ||zdkdwk.buzz^
 ||zdlnhv.xyz^
 ||s2.zdmimg.com^
+||sentry-monitor-new.zdmimg.com^
 ||za.zdn.vn^
 ||hits.zdnet.co.kr^
 ||log.zdnet.co.kr^
