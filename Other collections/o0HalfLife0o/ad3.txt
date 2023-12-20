@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oyQqsLF1zPv/rGPWhv3+dw
+! Checksum: 6wWeZyHMULkhpOGVhmw3gw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202312201400
-! Last Modified: 2023年12月20日 14:00
+! Version: 202312202000
+! Last Modified: 2023年12月20日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1774,6 +1774,7 @@ newduba.cn###jq_youxi
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
 ##script + div[id^="a-loading-"]
+##.ad-pc
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##span[title="neteasefooter"]
 ##style + .a-loading
@@ -2840,6 +2841,11 @@ newduba.cn###jq_youxi
 ||redyzlmc.xyz^
 ||efalid.top^
 ||uafuzcxr.xyz^
+||xafuzcxr.xyz^
+||v44e.com^
+||yfsstec96.xyz^
+||tupwiwm.com^
+||tafuzcxr.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -10924,6 +10930,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+maoken.com##.adbox
+maoken.com###siderAd01
+json.cn##.modal-backdrop
+json.cn###shuangshi1Modal1
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -16676,6 +16686,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||99ybcc.com^$generichide
 @@||9zvip.net/wp-content/plugins/detect-adblock/js/ads.js
 @@||9zvip.net^$elemhide
+@@||wavse.com^$generichide
 @@||a.alimama.cn/tkapi$domain=ieeee.com
 @@||abchina.com^*ad
 @@||aboluowang.com^$generichide
@@ -23011,6 +23022,7 @@ m.babytree.com##script + a[class]
 /player-test-impression?
 /player/stats.php?
 /plog?id
+/plow.lite.js
 /plugins/catman/*
 /plugins/duracelltomi-google-tag-manager/*
 /plugins/exactmetrics-
@@ -25555,6 +25567,7 @@ omni.soundestlink.com$image
 ||fpjs.io^$third-party
 ||fprnt.com^$third-party
 ||fqsecure.com^$third-party
+||fraud0.com^$third-party
 ||fraudjs.io^$third-party
 ||free-counter.co.uk^$third-party
 ||free-counter.com^$third-party
@@ -28883,6 +28896,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||scarfsmash.com^
 ||scarfthought.com^
 ||scatteredheat.com^
+||scatteredquiver.com^
 ||scatteredstream.com^
 ||scientificshirt.com^
 ||scientificsneeze.com^
@@ -34285,6 +34299,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||clp-mms.cloudpro.co.uk^
 ||cm-mms.coachmag.co.uk^
 ||cm.nordvpn.com^
+||cmpworker.dotesports.com^
 ||cnt.hd21.com^
 ||cnt.iceporn.com^
 ||cnt.viptube.com^
@@ -53370,6 +53385,7 @@ arketing.indianadunes.com^
 ||eq-beacon.stream.co.jp^
 ||eq-player-log.cdnext.stream.ne.jp^
 ||fensi.plus^*/tracking/
+||g123.jp/stats?
 ||game-i.daa.jp/skin/analytics.php
 ||gizmodo.jp/api/SurveyCountCollection?
 ||goo.ne.jp^*/vltracedmd.js
