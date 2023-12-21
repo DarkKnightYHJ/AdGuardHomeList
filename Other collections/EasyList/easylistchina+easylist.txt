@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mQx6adB9EaoHuePGVdz2Hg
-! Version: 202312210902
+! Checksum: O80b7u6ctZq9DxzyvyXBbA
+! Version: 202312211002
 ! Title: EasyList China+EasyList
-! Last modified: 21 Dec 2023 09:02 UTC
+! Last modified: 21 Dec 2023 10:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -17112,17 +17112,18 @@ guailie.com#@#.google-ad
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
 ||17ce.com^*_$image
 !#18comic.org
-18-comic.work,18comic.org,18comic.vip###guide-modal
-18-comic.work,18comic.org,18comic.vip##.div_sticky2
-18-comic.work,18comic.org,18comic.vip##.modal-backdrop
-18comic.org,18comic.vip,18-comic.work#?#:-abp-has(>ins+script)
-18comic.org,18comic.vip,18-comic.work#?#:-abp-has(>script+ins)
-18comic.org,18comic.vip,18-comic.work#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
-18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > [style*="back"]
-18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img
-18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img + [style]
+18-comic.work,18comic.org,18comic.vip,jmcomic.me###guide-modal
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##.div_sticky2
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##.modal-backdrop
+18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+script)
+18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>script+ins)
+18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > [style*="back"]
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img + [style]
 ||18-comic.work/media/albums/*?$media
 ||18comic.*/media/albums/*?$media
+/exads-adblock-$image
 !#2
 !#3
 !#4
@@ -18614,6 +18615,7 @@ webkaka.com##td[id$="_SPONSOR"]
 ||webkaka.com/script/cp.js
 ||webkaka.com^*x50.
 !#wnacg.com
+wnacg.com#@#.pcd_ad
 wnacg.com#@##adsbox
 wnacg.com#@#.Flagrow-Ads-under-header
 wnacg.com#@#.RMss1
@@ -38087,6 +38089,7 @@ browsershots.org#@#.advert_area
 ||5726303d87522d05.com^
 ||576de58030.com^
 ||5778d0b296.com^
+||57d38e3023.com^
 ||57debc89a6.com^
 ||58802ce8d9.com^
 ||58915e0a30.com^
@@ -40583,6 +40586,7 @@ browsershots.org#@#.advert_area
 ||asquintarmenic.cfd^
 ||asrelatercondi.org^
 ||asrety.com^
+||asricewaterho.com^
 ||asrntiljustetyerec.info^
 ||asrowjkagg.com^
 ||assailusefullyenemies.com^
@@ -48554,6 +48558,7 @@ browsershots.org#@#.advert_area
 ||galaxyvandas.website^
 ||galeaeevovae.com^
 ||galibicalvous.guru^
+||galjwnhotubfg.com^
 ||galliestorpify.com^
 ||gallonranchwhining.com^
 ||galopelikeantelope.com^
@@ -51818,6 +51823,7 @@ browsershots.org#@#.advert_area
 ||jinjaoathful.uno^
 ||jinterests-1.com^
 ||jinxrussian.com^
+||jiokhvnqchnt.com^
 ||jiordgxkpglzm.com^
 ||jipo.io^
 ||jirtesee.net^
@@ -51859,6 +51865,7 @@ browsershots.org#@#.advert_area
 ||jltjgujdnyp.com^
 ||jmaomkosxfi.com^
 ||jmeeersdkmoir.xyz^
+||jmiqbfhoar.com^
 ||jmpmedia.club^
 ||jmrnews.pro^
 ||jmrnpzbpqla.com^
@@ -52099,6 +52106,7 @@ browsershots.org#@#.advert_area
 ||juyafctq.xyz^
 ||jvaemllmeezyw.top^
 ||jvbzzmnjezeba.top^
+||jvbzzmnjeznrw.top^
 ||jvnvrqzvyvbmv.top^
 ||jvnvrqzvyvbww.top^
 ||jvnydntynmru.com^
@@ -52600,6 +52608,7 @@ browsershots.org#@#.advert_area
 ||krqjfirm.com^
 ||krrtxbfbeey.top^
 ||krubisstratic.com^
+||ksandtheirclean.org^
 ||ksehinkitw.hair^
 ||kshzlyvbaaa.com^
 ||kssvsjfhxpzwfd.com^
@@ -55491,6 +55500,7 @@ browsershots.org#@#.advert_area
 ||nfeblwlatpnbjs.com^
 ||nfkq8jy5db0b.com^
 ||nftjmbhwxgo.com^
+||nfuwpyx.com^
 ||nfwivxk.com^
 ||ngcies.com^
 ||ngegas.files.im^
@@ -55631,6 +55641,7 @@ browsershots.org#@#.advert_area
 ||nnkqkvqk.com^
 ||nnncrox.com^
 ||nnnfqegwes.xyz^
+||nnthewdnez.com^
 ||nnxijkdigwywla.com^
 ||no2veeamggaseber.com^
 ||noafoaji.xyz^
@@ -67408,6 +67419,7 @@ browsershots.org#@#.advert_area
 ||xetlugupyug.com^
 ||xeuswz.com^
 ||xfahjal.com^
+||xfbeobsutqtndp.com^
 ||xfcpdigfsx.xyz^
 ||xfhgstxcytiu.com^
 ||xfiebjkmpp.com^
@@ -68102,6 +68114,7 @@ browsershots.org#@#.advert_area
 ||zhould.com^
 ||zhqmctfwip.com^
 ||zhyivocrjeplby.com^
+||zhzclbysg.com^
 ||zi8ivy4b0c7l.com^
 ||ziaratjs.tech^
 ||zibaweva.com^
