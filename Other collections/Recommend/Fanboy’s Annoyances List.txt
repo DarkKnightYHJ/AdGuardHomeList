@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cJ0H2qUzjmXuE0Q3fvKfRg
-! Version: 202312212302
+! Checksum: 4i5uwSEpryC0H6OMfSPkAg
+! Version: 202312220040
 ! Title: Fanboy's Annoyance List
-! Last modified: 21 Dec 2023 23:02 UTC
+! Last modified: 22 Dec 2023 00:40 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -2135,6 +2135,12 @@ _twitter_follow.
 ##.wpmchimpa-overlay-bg
 ! bodyscience.com.au
 ##.preezie-widget-modal
+! Someone also bought popups
+###cb-widget-sales-pop
+##.cbSalesPopContainer
+##.noti-container-main
+##.wpcsn-notification-inner
+##.yo-notification
 ! Outbrain
 ###around-the-web
 ###g-outbrain
@@ -34423,6 +34429,8 @@ dashboard.razorpay.com#@##credential_picker_container
 ||ziprecruiter.com/jobs-widget/$third-party
 ||zoomanalytics.co^$third-party
 ||zotabox.com^*/widgets.js$third-party
+! Someone also bought popups
+||api.postscript.io/v2/public/popups/
 ! 3rd-party sounds
 ||acquire.io/assets/sound/
 ||amazonaws.com/alive5cdn/$media
