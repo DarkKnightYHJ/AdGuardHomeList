@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: S0mNFhLL2DQ4syHfOlPxoQ
-! Version: 202312222103
+! Checksum: 2LRJFXELN9mNPkTENGPeNA
+! Version: 202312222202
 ! Title: EasyPrivacy
-! Last modified: 22 Dec 2023 21:03 UTC
+! Last modified: 22 Dec 2023 22:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -277,6 +277,7 @@
 /analytics/google.js
 /analytics/layer
 /analytics/metric/*
+/analytics/pagestats
 /analytics/pageview
 /analytics/searches?
 /analytics/track_event/*
@@ -4232,6 +4233,7 @@ omni.soundestlink.com$image
 ||flexlinkspro.com^$third-party
 ||flixfacts.co.uk^$third-party
 ||flixsyndication.net^$third-party
+||flockrocket.io^$third-party
 ||flocktory.com^$third-party
 ||fluencymedia.com^$third-party
 ||fluidsurveys.com^$third-party
@@ -10962,6 +10964,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||spotpass.com/api/log
 ||spread.ly^*/statistics.php
 ||spresso.com/pim/public/events
+||squarecdn.com/square-marketplace-js/chunk-analytics-vendors.js
+||squarecdn.com/square-marketplace-js/chunk-analytics.js
 ||squarespace.com/universal/scripts-compressed/performance-$script,third-party
 ||srvmath.com^*/analytics.js
 ||ssa.stepstone.com^
