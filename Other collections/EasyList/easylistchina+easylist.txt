@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OI868jhH8aniZxNrY7D5Aw
-! Version: 202312301502
+! Checksum: jW3e0awpT3AfTCH8WL7O1w
+! Version: 202312301602
 ! Title: EasyList China+EasyList
-! Last modified: 30 Dec 2023 15:02 UTC
+! Last modified: 30 Dec 2023 16:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -19754,6 +19754,7 @@ fqsousou.com,kengso.com#@#.user-share
 /clickads/*
 /clicksor.$domain=~clicksor.com
 /cms_ads.js
+/code/https-v2.js?uid=
 /code/native.js?h=$script
 /code/pops.js?h=$script
 /code/silent.js?h=$script
@@ -20678,6 +20679,8 @@ fqsousou.com,kengso.com#@#.user-share
 ://affiliates2.$third-party
 ://banner.$third-party
 ://banners.$third-party
+://news-*/process.js?id=$third-party
+://news-*/v2-sw.js$third-party
 ://promo.$~media,third-party,domain=~myshopify.com|~promo.com|~shopifycloud.com|~slidely.com
 =half-page-ad&
 ?ab=1&zoneid=
@@ -55794,10 +55797,13 @@ browsershots.org#@#.advert_area
 ||newrtbbid.com^
 ||news-back.org^
 ||news-bigefu.com^
+||news-bobeho.com^
+||news-butoto.com^
 ||news-buzz.cc^
 ||news-central.org^
 ||news-headlines.co^
 ||news-host.net^
+||news-losaji.com^
 ||news-muheji.com^
 ||news-place1.xyz^
 ||news-portals1.xyz^
@@ -84737,7 +84743,7 @@ pornhub.com,youporngay.com##div[onclick*="bp1.com"]
 hentaistream.com##div[style$="width:100%;height:768px;overflow:hidden;visibility:hidden;"]
 hentai.com##div[style="cursor: pointer;"]
 simpcity.su##div[style="text-align:center;margin-bottom:20px;"]
-aniporn.com,missav.com,missav123.com,missav789.com,redgifs.com##div[style="width: 300px; height: 250px;"]
+abxxx.com,aniporn.com,missav.com,missav123.com,missav789.com,redgifs.com##div[style="width: 300px; height: 250px;"]
 sexbot.com##div[style="width:300px;height:20px;text-align:center;padding-top:30px;"]
 pornpics.network##div[style^="height: 250px;"]
 gay0day.com##div[style^="height:250px;"]
