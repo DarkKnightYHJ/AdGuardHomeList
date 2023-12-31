@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6sr49rG7ng55MX+iE0WACA
+! Checksum: ndZZFZ+Mv4mb/CfAf6TYXw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202312310801
-! Last Modified: 2023年12月31日 08:01
+! Version: 202312311400
+! Last Modified: 2023年12月31日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -3022,6 +3022,8 @@ newduba.cn###jq_youxi
 ||evbrkhz.xyz^
 ||vtnmxx.xyz^
 ||fyexyd.icu^
+||uydzfldt.xyz^
+||bydzfldt.xyz^
 ||zzyy20.top^
 ##[style*="sotv.me"]
 ##a[href$="/1c626.com"]
@@ -53397,6 +53399,7 @@ arketing.indianadunes.com^
 ||npo-data.nl/tags/tag.min.js
 ||npo.nl/tag/atinternet/
 ||pcmweb.nl/track/
+||pg.totaaltv.nl/api/metrics
 ||pipeline.rd.nl^$~script
 ||r.kleertjes.com^
 ||rtl.nl/system/track/
@@ -54501,6 +54504,7 @@ arketing.indianadunes.com^
 @@||kameleoon.eu/kameleoon.js$domain=welt.de
 @@||kameleoon.io/geolocation^$domain=welt.de
 @@||kameleoon.io/ip^$domain=welt.de
+@@||l.ecn-ldr.de/loader/loader.js$domain=braun-hamburg.com
 @@||online.mps-gba.de/praeludium/$script,domain=auto-motor-und-sport.de|caravaning.de|motorradonline.de
 @@||responder.wt-safetag.com/resp/api/get/$script,domain=myhermes.de
 @@||script-at.iocnt.net/iam.js$domain=oe24.at
