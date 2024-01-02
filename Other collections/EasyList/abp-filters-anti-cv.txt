@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: QbJnSXarVIWdkQegGUAghQ
-! Version: 202401021402
+! Checksum: BzYg6opVkW2HewlON6QASA
+! Version: 202401021502
 ! Title: ABP filters
-! Last modified: 02 Jan 2024 14:02 UTC
+! Last modified: 02 Jan 2024 15:02 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -692,7 +692,6 @@ ipatriot.com##div[class^="textwidget"] > div[class^="pi_"]
 rightwingnews.com##.z-ad-inline
 procoinnews.com##div[id^="adcovery-"]
 procoinnews.com,dailylol.com#$#override-property-read setTimeout noopFunc; abort-on-property-read document.body.innerHTML; override-property-read Object.defineProperty undefined; hide-if-matches-xpath '//main[@class][@role][@id]/parent::div[1]/ancestor-or-self::div[@class][1]';
-beforeitsnews.com#$#override-property-read setTimeout noopFunc; abort-on-property-read document.body.innerHTML;
 ! #CV-1416
 www.booking.com#$#hide-if-contains-visible-text /Ad/ 'div div[data-testid^="property-card"]' 'span[aria-expanded] span'
 ! #CV-1454
@@ -1502,7 +1501,7 @@ xoilac86.net#$#abort-on-property-read adsRedirectPopups
 sexdiaryz.us#$#abort-on-property-read parseInt
 linkneverdie.net#$#abort-current-inline-script document.createElement optad;abort-on-property-read pushOnPageGala
 javnong.cc#$#abort-on-property-read Math.round
-viet69.tube,ungtycomicsvip.com,truyengihotqua.net,dualeotruyenww.com,yurineko.net,vlxyz.tv,javhay.media,phimsexhay669.co,cliphot69.biz,doctruyen3qmoi.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,tuoi69.one,top1sex.club,lenlut.net,xemsex.asia,hentai-vn.com,sexphim1.com,cdn.streamvl.sbs,buomtv.tv,motchillzz.in,truyenvnhay.tv#$#abort-current-inline-script WebAssembly instantiate
+viet69.id,ungtycomicsvip.com,truyengihotqua.net,dualeotruyenww.com,yurineko.net,vlxyz.tv,javhay.media,phimsexhay669.co,cliphot69.biz,doctruyen3qmoi.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,tuoi69.one,top1sex.club,lenlut.net,xemsex.asia,hentai-vn.com,sexphim1.com,cdn.streamvl.sbs,buomtv.tv,motchillzz.in,truyenvnhay.tv#$#abort-current-inline-script WebAssembly instantiate
 animevietsub.fan#$#abort-current-inline-script document.documentElement break;case
 phimdinhcao.net,phimlongtieng.net,phimdinhcao.com#$#abort-on-property-read localStorage
 phimgichill.net#$#abort-current-inline-script jQuery popurl;abort-current-inline-script document.createElement script
