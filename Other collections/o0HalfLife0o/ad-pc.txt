@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kFmKZ5er3KKsShRMz8XM8w
+! Checksum: U0Qpn2A0HkkkwoTbqf3poA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202401020800
-! Last Modified: 2024年01月02日 08:00
+! Version: 202401021400
+! Last Modified: 2024年01月02日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -7186,6 +7186,7 @@ _800x80_
 ###upperad
 ###vc-maincontainer-ad
 ###vc-maincontainer-midad
+###velsof_wheel_container
 ###vert-ads
 ###vertAd2
 ###vert_ad
@@ -51445,6 +51446,7 @@ browsershots.org#@#.advert_area
 ||webwap.org^$third-party
 ||whatstheword.co^$third-party
 ||whizzco.com^$third-party
+||widget.packeta.com^$third-party
 ||wlmarketing.com^$third-party
 ||wmmediacorp.com^$third-party
 ||wordego.com^$third-party
@@ -69548,6 +69550,10 @@ newduba.cn###jq_youxi
 ||kltmjevd.xyz^
 ||lbjdbym.xyz^
 ||mlegyu.xyz^
+||3azpx.xyz^
+||gcwwsv.icu^
+||ultmjevd.xyz^
+||bltmjevd.xyz^
 ||zzyy20.top^
 ##[style*="sotv.me"]
 ##a[href$="/1c626.com"]
@@ -96275,6 +96281,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ohnorobot.com/verify.pl?
 ||olytics.omeda.com^
 ||ondigitalocean.app/insight-analytics.js
+||one.store/v1/analytics/
 ||onecount.net/onecount/oc_track/
 ||onescreen.net/os/static/pixels/
 ||onesignal.com/api/v*/apps/
