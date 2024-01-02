@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 1BdFO5IAS7wNVKMhgqe9OA
-! Version: 202401021602
+! Checksum: sDulngeruP3FMHWKFs1GCw
+! Version: 202401021702
 ! Title: ABP filters
-! Last modified: 02 Jan 2024 16:02 UTC
+! Last modified: 02 Jan 2024 17:02 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -650,6 +650,7 @@ music.youtube.com,youtubekids.com#$#json-prune '0.playerResponse.adPlacements 0.
 music.youtube.com,youtubekids.com#$#override-property-read playerResponse.adPlacements undefined;
 music.youtube.com,youtubekids.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
 www.youtube.com#$#hide-if-matches-xpath './/yta-ad-text[@style]/parent::*[contains(@class,"ad-badge")]/ancestor::ytlr-banner-cta-renderer'; hide-if-matches-xpath './/yta-ad-text[@style]/parent::*[contains(@class,"ad-badge")]/ancestor::ytlr-ad-attribution'
+www.youtube.com#$#hide-if-matches-xpath '//*[contains(@class,"ytlr-metadata-badge-renderer--ad-stark")][text()]/ancestor-or-self::ytlr-ad-slot-renderer'
 ! Fallback
 www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#simulate-mouse-event 'button.ytp-ad-skip-button$delay=0'
 www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=0'
