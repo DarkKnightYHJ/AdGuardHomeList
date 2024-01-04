@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 27lXDYIWLetwbCFLfJAYqQ
-! Version: 202401042102
+! Checksum: ROeVHQnFL98ScGFypDZeFA
+! Version: 202401042202
 ! Title: EasyList China+EasyList
-! Last modified: 04 Jan 2024 21:02 UTC
+! Last modified: 04 Jan 2024 22:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -54519,6 +54519,7 @@ browsershots.org#@#.advert_area
 ||manpowersets.com^
 ||mansernema.com^
 ||mansfieldeffects.com^
+||manslaughterhallucinateenjoyment.com^
 ||mantapareseat.com^
 ||mantedtonisms.com^
 ||manualbleedingand.com^
@@ -62303,6 +62304,7 @@ browsershots.org#@#.advert_area
 ||shabsaco.net^
 ||shackapple.com^
 ||shackdialectsense.com^
+||shadesentimentssquint.com^
 ||shadesincreasingcontents.com^
 ||shady-addition.com^
 ||shadybenefitpassed.com^
@@ -68230,6 +68232,7 @@ browsershots.org#@#.advert_area
 ||xctignum.uno^
 ||xcvhhgdbyqk.xyz^
 ||xcvsdrqagn.com^
+||xcwxfcav.com^
 ||xdcngimejo.com^
 ||xder1.fun^
 ||xdezxlbnpo.com^
@@ -73544,6 +73547,7 @@ browsershots.org#@#.advert_area
 ||sexfamilysim.net^$popup
 ||sexpieasure.com^$popup
 ||sexyepc.com^$popup
+||shadesentimentssquint.com^$popup
 ||shadyobscene.com^$popup
 ||shaggyaleswede.com^$popup
 ||shaggyselectmast.com^$popup
@@ -83574,6 +83578,8 @@ twitter.com##article[data-testid="tweet"]:has(path[d$="10H8.996V8h7v7z"])
 aliexpress.com,aliexpress.us##div[class*="search-item-card-wrapper-"]:has(span[class^="multi--ad-"])
 qwant.com##div[class="_2NDle"]:has(div[data-testid="advertiserAdsDisplayUrl"])
 wish.com##div[class^="ProductGrid__FeedTileWidthWrapper-"]:has(div[class^="DesignSpec__TextSpecWrapper-"] + div[class^="DesignSpec__TextSpecWrapper-"])
+wish.com##div[class^="ProductGrid__FeedTileWidthWrapper-"]:has(div[class^="FeedTile__ProductBoostLabelWrapper-"])
+wish.com##div[class^="WishExpressProductsRow__FeedTileColumnWrapper-"]:has(div[class^="FeedTile__ProductBoostLabelWrapper-"])
 flickr.com##div[class^="main view"]:has(a[href$="&ref=sponsored"])
 pinterest.at,pinterest.ca,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt##div[data-test-id="pin"]:has(div[title^="Promoted"])
 twitter.com##div[data-testid="UserCell"]:has(path[d$="10H8.996V8h7v7z"])
