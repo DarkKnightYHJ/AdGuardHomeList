@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3cP7O9rzzfVPu2AEbnJ2og
-! Version: 202401041403
+! Checksum: wZVYVdDr1jADSDDTEKTwew
+! Version: 202401041502
 ! Title: EasyList China+EasyList
-! Last modified: 04 Jan 2024 14:03 UTC
+! Last modified: 04 Jan 2024 15:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -30021,6 +30021,7 @@ _800x80_
 ##.adswidget
 ##.adswiper
 ##.adswitch
+##.adswordatas
 ##.adsystem_ad
 ##.adszone
 ##.adt-300x250
@@ -53195,6 +53196,7 @@ browsershots.org#@#.advert_area
 ||kutdbbfy.xyz^
 ||kutjilsi.com^
 ||kuttarmufti.com^
+||kuwhetsa.net^
 ||kuwooque.com^
 ||kuyncvkntfke.com^
 ||kvaaa.com^
@@ -76684,6 +76686,7 @@ browsershots.org#@#.advert_area
 ||creative.imagetwistcams.com^$subdocument
 ||creative.kbnmnl.com^
 ||creative.myasian.live/widgets/
+||creative.ohmycams.com^
 ||creative.strip.chat^
 ||creative.stripchat.com^
 ||creative.stripchat.global^
@@ -77942,7 +77945,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|adblockeronsta
 ||daftporn.com/nb_
 ||dailyporn.club/at/code.php
 ||dailyporn.club/nba/
-||darknessporn.com/prerolls/
+||darknessporn.com/prrls/
 ||dcraddock.uk/frame/
 ||dcraddock.uk/images/b/
 ||deepxtube.com/zips/
@@ -84271,6 +84274,7 @@ cockdude.com##.after-boxes-ver2
 hentaidude.xxx##.ai_widget
 hentai2read.com##.alert-danger
 dvdgayonline.com##.aligncenter
+punishworld.com##.alrt-ver2
 freeadultcomix.com##.anuncios
 hotmovs.com##.app-banners
 hotmovs.tube##.app-banners__wrapper
@@ -84475,7 +84479,7 @@ pornfaia.com##.footer-bnrz
 youporn.com,youporngay.com##.footer-element-container
 pornburst.xxx##.footer-iframe
 4tube.com##.footer-la-jesi
-4kporn.xxx,alotporn.com,amateurporn.co,camstreams.tv,danude.com,fpo.xxx,scatxxxporn.com,xasiat.com##.footer-margin
+4kporn.xxx,alotporn.com,amateurporn.co,camstreams.tv,danude.com,fpo.xxx,hoes.tube,scatxxxporn.com,xasiat.com##.footer-margin
 cliniqueregain.com##.footer-promo
 cbhours.com##.footer-section
 pornhd.com##.footer-zone
@@ -85112,19 +85116,16 @@ porndoe.com,redtube.com##video[autoplay][src*="blob:" i]
 porndoe.com,redtube.com##video[autoplay][src*="data:" i]
 ! :has()
 kimochi.info##.gridlove-posts > .layout-simple:has(.gridlove-archive-ad)
+darknessporn.com,familyporner.com,freepublicporn.com,pisshamster.com,punishworld.com,xanimu.com##.no-gutters > .col-6:has(> #special-block)
+jav4tv.com##aside:has(.ads_300_250)
 !! Advanced element hiding rules for Adblock Plus
 4wank.com#?#.video-holder > center > :-abp-contains(/^Advertisement$/)
 crocotube.com#?#.ct-related-videos-title:-abp-contains(Advertisement)
 crocotube.com#?#.ct-related-videos-title:-abp-contains(You may also like)
-darknessporn.com,familyporner.com,freepublicporn.com,pisshamster.com,punishworld.com,xanimu.com#?#.order-1:-abp-has(> div[class^="inside-list-boxes"])
-darknessporn.com,familyporner.com,freepublicporn.com,pisshamster.com,punishworld.com,xanimu.com#?#.order-2:-abp-has(.duration-ad)
 erofus.com#?#div:-abp-has(> .ad)
 hdpornpics.net#?#.money:-abp-has(.century:-abp-contains(ADS))
 hentaicomics.pro#?#.single-portfolio:-abp-has(.xxx-banner)
-hoes.tube#?#.item:-abp-has(> .ads)
 hotmovs.com#?#.block_label--last:-abp-contains(Advertisement)
-jav4tv.com#?#aside:-abp-has(.ads_300_250)
-javtiful.com#?#.related-videos > .row > .pb-3:-abp-has(> .card > .video-tmb[href*="bit.ly"])
 kbjfree.com#?#.relative.w-full:-abp-has(> .video-card[target="_blank"])
 picsporn.net#?#.box:-abp-has(> .dip-exms)
 porn-w.org#?#.align-items-center.list-row:-abp-has(.col:empty)
