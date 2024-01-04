@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UoL5aHkVdXhgpVj4mceX6Q
-! Version: 202401041303
+! Checksum: 3cP7O9rzzfVPu2AEbnJ2og
+! Version: 202401041403
 ! Title: EasyList China+EasyList
-! Last modified: 04 Jan 2024 13:03 UTC
+! Last modified: 04 Jan 2024 14:03 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -84040,6 +84040,7 @@ porndr.com###PD-Under-player
 deviants.com###_iframe_content
 swfchan.com###aaaa
 javgg.net###adlink
+h-flash.com###ads_2
 badassbitch.pics###adv
 flyingjizz.com###adv_inplayer
 milffox.com###advertising
@@ -84140,7 +84141,7 @@ youporngay.com###pbs_block
 ggjav.com,ggjav.tv###pc_instant
 imagearn.com###picBanner
 7mmtv.tv###player-container
-hentai2w.com,iporntoo.com,pornxt.com,xhentai.tv###playerOverlay
+hentai2w.com,iporntoo.com,xhentai.tv###playerOverlay
 ebony8.com,lesbian8.com,maturetubehere.com###player_add
 redtube.com###popsByTrafficJunky
 jav321.com###popup-container
@@ -84189,6 +84190,7 @@ theboobsblog.com###text-74
 hentai-sharing.net###text-9
 theboobsblog.com###text-94
 69gfs.com,allureamateurs.net,mataporno.com,sexmummy.com,teenwantme.com,worldgatas.com,xpg.com.br###topbar
+ohentai.org###topdetailad
 motherless.com###topsites
 pussycatxx.com###tracking-url
 creampietubeporn.com,fullxxxtube.com,xxxxsextube.com###ubr
@@ -84201,6 +84203,7 @@ kisscos.net###v-overlay
 homemoviestube.com###v_right
 xvideos.com###video-sponsor-links
 drtuber.com###video_list_banner
+hentaiplay.net###video_overlays
 redtube.com###video_right_col > .clearfix
 thisav.com###vjs-banner-container
 mrstiff.com###xdv-preroll
@@ -84431,6 +84434,7 @@ rule34.xxx##.desktop
 theyarehuge.com##.desktop-spot
 inxxx.com,theyarehuge.com##.desktopspot
 cartoonpornvideos.com##.detail-side-banner
+hentaicity.com##.detail-side-bnr
 spankbang.mov##.div_pop
 xxxporn.pics##.download
 sexvid.porn,sexvid.pro,sexvid.xxx##.download_link
@@ -85106,6 +85110,8 @@ xxxcomics.org##video
 porndoe.com,tube8.es,tube8.fr,youporngay.com##video[autoplay]
 porndoe.com,redtube.com##video[autoplay][src*="blob:" i]
 porndoe.com,redtube.com##video[autoplay][src*="data:" i]
+! :has()
+kimochi.info##.gridlove-posts > .layout-simple:has(.gridlove-archive-ad)
 !! Advanced element hiding rules for Adblock Plus
 4wank.com#?#.video-holder > center > :-abp-contains(/^Advertisement$/)
 crocotube.com#?#.ct-related-videos-title:-abp-contains(Advertisement)
