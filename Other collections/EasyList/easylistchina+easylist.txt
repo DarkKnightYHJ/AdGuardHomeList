@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: btLVn+yvPk4xqOopOE7CGw
-! Version: 202401050051
+! Checksum: jlRPvlcxF0w13Hsa6Bx2nA
+! Version: 202401050141
 ! Title: EasyList China+EasyList
-! Last modified: 05 Jan 2024 00:51 UTC
+! Last modified: 05 Jan 2024 01:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -23,6 +23,7 @@
 -*-*-*-*.as^$script,third-party
 -*-*-*-*.panda^$script,third-party
 -1316632262.cos.
+/media/fitad/*
 -1316899192.cos.
 -1688-wp-media/ads/
 -90mh-gg.
@@ -2947,6 +2948,8 @@ newduba.cn###jq_youxi
 ||avvfjhg.xyz^
 ||szmkr.cn^
 ||sd2ua.icu^
+##A[href*="/dsf88.cc"]
+||upyerxzn.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 !
@@ -11035,6 +11038,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||mddcloud.*/oweApi/ad/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+acgfta.com##A[href^="https://ifift.com/"]
+hqyman.cn##a[href="https://hqyman.cn/taobao/"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
