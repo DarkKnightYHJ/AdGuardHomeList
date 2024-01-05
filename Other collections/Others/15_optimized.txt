@@ -1,9 +1,9 @@
-! Checksum: ZhBz1OumKNb4IM7X7i+Ucw
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1704436535-3600.patch
+! Checksum: S1Y/YerjT6t0AlA9thZqIg
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1704458153-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.60.11
-! TimeUpdated: 2024-01-05T06:31:55+00:00
+! Version: 2.0.60.12
+! TimeUpdated: 2024-01-05T12:31:58+00:00
 ! Expires: 5 days (update frequency)
 ||dotercouther.uno^
 ||overlapparians.com^
@@ -39207,6 +39207,7 @@ vkcdnservice.appspot.com^
 ||affex.org^
 ||tagman.britishairways.com^
 |piwik.
+||prdwebcollector.ruetracking.com^
 ||analytics-api.invideo.io^
 ||tr.staff-start.com^
 ||rtnl.bxcl.de^
@@ -49975,6 +49976,7 @@ inapps.appsflyersdk.com^
 ||adtima.org^
 ||adv.anhsangvacuocsong.vn^
 ||adv.autosurf.vn^
+||adv.baoangiang.com.vn^
 ||adv.baotintuc.vn^
 ||adv.baovemoitruong.org.vn^
 ||adv.thuvienphapluat.vn^
@@ -50156,6 +50158,7 @@ inapps.appsflyersdk.com^
 ||log.tapchimattran.vn^
 ||log.tapchitaichinh.vn^
 ||log.theleader.vn^
+||log.thuonggiaonline.vn^
 ||log.tienphong.vn^
 ||log.tieudungthoinay.vn^
 ||log.tinnhac.com^
@@ -51647,6 +51650,9 @@ inapps.appsflyersdk.com^
 ||sd2ua.icu^
 ||upyerxzn.xyz^
 ||bpyerxzn.xyz^
+||szbpf.cn^
+||xpyerxzn.xyz^
+||tpyerxzn.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 ||01v62.xyz^
