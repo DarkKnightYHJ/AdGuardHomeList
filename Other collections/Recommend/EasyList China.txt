@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: oSnHEau+uCJzcPq3hD7tXg
-! Version: 202401061302
+! Checksum: 9+sVzexg7agjAaeYMvUXCw
+! Version: 202401061402
 ! Title: EasyList China
-! Last modified: 06 Jan 2024 13:02 UTC
+! Last modified: 06 Jan 2024 14:02 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -988,7 +988,7 @@ newduba.cn###jq_youxi
 ###piao_div_3[style*="width:140px;"]
 ###piao_div_4[style*="width:140px;"]
 ###piao_div_5[style*="width:140px;"]
-###player > #ADtip
+###ADtip
 ###player-bottom-ads
 ###playerAdvLayer
 ###player_banner[style*="fixed;"]
@@ -2969,6 +2969,7 @@ newduba.cn###jq_youxi
 ||szpbg.cn^
 ||togtrmjz.xyz^
 ||hjdha.cn^
+||mogtrmjz.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 !
@@ -11053,10 +11054,14 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzc.cn/b1/live_b_
 ||zzsky.com/images/a_d_
 ||zztongyun.com/static/js/sh.
+||hkjunkcall.com/images/b_banner_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+junk-call.com##.banner
+hkjunkcall.com##.ads
+taiwancall.com##.gad
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2

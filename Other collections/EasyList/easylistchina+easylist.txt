@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Dgw4rD+mGV6/3aaTpEJDOg
-! Version: 202401061302
+! Checksum: InfTJGFZ6TXQnswwo+9x+A
+! Version: 202401061402
 ! Title: EasyList China+EasyList
-! Last modified: 06 Jan 2024 13:02 UTC
+! Last modified: 06 Jan 2024 14:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -990,7 +990,7 @@ newduba.cn###jq_youxi
 ###piao_div_3[style*="width:140px;"]
 ###piao_div_4[style*="width:140px;"]
 ###piao_div_5[style*="width:140px;"]
-###player > #ADtip
+###ADtip
 ###player-bottom-ads
 ###playerAdvLayer
 ###player_banner[style*="fixed;"]
@@ -2971,6 +2971,7 @@ newduba.cn###jq_youxi
 ||szpbg.cn^
 ||togtrmjz.xyz^
 ||hjdha.cn^
+||mogtrmjz.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 !
@@ -11055,10 +11056,14 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzc.cn/b1/live_b_
 ||zzsky.com/images/a_d_
 ||zztongyun.com/static/js/sh.
+||hkjunkcall.com/images/b_banner_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+junk-call.com##.banner
+hkjunkcall.com##.ads
+taiwancall.com##.gad
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -84100,6 +84105,7 @@ infographicjournal.com#?#.et_pb_module:-abp-contains(Partners)
 infographicjournal.com#?#.et_pb_module:-abp-contains(Partners) + .et_pb_module
 telugupeople.com#?#table:-abp-has(>tbody >tr>td>a:-abp-contains(Advertisements))
 yelp.at,yelp.be,yelp.ca,yelp.ch,yelp.cl,yelp.co.jp,yelp.co.nz,yelp.co.uk,yelp.com,yelp.com.ar,yelp.com.au,yelp.com.br,yelp.com.hk,yelp.com.mx,yelp.com.ph,yelp.com.sg,yelp.com.tr,yelp.cz,yelp.de,yelp.dk,yelp.es,yelp.fi,yelp.fr,yelp.ie,yelp.it,yelp.my,yelp.nl,yelp.no,yelp.pl,yelp.pt,yelp.se#?#main[class^="searchResultsContainer"] li h2:-abp-contains(Sponsored)
+bleepingcomputer.com#?#.post_wrap:-abp-contains(AdBot)
 bolnews.com#?#[style*="center"]:-abp-contains(Ad)
 booking.com#?#div[data-testid="property-card"]:-abp-has(span:-abp-contains(Promoted))
 china.ahk.de#?#.b-main__section:-abp-has(h2.homepage-headline:-abp-contains(Advertisement))
