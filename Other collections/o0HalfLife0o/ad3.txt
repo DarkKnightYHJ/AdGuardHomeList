@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CifgV5lyf81UCGapeE2LZw
+! Checksum: 1IQjwVCZfhvL7Lu4aKirww
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202401070801
-! Last Modified: 2024年01月07日 08:01
+! Version: 202401071400
+! Last Modified: 2024年01月07日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -3119,6 +3119,17 @@ newduba.cn###jq_youxi
 ||zzbmxl.xyz^
 ||zzyy17.top^
 ||zzyy18.top^
+||lhzxbp.xyz^
+||kuoizbtl.xyz^
+||ugkpsi.xyz^
+||bhktalt.cn^
+||yfzpxnb.xyz^
+||fjhrq.xyz^
+||aojeet.icu^
+||uuoizbtl.xyz^
+||lkrv.top^
+||szmty.cn^
+||buoizbtl.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -16814,6 +16825,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@/adpro.js$domain=tingfm.com
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
@@ -23572,6 +23584,7 @@ m.babytree.com##script + a[class]
 /sessioncam.js
 /sessioncam.min.$script
 /sessioncam.recorder.js
+/SessionHit.aspx?
 /set-cookie.gif?
 /set_cookie.php?
 /set_optimizely_cookie.js
@@ -32215,6 +32228,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pix.spot.im^
 ||pixel-a.basis.net^
 ||pixel.ampry.com^
+||pixel.anyclip.com^
 ||pixel.archipro.co.nz^
 ||pixel.blivenyc.com^
 ||pixel.byspotify.com^
@@ -34729,6 +34743,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||eharmony.ca/fd/
 ||eharmony.co.uk/bd/
 ||eighten-bloc-party.thebrowser.company/script.js
+||ejlytics.editorji.com^
 ||elitesingles.com/cs/tp.png?
 ||embed.reddit.com/svc/shreddit
 ||engagefront.meteomedia.com^
@@ -35700,6 +35715,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||walmart.ca/api/home-page/logger
 ||walmart.ca/api/landing-page/beacon-logger
 ||walmartimages.com/dfw/4ff9c6c9-d9a0/$domain=walmart.com
+||wapn1.flosports.tv^
 ||wattpad.com/js/tracker/app.
 ||wc.yahoodns.net^$image
 ||wccftech.com/cnt7vfDVvWa3.js
