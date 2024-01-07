@@ -1,9 +1,9 @@
-! Checksum: 4U2XNn/EGzvivevyCeOlug
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1704609353-3600.patch
+! Checksum: +t7FzU2OMdnuk69ENutlDw
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1704630985-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.60.19
-! TimeUpdated: 2024-01-07T06:31:56+00:00
+! Version: 2.0.60.20
+! TimeUpdated: 2024-01-07T12:32:28+00:00
 ! Expires: 5 days (update frequency)
 ||justey.com^
 ||hrkplkgjs.com^
@@ -33965,6 +33965,7 @@ vkcdnservice.appspot.com^
 ||ad.kubiccomps.icu^
 ||ad.netmedia.hu^
 ||ad.reklamport.com^
+||ad.tpmn.co.kr^
 ||ad.video-mech.ru^
 ||ad.wsod.com^
 ||adinplay-venatus.workers.dev^
@@ -34174,6 +34175,7 @@ vkcdnservice.appspot.com^
 ||d1ac2du043ydir.cloudfront.net^
 ||d1aezk8tun0dhm.cloudfront.net^
 ||d1aiciyg0qwvvr.cloudfront.net^
+||d1ap9gbbf77h85.cloudfront.net^
 ||d1appgm50chwbg.cloudfront.net^
 ||d1aqvw7cn4ydzo.cloudfront.net^
 ||d1aukpqf83rqhe.cloudfront.net^
@@ -49723,6 +49725,7 @@ inapps.appsflyersdk.com^
 ||delivery.vtc.vn^
 ||delivery.vtcnew.com.vn^
 ||delivery.vtcnews.vn^
+||distinctrobin.com^
 ||donglogs.com^
 ||elogs.vnexpress.net^
 ||eva-ad.24hstatic.com^
@@ -49754,6 +49757,7 @@ inapps.appsflyersdk.com^
 ||la3.vnecdn.net^
 ||lavamedia.vn^
 ||lavanetwork.net^
+||lio.aiservice.vn^
 ||log-*.epicdn.me^
 ||log-*.zadn.vn^
 ||log-vietnamplus-vn.cdn.ampproject.org^
@@ -50020,6 +50024,7 @@ inapps.appsflyersdk.com^
 ||ads.xedoisong.vn^
 ||ads.xemphimso.com^
 ||ads.xemtivisohd.net^
+||ads.zunia.vn^
 ||ads1.careerbuilder.vn^
 ||ads8.fpt.vn^
 ||adserver.lag.vn^
@@ -50154,7 +50159,6 @@ inapps.appsflyersdk.com^
 ||file-subiz.com^
 ||financial-agent.headlines.pw^
 ||follow.vnay.vn^
-||gamma.cachefly.net^
 ||go.vnecdn.com^
 ||gtm.saostar.vn^
 ||gtmjs.com^
@@ -50162,6 +50166,7 @@ inapps.appsflyersdk.com^
 ||hexapinow.xyz^
 ||hit.123c.vn^
 ||iads.staticscdn.net^
+||iads.vision^
 ||imgcdnbet.com^
 ||interactive.tinnhanhchungkhoan.vn^
 ||intranet.dcorp.com.vn^
@@ -51740,6 +51745,9 @@ inapps.appsflyersdk.com^
 ||lkrv.top^
 ||szmty.cn^
 ||buoizbtl.xyz^
+||xuoizbtl.xyz^
+||dnn1300.top^
+||tuoizbtl.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 ||01v62.xyz^
