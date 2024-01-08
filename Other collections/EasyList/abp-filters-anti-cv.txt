@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: T4jXhDSuepQWRFXP9a98MQ
-! Version: 202401081003
+! Checksum: NLC9YdwYBWQsXBo97tOkDw
+! Version: 202401081102
 ! Title: ABP filters
-! Last modified: 08 Jan 2024 10:03 UTC
+! Last modified: 08 Jan 2024 11:02 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1060,6 +1060,7 @@ japscan.cc,japscan.com,japscan.se,japscan.to,japscan.ws#$#abort-on-property-read
 jpscan-vf.com#$#abort-on-property-read __formatsGetters
 blablastream.rip,frstream.rip,nusaslots.one,papadustream.co,papystreamings.com,voirseries.rip#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
 ianime-fr.com#$#abort-on-property-read document.createElement
+1freebb.com,babaorum.info,bboard.it,bestforum4u.com,bestforumforyou.com,bestoof.com,bestthread.com,bigboardlive.com,bigforum4you.com,boardforyou.com,cforum.info,clicforum.com,clicforum.fr,coolforum.info,discuforum.info,discussionforyou.com,ebboard.com,fansforum.info,forum-box.com,forumdesfans.com,forumforever.com,forumserv.com,hereboard.com,hotforum4u.com,hotforumonline.com,leforum.cc,leforum.eu,leforum.tv,level52.com,lolforum.com,lolforum.info,majz.com,myforumlive.com,newforumlive.com,ogameteam.com,phpboard1.com,positiforum.info,quickforum.info,smileforum.info,soforums.com,theforumcity.com,topbboard.com,urtopic.com,vraiforum.com,webrpg.info,xoo.it,xooit.be,xooit.biz,xooit.cc,xooit.co.uk,xooit.com,xooit.eu,xooit.fr,xooit.info,xooit.org,xooit.org.uk,xooit.tv#$#abort-on-property-read document.body.style.backgroundPosition
 streaminfr.com#$#abort-on-property-read pushADs
 linfoweb.com#$#abort-on-property-write num
 down-paradise.com,mega-p2p.net#$#abort-on-property-read open
