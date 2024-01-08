@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Xn8TABNhjX+9Hiwhs92yJg
+! Checksum: GDg9j0ASbakBATfl42HztA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202401060200
-! Last Modified: 2024年01月06日 02:00
+! Version: 202401082000
+! Last Modified: 2024年01月08日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1059,6 +1059,7 @@ japscan.cc,japscan.com,japscan.se,japscan.to,japscan.ws#$#abort-on-property-read
 jpscan-vf.com#$#abort-on-property-read __formatsGetters
 blablastream.rip,frstream.rip,nusaslots.one,papadustream.co,papystreamings.com,voirseries.rip#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
 ianime-fr.com#$#abort-on-property-read document.createElement
+1freebb.com,babaorum.info,bboard.it,bestforum4u.com,bestforumforyou.com,bestoof.com,bestthread.com,bigboardlive.com,bigforum4you.com,boardforyou.com,cforum.info,clicforum.com,clicforum.fr,coolforum.info,discuforum.info,discussionforyou.com,ebboard.com,fansforum.info,forum-box.com,forumdesfans.com,forumforever.com,forumserv.com,hereboard.com,hotforum4u.com,hotforumonline.com,leforum.cc,leforum.eu,leforum.tv,level52.com,lolforum.com,lolforum.info,majz.com,myforumlive.com,newforumlive.com,ogameteam.com,phpboard1.com,positiforum.info,quickforum.info,smileforum.info,soforums.com,theforumcity.com,topbboard.com,urtopic.com,vraiforum.com,webrpg.info,xoo.it,xooit.be,xooit.biz,xooit.cc,xooit.co.uk,xooit.com,xooit.eu,xooit.fr,xooit.info,xooit.org,xooit.org.uk,xooit.tv#$#abort-on-property-read document.body.style.backgroundPosition
 streaminfr.com#$#abort-on-property-read pushADs
 linfoweb.com#$#abort-on-property-write num
 down-paradise.com,mega-p2p.net#$#abort-on-property-read open
@@ -1505,7 +1506,7 @@ sexdiaryz.us#$#abort-on-property-read parseInt
 linkneverdie.net#$#abort-current-inline-script document.createElement optad;abort-on-property-read pushOnPageGala
 javnong.cc#$#abort-on-property-read Math.round
 viet69.id,ungtycomicsvip.com,truyengihotqua.net,dualeotruyenww.com,yurineko.net,vlxyz.tv,javhay.cam,phimsexhay669.co,cliphot69.biz,doctruyen3qmoi.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,tuoi69.one,top1sex.club,lenlut.net,xemsex.asia,hentai-vn.com,sexphim1.com,cdn.streamvl.sbs,buomtv.tv,motchillzz.in,truyenvnhay.tv#$#abort-current-inline-script WebAssembly instantiate
-animevietsub.fan#$#abort-current-inline-script document.documentElement break;case
+animevietsub.io#$#abort-current-inline-script document.documentElement break;case
 phimdinhcao.net,phimlongtieng.net,phimdinhcao.com#$#abort-on-property-read localStorage
 phimgichill.net#$#abort-current-inline-script jQuery popurl;abort-current-inline-script document.createElement script
 mephimnhe1.net#$#abort-current-inline-script jQuery popurl
