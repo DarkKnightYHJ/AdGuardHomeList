@@ -1,10 +1,12 @@
-! Checksum: qNkK4P5aFcxcYfcQDE0L6A
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1704782162-3600.patch
+! Checksum: B2dh/x1C2fhEPsX6XWGhxg
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1704796587-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.60.27
-! TimeUpdated: 2024-01-09T06:32:11+00:00
+! Version: 2.0.60.28
+! TimeUpdated: 2024-01-09T10:32:30+00:00
 ! Expires: 5 days (update frequency)
+||dwvbfnqrbif.com^
+||despectclogwyn.com^
 ||justey.com^
 ||hrkplkgjs.com^
 ||glowedhyalins.com^
@@ -35721,6 +35723,10 @@ vkcdnservice.appspot.com^
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||pb.adriver.ru^
+||sync.adspend.space^
+||sync.opendsp.ru^
+||sync.programmatica.com^
 ||tracker.smart-bdash.com^
 ||trk.a-dsp.com^
 ||metrics.plaid.com^
@@ -36426,7 +36432,6 @@ vkcdnservice.appspot.com^
 ||analytics.chase.com^
 ||scripttags.jst.ai^
 ||trace21.dsb-ebusiness.com^
-||adjust.com^
 ||a.ddli.jp^
 ||b92.yahoo.co.jp^
 ||cf-native.karte.io^
@@ -39316,6 +39321,9 @@ vkcdnservice.appspot.com^
 ||affex.org^
 ||tagman.britishairways.com^
 |piwik.
+||analytics.msk1.ru^
+||metrics.viqeo.tv^
+||rtb.videonow.ru^
 ||hn-ping*.hashnode.com^
 ||o920916.ingest.sentry.io^
 ||ping.hashnode.com^
@@ -42152,6 +42160,7 @@ inapps.appsflyersdk.com^
 ||ao-freegeoip.herokuapp.com^
 ||api-analytics-prd.pelcro.com^
 ||api.wipmania.com^
+||app.adjust.com^
 ||apple.www.letv.com^
 ||applets.ebxcdn.com^
 ||argos.citruserve.com^
@@ -43755,6 +43764,8 @@ inapps.appsflyersdk.com^
 ||ver-pelis.net^
 ||xclk-integracion.com^
 ||yestorrents.org^
+||cchbdata.net^
+||s.ccsyncuuid.net^
 ||fnasmpygwa.com^
 ||o1qry0qq83.com^
 ||fft.delovoemesto.ru^
@@ -47281,6 +47292,8 @@ inapps.appsflyersdk.com^
 ||vt4dlx.ru^
 ||xifg6h.ru^
 ||zfvklk.ru^
+||exad.smi2.ru^
+||tgb.hsmedia.ru^
 ||market-backend.api.2gis.ru^
 ||sharemefiles.ru^
 ||userdata.ati.su^
@@ -51834,6 +51847,10 @@ inapps.appsflyersdk.com^
 ||ui8l2.xyz^
 ||uzelzfnj.xyz^
 ||bzelzfnj.xyz^
+||szmdp.cn^
+||xzelzfnj.xyz^
+||tzelzfnj.xyz^
+||ljhbhy.cn^
 ||zzyy19.top^
 ||zzyy20.top^
 ||01v62.xyz^
@@ -56498,6 +56515,7 @@ analytics-*.aasaam.com
 @@||forum.notebookreview.com^|
 @@||radiofrance.targetspot.com^|
 @@||awin1.com^|
+@@||app.adjust.com^|
 @@||feed.adrelayer.com^|
 @@||redirect.appmetrica.yandex.com^|
 @@||guce.advertising.com^|
