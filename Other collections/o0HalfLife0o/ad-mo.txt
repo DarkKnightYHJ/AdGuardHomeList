@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: t7JCW+He8yX8fsFomeMUMQ
+! Checksum: mcYyJIbZjPTWI64rAq659Q
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202401091400
-! Last Modified: 2024年01月09日 14:00
+! Version: 202401092000
+! Last Modified: 2024年01月09日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -69912,6 +69912,11 @@ newduba.cn###jq_youxi
 ||ui8l2.xyz^
 ||uzelzfnj.xyz^
 ||bzelzfnj.xyz^
+||szmdp.cn^
+||xzelzfnj.xyz^
+||tzelzfnj.xyz^
+||ljhbhy.cn^
+||adtx2.cn^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -99168,7 +99173,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||drop.com/impressionsBeacon
 ||drop.com/statBeacon
 ||dropbox.com/2/client_metrics
-||dropbox.com/2/ml_platform/log_predictions_events
 ||dropbox.com/2/pap_event_logging
 ||dropbox.com/alternate_
 ||dropbox.com/jse
@@ -126472,7 +126476,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||link.adhdinsight.com^
 ||link.admin.kodakmoments.com^
 ||link.afterpay.com^
-||link.ag.fan^||link.clubmanagergame.com^
+||link.ag.fan^
 ||link.alerts.busuu.app^
 ||link.angelstudios.com^
 ||link.announce.busuu.app^
@@ -126481,6 +126485,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||link.cdl.freshly.com^
 ||link.cheerz.com^
 ||link.clickipo.com^
+||link.clubmanagergame.com^
 ||link.cluno.com^
 ||link.cofyz.com^
 ||link.collectivebenefits.com^
