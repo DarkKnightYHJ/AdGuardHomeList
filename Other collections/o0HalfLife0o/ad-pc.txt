@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PK9sHe0pm0GgraZL3lM+NA
+! Checksum: TL2ZZLlO/mO94LFOpNmvZA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202401090801
-! Last Modified: 2024年01月09日 08:01
+! Version: 202401091400
+! Last Modified: 2024年01月09日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1486,6 +1486,7 @@ tieba.baidu.com##.tuijian-wrap
 /Nuggad?
 /nwm-fcn.min.js
 /nwm-pw2.min.js
+/nxst-advertising/dist/htlbid-advertising.min.js
 /oas-config.
 /oas_ad.
 /oas_ad_
@@ -50708,6 +50709,7 @@ browsershots.org#@#.advert_area
 ||adport.io^$third-party
 ||adpredictive.com^$third-party
 ||adpushup.com^$third-party
+||adquire.com^$third-party
 ||adqva.com^$third-party
 ||adreactor.com^$third-party
 ||adrecord.com^$third-party
@@ -58642,6 +58644,7 @@ browsershots.org#@#.advert_area
 ||ownedcore.com/forums/ocpbanners/
 ||pafvertizing.crazygames.com^
 ||pahaplayers.click/ch/adcashdirect.php
+||pasteheaven.com/assets/images/banners/
 ||pastemagazine.com/common/js/ads-
 ||pastemytxt.com/download_ad.jpg
 ||petrolplaza.net/AdServer/
@@ -59997,9 +60000,7 @@ infotel.ca###desktopBannerFooter
 infotel.ca###desktopBannerTop
 eldersweather.com.au###desktop_new_forecast_top_wxh
 pikalytics.com###dex-list-0
-winaero.com###dfsfsdfs-asdasd-2
 flyordie.com###dgad
-winaero.com###diodfoihdfsd
 realclearpolitics.com###distro_right_rail
 tribunnews.com###div-Inside-MediumRectangle
 designtaxi.com###div-center-wrapper
@@ -61383,7 +61384,7 @@ arcadebomb.com##.bannerext
 2merkato.com,2mfm.org,aps.dz,armyrecognition.com,cbn.co.za,dailynews.co.tz,digitalmediaworld.tv,eprop.co.za,finchannel.com,i-programmer.info,killerdirectory.com,limesurvey.org,pamplinmedia.com,radiolumiere.org,rapidtvnews.com,southfloridagaynews.com,thepatriot.co.bw,usedcarnews.com##.bannergroup
 saigoneer.com##.bannergroup-main
 asianmirror.lk,catholicregister.org,crown.co.za,marengo-uniontimes.com,nikktech.com##.banneritem
-domainnamewire.com,ghostbin.me,i24news.tv,marinetechnologynews.com,maritimepropulsion.com,mumbrella.com.au,paste.fo,petapixel.com,rapidtvnews.com,telesurtv.net,travelpulse.com##.banners
+domainnamewire.com,ghostbin.me,i24news.tv,marinetechnologynews.com,maritimepropulsion.com,mumbrella.com.au,paste.fo,pasteheaven.com,petapixel.com,rapidtvnews.com,telesurtv.net,travelpulse.com##.banners
 theportugalnews.com##.banners-250
 rt.com##.banners__border
 unixmen.com##.banners_home
@@ -63680,6 +63681,7 @@ tech.hindustantimes.com##.topGadgetsAppend
 tutorviacomputer.com##.topMargin15
 click2houston.com,clickondetroit.com,clickorlando.com,ksat.com,local10.com,news4jax.com##.topWrapper
 giveawayoftheday.com,informer.com##.top_ab
+theepochtimes.com##.top_ad
 asmag.com,tiresandparts.net##.top_banner
 joebucsfan.com##.top_banner_cont
 archaeology.org##.top_black
@@ -63858,6 +63860,7 @@ discussingfilm.net,goonhammer.com,joemygod.com,shtfplan.com,thestrongtraveller.c
 wplift.com##.widget_bsa
 techweekmag.com##.widget_codewidget
 4sysops.com,9to5linux.com,backthetruckup.com,catcountry941.com,cnx-software.com,corvetteblogger.com,dailyveracity.com,fastestvpns.com,gamingonphone.com,gizmochina.com,guides.wp-bullet.com,hardwaretimes.com,macsources.com,metalsucks.net,mmoculture.com,nasaspaceflight.com,openloading.com,prepperwebsite.com,quickanswer.blog,sashares.co.za,scienceabc.com,techdows.com,techjuice.pk,thecinemaholic.com,thinkcivics.com,tooxclusive.com,torrentfreak.com,trackalerts.com,trendingpoliticsnews.com##.widget_custom_html
+winaero.com##.widget_custom_html.textwidget.widget
 domaingang.com##.widget_execphp
 bestlifeonline.com,hellogiggles.com##.widget_gm_karmaadunit_widget
 faroutmagazine.co.uk##.widget_grv_mpu_widget
@@ -66521,6 +66524,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||doubleclick.net/ddm/$image,domain=aetv.com|fyi.tv|history.com|mylifetime.com
 @@||edmodo.com/ads$~third-party,xmlhttprequest
 @@||einthusan.tv/prebid.js$script,~third-party
+@@||embed.ex.co^$xmlhttprequest,domain=espncricinfo.com
 @@||entitlements.jwplayer.com^$xmlhttprequest,domain=iheart.com
 @@||experienceleague.adobe.com^$~third-party
 @@||explainxkcd.com/wiki/images/$image,~third-party
@@ -70017,6 +70021,9 @@ newduba.cn###jq_youxi
 ||bhhzlax.xyz^
 ||iincon.icu^
 ||segoyg.xyz^
+||ui8l2.xyz^
+||uzelzfnj.xyz^
+||bzelzfnj.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -95982,6 +95989,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ecustomeropinions.com^*/i.php?
 ||edge-hls.doppiocdn.com/ping
 ||edge-hls.doppiocdn.org/ping
+||edge.adobedc.net^
 ||edge.bredg.com^$third-party
 ||edgesuite.net^*/googleanalyt
 ||edkt.io^*/edgekit.min.js
@@ -100428,6 +100436,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dii.bankaust.com.au^
 ||eventbus.intuit.com^
 ||f775.thehour.com^
+||foxnews.com/static/isa/app/lib/afpid.js
 ||h353.ncadvertiser.com^
 ||h559.stamfordadvocate.com^
 ||halifax-online.co.uk/scripts/16c9d93d/
