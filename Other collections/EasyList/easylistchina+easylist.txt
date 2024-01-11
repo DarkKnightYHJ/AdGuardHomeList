@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7t+QShk+aLMQU6mraVRpNw
-! Version: 202401111851
+! Checksum: NMnTETTR1TSt4Cxszfc9ug
+! Version: 202401112002
 ! Title: EasyList China+EasyList
-! Last modified: 11 Jan 2024 18:51 UTC
+! Last modified: 11 Jan 2024 20:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -37034,10 +37034,12 @@ _800x80_
 ##a[href^="https://ggbetpromo.com/"]
 ##a[href^="https://go.247traffic.com/"]
 ##a[href^="https://go.admjmp.com/"]
+##a[href^="https://go.bbrdbr.com/"]
 ##a[href^="https://go.cmtaffiliates.com/"]
 ##a[href^="https://go.currency.com/"]
 ##a[href^="https://go.dmzjmp.com"]
 ##a[href^="https://go.etoro.com/"] > img
+##a[href^="https://go.gkrtmc.com/"]
 ##a[href^="https://go.gldrdr.com/"]
 ##a[href^="https://go.goaserv.com/"]
 ##a[href^="https://go.goasrv.com/"]
@@ -75586,6 +75588,7 @@ browsershots.org#@#.advert_area
 ||adinplay-venatus.workers.dev^
 ||adncdnend.azureedge.net^
 ||adrackpush.azurewebsites.net^
+||ads-api.production.nebula-drupal.stuff.co.nz^
 ||ads-yallo-production.imgix.net^
 ||ads.betfair.com^
 ||ads.linkedin.com^$third-party
@@ -76940,6 +76943,7 @@ browsershots.org#@#.advert_area
 ||ggbetapk.com^$popup,third-party
 ||ggbetery.net^$popup
 ||ggbetpromo.com^$popup
+||global-adblocker.com^$popup
 ||go.aff.estrelabetpartners.com^$popup
 ||go.camterest.com^$popup
 ||google.com/favicon.ico$popup
@@ -76955,6 +76959,7 @@ browsershots.org#@#.advert_area
 ||lpquizzhubon.com^$popup
 ||luckyforbet.com^$popup
 ||mackeeperaffiliates.com^$popup
+||mymusichistory4u.com^$popup
 ||ntrfr.leovegas.com^$popup
 ||ourcoolstories.com^$popup
 ||paid.outbrain.com^$popup
@@ -81336,6 +81341,7 @@ realmadrid.com##.head_sponsors
 additudemag.com,organicfacts.net##.header-ad
 boldsky.com##.header-ad-block
 olympics.com,scmp.com##.header-ad-slot
+thepost.co.nz##.header-ads-block
 worldpress.org##.header-b
 adswikia.com,freemalaysiatoday.com,landandfarm.com,pointblanknews.com,radiotoday.com.au,runt-of-the-web.com,rxresource.org,techworldgeek.com,warisboring.com##.header-banner
 gamingdeputy.com##.header-banner-desktop
@@ -84252,7 +84258,7 @@ youtube.com###main > #banner.ytd-merch-shelf-renderer
 youtube.com###masthead-ad > .ytd-rich-grid-renderer
 youtube.com###panels > [target-id="engagement-panel-ads"]
 youtube.com###related > div#player-ads
-youtube.com###scroll-container > #items.ytd-merch-shelf-renderer
+! youtube.com###scroll-container > #items.ytd-merch-shelf-renderer
 youtube.com###ytd-player button.ytp-suggested-action-badge
 youtube.com##.ytp-chrome-top-buttons > .ytp-cards-teaser
 m.youtube.com##lazy-list > ad-slot-renderer
