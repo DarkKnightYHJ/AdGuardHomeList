@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jUzwqyTBVeiFjHIizyMjJg
-! Version: 202401121002
+! Checksum: Wb8ey/41NekVDlLRSeBo4w
+! Version: 202401121102
 ! Title: EasyList
-! Last modified: 12 Jan 2024 10:02 UTC
+! Last modified: 12 Jan 2024 11:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -63867,7 +63867,6 @@ jobstreet.com.sg##[data-automation="homepage-marketing-banner-ads"]
 newshub.co.nz##[data-belt-widget]
 costco.ca##[data-bi-placement="Criteo_Product_Display_Page_Espot"]
 chron.com,seattlepi.com,sfchronicle.com,timesunion.com##[data-block-type="ad"]
-amazon.com##[data-car-metrics-id]
 theblaze.com##[data-category="SPONSORED"]
 gab.com##[data-comment="gab-ad-comment"]
 curbed.com##[data-concert="prelude"]
@@ -64837,6 +64836,7 @@ amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##.s-result-list > .a-section:has(.sbv-ad-content-container)
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##.sbv-video-single-product
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##[cel_widget_id*="-creative-desktop_loom-desktop-"]
+amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##[data-card-metrics-id]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div.s-inner-result-item > div.sg-col-inner:has(a.puis-sponsored-label-text)
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id*="Deals3Ads"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id*="_ad-placements-"]
@@ -64992,17 +64992,18 @@ yahoo.com##div[id^="gemini-item-"]
 yahoo.com##div[style*="/ads/"]
 yahoo.com##li[data-test-locator="stream-related-ad-item"]
 ! youtube
+youtube.com###contents > ytd-item-section-renderer.ytd-section-list-renderer.style-scope > #contents > ytd-ad-slot-renderer
 youtube.com###primary > .ytd-two-column-browse-results-renderer.style-scope > #masthead-ad.ytd-rich-grid-renderer > .ytd-rich-grid-renderer.style-scope > .ytd-banner-promo-renderer.style-scope
 youtube.com##.grid-disabled.grid.ytd-browse.style-scope > .ytd-two-column-browse-results-renderer.style-scope > .ytd-two-column-browse-results-renderer > #masthead-ad.ytd-rich-grid-renderer > .ytd-rich-grid-renderer > #fulfilled-layout.ytd-ad-slot-renderer.style-scope
 m.youtube.com##lazy-list > ad-slot-renderer
 youtube.com##ytd-browse.ytd-page-manager.style-scope > .grid-disabled > #primary > .ytd-two-column-browse-results-renderer > #masthead-ad > .ytd-rich-grid-renderer.style-scope
 youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope > #contents > ytd-search-pyv-renderer.ytd-item-section-renderer
 youtube.com##ytd-item-section-renderer.ytd-watch-next-secondary-results-renderer.style-scope > .ytd-item-section-renderer.style-scope > ytd-ad-slot-renderer.ytd-item-section-renderer > .ytd-ad-slot-renderer.style-scope
-youtube.com##ytd-rich-item-renderer:has(ytd-display-ad-renderer)
 youtube.com##ytd-two-column-browse-results-renderer > #primary > ytd-rich-grid-renderer > #contents > ytd-rich-grid-row > #contents > ytd-rich-item-renderer > #content > ytd-ad-slot-renderer.ytd-rich-item-renderer
 youtube.com##ytd-two-column-browse-results-renderer > #primary > ytd-rich-grid-renderer > #contents > ytd-rich-grid-row > #contents > ytd-rich-item-renderer:has(> #content.ytd-rich-item-renderer > ytd-ad-slot-renderer.ytd-rich-item-renderer)
 youtube.com##ytd-watch-flexy > #columns > #primary > #primary-inner > #below > ytd-merch-shelf-renderer > #main > #banner.ytd-merch-shelf-renderer
 youtube.com##ytd-watch-flexy > #columns > #primary > #primary-inner > #below > ytd-merch-shelf-renderer > #main > #item-list > #scroll-container > #items.ytd-merch-shelf-renderer[style="transform: translateX(0px);"]
+youtube.com##ytd-watch-flexy > #columns > #secondary > #secondary-inner > #related > #player-ads.style-scope.ytd-watch-flexy
 youtube.com##ytd-watch-flexy > #columns > #secondary > #secondary-inner > #related > ytd-watch-next-secondary-results-renderer > #items > ytd-ad-slot-renderer.ytd-watch-next-secondary-results-renderer
 ! Site Specific filters (used with $generichide)
 thefreedictionary.com###Content_CA_AD_0_BC
