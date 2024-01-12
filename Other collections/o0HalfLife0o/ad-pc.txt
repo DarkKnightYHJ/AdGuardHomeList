@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: moUXHKnXaNAjf6cFfnE+yA
+! Checksum: Qy7/PY/zXCoQQOzVPD0/GA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202401122000
-! Last Modified: 2024年01月12日 20:00
+! Version: 202401130200
+! Last Modified: 2024年01月13日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -59556,6 +59556,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|adblockeronsta
 ||go.pornav.net^
 ||go.stripchat.beeg.com^
 ||go.strpjmp.com^
+||haes.tech/js/script_
 ||hanime.xxx/wp-content/cache/wpfc-minified/fggil735/fa9yi.js
 ||hd21.*/templates/base_master/js/jquery.shows2.min.js
 ||hdporn24.org/vcrtlrvw/
@@ -60711,7 +60712,6 @@ ghacks.net###snhb-snhb_ghacks_bottom-0
 who-called.co.uk###snigel_ads-mobile
 thedriven.io###solarchoice_banner_1
 wcny.org###soliloquy-12716
-flaticon.com###soul-p
 toumpano.net###sp-feature
 hilltimes.com###sp-mini-box
 toumpano.net###sp-right
@@ -61304,7 +61304,6 @@ prokerala.com##.adm-unit
 goldderby.com##.adma
 brickset.com##.admin.buy
 web-dev-qa-db-fra.com##.adn-ar
-flaticon.com##.adobe
 freepik.com##.adobe-coupon-container
 freepik.com##.adobe-detail
 freepik.com##.adobe-grid-design
@@ -61949,6 +61948,7 @@ washingtontimes.com##.connatixcontainer
 beincrypto.com##.cont-wrapper
 whatismyip.net##.container > .panel[id]
 redditsave.com##.container > center
+flaticon.com##.container > section[data-term].soul-a.soul-p-nsba
 marketwatch.com##.container--sponsored
 mangakakalot.com##.container-chapter-reader > div
 snazzymaps.com##.container-gas
@@ -63656,7 +63656,6 @@ songfacts.com##.songfacts-song-inline-ads
 greatandhra.com##.sortable-item_top_add123
 khmertimeskh.com##.sow-slider-image
 freeonlineapps.net##.sp
-flaticon.com##.sp-slidesgo-container
 quora.com##.spacing_log_question_page_ad
 theloadout.com##.sparta-ad-injector-potential-slot
 infoq.com##.spns
@@ -64579,7 +64578,6 @@ techporn.ph##a[href][target*="blank"]
 rarbg.to,rarbgaccess.org,rarbgmirror.com,rarbgmirror.org,rarbgproxy.com,rarbgproxy.org,rarbgunblock.com,rarbgunblocked.org##a[href][target="_blank"] > button
 tractorbynet.com##a[href][target="_blank"] > img[class^="attachment-large"]
 mtaeta.info##a[href][target="_blank"] > img[src^="http://storage2.proboards.com/"]
-flaticon.com##a[href^="//www.flaticon.com/edge/redirect?"]
 codapedia.com##a[href^="/ad-click.cfm"]
 graphic.com.gh##a[href^="/adverts/"]
 audiobookbay.is##a[href^="/dl-14-days-trial"]
@@ -65034,6 +65032,7 @@ bestbuy.com##li.embedded-sponsored-listing
 linkedin.com##li[data-is-sponsored="true"]
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##li[data-layout="products"]
 duckduckgo.com##li[data-layout="products_middle"]
+flaticon.com##li[id^="bn-icon-list"]
 linkvertise.com##lv-redirect-static-ad
 linkvertise.com##lv-taboola-ctr-ad-dummy
 aniwatcher.com##main > [href] > [src]
@@ -65219,7 +65218,6 @@ amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##.s-result-list > .a-section:has(.sbv-ad-content-container)
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##.sbv-video-single-product
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##[cel_widget_id*="-creative-desktop_loom-desktop-"]
-amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##[data-card-metrics-id]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div.s-inner-result-item > div.sg-col-inner:has(a.puis-sponsored-label-text)
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id*="Deals3Ads"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id*="_ad-placements-"]
@@ -65607,6 +65605,7 @@ imagebam.com###cs-link
 hentaiprn.com###custom_html-19
 celebritymovieblog.com,interracial-girls.com###custom_html-2
 watchjavonline.com###custom_html-3
+zhentube.com###custom_html-38
 dpfantasy.org,hotcelebshome.com###custom_html-4
 hentai7.top###custom_html-6
 eporner.com###deskadmiddle
@@ -65729,7 +65728,7 @@ theboobsblog.com###text-94
 69gfs.com,allureamateurs.net,mataporno.com,sexmummy.com,teenwantme.com,worldgatas.com,xpg.com.br###topbar
 ohentai.org###topdetailad
 motherless.com###topsites
-pussycatxx.com###tracking-url
+pussycatxx.com,zhentube.com###tracking-url
 creampietubeporn.com,fullxxxtube.com,xxxxsextube.com###ubr
 hd-easyporn.com###udwysI3c7p
 usasexguide.nl###uiISGAdFooter
@@ -69040,6 +69039,7 @@ newduba.cn###jq_youxi
 ||aispyd.icu^
 ||ajbpcxi.xyz^
 ||aknkvallbfml.com^
+||aknusp.cn^
 ||albsgdq.cn^
 ||alchemeeten.com^
 ||alwaysc.com^
@@ -69087,6 +69087,7 @@ newduba.cn###jq_youxi
 ||bcovazp.icu^
 ||bcqnbge.cn^
 ||bctxtl.xyz^
+||bdjdpyrt.xyz^
 ||bdlexn.xyz^
 ||bdsahkln.xyz^
 ||bdzdd2-sdd53-vxc.com^
@@ -69207,6 +69208,7 @@ newduba.cn###jq_youxi
 ||deanth.xyz^
 ||demifa.top^
 ||df-long.cn^
+||df63x.xyz^
 ||dfg6.top^
 ||dfninp.xyz^
 ||dfxvkgz.xyz^
@@ -69313,6 +69315,7 @@ newduba.cn###jq_youxi
 ||fsgiosi.com^
 ||ftzzbx.xyz^
 ||fuvbbjl.xyz^
+||fwffa.cn^
 ||fwhhcpj.xyz^
 ||fxbcc.cyou^
 ||fxkfhbn.xyz^
@@ -69507,10 +69510,12 @@ newduba.cn###jq_youxi
 ||jmylj.cn^
 ||jndxsuy.xyz^
 ||jnkmhn.com^
+||jnwpzq.com^
 ||jofknbpe.xyz^
 ||jppxnhe.xyz^
 ||jqtkzuco.xyz^
 ||jqvajfvs.xyz^
+||jsjtjj.xyz^
 ||jspqhh.xyz^
 ||jubbkon.top^
 ||judthih.cn^
@@ -69531,10 +69536,12 @@ newduba.cn###jq_youxi
 ||kaaqgf.icu^
 ||kaezakkjt.com^
 ||kafuzcxr.xyz^
+||kbayke.xyz^
 ||kbbrptv.xyz^
 ||kbzs88.com^
 ||kdgjsf.com^
 ||kdh095.cn^
+||kdjdpyrt.xyz^
 ||kdsahkln.xyz^
 ||kebohjhh.xyz^
 ||kekmhvbb.xyz^
@@ -69605,6 +69612,7 @@ newduba.cn###jq_youxi
 ||lckjqtx.xyz^
 ||ldvnehc.xyz^
 ||leidad.xyz^
+||leizylb.icu^
 ||lejshxao.xyz^
 ||lemida.xyz^
 ||lewhrzv.xyz^
@@ -69618,6 +69626,7 @@ newduba.cn###jq_youxi
 ||liuyi22.cn^
 ||liuyuhuaa.cn^
 ||ljhbhy.cn^
+||ljpbtjq.xyz^
 ||lkdybkwi.xyz^
 ||lkenflknkd.com^
 ||lkoqtvvajktpjsk.xyz^
@@ -69665,6 +69674,7 @@ newduba.cn###jq_youxi
 ||mcds7.icu^
 ||mcds9.icu^
 ||mdezco.xyz^
+||mdjdpyrt.xyz^
 ||mdsahkln.xyz^
 ||mebohjhh.xyz^
 ||mefiafd.top^
@@ -69780,6 +69790,7 @@ newduba.cn###jq_youxi
 ||oe3.top^
 ||oehcxmhk.xyz^
 ||oektiu.xyz^
+||ogouawc.cn^
 ||ogxstqna.xyz^
 ||ohdvafp.xyz^
 ||ohopao.xyz^
@@ -69977,6 +69988,7 @@ newduba.cn###jq_youxi
 ||tcgaqh.icu^
 ||tcvmtp.xyz^
 ||tdhlmto.cn^
+||tdjdpyrt.xyz^
 ||tdsahkln.xyz^
 ||teamjwar.com^
 ||tebohjhh.xyz^
@@ -70046,12 +70058,14 @@ newduba.cn###jq_youxi
 ||ucjevgue.xyz^
 ||uckgqa.xyz^
 ||udb3n.icu^
+||udjdpyrt.xyz^
 ||udpdmeb.cn^
 ||udsahkln.xyz^
 ||uebipacy.xyz^
 ||uebohjhh.xyz^
 ||uekmhvbb.xyz^
 ||uflybplr.xyz^
+||ugbler.icu^
 ||ugkpsi.xyz^
 ||ugpibtpk.xyz^
 ||ugvbsrbht.xyz^
@@ -70101,6 +70115,7 @@ newduba.cn###jq_youxi
 ||uzrxoxd.xyz^
 ||v34s6r.com^
 ||v44e.com^
+||vainanalyst.com^
 ||vainews.cn^
 ||valerieavisnba.com^
 ||valerieurania.com^
@@ -70155,6 +70170,7 @@ newduba.cn###jq_youxi
 ||wakenssponged.com^
 ||waxin0gjue.cn^
 ||wbkaqly.cn^
+||wcbghap63.shop^
 ||wclsylk.cn^
 ||wecklrb.cn^
 ||werssf.com^
@@ -70194,6 +70210,7 @@ newduba.cn###jq_youxi
 ||xcholvbc.xyz^
 ||xcqbbcqpl.xyz^
 ||xdfdqce.xyz^
+||xdjdpyrt.xyz^
 ||xdsahkln.xyz^
 ||xeazoj.icu^
 ||xebohjhh.xyz^
@@ -70329,23 +70346,6 @@ newduba.cn###jq_youxi
 ||zzbmxl.xyz^
 ||zzyy17.top^
 ||zzyy18.top^
-||fwffa.cn^
-||kdjdpyrt.xyz^
-||wcbghap63.shop^
-||jsjtjj.xyz^
-||ljpbtjq.xyz^
-||kbayke.xyz^
-||ugbler.icu^
-||df63x.xyz^
-||jnwpzq.com^
-||udjdpyrt.xyz^
-||bdjdpyrt.xyz^
-||vainanalyst.com^
-||ogouawc.cn^
-||xdjdpyrt.xyz^
-||leizylb.icu^
-||tdjdpyrt.xyz^
-||aknusp.cn^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
