@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tvYjIU4PxdBVW8iWuKrRgw
+! Checksum: c07amb38+UTjIGzsMP6Q1Q
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202401131400
-! Last Modified: 2024年01月13日 14:00
+! Version: 202401132000
+! Last Modified: 2024年01月13日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -67041,6 +67041,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||c.ad6media.fr/l.js$domain=scan-manga.com
 @@||candidate.hr-manager.net/Advertisement/PreviewAdvertisement.aspx$subdocument,~third-party
 @@||catchapp.net/ad/img/$~third-party
+@@||cdn.jsdelivr.net/npm/*/videojs-contrib-ads.min.js$domain=24ur.com
 @@||cinema.pia.co.jp/img/ad/$image,~third-party
 @@||clj.valuecommerce.com/*/vcushion.min.js
 @@||cloudflare.com^*/videojs-contrib-ads.js$domain=wtk.pl
@@ -70254,6 +70255,9 @@ newduba.cn###jq_youxi
 ||5ejlo.xyz^
 ||ujrspnbf.xyz^
 ||cbttnmo.xyz^
+||ueumdkc.cn^
+||bjrspnbf.xyz^
+||waymom.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
