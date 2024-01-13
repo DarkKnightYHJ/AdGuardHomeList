@@ -1,9 +1,9 @@
-! Checksum: AG8vWfz+d9g5jYCcESBM8w
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1705106164-3600.patch
+! Checksum: eu7BDGHHzonyJr613/ubtw
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1705127886-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.60.46
-! TimeUpdated: 2024-01-13T00:32:09+00:00
+! Version: 2.0.60.47
+! TimeUpdated: 2024-01-13T06:34:18+00:00
 ! Expires: 5 days (update frequency)
 ||adxfire.net^
 ||wauchguardee.com^
@@ -50827,6 +50827,7 @@ inapps.appsflyersdk.com^
 ||ads.home.vn^
 ||ads.homedy.net^
 ||ads.ictnews.vn^
+||ads.inetgroup.vn^
 ||ads.kiemsat.vn^
 ||ads.lamchame.vn^
 ||ads.laodongbinhduong.org.vn^
@@ -50838,6 +50839,7 @@ inapps.appsflyersdk.com^
 ||ads.phunuonline.com.vn^
 ||ads.phunusuckhoe.vn^
 ||ads.phunuvagiadinh.vn^
+||ads.salemall.vn^
 ||ads.sexyland.vn^
 ||ads.songmoi.vn^
 ||ads.suckhoegiadinh.com.vn^
@@ -51254,6 +51256,7 @@ inapps.appsflyersdk.com^
 ||009855.com^
 ||010172.com^
 ||0fb.co^
+||113-bca.online^
 ||11tiki.com^
 ||123-vay.com^
 ||123hmdhjg2.dyndns.org^
@@ -51407,6 +51410,7 @@ inapps.appsflyersdk.com^
 ||anstv.net^
 ||anwasthere.cfd^
 ||anzvn.net^
+||aodainusinh-cuoinam20233.weebly.com^
 ||aodaisieuvietnhi2022.weebly.com^
 ||app.amazon-line.com^
 ||app.mybigc.net^
@@ -51569,6 +51573,7 @@ inapps.appsflyersdk.com^
 ||citivay.org^
 ||cl247.me^
 ||claudfront.net^
+||clb.vin^
 ||clmm.me^
 ||clmm.nl^
 ||clmm.pe^
@@ -51636,6 +51641,7 @@ inapps.appsflyersdk.com^
 ||cryptooexchange.xyz^
 ||cskh-dienmay-xanh.com^
 ||cskh-dienmayxanhvn.com^
+||cskh-the-vpbank.com^
 ||cskhdienmayxanh.com^
 ||cskhdienmayxanhvn.com^
 ||cskhmayxanh.com^
@@ -51652,6 +51658,8 @@ inapps.appsflyersdk.com^
 ||cuocthitainangnhithang12.weebly.com^
 ||currencyconverterbanking.weebly.com^
 ||cvietcombank.com^
+||dadw11.com^
+||dadw55.com^
 ||daef33.com^
 ||daikinvietnam.vn^
 ||daisyshopp.com^
@@ -51672,6 +51680,7 @@ inapps.appsflyersdk.com^
 ||dangkytruyenhinhcap.com^
 ||dangkyvay-bank247.net^
 ||dangkyvaybidv.com^
+||dantri.live^
 ||daohannganhang.click^
 ||datamarketplace.net^
 ||datgrabsaigon.com^
@@ -51689,6 +51698,7 @@ inapps.appsflyersdk.com^
 ||dhl-vietnam.vn^
 ||dhlexpress-vietnam.com.vn^
 ||dhlvietnam-express.vn^
+||dich-vu-kvip-vpbank.com^
 ||dich-vu-online-vpbank.com^
 ||dich-vu-the-ai-vpbank.com^
 ||dich-vu-the-ez-vpbank.com^
@@ -51697,7 +51707,13 @@ inapps.appsflyersdk.com^
 ||dichvu-chuyentien24h.000webhostapp.com^
 ||dichvu-dien-mayxanh.com^
 ||dichvuchuyentien-ind.weebly.com^
+||dichvucong-gov.com^
+||dichvucong.agov.net^
+||dichvucong.dancuquocgia.net^
 ||dichvucong.hgov.cc^
+||dichvucong.hgov.net^
+||dichvucong.kgov.net^
+||dichvucong.lgov.net^
 ||dichvucong.tgovn.cc^
 ||dichvucong.vgovn.net^
 ||dichvucongbaohiemxahoi.com^
@@ -51812,6 +51828,7 @@ inapps.appsflyersdk.com^
 ||facabook.id.vn^
 ||face-book.co^
 ||facebook.c0m.ltd^
+||facebook92288.blogspot.com^
 ||facebookk.life^
 ||facebookvni.com^
 ||faecbooks.com^
@@ -52174,6 +52191,7 @@ inapps.appsflyersdk.com^
 ||hrbgw.shop^
 ||hs38ma.cyou^
 ||hsdps.cc^
+||hsusd.com^
 ||hthecrown.cfd^
 ||https-apple.com^
 ||https-icloud.com^
@@ -52201,6 +52219,7 @@ inapps.appsflyersdk.com^
 ||idapple.com^
 ||idmfullcrack.info^
 ||idnhanquatang.vn^
+||idvideo238544.blogspot.com^
 ||idvideo678.blogspot.com^
 ||iesandb.cfd^
 ||igoda.shop^
@@ -52504,6 +52523,8 @@ inapps.appsflyersdk.com^
 ||m-fecabook.com^
 ||m.12luxury.com^
 ||m.1svi101.com^
+||m.5u1io.com^
+||m.duftpe.com^
 ||m.hi1222.com^
 ||m.kone365.com^
 ||m.luxurysvip888.com^
@@ -52521,6 +52542,7 @@ inapps.appsflyersdk.com^
 ||maivang.xyz^
 ||mallshopvn.vip^
 ||mallslazada.com^
+||master-visa-nang-hang-ca-nhan-vib.com^
 ||mastercard-quetthetindung247.com^
 ||mavietnam.xyz^
 ||mayanpuzzle.com^
@@ -52762,7 +52784,9 @@ inapps.appsflyersdk.com^
 ||mysp.ac^
 ||nalhajarm.cfd^
 ||nang-cap-online-vpbank.com^
+||nang-han-muc-ido-vpbank.com^
 ||nang-han-muc-vip-vpbank.com^
+||nang-hang-tin-dung-ca-nhan.com^
 ||nanghanmuc-thetindung.com^
 ||nanghanmuc-tindungvn.com^
 ||nanghanmuc-vp.online^
@@ -53807,17 +53831,8 @@ inapps.appsflyersdk.com^
 ||snapdeal33.com^
 ||snoweeanalytics.com^
 ||sodj88.com^
-||sodo02.com^
-||sodo100.com^
-||sodo12.com^
-||sodo13.com^
-||sodo15.com^
-||sodo3839.com^
-||sodo66.com^
-||sodo668.net^
 ||softwarefpt.com^
 ||softwaresdaily.com^
-||soicauviet.com^
 ||somnio-evolve.com^
 ||sonarsurveyof.cfd^
 ||sopper68.com^
@@ -54789,6 +54804,7 @@ inapps.appsflyersdk.com^
 ||vimomo.monster^
 ||vimomo.vip^
 ||vinacombank.com^
+||vinaconex.org^
 ||vincomonevip.net^
 ||vingroup.shop^
 ||vingroupinvestment.com^
@@ -54891,6 +54907,7 @@ inapps.appsflyersdk.com^
 ||vn.btaynguyenfood.com^
 ||vn11268shp.com^
 ||vn119shop.com^
+||vn168d.com^
 ||vn22647shp.com^
 ||vn268.com^
 ||vn277shop.com^
@@ -56613,6 +56630,11 @@ inapps.appsflyersdk.com^
 ||cjpczyi.cn^
 ||kjrspnbf.xyz^
 ||yqlxwb.icu^
+||jcluhz.xyz^
+||kxxfdwt.cn^
+||5ejlo.xyz^
+||ujrspnbf.xyz^
+||cbttnmo.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 ||01v62.xyz^
