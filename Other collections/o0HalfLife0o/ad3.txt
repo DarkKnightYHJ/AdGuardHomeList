@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PhZFl9eRnbAwpkdzp90SgA
+! Checksum: g41/x8G4HG/ZLvjO96a1Jg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202401142000
-! Last Modified: 2024年01月14日 20:00
+! Version: 202401150200
+! Last Modified: 2024年01月15日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1434,6 +1434,7 @@ newduba.cn###jq_youxi
 ##.heg > .div-list
 ##.his-sign-cont[data-dysign-adid]
 ##.hlol_ad
+##.homepage > .wp-none1
 ##.hongbao_hd
 ##.hzxld
 ##.iHead960x90
@@ -1498,6 +1499,7 @@ newduba.cn###jq_youxi
 ##.mod + #bottomBox
 ##.module-adslist
 ##.module-adslists
+##.module-tglist > .tg-normal-box
 ##.module-ttlist.tt_w-2
 ##.module-yylist.tg_w
 ##.my-cat.my-cat-header
@@ -1513,6 +1515,7 @@ newduba.cn###jq_youxi
 ##.opt > a[target="_blank"] > img[src*=".360buyimg.com"]
 ##.orbui-post
 ##.overBanner.dowloadBtn
+##.page > .wp-none1
 ##.page-wwads
 ##.pagead_3
 ##.pagecon + .ad1
@@ -1771,9 +1774,6 @@ newduba.cn###jq_youxi
 ##script + #rbbox
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
-##.module-tglist > .tg-normal-box
-##.page > .wp-none1
-##.homepage > .wp-none1
 ##script + div[id^="a-loading-"]
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##span[title="neteasefooter"]
@@ -1858,7 +1858,9 @@ newduba.cn###jq_youxi
 ||415677.com^
 ||44180055.cn^
 ||44jui.top^
+||53ynh.xyz^
 ||5698tp.com^
+||5ejlo.xyz^
 ||5jzu5t.com^
 ||5q7eb.website^
 ||6528fdyngk.xyz^
@@ -1889,6 +1891,7 @@ newduba.cn###jq_youxi
 ||913mj.xyz^
 ||94n33.fun^
 ||96kso.online^
+||98wjse.top^
 ||999aa666bb.com^
 ||99zns.top^
 ||9g659.xyz^
@@ -1990,6 +1993,7 @@ newduba.cn###jq_youxi
 ||birglucy.xyz^
 ||bjappzvz.xyz^
 ||bjhhbox.xyz^
+||bjrspnbf.xyz^
 ||bjtgds.xyz^
 ||bkbbjtfp.xyz^
 ||bkxuprh.cn^
@@ -2038,9 +2042,12 @@ newduba.cn###jq_youxi
 ||c1ecda.com^
 ||c78zf.xyz^
 ||c9qh3.website^
+||c9ql2.com^
+||caajol.icu^
 ||cadizer.com^
 ||cammak.xyz^
 ||caonme.xyz^
+||cbttnmo.xyz^
 ||ccwxma.xyz^
 ||cdsa2.icu^
 ||ceiuip.icu^
@@ -2051,6 +2058,7 @@ newduba.cn###jq_youxi
 ||chrtds.xyz^
 ||cjndvoglik.xyz^
 ||cjohpsc.cn^
+||cjpczyi.cn^
 ||cklithuw.xyz^
 ||ckmbig.xyz^
 ||clcmdie.com^
@@ -2148,6 +2156,7 @@ newduba.cn###jq_youxi
 ||esnysd.icu^
 ||estixfl.cn^
 ||evbrkhz.xyz^
+||evscnfj.cn^
 ||ewioud.com^
 ||exemptambientcream.com^
 ||eyjvq.xyz^
@@ -2345,6 +2354,7 @@ newduba.cn###jq_youxi
 ||ileled.xyz^
 ||ilph0.icu^
 ||imrvyop.cn^
+||imwxsu.xyz^
 ||imxsvpxe.xyz^
 ||insfengdata.com^
 ||iobvmtx.xyz^
@@ -2368,6 +2378,7 @@ newduba.cn###jq_youxi
 ||jane2.top^
 ||jazftz.xyz^
 ||jcbjcb9.cn^
+||jcluhz.xyz^
 ||jdbfknsbkldns.com^
 ||jdrnpei.xyz^
 ||jeqxuvv.icu^
@@ -2433,6 +2444,7 @@ newduba.cn###jq_youxi
 ||kjacgk.xyz^
 ||kjappzvz.xyz^
 ||kjdbcjkmc.com^
+||kjrspnbf.xyz^
 ||kkbbjtfp.xyz^
 ||kkeojk.xyz^
 ||kkisoo.com^
@@ -2451,6 +2463,7 @@ newduba.cn###jq_youxi
 ||kogtrmjz.xyz^
 ||koqsxdpx.xyz^
 ||koyuod.xyz^
+||kpbqlqv.cn^
 ||kphcrjth.xyz^
 ||kpyerxzn.xyz^
 ||kqbrgl.icu^
@@ -2473,6 +2486,7 @@ newduba.cn###jq_youxi
 ||kvsvug.xyz^
 ||kwtgntyu.xyz^
 ||kxdhrqz.xyz^
+||kxxfdwt.cn^
 ||kycxhgrp.xyz^
 ||kydzfldt.xyz^
 ||kyikdee.cn^
@@ -2688,6 +2702,7 @@ newduba.cn###jq_youxi
 ||orssengseen.com^
 ||oryhic.xyz^
 ||otbeksf.cn^
+||otxlhpm.xyz^
 ||ovfvkfc.xyz^
 ||owkmmo.xyz^
 ||owyame.xyz^
@@ -2701,6 +2716,7 @@ newduba.cn###jq_youxi
 ||pengjinvc.top^
 ||pexavfro.xyz^
 ||pezttb.xyz^
+||pfjtgxc.cn^
 ||pfrbnl.xyz^
 ||pgieqr.top^
 ||phcrjth.xyz^
@@ -2784,6 +2800,7 @@ newduba.cn###jq_youxi
 ||rkds2.icu^
 ||rkds5.icu^
 ||rmhfrtnd.com^$third-party
+||rmnsdh.xyz^
 ||rntdqwc.xyz^
 ||roio.top^
 ||ronm.top^
@@ -2815,6 +2832,7 @@ newduba.cn###jq_youxi
 ||sdjbcjsbdjk.com^
 ||sdkjnbjksbnkjs.com^
 ||sdklcnskvbks.com^
+||sdtsad.com^
 ||sdxzqec.xyz^
 ||segoyg.xyz^
 ||serda10.icu^
@@ -2846,6 +2864,7 @@ newduba.cn###jq_youxi
 ||stusnais.com^
 ||stylishar.com^
 ||suclj.xyz^
+||sunshijc.com^
 ||suzoqz.icu^
 ||svhdbmp.cn^
 ||syjkscy.cn^
@@ -2942,6 +2961,7 @@ newduba.cn###jq_youxi
 ||uebipacy.xyz^
 ||uebohjhh.xyz^
 ||uekmhvbb.xyz^
+||ueumdkc.cn^
 ||uflybplr.xyz^
 ||ugbler.icu^
 ||ugkpsi.xyz^
@@ -2955,6 +2975,7 @@ newduba.cn###jq_youxi
 ||uiszwh.icu^
 ||uito.top^
 ||ujappzvz.xyz^
+||ujrspnbf.xyz^
 ||ukbbjtfp.xyz^
 ||ukjwyv.icu^
 ||ukkkmg.xyz^
@@ -3047,6 +3068,7 @@ newduba.cn###jq_youxi
 ||w3wci.site^
 ||wakenssponged.com^
 ||waxin0gjue.cn^
+||waymom.xyz^
 ||wbkaqly.cn^
 ||wcbghap63.shop^
 ||wclsylk.cn^
@@ -3173,6 +3195,7 @@ newduba.cn###jq_youxi
 ||ynulcpt.cn^
 ||yongzhen8.com^
 ||ypcngw.xyz^
+||yqlxwb.icu^
 ||yshlor.icu^
 ||ysxt9.com^
 ||ytezym.xyz^
@@ -3224,29 +3247,6 @@ newduba.cn###jq_youxi
 ||zzbmxl.xyz^
 ||zzyy17.top^
 ||zzyy18.top^
-||cjpczyi.cn^
-||kjrspnbf.xyz^
-||yqlxwb.icu^
-||jcluhz.xyz^
-||kxxfdwt.cn^
-||5ejlo.xyz^
-||ujrspnbf.xyz^
-||cbttnmo.xyz^
-||ueumdkc.cn^
-||bjrspnbf.xyz^
-||waymom.xyz^
-||kpbqlqv.cn^
-||rmnsdh.xyz^
-||sunshijc.com^
-||imwxsu.xyz^
-||98wjse.top^
-||sdtsad.com^
-||caajol.icu^
-||otxlhpm.xyz^
-||53ynh.xyz^
-||c9ql2.com^
-||evscnfj.cn^
-||pfjtgxc.cn^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -14113,7 +14113,7 @@ pcsoft.com.cn##.gsxzdl
 vpsdx.com##.gthfdsa
 58.com##.guaguabox
 runningmanzx.com##.guangao
-doubibackup.com##.guangg
+doubibackup.com,github.io##.guangg
 baoliny.com,gasaq.com,hgitv.com,ifooday.cn,nen.com.cn##.guanggao
 cnlinfo.net##.guanggao-left
 cnlinfo.net##.guanggao-right
@@ -14712,8 +14712,6 @@ yes-news.com##.new-sidebar-today-300ad
 i-part.com.tw##.newAd
 ifeng.com##.newAdImg
 steelcn.cn##.new_fixed
-doubiuser.github.io,doubibackup.com#?#.custom-html-widget:-abp-has(div[style^="position"])
-github.io##.guangg
 mtrend.cn##.new_right > .morecontent_next
 mtrend.cn##.new_right > div[style="float:left; width:100%;"]:first-child
 ali213.net##.newright
@@ -16571,6 +16569,7 @@ firefoxchina.cn##div[trace-key="ad_theme_skin_link"]
 firefoxchina.cn##div[trace-key="mh_channel_rec_tpth"]
 zuoye.baidu.com##dl[class="card related"]
 douban.com#?#.rec_topics:-abp-has(>.rec_topics_name[href^="https://erebor.douban."])
+doubiuser.github.io,doubibackup.com#?#.custom-html-widget:-abp-has(div[style^="position"])
 douyu.com#?#.SharePanel:-abp-has(> .SharePanel-content > .SharePanel-contentTitle:-abp-contains(福利))
 douyu.com#?#.bc-wrapper:-abp-has(>.wm-view>div>.isLink[href*=".qualtrics.com/"])
 douyu.com#?#.wm-general:-abp-has(.link[href*=".tmall.com"])
