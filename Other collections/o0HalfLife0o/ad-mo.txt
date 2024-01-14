@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8aLE6DYP5qIYGZ/hl88Z+Q
+! Checksum: drORhOfLTz2qktcJOtx2CQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202401140801
-! Last Modified: 2024年01月14日 08:01
+! Version: 202401141400
+! Last Modified: 2024年01月14日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -68821,6 +68821,9 @@ newduba.cn###jq_youxi
 ##script + #rbbox
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
+##.module-tglist > .tg-normal-box
+##.page > .wp-none1
+##.homepage > .wp-none1
 ##script + div[id^="a-loading-"]
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##span[title="neteasefooter"]
@@ -70286,6 +70289,12 @@ newduba.cn###jq_youxi
 ||rmnsdh.xyz^
 ||sunshijc.com^
 ||imwxsu.xyz^
+||98wjse.top^
+||sdtsad.com^
+||caajol.icu^
+||otxlhpm.xyz^
+||53ynh.xyz^
+||c9ql2.com^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -79061,7 +79070,6 @@ yxbao.com###gs_down
 cncrk.com###gsxza
 121xz.com###gsxzdz
 cnr.cn###gtop00
-doubibackup.com###guangg_image
 jirou.com###guanggao
 creaders.net###guanggao2
 gasaq.com###guanggao_left
@@ -81752,9 +81760,10 @@ yes-news.com##.new-sidebar-today-300ad
 i-part.com.tw##.newAd
 ifeng.com##.newAdImg
 steelcn.cn##.new_fixed
+doubiuser.github.io,doubibackup.com#?#.custom-html-widget:-abp-has(div[style^="position"])
+github.io##.guangg
 mtrend.cn##.new_right > .morecontent_next
 mtrend.cn##.new_right > div[style="float:left; width:100%;"]:first-child
-doubibackup.com##.new_zixun
 ali213.net##.newright
 zhuzhai.com##.news-details-ad
 sydneytoday.com##.news-list > .row > .col-xs-12
@@ -82941,7 +82950,6 @@ ithome.com##a[href*="/lapin."] + .ad
 jandan.net##a[href*="/money.php?"]
 ikjzd.com##a[href*="/redirect-ad-url?"]
 xchina.fun##a[href*="/redirect/ad-"]
-doubibackup.com##a[href*="/rightad"]
 e0575.cn##a[href*="/showad.php?"]
 bt1207ma.xyz##a[href*="/uuribao.com/"]
 bt1207ma.xyz##a[href*="/uuribao.com/"] + .caption
@@ -92703,6 +92711,7 @@ omni.soundestlink.com$image
 ||aquaticalarm.com^
 ||aquaticanswer.com^
 ||aquaticowl.com^
+||ar1nvz5.com^
 ||archswimming.com^
 ||arcticamber.com^
 ||argyresthia.com^
@@ -92947,6 +92956,7 @@ omni.soundestlink.com$image
 ||completecabbage.com^
 ||complextoad.com^
 ||conceptualizereading.com^
+||concernedchange.com^
 ||concernedchickens.com^
 ||concernedcondition.com^
 ||condemnedcomb.com^
@@ -93085,10 +93095,12 @@ omni.soundestlink.com$image
 ||dockdigestion.com^
 ||docksalmon.com^
 ||dogsshoes.com^
+||dollardelta.com^
 ||dolldetail.com^
 ||donkeyleaf.com^
 ||doorbrazil.com^
 ||doubtdrawer.com^
+||doubtfulrainstorm.com^
 ||downtowndirection.com^
 ||dq95d35.com^
 ||drabsize.com^
@@ -93152,6 +93164,7 @@ omni.soundestlink.com$image
 ||entertainingeyes.com^
 ||entertainskin.com^
 ||enthusiasticdad.com^
+||enthusiasticring.com^
 ||enthusiastictemper.com^
 ||enviousthread.com^
 ||equablekettle.com^
@@ -93164,6 +93177,7 @@ omni.soundestlink.com$image
 ||exampleshake.com^
 ||exchangedetail.com^
 ||excitingtub.com^
+||exclusivebrass.com^
 ||exhibitsneeze.com^
 ||expansioneggnog.com^
 ||experienceeggs.com^
@@ -93554,6 +93568,7 @@ omni.soundestlink.com$image
 ||mittencattle.com^
 ||mixedreading.com^
 ||modifyeyes.com^
+||modularmental.com^
 ||moldyicicle.com^
 ||moorshoes.com^
 ||motionflowers.com^
