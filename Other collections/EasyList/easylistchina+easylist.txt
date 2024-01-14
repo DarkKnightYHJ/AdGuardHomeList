@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LC8xaWcwHV0686lr9vEbGQ
-! Version: 202401140051
+! Checksum: 6xeI2tbiW2vmtf5Z/0Rf9g
+! Version: 202401140221
 ! Title: EasyList China+EasyList
-! Last modified: 14 Jan 2024 00:51 UTC
+! Last modified: 14 Jan 2024 02:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1623,6 +1623,9 @@ newduba.cn###jq_youxi
 ##script + #rbbox
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
+##.module-tglist > .tg-normal-box
+##.page > .wp-none1
+##.homepage > .wp-none1
 ##script + div[id^="a-loading-"]
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##span[title="neteasefooter"]
@@ -3093,6 +3096,8 @@ newduba.cn###jq_youxi
 ||sdtsad.com^
 ||caajol.icu^
 ||otxlhpm.xyz^
+||53ynh.xyz^
+||c9ql2.com^
 ||zzyy19.top^
 ||zzyy20.top^
 !
@@ -11870,7 +11875,6 @@ yxbao.com###gs_down
 cncrk.com###gsxza
 121xz.com###gsxzdz
 cnr.cn###gtop00
-doubibackup.com###guangg_image
 jirou.com###guanggao
 creaders.net###guanggao2
 gasaq.com###guanggao_left
@@ -14561,9 +14565,10 @@ yes-news.com##.new-sidebar-today-300ad
 i-part.com.tw##.newAd
 ifeng.com##.newAdImg
 steelcn.cn##.new_fixed
+doubiuser.github.io,doubibackup.com#?#.custom-html-widget:-abp-has(div[style^="position"])
+github.io##.guangg
 mtrend.cn##.new_right > .morecontent_next
 mtrend.cn##.new_right > div[style="float:left; width:100%;"]:first-child
-doubibackup.com##.new_zixun
 ali213.net##.newright
 zhuzhai.com##.news-details-ad
 sydneytoday.com##.news-list > .row > .col-xs-12
@@ -15750,7 +15755,6 @@ ithome.com##a[href*="/lapin."] + .ad
 jandan.net##a[href*="/money.php?"]
 ikjzd.com##a[href*="/redirect-ad-url?"]
 xchina.fun##a[href*="/redirect/ad-"]
-doubibackup.com##a[href*="/rightad"]
 e0575.cn##a[href*="/showad.php?"]
 bt1207ma.xyz##a[href*="/uuribao.com/"]
 bt1207ma.xyz##a[href*="/uuribao.com/"] + .caption
