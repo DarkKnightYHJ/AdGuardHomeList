@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: x2azA4xnHBm8reYmgkPUxA
+! Checksum: CZ1Dc+Lo0IeLx80FVUMurg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202401141400
-! Last Modified: 2024年01月14日 14:00
+! Version: 202401142000
+! Last Modified: 2024年01月14日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -65604,7 +65604,6 @@ twitter.com#?#h2[role="heading"]:-abp-contains(/Promoted|Gesponsert|Promocionado
 vofomovies.info#?#a13:-abp-contains( Ad)
 wayfair.com#?#div[data-hb-id="Grid.Item"]:-abp-has(div.FeaturedProductFlag:-abp-contains(Sponsored))
 winaero.com#?#p:-abp-contains(Advertisement)
-youtube.com#?#ytd-watch-info-text > #info-container > #info > span:-abp-contains(/\d+\s[pP]rod/)
 virtuagirlgirls.com###DynamicBackgroundWrapper
 porndr.com###PD-Under-player
 deviants.com###_iframe_content
@@ -70407,6 +70406,8 @@ newduba.cn###jq_youxi
 ||otxlhpm.xyz^
 ||53ynh.xyz^
 ||c9ql2.com^
+||evscnfj.cn^
+||pfjtgxc.cn^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
