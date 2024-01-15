@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: PoilymrrA3DFah6QDjxlBA
-! Version: 202401151701
+! Checksum: pyuXVeST5GOLuUNcEI0Wdw
+! Version: 202401151811
 ! Title: ABP filters
-! Last modified: 15 Jan 2024 17:01 UTC
+! Last modified: 15 Jan 2024 18:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -399,6 +399,8 @@ dlouha-videa.cz#$#abort-on-property-read _0x4c29
 ajaxshowtime.com#?#div:-abp-properties(content: "Advertentie";)
 ajaxshowtime.com##div.leaderboard_ad + div
 ! *** abp-filters-anti-cv:english.txt ***
+! #RM-68
+cars.com#$#hide-if-matches-xpath './/a[@data-linkname="inventory-ad-header"]/ancestor-or-self::div[@class="inventory-ad-main vehicle-card-main"]'
 ! CV-1935
 ##.jag8CityBio212023
 reddit.com##.jag8CityBio212023
