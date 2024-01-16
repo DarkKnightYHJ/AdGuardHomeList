@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: iNgq/5svU0DfE1fMWFAcqw
+! Checksum: lywK0xGSfYJ5376uruo2Bg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202401162000
-! Last Modified: 2024年01月16日 20:00
+! Version: 202401170200
+! Last Modified: 2024年01月17日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1508,6 +1508,7 @@ newduba.cn###jq_youxi
 ##.myui-extra + .noticetext
 ##.nQIAj
 ##.nQIAj1
+##.nav-ads
 ##.nav-area + .wrapper .tuiguang
 ##.newstyle > .container > a[target="_blank"]
 ##.newstyle > a > img[src*="img.com/i/"]
@@ -1772,7 +1773,6 @@ newduba.cn###jq_youxi
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
-##.nav-ads
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
 ##script + div[id^="a-loading-"]
@@ -1889,6 +1889,7 @@ newduba.cn###jq_youxi
 ||88lm03.com^
 ||89hdn.cn^
 ||8d07a.xyz^
+||8ovgk.online^
 ||8zkt7.xyz^
 ||913mj.xyz^
 ||94n33.fun^
@@ -1921,6 +1922,7 @@ newduba.cn###jq_youxi
 ||aiiaqw.xyz^
 ||aispyd.icu^
 ||ajbpcxi.xyz^
+||akjdbjkcbacj.com^
 ||aknkvallbfml.com^
 ||aknusp.cn^
 ||albdbsk.xyz^
@@ -2182,6 +2184,7 @@ newduba.cn###jq_youxi
 ||feijied.xyz^
 ||fenem.top^
 ||fepmpify.xyz^
+||ffawfa.cn^
 ||fgcxdr.cn^
 ||fghhbp.xyz^
 ||fgttbz.xyz^
@@ -2233,6 +2236,7 @@ newduba.cn###jq_youxi
 ||gixgav.icu^
 ||gizlnr.com^
 ||gkktjf.top^
+||gkswas.xyz^
 ||gmgbmzz.xyz^
 ||gmx10.top^
 ||gmx11.top^
@@ -2369,6 +2373,7 @@ newduba.cn###jq_youxi
 ||iossdok.com^
 ||ioswhi.com^
 ||ipryes.top^
+||ipuswrg.cn^
 ||iqs871.com^
 ||irtefs.xyz^
 ||isine88.com^
@@ -2469,6 +2474,7 @@ newduba.cn###jq_youxi
 ||kogtrmjz.xyz^
 ||koqsxdpx.xyz^
 ||koyuod.xyz^
+||kozhyf.icu^
 ||kpbqlqv.cn^
 ||kphcrjth.xyz^
 ||kpyerxzn.xyz^
@@ -2476,6 +2482,7 @@ newduba.cn###jq_youxi
 ||kqjqripb.xyz^
 ||kqvvqv.icu^
 ||kqwerp.top^
+||krbsumc.cn^
 ||kreisis.top^
 ||kshrsf.icu^
 ||ksrgsc.xyz^
@@ -2627,6 +2634,7 @@ newduba.cn###jq_youxi
 ||muycpg.xyz^
 ||muyihh.top^
 ||muyxmmz.cn^
+||mvbvvch.xyz^
 ||mvng.cn^
 ||mvpqrydt.xyz^
 ||mwfyab.icu^
@@ -2870,6 +2878,7 @@ newduba.cn###jq_youxi
 ||sregfle.cn^
 ||srldkqj.cn^
 ||srlhgo.cn^
+||stq89.icu^
 ||stusnais.com^
 ||stylishar.com^
 ||suclj.xyz^
@@ -3230,6 +3239,7 @@ newduba.cn###jq_youxi
 ||zents2.top^
 ||zf4.top^
 ||zfvtswv.xyz^
+||zghrxn.xyz^
 ||zhangyuting04.cn^
 ||zhongfumzzew.com^
 ||zigyspv.icu^
@@ -3258,15 +3268,6 @@ newduba.cn###jq_youxi
 ||zzbmxl.xyz^
 ||zzyy17.top^
 ||zzyy18.top^
-||kozhyf.icu^
-||ffawfa.cn^
-||zghrxn.xyz^
-||8ovgk.online^
-||gkswas.xyz^
-||mvbvvch.xyz^
-||stq89.icu^
-||ipuswrg.cn^
-||krbsumc.cn^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -35888,6 +35889,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wc.yahoodns.net^$image
 ||wccftech.com/cnt7vfDVvWa3.js
 ||web.whatsapp.com/wam
+||webd-assets.cdn4dd.com/s.js$domain=doordash.com
 ||weblog.flyasiana.com^
 ||webmd.com/static/v/c?
 ||weedmaps.com/pixel?
@@ -64301,6 +64303,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||cdp.yna.co.kr^
 ||chosun.com/hitlog/
 ||count.munhwa.com^
+||cue.search.naver.com/api/*/log/
 ||data-logdelivery.wconcept.co.kr^
 ||daumcdn.net^*/awsa.js
 ||gmarket.co.kr/js/common/uuid.js
@@ -64445,6 +64448,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||goya.rutube.ru^
 ||hh.ru/analytics^
 ||hh.ru/stat?
+||interfax.ru/cnt/
 ||irecommend.ru/collect/
 ||jetvis.ru/stat/
 ||kommersant.ru/a.asp?p=
