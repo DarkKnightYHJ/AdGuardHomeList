@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: e6A1XgztOBI+RWMIZLUjyw
-! Version: 202401160311
+! Checksum: BTfvT293re1yzm7sNRtLbA
+! Version: 202401160410
 ! Title: EasyList
-! Last modified: 16 Jan 2024 03:11 UTC
+! Last modified: 16 Jan 2024 04:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -18194,6 +18194,7 @@ _800x80_
 ###banner_pos2_ddb_0
 ###banner_pos3_ddb_0
 ###banner_pos4_ddb_0
+###ddb_fluid_native_ddb_0
 ###premium_ddb_0
 ###rightrail_bottom_ddb_0
 ###rightrail_pos1_ddb_0
@@ -18202,6 +18203,9 @@ _800x80_
 ###rightrail_top_ddb_0
 ###story_bottom_ddb_0
 ###story_top_ddb_0
+##.index-module_adBeforeContent__AMXn
+##.index-module_rightrailBottom__IJEl
+##.index-module_rightrailTop__mag4
 ##.premium_PremiumPlacement__2dEp0
 ! In video div
 ###ultimedia_wrapper
@@ -58900,7 +58904,7 @@ browsershots.org#@#.advert_area
 ! firework
 ||fireworkapi1.com^$domain=boldsky.com
 ! In-page video advertising.
-||anyclip.com^$script,third-party
+||anyclip.com^$third-party
 ||api.dailymotion.com^$domain=philstarlife.com
 ||api.fw.tv^
 ||avantisvideo.com^$third-party
@@ -61339,6 +61343,7 @@ icon-icons.com##.apu-mixed-packs
 chron.com,mysanantonio.com,seattlepi.com,sfgate.com##.ar16-9
 adn.com,businessoffashion.com,irishtimes.com##.arcad-feature
 1news.co.nz,actionnewsjax.com,boston25news.com,easy93.com,fox23.com,kiro7.com,wftv.com,whio.com,wpxi.com,wsbradio.com,wsbtv.com,wsoctv.com##.arcad_feature
+necn.com##.archive-ad__full-width
 check-host.net##.ard_z
 whatculture.com##.area-x__large
 arstechnica.com##.ars-component-buy-box
