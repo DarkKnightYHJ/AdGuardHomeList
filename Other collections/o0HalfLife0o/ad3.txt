@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0pILbVwjifTN04jLwwMkiQ
+! Checksum: F87BfhtE2pPAbA8UG8z2dA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202401160801
-! Last Modified: 2024年01月16日 08:01
+! Version: 202401161400
+! Last Modified: 2024年01月16日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -3260,6 +3260,10 @@ newduba.cn###jq_youxi
 ||kozhyf.icu^
 ||ffawfa.cn^
 ||zghrxn.xyz^
+||8ovgk.online^
+||gkswas.xyz^
+||mvbvvch.xyz^
+||stq89.icu^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -24035,6 +24039,7 @@ m.babytree.com##script + a[class]
 /track/impression/*
 /track/impression?
 /track/pageview?
+/track/pageviews/*
 /track/pixel.php
 /track/pixel/*
 /track/site/*
@@ -32199,6 +32204,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||monorail-edge.shopifysvc.com^
 ||mormont.gamer-network.net^
 ||movementventures.com/_uid.gif
+||mowplayer.com/media/statistics/
 ||mozilla.org/page/*/open.gif$third-party
 ||mql5.com/st?
 ||mql5.com/tr?
@@ -32535,6 +32541,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ria.ru/counter?
 ||richrelevance.com/rrserver/tracking?
 ||rltd.io/tags/
+||roadster.com/roadster_dealer_analytics
 ||rodale.com/ga/
 ||route.com/collect
 ||routeapp.io/route-analytics/
@@ -33781,6 +33788,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.kdata.fr^
 ||tracking.lqm.io^
 ||tracking.netvigie.com^
+||tracking.voxeus.com^
 ||trjs.mediafin.be/loader/trmfn-loader.js
 ||trk.a-dsp.com^
 ||trk.adbutter.net^
@@ -34804,7 +34812,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||consumer.org.nz/session/ping/
 ||containers.appdomain.cloud/api/send-log$domain=ibm.com
 ||conversion.mooncard.co^
-||coomer.su/api/v1/welcomeback
+||coomer.su/api/v1/YourRetardAssBrokeActualSiteFunctionality-
 ||copilot-telemetry.githubusercontent.com^
 ||count.rin.ru^
 ||counter.darkreader.app^
@@ -35164,7 +35172,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kayak.*/vestigo/measure
 ||kbb.com/pixall/
 ||kck.st/web/track
-||kemono.su/api/v1/welcomeback
+||kemono.su/api/v1/YourRetardAssBrokeActualSiteFunctionality-
 ||kinesis.us-east-1.analytics.edmentum.com^
 ||kkam.com/rest/high/api/cogitoergosum^
 ||klm.us/CWZUvc/
@@ -64475,6 +64483,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||rutube.ru/counters.html?
 ||rutube.ru/dbg/player_stat?
 ||seedr.ru^*/stats/
+||servernews.ru/track?
 ||sibnet.ru/counter.php?
 ||ssp.rambler.ru^
 ||start.ru/logger/
