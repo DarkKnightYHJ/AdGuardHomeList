@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 3QqO+dTY1Tc99ndMww1EPg
-! Version: 202401181311
+! Checksum: oFvwFs8l7llCnh9VPLlAOA
+! Version: 202401181401
 ! Title: EasyPrivacy
-! Last modified: 18 Jan 2024 13:11 UTC
+! Last modified: 18 Jan 2024 14:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -42976,6 +42976,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||avito.ru/stat/
 ||babyblog.ru/pixel?
 ||c.sibnet.ru^
+||clck.dzen.ru^
 ||consultant.ru/js/counter.js
 ||cosmo.ru/*/.js?i=*&r=
 ||counter.drom.ru^
@@ -42986,6 +42987,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||cvt1.sibnet.ru^
 ||data.glamour.ru^
 ||drom.ru/dummy.
+||dzen.ru/api/*/stats/
+||dzen.ru/pingx
+||dzeninfra.ru/ping?
 ||fb.ru/stat/
 ||fontanka.ru/api/metrics/
 ||fotostrana.ru/start/
@@ -43004,11 +43008,13 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||livelib.ru/service/traffic
 ||livelib.ru/service/visitlist/
 ||lmcdn.ru^*/statistics.js
+||log.dzen.ru^
 ||log.ren.tv^
 ||log.rutube.ru^
 ||mail.ru/count/
 ||metrika.kontur.ru^
 ||mirtesen.ru/js/ms.js
+||ms.dzen.ru^
 ||mts.ru/fe-api/logger
 ||mytoys.ru/ka_z.jpg?
 ||ngs.ru/s/
