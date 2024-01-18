@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KdlJb5QOIwfXUAszHs89aA
-! Version: 202401180150
+! Checksum: LuU7VV/3tpoYauy+Ajtk2g
+! Version: 202401180220
 ! Title: EasyList China+EasyList
-! Last modified: 18 Jan 2024 01:50 UTC
+! Last modified: 18 Jan 2024 02:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -3138,6 +3138,7 @@ newduba.cn###jq_youxi
 ||vggg5.space^
 ||pfjfjid.xyz^
 ||halqpt.xyz^
+##a[href*=".kekexc.com/"]
 ||zzyy19.top^
 ||zzyy20.top^
 !
@@ -11227,6 +11228,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+lxapk.com##.custom-html-widget
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -78343,7 +78345,7 @@ browsershots.org#@#.advert_area
 ! firework
 ||fireworkapi1.com^$domain=boldsky.com
 ! In-page video advertising.
-||anyclip.com^$third-party
+||anyclip.com^$third-party,domain=~dictionary.com|~heute.at|~video.timeout.com
 ||api.dailymotion.com^$domain=philstarlife.com
 ||api.fw.tv^
 ||avantisvideo.com^$third-party
@@ -86483,10 +86485,6 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||g.doubleclick.net/pagead/ads$subdocument,domain=game.anymanager.io|game.goo.ne.jp
 !! g.doubleclick.net/pagead/ppub_config
 @@||g.doubleclick.net/pagead/ppub_config$domain=bloomberg.com|independent.co.uk|repretel.com|telsu.fi|weather.com
-!! anyclip.com (non-invideo ads only)
-@@||anyclip.com/anyclip-widget/$script,domain=dictionary.com|heute.at|video.timeout.com
-@@||anyclip.com/main.js$script,domain=video.timeout.com
-@@||anyclip.com/static/$script,domain=video.timeout.com
 ! Non-English
 @@/banner/ad/*$image,domain=achaloto.com
 @@||about.smartnews.com/ja/wp-content/assets/img/advertisers/ad_$~third-party
