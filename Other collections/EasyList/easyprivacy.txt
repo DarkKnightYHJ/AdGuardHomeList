@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: NJwPWLMvNNM4eTLOtNp85g
-! Version: 202401181011
+! Checksum: pG+gzgdPqtyx6Djguqccmg
+! Version: 202401181101
 ! Title: EasyPrivacy
-! Last modified: 18 Jan 2024 10:11 UTC
+! Last modified: 18 Jan 2024 11:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -907,6 +907,7 @@
 /fp/top_fp.
 /fp2.compressed.js
 /fp2.min.js$domain=~spweb.auction.co.kr|~spweb.gmarket.co.kr
+/fp3.min.js
 /fp_204?
 /fpc/cookie_js.php
 /fpcookie?
@@ -9875,6 +9876,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dynamicyield.com/var?
 ||e-activist.com^*/broadcast.record.message.open.do?
 ||e-merchant.com/^*/edr.js$third-party
+||e.channelexco.com^
 ||e.ebidtech.com/cv/
 ||e.htplayground.com^
 ||e.metarouter.io^
