@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RUY7+4udVmdrVy4PUkS0Sw
+! Checksum: 5W5F5Pt55c1e9h/ZQa9mIw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202401191400
-! Last Modified: 2024年01月19日 14:00
+! Version: 202401192000
+! Last Modified: 2024年01月19日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -3302,6 +3302,8 @@ newduba.cn###jq_youxi
 ||l7ghj.xyz^
 ||xwlnhw.com^
 ||stbwhln.cn^
+||m6500.top^
+||rotondelibya.com^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -65021,7 +65023,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 !! adobedtm.com/extensions/
 @@||adobedtm.com/extensions/$domain=antena3.com|apple.com|atresmedia.com|atresplayer.com|automobiles.honda.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|lasexta.com|telus.com|verizon.com
 !! OtAutoBlock.js
-@@||cookielaw.org^*/OtAutoBlock.js$domain=bancsabadell.com|darkreading.com
+@@||cookielaw.org^*/OtAutoBlock.js$domain=bancsabadell.com|darkreading.com|uphold.com
 !! cxense.com/public/widget/
 @@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|computerbild.de|cxpublic.com|cyclestyle.net|friday.gold|friday.kodansha.co.jp|handelsblatt.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|savonsanomat.fi|shueisha.co.jp|tn.com.ar|wsj.com
 !! cxense.com/cx.cce.js
