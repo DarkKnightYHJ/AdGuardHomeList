@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: xAe2p/RZ81xQktUF3YQXlQ
-! Version: 202401192301
+! Checksum: 97QfsGth7LGPRJ429BsrkA
+! Version: 202401200050
 ! Title: EasyList China
-! Last modified: 19 Jan 2024 23:01 UTC
+! Last modified: 20 Jan 2024 00:50 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1624,6 +1624,9 @@ newduba.cn###jq_youxi
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
+##.alert_windows > .q-card__actions > a
+###alert_windows > .q-dialog__backdrop
+##body.desktop span[class^="c"] > a[href^="http"][rel="nofollow"][target="_blank"]
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
 ##script + div[id^="a-loading-"]
@@ -3158,6 +3161,14 @@ newduba.cn###jq_youxi
 ||zzbmxl.xyz^
 ||zzyy17.top^
 ||zzyy18.top^
+||pupsjr.xyz^
+||ktauoy.xyz^
+||82zcb.icu^
+||awcdst.icu^
+||foysswr.cn^
+||npnpxoz.xyz^
+||yohnoirs.com^
+||so1nv.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 !
