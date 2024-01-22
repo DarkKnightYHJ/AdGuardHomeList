@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: il4AKnrasGUy1bJloRZemA
+! Checksum: qgpsyhX0XH5QPvtcswkDJQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202401222000
-! Last Modified: 2024年01月22日 20:00
+! Version: 202401230200
+! Last Modified: 2024年01月23日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2098,6 +2098,7 @@ newduba.cn###jq_youxi
 ||cpddgcr.xyz^
 ||cpffkbpq.xyz^
 ||cpmlwhra.xyz^
+||cpyjyhny.xyz^
 ||crazyit8.com^
 ||crhabkd.cn^
 ||criknudsr.com^
@@ -2227,6 +2228,7 @@ newduba.cn###jq_youxi
 ||fol9v.xyz^
 ||fortxfq.cn^
 ||fotaxf.xyz^
+||fotrbx.xyz^
 ||foxoxn.xyz^
 ||foysswr.cn^
 ||fptdxkm.com^
@@ -2386,11 +2388,14 @@ newduba.cn###jq_youxi
 ||icvsleec.xyz^
 ||icwnix.icu^
 ||idddlon.xyz^
+||idns.online^
 ||ieequd.icu^
 ||ielgag.top^
 ||iephrenhq.com^
+||iewtwo.xyz^
 ||igkgag.xyz^
 ||iincon.icu^
+||iivruiz.cn^
 ||iiwoqm.xyz^
 ||ikmhndd.com^
 ||iknhgj.com^
@@ -2761,6 +2766,8 @@ newduba.cn###jq_youxi
 ||otbeksf.cn^
 ||otxlhpm.xyz^
 ||ovfvkfc.xyz^
+||ovnrmvg.cn^
+||ovykq.online^
 ||owkmmo.xyz^
 ||owyame.xyz^
 ||oxrvfsi.xyz^
@@ -2840,6 +2847,7 @@ newduba.cn###jq_youxi
 ||qydoex.icu^
 ||qyoqeq.xyz^
 ||qznjujv.xyz^
+||qzvzluu.xyz^
 ||r9ffi.fun^
 ||ran2.top^
 ||raolmsc.com^
@@ -3230,6 +3238,8 @@ newduba.cn###jq_youxi
 ||xpffkbpq.xyz^
 ||xphcrjth.xyz^
 ||xpyerxzn.xyz^
+||xpyjyhny.xyz^
+||xq2024.com^
 ||xqgduov.cn^
 ||xqjqripb.xyz^
 ||xrcembm.cn^
@@ -3286,6 +3296,7 @@ newduba.cn###jq_youxi
 ||yongzhen8.com^
 ||ypcngw.xyz^
 ||ypffkbpq.xyz^
+||ypyjyhny.xyz^
 ||yqlxwb.icu^
 ||yshlor.icu^
 ||ysxt9.com^
@@ -3344,16 +3355,6 @@ newduba.cn###jq_youxi
 ||zzbmxl.xyz^
 ||zzyy17.top^
 ||zzyy18.top^
-||iivruiz.cn^
-||fotrbx.xyz^
-||qzvzluu.xyz^
-||iewtwo.xyz^
-||ypyjyhny.xyz^
-||ovykq.online^
-||cpyjyhny.xyz^
-||ovnrmvg.cn^
-||idns.online^
-||xpyjyhny.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -17114,6 +17115,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@/mobileads.$domain=naviking.localking.com.tw
 @@/pub/ad/*$domain=ruten.com.tw
 @@/pub1/??$domain=banggo.com
+@@/rwd_cap.js$domain=ibf.tw
 @@/show_ad_$domain=wb.qq.com
 @@/show_ads_$domain=ygo-sem.cn
 @@/site/ad/*$domain=islide.cc
@@ -17299,7 +17301,6 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||cbjs.baidu.com/js/m.js$domain=fxpan.com|iyingdi.com|pic.tiexue.net
 @@||ccb.com^*^ad
 @@||ccllaa.com^$generichide
-@@||cdn.doublemax.net/js/rwd_cap.js$domain=ibf.tw
 @@||cdn.jsdelivr.net^$script,domain=movieffm.net
 @@||cdn.staticfile.org^$script,domain=movieffm.net
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/*/videojs.ads.min.js$domain=linetv.tw
