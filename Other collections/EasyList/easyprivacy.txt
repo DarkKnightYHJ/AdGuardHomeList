@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 1MsLOaYXL3SvtE7evex4eA
-! Version: 202401212300
+! Checksum: C+A0B1G+654nGa4WXqNWGQ
+! Version: 202401220050
 ! Title: EasyPrivacy
-! Last modified: 21 Jan 2024 23:00 UTC
+! Last modified: 22 Jan 2024 00:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -43262,7 +43262,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||cnet.com/a/video-player/uvpjs-rv/$script,~third-party
 @@||cohesionapps.com/cohesion/$domain=bankrate.com|frontier.com
 @@||cohesionapps.com/preamp/$subdocument,xmlhttprequest,domain=frontier.com
-@@||collect.igodigital.com/collect.js$domain=berkley-fishing.com|goodwillfinds.com|samash.com|vitalsource.com|wilsonparking.com.au
 @@||collusion.com/static/newrelic.js$script,~third-party
 @@||community.brave.com/t/$xmlhttprequest
 @@||communityenergysolutions.com/ui/assets/gtm/gtm.js$script,~third-party
@@ -43520,6 +43519,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||google-analytics.com/plugins/ua/ec.js$domain=saturn.at|teddyfood.com|xxl.se
 !! google-analytics.com/ga.js
 @@||google-analytics.com/ga.js$domain=meritonsuites.com.au
+!! collect.igodigital.com/collect.js
+@@||collect.igodigital.com/collect.js$domain=berkley-fishing.com|enoteca.co.jp|goodwillfinds.com|samash.com|viajeguanabara.com.br|vitalsource.com|wilsonparking.com.au
 !! browser.sentry-cdn.com
 @@||browser.sentry-cdn.com^$domain=acustica-audio.com|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|menshealth.com|podcasty.seznam.cz|roomster.com|shop.dns-net.de|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
 !! adobedtm.com^*/satelliteLib-
@@ -43762,7 +43763,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||carsensor.net/usedcar/modules/clicklog_top_lp_revo.php$xmlhttprequest
 @@||cdn.treasuredata.com/sdk/$script,domain=retty.me
 @@||cmn.gyro-n.com/js/gyr.min.js$domain=benesse-style-care.co.jp
-@@||collect.igodigital.com/collect.js$domain=enoteca.co.jp
 @@||delivery.satr.jp^$script,domain=mieru-ca.com
 @@||deteql.net/recommend/provision?$xmlhttprequest,domain=t-fashion.jp
 @@||disneyplus.disney.co.jp/view/vendor/analytics/$~third-party
