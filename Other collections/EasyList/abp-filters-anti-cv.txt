@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: xjPbD5NHcdSrcCQ3d+rZTw
-! Version: 202401231311
+! Checksum: AqBqELbztr2/Vvt6Banslg
+! Version: 202401231401
 ! Title: ABP filters
-! Last modified: 23 Jan 2024 13:11 UTC
+! Last modified: 23 Jan 2024 14:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1526,6 +1526,7 @@ holyphim.com#$#abort-current-inline-script window.addEventListener window.open
 nettruyenus.net#$#abort-on-property-read sp
 phimtho.net#$#abort-current-inline-script $ p0pUpRandom
 tailieumoi.vn#$#override-property-read linkAff null
+cunghocvui.com#$#abort-current-inline-script document.addEventListener opened_window_shoppe
 ! *** abp-filters-hotfix:hotfix.txt ***
 ! FDA-2830
 @@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|
