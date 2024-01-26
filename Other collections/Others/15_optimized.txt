@@ -1,10 +1,11 @@
-! Checksum: YrQTCpMRSRyhE8SHdhY7Bg
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1706250933-3600.patch
+! Checksum: DY+RTNaGKUJ3ayiJWsDuPw
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1706272679-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.61.1
-! TimeUpdated: 2024-01-26T06:31:43+00:00
+! Version: 2.0.61.2
+! TimeUpdated: 2024-01-26T12:33:33+00:00
 ! Expires: 5 days (update frequency)
+||riweeboo.com^
 ||8trd.online^
 ||publisher1st.com^
 ||avglfookdjuj.com^
@@ -41786,6 +41787,9 @@ vkcdnservice.appspot.com^
 ||affex.org^
 ||tagman.britishairways.com^
 |piwik.
+||pdsssl.gmarket.co.kr^
+||pds.gmarket.co.kr^
+||uts.gmarket.co.kr^
 ||prebid-log.getpublica.com^
 ||dmp.truoptik.com^
 ||analytics.nova.foxsports.com^
@@ -43991,6 +43995,7 @@ inapps.appsflyersdk.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||events.character.ai^
 ||sb.scorecard.research.com^
 ||zml-apm-prd.dbv4.noncd.db.de^
 ||api.bytebrew.io^
@@ -51404,6 +51409,7 @@ inapps.appsflyersdk.com^
 ||classic.avantlink.com^
 ||clientcdn.pushengage.com^
 ||cl-eu2.k5a.io^
+||cl-eu4.k5a.io^
 ||cmp.network-n.com^
 ||cncpt.dk^
 ||cncptx.com^
@@ -58551,6 +58557,7 @@ inapps.appsflyersdk.com^
 ||cpkxahje.xyz^
 ||rmxizma.cn^
 ||jyewkb.icu^
+||xpkxahje.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 ||01v62.xyz^
