@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1h+bzCZH08CXrDKaC+8KZg
-! Version: 202401271001
+! Checksum: sHfLddeiBQBvF9znydjXsQ
+! Version: 202401271101
 ! Title: EasyList China
-! Last modified: 27 Jan 2024 10:01 UTC
+! Last modified: 27 Jan 2024 11:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1632,6 +1632,7 @@ newduba.cn###jq_youxi
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
 ##a[href*=".taobao.com"] > img[src*=".tucao."]
+##.pause-ad
 ##script + div[id^="a-loading-"]
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##span[title="neteasefooter"]
@@ -3271,6 +3272,7 @@ newduba.cn###jq_youxi
 ||dmdnlr.xyz^
 ||kaurieseluxate.com^
 ||lioyfmp.cn^
+||xhgpuxim.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 !
@@ -11360,6 +11362,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+taiwanus.net##td[width="900"] + td[width="320"]
+csgoob.com##.lg\:basis-1
+csgoob.com##.lg\:sticky.lg\:top-22 > .card-shadow:not(.py-4)
+csgoob.com###ADback
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -18645,7 +18651,6 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||v1.phb123.com^
 ||v1.taksh.cn^
 ||v1.wphonelife.com^
-||ve.kj-cy.cn^
 ||vip.panggugu.com^
 ||vjie.com^$third-party
 ||vv1.pyhfxdm.cn^
