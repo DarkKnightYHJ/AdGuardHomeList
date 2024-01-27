@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZOHOOmtguqOM4ufvdx+7/w
+! Checksum: tOjEe1XWzh4eTq1lqJgFdw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202401272000
-! Last Modified: 2024年01月27日 20:00
+! Version: 202401280200
+! Last Modified: 2024年01月28日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1527,6 +1527,7 @@ newduba.cn###jq_youxi
 ##.pagecon + .ad1
 ##.partialViewSlider-outerwrapper
 ##.pasuAD
+##.pause-ad
 ~dongman8.com##.pc_acmsd
 ##.pccb > .ng-star-inserted
 ##.pcd_ad
@@ -1679,6 +1680,7 @@ newduba.cn###jq_youxi
 ##a[href*=".com?intr="]
 ~shenguangai.com##a[href*=".shenguangai.com/"]
 ##a[href*=".taobao.com"] > .top1
+##a[href*=".taobao.com"] > img[src*=".tucao."]
 ~umeng.com##a[href*=".umeng.com"]:not([href="http://www.umeng.com/"]) > img
 ##a[href*=".xyz:"] > img[src*=".qlogo.cn"]
 ##a[href*="/23.224.188."]
@@ -1781,8 +1783,6 @@ newduba.cn###jq_youxi
 ##script + #rbbox
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
-##a[href*=".taobao.com"] > img[src*=".tucao."]
-##.pause-ad
 ##script + div[id^="a-loading-"]
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##span[title="neteasefooter"]
@@ -1876,6 +1876,7 @@ newduba.cn###jq_youxi
 ||415677.com^
 ||44180055.cn^
 ||44jui.top^
+||4imk5.online^
 ||4wfe3.icu^
 ||53ynh.xyz^
 ||5698tp.com^
@@ -2087,6 +2088,7 @@ newduba.cn###jq_youxi
 ||cgqwgv.icu^
 ||chbheroq.xyz^
 ||cheda6.icu^
+||chgpuxim.xyz^
 ||chnvgdkw.xyz^
 ||chrtds.xyz^
 ||chubsxmg.xyz^
@@ -2132,6 +2134,7 @@ newduba.cn###jq_youxi
 ||dbpxivi.xyz^
 ||dcdglb.xyz^
 ||ddkh59.com^
+||ddllhqj.xyz^
 ||ddvoht.xyz^
 ||deanth.xyz^
 ||demifa.top^
@@ -2147,6 +2150,7 @@ newduba.cn###jq_youxi
 ||djponj.xyz^
 ||dkvakldvnsv.com^
 ||dkyd6.xyz^
+||dmdnlr.xyz^
 ||dnfnpff.xyz^
 ||dnn1300.top^
 ||dotuij.top^
@@ -2500,6 +2504,7 @@ newduba.cn###jq_youxi
 ||kaaqgf.icu^
 ||kaezakkjt.com^
 ||kafuzcxr.xyz^
+||kaurieseluxate.com^
 ||kbayke.xyz^
 ||kbbrptv.xyz^
 ||kbzs88.com^
@@ -2595,6 +2600,7 @@ newduba.cn###jq_youxi
 ||lih6e.site^
 ||limopf.top^
 ||linj.top^
+||lioyfmp.cn^
 ||liujiahao6.cn^
 ||liuyi22.cn^
 ||liuyuhuaa.cn^
@@ -2742,6 +2748,7 @@ newduba.cn###jq_youxi
 ||newpgqnfapkamg.xyz^
 ||nfldgbt.xyz^
 ||nhcdn.cn^
+||niticl.icu^
 ||nixqvd.xyz^
 ||njppuaj.cn^
 ||njpyrn.xyz^
@@ -2863,6 +2870,7 @@ newduba.cn###jq_youxi
 ||qmwx4.xyz^
 ||qoqoangry.com^
 ||qoswfds.cn^
+||qqainj.cn^
 ||qqvlsr.icu^
 ||qqyjis.xyz^
 ||qsfbmol.cn^
@@ -3260,6 +3268,7 @@ newduba.cn###jq_youxi
 ||xg6hb.xyz^
 ||xgrcfz.xyz^
 ||xhbheroq.xyz^
+||xhgpuxim.xyz^
 ||xhnvgdkw.xyz^
 ||xhubsxmg.xyz^
 ||xiaobizaizi1.top^
@@ -3333,6 +3342,7 @@ newduba.cn###jq_youxi
 ||yfzpxnb.xyz^
 ||ygfgzmzo.xyz^
 ||yhbheroq.xyz^
+||yhgpuxim.xyz^
 ||yhlzadr.xyz^
 ||yhnvgdkw.xyz^
 ||yhtpsy8888.cc^
@@ -3366,6 +3376,7 @@ newduba.cn###jq_youxi
 ||yxcrcc.xyz^
 ||yxptcrss.xyz^
 ||yxrxsov.xyz^
+||yzmcok.xyz^
 ||z0a1b2c3d4.com^
 ||z1wfe.top^
 ||z3p9f.xyz^
@@ -3411,17 +3422,6 @@ newduba.cn###jq_youxi
 ||zzbmxl.xyz^
 ||zzyy17.top^
 ||zzyy18.top^
-||ddllhqj.xyz^
-||yhgpuxim.xyz^
-||qqainj.cn^
-||yzmcok.xyz^
-||4imk5.online^
-||niticl.icu^
-||chgpuxim.xyz^
-||dmdnlr.xyz^
-||kaurieseluxate.com^
-||lioyfmp.cn^
-||xhgpuxim.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -11509,10 +11509,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-taiwanus.net##td[width="900"] + td[width="320"]
-csgoob.com##.lg\:basis-1
-csgoob.com##.lg\:sticky.lg\:top-22 > .card-shadow:not(.py-4)
-csgoob.com###ADback
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -11524,6 +11520,7 @@ itavcn.com###ADE
 sina.com.cn###AD_Background_Wall_BG
 sina.com.cn###AD_Background_Wall_BG_Link
 sina.com.cn###AD_Background_Wall_Banner
+csgoob.com###ADback
 aiyingshi.tv###ADmask
 51cto.com###ADsList
 esu.moe,esu.wiki###ASSPC
@@ -14647,6 +14644,8 @@ muzhi.baidu.com##.leftnest
 ifeng.com##.leftpopad
 2dfan.com,galge.fun##.leftside-bg
 axios-js.com##.lessonlist
+csgoob.com##.lg\:basis-1
+csgoob.com##.lg\:sticky.lg\:top-22 > .card-shadow:not(.py-4)
 vansky.com##.liAds
 lywww.com##.lianmengclass
 hao.360.com##.licai-right
@@ -16947,6 +16946,7 @@ enread.com##td[width="326"][height="250"]
 sdzbcg.com##td[width="580"][height="279"] > table:nth-child(2n-1)
 62422.cn##td[width="760"][height="75"]
 cartoonmad.com##td[width="890"] > table > tbody > tr > td[colspan="4"][height="126"]
+taiwanus.net##td[width="900"] + td[width="320"]
 mgbbs.cn##td[width="960"][height="60"]
 ningmengzhibo.com##th[style="width: 80px;"][colspan="3"]
 toutiao.com#?#.has_action:-abp-has(> .icon_ad)
@@ -24912,6 +24912,7 @@ _WebVitalsReporter_
 /open.aspx?
 /open.html?$image
 /open/?ot=$image
+/open?token=$image
 /opens.jscrambler.com/*$image
 /p/rp/*?mi_u=*=&sap_id=$image
 /p1x1.gif
@@ -35222,6 +35223,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||global.canon/00cmn/js/*/analytics-
 ||global.ssl.fastly.net^$domain=allmodern.com|argos.co.uk|basspro.com|birchlane.com|courier-journal.com|courierpress.com|desertsun.com|detroitnews.com|eddiebauer.com|freep.com|glassesusa.com|greenbaypressgazette.com|harborfreight.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|lowes.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|sheboyganpress.com|tallahassee.com|theadvertiser.com|thisweek.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com|wwe.com
 ||globes.co.il/shared/s.ashx?
+||gmetrics.getbeamer.com^
 ||gnar.grammarly.com^
 ||gnavi.co.jp/analysis/
 ||go.fap18.net/ftt2/js.php
