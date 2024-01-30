@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 35b7JPc3D+z3uAdAsoR/Uw
-! Version: 202401301211
+! Checksum: QokVC+AWHB7osmPMLOUA9w
+! Version: 202401301301
 ! Title: ABP filters
-! Last modified: 30 Jan 2024 12:11 UTC
+! Last modified: 30 Jan 2024 13:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -798,7 +798,7 @@ onscreens.me#$#abort-on-property-read localStorage; abort-on-property-read asgPo
 manga1000.top#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse; abort-on-property-read asgPopScript
 ling-online.com#$#abort-current-inline-script document.documentElement JSON.parse
 hortonanderfarom.blogspot.com#$#override-property-read setTimeout noopFunc
-*$popup,third-party,domain=hdtoday.la|hdtoday.tv|kimcartoon.li|kisscartoon.com|mreader.co|strtapeadblock.me|strtapeadblocker.art|theflixertv.to
+*$popup,third-party,domain=gogoanimes.fi|hdtoday.la|hdtoday.tv|kimcartoon.li|kisscartoon.com|mreader.co|strtapeadblock.me|strtapeadblocker.art|theflixertv.to
 userload.co#$#abort-current-inline-script $ Math.random
 tubeload.co#$#abort-on-property-write BetterJsPop
 hotleak.vip#$#abort-on-property-read advertising
@@ -969,6 +969,7 @@ pussyspace.com,pussyspace.net#$#prevent-listener loadex; prevent-listener exoJsP
 torrentgalaxy.to#$#hide-if-matches-xpath './/*[contains(@title, "Ads")]/parent::div/ancestor:: div[@id="click"]/ancestor::div[@onmouseover][@onmouseout]'; hide-if-matches-xpath './/img[contains(@class,"img-")]/parent::div/ancestor::a[contains(@href,"zub.pnp")]/ancestor-or-self::div[1]';
 ||footfetishvid.com/*/*.php^$domain=footfetishvid.com
 ||*.com/*fbeea*.js^$domain=footfetishvid.com
+alions.pro##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"]
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
