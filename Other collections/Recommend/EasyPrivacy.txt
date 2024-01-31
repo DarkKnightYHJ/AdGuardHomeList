@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: GI7dD+zEAU1WHYwYaULADg
-! Version: 202401311101
+! Checksum: YJKkLVM02wk2QW3fFe2Ltw
+! Version: 202401311211
 ! Title: EasyPrivacy
-! Last modified: 31 Jan 2024 11:01 UTC
+! Last modified: 31 Jan 2024 12:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -12602,10 +12602,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||yahoo.co.jp/js/retargeting.js
 ! Korean
 ||acelogger.heraldcorp.com^
+||applog.ssgdfs.com^
 ||assets.datarize.ai^
 ||cafe24.com/cfa.js
 ||cafe24.com/weblog.js
 ||cm-exchange.toast.com^
+||dadispapi.gmarket.co.kr^
 ||dtr-onsite-feed.datarize.ai^
 ||event.hackle.io^
 ||log.adplex.co.kr^
@@ -12616,6 +12618,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||logger.bzu.kr^
 ||logs-partners.coupang.com^
 ||megadata.co.kr^
+||montelena.auction.co.kr^
 ||mtag.mman.kr^
 ||naver.com/mcollector/
 ||ngc1.nsm-corp.com^
@@ -12631,6 +12634,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracker.adbinead.com^
 ||tracker.digitalcamp.co.kr^
 ||tracking.adweb.co.kr^$third-party
+||utsgw.auction.co.kr^
 ! Latvian
 ||counter.hackers.lv^
 ||pmo.ee/stats/
@@ -42905,7 +42909,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||pds.auction.co.kr^
 ||rake.11st.co.kr^
 ||seoul.co.kr/weblog/
+||shinsegae.com/topNPopup.do
 ||sp.naver.com^
+||ssgdfs.com/kr/common/getPageIcfCd
 ||stat.i3.dmm.com^
 ||stat.tiara.daum.net^
 ||stat.tiara.kakao.com^
@@ -42915,6 +42921,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||track.tiara.daum.net^
 ||track.tiara.kakao.com^
 ||tracker.cauly.co.kr^
+||traders.co.kr/common/js/makePCookie.js
 ||uts.auction.co.kr^
 ||utsssl.auction.co.kr^
 ||wcs.naver.com^
