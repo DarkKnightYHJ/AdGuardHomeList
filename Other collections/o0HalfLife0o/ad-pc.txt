@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yCpkY9DfKp7XvtKhGaiHHw
+! Checksum: kdd6+c96z/w5zBorCGBpWA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202401310200
-! Last Modified: 2024年01月31日 02:00
+! Version: 202401310801
+! Last Modified: 2024年01月31日 08:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1324,7 +1324,6 @@ tieba.baidu.com##.tuijian-wrap
 /images-ad/*
 /images/ad2/*
 /images/ads-$domain=~ads.com
-/images/ads_
 /images/adv/*
 /images/adv_
 /images/adz/*
@@ -18239,6 +18238,7 @@ _800x80_
 ##a[href^="https://pb-front.com/"]
 ##a[href^="https://pb-imc.com/"]
 ##a[href^="https://pb-track.com/"]
+##a[href^="https://platenssitient.com/"]
 ##a[href^="https://porngames.adult/?SID="]
 ##a[href^="https://porntubemate.com/"]
 ##a[href^="https://prf.hn/click/"][href*="/adref:"] > img
@@ -24489,6 +24489,7 @@ browsershots.org#@#.advert_area
 ||caboclonymphly.com^
 ||cabotsmuskit.com^
 ||cachegorilla.com^
+||cachegorilla.net^
 ||cackssandhog.com^
 ||cacmatch.com^
 ||cacvduyrybba.xyz^
@@ -42135,6 +42136,7 @@ browsershots.org#@#.advert_area
 ||popmyads.com^
 ||popnc.com^
 ||poppysol.com^
+||poprtb.com^
 ||popruexo.com^
 ||popsads.com^
 ||popsads.net^
@@ -46330,6 +46332,7 @@ browsershots.org#@#.advert_area
 ||solemnlypink.com^
 ||solemnvine.com^
 ||solestudious.com^
+||soliads.io^
 ||soliads.net^
 ||solicitorlaptopfooting.com^
 ||solicitorviewer.com^
@@ -51856,6 +51859,7 @@ browsershots.org#@#.advert_area
 ||xmlapiclickredirect10102022.com^
 ||xmlgrab.com^
 ||xmlheartbiddotnet.monster^
+||xmlking.com^
 ||xmllover.com^
 ||xmlppcbuzz.com^
 ||xmlrtb.com^
@@ -56047,6 +56051,7 @@ browsershots.org#@#.advert_area
 ||lassampy.com^$popup
 ||last0nef1le.com^$popup
 ||lasubqueries.com^$popup
+||lataniaembosks.com^$popup
 ||latheendsmoo.com^$popup
 ||lavatorydownybasket.com^$popup
 ||lavender64369.com^$popup
@@ -58837,6 +58842,7 @@ browsershots.org#@#.advert_area
 ||1419560424.rsc.cdn77.org^
 ||1437953666.rsc.cdn77.org^
 ||1556048427.rsc.cdn77.org^
+||1647871863.rsc.cdn77.org^
 ||1661795914.rsc.cdn77.org^
 ||1662864709.rsc.cdn77.org^
 ||1675450967.rsc.cdn77.org^
@@ -60213,6 +60219,7 @@ browsershots.org#@#.advert_area
 ||bets.to^$popup
 ||bettingpremier.com/direct/$popup
 ||betzone2000.com^$popup
+||blockadstop.info^$popup
 ||brazzers.com/click/$popup
 ||browsekeeper.com^$popup
 ||canyoublockit.com^$popup,third-party
@@ -67285,6 +67292,7 @@ bbc.com###sticky-mpu:has(.dotcom-ad-inner)
 kroger.com##.AutoGrid-cell:has(.ProductCard-tags > div > span[data-qa="featured-product-tag"])
 nationalgeographic.com##.FrameBackgroundFull--grey:has(.ad-wrapper)
 imgur.com##.Grid-column > div[style^="height:"]:has(.AdHomeContainer)
+imgur.com##.Grid-column > div[style^="height:"]:has(.Post-item-external-ad)
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##._6y8t:has(a[href="/ads/about/?entry_product=ad_preferences"])
 haveibeenpwned.com##.actionsBar:has(.why1Password)
 forexlive.com##.article-slot__wrapper:has(.article-header__sponsored)
