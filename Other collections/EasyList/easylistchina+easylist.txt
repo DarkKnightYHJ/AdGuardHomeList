@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: NZG11NnVGOYLKWRC2PEc8g
-! Version: 202401310211
+! Checksum: 0nkrUJdv7TMCXF4QHyHV2A
+! Version: 202401310301
 ! Title: EasyList China+EasyList
-! Last modified: 31 Jan 2024 02:11 UTC
+! Last modified: 31 Jan 2024 03:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -3312,6 +3312,9 @@ newduba.cn###jq_youxi
 ||dpe5t.space^
 ||uiuaey.xyz^
 ||dskjbvzvs.com^
+||guysfair.com^
+||dqrdwz.icu^
+||gghhct36.shop^
 ||zzyy19.top^
 ||zzyy20.top^
 !
@@ -19805,8 +19808,6 @@ fqsousou.com,kengso.com#@#.user-share
 /html/ad/*
 /html/ads/*
 /im-popup/*
-/im.cams.
-/ima/ads_
 /image/ad/*
 /image/ads/*
 /image/ads_
@@ -19822,7 +19823,6 @@ fqsousou.com,kengso.com#@#.user-share
 /images2/Ads/*
 /imfloat.
 /img/ad/*
-/img/ads/*$domain=~save.ca
 /img/aff/*
 /img_ad/*
 /impop.
@@ -19855,28 +19855,24 @@ fqsousou.com,kengso.com#@#.user-share
 /js.ng/cat=
 /js.ng/channel_
 /js.ng/pagepos=
-/js/doubleclick/*
 /js/ppu.$script
-/js/prebid-video.
 /js3caf.js
-/js_exit_popup.
-/js_interstitial.
 /jsad.php
-/jsAds-$script
+/jsAds-1.4.min.js
+/jsads.js
 /jshexo.hj?lb=
-/jspopunder.
+/jspopunder.js
+/jspopunder.min.js
 /keyade.js
 /keyword_ad.
 /layer-ad.
 /layer-ads.
 /layerad-
 /layerad.
-/layerads_
-/lazy-ads.
 /lazyad-loader.js
 /lazyad-loader.min.js
 /lazyload.ads?
-/left_ads.
+/left_ads.js
 /leftad.
 /leftad_
 /leftads.
@@ -20063,23 +20059,16 @@ fqsousou.com,kengso.com#@#.user-share
 /popunder_
 /popunderjs/*
 /popunders/*
-/popundr.
-/popundr/*
 /popup-domination/*$~stylesheet
 /popup2.js
 /popup3.js
 /popup_ad.
-/popup_code.
-/popupad/*
-/popupads.
-/popupunder.
+/popup_code.php
+/popupads.js
+/popupunder.js
 /pounder-$~image
-/ppd_ads.
-/ppd_ads_
-/predictad.
-/prehead/ads_
-/premium_ad.
-/premiumads/*
+/prebid-video.js
+/prehead/ads_detect.js
 /prerollad.
 /prerollads.
 /prism_ad/*$script
@@ -87711,6 +87700,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||g.doubleclick.net/pagead/ads?*&description_url=https%3A%2F%2Fgames.wkb.jp$xmlhttprequest,domain=imasdk.googleapis.com
 @@||g2crowd.com/uploads/product/image/$image,domain=g2.com
 @@||gbf.wiki/images/$image,~third-party
+@@||gitlab.com/api/v4/projects/$~third-party
 @@||givingassistant.org/Advertisers/$~third-party
 @@||global-uploads.webflow.com/*_dimensions-$image,domain=dimensions.com
 @@||gn-web-assets.api.bbc.com/bbcdotcom/assets/$script,domain=bbc.co.uk
@@ -87796,6 +87786,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||pub.doubleverify.com/dvtag/$script,domain=time.com
 @@||pub.pixels.ai/wrap-independent-no-prebid-lib.js$script,domain=independent.co.uk
 @@||radiotimes.com/static/advertising/$script,~third-party
+@@||raw.githubusercontent.com^$domain=viewscreen.githubusercontent.com
 @@||redventures.io/lib/dist/prod/bidbarrel-$script,domain=cnet.com|techrepublic.com|zdnet.com
 @@||renewcanceltv.com/porpoiseant/banger.js$script,~third-party
 @@||rubiconproject.com/prebid/dynamic/$script,domain=ask.com|journaldequebec.com
@@ -87892,7 +87883,6 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||github.com^$generichide
 @@||github.io^$generichide
 @@||gitlab.com^$generichide
-@@||hbomax.com^$generichide
 @@||icloud.com^$generichide
 @@||instagram.com^$generichide
 @@||instapundit.com^$generichide
