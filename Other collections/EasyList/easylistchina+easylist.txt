@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: i6DKvec9Z8ri9HXzclqUUQ
-! Version: 202402011001
+! Checksum: /DLFj8t6RSEQ626qJFEvfw
+! Version: 202402011101
 ! Title: EasyList China+EasyList
-! Last modified: 01 Feb 2024 10:01 UTC
+! Last modified: 01 Feb 2024 11:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -10858,6 +10858,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+storytrain.info##.responsive_ad
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
@@ -16442,6 +16443,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 !---------------------------------URL Whitelist-------------------------------!
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
+@@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=line.me
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
 @@.png#$domain=3dpchip.com|9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com|digit77.com|e9china.net|upxin.net
@@ -66978,7 +66980,6 @@ browsershots.org#@#.advert_area
 ||traumatizedenied.com^
 ||traung.com^
 ||traveladvertising.com^
-||travelaudience.com^
 ||travelingbeggarlyregions.com^
 ||travelingfreshman.com^
 ||travelledelkremittance.com^
