@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 0rBq/6jK41QBpG0evl3N1A
-! Version: 202402021001
+! Checksum: 3sTlxB5eLUijqPCrgRpmFQ
+! Version: 202402021101
 ! Title: ABP filters
-! Last modified: 02 Feb 2024 10:01 UTC
+! Last modified: 02 Feb 2024 11:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -49,7 +49,7 @@ ahri8.top#$#abort-current-inline-script document.querySelectorAll popMagic
 ifenpaidy.com#$#abort-on-property-read localStorage
 ! Popups & Popunders
 cocomanga.com#$#abort-on-property-read __cad.cpm_popunder; abort-on-property-read __ad
-madouqu.com,madouqu.tk#$#abort-current-inline-script document.querySelectorAll popMagic
+madouqu.com#$#abort-current-inline-script document.querySelectorAll popMagic
 editcode.net#$#abort-current-inline-script setTimeout openAd
 69xx.one,theav.xyz,theporn.cc#$#override-property-read is_show false
 ! Video ads
@@ -1125,7 +1125,7 @@ hotsexstory.xyz#$#abort-current-inline-script document.querySelectorAll popMagic
 moredesi.com#$#abort-on-property-read __formatsGetters
 ! *** abp-filters-anti-cv:indonesian.txt ***
 ! #CV-667
-citpekalongan.com,designmyhomee.com,mangacanblog.com,marthamatika.com,tokusatsuindo.com,unbrick.id#$#abort-current-inline-script Math zfgloaded
+citpekalongan.com,designmyhomee.com,mangacanblog.com,tokusatsuindo.com,unbrick.id#$#abort-current-inline-script Math zfgloaded
 hotabis.com#$#override-property-read td_ad_background_click_link undefined
 ! Popup/Popunder/Clickunder
 komikcast.me#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
@@ -1231,7 +1231,6 @@ filmy69.pl#$#abort-current-inline-script document.querySelectorAll popMagic
 ! #CV-692
 anitube.be,anitube.cx,anitube.cz#$#abort-on-property-write _pop
 ! MISC
-||torcidatricolor.tv/*.gif$image
 kastream.biz#$#abort-on-property-write open
 filmesonlinegratis.com#$#abort-on-property-read atob
 multicanais.tv#$#abort-current-inline-script document.createElement _whvbtwzo
@@ -1246,13 +1245,12 @@ animesonline22.com#$#abort-current-inline-script JSON.parse /atob|btoa|break/
 gekkou.com.br#$#abort-current-inline-script document.querySelectorAll popMagic
 gofilmes.me#$#abort-on-property-read zfgformats
 betteranime.net#$#abort-current-inline-script document.createElement _mdttdpu
-torrentdosfilmes.eu#$#abort-current-inline-script document.createElement /break|case/
 mangalivre.net#$#hide-if-matches-xpath './/div[contains(@style,"pointer-events")]/ancestor-or-self::div[@style][1]'
 ! #CV-667
 filmesonlinegratis.com#$#abort-current-inline-script Math zfgloaded
 ! *** abp-filters-anti-cv:romanian.txt ***
 ! #CV-667
-4bac.ro,cinemasfera.com,filme-bune.biz#$#abort-current-inline-script Math zfgloaded
+4bac.ro,filme-bune.biz#$#abort-current-inline-script Math zfgloaded
 ! *** abp-filters-anti-cv:russian.txt ***
 ! #CV-244
 zen.yandex.ru##div[class*="is-parent-size_undefined"]
@@ -1421,7 +1419,7 @@ agroreview.com#$#abort-current-inline-script encodeURIComponent rcBuf; abort-cur
 ! #CV-691
 ! #CV-761
 ! #CV-667
-envivotv.net,lucenpop.com.es,pokefanleoretrogames.com,topflix.tv#$#abort-current-inline-script Math zfgloaded
+envivotv.net,lucenpop.com.es,topflix.tv#$#abort-current-inline-script Math zfgloaded
 ! #9272
 mamaslatinas.com##.top-bar-content
 ! #CV-663
@@ -1433,7 +1431,7 @@ peliculaseroticasonline.tv#$#abort-on-property-write _0x1dc1
 animeflv.cc#$#abort-current-inline-script JSON.parse
 gnula.se,pelismart.com#$#abort-on-property-read localStorage
 animeflv.net,estrenosdoramas.net#$#abort-on-property-read __DOMAIN
-compucalitv.com,pornstarsyfamosas.es#$#abort-on-property-write _pop
+pornstarsyfamosas.es#$#abort-on-property-write _pop
 animeflv.ac,bajarpelisgratis.com,jkanime.top,pelismart.com,pelismartv.com,pelispoptv.com,series-de.online,torrentdownloads.pro#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
 gnula.nu,pelisnow.to,pelispop.me,tmomanga.com#$#abort-on-property-write JSON.parse
 futbollatam.com#$#abort-on-property-read attr; abort-on-property-read mm

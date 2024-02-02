@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3eTOsFBnmqZmgNC808rlQg
-! Version: 202402021001
+! Checksum: wKOlGI1olLKWt4gjDIy+qQ
+! Version: 202402021101
 ! Title: EasyList China
-! Last modified: 02 Feb 2024 10:01 UTC
+! Last modified: 02 Feb 2024 11:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -3345,6 +3345,9 @@ newduba.cn###jq_youxi
 ||ctcxflak.xyz^
 ||gghhce96.shop^
 ||bqnmxza.cn^
+##a[href*=".ysmdhk.com/"]
+||bocenamesingle.xyz^
+||xtcxflak.xyz^
 ||catwalkoutled.com^
 ||zzyy20.top^
 !
@@ -10873,6 +10876,7 @@ liues.cn##.AD
 liues.cn##.widget-graphic-cover
 laoliublog.cn##.widget_media_image
 laoliublog.cn##.widget_custom_html
+photopea.com##.flexrow > div[style^="padding-top:"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
@@ -16994,7 +16998,6 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||pchome.com.tw/img/js/xpcadshow.js$domain=game735.com
 @@||petrochina.com.cn/advertisement_
 @@||pg-wuming.com^$generichide
-@@||photopea.com/ads.js
 @@||piccool.com/2home/phpAdsNew/
 @@||pinduoduo.com/advert/$~third-party
 @@||pkstep.com^$generichide
