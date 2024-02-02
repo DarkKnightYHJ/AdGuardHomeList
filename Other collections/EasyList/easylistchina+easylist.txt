@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Zhf2cJPbMSM+hn215nXgLQ
-! Version: 202402021401
+! Checksum: gju9OsgQ55TVDp5R2ahk9g
+! Version: 202402021501
 ! Title: EasyList China+EasyList
-! Last modified: 02 Feb 2024 14:01 UTC
+! Last modified: 02 Feb 2024 15:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -21167,6 +21167,7 @@ _768x90_
 _800x100.
 _800x80_
 ! *** easylist:easylist/easylist_general_block_popup.txt ***
+&fp_sid=pop$popup,third-party
 &popunder=$popup
 &popundersPerIP=$popup
 &zoneid=*&ad_$popup
@@ -85599,6 +85600,7 @@ bedbathandbeyond.com##div[data-cta="plpSponsoredProductClick"]
 gamingbible.com,unilad.com##div[data-cypress^="sticky-header"]
 analyticsindiamag.com##div[data-elementor-type="header"] > section.elementor-section-boxed
 wayfair.com##div[data-enzyme-id="WssBannerContainer"]
+my.clevelandclinic.org##div[data-identity*="board-ad"]
 opentable.ae,opentable.ca,opentable.co.th,opentable.co.uk,opentable.com,opentable.com.au,opentable.com.mx,opentable.de,opentable.es,opentable.hk,opentable.ie,opentable.it,opentable.jp,opentable.nl,opentable.sg##div[data-promoted="true"]
 scmp.com##div[data-qa="AdSlot-Container"]
 scmp.com##div[data-qa="AppBar-AdSlotContainer"]
