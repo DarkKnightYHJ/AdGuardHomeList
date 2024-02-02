@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XUAA0kyqwFuPPwHG0SH39g
-! Version: 202402020901
+! Checksum: 3eTOsFBnmqZmgNC808rlQg
+! Version: 202402021001
 ! Title: EasyList China
-! Last modified: 02 Feb 2024 09:01 UTC
+! Last modified: 02 Feb 2024 10:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1367,6 +1367,7 @@ newduba.cn###jq_youxi
 ##.no-mobile[style="position: fixed;right:0px;bottom: 0px;"]
 ##.opt > a[target="_blank"] > img[src*=".360buyimg.com"]
 ##.orbui-post
+##.orbui-site
 ##.overBanner.dowloadBtn
 ##.page > .wp-none1
 ##.page-wwads
@@ -3344,6 +3345,7 @@ newduba.cn###jq_youxi
 ||ctcxflak.xyz^
 ||gghhce96.shop^
 ||bqnmxza.cn^
+||catwalkoutled.com^
 ||zzyy20.top^
 !
 ##[style*="sotv.me"]
@@ -10867,6 +10869,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+liues.cn##.AD
+liues.cn##.widget-graphic-cover
+laoliublog.cn##.widget_media_image
+laoliublog.cn##.widget_custom_html
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
