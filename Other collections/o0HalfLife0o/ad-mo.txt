@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6VqmGzTAEKcadIX8d1SA2A
+! Checksum: TZeOiK0eDugqq5Y5k+qDRA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202402030800
-! Last Modified: 2024年02月03日 08:00
+! Version: 202402031400
+! Last Modified: 2024年02月03日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -17823,6 +17823,7 @@ _800x80_
 ##[href^="https://charmingdatings.life/"]
 ##[href^="https://cipledecline.buzz/"]
 ##[href^="https://click2cvs.com/"]
+##[href^="https://clicks.affstrack.com/"] > img
 ##[href^="https://cpa.10kfreesilver.com/"]
 ##[href^="https://detachedbates.com/"]
 ##[href^="https://engine.gettopple.com/"]
@@ -18902,6 +18903,7 @@ browsershots.org#@#.advert_area
 ||063f828cf2.com^
 ||0676el9lskux.top^
 ||06e293435c.com^
+||070880.com^
 ||072c4580e8.com^
 ||07wr439dfait.top^
 ||0819478661.com^
@@ -72606,6 +72608,20 @@ newduba.cn###jq_youxi
 ||zzbmxl.xyz^
 ||zzyy17.top^
 ||zzyy18.top^
+||wttuuyd.cn^
+||zfpkrl.xyz^
+||ve0ke.icu^
+||dk45h.icu^
+||ylypzbzs.xyz^
+||wbnbocz.xyz^
+||it8vh.site^
+||cbyhoe.xyz^
+||uu11881.com^
+||uu22002.com^
+||uu22332.com^
+||clypzbzs.xyz^
+||gyjgrvd.cn^
+||qeuckn.icu^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -92141,7 +92157,6 @@ omni.soundestlink.com$image
 ||cpcmanager.com^$third-party
 ||cpmstar.com^$third-party
 ||cqcounter.com^$third-party
-||cquotient.com^$third-party
 ||craftkeys.com^$third-party
 ||craktraffic.com^$third-party
 ||crashlytics.com^$third-party
@@ -98795,6 +98810,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||outbrain.com/nanoWidget/externals/cookie/
 ||outbrain.com/widgetOBUserSync/
 ||outbrain.com^*/widgetStatistics.js
+||p.cquotient.com^
 ||p.delivery.net^$third-party
 ||p.metrilo.com^
 ||p.placed.com^
@@ -101378,7 +101394,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||e2ma.net/track/
 ||ea.epochbase.com^
 ||ebay.com/delstats/
-||ebay.com/gh/dfpsvc?
 ||ebay.com^*/customer_image_service?
 ||ebaystatic.com^*tracking/configuration.js
 ||ec.thredup.com^
@@ -102401,6 +102416,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wondershare.com/trk
 ||wsj.com/cookies/pixel.gif
 ||wstats.e-wok.tv^
+||www.ebay.*/gh/dfpsvc?
 ||xero.com/api/events/
 ||xfinity.com/event/
 ||xhamster.com/api/$ping
@@ -131178,7 +131194,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||canadacomputers.com/templates/ccnew/assets/js/jquery.browser-fingerprint-$~third-party
 @@||cdc.gov/jscript/metrics/adobe/launch/$script,~third-party
 @@||cdn-net.com/cc.js
-@@||cdn.cquotient.com/js/$domain=fender.com
 @@||cdn.heapanalytics.com^$script,domain=libertymutual.com
 @@||cdn.jsdelivr.net^*/fp.min.js$script,domain=cuevana2.io
 @@||cdn.mxpnl.com/libs/$script,domain=get.pumpkin.care
@@ -131230,7 +131245,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||driverfix.com^*/index_src.php?tracking=$~third-party
 @@||dw.com.com/js/dw.js$domain=cbsnews.com|tv.com
 @@||dz9qn8fh4jznm.cloudfront.net/script.js$script,domain=bostonglobe.com
-@@||e.cquotient.com/recs/$script,domain=fender.com
 @@||easternbank.com/sites/easternbank/files/google_tag/eastern_bank/google_tag.script.js$script,~third-party
 @@||easy-firmware.com/templates/default/html/*/assets/js/fingerprint2.min.js$script,~third-party
 @@||ec.europa.eu/eurostat/databrowser/assets/analytics/piwik.js$script,~third-party
