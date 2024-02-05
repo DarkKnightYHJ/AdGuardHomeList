@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: o8r3iZ1RxT9lMpkyytmKeg
-! Version: 202402051001
+! Checksum: VQ8kCvuhYvc0OMmV53+b7g
+! Version: 202402051101
 ! Title: ABP filters
-! Last modified: 05 Feb 2024 10:01 UTC
+! Last modified: 05 Feb 2024 11:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -687,12 +687,13 @@ instacart.com,instacart.ca#$#abort-on-property-write window.ADBLOCK_DETECTED
 lowes.com#$#hide-if-matches-xpath './/div[@class][contains(text(),"Sponsored")]/ancestor::div[@class="carousel-inner-container "]/preceding::h2[@class][@role][contains(text(),"Sponsored")]/ancestor-or-self::div[contains(@class,"recommended")][1]'
 lowes.com#$#hide-if-matches-xpath './/section[@id="listItems"]/div[count(child::div) = 3]/div/div[contains(@class,"LormnProductBadgeStyle")]/ancestor::div[contains(@class,"tile_group")]/*'
 lowes.com#$#hide-if-matches-xpath './/section[@id="listItems"]/div/div[@data-tile=//section[@id="listItems"]/div/div[@data-tile][@order]//span[text()="Sponsored"]/ancestor::div[@data-tile][@order]/@data-tile]/*'
-! #CV-1213
+! #RM-8
 samsclub.com#$#hide-if-matches-xpath './/span[@class="sc-specials-label"]/parent::div/ancestor::div[contains(@class,"promo-static")]/ancestor-or-self::li[1]'
 samsclub.com#$#hide-if-contains-visible-text /Sponsored/ 'div[style][class]' span[class]
 samsclub.com#$#hide-if-matches-xpath './/span[@class="sc-specials-label"]/parent::div/ancestor::div[contains(@class,"buy-box")]/parent::div[1]'
 samsclub.com#$#hide-if-matches-xpath './/span[@class="sc-specials-label"]/following::a[@role="button"]/ancestor::div[@class="sc-sba-modules-logo"]/parent::div[contains(@class,"sc-sba-modules")][1]'
 samsclub.com##div[class="analytics"][data-strategy="Sponsored products"]
+samsclub.com##.sc-plp-cards-vast-ad
 ! #CV-663
 beforeitsnews.com,canadafreepress.com,conservativefiringline.com,designbump.com,ipatriot.com,naturalblaze.com,patriotnationpress.com,rightwingnews.com,toptenz.net##div[class] > div[id] > main[class][id]
 dailylol.com##div > aside[class] > span[class*="mdeyheadline-"]
@@ -703,7 +704,7 @@ procoinnews.com##div[id^="adcovery-"]
 procoinnews.com,dailylol.com#$#override-property-read setTimeout noopFunc; abort-on-property-read document.body.innerHTML; override-property-read Object.defineProperty undefined; hide-if-matches-xpath '//main[@class][@role][@id]/parent::div[1]/ancestor-or-self::div[@class][1]';
 ! #CV-1416
 www.booking.com#$#hide-if-contains-visible-text /Ad/ 'div div[data-testid^="property-card"]' 'span[aria-expanded] span'
-! #CV-1454
+! #RM-7
 walmart.ca,walmart.com##div[data-testid^="search-video-in-grid"]
 walmart.ca,walmart.com##div[data-testid^="sba-container"]
 walmart.ca,walmart.com##div[id*="Sponsored"]
