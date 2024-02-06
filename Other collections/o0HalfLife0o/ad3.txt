@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mSTXqJ+NaNO1RnmbVZNbOA
+! Checksum: QjB563nJSK6S0PkdhPbXyQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202402062000
-! Last Modified: 2024年02月06日 20:00
+! Version: 202402070200
+! Last Modified: 2024年02月07日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1986,6 +1986,7 @@ newduba.cn###jq_youxi
 ||awareista.com^
 ||awaw.asia^
 ||awcdst.icu^
+||awhsaso.cn^
 ||awzddev.cn^
 ||ax7fv.space^
 ||aymwiq.xyz^
@@ -2095,6 +2096,7 @@ newduba.cn###jq_youxi
 ||cbttnmo.xyz^
 ||cbyhoe.xyz^
 ||ccwxma.xyz^
+||cdolhlwq.xyz^
 ||cdsa2.icu^
 ||ceiuip.icu^
 ||cfateu.xyz^
@@ -2108,6 +2110,7 @@ newduba.cn###jq_youxi
 ||chsdwjes.xyz^
 ||chubsxmg.xyz^
 ||chzjidgc.xyz^
+||ciimar.icu^
 ||cjndvoglik.xyz^
 ||cjohpsc.cn^
 ||cjpczyi.cn^
@@ -2477,6 +2480,7 @@ newduba.cn###jq_youxi
 ||iknhgj.com^
 ||ileled.xyz^
 ||ilph0.icu^
+||im71za.cn^
 ||imrvyop.cn^
 ||imwxsu.xyz^
 ||imxsvpxe.xyz^
@@ -2649,6 +2653,7 @@ newduba.cn###jq_youxi
 ||lcid.top^
 ||lckjqtx.xyz^
 ||ldjnbn.xyz^
+||ldvdwlt.xyz^
 ||ldvnehc.xyz^
 ||leidad.xyz^
 ||leizylb.icu^
@@ -2788,6 +2793,7 @@ newduba.cn###jq_youxi
 ||mwfyab.icu^
 ||mycxhgrp.xyz^
 ||mydzfldt.xyz^
+||myiryc.xyz^
 ||mymahuxv.xyz^
 ||myyxox.icu^
 ||mzelzfnj.xyz^
@@ -2797,6 +2803,7 @@ newduba.cn###jq_youxi
 ||n0h56.site^
 ||n2faw.site^
 ||n522rv1.cn^
+||n5n5s.icu^
 ||nahgvfhs.xyz^
 ||nanaimostarkle.com^
 ||nangongmall.com^
@@ -2904,6 +2911,7 @@ newduba.cn###jq_youxi
 ||pidurrmu.xyz^
 ||pipc.top^
 ||pirubcfy.xyz^
+||pjvkhh.xyz^
 ||pkfuxvbk.xyz^
 ||pknrnj.xyz^
 ||plnrkgc.xyz^
@@ -3051,6 +3059,7 @@ newduba.cn###jq_youxi
 ||sigjuw.xyz^
 ||skdaj.cn^
 ||skdunkig.xyz^
+||skskssso.com^
 ||slkdfg.com^
 ||slkdnlkfnskl.com^
 ||sllo.top^
@@ -3355,6 +3364,7 @@ newduba.cn###jq_youxi
 ||xcqbbcqpl.xyz^
 ||xdfdqce.xyz^
 ||xdjdpyrt.xyz^
+||xdolhlwq.xyz^
 ||xdsahkln.xyz^
 ||xeazoj.icu^
 ||xebohjhh.xyz^
@@ -3443,6 +3453,7 @@ newduba.cn###jq_youxi
 ||ycgkol.icu^
 ||ycmgeb.icu^
 ||yddbysa.xyz^
+||ydolhlwq.xyz^
 ||ydv7k.cyou^
 ||yepgdita.xyz^
 ||yfsstec96.xyz^
@@ -3546,16 +3557,6 @@ newduba.cn###jq_youxi
 ||zzlong14.cn^
 ||zzyy17.top^
 ||zzyy18.top^
-||im71za.cn^
-||n5n5s.icu^
-||pjvkhh.xyz^
-||ydolhlwq.xyz^
-||ldvdwlt.xyz^
-||ciimar.icu^
-||myiryc.xyz^
-||awhsaso.cn^
-||cdolhlwq.xyz^
-||xdolhlwq.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -33412,6 +33413,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tce.alicdn.com^
 ||tieszhu.com/e.html
 ||tns.simba.taobao.com^
+||tongjiniao.com^$third-party
 ||toruk.tanx.com^
 ||tr.n2.hk^
 ||track.storm.mg^
@@ -64727,6 +64729,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||staty.portalradiowy.pl/wstats/$script,third-party
 @@||unpkg.com/web-vitals/dist/web-vitals.base.iife.js$script,domain=wpolityce.pl
 !---------- Portuguese ----------
+@@||auth2.picpay.com^*/event-tracking.js$script,~third-party
 @@||d.tailtarget.com/profiles.js$domain=superesportes.com.br
 @@||google-analytics.com/urchin.js$domain=record.xl.pt
 @@||players.fichub.com/plugins/adobe/$domain=24kitchen.pt
