@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 5wi3+gg44V5eH6WdAOgw/g
-! Version: 202402061311
+! Checksum: mFByaEoYFAcui3gaN87cYg
+! Version: 202402061401
 ! Title: EasyPrivacy
-! Last modified: 06 Feb 2024 13:11 UTC
+! Last modified: 06 Feb 2024 14:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -43629,6 +43629,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 !
 !---------- Portuguese ----------
 !
+@@||auth2.picpay.com^*/event-tracking.js$script,~third-party
 @@||d.tailtarget.com/profiles.js$domain=superesportes.com.br
 @@||google-analytics.com/urchin.js$domain=record.xl.pt
 @@||players.fichub.com/plugins/adobe/$domain=24kitchen.pt
