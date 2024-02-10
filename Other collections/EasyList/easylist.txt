@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202402100057
+! Version: 202402100401
 ! Title: EasyList
-! Last modified: 10 Feb 2024 00:57 UTC
+! Last modified: 10 Feb 2024 04:01 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -87,6 +87,7 @@
 .com/ads?
 .com/adv/$domain=~adv.asahi.com|~advantabankcorp.com|~alltransistors.com|~archiproducts.com|~tritondigital.com
 .com/adz/
+.com/api/posts?token=$third-party
 .com/peeltr.js
 .com/sc/*?n=$script,third-party
 .com/ss/ad/
@@ -2173,6 +2174,7 @@ _768x90_
 _800x100.
 _800x80_
 ! *** easylist:easylist/easylist_general_block_popup.txt ***
+&adb=y&adb=y^$popup
 &fp_sid=pop$popup,third-party
 &popunder=$popup
 &popundersPerIP=$popup
@@ -26996,6 +26998,7 @@ browsershots.org#@#.advert_area
 ||disgraceannihilate.com^
 ||disgracefulforeword.com^
 ||disguised-dad.com^
+||disgustassembledarctic.com^
 ||disgustinghindsight.com^
 ||disgustingscuffleaching.com^
 ||disheartensunstroketeen.com^
@@ -63723,6 +63726,7 @@ bikepacking.com##.banner-sidebar
 livescores.biz##.banner-slot-filled
 vedantu.com##.banner-text
 historydaily.org,israelnationalnews.com,news12.com,pwinsider.com,spaceref.com,usahealthcareguide.com##.banner-top
+albertsons.com##.banner-unit
 wpneon.com##.banner-week
 news.net##.banner-wr
 admonsters.com##.banner-wrap

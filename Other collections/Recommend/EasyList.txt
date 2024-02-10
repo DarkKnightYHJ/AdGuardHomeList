@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3iZmWa2QCQUvQ9+yNj3Mzg
-! Version: 202402100301
+! Checksum: rAG42yUQtzndzUgUdBkUqw
+! Version: 202402100411
 ! Title: EasyList
-! Last modified: 10 Feb 2024 03:01 UTC
+! Last modified: 10 Feb 2024 04:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -84,6 +84,7 @@
 .com/ads?
 .com/adv/$domain=~adv.asahi.com|~advantabankcorp.com|~alltransistors.com|~archiproducts.com|~tritondigital.com
 .com/adz/
+.com/api/posts?token=$third-party
 .com/peeltr.js
 .com/sc/*?n=$script,third-party
 .com/ss/ad/
@@ -2170,6 +2171,7 @@ _768x90_
 _800x100.
 _800x80_
 ! *** easylist:easylist/easylist_general_block_popup.txt ***
+&adb=y&adb=y^$popup
 &fp_sid=pop$popup,third-party
 &popunder=$popup
 &popundersPerIP=$popup
@@ -26993,6 +26995,7 @@ browsershots.org#@#.advert_area
 ||disgraceannihilate.com^
 ||disgracefulforeword.com^
 ||disguised-dad.com^
+||disgustassembledarctic.com^
 ||disgustinghindsight.com^
 ||disgustingscuffleaching.com^
 ||disheartensunstroketeen.com^
@@ -63720,6 +63723,7 @@ bikepacking.com##.banner-sidebar
 livescores.biz##.banner-slot-filled
 vedantu.com##.banner-text
 historydaily.org,israelnationalnews.com,news12.com,pwinsider.com,spaceref.com,usahealthcareguide.com##.banner-top
+albertsons.com##.banner-unit
 wpneon.com##.banner-week
 news.net##.banner-wr
 admonsters.com##.banner-wrap
