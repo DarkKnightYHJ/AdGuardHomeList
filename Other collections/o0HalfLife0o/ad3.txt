@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5wqNONh8c9fglCPd9WseBw
+! Checksum: x/xUQ9Wd1BFhFeGzeZsayg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202402100200
-! Last Modified: 2024年02月10日 02:00
+! Version: 202402100800
+! Last Modified: 2024年02月10日 08:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -3605,6 +3605,9 @@ newduba.cn###jq_youxi
 ||zzyy17.top^
 ||zzyy18.top^
 ||zzyy19.top^
+||nxditl.xyz^
+||ydazjxso.xyz^
+||qhapoq.xyz^
 ||zzyy20.top^
 ##[style*="sotv.me"]
 ##a[href$="/1c626.com"]
@@ -70003,6 +70006,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||jeu.net/hits.js
 ||jscrambler.com^$script,domain=airfrance.fr
 ||kwgs.letudiant.fr^
+||l.nicematin.com/pv.js
 ||lacentrale.fr/collect
 ||lacentrale.fr/static/fragment-sentry/lc-sentry.js
 ||lacoccinelle.net/tools.js
