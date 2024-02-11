@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: uFP1yI21roDg3cbTLxYmaw
-! Version: 202402110901
+! Checksum: pRyXjY1FZD3l6jhpaNbGfw
+! Version: 202402111001
 ! Title: EasyPrivacy
-! Last modified: 11 Feb 2024 09:01 UTC
+! Last modified: 11 Feb 2024 10:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -48698,6 +48698,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||ianimes.org/img/tracker.gif
 ||igen.fr/modules/statistics/statistics.php
 ||insights.decathlon.net^
+||iphoneaddict.fr/wp-content/*/counter.php
 ||jeu.net/hits.js
 ||jscrambler.com^$script,domain=airfrance.fr
 ||kwgs.letudiant.fr^
@@ -48723,6 +48724,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||marmiton.org/reloaded/errpix.php
 ||medoucine.com/tracking/
 ||neko-san.fr/stats
+||ouest-france.fr/v1/javascripts/*-googletag-
+||ouest-france.fr/v1/javascripts/*-prebid-
 ||p.pagesjaunes.fr^
 ||paruvendu.fr/*/stats/
 ||pixel.dugwood.com^
