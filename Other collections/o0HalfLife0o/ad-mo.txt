@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kQmp1SN8Wc856aY0KF8r0Q
+! Checksum: pY4aGSHugp4N9ivb2m1XHg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202402110801
-! Last Modified: 2024年02月11日 08:01
+! Version: 202402111400
+! Last Modified: 2024年02月11日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -6996,6 +6996,7 @@ _800x80_
 ###tower1ad
 ###towerAdContainer
 ###towerad
+###tpd-post-header-ad
 ###tpl_advertising
 ###transparentad
 ###trc_google_ad
@@ -10209,6 +10210,7 @@ _800x80_
 ##.adplaceholder-top
 ##.adplacement
 ##.adplate-background
+##.adplugg-tag
 ##.adpod
 ##.adpopup
 ##.adpos-300-mobile
@@ -17425,6 +17427,7 @@ _800x80_
 ##.vertical_ads
 ##.verticalad
 ##.vf-ad-comments
+##.vf-conversation-starter__ad
 ##.vf-promo-gtag
 ##.vi-sticky-ad
 ##.video-ad
@@ -73250,6 +73253,13 @@ newduba.cn###jq_youxi
 ||ctydsy.xyz^
 ||yhlpshi.xyz^
 ||ylwrdnrw.xyz^
+||ybf1o.online^
+||huatmp.icu^
+||ggttbe961.shop^
+||ggttmu853.shop^
+||docfj.cyou^
+||hjjshv.xyz^
+||szbzp.cn^
 ||zzyy20.top^
 ##[style*="sotv.me"]
 ##a[href$="/1c626.com"]
@@ -138289,6 +138299,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||cohesionapps.com/cohesion/$domain=bankrate.com|frontier.com
 @@||cohesionapps.com/preamp/$subdocument,xmlhttprequest,domain=frontier.com
 @@||collusion.com/static/newrelic.js$script,~third-party
+@@||commerce.adobe.io^$xmlhttprequest,domain=superbrightleds.com
 @@||community.brave.com/t/$xmlhttprequest
 @@||connatix.com/min/connatix.renderer.infeed.min.js$domain=accuweather.com|collider.com|gamepress.gg|salon.com
 @@||console.statsig.com/_next/$~third-party
@@ -138358,7 +138369,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||js.monitor.azure.com/scripts/$script,domain=genya.it|microsoft.com|rubex.efilecabinet.net
 @@||js.sentry-cdn.com^$script,domain=app.homebinder.com|book.dmm.com|etsy.com|interacty.me|jobs.ch|pizzahut.com.au
 @@||jsrdn.com/s/$script,domain=distro.tv
-@@||kameleoon.eu/kameleoon.js$script,domain=buttercloth.com
+@@||kameleoon.eu/kameleoon.js$script,domain=buttercloth.com|jules.com
 @@||kaptcha.com/collect/sdk?$domain=palmettostatearmory.com|wyze.com
 @@||kaxsdc.com/collect/sdk$xmlhttprequest,domain=vanillaereward.com
 @@||kohls.com/ecustservice/js/sitecatalyst.js$script,~third-party
@@ -138379,6 +138390,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||logging.apache.org^$~third-party
 @@||logo.clearbit.com^$image,third-party
 @@||lr-ingest.io/LogRocket.min.js$domain=smartcare.com
+@@||magento-recs-sdk.adobe.net/v2/index.js$script,domain=superbrightleds.com
 @@||mapquestapi.com/logger/$domain=hertz.com
 @@||maptiles.ping-admin.ru^$image,domain=ping-admin.com
 @@||matomo.miraheze.org/matomo.js$script,~third-party

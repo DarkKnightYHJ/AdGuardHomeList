@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MfLDUouOV18Plc04J8r6aA
+! Checksum: SIHRgwV9HjFFHcijgNQ5Uw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202402110801
-! Last Modified: 2024年02月11日 08:01
+! Version: 202402111400
+! Last Modified: 2024年02月11日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -3626,6 +3626,13 @@ newduba.cn###jq_youxi
 ||ctydsy.xyz^
 ||yhlpshi.xyz^
 ||ylwrdnrw.xyz^
+||ybf1o.online^
+||huatmp.icu^
+||ggttbe961.shop^
+||ggttmu853.shop^
+||docfj.cyou^
+||hjjshv.xyz^
+||szbzp.cn^
 ||zzyy20.top^
 ##[style*="sotv.me"]
 ##a[href$="/1c626.com"]
@@ -70996,6 +71003,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||cohesionapps.com/cohesion/$domain=bankrate.com|frontier.com
 @@||cohesionapps.com/preamp/$subdocument,xmlhttprequest,domain=frontier.com
 @@||collusion.com/static/newrelic.js$script,~third-party
+@@||commerce.adobe.io^$xmlhttprequest,domain=superbrightleds.com
 @@||community.brave.com/t/$xmlhttprequest
 @@||connatix.com/min/connatix.renderer.infeed.min.js$domain=accuweather.com|collider.com|gamepress.gg|salon.com
 @@||console.statsig.com/_next/$~third-party
@@ -71065,7 +71073,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||js.monitor.azure.com/scripts/$script,domain=genya.it|microsoft.com|rubex.efilecabinet.net
 @@||js.sentry-cdn.com^$script,domain=app.homebinder.com|book.dmm.com|etsy.com|interacty.me|jobs.ch|pizzahut.com.au
 @@||jsrdn.com/s/$script,domain=distro.tv
-@@||kameleoon.eu/kameleoon.js$script,domain=buttercloth.com
+@@||kameleoon.eu/kameleoon.js$script,domain=buttercloth.com|jules.com
 @@||kaptcha.com/collect/sdk?$domain=palmettostatearmory.com|wyze.com
 @@||kaxsdc.com/collect/sdk$xmlhttprequest,domain=vanillaereward.com
 @@||kohls.com/ecustservice/js/sitecatalyst.js$script,~third-party
@@ -71086,6 +71094,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||logging.apache.org^$~third-party
 @@||logo.clearbit.com^$image,third-party
 @@||lr-ingest.io/LogRocket.min.js$domain=smartcare.com
+@@||magento-recs-sdk.adobe.net/v2/index.js$script,domain=superbrightleds.com
 @@||mapquestapi.com/logger/$domain=hertz.com
 @@||maptiles.ping-admin.ru^$image,domain=ping-admin.com
 @@||matomo.miraheze.org/matomo.js$script,~third-party
