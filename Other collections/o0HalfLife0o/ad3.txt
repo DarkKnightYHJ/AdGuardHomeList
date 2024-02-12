@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cVGz6qyWoDDgQ18y99WXLg
+! Checksum: 7/iaHRpK2fgAYYkkIQLHvA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202402121400
-! Last Modified: 2024年02月12日 14:00
+! Version: 202402122000
+! Last Modified: 2024年02月12日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -11172,6 +11172,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+ghxi.com##.entry-content > DIV[style^="position:"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
@@ -23591,7 +23592,6 @@ m.babytree.com##script + a[class]
 /SSOCore/update?
 /sst8.js
 /sstat_plugin.js
-/sta.wawacity.
 /standalone-analytics-
 /stat-adobe-analytics.js
 /stat-analytics/*
@@ -25013,7 +25013,6 @@ omni.soundestlink.com$image
 ||addfreestats.com^$third-party
 ||addwish.com^$third-party
 ||adelixir.com^$third-party
-||adform.net^$third-party
 ||adfox.ru^$third-party
 ||adgreed.com^$third-party
 ||adheart.de^$third-party
@@ -70010,6 +70009,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||sncf-connect.com/apm
 ||sncf-connect.com/bff/api/v1/t/events
 ||space-blogs.net/include/counter/
+||sta.extreme-down.
+||sta.wawacity.
 ||sta.zone-telechargement.
 ||stat.ouedkniss.com^
 ||stats*.credit-cooperatif.coop^
