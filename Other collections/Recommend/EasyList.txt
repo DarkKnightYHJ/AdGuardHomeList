@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: EMqK1u7r+wdqmV49ZQBd7Q
-! Version: 202402131701
+! Checksum: fsqIMllVnyHlbjoF6PH27g
+! Version: 202402131811
 ! Title: EasyList
-! Last modified: 13 Feb 2024 17:01 UTC
+! Last modified: 13 Feb 2024 18:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -67693,6 +67693,7 @@ bbc.com###sticky-mpu:has(.dotcom-ad-inner)
 kroger.com##.AutoGrid-cell:has(.ProductCard-tags > div > span[data-qa="featured-product-tag"])
 nationalgeographic.com##.FrameBackgroundFull--grey:has(.ad-wrapper)
 imgur.com##.Grid-column > div[style^="height:"]:has(.Post-item-external-ad)
+outlook.live.com##.VdboX[tabindex="0"]:has(img[src="https://res.cdn.office.net/assets/ads/adbarmetrochoice.svg"])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##._6y8t:has(a[href="/ads/about/?entry_product=ad_preferences"])
 haveibeenpwned.com##.actionsBar:has(.why1Password)
 forexlive.com##.article-slot__wrapper:has(.article-header__sponsored)
