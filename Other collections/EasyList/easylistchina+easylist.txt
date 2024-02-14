@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cf3JPj83BtvKwKNuR2OAeg
-! Version: 202402141211
+! Checksum: +CEbedc6C2JPQO1L0g5bag
+! Version: 202402141301
 ! Title: EasyList China+EasyList
-! Last modified: 14 Feb 2024 12:11 UTC
+! Last modified: 14 Feb 2024 13:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1541,7 +1541,6 @@ newduba.cn###jq_youxi
 ##a[href*=".taobao.com"] > img[src*=".tucao."]
 ~umeng.com##a[href*=".umeng.com"]:not([href="http://www.umeng.com/"]) > img
 ##a[href*=".xyz:"] > img[src*=".qlogo.cn"]
-##a[href*="/23.224.188."]
 ##a[href*="/?INTR="]
 ##a[href*="/?Intr="]
 ##a[href*="/?aff="][target="_blank"]
@@ -6358,7 +6357,7 @@ $popup,third-party,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downh
 $image,third-party,domain=lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|kan-tv.com|m.supfree.net|movieffm.net|xiaoheimi.net
 $script,third-party,websocket,domain=52codes.net
-$third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|webhd.cc|xyg688.com|zzzzz688.com
+$third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|zzzzz688.com
 $websocket,domain=5nj.com|cechi8.com
 .194007.com/4058.gif
 .gif|$domain=7mshipin.org|viidii.info
@@ -10779,6 +10778,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+webhd.top##.justify-content-center.pt-2
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy

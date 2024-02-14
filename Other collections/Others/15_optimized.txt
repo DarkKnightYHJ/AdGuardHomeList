@@ -1,9 +1,9 @@
-! Checksum: AVDBcipPFB126jmGYw1Umw
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1707892535-3600.patch
+! Checksum: resTyoyXYrXfvcrkGO5zTw
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1707914178-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.61.80
-! TimeUpdated: 2024-02-14T06:31:45+00:00
+! Version: 2.0.61.81
+! TimeUpdated: 2024-02-14T12:32:14+00:00
 ! Expires: 5 days (update frequency)
 ||wenoolgo.icu^
 ||slownansuch.info^
@@ -39047,6 +39047,8 @@ vkcdnservice.appspot.com^
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||scripts.jixie.media^
+||pt.wisernotify.com^
 ||citrusad.net^
 ||pubperf.com^
 ||stats.getaim.org^
@@ -42464,7 +42466,7 @@ vkcdnservice.appspot.com^
 ||affex.org^
 ||tagman.britishairways.com^
 |piwik.
-||track.addevent.com^
+||a.deadlinefunnel.com^
 ||visitor.sokuja.net^
 ||nlog.naver.com^
 ||collector.taoxh.life^
@@ -55927,6 +55929,11 @@ inapps.appsflyersdk.com^
 ||vns86.oss-*.aliyuncs.com^
 ||zhizhizhizhi.oss-*.aliyuncs.com^
 ||121.204.246.*.gif
+||ngnxyub.cn^
+||tyodot.icu^
+||caomeixz7.xyz^
+||cdmnlxtu.xyz^
+||xdmnlxtu.xyz^
 ||052db.website^
 ||055g.com^
 ||05826.online^
