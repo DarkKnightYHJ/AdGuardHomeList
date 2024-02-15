@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LgB0r+5j3+JW2TurMl/axw
+! Checksum: LRdRQm3Q0a00C2OAkwhbpw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202402152000
-! Last Modified: 2024年02月15日 20:00
+! Version: 202402160200
+! Last Modified: 2024年02月16日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1811,27 +1811,26 @@ newduba.cn###jq_youxi
 ||23.231.151.252^
 ||cupfox.app^$third-party
 ##a[href*=".bvftxy.com/"]
-||caomeixz7.xyz^
-||cdmnlxtu.xyz^
-||ngnxyub.cn^
-||tyodot.icu^
-||lvdedf.xyz^
-||spsfupq.cn^
-||yliffnsc.xyz^
-||agmed.cyou^
-||ycqbgm.xyz^
-||xszw0.icu^
-||ztxjutz.xyz^
 ||88lm05.com^
-||dsbqvj.xyz^
+||agmed.cyou^
+||caomeixz7.xyz^
 ||ccsshn137.shop^
-||cwssfg632.shop^
-||szpnz.cn^
+||cdmnlxtu.xyz^
 ||cliffnsc.xyz^
-||xcypgd.icu^
+||cwssfg632.shop^
+||dsbqvj.xyz^
+||lvdedf.xyz^
+||ngnxyub.cn^
+||spsfupq.cn^
 ||szpnz.cn^
-||xliffnsc.xyz^
+||tyodot.icu^
+||xcypgd.icu^
 ||xdmnlxtu.xyz^
+||xliffnsc.xyz^
+||xszw0.icu^
+||ycqbgm.xyz^
+||yliffnsc.xyz^
+||ztxjutz.xyz^
 ##[style*="sotv.me"]
 ##a[href$="/lm2p2.com"]
 ##a[href$="/lm39h.com"]
@@ -33354,6 +33353,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||xnxx.com/picserror/
 ||xvideos.com/picserror/
 ||xxf.mobi/hit
+||ya.ru/clck/
 ||yahoo.com/_td_api/beacon/
 ||yahoo.com/beacon/
 ||yahoo.com/beacon?
@@ -68414,7 +68414,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||eq-beacon.stream.co.jp^
 ||eq-player-log.cdnext.stream.ne.jp^
 ||fensi.plus^*/tracking/
-||fspark-ap.com/ft/analytics_log|
+||fspark-ap.com/ft/analytics_log
 ||g123.jp/stats?
 ||game-i.daa.jp/skin/analytics.php
 ||gizmodo.jp/api/SurveyCountCollection?
