@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: a5dGK6ksOK9NWVc1Cx03Fg
-! Version: 202402151101
+! Checksum: fdp7sjsHVhjD7uyzwE3PhQ
+! Version: 202402151211
 ! Title: EasyPrivacy
-! Last modified: 15 Feb 2024 11:01 UTC
+! Last modified: 15 Feb 2024 12:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -10428,6 +10428,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||panda.kasika.io^
 ||pia.jp/akam/$script
 ||pia.jp/images/pt.gif$image
+||ping.paidy.com^
 ||popin.cc/iframe/piuid.html
 ||popin.cc/js/pixel.js
 ||popin.cc/PopinService/Logs/
@@ -47459,6 +47460,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||eq-beacon.stream.co.jp^
 ||eq-player-log.cdnext.stream.ne.jp^
 ||fensi.plus^*/tracking/
+||fspark-ap.com/ft/analytics_log
 ||g123.jp/stats?
 ||game-i.daa.jp/skin/analytics.php
 ||gizmodo.jp/api/SurveyCountCollection?
