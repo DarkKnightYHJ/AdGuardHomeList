@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: PjN3JTmygQ1LSII9iFRh8w
-! Version: 202402150811
+! Checksum: swdb4UIGm7FXWGghITVhWw
+! Version: 202402150911
 ! Title: ABP filters
-! Last modified: 15 Feb 2024 08:11 UTC
+! Last modified: 15 Feb 2024 09:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1517,8 +1517,6 @@ truyensextv.org#$#abort-current-inline-script document.addEventListener popup
 ! *** abp-filters-hotfix:hotfix.txt ***
 ! FDA-2994
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument
-! FD-4039
-@@||dzen.ru/partner2/mailru-morda|$xmlhttprequest,domain=mail.ru
 ! *** abp-filters-anti-cv:distribution/abp-filters-partners.txt ***
 ! Filters to be used by distribution partners
 ! #CV-782
