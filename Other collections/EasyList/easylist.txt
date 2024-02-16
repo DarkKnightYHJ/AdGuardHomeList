@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202402162050
+! Version: 202402162153
 ! Title: EasyList
-! Last modified: 16 Feb 2024 20:50 UTC
+! Last modified: 16 Feb 2024 21:53 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -17484,7 +17484,7 @@ _800x80_
 ##[data-desktop-ad-id]
 ##[data-dynamic-ads]
 ##[data-ez-name]
-##[data-freestar-ad]
+##[data-freestar-ad]:not(:empty)
 ##[data-id^="div-gpt-ad"]
 ##[data-m-ad-id]
 ##[data-mobile-ad-id]
@@ -42930,7 +42930,6 @@ browsershots.org#@#.advert_area
 ||pu1.biz^
 ||pu3.biz^
 ||pu5hk1n2020.com^
-||pub.network^
 ||pubacca5mc.com^
 ||pubaka5.com^
 ||pubceremony.com^
@@ -59272,6 +59271,7 @@ browsershots.org#@#.advert_area
 ||360playvid.com^$third-party
 ||360playvid.info^$third-party
 ||a-delivery.rmbl.ws^
+||a.pub.network^*/pubfig.min.js
 ||a.ucoz.net^
 ||ad-blocking24.net^
 ||ad-serve.b-cdn.net^
@@ -59610,6 +59610,7 @@ browsershots.org#@#.advert_area
 ||promos.fling.com^
 ||promote.pair.com/88x31.pl
 ||proxysolutions.net/affiliates/
+||pub.network/core/pubfig/
 ||pubfeed.linkby.com^
 ||public.porn.fr^$third-party
 ||publish0x.com^$image,script,third-party
