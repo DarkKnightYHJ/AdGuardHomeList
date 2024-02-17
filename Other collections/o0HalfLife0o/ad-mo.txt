@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NlZNJ9lzYbW0gSEiMyt+ug
+! Checksum: qJEXtoymbrgC6Qm9qeyeyw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202402170801
-! Last Modified: 2024年02月17日 08:01
+! Version: 202402171400
+! Last Modified: 2024年02月17日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -12876,6 +12876,7 @@ _800x80_
 ##.c-posts__ad
 ##.c-prebid
 ##.c-res-ad
+##.c-sidebar-ad-stream__ad
 ##.c-sitenav-adslot
 ##.c-sitenavPlaceholder__ad
 ##.c_nt_ad
@@ -43174,6 +43175,7 @@ browsershots.org#@#.advert_area
 ||pu1.biz^
 ||pu3.biz^
 ||pu5hk1n2020.com^
+||pub.network^
 ||pubacca5mc.com^
 ||pubaka5.com^
 ||pubceremony.com^
@@ -59499,7 +59501,6 @@ browsershots.org#@#.advert_area
 ||360playvid.com^$third-party
 ||360playvid.info^$third-party
 ||a-delivery.rmbl.ws^
-||a.pub.network^*/pubfig.min.js
 ||a.ucoz.net^
 ||ad-blocking24.net^
 ||ad-serve.b-cdn.net^
@@ -59838,7 +59839,6 @@ browsershots.org#@#.advert_area
 ||promos.fling.com^
 ||promote.pair.com/88x31.pl
 ||proxysolutions.net/affiliates/
-||pub.network/core/pubfig/
 ||pubfeed.linkby.com^
 ||public.porn.fr^$third-party
 ||publish0x.com^$image,script,third-party
@@ -62253,8 +62253,9 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|adblockeronstape.me|adblocker
 ||analsexstars.com/og/
 ||anybunny.tv/js/main.ex.js
 ||anyporn.com/aa/
-||anysex.com/*oio/|$script
-||anysex.com/2-2-temparoryo/
+||anysex.com/*/js|
+||anysex.com/*/script|
+||anysex.com^$subdocument,~third-party
 ||asg.faperoni.com^
 ||atube.xxx/static/js/abb.js
 ||aucdn.net^$media,domain=clgt.one
@@ -63562,6 +63563,7 @@ webkinznewz.ganzworld.com###site-description
 dead-frog.com###site_top
 2oceansvibe.com###skin
 namemc.com###skin_wrapper
+pinkvilla.com###skinnerAdClosebtn
 dafont.com###sky
 dailymail.co.uk,thisismoney.co.uk###sky-left-container
 dailymail.co.uk###sky-right
@@ -65725,6 +65727,7 @@ jpost.com##.line-one-row-before-and-after-container
 architecturesideas.com##.linkpub_right_img
 babynamegenie.com,forless.com,worldtimeserver.com##.links
 weatherpro.com##.list-city-ad
+apkmirror.com##.listWidget > .promotedAppListing
 nationalmemo.com##.listicle--ad-tag
 spiceworks.com##.listing-ads
 gosearchresults.com##.listing-right
@@ -66348,6 +66351,7 @@ livemint.com##.rhsWidgetNotAdFree
 moneycontrol.com##.rhs_banner_300x34_widget
 siteslike.com##.rif
 terminal.hackernoon.com##.right
+pinkvilla.com##.right--side--ad-s1
 cnbctv18.com##.right-ad-amp
 news.net##.right-banner-wr > .right
 africanews.com##.right-legend
@@ -66552,6 +66556,7 @@ garagejournal.com##.size-medium
 canadianbusiness.com##.sjm-dfp-wrapper
 indiancountrytoday.com##.skgeoeho
 charismanews.com##.skinTrackClicks
+pinkvilla.com##.skinnerAd
 hltv.org##.skinport
 entrepreneur.com##.sky
 edarabia.com##.sky-600
@@ -69452,6 +69457,7 @@ senzuri.tube##.video-tube-friends
 xhamster.com##.video-view-ads
 china-tubex.site##.videoAd
 javynow.com##.videos-ad__ad
+porntop.com##.videos-slider--promo
 porndoe.com##.videos-tsq
 zbporn.tv##.view-aside
 zbporn.com,zbporn.tv##.view-aside-block
@@ -72016,6 +72022,16 @@ newduba.cn###jq_youxi
 ||yliffnsc.xyz^
 ||yyddkm526.shop^
 ||ztxjutz.xyz^
+||hmrwkcx.cn^
+||yvbjctqs.xyz^
+||tchdxl.xyz^
+||l5kt1.icu^
+||wnmaoc.xyz^
+||cdftizu.xyz^
+||bdxpdz.xyz^
+||bjswhpy.cn^
+||fwcnex.icu^
+||cvbjctqs.xyz^
 ##[style*="sotv.me"]
 ##a[href$="/lm2p2.com"]
 ##a[href$="/lm39h.com"]
@@ -100683,6 +100699,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pingback.giphy.com^
 ||pingback.issuu.com^
 ||pingo.staticmoly.me^
+||pinkvilla.com/comscore_response.php
 ||pixel.archive.
 ||pixel.archivecaslytosk.onion^
 ||pixel.archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion^
