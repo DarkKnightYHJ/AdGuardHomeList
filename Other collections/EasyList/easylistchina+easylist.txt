@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Sc2eirFNPkTEjKvz3EZ7UA
-! Version: 202402181101
+! Checksum: 4XSicMuOtonPqYo93doa0Q
+! Version: 202402181211
 ! Title: EasyList China+EasyList
-! Last modified: 18 Feb 2024 11:01 UTC
+! Last modified: 18 Feb 2024 12:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -36919,7 +36919,8 @@ _800x80_
 ##.OUTBRAIN[data-widget-id^="FMS_REELD_"]
 ##.adv_outbrain
 ##.js-outbrain-container
-##.ob-dynamic-rec-container
+##.ob-dynamic-rec-containeoutBrainWrapper
+##.ob-p.ob-dynamic-rec-container
 ##.outBrainWrapper
 ##.outbrain-ad-slot
 ##.outbrain-ad-units
@@ -78529,6 +78530,7 @@ browsershots.org#@#.advert_area
 ||widgets.business.com^
 ||widgets.lendingtree.com^
 ||widgets.oddschecker.com^
+||widgets.outbrain.com/widgetMonitor/
 ||widgets.outbrain.com^*/widget.js
 ||widgets.progrids.com^
 ||widgets.tree.com^

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PIR9U371smR8ParwB/SAPw
-! Version: 202402181101
+! Checksum: DFW13ggDQApK6/E6b4PHBw
+! Version: 202402181211
 ! Title: EasyList
-! Last modified: 18 Feb 2024 11:01 UTC
+! Last modified: 18 Feb 2024 12:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -18054,7 +18054,8 @@ _800x80_
 ##.OUTBRAIN[data-widget-id^="FMS_REELD_"]
 ##.adv_outbrain
 ##.js-outbrain-container
-##.ob-dynamic-rec-container
+##.ob-dynamic-rec-containeoutBrainWrapper
+##.ob-p.ob-dynamic-rec-container
 ##.outBrainWrapper
 ##.outbrain-ad-slot
 ##.outbrain-ad-units
@@ -59664,6 +59665,7 @@ browsershots.org#@#.advert_area
 ||widgets.business.com^
 ||widgets.lendingtree.com^
 ||widgets.oddschecker.com^
+||widgets.outbrain.com/widgetMonitor/
 ||widgets.outbrain.com^*/widget.js
 ||widgets.progrids.com^
 ||widgets.tree.com^
