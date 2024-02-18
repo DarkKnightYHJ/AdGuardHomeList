@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202402181009
+! Version: 202402181058
 ! Title: EasyList
-! Last modified: 18 Feb 2024 10:09 UTC
+! Last modified: 18 Feb 2024 10:58 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -54276,7 +54276,7 @@ browsershots.org#@#.advert_area
 ||smowtion.com^$third-party
 ||smpgfx.com^$third-party
 ||snack-media.com^$third-party
-||snap.com^$third-party
+||snap.com^$third-party,domain=~forbusiness.snapchat.com
 ||sndkorea.co.kr^$third-party
 ||sni.ps^$third-party
 ||snigelweb.com^$third-party
@@ -54590,6 +54590,25 @@ browsershots.org#@#.advert_area
 ! Altice / Optimum / CableVision injects ads
 ! https://github.com/ryanbr/fanboy-adblock/issues/816
 ||167.206.10.148^
+! TrustPid/Utiq
+||utiq-aws.net^
+||utiq.24auto.de^
+||utiq.24hamburg.de^
+||utiq.24rhein.de^
+||utiq.buzzfeed.de^
+||utiq.come-on.de^
+||utiq.einfach-tasty.de^
+||utiq.fnp.de^
+||utiq.fr.de^
+||utiq.hna.de^
+||utiq.ingame.de^
+||utiq.kreiszeitung.de^
+||utiq.merkur.de^
+||utiq.mopo.de^
+||utiq.op-online.de^
+||utiq.soester-anzeiger.de^
+||utiq.tz.de^
+||utiq.wa.de^
 ! *** easylist:easylist/easylist_adservers_popup.txt ***
 ||0265331.com^$popup
 ||07c225f3.online^$popup
@@ -62213,7 +62232,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|adblockeronstape.me|adblocker
 ||javslon.com/clacunder.js
 ||javxnxx.pro/pscript.js
 ||jennylist.xyz/t63fd79f7055.js
-||jizzberry.com/654eb40079439pop/
+||jizzberry.com/65
 ||jo.4wank.com^
 ||joysporn.sex/js/kj.js
 ||justthegays.com/agent.php
@@ -62415,7 +62434,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|adblockeronstape.me|adblocker
 ||xbooru.com/script/application.js
 ||xcity.org/tc2ca02c24c5.js
 ||xgirls.agency/pg/c/
-||xgroovy.com/6595d2ae9bda9oio/
+||xgroovy.com/65
 ||xgroovy.com/static/js/script.js
 ||xhamster.com*/vast?
 ||xhamster.desi*/vast?
