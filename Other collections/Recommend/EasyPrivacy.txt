@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: bdgzXvGE1vU/uixyQuZ4Zw
-! Version: 202402191101
+! Checksum: WXegO2bwDQg7ucKBzB13NQ
+! Version: 202402191210
 ! Title: EasyPrivacy
-! Last modified: 19 Feb 2024 11:01 UTC
+! Last modified: 19 Feb 2024 12:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -47619,6 +47619,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||data.nrk.no^
 ||nrk.no^*/stats/
 ||stats.proff.no^
+||stm.komplett.no^
 ||tdep.hema.nl/main.js
 ||vg.no/stats/
 ! Persian
@@ -48564,6 +48565,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 !
 @@||cat.telia.no/gtm.js$script,domain=telia.no
 @@||hvemder.no/js/hitcount.min.js$~third-party
+@@||komplett.no/gtm.js$script,~third-party
 !
 !---------- Polish ----------
 !
