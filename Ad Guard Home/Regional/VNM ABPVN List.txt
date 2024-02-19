@@ -1,7 +1,7 @@
 #Android host file - Adaway
 #
 # Title: ABPVN Hosts
-# Updated: 04 Feb 2024 23:30 UTC+7
+# Updated: 19 Feb 2024 11:03 UTC+7
 # License: ABPVN
 # Please report any unblocked ads or problems by email or in our forums
 # Email: support@abpvn.com
@@ -2723,6 +2723,7 @@
 0.0.0.0 pdn.applovin.com
 0.0.0.0 prod-a.applovin.com
 0.0.0.0 prod-bid.applovin.com
+0.0.0.0 prod-mediate-events.applovin.com
 0.0.0.0 prod-ms.applovin.com
 0.0.0.0 prod-ms4.applovin.com
 0.0.0.0 res1.applovin.com
@@ -10719,8 +10720,11 @@
 #[opera.com]
 0.0.0.0 pps-log.op-mobile.opera.com
 0.0.0.0 s-adx.op-mobile.opera.com
-0.0.0.0 s.adx.opera.com
 0.0.0.0 sdklog.tvstore.opera.com
+#[adx.opera.com]
+0.0.0.0 res.adx.opera.com
+0.0.0.0 s.adx.opera.com
+0.0.0.0 t.adx.opera.com
 #[valuecommerce.com]
 0.0.0.0 ad.jp.ap.valuecommerce.com
 0.0.0.0 ads.jp.ap.valuecommerce.com
@@ -11123,6 +11127,9 @@
 0.0.0.0 yandexadexchange.net
 0.0.0.0 advideo.dsp.yandexadexchange.net
 0.0.0.0 bigo.dsp.yandexadexchange.net
+#[yads.tech]
+0.0.0.0 yads.tech
+0.0.0.0 core.yads.tech
 #[jampp.com]
 0.0.0.0 cdn.jampp.com
 0.0.0.0 imgx.jampp.com
@@ -13117,6 +13124,7 @@
 0.0.0.0 ads.livetv705.me
 0.0.0.0 ads.livetv708.me
 0.0.0.0 ads.livetv723.me
+0.0.0.0 ads.livetv760.me
 #[company-target.com]
 0.0.0.0 company-target.com
 0.0.0.0 api-staging.company-target.com
@@ -13471,6 +13479,21 @@
 0.0.0.0 adx-tk.mtgglobals.com
 0.0.0.0 cdn-adn-https.mtgglobals.com
 0.0.0.0 sg01.mtgglobals.com
+#[new-programmatic.com]
+0.0.0.0 new-programmatic.com
+0.0.0.0 match.new-programmatic.com
+#[gonet-ads.com]
+0.0.0.0 gonet-ads.com
+0.0.0.0 sync.gonet-ads.com
+#[upravel.com]
+0.0.0.0 upravel.com
+0.0.0.0 sync.upravel.com
+#[aidata.io]
+0.0.0.0 aidata.io
+0.0.0.0 x01.aidata.io
+#[arcspire.io]
+0.0.0.0 arcspire.io
+0.0.0.0 px.arcspire.io
 # --- GroupVN block ---
 #[adtimaserver]
 0.0.0.0 adtimaserver.vn
@@ -15106,6 +15129,7 @@
 0.0.0.0 bgadx.com
 0.0.0.0 bidgear-syndication.com
 0.0.0.0 cdn-ads.thesaigontimes.vn
+0.0.0.0 cdn.qc24h.com
 0.0.0.0 cdn2.cache.vn
 0.0.0.0 chiasephim.xyz
 0.0.0.0 click.vieon.vn
@@ -15363,6 +15387,7 @@
 0.0.0.0 logging.kinhtedothi.vn
 0.0.0.0 logs.1cdn.vn
 0.0.0.0 logs.docnhanh.com.vn
+0.0.0.0 logs.sanchoikns.vn
 0.0.0.0 logs.thethaovanhoa.vn
 0.0.0.0 logsbin.dantri.com.vn
 0.0.0.0 logscafef.channelvn.net
@@ -15639,6 +15664,7 @@
 0.0.0.0 ad-static.qanda.ai
 0.0.0.0 ad-tech.com
 0.0.0.0 ad-up.com
+0.0.0.0 ad.22betpartners.com
 0.0.0.0 ad.980x.com
 0.0.0.0 ad.abcnews.com
 0.0.0.0 ad.abctv.com
@@ -15647,6 +15673,7 @@
 0.0.0.0 ad.adpon.jp
 0.0.0.0 ad.anuntis.com
 0.0.0.0 ad.api.3g.tudou.com
+0.0.0.0 ad.apl318.me
 0.0.0.0 ad.apsalar.com
 0.0.0.0 ad.auditude.com
 0.0.0.0 ad.bizo.com
@@ -15702,6 +15729,7 @@
 0.0.0.0 ad.wz.cz
 0.0.0.0 ad.xmmnsl.com
 0.0.0.0 ad.xrea.com
+0.0.0.0 ad.xunkids.com
 0.0.0.0 ad.zanox.com
 0.0.0.0 ad.zuimeitianqi.com
 0.0.0.0 ad0.bigmir.net
@@ -16106,6 +16134,7 @@
 0.0.0.0 ads.space.com
 0.0.0.0 ads.sportradar.com
 0.0.0.0 ads.stackoverflow.com
+0.0.0.0 ads.starzd.com
 0.0.0.0 ads.sun.com
 0.0.0.0 ads.sunmaker.com
 0.0.0.0 ads.suomiautomaatti.com
@@ -18425,6 +18454,7 @@
 0.0.0.0 gatetodisplaycontent.com
 0.0.0.0 gatewayimpossibilitypursue.com
 0.0.0.0 gaudetehoazin.com
+0.0.0.0 gaunchdelimes.com
 0.0.0.0 gaut-hil.com
 0.0.0.0 gavnogeeygaika.com
 0.0.0.0 gayadnetwork.com
@@ -19401,6 +19431,7 @@
 0.0.0.0 lzjl.com
 0.0.0.0 lzyjcooxsodz.com
 0.0.0.0 m.trb.com
+0.0.0.0 m0rsq075u.com
 0.0.0.0 m2e6t0d57rudx9y0edn8xhaw5fh8awjxla25cz8s0zwj5auc7ahw1far3x8d.com
 0.0.0.0 m32.media
 0.0.0.0 m4n.nl
@@ -21685,6 +21716,7 @@
 0.0.0.0 topsite.lv
 0.0.0.0 topsites.com.br
 0.0.0.0 topstats.com
+0.0.0.0 toptrendyinc.com
 0.0.0.0 tornbed.pro
 0.0.0.0 toroadvertisingmedia.com
 0.0.0.0 tosfeed.com
@@ -22650,6 +22682,7 @@
 0.0.0.0 analytics.nike.com
 0.0.0.0 analytics.ninjakiwi.com
 0.0.0.0 analytics.nova.fox.com
+0.0.0.0 analytics.pangle-ads.com
 0.0.0.0 analytics.phando.com
 0.0.0.0 analytics.picsart.com
 0.0.0.0 analytics.pixels.ai
@@ -22851,6 +22884,7 @@
 0.0.0.0 greedseed.world
 0.0.0.0 guihua-china.com
 0.0.0.0 gurgle.zdbb.net
+0.0.0.0 gw-iad-bid.ymmobi.com
 0.0.0.0 hairtease.com
 0.0.0.0 hdmtools.com
 0.0.0.0 histats.link
@@ -22873,6 +22907,7 @@
 0.0.0.0 idio.co
 0.0.0.0 ie8eamus.com
 0.0.0.0 ilogs.bytefence.com
+0.0.0.0 im.bluevoox.com
 0.0.0.0 img.leadzutw.com
 0.0.0.0 img3.usefathom.com
 0.0.0.0 imp.pvnsolutions.com
@@ -22973,6 +23008,7 @@
 0.0.0.0 openfpcdn.io
 0.0.0.0 opensharecount.com
 0.0.0.0 ophan.theguardian.com
+0.0.0.0 oplog.mulai.pw
 0.0.0.0 optnmstr.com
 0.0.0.0 pegloang.com
 0.0.0.0 perf.hsforms.com
@@ -23074,6 +23110,7 @@
 0.0.0.0 selfishsnake.com
 0.0.0.0 semantiqo.com
 0.0.0.0 sessions.bugsnag.com
+0.0.0.0 shopnetic.com
 0.0.0.0 showbiz.owndata.network
 0.0.0.0 simplesharebuttons.com
 0.0.0.0 siteimproveanalytics.com
@@ -23104,6 +23141,7 @@
 0.0.0.0 static.intentarget.com
 0.0.0.0 static.leaddyno.com
 0.0.0.0 static.site24x7rum.com
+0.0.0.0 statistik.changing-cities.org
 0.0.0.0 stats.apester.com
 0.0.0.0 stats.avaaz.org
 0.0.0.0 stats.bannernow.com
