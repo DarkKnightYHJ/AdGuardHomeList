@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: /nc0u/Vy4AJ/AqipZ06ORQ
-! Version: 202402190811
+! Checksum: pK0Km+I3AZ2UpbFBcehuVQ
+! Version: 202402190901
 ! Title: ABP filters
-! Last modified: 19 Feb 2024 08:11 UTC
+! Last modified: 19 Feb 2024 09:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1367,6 +1367,7 @@ rutor.org#$#abort-on-property-read Light.Popup
 bez-smenki.ru#$#abort-current-inline-script $ showPopupextra
 partnerkin.com#$#override-property-read Object.prototype.autoPopups undefined
 comedy-radio.ru,radioromantika.ru,veseloeradio.ru#$#abort-on-property-read yaContextCb
+engvideo.net,ling-online.net#$#abort-current-inline-script document.documentElement break;case
 ! Video ads
 yastatic.net#$#abort-on-property-read Object.prototype.vast
 ! #CV-547
