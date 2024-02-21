@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: hbl0AnOY+AwCCxa0JvsYrQ
-! Version: 202402211211
+! Checksum: UjXVJKzwvHT8LlRHP3mylw
+! Version: 202402211301
 ! Title: EasyPrivacy
-! Last modified: 21 Feb 2024 12:11 UTC
+! Last modified: 21 Feb 2024 13:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -10783,6 +10783,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||collector.schibsted.io^
 ||eniro.com/pixel/
 ||evt-api.ntm.eu^
+||impression-tracker-service-5eimuebuhq-lz.a.run.app^
+||pji.nu/libs/pjpixel/
 ||vizzit.se^$third-party
 ! Tajik
 ||pixel.smartmedia.tj^
@@ -47866,6 +47868,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||ai.idg.se^
 ||ax.idg.se^
 ||blocket.se/js/trafikfonden.js
+||bonmed.se/monitoring?
 ||falkenbergtorget.se/sc.gif?
 ||fusion.bonniertidskrifter.se^
 ||gx.idg.se^
