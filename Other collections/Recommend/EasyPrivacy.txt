@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 6Qp3BmblhCXjPR9AF0gdlw
-! Version: 202402211101
+! Checksum: hbl0AnOY+AwCCxa0JvsYrQ
+! Version: 202402211211
 ! Title: EasyPrivacy
-! Last modified: 21 Feb 2024 11:01 UTC
+! Last modified: 21 Feb 2024 12:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -48298,6 +48298,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||ingest.sentry.io/api/$xmlhttprequest,domain=orionprotocol.io|play.tv3.lv|tesco.com|tesco.hu
 !! ci-mpsnare.iovation.com
 @@||ci-mpsnare.iovation.com/snare.js$domain=equifax.ca
+!! lightning.cnn.com
+@@||lightning.cnn.com^$script,domain=wfmz.com
 !! tag.aticdn.net
 @@||tag.aticdn.net^$script,domain=gouv.fr|rte.ie|tv5monde.com|uktvplay.co.uk|visaconcierge.eu|yourstory.com
 !! cdn.optimizely.com/public
