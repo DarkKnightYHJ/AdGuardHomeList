@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: zv9E01fPwLiQrR0R8L7z2Q
-! Version: 202402220051
+! Checksum: 2PkyrxMUFRveUvXp6ch4pw
+! Version: 202402220131
 ! Title: EasyList China+EasyList
-! Last modified: 22 Feb 2024 00:51 UTC
+! Last modified: 22 Feb 2024 01:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1596,7 +1596,7 @@ newduba.cn###jq_youxi
 ~mgtv.com##a[target="_blank"] > img[src*="hitv.com"]
 ##a[target="_blank"][onclick*="广告点击"]
 ##body .has-ad
-##body.desktop span[class^="c"] > a[href^="http"][rel="nofollow"][target="_blank"]
+##body.desktop[style^="-"] span[class*=" "] > a[href^="http"][rel="nofollow"][target="_blank"]
 ##body[onload*="u()"] > #x
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
@@ -60031,7 +60031,6 @@ browsershots.org#@#.advert_area
 ||passwordslayoutvest.com^
 ||passwordssaturatepebble.com^
 ||pasteldevaluation.com^
-||paster.so^
 ||pastfrolicpackage.com^
 ||pastimeroseola.com^
 ||pastoupt.com^
