@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: De77cZ7moiv/k+BrEFisrw
-! Version: 202402240130
+! Checksum: Qb26Miv1uS2IRaoOV50xpQ
+! Version: 202402240211
 ! Title: EasyList China+EasyList
-! Last modified: 24 Feb 2024 01:30 UTC
+! Last modified: 24 Feb 2024 02:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1647,6 +1647,7 @@ newduba.cn###jq_youxi
 ##style + .need_grid_img
 ##style + .vdgdo
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
+##.TqAdShow
 ##td[id^="td_"] > a[href^="/htmm/"]
 ##vg-pause-d > .vg-v-p
 !----------------------------------Ads-Union----------------------------------!
@@ -1793,6 +1794,8 @@ newduba.cn###jq_youxi
 ||arqvm.cn^
 ||yddjmpjo.xyz^
 ||ktoioo.xyz^
+||srzpsbf.xyz^
+||pjzxdl.xyz^
 !
 ##[style*="sotv.me"]
 ##a[href$="/lm2p2.com"]
@@ -78665,7 +78668,7 @@ browsershots.org#@#.advert_area
 ||btr.domywife.com^
 ||c.bannerflow.net^
 ||c2shb.pubgw.yahoo.com^
-||caffeine.tv/embed/
+||caffeine.tv/embed/$third-party
 ||campaigns.williamhill.com^
 ||capital.com/widgets/$third-party
 ||careerwebsite.com/distrib_pages/jobs.cfm?
@@ -85812,6 +85815,7 @@ newegg.com##.sponsored-brands
 cheknews.ca##.sponsored-by
 washingtontimes.com##.sponsored-heading
 breakingdefense.com##.sponsored-inline
+justwatch.com##.sponsored-recommendation
 crn.com##.sponsored-resources
 search.brave.com##.sponsored-unit_wrapper
 coingecko.com##.sponsored-v2
