@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +dbYLAcqaCNu+9IG8iJelQ
+! Checksum: CosoWKFu0SniP0jdaSCblQ
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202402241400
-! Last Modified: 2024年02月24日 14:00
+! Version: 202402250200
+! Last Modified: 2024年02月25日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1231,6 +1231,7 @@ newduba.cn###jq_youxi
 ##.MacPlayer > #play-pause
 ##.RMss1
 ##.Text-Advertising
+##.TqAdShow
 ##._300x250.item
 ##._cggp
 ##._ggs
@@ -1797,7 +1798,6 @@ newduba.cn###jq_youxi
 ##style + .need_grid_img
 ##style + .vdgdo
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
-##.TqAdShow
 ##td[id^="td_"] > a[href^="/htmm/"]
 ##vg-pause-d > .vg-v-p
 !----------------------------------Ads-Union----------------------------------!
@@ -1825,6 +1825,7 @@ newduba.cn###jq_youxi
 ||aaoisp.com^
 ||agmed.cyou^
 ||anjdwmq.xyz^
+||arqvm.cn^
 ||awuvcq.xyz^
 ||bba9603w.com^
 ||bdtdat652.shop^
@@ -1870,8 +1871,10 @@ newduba.cn###jq_youxi
 ||js131.cn^
 ||kbomku.xyz^
 ||kksjsa.top^
+||ktoioo.xyz^
 ||l5kt1.icu^
 ||lfffzv.xyz^
+||luofk.xyz^
 ||lvdedf.xyz^
 ||misjgy.xyz^
 ||nddld.cn^
@@ -1887,6 +1890,7 @@ newduba.cn###jq_youxi
 ||p0v2ni.cn^
 ||p45m0.icu^
 ||phvfevk.xyz^
+||pjzxdl.xyz^
 ||przbzr.xyz^
 ||qlbbowx.xyz^
 ||qzalsk.xyz^
@@ -1896,8 +1900,10 @@ newduba.cn###jq_youxi
 ||ruqwgb.icu^
 ||rydyvv.xyz^
 ||shuocyw.cn^
+||sjaaquj.cn^
 ||soffersk.com^
 ||spsfupq.cn^
+||srzpsbf.xyz^
 ||szbhb.cn^
 ||szpnz.cn^
 ||szptp.cn^
@@ -1913,6 +1919,7 @@ newduba.cn###jq_youxi
 ||uxrdg.cn^
 ||veaiyl.icu^
 ||vxfdepn.cn^
+||wbvfj.xyz^
 ||wkywrc.cn^
 ||wnmaoc.xyz^
 ||wqcfg.cn^
@@ -1922,11 +1929,13 @@ newduba.cn###jq_youxi
 ||xdrvkdni.xyz^
 ||xdybwjpa.xyz^
 ||xliffnsc.xyz^
+||xn--wgvp78a61swpe6zdozj.cn^
 ||xszw0.icu^
 ||xvbjctqs.xyz^
 ||xvgrszkg.xyz^
 ||xvudqzoa.xyz^
 ||ycqbgm.xyz^
+||yddjmpjo.xyz^
 ||ydfhidrk.xyz^
 ||ydrvkdni.xyz^
 ||ydybwjpa.xyz^
@@ -1940,12 +1949,6 @@ newduba.cn###jq_youxi
 ||zopuqv.icu^
 ||ztxjutz.xyz^
 ||zuvbzl.xyz^
-||arqvm.cn^
-||yddjmpjo.xyz^
-||ktoioo.xyz^
-||srzpsbf.xyz^
-||pjzxdl.xyz^
-||sjaaquj.cn^
 ##[style*="sotv.me"]
 ##a[href$="/lm2p2.com"]
 ##a[href$="/lm39h.com"]
@@ -8317,6 +8320,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||duboku.net/static/images/20201111
 ||duboku.net/static/images/yabo
 ||dufile.com/jsa/
+||duo*.top/Runtime/js/psData.js
 ||duouoo.com/vss/right-ssd.js
 ||duouoo.com/vss/wz
 ||dup.baidustatic.com^
