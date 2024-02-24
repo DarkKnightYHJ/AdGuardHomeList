@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: uwfF9WcthMYQlJkc4ZdiZQ
-! Version: 202402241501
+! Checksum: 0MjIRZ4cdU16jwSPRECVig
+! Version: 202402241601
 ! Title: EasyList China+EasyList
-! Last modified: 24 Feb 2024 15:01 UTC
+! Last modified: 24 Feb 2024 16:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1081,6 +1081,7 @@ newduba.cn###jq_youxi
 ##.MacPlayer > #play-pause
 ##.RMss1
 ##.Text-Advertising
+##.TqAdShow
 ##._300x250.item
 ##._cggp
 ##._ggs
@@ -1647,7 +1648,6 @@ newduba.cn###jq_youxi
 ##style + .need_grid_img
 ##style + .vdgdo
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
-##.TqAdShow
 ##td[id^="td_"] > a[href^="/htmm/"]
 ##vg-pause-d > .vg-v-p
 !----------------------------------Ads-Union----------------------------------!
@@ -1676,6 +1676,7 @@ newduba.cn###jq_youxi
 ||aaoisp.com^
 ||agmed.cyou^
 ||anjdwmq.xyz^
+||arqvm.cn^
 ||awuvcq.xyz^
 ||bba9603w.com^
 ||bdtdat652.shop^
@@ -1721,8 +1722,10 @@ newduba.cn###jq_youxi
 ||js131.cn^
 ||kbomku.xyz^
 ||kksjsa.top^
+||ktoioo.xyz^
 ||l5kt1.icu^
 ||lfffzv.xyz^
+||luofk.xyz^
 ||lvdedf.xyz^
 ||misjgy.xyz^
 ||nddld.cn^
@@ -1738,6 +1741,7 @@ newduba.cn###jq_youxi
 ||p0v2ni.cn^
 ||p45m0.icu^
 ||phvfevk.xyz^
+||pjzxdl.xyz^
 ||przbzr.xyz^
 ||qlbbowx.xyz^
 ||qzalsk.xyz^
@@ -1747,8 +1751,10 @@ newduba.cn###jq_youxi
 ||ruqwgb.icu^
 ||rydyvv.xyz^
 ||shuocyw.cn^
+||sjaaquj.cn^
 ||soffersk.com^
 ||spsfupq.cn^
+||srzpsbf.xyz^
 ||szbhb.cn^
 ||szpnz.cn^
 ||szptp.cn^
@@ -1764,6 +1770,7 @@ newduba.cn###jq_youxi
 ||uxrdg.cn^
 ||veaiyl.icu^
 ||vxfdepn.cn^
+||wbvfj.xyz^
 ||wkywrc.cn^
 ||wnmaoc.xyz^
 ||wqcfg.cn^
@@ -1773,11 +1780,13 @@ newduba.cn###jq_youxi
 ||xdrvkdni.xyz^
 ||xdybwjpa.xyz^
 ||xliffnsc.xyz^
+||xn--wgvp78a61swpe6zdozj.cn^
 ||xszw0.icu^
 ||xvbjctqs.xyz^
 ||xvgrszkg.xyz^
 ||xvudqzoa.xyz^
 ||ycqbgm.xyz^
+||yddjmpjo.xyz^
 ||ydfhidrk.xyz^
 ||ydrvkdni.xyz^
 ||ydybwjpa.xyz^
@@ -1791,15 +1800,6 @@ newduba.cn###jq_youxi
 ||zopuqv.icu^
 ||ztxjutz.xyz^
 ||zuvbzl.xyz^
-||arqvm.cn^
-||yddjmpjo.xyz^
-||ktoioo.xyz^
-||srzpsbf.xyz^
-||pjzxdl.xyz^
-||sjaaquj.cn^
-||wbvfj.xyz^
-||luofk.xyz^
-||xn--wgvp78a61swpe6zdozj.cn^
 !
 ##[style*="sotv.me"]
 ##a[href$="/lm2p2.com"]
@@ -8173,6 +8173,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||duboku.net/static/images/20201111
 ||duboku.net/static/images/yabo
 ||dufile.com/jsa/
+||duo*.top/Runtime/js/psData.js
 ||duouoo.com/vss/right-ssd.js
 ||duouoo.com/vss/wz
 ||dup.baidustatic.com^
@@ -10852,7 +10853,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzc.cn/b1/live_b_
 ||zzsky.com/images/a_d_
 ||zztongyun.com/static/js/sh.
-||duo*.top/Runtime/js/psData.js
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
