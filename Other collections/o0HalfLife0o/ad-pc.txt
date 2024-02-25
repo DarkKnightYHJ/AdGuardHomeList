@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2ysDSZGMNFNH8v/9lLIFag
+! Checksum: ZS3E2vfyfzHtNBVDRj2oJw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202402251400
-! Last Modified: 2024年02月25日 14:00
+! Version: 202402252000
+! Last Modified: 2024年02月25日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -79227,7 +79227,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||fdc.com.cn^*adv
 ||fdc.my0511.com^$script
 ||feesoon.com/js/cnzz_
-||feijisu5.com/js/huimi-
+||feijisu*.com/js/huimi-
 ||feizl.com/images/smdd/
 ||fenxiangdashi.com/img/banner/
 ||fenxiangdashi.com/Res/js/detail_
@@ -81742,6 +81742,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+minepay.top##.sponsors-container
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
@@ -136380,7 +136381,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||analytics.allovoisins.com^
 ||analytics.clubic.com^
 ||api.odysee.com/locale/get
-||api.ouedkniss.com/health/
 ||api.ouedkniss.com^*&xTrackId=
 ||api.tacotax.fr/v2/amplitude_trackers
 ||batiactu.com/cap_
@@ -140021,6 +140021,9 @@ wan.douyu.com
 douyu.com##.Title-ad, .DropMenuList-ad, .DropPane-ad
 douyu.com,huya.com##a[href^="https://g.wan."]
 huya.com###hy-ad,#hy-ab,#huya-ab
+www.huya.com##.main-ab-close-mode, div.sidebar-banner
+||business.msstatic.com/advertiser/$image
+||midext2.cdn.huya.com/ext-web-mid/ext-web-sub-frame/$subdocument
 g.huya.com
 ||msstatic.com/huya/*/p2plib.js$script
 www.ted.com##.gm-fp-body .justify-center.tracking-tightest
