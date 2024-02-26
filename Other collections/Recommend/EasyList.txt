@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VWZsyNVpYKDVzXD5I+bROQ
-! Version: 202402260051
+! Checksum: TeFDy4J/+wbzsJXGcAR0Vg
+! Version: 202402260141
 ! Title: EasyList
-! Last modified: 26 Feb 2024 00:51 UTC
+! Last modified: 26 Feb 2024 01:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -70095,6 +70095,7 @@ scrolller.com##.vertical-view__column > .vertical-view__item:has(> div[style$="o
 porndoe.com##.video-item:has(a.video-item-link[ng-native-click])
 jav4tv.com##aside:has(.ads_300_250)
 youporn.com##aside:has(a.ad-remove)
+pornhub.com##div[class="video-wrapper"] > .clear.hd:has(.adsbytrafficjunky)
 rule34.paheal.net##section[id$="main"] > .blockbody:has(> div[align="center"] > ins)
 !! Advanced element hiding rules
 4wank.com#?#.video-holder > center > :-abp-contains(/^Advertisement$/)
