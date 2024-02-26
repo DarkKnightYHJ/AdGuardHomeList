@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: B40bhPSPlaY6F8Bo6fMoqA
+! Checksum: on+8/Ae45aYpTtKInAZbjg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202402260801
-! Last Modified: 2024年02月26日 08:01
+! Version: 202402261400
+! Last Modified: 2024年02月26日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -70229,6 +70229,7 @@ scrolller.com##.vertical-view__column > .vertical-view__item:has(> div[style$="o
 porndoe.com##.video-item:has(a.video-item-link[ng-native-click])
 jav4tv.com##aside:has(.ads_300_250)
 youporn.com##aside:has(a.ad-remove)
+pornhub.com##div[class="video-wrapper"] > .clear.hd:has(.adsbytrafficjunky)
 rule34.paheal.net##section[id$="main"] > .blockbody:has(> div[align="center"] > ins)
 !! Advanced element hiding rules
 4wank.com#?#.video-holder > center > :-abp-contains(/^Advertisement$/)
@@ -72637,6 +72638,9 @@ newduba.cn###jq_youxi
 ##a[href*=".mp388.com/"]
 ||qbhzghb.xyz^
 ||hozatr.xyz^
+||qrkhwe.xyz^
+||hozatr.xyz^
+||vhvwlb.xyz^
 ##[style*="sotv.me"]
 ##a[href$="/lm2p2.com"]
 ##a[href$="/lm39h.com"]
@@ -100601,6 +100605,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||app.box.com/gen204
 ||appanalysis.banggood.com^
 ||archive.org/includes/analytics.js
+||armedangels.com/javascript/script.js
 ||arttrk.com/pixel/
 ||as.coinbase.com/metrics
 ||atrack.allposters.com^
