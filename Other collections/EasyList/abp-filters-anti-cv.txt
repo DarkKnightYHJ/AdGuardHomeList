@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: lMQlqVrTK0xIE86w+cZNwQ
-! Version: 202402281401
+! Checksum: 3OEPZhwAJSrFexTr+h8/xA
+! Version: 202402281501
 ! Title: ABP filters
-! Last modified: 28 Feb 2024 14:01 UTC
+! Last modified: 28 Feb 2024 15:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1466,7 +1466,7 @@ vndoc.com#$#override-property-read seconds 0
 phimvuihd.org#$#override-property-read urlAds ''
 thapcam3.net#$#simulate-mouse-event '#modalasd$continue,delay=300'
 phimvietsub.pro,api.anime3s.com,subnhanh.xyz#$#override-property-read maxAds 0
-phimheovietnam.org#$#override-property-read video.adVast ''
+phimheovietnam.org,londep.io#$#override-property-read video.adVast ''
 ! Popup/Popunder/Clickunder
 fembed.com,femax20.com,m.blogtruyenvn.org,viettoons.tv,vinaurl.net,animet.net,anh.moe,truyenhentaivn.com#$#abort-on-property-read open
 khophimhd.net,downloadsachmienphi.com,tvhay.top#$#abort-current-inline-script JSON.parse atob
