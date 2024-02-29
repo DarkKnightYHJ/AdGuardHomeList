@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: zScNJFQqSbIOdOmq4P0bYA
-! Version: 202402291301
+! Checksum: 1jaKQ+avROiFwOwYTyKXtQ
+! Version: 202402291401
 ! Title: ABP filters
-! Last modified: 29 Feb 2024 13:01 UTC
+! Last modified: 29 Feb 2024 14:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -467,11 +467,6 @@ hentaiworld.tv,manhwaclub.net,masahub.net#$#abort-on-property-read __formatsGett
 /assets*$script,image,domain=kickassanime.io
 /cache2/*$script,image,domain=watchcartoonsonline.eu
 /wp-includes/js/jwplayer.js?$script,image,domain=watchcartoonsonline.eu
-igg-games.com#$#abort-current-inline-script $ php
-igg-games.com##.adstg
-igg-games.com##.uk-panel.widget-text
-||asemskull.com^$domain=igg-games.com
-||igg-games.com/sw.js^$script
 /homepage*$script,image,domain=kickassanime.io
 kickassanime.io##.ka-ax-wrapper
 /sid*$domain=kickassanime.io
@@ -842,10 +837,8 @@ gamefront.com#$#abort-current-inline-script $ AdBlock
 ||thikraik.net^$domain=kickassanime.io
 kickassanime.io##.ka-ax-wrp.mb-3
 imagefap.com#$#abort-on-property-read popCookie
-igg-games.com#$#hide-if-matches-xpath './/img[@src]/parent::a[@rel]/ancestor::div[contains(@style,"margin-top")]'
-igg-games.com#$#abort-on-property-write btoa
-igg-games.com#$#abort-on-property-write advanced_ads_ready; abort-current-inline-script document.createElement /script/; prevent-listener DOMContentLoaded; abort-current-inline-script $ setTimeout; prevent-listener iframe
-igg-games.com##iframe[style]:not([src])
+igg-games.com#$#hide-if-matches-xpath './/a[@href][@aria-label]/img[@loading="lazy"][@width="660"]/ancestor-or-self::a[1]'
+igg-games.com#$#abort-on-property-write advanced_ads_ready; prevent-listener DOMContentLoaded; prevent-listener iframe; abort-current-inline-script addEventListener document.createElement;
 searchenginereports.net#$#abort-on-property-read adsbygoogle
 amyscans.com##div[class*="code-block"]
 megagames.com#$#abort-on-property-write $jscomp
@@ -895,7 +888,6 @@ naughtymachinima.com#$#abort-on-property-read window.open; abort-on-property-rea
 fullporner.com#$#abort-on-property-read ad; abort-on-property-read ad_list
 animepahe.com#$#abort-on-property-read _0x43d1; abort-on-property-read _0x53b5
 receive-smss.com#$#abort-on-property-read adBlockEnabled
-igg-games.com#$#hide-if-matches-xpath './/img[@src]/parent::a[@rel]/ancestor::div[contains(@style,"margin-top")]'
 smallseotools.com#$#hide-if-matches-xpath './/div[@class]/parent::span[contains(@id,"__stt") and contains(@class,"d-block")]'
 ||smallseotools.com/webimages/garamar*.png^$image,domain=smallseotools.com
 duplichecker.com,searchenginereports.net,plagiarismchecker.co,plagiarismdetector.net,smallseotools.com#$#abort-on-property-write $img_html; override-property-read ads_function undefined; override-property-read adpushup noopFunc; abort-on-property-read FITS.Config; strip-fetch-query-parameter /firebase-messaging.js/; abort-current-inline-script $ g_amamarly_model; abort-current-inline-script $ ga_rammarly-popup;
