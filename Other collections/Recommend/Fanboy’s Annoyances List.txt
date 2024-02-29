@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0N0run8TEsnpxRx5sNKGNA
-! Version: 202402291001
+! Checksum: NTr+gmEyhWptkXARcAmFZA
+! Version: 202402291101
 ! Title: Fanboy's Annoyance List
-! Last modified: 29 Feb 2024 10:01 UTC
+! Last modified: 29 Feb 2024 11:01 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -181,6 +181,7 @@ _backToTop.
 /flying_push.
 /get_onesignal_
 /gm-push-notification-
+/googleReviews.js
 /ilabspush.
 /imports/notifications.
 /inpl.webpush.
@@ -3198,6 +3199,8 @@ dashboard.razorpay.com#@##credential_picker_container
 ##a[href^="http://www.mobi24.net/"]
 ##a[href^="https://www.mobi24.net/"]
 ##amp-app-banner
+! google review popup
+##.es-badge-container
 ! substack
 ##.subscription-widget-wrap > .show-subscribe
 ! spot.im Notifications
@@ -34120,6 +34123,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||parse.ly^$third-party
 ||partner.dw.com^$third-party
 ||pelcro.com^$third-party,domain=newsweek.com
+||permalink-system.com^$third-party
 ||phoenix-widget.com^$third-party
 ||pippity.com^$third-party
 ||placehold.it^$third-party
@@ -34148,6 +34152,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||quote.fm/services/button/$third-party
 ||r42tag.com^$third-party
 ||radioonlinehd.net/ads/
+||raidrush.net/ticker/$third-party
 ||rankdirectory.org^$third-party
 ||rating-widget.com^$third-party
 ||rdstation.com.br^$third-party
@@ -34270,6 +34275,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||yimg.com^*/GoldenGate.
 ||yottos.com^$third-party
 ||youappi.com/widget/$third-party
+||youspacko.com/com/$third-party
 ||youtube.com/v/*autoplay$third-party,domain=7chan.org|boards.4chan.org
 ||ytimg.com^*/www-subscribe-widget-$script
 ||zaparena.com^$third-party
@@ -37729,6 +37735,7 @@ fxstreet.com##.css-kmucxv
 bet.com##.css-mha66v-Box-Flex-StyledNewsletterLayout
 stylist.co.uk##.css-uwbbg5
 businessplus.ie##.ct-link-text
+coincodecap.com##.ct-newsletter-subscribe-container
 biznews.com,bridgemi.com,thenation.com##.cta
 themarkup.org##.cta--subscribe
 bigissue.com##.cta--subscription
@@ -37760,7 +37767,7 @@ dailyfx.com##.dfx-ftgBannerWidget
 dailyfx.com##.dfx-inHouseEducationSubmoduleBanner
 dailyfx.com##.dfx-inHouseGuideBannerComponent
 dailyfx.com##.dfx-inHouseNewsletterBanner
-brownstone.org,homesteading.com,innotechtoday.com,jewishjournal.com,nowtoronto.com,shapeways.com##.dialog-lightbox-widget
+brownstone.org,coincodecap.com,homesteading.com,innotechtoday.com,jewishjournal.com,nowtoronto.com,shapeways.com##.dialog-lightbox-widget
 deliciousmagazine.co.uk##.digital-download-wrapper
 livemint.com##.disclamerText
 floridianpress.com##.diverse-subscribe
@@ -39074,6 +39081,7 @@ wikihow.com###sf
 colibriwp.com###sfsi-widget-2
 gomag.com###share-buttons
 bracketfights.com,ecuadoradio.ec,tiermaker.com###share-container
+aiseesoft.com###share-list
 mein-schoener-garten.de###shareButton
 biorxiv.org###shareit
 benq.com###shares
@@ -39313,6 +39321,7 @@ overwolf.com##.creator-social
 bloomberg.com##.css--social-wrapper-outer
 dailywire.com##.css-a91oi6
 thedrive.com##.css-vr83lp
+coincodecap.com##.ct-block-wrapper
 columbian.com##.cta
 ithinkdiff.com##.custom-html-widget
 therighthairstyles.com##.custom-pinterest-wrap
@@ -41039,6 +41048,7 @@ yoursoccerdose.com##.cc-simple
 mysoapbox.com##.cc_modal
 drakecircus.com##.ccc-widget
 blueskybuilding.com##.ccd_cookie_bar
+ccmhockey.com##.ccm-cookie-banner
 ccn.com##.ccn-consent
 plebbin.com##.ccp-pop
 hannity.com,oxfordhotel.com,thespotlyte.com##.ccpa
@@ -42266,6 +42276,7 @@ plente.com##[class*="SnackbarMessages__snackbar_"]
 payback-ltd.com##[class*="cookiesPopUp"]
 noovo.ca##[class*="modalstyles__StyledModalContainer-"]
 weedmaps.com##[class*="styles__BannerContainer-"]
+getunleash.io##[class^="CookieControl"]
 bitbrain.com##[class^="CookiesManager"]
 btc-alpha.com##[class^="Cookies_container"]
 graphql.braintreepayments.com##[class^="GDPR-module_"]
@@ -44067,6 +44078,7 @@ pramgnet.com##.sbnr
 maannews.net##.sc
 midad.com##.social-actions
 studyshoot.com##.social-flex
+khamsat.com##.social-media
 alaqsavoice.ps##.social-style-2
 alalam.ir##.social_icon_head
 raya.com##.social_single_post
@@ -47253,6 +47265,7 @@ churchsoftware.com.br##.popup-pro
 agazetafm.com,araraquaranews.com.br,slatual.com.br##.popup_footer
 gaz.com.br##.privacy-policy__popup
 starrcompanies.com.br##.privacy-warning
+honda-automoveis.pt##.rigor-cookies
 rovitex.com.br##.rovitex-apps-0-x-cookieContainer
 blog.runrun.it##.sc-AxiKw
 direcaoconcursos.com.br##.sc-faada46b-0

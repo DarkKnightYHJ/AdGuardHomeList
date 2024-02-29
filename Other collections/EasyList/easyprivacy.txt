@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: frWRcTMTQFNs2wMfxlIE6g
-! Version: 202402291001
+! Checksum: zfESVdapPT3/2mDvpxR95Q
+! Version: 202402291101
 ! Title: EasyPrivacy
-! Last modified: 29 Feb 2024 10:01 UTC
+! Last modified: 29 Feb 2024 11:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1301,6 +1301,7 @@
 /log/log-event-
 /log/log.php?
 /log/logs?
+/log/metrics?
 /log/page-view
 /log/pageview
 /log/report/*
@@ -3010,6 +3011,7 @@ _WebVitalsReporter_
 /t.yesware.com/t/*$image
 /T/OFC4/*$image
 /track/open.php?
+/track/open/*$image
 /track/open?
 /tracking.fanbridge.com/*
 /tracking.srv2.de/op/*$image
@@ -3542,6 +3544,7 @@ omni.soundestlink.com$image
 ||aimediagroup.com^$third-party
 ||air2s.com^$third-party
 ||airbrake.io^$third-party
+||airlogak.com^$third-party
 ||airpr.com^$third-party
 ||airserve.net^$third-party
 ||aivalabs.com^$third-party
@@ -4357,6 +4360,7 @@ omni.soundestlink.com$image
 ||hiconversion.com^$third-party
 ||hif.to^$third-party
 ||higherengine.com^$third-party
+||highlight.io^$third-party
 ||highlight.run^$third-party
 ||highmetrics.com^$third-party
 ||hira-meki.jp^$third-party
@@ -8203,6 +8207,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hydro-ma-proxy.akamaized.net^
 ||hypercomments.com/widget/*/analytics.html
 ||i.compendium.com^
+||i.posthog.com^
 ||i.s-microsoft.com/wedcs/ms.js
 ||i.viafoura.co^
 ||iabusprivacy.pmc.com^
@@ -11595,6 +11600,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||medium.com/_/batch
 ||meduza.io/stat/
 ||megaplay.cc/cdn-cgi/trace
+||megatron.igraal.com^
 ||mensjournal.com/.bootscripts/analytics.min.js
 ||mercedes-benz.com/datadog-
 ||merriam-webster.com/lapi/v1/mwol-search/stats/lookup
@@ -12184,6 +12190,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||upi.com/story/stat/
 ||uprinting.com/muffins/UPTracker-
 ||ups.com/img/icp.gif
+||upwork.com/shasta/suit
 ||upwork.com/upi/jslogger
 ||urs.metacritic.com^
 ||user-metrics.onthemarket.com^
@@ -47003,6 +47010,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||s3r.zerkalo.io^
 ||zerkalo.io/stat/
 ! Arabic
+||khamsat.com/ajax/account_stats?
 ||mosoah.com/analytics.js
 ||tags.aljazeera.net^
 ! Bosnian
