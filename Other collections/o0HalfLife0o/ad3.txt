@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Qn9u7GH79yAyB7ztwdm5NQ
+! Checksum: I87Mw9y37hIVB1PXtx+79w
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202402291400
-! Last Modified: 2024年02月29日 14:00
+! Version: 202402292001
+! Last Modified: 2024年02月29日 20:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1802,6 +1802,7 @@ newduba.cn###jq_youxi
 ##style + .a-loading
 ##style + .need_grid_img
 ##style + .vdgdo
+##.adpcc
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 ##td[id^="td_"] > a[href^="/htmm/"]
 ##vg-pause-d
@@ -1997,6 +1998,15 @@ newduba.cn###jq_youxi
 ||xsfajf.xyz^
 ||fefgvh.xyz^
 ||tduenkq839.shop^
+||execuri.com^
+||88lm06.com^
+||szmnl.cn^
+||sdjkbcjksbdsvv.com^
+||mlhtr.cn^
+##a[href*=".imiwang.com/"]
+||shanvezhu.com^
+||zhaweifeng.com^
+##a[href*="/dsf71.cc"]
 ||yyddkm526.shop^
 ||zagyjnn.cn^
 ||zopuqv.icu^
@@ -6687,7 +6697,7 @@ $popup,third-party,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downh
 ||yy18.info^*thanks$popup
 !----------------------Specific advert blocking filters-----------------------!
 $image,third-party,domain=lady1.top
-$script,third-party,domain=52movieba.com|audio699.com|kan-tv.com|m.supfree.net|movieffm.net|xiaoheimi.net
+$script,third-party,domain=52movieba.com|audio699.com|kan-tv.com|m.supfree.net|movieffm.net|xiaoxintv.net
 $script,third-party,websocket,domain=52codes.net
 $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|zzzzz688.com
 .194007.com/4058.gif
@@ -11055,6 +11065,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||8h93.com^*.gif
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 manhuabika.com##a[href*="/ad/"]
@@ -17376,6 +17387,7 @@ guailie.com#@#.google-ad
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.div_sticky2
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.modal-backdrop
 /exads-adblock-$image
+18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+style)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+script)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>script+ins)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
@@ -18597,6 +18609,7 @@ smjb.net##div[style*="height: 50%"]
 ||biquge99.cc/js/dj
 ||bookrb.com/images/jtt
 ||d3iih5w7xp5hdg.cloudfront.net^
+||d2un76zvb5mgzx.cloudfront.net^
 ||dobiez.com/statics/wap_v1/js/qwd.
 ||duanwenxue.com/functions/
 ||fxsc6.net/js/
@@ -22765,6 +22778,7 @@ m.babytree.com##script + a[class]
 /log/log-event-
 /log/log.php?
 /log/logs?
+/log/metrics?
 /log/page-view
 /log/pageview
 /log/report/*
@@ -24447,6 +24461,7 @@ _WebVitalsReporter_
 /t.yesware.com/t/*$image
 /T/OFC4/*$image
 /track/open.php?
+/track/open/*$image
 /track/open?
 /tracking.fanbridge.com/*
 /tracking.srv2.de/op/*$image
@@ -24974,6 +24989,7 @@ omni.soundestlink.com$image
 ||aimediagroup.com^$third-party
 ||air2s.com^$third-party
 ||airbrake.io^$third-party
+||airlogak.com^$third-party
 ||airpr.com^$third-party
 ||airserve.net^$third-party
 ||aivalabs.com^$third-party
@@ -25789,6 +25805,7 @@ omni.soundestlink.com$image
 ||hiconversion.com^$third-party
 ||hif.to^$third-party
 ||higherengine.com^$third-party
+||highlight.io^$third-party
 ||highlight.run^$third-party
 ||highmetrics.com^$third-party
 ||hira-meki.jp^$third-party
@@ -29581,6 +29598,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hydro-ma-proxy.akamaized.net^
 ||hypercomments.com/widget/*/analytics.html
 ||i.compendium.com^
+||i.posthog.com^
 ||i.s-microsoft.com/wedcs/ms.js
 ||i.viafoura.co^
 ||iabusprivacy.pmc.com^
@@ -32915,6 +32933,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||medium.com/_/batch
 ||meduza.io/stat/
 ||megaplay.cc/cdn-cgi/trace
+||megatron.igraal.com^
 ||mensjournal.com/.bootscripts/analytics.min.js
 ||mercedes-benz.com/datadog-
 ||merriam-webster.com/lapi/v1/mwol-search/stats/lookup
@@ -33504,6 +33523,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||upi.com/story/stat/
 ||uprinting.com/muffins/UPTracker-
 ||ups.com/img/icp.gif
+||upwork.com/shasta/suit
 ||upwork.com/upi/jslogger
 ||urs.metacritic.com^
 ||user-metrics.onthemarket.com^
@@ -68146,6 +68166,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||s1r.zerkalo.io^
 ||s3r.zerkalo.io^
 ||zerkalo.io/stat/
+||khamsat.com/ajax/account_stats?
 ||mosoah.com/analytics.js
 ||tags.aljazeera.net^
 ||insight.olx.ba^
@@ -68614,6 +68635,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||amazonaws.com/ai-img/aia.js
 ||ameba.jp/cookie/
 ||ameblo.jp/accesslog/
+||analysis.aws.locondo.jp^
 ||analytics.castel.jp^
 ||analytics.cocolog-nifty.com^
 ||analytics.ikyu.com^
