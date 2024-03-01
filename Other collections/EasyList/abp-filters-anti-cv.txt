@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: fzo7isYo30Uh25lSI1o8IA
-! Version: 202403012001
+! Checksum: hEgvNspYjZX56LCdNd2fdw
+! Version: 202403012101
 ! Title: ABP filters
-! Last modified: 01 Mar 2024 20:01 UTC
+! Last modified: 01 Mar 2024 21:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1101,7 +1101,7 @@ komikdewasa.me#$#abort-on-property-write adsbyjuicy; override-property-read R un
 ! #CV-667
 mp3-gratis.it#$#abort-current-inline-script Math zfgloaded
 ! Popup/Popunder
-streamingcommunity.net#$#abort-current-inline-script String.fromCharCode /btoa|break/
+streamingcommunity.*#$#abort-current-inline-script String.fromCharCode /btoa|break/
 animeunity.tv#$#abort-on-property-read localStorage
 ! #CV-1366
 tiscali.it#$#hide-if-matches-xpath './/a[@href][contains(@class,"ofrtsrc")][@target="_blank"]/ancestor::div[@data-nosnippet]/ancestor::div[contains(@class,"ofrtsrc")]'
