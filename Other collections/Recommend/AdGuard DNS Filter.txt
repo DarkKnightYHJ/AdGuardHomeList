@@ -4,7 +4,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2024-03-01T12:01:15.686Z
+! Last modified: 2024-03-01T18:01:15.496Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.22
 !
@@ -16,12 +16,15 @@
 ! This section contains the list of third-party advertising networks domains.
 ! Note, that we only put rules that block full domains here and not URL parts (there's `general_url.txt` for that). Also, it must be domains that are used in a third-party context.
 ! The rules with hints are at the end of file.
+!
 ! Good: ||doubleclick.net^$third-party
 ! Bad: /banner.jpg (should be in general_url.txt)
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
 !
+||aeoqmogkswsd.com^
+||aunauque.net^
 ||gvwdwrtzrs.com^
 ||guangzhuiyuan.com^
 ||agamaevascla.top^
@@ -3173,6 +3176,7 @@ vkcdnservice.appspot.com^
 ||ahagreatlypromised.com^
 ||ahaheartburndo.com^
 ||ahaurgoo.net^
+||ahaxoenizuaon.com^
 ||ahbdsply.com^
 ||ahcdsply.com^
 ||ahdytiyc.xyz^
@@ -3843,6 +3847,7 @@ vkcdnservice.appspot.com^
 ||anvilfaintmaiden.com^
 ||anvkmi.com^
 ||anwhic.com^
+||anwhitepinafore.info^
 ||anwyrxpockct.xyz^
 ||anxiouslyconsistencytearing.com^
 ||anxiouslywonderexcitement.com^
@@ -6194,6 +6199,7 @@ vkcdnservice.appspot.com^
 ||bowlsolicitor.com^
 ||bowmoolog.com^
 ||bowtellwhincow.cfd^
+||boxappellation.com^
 ||boxernightdilution.com^
 ||boxhaulchrist.guru^
 ||boxlikepavers.com^
@@ -6451,6 +6457,7 @@ vkcdnservice.appspot.com^
 ||bshrdr.com^
 ||bsjusnip.com^
 ||bsolaoecm.xyz^
+||bsshcuxgxtovjv.com^
 ||bsudzbtp.com^
 ||bswakciowtsmnm.com^
 ||bsxqnbhahvjrrry.com^
@@ -6777,6 +6784,7 @@ vkcdnservice.appspot.com^
 ||caeli-rns.com^
 ||caesardamaging.com^
 ||caesaw.com^
+||cafenehkikki.com^
 ||cafeteriasobwaiter.com^
 ||caffleklismos.website^
 ||cafqeelk.com^
@@ -9632,6 +9640,7 @@ vkcdnservice.appspot.com^
 ||di7stero.com^
 ||diaepoxy.guru^
 ||diagramcetyl.digital^
+||dialedbollox.com^
 ||dialling-abutory.com^
 ||dialoguemarvellouswound.com^
 ||dialogueshipwreck.com^
@@ -12295,6 +12304,7 @@ vkcdnservice.appspot.com^
 ||fbmedia-bls.com^
 ||fbmedia-ckl.com^
 ||fbmedia-dhs.com^
+||fbnztqwlirf.com^
 ||fbpgdlprsiz.com^
 ||fbrheofkccovs.xyz^
 ||fbtinlxy.com^
@@ -12320,6 +12330,7 @@ vkcdnservice.appspot.com^
 ||fczaifik.com^
 ||fd2a9dd918.com^
 ||fd2cd5c351.com^
+||fd39024d2a.com^
 ||fd5orie8e.com^
 ||fd7qz88ckd.com^
 ||fddfqxxxqbuhss.xyz^
@@ -13198,6 +13209,7 @@ vkcdnservice.appspot.com^
 ||frfetchme.com^
 ||frfhhcxeqkubk.xyz^
 ||frhbrkjgerikm2f8mjek09.com^
+||frhjqdgtfeb.com^
 ||fri4esianewheywr90itrage.com^
 ||fricacedisgulf.uno^
 ||frictionliteral.com^
@@ -15088,6 +15100,7 @@ vkcdnservice.appspot.com^
 ||hbzikbe.com^
 ||hcdmhyq.com^
 ||hcitgdljlrfw.com^
+||hcndrrodt.com^
 ||hcritiesec.xyz^
 ||hcrwvno.com^
 ||hcsiquau.com^
@@ -15970,6 +15983,7 @@ vkcdnservice.appspot.com^
 ||hwqybdkniptwm.com^
 ||hwrcxpfzmfxg.com^
 ||hwucqkpdinfb.xyz^
+||hwvvvuwpvu.com^
 ||hwydfevh.com^
 ||hwyjfhdjgoorb.com^
 ||hwyrtegwvyjvbim.com^
@@ -17600,6 +17614,7 @@ vkcdnservice.appspot.com^
 ||jnlldyq.com^
 ||jnnbzmyqaekzj.top^
 ||jnovoksjreeyrpm.xyz^
+||jnqkvgkm.com^
 ||jnrgcwf.com^
 ||jnrtavp2x66u.com^
 ||jnsgdaqsiqcumg.xyz^
@@ -18218,6 +18233,7 @@ vkcdnservice.appspot.com^
 ||khment.com^
 ||khnwnqmwmdttsd.com^
 ||khoslo.com^
+||khuanynodefado.com^
 ||khvphqpsl.com^
 ||kiaughsviner.com^
 ||kiblahsbuenas.com^
@@ -18913,6 +18929,7 @@ vkcdnservice.appspot.com^
 ||lcwoewvvmhj.com^
 ||lcwogxmmukoe.com^
 ||ld.myrciawaapa.com^
+||ldcadfuway.com^
 ||ldclxgkcy.xyz^
 ||ldcrfkvy.com^
 ||ldedallover.info^
@@ -19736,6 +19753,7 @@ vkcdnservice.appspot.com^
 ||luckyforbet.com^
 ||luckypapa.xyz^
 ||luckypushh.com^
+||luckyz.xyz^
 ||lucrativeemotionallypromised.com^
 ||lucrumvirga.life^
 ||lucvhrdlywvnwh.com^
@@ -19831,6 +19849,7 @@ vkcdnservice.appspot.com^
 ||lvsnmgg.com^
 ||lvwdrsrerso.com^
 ||lvwuuehkvitwn.com^
+||lvyowwkqealv.top^
 ||lwgadm.com^
 ||lwghtbqqmbxiet.com^
 ||lwjdefxsrithve.com^
@@ -21604,6 +21623,7 @@ vkcdnservice.appspot.com^
 ||naturalhealthsource.club^
 ||naturalistsbumpmystic.com^
 ||naturallyedaciousedacious.com^
+||naubme.info^
 ||naucaips.com^
 ||naucaish.net^
 ||naufistuwha.com^
@@ -22881,6 +22901,7 @@ vkcdnservice.appspot.com^
 ||ohfowsawvgig.com^
 ||ohgmnmgrd.xyz^
 ||ohibal.com^
+||ohjhsopp.com^
 ||ohkahfwumd.com^
 ||ohkdsplu.com^
 ||ohkvifgino.com^
@@ -23517,6 +23538,7 @@ vkcdnservice.appspot.com^
 ||otorwardsoffhdgat.com^
 ||otqxvqzdgl.com^
 ||otrwaram.com^
+||otrzcixradze.com^
 ||ottack.com^
 ||ottdhysral.com^
 ||otterwoodlandobedient.com^
@@ -26401,6 +26423,7 @@ vkcdnservice.appspot.com^
 ||qppq166n.de^
 ||qprthjab.com^
 ||qpvbsekwtwsoe.com^
+||qqdxtmllptdlz.com^
 ||qqfelxqmhoc.com^
 ||qqgfubewassi.com^
 ||qqguvmf.com^
@@ -30631,6 +30654,7 @@ vkcdnservice.appspot.com^
 ||swordeast.com^
 ||swordrelievedictum.com^
 ||swordshiret.net^
+||swpnyrxgobtryu.com^
 ||swtchrules.click^
 ||swunge.com^
 ||swungencetacea.website^
@@ -32443,6 +32467,7 @@ vkcdnservice.appspot.com^
 ||u595sebqih.com^
 ||u9axpzf50.com^
 ||uaaftpsy.com^
+||uabpuwz.com^
 ||uads.cc^
 ||uads.digital^
 ||uads.info^
@@ -36199,6 +36224,7 @@ vkcdnservice.appspot.com^
 ||zoutubephaid.com^
 ||zoutufoostou.com^
 ||zoxkljeicxi.com^
+||zoytgckcoxokah.com^
 ||zozolilla.com^
 ||zpbiqrovnozhn.com^
 ||zpcfnzjq.com^
@@ -37635,6 +37661,7 @@ vkcdnservice.appspot.com^
 ||1080872514.rsc.cdn77.org^
 ||10945-2.s.cdn15.com^
 ||10945-5.s.cdn15.com^
+||1118519355.rsc.cdn77.org^
 ||1130482418.rsc.cdn77.org^
 ||1147571014.rsc.cdn77.org^
 ||1171766178.rsc.cdn77.org^
@@ -37644,6 +37671,7 @@ vkcdnservice.appspot.com^
 ||1373864970.rsc.cdn77.org^
 ||1386132757.rsc.cdn77.org^
 ||1390582286.rsc.cdn77.org^
+||1413290090.rsc.cdn77.org^
 ||1433024343.rsc.cdn77.org^
 ||1437953666.rsc.cdn77.org^
 ||1445112467.rsc.cdn77.org^
@@ -37663,6 +37691,7 @@ vkcdnservice.appspot.com^
 ||1786886222.rsc.cdn77.org^
 ||1851120889.rsc.cdn77.org^
 ||1851933582.rsc.cdn77.org^
+||1857833196.rsc.cdn77.org^
 ||1857964468.rsc.cdn77.org^
 ||1859033409.rsc.cdn77.org^
 ||1874562524.rsc.cdn77.org^
@@ -43513,6 +43542,7 @@ vkcdnservice.appspot.com^
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||recv.tbs.co.jp^
 ||tracking.game8.co^
 ||analysis.aws.locondo.jp^
 ||reports.tunein.com^
@@ -45070,7 +45100,6 @@ vkcdnservice.appspot.com^
 ||sayac.tmgrup.com.tr^
 ||sbeacon.sina.com.cn^
 ||sci.intuit.com^
-||scis.tbs.co.jp^
 ||secure-wa-na.unileversolutions.com^
 ||segment-cdn.producthunt.com^
 ||segments.adap.tv^
@@ -57350,6 +57379,7 @@ inapps.appsflyersdk.com^
 ||999xx999kk.com^
 ||aaoisp.com^
 ||agmed.cyou^
+||ahyyqq.xyz^
 ||anjdwmq.xyz^
 ||aourgk.xyz^
 ||arqvm.cn^
@@ -57361,6 +57391,7 @@ inapps.appsflyersdk.com^
 ||benpsbp.com^
 ||bjswhpy.cn^
 ||bmnbyn.icu^
+||bmret.cn^
 ||bugzmn.icu^
 ||bvxiht.xyz^
 ||bwlcpr.xyz^
@@ -57376,6 +57407,7 @@ inapps.appsflyersdk.com^
 ||cliffnsc.xyz^
 ||clywws.xyz^
 ||cqisam.xyz^
+||crjeymh.cn^
 ||ctlrarz.xyz^
 ||cvbjctqs.xyz^
 ||cvgrszkg.xyz^
@@ -57383,6 +57415,7 @@ inapps.appsflyersdk.com^
 ||cvudqzoa.xyz^
 ||cwssfg632.shop^
 ||ddielv.cn^
+||dkjwbv.xyz^
 ||dsbqvj.xyz^
 ||dxrnksm.xyz^
 ||dyegif.icu^
@@ -57396,6 +57429,7 @@ inapps.appsflyersdk.com^
 ||fmfnrf.xyz^
 ||fvpboxu.xyz^
 ||fwcnex.icu^
+||fxjnfn.xyz^
 ||ghgasdb365.shop^
 ||ghgasdt963.shop^
 ||gicjtss.cn^
@@ -57469,6 +57503,7 @@ inapps.appsflyersdk.com^
 ||szbhb.cn^
 ||szmnd.cn^
 ||szmnf.cn^
+||szmnk.cn^
 ||szmnl.cn^
 ||szpnz.cn^
 ||szptp.cn^
@@ -57483,6 +57518,7 @@ inapps.appsflyersdk.com^
 ||tu2024020388.com^
 ||tyodot.icu^
 ||uctutu3789.xyz^
+||uiqcf.cn^
 ||usltmus.cn^
 ||uu22662.com^
 ||uxlvk.cn^
@@ -57500,6 +57536,7 @@ inapps.appsflyersdk.com^
 ||xdmnlxtu.xyz^
 ||xdrvkdni.xyz^
 ||xdybwjpa.xyz^
+||xhfxtqt.xyz^
 ||xklofoz.cn^
 ||xkrnud.icu^
 ||xliffnsc.xyz^
@@ -57521,15 +57558,8 @@ inapps.appsflyersdk.com^
 ||yvudqzoa.xyz^
 ||yyddkm526.shop^
 ||zagyjnn.cn^
-||xhfxtqt.xyz^
-||zojyob.icu^
-||bmret.cn^
-||dkjwbv.xyz^
-||ahyyqq.xyz^
-||fxjnfn.xyz^
-||szmnk.cn^
-||crjeymh.cn^
 ||zhaweifeng.com^
+||zojyob.icu^
 ||zopuqv.icu^
 ||zsjpi.cn^
 ||ztxjutz.xyz^
