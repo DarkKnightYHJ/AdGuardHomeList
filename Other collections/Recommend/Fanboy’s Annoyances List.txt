@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: h4YsvRHk0h5PbB3e3XRH8w
-! Version: 202403011501
+! Checksum: K57eVL7W8h9Zj04MyBiiXg
+! Version: 202403011601
 ! Title: Fanboy's Annoyance List
-! Last modified: 01 Mar 2024 15:01 UTC
+! Last modified: 01 Mar 2024 16:01 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -49472,3 +49472,14 @@ insider.com#@#.osano-cm-window
 @@||scripts.finanzen.net/js/cmp/cmp.min.js
 ! FD-287 | FD-4288
 video.sixx.de,sat1.de#@#cmp-banner
+! FD-4875
+@@||cdn.taboola.com/libtrc/*/loader.js$script
+@@||cdn.taboola.com/libtrc/impl.$script
+@@||cdn.taboola.com/libtrc/card-interference-detector.$script
+@@||taboola.com^*/json?tim=$xmlhttprequest
+#@#.trc_rbox_div
+#@#.trc_excludable
+#@#.trc_related_container
+#@#.trc_rbox_border_elm
+#@#.trc_rbox
+#@##taboola-below-article-thumbnails
