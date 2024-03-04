@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: lLW97tg+182JYEuIFvyvKg
-! Version: 202403041402
+! Checksum: z5a+CyCc3kv+d3a21ZAYKQ
+! Version: 202403041501
 ! Title: ABP filters
-! Last modified: 04 Mar 2024 14:02 UTC
+! Last modified: 04 Mar 2024 15:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1407,6 +1407,8 @@ calidadcine.net,seriesmetro.net#$#abort-on-property-read afStorage
 latinblog.tv,peladas69.com#$#abort-on-property-read __formatsGetters
 animefenix.org,animeonline.ninja,audaciousdefaulthouse.com#$#abort-on-property-read window.open
 monoschinos2.com#$#abort-on-property-read _0x24d7; abort-on-property-read _0x41ed; abort-on-property-read _0xf59bf3; abort-on-property-read a3klsam
+cuevana.*,cuevana3.*#$#hide-if-matches-xpath './/a[contains(@rel,"sponsored")]/parent::div[@style][@class="cont"]'
+||filemoon.sx/ad.js^$domain=cuevana.biz|cuevana3.eu|cuevana3me.net|cuevana4.me
 ! Popup/Popunder
 gamestorrents.com,gamestorrents.nu,perfectgirls.es#$#abort-on-property-read open
 gnula.nu,xpaja.net#$#abort-current-inline-script String.fromCharCode /atob|btoa|break/
