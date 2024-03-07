@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: fTN0v9FOF+0Z4ANH51SPdg
-! Version: 202403071501
+! Checksum: 1GqCm9tuXA2DBp5PaMMSvw
+! Version: 202403071601
 ! Title: ABP filters
-! Last modified: 07 Mar 2024 15:01 UTC
+! Last modified: 07 Mar 2024 16:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -790,7 +790,7 @@ kiss-anime.ws#$#abort-on-property-read localStorage; abort-on-property-write JSO
 onscreens.me#$#abort-on-property-read localStorage; abort-on-property-read asgPopScript
 manga1000.top#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse; abort-on-property-read asgPopScript
 hortonanderfarom.blogspot.com#$#override-property-read setTimeout noopFunc
-*$popup,third-party,domain=gogoanimes.fi|hdtoday.la|hdtoday.tv|kimcartoon.li|kisscartoon.com|mreader.co|strtapeadblock.me|strtapeadblocker.art|theflixertv.to
+*$popup,third-party,domain=gogoanimes.fi|hdtoday.la|hdtoday.tv|hollymoviehd.cc|kimcartoon.li|kisscartoon.com|mreader.co|strtapeadblock.me|strtapeadblocker.art|theflixertv.to
 userload.co#$#abort-current-inline-script $ Math.random
 tubeload.co#$#abort-on-property-write BetterJsPop
 hotleak.vip#$#abort-on-property-read advertising
@@ -806,7 +806,7 @@ gaytxxx.com,transtxxx.com,txxx.com#$#abort-on-property-read jwplayer.utils.Timer
 ||txxx.com/*x/*.js$domain=gaytxxx.com|transtxxx.com|txxx.com
 9hentai.to#$#prevent-listener click saveLastEvent
 sendspace.com#$#abort-on-property-read runad false
-engvideo.net,hianime.to,ling-online.net#$#abort-current-inline-script document.documentElement break;case
+engvideo.net,hianime.to,hollymoviehd.cc,ling-online.net#$#abort-current-inline-script document.documentElement break;case
 eporner.com#$#override-property-read exo99HL3903jjdxtrnLoad null; abort-on-property-read window.location.replace.getadb; cookie-remover ADBp
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
