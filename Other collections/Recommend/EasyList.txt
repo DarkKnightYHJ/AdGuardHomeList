@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: nvVbH2E5IWwISUWzBYVdvw
-! Version: 202403111401
+! Checksum: +sLbCVfJMue2eq9M9n/LZQ
+! Version: 202403111501
 ! Title: EasyList
-! Last modified: 11 Mar 2024 14:01 UTC
+! Last modified: 11 Mar 2024 15:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -17712,6 +17712,7 @@ _800x80_
 ! shopee.cl,shopee.cn,shopee.co.id,shopee.co.th.. https://github.com/easylist/easylist/pull/16659
 ##.shopee-search-user-brief
 ! Ads for parked domains https://github.com/easylist/easylist/commit/f96a71b82c
+##a[href*=".cfm?domain="][href*="&fp="]
 ##a[href*=".cfm?fp="][href*="&maxads="]
 ! CitrusAd
 ##.CitrusBannerWrapper--enollj
@@ -33513,6 +33514,7 @@ browsershots.org#@#.advert_area
 ||iezxmddndn.com^
 ||ifaupsoo.com^
 ||ifcpmukburktd.com^
+||ifdbdp.com^
 ||ifdilptsw.com^
 ||ifdividemeasuring.com^
 ||ifdmuggdky.com^
@@ -69075,6 +69077,7 @@ yahoo.com##div[id^="gemini-item-"]
 yahoo.com##div[style*="/ads/"]
 yahoo.com##li[data-test-locator="stream-related-ad-item"]
 ! youtube
+youtube.com###shorts-inner-container > .ytd-shorts:has(> .ytd-reel-video-renderer > ytd-ad-slot-renderer)
 youtube.com##body > ytd-app > #content.ytd-app.style-scope > tp-yt-app-drawer#guide.ytd-app.style-scope[align="start"][role="navigation"][style^="transition-duration:"][position] + ytd-mini-guide-renderer.ytd-app.style-scope + ytd-page-manager#page-manager.ytd-app.style-scope > ytd-browse.ytd-page-manager.style-scope[page-subtype="home"][role="main"] > ytd-settings-sidebar-renderer.ytd-browse.style-scope + dom-if.ytd-browse.style-scope + ytd-two-column-browse-results-renderer.grid-disabled.grid.ytd-browse.style-scope[page-subtype="home"][style] > #primary.ytd-two-column-browse-results-renderer.style-scope > ytd-rich-grid-renderer.ytd-two-column-browse-results-renderer.style-scope[style^="--ytd-rich-grid-item-max-width:"] > #header.ytd-rich-grid-renderer.style-scope ~ #masthead-ad.ytd-rich-grid-renderer.style-scope > ytd-ad-slot-renderer.ytd-rich-grid-renderer.style-scope:not(:empty)
 youtube.com##body > ytd-app > #content.ytd-app.style-scope > tp-yt-app-drawer#guide.ytd-app.style-scope[align="start"][role="navigation"][style^="transition-duration:"][position] + ytd-mini-guide-renderer.ytd-app.style-scope + ytd-page-manager#page-manager.ytd-app.style-scope > ytd-browse.ytd-page-manager.style-scope[page-subtype="home"][role="main"] > ytd-settings-sidebar-renderer.ytd-browse.style-scope + dom-if.ytd-browse.style-scope + ytd-two-column-browse-results-renderer.grid-disabled.grid.ytd-browse.style-scope[page-subtype="home"][style] > #primary.ytd-two-column-browse-results-renderer.style-scope > ytd-rich-grid-renderer.ytd-two-column-browse-results-renderer.style-scope[style^="--ytd-rich-grid-item-max-width:"] > #header.ytd-rich-grid-renderer.style-scope ~ #masthead-ad.ytd-rich-grid-renderer.style-scope > ytd-banner-promo-renderer.ytd-rich-grid-renderer.style-scope[style]:not(:empty)
 youtube.com##body > ytd-app > #content.ytd-app.style-scope > tp-yt-app-drawer#guide.ytd-app.style-scope[align="start"][role="navigation"][style^="transition-duration:"][position] + ytd-mini-guide-renderer.ytd-app.style-scope + ytd-page-manager#page-manager.ytd-app.style-scope > ytd-browse.ytd-page-manager.style-scope[page-subtype="home"][role="main"] > ytd-settings-sidebar-renderer.ytd-browse.style-scope + dom-if.ytd-browse.style-scope + ytd-two-column-browse-results-renderer.grid-disabled.grid.ytd-browse.style-scope[page-subtype="home"][style] > #primary.ytd-two-column-browse-results-renderer.style-scope > ytd-rich-grid-renderer.ytd-two-column-browse-results-renderer.style-scope[style^="--ytd-rich-grid-item-max-width:"] > #spinner-container.ytd-rich-grid-renderer.style-scope + #contents.ytd-rich-grid-renderer.style-scope > ytd-rich-grid-row.ytd-rich-grid-renderer.style-scope > #contents.ytd-rich-grid-row.style-scope > ytd-rich-item-renderer.ytd-rich-grid-row.style-scope[items-per-row] > #content.ytd-rich-item-renderer.style-scope > ytd-ad-slot-renderer.ytd-rich-item-renderer.style-scope:not(:empty)
