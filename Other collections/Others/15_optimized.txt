@@ -1,10 +1,11 @@
-! Checksum: BAWgTwIPSv5TQyxz9soIXg
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1710138959-3600.patch
+! Checksum: k4drKaWNbpZJgPknv1RPTw
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1710160546-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.62.83
-! TimeUpdated: 2024-03-11T06:31:53+00:00
+! Version: 2.0.62.84
+! TimeUpdated: 2024-03-11T12:31:54+00:00
 ! Expires: 5 days (update frequency)
+||owfrbdikoorgn.xyz^
 ||qfyavpwmraqibv.com^
 ||cqeomumqwx.com^
 ||d3c.life^
@@ -710,6 +711,7 @@
 ||d71e6dd31a026d45.com
 ||adrunnr.com^
 ||samsungtvads.com^
+||rec.deezer.com^
 ||ads.greengeeks.com^
 ||d1rr5z16sjcy10.cloudfront.net^
 ||d2xupcbyjjjfoa.cloudfront.net^
@@ -40449,6 +40451,7 @@ vkcdnservice.appspot.com^
 ||t.adbr.io^
 ||cizion.com^
 ||analytics.iss.one^
+||reports-tsi.tangerine.io^
 ||analytics.partcommunity.com^
 ||lr-ingest.io^
 ||svibeacon.onezapp.com^
@@ -40513,7 +40516,6 @@ vkcdnservice.appspot.com^
 ||uplift-platform.com^
 ||lmepbq.com^
 ||cdn.rlets.com^
-||tangerine.io^
 ||b.sli-spark.com^
 ||tracker-rec.smart-bdash.com^
 ||perzonalization.com^
@@ -43554,7 +43556,7 @@ vkcdnservice.appspot.com^
 ||affex.org^
 ||tagman.britishairways.com^
 |piwik.
-||ljc.coupang.com^
+||tracking.pennypublications.com^
 |c.blue.*.com^|
 ||apcdp.apnews.com^
 ||3p-udc.yahoo.com^
@@ -57204,6 +57206,8 @@ inapps.appsflyersdk.com^
 ||lafirx.xyz^
 ||gkutca.xyz^
 ||qw9cu.cyou^
+||jbmfldt.cn^
+||diccsbhij.com^
 ||zojyob.icu^
 ||zopuqv.icu^
 ||zsjpi.cn^
