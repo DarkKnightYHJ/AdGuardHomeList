@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: aaDMmf1GM0vDmX7j4juQ4w
+! Checksum: KgtpU/kflFloZyQduydfZg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202403112000
-! Last Modified: 2024年03月11日 20:00
+! Version: 202403120200
+! Last Modified: 2024年03月12日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1822,9 +1822,11 @@ newduba.cn###jq_youxi
 ||205.209.138.102^
 ||23.231.151.252^
 ||cupfox.app^$third-party
+##a[href*=".asd245796.com:"]
 ##a[href*=".bvftxy.com/"]
 ##a[href*=".imiwang.com/"]
 ##a[href*=".ipndyn.com/"]
+##a[href*=".mjjji.com/"]
 ##a[href*=".mp388.com/"]
 ##a[href*=".xwrfr.com/"]
 ##a[href*="/dsf71.cc"]
@@ -1898,9 +1900,11 @@ newduba.cn###jq_youxi
 ||cvnxetmq.xyz^
 ||cvudqzoa.xyz^
 ||cwssfg632.shop^
+||cxlvlbx.xyz^
 ||dawdlealmonry.com^
 ||ddielv.cn^
 ||delhirs.com^
+||diccsbhij.com^
 ||difmnd.xyz^
 ||dkjwbv.xyz^
 ||dqhxmbx.cn^
@@ -1931,6 +1935,7 @@ newduba.cn###jq_youxi
 ||ghgasdb365.shop^
 ||ghgasdt963.shop^
 ||gicjtss.cn^
+||gkutca.xyz^
 ||gsuxyg.xyz^
 ||gvbta.icu^
 ||ha723.icu^
@@ -1954,6 +1959,7 @@ newduba.cn###jq_youxi
 ||inifdlao.top^
 ||inworket.com^
 ||ivbgpax.cn^
+||jbmfldt.cn^
 ||jflwhf.xyz^
 ||jgblvt.xyz^
 ||jgmywh.icu^
@@ -1962,13 +1968,16 @@ newduba.cn###jq_youxi
 ||jozbun.icu^
 ||jqpejp.xyz^
 ||js131.cn^
+||justapp.top^
 ||jzjpntr.xyz^
 ||kbomku.xyz^
 ||kfdrc.cyou^
 ||kksjsa.top^
+||knifdlad.top^
 ||ktoioo.xyz^
 ||ktvjpmi.xyz^
 ||l5kt1.icu^
+||lafirx.xyz^
 ||lardmoni.com^
 ||lenvvb.xyz^
 ||lewiooz.cn^
@@ -1992,6 +2001,7 @@ newduba.cn###jq_youxi
 ||nkbkor.icu^
 ||nowhern.com^
 ||nplahh.xyz^
+||nsjnmx.icu^
 ||nvdtdsd.xyz^
 ||nyt5j.cyou^
 ||obturex.com^
@@ -2018,6 +2028,7 @@ newduba.cn###jq_youxi
 ||qqkkpos.com^
 ||qrkhwe.xyz^
 ||qrttfmo.cn^
+||qw9cu.cyou^
 ||qzalsk.xyz^
 ||rarcff.xyz^
 ||rbhunp.xyz^
@@ -2080,6 +2091,7 @@ newduba.cn###jq_youxi
 ||uu22662.com^
 ||uxlvk.cn^
 ||uxrdg.cn^
+||vdvcjlp.cn^
 ||veaiyl.icu^
 ||vhvwlb.xyz^
 ||vszzzj.xyz^
@@ -2089,6 +2101,7 @@ newduba.cn###jq_youxi
 ||wisealty.com^
 ||wkywrc.cn^
 ||wnmaoc.xyz^
+||wopvmmy.cn^
 ||wqcfg.cn^
 ||wwjtdjj.cn^
 ||xcypgd.icu^
@@ -2128,21 +2141,10 @@ newduba.cn###jq_youxi
 ||zhihucloud.xyz^
 ||zjrtxt.xyz^
 ||znhlxvb.xyz^
-||zttuvj.xyz^
-||cxlvlbx.xyz^
-||wopvmmy.cn^
-||knifdlad.top^
-||nsjnmx.icu^
-||lafirx.xyz^
-||gkutca.xyz^
-||qw9cu.cyou^
-||jbmfldt.cn^
-##a[href*=".asd245796.com:"]
-||diccsbhij.com^
-##a[href*=".mjjji.com/"]
 ||zojyob.icu^
 ||zopuqv.icu^
 ||zsjpi.cn^
+||zttuvj.xyz^
 ||ztxjutz.xyz^
 ||zuvbzl.xyz^
 ##[style*="sotv.me"]
@@ -16864,9 +16866,9 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@_300_250.$domain=nanrenwo.net
 @@_370x270.$domain=bairuitool-cn.aliyun-hk03.hicheng.net
 @@_ads_cpc_$domain=90lover.cn
-@@_cpa_cpm_$domain=52xkdy.com
+@@_adview_$domain=52xkdy.com|fydy8.com
 @@_cpc_cpm/$domain=youranshare.com
-@@_cpc_cpm_$domain=fydy8.com|saraba1st.com
+@@_cpc_cpm_$domain=saraba1st.com
 @@||060s.com/images_ad/*.png
 @@||073img.com/*,*,
 @@||10010.cn^*/ad
@@ -17173,9 +17175,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||hanjubaike.com^$script,~third-party
 @@||hanjuwang.com^$script,~third-party
 @@||hanjuwang.net^$script,~third-party
-@@||haokoubei.top/check_img_block.js
-@@||haokoubei.top/dl/rfo_v_f_pc.js
-@@||haokoubei.top/sz/to_v_f.js
+@@||haokoubei.top/sz/tos_v_f.js
 @@||haoweichi.com/Public/js/ads.js
 @@||hbu.cn^*/ad.css?$stylesheet
 @@||hc360.com/ad/*.css
@@ -17516,17 +17516,17 @@ guailie.com#@#.google-ad
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
 ||17ce.com^*_$image
 !#18comic.org
-/exads-adblock-$image
 18-comic.work,18comic.org,18comic.vip,jmcomic.me###guide-modal
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.div_sticky2
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.modal-backdrop
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > [style*="back"]
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img + [style]
+/exads-adblock-$image
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+script)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+style)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>script+ins)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > [style*="back"]
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img + [style]
 ||18-comic.work/media/albums/*?$media
 ||18comic.*/media/albums/*?$media
 !#2
@@ -21917,6 +21917,7 @@ m.babytree.com##script + a[class]
 /analyticstracking.js
 /anametrix/cas.js
 /anclytic-ajax.html
+/anclytic.htm
 /angular-tag.js
 /anonymous_user_guid.gif?
 /api-analytics.
@@ -21929,7 +21930,6 @@ m.babytree.com##script + a[class]
 /api/event-rfkj/*
 /api/ipv4check?
 /api/log-visit
-/api/log?
 /api/metrics/collect
 /api/pageactivity
 /api/pageview?
@@ -23500,6 +23500,7 @@ m.babytree.com##script + a[class]
 /scmetrics.*/b/ss/*
 /screencount?vcid=
 /scribd_events?
+/script.tagged-events.outbound-links.js
 /script/pixel.js
 /scriptAnalytics.js
 /scripts.kissmetrics.com/*
@@ -32924,6 +32925,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hotstar.com/v1/identify
 ||hotstar.com/v1/track
 ||houzz.com/hsc/aetrk/
+||houzz.com/j/ajax/client-error-light?
 ||houzz.com/js/log?
 ||hqq.ac/cdn-cgi/trace
 ||hqq.to/cdn-cgi/trace
@@ -33003,6 +33005,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kayak.*/vestigo/measure
 ||kbb.com/pixall/
 ||kck.st/web/track
+||kgoma.com/v1/stat/
 ||kinesis.us-east-1.analytics.edmentum.com^
 ||kkam.com/rest/high/api/cogitoergosum^
 ||klm.us/CWZUvc/
@@ -33158,6 +33161,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||neowin.net/ws/$websocket
 ||net.haier.com^
 ||netflix.com/msl/playapi/cadmium/logblob/
+||netu.ac/cdn-cgi/trace
 ||netuplayer.top/cdn-cgi/trace
 ||netusia.xyz/cdn-cgi/trace
 ||newegg.com/amber3/tracking
@@ -68837,6 +68841,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||goo.ne.jp^*/vltracedmd.js
 ||gtm.diamond.jp^
 ||hatarako.net/api/recommend/analyze_logger
+||hatena.ne.jp/api/log?
 ||i2i.jp/bin/
 ||img.syosetu.org/js/c_
 ||j1.ax.xrea.com^
@@ -69765,6 +69770,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||themarker.com/logger/p.gif?$image,xmlhttprequest
 @@||trc.taboola.com/inncoil/log/3/available$subdocument,domain=inn.co.il
 !---------- Hungarian ----------
+@@||kozkutak.hu/getdata.php?v*=pageview$~third-party
 !---------- Icelandic ----------
 !---------- Italian ----------
 @@||adobedtm.com^*/AppMeasurement.min.js$script,domain=sky.it
