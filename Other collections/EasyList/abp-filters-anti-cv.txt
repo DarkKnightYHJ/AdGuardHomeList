@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: E2XkOViLvKFcPx9W7RJHQQ
-! Version: 202403120801
+! Checksum: JKsY88SM9vD7H1lfYG95pg
+! Version: 202403120901
 ! Title: ABP filters
-! Last modified: 12 Mar 2024 08:01 UTC
+! Last modified: 12 Mar 2024 09:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1340,7 +1340,6 @@ sdamgia.ru#$#abort-on-property-read Object.prototype.getRenderToElement
 liveball.cc,liveball.uno#$#abort-on-property-read ABNS
 zab.ru#$#abort-on-property-read document.body.style
 volley.ru#$#override-property-read Object.prototype.preroll null
-positiverecords.ru#$#abort-current-inline-script document.querySelector ad-google
 ! Prevent auto reload
 24boxing.com.ua,bilshe.com,businessua.com,f1analytic.com,football-ukraine.com,footballgazeta.com,footballtransfer.com.ua,glianec.com,nashamama.com,sportanalytic.com,stravy.net,zdorovia.com.ua#$#abort-current-inline-script setInterval reload
 ! Popup/popunder/clickunder
@@ -1469,7 +1468,7 @@ vndoc.com#$#override-property-read seconds 0
 phimvuihd.org#$#override-property-read urlAds ''
 thapcam3.net#$#simulate-mouse-event '#modalasd$continue,delay=300'
 phimvietsub.pro,api.anime3s.com,subnhanh.xyz#$#override-property-read maxAds 0
-phimheovietnam.org,londep.io,phimsexviet.io,ww1.phimsexvietnam.live,phim.clipsex.xxx,phim.xxxvietnam.tv,sex.gaimup.net,phim.phimsexvip.cc,xx.phimsexnhathay.com,webx.ditnhau.cc#$#override-property-read video.adVast ''
+phimheovietnam.org,londep.io,phimsexviet.io,ww1.phimsexvietnam.live,phim.clipsex.xxx,phim.xxxvietnam.tv,sex.gaimup.net,phim.phimsexvip.cc,webx.ditnhau.cc#$#override-property-read video.adVast ''
 ! Popup/Popunder/Clickunder
 fembed.com,femax20.com,m.blogtruyenvn.org,viettoons.tv,vinaurl.net,animet.net,anh.moe,truyenhentaivn.com#$#abort-on-property-read open
 khophimhd.net,downloadsachmienphi.com,tvhay.top#$#abort-current-inline-script JSON.parse atob
@@ -1484,7 +1483,7 @@ metruyenchu.com#$#abort-on-property-write window.onclick
 truyentuan.xyz#$#abort-current-inline-script $ btpop
 player-cdn.com#$#override-property-read detectAdBlockAll noopFunc; override-property-read detectAdBlock noopFunc
 player-cdn.com###playback-fake
-fcbarcelonaclan.com#$#abort-on-property-read adsRedirectPopups
+etellekt.com#$#abort-on-property-read adsRedirectPopups
 sexdiaryz.us#$#abort-on-property-read parseInt
 linkneverdie.net#$#abort-current-inline-script document.createElement optad;abort-on-property-read pushOnPageGala
 javnong.cc#$#abort-on-property-read Math.round
