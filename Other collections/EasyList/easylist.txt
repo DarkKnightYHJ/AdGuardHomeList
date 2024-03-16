@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202403160944
+! Version: 202403161049
 ! Title: EasyList
-! Last modified: 16 Mar 2024 09:44 UTC
+! Last modified: 16 Mar 2024 10:49 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -63900,6 +63900,7 @@ webcarstory.com###Ads
 search.avast.com###AsbAdContainer
 ranker.com###BLOG_AD_SLOT_1
 weegy.com###BannerDiv
+80.lv###Big_Image_Banner
 citynews.ca###Bigbox_300x250
 calculatorsoup.com###Bottom
 coincheckup.com###CCx5StickyBottom
@@ -63929,6 +63930,8 @@ sitelike.org###HeaderAdsenseCLSFix
 stockinvest.us###IC_d_300x250_1
 stockinvest.us###IC_d_728x90_1
 messitv.net###Image5
+80.lv###Image_Banner_Mid1
+80.lv###Image_Banner_Mid3
 newstarget.com###Index06 > .Widget
 newstarget.com###Index07 > .Widget
 fortune.com###Leaderboard0
@@ -65047,6 +65050,7 @@ coffeeordie.com##.BannerPromo-desktop
 bloomberg.com##.BaseAd_baseAd-dXBqvbLRJy0-
 cnbc.com##.BoxRail-styles-makeit-ad--lyuQB
 latestdeals.co.uk##.BrD5q
+80.lv##.BrandingPromo_skeleton
 petfinder.com##.CardGrid-module--breakOut--a18cf
 timesofindia.indiatimes.com##.CeUoi
 thedailybeast.com##.CheatSheetList__placeholder
@@ -65088,6 +65092,7 @@ semiconductor-today.com##.Horiba-banner
 artsy.net##.IITnS
 sporcle.com##.IMGgi
 streamingsites.com##.IPdetectCard
+80.lv##.ImagePromo_default
 inverness-courier.co.uk##.LLKGTX
 nyctourism.com##.Layout_mobileStickyAdContainer__fCbCq
 kentonline.co.uk##.LeaderBack
@@ -69506,10 +69511,10 @@ yahoo.com##div[style*="/ads/"]
 yahoo.com##li[data-test-locator="stream-related-ad-item"]
 ! youtube
 youtube.com###shorts-inner-container > .ytd-shorts:has(> .ytd-reel-video-renderer > ytd-ad-slot-renderer)
-youtube.com##body > ytd-app > #content.ytd-app.style-scope > ytd-page-manager#page-manager.ytd-app.style-scope > ytd-browse.ytd-page-manager.style-scope > ytd-two-column-browse-results-renderer.grid-disabled.grid.ytd-browse.style-scope > #primary.ytd-two-column-browse-results-renderer.style-scope > ytd-rich-grid-renderer.ytd-two-column-browse-results-renderer.style-scop > #contents.ytd-rich-grid-renderer.style-scope > ytd-rich-grid-row.ytd-rich-grid-renderer.style-scope > #contents.ytd-rich-grid-row.style-scope > ytd-rich-item-renderer.ytd-rich-grid-row.style-scope > #content.ytd-rich-item-renderer.style-scope > ytd-ad-slot-renderer.ytd-rich-item-renderer.style-scope
-youtube.com##body > ytd-app > #content.ytd-app.style-scope > ytd-page-manager#page-manager.ytd-app.style-scope > ytd-browse.ytd-page-manager.style-scope > ytd-two-column-browse-results-renderer.grid-disabled.grid.ytd-browse.style-scope > #primary.ytd-two-column-browse-results-renderer.style-scope > ytd-rich-grid-renderer.ytd-two-column-browse-results-renderer.style-scop > #contents.ytd-rich-grid-renderer.style-scope > ytd-rich-grid-row.ytd-rich-grid-renderer.style-scope > #contents.ytd-rich-grid-row.style-scope > ytd-rich-item-renderer.ytd-rich-grid-row.style-scope:has(> #content.ytd-rich-item-renderer.style-scope > ytd-ad-slot-renderer.ytd-rich-item-renderer.style-scope)
-youtube.com##body > ytd-app > #content.ytd-app.style-scope > ytd-page-manager#page-manager.ytd-app.style-scope > ytd-browse.ytd-page-manager.style-scope > ytd-two-column-browse-results-renderer.grid-disabled.grid.ytd-browse.style-scope > #primary.ytd-two-column-browse-results-renderer.style-scope > ytd-rich-grid-renderer.ytd-two-column-browse-results-renderer.style-scop > #masthead-ad.ytd-rich-grid-renderer.style-scope > ytd-ad-slot-renderer.ytd-rich-grid-renderer.style-scope
-youtube.com##body > ytd-app > #content.ytd-app.style-scope > ytd-page-manager#page-manager.ytd-app.style-scope > ytd-browse.ytd-page-manager.style-scope > ytd-two-column-browse-results-renderer.grid-disabled.grid.ytd-browse.style-scope > #primary.ytd-two-column-browse-results-renderer.style-scope > ytd-rich-grid-renderer.ytd-two-column-browse-results-renderer.style-scop > #masthead-ad.ytd-rich-grid-renderer.style-scope > ytd-banner-promo-renderer.ytd-rich-grid-renderer.style-scope
+youtube.com##body > ytd-app > #content.ytd-app.style-scope > ytd-page-manager#page-manager.ytd-app.style-scope > ytd-browse.ytd-page-manager.style-scope > ytd-two-column-browse-results-renderer.grid-disabled.grid.ytd-browse.style-scope > #primary.ytd-two-column-browse-results-renderer.style-scope > ytd-rich-grid-renderer.ytd-two-column-browse-results-renderer.style-scope > #contents.ytd-rich-grid-renderer.style-scope > ytd-rich-grid-row.ytd-rich-grid-renderer.style-scope > #contents.ytd-rich-grid-row.style-scope > ytd-rich-item-renderer.ytd-rich-grid-row.style-scope > #content.ytd-rich-item-renderer.style-scope > ytd-ad-slot-renderer.ytd-rich-item-renderer.style-scope
+youtube.com##body > ytd-app > #content.ytd-app.style-scope > ytd-page-manager#page-manager.ytd-app.style-scope > ytd-browse.ytd-page-manager.style-scope > ytd-two-column-browse-results-renderer.grid-disabled.grid.ytd-browse.style-scope > #primary.ytd-two-column-browse-results-renderer.style-scope > ytd-rich-grid-renderer.ytd-two-column-browse-results-renderer.style-scope > #contents.ytd-rich-grid-renderer.style-scope > ytd-rich-grid-row.ytd-rich-grid-renderer.style-scope > #contents.ytd-rich-grid-row.style-scope > ytd-rich-item-renderer.ytd-rich-grid-row.style-scope:has(> #content.ytd-rich-item-renderer.style-scope > ytd-ad-slot-renderer.ytd-rich-item-renderer.style-scope)
+youtube.com##body > ytd-app > #content.ytd-app.style-scope > ytd-page-manager#page-manager.ytd-app.style-scope > ytd-browse.ytd-page-manager.style-scope > ytd-two-column-browse-results-renderer.grid-disabled.grid.ytd-browse.style-scope > #primary.ytd-two-column-browse-results-renderer.style-scope > ytd-rich-grid-renderer.ytd-two-column-browse-results-renderer.style-scope > #masthead-ad.ytd-rich-grid-renderer.style-scope > ytd-ad-slot-renderer.ytd-rich-grid-renderer.style-scope
+youtube.com##body > ytd-app > #content.ytd-app.style-scope > ytd-page-manager#page-manager.ytd-app.style-scope > ytd-browse.ytd-page-manager.style-scope > ytd-two-column-browse-results-renderer.grid-disabled.grid.ytd-browse.style-scope > #primary.ytd-two-column-browse-results-renderer.style-scope > ytd-rich-grid-renderer.ytd-two-column-browse-results-renderer.style-scope > #masthead-ad.ytd-rich-grid-renderer.style-scope > ytd-banner-promo-renderer.ytd-rich-grid-renderer.style-scope
 youtube.com##body > ytd-app > #content.ytd-app.style-scope > ytd-page-manager#page-manager.ytd-app.style-scope > ytd-search.ytd-page-manager.style-scope > #container.ytd-search.style-scope > ytd-two-column-search-results-renderer.ytd-search.style-scope > #primary.ytd-two-column-search-results-renderer.style-scope > ytd-section-list-renderer.ytd-two-column-search-results-renderer.style-scope > #contents.ytd-section-list-renderer.style-scope > ytd-item-section-renderer.ytd-section-list-renderer.style-scope > #contents.ytd-item-section-renderer.style-scope > ytd-ad-slot-renderer.ytd-item-section-renderer.style-scope
 youtube.com##body > ytd-app > #content.ytd-app.style-scope > ytd-page-manager#page-manager.ytd-app.style-scope > ytd-search.ytd-page-manager.style-scope > #container.ytd-search.style-scope > ytd-two-column-search-results-renderer.ytd-search.style-scope > #primary.ytd-two-column-search-results-renderer.style-scope > ytd-section-list-renderer.ytd-two-column-search-results-renderer.style-scope > #contents.ytd-section-list-renderer.style-scope > ytd-item-section-renderer.ytd-section-list-renderer.style-scope > #contents.ytd-item-section-renderer.style-scope > ytd-search-pyv-renderer.ytd-item-section-renderer.style-scope
 youtube.com##body > ytd-app > #content.ytd-app.style-scope > ytd-page-manager#page-manager.ytd-app.style-scope > ytd-watch-flexy.ytd-page-manager.style-scope > #columns.ytd-watch-flexy.style-scope > #primary.ytd-watch-flexy.style-scope > #primary-inner.ytd-watch-flexy.style-scope > #below.ytd-watch-flexy.style-scope > #related.ytd-watch-flexy.style-scope > #player-ads.ytd-watch-flexy.style-scope
