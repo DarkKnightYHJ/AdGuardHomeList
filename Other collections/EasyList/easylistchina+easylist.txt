@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: B0rUkef1eFcimSNgVOZ0Fw
-! Version: 202403160701
+! Checksum: NRZzUwZlY9fFsQ7prmPG7A
+! Version: 202403160801
 ! Title: EasyList China+EasyList
-! Last modified: 16 Mar 2024 07:01 UTC
+! Last modified: 16 Mar 2024 08:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -15529,7 +15529,8 @@ liaocao.tv,nicotv.me##[onclick]
 nfmovies.com##[onclick^="openurl()"]
 duonaolive.com##[onclick^="track"]
 iplaysoft.com##[style*="width:3"][style*="height:2"]
-netfly.fun,netfly.tv##[style^="display: flex; justify-content:"]
+netfly.fun,netfly.tv##.banner[href^="http"]
+netfly.fun,netfly.tv##[style^="display: flex;"]
 axutongxue.com,axutongxue.net##[style^="height:58px;"]
 fffdm.com##[style^="width"][style*="height"]
 kisssub.org##a > img[src*=".0o0.ooo/"]
