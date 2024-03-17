@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PPgJvyLTFuRMEOLUqLHY/g
+! Checksum: DVfApNHF7h9qvjNDKzFBBA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202403171400
-! Last Modified: 2024年03月17日 14:00
+! Version: 202403172000
+! Last Modified: 2024年03月17日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2195,6 +2195,9 @@ newduba.cn###jq_youxi
 ||pa4ye.cyou^
 ||lulgef.icu^
 ||fhtfnb.xyz^
+||drummers.cn^
+||zailgrae.com^
+||uljoifw.cn^
 ||zopuqv.icu^
 ||zsjpi.cn^
 ||zttuvj.xyz^
@@ -28975,6 +28978,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.bit.ly/*/clicks?$third-party
 ||api.blink.net/a/
 ||api.collarity.com/cws/*http
+||api.country.is^$third-party
 ||api.iris.tv/update
 ||api.wipmania.com^
 ||apibaza.com/pixel/
@@ -30574,6 +30578,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||spindl.link/events
 ||spiral.world/events/
 ||splunkcloud.com/services/collector/
+||spot.im/v1.0.0/conversation/realtime/read
 ||spotpass.com/api/log
 ||spread.ly^*/statistics.php
 ||spresso.com/pim/public/events
@@ -32559,6 +32564,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||b629.electronicdesign.com^
 ||ba-bamail.com/handlers/stats.ashx
 ||backcountry.com/api/log
+||backend.academy.cs.cmu.edu/api/v0/track/
 ||baidu.com/static/h.gif
 ||baidu.com^*/mwb2.gif?
 ||baidu.com^*/wb.gif?
@@ -32787,6 +32793,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dubz.live/analytics/
 ||duckduckgo.com/t/
 ||dumpster.cam4.com^
+||e.quizlet.com^
 ||e.used.ca/event
 ||e.zg-api.com/event$domain=zillow.com
 ||e2ma.net/track/
@@ -32802,6 +32809,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||eharmony.co.uk/bd/
 ||eighten-bloc-party.thebrowser.company/script.js
 ||ejlytics.editorji.com^
+||el.quizlet.com^
 ||elitesingles.com/cs/tp.png?
 ||embed.reddit.com/svc/shreddit
 ||engagefront.meteomedia.com^
