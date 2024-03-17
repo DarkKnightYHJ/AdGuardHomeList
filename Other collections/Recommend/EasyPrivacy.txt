@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: v/PF9EnmStP0TDwEuHGJhA
-! Version: 202403162301
+! Checksum: axiAnghAQQ+NxLoyX7TLcw
+! Version: 202403170051
 ! Title: EasyPrivacy
-! Last modified: 16 Mar 2024 23:01 UTC
+! Last modified: 17 Mar 2024 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -9770,6 +9770,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||urc.taboolasyndication.com^
 ||vidstat.taboola.com^
 ||wf.taboola.com^
+! Ad-Shield
+! https://github.com/uBlockOrigin/uAssets/issues/9717
+/^https:\/\/cdn\.jsdelivr\.net\/npm\/[-a-z_]{4,22}@latest\/dist\/script\.min\.js$/$script,third-party
 ! wix
 ||frog.wix.com/da-client?
 ||frog.wix.com/fed?
