@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: GmNekRsF0x6k5qogpDm6FA
-! Version: 202403181301
+! Checksum: HXP08kujz01DB9f4ptcMag
+! Version: 202403181401
 ! Title: ABP filters
-! Last modified: 18 Mar 2024 13:01 UTC
+! Last modified: 18 Mar 2024 14:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1109,6 +1109,7 @@ hotabis.com#$#override-property-read td_ad_background_click_link undefined
 ! Popup/Popunder/Clickunder
 komikcast.me#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
 beritabaru.news,solusi.cyou#$#override-property-read setTimeout noopFunc
+westmanga.fun#$#abort-on-property-read doOpen1 false; override-property-read puShown1 true; abort-current-inline-script document.cookie
 ! MISC
 komikdewasa.me#$#abort-on-property-write adsbyjuicy; override-property-read R undefined; hide-if-matches-xpath '//a[@target="_blank"]/img[contains(@class,"align")]/ancestor::div[starts-with(@class,"blox")]'; hide-if-matches-xpath '//a[@target="_blank"]/img[contains(@class,"align")]/ancestor-or-self::a[@href][1]'
 ! *** abp-filters-anti-cv:italian.txt ***
