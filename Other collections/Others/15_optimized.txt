@@ -1,10 +1,12 @@
-! Checksum: pVLDENYc89Rx30VM8afqjA
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1710743817-3600.patch
+! Checksum: Dw1DRrvHzpxcS1gzHku6Wg
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1710769184-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.63.13
-! TimeUpdated: 2024-03-18T06:32:35+00:00
+! Version: 2.0.63.14
+! TimeUpdated: 2024-03-18T13:35:03+00:00
 ! Expires: 5 days (update frequency)
+||aetgjds.com^
+||ndqkxjo.com^
 ||pekroace.net^
 ||vikaez.xyz^
 ||nodreewy.net^
@@ -39915,6 +39917,7 @@ vkcdnservice.appspot.com^
 ||deapi.afreecatv.com^
 ||startup.mobile.yandex.net^
 ||startup-mobile.ap.yandex-net.ru^
+||kiesta.net^
 ||cdn-ads.tmap.co.kr^
 ||downloadshi.b-cdn.net^
 ||ads.rmbl.ws^
@@ -40557,6 +40560,7 @@ vkcdnservice.appspot.com^
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||app.ardalio.com^
 ||events-ingestion.services.gorgias.com^
 ||accuratecoal.com^
 ||sdk-cdn.optimove.net^
@@ -43981,6 +43985,8 @@ vkcdnservice.appspot.com^
 ||affex.org^
 ||tagman.britishairways.com^
 |piwik.
+||analytics.3c5.com^
+||unidentifiedanalytics.web.app^
 ||t.poki.io^
 ||p.armorgames.net^
 ||analytics.crazygames.com^
@@ -57728,6 +57734,9 @@ inapps.appsflyersdk.com^
 ||onifdlak.top^
 ||nlhpxj.xyz^
 ||rghqrj.xyz^
+||nljrvdh.xyz^
+||savionl.com^
+||dorper.cn^
 ||zopuqv.icu^
 ||zsjpi.cn^
 ||zttuvj.xyz^
@@ -63519,6 +63528,7 @@ analytics-*.aasaam.com
 @@||go.adjust.com^|
 @@||clickattr.wayup.com^|
 @@||remembering.ca^|
+@@||obituaries.therecord.com^|
 @@||catchup.thisisdax.com^|
 @@||px.a8.net^|
 @@||app-cdn.minepi.com^|
