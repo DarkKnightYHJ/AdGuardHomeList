@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HGXb3/rt0yES9qM02lbZ3w
+! Checksum: 6XkarkceX+VULSsDw0lQBw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202403200200
-! Last Modified: 2024年03月20日 02:00
+! Version: 202403200800
+! Last Modified: 2024年03月20日 08:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1417,20 +1417,10 @@ tieba.baidu.com##.tuijian-wrap
 /nwm-fcn.min.js
 /nwm-pw2.min.js
 /nxst-advertising/dist/htlbid-advertising.min.js
-/oas-config.
-/oas_ad.
-/oas_ad_
-/oas_ads.
-/oascentral.$~object
-/oascentral/*
-/oasconfig/*
-/oiopub-direct/*$~stylesheet
-/oncc-ad.
-/openads.
+/oiopub-direct/js.php
+/oncc-ad.js
+/openads.js
 /openads/*
-/overlay-ad.
-/overlay_ad_
-/overlayads.
 /owa.MessageAdList.
 /p2/ads/*
 /p2ads/*
@@ -1454,7 +1444,6 @@ tieba.baidu.com##.tuijian-wrap
 /pagepeel.
 /pagepeel/*
 /pagepeelpro.js
-/parking_caf_
 /partner-ad-
 /Partner_Ad/*
 /partner_ads/*
@@ -1985,6 +1974,7 @@ tieba.baidu.com##.tuijian-wrap
 ://banners.$third-party
 ://news-*/process.js?id=$third-party
 ://news-*/v2-sw.js$third-party
+://oascentral.
 ://promo.$~media,third-party,domain=~myshopify.com|~promo.com|~shopifycloud.com|~slidely.com
 ://pt.*?psid=$third-party
 =half-page-ad&
@@ -64381,6 +64371,7 @@ allthetests.com,bom.gov.au,cadenaazul.com,lapoderosa.com###advertising
 offidocs.com###adxx
 thebugle.co.za###adz
 apkonline.net###adzz
+hindustantimes.com###affiliate-shop-now
 purplepainforums.com,snow-forecast.com###affiliates
 exportfromnigeria.info###affs
 slickdeals.net###afscontainer
@@ -139134,6 +139125,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||kameleoon.io/ip^$domain=welt.de
 @@||l.ecn-ldr.de/loader/loader.js$domain=braun-hamburg.com
 @@||online.mps-gba.de/praeludium/$script,domain=auto-motor-und-sport.de|caravaning.de|motorradonline.de
+@@||rackcdn.com/stf.js$script,domain=20min.ch
 @@||responder.wt-safetag.com/resp/api/get/$script,domain=myhermes.de
 @@||script-at.iocnt.net/iam.js$domain=oe24.at
 @@||showheroes.com/publishertag.js$domain=rollingstone.de
