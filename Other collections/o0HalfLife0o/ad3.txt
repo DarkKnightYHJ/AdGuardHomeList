@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lw87q684EtY3hHYFtWCmzA
+! Checksum: BYzx+HZrC/Llqo0GTfP42g
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202403200800
-! Last Modified: 2024年03月20日 08:00
+! Version: 202403201400
+! Last Modified: 2024年03月20日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2222,6 +2222,13 @@ newduba.cn###jq_youxi
 ||zjrtxt.xyz^
 ||znhlxvb.xyz^
 ||zojyob.icu^
+||sosakk.xyz^
+||mnifdlax.top^
+||urqwzbu.cn^
+||vflorp.xyz^
+||sdfsad562.xyz^
+||xedpzh.xyz^
+||qvnbjjd.xyz^
 ||zopuqv.icu^
 ||zsjpi.cn^
 ||zttuvj.xyz^
@@ -16865,6 +16872,7 @@ muve.org.tw#@#.sponsor-wrap
 zdface.com#@#.top-ad
 andylain.com,bee.coupons,blogspot.com,blogspot.hk,blogspot.jp,blogspot.tw,comic.tw,jasonblog.tw#@#.vertical-ads
 tangdoucdn.com#@#.video-ad
+che168.com#@#[data-adid]
 i-cable.com#@#.video_ad
 bitauto.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
@@ -29700,6 +29708,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||freehostedscripts.net^*.php?site=*&s=*&h=$third-party
 ||fresh.inlinkz.com^$third-party
 ||frog.editorx.com^
+||frontend-logger.flippback.com/api/logging
 ||fs-client-logger.herokuapp.com^
 ||ftimg.net/js/log.js?
 ||ftm.fluencyinc.co^
