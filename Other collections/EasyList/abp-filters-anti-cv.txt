@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: dLpBAo5ie6BUaKvgNteYRg
-! Version: 202403201401
+! Checksum: bNPZ+CTJeVSTFjlBLaotEQ
+! Version: 202403201501
 ! Title: ABP filters
-! Last modified: 20 Mar 2024 14:01 UTC
+! Last modified: 20 Mar 2024 15:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -524,7 +524,7 @@ noon.com#$#hide-if-matches-xpath './/span[text()="Sponsored"]/preceding::img[con
 noon.com##div[data-slotid*="hero_banner_"]
 ! #RM-68
 cars.com#$#hide-if-matches-xpath './/a[@data-linkname="inventory-ad-header"]/ancestor-or-self::div[contains(@class,"inventory-ad")]'
-cars.com#$#hide-if-matches-xpath './/span[@class="hero-cta-sponsored"][contains(text(),"Sponsored")]/preceding::img[@class="sponsored-hero-cta"]/ancestor::a[@aria-describedby][contains(@href,"adclick")]/ancestor-or-self::section[@id="primary-hero"]'
+cars.com#$#hide-if-matches-xpath './/span[@class="hero-cta-tag"][contains(text(),"Sponsored")]/preceding::img[@class="sponsored-hero-cta"]/ancestor::a[@aria-describedby][contains(@href,"adclick")]/ancestor-or-self::section[@id="primary-hero"]'
 ! CV-1935
 ##.jag8CityBio212023
 reddit.com##.jag8CityBio212023
