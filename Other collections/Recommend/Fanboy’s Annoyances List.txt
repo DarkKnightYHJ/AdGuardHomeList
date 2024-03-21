@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hMxcDT9eTwaaduO5QxUgfQ
-! Version: 202403211601
+! Checksum: CJBVHY9b5RPjG+pujbvmPA
+! Version: 202403211701
 ! Title: Fanboy's Annoyance List
-! Last modified: 21 Mar 2024 16:01 UTC
+! Last modified: 21 Mar 2024 17:01 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -49343,3 +49343,7 @@ axelspringer-syndication.de#@#body:not([style*="hidden"]) .cmpboxWelcomeGDPR
 ! FD-5395
 @@/houseads/*^$domain=11freunde.de
 11freunde.de#@#.house-ad
+! FD-5391
+@@||trmwidget.eu^$subdocument,document,domain=bz-berlin.de
+@@||trmwidget.eu^$domain=bz-berlin.de
+@@||transmatico.com^$domain=bz-berlin.de
