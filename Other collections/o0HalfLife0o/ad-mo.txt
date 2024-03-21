@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NXV65FGwHuByri6lN6SpvQ
+! Checksum: Oq1HOb49kREBMq8cJQKidA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202403211400
-! Last Modified: 2024年03月21日 14:00
+! Version: 202403212000
+! Last Modified: 2024年03月21日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -1446,6 +1446,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /punder.php
 /pup-a9-header-bidder/*
 /purch-ad-
+/push/p.js?u=$third-party
 /pushdownAd.
 /pustrck.js
 /radioAdEmbed.
@@ -25838,6 +25839,7 @@ browsershots.org#@#.advert_area
 ||coolingstiffenlegend.com^
 ||cooljony.com^
 ||coollyadmissibleclack.com^
+||cooloffer.cfd^
 ||coolpornvids.com^
 ||coolserving.com^
 ||coolstreamsearch.com^
@@ -30961,6 +30963,7 @@ browsershots.org#@#.advert_area
 ||funcats.info^
 ||functionfreaklacerate.com^
 ||functionsprecision.com^
+||fundatingquest.fun^
 ||fundingexceptingarraignment.com^
 ||fundsbe.com^
 ||fungianjaggier.digital^
@@ -56894,6 +56897,7 @@ browsershots.org#@#.advert_area
 ||convertmb.com^$popup
 ||coochhastier.top^$popup
 ||cooljony.com^$popup
+||cooloffer.cfd^$popup
 ||cooperativechuckledhunter.com^$popup
 ||cophypserous.com^$popup
 ||cor8ni3shwerex.com^$popup
@@ -66543,11 +66547,11 @@ imgur.com##.fast-grid-ad
 thepointsguy.com##.favorite-cards
 futbin.com##.fb-ad-placement
 triangletribune.com##.fba_links
+newspointapp.com##.fbgooogle-wrapper
 forbes.com##.fbs-ad--mobile-medianet-wrapper
 forbes.com##.fbs-ad--ntv-deskchannel-wrapper
 forbes.com##.fbs-ad--ntv-home-wrapper
 whatismyipaddress.com##.fbx-player-wrapper
-newspointapp.com##.fbgooogle-wrapper
 digminecraft.com##.fc2e5688
 businessinsider.in##.fc_clmb_ad_mrec
 filmdaily.co##.fd-article-sidebar-ad
@@ -67931,7 +67935,7 @@ kit.co##.sidekit-banner
 linuxtopia.org##.sidelinks > .sidelinks
 atlasobscura.com##.siderail-bottom-affix-placeholder
 thespike.gg##.siderail_ad_right
-rockradio.com##.sidewall-ad-component
+classicalradio.com,jazzradio.com,radiotunes.com,rockradio.com,zenradio.com##.sidewall-ad-component
 sifted.eu##.sifted_advert_block
 wncv.com##.simple-image
 nanoreview.net##.sinad_only_desktop
@@ -88567,6 +88571,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||9zvip.net^$elemhide
 @@||a.alimama.cn/tkapi$domain=ieeee.com
 @@||abchina.com^*ad
+@@||tvbanywherena.com^$generichide
 @@||aboluowang.com^$generichide
 @@||acgbenzi.com//dist/images/top.png
 @@||acgdraw.com/ad$xmlhttprequest
