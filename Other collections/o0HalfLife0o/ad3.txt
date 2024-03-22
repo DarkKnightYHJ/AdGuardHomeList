@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bJfFtm/YWNnlZfggCVdbhQ
+! Checksum: oH2X79apgZ2BXqNBIaTr0g
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202403220800
-! Last Modified: 2024年03月22日 08:00
+! Version: 202403221400
+! Last Modified: 2024年03月22日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -25044,6 +25044,7 @@ omni.soundestlink.com$image
 ||statisticplatform.com^
 ||statisticsplatform.com^
 ||stats.rip^
+||sturton-lation.com^
 ||summerhamster.com^
 ||superpointlesshamsters.com^
 ||t13.io^
@@ -33234,6 +33235,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||massivecams.com/api/metrics
 ||mat6tube.com/stats
 ||mcc-tags.cisco.com^
+||mcs-ie.tiktokw.eu^
 ||mcs-va.tiktokv.com^
 ||mcs.tiktokv.us^
 ||mcs.us.tiktokv.com^
@@ -33407,6 +33409,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||plushd.bio/cdn-cgi/trace
 ||pm.dailykos.com^
 ||pm.geniusmonkey.com^
+||pog.com^$ping
 ||poki.com/observer/
 ||politico.com/resource/assets/js.min/video-tracking.
 ||poptropica.com/brain/track.php?
@@ -33621,6 +33624,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||streamadblocker.com/stat/
 ||streamadblocker.store/stat/
 ||streamadblocker.xyz/stat/
+||streamate.com/api/metrics
 ||streamlabs.com/web/data/ping
 ||streamnoads.com/stat/
 ||streamstats.prd.dlive.tv^
@@ -69483,7 +69487,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||cleverpush.com/channel/$script,domain=bsdex.de|heise.de
 @@||cleverpush.com/sdk/$script,domain=heise.de
 @@||cloudflare.com/ajax/libs/fingerprintjs2/$domain=extracttable.com|fckrasnodar.ru|login.kroton.com.br
-@@||cloudflare.com/cdn-cgi/trace$domain=infyspringboard.onwingspan.com|myair.resmed.com
+@@||cloudflare.com/cdn-cgi/trace$domain=infyspringboard.onwingspan.com|injora.com|myair.resmed.com
 @@||cloudflareinsights.com/beacon.min.js$script,domain=app.uniswap.org
 @@||cloudfront.net/atrk.js$domain=luxuryrealestate.com
 @@||cloudinary.com/perimeterx/$image,domain=perimeterx.com
