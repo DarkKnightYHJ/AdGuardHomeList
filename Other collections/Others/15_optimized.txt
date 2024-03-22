@@ -1,9 +1,9 @@
-! Checksum: MqBk8D4vgECUEEz3Rcw6qg
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1711132598-3600.patch
+! Checksum: 1lUkvmOMbXDVwZ9DovTTXQ
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1711139792-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.63.31
-! TimeUpdated: 2024-03-22T18:32:07+00:00
+! Version: 2.0.63.32
+! TimeUpdated: 2024-03-22T20:32:01+00:00
 ! Expires: 5 days (update frequency)
 ||rbqlbolklrvmk.top^
 ||ajvkakodvgpe.com^
@@ -946,8 +946,13 @@
 ||d6swopgiplmy0.cloudfront.net^
 ||gjc.gjirafa.com^
 ||code.ainsyndication.com^
+||a.mabipa.com^
+||klik-slider.morgancode.com^
+||lupon.media^
+||redakcija.alo.rs^
 ||traffic.styria.hr^
 ||widget.admiral.hr^
+||widgets.jutarnji.hr^
 ||eph-adsjutarnji.cdn.sysbee.net^
 ||subs.vingd.com^
 !+ NOT_OPTIMIZED
@@ -40105,7 +40110,6 @@ vkcdnservice.appspot.com^
 ||ir-new-cdn-eu-west-*-hb.rayjump.com^
 ||leadc6.icu^
 ||pangolin16.sgsnssdk.com^
-||i18n-pglstatp.com^
 ||ads.adadapted.com^
 ||zflylg.buzz^
 ||zflfoy.xyz^
@@ -40938,7 +40942,7 @@ vkcdnservice.appspot.com^
 ||px*.mediahills.ru^
 ||sdk.conscent.in^
 ||tpstelemetry.tencent.com^
-||posthog.com^
+||app.posthog.com^
 ||crossees.com^
 ||plausiblecdn.co^
 ||humanz.com^
@@ -47331,6 +47335,7 @@ inapps.appsflyersdk.com^
 ||hpr.outbrain.com^
 ||hspbotdetection.azurewebsites.net^
 ||hydro-ma-proxy.akamaized.net^
+||i.posthog.com^
 ||icu.getstorybox.com^
 ||iddu1vvb7sk8-a.akamaihd.net^
 ||identification.hotmart.com^
