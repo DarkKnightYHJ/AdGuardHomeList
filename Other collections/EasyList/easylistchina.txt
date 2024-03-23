@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FWBSdSVUjZwKnP1wuHvnNQ
-! Version: 202403231101
+! Checksum: qhRrUvrxjlrQHqeT/zfJKA
+! Version: 202403231211
 ! Title: EasyList China
-! Last modified: 23 Mar 2024 11:01 UTC
+! Last modified: 23 Mar 2024 12:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -10864,6 +10864,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+yyets.click#?#.MuiBadge-root:-abp-has(>a[href*="/maomao.cloud/"])
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
@@ -16798,6 +16799,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||friday.tw/backend/uploadpic/adindex/
 @@||fscinda.com/ad/$~third-party
 @@||g.alicdn.com/??*/criteo
+@@||doubleclick.net^$xmlhttprequest,domain=yyets.click
 @@||g.alicdn.com^*/banner_ad_
 @@||g.doubleclick.net/gampad/adx?$xmlhttprequest,domain=v.ifeng.com
 @@||game735.com^$generichide
