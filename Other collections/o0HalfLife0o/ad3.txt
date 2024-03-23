@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: heERgh3peTCeEBS5o1XkCQ
+! Checksum: INZv7pz0H8Bxc2OIbpymoQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202403230200
-! Last Modified: 2024年03月23日 02:00
+! Version: 202403230801
+! Last Modified: 2024年03月23日 08:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1805,6 +1805,7 @@ newduba.cn###jq_youxi
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##span[title="neteasefooter"]
 ##style + .a-loading
+##A[target="_blank"][href^="https://js."][href$=".com/download/4122_0.html"]
 ##style + .need_grid_img
 ##style + .vdgdo
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
@@ -2253,6 +2254,14 @@ newduba.cn###jq_youxi
 ||zjrtxt.xyz^
 ||znhlxvb.xyz^
 ||zojyob.icu^
+||0lmv9e.cn^
+||ityusio.top^
+||xizanzhi.com^
+||hitchun.com^
+||lwrohd.xyz^
+||clmkwi.xyz^
+||fpvdrzx.xyz^
+||hbxzlf.xyz^
 ||zopuqv.icu^
 ||zsjpi.cn^
 ||zttuvj.xyz^
@@ -29128,6 +29137,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||barium.cheezdev.com^
 ||basis.net/assets/up.js
 ||bat.bing.com^
+||baxter.olx.org^
 ||bazaarvoice.com/sid.gif
 ||bb.itwc.ca/js/cube.js
 ||bc.geocities.
@@ -32791,6 +32801,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cwt.citywire.info^
 ||d.skk.moe^
 ||d401.dollartree.com^
+||dabu.askmediagroup.com^
 ||dailymail.co.uk/geo/
 ||dailymail.co.uk/rta2/
 ||dailymotion.com/logger/
@@ -69186,6 +69197,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||sapo.*/clk?u=
 ||sapo.pt/Projects/sapoabd/
 ||sinonimos.com.br/hits.php
+||standvirtual.com^$ping
 ||tags.globo.com^
 ||tm.jsuol.com.br^
 ||tm.uol.com.br^
@@ -69759,7 +69771,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 !! collect.igodigital.com/collect.js
 @@||collect.igodigital.com/collect.js$domain=berkley-fishing.com|enoteca.co.jp|goodwillfinds.com|samash.com|viajeguanabara.com.br|vitalsource.com|wilsonparking.com.au
 !! browser.sentry-cdn.com
-@@||browser.sentry-cdn.com^$domain=acustica-audio.com|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|menshealth.com|podcasty.seznam.cz|roomster.com|shop.dns-net.de|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
+@@||browser.sentry-cdn.com^$domain=acustica-audio.com|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|menshealth.com|ocado.com|podcasty.seznam.cz|roomster.com|shop.dns-net.de|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
 !! ||assets.adobedtm.com/extensions/*/AppMeasurement.min.js
 @@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$domain=tatamotors.com
 !! adobedtm.com^*/satelliteLib-
