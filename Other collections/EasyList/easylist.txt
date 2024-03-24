@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202403241001
+! Version: 202403241054
 ! Title: EasyList
-! Last modified: 24 Mar 2024 10:01 UTC
+! Last modified: 24 Mar 2024 10:54 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -87,6 +87,7 @@
 .com/ad/$~image,third-party,domain=~mediaplex.com|~warpwire.com|~wsj.com
 .com/ads?
 .com/adv/$domain=~adv.asahi.com|~advantabankcorp.com|~alltransistors.com|~archiproducts.com|~tritondigital.com
+.com/api/posts?token=$third-party
 .com/sc/*?n=$script,third-party
 .com/ss/ad/
 .com/watch.*.js?key=
@@ -1005,8 +1006,6 @@
 /peel_ads/*
 /peelad/*
 /peelads/*
-/peeltl.js
-/peeltr.js
 /pfe/current/*
 /php/ad/*
 /phpads/*

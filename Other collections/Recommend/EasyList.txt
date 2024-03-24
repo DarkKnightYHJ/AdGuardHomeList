@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6N5gkE6dNo5223ZboJexMA
-! Version: 202403241001
+! Checksum: Vv4vyCuIv2sSiVbr7d4OYg
+! Version: 202403241101
 ! Title: EasyList
-! Last modified: 24 Mar 2024 10:01 UTC
+! Last modified: 24 Mar 2024 11:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -84,6 +84,7 @@
 .com/ad/$~image,third-party,domain=~mediaplex.com|~warpwire.com|~wsj.com
 .com/ads?
 .com/adv/$domain=~adv.asahi.com|~advantabankcorp.com|~alltransistors.com|~archiproducts.com|~tritondigital.com
+.com/api/posts?token=$third-party
 .com/sc/*?n=$script,third-party
 .com/ss/ad/
 .com/watch.*.js?key=
@@ -1002,8 +1003,6 @@
 /peel_ads/*
 /peelad/*
 /peelads/*
-/peeltl.js
-/peeltr.js
 /pfe/current/*
 /php/ad/*
 /phpads/*
