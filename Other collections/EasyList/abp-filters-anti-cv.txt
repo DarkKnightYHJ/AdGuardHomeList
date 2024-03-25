@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: H2k4+Wi0dtis0eWU8vc8dw
-! Version: 202403251501
+! Checksum: E8HS7zC5eD+DcbTe2KHJ2A
+! Version: 202403251601
 ! Title: ABP filters
-! Last modified: 25 Mar 2024 15:01 UTC
+! Last modified: 25 Mar 2024 16:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -791,7 +791,7 @@ instacart.ca,instacart.com#$#race start; hide-if-contains-visible-text /./ div '
 ! fi
 instacart.ca,instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::div[@id="Featured Items"]'
 ! pfy
-instacart.ca,instacart.com#$#hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' 'div#item_details>div>div' 'div#item_details>div>div div>h2~div'
+instacart.ca,instacart.com#$#race start; hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' 'div#item_details>div>div' 'div#item_details>div>div div>h2~div'; hide-if-has-and-matches-style 'img[alt="Sponsored"]' 'div#item_details>div>div' 'div#item_details>div>div div>h2~div'; race stop;
 instacart.com,instacart.ca#$#abort-on-property-write window.ADBLOCK_DETECTED
 ! #RM-3
 lowes.com#$#hide-if-matches-xpath './/div[@class][contains(text(),"Sponsored")]/ancestor::div[@class="carousel-inner-container "]/preceding::h2[@class][@role][contains(text(),"Sponsored")]/ancestor-or-self::div[contains(@class,"recommended")][1]'
