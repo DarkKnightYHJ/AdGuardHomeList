@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202403261459
+! Version: 202403261608
 ! Title: EasyList
-! Last modified: 26 Mar 2024 14:59 UTC
+! Last modified: 26 Mar 2024 16:08 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -18020,6 +18020,7 @@ wiki.fextralife.com#@#.ad-sidebar
 wegotads.co.za#@#.ad-source
 isewanferry.co.jp,jreu-h.jp,junkmail.co.za,nexco-hoken.co.jp,version2.dk#@#.ad-text
 job.inshokuten.com#@#.ad-title
+videosalon.jp#@#.ad-widget
 lifeinvader.com,marginalreport.net,spanishdict.com,studentski-servis.com#@#.ad-wrapper
 xda-developers.com#@#.ad-zone
 xda-developers.com#@#.ad-zone-container
@@ -18100,6 +18101,7 @@ adquick.com,buyout.pro,news.com.au,zlinked.com#@#.advertiser
 anobii.com#@#.advertisment
 grist.org,ing.dk,version2.dk#@#.advertorial
 stjornartidindi.is#@#.adverttext
+videosalon.jp#@#.adwidget
 staircase.pl#@#.adwords
 consumerist.com#@#.after-post-ad
 click2houston.com,clickondetroit.com,clickorlando.com,ksat.com,news4jax.com,wsls.com#@#.anyClipWrapper
@@ -19932,6 +19934,7 @@ browsershots.org#@#.advert_area
 ||adtrue.com^
 ||adtrue.info^
 ||adtrue24.com^
+||adtscriptduck.com^
 ||adtvedk.com^
 ||adulatorycrappyghastly.com^
 ||aduld.click^
@@ -63767,7 +63770,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ! bit.ly
 /^https?:\/\/.*bit(ly)?\.(com|ly)\//$domain=1337x.to|cryptobriefing.com|eztv.io|eztv.tf|eztv.yt|fmovies.taxi|fmovies.world|limetorrents.info|megaup.net|mrunlock.kim|newser.com|sendit.cloud|torlock.com|uiz.io|userscloud.com|vev.red|vidbull.tv|vidup.io|yourbittorrent2.com
 ! Torrent/Pirate sites /sw.js
-/^https?:\/\/.*\/.*(sw[0-9a-z._-]{1,6}|\.notify\.).*/$script,domain=1337x.to|cashurl.in|clicknupload.click|cloudvideo.tv|downloadpirate.com|fmovies.taxi|fmovies.world|hurawatch.at|igg-games.com|indishare.org|linksly.co|megaup.net|mixdrop.ag|mp3-convert.org|nutritioninsight.com|ouo.press|pcgamestorrents.com|pcgamestorrents.org|powvideo.net|powvldeo.cc|primewire.sc|proxyer.org|sendit.cloud|sendspace.com|shrinke.me|shrinkhere.xyz|solarmovie.to|theproxy.ws|uiz.io|up-load.io|upload.ac|uploadever.com|uploadrar.com|uploadrive.com|uplovd.com|upstream.to|userscloud.com|vidbull.tv|vidoza.co|vidoza.net|vidup.io|vumoo.life|xtits.com|yourbittorrent2.com|ziperto.com
+/^https?:\/\/.*\/.*(sw[0-9a-z._-]{1,6}|\.notify\.).*/$script,domain=1337x.to|cashurl.in|clickndownload.click|clicknupload.click|cloudvideo.tv|downloadpirate.com|fmovies.taxi|fmovies.world|hurawatch.at|igg-games.com|indishare.org|linksly.co|megaup.net|mixdrop.ag|mp3-convert.org|nutritioninsight.com|ouo.press|pcgamestorrents.com|pcgamestorrents.org|powvideo.net|powvldeo.cc|primewire.sc|proxyer.org|sendit.cloud|sendspace.com|shrinke.me|shrinkhere.xyz|solarmovie.to|theproxy.ws|uiz.io|up-load.io|upload.ac|uploadever.com|uploadrar.com|uploadrive.com|uplovd.com|upstream.to|userscloud.com|vidbull.tv|vidoza.co|vidoza.net|vidup.io|vumoo.life|xtits.com|yourbittorrent2.com|ziperto.com
 /^https?:\/\/.*\/sw\.js\?[a-zA-Z0-9%]{50,}/$script,~third-party
 ! sw.js
 /sw.js$script,domain=filechan.org|hotfile.io|lolabits.se|megaupload.nz|openload.cc|rapidshare.nu|share-online.is
@@ -65234,7 +65237,7 @@ defenseworld.net###mb-bar
 koreaherald.com###mbpAd022303
 active.com###med_rec_bottom
 active.com###med_rec_top
-wakingtimes.com###media_image-2
+wakingtimes.com,ymcinema.com###media_image-2
 airfactsjournal.com,apkmb.com,wbap.com###media_image-3
 palestinechronicle.com###media_image-4
 mostlyblogging.com###media_image-5
@@ -71548,6 +71551,7 @@ twiman.net##div[class*="my-"][class*="px\]"]
 redgifs.com##div[class^="AdTabs_"]
 redgifs.com##div[class^="AdUnit_"]
 camsoda.com##div[class^="AdsRight-"]
+ovacovid.com##div[class^="Banner-"]
 hentaicovid.com##div[class^="banner-"]
 xporno.tv##div[class^="block_ads_"]
 hpjav.top##div[class^="happy-"]
