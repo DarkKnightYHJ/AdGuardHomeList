@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: NKhdWmXp4fGG/ji4mBWj9A
-! Version: 202403271401
+! Checksum: tpATriHtvgeerO2Ykha73g
+! Version: 202403271500
 ! Title: ABP filters
-! Last modified: 27 Mar 2024 14:01 UTC
+! Last modified: 27 Mar 2024 15:00 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -765,6 +765,15 @@ www.youtube.com#$#skip-video '.video-stream' './/ytd-player/div[@id]//div[contai
 music.youtube.com,youtubekids.com#$#json-prune '0.playerResponse.adPlacements 0.playerResponse.playerAds 1.playerResponse.adPlacements 1.playerResponse.playerAds 2.playerResponse.adPlacements 2.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds ytInitialPlayerResponse.adPlacements ytInitialPlayerResponse.playerAds adPlacements playerAds'
 music.youtube.com,youtubekids.com#$#override-property-read playerResponse.adPlacements undefined;
 music.youtube.com,youtubekids.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
+! Fallback
+youtube.com##div #main-container.style-scope.ytd-promoted-video-renderer
+youtube.com##.ytd-video-masthead-ad-v3-renderer
+youtube.com##.ytd-banner-promo-renderer
+youtube.com##div #root.style-scope.ytd-display-ad-renderer.yt-simple-endpoint
+youtube.com##div #sparkles-container.style-scope.ytd-promoted-sparkles-web-renderer
+youtube.com##div #player-ads.style-scope.ytd-watch-flexy, div#panels.style-scope.ytd-watch-flexy
+youtube.com##.ytd-in-feed-ad-layout-renderer
+! yt/tv
 www.youtube.com##ytlr-ad-skip-or-preview
 www.youtube.com##.ytlr-watch-default__ad-badge-for-tvae
 www.youtube.com##ytlr-banner-cta-renderer
