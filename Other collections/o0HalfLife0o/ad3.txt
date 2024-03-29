@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dkAgnZ2huC6k7dPwD+/c3Q
+! Checksum: pxGtIysSkRjNXdRufaHOYA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202403291400
-! Last Modified: 2024年03月29日 14:00
+! Version: 202403292000
+! Last Modified: 2024年03月29日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2323,6 +2323,8 @@ newduba.cn###jq_youxi
 ||88lm08.com^
 ||6slb0.cyou^
 ||beyers.cn^
+||iykig.cn^
+||kdeh.cn^
 ||zailgrae.com^
 ||zeqvqb.icu^
 ||zfzys.top^
@@ -21597,7 +21599,7 @@ m.babytree.com##script + a[class]
 /?log=experiment&
 /?log=performance-
 /?record&key=
-/?sentry_key=
+/?sentry_key=$domain=~mail.163.com
 /?sentry_version=
 /?swift-performance-tracking
 /_/api/v2/analytics/?
@@ -23047,7 +23049,6 @@ m.babytree.com##script + a[class]
 /opinionlab.js
 /optiextension.dll?$script
 /optimizelyjs/*
-/ossleads_analytics.js
 /ot_e404.gif?
 /OtAutoBlock.js
 /ouibounce.min.js
@@ -24852,7 +24853,7 @@ omni.soundestlink.com$image
 ||trkn.us^
 ||tru.am^
 ||truffle.bid^
-||trx-hub.com^
+||trx-hub.com^$image
 ||tryzens-analytics.com^
 ||turboeagle.co^
 ||turbolion.io^
