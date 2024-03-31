@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GPF0w6L6M+x19yWo124Plg
+! Checksum: SwxJ7x1TWYT7IuXk7Xrqzg
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202403310200
-! Last Modified: 2024年03月31日 02:00
+! Version: 202403310801
+! Last Modified: 2024年03月31日 08:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1831,7 +1831,6 @@ newduba.cn###jq_youxi
 ##a[href*=".mbrnf.com/"]
 ##a[href*=".mjjji.com/"]
 ##a[href*=".mp388.com/"]
-##a[href*=".sailing.ink"]
 ##a[href*=".xwrfr.com/"]
 ##a[href*=".yezere.com/"]
 ##a[href*="/dsf71.cc"]
@@ -2349,6 +2348,10 @@ newduba.cn###jq_youxi
 ||znhlxvb.xyz^
 ||zojyob.icu^
 ||zopuqv.icu^
+||3q1lsj.cn^
+||cdmgac.xyz^
+||ryhkft.xyz^
+||hvxrvef.xyz^
 ||zsjpi.cn^
 ||zttuvj.xyz^
 ||ztxjutz.xyz^
@@ -2411,7 +2414,6 @@ newduba.cn###jq_youxi
 ##a[href*="/mug749.vip"]
 ##a[href*="/mx456.cc"]
 ##a[href*="/nb66nb.cc"]
-##a[href*="/shop119340084.taobao.com"]
 ##a[href*="/sm003r.tv"]
 ##a[href*="/sm033v.tv"]
 ##a[href*="/st66st.cc"]
@@ -11101,6 +11103,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+touchgal.org##a[href*=".sailing.ink"]
+touchgal.org##a[href*=".taobao.com"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
@@ -20199,7 +20203,7 @@ _box_ad_
 ||tencent.com/developer/api/common/getOneAds
 ||10086.cn/together/s?func=together:getAdvertInfos&
 !------------------------Specific element hiding rules------------------------!
-baidu.com##.bd-aside-ad
+bilibili.com##.extension-tips
 77mh.nl###bdtopbot
 77mh.nl###bdbottop
 youdao.com##.banner
@@ -20266,8 +20270,6 @@ alibabacloud.com##.hmod-alicloud-contact-sales-support
 autohome.com.cn##.activity-coin-layer
 php.cn##.wwads-cn
 thwiki.cc##.on-right > .swiper-container
-waipian5.com##.shortcuts-mobile-overlay
-waipian5.com##.popup
 autohome.com.cn##.activity-app-layer
 autohome.com.cn##DIV[id^="popautoapp"]
 shengxinwang.net###floatDivBoxs
@@ -21275,6 +21277,7 @@ m.babytree.com##script + a[class]
 @@||fm.ipinyou.$domain=ipinyou.com.cn
 @@||fm.p0y.cn^$domain=ipinyou.com.cn
 !--------------------------------Tracking Systems-----------------------------!
+||tongjiniao.com^$third-party
 .com/js/o.js$domain=qdmm.com|qdwenxue.com|qidian.com
 ||3158.cn^*_analyser.
 /analytics.js$domain=qunar.com
