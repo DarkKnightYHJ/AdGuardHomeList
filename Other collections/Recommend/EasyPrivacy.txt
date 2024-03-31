@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: BL+MTpwOylbDjyTP3RP8Sw
-! Version: 202403310901
+! Checksum: KBz0QUfQ87p6BjQMr2CnRA
+! Version: 202403311000
 ! Title: EasyPrivacy
-! Last modified: 31 Mar 2024 09:01 UTC
+! Last modified: 31 Mar 2024 10:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5300,8 +5300,8 @@ omni.soundestlink.com$image
 ||sexcounter.com^$third-party
 ||sexystat.com^$third-party
 ||sf14g.com^$third-party
-||shareasale.com^$third-party
 ||shareasale-analytics.com^$third-party
+||shareasale.com^$third-party
 ||sharpspring.com^$third-party
 ||shinystat.com^$third-party
 ||shippinginsights.com^$third-party
@@ -47011,6 +47011,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||easeus.com/default/js/aff_buy_tracking.js
 ||ecranlarge.com/stat
 ||email.nautiljon.com/oo/$image
+||europe1.fr/assets/europe1/estat.
 ||events-logs.doctolib.com^
 ||flow.kiloutou.fr^
 ||fourchette-et-bikini.fr/core/modules/statistics/
@@ -48571,6 +48572,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||baidu.com/api/bidder/$domain=jump2.bdimg.com
 @@||gtimg.com/qqcdn/*/beacon.min.js$script,domain=qq.com
 @@||hk.on.cc/js/v4/urchin.js
+@@||ipqualityscore.com/api/$script,domain=carousell.com.hk
 @@||iwrite.unipus.cn/js/main/GPT.js$~third-party
 @@||mail.163.com/fetrack/api/27/envelope/?sentry_key=$xmlhttprequest
 @@||marketing.unionpayintl.com/offer-promote/static/sensorsdata.min.js$script,~third-party
