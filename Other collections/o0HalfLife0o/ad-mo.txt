@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: p37UemyYBEX/pTOkfPuKvQ
+! Checksum: nUtf1wwSgkzsv41fT4FX2g
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202403311400
-! Last Modified: 2024年03月31日 14:00
+! Version: 202403312000
+! Last Modified: 2024年03月31日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -563,7 +563,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adasset/*$~script
 /adasync.
 /adbanner2.
-/adbanners/*
+/adbanners/*$image
 /adbottom.
 /adbox.
 /adcall?
@@ -596,7 +596,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adhelper.js
 /adiframe|*|adtech;
 /adimage.
-/adimage/*
 /adimages.
 /adj.php?
 /adjs.php
@@ -842,7 +841,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /advscript.js
 /advtBanner.
 /adwidget_
-/adwidgets/*
 /adx2.
 /adx_exo_
 /adz/js/*
@@ -884,7 +882,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /api.ad.
 /api.ads.$domain=~ads.instacart.com|~www.ads.com
 /Api/Ad.
-/api/ads/*
 /api/ads?
 /api/v1/ad/*
 /apopwin.js
@@ -64174,6 +64171,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||blsnet.com/plugins/advertising/getad/
 ||blue.ktla.com^
 ||bontent.powzers.lol^
+||bookforum.com/api/ads/
 ||booking.com/flexiproduct.html?product=banner$domain=happywayfarer.com
 ||bordeaux.futurecdn.net^
 ||borneobulletin.com.bn/wp-content/banners/
@@ -64634,6 +64632,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||tpc.googlesyndication.com^
 ||tracking.police1.com^
 ||traditionalmusic.co.uk/images/banners/
+||trahkino.cc/static/js/li.js
 ||triangletribune.com/cache/sql/fba/
 ||truck1.eu/_BANNERS_/
 ||trucknetuk.com/phpBB2old/sponsors/
@@ -65090,6 +65089,8 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|adblockeronstape.me|adblocker
 ||buondua.com/templatesygfo76jp36enw15_/
 ||cam-video.xxx/js/popup.min.js
 ||camcaps.ac/33a9020b46.php
+||camcaps.io/024569284e.php
+||camcaps.to/400514f2db.php
 ||camclips.cc/api/$image,script
 ||camclips.cc/ymGsBPvLBH
 ||cams.imagetwist.com/in/?track=$subdocument
@@ -70015,6 +70016,7 @@ nationalfile.com##.wpb_wrapper > p
 coralspringstalk.com##.wpbdp-listings-widget-list
 sashares.co.za##.wppopups-whole
 theregister.com##.wptl
+warezload.net##.wrapper > center > center > [href]
 memeburn.com,ventureburn.com##.wrapper--grey
 hotnewhiphop.com##.wrapper-Desktop_Header
 paultan.org##.wrapper-footer
@@ -70054,6 +70056,7 @@ bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com
 bellinghamherald.com##.zone-el
 cnn.com##.zone__ads
 haxnode.net##[action^="//href.li/?"]
+hubcloud.day##[alt="New-Banner"]
 exchangerates.org.uk##[alt="banner"]
 gab.com##[aria-label*="Sponsored:"]
 thepointsguy.com##[aria-label="Advertisement"]
@@ -70182,6 +70185,7 @@ audiobookbay.is##[href="/ddeaatr"]
 mywaifulist.moe##[href="/nord"]
 whatsmyreferer.com##[href="http://fakereferer.com"]
 whatsmyreferer.com##[href="http://fakethereferer.com"]
+warezload.net##[href="http://muzikk.org/"]
 toumpano.net##[href="http://roz-tilefona.xbomb.net/"]
 warfarehistorynetwork.com##[href="http://www.bktravel.com/"]
 daijiworld.com##[href="http://www.expertclasses.org/"]
@@ -72374,6 +72378,7 @@ faptor.com##.zpot-horizontal-img
 fapnado.xxx##.zpot-vertical
 jizzbunker2.com,xxxdan.com,xxxdan3.com##.zx1p
 tnaflix.com##.zzMeBploz
+redgifs.com##[class^="_advertLiveButton_"]
 porn300.com,pornodiamant.xxx##[class^="abcnn_"]
 beeg.porn##[class^="bb_show_"]
 setdartwatches.com##[class^="boxzilla-"]
@@ -75393,6 +75398,8 @@ newduba.cn###jq_youxi
 ||pmtrkp.icu^
 ||hptyp.icu^
 ||pressit.cn^
+##a[href*="/ihezu.fans"]
+||4wu3gf.cn^
 ||zsjpi.cn^
 ||zttuvj.xyz^
 ||ztxjutz.xyz^
@@ -85683,7 +85690,6 @@ gamer.com.tw##.a-mercy-d:not([href*=".gamer."])
 159i.com##.a2d
 159i.com##.a3d
 159i.com##.a4d
-cupfox.app,cupfox2.com##.a5-box[class^="jsx-"]
 thinkphp.cn##.a6
 chacuo.net##.a96090
 speedtest.cn##.aP-box
@@ -88071,7 +88077,7 @@ speedtest.cn##.summer_logo
 zol.com.cn##.supervalue
 qingdaonews.com##.surround
 baidu.com##.swan-ad-fc-feed
-cupfox.app,cupfox2.com,hcomic.net##.swiper
+cupfox.love,hcomic.net##.swiper
 instrument.com.cn,tool.lu##.swiper-container
 toolfk.com##.swiper-container-horizontal
 1kkk.com,dm5.com##.swiper-container[style*="760px;"]
@@ -89147,7 +89153,7 @@ yahoo.com##div[id^="ads-"]
 cbmland.com##div[id^="ads_"]
 actoys.net,hualongxiang.com##div[id^="ads_d_"]
 eyuyan.com##div[id^="ads_r_"]
-gamersky.com##div[id^="adscontainer_"]
+gamersky.com##div[id^="adscontainer_b"]
 v.baidu.com##div[id^="adv_asp_"]
 ali213.net##div[id^="ali-ad-js-"]
 jdbbs.com##div[id^="archy_ad"]
@@ -97507,6 +97513,7 @@ omni.soundestlink.com$image
 ||sexcounter.com^$third-party
 ||sexystat.com^$third-party
 ||sf14g.com^$third-party
+||shareasale-analytics.com^$third-party
 ||shareasale.com^$third-party
 ||sharpspring.com^$third-party
 ||shinystat.com^$third-party
@@ -103148,7 +103155,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||b629.electronicdesign.com^
 ||ba-bamail.com/handlers/stats.ashx
 ||backcountry.com/api/log
-||backend.academy.cs.cmu.edu/api/v0/track/
+||backend.academy.cs.cmu.edu/api/v0/event/
 ||baidu.com/static/h.gif
 ||baidu.com^*/mwb2.gif?
 ||baidu.com^*/wb.gif?
@@ -103622,6 +103629,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||imagefap.com/images/yes.gif?
 ||imagetwistcams.com/pixel/
 ||imdb.com/api/_ajax/metrics/
+||imf.org/Assets/IMF/js/SocialScript.js
 ||imgur.com/albumview.gif?
 ||imgur.com/imageview.gif?
 ||indeed.com/cmp/_rpc/flog
@@ -138913,6 +138921,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||bmly.impots.gouv.fr^
 ||boingtv.fr/track_view
 ||cdtm.cdiscount.com^
+||centerblog.net/a/in
 ||cesu.urssaf.fr/clm10
 ||clubic.com/tview
 ||compteur.developpez.com^
@@ -138925,6 +138934,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||easeus.com/default/js/aff_buy_tracking.js
 ||ecranlarge.com/stat
 ||email.nautiljon.com/oo/$image
+||europe1.fr/assets/europe1/estat.
 ||events-logs.doctolib.com^
 ||flow.kiloutou.fr^
 ||fourchette-et-bikini.fr/core/modules/statistics/
@@ -138962,6 +138972,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||marmiton.org/reloaded/errpix.php
 ||medoucine.com/tracking/
 ||neko-san.fr/stats
+||ocular.dealabs.com^
 ||ouest-france.fr/v1/javascripts/*-googletag-
 ||ouest-france.fr/v1/javascripts/*-prebid-
 ||p.pagesjaunes.fr^
@@ -140425,6 +140436,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||baidu.com/api/bidder/$domain=jump2.bdimg.com
 @@||gtimg.com/qqcdn/*/beacon.min.js$script,domain=qq.com
 @@||hk.on.cc/js/v4/urchin.js
+@@||ipqualityscore.com/api/$script,domain=carousell.com.hk
 @@||iwrite.unipus.cn/js/main/GPT.js$~third-party
 @@||mail.163.com/fetrack/api/27/envelope/?sentry_key=$xmlhttprequest
 @@||marketing.unionpayintl.com/offer-promote/static/sensorsdata.min.js$script,~third-party
