@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KhJZmYX4nNaiJFfaKk1kig
+! Checksum: BZUXZdbCL5YiwzTNqo1WHA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202404011400
-! Last Modified: 2024年04月01日 14:00
+! Version: 202404012000
+! Last Modified: 2024年04月01日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -13794,7 +13794,6 @@ _800x80_
 ##.half-page-ad
 ##.half-page-ad-1
 ##.half-page-ad-2
-##.half-page-advert-outer-wrapper
 ##.halfPageAd
 ##.half_ad_box
 ##.halfpage_ad
@@ -14081,7 +14080,6 @@ _800x80_
 ##.horizontal-ad2
 ##.horizontal-ads
 ##.horizontal-advert-container
-##.horizontal-advert-inner-wrapper
 ##.horizontal-full-ad
 ##.horizontal.ad
 ##.horizontalAd
@@ -14965,6 +14963,7 @@ _800x80_
 ##.mosaicAd
 ##.motherboard-ad
 ##.movable-ad
+##.movv-ad
 ##.mp-ad
 ##.mpsponsor
 ##.mpu-ad
@@ -15619,10 +15618,7 @@ _800x80_
 ##.rectadv
 ##.rectangle-ad
 ##.rectangle-ad-container
-##.rectangle-ad-slot-container
-##.rectangle-ad-slot-wrapper
 ##.rectangle-embed-ad
-##.rectangle-widget-td-ad
 ##.rectangleAd
 ##.rectangleAdContainer
 ##.rectangle_ad
@@ -15652,7 +15648,6 @@ _800x80_
 ##.region-top-ad-block
 ##.region-widget-ad-top-0
 ##.regular-ads
-##.regular-advert-outer-wrapper
 ##.regular_728_ad
 ##.regularad
 ##.rekl-left
@@ -16283,7 +16278,6 @@ _800x80_
 ##.sm-ad
 ##.sm-admgnr-unit
 ##.sm-ads
-##.sm-ads__billboard
 ##.sm-advertisement
 ##.sm-widget-ad-holder
 ##.sm_ad
@@ -75353,6 +75347,7 @@ newduba.cn###jq_youxi
 ||fmssoj.icu^
 ||mpn56e.cn^
 ||polepole.cn^
+||jyuwkba.top^
 ||zsjpi.cn^
 ||zttuvj.xyz^
 ||ztxjutz.xyz^
@@ -91629,6 +91624,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=bhshu.net|louzho
 @@||dushu.ru^$script,domain=bhshu.net
 @@||zhaiyd5.com^$script,domain=louzhong8.com|miwens.com
 bamxs.com##body > a
+bamxs.com###inglestore
 bookrb.com##a[href="/rmtj.html"]
 booktxts.com##div[style*="position:"]
 bxwx888.org###addiv3
