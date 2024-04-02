@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6nhouX7dbCSrYAUUKAoL0w
+! Checksum: zUMA0LRit6rPAFBRL5tS9w
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202404020800
-! Last Modified: 2024年04月02日 08:00
+! Version: 202404021400
+! Last Modified: 2024年04月02日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -71559,6 +71559,7 @@ wetpussygames.com###under728
 fakings.com###undervideo
 kisscos.net###v-overlay
 homemoviestube.com###v_right
+xvideos.com###video-right
 xvideos.com###video-sponsor-links
 drtuber.com###video_list_banner
 hentaiplay.net###video_overlays
@@ -73071,6 +73072,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||suntory.co.jp/beer/kinmugi/img/ad/$image,~third-party
 @@||tdn.da-services.ch/libs/prebid8.$script,domain=20min.ch
 @@||tenki.jp/storage/static-images/top-ad/
+@@||tpc.googlesyndication.com/archive/simgad/$image,domain=adstransparency.google.com
 @@||tpc.googlesyndication.com/pagead/js/$domain=googleads.g.doubleclick.net
 @@||tra.scds.pmdstatic.net/advertising-core/$domain=voici.fr
 @@||trj.valuecommerce.com/vcushion.js
@@ -75354,6 +75356,8 @@ newduba.cn###jq_youxi
 ||xgjidt.xyz^
 ||jwhdgt.icu^
 ||npjvgug.xyz^
+||szmyl.cn^
+||osusjsga.com^
 ||zsjpi.cn^
 ||zttuvj.xyz^
 ||ztxjutz.xyz^
@@ -90863,7 +90867,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||b1.xiao84.com^
 ||b17.8794.cn^
 ||b7sw62.pingshu8.xyz^
-||bai.luyouwang.com^
+||192.luyouwang.com^
 ||baidu1.cardbaobao.com^
 ||baidu1.codejie.net^
 ||baidujs.cnys.com^
@@ -140050,6 +140054,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||indeed.com/rpc/log/myjobs/$~third-party
 @@||ipapi.co/json/$xmlhttprequest,domain=168.dailymaverick.co.za|audius.co
 @@||ipinfo.io/?token=$domain=assurancemortgage.com|webtv.ert.gr
+@@||ipinfo.io/json$domain=queye.co
 @@||ipv4.seeip.org/jsonip$domain=empire-streaming.app
 @@||join.southerncross.co.nz/quote/_assets/js/sx/app/helpers/gtm.js
 @@||js-agent.newrelic.com^$domain=alliantcreditunion.com|giftcards.com|kapwing.com
