@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: n7mDcjTHBbdK0+ONFVJSQw
-! Version: 202404031401
+! Checksum: qZSQDkiK0dJdENYXnfDCuQ
+! Version: 202404031501
 ! Title: ABP filters
-! Last modified: 03 Apr 2024 14:01 UTC
+! Last modified: 03 Apr 2024 15:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -523,7 +523,7 @@ tripadvisor.com#$#hide-if-matches-xpath './/span[@class="listItem"]//div[@data-a
 tripadvisor.com#$#hide-if-matches-xpath './/div[@id="typeahead_results"]//div[contains(text(),"Sponsored")]/ancestor::a[@href]'
 tripadvisor.com#$#hide-if-matches-xpath './/span[contains(text(),"Sponsored")]/ancestor::a[@target="_blank"]/ancestor::li[@class]'
 ! #RM-85
-doordash.com#$#hide-if-matches-xpath '//*[@id="store_feed"]/div[3]/div[1]/div/div//following::span[contains(.,"Sponsored") or contains(.,"Commandité") or contains(.,"Patrocinado")]/ancestor::div[string-length(@class) >= 62][1]'
+doordash.com#$#hide-if-matches-xpath '//a[contains(@data-anchor-id,"store-info")]//following::span[contains(.,"Sponsored") or contains(.,"Commandité") or contains(.,"Patrocinado")]/ancestor::div[string-length(@class) >= 62][1]'
 ! #RM-78
 noon.com#$#hide-if-matches-xpath './/span[@color][contains(text(),"Sponsored")]/ancestor-or-self::div[@class="componentArea-0"]'
 noon.com#$#hide-if-matches-xpath './/div[@class][contains(text(),"Sponsored")]/ancestor::a[@href][@id]/ancestor-or-self::div[@class="componentArea-0"]'
@@ -778,12 +778,9 @@ music.youtube.com,youtubekids.com#$#override-property-read playerResponse.adPlac
 music.youtube.com,youtubekids.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
 ! Fallback
 youtube.com##div #main-container.style-scope.ytd-promoted-video-renderer
-youtube.com##.ytd-video-masthead-ad-v3-renderer
-youtube.com##.ytd-banner-promo-renderer
 youtube.com##div #root.style-scope.ytd-display-ad-renderer.yt-simple-endpoint
 youtube.com##div #sparkles-container.style-scope.ytd-promoted-sparkles-web-renderer
 youtube.com##div #player-ads.style-scope.ytd-watch-flexy
-youtube.com##.ytd-in-feed-ad-layout-renderer
 ! yt/tv
 www.youtube.com##ytlr-ad-skip-or-preview
 www.youtube.com##.ytlr-watch-default__ad-badge-for-tvae
