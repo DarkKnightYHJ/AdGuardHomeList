@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ATFIjFLFdkjuNFTKu1p1iQ
-! Version: 202404031601
+! Checksum: 1oL5Xq+cTlHMihIRHL4TYQ
+! Version: 202404031701
 ! Title: EasyList China+EasyList
-! Last modified: 03 Apr 2024 16:01 UTC
+! Last modified: 03 Apr 2024 17:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1797,6 +1797,7 @@ newduba.cn###jq_youxi
 ||ddielv.cn^
 ||delhirs.com^
 ||destinyssa.com^
+||dianassb.com^
 ||diccsbhij.com^
 ||difhil.icu^
 ||difmnd.xyz^
@@ -1851,6 +1852,7 @@ newduba.cn###jq_youxi
 ||fmssoj.icu^
 ||fpjjjh.xyz^
 ||fpvdrzx.xyz^
+||fqbjzj.xyz^
 ||frtnqps358.shop^
 ||frtnqpw837.shop^
 ||fvpboxu.xyz^
@@ -1914,6 +1916,7 @@ newduba.cn###jq_youxi
 ||jgblvt.xyz^
 ||jgmywh.icu^
 ||jioed.cyou^
+||jnalzla.top^
 ||jnifdlaa.top^
 ||jozbun.icu^
 ||jqbddp.xyz^
@@ -1938,6 +1941,7 @@ newduba.cn###jq_youxi
 ||ktoioo.xyz^
 ||ktvjpmi.xyz^
 ||ktyusid.top^
+||kwqnki.xyz^
 ||kzepp.com^
 ||l5kt1.icu^
 ||lafirx.xyz^
@@ -1950,6 +1954,7 @@ newduba.cn###jq_youxi
 ||lfffzv.xyz^
 ||lfhdryz.xyz^
 ||lgtpdt.xyz^
+||liebaovip.com^
 ||lkpxzt.xyz^
 ||llksja.com^
 ||lmxiqf.icu^
@@ -1975,6 +1980,7 @@ newduba.cn###jq_youxi
 ||mthhhuq.cn^
 ||mtwmuy.xyz^
 ||mxeq.cn^
+||nawpyd.icu^
 ||nddld.cn^
 ||ndthdte125.shop^
 ||ndthdtr586.shop^
@@ -2052,6 +2058,7 @@ newduba.cn###jq_youxi
 ||qzozsa.xyz^
 ||rarcff.xyz^
 ||rarmkce.cn^
+||rawmtft.cn^
 ||rbhunp.xyz^
 ||rcyzsh.icu^
 ||rfnvqpo.xyz^
@@ -2095,6 +2102,7 @@ newduba.cn###jq_youxi
 ||svncowt.cn^
 ||swsegi.xyz^
 ||szbhb.cn^
+||szmhk.cn^
 ||szmnd.cn^
 ||szmnf.cn^
 ||szmnk.cn^
@@ -2219,19 +2227,11 @@ newduba.cn###jq_youxi
 ||zfzys.top^
 ||zhaweifeng.com^
 ||zhihucloud.xyz^
+||zhnnaxe.xyz^
 ||zjrtxt.xyz^
 ||znhlxvb.xyz^
 ||zojyob.icu^
 ||zopuqv.icu^
-||jnalzla.top^
-||kwqnki.xyz^
-||rawmtft.cn^
-||nawpyd.icu^
-||fqbjzj.xyz^
-||zhnnaxe.xyz^
-||liebaovip.com^
-||szmhk.cn^
-||dianassb.com^
 ||zsjpi.cn^
 ||zttuvj.xyz^
 ||ztxjutz.xyz^
@@ -17309,17 +17309,17 @@ guailie.com#@#.google-ad
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
 ||17ce.com^*_$image
 !#18comic.org
+/exads-adblock-$image
 18-comic.work,18comic.org,18comic.vip,jmcomic.me###guide-modal
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.div_sticky2
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.modal-backdrop
-/exads-adblock-$image
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > [style*="back"]
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img + [style]
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+script)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+style)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>script+ins)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > [style*="back"]
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img + [style]
 ||18-comic.work/media/albums/*?$media
 ||18comic.*/media/albums/*?$media
 !#2
@@ -84818,7 +84818,7 @@ cadenaazul.com,lapoderosa.com###hcAdd
 castanet.net###hdad
 inventorspot.com,mothering.com,wordfind.com###header
 khelnow.com###header-adwords-section
-aeroexpo.online,agriexpo.online,directindustry.com,fonearena.com,frontlinesoffreedom.com,stakingrewards.com,winemag.com###header-banner
+aeroexpo.online,agriexpo.online,directindustry.com,droidgamers.com,fonearena.com,frontlinesoffreedom.com,stakingrewards.com,winemag.com###header-banner
 dominicantoday.com###header-banners
 bestvpnserver.com,techitout.co.za###header-content
 govevents.com###header-display
@@ -87198,7 +87198,7 @@ monochrome-watches.com##.interscroll
 allnurses.com##.ipsAreaBackground
 1tamilmv.click##.ipsCarousel
 uk420.com##.ipsLayout_container > div[align="center"]
-allnurses.com##.ipsSpacer_both
+allnurses.com,dcfcfans.uk##.ipsSpacer_both
 1tamilmv.tax##.ipsWidget:has([href*="RajbetImage"])
 1tamilblasters.com##.ipsWidget_inner.ipsPad.ipsType_richText > p > a
 alibaba.com##.is-creative
@@ -89870,6 +89870,7 @@ ibtimes.sg##.featured_video
 redboing.com##.fw-ad
 thestar.co.uk##.gOoqzH
 electricianforum.co.uk##.gb-sponsored
+arboristsite.com##.gb-sponsored-wrapper
 givemesport.com##.gms-videos-container
 anandtech.com##.jwplayer
 gamesradar.com,livescience.com,tomshardware.com,whathifi.com##.jwplayer__widthsetter
