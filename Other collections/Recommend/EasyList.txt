@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WMTunvI9V03oW3t5QdtX2A
-! Version: 202404031211
+! Checksum: sGnEzOvEg7fWC+dv/RPj2w
+! Version: 202404031301
 ! Title: EasyList
-! Last modified: 03 Apr 2024 12:11 UTC
+! Last modified: 03 Apr 2024 13:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -17811,6 +17811,7 @@ spjai.com#@##related_ads
 eva.vn#@##right_ads
 39.benesse.ne.jp,techeyesonline.com#@##side-ad
 lexicanum.com#@##sidebar-ad
+mars.video#@##stickyads
 jansatta.com#@##taboola-below-article-1
 azclick.jp,tubefilter.com#@##topAd
 soundandvision.com,stereophile.com#@##topbannerad
@@ -17964,6 +17965,7 @@ naver.com#@#.head_ad
 infosecurity-magazine.com#@#.header-ad-row
 mobiili.fi#@#.header_ad
 iedrc.org#@#.home-ad
+tpc.googlesyndication.com#@#.img_ad
 thelincolnite.co.uk#@#.inline-ad
 elektro.info.pl,mashingup.jp#@#.is-sponsored
 vukajlija.com#@#.large-advert
@@ -72831,7 +72833,8 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||suntory.co.jp/beer/kinmugi/img/ad/$image,~third-party
 @@||tdn.da-services.ch/libs/prebid8.$script,domain=20min.ch
 @@||tenki.jp/storage/static-images/top-ad/
-@@||tpc.googlesyndication.com/archive/simgad/$image,domain=adstransparency.google.com
+@@||tpc.googlesyndication.com/archive/$image,subdocument,xmlhttprequest,domain=adstransparency.google.com
+@@||tpc.googlesyndication.com/archive/sadbundle/$image,domain=tpc.googlesyndication.com
 @@||tpc.googlesyndication.com/pagead/js/$domain=googleads.g.doubleclick.net
 @@||tra.scds.pmdstatic.net/advertising-core/$domain=voici.fr
 @@||trj.valuecommerce.com/vcushion.js
