@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cLlr6WE9HrDtG/1F3SgMxw
+! Checksum: JLD4UcaE5SBvevcwnul2dQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202404032000
-! Last Modified: 2024年04月03日 20:00
+! Version: 202404040200
+! Last Modified: 2024年04月04日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1949,6 +1949,7 @@ newduba.cn###jq_youxi
 ||ddielv.cn^
 ||delhirs.com^
 ||destinyssa.com^
+||dianassb.com^
 ||diccsbhij.com^
 ||difhil.icu^
 ||difmnd.xyz^
@@ -2003,6 +2004,7 @@ newduba.cn###jq_youxi
 ||fmssoj.icu^
 ||fpjjjh.xyz^
 ||fpvdrzx.xyz^
+||fqbjzj.xyz^
 ||frtnqps358.shop^
 ||frtnqpw837.shop^
 ||fvpboxu.xyz^
@@ -2066,6 +2068,7 @@ newduba.cn###jq_youxi
 ||jgblvt.xyz^
 ||jgmywh.icu^
 ||jioed.cyou^
+||jnalzla.top^
 ||jnifdlaa.top^
 ||jozbun.icu^
 ||jqbddp.xyz^
@@ -2090,6 +2093,7 @@ newduba.cn###jq_youxi
 ||ktoioo.xyz^
 ||ktvjpmi.xyz^
 ||ktyusid.top^
+||kwqnki.xyz^
 ||kzepp.com^
 ||l5kt1.icu^
 ||lafirx.xyz^
@@ -2102,6 +2106,7 @@ newduba.cn###jq_youxi
 ||lfffzv.xyz^
 ||lfhdryz.xyz^
 ||lgtpdt.xyz^
+||liebaovip.com^
 ||lkpxzt.xyz^
 ||llksja.com^
 ||lmxiqf.icu^
@@ -2127,6 +2132,7 @@ newduba.cn###jq_youxi
 ||mthhhuq.cn^
 ||mtwmuy.xyz^
 ||mxeq.cn^
+||nawpyd.icu^
 ||nddld.cn^
 ||ndthdte125.shop^
 ||ndthdtr586.shop^
@@ -2204,6 +2210,7 @@ newduba.cn###jq_youxi
 ||qzozsa.xyz^
 ||rarcff.xyz^
 ||rarmkce.cn^
+||rawmtft.cn^
 ||rbhunp.xyz^
 ||rcyzsh.icu^
 ||rfnvqpo.xyz^
@@ -2247,6 +2254,7 @@ newduba.cn###jq_youxi
 ||svncowt.cn^
 ||swsegi.xyz^
 ||szbhb.cn^
+||szmhk.cn^
 ||szmnd.cn^
 ||szmnf.cn^
 ||szmnk.cn^
@@ -2371,18 +2379,11 @@ newduba.cn###jq_youxi
 ||zfzys.top^
 ||zhaweifeng.com^
 ||zhihucloud.xyz^
+||zhnnaxe.xyz^
 ||zjrtxt.xyz^
 ||znhlxvb.xyz^
 ||zojyob.icu^
 ||zopuqv.icu^
-||jnalzla.top^
-||kwqnki.xyz^
-||rawmtft.cn^
-||nawpyd.icu^
-||fqbjzj.xyz^
-||zhnnaxe.xyz^
-||liebaovip.com^
-||szmhk.cn^
 ||zsjpi.cn^
 ||zttuvj.xyz^
 ||ztxjutz.xyz^
@@ -17458,17 +17459,17 @@ guailie.com#@#.google-ad
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
 ||17ce.com^*_$image
 !#18comic.org
+/exads-adblock-$image
 18-comic.work,18comic.org,18comic.vip,jmcomic.me###guide-modal
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.div_sticky2
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.modal-backdrop
-/exads-adblock-$image
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > [style*="back"]
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img + [style]
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+script)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+style)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>script+ins)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > [style*="back"]
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img + [style]
 ||18-comic.work/media/albums/*?$media
 ||18comic.*/media/albums/*?$media
 !#2
@@ -31912,6 +31913,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||counter2.blog.livedoor.com^
 ||crossees.com^
 ||cs.nakanohito.jp^
+||cv-tracker.stanby.com^
 ||delivery.satr.jp/event/
 ||docomo.ne.jp/scripts/retargeting/retargeting.js
 ||e-nls.com/disp_cnt.php
@@ -33499,6 +33501,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||strtpe.link/stat/
 ||stubhub.com/a/icph
 ||suaurl.com/adblock/js/smarttag.js
+||svc.eu01.miro.com^
 ||swarm.video/stats/
 ||szrpr.raen.com^
 ||t.9gag.com^
@@ -33641,6 +33644,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.unrealengine.com^
 ||trackr.vivenu.com^
 ||tradingview.com/ping
+||trcksplt.miro.com^
 ||treatment.grammarly.com^
 ||tredir.go.com^
 ||tripadvisor.*/BALinkImpressionTracking/
@@ -68353,6 +68357,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||591.com.tw/stats/
 ||9game.cn/stat/
 ||a.itsmore.cn^
+||ac.dun.163.com^
+||ac.dun.163yun.com^
 ||accwww9.53kf.com^
 ||adstats.tencentmusic.com^
 ||al.autohome.com.cn^
@@ -68379,6 +68385,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||clewm.net/public/cli_analytics.js$domain=cli.im
 ||click.gamersky.com^
 ||clickcount.cnool.net^
+||clientlog.music.163.com^
 ||count.candou.com^
 ||count5.pconline.com.cn^
 ||counter.people.cn^
@@ -68399,6 +68406,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||fclog.baidu.com^
 ||flog.pressplay.cc^
 ||forum.zuvio.com.tw/api/article/finish
+||fp-upload.dun.163.com^
 ||frog.yuanfudao.com^
 ||ftwo-feedback.autohome.com.cn^
 ||ftwo-receiver.autohome.com.cn^
@@ -68449,6 +68457,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||msg.qy.net^
 ||msgsndr.com/funnel/event
 ||mtrace.qq.com^
+||music.163.com/device/signature/create/deviceid.js
 ||music.163.com/weapi/feedback/weblog
 ||music.163.com/weapi/pl/count
 ||netstat.yunnan.cn^
@@ -68496,6 +68505,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||s.pixfs.net/js/pixlogger.min.js
 ||s.pixfs.net/visitor.pixplug.in/
 ||sbeacon.sina.com.cn^
+||sentry.music.163.com^
 ||sfp.safe.baidu.com^
 ||shopee.tw/__t__
 ||shopee.tw/v2/shpsec/web/report
