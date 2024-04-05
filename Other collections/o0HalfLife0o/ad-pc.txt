@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: alC4RBuU5Yr/VLuSn86XAg
+! Checksum: dCt8sCwgRQ6/vivfkiaHxQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202404051400
-! Last Modified: 2024年04月05日 14:00
+! Version: 202404052000
+! Last Modified: 2024年04月05日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -57989,7 +57989,6 @@ browsershots.org#@#.advert_area
 ||biserka.xyz^$popup
 ||bit-system.org^$popup
 ||bitadexchange.com^$popup
-||bits.avcdn.net^$popup
 ||bitsspiral.com^$popup
 ||bitterstrawberry.com^$popup
 ||biturl.co^$popup
@@ -65536,7 +65535,7 @@ dailydot.com###DD_Desktop_HP_Content3
 tweaktown.com###DesktopTop
 newser.com###DivStoryAdContainer
 stripes.com###FeatureAd
-howlongagogo.com,neatorama.com###FreeStarVideoAdContainer
+esports.gg,howlongagogo.com,neatorama.com###FreeStarVideoAdContainer
 titantv.com###GridPlayer
 appatic.com,gamescensor.com###HTML2
 fanlesstech.com###HTML2 > .widget-content
@@ -68068,6 +68067,8 @@ freepresskashmir.news##.fpkdonate
 theiphoneappreview.com##.frame
 freedomfirstnetwork.com##.freed-1
 looperman.com##.freestar
+esports.gg##.freestar-esports_between_articles
+esports.gg##.freestar-esports_leaderboard_atf
 upworthy.com##.freestar-in-content
 moviemistakes.com##.freestarad
 sciencenews.org##.from-nature-index__wrapper___2E2Z9
@@ -69166,6 +69167,7 @@ engadget.com##.related-content-lazyload
 idropnews.com##.related-posts
 ranker.com##.relatedInline_container__Ux4lS
 timesofindia.indiatimes.com##.relatedVideoWrapper
+esports.gg##.relative.esports-inarticle
 astrozop.com##.relative.z-5
 miragenews.com##.rem-i-s
 4shared.com##.remove-rekl
@@ -69818,6 +69820,7 @@ letterboxd.com##.upgrade-kicker
 upworthy.com##.upworthy_infinite_scroll_ad
 upworthy.com##.upworthy_infinte_scroll_outer_wrap
 vervetimes.com##.uyj-before-header
+surinenglish.com##.v-adv
 militarywatchmagazine.com##.v-card--link
 militarywatchmagazine.com##.v-size--x-small.theme--light
 tetris.com##.vAxContainer-L
@@ -75421,6 +75424,8 @@ newduba.cn###jq_youxi
 ||hnartcqab847.live^
 ||gfjn5.xyz^
 ||szpzm.cn^
+||dsjhcgvhjsvc.com^
+||2qy9zm.cn^
 ||zsjpi.cn^
 ||zttuvj.xyz^
 ||ztxjutz.xyz^
@@ -142517,8 +142522,14 @@ cad.youku.com
 iqiyi.com##.black-screen[data-cupid=adblock-blackscreen], .qy-plist-ad
 iqiyi.com##.cupid-panel + div, div[data-adzone],#block-V
 !iqiyi.com##+js(set, Object.prototype.parseXML, noopFunc)
-!iqiyi.com##+js(set, Object.prototype.blackscreenDuration, 1)
+iqiyi.com##+js(set, Object.prototype.blackscreenDuration, 1)
 iqiyi.com##+js(set, QiyiPlayerProphetData.a.data, {})
+t7z.cupid.iqiyi.com
+||mesh.if.iqiyi.com/player/pcw/update/commonAppDownloadData^$xhr
+||static.iqiyi.com/js/common/mars_v.js^$script
+||video.iqiyi.com/ws$websocket
+||www.iqiyi.com/service-worker.js
+||127.0.0.1^$script,domain=iqiyi.com
 !||iqiyi.com/videos/other/202$xmlhttprequest
 !||71edge.com/videos/other/202$xmlhttprequest
 ||iqiyipic.com/image/20*_100000$image
