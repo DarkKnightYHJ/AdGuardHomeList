@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: T7lXMHLT0gRQnKuKeblKFQ
-! Version: 202404060801
+! Checksum: JqzRBoo880VuGJbGlyIQ5A
+! Version: 202404060901
 ! Title: EasyList China+EasyList
-! Last modified: 06 Apr 2024 08:01 UTC
+! Last modified: 06 Apr 2024 09:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -19217,12 +19217,26 @@ fqsousou.com,kengso.com#@#.user-share
 .clkads.
 .club/js/popunder.js
 .cn/sc/*?n=$script,third-party
+.com/*=bT1zdXY1JnI9
 .com/a?pagetype
 .com/ad/$~image,third-party,domain=~mediaplex.com|~warpwire.com|~wsj.com
 .com/ads?
 .com/adv/$domain=~adv.asahi.com|~advantabankcorp.com|~alltransistors.com|~archiproducts.com|~tritondigital.com
 .com/api/posts?token=$third-party
 .com/sc/*?n=$script,third-party
+.com/script/a.js
+.com/script/asset.js
+.com/script/cdn.js
+.com/script/compatibility.js
+.com/script/document.js
+.com/script/file.js$third-party
+.com/script/foundation.js
+.com/script/frustration.js
+.com/script/image.js
+.com/script/mui.js
+.com/script/script.js$third-party
+.com/script/utils.js$third-party
+.com/script/xbox.js
 .com/ss/ad/
 .com/watch.*.js?key=
 .cz/adv/
@@ -19246,6 +19260,7 @@ fqsousou.com,kengso.com#@#.user-share
 .org/ad/$domain=~ylilauta.org
 .org/ads/
 .org/pops.js
+.org/script/compatibility.js
 .ph/ads/
 .php/ad/
 .php/ads/
@@ -19392,9 +19407,7 @@ fqsousou.com,kengso.com#@#.user-share
 /adchoiceslogo.
 /adcommon?
 /adconfig.
-/adconfigproxy.
 /adcount.$domain=~adcount.com|~adcount.fi
-/adcounter.
 /adcreative.$domain=~adcreative.es|~adcreative.nl|~hange.jp
 /addons/ads.
 /addons/ads/*
@@ -20138,8 +20151,6 @@ fqsousou.com,kengso.com#@#.user-share
 /plugins/wp-advertising/*
 /plugins/wp-moreads/*$~stylesheet
 /plugins/wp125/*$~stylesheet
-/plugins/wp_actionpop/*
-/plugins_ads_
 /poll-ad-
 /pop-under.
 /pop_8_2.js
@@ -20234,10 +20245,19 @@ fqsousou.com,kengso.com#@#.user-share
 /sbar.json?key=
 /sc-tagmanager/*
 /script/aclib.js
+/script/antd.js
 /script/app_settings.js$third-party
+/script/atg.js
+/script/atga.js
+/script/intrf.js
+/script/ippg.js
 /script/java.php?$xmlhttprequest
 /script/naN.js
+/script/native_render.js
+/script/native_server.js
+/script/npa2.min.js
 /script/nwsu.js
+/script/suv4r.js
 /script/wait.php?*=$xmlhttprequest
 /scripts/afc/*
 /scripts/chatur.js
@@ -20481,7 +20501,6 @@ fqsousou.com,kengso.com#@#.user-share
 ://promo.$~media,third-party,domain=~myshopify.com|~promo.com|~shopifycloud.com|~slidely.com
 ://pt.*?psid=$third-party
 ://uads.$third-party,xmlhttprequest
-=bT1zdXY1JnI9$third-party,xmlhttprequest
 =half-page-ad&
 ?ab=1&zoneid=
 ?adspot_
@@ -20502,8 +20521,6 @@ _ad_bottom.
 _ad_box.
 _ad_choices.
 _ad_footer.
-_ad_footer_
-_ad_head.
 _ad_header.
 _ad_image_
 _ad_layer_
