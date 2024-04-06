@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: p3FMte2qOrgJRNGkr6x2Zg
-! Version: 202404062001
+! Checksum: RYOnD+esl4C6euNllzhM4Q
+! Version: 202404062101
 ! Title: Fanboy's Annoyance List
-! Last modified: 06 Apr 2024 20:01 UTC
+! Last modified: 06 Apr 2024 21:01 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -2190,12 +2190,15 @@ _twitter_follow.
 ###taboola-below-article-thumbnails
 ###taboola-below-article-thumbnails-2
 ###taboola-below-disco-board
+###taboola-below-homepage-thumbnails-2
+###taboola-below-homepage-thumbnails-3
 ###taboola-below-main-column
 ###taboola-belowarticle
 ###taboola-bottom
 ###taboola-bottom-main-column
 ###taboola-div
 ###taboola-homepage-thumbnails
+###taboola-homepage-thumbnails-desktop
 ###taboola-horizontal-toolbar
 ###taboola-in-feed-thumbnails
 ###taboola-mid-main-column-thumbnails
@@ -2213,6 +2216,7 @@ _twitter_follow.
 ##.divider-taboola
 ##.js-taboola
 ##.m-article-taboola
+##.slottaboola
 ##.taboola
 ##.taboola-banner
 ##.taboola-bottom-adunit
@@ -34064,6 +34068,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||sendtonews.com/player/sidebar.php?$third-party
 ! *** easylist:fanboy-addon/fanboy_notifications_thirdparty.txt ***
 ! fanboy_notifications_thirdparty.txt
+! ||staq-cdn.com/grow/$third-party
 ||api-push.com^$third-party
 ||bildirnet.com^$third-party
 ||braze.com^$third-party
@@ -34092,6 +34097,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||notification-time.com^$third-party
 ||notification.tubecup.net^
 ||notifications.ltd^$third-party
+||notifstation.com^$third-party
 ||notix.io^$third-party
 ||ntvsw.com^$third-party
 ||partishion.com^$third-party
@@ -34161,7 +34167,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ||signaly.co^$third-party
 ||snrcdn.net^$third-party
 ||spacepush.ru^$third-party
-! ||staq-cdn.com/grow/$third-party
 ||system-notify.app^$third-party
 ||topswp.com^$third-party
 ||unative.com^$third-party
@@ -34751,6 +34756,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||rule34.xxx/images/shirt2.jpg
 ||sabcnews.com^*-iabsa-
 ||sp-marketing-assets.s3.us-west-2.amazonaws.com^$domain=heraldnet.com
+||t.ly/js/sweetalert.min.js
 ||wikimedia.org/w/index.php?title=Special:BannerLoader
 ! ---------- Scroll To Top Buttons ----------
 ||breedingmoms.com/js/top.js
@@ -41886,7 +41892,7 @@ jeffs.com,scandinaviansoul.com##.rstboxes
 hangseng.com##.rwd-header-cookie-section
 pdl.co.nz##.s-notification
 sanitas.com##.sanitas-cookie-alert-container
-rk.com##.sc-1ldgmug-0.cKplIS
+bangbros.com,rk.com##.sc-1ldgmug-0.cKplIS
 radio-canada.ca##.sc-1qvf4hb-0
 northflank.com##.sc-3f37244c-0.jMKrJw
 smiteproleague.com##.sc-EHOje
@@ -43237,11 +43243,14 @@ stol.it##div[class^="UpScroll_"]
 ||avis-verifies.com^$third-party
 ||boosterblog.com/ban/$third-party
 ||carrefour.fr/footer-sticky-banner?
+||francetvinfo.fr/assets/common/twig/templates/app-install-banner/
+||francetvinfo.fr/assets/components/shared/alert-info/alert-info-
 ||manga-sanctuary.com/include/ajax/popup_actu.php
 ||onaregarde-pourvous.com/api/$third-party
 ||out.be/widgets/$third-party
 ||sibforms.com^$domain=logiciels.pro
 ||societe-des-avis-garantis.fr/wp-content/*/widgets/$third-party
+||static.lpnt.fr/static/js/*/taboola2023.js
 ||tout-sur-le-web.com^$third-party
 !
 ! ---------- French Site Specific Hiding Rules ----------
@@ -43956,6 +43965,7 @@ homap.fr##.share_content_button
 rtl.fr##.shared-logo
 boursedirect.fr##.slide-share
 phonandroid.com##.social-networks
+francetvinfo.fr##.social-zone__wrapper
 pix-geeks.com##.social_icons
 planetebd.com##.social_network
 20minutes.fr##.socialbar
@@ -44794,6 +44804,7 @@ pfister.ch##[class^="style__NewsletterPopupComponent"]
 jeuxvideo-live.com###Newsletters
 lamanchelibre.fr###articleFormNL
 comment-economiser.fr###bloc_newsletter_bas
+lalanguefrancaise.com###bottom_navbar
 fourchette-et-bikini.fr###newsletter-container + #legal-terms
 comment-economiser.fr###newsletter_box
 pcastuces.com###newsletter_descri
@@ -44808,6 +44819,7 @@ auto-moto.com##.bloc-netitmail
 paruvendu.fr##.bp14_recevoirannonces
 lesmobiles.com##.c-homepage__newsletter-block
 casting.fr##.casting-card-subscribe-newsletter
+francetvinfo.fr##.content-banner-nl
 justgeek.fr##.cs-entry__subscribe
 doctissimo.fr##.doc-newsletter-banner-wrapper
 pcastuces.com##.inscriptionmail
@@ -44824,6 +44836,7 @@ mayottehebdo.com##.spu-bg
 mayottehebdo.com##.spu-box
 loractu.fr##.subscribe-nl
 aciafrique.org##.subscribe-post
+lalanguefrancaise.com##.track-reminder
 vert.eco##.vert-subscribe-aside
 maison-travaux.fr##.widget-first
 mayottehebdo.com##aside.widget_custom_html
@@ -48162,7 +48175,7 @@ ants.vn##.sg-popup-content
 ||cookielaw.org/scripttemplates/*/assets/otCommonStyles.css$xmlhttprequest,domain=elisa.fi
 ||elisa.fi/consent-management/
 ||gravitocdn.blob.core.windows.net/lightcmp/$script,domain=veho.fi
-||jimms.fi/Scripts/jimmsconsent.min.js$script,domain=jimms.fi
+||jimms.fi/Scripts/jimmsconsent3.js
 ||krookmedia.fi/wp-content/plugins/cookie-law-info/$script,domain=krookmedia.fi
 ||multitronic.fi/en/ajax/getConsentForm/
 ||pirkkalainen.fi/wp-content/plugins/cookie-law-info/legacy/public/js/cookie-law-info-public.js
@@ -48495,6 +48508,7 @@ voas.fi#@##coockie-modal
 japanrailpass.net#@##cookie-accept
 feierabend.de,vrtranspoint.fi#@##cookie-banner
 dm-drogeriemarkt.it#@##cookie-bar
+praca.by#@##cookie-confirm
 bremer-gewuerzhandel.de,gents.com,keobeer.com.cy,ms-reptilien.de,officiallondontheatre.com,retterspitz.de#@##cookie-consent
 channel4.com#@##cookie-consent-banner
 unobike.com#@##cookie-info
@@ -48619,6 +48633,7 @@ consent.yahoo.com,fietsen123.nl,lawrievetgroup.co.uk,payments.amazon.co.jp,payme
 calameo.com#@#.consent.cookies
 iledefrance-mobilites.fr#@#.content-cookies
 bitburger-braugruppe.de#@#.cookie-age
+praca.by#@#.cookie-agreement
 calameo.com#@#.cookie-alert-container
 boursorama.com,nuxeo.com,swedbank.se#@#.cookie-banner:not(body):not(html)
 chipkinspuratos.co.za,golnanpuratos.com,puratos.at,puratos.be,puratos.bg,puratos.ca,puratos.ch,puratos.cl,puratos.cn,puratos.co.cr,puratos.co.id,puratos.co.jp,puratos.co.kr,puratos.co.th,puratos.co.uk,puratos.com.ar,puratos.com.au,puratos.com.br,puratos.com.mx,puratos.com.my,puratos.com.ph,puratos.com.tr,puratos.com.ua,puratos.cz,puratos.de,puratos.dk,puratos.ee,puratos.es,puratos.fr,puratos.gr,puratos.hu,puratos.in,puratos.it,puratos.lt,puratos.lv,puratos.md,puratos.nl,puratos.pe,puratos.pl,puratos.pt,puratos.ro,puratos.rs,puratos.ru,puratos.us,puratos.uy,puratosgrandplace.com#@#.cookie-banner__wrapper
@@ -48816,6 +48831,7 @@ legifrance.gouv.fr#@#div.cnil
 baden-wuerttemberg.de,calameo.com#@#div.cookie-alert
 autohaus24.de,cera.coop,channel4.com,chipkinspuratos.co.za,golnanpuratos.com,intersport.de,puratos.at,puratos.be,puratos.bg,puratos.ca,puratos.ch,puratos.cl,puratos.cn,puratos.co.cr,puratos.co.id,puratos.co.jp,puratos.co.kr,puratos.co.th,puratos.co.uk,puratos.com.ar,puratos.com.au,puratos.com.br,puratos.com.mx,puratos.com.my,puratos.com.ph,puratos.com.tr,puratos.com.ua,puratos.cz,puratos.de,puratos.dk,puratos.ee,puratos.es,puratos.fr,puratos.gr,puratos.hu,puratos.in,puratos.it,puratos.lt,puratos.lv,puratos.md,puratos.nl,puratos.pe,puratos.pl,puratos.pt,puratos.ro,puratos.rs,puratos.ru,puratos.us,puratos.uy,puratosgrandplace.com#@#div.cookie-banner
 epochtimes.it,onnibus.com,stilord.com,stilord.de,stilord.fr,stilord.pl#@#div.cookie-bar
+praca.by#@#div.cookie-confirm
 booking.reederei-zingst.de,booking.weisse-flotte.de,booking2.reederei-hiddensee.de,dovoba.de,forcetools-kepmar.eu,kund.bliwa.se,moreincommon.de#@#div.cookie-consent
 sevdesk.de#@#div.cookie-consent-modal
 ieatfoodtours.co.uk,onceinrome.com,weliketuscany.it#@#div.cookie-consent-popup
