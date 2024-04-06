@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HkdFapFAmR84ZcbR+v/Tfg
+! Checksum: IimHC1aBPHAjfRC0DuR1gg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202404060800
-! Last Modified: 2024年04月06日 08:00
+! Version: 202404061400
+! Last Modified: 2024年04月06日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -581,8 +581,6 @@ tieba.baidu.com##.tuijian-wrap
 /ad-scripts--
 /ad-scroll.js
 /ad-server.$~script
-/ad-sidebar-
-/ad-skin-
 /ad-third-party?
 /ad.cgi?
 /ad.css?
@@ -1105,7 +1103,6 @@ tieba.baidu.com##.tuijian-wrap
 /css/adv.
 /curveball/ads/*
 /custom_ads.js
-/d3.php?x=
 /data-file_123.js
 /deliverad/fc.js
 /delivery.ads.
@@ -1258,11 +1255,9 @@ tieba.baidu.com##.tuijian-wrap
 /images/adv/*
 /images/adz/*
 /images2/Ads/*
-/imfloat.
 /img/ad/*
 /img/aff/*
 /img_ad/*
-/impop.
 /in/show/?mid=$third-party
 /include/ad/*
 /include/ad_
@@ -1270,19 +1265,14 @@ tieba.baidu.com##.tuijian-wrap
 /index-ad-
 /index-ad.
 /index_ad/*
-/index_ads.
+/index_ads.js
 /infinity.js.aspx?
 /inhouse_ads/*
-/injectad.
-/inline_ad.
-/inline_ad_
-/inline_ads.
-/InlineAds.
+/inlineads.aspx
 /insertads.js
 /internAds.css
 /Javascripts/SBA-
-/jquery-ads.
-/jquery.ad.
+/jquery.ad.js
 /jquery.adi.js
 /jquery.adx.js
 /jquery.dfp.js
@@ -1306,16 +1296,13 @@ tieba.baidu.com##.tuijian-wrap
 /lazyload.ads?
 /left_ads.js
 /leftad.
-/leftad_
 /leftads.
 /legion-advertising-atlasastro/*
 /li.blogtrottr.com/imp?
 /link?z=$subdocument
-/linkad2.
-/linkads.
+/linkad2.jpg
 /livejasmin.$domain=~livejasmin.com
-/livejasmin2.
-/livejasmin_
+/livejasmin2.jpg
 /livejasminpopupunder.
 /localads.aspx
 /log_ad?
@@ -1449,7 +1436,6 @@ tieba.baidu.com##.tuijian-wrap
 /plugins/wp125/*$~stylesheet
 /plugins/wp_actionpop/*
 /plugins_ads_
-/pm_ads/*
 /poll-ad-
 /pop-under.
 /pop_8_2.js
@@ -1463,11 +1449,9 @@ tieba.baidu.com##.tuijian-wrap
 /popunder-
 /popunder/*
 /popunder1.
-/popunder1_
 /popunder2.
-/popunder4.
-/popunder5.
-/popunder7.
+/popunder5.js
+/popunder7.min.js
 /popunder?
 /popunder_
 /popunderjs/*
@@ -1493,16 +1477,9 @@ tieba.baidu.com##.tuijian-wrap
 /promo/affiframe.
 /PromosAds/*
 /promotools.
-/propellerad.
-/propellerads.$domain=~propellerads.com
-/proto2ad.
-/provider_ads/*
 /proxyadcall?
 /pub/ad/*
 /pub/ads/*
-/pubad.$domain=~pubad.gov.lk
-/pubads.
-/pubads_
 /public/ad/*
 /public/ads/*
 /public/ads_
@@ -1513,72 +1490,51 @@ tieba.baidu.com##.tuijian-wrap
 /publicidade/*
 /publicidades/*
 /puff_ad?
-/punder-rotate.
 /punder.php
-/pup-a9-header-bidder/*
-/purch-ad-
-/push/p.js?u=$third-party
-/pushdownAd.
+/push/p.js?
 /pustrck.js
 /radioAdEmbed.
 /radioAdEmbedGPT.
-/rail_ad_
-/railad.
-/rcom-ads-
-/rcom-ads.
-/rcom-video-ads.
-/rcsad_
-/rdm-ad-
-/RdmAdFeed.
+/railad.jpg
+/RdmAdFeed.js
 /rdrr/renderer.js
-/re-ads-
 /realmedia/ads/*
-/realmedia_mjx.
 /reclama/*
-/rect_ad.
-/rectangle_ad.
 /redirect/?spot_id=
 /redirect?tid=
-/redirect_awe.
-/refreshads-
 /reklam.$domain=~github.com|~reklam.com.tr
 /reklam/*$domain=~cloudflare.com|~github.com|~reklam.com.tr
 /reklama/*$domain=~github.com
-/reklama1.
+/reklama1.js
 /reklama2.
 /reklama3.
 /reklama4.
-/reklama5.$domain=~reklama5.mk
 /reklame/*
 /related-ads.
 /relatedads.
 /remove-ads.
 /remove_ads.
 /ren.gif?
-/report_ad.
-/report_ad_
-/resources/ad.
+/report_ad.js
 /resources/ads/*
-/resources/ads_
 /responsive/ad_
 /responsive_ads.js
 /right-ad-
 /right_ad.
 /right_ad_
 /right_ads.
-/rightad.
-/rightad/*
-/rightads.$domain=~rightads.co.uk
+/rightad.js
+/rightads.js
 /rotatingad.
-/rotationad.
 /s.ashx?btag
 /sbar.json?key=
 /sc-tagmanager/*
 /script/aclib.js
+/script/app_settings.js$third-party
 /script/java.php?$xmlhttprequest
+/script/naN.js
 /script/nwsu.js
 /script/wait.php?*=$xmlhttprequest
-/scriptFileV2.js
 /scripts/afc/*
 /scripts/chatur.js
 /sdk/push_web/?zid=
@@ -1597,16 +1553,12 @@ tieba.baidu.com##.tuijian-wrap
 /show_ad?
 /showban.asp?
 /showbanner.js
-/side-ad-
-/side-ad.
 /side-ads-
 /side-ads/*
 /side_ads/*
 /sidead.
 /sidead1.
-/sidead2.
-/sidead3.
-/sideads.
+/sideads.js
 /sideads/*
 /sidebar-ad-
 /sidebar-ads/*
@@ -1688,6 +1640,7 @@ tieba.baidu.com##.tuijian-wrap
 /targetingAd.js
 /targetpushad.js
 /theologicalpresentation.com/*
+/tmbi-a9-header-
 /tncms/ads/*
 /tnt.ads.
 /top-ad.
@@ -1824,6 +1777,7 @@ tieba.baidu.com##.tuijian-wrap
 ://promo.$~media,third-party,domain=~myshopify.com|~promo.com|~shopifycloud.com|~slidely.com
 ://pt.*?psid=$third-party
 ://uads.$third-party,xmlhttprequest
+=bT1zdXY1JnI9$third-party,xmlhttprequest
 =half-page-ad&
 ?ab=1&zoneid=
 ?adspot_
@@ -17414,6 +17368,7 @@ _800x80_
 ##.wotd-widget__ad
 ##.wp-ads-target
 ##.wp-block-ad-slot
+##.wp-block-gamurs-ad
 ##.wp-block-tpd-block-tpd-ads
 ##.wp125ad
 ##.wp125ad_2
@@ -35281,6 +35236,7 @@ browsershots.org#@#.advert_area
 ||iseoiknnqckto.xyz^
 ||isftdmoj.com^
 ||isgost.com^
+||ishaweewouta.com^
 ||ishedtotigai.info^
 ||ishibeesoany.com^
 ||ishoapty.net^
@@ -36709,6 +36665,7 @@ browsershots.org#@#.advert_area
 ||kmyunderthf.info^
 ||knackseafood.com^
 ||knaplpdmbrbi.com^
+||knappedmurshid.com^
 ||knaveavo.guru^
 ||knawelgrx.com^
 ||kncecafvdeu.info^
@@ -36905,6 +36862,7 @@ browsershots.org#@#.advert_area
 ||ksehinkitw.hair^
 ||kshzlyvbaaa.com^
 ||ksnbiepnvjdi.com^
+||ksnbtmz.com^
 ||kssvsjfhxpzwfd.com^
 ||kstjqjuaw.xyz^
 ||kstvhknmhfppbf.com^
@@ -56940,6 +56898,7 @@ browsershots.org#@#.advert_area
 ||nexeps.com^$third-party
 ||nextclick.pl^$third-party
 ||nextmillennium.io^$third-party
+||nextmillmedia.com^$third-party
 ||nextoptim.com^$third-party
 ||nitmus.com^$third-party
 ||nitropay.com^$third-party
@@ -62574,6 +62533,7 @@ browsershots.org#@#.advert_area
 ||privatejetfinder.com/skins/partners/$third-party
 ||promos.fling.com^
 ||promote.pair.com/88x31.pl
+||proto2ad.durasite.net^
 ||proxysolutions.net/affiliates/
 ||pubfeed.linkby.com^
 ||public.porn.fr^$third-party
@@ -64250,6 +64210,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||ebayrtm.com/rtm?RtmCmd*&enc=
 ||ebayrtm.com/rtm?RtmIt
 ||ebaystatic.com^*/ScandalJS-
+||eccie.net/provider_ads/
 ||ed2k.2x4u.de/mfc/
 ||edge.ads.twitch.tv^
 ||eentent.streampiay.me^
@@ -65571,6 +65532,7 @@ tweaktown.com###DesktopTop
 newser.com###DivStoryAdContainer
 stripes.com###FeatureAd
 esports.gg,howlongagogo.com,neatorama.com###FreeStarVideoAdContainer
+esports.gg###FreeStarVideoAdContainer_VCT
 titantv.com###GridPlayer
 appatic.com,gamescensor.com###HTML2
 fanlesstech.com###HTML2 > .widget-content
@@ -67266,6 +67228,7 @@ pickmypostcode.com##.aside-right.aside
 goal.com##.aside_ad-rail__cawG6
 decrypt.co##.aspect-video
 theadvocate.com##.asset-breakout-ads
+macleans.ca##.assmbly-ad-block
 releasestv.com##.ast-above-header-wrap
 animalcrossingworld.com##.at-sidebar-1
 guidingtech.com##.at1
@@ -67636,6 +67599,7 @@ strategie-bourse.com##.cadre_encadre_pub
 cafonline.com##.caf-o-sponsors-nav
 clutchpoints.com##.cafemedia-clutchpoints-header
 challonge.com##.cake-unit
+calculat.io##.calc67-container
 skylinewebcams.com##.cam-vert
 thedalesreport.com##.cap-container
 dllme.com##.captchabox > div
@@ -68265,6 +68229,7 @@ stuff.co.nz,thepost.co.nz,thepress.co.nz,waikatotimes.co.nz##.header-ads-block
 worldpress.org##.header-b
 adswikia.com,freemalaysiatoday.com,landandfarm.com,pointblanknews.com,radiotoday.com.au,runt-of-the-web.com,rxresource.org,techworldgeek.com,warisboring.com##.header-banner
 gamingdeputy.com##.header-banner-desktop
+revolt.tv##.header-banner-wrapper
 mercurynews.com,nssmag.com##.header-banners
 amazonadviser.com,apptrigger.com,fansided.com,hiddenremote.com,lastnighton.com,lawlessrepublic.com,mlsmultiplex.com,netflixlife.com,playingfor90.com,stormininnorman.com,winteriscoming.net##.header-billboard
 lyricsmode.com##.header-block
@@ -68574,6 +68539,7 @@ weatherpro.com##.leaderboard-wrapper
 save.ca##.leaderboardMainWrapper
 cargurus.co.uk##.leaderboardWrapper
 t3.com##.leaderboard__container
+revolt.tv##.leaderboard_ad
 lookbook.nu##.leaderboard_container
 rottentomatoes.com##.leaderboard_wrapper
 gpfans.com##.leaderboardbg
@@ -75469,6 +75435,13 @@ newduba.cn###jq_youxi
 ||nuhgpx.xyz^
 ||ojvpigx.xyz^
 ||utkauo.xyz^
+||zekzoh.icu^
+||naihyvz.cn^
+||555bbb333bbb.com^
+||adzdgr-wadd2-f1d.com^
+||img8e51zy4bg.com^
+||img8e94zy4bg.com^
+||m1170.top^
 ||zopuqv.icu^
 ||zsjpi.cn^
 ||zttuvj.xyz^
@@ -103961,6 +103934,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ontraport.com/opt_assets/static/js/logging.js
 ||opendesktop.org/l/fp
 ||ophan.theguardian.com^
+||oppo.com/api/country
 ||optimizely.com/js/geo.js
 ||optimizely.techtarget.com^
 ||oracle.com/visitorinfo/
@@ -104148,6 +104122,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sid.nordstrom.com^
 ||silvergames.com/div/g.php?
 ||simplelogin.io/p/api/event
+||sjc.cloud.optable.co^
 ||skyscanner.*/slipstream/view
 ||slack-edge.com/bv1-10/slack_beacon.
 ||slack.com/beacon/
@@ -139749,6 +139724,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||stats.tunt.lv^
 ||tanks.lv/top/stats.php
 ||15min.lt/cached/tgif$~third-party
+||g.delfi.lt/g.js
 ||lrytas.lt/counter/
 ||click.vgnett.no^
 ||data.nrk.no^
