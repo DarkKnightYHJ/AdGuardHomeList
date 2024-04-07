@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7UUUj2R0Wnh+924bmFY+6g
+! Checksum: D2GlKrvYjoHE2onAZ0lxSQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202404071400
-! Last Modified: 2024年04月07日 14:00
+! Version: 202404072000
+! Last Modified: 2024年04月07日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2438,6 +2438,7 @@ newduba.cn###jq_youxi
 ||m6j37.xyz^
 ##A[href*=".68hantang.com"]
 ||obgekjz.icu^
+||vioyugo.cn^
 ||zopuqv.icu^
 ||zsjpi.cn^
 ||zttuvj.xyz^
@@ -29758,6 +29759,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hocalwire.com/tracking-
 ||homedepot-static.com/data-collection/
 ||homestore.com/srv/
+||honeycomb.io/1/events/
 ||hop.clickbank.net^$script
 ||hornymatches.com^*/visit.php?
 ||hpr.outbrain.com^
@@ -30337,6 +30339,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ptsc.shoplocal.com^
 ||pub.sheknows.com^
 ||public.cobrowse.oraclecloud.com/rely/storage/
+||public.fbot.me/track/
 ||publicbroadcasting.net/analytics/
 ||purevideo.com^*/pvshim.gif?
 ||pushly.com/pushly-event-tracker
@@ -32703,6 +32706,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cwt.citywire.info^
 ||d.skk.moe^
 ||d401.dollartree.com^
+||d712.theinformation.com^
 ||dabu.askmediagroup.com^
 ||dailymail.co.uk/geo/
 ||dailymail.co.uk/rta2/
@@ -69367,6 +69371,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||analytics-static.ugc.bazaarvoice.com/prod/$script,domain=hisense.co.uk
 @@||analytics.amplitude.com^$~third-party
 @@||analytics.analytics-egain.com/onetag/$script,domain=boohoo.com|digikey.at|digikey.be|digikey.bg|digikey.ca|digikey.ch|digikey.cn|digikey.co.il|digikey.co.nz|digikey.co.th|digikey.co.uk|digikey.co.za|digikey.com|digikey.com.au|digikey.com.br|digikey.com.mx|digikey.cz|digikey.de|digikey.dk|digikey.ee|digikey.es|digikey.fi|digikey.fr|digikey.gr|digikey.hk|digikey.hu|digikey.ie|digikey.in|digikey.it|digikey.jp|digikey.kr|digikey.lt|digikey.lu|digikey.lv|digikey.my|digikey.nl|digikey.no|digikey.ph|digikey.pl|digikey.pt|digikey.ro|digikey.se|digikey.sg|digikey.si|digikey.sk|digikey.tw
+@@||analytics.casper.com/gtag/js$~third-party
+@@||analytics.casper.com/gtm.js$~third-party
 @@||analytics.edgekey.net/ma_library/html5/html5_malibrary.js$script,domain=mxplayer.in
 @@||analytics.itunes.apple.com^$~third-party
 @@||answers.ros.org/m/default/media/images/$image,~third-party
@@ -69587,6 +69593,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||powerquality.eaton.com/include/js/elqScr.js$~third-party
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
 @@||pub.pixels.ai/prebid_standard.js$script,domain=standard.co.uk
+@@||public.fbot.me/events/$domain=casper.com
 @@||px-cdn.net/api/v2/collector/ocaptcha$xmlhttprequest
 @@||qm.redbullracing.com/gtm.js$~third-party
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
