@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: w6/f6Jy682hPbGGLGgo52g
-! Version: 202404070051
+! Checksum: GFiuCFiBVQLMfFQtVd/jQA
+! Version: 202404070211
 ! Title: EasyList China+EasyList
-! Last modified: 07 Apr 2024 00:51 UTC
+! Last modified: 07 Apr 2024 02:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1653,6 +1653,7 @@ newduba.cn###jq_youxi
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##span[title="neteasefooter"]
 ##style + .a-loading
+##.jsv-layer > .image > a[href^="http"]
 ##style + .need_grid_img
 ##style + .vdgdo
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
@@ -2277,6 +2278,7 @@ newduba.cn###jq_youxi
 ||obgekjz.icu^
 ||atzhcjv.xyz^
 ||m6j37.xyz^
+##A[href*=".68hantang.com"]
 ||zopuqv.icu^
 ||zsjpi.cn^
 ||zttuvj.xyz^
@@ -17399,6 +17401,7 @@ guailie.com#@#.google-ad
 !#7
 !#8
 !#91porny.com
+91porny.org###main > div[id^="rd"]
 jiuse.io###main > div[id^="rd"]
 ###playerJsvLayer.jsv-layer
 91porny.com,9s102.xyz,jiuse205.com,jiuse390.xyz,jiuse970.com##.container-fluid.p-0[class*="mb-"]
@@ -82900,7 +82903,6 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||ad.animehub.ac^
 ||ad.doubleclick.net/ddm/clk/$domain=ad.doubleclick.net
 ||ad.imp.joins.com^
-||ad.itweb.co.za^
 ||ad.khan.co.kr^
 ||ad.kimcartoon.si^
 ||ad.kissanime.co^
@@ -87332,7 +87334,7 @@ newegg.com##.item-sponsored-box
 pocketgamer.com##.item-unit
 presearch.com##.items-center.bg-transparent
 slidehunter.com##.itm-ads
-itweb.co.za##.itw-content-zone
+itweb.co.za##.itw-ad
 india.com##.iwplhdbanner-wrap
 kijiji.ca##.jOwRwk
 ticketmaster.com##.jTNWic
@@ -88174,7 +88176,6 @@ rswebsols.com##.rsws_banner_sidebar
 nextofwindows.com##.rtsidebar-cm
 freewebarcade.com##.rxads
 freewebarcade.com##.rxse
-itweb.co.za##.s-logos
 bleepingcomputer.com##.s-ou-wrap
 hope1032.com.au##.s-supported-by
 japantoday.com##.s10r
@@ -88393,6 +88394,7 @@ blbclassic.org##.sponsorZone
 newegg.com##.sponsored-brands
 cheknews.ca##.sponsored-by
 washingtontimes.com##.sponsored-heading
+itweb.co.za##.sponsored-highlights
 breakingdefense.com##.sponsored-inline
 freesvg.org##.sponsored-main-detail
 justwatch.com##.sponsored-recommendation
@@ -89261,7 +89263,6 @@ hitbullseye.com##a[href*="&utm_medium="]
 walmart.ca##a[href*=".criteo.com/"]
 chicagoprowrestling.com##a[href*="//thecmf.com/"] > img
 chicagoprowrestling.com##a[href*="//www.aliciashouse.org/"] > img
-itweb.co.za##a[href*="/adclick.php?"]
 breakingbelizenews.com,cardealermagazine.co.uk,headfonics.com,igorslab.de,landline.media,mikesmoneytalks.ca,sundayworld.co.za,theroanokestar.com,visualcapitalist.com##a[href*="/linkout/"]
 movie-censorship.com##a[href*="/out.php?"]
 imagetwist.com##a[href*="/par/"]
@@ -91630,6 +91631,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||entitlements.jwplayer.com^$xmlhttprequest,domain=iheart.com
 @@||experienceleague.adobe.com^$~third-party
 @@||explainxkcd.com/wiki/images/$image,~third-party
+@@||ezodn.com/tardisrocinante/lazy_load.js$script,domain=origami-resource-center.com
 @@||ezoic.net/detroitchicago/cmb.js$script,domain=gerweck.net
 @@||f-droid.org/assets/Ads_$~third-party
 @@||facebook.com/ads/profile/$~third-party,xmlhttprequest
