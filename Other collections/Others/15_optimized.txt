@@ -1,10 +1,12 @@
-! Checksum: RkgNMPlvMDwFXNK0V5Z26A
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1712558192-3600.patch
+! Checksum: A1iS9mEVHRO++ZnsZxVyRQ
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1712572630-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.64.0
-! TimeUpdated: 2024-04-08T06:33:18+00:00
+! Version: 2.0.64.1
+! TimeUpdated: 2024-04-08T10:33:33+00:00
 ! Expires: 5 days (update frequency)
+||hoomigri.com^
+||bittrafficads.com^
 ||mpsauudmnwarh.com^
 ||ishaweewouta.com^
 ||unclogslenis.top^
@@ -45445,6 +45447,8 @@ vkcdnservice.appspot.com^
 ||affex.org^
 ||tagman.britishairways.com^
 |piwik.
+||metrics.thefeed.com^
+||gtm.thefeed.com^
 ||collector.xhaccess.com^
 ||amplitude.chess.com^
 ||matomo.cloudfront.similarweb.io^
@@ -59515,6 +59519,9 @@ inapps.appsflyersdk.com^
 ||qnalzly.top^
 ||mldzwmt.xyz^
 ||guwohvw.icu^
+||1f84e33459.com^
+||vwyycnq.cn^
+||mmo2350.top^
 ||zsjpi.cn^
 ||zttuvj.xyz^
 ||ztxjutz.xyz^
@@ -64995,6 +65002,7 @@ analytics-*.aasaam.com
 ||letysheeps.ru^
 ||a4.overclockers.ua^
 ||novunu.football-plyus.net^
+||api2.branch.io^$dnsrewrite=0.0.0.0
 @@||infra-api.newrelic.com^|
 @@||tms.capitalone.com^|
 @@||redir.ownpage.fr^|
