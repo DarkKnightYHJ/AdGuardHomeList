@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: JZViAQoMeLJ5ZVXXx69+5Q
-! Version: 202404081501
+! Checksum: p0HGeUqYTV2txpWmr3XvnQ
+! Version: 202404081611
 ! Title: EasyPrivacy
-! Last modified: 08 Apr 2024 15:01 UTC
+! Last modified: 08 Apr 2024 16:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -11738,6 +11738,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mstm.motorsport.com^
 ||myanimelist.net/static/logging.html
 ||mybbc-analytics.files.bbci.co.uk/reverb-client-js/smarttag-
+||mylocal.co.uk/api/trpc/analytics.
 ||myspace.com/beacon/
 ||n26-trusted.n26.com^
 ||na.groupondata.com^
@@ -47617,7 +47618,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||analyzer2.fc2.com^
 ||anyelse.com/stat^
 ||astat.nikkei.com^
-||astral.nicovideo.jp^
 ||barks.jp/v1/stats
 ||bc.nhk.jp^
 ||beacon.watch.impress.co.jp^
@@ -47671,8 +47671,11 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||muragon.com/js/normal/gtag-event.js
 ||next.rikunabi.com/api/logRecommendRealtimeI2AV2
 ||nhk.or.jp^*/bc.js
+||nicoad.nicovideo.jp/*/instream/tracking/
+||nicolive.cdn.nimg.jp/relive/sp/browser-logs.
 ||nicovideo.jp/api/counter/
 ||nikkei.com/.resources/tracking/
+||nvapi.nicovideo.jp/v1/bandit-machine/
 ||odsyms15.com/impression?
 ||pvtag.yahoo.co.jp^
 ||pw.gigazine.net^
