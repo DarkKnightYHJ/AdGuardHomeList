@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: FpH40Kco2QMqCHT6Sr0IyQ
-! Version: 202404090801
+! Checksum: hx1CH5euW5ODkHW5GFzbcA
+! Version: 202404090901
 ! Title: ABP filters
-! Last modified: 09 Apr 2024 08:01 UTC
+! Last modified: 09 Apr 2024 09:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -517,6 +517,9 @@ dlouha-videa.cz#$#abort-on-property-read _0x4c29
 ajaxshowtime.com#?#div:-abp-properties(content: "Advertentie";)
 ajaxshowtime.com##div.leaderboard_ad + div
 ! *** abp-filters-anti-cv:english.txt ***
+! RM-114
+! sp
+target.com#$#hide-if-matches-xpath './/p[text()="Sponsored"]/parent::div[@class]/ancestor::div[contains(@data-test,"ProductCardWrapper")]/parent::div[1]'
 ! #RM-75
 ! sp
 bol.com#$#debug; hide-if-contains-visible-text /Gesponsord/ 'ul[class][data-test="products"] li[class]' 'li[class] span[class]'
