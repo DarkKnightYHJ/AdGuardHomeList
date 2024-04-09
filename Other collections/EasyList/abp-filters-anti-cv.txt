@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: HHkGtuJFaIUY9LUVDTiaww
-! Version: 202404091501
+! Checksum: dUAoYZ9XbrJhTxioRQ+enQ
+! Version: 202404091601
 ! Title: ABP filters
-! Last modified: 09 Apr 2024 15:01 UTC
+! Last modified: 09 Apr 2024 16:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1133,6 +1133,7 @@ rakuten.com#$#hide-if-contains-visible-text /Sponsorisée/ 'div[class*="flex-row
 ||porndoe.com/movie/preroll/*$media,rewrite=abp-resource:blank-mp4,domain=porntrex.com
 ||xanimu.com/ablck$domain=xanimu.com
 ||xanimu.com/*.php$domain=xanimu.com
+||ark.tubi.video/v2/*.mp4^$domain=tubitv.com
 ! Japanese sites
 nikaraw.com#$#abort-on-property-read afStorage
 nicovideo.jp##a[href^="https://click.speee-ad.jp"]
