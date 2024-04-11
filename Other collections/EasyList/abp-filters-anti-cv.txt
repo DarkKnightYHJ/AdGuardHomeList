@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: krV07Iu9r8jrrm8NXlop2w
-! Version: 202404110701
+! Checksum: svOUfiLhBHcFRioOmG/rxw
+! Version: 202404110811
 ! Title: ABP filters
-! Last modified: 11 Apr 2024 07:01 UTC
+! Last modified: 11 Apr 2024 08:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -965,7 +965,7 @@ freshsexvideos.com,sexvideos.rodeo,xxxvideo.link,ixxx.onl,xvideosx.one,xxxpor.or
 porntrex.com#$#abort-on-property-write preventDefault
 lscomic.com#$#abort-on-property-read window.advanced_ads_ready;abort-on-property-write window.advanced_ads_ready_queue;
 aniwatchtv.to#$#abort-current-inline-script document.createElement /break|case/
-||hltv.org^$popup,domain=hltv.org
+hltv.org#$#abort-on-property-read window.open
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 baytorrent.eu.org,europixhd.com,europixhd.net,file-up.org,force-download.com,force-download.es,force-download.net,gledajonline.net,hdeuropix.io,loadsubs.net,novom.ru,pirateproxy.earth,pirateproxy.live,thehiddenbay.com,thepiratebay.org,thepiratebay.vip,thepiratebay10.org,topeuropix.net,tpb.party,uploadproper.com,uploadproper.net#$#abort-on-property-read atob
@@ -1633,7 +1633,7 @@ vndoc.com#$#override-property-read seconds 0
 phimvuihd.org#$#override-property-read urlAds ''
 thapcam4.net#$#simulate-mouse-event '#modalasd$continue,delay=300'
 phimvietsub.pro,api.anime3s.com,subnhanh.xyz#$#override-property-read maxAds 0
-sexvietmoi.io,clipsexvietnam.net,phimsexviet.io,phimsexvietnam.app,clipsex.xxx,ww1.phimsexchill.com,gm.phimsexnhanh.tv,phimsexvip.cc,sex.ditnhau.cc,topsexhay.org#$#override-property-read video.adVast ''
+sexvietmoi.io,clipsexvietnam.net,phimsexviet.io,phimsexvietnam.app,clipsex.xxx,ww1.phimsexchill.com,gm.phimsexnhanh.tv,phimsexvip.cc,sex.ditnhau.cc,phim.sexhayvl.org#$#override-property-read video.adVast ''
 www.iosviet.com#$#override-property-read timer 0
 ! Popup/Popunder/Clickunder
 fembed.com,femax20.com,m.blogtruyenvn.org,viettoons.tv,vinaurl.net,animet2.net,anh.moe,truyenhentaivn.online#$#abort-on-property-read open
@@ -1653,12 +1653,12 @@ etellekt.com#$#abort-on-property-read adsRedirectPopups
 sexdiaryz.us#$#abort-on-property-read parseInt
 linkneverdie.net#$#abort-current-inline-script document.createElement optad;abort-on-property-read pushOnPageGala
 javnong.cc#$#abort-on-property-read Math.round
-viet69.si,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenkq.com,yurineko.net,vlxyz.tube,javhay.in,phimsexhay669.org,cliphot69.blog,doctruyen3q.pro,hentaizz.club,animehay.blog,vlxx.xxx,heo69.moe,top1sex.club,lenlut.tv,phimsex.ai,hentaivn.bz,sexvn1.cc,cdn.streamvl.sbs,www.buomtv.app,truyenvn.one,cdnstream.sbs,javtiful.com,tuoi69.media,quatvn3.club,tenmientruyengi.net,topviet69.com,phim18hd.top,web.sexviet88.day,sexdep9x.pro,demo.14412882.com,sexhay18.com#$#abort-current-inline-script WebAssembly instantiate
+viet69.vet,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenkq.com,yurineko.net,vlxyz.tube,javhay.in,phimsexhay669.org,cliphot69.blog,doctruyen3qv.pro,hentaizz.club,animehay.blog,vlxx.xxx,heo69.moe,top1sex.club,lenlut.tv,phimsex.ai,hentaivn.bz,sexvn1.cc,cdn.streamvl.sbs,www.buomtv.app,truyenvn.one,cdnstream.sbs,javtiful.com,tuoi69.viet69.biz,quatvn.fun,tenmientruyengi.net,topviet69.com,phim18hd.top,web.sexviet88.day,sexdep9x.pro,demo.14412882.com,sexmuptv.pro#$#abort-current-inline-script WebAssembly instantiate
 animevietsub.de#$#abort-current-inline-script document.documentElement break;case
 phimdinhcao.net,phimlongtieng.net,phimdinhcao.com#$#abort-on-property-read localStorage
 phimgichill.net#$#abort-current-inline-script jQuery popurl
 phimgichill.net,hhhay.tv,hh3dhay.pro,truyengihotnha.com,truyengihotnha.net#$#abort-current-inline-script eval $._Eu
-gocphimmoi.net,p.thoctv.com#$#abort-current-inline-script document.createElement script
+gocphimvns.com,p.thoctv.com#$#abort-current-inline-script document.createElement script
 mephimnhe1.net#$#abort-current-inline-script jQuery popurl
 phimhdc.net,motchilly.co#$#abort-current-inline-script document.addEventListener linksToOpen
 khoaiphim.com,phimmoinay.tv#$#abort-current-inline-script jQuery click_time
