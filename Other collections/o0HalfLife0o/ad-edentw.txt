@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qLdN46/fQK6w5D8LuijsKw
+! Checksum: lgOxE+jGPi1cODrxQjaehw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202404152000
-! Last Modified: 2024年04月15日 20:00
+! Version: 202404160200
+! Last Modified: 2024年04月16日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -862,7 +862,7 @@ instagram.com#$#race start; hide-if-contains-visible-text '/Anzeige|Gesponsert|S
 factfeed.com,mdrntoday.com,travelroo.com###vidazooAd
 factfeed.com,mdrntoday.com,travelroo.com#$#hide-if-matches-xpath './/div[contains(@class,"ad-lines") and contains(text(),"ADVERTISEMENT")]/parent::div[@class="ad-text-box"]/ancestor::div[@class][@style]'
 ! #RM-16
-aliexpress.com,aliexpress.us#$#hide-if-contains-visible-text /AD|Annonce|Anuncio|Anzeige|Reklama|Anúncio|광고|Advertentie|Ann|إعلان|מודעה/ 'div > div > a[target="_blank"]' 'div[class]'
+aliexpress.com,aliexpress.us#$#hide-if-contains-visible-text /AD|Annonce|Anuncio|Anzeige|Reklama|Advertentie|Ad|Pub|Publicidad|Werbeanzeige|Rekl|ad|Reklam|Anúncio|광고|Ann|إعلان|מודעה/ 'div > div > a[target="_blank"]' 'div[class]'
 ! #RM-66
 newegg.com#$#hide-if-matches-xpath './/div[contains(@class,"menu-box")]/span[contains(text(),"Sponsored")]/ancestor::div[contains(@class,"at-side")]'; hide-if-matches-xpath './/div[@class="row-body-inner"]//div[contains(@class,"menu-box")]/span[contains(text(),"Sponsored")]/ancestor::div[@class][2]'; hide-if-contains-visible-text /Sponsored/ div[class^="product"] 'div[class][style]>span';
 newegg.com#$#hide-if-matches-xpath './/a[@class="item-img"][@rel]/following::span[contains(text(),"Sponsored")]/ancestor::div[contains(@class,"item-cell")][starts-with(@id,"item_cell")]'
@@ -1142,6 +1142,8 @@ curazy.com#$#hide-if-matches-xpath './/a[@href][@target]/img/ancestor-or-self::a
 ! Korean sites
 style24.com#$#simulate-mouse-event 'xpath(.//div[@class="popup_main_notice"]//a[@id="btnPopupClose"][@onclick])$delay=0'
 style24.com#$#simulate-mouse-event 'xpath(.//div[@id="popupMainNotice"]//a[@id="btnPopupClose"][@onclick])$delay=0'
+! Thai sites
+animetaro.com#$#abort-on-property-read window.open
 ! *** abp-filters-anti-cv:fb_non-graph.txt ***
 ! #CV-761
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@aria-labelledby and @aria-describedby]//*[name()="use" and substring(@*,2)=//*[name()="svg"]/*[name()="text"][text()[.="Anzeige" or .="Sponsored" or .="Sponsorlu" or .="Gesponsert" or .="Patrocinado" or .="Sponsorisé" or .="Commandité" or .="Gesponsord" or .="Sponsorowane" or .="Publicidad" or .="Sponsrad" or .="Sponsoreret" or .="Sponsoroitu" or .="Sponsa" or .="Sponset" or .="Sponsorizat" or .="Bersponsor" or .="Ditaja" or .="Sponsorizzato" or .="May Sponsor" or .="Реклама" or .="贊助" or .="赞助内容" or .="ได้รับการสนับสนุน" or .="Được tài trợ" or .="प्रायोजित" or .="دارای پشتیبانی مالی" or .="تمويل شوي" or .="সৌজন্যে" or .="مُموَّل" or .="سپانسرڈ" or .="ממומן"]]/@id]/ancestor::div[@aria-labelledby and @aria-describedby]'
@@ -1647,8 +1649,8 @@ etellekt.com#$#abort-on-property-read adsRedirectPopups
 sexdiaryz.us#$#abort-on-property-read parseInt
 linkneverdie.net#$#abort-current-inline-script document.createElement optad;abort-on-property-read pushOnPageGala
 javnong.cc#$#abort-on-property-read Math.round
-viet69.vet,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenkq.com,yurineko.net,vlxyz.tube,javhay.in,phimsexhay669.org,cliphot69.blog,doctruyen3qv.pro,hentaizz.cc,animehay.blog,vlxx.xxx,heo69.moe,top1sex.club,lenlut.tv,phimsex.ai,hentaivn.sh,sexvn1.cc,cdn.streamvl.sbs,www.buomtv.app,truyenvn.fan,cdnstream.sbs,javtiful.com,tuoi69.viet69.biz,quatvn.fun,tenmientruyengi.net,topviet69.com,phim18hd.top,web.sexviet88.day,sexdep9x.pro,demo.14412882.com,sexmuptv.pro#$#abort-current-inline-script WebAssembly instantiate
-animevietsub.de#$#abort-current-inline-script document.documentElement break;case
+viet69.vet,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenkq.com,yurineko.net,vlxyz.tube,javhay.in,phimsexhay669.org,cliphot69.blog,doctruyen3qv.pro,hentaizz.cc,animehay.blog,vlxx.xxx,heo69.moe,top1sex.club,lenlut.tv,phimsex.ai,hentaivn.sh,sexvn1.cc,cdn.streamvl.sbs,www.buomtv.app,truyenvn.fan,cdnstream.sbs,javtiful.com,tuoi69.viet69.biz,quatvn.fun,tenmientruyengi.net,topviet69.com,phim18hd.top,web.sexviet88.day,3xdam.pro,demo.14412882.com,sexphimx.vip#$#abort-current-inline-script WebAssembly instantiate
+animevietsub.day#$#abort-current-inline-script document.documentElement break;case
 phimdinhcao.net,phimlongtieng.net,phimdinhcao.com#$#abort-on-property-read localStorage
 phimgichill.net#$#abort-current-inline-script jQuery popurl
 phimgichill.net,hhhay.tv,hh3dhay.pro,truyengihotnha.com,truyengihotnha.net#$#abort-current-inline-script eval $._Eu
