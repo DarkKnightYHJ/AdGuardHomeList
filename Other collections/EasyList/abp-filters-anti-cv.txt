@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: u0V2LIba03XkiOqPLJLomA
-! Version: 202404151501
+! Checksum: pN60Ic+Xxs8zMPl+Pjdzaw
+! Version: 202404151601
 ! Title: ABP filters
-! Last modified: 15 Apr 2024 15:01 UTC
+! Last modified: 15 Apr 2024 16:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -863,7 +863,7 @@ instagram.com#$#race start; hide-if-contains-visible-text '/Anzeige|Gesponsert|S
 factfeed.com,mdrntoday.com,travelroo.com###vidazooAd
 factfeed.com,mdrntoday.com,travelroo.com#$#hide-if-matches-xpath './/div[contains(@class,"ad-lines") and contains(text(),"ADVERTISEMENT")]/parent::div[@class="ad-text-box"]/ancestor::div[@class][@style]'
 ! #RM-16
-aliexpress.com,aliexpress.us#$#hide-if-contains-visible-text /AD|Annonce|Anuncio|Anzeige|Reklama|Anúncio|광고|Advertentie|Ann|إعلان|מודעה/ 'div > div > a[target="_blank"]' 'div[class]'
+aliexpress.com,aliexpress.us#$#race start; hide-if-contains-visible-text /Ad|Pub|Publicidad|Werbeanzeige|Rekl|ad|Reklam|Anúncio|광고|Ann|إعلان|מודעה/ 'div > div > a[target="_blank"]' 'div[class]'; hide-if-contains-visible-text /AD|Annonce|Anuncio|Anzeige|Reklama|Anúncio|광고|Advertentie|Ann|إعلان|מודעה/ 'div > div > a[target="_blank"]' 'div[class]'; race stop;
 ! #RM-66
 newegg.com#$#hide-if-matches-xpath './/div[contains(@class,"menu-box")]/span[contains(text(),"Sponsored")]/ancestor::div[contains(@class,"at-side")]'; hide-if-matches-xpath './/div[@class="row-body-inner"]//div[contains(@class,"menu-box")]/span[contains(text(),"Sponsored")]/ancestor::div[@class][2]'; hide-if-contains-visible-text /Sponsored/ div[class^="product"] 'div[class][style]>span';
 newegg.com#$#hide-if-matches-xpath './/a[@class="item-img"][@rel]/following::span[contains(text(),"Sponsored")]/ancestor::div[contains(@class,"item-cell")][starts-with(@id,"item_cell")]'
@@ -1143,6 +1143,8 @@ curazy.com#$#hide-if-matches-xpath './/a[@href][@target]/img/ancestor-or-self::a
 ! Korean sites
 style24.com#$#simulate-mouse-event 'xpath(.//div[@class="popup_main_notice"]//a[@id="btnPopupClose"][@onclick])$delay=0'
 style24.com#$#simulate-mouse-event 'xpath(.//div[@id="popupMainNotice"]//a[@id="btnPopupClose"][@onclick])$delay=0'
+! Thai sites
+animetaro.com#$#abort-on-property-read window.open
 ! *** abp-filters-anti-cv:fb_non-graph.txt ***
 ! #CV-761
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@aria-labelledby and @aria-describedby]//*[name()="use" and substring(@*,2)=//*[name()="svg"]/*[name()="text"][text()[.="Anzeige" or .="Sponsored" or .="Sponsorlu" or .="Gesponsert" or .="Patrocinado" or .="Sponsorisé" or .="Commandité" or .="Gesponsord" or .="Sponsorowane" or .="Publicidad" or .="Sponsrad" or .="Sponsoreret" or .="Sponsoroitu" or .="Sponsa" or .="Sponset" or .="Sponsorizat" or .="Bersponsor" or .="Ditaja" or .="Sponsorizzato" or .="May Sponsor" or .="Реклама" or .="贊助" or .="赞助内容" or .="ได้รับการสนับสนุน" or .="Được tài trợ" or .="प्रायोजित" or .="دارای پشتیبانی مالی" or .="تمويل شوي" or .="সৌজন্যে" or .="مُموَّل" or .="سپانسرڈ" or .="ממומן"]]/@id]/ancestor::div[@aria-labelledby and @aria-describedby]'
