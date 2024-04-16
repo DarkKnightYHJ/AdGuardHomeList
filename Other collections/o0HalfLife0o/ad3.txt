@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6UOCIdUSUoe7M43wfBKtKA
+! Checksum: 2G4TS37l74xJ5iooJsL+6Q
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202404161400
-! Last Modified: 2024年04月16日 14:00
+! Version: 202404162000
+! Last Modified: 2024年04月16日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2519,6 +2519,7 @@ newduba.cn###jq_youxi
 ||orbnarb.xyz^
 ||baucraell.com^
 ||xzrhvv.xyz^
+||szpbh.cn^
 ||zhnnaxe.xyz^
 ||zjrtxt.xyz^
 ||znhlxvb.xyz^
@@ -28962,6 +28963,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.live.com^
 ||analytics.livestream.com^
 ||analytics.logsss.com^
+||analytics.lunaweb.cloud^
 ||analytics.m7g.twitch.tv^
 ||analytics.maikel.pro^
 ||analytics.mailmunch.co^
@@ -32713,6 +32715,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||byteoversea.com/monitor_web/
 ||c.arstechnica.com^
 ||c.fingerprint.com^
+||c.gq.com^
 ||c.newyorker.com^
 ||c.paypal.com^$image,script
 ||c.thredup.com^
@@ -33487,6 +33490,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||px.srvcs.tumblr.com^
 ||pxl.indeed.com^
 ||qc.arstechnica.com^
+||qc.gq.com^
 ||qc.newyorker.com^
 ||qc.vogue.com^
 ||qc.wired.com^
@@ -34180,7 +34184,14 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||foodora.fi/lJuB4eTB/init.js
 ||foodora.se/lJuB4eTB/init.js
 ||foodpanda.bg/lJuB4eTB/init.js
+||foodpanda.co.th/lJuB4eTB/init.js
+||foodpanda.com.bd/lJuB4eTB/init.js
+||foodpanda.com.kh/lJuB4eTB/init.js
+||foodpanda.com.mm/lJuB4eTB/init.js
+||foodpanda.com.tw/lJuB4eTB/init.js
 ||foodpanda.hk/lJuB4eTB/init.js
+||foodpanda.la/lJuB4eTB/init.js
+||foodpanda.my/lJuB4eTB/init.js
 ||foodpanda.ph/lJuB4eTB/init.js
 ||foodpanda.pk/lJuB4eTB/init.js
 ||foodpanda.ro/lJuB4eTB/init.js
@@ -69389,6 +69400,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||twivideo.net/templates/ajax_link_click.php
 ||view.fujitv.co.jp^
 ||visumo.jp/Content/js/tracking.js
+||withnews.jp/assets/js/bcon.js
 ||wowow.co.jp/API/new_prg/get_tracking_url.php
 ||x.allabout.co.jp^
 ||yahoo.co.jp/b?p=
