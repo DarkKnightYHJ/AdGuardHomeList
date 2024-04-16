@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dAAhwwfkBUS51Qunv5CsbQ
+! Checksum: qn93d3epbedXvgyD2vFBcA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202404160200
-! Last Modified: 2024年04月16日 02:00
+! Version: 202404160800
+! Last Modified: 2024年04月16日 08:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -128,13 +128,20 @@ douyu.com##+js(set, RTCPeerConnection.prototype.addTrack, noopFunc)
 ||douyucdn.cn/adxdsp/$image
 wan.douyu.com
 douyu.com##.Title-ad, .DropMenuList-ad, .DropPane-ad
-douyu.com,huya.com##a[href^="https://g.wan."]
+douyu.com##a[href^="https://g.wan."]
+huya.com##a[href^="https://wan."]
 huya.com###hy-ad,#hy-ab,#huya-ab
-www.huya.com##.main-ab-close-mode, div.sidebar-banner
+www.huya.com##.sidebar-banner
+!www.huya.com##.ab-main
+www.huya.com###public-screen-ab
 ||business.msstatic.com/advertiser/$image
 ||midext2.cdn.huya.com/ext-web-mid/ext-web-sub-frame/$subdocument
+||live-cover.msstatic.com/huyalive/*.jpg?$image
+||tx-live-cover.msstatic.com/huyalive/*.jpg?$image
+||a.msstatic.com/huya/main3/components/OnTVLottery/$script
 g.huya.com
-||msstatic.com/huya/*/p2plib.js$script
+statwup.huya.com
+va.huya.com
 www.ted.com##.gm-fp-body .justify-center.tracking-tightest
 ||onetrust.
 litix.io
@@ -2505,6 +2512,12 @@ newduba.cn###jq_youxi
 ||zfzys.top^
 ||zhaweifeng.com^
 ||zhihucloud.xyz^
+||hspdiom.cn^
+||sjgsgy.xyz^
+||cfugrnc.icu^
+||jdbeht.xyz^
+||orbnarb.xyz^
+||baucraell.com^
 ||zhnnaxe.xyz^
 ||zjrtxt.xyz^
 ||znhlxvb.xyz^
@@ -23123,7 +23136,7 @@ m.babytree.com##script + a[class]
 /metrics/event?
 /metrics/ga.js
 /metrics/init?
-/metrics/metrics$domain=~docs.datadoghq.com|~source.dot.net|~spatineo.com
+/metrics/metrics$domain=~docs.datadoghq.com|~github.com|~source.dot.net|~spatineo.com
 /metrics/onload
 /metrics/ping?
 /metrics/rum
@@ -29119,6 +29132,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||barium.cheezdev.com^
 ||basis.net/assets/up.js
 ||bat.bing.com^
+||bat.bing.net^
 ||baxter.olx.org^
 ||bazaarvoice.com/sid.gif
 ||bb.itwc.ca/js/cube.js
@@ -32221,6 +32235,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.ceneo.pl^
 ||analytics.greensender.pl^$third-party
 ||ar1.aza.io^
+||ave-caesar-mas.modivo.io^
 ||cafenews.pl/mpl/static/static.js?
 ||cmp.dreamlab.pl^
 ||dsg.interia.pl^
