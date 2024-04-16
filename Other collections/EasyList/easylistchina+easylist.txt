@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: c4cSxdgaglqCuyPA7SxTSA
-! Version: 202404160501
+! Checksum: 1P3/JebrEKCwMeWI2mqlRQ
+! Version: 202404160601
 ! Title: EasyList China+EasyList
-! Last modified: 16 Apr 2024 05:01 UTC
+! Last modified: 16 Apr 2024 06:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -19281,7 +19281,6 @@ fqsousou.com,kengso.com#@#.user-share
 -contrib-ads.$~stylesheet
 -display-ads.
 -footerads.
--gpt-ad-$~xmlhttprequest
 -housead-
 -page-ad.
 -page-peel/
@@ -19295,8 +19294,6 @@ fqsousou.com,kengso.com#@#.user-share
 -sidebar-ad.
 -sponsor-ad.
 -sticky-ad-
--strip-ads-
--takeover-ad-
 -top-ads.
 -web-advert-
 -Web-Advert.
@@ -19412,41 +19409,34 @@ fqsousou.com,kengso.com#@#.user-share
 /ad.css?
 /ad.html?
 /ad.min.
-/ad.skin.
 /ad/a.aspx?
-/ad/banner.
 /ad/banners/*
 /ad/common_
 /ad/dfp/*
-/ad/empty.
 /ad/err?
 /ad/getban?
-/ad/guest/*
 /ad/html/*
 /ad/image/*
 /ad/images/*$domain=~studiocalling.it
 /ad/img/*
 /ad/imp?
-/ad/leaderboard.
 /ad/load_ad?
-/ad/player_
 /ad/popup.
 /ad/skin-
 /ad/skin_
-/ad/skyscraper.
 /ad/sponsors/*
 /ad/view/*
 /ad/zeus/*
-/ad300.
+/ad300.jpg
+/ad300.js
+/ad300.png
 /ad?count=
 /ad?pos_
 /ad?sponsor=
 /ad?type=
 /ad_300250.
 /ad_728.
-/ad_area.
 /ad_banner/*
-/ad_base.
 /ad_bottom.
 /ad_break?
 /ad_campaign?
@@ -19460,31 +19450,20 @@ fqsousou.com,kengso.com#@#.user-share
 /ad_home.js
 /ad_images/*
 /ad_img/*
-/ad_include.
-/ad_index_
 /ad_label_
-/ad_lazyload.
 /ad_left.
 /ad_left_
 /ad_manager/*
-/ad_overlay.
-/ad_peel/*$script
-/ad_popup_
+/ad_overlay.js
 /ad_pos=
 /ad_position=
-/ad_provider.
-/ad_refresh.
-/ad_request.
+/ad_request.js
+/ad_request.php
 /ad_right.
 /ad_rotator/*
 /ad_server.
 /ad_side.
-/ad_skin_
-/ad_skyscraper.
-/ad_slideout.
-/ad_space.
-/ad_spot.
-/ad_square.
+/ad_skyscraper.gif
 /ad_sticky.js
 /ad_top.jpg
 /ad_top.js
@@ -19500,13 +19479,10 @@ fqsousou.com,kengso.com#@#.user-share
 /adcgi?
 /adcheck.
 /adchoice.
-/adchoice_
-/adchoices_
-/adchoicesicon.
-/adchoiceslogo.
 /adcommon?
-/adconfig.
-/adcount.$domain=~adcount.com|~adcount.fi
+/adconfig.js
+/adcount.js
+/adcount.php
 /adcreative.$domain=~adcreative.es|~adcreative.nl|~hange.jp
 /addons/ads.
 /addons/ads/*
@@ -19528,21 +19504,19 @@ fqsousou.com,kengso.com#@#.user-share
 /adlayer.php
 /adlib.min.js
 /adlog.php
-/admanager.$~object,~xmlhttprequest,domain=~admanager.alzura.com|~admanager.google.com|~admanager.line.biz|~admanager.opera.com|~admanager.roku.com|~admanager.sevio.com
+/admanager.css
+/admanager.js
+/admanager.min.js
 /admanager/*$~object,domain=~admanager.line.biz|~blog.google|~sevio.com
-/admgr.
+/admgr.js
 /admitad.js
-/adModule.
-/ADNet/*
-/adnet2.
-/adnetmedia.$domain=~adnetmedia.ee|~adnetmedia.hu|~adnetmedia.lt|~adnetmedia.lv
-/adocean.
-/adops.$domain=~adops.co.il|~adops.gr
+/adocean.js
 /ados.js
 /adpartner.min.js
 /adplayer.$script,domain=~adplayer.pro
 /adplugin.
-/adpopup.
+/adpopup.js
+/adpopup.php
 /adright.$domain=~adright.com
 /adriver.$~script,domain=~adriver.co
 /adriver_$~object
@@ -19917,37 +19891,26 @@ fqsousou.com,kengso.com#@#.user-share
 /didna_config.js
 /direct.hd?n=
 /discourse-adplugin-
-/display-ads/*
-/displayad/*
 /displayad?
 /displayAdFrame.
-/displayads.
-/displayads/*
 /dmcads_$script
 /doubleclick.aspx
 /doubleclick.min
 /doublepimp2.js
 /drsup-admanager-ajax.js
 /dynamic/ads/*
-/dynamic_ads/*
-/DynamicAd/*
 /dynamicad?
-/dynamicAds.
 /easyazon-
 /ec5bcb7487ff.js
-/emailads/*
 /embed/ad/*
-/embed_ad.
-/ero-ads-
+/embed_ad.php
 /ero-ads_
-/ero-advertising.
 /ero.htm
-/eroadvertising.$domain=~eroadvertising.com
-/erobanner.
-/exitpop.
-/exitpopunder.
-/exitpopup.
-/exitsplash.
+/erobanner.js
+/exitpop.js
+/exitpopunder.js
+/exitpopup.js
+/exitsplash.php
 /exoads/*
 /exobanner.
 /exoclick.$~script,domain=~exoclick.bamboohr.co.uk|~exoclick.kayako.com
@@ -20025,6 +19988,7 @@ fqsousou.com,kengso.com#@#.user-share
 /googleafs.js
 /gpt.js$script,xmlhttprequest
 /gpt_ads-public.js
+/GunosyAdsSDKv2.js
 /headerads1.php
 /homepage_ads/*$domain=~swedishbeauty.com
 /house-ad.js
@@ -40828,6 +40792,7 @@ browsershots.org#@#.advert_area
 ||aviewrodlet.com^
 ||avinekernish.digital^
 ||avjbjbeeraebj.top^
+||avjbjbeeramzv.top^
 ||avkktuywj.xyz^
 ||avkyu1tesnwy.com^
 ||avnmjtqu.com^
@@ -45661,6 +45626,7 @@ browsershots.org#@#.advert_area
 ||daero.pw^
 ||daethana.pw^
 ||daffaite.com^
+||daffyfleecy.top^
 ||daggapartley.life^
 ||daggerwantedliterally.com^
 ||daiboit.com^
@@ -46467,6 +46433,7 @@ browsershots.org#@#.advert_area
 ||dilatesdubbers.com^
 ||diligentrefrigerator.pro^
 ||dilip-xko.com^
+||dillselias.top^
 ||dilrouthoab.com^
 ||dilruwha.net^
 ||dilutegulpedshirt.com^
@@ -51830,6 +51797,7 @@ browsershots.org#@#.advert_area
 ||grooksom.com^
 ||groomoub.com^
 ||groomtoo.com^
+||groomysirups.top^
 ||groorsoa.net^
 ||grooseem.net^
 ||groosoum.xyz^
@@ -55728,6 +55696,7 @@ browsershots.org#@#.advert_area
 ||khuanynodefado.com^
 ||khvphqpsl.com^
 ||kiaughsviner.com^
+||kibnannaewyl.com^
 ||kicationandas.info^
 ||kichelcozier.top^
 ||kicka.xyz^
@@ -61232,6 +61201,7 @@ browsershots.org#@#.advert_area
 ||oorbfdycj.com^
 ||oordeevum.com^
 ||ooredi.com^
+||oorsooga.com^
 ||oosonechead.org^
 ||oossautsid.com^
 ||oosthvayk.com^
@@ -66196,6 +66166,7 @@ browsershots.org#@#.advert_area
 ||rollobscurewoke.com^
 ||rollserver.xyz^
 ||rolltrafficroll.com^
+||rolsoupouh.xyz^
 ||rolzqwm.com^
 ||romance-net.com^
 ||romancemind.com^
@@ -72956,6 +72927,7 @@ browsershots.org#@#.advert_area
 ||vocalreverencepester.com^
 ||vocath.com^
 ||vodjnqarncm.com^
+||vodlpsf.com^
 ||vodobyve.pro^
 ||vodsourg.net^
 ||vohqpgsdn.xyz^
@@ -73057,6 +73029,7 @@ browsershots.org#@#.advert_area
 ||vrhgfvztgmcl.com^
 ||vrhorus.com^
 ||vriddhiejidal.com^
+||vrime.xyz^
 ||vroaafoi.com^
 ||vrplynsfcr.xyz^
 ||vrquqhnikhcnixn.com^
@@ -74016,6 +73989,7 @@ browsershots.org#@#.advert_area
 ||wmkyrbx.com^
 ||wmlbjana.com^
 ||wmlfyerssqlipx.com^
+||wmnnjfe.com^
 ||wmober.com^
 ||wmpset.com^
 ||wmptcd.com^
@@ -80238,6 +80212,7 @@ browsershots.org#@#.advert_area
 ||popblockergold.info^$popup
 ||popcash.net^$popup
 ||popcornvod.com^$popup
+||poperblocker.com^$popup
 ||popmyads.com^$popup
 ||poponclick.com^$popup
 ||popped.biz^$popup
@@ -80246,6 +80221,8 @@ browsershots.org#@#.advert_area
 ||popunderjs.com^$popup
 ||popupblocker-download.com^$popup
 ||popupblockergold.com^$popup
+||popupblockernow.com^$popup
+||popupsblocker.org^$popup
 ||popwin.net^$popup
 ||porlandzor.com^$popup
 ||pornhb.me^$popup
@@ -80834,6 +80811,7 @@ browsershots.org#@#.advert_area
 ||stacckain.com^$popup
 ||stageryawreak.top^$popup
 ||stammerail.com^$popup
+||stannelberated.top^$popup
 ||starewhupsu.pro^$popup
 ||starmobmedia.com^$popup
 ||starry-galaxy.com^$popup
@@ -82671,6 +82649,7 @@ browsershots.org#@#.advert_area
 ||mmosale.com/baner_images/
 ||mmwebhandler.888.com^
 ||monetize-static.viralize.tv^
+||moviedollars.com/dynamic_ads/
 ||mps.nbcuni.com/fetch/ext/
 ||mydirtyhobby.com^$third-party,domain=~my-dirty-hobby.com|~mydirtyhobby.de
 ||myfinance.com^$subdocument,third-party
