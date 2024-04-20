@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SRyNHGWuhX+ruvwOZQunzA
+! Checksum: 4zSwoPmuwg3vfTyPuxZS4Q
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202404200200
-! Last Modified: 2024年04月20日 02:00
+! Version: 202404200801
+! Last Modified: 2024年04月20日 08:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -81,7 +81,7 @@ synacast.com
 de.as.pptv.com
 ||g.pptv.com/game/$subdocument
 ||osswc.pplive.cn/cccms/$image
-||cmvideo.cn/v1/iflyad/delivery$media,domain=miguvideo.com
+||cmvideo.cn/v1/iflyad/$media,image,domain=miguvideo.com
 pub.funshion.com
 ||relive.vodfile.m1905.com/video/qiantie202$media
 1905.com##.pauseInfoWrap:remove()
@@ -2551,6 +2551,13 @@ newduba.cn###jq_youxi
 ||zhaweifeng.com^
 ||zhihucloud.xyz^
 ||zhnnaxe.xyz^
+||wvwqywz.cn^
+||wsoqwm.xyz^
+||oqnkur.icu^
+||ankczwr.icu^
+||wyuwkbe.top^
+||hrjctx.xyz^
+||pdnhcks.xyz^
 ||zjrtxt.xyz^
 ||znhlxvb.xyz^
 ||zojyob.icu^
@@ -8452,6 +8459,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||ctrip.com/amd/*960x90.
 ||ctrip.com/Domestic/tool/AjaxGetCPTList.ashx?advpositioncode=
 ||cupid.iqiyi.com/mixer?
+||cupid.iqiyi.com/show2?
 ||cww.net.cn/include/show.asp?boardID=
 ||cww.net.cn/js/urdev.js
 ||cycyw.com/mf/
@@ -24819,6 +24827,7 @@ omni.soundestlink.com$image
 ||apenterprise.io^
 ||apxl.io^
 ||as3.io^
+||avads.net^
 ||awmonitor.com^
 ||bfmio.com^
 ||bidgx.com^
@@ -31425,6 +31434,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dl1d2m8ri9v3j.cloudfront.net^
 ||dljnjom9md7c.cloudfront.net/02/zara.js
 ||dn34cbtcv9mef.cloudfront.net^
+||dniyppubkuut7.cloudfront.net^
 ||dnn506yrbagrg.cloudfront.net^
 ||dnxlgencstz4.cloudfront.net^
 ||drlimmode9ddd.cloudfront.net^
@@ -32883,6 +32893,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||data.webullfintech.com/event/
 ||data.younow.com^
 ||datadoghq.com/assets/dd-browser-logs-rum.js
+||datadome.maisonsdumonde.com^
 ||datadome.patreon.com^
 ||datayze.com/callback/record_visit?
 ||dbhsejcg-meetup-com.cdnjs.network^
@@ -33329,6 +33340,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mcs-ie.tiktokw.eu^
 ||mcs-va.tiktokv.com^
 ||mcs.tiktokv.us^
+||mcs.tiktokw.us^
 ||mcs.us.tiktokv.com^
 ||medal.tv^$ping
 ||medium.com/_/batch
@@ -33795,6 +33807,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tapeadsenjoyer.com/stat/
 ||tapeantiads.com/stat/
 ||tapeblocker.com/stat/
+||tapelovesads.org/stat/
 ||tapenoads.com/stat/
 ||tapewithadblock.com/stat/
 ||tapewithadblock.org/stat/
