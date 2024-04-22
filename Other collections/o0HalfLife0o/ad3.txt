@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2Y4XyfS6aJbksEGBZn1a8w
+! Checksum: XfQt8dAjvs6EdAZOFH9F6A
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202404220801
-! Last Modified: 2024年04月22日 08:01
+! Version: 202404221400
+! Last Modified: 2024年04月22日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -69,6 +69,7 @@ xtgreat.com
 bilibili.com##.ad-report, .ad-floor
 bilibili.com##.gg-floor-module,#slide_ad,a[href^="//cm.bilibili.com"]
 ||api.bilibili.com/x/web-show/res/loc?pf=$~script
+||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js^$script,redirect=noop.js
 ||hdslb.com/bfs/sycp/creative_img/$image
 cm.bilibili.com
 acfun.cn##.pause-display-container,#ad-comment,#ad-player-view
@@ -85,6 +86,7 @@ de.as.pptv.com
 pub.funshion.com
 ||relive.vodfile.m1905.com/video/qiantie202$media
 1905.com##.pauseInfoWrap:remove()
+sobot.com
 @@||tb.mgtv.com/sdk/*/ad-sdk.
 ad-survey.com
 ||video.da.mgtv.com/$media
@@ -168,7 +170,7 @@ jads.co
 age.tv,agedm.org##+js(noeval-if, devtoolsDetector)
 ||toutiaoimg.com/origin/$image,domain=agedm.org|acgndmku.com|subaibaiys.com
 dandanzan.com,dandanzan10.top,nunuyy5.org##+js(set,webkitRTCPeerConnection,null)
-dandanzan.com,dandanzan10.top,nunuyy5.org##.gm-fp-body video:style(max-height:100%!important)
+dandanzan.com,nnyy.in##.gm-fp-body video:style(max-height:100%!important)
 aqours.today
 2qpqwkx.cn
 z4a.net
@@ -2579,6 +2581,7 @@ newduba.cn###jq_youxi
 ||meqanhm.icu^
 ||rnpkxgfp.xyz^
 ||tyuwkbi.top^
+||toutanymm.asia^
 ||zjrtxt.xyz^
 ||znhlxvb.xyz^
 ||zojyob.icu^
@@ -21492,7 +21495,6 @@ m.babytree.com##script + a[class]
 .jp/pv?
 .jp/static/js/track.js
 .js?id=GTM-
-.lms-analytics/
 .net/l.gif?
 .no/app/aas/a
 .php?action=browse&
@@ -22701,6 +22703,7 @@ m.babytree.com##script + a[class]
 /leadtag.js
 /leage.google.tracker.js
 /lhnhelpouttab-current.min.js
+/li.lms-analytics/insight.min.js
 /lib/analytics.js
 /library/svy/broker.js
 /libs/tracker.js
