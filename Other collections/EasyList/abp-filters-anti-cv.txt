@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: nAB7dGGUmSRmdS2MlOJr3w
-! Version: 202404231101
+! Checksum: 3uNpzTwhMEa3nn+A/2bU+A
+! Version: 202404231211
 ! Title: ABP filters
-! Last modified: 23 Apr 2024 11:01 UTC
+! Last modified: 23 Apr 2024 12:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -909,7 +909,7 @@ nhentai.net#$#override-property-read _n_app.popunder null;
 forums.socialmediagirls.com,masahub.net#$#abort-on-property-write zfgloadedpopup;
 hitomi.la#$#override-property-read popsource null; override-property-read adsdir null; override-property-read ad_cookieconsent false; override-property-read D4zz undefined; abort-on-property-read _pop; abort-on-property-read hitomi; abort-on-property-read open; override-property-read ad_idzone null; abort-on-property-read ylmkAp.addZone; override-property-read ad_popup_fallback false;
 ahvsh.com,sbanh.com,sbembed.com,sblona.com,sblongvu.com,sbplay2.com,sbrapid.com,streamhide.to,streamhide.to,streamsb.com,streamsb.net,viewsb.com#$#abort-on-property-read __Y
-1337x.buzz,realgfporn.com#$#abort-current-inline-script document.createElement script
+1337x.buzz,realgfporn.com,thepiratebay10.xyz#$#abort-current-inline-script document.createElement script
 sxyprn.com#$#abort-current-inline-script vast_urls; override-property-read D4zz undefined
 123moviesgo.club#$#abort-on-property-write atAsyncContainers
 123moviesgo.club#$#abort-current-inline-script Math /break|case/
