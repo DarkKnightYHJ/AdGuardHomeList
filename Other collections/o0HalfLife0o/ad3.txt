@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: p9bCe8hPkErpCAiyLNdgdA
+! Checksum: hncKaGVsAr5fymv1qR9VAw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202404240200
-! Last Modified: 2024年04月24日 02:00
+! Version: 202404240800
+! Last Modified: 2024年04月24日 08:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -142,8 +142,8 @@ www.huya.com##.sidebar-banner
 www.huya.com##.duya-header-right,#public-screen-ab
 ||business.msstatic.com/advertiser/$image
 ||midext2.cdn.huya.com/ext-web-mid/ext-web-sub-frame/$subdocument
-||live-cover.msstatic.com/huyalive/*.jpg?$image
-||tx-live-cover.msstatic.com/huyalive/*.jpg?$image
+||live-cover.msstatic.com/huyalive/*.jpg?x$image
+||tx-live-cover.msstatic.com/huyalive/*.jpg?x$image
 ||msstatic.com/huya/main3/components/OnTVLottery/$script
 ||msstatic.com/huya/main3/assets/modules/CommercialAdSdk/$script
 ||cdn.huya.com/leaf/*_max.m3u8?$xhr
@@ -2598,6 +2598,11 @@ newduba.cn###jq_youxi
 ||zhaweifeng.com^
 ||zhihucloud.xyz^
 ||zhnnaxe.xyz^
+||xfrahb.xyz^
+||sogoks.xyz^
+||qvonje.cn^
+||yvwuesh.icu^
+||oyuwkbk.top^
 ||zjrtxt.xyz^
 ||znhlxvb.xyz^
 ||zojyob.icu^
