@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: b7Qrk3kfll1X8HHpDsIFjA
-! Version: 202404241401
+! Checksum: 9jdWwk7rt0gaB9t/umr/gQ
+! Version: 202404241501
 ! Title: ABP filters
-! Last modified: 24 Apr 2024 14:01 UTC
+! Last modified: 24 Apr 2024 15:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1125,6 +1125,7 @@ crazyshit.com#$#abort-on-property-read window.cs.ads
 rakuten.com###second_promo
 rakuten.com#$#hide-if-contains-visible-text /Sponsorisée/ 'div[class*="flex-row"]' 'div[class*="flex"]>span[class*="sponsoredTag"]'
 poki.com#$#hide-if-matches-xpath './/div[contains(@style,"height")]/following-sibling::div[@class][contains(.,"Advertisement")]/parent::div[1]'
+bettycrocker.com,pillsbury.com#$#simulate-mouse-event 'xpath(.//div[@class="adAboveSiteHeader"]//span[@class="closeAdButton"][@aria-label])'
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
