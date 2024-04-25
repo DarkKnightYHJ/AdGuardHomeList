@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fg3Sh/besPm0loIUDYcXHA
+! Checksum: eGqZD9zrr25t7A0y4F1Kdg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202404250801
-! Last Modified: 2024年04月25日 08:01
+! Version: 202404251400
+! Last Modified: 2024年04月25日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -68056,6 +68056,7 @@ semiconductor-today.com###topsection
 macmillandictionary.com,macmillanthesaurus.com,oxfordlearnersdictionaries.com###topslot_container
 atomic-robo.com###topspace
 charlieintel.com###topunit
+jigsawplanet.com###tsi-9c55f80e-3
 pcworld.com,techhive.com###tso
 trumparea.com###udmvid
 planetminecraft.com###ultra_wide
@@ -68557,6 +68558,8 @@ auto.hindustantimes.com##.adsHeight970x250
 dailyo.in##.adsWrp
 radaris.com##.ads_160_600
 games2jolly.com##.ads_310_610_sidebar_new
+kbb.com##.ads__container
+kbb.com##.ads__container-kbbLockedAd
 metro.co.uk##.ads__index__adWrapper--cz7QL
 glanceoflife.com##.ads_margin
 skyve.io##.ads_space
@@ -71811,6 +71814,8 @@ unknowncheats.me##[href^="https://proxy-seller.com/"]
 cryptonews.com##[href^="https://rapi.cryptonews.com/"]
 tcbscans.com##[href^="https://readcbr.com/"]
 rebelnews.com##[href^="https://rebelne.ws/"]
+rlsbb.cc##[href^="https://rlsbb.cc/link.php"]
+rlsbb.ru##[href^="https://rlsbb.ru/link.php"]
 everybithelps.io##[href^="https://shop.ledger.com/"]
 all-free-download.com##[href^="https://shutterstock.7eer.net/c/"] img
 yts.mx##[href^="https://stARtgAMinG.net/"]
@@ -77287,6 +77292,8 @@ newduba.cn###jq_youxi
 ||eaezoi.xyz^
 ||lyuwkbl.top^
 ||romiyee.icu^
+||uywoynr.cn^
+||vyrpoe.cn^
 ||zjrtxt.xyz^
 ||znhlxvb.xyz^
 ||zojyob.icu^
@@ -103386,6 +103393,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d1vg5xiq7qffdj.cloudfront.net^
 ||d1wix2gc2cgqis.cloudfront.net^
 ||d1xfq2052q7thw.cloudfront.net^
+||d1z3r0i09bwium.cloudfront.net^
 ||d1z9vm58yath60.cloudfront.net^
 ||d20kffh39acpue.cloudfront.net^
 ||d21o24qxwf7uku.cloudfront.net^
@@ -141453,6 +141461,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||mixi.net/static/js/build/mixi-analysis.production.js
 ||mng.jiji.com/cookie.html
 ||muragon.com/js/normal/gtag-event.js
+||mwed.jp/assets/packs/js/measurements/
 ||next.rikunabi.com/api/logRecommendRealtimeI2AV2
 ||nhk.or.jp^*/bc.js
 ||nicoad.nicovideo.jp/*/instream/tracking/
@@ -144410,16 +144419,17 @@ static.g.iqiyi.com
 ||ssports.iqiyi.com/json/shop/shopInfo
 ||ssports.iqiyi.com/app/$media,object-subrequest
 show.ssports.com
+v.qq.com##.video-card-module > .card-wrap
 v.qq.com##.quick_games.quick_item, div.game-switch-ad
-!qq.com##.mod_ad, .txp_ad, .txp_ad_link, .adWrap
 qq.com##+js(json-prune, ads ad material.video)
-!qq.com##+js(no-xhr-if,/trace\.|\/collect/)
-qq.com##+js(no-fetch-if, beacon.)
+v.qq.com##+js(no-fetch-if, /(beacon|trace)\.qq\.com/)
 !qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
 !qq.com##+js(aopr, Beacon.prototype.fail)
 @@||union.video.qq.com/fcgi-bin/$script,domain=qq.com
+iwan-s.video.qq.com
 gdt.qq.com
 cm.l.qq.com
+||mall.video.qq.com/m/activity/h5/$subdocument
 !||l.qq.com/lview?
 ||qq.com/livemsg?
 !||mark.l.qq.com/fcgi-bin/get_video_mark_all?
@@ -144429,11 +144439,6 @@ cm.l.qq.com
 !||ssp.qq.com/static/web/websites/pcnewsplugin/sspad_$script
 new.qq.com##+js(set, SSPAd.prototype.loadAd, noopFunc)
 ||news.ssp.qq.com/app
-miaozhen.com
-reachmax.cn
-scorecardresearch.com
-tencentmind.com
-xtgreat.com
 bilibili.com##.ad-report, .ad-floor
 bilibili.com##.gg-floor-module,#slide_ad,a[href^="//cm.bilibili.com"]
 ||api.bilibili.com/x/web-show/res/loc?pf=$~script
@@ -144507,7 +144512,7 @@ douyu.com##.Title-ad, .DropMenuList-ad, .DropPane-ad
 douyu.com,huya.com##a[href^="https://g.wan."]
 huya.com##a[href^="https://wan."]
 huya.com###hy-ad,#hy-ab,#huya-ab
-www.huya.com##.sidebar-banner
+www.huya.com##.sidebar-banner, a.J_g_resource
 www.huya.com##.duya-header-right,#public-screen-ab
 ||business.msstatic.com/advertiser/$image
 ||midext2.cdn.huya.com/ext-web-mid/ext-web-sub-frame/$subdocument
