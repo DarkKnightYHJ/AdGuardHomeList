@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ClKpbvQqmk3EVy16aL+EYQ
-! Version: 202404261611
+! Checksum: Qy2mFAU9lEAriC5ahohcbw
+! Version: 202404261701
 ! Title: EasyList
-! Last modified: 26 Apr 2024 16:11 UTC
+! Last modified: 26 Apr 2024 17:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4172,6 +4172,7 @@ _800x80_
 ###block-adsense-2
 ###block-adsense-banner-article-bottom
 ###block-adsense-banner-channel-bottom
+###block-adsenseleaderboard
 ###block-advertisement
 ###block-advertorial
 ###block-articlebelowtextad
@@ -9025,6 +9026,7 @@ _800x80_
 ##.ad_item
 ##.ad_label
 ##.ad_large
+##.ad_lb
 ##.ad_leader
 ##.ad_leader_bottom
 ##.ad_leader_plus_top
@@ -17654,7 +17656,7 @@ stuff.tv#@#.c-ad
 thedigestweb.com#@#.c-ad-banner
 deployhappiness.com,dmitrysotnikov.wordpress.com,faravirusi.com,freedom-shift.net,lovepanky.com,markekaizen.jp,netafull.net,photopoint.com.ua,posh-samples.com#@#.category-ad:not(html):not(body)
 business-hack.net,clip.m-boso.net,iine-tachikawa.net,meihong.work#@#.category-ads:not(html):not(body)
-accuweather.com,deadline.com,heraldsun.com#@#.cnx-player-wrapper
+accuweather.com,deadline.com,heraldsun.com,olhardigital.com.br#@#.cnx-player-wrapper
 studio55.fi#@#.column-ad
 huffpost.com#@#.connatix-wrapper
 fontspace.com,skyrimcommands.com#@#.container-ads
@@ -65871,7 +65873,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||cdn.ex.co^$third-party
 ||cdn.thejournal.ie/media/hpto/$image
 ||channelexco.com/player/$third-party
-||connatix.com^$third-party,domain=~accuweather.com|~deadline.com|~elnuevoherald.com|~heraldsun.com|~huffpost.com|~lmaoden.tv|~loot.tv|~miamiherald.com|~sacbee.com
+||connatix.com^$third-party,domain=~accuweather.com|~deadline.com|~elnuevoherald.com|~heraldsun.com|~huffpost.com|~lmaoden.tv|~loot.tv|~miamiherald.com|~olhardigital.com.br|~sacbee.com
 ||delivery.vidible.tv/jsonp/
 ||dywolfer.de^
 ||elements.video^$domain=fangoria.com
