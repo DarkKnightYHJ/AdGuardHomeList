@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VtZTG/3uObDhP828mj411Q
+! Checksum: Dt2X/KfMU6FdAih+GOM3VA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202404270800
-! Last Modified: 2024年04月27日 08:00
+! Version: 202404271400
+! Last Modified: 2024年04月27日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -14274,6 +14274,7 @@ _800x80_
 ##.layer_text_ad
 ##.layeradinfo
 ##.layout-ad
+##.layout__right-ads
 ##.layout_h-ad
 ##.lazy-ad
 ##.lazy-ad-unit
@@ -17241,6 +17242,7 @@ _800x80_
 ##a[href^="https://click.hoolig.app/"]
 ##a[href^="https://click.linksynergy.com/fs-bin/"] > img
 ##a[href^="https://clickadilla.com/"]
+##a[href^="https://clickins.slixa.com/"]
 ##a[href^="https://clicks.pipaffiliates.com/"]
 ##a[href^="https://clixtrac.com/"]
 ##a[href^="https://combodef.com/"]
@@ -17258,10 +17260,12 @@ _800x80_
 ##a[href^="https://getmatchedlocally.com/"]
 ##a[href^="https://getvideoz.click/"]
 ##a[href^="https://go.admjmp.com"]
+##a[href^="https://go.bushheel.com/"]
 ##a[href^="https://go.cmtaffiliates.com/"]
 ##a[href^="https://go.dmzjmp.com"]
 ##a[href^="https://go.etoro.com/"] > img
 ##a[href^="https://go.goaserv.com/"]
+##a[href^="https://go.grinsbest.com/"]
 ##a[href^="https://go.hpyjmp.com"]
 ##a[href^="https://go.hpyrdr.com/"]
 ##a[href^="https://go.markets.com/visit/?bta="]
@@ -19722,6 +19726,7 @@ browsershots.org#@#.advert_area
 ||adswam.com^
 ||adswizz.com^
 ||adsxyz.com^
+||adsymptotic.com^
 ||adt328.com^
 ||adt545.net^
 ||adt567.net^
@@ -66009,6 +66014,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||turbobit.net/pus/
 ||twt-assets.washtimes.com^$script,domain=washingtontimes.com
 ||ubuntugeek.com/images/ubuntu1.png
+||uhdmovies.eu/axwinpop.js
 ||ukcampsite.co.uk/banners/
 ||unmoor.com/config.json
 ||uploadcloud.pro/altad/
@@ -68556,6 +68562,7 @@ cointelegraph.com##.advertise-with-us-link_O9rIX
 salon.com##.advertise_text
 aan.com,aarp.org,additudemag.com,animax-asia.com,apkforpc.com,audioxpress.com,axn-asia.com,bravotv.com,citiblog.co.uk,cnbctv18.com,cnn59.com,controleng.com,downzen.com,dw.com,dwturkce.com,escapeatx.com,foodsforbetterhealth.com,gemtvasia.com,hcn.org,huffingtonpost.co.uk,inqld.com.au,inspiredminds.de,investmentnews.com,jewishworldreview.com,legion.org,lifezette.com,livestly.com,magtheweekly.com,moneyland.ch,offshore-energy.biz,onetvasia.com,oxygen.com,pch.com,prospectmagazine.co.uk,readamericanfootball.com,readarsenal.com,readastonvilla.com,readbasketball.com,readbetting.com,readbournemouth.com,readboxing.com,readbrighton.com,readbundesliga.com,readburnley.com,readcars.co,readceltic.com,readchampionship.com,readchelsea.com,readcricket.com,readcrystalpalace.com,readeverton.com,readeverything.co,readfashion.co,readfilm.co,readfood.co,readfootball.co,readgaming.co,readgolf.com,readhorseracing.com,readhuddersfield.com,readhull.com,readinternationalfootball.com,readlaliga.com,readleicester.com,readliverpoolfc.com,readmancity.com,readmanutd.com,readmiddlesbrough.com,readmma.com,readmotorsport.com,readmusic.co,readnewcastle.com,readnorwich.com,readnottinghamforest.com,readolympics.com,readpl.com,readrangers.com,readrugbyunion.com,readseriea.com,readshowbiz.co,readsouthampton.com,readsport.co,readstoke.com,readsunderland.com,readswansea.com,readtech.co,readtennis.co,readtottenham.com,readtv.co,readussoccer.com,readwatford.com,readwestbrom.com,readwestham.com,readwsl.com,reason.com,redvoicemedia.com,revolver.news,rogerebert.com,smithsonianmag.com,streamingmedia.com,the-scientist.com,thecatholicthing.org,therighthairstyles.com,topsmerch.com,weatherwatch.co.nz,wheels.ca,whichcar.com.au,woot.com,worldofbitco.in##.advertisement
 topsmerch.com##.advertisement--6
+topsmerch.com##.advertisement-2-box
 devdiscourse.com##.advertisement-area
 business-standard.com##.advertisement-bg
 atlasobscura.com##.advertisement-disclaimer
@@ -69583,6 +69590,7 @@ domainnamewire.com,goodthingsguy.com##.g-single
 yellowise.com##.g-widget-block
 titantv.com##.gAd
 theweathernetwork.com##.gGthWi
+issuu.com##.gMUVke
 getgreenshot.org##.ga-ldrbrd
 getgreenshot.org##.ga-skscrpr
 elevenforum.com,html-code-generator.com##.gads
@@ -69994,6 +70002,7 @@ mytempsms.com##.layui-col-md12
 flotrack.org##.lazy-leaderboard-container
 iol.co.za##.lbMtEm
 trueachievements.com,truesteamachievements.com,truetrophies.com##.lb_holder
+issuu.com##.lbiKNr
 coincodex.com##.ldb-1top
 coincodex.com##.ldb-top
 soaphub.com##.ldm_ad
@@ -71994,6 +72003,7 @@ foxcincinnati.com##a[href^="https://www.safeauto.com"]
 sportscardforum.com##a[href^="https://www.sportscardforum.com/rbs_banner.php?"]
 thecatholictravelguide.com##a[href^="https://www.squaremouth.com/"]
 adfoc.us##a[href^="https://www.survivalservers.com/"]
+itsfoss.com##a[href^="https://www.warp.dev"]
 yugatech.com##a[href^="https://yugatech.ph/"]
 kitguru.net##a[id^="href-ad-"]
 himovies.to,home-barista.com,rarpc.co,washingtontimes.com##a[onclick]
@@ -73266,6 +73276,7 @@ str8ongay.com##.aside-itempage-col
 ad69.com##.aside-section
 sexvid.pro##.aside_thumbs
 hd21.com##.aside_video
+veev.to##.avb-active
 avn.com##.avn-article-tower
 mrskin.com##.az
 fapeza.com##.azz_div
@@ -73626,6 +73637,7 @@ eboblack.com,teenxy.com##.out_lnk
 beemtube.com##.overspot
 javtiful.com##.p-0[style="margin-top: 0.45rem !important"]
 zbporn.com##.p-ig
+hot.co.uk,hot.com##.p-search__action-results.badge-absolute.text-div-wrap.top
 empflix.com##.pInterstitialx
 hobby.porn##.pad
 xxxdan3.com##.partner-site
@@ -77252,6 +77264,7 @@ newduba.cn###jq_youxi
 ||nwxaxx.xyz^
 ||hweriou.top^
 ||dfsgppz.icu^
+||qcepqj.icu^
 ||zjrtxt.xyz^
 ||znhlxvb.xyz^
 ||zojyob.icu^
@@ -95670,6 +95683,7 @@ fqsousou.com,kengso.com#@#.user-share
 /rwtag.js
 /s-pcjs.php
 /s.gif?
+/s/vestigo/measure
 /s_code_global_context.js
 /s_trans.gif?
 /sa.gif?
@@ -97039,6 +97053,7 @@ omni.soundestlink.com$image
 ||pixrealm.com^
 ||pjstat.com^
 ||plausiblecdn.co^
+||prfct.co^
 ||procroanalytics.com^
 ||progmxs.com^
 ||pushvisit.xyz^
@@ -97150,6 +97165,7 @@ omni.soundestlink.com$image
 ||zippyfrog.co^
 ||zononi.com^
 ||zqtk.net^
+||ztsrv.com^
 ||0emm.com^$third-party
 ||103bees.com^$third-party
 ||105app.com^$third-party
@@ -98781,7 +98797,6 @@ omni.soundestlink.com$image
 ||predictiveresponse.net^$third-party
 ||premiumimpression.com^$third-party
 ||presage.io^$third-party
-||prfct.co^$third-party
 ||privymktg.com^$third-party
 ||prnx.net^$third-party
 ||proclivitysystems.com^$third-party
@@ -99612,7 +99627,6 @@ omni.soundestlink.com$image
 ||zoosnet.net^$third-party
 ||zoossoft.net^$third-party
 ||zprk.io^$third-party
-||ztsrv.com^$third-party
 ||zuzab.com^$third-party
 ||zx-adnet.com^$third-party
 .1.1.1.l80.js^$third-party
@@ -105475,6 +105489,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pcgamesn.com/cdn-cgi/trace
 ||pcmag.com/js/ga.js
 ||pcmag.com/js/z0WVjCBSEeGLoxIxOQVEwQ.min.js
+||pcp.coupert.com^
 ||pendo.scopus.com/data/ptm.gif
 ||perf.mouser.com^
 ||performance-logger.minted.com^
