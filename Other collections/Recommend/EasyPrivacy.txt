@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: cZ2T00H1BibUK8jGZc2STg
-! Version: 202404272301
+! Checksum: svR5fVX76HdUkPtAcg1wng
+! Version: 202404280051
 ! Title: EasyPrivacy
-! Last modified: 27 Apr 2024 23:01 UTC
+! Last modified: 28 Apr 2024 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -336,6 +336,7 @@
 /api/v3/getPageVisits
 /api/v3/trackSegmentEvent
 /api/video/stats/*$xmlhttprequest
+/api_adlog.php?
 /api_ip_info.php
 /apilog?
 /apmrum.min.js
@@ -6912,6 +6913,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||denakop.com^$third-party
 ||engageya.com^$third-party
 ||enviou.com.br^$third-party
+||fulllab.com.br^$third-party
 ||hariken.co^$third-party
 ||lomadee.com^$third-party
 ||marktest.pt^$third-party
@@ -48294,6 +48296,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ! Slovene
 ||24ur.com/bin/player/?mod=statistics&
 ||dnevnik.si/tracker/
+||go-usertrack-importer.pub.24ur.si^
 ||ninja.data.olxcdn.com/ninja-olxba.js
 ||tracker.azet.sk^
 ! Spanish
