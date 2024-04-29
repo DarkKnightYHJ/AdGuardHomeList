@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 0LwStloZo3vauEpE7lAW4w
-! Version: 202404291501
+! Checksum: cTTDShlYTUBMA2gD3+KL4Q
+! Version: 202404291602
 ! Title: ABP filters
-! Last modified: 29 Apr 2024 15:01 UTC
+! Last modified: 29 Apr 2024 16:02 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -325,9 +325,9 @@ clanky.seznam.cz,search.seznam.cz##.Result.Result--organic > .Result-ico:not([cl
 clanky.seznam.cz,search.seznam.cz#?#:-abp-has(> .Result--organic .Result-title-link:not([class="Result-title-link"]))
 clanky.seznam.cz,search.seznam.cz#?#.Result:-abp-has(.Result--organic [class^="Result-contentContainer _"])
 www.seznam.cz#$#hide-if-matches-xpath './/div[@class="banner-wrapper"]/a[contains(@href,"ad_url")]/div/img/ancestor::div[@id="page"]'
-www.seznam.cz#$#hide-if-matches-xpath './/a[contains(@href,"ad-buttonem")]/ancestor::div[@class="gadget__header"]/parent::div[1]'
-www.seznam.cz#$#hide-if-matches-xpath './/a[contains(@href,"ad-buttonem")]/ancestor::div[@class="gadget__header"]/following::div[contains(@style,"position:relative;")]/ancestor::div[contains(@style,"flex")]/ancestor::div[@class][2]'
-www.seznam.cz#$#hide-if-matches-xpath './/div[@id][contains(@style,"max-width: 100%;")]/div[contains(@style,"position:relative;")]/preceding::div[contains(@class,"text-right")]/div/preceding::div[@style="top: 62px;"]'
+www.seznam.cz#$#hide-if-matches-xpath './/a[contains(@href,"ad-buttonem")]/ancestor::div[contains(@class,"gadget")]/parent::div[1]'
+www.seznam.cz#$#hide-if-matches-xpath './/a[contains(@href,"ad-buttonem")]/ancestor::div[contains(@class,"gadget")]/following::div[contains(@style,"position:relative;")]/ancestor::div[contains(@style,"flex")]/ancestor::div[@class][2]'
+www.seznam.cz#$#hide-if-matches-xpath './/div[@id][contains(@style,"max-width: 100%;")]/div[contains(@style,"position:relative;")]/preceding::div[contains(@class,"text-")]/div/preceding::div[@style="top: 62px;"]'
 www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"mol-json-carousel-advert")]/ancestor::div[contains(@class,"atm-feed-card")]/parent::div[@id]'
 www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"atm-advert")]/ancestor::div[contains(@class,"atm-closeable-post")]/ancestor::div[2]'
 www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"gadget-container")]/div[@id and @class]/div[@*="animated-height"]//span[text()]/following-sibling::a[contains(text(),"reklamu")]//following::div[@*="gadget__content"]//div[@class and @style]/ancestor::div[7][@class]/ancestor::div[contains(@class,"gadget-container")]'; hide-if-matches-xpath './/div[starts-with(@class,"d-flex")]/div[contains(@class,"flex-column")]/div[@class and @style]//div[2]/div[@class and @style]/parent::div/ancestor-or-self::div[contains(@style,"flex-basis:")]'; hide-if-matches-xpath './/div[@*="mainFeed"]//div[@class="overflow-hidden"]/div[contains(@class,"atm-text-placeholder")]/parent::div[@class][1]/ancestor::div[3]/parent::div[@class and @*]/ancestor::li[@data-analytics-first-item]';
@@ -1634,7 +1634,7 @@ xoivo2.online,tructiepdabong5.co,vaoroi365.com#$#override-property-read adsPlaye
 kenh14.vn#$#override-property-read Constants.allowAds false
 vndoc.com#$#override-property-read seconds 0
 phimvuihd.org#$#override-property-read urlAds ''
-live4.thapcam5.net#$#simulate-mouse-event '#modalasd$continue,delay=300'
+live5.thapcam5.net#$#simulate-mouse-event '#modalasd$continue,delay=300'
 phimvietsub.pro,api.anime3s.com,subnhanh.xyz#$#override-property-read maxAds 0
 web.motsex.net,clipsexvietnam.net,phimsexviet.io,phimsexvietnam.app,clipsex.xxx,web.phimsexnhanh.tv,gm.phimsexnhanh.tv,phimsexvip.cc,mobile.ditnhau.cc,phim.sexhayvl.org#$#override-property-read video.adVast ''
 www.iosviet.com#$#override-property-read timer 0
