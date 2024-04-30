@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kkOmLx6jWMZzWytAMmZPwA
+! Checksum: PLuWkN6I1EJmVvIdlqrrgg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202404301400
-! Last Modified: 2024年04月30日 14:00
+! Version: 202404302000
+! Last Modified: 2024年04月30日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -12488,6 +12488,7 @@ _800x80_
 ##.c-gpt-ad
 ##.c-header__ad
 ##.c-header__advert-container
+##.c-pageArticleSingle_bottomAd
 ##.c-posts__ad
 ##.c-prebid
 ##.c-res-ad
@@ -17888,9 +17889,10 @@ seznam.cz#@#.adMiddle
 aggeliestanea.gr,infotel.ca#@#.adResult
 macys.com,news24.jp#@#.adText
 clien.net#@#.ad_banner
+interior-hirade.co.jp#@#.ad_bg
 sozai-good.com#@#.ad_block
 panarmenian.net#@#.ad_body
-joins.com,jtbc.co.kr#@#.ad_bottom
+jabank-tokushima.or.jp,joins.com,jtbc.co.kr#@#.ad_bottom
 ienohikari.net#@#.ad_btn
 m.nettiauto.com,m.nettikaravaani.com,m.nettikone.com,m.nettimoto.com,m.nettivaraosa.com,m.nettivene.com,nettimokki.com#@#.ad_caption
 classy-online.jp,thelocal.at,thelocal.ch,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se#@#.ad_container
@@ -17899,6 +17901,7 @@ admanager.line.biz#@#.ad_frame
 modelhorseblab.com#@#.ad_global_header
 myhouseabroad.com,njuskalo.hr,starbuy.sk.data10.websupport.sk#@#.ad_item
 muzines.co.uk#@#.ad_main
+jabank-tokushima.or.jp#@#.ad_middle
 huffingtonpost.co.uk#@#.ad_spot
 kpanews.co.kr#@#.ad_top
 genshinimpactcalculator.com#@#.adban
@@ -18030,6 +18033,7 @@ zdnet.com#@#.sponsoredItem
 kingsofchaos.com#@#.textad
 k24tv.co.ke#@#.top-ad
 cp24.com#@#.topAd
+jabank-tokushima.or.jp#@#.top_ad
 livesexgirlsrooms.com#@#.top_ads
 outinthepaddock.com.au#@#.topads
 codedevstuff.blogspot.com,hassiweb-programming.blogspot.com#@#.vertical-ads
@@ -48404,6 +48408,7 @@ browsershots.org#@#.advert_area
 ||servetean.site^
 ||servetraff.com^
 ||servg1.net^
+||servh.net^
 ||servicegetbook.net^
 ||servicesrc.org^
 ||servicetechtracker.com^
@@ -66061,6 +66066,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||receive-sms-online.info/img/banner_
 ||red-shell.speedrun.com^
 ||republicmonitor.com/images/lundy-placeholder.jpeg
+||revolver.news/wp-content/banners/
 ||rswebsols.com/wp-content/uploads/rsws-banners/
 ||s.radioreference.com/sm/$image
 ||s.yimg.com/zh/mrr/$image,domain=mail.yahoo.com
@@ -67814,6 +67820,8 @@ nextshark.com###nextshark_com_leaderboard_top
 searchfiles.de###nextuse
 nanoreview.net###nfloat-sb-right
 seroundtable.com###ninja_box
+unite.pvpoke.com###nitro-unite-sidebar-left
+unite.pvpoke.com###nitro-unite-sidebar-right
 pcgamebenchmark.com,pcgamesn.com,pockettactics.com,thedigitalfix.com,wargamer.com###nn_astro_wrapper
 steamidfinder.com,trueachievements.com,truesteamachievements.com,truetrophies.com###nn_bfa_wrapper
 techraptor.net,unite-db.com###nn_lb1
@@ -68217,7 +68225,6 @@ marketscreener.com###zppRight2
 ultrabookreview.com###zzifhome
 ultrabookreview.com###zzifhome2
 arydigital.tv###zzright
-androidauthority.com##.--_-___Yb
 talkingpointsmemo.com##.--span\:12.AdSlot
 bigissue.com##.-ad
 gamejolt.com##.-ad-widget
@@ -68390,7 +68397,7 @@ desmoinesregister.com##.ZJBvMP__ZJBvMP
 getpocket.com##.\'syndication-ad\'
 olympics.com##.\-partners
 androidauthority.com##._--_-___Pb
-androidauthority.com##._--_-___ub
+androidauthority.com##._--_-___Qb
 freepik.com##._1286nb18b
 freepik.com##._1286nb1rx
 motortrend.com##._1Ib8n
@@ -69230,6 +69237,7 @@ sussexexpress.co.uk##.cIffkq
 filepuma.com##.cRight_footer
 fmforums.com##.cWidgetContainer
 digg.com,money.com##.ca-pcu-inline
+digg.com##.ca-widget-wrapper
 thecable.ng##.cableads_mid
 strategie-bourse.com##.cadre_encadre_pub
 cafonline.com##.caf-o-sponsors-nav
@@ -98382,6 +98390,7 @@ omni.soundestlink.com$image
 ||icanhazip.com^$third-party
 ||iclive.com^$third-party
 ||icstats.nl^$third-party
+||iculture.report^$third-party
 ||id-visitors.com^$third-party
 ||ideoclick.com^$third-party
 ||idio.co^$third-party
@@ -142020,6 +142029,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||thairath.co.th/event/
 ||athena-event-provider.n11.com^
 ||c.gazetevatan.com^
+||cimri.com/api/pixel
 ||d.haberler.com^
 ||d.sondakika.com^
 ||glami.com.tr/tracker/
