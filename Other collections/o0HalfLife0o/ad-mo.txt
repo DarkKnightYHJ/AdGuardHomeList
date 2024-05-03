@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9EQwYekmkyq5t7g8kpaUdA
+! Checksum: BvA6OR26eAO4J8SwkWneIw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202405030801
-! Last Modified: 2024年05月03日 08:01
+! Version: 202405031400
+! Last Modified: 2024年05月03日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -489,7 +489,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad.min.
 /ad/a.aspx?
 /ad/banners/*
-/ad/common_
 /ad/dfp/*
 /ad/err?
 /ad/getban?
@@ -527,7 +526,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad_header.js
 /ad_home.js
 /ad_images/*
-/ad_img/*
+/ad_img/*$image
 /ad_label_
 /ad_left.
 /ad_manager/*
@@ -619,7 +618,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads/300.
 /ads/acctid=
 /ads/banner-
-/ads/banners/*
+/ads/banners/*$image
 /ads/bottom.
 /ads/bottom/*
 /ads/cbr.
@@ -669,7 +668,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads/v2/*
 /ads/video/*
 /ads/view.php
-/ads/view/*
 /ads/www/*
 /ads/xtcore.
 /ads/yahoo/*
@@ -772,7 +770,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adv_2.
 /adv_468.
 /adv_468_
-/adv_ads_
+/adv_ads_v3/relatedAds/*
 /adv_banner_
 /adv_box_
 /adv_out.js
@@ -880,12 +878,10 @@ pan.baidu.com##.upload-bar.global-clearfix
 /banner.asp?$third-party
 /banner.cgi?
 /banner.php
-/banner/ad/*
 /banner/ad_
 /banner/ads/*
 /banner/affiliate/*
 /banner/html/zone?zid=
-/banner/sponsor_
 /banner/sponsors.
 /banner_468.
 /banner_ad_
@@ -1147,7 +1143,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /mobile_ad.
 /mobile_ad/*
 /mobileads.
-/mobileads/*
 /mod_ad/*
 /mod_ijoomla_adagency_zone/*
 /mod_pagepeel_banner/*
@@ -1162,7 +1157,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /mydirtyhobby.$domain=~mydirtyhobby.com|~mydirtyhobby.de|~mydirtyhobby.to
 /mysimpleads/mysa_output.php
 /nativead.
-/nativead/*
 /nativeads-v2.js
 /nativeads.js
 /nativeads/*
@@ -1207,7 +1201,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /partner-ad-
 /Partner_Ad/*
 /partner_ads/*
-/partner_ads_
 /partnerad.
 /partnerads/*
 /partnerads_
@@ -1506,14 +1499,13 @@ pan.baidu.com##.upload-bar.global-clearfix
 /videoads/*
 /videojs.ads-
 /videojs.sda.js
-/view/ad/*
+/view/ad/*$subdocument
 /view/ads/*
 /view_banner.php
 /viewad.asp
 /viewad.php
 /virtuagirl/*
 /virtuagirlhd.
-/virtualgirl/*
 /web/ads/*
 /web_ads/*
 /webads.htm
@@ -1576,7 +1568,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /xpopup.js
 /yhs/ads?
 /yume_ad_library_
-/zanox/banner/*
 /zcredirect?
 /zcvisitor/*
 /zergnet_ad/*
@@ -1865,7 +1856,7 @@ _prebid8.
 /adblock_logger.
 /adblockdetect.
 /adblockdetection.
-/adBlockDetector/*
+/adBlockDetector/*$script
 /adblocker-leader.
 /adBlockerTrack_
 /adblockkiller.
@@ -5705,6 +5696,7 @@ _800x80_
 ###mpu1_parent
 ###mpu2
 ###mpu2_container
+###mpu2_parent
 ###mpuAd
 ###mpuAdvert
 ###mpuAdvertDesk3
@@ -13954,6 +13946,7 @@ _800x80_
 ##.item-inline-ad
 ##.itemAdvertise
 ##.item_ads
+##.itsanad
 ##.j-ad
 ##.jLinkSponsored
 ##.jannah_ad
@@ -22637,6 +22630,7 @@ browsershots.org#@#.advert_area
 ||bigvids.space^
 ||bihake.com^
 ||bihunekus.com^
+||bihussufoob.net^
 ||bijouremudas.space^
 ||bijwehk.com^
 ||bijxpjgtdrgk.com^
@@ -44346,6 +44340,7 @@ browsershots.org#@#.advert_area
 ||poxaharap.com^
 ||poxcgxylozny.com^
 ||poxykhakis.com^
+||poxypicine.com^
 ||poyqmngbxwsvnav.xyz^
 ||poyusww.com^
 ||pp2ppsch1hount1hf.com^
@@ -46913,6 +46908,7 @@ browsershots.org#@#.advert_area
 ||rincipledecli.info^
 ||rinddelusional.com^
 ||ringashewasfl.info^
+||ringermuggish.com^
 ||ringexpressbeach.com^
 ||ringsempty.com^
 ||ringtonepartner.com^
@@ -58557,7 +58553,6 @@ browsershots.org#@#.advert_area
 ||b211.xyz^$document,popup
 ||b59c.xyz^$document,popup
 ||b714b1e8-4b7d-4ce9-a248-48fd5472aa0b.online^$document,popup
-||bamgosu.site^$document,popup
 ||bcbe.site^$document,popup
 ||ca3d.site^$document,popup
 ||content-loader.com^$document,popup
@@ -58572,7 +58567,6 @@ browsershots.org#@#.advert_area
 ||fadeb9a7-2417-4a51-8d99-0421a5622cbe.xyz^$document,popup
 ||html-load.cc^$document,popup
 ||html-load.com^$document,popup
-||ygosu.com^$document,popup
 ||ad.lgappstv.com^
 ||ad.nettvservices.com^
 ||ads.samsung.com^
@@ -67606,6 +67600,7 @@ cyberdaily.au###mm-azk560023-zone
 dbltap.com###mm-player-placeholder-large-screen
 mmorpg.com###mmorpg_desktop_list_1
 mmorpg.com###mmorpg_desktop_list_3
+si.com###mmvid
 pocketgamer.com###mobile-background
 tvtropes.org###mobile_1
 tvtropes.org###mobile_2
@@ -67618,7 +67613,6 @@ moviemistakes.com###moviemistakes_300x600_300x250_160x600_sidebar_2
 consobaby.co.uk,gumtree.com,pcgamingwiki.com,thefootballnetwork.net###mpu
 news.sky.com,skysports.com###mpu-1
 bbc.com###mpu-side-aside-content
-standard.co.uk###mpu2_parent
 standard.co.uk###mpu_bottom_sb_2_parent
 spin.ph###mrec3
 nitrome.com###mu_2_container
@@ -69982,7 +69976,6 @@ legit.ng,tuko.co.ke##.l-adv-branding__top
 iphonelife.com##.l-header
 globalnews.ca##.l-headerAd
 wwe.com##.l-hybrid-col-frame_rail-wrap
-si.com##.l-inline.m-detail--feature-container
 vox.com##.l-leaderboard-slot
 keybr.com##.l6Z8JM3mch
 letssingit.com##.lai_all_special
@@ -70091,7 +70084,6 @@ bikeroar.com##.lower-panel
 greatbritishlife.co.uk##.lp_track_vertical2
 lowes.com##.lws_pdp_recommendations_sponsored
 thestreet.com##.m-balloon-header
-si.com##.m-balloon-header--spacer
 politifact.com##.m-billboard
 aol.com##.m-gam__container
 aol.com##.m-healthgrades
@@ -77334,6 +77326,12 @@ newduba.cn###jq_youxi
 ||eweriow.top^
 ||udxhzqg.cn^
 ||pqzjki.cn^
+||fluxy.cn^
+||onosyej.icu^
+||gamdus.xyz^
+||rczudr.xyz^
+||tquspo.com^
+||wwerioe.top^
 ||zuvbzl.xyz^
 ||zwxxcb.icu^
 ||zxfdbr.xyz^
@@ -87764,7 +87762,7 @@ jinhua.com.cn##.banner935
 iqiyi.com##.banner980
 niutuku.com,sina.cn##.bannerAD
 afzhan.com##.bannerAdv
-netfly.fun,netfly.tv##.banner[href^="http"]
+netfly.fun,netfly.tv,netflytv.xyz##.banner[href^="http"]
 jiegeng.com,qq.com##.banner_1111
 jiegeng.com##.banner_1212
 aipai.com##.banner_90
@@ -90192,7 +90190,7 @@ liaocao.tv,nicotv.me##[onclick]
 nfmovies.com##[onclick^="openurl()"]
 duonaolive.com##[onclick^="track"]
 iplaysoft.com##[style*="width:3"][style*="height:2"]
-netfly.fun,netfly.tv##[style^="display: flex;"]
+netfly.fun,netfly.tv,netflytv.xyz##[style^="display: flex;"]
 axutongxue.com,axutongxue.net##[style^="height:58px;"]
 fffdm.com##[style^="width"][style*="height"]
 kisssub.org##a > img[src*=".0o0.ooo/"]
