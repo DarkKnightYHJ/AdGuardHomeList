@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 40Rqox64iDjzgGhrYtjBFQ
-! Version: 202405052201
+! Checksum: Tg6LGagXUyIHVurfZ3EalA
+! Version: 202405052300
 ! Title: EasyList China+EasyList
-! Last modified: 05 May 2024 22:01 UTC
+! Last modified: 05 May 2024 23:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -19263,7 +19263,7 @@ fqsousou.com,kengso.com#@#.user-share
 /ad-server.$~script
 /ad-third-party?
 /ad.cgi?
-/ad.css?
+/ad.css?$stylesheet
 /ad.html?
 /ad.min.
 /ad/a.aspx?
@@ -19274,7 +19274,7 @@ fqsousou.com,kengso.com#@#.user-share
 /ad/html/*
 /ad/image/*
 /ad/images/*$domain=~studiocalling.it
-/ad/img/*
+/ad/img/*$image,domain=~jiji.com
 /ad/imp?
 /ad/load_ad?
 /ad/popup.
@@ -19307,7 +19307,7 @@ fqsousou.com,kengso.com#@#.user-share
 /ad_img/*$image
 /ad_label_
 /ad_left.
-/ad_manager/*
+/ad_manager/*$image,script
 /ad_overlay.js
 /ad_pos=
 /ad_position=
@@ -19473,7 +19473,6 @@ fqsousou.com,kengso.com#@#.user-share
 /ads_728_
 /ads_and_amp/*
 /ads_assets/*
-/ads_banner_
 /ads_banners/*
 /ads_bg.
 /ads_bottom.js
@@ -19849,7 +19848,7 @@ fqsousou.com,kengso.com#@#.user-share
 /images/adv/*
 /images/adz/*
 /images2/Ads/*$image
-/img/ad/*
+/img/ad/*$image
 /img/aff/*
 /img_ad/*
 /in/show/?mid=$third-party
@@ -19908,7 +19907,7 @@ fqsousou.com,kengso.com#@#.user-share
 /maven/am.js
 /mbads?
 /mcad.php
-/media/ads/*
+/media/ads/*$image
 /media_ads/*
 /mgid.html
 /microad.js
@@ -19918,14 +19917,12 @@ fqsousou.com,kengso.com#@#.user-share
 /mobile_ad.
 /mobile_ad/*
 /mobileads.
-/mod_ad/*
 /mod_ijoomla_adagency_zone/*
 /mod_pagepeel_banner/*
 /module-ads-html-$script
 /module-ads/*
 /module/ads/*
 /modules/ad/*
-/modules/ad_
 /modules/ads/*
 /moneyball/ads/*
 /MPUAdHelper.js
@@ -19991,7 +19988,7 @@ fqsousou.com,kengso.com#@#.user-share
 /phpadsnew/*
 /phpbb_ads/*
 /pioneersuspectedjury.com/*
-/pix/ads/*
+/pix/ads/*$image
 /pixel/puclc?
 /pixel/pure
 /pixel/purs?
@@ -20066,7 +20063,7 @@ fqsousou.com,kengso.com#@#.user-share
 /publicidad_$~stylesheet
 /publicidade.
 /publicidade/*
-/publicidades/*
+/publicidades/*$~xmlhttprequest
 /puff_ad?
 /punder.php
 /push/p.js?
@@ -20261,7 +20258,7 @@ fqsousou.com,kengso.com#@#.user-share
 /video_ads/*
 /video_slider3.js
 /videoad.$domain=~videoad.in
-/VideoAd/*
+/videoad/*$script
 /videoads/*
 /videojs.ads-
 /videojs.sda.js
@@ -20334,7 +20331,6 @@ fqsousou.com,kengso.com#@#.user-share
 /yhs/ads?
 /yume_ad_library_
 /zcredirect?
-/zcvisitor/*
 /zergnet_ad/*
 /~cdn/ads/*
 ://a.*/ad-provider.js$third-party
@@ -20486,18 +20482,18 @@ _widget_ad.
 /ntfc.php?
 ! Clickadu servers
 .com/src/ppu/
-/aas/r45d/vki/*
-/bultykh/ipp24/7/*
-/ceef/gdt3g0/tbt/*
-/fyckld0t/ckp/fd3w4/*
+/aas/r45d/vki/*$third-party
+/bultykh/ipp24/7/*$third-party
+/ceef/gdt3g0/tbt/*$third-party
+/fyckld0t/ckp/fd3w4/*$third-party
 /i/npage/*$script,third-party
 /lv/esnk/*$script,third-party
-/pn07uscr/f/tr/zavbn/*
-/q/tdl/95/dnt/*
-/sc4fr/rwff/f9ef/*
+/pn07uscr/f/tr/zavbn/*$third-party
+/q/tdl/95/dnt/*$third-party
+/sc4fr/rwff/f9ef/*$third-party
 /script/awesome.js
-/ssp/req/*/?pb=
-/t/9/heis/svewg/*
+/ssp/req/*/?pb=$third-party
+/t/9/heis/svewg/*$third-party
 ! streamhub.gg/qehyheswr3i8 / uploadhub.to/842q2djqdfub
 /tabu/display.js
 ! ezoic
@@ -82777,6 +82773,7 @@ browsershots.org#@#.advert_area
 ||perfectmoney.com/img/banners/
 ||phonephotographytricks.com/images/banners/
 ||pics.firstload.de^
+||pips.taboola.com^
 ||pjatr.com^$image,script
 ||pjtra.com^$image,script
 ||play-asia.com^$image,subdocument,third-party
