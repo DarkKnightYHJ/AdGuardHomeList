@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: k9POyDbjksTCZa8naWCSeA
-! Version: 202405051301
+! Checksum: UiTyProJVjegmEtxEj3YGQ
+! Version: 202405051401
 ! Title: EasyList China+EasyList
-! Last modified: 05 May 2024 13:01 UTC
+! Last modified: 05 May 2024 14:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -87711,6 +87711,7 @@ iol.co.za##.bDEZXQ
 copilot.microsoft.com##.b_ad
 vidcloud9.me##.backdrop
 kitguru.net,mcvuk.com,technologyx.com,thessdreview.com##.background-cover
+ign.com##.background-image.content-block
 allkeyshop.com,cdkeyit.it,cdkeynl.nl,cdkeypt.pt,clavecd.es,goclecd.fr,keyforsteam.de##.background-link-left
 allkeyshop.com,cdkeyit.it,cdkeynl.nl,cdkeypt.pt,clavecd.es,goclecd.fr,keyforsteam.de##.background-link-right
 gayexpress.co.nz##.backstretch
@@ -91446,6 +91447,7 @@ laravel-news.com##.relative:has([wire\:key="article-ad-card"])
 metager.org##.result:has(a[href^="https://metager.org"][href*="/partner/r?"])
 metager.org##.result:has(a[href^="https://r.search.yahoo.com/"])
 qwant.com##.result__ext > div:has([data-testid="adResult"])
+ebay.com##.s-item:has(a[href*="&amdata="])
 playpilot.com##.search-preview .side:has(> .provider)
 tempest.com##.search-result-item:has(.search-result-item__title--ad)
 troyhunt.com##.sidebar-featured:has(a[href^="https://pluralsight.pxf.io/"])
