@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: SiBQ62BDtHYzyqRWxng3IQ
-! Version: 202405051211
+! Checksum: nv8kfFfvnEHTXcsREPo8GQ
+! Version: 202405051301
 ! Title: EasyPrivacy
-! Last modified: 05 May 2024 12:11 UTC
+! Last modified: 05 May 2024 13:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -8903,7 +8903,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rum.uptime.com^
 ||rumstat.cdnvideo.ru^
 ||run.app/data.log
-||run.app/events
 ||run.app/metrics/
 ||rw.marchex.io^
 ||s-microsoft.com/mscc/$~stylesheet
@@ -11989,7 +11988,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rum.condenastdigital.com^
 ||rum.kobo.com^
 ||rumble.com/l/
-||run.app/events$domain=imgur.com
+||run.app/events$domain=imgur.com|worldstar.com
 ||rv.modanisa.com^$script
 ||rvo-cohesion.healthline.com^
 ||s.gofile.io^
@@ -48127,6 +48126,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||lrytas.lt/counter/
 ! Malaysian
 ||event-tracking.hellohealthgroup.com^
+||propertyguru.com.my/api/consumer/vast-media/impression?
 ! Norwegian
 ||click.vgnett.no^
 ||data.nrk.no^
