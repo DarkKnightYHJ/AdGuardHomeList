@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yh9BCYwU9DN/XIfc/ig5YA
-! Version: 202405070611
+! Checksum: kaz7MPTDbDS5lwLbHN9Luw
+! Version: 202405070711
 ! Title: EasyList China+EasyList
-! Last modified: 07 May 2024 06:11 UTC
+! Last modified: 07 May 2024 07:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -35959,6 +35959,7 @@ _800x80_
 ! shopee.cl,shopee.cn,shopee.co.id,shopee.co.th.. https://github.com/easylist/easylist/pull/16659
 ##.shopee-search-user-brief
 ! Ads for parked domains https://github.com/easylist/easylist/commit/f96a71b82c
+##a[href*="&maxads="]
 ##a[href*=".cfm?domain="][href*="&fp="]
 ! CitrusAd
 ##.CitrusBannerWrapper--enollj
@@ -76461,6 +76462,7 @@ browsershots.org#@#.advert_area
 ||ahvclick.com^$third-party
 ||aim4media.com^$third-party
 ||ainsyndication.com^$third-party
+||airfind.com^$third-party
 ||akavita.com^$third-party
 ||aklamator.com^$third-party
 ||alienhub.xyz^$third-party
