@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9/6Vi25aTx3H0M+sZYzTZA
+! Checksum: +V4A/wqYF1I55rrXRt+s9w
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202405081400
-! Last Modified: 2024年05月08日 14:00
+! Version: 202405082000
+! Last Modified: 2024年05月08日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -600,8 +600,7 @@ tieba.baidu.com##.tuijian-wrap
 /ad.html?
 /ad.min.
 /ad/a.aspx?
-/ad/banners/*
-/ad/dfp/*
+/ad/dfp/js/dfp.js
 /ad/err?
 /ad/getban?
 /ad/image/*$image
@@ -810,7 +809,6 @@ tieba.baidu.com##.tuijian-wrap
 /ads_bottom.js
 /ads_controller.js
 /ads_dfp/resources/*
-/ads_files/*
 /ads_footer.
 /ads_frame.
 /ads_iframe.
@@ -855,7 +853,6 @@ tieba.baidu.com##.tuijian-wrap
 /adstream.
 /adstream_
 /adswrapper.
-/adsystem/*
 /ads~adsize~
 /adtech;
 /adtext.
@@ -873,7 +870,6 @@ tieba.baidu.com##.tuijian-wrap
 /adv-scroll.
 /adv-socialbar-scroll.js
 /adv.css?
-/adv/adriver
 /adv/mjx.js
 /adv_2.
 /adv_468.
@@ -913,7 +909,7 @@ tieba.baidu.com##.tuijian-wrap
 /adwidget_
 /adx2.
 /adx_exo_
-/adz/js/*
+/adz/js/adz.
 /adzones.js
 /aff-ads.
 /aff/ads_
@@ -992,7 +988,6 @@ tieba.baidu.com##.tuijian-wrap
 /banner/sponsors.
 /banner_468.
 /banner_ads/*
-/banner_ads_
 /bannerad.
 /bannerad3.js
 /bannerads.
@@ -1010,7 +1005,6 @@ tieba.baidu.com##.tuijian-wrap
 /banners/aff.
 /banners/affil/*
 /banners/affiliate/*
-/banners/affiliates/*
 /banners/ffadult/*
 /bannersAds_
 /bottom-ads.jpg
@@ -1077,7 +1071,6 @@ tieba.baidu.com##.tuijian-wrap
 /doubleclick.min
 /doublepimp2.js
 /drsup-admanager-ajax.js
-/dynamic/ads/*
 /dynamicad?
 /easyazon-
 /ec5bcb7487ff.js
@@ -1179,7 +1172,7 @@ tieba.baidu.com##.tuijian-wrap
 /in/show/?mid=$third-party
 /include/ad/*
 /include/ad_
-/includes/ads/*
+/includes/ads/*$script
 /index-ad-
 /index-ad.jpg
 /index-ad.js
@@ -1233,6 +1226,7 @@ tieba.baidu.com##.tuijian-wrap
 /mbads?
 /mcad.php
 /media/ads/*$image
+/media/plg_adbutlerads/*
 /media_ads/*
 /mgid.html
 /microad.js
@@ -1321,11 +1315,10 @@ tieba.baidu.com##.tuijian-wrap
 /placeholder-ad-
 /player/ad/*
 /player/ads/*
-/plg_adbutlerads/*
 /plugin/ad/*
 /plugins/ad-invalid-click-protector/*$script
 /plugins/adrotate-pro/*
-/plugins/adrotate/*
+/plugins/adrotate/library/*
 /plugins/ads-
 /plugins/ads/*
 /plugins/adsanity-
@@ -1357,7 +1350,6 @@ tieba.baidu.com##.tuijian-wrap
 /popunder5.js
 /popunder7.min.js
 /popunder?
-/popunderjs/*
 /popup-domination/*$~stylesheet
 /popup2.js
 /popup3.js
@@ -1398,7 +1390,6 @@ tieba.baidu.com##.tuijian-wrap
 /RdmAdFeed.js
 /rdrr/renderer.js
 /realmedia/ads/*
-/reclama/*
 /redirect/?spot_id=
 /redirect?tid=
 /reklam.$domain=~github.com|~reklam.com.tr
@@ -1457,8 +1448,7 @@ tieba.baidu.com##.tuijian-wrap
 /servead/request/*
 /serveads.php
 /service/ads/*
-/service/adv/*
-/servlet/view/*
+/servlet/view/*$script
 /set_adcode?
 /sft-prebid.js
 /show-ad.js
@@ -1497,7 +1487,7 @@ tieba.baidu.com##.tuijian-wrap
 /small_ad.
 /smartlinks.epl?
 /soralink.js
-/sp/delivery/*
+/sp/delivery/js.php
 /spacedesc=
 /spc.php
 /spcjs.php
@@ -1525,7 +1515,6 @@ tieba.baidu.com##.tuijian-wrap
 /squaread.jpg
 /squaread.js
 /static.ad.
-/static/ad/*
 /static/js/4728ba74bc.js$~third-party
 /sticky_ads.js
 /stickyad.js
@@ -1573,7 +1562,6 @@ tieba.baidu.com##.tuijian-wrap
 /video-ads-player.
 /video-js-ads.
 /video.ads.
-/video/ads/*
 /video_ad.
 /video_ad_
 /video_ads.
@@ -1869,7 +1857,7 @@ _widget_ad.
 .prebid-bundle.
 .prebid.$domain=~prebid.org
 /_js/prbd_6.19.0.js
-/ad/postbid_
+/ad/postbid_handler1.0.9.js
 /adn-hb/*
 /ads/prebid_
 /AudienceNetworkPrebid.
@@ -1878,7 +1866,7 @@ _widget_ad.
 /gpt_and_prebid/*
 /pbjsandwich-
 /pbjsandwich.
-/plugins/prebidjs/*
+/plugins/prebidjs/*$script
 /porpoiseant/*
 /prebid-js-
 /prebid-min-
@@ -1947,7 +1935,6 @@ _prebid8.
 /ads-blocking-detector.
 /anti-adblock/*$~stylesheet
 /anti_ab.
-/antiblock_script/*
 /blockblock/blockblock.jquery.js
 /BlockerBanner/*$xmlhttprequest
 /Disable%2BAdblock.
@@ -58680,6 +58667,7 @@ browsershots.org#@#.advert_area
 ||02777e.site^$document,popup
 ||05751c.site^$document,popup
 ||07c225f3.online^$document,popup
+||07e197.site^$document,popup
 ||22d2d4d9-0c15-4a3a-9562-384f2c100146.xyz^$document,popup
 ||295c.site^$document,popup
 ||2aeabdd4-3280-4f03-bc92-1890494f28be.xyz^$document,popup
@@ -77618,6 +77606,7 @@ newduba.cn###jq_youxi
 ||lweriol.top^
 ||nrbqgf.cn^
 ||qmgria.cn^
+||robudpw.cn^
 ||zuvbzl.xyz^
 ||zwdtvx.xyz^
 ||zwxxcb.icu^
@@ -105944,6 +105933,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||privacypolicies.com/track/
 ||prod-events.nykaa.com^
 ||progressive.com/Log/
+||proporn.com/ajax/log/
 ||pulpulyy.club/cdn-cgi/trace
 ||pulsar.ebay.com^
 ||pulse.delta.com^
@@ -131044,7 +131034,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||go.netwitness.com^
 ||go.news.loyaltycompany.com^
 ||go.oilkings.ca^
-||go.oracle.com^
 ||go.paze.com^
 ||go.pearsonvue.com^
 ||go.petrelocation.com^
