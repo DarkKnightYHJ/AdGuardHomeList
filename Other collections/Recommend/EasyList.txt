@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: k/9vpSR7fjILAsib606mkA
-! Version: 202405081211
+! Checksum: rEwqjvB/B6xT//2//7wkKQ
+! Version: 202405081301
 ! Title: EasyList
-! Last modified: 08 May 2024 12:11 UTC
+! Last modified: 08 May 2024 13:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -145,7 +145,6 @@
 /_xa/ads_
 /a-ads.$third-party
 /a/?ad=
-/a/ads/*
 /a/display.php?$script
 /ab_fl.js$script
 /ablck/frolod.js
@@ -177,7 +176,6 @@
 /ad/load_ad?
 /ad/popup.
 /ad/skin-
-/ad/skin_
 /ad/view/*
 /ad300.jpg
 /ad300.js
@@ -202,7 +200,6 @@
 /ad_home.js
 /ad_images/*
 /ad_img/*$image
-/ad_label_
 /ad_left.
 /ad_manager/*$image,script
 /ad_overlay.js
@@ -297,7 +294,6 @@
 /ads/bottom.
 /ads/bottom/*
 /ads/cbr.
-/ads/common/*
 /ads/delivery.
 /ads/display/*
 /ads/footer.
@@ -318,7 +314,6 @@
 /ads/player-
 /ads/popout.
 /ads/popup.
-/ads/popup_
 /ads/preroll-
 /ads/preroll/*
 /ads/preroll_
@@ -343,7 +338,6 @@
 /ads/v2/*
 /ads/video/*
 /ads/view.php
-/ads/www/*
 /ads/xtcore.
 /ads/yahoo/*
 /ads1.
@@ -391,7 +385,7 @@
 /adscroll.js
 /adsdelivery/*
 /adserv.
-/adserve/*
+/adserve/*$script
 /adserver-
 /adserver.$~stylesheet,~xmlhttprequest
 /adserver1.
@@ -443,14 +437,13 @@
 /adv_468_
 /adv_ads_v3/relatedAds/*
 /adv_banner_
-/adv_box_
 /adv_out.js
 /adv_teasers.js
 /adv_vert.js
 /advanced-ads-$domain=~wordpress.org
 /advbanner/*$~image
 /advbanners/*$~image
-/advert.$~script,domain=~advert.ae|~advert.club|~advert.com.tr|~advert.ee|~advert.ge|~advert.io|~advert.media|~advert.org.pl|~motortrader.com.my
+/advert.$~script,~xmlhttprequest,domain=~advert.ae|~advert.club|~advert.com.tr|~advert.ee|~advert.ge|~advert.io|~advert.media|~advert.org.pl|~motortrader.com.my
 /advert01.
 /advert2.
 /advert24.
@@ -492,7 +485,7 @@
 /affiliate/ad/*
 /affiliate/ads/*
 /affiliate/banner/*
-/affiliate/banners/*
+/affiliate/banners/*$image
 /affiliateads/*
 /affiliates/banner
 /afr.php?
@@ -564,7 +557,6 @@
 /banners.cgi?
 /banners/468$image
 /banners/728$image
-/banners/ad/*
 /banners/ads-
 /banners/ads.
 /banners/adv/*
@@ -606,7 +598,7 @@
 /concert_ads-
 /content-ads.js
 /content/ad/*
-/content/ads/*
+/content/ads/*$~xmlhttprequest
 /core-ads.js
 /couponAd.php
 /cpmbanners.js
@@ -794,7 +786,7 @@
 /mcad.php
 /media/ads/*$image
 /media/plg_adbutlerads/*
-/media_ads/*
+/media_ads/*$image
 /mgid.html
 /microad.js
 /min/ads/*
@@ -803,13 +795,13 @@
 /mobile_ad.
 /mobile_ad/*
 /mobileads.
-/mod_ijoomla_adagency_zone/*
 /mod_pagepeel_banner/*
 /module-ads-html-$script
 /module-ads/*
 /module/ads/*
 /modules/ad/*
 /modules/ads/*
+/modules/mod_ijoomla_adagency_zone/*
 /moneyball/ads/*
 /MPUAdHelper.js
 /mydirtyhobby.$domain=~mydirtyhobby.com|~mydirtyhobby.de|~mydirtyhobby.to
@@ -845,7 +837,6 @@
 /pagead/conversion.js
 /pagead/conversion/*
 /pagead/gen_
-/pagead/html/*
 /pagead/lvz?
 /pagead/osd.
 /pageear.js
@@ -907,7 +898,6 @@
 /poll-ad-
 /pop_8_2.js
 /pop_ads.js
-/pop_under/*
 /popin-min.js
 /popu.js
 /popunder-
@@ -1012,7 +1002,7 @@
 /scripts/chatur.js
 /sdk/push_web/?zid=
 /select_adv?
-/servead/request/*
+/servead/request/*$script,subdocument
 /serveads.php
 /service/ads/*
 /servlet/view/*$script
@@ -1043,7 +1033,6 @@
 /skin3/ads/*
 /skin_ad-
 /skinad.
-/skinads/*
 /skins/ads/*
 /skyadright.
 /skyscraper_ad_
@@ -1151,7 +1140,7 @@
 /webads.htm
 /webads.jpg
 /webads.js
-/webads/*
+/webads/*$image,domain=~cccc.edu|~meatingplace.com
 /webadverts/ads.pl?
 /weborama.js
 /webparts/ads/*
@@ -1195,7 +1184,6 @@
 /wppas.min.js
 /wpxbz-theme.js
 /wrapper/ads/*
-/www/ad/*
 /www/ad_
 /www/ads/*
 /www/deliver/*
