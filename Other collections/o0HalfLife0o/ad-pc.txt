@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 588VzEx6iFIKsQe6QMCOBw
+! Checksum: LOUwlugbaNgF8oQ0xqKFiA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202405091400
-! Last Modified: 2024年05月09日 14:00
+! Version: 202405092000
+! Last Modified: 2024年05月09日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -575,12 +575,13 @@ tieba.baidu.com##.tuijian-wrap
 /?view=ad
 /_adslot/*
 /_xa/ads?
-/_xa/ads_
+/_xa/ads_batch?
 /a-ads.$third-party
 /a/?ad=
 /a/display.php?$script
 /ab_fl.js$script
 /ablck/frolod.js
+/AC_OETags.js
 /ad--unit.htm
 /ad-125.
 /ad-468-
@@ -618,7 +619,7 @@ tieba.baidu.com##.tuijian-wrap
 /ad?type=
 /ad_728.jpg
 /ad_728.js
-/ad_banner/*
+/ad_banner/*$image,domain=~ccf.com.cn
 /ad_bottom.jpg
 /ad_bottom.js
 /ad_break?
@@ -765,7 +766,6 @@ tieba.baidu.com##.tuijian-wrap
 /ads/targeted|
 /ads/top-
 /ads/top.
-/ads/tracker/*
 /ads/tso
 /ads/v/*
 /ads/v2/*
@@ -780,7 +780,6 @@ tieba.baidu.com##.tuijian-wrap
 /ads4.
 /ads468.
 /ads468x60.
-/ads468x60_
 /ads728.
 /ads728x90.
 /ads?apid
@@ -794,8 +793,6 @@ tieba.baidu.com##.tuijian-wrap
 /ads_160_
 /ads_300.
 /ads_300_
-/ads_728_
-/ads_and_amp/*
 /ads_assets/*
 /ads_banners/*
 /ads_bg.
@@ -822,14 +819,13 @@ tieba.baidu.com##.tuijian-wrap
 /adserver.$~stylesheet,~xmlhttprequest
 /adserver1.
 /adserver2.
-/adserver2/*
 /adserver3.
 /adserver?
 /adserving.
-/adserv|*|adtech;
+/adsforwp-front.min.css
 /adsheader.
 /adsimage/*
-/adsimages/*
+/adsimages/*$image,domain=~bdjobstoday.com
 /adsImg/*
 /adsinclude.
 /adslide.js
@@ -865,7 +861,6 @@ tieba.baidu.com##.tuijian-wrap
 /adv/mjx.js
 /adv_2.
 /adv_468.
-/adv_468_
 /adv_ads_v3/relatedAds/*
 /adv_banner_
 /adv_out.js
@@ -907,15 +902,15 @@ tieba.baidu.com##.tuijian-wrap
 /aff/banners/*
 /aff/images/*$image
 /aff_ad?$script
-/aff_banner/*
-/aff_banners/*
+/aff_banner/*$image
+/aff_banners/*$image
 /affad?
 /affads/*
 /affbanner/*
 /affbanners/*
 /affiliate/ad/*$image
 /affiliate/ads/*$image
-/affiliate/banner/*
+/affiliate/banner/*$image
 /affiliate/banners/*$image
 /affiliateads/*
 /affiliates/banner
@@ -973,7 +968,6 @@ tieba.baidu.com##.tuijian-wrap
 /banner.cgi?
 /banner.php
 /banner/ad_
-/banner/ads/*
 /banner/affiliate/*$image,subdocument
 /banner/html/zone?zid=
 /banner/sponsors.
@@ -1007,7 +1001,6 @@ tieba.baidu.com##.tuijian-wrap
 /bsa-pro-scripteo/frontend/js/script.js
 /btag.min.js$third-party
 /buysellads.js
-/call/pubif/*
 /call/pubj/*
 /callAdserver?
 /cgi-bin/ad/*
@@ -1028,7 +1021,6 @@ tieba.baidu.com##.tuijian-wrap
 /common_ad.js
 /concert_ads-
 /content-ads.js
-/content/ad/*
 /content/ads/*$~xmlhttprequest
 /core-ads.js
 /couponAd.php
@@ -1144,7 +1136,6 @@ tieba.baidu.com##.tuijian-wrap
 /hserver/channel=
 /hserver/site=
 /ht.js?site_
-/html/ads/*
 /image/ad/*$image
 /image/ads/*
 /image/affiliate/*
@@ -1273,13 +1264,11 @@ tieba.baidu.com##.tuijian-wrap
 /pageear.js
 /pageear/*
 /pagepeel.
-/pagepeel/*
 /pagepeelpro.js
 /partner-ad-
 /partner_ads/*
 /partnerad.
 /partnerads/*
-/partnerads_
 /partneradwidget.
 /partnerbanner.
 /partnerbanner/*
@@ -1290,8 +1279,7 @@ tieba.baidu.com##.tuijian-wrap
 /peelad/*
 /peelads/*
 /pfe/current/*
-/php/ad/*
-/phpads/*
+/phpads/adx.js
 /phpadsnew/*$image,script
 /phpbb_ads/*
 /pioneersuspectedjury.com/*
@@ -1321,7 +1309,6 @@ tieba.baidu.com##.tuijian-wrap
 /plugins/mts-wp-in-post-ads/*
 /plugins/page-cornr-
 /plugins/popunderpro/*
-/plugins/thirstyaffiliates/*
 /plugins/ultimate-popunder/*$~stylesheet
 /plugins/wp-advertising/*
 /plugins/wp-moreads/*$~stylesheet
@@ -1366,7 +1353,7 @@ tieba.baidu.com##.tuijian-wrap
 /publicidad/*
 /publicidad_$~stylesheet
 /publicidade.
-/publicidade/*
+/publicidade/*$~xmlhttprequest
 /publicidades/*$~xmlhttprequest
 /puff_ad?
 /punder.php
@@ -1498,7 +1485,7 @@ tieba.baidu.com##.tuijian-wrap
 /sponsoredlinks.
 /sponsoredlinks/*
 /sponsoredlinks?
-/sponsors/ads/*
+/sponsors/ads/*$image
 /squaread.jpg
 /squaread.js
 /static.ad.
@@ -1531,7 +1518,6 @@ tieba.baidu.com##.tuijian-wrap
 /ttj?id=
 /ut.js?cb=
 /utx?cb=$third-party
-/v2/a/pop/*
 /v2/a/push/js/*
 /v3/ads/*
 /v3/ads?
@@ -1564,8 +1550,8 @@ tieba.baidu.com##.tuijian-wrap
 /viewad.asp
 /viewad.php
 /virtuagirlhd.
-/web/ads/*
-/web_ads/*
+/web/ads/*$image
+/web_ads/*$image
 /webads.htm
 /webads.jpg
 /webads.js
@@ -1597,6 +1583,7 @@ tieba.baidu.com##.tuijian-wrap
 /wp-content/plugins/platinumpopup/*
 /wp-content/plugins/popad/*
 /wp-content/plugins/the-moneytizer/*
+/wp-content/plugins/thirstyaffiliates/*
 /wp-content/plugins/useful-banner-manager/*
 /wp-content/plugins/wp-ad-guru/*
 /wp-content/plugins/wp-super-popup-pro/*
@@ -1613,7 +1600,6 @@ tieba.baidu.com##.tuijian-wrap
 /wppas.min.js
 /wpxbz-theme.js
 /wrapper/ads/*
-/www/ad_
 /www/deliver/*
 /www/deliverx/*
 /www/delivery/*
@@ -5459,8 +5445,6 @@ _800x80_
 ###islandAdPane2
 ###island_ad_top
 ###islandad
-###iv160ad
-###iv728ad
 ###jobs-ad
 ###js-ad-billboard
 ###js-ad-leaderboard
@@ -5608,7 +5592,6 @@ _800x80_
 ###lower_content_ad_box
 ###lowerads
 ###lowerthirdad
-###lpAdPanel
 ###lrec_ad
 ###lrecad
 ###m-banner-bannerAd
@@ -5629,17 +5612,13 @@ _800x80_
 ###mainui-ads
 ###mapAdsSwiper
 ###mapAdvert
-###marcoad
-###marketingRotator
 ###marketplaceAds
 ###marquee-ad
 ###marquee_ad
-###masSearchAd
 ###mastAd
 ###mastAdvert
 ###mastad
 ###masterad
-###mastercardAd
 ###masthead_ad
 ###masthead_ads_container
 ###masthead_topad
@@ -5698,10 +5677,8 @@ _800x80_
 ###mobile-ads-ad
 ###mobile-footer-ad-wrapper
 ###mobileAdContainer
-###mobile_ad_main
 ###mobile_ads_100_pc
 ###mobile_ads_block
-###mod-tafad
 ###mod_ad
 ###mod_ad_top
 ###modal-ad
@@ -5709,7 +5686,6 @@ _800x80_
 ###module-ads-02
 ###module_ad
 ###module_box_ad
-###module_sky_scraper
 ###monsterAd
 ###mpu-ad
 ###mpu-advert
@@ -5722,22 +5698,18 @@ _800x80_
 ###mpu2_parent
 ###mpuAd
 ###mpuAdvert
-###mpuAdvertDesk3
 ###mpuContainer
 ###mpuDiv
 ###mpuInContent
 ###mpuSecondary
 ###mpuSlot
 ###mpuWrapper
-###mpuWrapper600
 ###mpuWrapperAd
 ###mpuWrapperAd2
-###mpu_300x250
 ###mpu_ad
 ###mpu_ad2
 ###mpu_adv
 ###mpu_banner
-###mpu_bottom_sb_1_parent
 ###mpu_box
 ###mpu_container
 ###mpu_div
@@ -5768,11 +5740,8 @@ _800x80_
 ###ng-ad-lbl
 ###ni-ad-row
 ###nk_ad_top
-###northad
 ###notify_ad
 ###ntvads
-###omnibar_ad
-###online_ad
 ###openx-text-ad
 ###openx-widget
 ###ovadsense
@@ -5882,7 +5851,6 @@ _800x80_
 ###print_ads
 ###printads
 ###privateads
-###productads
 ###promo-ad
 ###promoAds
 ###promoFloatAd
@@ -5901,13 +5869,7 @@ _800x80_
 ###quads-ad1_widget
 ###quads-ad2_widget
 ###quads-admin-ads-js
-###quidgetad
-###quigo
-###quigo-ad
-###quigo_ad
-###quinAdLeaderboard
 ###r89-desktop-top-ad
-###r_adver
 ###radio-ad-container
 ###rail-ad-wrap
 ###rail-bottom-ad
@@ -6452,7 +6414,6 @@ _800x80_
 ###textlink-advertisement
 ###textsponsor
 ###tfm_admanagerTeaser
-###thistad
 ###tile-ad
 ###tileAds
 ###tmInfiniteAd
@@ -23135,6 +23096,7 @@ browsershots.org#@#.advert_area
 ||bouptosaive.com^
 ||bouqaiewfksqz.com^
 ||bourbonlunches.com^
+||bourrepardale.com^
 ||boustahe.com^
 ||bouwehee.xyz^
 ||bovategunrack.cfd^
@@ -46931,6 +46893,7 @@ browsershots.org#@#.advert_area
 ||ringashewasfl.info^
 ||ringermuggish.com^
 ||ringexpressbeach.com^
+||ringingneo.com^
 ||ringsempty.com^
 ||ringtonepartner.com^
 ||rinserbefore.com^
@@ -58679,6 +58642,7 @@ browsershots.org#@#.advert_area
 ||e1577bbd-2a7e-4bee-b2fe-12a6406689e5.xyz^$document,popup
 ||ec44.site^$document,popup
 ||f090.site^$document,popup
+||f2f8.xyz^$document,popup
 ||f6176563.site^$document,popup
 ||f97ae142.online^$document,popup
 ||fadeb9a7-2417-4a51-8d99-0421a5622cbe.xyz^$document,popup
@@ -68809,6 +68773,7 @@ eurogamer.net##.apester_block
 pd3.gg##.app-ad-placeholder
 d4builds.gg##.app__ad__leaderboard
 classicfm.com##.apple_music
+happymod.com##.appx
 icon-icons.com##.apu
 icon-icons.com##.apu-mixed-packs
 chron.com,ctinsider.com,ctpost.com,middletownpress.com,mysanantonio.com,seattlepi.com,sfgate.com##.ar16-9
@@ -69438,6 +69403,7 @@ fastestvpns.com##.custom-banner
 dexscreener.com##.custom-d7ztiy
 addictivetips.com,coinweek.com,news365.co.za,simscommunity.info##.custom-html-widget
 patriotnewsfeed.com##.custom-html-widget [href] > [src]
+thestudentroom.co.uk##.custom-jucdap
 breakingnews.ie##.custom-mpu-container
 ehitavada.com##.custom-popup
 fandomwire.com##.customad
@@ -70319,6 +70285,7 @@ urbandictionary.com##.mb-4.justify-center
 themoscowtimes.com##.mb-4.py-3
 techbone.net##.mb-5.bg-light
 yardbarker.com##.mb_promo_responsive_right
+firstpost.com##.mblad
 mastercomfig.com##.md-typeset[style^="background:"]
 thenewdaily.com.au##.md\:h-\[250px\]
 bmj.com##.md\:min-h-\[250px\]
@@ -70371,7 +70338,7 @@ coincodex.com##.middle4
 heatmap.news##.middle_leaderboard
 fruitnet.com##.midpageAdvert
 extremetech.com##.min-h-24
-copyprogramming.com##.min-h-250
+copyprogramming.com,imagecolorpicker.com##.min-h-250
 uwufufu.com##.min-h-\[253px\]
 uwufufu.com##.min-h-\[300px\]
 instavideosave.net##.min-h-\[350px\]
@@ -70497,6 +70464,7 @@ nevadamagazine.com##.nevad-article-tall
 chaseyoursport.com##.new-adv
 play.typeracer.com##.newNorthWidget
 pcgamesn.com##.new_affiliate_embed
+firstpost.com##.newadd
 farminguk.com##.news-advert-button-click
 hurriyetdailynews.com##.news-detail-adv
 myflixer.to##.news-iframe
@@ -70658,6 +70626,7 @@ liveuamap.com##.passby
 writerscafe.org##.pay
 nhentai.com##.pb-0.w-100[style]
 newkerala.com##.pb-2 .text-mute
+tandfonline.com##.pb-ad
 wweek.com##.pb-f-phanzu-phanzu-ad-code
 cattime.com,dogtime.com,liveoutdoors.com,playstationlifestyle.net,thefashionspot.com##.pb-in-article-content
 playbuzz.com##.pb-site-player
@@ -72045,6 +72014,7 @@ shotcut.org##[style="background-color: #fff; padding: 6px; text-align: center"]
 realitytvworld.com##[style="background-color: white; background: white"]
 guides.wp-bullet.com##[style="height: 288px;"]
 forum.lowyat.net##[style="height:120px;padding:10px 0;"]
+imagecolorpicker.com##[style="height:250px"]
 forum.lowyat.net##[style="height:250px;padding:5px 0 5px 0;"]
 tenforums.com##[style="height:280px;"]
 kingmodapk.net##[style="height:300px"]
@@ -72363,6 +72333,7 @@ gamingbible.com,unilad.com##div[data-cypress^="sticky-header"]
 analyticsindiamag.com##div[data-elementor-type="header"] > section.elementor-section-boxed
 zerohedge.com##div[data-endpoint="//trends.revcontent.com"]
 wayfair.com##div[data-enzyme-id="WssBannerContainer"]
+thestudentroom.co.uk##div[data-freestar-ad]
 my.clevelandclinic.org##div[data-identity*="board-ad"]
 opentable.ae,opentable.ca,opentable.co.th,opentable.co.uk,opentable.com,opentable.com.au,opentable.com.mx,opentable.de,opentable.es,opentable.hk,opentable.ie,opentable.it,opentable.jp,opentable.nl,opentable.sg##div[data-promoted="true"]
 scmp.com##div[data-qa="AdSlot-Container"]
@@ -72904,6 +72875,7 @@ gamesradar.com,tomsguide.com,tomshardware.com,whathifi.com##.vid-present
 petapixel.com##.video-aspect-wrapper
 gearjunkie.com##.video-jwplayer
 bolavip.com##.video-player-placeholder
+benzinga.com##.video-player-wrapper
 consequence.net##.video_container
 offidocs.com##[id^="ja-container-prev"]
 hollywoodreporter.com##[id^="jwplayer"]
@@ -77248,7 +77220,6 @@ newduba.cn###jq_youxi
 ||pmtrkp.icu^
 ||pnxtnp.xyz^
 ||polepole.cn^
-||polyfill.io^
 ||pp1hl.xyz^
 ||pqzjki.cn^
 ||pressit.cn^
@@ -86010,6 +85981,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||koyso.com/z-
+||koyso.com/static/js/abc.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -102783,6 +102756,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||photobox.com/logs
 ||phrasetech.com/api/collect
 ||pi.ispot.tv^
+||piano.io/api/v3/customform/log/impression
 ||piano.io/tracker/
 ||pico.tools/metrics/
 ||ping-admin.ru^$third-party
@@ -104598,6 +104572,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||speee-ad.akamaized.net^
 ||spnx.jp/spnx-logger.js
 ||stats.streamhub.io^
+||stlog.d.dmkt-sp.jp^
+||stlog.dmarket.docomo.ne.jp^
 ||storage.googleapis.com/rasin/*/hm.js
 ||sweet-candy.jp/c.php?$third-party
 ||sync.shinobi.jp^
