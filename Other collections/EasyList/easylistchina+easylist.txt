@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pzwDJwLmUDtm9NG2iW5yTg
-! Version: 202405090411
+! Checksum: LDi0rx+mbqOUT/fw3cXN6g
+! Version: 202405090501
 ! Title: EasyList China+EasyList
-! Last modified: 09 May 2024 04:11 UTC
+! Last modified: 09 May 2024 05:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -19482,7 +19482,6 @@ fqsousou.com,kengso.com#@#.user-share
 /ads468x60_
 /ads728.
 /ads728x90.
-/ads728x90_
 /ads?apid
 /ads?callback
 /ads?client=
@@ -19544,7 +19543,6 @@ fqsousou.com,kengso.com#@#.user-share
 /adsservice.
 /adstracking.
 /adstream.
-/adstream_
 /adswrapper.
 /ads~adsize~
 /adtech;
@@ -19614,8 +19612,8 @@ fqsousou.com,kengso.com#@#.user-share
 /affads/*
 /affbanner/*
 /affbanners/*
-/affiliate/ad/*
-/affiliate/ads/*
+/affiliate/ad/*$image
+/affiliate/ads/*$image
 /affiliate/banner/*
 /affiliate/banners/*$image
 /affiliateads/*
@@ -19675,7 +19673,7 @@ fqsousou.com,kengso.com#@#.user-share
 /banner.php
 /banner/ad_
 /banner/ads/*
-/banner/affiliate/*
+/banner/affiliate/*$image,subdocument
 /banner/html/zone?zid=
 /banner/sponsors.
 /banner_468.
@@ -19941,7 +19939,7 @@ fqsousou.com,kengso.com#@#.user-share
 /nativead.
 /nativeads-v2.js
 /nativeads.js
-/nativeads/*
+/nativeads/script/*
 /nativebanner/ane-native-banner.js
 /nb/frot_lod.js
 /neverblock/*
@@ -20078,7 +20076,7 @@ fqsousou.com,kengso.com#@#.user-share
 /railad.jpg
 /RdmAdFeed.js
 /rdrr/renderer.js
-/realmedia/ads/*
+/RealMedia/ads/adstream_
 /redirect/?spot_id=
 /redirect?tid=
 /reklam.$domain=~github.com|~reklam.com.tr
@@ -20238,7 +20236,6 @@ fqsousou.com,kengso.com#@#.user-share
 /v3/ads?
 /v5/ads/*
 /v7/ads/*
-/v9/adv/*
 /valnet-header-ads.
 /vast/?zid=
 /velvet_stack_cmp.js
@@ -20265,7 +20262,6 @@ fqsousou.com,kengso.com#@#.user-share
 /view_banner.php
 /viewad.asp
 /viewad.php
-/virtuagirl/*
 /virtuagirlhd.
 /web/ads/*
 /web_ads/*
@@ -20317,7 +20313,6 @@ fqsousou.com,kengso.com#@#.user-share
 /wpxbz-theme.js
 /wrapper/ads/*
 /www/ad_
-/www/ads/*
 /www/deliver/*
 /www/deliverx/*
 /www/delivery/*
@@ -85795,6 +85790,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|adblockeronstape.me|adblocker
 ||rule34hentai.net^$subdocument,~third-party
 ||rusdosug.com/Fotos/Banners/
 ||scatxxxporn.com/static/images/banners/
+||schoolasiagirls.net/ban/
 ||sdhentai.com/marketing/
 ||see.xxx/pccznwlnrs/
 ||sex-techniques-and-positions.com/banners
@@ -86833,7 +86829,7 @@ inoreader.com###sinner_container
 pocketgamer.com###site-background
 webkinznewz.ganzworld.com###site-description
 dead-frog.com###site_top
-2oceansvibe.com###skin
+2oceansvibe.com,pocketgamer.biz###skin
 ebar.com###skin-left
 ebar.com###skin-right
 namemc.com###skin_wrapper
