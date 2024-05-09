@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fMcL/MU4Ke8OorSjqSDlLA
+! Checksum: 588VzEx6iFIKsQe6QMCOBw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202405090801
-! Last Modified: 2024年05月09日 08:01
+! Version: 202405091400
+! Last Modified: 2024年05月09日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -783,7 +783,6 @@ tieba.baidu.com##.tuijian-wrap
 /ads468x60_
 /ads728.
 /ads728x90.
-/ads728x90_
 /ads?apid
 /ads?callback
 /ads?client=
@@ -845,7 +844,6 @@ tieba.baidu.com##.tuijian-wrap
 /adsservice.
 /adstracking.
 /adstream.
-/adstream_
 /adswrapper.
 /ads~adsize~
 /adtech;
@@ -915,8 +913,8 @@ tieba.baidu.com##.tuijian-wrap
 /affads/*
 /affbanner/*
 /affbanners/*
-/affiliate/ad/*
-/affiliate/ads/*
+/affiliate/ad/*$image
+/affiliate/ads/*$image
 /affiliate/banner/*
 /affiliate/banners/*$image
 /affiliateads/*
@@ -976,7 +974,7 @@ tieba.baidu.com##.tuijian-wrap
 /banner.php
 /banner/ad_
 /banner/ads/*
-/banner/affiliate/*
+/banner/affiliate/*$image,subdocument
 /banner/html/zone?zid=
 /banner/sponsors.
 /banner_468.
@@ -1242,7 +1240,7 @@ tieba.baidu.com##.tuijian-wrap
 /nativead.
 /nativeads-v2.js
 /nativeads.js
-/nativeads/*
+/nativeads/script/*
 /nativebanner/ane-native-banner.js
 /nb/frot_lod.js
 /neverblock/*
@@ -1379,7 +1377,7 @@ tieba.baidu.com##.tuijian-wrap
 /railad.jpg
 /RdmAdFeed.js
 /rdrr/renderer.js
-/realmedia/ads/*
+/RealMedia/ads/adstream_
 /redirect/?spot_id=
 /redirect?tid=
 /reklam.$domain=~github.com|~reklam.com.tr
@@ -1539,7 +1537,6 @@ tieba.baidu.com##.tuijian-wrap
 /v3/ads?
 /v5/ads/*
 /v7/ads/*
-/v9/adv/*
 /valnet-header-ads.
 /vast/?zid=
 /velvet_stack_cmp.js
@@ -1566,7 +1563,6 @@ tieba.baidu.com##.tuijian-wrap
 /view_banner.php
 /viewad.asp
 /viewad.php
-/virtuagirl/*
 /virtuagirlhd.
 /web/ads/*
 /web_ads/*
@@ -1618,7 +1614,6 @@ tieba.baidu.com##.tuijian-wrap
 /wpxbz-theme.js
 /wrapper/ads/*
 /www/ad_
-/www/ads/*
 /www/deliver/*
 /www/deliverx/*
 /www/delivery/*
@@ -66939,6 +66934,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|adblockeronstape.me|adblocker
 ||rule34hentai.net^$subdocument,~third-party
 ||rusdosug.com/Fotos/Banners/
 ||scatxxxporn.com/static/images/banners/
+||schoolasiagirls.net/ban/
 ||sdhentai.com/marketing/
 ||see.xxx/pccznwlnrs/
 ||sex-techniques-and-positions.com/banners
@@ -67300,7 +67296,7 @@ euroweeklynews.com###banner-970
 interest.co.nz###banner-ad-wrapper
 bbcamerica.com,ifc.com,sundancetv.com,wetv.com###banner-bottom
 hypergames.top,op.gg,thecarconnection.com###banner-container
-battlefordsnow.com,cfjctoday.com,everythinggp.com,huskiefan.ca,larongenow.com,meadowlakenow.com,nanaimonewsnow.com,northeastnow.com,panow.com,rdnewsnow.com,sasknow.com,vernonmatters.ca###banner-header
+battlefordsnow.com,cfjctoday.com,chatnewstoday.ca,ckpgtoday.ca,everythinggp.com,huskiefan.ca,larongenow.com,meadowlakenow.com,nanaimonewsnow.com,northeastnow.com,panow.com,rdnewsnow.com,sasknow.com,vernonmatters.ca###banner-header
 sourceforge.net###banner-sterling
 israelnationalnews.com###banner-sticky
 bbcamerica.com,ifc.com,onlinesearches.com,sundancetv.com,wetv.com###banner-top
@@ -67716,7 +67712,7 @@ open.spotify.com###leaderboard-ad-element
 thebaltimorebanner.com###leaderboard-ad-v2
 vocm.com###leaderboard-area
 bbc.com###leaderboard-aside-content
-abbynews.com,biv.com,lakelandtoday.ca,orilliamatters.com,sootoday.com,theprogress.com,time.com,timescolonist.com,vancouverisawesome.com###leaderboard-container
+abbynews.com,biv.com,lakelandtoday.ca,orilliamatters.com,reddeeradvocate.com,sootoday.com,theprogress.com,time.com,timescolonist.com,vancouverisawesome.com###leaderboard-container
 variety.com###leaderboard-no-padding
 alternet.org###leaderboard-placeholder
 foodnetwork.com###leaderboard-wrap
@@ -67739,6 +67735,7 @@ liverpoolfc.com###lfc_ads_article_pos_one
 liverpoolfc.com###lfc_ads_home_pos_one
 closerweekly.com,intouchweekly.com,lifeandstylemag.com###listProductWidgetData
 wormate.io###loa831pibur0w4gv
+hilltimes.com###locked-sponsored-stories-inline
 lordz.io###lordz-io_300x250
 lordz.io###lordz-io_300x250_2
 lordz.io###lordz-io_728x90
@@ -67964,7 +67961,7 @@ inoreader.com###sinner_container
 pocketgamer.com###site-background
 webkinznewz.ganzworld.com###site-description
 dead-frog.com###site_top
-2oceansvibe.com###skin
+2oceansvibe.com,pocketgamer.biz###skin
 ebar.com###skin-left
 ebar.com###skin-right
 namemc.com###skin_wrapper
@@ -68548,8 +68545,8 @@ etymonline.com##.adContainer--6CVz1
 hellomagazine.com##.adContainerClass_acvudum
 anews.com.tr##.adControl
 carsdirect.com##.adFooterWrapper
-bramptonguardian.com,guelphmercury.com,insideottawavalley.com,niagarathisweek.com,thespec.com,thestar.com,wellandtribune.ca##.adLabelWrapper
-bramptonguardian.com,insideottawavalley.com,thestar.com,wellandtribune.ca##.adLabelWrapperManual
+bramptonguardian.com,guelphmercury.com,insideottawavalley.com,niagarathisweek.com,therecord.com,thespec.com,thestar.com,wellandtribune.ca##.adLabelWrapper
+bramptonguardian.com,insideottawavalley.com,therecord.com,thestar.com,wellandtribune.ca##.adLabelWrapperManual
 bramptonguardian.com##.adSlot___3IQ8M
 drive.com.au##.adSpacing_drive-ad-spacing__HdaBg
 thestockmarketwatch.com##.adSpotPad
@@ -69042,13 +69039,14 @@ investmentweek.co.uk##.bhide-768
 blackhatworld.com##.bhw-advertise-link
 blackhatworld.com##.bhw-banners
 viva.co.nz##.big-banner
+ipolitics.ca,qpbriefing.com##.big-box
 cbc.ca##.bigBoxContainer
 newzit.com##.big_WcxYT
 gamemodding.com##.big_banner
 hellenicshippingnews.com##.bigbanner
 scienceabc.com##.bigincontentad
 snokido.com##.bigsquare
-9gag.com,blackpoolgazette.co.uk,bundesliga.com,farminglife.com,hotstar.com,lep.co.uk,northamptonchron.co.uk,scotsman.com,shieldsgazette.com,talksport.com,the-sun.com,thescottishsun.co.uk,thestar.co.uk,thesun.co.uk,thesun.ie##.billboard
+9gag.com,blackpoolgazette.co.uk,bundesliga.com,farminglife.com,hotstar.com,ipolitics.ca,lep.co.uk,northamptonchron.co.uk,qpbriefing.com,scotsman.com,shieldsgazette.com,talksport.com,the-sun.com,thescottishsun.co.uk,thestar.co.uk,thesun.co.uk,thesun.ie##.billboard
 nypost.com,pagesix.com##.billboard-overlay
 electronicproducts.com##.billboard-wrap
 weatherpro.com##.billboard-wrapper
@@ -70050,7 +70048,7 @@ asheville.com##.injected-ads
 bestlifeonline.com,eatthis.com##.inline
 manitobacooperator.ca##.inline--2
 forbes.com##.inline-article-ed-placeholder
-swiftcurrentonline.com##.inline-billboard
+cochranenow.com,discoverhumboldt.com,portageonline.com,swiftcurrentonline.com##.inline-billboard
 dexerto.com##.inline-block
 freebeacon.com##.inline-campaign-wrapper
 stocksnap.io##.inline-carbon
@@ -70225,7 +70223,7 @@ businessinsider.in##.leaderboard-scrollable-btf-cont
 businessinsider.in##.leaderboard-scrollable-cont
 consequence.net##.leaderboard-sticky
 poe.ninja##.leaderboard-top
-nowthisnews.com,popsugar.com,scout.com,seeker.com,thedodo.com,thrillist.com##.leaderboard-wrap
+cbssports.com,nowthisnews.com,popsugar.com,scout.com,seeker.com,thedodo.com,thrillist.com##.leaderboard-wrap
 weatherpro.com,wordfinder.yourdictionary.com##.leaderboard-wrapper
 6abc.com,abc11.com,abc13.com,abc30.com,abc7.com,abc7chicago.com,abc7news.com,abc7ny.com##.leaderboard2
 save.ca##.leaderboardMainWrapper
@@ -70633,7 +70631,7 @@ comedycentral.com.au##.pane-vimn-coda-gpt-panes
 wunderground.com##.pane-wu-fullscreenweather-ad-box-atf
 khmertimeskh.com##.panel-grid-cell
 panarmenian.net##.panner_2
-battlefordsnow.com,cfjctoday.com,chatnewstoday.ca,everythinggp.com,huskiefan.ca,larongenow.com,meadowlakenow.com,nanaimonewsnow.com,northeastnow.com,panow.com,rdnewsnow.com,sasknow.com,vernonmatters.ca##.parallax-breakout
+battlefordsnow.com,cfjctoday.com,chatnewstoday.ca,everythinggp.com,everythinglifestyle.ca,farmnewsnow.com,fraservalleytoday.ca,huskiefan.ca,larongenow.com,meadowlakenow.com,nanaimonewsnow.com,northeastnow.com,panow.com,rdnewsnow.com,rocketfan.ca,royalsfan.ca,sasknow.com,vernonmatters.ca##.parallax-breakout
 pons.com##.parallax-container
 motortrend.com##.parent-video-player-cls
 hltv.org##.parimatch-firstcol-box
@@ -71136,6 +71134,7 @@ pinkvilla.com##.skinnerAd
 hltv.org##.skinport
 entrepreneur.com##.sky
 edarabia.com##.sky-600
+cbssports.com##.skybox-top-wrapper
 cheese.com,datpiff.com,gtainside.com##.skyscraper
 plos.org##.skyscraper-container
 newsnow.co.uk##.skyscraper-left
@@ -77601,6 +77600,8 @@ newduba.cn###jq_youxi
 ||nkbpft.xyz^
 ||xmkmryu.icu^
 ||iuqasw.xyz^
+||cgidskif.top^
+||54gtlb.cn^
 ||zuvbzl.xyz^
 ||zwdtvx.xyz^
 ||zwxxcb.icu^
@@ -101494,6 +101495,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||asayer.io/tracker.js
 ||assets.moneymade.io/js/fp.min.js
 ||assets.yumpu.com/release/*/tracking.js
+||assistant.watson.appdomain.cloud/analytics/
 ||asterpix.com/tagcloudview/
 ||at.cbsi.com^*/event?
 ||atcdn.co.uk/frostbite/
