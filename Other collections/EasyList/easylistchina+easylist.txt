@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mia7PLekERisKDp7li57GQ
-! Version: 202405101001
+! Checksum: iXoadm99M5fpQayX/5g6mA
+! Version: 202405101101
 ! Title: EasyList China+EasyList
-! Last modified: 10 May 2024 10:01 UTC
+! Last modified: 10 May 2024 11:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -2581,6 +2581,7 @@ newduba.cn###jq_youxi
 ||mmgap.cn^
 ||yssryr.cn^
 ||88lm15.com^
+||iaosua.com^
 ||zuvbzl.xyz^
 ||zwdtvx.xyz^
 ||zwxxcb.icu^
@@ -19316,7 +19317,7 @@ fqsousou.com,kengso.com#@#.user-share
 /ad/err?
 /ad/getban?
 /ad/image/*$image
-/ad/images/*$domain=~studiocalling.it
+/ad/images/*$image,domain=~studiocalling.it
 /ad/img/*$image,domain=~jiji.com
 /ad/imp?
 /ad/load_ad?
@@ -19441,7 +19442,6 @@ fqsousou.com,kengso.com#@#.user-share
 /ads/bottom/*
 /ads/cbr.
 /ads/delivery.
-/ads/display/*
 /ads/footer.
 /ads/ga-audiences?
 /ads/gam_prebid-
@@ -19483,7 +19483,6 @@ fqsousou.com,kengso.com#@#.user-share
 /ads/video/*
 /ads/view.php
 /ads/xtcore.
-/ads/yahoo/*
 /ads1.
 /ads160.
 /ads3.
@@ -19615,7 +19614,6 @@ fqsousou.com,kengso.com#@#.user-share
 /aff_banners/*$image
 /affad?
 /affads/*
-/affbanner/*
 /affbanners/*
 /affiliate/ad/*$image
 /affiliate/ads/*$image
@@ -19696,7 +19694,7 @@ fqsousou.com,kengso.com#@#.user-share
 /banners/adv/*
 /banners/adv_
 /banners/aff.
-/banners/affil/*
+/banners/affil/*$image
 /banners/affiliate/*$image
 /banners/ffadult/*
 /bannersAds_
@@ -19845,14 +19843,13 @@ fqsousou.com,kengso.com#@#.user-share
 /hserver/site=
 /ht.js?site_
 /image/ad/*$image
-/image/ads/*
+/image/ads/*$image,domain=~edatop.com
 /image/affiliate/*
 /image_ads/*
 /imageads/*
 /images-ad/*
 /images/ad2/*
 /images/ads-$domain=~ads.com
-/images/adv/*
 /images/adz/*
 /images2/Ads/*$image
 /img/ad/*$~xmlhttprequest
@@ -19938,7 +19935,7 @@ fqsousou.com,kengso.com#@#.user-share
 /nativead.
 /nativeads-v2.js
 /nativeads.js
-/nativeads/script/*
+/nativeads/script/*$script
 /nativebanner/ane-native-banner.js
 /nb/frot_lod.js
 /neverblock/*
@@ -19976,14 +19973,13 @@ fqsousou.com,kengso.com#@#.user-share
 /partnerad.
 /partnerads/*
 /partneradwidget.
-/partnerbanner.
-/partnerbanner/*
+/partnerbanner.$domain=~toltech.cn
 /partners/ads/*
 /pcad.js?
 /peel.php?
 /peel_ads/*
 /peelad/*
-/peelads/*
+/peelads/*$script
 /pfe/current/*
 /phpads/adx.js
 /phpadsnew/*$image,script
@@ -20225,7 +20221,6 @@ fqsousou.com,kengso.com#@#.user-share
 /utx?cb=$third-party
 /v2/a/push/js/*
 /v3/ads?
-/v5/ads/*
 /v7/ads/*
 /valnet-header-ads.
 /vast/?zid=
@@ -20266,7 +20261,6 @@ fqsousou.com,kengso.com#@#.user-share
 /welcome_ad.js
 /widget-advert?
 /widget/ads.
-/widget/ads/*
 /wordpress-ads-plug-in/*
 /wp-ad.min.
 /wp-auto-affiliate-links/*
