@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: T/XJjrXvSYA2rZOgmPv2pg
+! Checksum: qpqt1PDiO3c1y6+e/EbUXw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202405101400
-! Last Modified: 2024年05月10日 14:00
+! Version: 202405102000
+! Last Modified: 2024年05月10日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -604,7 +604,7 @@ tieba.baidu.com##.tuijian-wrap
 /ad/err?
 /ad/getban?
 /ad/image/*$image
-/ad/images/*$domain=~studiocalling.it
+/ad/images/*$image,domain=~studiocalling.it
 /ad/img/*$image,domain=~jiji.com
 /ad/imp?
 /ad/load_ad?
@@ -729,7 +729,6 @@ tieba.baidu.com##.tuijian-wrap
 /ads/bottom/*
 /ads/cbr.
 /ads/delivery.
-/ads/display/*
 /ads/footer.
 /ads/ga-audiences?
 /ads/gam_prebid-
@@ -771,7 +770,6 @@ tieba.baidu.com##.tuijian-wrap
 /ads/video/*
 /ads/view.php
 /ads/xtcore.
-/ads/yahoo/*
 /ads1.
 /ads160.
 /ads3.
@@ -903,7 +901,6 @@ tieba.baidu.com##.tuijian-wrap
 /aff_banners/*$image
 /affad?
 /affads/*
-/affbanner/*
 /affbanners/*
 /affiliate/ad/*$image
 /affiliate/ads/*$image
@@ -984,7 +981,7 @@ tieba.baidu.com##.tuijian-wrap
 /banners/adv/*
 /banners/adv_
 /banners/aff.
-/banners/affil/*
+/banners/affil/*$image
 /banners/affiliate/*$image
 /banners/ffadult/*
 /bannersAds_
@@ -1133,14 +1130,13 @@ tieba.baidu.com##.tuijian-wrap
 /hserver/site=
 /ht.js?site_
 /image/ad/*$image
-/image/ads/*
+/image/ads/*$image,domain=~edatop.com
 /image/affiliate/*
 /image_ads/*
 /imageads/*
 /images-ad/*
 /images/ad2/*
 /images/ads-$domain=~ads.com
-/images/adv/*
 /images/adz/*
 /images2/Ads/*$image
 /img/ad/*$~xmlhttprequest
@@ -1226,7 +1222,7 @@ tieba.baidu.com##.tuijian-wrap
 /nativead.
 /nativeads-v2.js
 /nativeads.js
-/nativeads/script/*
+/nativeads/script/*$script
 /nativebanner/ane-native-banner.js
 /nb/frot_lod.js
 /neverblock/*
@@ -1264,14 +1260,13 @@ tieba.baidu.com##.tuijian-wrap
 /partnerad.
 /partnerads/*
 /partneradwidget.
-/partnerbanner.
-/partnerbanner/*
+/partnerbanner.$domain=~toltech.cn
 /partners/ads/*
 /pcad.js?
 /peel.php?
 /peel_ads/*
 /peelad/*
-/peelads/*
+/peelads/*$script
 /pfe/current/*
 /phpads/adx.js
 /phpadsnew/*$image,script
@@ -1513,7 +1508,6 @@ tieba.baidu.com##.tuijian-wrap
 /utx?cb=$third-party
 /v2/a/push/js/*
 /v3/ads?
-/v5/ads/*
 /v7/ads/*
 /valnet-header-ads.
 /vast/?zid=
@@ -1554,7 +1548,6 @@ tieba.baidu.com##.tuijian-wrap
 /welcome_ad.js
 /widget-advert?
 /widget/ads.
-/widget/ads/*
 /wordpress-ads-plug-in/*
 /wp-ad.min.
 /wp-auto-affiliate-links/*
@@ -58613,6 +58606,7 @@ browsershots.org#@#.advert_area
 ||7fc8.site^$document,popup
 ||8acc5c.site^$document,popup
 ||8bf6c3e9-3f4f-40db-89b3-58248f943ce3.online^$document,popup
+||a67d12.xyz^$document,popup
 ||b211.xyz^$document,popup
 ||b59c.xyz^$document,popup
 ||b714b1e8-4b7d-4ce9-a248-48fd5472aa0b.online^$document,popup
@@ -77588,6 +77582,7 @@ newduba.cn###jq_youxi
 ||mmgap.cn^
 ||yssryr.cn^
 ||88lm15.com^
+||iaosua.com^
 ||zuvbzl.xyz^
 ||zwdtvx.xyz^
 ||zwxxcb.icu^
