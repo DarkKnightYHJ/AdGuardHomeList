@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mmwiCGmGLhio+42meRAKTg
-! Version: 202405111701
+! Checksum: BU/uKh9C/eVhsxVwfRQbsg
+! Version: 202405111811
 ! Title: EasyList China+EasyList
-! Last modified: 11 May 2024 17:01 UTC
+! Last modified: 11 May 2024 18:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -19366,7 +19366,7 @@ fqsousou.com,kengso.com#@#.user-share
 /ad_request.js
 /ad_request.php
 /ad_right.
-/ad_rotator/*
+/ad_rotator/*$image,script,domain=~spokane.exchange
 /ad_server.
 /ad_side.
 /ad_skyscraper.gif
@@ -19580,11 +19580,11 @@ fqsousou.com,kengso.com#@#.user-share
 /adv/mjx.js
 /adv_2.
 /adv_468.
-/adv_ads_v3/relatedAds/*
 /adv_banner_
 /adv_out.js
 /adv_teasers.js
 /adv_vert.js
+/AdvAdsV3/*$script,stylesheet
 /advanced-ads-$domain=~wordpress.org
 /advbanner/*$~image
 /advbanners/*$~image
@@ -19703,7 +19703,6 @@ fqsousou.com,kengso.com#@#.user-share
 /banners/aff.
 /banners/affil/*$image
 /banners/affiliate/*$image
-/bannersAds_
 /bottom-ads.jpg
 /bottom-ads.png
 /bottom_ad.jpg
@@ -19861,7 +19860,7 @@ fqsousou.com,kengso.com#@#.user-share
 /img/aff/*
 /img_ad/*$image,domain=~daily.co.jp|~ehonnavi.net
 /in/show/?mid=$third-party
-/include/ad/*
+/include/ad/*$script
 /include/ad_
 /includes/ads/*$script
 /index-ad-
@@ -19972,7 +19971,6 @@ fqsousou.com,kengso.com#@#.user-share
 /pagepeel.
 /pagepeelpro.js
 /partner-ad-
-/partner_ads/*
 /partnerad.
 /partnerads/*
 /partneradwidget.
@@ -20067,7 +20065,7 @@ fqsousou.com,kengso.com#@#.user-share
 /railad.jpg
 /RdmAdFeed.js
 /rdrr/renderer.js
-/RealMedia/ads/adstream_
+/RealMedia/ads/*$~xmlhttprequest
 /redirect/?spot_id=
 /redirect?tid=
 /reklam.$domain=~github.com|~reklam.com.tr
@@ -20080,7 +20078,7 @@ fqsousou.com,kengso.com#@#.user-share
 /reklama3.png
 /reklama4.jpg
 /reklama4.png
-/reklame/*
+/reklame/*$~xmlhttprequest
 /ren.gif?
 /report_ad.js
 /resources/ads/*
@@ -20134,7 +20132,7 @@ fqsousou.com,kengso.com#@#.user-share
 /showbanner.js
 /side-ads-
 /side-ads/*
-/side_ads/*
+/side_ads/*$~xmlhttprequest
 /sidead.
 /sidead1.js
 /sideads.js
@@ -20293,7 +20291,6 @@ fqsousou.com,kengso.com#@#.user-share
 /wppas.min.js
 /wpxbz-theme.js
 /wrapper/ads/*
-/www/deliver/*
 /www/deliverx/*
 /www/delivery/*$script,subdocument
 /www/js/ad/*
