@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PPFhHxWlMsaKh8L3GBbzig
-! Version: 202405111501
+! Checksum: NDCZvXSsMPWJLL+zE30KPQ
+! Version: 202405111601
 ! Title: EasyList China+EasyList
-! Last modified: 11 May 2024 15:01 UTC
+! Last modified: 11 May 2024 16:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -19856,7 +19856,6 @@ fqsousou.com,kengso.com#@#.user-share
 /images-ad/*
 /images/ad2/*
 /images/ads-$domain=~ads.com
-/images/adz/*
 /images2/Ads/*$image
 /img/ad/*$~xmlhttprequest
 /img/aff/*
@@ -19923,13 +19922,12 @@ fqsousou.com,kengso.com#@#.user-share
 /media_ads/*$image
 /mgid.html
 /microad.js
-/min/ads/*
 /mnpw3.js
 /mobile-ad.
 /mobile_ad.
 /mobileads.
 /mod_ijoomla_adagency_zone/*$~xmlhttprequest
-/mod_pagepeel_banner/*
+/mod_pagepeel_banner/*$image,script
 /module-ads-html-$script
 /module-ads/*
 /module/ads/*
@@ -19970,7 +19968,7 @@ fqsousou.com,kengso.com#@#.user-share
 /pagead/lvz?
 /pagead/osd.
 /pageear.js
-/pageear/*
+/pageear/*$script
 /pagepeel.
 /pagepeelpro.js
 /partner-ad-
@@ -19987,7 +19985,7 @@ fqsousou.com,kengso.com#@#.user-share
 /pfe/current/*$third-party
 /phpads/adx.js
 /phpadsnew/*$image,script
-/phpbb_ads/*
+/phpbb_ads/*$~xmlhttprequest
 /pioneersuspectedjury.com/*
 /pix/ads/*$image
 /pixel/puclc?
@@ -20002,7 +20000,7 @@ fqsousou.com,kengso.com#@#.user-share
 /plugins/adrotate-pro/*
 /plugins/adrotate/*$script
 /plugins/ads-
-/plugins/ads/*
+/plugins/ads/*$~xmlhttprequest
 /plugins/adsanity-
 /plugins/advanced-ads/*$domain=~wordpress.org
 /plugins/ane-banners-entre-links/*
@@ -20126,7 +20124,6 @@ fqsousou.com,kengso.com#@#.user-share
 /select_adv?
 /servead/request/*$script,subdocument
 /serveads.php
-/service/ads/*
 /servlet/view/*$script
 /set_adcode?
 /sft-prebid.js
@@ -20152,7 +20149,6 @@ fqsousou.com,kengso.com#@#.user-share
 /skin-ad_
 /skin/ad/*
 /skin/adv/*
-/skin3/ads/*
 /skin_ad-
 /skinad.
 /skyadright.
@@ -20181,12 +20177,10 @@ fqsousou.com,kengso.com#@#.user-share
 /sponsored-links/*
 /sponsored-widget
 /sponsored_ad.
-/sponsored_ads/*
 /sponsored_link.
 /sponsored_links_
 /sponsored_text.
 /sponsoredlinks.
-/sponsoredlinks/*
 /sponsoredlinks?
 /sponsors/ads/*$image
 /squaread.jpg
@@ -84364,6 +84358,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||4f.to/spns/
 ||abcnews.com/assets/js/adCallOverride.js
 ||aboutmyarea.co.uk/images/imgstore/
+||absoluteanime.com/!bin/skin3/ads/
 ||ad.animehub.ac^
 ||ad.doubleclick.net/ddm/clk/$domain=ad.doubleclick.net
 ||ad.imp.joins.com^
