@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0Qp/p2fB4uMEUINAudPpLQ
+! Checksum: mt1RNgeDqAgWjOSUbzbpBQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202405120200
-! Last Modified: 2024年05月12日 02:00
+! Version: 202405120800
+! Last Modified: 2024年05月12日 08:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -70138,6 +70138,7 @@ netwerk24.com##.love2meet
 tigerdroppings.com##.lowLead
 bikeroar.com##.lower-panel
 greatbritishlife.co.uk##.lp_track_vertical2
+foodandwine.com##.lrs__wrapper
 lowes.com##.lws_pdp_recommendations_sponsored
 thestreet.com##.m-balloon-header
 politifact.com##.m-billboard
@@ -74642,6 +74643,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||paramountplus.com^$generichide
 @@||peacocktv.com^$generichide
 @@||photos.google.com^$generichide
+@@||pinterest.com^$generichide
 @@||publicwww.com^$generichide
 @@||qobuz.com^$generichide
 @@||reddit.com^$generichide
@@ -77502,6 +77504,13 @@ newduba.cn###jq_youxi
 ||adlhxwb.xyz^
 ||6b856ee58e.com^
 ||zrdga.cn^
+||lmvotk.cn^
+||cwgucvm.icu^
+||forrzp.xyz^
+||arkkcu.xyz^
+||jgidskia.top^
+||fhvzrr.xyz^
+||mnpzrgz.xyz^
 ||zuvbzl.xyz^
 ||zwdtvx.xyz^
 ||zwxxcb.icu^
@@ -85915,7 +85924,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||bcebos.com/24x360x528.gif
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-1point3acrescom###portal_block_567
+123pan.com##.ant-carousel
+123pan.com##.banner-container-pc
+123pan.com##.banner-container-h5
+1point3acres.com#?#div[id^="portal_block"]:-abp-has(a[href*="fiverr.com"])
 element-plus.org##.toc-content > div[style="margin-top:16px;"]
 element-plus.org##aside > .page-content-main
 szxx.com.cn###A1
@@ -101548,6 +101560,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||californiatimes.com/privacy/$image
 ||calltrack.co^
 ||calltrk.com/companies/
+||calvera-telemetry.polaris.me^
 ||camel.headfarming.com^
 ||canada.com/js/analytics/
 ||capture-api.ap3prod.com^
