@@ -1,9 +1,9 @@
-! Checksum: 0aFhiAOONEk76YaOU91e3w
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1715495616-3600.patch
+! Checksum: pWns9uoX6uIGhesPOrOn4Q
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1715517236-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.65.33
-! TimeUpdated: 2024-05-12T06:31:46+00:00
+! Version: 2.0.65.34
+! TimeUpdated: 2024-05-12T12:31:58+00:00
 ! Expires: 5 days (update frequency)
 ||buyvisblog.com^
 ||fnlojkpbe.com^
@@ -44001,6 +44001,7 @@ vkcdnservice.appspot.com^
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||logger.torimochi-ad.net^
 ||mainting-minues.xyz^
 ||europe-west1-sonorous-dragon-276210.cloudfunctions.net^
 ||antillephone.com^
@@ -54529,7 +54530,6 @@ inapps.appsflyersdk.com^
 ||blogparts.gcolle.net^
 ||eisys-bcs.jp^
 ||congrab.com^
-||torimochi-ad.net^
 ||affiliates.expaus.in^
 ||dep.tc^
 ||r-ad.linkshare.jp^
