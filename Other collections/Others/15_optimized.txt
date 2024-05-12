@@ -1,9 +1,9 @@
-! Checksum: pWns9uoX6uIGhesPOrOn4Q
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1715517236-3600.patch
+! Checksum: ykPpE5hb2yRxJsagpa/QMg
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1715538834-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.65.34
-! TimeUpdated: 2024-05-12T12:31:58+00:00
+! Version: 2.0.65.35
+! TimeUpdated: 2024-05-12T18:31:56+00:00
 ! Expires: 5 days (update frequency)
 ||buyvisblog.com^
 ||fnlojkpbe.com^
@@ -56471,8 +56471,10 @@ inapps.appsflyersdk.com^
 ||ads.baotainguyenmoitruong.vn^
 ||ads.bkitsoftware.com^
 ||ads.businessstyle.vn^
+||ads.cadovn.biz^
 ||ads.careerbuilder.vn^
 ||ads.carmudi.vn^
+||ads.cdvn.vip^
 ||ads.chanhtuoi.com^
 ||ads.cungcau.vn^
 ||ads.fpt.vn^
@@ -57230,6 +57232,7 @@ inapps.appsflyersdk.com^
 ||chamsockhachhangnanghanmuctindungmsb.com^
 ||chamsocthekhachang-truc-tuyen.com^
 ||chamsocthekhachhang-thang4.com.vn^
+||chamsocthekhachhang-thang4.online^
 ||chanle79.me^
 ||chanlemmo.com^
 ||chanlemomo.cc^
@@ -57395,6 +57398,7 @@ inapps.appsflyersdk.com^
 ||dhlexpress-vietnam.com.vn^
 ||dhlvietnam-express.vn^
 ||dich-vu-dien-mayxanh.com^
+||dich-vu-kh-vip-vpbank.com^
 ||dich-vu-kvip-vpbank.com^
 ||dich-vu-online-vpbank.com^
 ||dich-vu-the-ai-vpbank.com^
@@ -57820,9 +57824,11 @@ inapps.appsflyersdk.com^
 ||haitacshopgame.com^
 ||halovay.com^
 ||hamoney.xyz^
+||han-muc-khcn-uu-tien-vna1.com^
 ||handico.vaytienmat-nhanh24h.com^
 ||hangairsoft.com^
 ||hanghaiqt.com^
+||hanmucvn.com^
 ||hbpnnz.cyou^
 ||hdbankcareer.com^
 ||hdbankfinancc.digital^
@@ -58050,6 +58056,7 @@ inapps.appsflyersdk.com^
 ||khachhangvib-canhan.com^
 ||khangdz215.tk^
 ||khcn-han-muc-tin-dung-ca-nhan.com^
+||khcn-my-diamon-han-muc-uu-tien.com^
 ||khcn-tindung-vp.com^
 ||khcn-uu-tien-3fv-vib.com^
 ||khoanhkhacgiadinhdoantucuoinam.weebly.com^
@@ -58105,6 +58112,7 @@ inapps.appsflyersdk.com^
 ||kstorybank.top^
 ||ktien.vn^
 ||kuyhaa-me.pw^
+||l-fb.co^
 ||la533.com^
 ||la7168.com^
 ||la9435.com^
@@ -58579,6 +58587,7 @@ inapps.appsflyersdk.com^
 ||nanghanmucthe-thetindung.com^
 ||nanghanmucthetindung247.com^
 ||nanghanmucthevib.com^
+||nanghanmucvisa-vn.com^
 ||nap-the.vn^
 ||napallgame.com^
 ||napasvidientu247.com^
@@ -59166,7 +59175,6 @@ inapps.appsflyersdk.com^
 ||shek66.com^
 ||shilla.skrfgrl.cn^
 ||shinhan.chamsoccanhankhachhangthe-tructuyen.online^
-||shinhan.chamsocthekhachhang-thang4.online^
 ||shinhan.ho-tro-tin-dung-ca-nhan.com^
 ||shinhan0.com^
 ||shinhanapp.org^
@@ -59800,8 +59808,10 @@ inapps.appsflyersdk.com^
 ||taixiumomo.net^
 ||takk6.com^
 ||tammenaa.com^
+||tang-han-muc-the-visa-vn.com^
 ||tangcuongbanlinh.com^
 ||tangcuongsinhluc.site^
+||tanghanmuc-vn.com^
 ||tanglike.biz^
 ||tanglikefree.online^
 ||tangnickmienphi.com^
@@ -60033,6 +60043,7 @@ inapps.appsflyersdk.com^
 ||tingiovang777.com^
 ||tingiovangvn.com^
 ||tinhay24h.pro^
+||tinhothomnay.com^
 ||tinhotnew.com^
 ||tinlequa365.com^
 ||tinlocvang123.com^
@@ -60443,6 +60454,7 @@ inapps.appsflyersdk.com^
 ||viashopee.com^
 ||viaviet03.mobie.in^
 ||vib-bank.com^
+||vib-mydiamon-khcn-uutien-vnc1.com^
 ||vib-tindung-khcn.com^
 ||vib-tindung.click^
 ||vib-tindung.online^
@@ -60451,11 +60463,9 @@ inapps.appsflyersdk.com^
 ||vib.chamsockhachang-tructuyen.online^
 ||vib.chamsockhachhang-tructuyen-the-visa.com^
 ||vib.chamsocthekhachang-tructuyen.com.vn^
-||vib.hanmucvn.com^
 ||vib.khach-hang-the-tructuyen.com^
 ||vib.khach-hang-the-tructuyen.online^
 ||vib.mobi^
-||vib.tanghanmuc-vn.com^
 ||vib.truc-tuyen-cham-socthekhachhang.com^
 ||vib.tructuyen-chamsockhachang-the.com^
 ||vib.tuvan-chamsockhachhang.com^
@@ -60492,6 +60502,7 @@ inapps.appsflyersdk.com^
 ||vieclamonlinetainha.com.vn^
 ||vieclamshopee.com^
 ||vieetcombank.com^
+||vieetcombiank.com^
 ||vieitcombank.com^
 ||vieittcombank.com^
 ||viet-credit.com^
@@ -60682,6 +60693,7 @@ inapps.appsflyersdk.com^
 ||vipshopee.com^
 ||viptikivn.club^
 ||virtuallaughing.com^
+||visa-mb.com^
 ||visa-vpbank-uu-tien.com^
 ||vitienonline88.com^
 ||vitindungpgbank.com^
@@ -60922,7 +60934,6 @@ inapps.appsflyersdk.com^
 ||vpb-hanmuc.online^
 ||vpb-nanghanmuc.com^
 ||vpb-nanghanmuc.online^
-||vpb.tang-han-muc-the-visa-vn.com^
 ||vpb.tanghanmucvisa-vn.com^
 ||vpbank-vaytien.com^
 ||vpbank.appvest.vn^
@@ -61029,6 +61040,7 @@ inapps.appsflyersdk.com^
 ||wvietcombank.com^
 ||wviietcombank.com^
 ||wvvietcombank.com^
+||wvwfacebook.com^
 ||wvwiietcoombank.com^
 ||wwgfyvvdtmeq.pw^
 ||www-fb.com^
@@ -62000,6 +62012,7 @@ inapps.appsflyersdk.com^
 ||fhvzrr.xyz^
 ||mnpzrgz.xyz^
 ||pwuxnr.cn^
+||lizijing12.top^
 ||zuvbzl.xyz^
 ||zwdtvx.xyz^
 ||zwxxcb.icu^
