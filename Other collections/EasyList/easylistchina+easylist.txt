@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HRi9rI88mzvzZwNh2felLQ
-! Version: 202405131500
+! Checksum: /ZIlOXzMA24CdHywvJ8m7w
+! Version: 202405131611
 ! Title: EasyList China+EasyList
-! Last modified: 13 May 2024 15:00 UTC
+! Last modified: 13 May 2024 16:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -2609,6 +2609,7 @@ newduba.cn###jq_youxi
 ||kgidskid.top^
 ||upyzqf.cn^
 ||mdiygc.xyz^
+||dyccdk.xyz^
 ||zuvbzl.xyz^
 ||zwdtvx.xyz^
 ||zwxxcb.icu^
@@ -19788,7 +19789,7 @@ fqsousou.com,kengso.com#@#.user-share
 /exports/tour/*$third-party
 /exports/tour_20/*
 /external/ad.
-/external/ads/*
+/external/ads/*$image
 /external_ad?
 /external_ads.
 /fel456.js$script
@@ -19848,7 +19849,7 @@ fqsousou.com,kengso.com#@#.user-share
 /ht.js?site_
 /image/ad/*$image
 /image/ads/*$image,domain=~edatop.com
-/image/affiliate/*
+/image/affiliate/*$image
 /image_ads/*
 /imageads/*$image
 /images-ad/*
@@ -19991,7 +19992,7 @@ fqsousou.com,kengso.com#@#.user-share
 /pixel/sbe?
 /placeholder-ad-
 /player/ads/*$~xmlhttprequest
-/plugin/ad/*
+/plugin/ad/*$script
 /plugins/ad-invalid-click-protector/*$script
 /plugins/adrotate-pro/*
 /plugins/adrotate/*$script
@@ -87088,6 +87089,7 @@ slideshare.net##.StickyVerticalInterstitialAd_root__f7Qki
 coin360.com##.Sticky_Promo
 slant.co##.SummaryPage-LustreEmbed
 westword.com##.SurveyLinkSlideModal
+newser.com##.TaboolaP1P2
 dictionary.com##.TeixwVbjB8cchva8bDlg
 imgur.com##.Top300x600
 cnbc.com##.TopBanner-container
@@ -91229,6 +91231,7 @@ fctables.com##div[style^="background:#e3e3e3;position:fixed"]
 footybite.cc##div[style^="border: 2px solid "]
 pastebin.com##div[style^="color: #999; font-size: 12px; text-align: center;"]
 realpython.com##div[style^="display:block;position:relative;"]
+newser.com##div[style^="display:inline-block;width:728px;"]
 elitepvpers.com##div[style^="font-size:11px;"]
 add0n.com,crazygames.com##div[style^="height: 90px;"]
 apkdone.com,crazygames.com,english-hindi.net,livesoccertv.com,malaysiakini.com,sporticos.com##div[style^="height:250px"]
