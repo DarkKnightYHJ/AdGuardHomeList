@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: P0GBhbVgSNpbHAzuDNdBmA
-! Version: 202405130701
+! Checksum: 6pUZAiGVqV6lHeN8MMh4Cw
+! Version: 202405130811
 ! Title: ABP filters
-! Last modified: 13 May 2024 07:01 UTC
+! Last modified: 13 May 2024 08:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -995,7 +995,7 @@ gamefront.com#$#abort-current-inline-script $ AdBlock
 ||thikraik.net^$domain=kickassanime.io
 kickassanime.io##.ka-ax-wrp.mb-3
 imagefap.com#$#abort-on-property-read popCookie
-igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#hide-if-matches-xpath './/a[@href][@aria-label]/img[@loading="lazy"][@width="661"]/ancestor-or-self::a[1]'
+igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#hide-if-matches-xpath './/a[@href][@aria-label]/img[@loading="lazy"][@width="662"]/ancestor-or-self::a[1]'
 igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#abort-on-property-write advanced_ads_ready; prevent-listener DOMContentLoaded; prevent-listener iframe; abort-current-inline-script addEventListener document.createElement;
 searchenginereports.net#$#abort-on-property-read adsbygoogle
 amyscans.com##div[class*="code-block"]
@@ -1637,7 +1637,7 @@ xoivo2.online,tructiepdabong5.co,vaoroi365.com#$#override-property-read adsPlaye
 kenh14.vn#$#override-property-read Constants.allowAds false
 vndoc.com#$#override-property-read seconds 0
 phimvuihd.org#$#override-property-read urlAds ''
-live8.thapcam5.net#$#simulate-mouse-event '#modalasd$continue,delay=300'
+live10.thapcam5.net#$#simulate-mouse-event '#modalasd$continue,delay=300'
 phimvietsub.pro,api.anime3s.com,subnhanh.xyz#$#override-property-read maxAds 0
 web.motsex.net,clipsexvietnam.net,phimsexviet.io,phimsexvietnam.app,clipsex.xxx,web.phimsexnhanh.tv,gm.phimsexnhanh.tv,phimsexvip.cc,web.ditnhau.cc,phim.sexhayvl.org#$#override-property-read video.adVast ''
 www.iosviet.com#$#override-property-read timer 0
