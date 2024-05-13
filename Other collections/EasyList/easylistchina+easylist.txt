@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +PN2cYhOkrq+dcwaYNgbHQ
-! Version: 202405131401
+! Checksum: HRi9rI88mzvzZwNh2felLQ
+! Version: 202405131500
 ! Title: EasyList China+EasyList
-! Last modified: 13 May 2024 14:01 UTC
+! Last modified: 13 May 2024 15:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -19504,7 +19504,6 @@ fqsousou.com,kengso.com#@#.user-share
 /ads/top-
 /ads/top.
 /ads/tso
-/ads/v2/*
 /ads/video/controller.php
 /ads/view.php
 /ads/xtcore.
@@ -19526,7 +19525,6 @@ fqsousou.com,kengso.com#@#.user-share
 /ads?zone=
 /ads?zone_id=
 /ads_300.
-/ads_assets/*
 /ads_banners/*$image
 /ads_bg.
 /ads_bottom.js
@@ -19611,7 +19609,6 @@ fqsousou.com,kengso.com#@#.user-share
 /advert8.
 /advert?
 /advertbanner.
-/advertising/banner_
 /advertising/banners/*$image
 /advertisingWebRenderer.min.js
 /advertisment-
@@ -19633,7 +19630,6 @@ fqsousou.com,kengso.com#@#.user-share
 /aff_banner/*$image
 /aff_banners/*$image
 /affad?
-/affads/*
 /affbanners/*$image
 /affiliate/ad/*$image
 /affiliate/ads/*$image
@@ -19759,7 +19755,6 @@ fqsousou.com,kengso.com#@#.user-share
 /delivery/avw.php
 /delivery/fc.php
 /delivery/lg.php
-/delivery_ads/*
 /dfp.min.js$third-party
 /dfp_async.js
 /dfpNew.min.js
@@ -19817,7 +19812,6 @@ fqsousou.com,kengso.com#@#.user-share
 /footer_ad.php
 /footer_ads.php
 /footer_ads.png
-/footer_ads_
 /footerad.
 /footerads.
 /footerads/*
@@ -19934,8 +19928,8 @@ fqsousou.com,kengso.com#@#.user-share
 /module-ads-html-$script
 /module-ads/*
 /module/ads/*
-/modules/ad/*
-/modules/ads/*
+/modules/ad/*$~xmlhttprequest
+/modules/ads/*$~xmlhttprequest
 /MPUAdHelper.js
 /mydirtyhobby.$domain=~mydirtyhobby.com|~mydirtyhobby.de|~mydirtyhobby.to
 /mysimpleads/mysa_output.php
@@ -19991,6 +19985,7 @@ fqsousou.com,kengso.com#@#.user-share
 /pioneersuspectedjury.com/*
 /pix/ads/*$image
 /pixel/puclc?
+/pixel/pure$~xmlhttprequest
 /pixel/purs?
 /pixel/purst?
 /pixel/sbe?
@@ -20148,7 +20143,7 @@ fqsousou.com,kengso.com#@#.user-share
 /size=*/random=*/viewid=
 /skin-ad_
 /skin/ad/*$image,script
-/skin/adv/*
+/skin/adv/*$~xmlhttprequest
 /skin_ad-
 /skinad.
 /skyadright.
@@ -20170,14 +20165,12 @@ fqsousou.com,kengso.com#@#.user-share
 /sponsor-links.html
 /sponsorad.jpg
 /sponsorad.png
-/sponsorbanners/*
 /sponsored-links-
 /sponsored-links.
 /sponsored-links/*
 /sponsored-widget
 /sponsored_ad.
 /sponsored_link.
-/sponsored_links_
 /sponsored_text.
 /sponsoredlinks.
 /sponsoredlinks?
@@ -20231,11 +20224,10 @@ fqsousou.com,kengso.com#@#.user-share
 /video_ad.
 /video_ad_
 /video_ads.
-/video_ads/*
 /video_slider3.js
 /videoad.$domain=~videoad.in
 /videoad/*$script
-/videoads/*
+/videoads/*$~xmlhttprequest
 /videojs.ads-
 /videojs.sda.js
 /view/ad/*$subdocument
@@ -20563,7 +20555,7 @@ _widget_ad.
 /prebid_v4.
 /prebidAdcall.
 /prebidLibrary.
-/prebidlink/*
+/prebidlink/*$script
 /prodprebidheader-
 /pubfig.min.js
 /tagman/*$domain=~abelssoft.de
@@ -84735,6 +84727,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||sponsors.vuejs.org^
 ||sportlemon24.com/img/301.jpg
 ||sportshub.to/player-source/images/banners/
+||spotify.com/ads/
 ||spox.com/daznpic/
 ||srilankamirror.com/images/banners/
 ||srware.net/iron/assets/img/av/
@@ -84798,6 +84791,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||tubeoffline.com/vpn2.php
 ||tubeoffline.com/vpnimg/
 ||turbobit.net/pus/
+||twitter.com/*/videoads/
 ||twt-assets.washtimes.com^$script,domain=washingtontimes.com
 ||ubuntugeek.com/images/ubuntu1.png
 ||uhdmovies.eu/axwinpop.js
