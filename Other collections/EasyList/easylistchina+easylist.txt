@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fYa8kADuKLacY5lICWmyRw
-! Version: 202405141101
+! Checksum: 4XvYj3tQRwmMSocGgeAYWQ
+! Version: 202405141211
 ! Title: EasyList China+EasyList
-! Last modified: 14 May 2024 11:01 UTC
+! Last modified: 14 May 2024 12:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -19490,7 +19490,6 @@ fqsousou.com,kengso.com#@#.user-share
 /ads/index-
 /ads/index.
 /ads/index/*
-/ads/index_
 /ads/leaderboard-
 /ads/leaderboard.
 /ads/native.js
@@ -19505,7 +19504,6 @@ fqsousou.com,kengso.com#@#.user-share
 /ads/serve?
 /ads/show.
 /ads/sidebar-
-/ads/skins/*
 /ads/slideup.
 /ads/spacer.
 /Ads/sponsor.$stylesheet
@@ -19553,7 +19551,7 @@ fqsousou.com,kengso.com#@#.user-share
 /adscontrol.js
 /adscontroller.js
 /adscroll.js
-/adsdelivery/*
+/adsdelivery/*$subdocument
 /adserv.
 /adserve/*$script
 /adserver-
@@ -19626,7 +19624,6 @@ fqsousou.com,kengso.com#@#.user-share
 /advertisment/*$~image
 /adverts.$~script,domain=~0xacab.org|~adverts.ie|~adverts.org.ua|~github.com|~gitlab.com
 /adverts/*$~xmlhttprequest
-/adverts_
 /advrotator.js
 /advrotator_banner_largo.htm
 /advscript.js
@@ -19647,7 +19644,7 @@ fqsousou.com,kengso.com#@#.user-share
 /affiliate/banner/*$image
 /affiliate/banners/*$image
 /affiliateads/*$image
-/affiliates/banner
+/affiliates/banner$image
 /afr.php?
 /afx_prid/*$script
 /ajaxAd?
@@ -19680,7 +19677,6 @@ fqsousou.com,kengso.com#@#.user-share
 /auto.ad.
 /awaps-ad-sdk-$script
 /awe2.js
-/background_ad_
 /ban.php?
 /ban160.php
 /ban300.html
@@ -19704,7 +19700,7 @@ fqsousou.com,kengso.com#@#.user-share
 /banner/html/zone?zid=
 /banner/sponsors.
 /banner_468.
-/banner_ads/*
+/banner_ads/*$~xmlhttprequest,domain=~clickbd.com
 /bannerad.
 /bannerad3.js
 /bannerads.
@@ -19797,7 +19793,7 @@ fqsousou.com,kengso.com#@#.user-share
 /expads-blocked.js
 /export/ltv_popup.php
 /exports/tour/*$third-party
-/exports/tour_20/*
+/exports/tour_20/index.php
 /external/ad.
 /external/ads/*$image
 /external_ad?
@@ -19807,7 +19803,6 @@ fqsousou.com,kengso.com#@#.user-share
 /flashad.js
 /flashad3.jpg
 /flashads.$domain=~flashads.co.id
-/flashads/*
 /fleshlight.$domain=~fleshlight.com|~fleshlight.zendesk.com
 /fload.js
 /float-ads/*
@@ -19866,7 +19861,7 @@ fqsousou.com,kengso.com#@#.user-share
 /images/ads-$domain=~ads.com
 /images2/Ads/*$image
 /img/ad/*$~xmlhttprequest
-/img/aff/*
+/img/aff/*$image
 /img_ad/*$image,domain=~daily.co.jp|~ehonnavi.net
 /in/show/?mid=$third-party
 /include/ad/*$script
@@ -19972,7 +19967,6 @@ fqsousou.com,kengso.com#@#.user-share
 /pagead/1p-user-list/*
 /pagead/ads?
 /pagead/conversion.js
-/pagead/gen_
 /pagead/lvz?
 /pagead/osd.
 /pageear.js
@@ -19987,7 +19981,7 @@ fqsousou.com,kengso.com#@#.user-share
 /partners/ads/*$image
 /pcad.js?
 /peel.php?
-/peel_ads/*
+/peel_ads.js
 /peelads/*$script
 /pfe/current/*$third-party
 /phpads/adx.js
@@ -20023,7 +20017,6 @@ fqsousou.com,kengso.com#@#.user-share
 /plugins/wp-advertising/*
 /plugins/wp-moreads/*$~stylesheet
 /plugins/wp125/*$~stylesheet
-/plugins/wp_pro_ad_system/templates/*
 /poll-ad-
 /pop_8_2.js
 /pop_ads.js
@@ -20242,7 +20235,6 @@ fqsousou.com,kengso.com#@#.user-share
 /videojs.ads-
 /videojs.sda.js
 /view/ad/*$subdocument
-/view/ads/*
 /view_banner.php
 /viewad.asp
 /viewad.php
@@ -20255,7 +20247,6 @@ fqsousou.com,kengso.com#@#.user-share
 /webads/*$image,domain=~cccc.edu|~meatingplace.com
 /webadverts/ads.pl?
 /weborama.js
-/webparts/ads/*
 /welcome_ad.js
 /widget-advert?
 /widget/ads.
@@ -20287,6 +20278,7 @@ fqsousou.com,kengso.com#@#.user-share
 /wp-content/uploads/useful_banner_manager_banners/*
 /wp-popup-scheduler/*
 /wp-srv/ad/*
+/wp_pro_ad_system/templates/*$script,stylesheet
 /wpadgu-adblock.js
 /wpadgu-clicks.js
 /wpadgu-frontend.js
@@ -20295,7 +20287,6 @@ fqsousou.com,kengso.com#@#.user-share
 /wppas.min.js
 /wpxbz-theme.js
 /wrapper/ads/*
-/www/deliverx/*
 /www/delivery/*$script,subdocument
 /www/js/ad/*
 /xads.php
@@ -20304,7 +20295,6 @@ fqsousou.com,kengso.com#@#.user-share
 /yhs/ads?
 /yume_ad_library_
 /zcredirect?
-/zergnet_ad/*
 /~cdn/ads/*
 ://a.*/ad-provider.js$third-party
 ://a.ads.
@@ -20539,7 +20529,6 @@ _widget_ad.
 /adn-hb/*
 /ads/prebid_
 /AudienceNetworkPrebid.
-/ext/prebid
 /gpt-prebid.js
 /pbjsandwich-
 /pbjsandwich.
@@ -84458,6 +84447,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||koreatimes.co.kr/ad/
 ||kta.etherscan.com^
 ||lagacetanewspaper.com/wp-content/uploads/banners/
+||lapresse.ca/webparts/ads/
 ||lasentinel.net/static/img/promos/
 ||latestlaws.com/frontend/ads/
 ||lespagesjaunesafrique.com/bandeaux/
