@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GJrlCwxooF8objMiXcSYxQ
+! Checksum: j3M+gZazFr9ALhmCsSOrHg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202405152000
-! Last Modified: 2024年05月15日 20:00
+! Version: 202405160200
+! Last Modified: 2024年05月16日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -731,7 +731,7 @@ tieba.baidu.com##.tuijian-wrap
 /ads/images/*$image,domain=~eoffcn.com
 /ads/index-
 /ads/index.
-/ads/index/*
+/ads/index/*$~xmlhttprequest,domain=~kuchechina.com
 /ads/leaderboard-
 /ads/leaderboard.
 /ads/native.js
@@ -741,7 +741,7 @@ tieba.baidu.com##.tuijian-wrap
 /ads/popup.
 /ads/preroll-
 /ads/proxy-
-/ads/rectangle_
+/ads/rectangle_$subdocument
 /ads/revgen.
 /ads/serve?
 /ads/show.
@@ -787,7 +787,7 @@ tieba.baidu.com##.tuijian-wrap
 /adsAPI.js
 /adsbanner-
 /adsbanner.
-/adsbanner/*
+/adsbanner/*$image
 /adsbox.$~script,domain=~adsbox.com.sg
 /adscontrol.js
 /adscontroller.js
@@ -1104,7 +1104,6 @@ tieba.baidu.com##.tuijian-wrap
 /img_ad/*$image,domain=~daily.co.jp|~ehonnavi.net
 /in/show/?mid=$third-party
 /include/ad/*$script
-/include/ad_
 /includes/ads/*$script
 /index-ad-
 /index-ad.jpg
@@ -1160,7 +1159,6 @@ tieba.baidu.com##.tuijian-wrap
 /mbads?
 /mcad.php
 /media/ads/*$image
-/media/plg_adbutlerads/*
 /media_ads/*$image
 /mgid.html
 /microad.js
@@ -1176,7 +1174,6 @@ tieba.baidu.com##.tuijian-wrap
 /modules/ad/*$~xmlhttprequest
 /modules/ads/*$~xmlhttprequest
 /MPUAdHelper.js
-/mydirtyhobby.$domain=~mydirtyhobby.com|~mydirtyhobby.de|~mydirtyhobby.to
 /mysimpleads/mysa_output.php
 /nativead.
 /nativeads-v2.js
@@ -1235,6 +1232,7 @@ tieba.baidu.com##.tuijian-wrap
 /pixel/sbe?
 /placeholder-ad-
 /player/ads/*$~xmlhttprequest
+/plg_adbutlerads/*$script,stylesheet
 /plugin/ad/*$script
 /plugins/ad-invalid-click-protector/*$script
 /plugins/adrotate-pro/*
@@ -1285,7 +1283,7 @@ tieba.baidu.com##.tuijian-wrap
 /processing/impressions.asp?
 /production/ad-
 /production/ads/*$script
-/promo/ads/*
+/promo/ads/*$~xmlhttprequest
 /promo/affiframe.
 /promotools.
 /proxyadcall?
@@ -1451,7 +1449,6 @@ tieba.baidu.com##.tuijian-wrap
 /utx?cb=$third-party
 /v2/a/push/js/*$third-party
 /v3/ads?
-/v7/ads/*
 /valnet-header-ads.
 /vast/?zid=
 /velvet_stack_cmp.js
@@ -1524,7 +1521,6 @@ tieba.baidu.com##.tuijian-wrap
 /wppas.min.js
 /wpxbz-theme.js
 /www/delivery/*$script,subdocument
-/www/js/ad/*
 /xads.php
 /xpopunder.js
 /xpopup.js
@@ -14203,7 +14199,6 @@ _800x80_
 ##.netads
 ##.netshelter-ad
 ##.new-ad-box
-##.new-ad-leaderboard-header-desk
 ##.newHeaderAd
 ##.new_ad1
 ##.new_ad_left
@@ -16395,6 +16390,7 @@ _800x80_
 ##a[href^="http://www.iyalc.com/"]
 ##a[href^="http://www.mrskin.com/tour"]
 ##a[href^="https://1betandgonow.com/"]
+##a[href^="https://6-partner.com/"]
 ##a[href^="https://81ac.xyz/"]
 ##a[href^="https://a-ads.com/"]
 ##a[href^="https://a.adtng.com/"]
@@ -16585,6 +16581,8 @@ _800x80_
 ##a[href^="https://www.bang.com/?aff="]
 ##a[href^="https://www.bet365.com/"][href*="affiliate="]
 ##a[href^="https://www.brazzersnetwork.com/landing/"]
+##a[href^="https://www.dating-finder.com/?ai_d="]
+##a[href^="https://www.dating-finder.com/signup/?ai_d="]
 ##a[href^="https://www.dql2clk.com/"]
 ##a[href^="https://www.endorico.com/Smartlink/"]
 ##a[href^="https://www.financeads.net/tc.php?"]
@@ -17845,6 +17843,7 @@ browsershots.org#@#.advert_area
 ||5vpbnbkiey24.com^
 ||5wuefo9haif3.com^
 ||5xd3jfwl9e8v.com^
+||6-partner.com^
 ||6001628d3d.com^
 ||600z.com^
 ||6061de8597.com^
@@ -26473,6 +26472,7 @@ browsershots.org#@#.advert_area
 ||dessly.ru^
 ||destinationoralairliner.com^
 ||destinedsponsornominate.com^
+||destinysfavored.xyz^
 ||destroyedspear.com^
 ||destructionhybrids.com^
 ||desugeng.xyz^
@@ -31086,6 +31086,7 @@ browsershots.org#@#.advert_area
 ||gecl.xyz^
 ||geechaid.xyz^
 ||geedoovu.net^
+||geegleshoaph.com^
 ||geeksundigne.com^
 ||geerairu.net^
 ||geethaihoa.com^
@@ -32955,6 +32956,7 @@ browsershots.org#@#.advert_area
 ||higheurest.com^
 ||highjackclients.com^
 ||highjournalistbargain.com^
+||highlevelbite.com^
 ||highlypersevereenrapture.com^
 ||highlyrecomemu.info^
 ||highmaidfhr.com^
@@ -40896,6 +40898,7 @@ browsershots.org#@#.advert_area
 ||oacfxrqghamyaq.com^
 ||oachailo.net^
 ||oackoubs.com^
+||oackoulimtoo.com^
 ||oadrojoa.net^
 ||oadsaurs.net^
 ||oadsouzi.net^
@@ -42259,6 +42262,7 @@ browsershots.org#@#.advert_area
 ||oypucuqsuwabnxy.com^
 ||oysterexhalereview.com^
 ||oysterfoxfoe.com^
+||oyuvcqmqjyrqd.com^
 ||oywzrri.com^
 ||oyxctgotabvk.com^
 ||oyyihttyklfwcgy.xyz^
@@ -44241,6 +44245,7 @@ browsershots.org#@#.advert_area
 ||professionalsly.com^
 ||professionalswebcheck.com^
 ||professmeeting.com^
+||professorrevealingoctopus.com^
 ||professtrespass.com^
 ||proffering.xyz
 ||proffering.xyz^
@@ -44487,6 +44492,7 @@ browsershots.org#@#.advert_area
 ||psockapa.net^
 ||psognaih.xyz^
 ||psojeeng.com^
+||psomtenga.net^
 ||psoogaix.net^
 ||psoompou.xyz^
 ||psoopirdifty.xyz^
@@ -58457,6 +58463,7 @@ browsershots.org#@#.advert_area
 ||5dimes.com^$popup
 ||5mno3.com^$popup
 ||5vbs96dea.com^$popup
+||6-partner.com^$popup
 ||6198399e4910e66-ovc.com^$popup
 ||62h.site^$popup
 ||7anfpatlo8lwmb.com^$popup
@@ -59787,6 +59794,7 @@ browsershots.org#@#.advert_area
 ||gb1aff.com^$popup
 ||gdecordingholo.info^$popup
 ||gdmconvtrck.com^$popup
+||geegleshoaph.com^$popup
 ||generalebad.xyz^$popup
 ||genialsleptworldwide.com^$popup
 ||geniusdexchange.com^$popup
@@ -61219,6 +61227,7 @@ browsershots.org#@#.advert_area
 ||psychologydistinguishnest.com^$popup
 ||ptaupsom.com^$popup
 ||ptistyvymi.com^$popup
+||ptoakrok.net^$popup
 ||ptongouh.net^$popup
 ||ptsixwereksbef.info^$popup
 ||ptudoalistoy.net^$popup
@@ -72829,6 +72838,7 @@ checkfelix.com,kayak.ae,kayak.bo,kayak.ch,kayak.cl,kayak.co.cr,kayak.co.id,kayak
 checkfelix.com,kayak.ae,kayak.bo,kayak.ch,kayak.cl,kayak.co.cr,kayak.co.id,kayak.co.in,kayak.co.jp,kayak.co.kr,kayak.co.th,kayak.co.uk,kayak.co.ve,kayak.com,kayak.com.ar,kayak.com.au,kayak.com.br,kayak.com.co,kayak.com.do,kayak.com.ec,kayak.com.gt,kayak.com.hk,kayak.com.hn,kayak.com.mx,kayak.com.my,kayak.com.ni,kayak.com.pa,kayak.com.pe,kayak.com.ph,kayak.com.pr,kayak.com.py,kayak.com.sv,kayak.com.tr,kayak.com.uy,kayak.de,kayak.dk,kayak.es,kayak.fr,kayak.ie,kayak.it,kayak.nl,kayak.no,kayak.pl,kayak.pt,kayak.sa,kayak.se,kayak.sg,swoodoo.com##div.PzK0-pres-default
 checkfelix.com,kayak.ae,kayak.bo,kayak.ch,kayak.cl,kayak.co.cr,kayak.co.id,kayak.co.in,kayak.co.jp,kayak.co.kr,kayak.co.th,kayak.co.uk,kayak.co.ve,kayak.com,kayak.com.ar,kayak.com.au,kayak.com.br,kayak.com.co,kayak.com.do,kayak.com.ec,kayak.com.gt,kayak.com.hk,kayak.com.hn,kayak.com.mx,kayak.com.my,kayak.com.ni,kayak.com.pa,kayak.com.pe,kayak.com.ph,kayak.com.pr,kayak.com.py,kayak.com.sv,kayak.com.tr,kayak.com.uy,kayak.de,kayak.dk,kayak.es,kayak.fr,kayak.ie,kayak.it,kayak.nl,kayak.no,kayak.pl,kayak.pt,kayak.sa,kayak.se,kayak.sg,swoodoo.com##div[class$="-adInner"]
 checkfelix.com,kayak.ae,kayak.bo,kayak.ch,kayak.cl,kayak.co.cr,kayak.co.id,kayak.co.in,kayak.co.jp,kayak.co.kr,kayak.co.th,kayak.co.uk,kayak.co.ve,kayak.com,kayak.com.ar,kayak.com.au,kayak.com.br,kayak.com.co,kayak.com.do,kayak.com.ec,kayak.com.gt,kayak.com.hk,kayak.com.hn,kayak.com.mx,kayak.com.my,kayak.com.ni,kayak.com.pa,kayak.com.pe,kayak.com.ph,kayak.com.pr,kayak.com.py,kayak.com.sv,kayak.com.tr,kayak.com.uy,kayak.de,kayak.dk,kayak.es,kayak.fr,kayak.ie,kayak.it,kayak.nl,kayak.no,kayak.pl,kayak.pt,kayak.sa,kayak.se,kayak.sg,swoodoo.com##div[data-resultid]:has(a.IZSg-adlink)
+atlanticsuperstore.ca,fortinos.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#?#[data-testid="card"]:-abp-contains(sponsored)
 kijiji.ca#?#[data-testid^="listing-card-list-item-"]:-abp-contains(TOP AD)
 atlanticsuperstore.ca,fortinos.ca,loblaws.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#?#.product-tile-group__list__item:-abp-contains(Sponsored)
 coles.com.au#?#.coles-targeting-UnitContainer:has(ul.product__top_messaging)
@@ -73229,6 +73239,7 @@ watchhentaivideo.com##.bannerBottom
 pornshare.biz##.banner_1
 pornshare.biz##.banner_2
 pornshare.biz##.banner_3
+4pig.com##.banner_page_right
 yourlust.com##.banner_right_bottoms
 camporn.to,camseek.tv,camstreams.tv,eurogirlsescort.com,sexu.com##.banners
 xxxvogue.net##.banners-container
@@ -74570,7 +74581,9 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 !! pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=battlecats-db.com|cpu-world.com|game.anymanager.io|games.wkb.jp|html5.gamedistribution.com|knowfacts.info|lacoste.com|megagames.com|megaleech.us|newson.us|real-sports.jp|slideplayer.com|tampermonkey.net|teemo.gg|thefreedictionary.com
 !! pagead2.googlesyndication.com/pagead/managed/js/*/show_ads_impl_
-@@||pagead2.googlesyndication.com/pagead/managed/js/*/show_ads_impl_$script,domain=battlecats-db.com|games.wkb.jp
+@@||pagead2.googlesyndication.com/pagead/managed/js/*/show_ads_impl_$script,domain=battlecats-db.com|game.anymanager.io|games.wkb.jp
+!! pagead2.googlesyndication.com/pagead/managed/js/adsense/*/slotcar_library_
+@@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/slotcar_library_$script,domain=game.anymanager.io
 !! g.doubleclick.net/pagead/ppub_config
 @@||g.doubleclick.net/pagead/ppub_config$domain=bloomberg.com|independent.co.uk|repretel.com|telsu.fi|weather.com
 @@/banner/ad/*$image,domain=achaloto.com
@@ -74729,6 +74742,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||adv.asahi.com^$popup
 @@||adv.gg^$popup
 @@||adv.welaika.com^$popup
+@@||biz.yelp.com/ads?$popup
 @@||dashboard.mgid.com^$popup
 @@||doubleclick.net/clk;$popup,domain=3g.co.uk|4g.co.uk|hotukdeals.com|jobamatic.com|play.google.com|santander.co.uk|techrepublic.com
 @@||g.doubleclick.net/aclk?$popup,domain=bodas.com.mx|bodas.net|casamentos.com.br|casamentos.pt|casamiento.com.uy|casamientos.com.ar|mariages.net|matrimonio.com|matrimonio.com.co|matrimonio.com.pe|matrimonios.cl|pianobuyer.com|weddingspot.co.uk|zillow.com
@@ -77358,6 +77372,8 @@ newduba.cn###jq_youxi
 ||07dy.cc^
 ||nuxwlc.cn^
 ||ta20k.xyz^
+||awunkse72.shop^
+||cergbtb36.shop^
 ||bpxbzps.xyz^
 ||zuvbzl.xyz^
 ||zwdtvx.xyz^
@@ -141648,6 +141664,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||sy.ameblo.jp^
 ||t.syosetu.org^
 ||tekoki-fuzoku-joho.com/js/ALinkPrepare_
+||temp.twicomi.com^
 ||tower.jp/bundle/beacon
 ||track.buyma.com^
 ||track.prod.smash.pet^
