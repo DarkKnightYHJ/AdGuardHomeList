@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202405151336
+! Version: 202405151458
 ! Title: EasyList
-! Last modified: 15 May 2024 13:36 UTC
+! Last modified: 15 May 2024 14:58 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -311,7 +311,7 @@
 /ads/popup.
 /ads/preroll-
 /ads/proxy-
-/ads/rectangle_
+/ads/rectangle_$subdocument
 /ads/revgen.
 /ads/serve?
 /ads/show.
@@ -357,7 +357,7 @@
 /adsAPI.js
 /adsbanner-
 /adsbanner.
-/adsbanner/*
+/adsbanner/*$image
 /adsbox.$~script,domain=~adsbox.com.sg
 /adscontrol.js
 /adscontroller.js
@@ -855,7 +855,7 @@
 /processing/impressions.asp?
 /production/ad-
 /production/ads/*$script
-/promo/ads/*
+/promo/ads/*$~xmlhttprequest
 /promo/affiframe.
 /promotools.
 /proxyadcall?
@@ -1021,7 +1021,6 @@
 /utx?cb=$third-party
 /v2/a/push/js/*$third-party
 /v3/ads?
-/v7/ads/*
 /valnet-header-ads.
 /vast/?zid=
 /velvet_stack_cmp.js
@@ -1094,7 +1093,6 @@
 /wppas.min.js
 /wpxbz-theme.js
 /www/delivery/*$script,subdocument
-/www/js/ad/*
 /xads.php
 /xpopunder.js
 /xpopup.js
@@ -74356,7 +74354,9 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 ! ! pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=battlecats-db.com|cpu-world.com|game.anymanager.io|games.wkb.jp|html5.gamedistribution.com|knowfacts.info|lacoste.com|megagames.com|megaleech.us|newson.us|real-sports.jp|slideplayer.com|tampermonkey.net|teemo.gg|thefreedictionary.com
 ! ! pagead2.googlesyndication.com/pagead/managed/js/*/show_ads_impl_
-@@||pagead2.googlesyndication.com/pagead/managed/js/*/show_ads_impl_$script,domain=battlecats-db.com|games.wkb.jp
+@@||pagead2.googlesyndication.com/pagead/managed/js/*/show_ads_impl_$script,domain=battlecats-db.com|game.anymanager.io|games.wkb.jp
+! ! pagead2.googlesyndication.com/pagead/managed/js/adsense/*/slotcar_library_
+@@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/slotcar_library_$script,domain=game.anymanager.io
 ! ! g.doubleclick.net/pagead/ppub_config
 @@||g.doubleclick.net/pagead/ppub_config$domain=bloomberg.com|independent.co.uk|repretel.com|telsu.fi|weather.com
 ! Non-English
