@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KO4cPgUCFlR4gn5LxT7v2Q
-! Version: 202405151001
+! Checksum: wXpMX4qXjBpALW9N81LIEQ
+! Version: 202405151101
 ! Title: EasyList China+EasyList
-! Last modified: 15 May 2024 10:01 UTC
+! Last modified: 15 May 2024 11:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -19347,7 +19347,6 @@ fqsousou.com,kengso.com#@#.user-share
 /a/display.php?$script
 /ab_fl.js$script
 /ablck/frolod.js
-/AC_OETags.js
 /ad--unit.htm
 /ad-125.
 /ad-468-
@@ -19396,7 +19395,7 @@ fqsousou.com,kengso.com#@#.user-share
 /ad_ga_callback.js
 /ad_header.js
 /ad_home.js
-/ad_images/*
+/ad_images/*$image,domain=~5nd.com|~dietnavi.com
 /ad_img/*$image
 /ad_left.
 /ad_manager/*$image,script
@@ -19551,7 +19550,7 @@ fqsousou.com,kengso.com#@#.user-share
 /ads_frame.
 /ads_iframe.
 /ads_image/*$image
-/ads_images/*
+/ads_images/*$image,domain=~wildlifeauctions.co.za
 /adsAPI.js
 /adsbanner-
 /adsbanner.
@@ -19794,7 +19793,7 @@ fqsousou.com,kengso.com#@#.user-share
 /exitpopunder.js
 /exitpopup.js
 /exitsplash.php
-/exoads/*
+/exoads/*$script
 /exobanner.
 /exoclick.$~script,domain=~exoclick.bamboohr.co.uk|~exoclick.kayako.com
 /exonb/backloaderforload.php
@@ -19828,7 +19827,6 @@ fqsousou.com,kengso.com#@#.user-share
 /footer_ads.png
 /footerad.
 /footerads.
-/footerads/*
 /fro_lo.js
 /froloa.js
 /frontend_loader.js
@@ -20091,7 +20089,7 @@ fqsousou.com,kengso.com#@#.user-share
 /reklame/*$~xmlhttprequest
 /ren.gif?
 /report_ad.js
-/resources/ads/*
+/resources/ads/*$~xmlhttprequest
 /responsive/ad_$subdocument
 /responsive_ads.js
 /right-ad-
@@ -20145,7 +20143,6 @@ fqsousou.com,kengso.com#@#.user-share
 /sidead.
 /sidead1.js
 /sideads.js
-/sideads/*
 /sidebar-ad-
 /sidebar_ad.jpg
 /sidebar_ad.png
@@ -20219,7 +20216,7 @@ fqsousou.com,kengso.com#@#.user-share
 /ttj?id=
 /ut.js?cb=
 /utx?cb=$third-party
-/v2/a/push/js/*
+/v2/a/push/js/*$third-party
 /v3/ads?
 /v7/ads/*
 /valnet-header-ads.
@@ -20234,7 +20231,6 @@ fqsousou.com,kengso.com#@#.user-share
 /video-js-ads.
 /video.ads.
 /video_ad.
-/video_ad_
 /video_ads.
 /video_slider3.js
 /videoad.$domain=~videoad.in
@@ -20294,7 +20290,6 @@ fqsousou.com,kengso.com#@#.user-share
 /wppas.min.css
 /wppas.min.js
 /wpxbz-theme.js
-/wrapper/ads/*
 /www/delivery/*$script,subdocument
 /www/js/ad/*
 /xads.php
@@ -20534,7 +20529,6 @@ _widget_ad.
 /_js/prbd_6.19.0.js
 /ad/postbid_handler1.0.9.js
 /adn-hb/*
-/ads/prebid_
 /AudienceNetworkPrebid.
 /gpt-prebid.js
 /pbjsandwich-
