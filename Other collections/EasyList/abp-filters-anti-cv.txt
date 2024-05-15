@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: NEpjzRDT1g5xeCS3DIbeFg
-! Version: 202405151501
+! Checksum: ozJth/tiTB9ImJ5Hb62tuA
+! Version: 202405151611
 ! Title: ABP filters
-! Last modified: 15 May 2024 15:01 UTC
+! Last modified: 15 May 2024 16:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -517,6 +517,9 @@ dlouha-videa.cz#$#abort-on-property-read _0x4c29
 ajaxshowtime.com#?#div:-abp-properties(content: "Advertentie";)
 ajaxshowtime.com##div.leaderboard_ad + div
 ! *** abp-filters-anti-cv:english.txt ***
+! CV-1364
+etoland.co.kr,javatpoint.com#$#abort-on-property-read atob;
+etoland.co.kr,javatpoint.com,picrew.me#$#override-property-read alert true; abort-on-property-read btoa; override-property-read onload noopFunc; override-property-read onerror noopFunc;
 ! RM-42
 tesco.com#$#hide-if-contains-visible-text /Sponsored/ ul[class*="grid"]>li 'div>span>span'
 ! RM-114
