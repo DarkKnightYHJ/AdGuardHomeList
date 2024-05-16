@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SCq1zALQAiDB7ZnP8c2RPQ
-! Version: 202405160501
+! Checksum: iZNVe410hPmx4jFPAHYQKQ
+! Version: 202405160601
 ! Title: EasyList China+EasyList
-! Last modified: 16 May 2024 05:01 UTC
+! Last modified: 16 May 2024 06:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -33133,7 +33133,7 @@ _800x80_
 ##.p-ad-thumbnail-txt
 ##.p-ads-billboard
 ##.p-ads-rec
-##.p-post-ad
+##.p-post-ad:not(html):not(body)
 ##.p2_right_ad
 ##.p75_sidebar_ads
 ##.pAdsBlock2
@@ -87336,6 +87336,7 @@ lyricsmode.com##.al-c-banner
 wikihow.com##.al_method
 altfi.com##.alert
 accessnow.org##.alert-banner
+free-proxy-list.net##.alert-fpl.dark
 apkmb.com##.alert-noty-download
 rapidsave.com##.alert.col-md-offset-2
 peoplematters.in##.alertBar
