@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ubEdu1DNYDHj4MmePJ8iJQ
+! Checksum: kBeUApWsrGMc/XOkxhnXew
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202405160200
-! Last Modified: 2024年05月16日 02:00
+! Version: 202405162000
+! Last Modified: 2024年05月16日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -516,9 +516,6 @@ dlouha-videa.cz#$#abort-on-property-read _0x4c29
 ajaxshowtime.com#?#div:-abp-properties(content: "Advertentie";)
 ajaxshowtime.com##div.leaderboard_ad + div
 ! *** abp-filters-anti-cv:english.txt ***
-! CV-1364
-etoland.co.kr,javatpoint.com#$#abort-on-property-read atob;
-etoland.co.kr,javatpoint.com,picrew.me#$#override-property-read alert true; abort-on-property-read btoa; override-property-read onload noopFunc; override-property-read onerror noopFunc;
 ! RM-42
 tesco.com#$#hide-if-contains-visible-text /Sponsored/ ul[class*="grid"]>li 'div>span>span'
 ! RM-114
@@ -1647,7 +1644,7 @@ web.motsex.net,clipsexvietnam.net,phimsexviet.io,phimsexvietnam.app,clipsex.xxx,
 www.iosviet.com#$#override-property-read timer 0
 saigon24.net#$#abort-current-inline-script document.getElementById myModal
 ! Popup/Popunder/Clickunder
-fembed.com,femax20.com,m.blogtruyenvn.org,viettoons.tv,vinaurl.net,animet2.net,anh.moe,truyenhentaivn.online,maclife.io,javfc2.net#$#abort-on-property-read open
+fembed.com,femax20.com,m.blogtruyenvn.org,viettoons.tv,vinaurl.net,animet1.net,anh.moe,truyenhentaivn.online,maclife.io,javfc2.net#$#abort-on-property-read open
 downloadsachmienphi.com,tvhay.top#$#abort-current-inline-script JSON.parse atob
 truyen2u.net#$#abort-current-inline-script eval
 thienhatruyen2.com#$#abort-current-inline-script $ pc-popup-2
