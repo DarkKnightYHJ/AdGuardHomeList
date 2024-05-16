@@ -1,9 +1,9 @@
-! Checksum: 9y19eNh4Y4VbRW2c0bPhVA
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1715844859-3600.patch
+! Checksum: Oh7i9JsuFsh3kJ9drohNoQ
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1715862836-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.65.49
-! TimeUpdated: 2024-05-16T07:32:17+00:00
+! Version: 2.0.65.50
+! TimeUpdated: 2024-05-16T12:32:02+00:00
 ! Expires: 5 days (update frequency)
 ||pushatomic.com^
 ||gussiessmutchy.com^
@@ -41671,6 +41671,7 @@ vkcdnservice.appspot.com^
 ||48a16802.site^
 ||4a0e.xyz^
 ||4aae8f.site^
+||4e04f7.xyz^
 ||4e55.xyz^
 ||4e68.xyz^
 ||58e0.site^
@@ -44058,6 +44059,7 @@ vkcdnservice.appspot.com^
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||umami.is^
 ||logger.torimochi-ad.net^
 ||mainting-minues.xyz^
 ||europe-west1-sonorous-dragon-276210.cloudfunctions.net^
@@ -47526,6 +47528,7 @@ vkcdnservice.appspot.com^
 ||affex.org^
 ||tagman.britishairways.com^
 |piwik.
+||spoor-api.ft.com^
 ||temp.twicomi.com^
 ||tracking.carsales.com.au^
 ||beacon.nc-net.or.jp^
