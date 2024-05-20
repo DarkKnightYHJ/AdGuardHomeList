@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: llL997MtPqlugTIIC0zTBQ
+! Checksum: oVX5BFyPjORF+hm9bK6iow
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202405200200
-! Last Modified: 2024年05月20日 02:00
+! Version: 202405200800
+! Last Modified: 2024年05月20日 08:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -70358,6 +70358,7 @@ anisearch.com##.rect_sidebar
 knowyourmeme.com##.rectangle-unit-wrapper
 redferret.net##.redfads
 arras.io##.referral
+eurosport.com##.reform-top-container
 al-monitor.com##.region--after-content
 middleeasteye.net##.region-before-navigation
 steveharveyfm.com##.region-recommendation-right
@@ -71771,6 +71772,7 @@ presearch.com##div[\:class*="AdClass"]
 boxing-social.com##div[ad-slot]
 liverpoolway.co.uk##div[align="center"] > a[href]
 informer.com##div[align="center"][style="margin:10px"]
+yandex.com##div[aria-label="Ad"]
 azuremagazine.com##div[class$="azoa"]
 wsj.com##div[class*="WSJTheme--adWrapper"]
 pcgamer.com,techcrunch.com,tomsguide.com,tomshardware.com##div[class*="ad-unit"]
@@ -71884,6 +71886,7 @@ zerohedge.com##div[data-endpoint="//trends.revcontent.com"]
 wayfair.com##div[data-enzyme-id="WssBannerContainer"]
 thestudentroom.co.uk##div[data-freestar-ad]
 my.clevelandclinic.org##div[data-identity*="board-ad"]
+yandex.com##div[data-name="adWrapper"]
 opentable.ae,opentable.ca,opentable.co.th,opentable.co.uk,opentable.com,opentable.com.au,opentable.com.mx,opentable.de,opentable.es,opentable.hk,opentable.ie,opentable.it,opentable.jp,opentable.nl,opentable.sg##div[data-promoted="true"]
 scmp.com##div[data-qa="AdSlot-Container"]
 scmp.com##div[data-qa="AppBar-AdSlotContainer"]
@@ -77251,6 +77254,10 @@ newduba.cn###jq_youxi
 ||999fb.cn^
 ||ltfpbp.xyz^
 ||foscvbu.icu^
+||ajkggo.xyz^
+||kzpizjp.cn^
+||ogidskik.top^
+||yhimpnr.icu^
 ||zuvbzl.xyz^
 ||zwdtvx.xyz^
 ||zwxxcb.icu^
