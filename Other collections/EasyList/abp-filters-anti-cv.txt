@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: VpygSyN84JIe2GrAvLkaYQ
-! Version: 202405210701
+! Checksum: 447/7Zp9gRs7H1j6KORsMg
+! Version: 202405210801
 ! Title: ABP filters
-! Last modified: 21 May 2024 07:01 UTC
+! Last modified: 21 May 2024 08:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -55,7 +55,7 @@ editcode.net#$#abort-current-inline-script setTimeout openAd
 ! Video ads
 iyingshi9.tv#$#override-property-read YZM.ads.state false
 tvbanywherena.com#$#strip-fetch-query-parameter ad_config_id
-nivod5.tv,nivod8.tv#$#override-property-read detailParams.is_ad_play false
+nivod5.tv,nivod9.tv#$#override-property-read detailParams.is_ad_play false
 ! #CV-667
 hdzone.org#$#abort-current-inline-script Math zfgloaded
 ! *** abp-filters-anti-cv:czech.txt ***
@@ -1632,7 +1632,7 @@ xoivo2.online,tructiepdabong5.co,vaoroi365.com#$#override-property-read adsPlaye
 kenh14.vn#$#override-property-read Constants.allowAds false
 vndoc.com#$#override-property-read seconds 0
 phimvuihd.org#$#override-property-read urlAds ''
-live10.thapcam5.net#$#simulate-mouse-event '#modalasd$continue,delay=300'
+live13.thapcam5.net#$#simulate-mouse-event '#modalasd$continue,delay=300'
 phimvietsub.pro,api.anime3s.com,subnhanh.xyz#$#override-property-read maxAds 0
 web.motsex.net,clipsexvietnam.net,phimsexviet.io,phimsexvietnam.app,clipsex.xxx,web.phimsexnhanh.tv,gm.phimsexnhanh.tv,phimsexvip.cc,mobile.ditnhau.cc,phim.sexhayvl.org#$#override-property-read video.adVast ''
 www.iosviet.com#$#override-property-read timer 0
@@ -1666,7 +1666,7 @@ xemphimhdcc.net,motchill.plus#$#abort-current-inline-script document.addEventLis
 khoaiphim.com,phimmoinay.tv#$#abort-current-inline-script jQuery click_time
 dualeotruyentop.com,m.blogtruyenmoi.com#$#abort-current-inline-script document.addEventListener popunder
 lxmanga.club#$#abort-current-inline-script $ PopUnder
-truyen35.vn#$#abort-current-inline-script jQuery click_ads
+truyen35.shop#$#abort-current-inline-script jQuery click_ads
 www.toptruyenii.online#$#abort-current-inline-script Promise instance
 truyenqqvn.com,animehay.video#$#abort-current-inline-script document.addEventListener window.open
 audiotruyenfull.com#$#abort-on-property-read adpiaListUrl
