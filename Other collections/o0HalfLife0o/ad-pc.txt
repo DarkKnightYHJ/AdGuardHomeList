@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FNQKvUQgFH8M/0YeG7OubA
+! Checksum: LrqflK3tdKaiBZtOnSyGdA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202405211400
-! Last Modified: 2024年05月21日 14:00
+! Version: 202405212000
+! Last Modified: 2024年05月21日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -6225,8 +6225,6 @@ _800x80_
 ###sponsors-home
 ###sponsorsBox
 ###sponsorsContainer
-###sponsorsads1
-###sponsorsads2
 ###sponsorship-area-wrapper
 ###sponsorship-box
 ###sporsored-results
@@ -6254,8 +6252,6 @@ _800x80_
 ###squareadevertise
 ###squareadvert
 ###squared_ad
-###ss-ad-overlay
-###ss-ads-container
 ###staticad
 ###stationad
 ###sticky-ad
@@ -6270,8 +6266,6 @@ _800x80_
 ###sticky-footer-ads
 ###sticky-left-ad
 ###sticky-rail-ad
-###sticky-top-ad-spacer
-###sticky-top-ad-wrap
 ###stickyAd
 ###stickyAdBlock
 ###stickyBottomAd
@@ -6283,7 +6277,6 @@ _800x80_
 ###stickyleftad
 ###stickyrightad
 ###stopAdv
-###stop_ad3
 ###story-ad
 ###story-bottom-ad
 ###storyAd
@@ -6291,26 +6284,20 @@ _800x80_
 ###story_ads
 ###storyad2
 ###stripadv
-###subAdsFooter
-###subbgad
 ###subheaderAd
 ###takeover-ad
 ###takeover_ad
 ###takeoverad
 ###td-ad-placeholder
 ###tdAds
-###td_adunit1
-###td_adunit1_wrapper
 ###td_adunit2
 ###td_sponsorAd
 ###team_ad
 ###teaser3
-###template_affiliates
 ###text-ad
 ###text-ads
 ###text-intext-ads
 ###text-link-ads
-###text-linkAD
 ###textAd
 ###textAd1
 ###textAds
@@ -13135,7 +13122,6 @@ _800x80_
 ##.iframe-ads
 ##.iframeAd
 ##.iframeAds
-##.im_adv
 ##.ima-ad-container
 ##.image-advertisement
 ##.image-viewer-ad
@@ -26611,7 +26597,6 @@ browsershots.org#@#.advert_area
 ||distantsoil.com^
 ||distilinborn.com^
 ||distiljunctioninstallation.com^
-||distilled.ie^
 ||distinct-bicycle.com^
 ||distinguishedshrug.com^
 ||distinguishtendhypothesis.com^
@@ -72380,7 +72365,7 @@ thestar.co.uk##.gOoqzH
 electricianforum.co.uk##.gb-sponsored
 arboristsite.com##.gb-sponsored-wrapper
 givemesport.com##.gms-videos-container
-thestreet.com##.is-fallback-player
+mensjournal.com,thestreet.com##.is-fallback-player
 anandtech.com##.jwplayer
 gamesradar.com,livescience.com,tomshardware.com,whathifi.com##.jwplayer__widthsetter
 space.com##.jwplayer__wrapper
@@ -76210,6 +76195,7 @@ newduba.cn###jq_youxi
 ##.horizontal-banner
 ##.adv-6park
 ##.apd-footer
+##a[href^="http"] > img[height="60px"][src*="imgsrc.baidu.com"]
 ##style + .a-loading
 ##style + .need_grid_img
 ##style + .vdgdo
@@ -77241,6 +77227,18 @@ newduba.cn###jq_youxi
 ||zwxxcb.icu^
 ||zxfdbr.xyz^
 ||zxqiwe.cn^
+||555bbb777www.com^
+||66308888.com^
+||666bbb888www.com^
+||777aa888bb.com^
+||888aa111bb.com^
+||888aa222bb.com^
+||mito03.top^
+||mttpsy6666.cc^
+||w7044.com^
+||yuanpinghengkangfuyouxiangongsi.top^
+||efs604.top^
+||692881.com^
 ##a[href*=".337771.xyz"]
 ##a[href*=".337772.xyz"]
 ##a[href*=".cgn8j9f4j3g.com:"]
@@ -105924,6 +105922,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||theconversation.com/javascripts/lib/content_tracker_hook.js
 ||thedailybeast.com/static/js/thirdparty.
 ||thefreedictionary.com/_/tr.ashx?
+||thehackernews.com/zscripts/
 ||theladders.com/api/user-tracking/
 ||thesun.co.uk/assets/client/analyticsListeners~
 ||thesun.co.uk/assets/client/newrelicExperimentTracking~
