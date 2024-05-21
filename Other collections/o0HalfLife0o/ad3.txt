@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QGYU4W2oeQwxHmkUFcGVnw
+! Checksum: ev3FgDQUT1eYUnKxjtLfpw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202405210801
-! Last Modified: 2024年05月21日 08:01
+! Version: 202405211400
+! Last Modified: 2024年05月21日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -158,6 +158,7 @@ z4a.net
 -*-*-*-*.panda^$script,third-party
 -1316632262.cos.
 -1316899192.cos.
+.land/ad/*.gif
 -1688-wp-media/ads/
 -90mh-gg.
 .bid/ads/
@@ -1793,6 +1794,9 @@ newduba.cn###jq_youxi
 ##script + div[id^="a-loading-"]
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##span[title="neteasefooter"]
+##.horizontal-banner
+##.adv-6park
+##.apd-footer
 ##style + .a-loading
 ##style + .need_grid_img
 ##style + .vdgdo
@@ -2817,6 +2821,8 @@ newduba.cn###jq_youxi
 ||mvirkw.xyz^
 ||jy147a.com^
 ||rayajmp.icu^
+||ca2686564a.com^
+||dpedrt.xyz^
 ||zuvbzl.xyz^
 ||zwdtvx.xyz^
 ||zwxxcb.icu^
@@ -11230,6 +11236,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||bcebos.com/24x360x528.gif
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+czys.top#?#.swiper-slide:-abp-has(.coveimg[src*=".gif"])
+raenonx.cc##.main_ads-content + div
 douyin.com#?#.page-recommend-container:-abp-has(span[style^="background"]:-abp-contains(广告))
 cnbeta.com.tw##.article-global
 hupu.com##div[class*="-banner_"]
@@ -17011,6 +17019,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||9zvip.net^$elemhide
 @@||a.alimama.cn/tkapi$domain=ieeee.com
 @@||abchina.com^*ad
+@@||mobinovels.com^$generichide
 @@||aboluowang.com^$generichide
 @@||acgbenzi.com//dist/images/top.png
 @@||acgdraw.com/ad$xmlhttprequest
@@ -17037,6 +17046,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||adnxs.com/ast/static/$domain=outlook.live.com
 @@||adnxs.com/prebid/prebid.js$domain=demo.ama.pub
 @@||adoi.cn^$generichide
+@@||raenonx.cc^$generichide
 @@||ads.alafish.cn^$~third-party
 @@||ads.cdn.tvb.com^*.key
 @@||ads.lingxing.com^$~third-party
@@ -17383,6 +17393,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||online.unionpay.com/ads/$script
 @@||orientaldaily.on.cc/js/oncc-ad.js
 @@||ozabc.com^$generichide
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=raenonx.cc
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=23qb.net|4spaces.org|aboluowang.com|assbbs.com|bilinovel.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best|zaixianjisuan.com
@@ -24876,6 +24887,7 @@ omni.soundestlink.com$image
 ||hs-analytics.net^
 ||hsadspixel.net^
 ||hsleadflows.net^
+||htplayground.com^
 ||i218435.net^
 ||ia-dmp.com^
 ||iconmediapixel.com^
@@ -29651,6 +29663,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||evidon.com/pub/
 ||eviesays.com/js/analytics/
 ||evri.com/analytics/
+||evt.24.com^
 ||evt.collarity.com^$image
 ||evt.houzz.com^
 ||ex.co/content/monetization/legacy-pixels/
@@ -31964,12 +31977,14 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hottraffic.nl^$third-party
 ||marktplaats.net/cnt/
 ||mediahuis.be/cxense/
+||mhtr.be/public/tr/tracker.min.js
 ||npo.nl/divolte/tt/web-event?$domain=zapp.nl
 ||pijper.io/visits/
 ||rmgdapfnccsharpprd.azurewebsites.net^
 ||sp.dpgmedia.net^
 ||stat.24liveplus.com^
 ||statistics.rbi-nl.com^
+||tags.hilabel.nl^
 ||trkr.shoppingminds.net^
 ||ugent.be/js/log.js
 ||almamedia.fi^*/scroll-monitor.min.js
