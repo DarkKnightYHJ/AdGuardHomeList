@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: aF5uxGA59aThWl5a7Dqp/Q
-! Version: 202405211501
+! Checksum: 9jEpoqoNxgOjwoRk2ntfNQ
+! Version: 202405211610
 ! Title: EasyList China+EasyList
-! Last modified: 21 May 2024 15:01 UTC
+! Last modified: 21 May 2024 16:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -32035,6 +32035,8 @@ _800x80_
 ##.in-story-ads
 ##.in-text-ad
 ##.in-text__advertising
+##.in-thumb-ad
+##.in-thumb-video-ad
 ##.inPageAd
 ##.in_ad
 ##.in_article_ad
@@ -90548,6 +90550,7 @@ perchance.org##[style^="position: fixed;"]
 meaww.com##[style^="text-align: center;"]
 zenger.news##[style^="text-align:center;min-height:"]
 filmdaily.co,gelbooru.com,integral-calculator.com,passiveaggressivenotes.com,twcenter.net##[style^="width: 728px;"]
+alphacoders.com##[style^="width:980px; height:280px;"]
 gametracker.com##[style^="width:980px; height:48px"]
 mrchecker.net##[target="_blank"]
 myfitnesspal.com##[title*="Ad"]
