@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nVhh1XTdQMdbd3ec51Ta6g
+! Checksum: JriUPnCpK0QSck/P2ghr0Q
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202405221400
-! Last Modified: 2024年05月22日 14:00
+! Version: 202405222000
+! Last Modified: 2024年05月22日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -57843,6 +57843,7 @@ browsershots.org#@#.advert_area
 ||07e197.site^$document,popup
 ||1116c5.xyz^$document,popup
 ||1350c3.xyz^$document,popup
+||1a1fb6.xyz^$document,popup
 ||20519a.xyz^$document,popup
 ||22d2d4d9-0c15-4a3a-9562-384f2c100146.xyz^$document,popup
 ||295c.site^$document,popup
@@ -65220,6 +65221,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||navyrecognition.com/images/stories/customer/
 ||nemosa.co.za/images/mad_ad.png
 ||newkerala.com/banners/amazon
+||news.itsfoss.com/assets/images/pikapods.jpg
 ||newsnow.co.uk/pharos.js
 ||nexvelar.b-cdn.net/videoplayback_.mp4
 ||nontent.powzers.lol^
@@ -67331,7 +67333,7 @@ tecmint.com###tecmint_incontent
 tecmint.com###tecmint_leaderboard_article_top
 worldtribune.com###text-101
 geeky-gadgets.com###text-105335641
-thisiscolossal.com,vgleaks.com###text-11
+godisageek.com,thisiscolossal.com,vgleaks.com###text-11
 hpcwire.com###text-115
 cathnews.co.nz,cryptoreporter.info,net-load.com,vgleaks.com,wakingtimes.com###text-12
 radiosurvivor.com,thewashingtonstandard.com,vgleaks.com###text-13
@@ -67649,6 +67651,7 @@ thedailybeast.com##.Sizer
 coingape.com##.SponserdBtn
 goodreads.com##.SponsoredProductAdContainer
 streetsblog.org##.Sponsorship_articleBannerWrapper__wV_1S
+thetimes.com##.Sticky-AdContainer
 apartmenttherapy.com,cubbyathome.com,thekitchn.com##.StickyFooter
 slideshare.net##.StickyVerticalInterstitialAd_root__f7Qki
 coin360.com##.Sticky_Promo
@@ -68095,7 +68098,7 @@ happymod.com##.appx
 icon-icons.com##.apu
 icon-icons.com##.apu-mixed-packs
 chron.com,ctinsider.com,ctpost.com,middletownpress.com,mysanantonio.com,seattlepi.com,sfgate.com##.ar16-9
-ajc.com,bostonglobe.com##.arc_ad
+ajc.com,bostonglobe.com,daytondailynews.com,journal-news.com,springfieldnewssun.com##.arc_ad
 adn.com,businessoffashion.com,irishtimes.com##.arcad-feature
 bloomberglinea.com##.arcad-feature-custom
 1news.co.nz,actionnewsjax.com,boston25news.com,easy93.com,fox23.com,kiro7.com,wftv.com,whio.com,wpxi.com,wsbradio.com,wsbtv.com,wsoctv.com##.arcad_feature
@@ -68366,6 +68369,7 @@ mondoweiss.net##.block-head-c
 newsweek.com##.block-ibtmedia-dfp
 endocrineweb.com,practicalpainmanagement.com##.block-oas
 kaotic.com##.block-toplist
+9to5linux.com##.block-widget
 worldtimebuddy.com##.block2
 macmusic.org##.block440Adv
 betaseries.com##.blockPartner
@@ -70207,6 +70211,7 @@ holiday-weather.com##.resp-leaderboard
 box-core.net,mma-core.com##.resp_ban
 arras.io##.respawn-banner
 guru99.com##.responsive-guru99-mobile1
+thetimes.com##.responsive__InlineAdWrapper-sc-4v1r4q-14
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.result--ad > .result__body
 jetphotos.com##.result--adv
 myminifactory.com##.result-adv
@@ -70609,7 +70614,7 @@ stadiumtalk.com##.story-section-inStory-inline
 interest.co.nz##.story-tag-wrapper
 healthshots.com##.storyBlockOne
 businesstoday.in##.stoybday-ad
-24fm.ps,datingscammer.info,kayifamily.net,news365.co.za##.stream-item
+24fm.ps,datingscammer.info,kayifamily.net,news365.co.za,xboxera.com##.stream-item
 siasat.com##.stream-item-below-post-content
 twitter.com,x.com##.stream-item-group-start[label="promoted"]
 coinpedia.org,siasat.com##.stream-item-inline-post
@@ -75737,6 +75742,7 @@ newduba.cn###jq_youxi
 ##.iHead960x90
 ##.ibtad
 ##.imgBox > div[class^="ad"]
+##.pc-layout-content > .pc-ads
 ##.index-top-aassd
 ##.index-top-ad
 ##.index-top-gg
@@ -76086,7 +76092,10 @@ newduba.cn###jq_youxi
 ##.horizontal-banner
 ##.adv-6park
 ##.apd-footer
+##.ya-normal-box-done
 ##a[href^="http"] > img[height="60px"][src*="imgsrc.baidu.com"]
+##a[href*=":6001/entry/register"]
+##div[class^="module-"] > a[href="/index/voddetail.html?id=1"]
 ##style + .a-loading
 ##style + .need_grid_img
 ##style + .vdgdo
@@ -77120,6 +77129,9 @@ newduba.cn###jq_youxi
 ||bxlmrl.xyz^
 ||kyokglm.icu^
 ||zca31.com^
+||shangwenchao4.cn^
+||dceuhnpc57.shop^
+||hsylieu.top^
 ||zuvbzl.xyz^
 ||zwdtvx.xyz^
 ||zwxxcb.icu^
@@ -81435,7 +81447,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||2ccc.com/images/WebXone.gif
 ||2cq.com/third/tieba/sidebar
 ||2d4f.com/love/
-||2ghai.com/zz/
+||92ghai.com/zz/
 ||2kandy.com/js/123/
 ||2yjw.com/statics/js/jquery.min.
 ||2zzt.com/file/aliyun
@@ -85546,6 +85558,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||chengzijianzhan.cc^$third-party,subdocument
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+olevod.com##.swiper
 douyin.com###videoSideBar iframe
 douyin.com#?#.xgplayer>div[class]:-abp-has(svg[height="16"][width="30"])
 czys.top#?#.swiper-slide:-abp-has(.coveimg[src*=".gif"])
@@ -87109,7 +87122,7 @@ cnpingpang.com,jdbbs.com,sxpojie.top##.a_h
 tropica.cn##.a_mu1
 muchong.com##.a_subject[href^="creditshow."]
 163.com##.a_topad
-2ghai.com##.a_xiu_t
+92ghai.com##.a_xiu_t
 ishuhui.com##.a_xx_d
 159i.com##.aa
 porn5f.com##.aa-dd-body
@@ -88878,7 +88891,6 @@ json.cn,pianyuan.org,qixingquan.com##.modal-backdrop
 ifenpaidy.com##.modal-body
 dingdangsheji.com##.modown-ad
 firefoxchina.cn##.module-banner
-meiyida01.com,myd666.tv##.module-blocklist
 v.qq.com##.module-image[style*="width:1100px;"]
 v.qq.com##.module-image[style*="width:1240px;"]
 netfly.lol##.module-tglist
@@ -89078,7 +89090,7 @@ ifeng.com##.popoxiu_topic
 eastmoney.com##.popswipe
 dzwww.com##.popular
 qiuziti.com##.popularize
-eol.cn,firefoxchina.cn,meiyida01.com,myd666.tv,site.baidu.com##.popup
+eol.cn,firefoxchina.cn,site.baidu.com##.popup
 eprice.com.tw##.popup-adv
 firefoxchina.cn##.popup-small
 dianyingim.com,dyxs11.com##.popup-tips
@@ -89394,7 +89406,7 @@ easyai.tech##.sidebar-inner > .widget_media_image:nth-child(n+2)
 mywpku.com##.sidebar-recommended
 daweijita.com##.sidebar-right > .widget-box:first-child
 yomahub.com##.sidebar-slot
-baomidou.com##.sidebar-slot-top
+baomidou.com##.sidebar-content > astro-island
 galacg.me##.sidebar-top
 bog.ac##.sidebar-url
 portablesoft.org##.sidebar-widget:first-child
@@ -89921,7 +89933,7 @@ ifeng.com##.yiyuan
 fx168.com##.yjl_fx168_focus_TodayNews_jiasheng
 9ku.com##.youFix
 ysxs8.vip##.ysxs8_w960_1
-2ghai.com##.yttl_x_g
+92ghai.com##.yttl_x_g
 xiadele.com##.yun-advertisement
 qq.com##.yw-gg-float
 cnlmjx.com##.yw_ad
@@ -90059,7 +90071,7 @@ mydrivers.com##a[href*=".dangbei.com"]
 bilibili.com##a[href*=".doubleclick."]
 cnblogs.com##a[href*=".gridsumdissector.com/"]
 ctfile.com##a[href*=".henghost.com"]
-mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(广 告))
+mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(/广*告/))
 hanjutv2020.com##a[href*=".hujiang.com"]
 pexels.com##a[href*=".istockphoto.com"]
 comicat.org,dapenti.com,douyu.com,iqiyi.com,jinti.com,kisssub.org,libvio.me,mvcat.com,mzh.ren,rufengso.net,v.qq.com,zhanzhangb.com##a[href*=".jd.com"]
@@ -90889,13 +90901,11 @@ lihkg.com#?#div[class^="_"]:-abp-has(>div>div>.adsbygoogle)
 linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__description span:-abp-contains(/促銷內容|广告/))
 linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__sub-description span:-abp-contains(/促銷內容|广告/))
 manhuadb.com#?#.comicbook-index:-abp-has(>a[href^="http"])
-meiyida01.com,myd666.tv#?#.module-item:-abp-has(>.module-item-titlebox>a[href*="/download"])
 moegirl.org.cn#?#.capsule-card:-abp-has(.n-tag)
 mongoing.com#?#.widget_custom_html:-abp-has(> .custom-html-widget > a[href^="http"]:not([href*="mongoing.com"]))
 mrmad.com.tw#?#div[id^="mrmad-"]:-abp-has(>.adsbygoogle)
 muchong.com#?#.forum_Post_index:-abp-has(nobr:-abp-contains(18))
 mydowndown.com#?#.bs-component:-abp-has(>a[href*="97jez.com"])
-mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(广告))
 nicotv.biz,nicotv.club,nicotv.me##nav + .ff-bg > .slide
 news.baidu.com#?#.index-list-item:-abp-has(.tip-time:-abp-contains(广告))
 news.sohu.com,www.sohu.com#?#.list16 > ul > li:-abp-contains(广告)
@@ -105408,6 +105418,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nextdoor.*/ajax/ping_ndas/
 ||nextdoor.com/events/
 ||nflshop.com/api/track
+||nid.thetimes.com/prod/sp/nid_sp.js
 ||nike.com/assets/measure/data-capture/
 ||nimbusweb.me/gtlytics.js
 ||no9pldds1lmn3.soundcloud.com^
