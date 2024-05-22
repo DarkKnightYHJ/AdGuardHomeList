@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mgV1GQkeLyxUCg8M+QpLXQ
-! Version: 202405212301
+! Checksum: BOUPuH39Z2HEKMUrBZC3JA
+! Version: 202405220051
 ! Title: EasyList China+EasyList
-! Last modified: 21 May 2024 23:01 UTC
+! Last modified: 22 May 2024 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -11122,9 +11122,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||koyso.com/z-
 ||koyso.com/static/js/abc.
 ||bcebos.com/24x360x528.gif
-||chengzijianzhan.cc^$domain=douyin.com
+||chengzijianzhan.cc^$third-party,subdocument
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+douyin.com###videoSideBar iframe
+douyin.com#?#.xgplayer>div[class]:-abp-has(svg[height="16"][width="30"])
 czys.top#?#.swiper-slide:-abp-has(.coveimg[src*=".gif"])
 raenonx.cc##.main_ads-content + div
 cnbeta.com.tw##.article-global
@@ -76907,6 +76909,7 @@ browsershots.org#@#.advert_area
 ||05751c.site^$document,popup
 ||07c225f3.online^$document,popup
 ||07e197.site^$document,popup
+||1116c5.xyz^$document,popup
 ||1350c3.xyz^$document,popup
 ||20519a.xyz^$document,popup
 ||22d2d4d9-0c15-4a3a-9562-384f2c100146.xyz^$document,popup
@@ -90119,6 +90122,7 @@ wbal.com##.wbal-banner
 technclub.com##.wbyqkx-container
 wccftech.com##.wccf_video_tag
 searchencrypt.com##.web-result.unloaded.sr
+northernvirginiamag.com##.website-header__ad--leaderboard
 probuilds.net##.welcome-bnr
 taskcoach.org##.well
 gearlive.com##.wellvert
