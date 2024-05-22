@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: c+LFxHrB73DEsK/Jm4ZOlg
+! Checksum: PFuWlRvvavY8IvcLpSsnXw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202405220801
-! Last Modified: 2024年05月22日 08:01
+! Version: 202405221400
+! Last Modified: 2024年05月22日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -4977,7 +4977,6 @@ _800x80_
 ###gm-ad-lrec
 ###goad1
 ###goads
-###gog_ad
 ###gooadtop
 ###google-ad
 ###google-ads
@@ -4999,27 +4998,19 @@ _800x80_
 ###googleAdArea
 ###googleAdBottom
 ###googleAdBox
-###googleAdMid
 ###googleAdTop
-###googleAdView
 ###googleAds
-###googleAdsFrame
 ###googleAdsense
 ###googleAdsenseAdverts
-###googleAdwordsModule
-###googleAfcContainer
 ###googleSearchAds
 ###google_ad_1
 ###google_ad_2
 ###google_ad_3
 ###google_ad_container
-###google_ad_inline
 ###google_ad_slot
 ###google_ads
 ###google_ads_1
 ###google_ads_box
-###google_ads_div_header1
-###google_ads_div_header2
 ###google_ads_frame
 ###google_ads_frame1_anchor
 ###google_ads_frame2_anchor
@@ -5027,26 +5018,14 @@ _800x80_
 ###google_ads_frame4_anchor
 ###google_ads_frame5_anchor
 ###google_ads_frame6_anchor
-###google_ads_test
-###google_ads_wide
 ###google_adsense
 ###google_adsense_ad
-###google_textlinks
 ###googlead
-###googlead-leaderboard
-###googlead-left
-###googlead-post-mpu
-###googlead-sidebar-middle
-###googlead-sidebar-top
-###googlead01
 ###googlead2
-###googleadbig
 ###googleadleft
 ###googleads
 ###googleads1
 ###googleadsense
-###googleadsense300x250
-###googleadsrc
 ###googleadstop
 ###googlebanner
 ###googlesponsor
@@ -5067,7 +5046,6 @@ _800x80_
 ###grdAds
 ###gridAdSidebar
 ###grid_ad
-###gtm_dfp_leaderboard_top
 ###half-page-ad
 ###halfPageAd
 ###half_page_ad_300x600
@@ -12719,6 +12697,7 @@ _800x80_
 ##.google-ad-manager
 ##.google-ad-placeholder
 ##.google-ad-sidebar
+##.google-ad-space
 ##.google-ad-widget
 ##.google-ads
 ##.google-ads-billboard
@@ -67721,6 +67700,7 @@ imgur.com##.Gallery-Content-AdSense
 meduza.io##.GeneralMaterial-module-aside
 cargurus.com##.Gi1Z6i
 coin360.com##.GuYYbg
+seattletimes.com##.H0FqVZjh86HAsl61ps5e
 naturalnews.com##.HALFBYEISCRJ
 metservice.com##.Header
 planningportal.co.uk##.HeaderAdArea__HeaderAdContainer-sc-1lqw6d0-0
@@ -68751,6 +68731,7 @@ businessinsider.com,insider.com##.commerce-coupons-module
 goal.com,thisislondon.co.uk##.commercial
 telegraph.co.uk##.commercial-unit
 bitdegree.org##.comparison-suggestion
+audacy.com##.component--google-ad-manager
 linguisticsociety.org##.component-3
 goal.com##.component-ad
 hunker.com,livestrong.com##.component-article-section-jwplayer-wrapper
@@ -69604,7 +69585,9 @@ legit.ng,tuko.co.ke##.l-adv-branding__top
 iphonelife.com##.l-header
 globalnews.ca##.l-headerAd
 wwe.com##.l-hybrid-col-frame_rail-wrap
-vox.com##.l-leaderboard-slot
+vox.com##.l66a0c1k
+vox.com##.l66a0c1n
+vox.com##.l66a0c1p
 keybr.com##.l6Z8JM3mch
 letssingit.com##.lai_all_special
 letssingit.com##.lai_desktop_header
@@ -70643,7 +70626,7 @@ cricketireland.ie##.sponsor-strip
 arizonasports.com,ktar.com##.sponsorBy
 cryptolovers.me##.sponsorContent
 blbclassic.org##.sponsorZone
-2b2t.online,caixinglobal.com,chicagobusiness.com,chronicle.co.zw,dailymaverick.co.za,dailytarheel.com,duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion,dunyanews.tv,fifplay.com,freebmd.org.uk,hbr.org,herald.co.zw,lawandcrime.com,libhunt.com,motherjones.com,naval-technology.com,reviewjournal.com,saashub.com,samedicalspecialists.co.za,sportsbusinessjournal.com,statnews.com,stocksnap.io,timeslive.co.za##.sponsored
+2b2t.online,caixinglobal.com,chicagobusiness.com,chronicle.co.zw,dailymaverick.co.za,dailytarheel.com,duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion,dunyanews.tv,fifplay.com,freebmd.org.uk,hbr.org,herald.co.zw,lawandcrime.com,libhunt.com,motherjones.com,naval-technology.com,reviewjournal.com,saashub.com,samedicalspecialists.co.za,sportsbusinessjournal.com,statnews.com,stocksnap.io,thedp.com,timeslive.co.za##.sponsored
 newegg.com##.sponsored-brands
 cheknews.ca##.sponsored-by
 washingtontimes.com##.sponsored-heading
@@ -70686,7 +70669,6 @@ ebay.co.uk,ebay.com,ebay.com.au##.srp-1p__link
 mlsbd.shop##.srzads
 theblueoceansgroup.com##.ss-on-media-container
 searchenginejournal.com##.sss2_sllo_o3
-seattletimes.com##.st-theticket-promo
 aupetitparieur.com##.st85ip42z1v3x
 cnn.com##.stack__ads
 barrons.com##.standard__AdWrapper-sc-14sjre0-6
@@ -70726,6 +70708,7 @@ fastfoodnutrition.org##.sticky_footer
 pcgamesn.com##.sticky_rail600
 minecraftlist.org##.stickywrapper
 romzie.com##.stksht
+seattletimes.com##.stn-player
 dailyherald.com##.stnContainer
 stationx.net##.stnx-cta-embed
 groceries.asda.com##.sto_format
@@ -70800,6 +70783,7 @@ moco360.media,protocol.com##.tag-sponsored
 spectrum.ieee.org##.tag-type-whitepaper
 ghanaweb.com,thefastmode.com##.takeover
 thefastmode.com##.takeover_message
+seattletimes.com##.tall-rect
 igg-games.com##.taxonomy-description
 zenger.news##.tb_e2rr695
 bookriot.com##.tbr-promo
@@ -71096,6 +71080,7 @@ wbal.com##.wbal-banner
 technclub.com##.wbyqkx-container
 wccftech.com##.wccf_video_tag
 searchencrypt.com##.web-result.unloaded.sr
+northernvirginiamag.com##.website-header__ad--leaderboard
 probuilds.net##.welcome-bnr
 taskcoach.org##.well
 gearlive.com##.wellvert
@@ -71128,7 +71113,7 @@ domaingang.com##.widget_execphp
 bestlifeonline.com,hellogiggles.com##.widget_gm_karmaadunit_widget
 faroutmagazine.co.uk##.widget_grv_mpu_widget
 theiphoneappreview.com##.widget_links
-247media.com.ng,appleworld.today,athleticsillustrated.com,businessaccountingbasics.co.uk,circuitbasics.com,closerweekly.com,coincodecap.com,cozyberries.com,crickhabari.com,dbknews.com,deshdoaba.com,foreverconscious.com,glitched.online,granitegrok.com,intouchweekly.com,kashmirreader.com,kkfm.com,lifeandstylemag.com,londonnewsonline.co.uk,marqueesportsnetwork.com,mensjournal.com,nikonrumors.com,patriotfetch.com,pctechmag.com,prajwaldesai.com,raspians.com,robinhoodnews.com,rok.guide,rsbnetwork.com,showbiz411.com,sportsspectrum.com,stacyknows.com,thecatholictravelguide.com,theoverclocker.com,thethaiger.com,ubuntu101.co.za,wakingtimes.com,washingtonmonthly.com,webscrypto.com,wgow.com,wgowam.com,wlevradio.com##.widget_media_image
+247media.com.ng,appleworld.today,athleticsillustrated.com,businessaccountingbasics.co.uk,circuitbasics.com,closerweekly.com,coincodecap.com,cozyberries.com,crickhabari.com,dbknews.com,deshdoaba.com,foreverconscious.com,glitched.online,granitegrok.com,intouchweekly.com,kashmirreader.com,kkfm.com,levittownnow.com,lifeandstylemag.com,londonnewsonline.co.uk,marqueesportsnetwork.com,mensjournal.com,nikonrumors.com,patriotfetch.com,pctechmag.com,prajwaldesai.com,raspians.com,robinhoodnews.com,rok.guide,rsbnetwork.com,showbiz411.com,sportsspectrum.com,stacyknows.com,thecatholictravelguide.com,theoverclocker.com,thethaiger.com,ubuntu101.co.za,wakingtimes.com,washingtonmonthly.com,webscrypto.com,wgow.com,wgowam.com,wlevradio.com##.widget_media_image
 cracked-games.org##.widget_metaslider_widget
 nypost.com##.widget_nypost_dfp_ad_widget
 nypost.com##.widget_nypost_vivid_concerts_widget
@@ -71271,6 +71256,7 @@ sephora.com##[data-comp*="RMNCarousel"]
 sephora.com##[data-comp*="RmnBanner"]
 bloomberg.com##[data-component="in-body-ad"]
 lookfantastic.com##[data-component="sponsoredProductsCriteo"]
+vox.com##[data-concert="leaderboard_top_tablet_desktop"]
 curbed.com##[data-concert="prelude"]
 timesofindia.indiatimes.com##[data-contentprimestatus]
 coingecko.com##[data-controller="button-ads"]
@@ -71583,7 +71569,7 @@ movie-censorship.com##a[href*="/out.php?"]
 imagetwist.com##a[href*="/par/"]
 civilserviceindia.com##a[href*="/red.php?bu="]
 amsterdamnews.com,sundayworld.co.za,universityaffairs.ca##a[href*="/sponsored-content/"]
-biznews.com,burnabynow.com,businessdailyafrica.com,coastreporter.net,financialexpress.com,irishtimes.com,komonews.com,newwestrecord.ca,nsnews.com,prpeak.com,richmond-news.com,seattletimes.com,spokesman.com##a[href*="/sponsored/"]
+biznews.com,burnabynow.com,businessdailyafrica.com,coastreporter.net,financialexpress.com,irishtimes.com,komonews.com,newwestrecord.ca,nsnews.com,prpeak.com,richmond-news.com,spokesman.com##a[href*="/sponsored/"]
 isaidubb.net,orutamil.com##a[href*="/ucdownloader.php?"]
 isaidubb.net,orutamil.com##a[href*="/ucmini.php?"]
 distrowatch.com##a[href*="3cx.com"]
@@ -77245,6 +77231,7 @@ newduba.cn###jq_youxi
 ||sahqoo.com^
 ||bxlmrl.xyz^
 ||kyokglm.icu^
+||zca31.com^
 ||zuvbzl.xyz^
 ||zwdtvx.xyz^
 ||zwxxcb.icu^
@@ -85671,6 +85658,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||chengzijianzhan.cc^$third-party,subdocument
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+douyin.com###videoSideBar iframe
 douyin.com#?#.xgplayer>div[class]:-abp-has(svg[height="16"][width="30"])
 czys.top#?#.swiper-slide:-abp-has(.coveimg[src*=".gif"])
 raenonx.cc##.main_ads-content + div
@@ -102785,6 +102773,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||squarespace.com/universal/scripts-compressed/performance-$script,third-party
 ||srvmath.com^*/analytics.js
 ||ssa.stepstone.com^
+||ssc.shopstyle.com/collective.min.js
 ||ssl-images-amazon.com/images/I/31YXrY93hfL.js$domain=imdb.com
 ||ssr.streamrail.net^
 ||st.cdnco.us^
@@ -104077,6 +104066,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bbvms.com/zone/js/zonestats.js
 ||bol.com/click/impression?
 ||botndm.nl^*/init.min.js
+||cloudfunctions.net/webtraffic$domain=eurocampings.nl
+||contentreveal.net/event/events.js
 ||dmtgo.upc.biz^
 ||go.planetnine.com^
 ||hottraffic.nl^$third-party
@@ -105804,9 +105795,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stapewithadblock.xyz/stat/
 ||starfiles.co/analytics.php
 ||startpage.com/sp/$ping
-||startpage.com/sp/dplpxs?
-||startpage.com/sp/elp
 ||startpage.com/sp/jst
+||startpage.com/sp/qi
+||startpage.com/sp/sxpra?
 ||starzplay.com/resources/js/analytics.js
 ||stat.pubhtml5.com^
 ||stat.tildacdn.com^
@@ -106083,6 +106074,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||v.ctrl.blog^
 ||vagrantup.com/api/auth/_log
 ||vanityfair.com/user-context?referrer
+||vf.startpage.com^
 ||video.mobile.yahoo.com/log|$xmlhttprequest
 ||views.arabnews.com^
 ||views.asurascans.com^
