@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 8zScCcoNnVagtJXaMsV8Kw
-! Version: 202405231011
+! Checksum: ScCvC8GE1brGBqJ1IUQBZw
+! Version: 202405231101
 ! Title: ABP filters
-! Last modified: 23 May 2024 10:11 UTC
+! Last modified: 23 May 2024 11:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -519,9 +519,9 @@ ajaxshowtime.com#?#div:-abp-properties(content: "Advertentie";)
 ajaxshowtime.com##div.leaderboard_ad + div
 ! *** abp-filters-anti-cv:english.txt ***
 ! CV-1364
-m.ygosu.com,etoland.co.kr,javatpoint.com,picrew.me#$#hide-if-matches-xpath './/span/div[contains(@style,"display: flex; justify-content: center; align-items: center; position: relative;")]/ancestor-or-self::span'
-m.ygosu.com,etoland.co.kr,javatpoint.com,picrew.me#$#abort-on-property-write Element.prototype.remove; abort-on-property-read adshield; override-property-read alert true; abort-on-property-read btoa; override-property-read confirm true;
-m.ygosu.com,etoland.co.kr,javatpoint.com#$#abort-on-property-read atob;
+etoland.co.kr#$#hide-if-matches-xpath './/span/div[contains(@style,"display: flex; justify-content: center; align-items: center; position: relative;")]/ancestor-or-self::span'
+etoland.co.kr#$#abort-on-property-write Element.prototype.remove; abort-on-property-read adshield; override-property-read alert true; abort-on-property-read btoa; override-property-read confirm true;
+etoland.co.kr#$#abort-on-property-read atob;
 ! RM-42
 tesco.com#$#hide-if-contains-visible-text /Sponsored/ ul[class*="grid"]>li 'div>span>span'
 ! RM-114
