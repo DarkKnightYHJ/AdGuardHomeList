@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4uoFY00yD8+sfl/qIOxP8g
+! Checksum: sTA7Ay6Ie7ChAztx9l/ZLw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202405230800
-! Last Modified: 2024年05月23日 08:00
+! Version: 202405231400
+! Last Modified: 2024年05月23日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2846,6 +2846,7 @@ newduba.cn###jq_youxi
 ||dreuaxk.icu^
 ||isylieo.top^
 ||mweriox.top^
+||iwanshang8.asia^
 ||zuvbzl.xyz^
 ||zwdtvx.xyz^
 ||zwxxcb.icu^
@@ -11273,6 +11274,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 olevod.com##.swiper
+douyin.com###videoSideBar:-abp-has(div:-abp-contains(/商品|商家|退款|店铺/))
 douyin.com###videoSideBar iframe
 douyin.com#?#.xgplayer>div[class]:-abp-has(svg[height="16"][width="30"])
 czys.top#?#.swiper-slide:-abp-has(.coveimg[src*=".gif"])
@@ -31225,6 +31227,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wallkit.net^*/user/event
 ||wantlive.com/pixel/
 ||warnermedia.com/api/v1/events?
+||watchtower.graindata.com^
 ||wco.crownpeak.com^
 ||weather.ca/counter.gif?
 ||web-tracker.smsbump.com^
@@ -69659,7 +69662,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||matt.mercadolivre.com.br^
 ||metrics.uol.com.br^
 ||olx.com.br^*/lurker.
-||passeidireto.com/pd-tracking-lib/
 ||poder360.com.br/_tracker
 ||r7.com/comscore/
 ||sapo.*/clk?u=

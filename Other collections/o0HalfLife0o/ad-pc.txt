@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YDzOAVgMWpF3850qUd5dUQ
+! Checksum: 7nW+mnda30DZ1F4Lv4VALg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202405230800
-! Last Modified: 2024年05月23日 08:00
+! Version: 202405231400
+! Last Modified: 2024年05月23日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2361,7 +2361,6 @@ _800x80_
 ###Mpu_Bottom
 ###Mpu_Top
 ###MyAdsId3
-###N-ad-article-rightRail-1
 ###NR-Ads
 ###NavAD
 ###OAS2
@@ -2385,7 +2384,6 @@ _800x80_
 ###SponsoredLinks
 ###SponsorsAds
 ###StickyBannerAd
-###Top-Ad-Container
 ###Top-ad
 ###Top1AdWrapper
 ###TopADs
@@ -2510,7 +2508,6 @@ _800x80_
 ###ad-bottom-fixed
 ###ad-bottom-right-container
 ###ad-bottom-wrapper
-###ad-bottomright
 ###ad-box
 ###ad-box-1
 ###ad-box-2
@@ -2592,8 +2589,6 @@ _800x80_
 ###ad-incontent
 ###ad-index
 ###ad-inline-block
-###ad-inside1
-###ad-inside2
 ###ad-label2
 ###ad-large-banner-top
 ###ad-large-header
@@ -2622,14 +2617,12 @@ _800x80_
 ###ad-main
 ###ad-main-bottom
 ###ad-main-top
-###ad-makeup
 ###ad-manager
 ###ad-masthead
 ###ad-medium
 ###ad-medium-lower
 ###ad-medium-rectangle
 ###ad-medrec
-###ad-medrec-article-container
 ###ad-medrec__first
 ###ad-mid
 ###ad-mid-rect
@@ -2722,28 +2715,20 @@ _800x80_
 ###ad-slug-wrapper
 ###ad-small-banner
 ###ad-space
-###ad-space-1
-###ad-space-2
 ###ad-space-big
-###ad-special
 ###ad-splash
 ###ad-sponsors
 ###ad-spot
 ###ad-spot-bottom
 ###ad-spot-one
-###ad-squares
 ###ad-standard
 ###ad-standard-wrap
-###ad-startProMaps
 ###ad-stickers
 ###ad-sticky-footer-container
 ###ad-story-right
 ###ad-story-top
 ###ad-stripe
-###ad-tab
-###ad-tape
 ###ad-target
-###ad-target-Leaderbord
 ###ad-teaser
 ###ad-text
 ###ad-three
@@ -2778,45 +2763,24 @@ _800x80_
 ###ad-wrapper-main-1
 ###ad-wrapper-sidebar-1
 ###ad-wrapper-top-1
-###ad-wrapper1
 ###ad1-placeholder
-###ad11
-###ad125B
 ###ad125x125
 ###ad160
-###ad160-2
 ###ad160600
-###ad160a
 ###ad160x600
-###ad2-home
-###ad2-label
 ###ad250
-###ad2_footer
-###ad2_iframe
-###ad2_inline
 ###ad300
 ###ad300-250
-###ad300-title
-###ad300X250
 ###ad300_250
-###ad300x250Module
-###ad31
-###ad32
 ###ad336
 ###ad336x280
 ###ad468
-###ad468_hidden
 ###ad468x60
-###ad468x60-story
-###ad468x60_top
 ###ad480x60
 ###ad6
 ###ad600
-###ad600x90
-###ad650
 ###ad728
 ###ad72890
-###ad728Bottom
 ###ad728Box
 ###ad728Header
 ###ad728Mid
@@ -57982,6 +57946,7 @@ browsershots.org#@#.advert_area
 ||634369.xyz^$document,popup
 ||657475b7-0095-478d-90d4-96ce440604f9.online^$document,popup
 ||68646f.xyz^$document,popup
+||7608d5.xyz^$document,popup
 ||7e809ed7-e553-4e29-acb1-4e3c0e986562.site^$document,popup
 ||7fc8.site^$document,popup
 ||8acc5c.site^$document,popup
@@ -66865,6 +66830,7 @@ budgetbytes.com,ets2.lt,miloserdov.org###custom_html-2
 blissfuldomestication.com###custom_html-22
 sonyalpharumors.com###custom_html-25
 mostlyblogging.com,sarkarideals.com,tvarticles.me###custom_html-3
+godisageek.com###custom_html-4
 comicsheatingup.net###custom_html-5
 colombiareports.com,filmschoolrejects.com,hongkongfp.com,phoneia.com,sarkarideals.com,weatherboy.com###custom_html-6
 medievalists.net###custom_html-7
@@ -77261,6 +77227,7 @@ newduba.cn###jq_youxi
 ||dreuaxk.icu^
 ||isylieo.top^
 ||mweriox.top^
+||iwanshang8.asia^
 ||zuvbzl.xyz^
 ||zwdtvx.xyz^
 ||zwxxcb.icu^
@@ -85688,6 +85655,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 olevod.com##.swiper
+douyin.com###videoSideBar:-abp-has(div:-abp-contains(/商品|商家|退款|店铺/))
 douyin.com###videoSideBar iframe
 douyin.com#?#.xgplayer>div[class]:-abp-has(svg[height="16"][width="30"])
 czys.top#?#.swiper-slide:-abp-has(.coveimg[src*=".gif"])
@@ -103309,6 +103277,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wallkit.net^*/user/event
 ||wantlive.com/pixel/
 ||warnermedia.com/api/v1/events?
+||watchtower.graindata.com^
 ||wco.crownpeak.com^
 ||weather.ca/counter.gif?
 ||web-tracker.smsbump.com^
@@ -141743,7 +141712,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||matt.mercadolivre.com.br^
 ||metrics.uol.com.br^
 ||olx.com.br^*/lurker.
-||passeidireto.com/pd-tracking-lib/
 ||poder360.com.br/_tracker
 ||r7.com/comscore/
 ||sapo.*/clk?u=
