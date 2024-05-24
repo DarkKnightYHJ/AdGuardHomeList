@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oJuttA2iVtpZwCW8edZu0A
+! Checksum: ex0IdDx7UN/oXKN3IoJlog
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202405242000
-! Last Modified: 2024年05月24日 20:00
+! Version: 202405250200
+! Last Modified: 2024年05月25日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -21223,6 +21223,7 @@ browsershots.org#@#.advert_area
 ||belovedset.com^
 ||beloveupcreep.com^
 ||beltarklate.live^
+||beltwaythrust.com^
 ||beludicolor.com^
 ||belwrite.com^
 ||bemachopor.com^
@@ -39029,6 +39030,7 @@ browsershots.org#@#.advert_area
 ||muirpekvl.com^
 ||mujilora.com^
 ||mukhtarproving.com^
+||mulaukso.com^
 ||mulberryay.com^
 ||mulberrydoubloons.com^
 ||mulberryresistoverwork.com^
@@ -41615,6 +41617,7 @@ browsershots.org#@#.advert_area
 ||outyanmegaom.com^
 ||ouveelsa.xyz^
 ||ouvrestance.com^
+||ouwhejoacie.xyz^
 ||ouxvgihpkjfkhs.xyz^
 ||ouyoqudevfal.com^
 ||ouzavamt.com^
@@ -51797,6 +51800,7 @@ browsershots.org#@#.advert_area
 ||ulmoyc.com^
 ||ulmpyqgfqkffe.com^
 ||ulmujev.com^
+||ulnaswotter.top^
 ||ulngjwvbhyyfkum.com^
 ||ulnhlnsw.com^
 ||ulnidkdlaxclpo.com^
@@ -85568,7 +85572,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||aiboav.vip/wp-content/uploads/uu-chat/*.gif
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+939394.xyz##body > table:first-child img
 vsping.com##.ad_01
+939394.xyz##.j_m_ad
 vsping.com##div[style^="border-radius: 10px; box-shadow"]
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -142122,6 +142128,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||sephora.com/js/ufe/isomorphic/thirdparty/VisitorAPI.js$~third-party
 @@||service.apport.net/apport-spa-common/src/tracking/tracking.js$~third-party
 @@||services.chipotle.com/__imp_apg__/$~third-party
+@@||sharethis.com/button/buttons.js$domain=bristan.com
 @@||shoonya.finvasia.com/fingerprint2.min.js$script,~third-party
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
 @@||shopify.com/shopifycloud/boomerang/shopify-boomerang-$domain=rydewear.com

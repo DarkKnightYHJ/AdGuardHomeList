@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: e2T0SDjOteWSv6JqiMmxiA
-! Version: 202405241701
+! Checksum: DHpJMYZGqHak3xTL8D72WQ
+! Version: 202405241811
 ! Title: ABP filters
-! Last modified: 24 May 2024 17:01 UTC
+! Last modified: 24 May 2024 18:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -47,6 +47,7 @@ cn.bing.com#$#hide-if-contains 360 #b_results>li .b_adProvider
 2345.com#$#abort-current-inline-script setDefaultTheme
 ahri8.top#$#abort-current-inline-script document.querySelectorAll popMagic
 ifenpaidy.com#$#abort-on-property-read localStorage
+939394.xyz#$#abort-on-property-read atob
 ! Popups & Popunders
 cocomanga.com#$#abort-on-property-read __cad.cpm_popunder; abort-on-property-read __ad
 madouqu.com#$#abort-current-inline-script document.querySelectorAll popMagic
