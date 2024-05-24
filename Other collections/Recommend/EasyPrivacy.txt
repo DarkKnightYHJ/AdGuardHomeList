@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: BuTp5d4xfD07ggfObAgRnA
-! Version: 202405240901
+! Checksum: 6AeDBs3jabJBdbt/2ENbCw
+! Version: 202405241000
 ! Title: EasyPrivacy
-! Last modified: 24 May 2024 09:01 UTC
+! Last modified: 24 May 2024 10:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -48842,6 +48842,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||xfinity.com/stream/js/api/fingerprint.js$~third-party
 @@||yottaa.net^$script,domain=containerstore.com|hannaandersson.com
 @@||zoominfo.com/c/amplitude-js$script,~third-party
+!! https://old.reddit.com/r/uBlockOrigin/comments/1czbcvg/foundit_is_blocking_searches_until_ublock_origin/
+@@||media.foundit.*/trex/public/theme_3/dist/js/userTracking.js$script,~third-party
 !! amplitude.com/libs
 @@||amplitude.com/libs/$script,domain=elconfidencial.com|kink.com|pdfexpert.com|xe.com
 !! googletagmanager.com/gtm.js
