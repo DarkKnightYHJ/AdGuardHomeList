@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VQq27ssNjcvUwC2kW4YShQ
-! Version: 202405241101
+! Checksum: VVR7U5Hki8fJ6J1L0PBIRQ
+! Version: 202405241210
 ! Title: EasyList China+EasyList
-! Last modified: 24 May 2024 11:01 UTC
+! Last modified: 24 May 2024 12:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1690,6 +1690,7 @@ newduba.cn###jq_youxi
 ||23.231.151.252^
 ||cupfox.app^$third-party
 !
+||wqzmed.cn^
 ##a[href*=".68hantang.com"]
 ##a[href*=".asd245796.com:"]
 ##a[href*=".asd252466.com:"]
@@ -11153,11 +11154,15 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||vsping-*.myqcloud.com/ggw/
+||vsping.com/website/adLinks?
 ||aiboav.vip/wp-content/uploads/*/3aaa-
 ||aiboav.vip/wp-content/uploads/ad/
 ||aiboav.vip/wp-content/uploads/uu-chat/*.gif
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+vsping.com##.ad_01
+vsping.com##div[style^="border-radius: 10px; box-shadow"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
