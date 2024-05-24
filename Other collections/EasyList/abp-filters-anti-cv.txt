@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: wha/WOzMetBLxfIXe79i8A
-! Version: 202405241301
+! Checksum: nwRp6+FpFyzeRf8bDJB78Q
+! Version: 202405241401
 ! Title: ABP filters
-! Last modified: 24 May 2024 13:01 UTC
+! Last modified: 24 May 2024 14:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -558,7 +558,7 @@ ebay.*#$#hide-if-matches-xpath './/div[contains(@class,"sponsored-infotip")]/par
 ebay.fr#$#hide-if-matches-xpath './/a[@*]/img [@src][contains(@alt,"reconditionné")]/parent::a[@class="srp-banner"]/ancestor::li[contains(@class,"SIMPLE_IMAGE_BANNER")][1]'
 ebay.*#$#hide-if-matches-xpath './/div[@class="srp-1p__ad-column"]/ancestor-or-self::a[@class="srp-1p__link"]'
 ! cp
-ebay.*#$#hide-if-matches-xpath './/span[@class="s-item__promoted"]/ancestor-or-self::li[contains(@class,"s-item")][1]'
+ebay.*#$#hide-if-matches-xpath './/a[contains(@href,"&amdata=")]//img[@src]//ancestor-or-self::li[contains(@class,"s-item")][1]'
 ! pp
 ebay.*#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzati|Sponsorowane|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|Patrocinado/ li>div 'li>div.recs-item-content * div ^^sh^^ style+span.dsa-label'
 ebay.*#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzati|Sponsorowane|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|Patrocinado/ div[role]>div 'div[role]>div.recs-item-content * div ^^sh^^ style+span.dsa-label'
