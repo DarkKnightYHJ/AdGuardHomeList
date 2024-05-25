@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kPKERRU6Q6TNVBo14XzBPw
+! Checksum: Q31vvxD6Ah0Xz9SAg3+HlQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202405250800
-! Last Modified: 2024年05月25日 08:00
+! Version: 202405252000
+! Last Modified: 2024年05月25日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1828,6 +1828,10 @@ newduba.cn###jq_youxi
 ||ieapak.xyz^
 ||piksrie.icu^
 ||rbrmhz.xyz^
+||aogk88.asia^
+||ksylied.top^
+||cai75tp.com^
+||enviousinevitable.com^
 ##a[href*=".68hantang.com"]
 ##a[href*=".asd245796.com:"]
 ##a[href*=".asd252466.com:"]
@@ -6659,6 +6663,7 @@ newduba.cn###jq_youxi
 !long-term
 ##a[href*=".xacg.info/"]
 ##button[onclick*=".xacg.info/"]
+||d3d7a0q05k6bvz.cloudfront.net^
 ||06789.xyz^
 ||114la.com^$third-party,domain=~ylmf.com
 ||114lm.com^$third-party
@@ -11294,8 +11299,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||aiboav.vip/wp-content/uploads/*/3aaa-
 ||aiboav.vip/wp-content/uploads/ad/
 ||aiboav.vip/wp-content/uploads/uu-chat/*.gif
+||diamiu.com/wp-content/uploads/1200-200.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+element-plus.org##.page-content-main-a
 939394.xyz##body > table:first-child img
 vsping.com##.ad_01
 939394.xyz##.j_m_ad
@@ -27134,6 +27141,7 @@ omni.soundestlink.com$image
 ||speed-trap.com^$third-party
 ||speedcurve.com^$third-party
 ||speedhq.net^$third-party
+||speetals.com^$third-party
 ||splitbee.io^$third-party
 ||splittag.com^$third-party
 ||splyt.com^$third-party
@@ -34349,6 +34357,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||middletownpress.com/413gkwMT/init.js
 ||mrt.com/413gkwMT/init.js
 ||mysanantonio.com/413gkwMT/init.js
+||ncadvertiser.com/413gkwMT/init.js
 ||newsnationnow.com/yZuPxxW0/init.js
 ||newstimes.com/413gkwMT/init.js
 ||nhregister.com/413gkwMT/init.js
