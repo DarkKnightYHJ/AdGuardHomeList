@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yRzDoPhStLX9QAb91V8lsg
-! Version: 202405271301
+! Checksum: M/WplJdtcx0doMXQ+kfA9A
+! Version: 202405271401
 ! Title: Fanboy's Annoyance List
-! Last modified: 27 May 2024 13:01 UTC
+! Last modified: 27 May 2024 14:01 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -49892,3 +49892,11 @@ axelspringer-syndication.de#@#body:not([style*="hidden"]) .cmpboxWelcomeGDPR
 ! FD-5391
 @@||trmwidget.eu^$subdocument,document,domain=bz-berlin.de
 @@||trmwidget.eu^$domain=bz-berlin.de
+! FD-6116
+@@||g.doubleclick.net/gampad/ads?*&prev_scp=tagname%3Dsticky&$xmlhttprequest,domain=motorradonline.de
+@@||g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$script,domain=motorradonline.de
+@@||g.doubleclick.net/pcs/$popup,domain=motorradonline.de
+@@||g.doubleclick.net/tag/js/gpt.js$domain=motorradonline.de
+@@||mps-gba.de/ads/adserving/close_black.png$domain=motorradonline.de
+@@||tpc.googlesyndication.com/simgad/$image,domain=motorradonline.de
+motorradonline.de#@#a[href^="https://adclick.g.doubleclick.net/"]
