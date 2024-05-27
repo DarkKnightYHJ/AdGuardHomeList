@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: SqmU6dupDwCykCHD517qbg
-! Version: 202405272201
+! Checksum: 5R0vQ+JUqoEclM4RdWPMuA
+! Version: 202405272301
 ! Title: EasyPrivacy
-! Last modified: 27 May 2024 22:01 UTC
+! Last modified: 27 May 2024 23:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -10389,6 +10389,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mhtr.be/public/tr/tracker.min.js
 ||npo.nl/divolte/tt/web-event?$domain=zapp.nl
 ||pijper.io/visits/
+||pxr.nl/v1/stats/
 ||rmgdapfnccsharpprd.azurewebsites.net^
 ||sp.dpgmedia.net^
 ||stat.24liveplus.com^
@@ -47822,6 +47823,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||npo.nl/tag/atinternet/
 ||pcmweb.nl/track/
 ||pg.totaaltv.nl/api/metrics
+||pipeline.lc.nl^$~script
 ||pipeline.rd.nl^$~script
 ||r.kleertjes.com^
 ||rtl.nl/system/track/
