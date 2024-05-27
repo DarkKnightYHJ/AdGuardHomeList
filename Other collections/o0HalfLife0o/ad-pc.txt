@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JSdKCD8BFSQ/RnyrVliNrQ
+! Checksum: oaohgZf5YehqvvihewCr0g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202405271400
-! Last Modified: 2024年05月27日 14:00
+! Version: 202405272000
+! Last Modified: 2024年05月27日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -17470,6 +17470,7 @@ browsershots.org#@#.advert_area
 ||86cb1dcb13ba5a1a.com^
 ||87bcb027cf.com^
 ||87c5ce40f8.com^
+||884de19f2b.com^
 ||888promos.com^
 ||889433.com^
 ||88d7b6aa44fb8eb.com^
@@ -65183,6 +65184,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||lapresse.ca/webparts/ads/
 ||lasentinel.net/static/img/promos/
 ||latestlaws.com/frontend/ads/
+||learn-cpp.org/static/img/banners/cfk/$image
 ||lespagesjaunesafrique.com/bandeaux/
 ||lifehack.org/Tm73FWA1STxF.js
 ||linkedin.com/tscp-serving/
@@ -66763,6 +66765,7 @@ blissfuldomestication.com###custom_html-22
 sonyalpharumors.com###custom_html-25
 mostlyblogging.com,sarkarideals.com,tvarticles.me###custom_html-3
 godisageek.com###custom_html-4
+mangaread.org###custom_html-48
 comicsheatingup.net###custom_html-5
 colombiareports.com,filmschoolrejects.com,hongkongfp.com,phoneia.com,sarkarideals.com,weatherboy.com###custom_html-6
 medievalists.net###custom_html-7
@@ -68503,6 +68506,7 @@ moco360.media##.bs_zones
 sslshopper.com##.bsaStickyLeaderboard
 arydigital.tv,barakbulletin.com##.bsac
 doge-faucet.com##.bspot
+businesstoday.in##.btPlyer
 autoblog.com##.btf-native
 cricwaves.com##.btm728
 snaptik.app##.btn-download-hd[data-ad="true"]
@@ -69437,6 +69441,7 @@ alaskahighwaynews.ca,bowenislandundercurrent.com,burnabynow.com,coastreporter.ne
 newegg.com##.item-sponsored-box
 pocketgamer.com##.item-unit
 presearch.com##.items-center.bg-transparent
+businesstoday.in##.itgdAdsPlaceholder
 slidehunter.com##.itm-ads
 itweb.co.za##.itw-ad
 india.com##.iwplhdbanner-wrap
@@ -70333,6 +70338,7 @@ steamladder.com##.salad
 salife.com.au##.salife-slot
 sherbrookerecord.com##.sam-pro-container
 softonic.com##.sam-slot
+f95zone.to##.samAlignCenter
 audi-sport.net,beermoneyforum.com,forums.sailinganarchy.com,geekdoing.com,sportfishingbc.com,studentdoctor.net##.samBannerUnit
 racedepartment.com,resetera.com,satelliteguys.us##.samCodeUnit
 beermoneyforum.com##.samTextUnit
@@ -71313,6 +71319,7 @@ unogs.com##[href^="/ad/"]
 ar15.com##[href^="/forums/transfers.html"]
 notbanksyforum.com,pooletown.co.uk,tossinggames.com,urbanartassociation.com##[href^="http://redirect.viglink.com"]
 eevblog.com##[href^="http://s.click.aliexpress.com/"]
+learn-cpp.org##[href^="http://www.spoj.com/"]
 windows-noob.com##[href^="https://adaptiva.com/"]
 open.spotify.com##[href^="https://adclick.g.doubleclick.net/"]
 topfiveforex.com##[href^="https://affiliate.iqoption.com/"]
@@ -71326,6 +71333,7 @@ greatandhra.com,kitploit.com##[href^="https://bit.ly/"] img
 coingolive.com##[href^="https://bitpreco.com/"]
 analyticsindiamag.com##[href^="https://business.louisville.edu/"]
 50gameslike.com,highdemandskills.com,yumyumnews.com##[href^="https://click.linksynergy.com/"]
+learn-cpp.org##[href^="https://codingforkids.io"]
 wccftech.com##[href^="https://cutt.ly/"]
 ahaan.co.uk,emailnator.com,myip.is,scrolller.com,whereto.stream##[href^="https://go.nordvpn.net/"]
 everybithelps.io##[href^="https://hi.switchy.io/"]
@@ -73832,6 +73840,7 @@ darknessporn.com,familyporner.com,freepublicporn.com,pisshamster.com,punishworld
 kbjfree.com##.relative.w-full:has(> .video-card[target="_blank"])
 pornhub.com##.sectionWrapper:has(> #bottomVideos > .wrapVideoBlock)
 hentaicomics.pro##.single-portfolio:has(.xxx-banner)
+xasiat.com##.top:has(> [data-zoneid])
 scrolller.com##.vertical-view__column > .vertical-view__item:has(> div[style$="overflow: hidden;"])
 porndoe.com##.video-item:has(a.video-item-link[ng-native-click])
 jav4tv.com##aside:has(.ads_300_250)
@@ -74497,6 +74506,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 -*-*-*-*.panda^$script,third-party
 -1316632262.cos.
 -1316899192.cos.
+.top/ad/
 -1688-wp-media/ads/
 -90mh-gg.
 .bid/ads/
@@ -76185,6 +76195,11 @@ newduba.cn###jq_youxi
 ||420909.cn^
 ||bzqqftz.icu^
 ||esyliew.top^
+||fpelfyeesuoivy.com^
+||nlvwdlnhfnnw.com^
+##a[href*="/hgsfhgsfa.top"]
+||auisaoa.top^
+||bing001.shop^
 ##a[href*=".68hantang.com"]
 ##a[href*=".asd245796.com:"]
 ##a[href*=".asd252466.com:"]
@@ -91799,9 +91814,10 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||online.unionpay.com/ads/$script
 @@||orientaldaily.on.cc/js/oncc-ad.js
 @@||ozabc.com^$generichide
+@@||mens1069.com^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=23qb.net|4spaces.org|aboluowang.com|assbbs.com|bilinovel.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best|zaixianjisuan.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mens1069.com|23qb.net|4spaces.org|aboluowang.com|assbbs.com|bilinovel.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best|zaixianjisuan.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=duelmeta.com|linetv.tw|liout.com|moneysave.info|raenonx.cc|zxmee.com
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|weithenn.org
@@ -141931,6 +141947,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||tracker.blutv.com^
 |http://r.i.ua^
 |https://r.i.ua^
+||analytics.cosmonova.net^
 ||at.ua/stat/
 ||counter.nv.ua^
 ||counter.ukr.net^
