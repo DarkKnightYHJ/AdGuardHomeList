@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: miVG9JsXEiKmsdVHd8qvGA
-! Version: 202405270301
+! Checksum: dR8mHczApJ2TraE2x53RHg
+! Version: 202405270410
 ! Title: EasyList
-! Last modified: 27 May 2024 03:01 UTC
+! Last modified: 27 May 2024 04:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -71835,6 +71835,7 @@ freshdirect.com##[class*="ProductsGrid_grid_item_"]:has([data-qa="tile_marketing
 livejournal.com##[class*="categories"] + div[class]:has(> [class*="-commercial"])
 popularmechanics.com##[class] > :has(> #article-marketplace-horizontal)
 popularmechanics.com##[class] > :has(> #gpt-ad-vertical-bottom)
+avclub.com,gizmodo.com,jalopnik.com,kotaku.com,theonion.com,theroot.com##[class] > div:has(> [is="bulbs-dfp"])
 fortune.com##[class]:has(> #Leaderboard0)
 petco.com##[class^="citrus-carousel-"]:has([class^="carousel__Sponsored"])
 svgrepo.com##[class^="style_native"]:has([href*="buysellads.com"])
