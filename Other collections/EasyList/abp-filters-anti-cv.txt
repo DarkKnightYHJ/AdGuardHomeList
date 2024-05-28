@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: d9PgTOntu3jPJAl9s2uH0Q
-! Version: 202405280901
+! Checksum: +DwcHUjZTgTFDkvnidXE6w
+! Version: 202405281000
 ! Title: ABP filters
-! Last modified: 28 May 2024 09:01 UTC
+! Last modified: 28 May 2024 10:00 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1002,8 +1002,8 @@ gamefront.com#$#abort-current-inline-script $ AdBlock
 ||thikraik.net^$domain=kickassanime.io
 kickassanime.io##.ka-ax-wrp.mb-3
 imagefap.com#$#abort-on-property-read popCookie
-igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#hide-if-matches-xpath './/a[@href][@aria-label]/img[@loading="lazy"][@width="663"]/ancestor-or-self::a[1]'
-igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#abort-on-property-write advanced_ads_ready; prevent-listener DOMContentLoaded; prevent-listener iframe; abort-current-inline-script addEventListener document.createElement;
+igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#hide-if-matches-xpath './/div/a[@href][@aria-label]/img[@loading="lazy"][@width="663" or @width="301"]/ancestor-or-self::div[1]'
+igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#abort-on-property-write advanced_ads_ready; prevent-listener DOMContentLoaded; prevent-listener iframe; abort-current-inline-script addEventListener document.createElement; abort-on-property-read window.open; abort-current-inline-script document.documentElement break;case $.
 searchenginereports.net#$#abort-on-property-read adsbygoogle
 amyscans.com##div[class*="code-block"]
 megagames.com#$#abort-on-property-write $jscomp
