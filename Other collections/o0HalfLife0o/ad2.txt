@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WGpDbj+xawnHCWaAPlxb7A
+! Checksum: Dn7hqv1or7VPNtvouhF0XA
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202405272000
-! Last Modified: 2024年05月27日 20:00
+! Version: 202405280801
+! Last Modified: 2024年05月28日 08:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -126,7 +126,7 @@ www.huya.com##.duya-header-right,#public-screen-ab
 ||live-cover.msstatic.com/huyalive/*/format,webp/$image
 ||tx-live-cover.msstatic.com/huyalive/*/format,webp/$image
 ||msstatic.com/huya/main3/assets/modules/CommercialAdSdk/$script
-||cdn.huya.com/leaf/*_max.m3u8?$xhr
+||cdn.huya.com/leaf/$xhr
 g.huya.com
 statwup.huya.com
 va.huya.com
@@ -1852,6 +1852,10 @@ newduba.cn###jq_youxi
 ##a[href*="/hgsfhgsfa.top"]
 ||auisaoa.top^
 ||bing001.shop^
+||uskecsx.icu^
+||zhangqifeng12.top^
+||wsyliee.top^
+||abucki.xyz^
 ##a[href*=".68hantang.com"]
 ##a[href*=".asd245796.com:"]
 ##a[href*=".asd252466.com:"]

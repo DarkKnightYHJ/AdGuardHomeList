@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VEm1peA/ZNN0sERVLy44sQ
+! Checksum: Dw/ZuPWguP2PGYJK8INznA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202405272000
-! Last Modified: 2024年05月27日 20:00
+! Version: 202405280801
+! Last Modified: 2024年05月28日 08:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -126,7 +126,7 @@ www.huya.com##.duya-header-right,#public-screen-ab
 ||live-cover.msstatic.com/huyalive/*/format,webp/$image
 ||tx-live-cover.msstatic.com/huyalive/*/format,webp/$image
 ||msstatic.com/huya/main3/assets/modules/CommercialAdSdk/$script
-||cdn.huya.com/leaf/*_max.m3u8?$xhr
+||cdn.huya.com/leaf/$xhr
 g.huya.com
 statwup.huya.com
 va.huya.com
@@ -1852,6 +1852,10 @@ newduba.cn###jq_youxi
 ##a[href*="/hgsfhgsfa.top"]
 ||auisaoa.top^
 ||bing001.shop^
+||uskecsx.icu^
+||zhangqifeng12.top^
+||wsyliee.top^
+||abucki.xyz^
 ##a[href*=".68hantang.com"]
 ##a[href*=".asd245796.com:"]
 ##a[href*=".asd252466.com:"]
@@ -32056,7 +32060,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.belgacom.be^
 ||apm.tnet.nl^
 ||bbvms.com/zone/js/zonestats.js
-||bol.com/click/impression?
+||bol.com/click/
 ||botndm.nl^*/init.min.js
 ||cloudfunctions.net/webtraffic$domain=eurocampings.nl
 ||contentreveal.net/event/events.js
@@ -32068,11 +32072,13 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mhtr.be/public/tr/tracker.min.js
 ||npo.nl/divolte/tt/web-event?$domain=zapp.nl
 ||pijper.io/visits/
+||pxr.nl/v1/stats/
 ||rmgdapfnccsharpprd.azurewebsites.net^
 ||sp.dpgmedia.net^
 ||stat.24liveplus.com^
 ||statistics.rbi-nl.com^
 ||tags.hilabel.nl^
+||tr.mediafin.be^
 ||trkr.shoppingminds.net^
 ||ugent.be/js/log.js
 ||almamedia.fi^*/scroll-monitor.min.js
@@ -69285,6 +69291,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||npo.nl/tag/atinternet/
 ||pcmweb.nl/track/
 ||pg.totaaltv.nl/api/metrics
+||pipeline.lc.nl^$~script
 ||pipeline.rd.nl^$~script
 ||r.kleertjes.com^
 ||rtl.nl/system/track/
