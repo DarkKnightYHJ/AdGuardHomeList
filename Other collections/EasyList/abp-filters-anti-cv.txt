@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: H/VC6/gfa109bSYefhJ5UA
-! Version: 202405291611
+! Checksum: otTjeu5BKb86tHjTQUi7WA
+! Version: 202405291701
 ! Title: ABP filters
-! Last modified: 29 May 2024 16:11 UTC
+! Last modified: 29 May 2024 17:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -327,8 +327,8 @@ clanky.seznam.cz,search.seznam.cz#?#:-abp-has(> .Result--organic .Result-title-l
 clanky.seznam.cz,search.seznam.cz#?#.Result:-abp-has(.Result--organic [class^="Result-contentContainer _"])
 www.seznam.cz#$#hide-if-matches-xpath './/div[@class="banner-wrapper"]/a[contains(@href,"ad_url")]/div/img/ancestor::div[@id="page"]'
 www.seznam.cz#$#hide-if-matches-xpath './/a[contains(@href,"ad-buttonem")]/ancestor::div[contains(@class,"gadget")]/parent::div[1]'
-www.seznam.cz#$#hide-if-matches-xpath './/a[contains(@href,"ad-info")]/ancestor::div[contains(@class,"gadget")]/following::div[contains(@style,"position:relative;")]/ancestor::div[contains(@style,"flex")]/ancestor::div[@class][2]'
-www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"mol-advert-header__commercial-label")]/ancestor::div[contains(@class,"mol-content-card")]'
+www.seznam.cz#$#hide-if-matches-xpath './/a[@href][@target="_blank"]/preceding::div[starts-with(@class,"atm-commercial-label")]/following::div[contains(@style,"position:relative;")]/ancestor::div[contains(@style,"flex")]/ancestor::div[@class][2]'
+www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"atm-commercial-label")]/ancestor-or-self::div[contains(@class,"mol-content-card")]'
 www.seznam.cz#$#hide-if-matches-xpath './/div[@id][contains(@style,"max-width: 100%;")]/div[contains(@style,"position:relative;")]/preceding::div[contains(@class,"text-")]/div/preceding::div[@style="top: 62px;"]'
 www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"mol-json-carousel-advert")]/ancestor::div[contains(@class,"atm-feed-card")]/parent::div[@id]'
 www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"atm-advert")]/ancestor::div[contains(@class,"atm-closeable-post")]/ancestor::div[2]'
