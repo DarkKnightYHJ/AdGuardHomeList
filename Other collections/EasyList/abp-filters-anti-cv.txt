@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 29jqMuV3gPO1RTFfnowWKw
-! Version: 202405291501
+! Checksum: H/VC6/gfa109bSYefhJ5UA
+! Version: 202405291611
 ! Title: ABP filters
-! Last modified: 29 May 2024 15:01 UTC
+! Last modified: 29 May 2024 16:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -975,7 +975,8 @@ freshsexvideos.com,sexvideos.rodeo,xxxvideo.link,ixxx.onl,xvideosx.one,xxxpor.or
 porntrex.com#$#abort-on-property-write preventDefault
 lscomic.com#$#abort-on-property-read window.advanced_ads_ready;abort-on-property-write window.advanced_ads_ready_queue;
 aniwatchtv.to,kunmanga.com#$#abort-current-inline-script document.createElement /break|case/
-andyday.tv#$#abort-current-inline-script document.documentElement break;case $.
+andyday.tv,kickassanime.*,vidco.pro#$#abort-current-inline-script document.documentElement break;case $.
+kickassanime.*,vidco.pro#$#override-property-read ifmax true
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 baytorrent.eu.org,europixhd.com,europixhd.net,file-up.org,force-download.com,force-download.es,force-download.net,gledajonline.net,hdeuropix.io,loadsubs.net,novom.ru,pirateproxy.earth,pirateproxy.live,thehiddenbay.com,thepiratebay.org,thepiratebay.vip,thepiratebay10.org,topeuropix.net,tpb.party,uploadproper.com,uploadproper.net#$#abort-on-property-read atob
@@ -1139,6 +1140,7 @@ rakuten.com#$#hide-if-contains-visible-text /Sponsorisée/ 'div[class*="flex-row
 poki.com#$#hide-if-matches-xpath './/div[contains(@style,"height")]/following-sibling::div[@class][contains(.,"Advertisement")]/parent::div[1]'
 bettycrocker.com,pillsbury.com#$#simulate-mouse-event 'xpath(.//div[@class="adAboveSiteHeader"]//span[@class="closeAdButton"][@aria-label])'
 solarmovie.*#$#abort-current-inline-script Math zfgloaded
+kickassanime.*#$#hide-if-matches-xpath './/div[contains(@class, "jw-wrapper")]/div[contains(@style,"position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;")]'
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
@@ -1672,7 +1674,7 @@ phimgichill.net#$#abort-current-inline-script jQuery popurl
 phimgichill.net,hhhay.tv,hh3dhay.pro,truyengihotnha.com,truyengihotnha.net,3dchill.shop#$#abort-current-inline-script eval $._Eu
 gocphimv.com,p.thoctv.com#$#abort-current-inline-script document.createElement script
 mephimnhe1.net#$#abort-current-inline-script jQuery popurl
-xemphimhdcc.net,motchill.plus#$#abort-current-inline-script document.addEventListener linksToOpen
+phimhdcc.com,motchill.plus#$#abort-current-inline-script document.addEventListener linksToOpen
 khoaiphim.com,phimmoinay.tv#$#abort-current-inline-script jQuery click_time
 dualeotruyenj.com,m.blogtruyenmoi.com#$#abort-current-inline-script document.addEventListener popunder
 lxmanga.icu#$#abort-current-inline-script $ PopUnder
