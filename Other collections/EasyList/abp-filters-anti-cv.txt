@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 6QWLFazCWITK0337PUFZnw
-! Version: 202405301001
+! Checksum: jogYAjfZJlbUHJiKl19N0w
+! Version: 202405301100
 ! Title: ABP filters
-! Last modified: 30 May 2024 10:01 UTC
+! Last modified: 30 May 2024 11:00 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -579,11 +579,12 @@ ebay.*#$#hide-if-matches-computed-xpath './/style[contains(text(),"data:image")]
 ! #CV-737
 cnn.com#$#strip-fetch-query-parameter caid warnermediacdn.com; strip-fetch-query-parameter afid warnermediacdn.com; strip-fetch-query-parameter conf_csid warnermediacdn.com; strip-fetch-query-parameter app_csid warnermediacdn.com
 ||warnermedia.com/api/v1/events?*=ad-break*^$xmlhttprequest,domain=cnn.com
-! #CV-1149
+! #RM-10
 etsy.com#$#race start; hide-if-contains-visible-text '/[aA](\\s)*d(\\s)*by/' li 'li[class] div > :is(div, p)' 'width: /^[0-9]px/'; hide-if-contains-visible-text '/[aA](\\s)*d(\\s)*b(\\s)*y/' li 'li[class] div > :is(div, p)' 'width: /^[0-9]px/'; race stop;
 etsy.com#$#hide-if-matches-xpath '//span[@data-is-ad][@data-ad-label][contains(text(),"Ad by")]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
 etsy.com#$#hide-if-matches-xpath './/h2[@class][contains(text(),"By Etsy sellers")]/preceding::p[contains(text(),"Sponsored")]/ancestor-or-self::div[@data-appears-component-name="web_home_strv_ads"]'
 etsy.com#$#hide-if-matches-xpath './/h3[contains(@id,"ad-listing")]/ancestor::li'
+etsy.com#$#hide-if-matches-xpath './/h3[contains(@id,"ad-listing")]/ancestor-or-self::div[@data-page-type="listing_page_similar_listings_grid"]'
 etsy.com##a[href*="listing_page_ad_row"]
 ! #CV-1056
 www.linkedin.com#$#simulate-mouse-event 'xpath(//*[text()="Promoted" or text()="Sponsored" or text()="Dipromosikan" or text()="Propagováno" or text()="Promoveret" or text()="Anzeige" or text()="Promocionado" or text()="促銷內容" or text()="Post sponsorisé" or text()="프로모션" or text()="Post sponsorizzato" or text()="广告" or text()="プロモーション" or text()="Treść promowana" or text()="Patrocinado" or text()="Promovat" or text()="Продвигается" or text()="Marknadsfört" or text()="Nai-promote" or text()="ได้รับการโปรโมท" or text()="Öne çıkarılan içerik" or text()="الترويج"]/ancestor::div[@data-id]//video[@autoplay="autoplay"])$delay=10'
@@ -921,7 +922,7 @@ cine.to#$#abort-on-property-read document.head.appendChild
 nhentai.net#$#override-property-read _n_app.popunder null;
 forums.socialmediagirls.com,masahub.net#$#abort-on-property-write zfgloadedpopup;
 hitomi.la#$#override-property-read popsource null; override-property-read adsdir null; override-property-read ad_cookieconsent false; override-property-read D4zz undefined; abort-on-property-read _pop; abort-on-property-read hitomi; abort-on-property-read open; override-property-read ad_idzone null; abort-on-property-read ylmkAp.addZone; override-property-read ad_popup_fallback false;
-ahvsh.com,sbanh.com,sbembed.com,sblona.com,sblongvu.com,sbplay2.com,sbrapid.com,streamhide.to,streamhide.to,streamsb.com,streamsb.net,viewsb.com#$#abort-on-property-read __Y
+ahvsh.com,sbanh.com,sbembed.com,sblona.com,sblongvu.com,sbplay2.com,sbrapid.com,streamhide.to,streamhide.to,streamsb.com,streamsb.net,streamwish.*,viewsb.com#$#abort-on-property-read __Y
 1337x.buzz,realgfporn.com,thepiratebay10.xyz#$#abort-current-inline-script document.createElement script
 sxyprn.com#$#abort-current-inline-script vast_urls; override-property-read D4zz undefined
 123moviesgo.club#$#abort-on-property-write atAsyncContainers
@@ -1140,7 +1141,7 @@ rakuten.com#$#hide-if-contains-visible-text /Sponsorisée/ 'div[class*="flex-row
 poki.com#$#hide-if-matches-xpath './/div[contains(@style,"height")]/following-sibling::div[@class][contains(.,"Advertisement")]/parent::div[1]'
 bettycrocker.com,pillsbury.com#$#simulate-mouse-event 'xpath(.//div[@class="adAboveSiteHeader"]//span[@class="closeAdButton"][@aria-label])'
 solarmovie.*#$#abort-current-inline-script Math zfgloaded
-kickassanime.*#$#hide-if-matches-xpath './/div[contains(@class, "jw-wrapper")]/div[contains(@style,"position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;")]'
+kickassanime.*,streamwish.*#$#hide-if-matches-xpath './/div[contains(@class, "jw-wrapper")]/div[contains(@style,"position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;")]'
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
@@ -1592,13 +1593,13 @@ animefenix.org,animeonline.ninja,audaciousdefaulthouse.com#$#abort-on-property-r
 monoschinos2.com#$#abort-on-property-read _0x24d7; abort-on-property-read _0x41ed; abort-on-property-read _0xf59bf3; abort-on-property-read a3klsam
 cuevana.*,cuevana3.*#$#hide-if-matches-xpath './/a[contains(@rel,"sponsored")]/parent::div[@style][@class="cont"]'
 ||filemoon.sx/ad.js^$domain=cuevana.biz|cuevana3.eu|cuevana3me.net|cuevana4.me
+hispasexy.org#$#hide-if-matches-xpath './/div[@data-element="overlay"]/div[@data-element][@data-izone]/parent::div[1]'
 ! Popup/Popunder
 gamestorrents.com,gamestorrents.nu,perfectgirls.es#$#abort-on-property-read open
 gnula.nu,xpaja.net#$#abort-current-inline-script String.fromCharCode /atob|btoa|break/
 jkanime.net#$#abort-current-inline-script Math break
 ||24fa533251.com/*.js$script,domain=hispasexy.org
-hispasexy.org#$#abort-current-inline-script _cpp
-hispasexy.org#$#abort-current-inline-script decodeURI; abort-on-property-read decodeURIComponent
+hispasexy.org#$#abort-current-inline-script _cpp; abort-current-inline-script decodeURI; abort-on-property-read decodeURIComponent; abort-on-property-write __popunder-event; abort-on-property-read __ampop-init; abort-on-property-read setTimeout;
 animefenix.com#$#abort-current-inline-script document.createElement _yzvesi; abort-on-property-write zfgloadedpopup;
 pelisplus.so#$#abort-on-property-write _zoxxpiee
 iguarras.com,iputitas.net,ytanime.tv#$#abort-on-property-read afScript
@@ -1608,6 +1609,7 @@ animefenix.com#$#abort-on-property-read p18
 peliculasyseries.gratis,ver-peliculas.gratis,verpeliculasio.online#$#abort-on-property-write window.open
 monoschinos2.com#$#abort-current-inline-script EventTarget.prototype.addEventListener encodeURIComponent
 seriesyonkis.cx#$#abort-on-property-read window.atob; abort-on-property-read open; abort-on-property-read _0x4c81
+cuevana3.*#$#abort-on-property-read decodeURI
 ! #CV-368
 rainanime.net#$#abort-on-property-read NativeAd
 ! #CV-1809

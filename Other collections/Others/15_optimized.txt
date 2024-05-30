@@ -1,9 +1,9 @@
-! Checksum: NKv+jyFkp0gzRTN1Aj0Z7A
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1717050916-3600.patch
+! Checksum: 5DKIk7zNAnmSSwoYeNq/cw
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1717065320-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.66.10
-! TimeUpdated: 2024-05-30T06:33:29+00:00
+! Version: 2.0.66.11
+! TimeUpdated: 2024-05-30T10:33:25+00:00
 ! Expires: 5 days (update frequency)
 ||rndskittytor.com^
 ||waisheph.com^
@@ -42055,6 +42055,7 @@ vkcdnservice.appspot.com^
 ||ca9246.xyz^
 ||caa2c4.xyz^
 ||ce357c.xyz^
+||cfb98a.xyz^
 ||d84bc26d.site^
 ||d8b0a5.xyz^
 ||d980ed.xyz^
@@ -47930,6 +47931,26 @@ vkcdnservice.appspot.com^
 ||d1udjti6mtxz9q.cloudfront.net^
 ||tagman.britishairways.com^
 |piwik.
+||v225.ksbw.com^
+||k030.koco.com^
+||u082.wapt.com^
+||f361.wvtm13.com^
+||t733.wjcl.com^
+||r255.wmtw.com^
+||j178.wmur.com^
+||p769.wgal.com^
+||v066.wxii12.com^
+||s811.ketv.com^
+||m886.kmbc.com^
+||w110.kcra.com^
+||u999.wcvb.com^
+||e459.kcci.com^
+||h019.wtae.com^
+||y000.wyff4.com^
+||q511.wpbf.com^
+||c677.wisn.com^
+||u578.wlwt.com^
+||e993.wlky.com^
 ||collect.biomedcentral.com^
 ||eproof.drudgereport.com^
 ||doppler-beacon.cbsivideo.com^
@@ -52537,6 +52558,7 @@ inapps.appsflyersdk.com^
 ||templates.buscape.com^
 ||yestorrents.org^
 ||oecistbenton.com^
+||isatonabench.com^
 ||lzbgeg.com^
 ||bestssrv.com^
 ||v.strosin.biz^
@@ -56311,6 +56333,7 @@ inapps.appsflyersdk.com^
 ||petrk.com^
 ||pixel-profile-cloud.eniro.com^
 ||platform-api.sharethis.com^
+||plausible.webfokus.no^
 ||plus.sharedcount.com^
 ||pm.azerioncircle.com^
 ||popitunder.com^
@@ -68400,7 +68423,6 @@ analytics-*.aasaam.com
 ||a4.overclockers.ua^
 ||novunu.football-plyus.net^
 ||api2.branch.io^$dnsrewrite=0.0.0.0
-@@||cloud.roistat.com^|
 @@||secureimage.securedataimages.com^|
 @@||infra-api.newrelic.com^|
 @@||tms.capitalone.com^|
