@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 91wF1WXo8LOka7JXbYW9Pw
+! Checksum: nEW9fhX193/co3rsVPo3kQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202405312000
-! Last Modified: 2024年05月31日 20:00
+! Version: 202406010200
+! Last Modified: 2024年06月01日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -797,6 +797,7 @@ youtube.com##div #main-container.style-scope.ytd-promoted-video-renderer
 youtube.com##div #root.style-scope.ytd-display-ad-renderer.yt-simple-endpoint
 youtube.com##div #sparkles-container.style-scope.ytd-promoted-sparkles-web-renderer
 youtube.com##div #player-ads.style-scope.ytd-watch-flexy
+youtube.com##.video-ads .ytp-ad-player-overlay, .video-ads .ytp-ad-player-overlay-layout
 ! yt/tv
 www.youtube.com##ytlr-ad-skip-or-preview
 www.youtube.com##.ytlr-watch-default__ad-badge-for-tvae
@@ -1645,7 +1646,7 @@ vndoc.com#$#override-property-read seconds 0
 phimvuihd.org#$#override-property-read urlAds ''
 live13.thapcam5.net#$#simulate-mouse-event '#modalasd$continue,delay=300'
 phimvietsub.pro,api.anime3s.com,subnhanh.xyz#$#override-property-read maxAds 0
-web.motsex.net,clipsexvietnam.net,phimsexviet.io,phimsexvietnam.app,clipsex.xxx,web.phimsexnhanh.tv,gm.phimsexnhanh.tv,mobile.phimsexvip.cc,xx.ditnhau.cc,phim.sexhayvl.org#$#override-property-read video.adVast ''
+web.motsex.net,clipsexvietnam.net,phimsexviet.io,phimsexvietnam.app,clipsex.xxx,web.phimsexnhanh.tv,gm.phimsexnhanh.tv,mobile.phimsexvip.cc,xx.ditnhau.cc,phim.sexhayvl.org,xx.clipsexhot.net#$#override-property-read video.adVast ''
 www.iosviet.com#$#override-property-read timer 0
 saigon24.net#$#abort-current-inline-script document.getElementById myModal
 ! Popup/Popunder/Clickunder
@@ -1692,6 +1693,8 @@ cunghocvui.com#$#abort-current-inline-script document.addEventListener opened_wi
 truyensextv.com#$#abort-current-inline-script document.addEventListener popup
 imail.edu.vn#$#abort-current-inline-script setTimeout Aff;abort-current-inline-script setTimeout ad_block
 ungtycomicsvip.net#$#abort-current-inline-script document.body.addEventListener window.open
+sex.chichnhau.net#$#abort-current-inline-script $ pop
+sexhd88.co#$#abort-current-inline-script document.addEventListener open
 ! *** abp-filters-hotfix:hotfix.txt ***
 ! FDA-2994
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument
