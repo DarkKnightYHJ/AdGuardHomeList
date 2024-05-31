@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BynLY2neCoV4Q7bQh9SuHA
-! Version: 202405311000
+! Checksum: GuXMLY3T5LHOGcz/eOLf5Q
+! Version: 202405311101
 ! Title: EasyList China+EasyList
-! Last modified: 31 May 2024 10:00 UTC
+! Last modified: 31 May 2024 11:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -76753,6 +76753,7 @@ browsershots.org#@#.advert_area
 ! ad-shield https://github.com/List-KR/List-KR/pull/892
 ||02777e.site^$document,popup
 ||05751c.site^$document,popup
+||072551.xyz^$document,popup
 ||07c225f3.online^$document,popup
 ||07e197.site^$document,popup
 ||1116c5.xyz^$document,popup
@@ -91271,9 +91272,9 @@ firstpost.com##.taboola-div
 weather.com##div[id*="Taboola-sidebar"]
 weather.com##div[id^="Taboola-main-"]
 express.co.uk##div[id^="taboola-"]
+mail.aol.com##li:has(a[data-test-id="pencil-ad-messageList"])
 linkvertise.com##lv-taboola-ctr-ad-dummy
 filmibeat.com,gizbot.com,goodreturns.in,oneindia.com##ul > li:has(> div[id^="taboola-mid-home-stream"])
-mail.aol.com##li:has(a[data-test-id="pencil-ad-messageList"])
 ! firework
 ndtv.com,ndtv.in##[class^="firework"]
 ndtv.com,ndtv.in##[id^="firework"]
