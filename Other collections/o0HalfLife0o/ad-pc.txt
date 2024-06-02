@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 79RdyDTa/dJbTy4p2FIQ6Q
+! Checksum: J/LeaCPhOjKzK7anZ+JE5Q
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202406021400
-! Last Modified: 2024年06月02日 14:00
+! Version: 202406022000
+! Last Modified: 2024年06月02日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -516,6 +516,7 @@ tieba.baidu.com##.tuijian-wrap
 .com/ads?
 .com/adv/$domain=~adv.asahi.com|~advantabankcorp.com|~alltransistors.com|~archiproducts.com|~tritondigital.com
 .com/api/posts?token=$third-party
+.com/pixel/pure
 .com/sc/*?n=$script,third-party
 .com/script/a.js
 .com/script/asset.js
@@ -27800,7 +27801,6 @@ browsershots.org#@#.advert_area
 ||etyequiremu.org^
 ||etymonsibycter.com^
 ||etystoass.com^
-||eu-1-id5-sync.com^
 ||euauosx.xyz^
 ||euavokhqrxhteot.com^
 ||eucing.com^
@@ -56787,6 +56787,7 @@ browsershots.org#@#.advert_area
 ||4e04f7.xyz^$document,popup
 ||4e55.xyz^$document,popup
 ||4e68.xyz^$document,popup
+||4e990.xyz^$document,popup
 ||58e0.site^$document,popup
 ||5ceea3.xyz^$document,popup
 ||5fd6bc.xyz^$document,popup
@@ -73459,6 +73460,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 -*-*-*-*.as^$script,third-party
 -*-*-*-*.panda^$script,third-party
 ws://*/api/wss/GetNotReadCount$third-party
+.dajiahao*.top/getCodeDomain/
 -1316632262.cos.
 -1316899192.cos.
 .top/ad/
@@ -75203,6 +75205,7 @@ newduba.cn###jq_youxi
 ||vevhjj.xyz^
 ||dajiahao9.top^
 ||dajiahao10.top^
+##a[href*=".uu2123sd.vip"]
 ##a[href*=".68hantang.com"]
 ##a[href*=".asd245796.com:"]
 ##a[href*=".asd252466.com:"]
@@ -84674,6 +84677,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||e.so.com/search/pcnew?
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+woaimoon.com##DIV[id^="juan_"]
 mydrivers.com##.vwE9JmqU
 mydrivers.com##.yTv3AMqP
 mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(/推*广/))
@@ -95926,6 +95930,7 @@ omni.soundestlink.com$image
 ||epsilondelta.co^
 ||eqy.link^
 ||etop.ro^
+||eu-1-id5-sync.com^
 ||everesttech.net^
 ||experianmatch.info^
 ||ezodn.com^

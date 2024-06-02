@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Sz/7cUm/bx8Ws9ovND1Dlg
+! Checksum: wa+laId4ERstR0jJpbvWBg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202406021400
-! Last Modified: 2024年06月02日 14:00
+! Version: 202406022000
+! Last Modified: 2024年06月02日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -157,6 +157,7 @@ z4a.net
 -*-*-*-*.as^$script,third-party
 -*-*-*-*.panda^$script,third-party
 ws://*/api/wss/GetNotReadCount$third-party
+.dajiahao*.top/getCodeDomain/
 -1316632262.cos.
 -1316899192.cos.
 .top/ad/
@@ -1901,6 +1902,7 @@ newduba.cn###jq_youxi
 ||vevhjj.xyz^
 ||dajiahao9.top^
 ||dajiahao10.top^
+##a[href*=".uu2123sd.vip"]
 ##a[href*=".68hantang.com"]
 ##a[href*=".asd245796.com:"]
 ##a[href*=".asd252466.com:"]
@@ -11372,6 +11374,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||e.so.com/search/pcnew?
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+woaimoon.com##DIV[id^="juan_"]
 mydrivers.com##.vwE9JmqU
 mydrivers.com##.yTv3AMqP
 mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(/推*广/))
@@ -24955,6 +24958,7 @@ omni.soundestlink.com$image
 ||epsilondelta.co^
 ||eqy.link^
 ||etop.ro^
+||eu-1-id5-sync.com^
 ||everesttech.net^
 ||experianmatch.info^
 ||ezodn.com^
