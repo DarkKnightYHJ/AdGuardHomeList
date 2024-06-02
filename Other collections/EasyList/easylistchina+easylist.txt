@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5d4Gn0S6sBXLPv3Hn4xN9g
-! Version: 202406021401
+! Checksum: /Pa9Rb5CHhFAOtY5pfxCtw
+! Version: 202406021501
 ! Title: EasyList China+EasyList
-! Last modified: 02 Jun 2024 14:01 UTC
+! Last modified: 02 Jun 2024 15:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1408,7 +1408,7 @@ newduba.cn###jq_youxi
 ##.partialViewSlider-outerwrapper
 ##.pasuAD
 ##.pause-ad
-##.pc-layout-content > .pc-ads
+##.pc-ads
 ~dongman8.com##.pc_acmsd
 ##.pccb > .ng-star-inserted
 ##.pcd_ad
@@ -19483,7 +19483,6 @@ fqsousou.com,kengso.com#@#.user-share
 .com/ads?
 .com/adv/$domain=~adv.asahi.com|~advantabankcorp.com|~alltransistors.com|~archiproducts.com|~tritondigital.com
 .com/api/posts?token=$third-party
-.com/pixel/pure
 .com/sc/*?n=$script,third-party
 .com/script/a.js
 .com/script/asset.js
@@ -20193,7 +20192,7 @@ fqsousou.com,kengso.com#@#.user-share
 /pioneersuspectedjury.com/*
 /pix/ads/*$image
 /pixel/puclc?
-/pixel/pure$~xmlhttprequest
+/pixel/pure
 /pixel/purs?
 /pixel/purst?
 /pixel/sbe?
