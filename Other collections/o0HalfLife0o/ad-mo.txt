@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BtSj5Oe0B9mMt15VCzwqdA
+! Checksum: p4HuIdvVeyImHOmbh+lb2g
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202406032000
-! Last Modified: 2024年06月03日 20:00
+! Version: 202406040200
+! Last Modified: 2024年06月04日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -824,7 +824,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /banner-affiliate-
 /banner.asp?$third-party
 /banner.cgi?
-/banner.php
+/banner.php$domain=~research.hchs.hc.edu.tw
 /banner/affiliate/*$image,subdocument
 /banner/html/zone?zid=
 /banner/sponsors.
@@ -34960,6 +34960,7 @@ browsershots.org#@#.advert_area
 ||kmmtxfwntcnyd.com^
 ||kmnkiuqfo.com^
 ||kmodukuleqasfo.info^
+||kmrilock.com^
 ||kmyaklgcik.com^
 ||kmyunderthf.info^
 ||knackseafood.com^
@@ -47508,6 +47509,7 @@ browsershots.org#@#.advert_area
 ||soundingthunder.com^
 ||soupevents.com^
 ||soupteep.xyz^
+||soupteewhish.com^
 ||souptightswarfare.com^
 ||souraivo.xyz^
 ||sourcebloodless.com^
@@ -56859,6 +56861,7 @@ browsershots.org#@#.advert_area
 ||1116c5.xyz^$document,popup
 ||11c7a3.xyz^$document,popup
 ||1350c3.xyz^$document,popup
+||156fd4.xyz^$document,popup
 ||1a1fb6.xyz^$document,popup
 ||20519a.xyz^$document,popup
 ||22d2d4d9-0c15-4a3a-9562-384f2c100146.xyz^$document,popup
@@ -71120,6 +71123,7 @@ motortrend.com##.justify-center:has(.nativo-news)
 chewy.com##.kib-carousel-item:has(.kib-product-sponsor)
 content.dictionary.com##.lp-code:has(> [class$="Ad"])
 euronews.com##.m-object:has(.m-object__sponsored-quote)
+haggen.com,kingsfoodmarkets.com##.master-product-carousel:has([data-carousel-api*="search/sponsored-carousel"])
 acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com##.master-product-carousel:has([data-carousel-driven="sponsored-products"])
 motortrend.com##.mb-6:has([data-ad="true"])
 officedepot.com##.od-col:has(.od-product-card-region-colors-sponsored)
