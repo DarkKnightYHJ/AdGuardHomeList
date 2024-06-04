@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: vrME1QyDGHT6REO/KGDnGA
-! Version: 202406041611
+! Checksum: V/JGweo1PukUWM75IJPMnw
+! Version: 202406041700
 ! Title: EasyPrivacy
-! Last modified: 04 Jun 2024 16:11 UTC
+! Last modified: 04 Jun 2024 17:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2537,7 +2537,6 @@
 /web-pixel-shopify-app-pixel@
 /web-pixel-shopify-custom-pixel@
 /web-vitals.
-/web-vitals/*
 /web/push?
 /web_analytics/*
 /web_answertip.js
@@ -47329,6 +47328,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||rt.bunte.de^
 ||schnaeppchenfuchs.com/js/default-
 ||shoop.de/mgtrx/
+||shop.rewe.de/api/xrd/web-vitals
 ||sparkasse.de/frontend/setTrackingCookie.htm
 ||sportnews.bz/pcookie?
 ||spreewaldkarte.de/t.gif
