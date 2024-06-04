@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 52ymP/63wjM7n0YCCZ3ihQ
+! Checksum: 6AOMMA+y+iXYtZpKMklTRA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202406032000
-! Last Modified: 2024年06月03日 20:00
+! Version: 202406040800
+! Last Modified: 2024年06月04日 08:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1834,6 +1834,11 @@ newduba.cn###jq_youxi
 ||doxihz.xyz^
 ||lhmgoik.icu^
 ||hxwscp.cn^
+||cxeftgyuer.top^
+||btrwxz.xyz^
+||eacqihh.icu^
+||cfjslif.top^
+||edghkc.xyz^
 ##a[href*=".68hantang.com"]
 ##a[href*=".asd245796.com:"]
 ##a[href*=".asd252466.com:"]
@@ -31497,6 +31502,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d2j1fszo1axgmp.cloudfront.net^
 ||d2j74sjmqqyf26.cloudfront.net^
 ||d2kdl5wcwrtj90.cloudfront.net^
+||d2lxqodqbpy7c2.cloudfront.net^
 ||d2nq0f8d9ofdwv.cloudfront.net/track.js
 ||d2nxi61n77zqpl.cloudfront.net^
 ||d2o67tzzxkqap2.cloudfront.net^
@@ -69519,6 +69525,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||stats.splinder.com^
 ||stats.stylight.it^
 ||stats.suedtirolerjobs.it^
+||t.mediaset.it^
 ||tantifilm.top^*/ping
 ||timinternet.it/timmobilestatic/img/*.gif?
 ||timinternet.it/timmobilestatic/jsPrivacy/gdl_function_cookie.js
