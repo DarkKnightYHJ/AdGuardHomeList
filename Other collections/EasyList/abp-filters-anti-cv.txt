@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: g2v3f6a3R9CjUR7OGExTTA
-! Version: 202406051311
+! Checksum: +DDZmXRN1yZBeJZVGJfvng
+! Version: 202406051401
 ! Title: ABP filters
-! Last modified: 05 Jun 2024 13:11 UTC
+! Last modified: 05 Jun 2024 14:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1705,4 +1705,7 @@ www.toptruyenii.online#$#abort-on-property-read setTimeout open
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#json-prune '0.playerResponse.adPlacements 0.playerResponse.playerAds 1.playerResponse.adPlacements 1.playerResponse.playerAds 2.playerResponse.adPlacements 2.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds ytInitialPlayerResponse.adPlacements ytInitialPlayerResponse.playerAds adPlacements playerAds'
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read playerResponse.adPlacements undefined;
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
-m.youtube.com,music.youtube.com#$#json-prune 'adPlacements adSlots playerAds';
+m.youtube.com,music.youtube.com#$#json-prune 'adPlacements adSlots playerAds ssdaiAdsConfig adPlacementRenderer playerResponse.playerConfig.ssapConfig';
+m.youtube.com,music.youtube.com#$#override-property-read ytInitialPlayerResponse.playerConfig.ssapConfig undefined
+m.youtube.com,music.youtube.com#$#override-property-read Object.prototype.adSlots undefined
+m.youtube.com,music.youtube.com#$#override-property-read Object.prototype.adPlacements undefined
