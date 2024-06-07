@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: GIOYnHZyGAQerOrS7zsiDg
-! Version: 202406070411
+! Checksum: wlZMf0giBQ6Wmkw5cLXq+A
+! Version: 202406070500
 ! Title: EasyList China+EasyList
-! Last modified: 07 Jun 2024 04:11 UTC
+! Last modified: 07 Jun 2024 05:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -90543,6 +90543,7 @@ skyscanner.com,skyscanner.net##div > a:has(div[class^="DefaultBanner_sponsorship
 inverse.com##div > p + div:has(amp-ad)
 bailagentnetwork.com##div.box-bottom:has(a[rel="noopener nofollow"])
 outlook.live.com##div.customScrollBar > div > div[id][class]:has(img[src$="/images/ads-olk-icon.png"])
+flightradar24.com##div.items-center.justify-center:has(> div#pb-slot-fr24-airplane:empty)
 costco.ca##div.product:has(.criteo-sponsored)
 thebay.com##div.product:has(div.citrus-sponsored)
 meijer.com##div.slick-slide:has(.product-tile__sponsored)
@@ -90707,6 +90708,7 @@ forums.whathifi.com###jwplayer-container-div
 mentalfloss.com###mm-player-placeholder-large-screen
 bossip.com,hiphopwired.com,madamenoire.com###player-wrapper
 bar-planb.com,hakibavuong.com###player_dev
+flightradar24.com###primisAdContainer
 realclearpolitics.com###realclear_jwplayer_container
 uproxx.com###upx-mm-player-wrap
 newseveryday.com###vplayer_large
