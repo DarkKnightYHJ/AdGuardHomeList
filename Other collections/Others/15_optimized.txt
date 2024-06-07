@@ -1,9 +1,9 @@
-! Checksum: vc4qBWBrRk1FssY8uvUNqA
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1717720531-3600.patch
+! Checksum: povCPx3FV9hRnDlY1SJXCA
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1717742148-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.66.44
-! TimeUpdated: 2024-06-07T00:33:54+00:00
+! Version: 2.0.66.45
+! TimeUpdated: 2024-06-07T06:33:48+00:00
 ! Expires: 5 days (update frequency)
 ||wxemjmxevy.com^
 ||journeymv.com^
@@ -50203,6 +50203,7 @@ inapps.appsflyersdk.com^
 ||client.tahono.com^
 ||clouderrorreporting.googleapis.com^
 ||cloudfront-labs.amazonaws.com^
+||cloudmetrics.xenforo.com^
 ||cltgtstor001.blob.core.windows.net^
 ||cnt.3dmy.net^
 ||cnt.mastorage.net^
