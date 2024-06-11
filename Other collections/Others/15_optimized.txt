@@ -1,9 +1,9 @@
-! Checksum: MoCu9ZRUocGXEnVUkH5hMw
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1718109371-3600.patch
+! Checksum: q4U/X7V/1gZ4ElLgL+pLIA
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1718130910-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.66.62
-! TimeUpdated: 2024-06-11T12:34:26+00:00
+! Version: 2.0.66.63
+! TimeUpdated: 2024-06-11T18:33:19+00:00
 ! Expires: 5 days (update frequency)
 ||eeptoabs.com^
 ||castanydm.com^
@@ -47189,6 +47189,7 @@ vkcdnservice.appspot.com^
 ||d1udjti6mtxz9q.cloudfront.net^
 ||tagman.britishairways.com^
 |piwik.
+||geo.wpforms.com^
 ||cdn.track.olx.com.br^
 ||analytics.junia.ai^
 ||ad.dl.mz.de^
@@ -54168,7 +54169,6 @@ inapps.appsflyersdk.com^
 ||adserver.icimedias.ca^
 ||adleap.jp^
 ||ad.unique1static.jp^
-||bance.jp^
 ||appdraft.link^
 ||ad.adpon-affi.net^
 ||lmadps.jp^
@@ -54449,6 +54449,8 @@ inapps.appsflyersdk.com^
 ||ov.yahoo.co.jp^
 ||yads.yahoo.co.jp^
 ||yads.yjtag.yahoo.co.jp^
+!+ NOT_OPTIMIZED
+||bance.jp^
 ||maillovelove.net^
 ||adserv2.suumo.jp^
 ||ad.woman.mynavi.jp^
