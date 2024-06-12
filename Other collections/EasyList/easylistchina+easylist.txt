@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: v17OlcxbdIBC9Lxss4o7Fw
-! Version: 202406121401
+! Checksum: OHIMSby7h0p9ji7fvVrYgQ
+! Version: 202406121501
 ! Title: EasyList China+EasyList
-! Last modified: 12 Jun 2024 14:01 UTC
+! Last modified: 12 Jun 2024 15:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -22,6 +22,7 @@
 -*-*-*-*.alpha^$script,third-party
 -*-*-*-*.as^$script,third-party
 -*-*-*-*.panda^$script,third-party
+.top/g3/myString3AsyncG?$third-party
 -1316632262.cos.
 -1316899192.cos.
 -1688-wp-media/ads/
@@ -90626,6 +90627,7 @@ manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##.Ssfiu-:has([dat
 outlook.live.com##.VdboX[tabindex="0"]:has(img[src="https://res.cdn.office.net/assets/ads/adbarmetrochoice.svg"])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##._6y8t:has(a[href="/ads/about/?entry_product=ad_preferences"])
 haveibeenpwned.com##.actionsBar:has(.why1Password)
+barandbench.com##.ad-wrapper-module__adContainer__iD4aI
 slickdeals.net##.announcementBar:has(.sponsorContent)
 nation.africa##.article-collection-teaser:has(.sponsored-label)
 thesun.co.uk##.article-sidebar .widget-sticky:has([class*="ad_widget"])
@@ -93032,6 +93034,8 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||infotop.jp/html/ad/$image,~third-party
 @@||jmedj.co.jp/files/$image,~third-party
 @@||jobs.bg/front_job_search.php$~third-party
+@@||js.assemblyexchange.com/videojs-skip-$domain=worldstar.com
+@@||js.assemblyexchange.com/wana.$domain=worldstar.com
 @@||kanalfrederikshavn.dk^*/jquery.openx.js?
 @@||kincho.co.jp/cm/img/bnr_ad_$image,~third-party
 @@||ladsp.com/script-sf/$script,domain=str.toyokeizai.net
