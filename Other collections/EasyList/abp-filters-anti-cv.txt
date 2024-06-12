@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: /Nh3Nn+KBJA4j/C+qqERWg
-! Version: 202406120701
+! Checksum: 3OUrxdYK4bM96M756BdMWw
+! Version: 202406120811
 ! Title: ABP filters
-! Last modified: 12 Jun 2024 07:01 UTC
+! Last modified: 12 Jun 2024 08:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -523,7 +523,6 @@ ajaxshowtime.com##div.leaderboard_ad + div
 etoland.co.kr#$#hide-if-matches-xpath './/span/div[contains(@style,"display: flex; justify-content: center; align-items: center; position: relative;")]/ancestor-or-self::span'
 etoland.co.kr#$#abort-on-property-write Element.prototype.remove; abort-on-property-read adshield; override-property-read alert true; abort-on-property-read btoa; override-property-read confirm true;
 etoland.co.kr#$#abort-on-property-read atob;
-picrew.me,javatpoint.com,m.ygosu.com,ndtvprofit.com#$#override-property-read Element.prototype.remove noopFunc
 ||info.error-report.com^$domain=picrew.me|javatpoint.com|m.ygosu.com|ndtvprofit.com
 ! RM-42
 tesco.com#$#hide-if-contains-visible-text /Sponsored/ ul[class*="grid"]>li 'div>span>span'
