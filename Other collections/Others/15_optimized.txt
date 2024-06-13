@@ -1,9 +1,9 @@
-! Checksum: a1ibYKdVmpUVF6a6llm4QQ
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1718238894-3600.patch
+! Checksum: flIwKL3ILV0ME0t31HIe3A
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1718260555-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.66.68
-! TimeUpdated: 2024-06-13T00:33:03+00:00
+! Version: 2.0.66.69
+! TimeUpdated: 2024-06-13T06:33:52+00:00
 ! Expires: 5 days (update frequency)
 ||eeptoabs.com^
 ||castanydm.com^
@@ -43691,6 +43691,7 @@ vkcdnservice.appspot.com^
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||merchant-center-analytics.goog^
 ||ssevt.com^
 ||lahar.com.br^
 ||pxl.knam.pro^
@@ -47202,6 +47203,7 @@ vkcdnservice.appspot.com^
 ||d1udjti6mtxz9q.cloudfront.net^
 ||tagman.britishairways.com^
 |piwik.
+||logs.openbank.com^
 ||plausible.omgapi.org^
 ||geo.wpforms.com^
 ||cdn.track.olx.com.br^
@@ -61333,6 +61335,19 @@ inapps.appsflyersdk.com^
 ||tjuspyk.icu^
 ||zkrdzn.xyz^
 ||zmbmoxij.icu^
+||d1zoi2q7y0e4d.cloudfront.net^
+||xx3691b.com^
+||1028images.com^
+||537images1.com^
+||7299tu75.cc^
+||835images1.com^
+||ccccc67kkkkk.com^
+||migo011.top^
+||tupian6666.com^
+||uu22112.com^
+||uuuutp.com^
+||xn--w9q675dm1p7em.net^
+||xxxx68xxxx.com^
 ||0op8kh.cn^
 ||0oqt9i.cn^
 ||0q5joc.cn^
