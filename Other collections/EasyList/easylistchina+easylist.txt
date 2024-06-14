@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ugA48wyPvIyjH03+1tliGA
-! Version: 202406142100
+! Checksum: W617+1FbEdZ7b2D+9E4XJQ
+! Version: 202406142201
 ! Title: EasyList China+EasyList
-! Last modified: 14 Jun 2024 21:00 UTC
+! Last modified: 14 Jun 2024 22:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -90755,6 +90755,8 @@ chosun.com##.box--bg-grey-20:has(.dfpAd)
 radioreference.com##.box.gradient:has(a[href*="&Click="])
 slickdeals.net##.bp-p-filterGrid_item:has(.bp-c-label--promoted)
 homedepot.com##.browse-search__pod:has([id^="plp_pod_sponsored"])
+doordash.com##.carousel-virtual-wrapper:has([href*="collection_type=sponsored_brand"])
+doordash.com##.ccdtLs:has([data-testid="sponsored:Sponsored"])
 asda.com##.cms-modules:has([data-module*="Sponsored Products"])
 tvinsider.com#@#.cnx-player-wrapper
 asda.com##.co-item:has(.co-item__sponsored-label)
