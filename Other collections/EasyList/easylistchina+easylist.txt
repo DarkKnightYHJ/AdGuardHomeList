@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2P1lC/gGL0zz6bNmT68h0Q
-! Version: 202406190811
+! Checksum: 0/aJMS9SDYXOVi/z2jmVSA
+! Version: 202406190911
 ! Title: EasyList China+EasyList
-! Last modified: 19 Jun 2024 08:11 UTC
+! Last modified: 19 Jun 2024 09:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1732,6 +1732,7 @@ newduba.cn###jq_youxi
 ||ffdafx.xyz^
 ||idoshbo.top^
 ||szdxw.cn^
+||prtadf.xyz^
 ||lnlkmr.xyz^
 ##a[href*=".68hantang.com"]
 ##a[href*=".asd245796.com:"]
@@ -87320,11 +87321,9 @@ scalemates.com##.bwx.hrspb
 forbes.com.au##.bz-viewability-container
 insurancejournal.com##.bzn
 coingraph.us,hosty.uprwssp.org##.c
-globalnews.ca##.c-ad
-stuff.tv##.c-ad--leftpageskin
+globalnews.ca,stuff.tv##.c-ad
 stuff.tv##.c-ad--mpu-bottom
 stuff.tv##.c-ad--mpu-top
-stuff.tv##.c-ad--rightpageskin
 theglobeandmail.com##.c-ad-sticky
 globalnews.ca##.c-adChoices
 zdnet.com##.c-adDisplay_container_incontent-all-top
@@ -87337,7 +87336,6 @@ newstalkzb.co.nz##.c-background
 elnacional.cat##.c-banner
 truck1.eu##.c-banners
 euronews.com##.c-card-sponsor
-stuff.tv##.c-freestar-video-ad__container
 thehustle.co##.c-layout--trends
 download.cnet.com##.c-pageFrontDoor_adWrapper
 download.cnet.com##.c-pageProductDetail-sidebarAd
@@ -87352,6 +87350,7 @@ backpacker.com,betamtb.com,betternutrition.com,cleaneatingmag.com,climbing.com,g
 mangarockteam.com,nitroscans.com##.c-top-second-sidebar
 freecomiconline.me,lordmanga.com,mangahentai.me,manytoon.com,readfreecomics.com##.c-top-sidebar
 softarchive.is##.c-un-link
+stuff.tv##.c-video-ad__container
 canada411.ca##.c411TopBanner
 techonthenet.com##.c79ee2c9
 sussexexpress.co.uk##.cIffkq
@@ -91057,6 +91056,21 @@ homedepot.com##section[id^="browse-search-pods-"] > div.browse-search__pod:has(d
 titantv.com##tr:has(> td[align="center"][valign="middle"][colspan="2"][class="gC"])
 opensubtitles.org##tr[style]:has([src*="php"])
 oneindia.com##ul > li:has(> div[class^="adg_"])
+! curseforge/modrinth
+modrinth.com##.normal-page__content [href^="https://billing.ember.host/"] > img
+modrinth.com##.normal-page__content [href^="https://billing.kinetichosting.net/"] > img
+modrinth.com##.normal-page__content [href^="https://bisecthosting.com/"] > img
+modrinth.com##.normal-page__content [href^="https://meloncube.net/"] > img
+modrinth.com##.normal-page__content [href^="https://nodecraft.com/"] > img
+modrinth.com##.normal-page__content [href^="https://scalacube.com/"] > img
+modrinth.com##.normal-page__content [href^="https://shockbyte.com/partner/"] > img
+curseforge.com##.project-description [href^="/linkout?remoteUrl="][href*="billing.ember.host"] > img
+curseforge.com##.project-description [href^="/linkout?remoteUrl="][href*="billing.kinetichosting.net"] > img
+curseforge.com##.project-description [href^="/linkout?remoteUrl="][href*="bisecthosting.com"] > img
+curseforge.com##.project-description [href^="/linkout?remoteUrl="][href*="meloncube.net"] > img
+curseforge.com##.project-description [href^="/linkout?remoteUrl="][href*="nodecraft.com"] > img
+curseforge.com##.project-description [href^="/linkout?remoteUrl="][href*="scalacube.com"] > img
+curseforge.com##.project-description [href^="/linkout?remoteUrl="][href*="shockbyte.com"] > img
 ! taboola
 nme.com###taboola-below-article
 oneindia.com###taboola-mid-article-thumbnails
@@ -91152,15 +91166,18 @@ google.ac,google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,
 gunsandammo.com###VideoPlayerDivIframe
 usnews.com###ac-lre-player-ph
 wral.com###exco
+ispreview.co.uk###footer-slot-3
 ginx.tv###ginx-floatingvod-containerspacer
 gunsandammo.com###inline-player
 pubs.rsc.org###journal-info > .text--centered
 forums.whathifi.com###jwplayer-container-div
 mentalfloss.com###mm-player-placeholder-large-screen
+ispreview.co.uk###mobile-takeover-slot-8
 bossip.com,hiphopwired.com,madamenoire.com###player-wrapper
 bar-planb.com,hakibavuong.com###player_dev
 flightradar24.com###primisAdContainer
 realclearpolitics.com###realclear_jwplayer_container
+ispreview.co.uk###sidebar-slot-5
 uproxx.com###upx-mm-player-wrap
 newseveryday.com###vplayer_large
 telegraph.co.uk##.article-betting-unit-container
@@ -91168,6 +91185,7 @@ sciencetimes.com##.article-videoplayer
 people.com##.article__broad-video
 washingtonexaminer.com##.bridtv
 cnet.com,zdnet.com##.c-avStickyVideo
+stuff.tv##.c-squirrel-embed
 mb.com.ph##.code-block
 techwalla.com##.component-article-section-jwplayer-wrapper
 familystylefood.com##.email-highlight
@@ -91187,6 +91205,7 @@ gamesradar.com,livescience.com,tomshardware.com,whathifi.com##.jwplayer__widthse
 space.com##.jwplayer__wrapper
 southernliving.com##.karma-sticky-rail
 gearjunkie.com##.ldm_ad
+ispreview.co.uk##.midarticle-slot-10
 insideevs.com##.minutely_video_wrap
 bestrecipes.com.au,delicious.com.au,taste.com.au##.news-video
 picrew.me##.play-Imagemaker_Footer
