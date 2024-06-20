@@ -1,9 +1,9 @@
-! Checksum: KjAIH6d9vqI5Nisr8VaPww
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1718886991-3600.patch
+! Checksum: TJPx05vZ96BW98w4DxMwBw
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1718894067-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.67.0
-! TimeUpdated: 2024-06-20T12:34:29+00:00
+! Version: 2.0.67.1
+! TimeUpdated: 2024-06-20T14:32:48+00:00
 ! Expires: 5 days (update frequency)
 ||kms-full.com^
 ||kmspico.ws^
@@ -68217,6 +68217,7 @@ analytics-*.aasaam.com
 ||a4.overclockers.ua^
 ||novunu.football-plyus.net^
 ||api2.branch.io^$dnsrewrite=0.0.0.0
+@@||linka.page^|
 @@||track.webgains.com^|
 @@||secureimage.securedataimages.com^|
 @@||infra-api.newrelic.com^|
