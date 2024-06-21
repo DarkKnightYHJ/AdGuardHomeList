@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: DpN4YPuIO65FJwxEXboFuw
-! Version: 202406211301
+! Checksum: xrfRnUklbS9Og+LyKNgzzg
+! Version: 202406211402
 ! Title: ABP filters
-! Last modified: 21 Jun 2024 13:01 UTC
+! Last modified: 21 Jun 2024 14:02 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -587,8 +587,8 @@ etsy.com#$#hide-if-matches-xpath './/h2[@class][contains(text(),"By Etsy sellers
 etsy.com#$#hide-if-matches-xpath './/h3[contains(@id,"ad-listing")]/ancestor::li'
 etsy.com#$#hide-if-matches-xpath './/h3[contains(@id,"ad-listing")]/ancestor-or-self::div[@data-page-type="listing_page_similar_listings_grid"]'
 etsy.com##a[href*="listing_page_ad_row"]
-! #CV-1056
-www.linkedin.com#$#simulate-mouse-event 'xpath(//*[text()="Promoted" or text()="Sponsored" or text()="Dipromosikan" or text()="Propagováno" or text()="Promoveret" or text()="Anzeige" or text()="Promocionado" or text()="促銷內容" or text()="Post sponsorisé" or text()="프로모션" or text()="Post sponsorizzato" or text()="广告" or text()="プロモーション" or text()="Treść promowana" or text()="Patrocinado" or text()="Promovat" or text()="Продвигается" or text()="Marknadsfört" or text()="Nai-promote" or text()="ได้รับการโปรโมท" or text()="Öne çıkarılan içerik" or text()="الترويج"]/ancestor::div[@data-id]//video[@autoplay="autoplay"])$delay=10'
+! #CV-2993
+www.linkedin.com#$#simulate-mouse-event 'xpath(//*[text()="Promoted" or text()="Sponsored" or text()="Dipromosikan" or text()="Propagováno" or text()="Promoveret" or text()="Anzeige" or text()="Promocionado" or text()="促銷內容" or text()="Post sponsorisé" or text()="프로모션" or text()="Post sponsorizzato" or text()="广告" or text()="プロモーション" or text()="Treść promowana" or text()="Patrocinado" or text()="Promovat" or text()="Продвигается" or text()="Marknadsfört" or text()="Nai-promote" or text()="ได้รับการโปรโมท" or text()="Öne çıkarılan içerik" or text()="الترويج"]/ancestor::div[@data-id]//video[@autoplay="autoplay"])$continue,delay=10';
 ! #RM-102
 ! #CV-717
 yandex.com#$#hide-if-contains ad li.serp-item 'li.serp-item div.label'
