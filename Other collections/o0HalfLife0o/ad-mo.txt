@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Bp++2MPZal3nwsQzY6QAVg
+! Checksum: AsR/JCjA+nWeErOpc5npJA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202406220801
-! Last Modified: 2024年06月22日 08:01
+! Version: 202406221400
+! Last Modified: 2024年06月22日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -1539,7 +1539,6 @@ _StickyAd.
 _text_ads.
 _textads.
 _top_ad.
-_top_ad_
 _vertical_ad.
 _web-advert.
 _widget_ad.
@@ -68301,6 +68300,7 @@ domaingang.com##.domai-target
 thenationonlineng.net##.dorvekp-post-bottom
 gearlive.com##.double
 capitalfm.com,radiox.co.uk,smoothradio.com##.download
+zeroupload.com##.download-page > a[rel="noopener"] > img
 thepiratebay3.to##.download_buutoon
 drivespark.com##.dp-add-block
 thesun.co.uk##.dpa-slot
@@ -72169,6 +72169,7 @@ target.com#?#div[data-test="@web/site-top-of-funnel/ProductCardWrapper"]:-abp-co
 tossinggames.com#?#tbody:-abp-contains(Please visit our below advertisers)
 trends.gab.com#?#li.list-group-item:-abp-contains(Sponsored content)
 tripadvisor.com#?#.cAWGu:-abp-has(a:-abp-contains(Similar Sponsored Properties))
+tripadvisor.com#?#.tkvEM:-abp-contains(Sponsored)
 twitter.com#?#h2[role="heading"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสมพนธ|परचरत|বজঞপত|تشہیر شدہ|مروج|تبلیغی|מקודם/)
 vofomovies.info#?#a13:-abp-contains( Ad)
 walmart.ca,walmart.com#?#div > div[io-id]:-abp-contains(Sponsored)
@@ -75733,6 +75734,8 @@ newduba.cn###jq_youxi
 ||sdoshbb.top^
 ||ismuwcm.icu^
 ||yzihdppw.xyz^
+||doujs02.xyz^
+||honknl.xyz^
 ||dvgjx.cn^
 ||ytqeavc.icu^
 ||adzo.cn^
@@ -142283,6 +142286,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||sourcepointcmp.bloomberg.*/mms/get_site_data?$domain=bloomberg.co.jp|bloomberg.com
 @@||app.clarity.so^$~third-party
 @@||cbsi.map.fastly.net^
+@@||gva.et-gv.fr^$script,domain=culture.gouv.fr
 @@||mycleverpush.com/iframe?$domain=bsdex.de
 @@||n8s.jp^$script,domain=nikkei.com
 @@||online-metrix.net^$script,domain=eki-net.com
