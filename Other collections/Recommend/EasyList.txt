@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jcxdyT9Dcq1TRip/L8Z1Tw
-! Version: 202406221210
+! Checksum: jS0cnpqcYbCT4x0EJceHLA
+! Version: 202406221301
 ! Title: EasyList
-! Last modified: 22 Jun 2024 12:10 UTC
+! Last modified: 22 Jun 2024 13:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -150,7 +150,6 @@
 /ad-125.
 /ad-468-
 /ad-bottom.
-/ad-box-
 /ad-choices-
 /ad-choices.
 /ad-engine.js
@@ -172,7 +171,6 @@
 /ad/imp?
 /ad/load_ad?
 /ad/popup.
-/ad/skin-
 /ad300.jpg
 /ad300.js
 /ad300.png
@@ -291,14 +289,14 @@
 /ads/delivery.
 /ads/footer.
 /ads/ga-audiences?
-/ads/gam_prebid-
+/ads/gam_prebid-$script
 /ads/header.
 /ads/image/*$image
 /ads/images/*$image,domain=~eoffcn.com
 /ads/index-
 /ads/index.
 /ads/index/*$~xmlhttprequest,domain=~kuchechina.com
-/ads/leaderboard-
+/ads/leaderboard-$~xmlhttprequest
 /ads/leaderboard.
 /ads/native.js
 /ads/outbrain?
@@ -360,7 +358,6 @@
 /adsdelivery/*$subdocument
 /adserv.
 /adserve/*$script
-/adserver-
 /adserver.$~stylesheet,~xmlhttprequest
 /adserver1.
 /adserver2.
@@ -455,7 +452,7 @@
 /ajs.php?
 /ajs?zoneid=
 /ak-ads-ns.
-/amazon-ad-
+/amazon-ad-link-$stylesheet
 /amazon-associates-link-$~stylesheet
 /amp-ad-
 /amp-connatix-
@@ -492,11 +489,10 @@
 /banman/ad.aspx
 /banner-ad-
 /banner-ad.$~script
-/banner-ad/*
 /banner-ad_
-/banner-ads-
+/banner-ads-rotator/*$script,stylesheet
 /banner-ads/*
-/banner-affiliate-
+/banner-affiliate-$image
 /banner.asp?$third-party
 /banner.cgi?
 /banner.php$domain=~research.hchs.hc.edu.tw
@@ -609,7 +605,6 @@
 /flashads.$domain=~flashads.co.id
 /fleshlight.$domain=~fleshlight.com|~fleshlight.zendesk.com
 /fload.js
-/float-ads/*
 /float_ad.js
 /floatads.
 /floating-ad-
@@ -667,7 +662,7 @@
 /in/show/?mid=$third-party
 /include/ad/*$script
 /includes/ads/*$script
-/index-ad-
+/index-ad-$stylesheet
 /index-ad.jpg
 /index-ad.js
 /index-ad.png
@@ -731,7 +726,6 @@
 /mod_ijoomla_adagency_zone/*$~xmlhttprequest
 /mod_pagepeel_banner/*$image,script
 /module-ads-html-$script
-/module-ads/*
 /module/ads/*$~xmlhttprequest
 /modules/ad/*$~xmlhttprequest
 /modules/ads/*$~xmlhttprequest
@@ -792,7 +786,6 @@
 /pixel/purs?
 /pixel/purst?
 /pixel/sbe?
-/placeholder-ad-
 /player/ads/*$~xmlhttprequest
 /plg_adbutlerads/*$script,stylesheet
 /plugin/ad/*$script
@@ -816,7 +809,6 @@
 /plugins/wp-advertising/*
 /plugins/wp-moreads/*$~stylesheet
 /plugins/wp125/*$~stylesheet
-/poll-ad-
 /pop_8_2.js
 /pop_ads.js
 /popin-min.js
@@ -896,7 +888,7 @@
 /s.ashx?btag
 /SBA-WP-13.js
 /sbar.json?key=
-/sc-tagmanager/*
+/sc-tagmanager/*$script
 /script/aclib.js
 /script/antd.js
 /script/app_settings.js$third-party
@@ -945,7 +937,6 @@
 /site=*/size=*/viewid=
 /site=*/viewid=*/size=
 /size=*/random=*/viewid=
-/skin-ad_
 /skin/ad/*$image,script
 /skin/adv/*$~xmlhttprequest
 /skin_ad-
@@ -969,7 +960,6 @@
 /sponsor-links.html
 /sponsorad.jpg
 /sponsorad.png
-/sponsored-links-
 /sponsored-links.
 /sponsored-links/*
 /sponsored-widget
@@ -1051,8 +1041,8 @@
 /wordpress-ads-plug-in/*
 /wp-ad.min.
 /wp-auto-affiliate-links/*
-/wp-bannerize-
-/wp-bannerize.
+/wp-bannerize-$script,stylesheet
+/wp-bannerize.$script,stylesheet
 /wp-bannerize/*
 /wp-content/ads/*
 /wp-content/mbp-banner/*
@@ -1070,8 +1060,8 @@
 /wp-content/plugins/the-moneytizer/*
 /wp-content/plugins/thirstyaffiliates/*
 /wp-content/plugins/useful-banner-manager/*
-/wp-content/plugins/wp-ad-guru/*
-/wp-content/plugins/wp-super-popup-pro/*
+/wp-content/plugins/wp-ad-guru/*$script,stylesheet
+/wp-content/plugins/wp-super-popup-pro/*$script,stylesheet
 /wp-content/plugins/wp-super-popup/*$~stylesheet
 /wp-content/uploads/useful_banner_manager_banners/*
 /wp-popup-scheduler/*$script,stylesheet
@@ -1323,7 +1313,6 @@ _widget_ad.
 /adn-hb/*
 /AudienceNetworkPrebid.
 /gpt-prebid.js
-/pbjsandwich-
 /pbjsandwich.
 /plugins/prebidjs/*$script
 /porpoiseant/*$script
@@ -1356,7 +1345,6 @@ _prebid.js
 _prebid8.
 ! Invideo adverts
 /stn-player.
-/stn-player/*
 !
 &sadbl=1&chu=
 ?zoneid=*&ab=1
@@ -1378,7 +1366,7 @@ _prebid8.
 -detect-adblock.
 /abtest_ab.js
 /ad-blocking-advisor/*
-/ad-blocking-alert/*
+/ad-blocking-alert/*$stylesheet
 /adb_detector.
 /adblock-alerter/*
 /adblock-blocker/*
@@ -1405,9 +1393,8 @@ _prebid8.
 /BlockerBanner/*$xmlhttprequest
 /Disable%2BAdblock.
 /disabled_adBlock.
-/jgc-adblocker-
-/jgcabd-detect-
-/no-adblock/*
+/jgcabd-detect-$script
+/no-adblock/*$script,stylesheet
 /wp-content/plugins/anti_ad_blocker/*
 _atblockdetector/
 ! *** easylist:easylist/easylist_general_block_dimensions.txt ***
