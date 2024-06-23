@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mWYVTeRuN5dyuueGBIVCXQ
-! Version: 202406231601
+! Checksum: aFr8FLZKiiD1fv6ycFVU0A
+! Version: 202406231701
 ! Title: EasyList China+EasyList
-! Last modified: 23 Jun 2024 16:01 UTC
+! Last modified: 23 Jun 2024 17:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -19938,7 +19938,6 @@ fqsousou.com,kengso.com#@#.user-share
 /ads/leaderboard.
 /ads/native.js
 /ads/outbrain?
-/ads/player-
 /ads/popout.
 /ads/popup.
 /ads/preroll-
@@ -19951,7 +19950,7 @@ fqsousou.com,kengso.com#@#.user-share
 /Ads/sponsor.$stylesheet
 /ads/square-$image,domain=~spoolimports.com
 /ads/square.
-/ads/ta_wppas/*
+/ads/ta_wppas/*$third-party
 /ads/targeted|
 /ads/top-
 /ads/top.
@@ -19986,7 +19985,7 @@ fqsousou.com,kengso.com#@#.user-share
 /ads_image/*$image
 /ads_images/*$image,domain=~wildlifeauctions.co.za
 /adsAPI.js
-/adsbanner-
+/adsbanner-$image
 /adsbanner.
 /adsbanner/*$image
 /adsbox.$~script,domain=~adsbox.com.sg
@@ -20026,13 +20025,13 @@ fqsousou.com,kengso.com#@#.user-share
 /adtext.
 /adTools.
 /adtrack.$domain=~adtrack.ca|~adtrack.yacast.fr
-/adunit/track-view
+/adunit/track-view|
 /adunits.
 /adunits/bcid?
 /adUnitsBreakpoints.
 /adUnitsData.
 /adutil.
-/adv-banner-
+/adv-banner-$image
 /adv-mobile.
 /adv-scroll-sidebar.js
 /adv-scroll.
@@ -20167,7 +20166,6 @@ fqsousou.com,kengso.com#@#.user-share
 /callAdserver?
 /cgi-bin/ad/*
 /cgi-bin/ads.cgi
-/cgi-bin/ads/*
 /click/zone?
 /click?adv=
 /cms_ads.js
@@ -20217,7 +20215,6 @@ fqsousou.com,kengso.com#@#.user-share
 /easyazon-
 /ec5bcb7487ff.js
 /embed_ad.php
-/ero-ads_
 /ero.htm
 /erobanner.js
 /exitpop.js
@@ -20249,7 +20246,6 @@ fqsousou.com,kengso.com#@#.user-share
 /floatingad.js
 /floatingads.js
 /flyad.js
-/footer-ad-
 /footer-ad.$~script
 /footer_ad.js
 /footer_ad.php
@@ -20403,7 +20399,6 @@ fqsousou.com,kengso.com#@#.user-share
 /pageear/*$script
 /pagepeel.
 /pagepeelpro.js
-/partner-ad-
 /partnerad.
 /partnerads/js/setcookie.js
 /partneradwidget.
@@ -20444,7 +20439,6 @@ fqsousou.com,kengso.com#@#.user-share
 /plugins/page-cornr-
 /plugins/popunderpro/*$script
 /plugins/ultimate-popunder/*$~stylesheet
-/plugins/wp-advertising/*
 /plugins/wp-moreads/*$~stylesheet
 /plugins/wp125/*$~stylesheet
 /pop_8_2.js
@@ -20674,14 +20668,14 @@ fqsousou.com,kengso.com#@#.user-share
 /welcome_ad.js
 /widget-advert?
 /widget/ads.
-/wordpress-ads-plug-in/*
+/wordpress-ads-plug-in/*$script,stylesheet
 /wp-ad.min.
 /wp-auto-affiliate-links/*
 /wp-bannerize-$script,stylesheet
 /wp-bannerize.$script,stylesheet
 /wp-bannerize/*
 /wp-content/ads/*$~xmlhttprequest
-/wp-content/mbp-banner/*
+/wp-content/mbp-banner/*$image
 /wp-content/plugins/amazon-auto-links/*$script,stylesheet
 /wp-content/plugins/amazon-product-in-a-post-plugin/*
 /wp-content/plugins/automatic-social-locker/*
@@ -20691,7 +20685,7 @@ fqsousou.com,kengso.com#@#.user-share
 /wp-content/plugins/bookingcom-text2links/*
 /wp-content/plugins/fasterim-optin/*
 /wp-content/plugins/m-wp-popup/*$~stylesheet
-/wp-content/plugins/platinumpopup/*
+/wp-content/plugins/platinumpopup/*$script,stylesheet
 /wp-content/plugins/popad/*
 /wp-content/plugins/the-moneytizer/*
 /wp-content/plugins/thirstyaffiliates/*
@@ -20992,7 +20986,6 @@ _prebid8.
 /affiliate/referral.asp?site=*&aff_id=
 /bdv_rd2.dbm?enparms
 /jscheck.php?enc=$xmlhttprequest
-/match-*/mf_*/feed
 ! White papers insert
 /sl/assetlisting/?
 ! Peel script
@@ -21001,16 +20994,14 @@ _prebid8.
 -adblocker-detection/
 -detect-adblock.
 /abtest_ab.js
-/ad-blocking-advisor/*
+/ad-blocking-advisor/*$script,stylesheet
 /ad-blocking-alert/*$stylesheet
 /adb_detector.
 /adblock-alerter/*
-/adblock-blocker/*
 /adblock-detect.
 /adblock-detector.
 /adblock-message.
 /adblock-notify-by-bweb/*
-/adblock-relief/*
 /adblock.gif?
 /adblock_detect.
 /adblock_detector.
