@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Qjdngvm+7qdjMuHiw3YhQg
+! Checksum: SMKzfUPL7MUPqyJwk2UnAQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202406250200
-! Last Modified: 2024年06月25日 02:00
+! Version: 202406250801
+! Last Modified: 2024年06月25日 08:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -15868,6 +15868,7 @@ _800x80_
 ##.RC-AD-BOX-TOP
 ##.RC-AD-TOP-BANNER
 ##.js_related-stories-inset
+##ins.adsbygoogle[data-ad-client]
 ##ins.adsbygoogle[data-ad-slot]
 ###mgb-container > #mgb
 ###kt_player > a[target="_blank"]
@@ -56418,6 +56419,7 @@ browsershots.org#@#.advert_area
 ||capacitygrid.com^$third-party
 ||caroda.io^$third-party
 ||casino-zilla.com^$third-party
+||cazamba.com^$third-party
 ||cb-content.com^$third-party
 ||cdnreference.com^$third-party
 ||charltonmedia.com^$third-party
@@ -64887,6 +64889,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||twitter.com/*/videoads/
 ||twt-assets.washtimes.com^$script,domain=washingtontimes.com
 ||ubuntugeek.com/images/ubuntu1.png
+||uefa.com/imgml/uefacom/sponsors/
 ||uhdmovies.eu/axwinpop.js
 ||uhdmovies.foo/onewinpop.js
 ||ukcampsite.co.uk/banners/
@@ -69112,6 +69115,7 @@ apnews.com,arabiaweather.com,atlasobscura.com,forum.audiogon.com,gamesindustry.b
 huffingtonpost.co.uk,huffpost.com##.leaderboard-flex-placeholder
 huffingtonpost.co.uk,huffpost.com##.leaderboard-flex-placeholder-desktop
 bluesnews.com##.leaderboard-gutter
+jobrapido.com##.leaderboard-header-wrapper
 manitobacooperator.ca##.leaderboard-height
 medpagetoday.com##.leaderboard-region
 businessinsider.in##.leaderboard-scrollable-btf-cont
@@ -71355,6 +71359,7 @@ wayfair.com##div[data-enzyme-id="WssBannerContainer"]
 thestudentroom.co.uk##div[data-freestar-ad]
 my.clevelandclinic.org##div[data-identity*="board-ad"]
 yandex.com##div[data-name="adWrapper"]
+uefa.com##div[data-name="sponsors-slot"]
 opentable.ae,opentable.ca,opentable.co.th,opentable.co.uk,opentable.com,opentable.com.au,opentable.com.mx,opentable.de,opentable.es,opentable.hk,opentable.ie,opentable.it,opentable.jp,opentable.nl,opentable.sg##div[data-promoted="true"]
 scmp.com##div[data-qa="AdSlot-Container"]
 scmp.com##div[data-qa="AppBar-AdSlotContainer"]
@@ -75853,6 +75858,12 @@ newduba.cn###jq_youxi
 ||baijs02.xyz^
 ||baijs03.xyz^
 ||google-js-01.xyz^
+||afopr.cn^
+||qdoshby.top^
+||eyislow.top^
+||miwfkm.xyz^
+||dnpalh.xyz^
+||cresqoirz.com^
 ||8878tp.com^
 ||ccccc66kkkkk.com^
 ||ccccc78kkkkk.com^
