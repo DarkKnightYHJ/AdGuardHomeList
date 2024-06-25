@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: MMsna+t6YEaqiSQu0l8THg
-! Version: 202406250901
+! Checksum: U/ClP5dX9w7ySzgs3ru2MA
+! Version: 202406251001
 ! Title: EasyList China+EasyList
-! Last modified: 25 Jun 2024 09:01 UTC
+! Last modified: 25 Jun 2024 10:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -19975,7 +19975,6 @@ fqsousou.com,kengso.com#@#.user-share
 /ads/square.
 /ads/ta_wppas/*$third-party
 /ads/targeted|
-/ads/top-
 /ads/top.
 /ads/video/controller.php
 /ads/view.php
@@ -20184,7 +20183,7 @@ fqsousou.com,kengso.com#@#.user-share
 /btag.min.js$third-party
 /buysellads.js
 /callAdserver?
-/cgi-bin/ad/*
+/cgi-bin/ad/*$~xmlhttprequest
 /cgi-bin/ads.cgi
 /click/zone?
 /click?adv=
@@ -20453,6 +20452,7 @@ fqsousou.com,kengso.com#@#.user-share
 /plugins/meks-easy-ads-widget/*$stylesheet
 /plugins/mts-wp-in-post-ads/*$script,stylesheet
 /plugins/popunderpro/*$script
+/plugins/thirstyaffiliates/*$script,stylesheet
 /plugins/ultimate-popunder/*$~stylesheet
 /plugins/wp-moreads/*$~stylesheet
 /plugins/wp125/*$~stylesheet
@@ -20699,7 +20699,6 @@ fqsousou.com,kengso.com#@#.user-share
 /wp-content/plugins/platinumpopup/*$script,stylesheet
 /wp-content/plugins/popad/*$script,stylesheet
 /wp-content/plugins/the-moneytizer/*$script
-/wp-content/plugins/thirstyaffiliates/*
 /wp-content/plugins/useful-banner-manager/*
 /wp-content/plugins/wp-ad-guru/*$script,stylesheet
 /wp-content/plugins/wp-super-popup-pro/*$script,stylesheet
@@ -84205,6 +84204,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||techporn.ph/wp-content/uploads/Ad-
 ||techsparx.com/imgz/udemy/
 ||tempr.email/public/responsive/gfx/awrapper/
+||tennis.com/assets/js/libraries/render-adv.js
 ||terabox.app/api/ad/
 ||terabox.com/api/ad/
 ||thanks.viewfr.com/webroot/ads/adsterra/
@@ -88888,6 +88888,7 @@ afkgaming.com##.o-yqC
 comicbook.com##.oas
 sentres.com##.oax_ad_leaderboard
 comiko.net##.ob-widget-items-container
+tennis.com##.oc-c-article__adv
 officedepot.com##.od-search-piq-banner-ads__lower-leaderboard
 worldsoccertalk.com##.odds-slider-widget
 flashscore.co.za##.oddsPlacement
