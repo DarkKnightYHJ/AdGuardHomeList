@@ -1,10 +1,14 @@
-! Checksum: 662U5yeGsm9YV1wgoJHuiw
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1719340510-3600.patch
+! Checksum: tKIjzOnm6/f0Coss3X36tg
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1719362066-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.67.22
-! TimeUpdated: 2024-06-25T18:33:26+00:00
+! Version: 2.0.67.23
+! TimeUpdated: 2024-06-26T00:32:45+00:00
 ! Expires: 5 days (update frequency)
+||shuanshu.com.com^
+||kuurza.com^
+||dxtv1.com^
+||googie-anaiytics.com^
 ||maplecurriculum.com^
 ||hdxpqgvqm.com^
 ||grucmost.xyz^
@@ -47495,6 +47499,7 @@ vkcdnservice.appspot.com^
 ||d1udjti6mtxz9q.cloudfront.net^
 ||tagman.britishairways.com^
 |piwik.
+||matomo.promobil.de^
 ||api.ad-platform.jmty.jp^
 ||events.tryamped.com^
 ||track.sendlane.com^
@@ -61743,6 +61748,11 @@ inapps.appsflyersdk.com^
 ||google-js-01.xyz^
 ||google-js-02.xyz^
 ||ryhuzj.xyz^
+||yhutou.xyz^
+||aiknx.cn^
+||fvyqblc.icu^
+||tdoshbi.top^
+||lxryhx.xyz^
 ||afopr.cn^
 ||qdoshby.top^
 ||eyislow.top^
