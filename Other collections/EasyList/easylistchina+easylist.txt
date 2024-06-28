@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: s7ddwLQcPi6ezyqT1pmgTQ
-! Version: 202406272301
+! Checksum: 74JonJtS7KRtCdIsAZmBXg
+! Version: 202406280051
 ! Title: EasyList China+EasyList
-! Last modified: 27 Jun 2024 23:01 UTC
+! Last modified: 28 Jun 2024 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -23,6 +23,7 @@
 -*-*-*-*.as^$script,third-party
 -*-*-*-*.panda^$script,third-party
 /smflow/get.*=gAdCallback_
+wss://*.xyz:*?x=$third-party
 -1316632262.cos.
 -1316899192.cos.
 -1688-wp-media/ads/
@@ -11523,6 +11524,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||jinman4.com/ad/
 !------------------------Specific element hiding rules------------------------!
 moe-acg.com##A[href*=".x8o.de"]
+dailygh.com###video_fade
 moe-acg.com##div[style="position: relative;width: 100%;height: 0;padding-bottom: 18%;"]
 szxx.com.cn###A0
 ijiandao.com,ijiandao.cn##.index-ad
@@ -88313,6 +88315,7 @@ collegedunia.com##.headerslot
 darkreader.org##.heading
 phonearena.com##.heading-deal
 autoplius.lt##.headtop
+onlinevideoconverter.pro##.helper-widget
 lincolnshireworld.com,nationalworld.com##.helper__AdContainer-sc-12ggaoi-0
 farminglife.com,newcastleworld.com##.helper__DesktopAdContainer-sc-12ggaoi-1
 igorslab.de##.herald-sidebar
