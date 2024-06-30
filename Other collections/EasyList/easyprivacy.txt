@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: tcQ269Do8wO0Zs9/alOILQ
-! Version: 202406292301
+! Checksum: CJi8tKjkwzNYiYAsk1qWxQ
+! Version: 202406300051
 ! Title: EasyPrivacy
-! Last modified: 29 Jun 2024 23:01 UTC
+! Last modified: 30 Jun 2024 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -48051,6 +48051,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||libero.it/cgi-bin/ajaxtrace?
 ||libero.it/cgi-bin/cdcounter.cgi?
 ||libero.it/cgi-bin/cdcountersp.cgi?
+||libero.it/cgi-bin/twit?
 ||libero.it/search/abin/ajaxtrace?
 ||libero.it^*/counter.php?
 ||lupoporno.com/js/analytics
@@ -49217,6 +49218,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||radio24.ilsole24ore.com/plugins/cordova-plugin-nielsen/www/nielsen.js$script,~third-party
 @@||repubblica.it/pw/pw.js?deskurl=$domain=gelocal.it|ilsecoloxix.it|lastampa.it
 @@||speedcurve.com/js/lux.js$script,domain=tv8.it
+@@||sport.virgilio.it/js/web-vitals-evnt.25/web-vitals.attribution.js$script,domain=sport.virgilio.it
+@@||tecnologia.libero.it/js/dist.1/web-vitals.attribution.js$script,domain=tecnologia.libero.it
 @@||thron.com/shared/plugins/tracking/current/tracking-library-min.js$domain=dainese.com
 @@||timvision.it/libs/fingerprint/fingerprint.js
 @@||track.adform.net/serving/scripts/trackpoint$script,domain=sky.it
