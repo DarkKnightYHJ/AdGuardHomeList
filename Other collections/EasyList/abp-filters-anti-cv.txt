@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 6oJ4wUZjMzvWiWtuGhXNdg
-! Version: 202407021211
+! Checksum: 77TfLnGeBDVSQwJaS21dLA
+! Version: 202407021310
 ! Title: ABP filters
-! Last modified: 02 Jul 2024 12:11 UTC
+! Last modified: 02 Jul 2024 13:10 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1336,6 +1336,7 @@ allegro.*#$#hide-if-matches-xpath './/h2[text()][@data-role="replaceable-title"]
 allegro.*#$#hide-if-matches-xpath './/div[contains(@data-analytics-view-label,"sponsored")]/parent::div/ancestor::div[contains(@data-analytics-groups,"ads")]'
 ! HB
 allegro.*#$#hide-if-matches-xpath './/span[.="Sponsorowane" or .="Sponzorováno"]/ancestor::div[@data-box-id][contains(@data-analytics-tags,"advertising")]';
+allegro.pl#$#hide-if-matches-xpath './/div[contains(@data-analytics-groups,"reklam") or contains(@data-analytics-groups,"kampanijna")]/ancestor::div[@data-box-name="structure-container"]';
 ! PL
 allegro.*#$#race start; hide-if-matches-xpath './/span[.="Sponsorowane" or .= "Sponsored" or .="Рекламні" or .="Sponzorované"]//ancestor::article'; hide-if-contains-visible-text /Sponsorowane|Sponsored|Рекламні|Sponzorované/ 'article' 'div[id]' 'content'; race stop;
 ! #CV-705
