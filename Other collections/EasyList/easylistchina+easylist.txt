@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5iKneky7khhPuEoJA5KH9g
-! Version: 202407021001
+! Checksum: QurcuCJQuXyZtFcDBJFMeQ
+! Version: 202407021101
 ! Title: EasyList China+EasyList
-! Last modified: 02 Jul 2024 10:01 UTC
+! Last modified: 02 Jul 2024 11:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -11564,6 +11564,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+2345.com###xxl_game-new
+hao123.com##.cmsad_wrapper
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
@@ -16380,7 +16382,7 @@ cartoon18.com#?#.row:-abp-has(.badge:-abp-contains(ad))
 chbeyond.cn#?#a:-abp-has(> .xcybk-adfg)
 copyfuture.com#?#.tabbable > div:-abp-contains(宝红)
 msn.cn##cs-native-ad-card
-czys.top#?#.swiper-slide:-abp-has(.coveimg[src*=".gif"])
+czzy77.com#?#.swiper-slide:-abp-has(a[href^="http"]:not([href*="czzy"]))
 6parknews.com#?##d_list > ul > li:-abp-has(a[href^="http"]:not([href*="6parknews"]))
 steamcn.com##div > a[href*=".taobao.com"]
 bitauto.com##div > ins[data-type="ad_play"]
@@ -33562,6 +33564,7 @@ _800x80_
 ##.showads
 ##.showcaseAd
 ##.showcasead
+##.shr-ads-container
 ##.sidbaread
 ##.side-ad
 ##.side-ad-300
@@ -75640,6 +75643,7 @@ browsershots.org#@#.advert_area
 ||bc98ad.xyz^$document,popup
 ||bcbe.site^$document,popup
 ||bd5a57.xyz^$document,popup
+||c31133f7.xyz^$document,popup
 ||ca3d.site^$document,popup
 ||ca9246.xyz^$document,popup
 ||caa2c4.xyz^$document,popup
@@ -75648,6 +75652,7 @@ browsershots.org#@#.advert_area
 ||cfb98a.xyz^$document,popup
 ||content-loader.com^$document,popup
 ||css-load.com^$document,popup
+||d23d450d.xyz^$document,popup
 ||d477275c.xyz^$document,popup
 ||d84bc26d.site^$document,popup
 ||d8b0a5.xyz^$document,popup
