@@ -1,9 +1,9 @@
-! Checksum: Xgv0Kg+VFsRB8aXM0mBIPw
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1719902076-3600.patch
+! Checksum: x36Na224P1HZlRWeLJPwPQ
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1719920276-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.67.47
-! TimeUpdated: 2024-07-02T06:32:52+00:00
+! Version: 2.0.67.48
+! TimeUpdated: 2024-07-02T11:35:51+00:00
 ! Expires: 5 days (update frequency)
 ||ochoawhou.com^
 ||jazzyzest.cfd^
@@ -1289,6 +1289,7 @@
 ||revrtb.com^
 ||newbluetrue.xyz^
 ||onemediawork.com^
+||ad.twinrdengine.com^
 ||d2lg0swrp15nsj.cloudfront.net^
 ||dpeqm8xv96fuc.cloudfront.net^
 ||d127s3e8wcl3q6.cloudfront.net^
@@ -40524,12 +40525,14 @@ vkcdnservice.appspot.com^
 ||bc98ad.xyz^
 ||bcbe.site^
 ||bd5a57.xyz^
+||c31133f7.xyz^
 ||ca3d.site^
 ||ca9246.xyz^
 ||caa2c4.xyz^
 ||cd57296e.xyz^
 ||ce357c.xyz^
 ||cfb98a.xyz^
+||d23d450d.xyz^
 ||d477275c.xyz^
 ||d84bc26d.site^
 ||d8b0a5.xyz^
@@ -67487,6 +67490,7 @@ analytics-*.aasaam.com
 ||a4.overclockers.ua^
 ||novunu.football-plyus.net^
 ||api2.branch.io^$dnsrewrite=0.0.0.0
+@@||sax.sina.com.cn^|
 @@||linka.page^|
 @@||track.webgains.com^|
 @@||secureimage.securedataimages.com^|
