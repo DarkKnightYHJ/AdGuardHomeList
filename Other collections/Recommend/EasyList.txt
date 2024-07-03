@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: MqU7XP76fkwhfzBBTUD2XA
-! Version: 202407030050
+! Checksum: LmZXbHqtPStGRtAwc2NHyA
+! Version: 202407030221
 ! Title: EasyList
-! Last modified: 03 Jul 2024 00:50 UTC
+! Last modified: 03 Jul 2024 02:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -55567,7 +55567,7 @@ browsershots.org#@#.advert_area
 ||realssp.co.kr^$third-party
 ||rediads.com^$third-party
 ||redintelligence.net^$third-party
-||redventures.io^$script,third-party,xmlhttprequest
+||redventures.io^$script,subdocument,third-party,xmlhttprequest
 ||republer.com^$third-party
 ||revenueflex.com^$third-party
 ||revive-adserver.net^$third-party
@@ -69715,6 +69715,7 @@ filecrypt.cc,filecrypt.co##[onclick^="var lj"]
 transfermarkt.co.uk##[referrerpolicy]
 appleinsider.com,dappradar.com,euroweeklynews.com,sitepoint.com,tld-list.com##[rel*="sponsored"]
 warecracks.com,websiteoutlook.com##[rel="nofollow"]
+metro.co.uk##[rel="sponsored"]
 myanimelist.net##[src*="/c/img/images/event/"]
 audioz.download##[src*="/promo/"]
 transfermarkt.com##[src*="https://www.transfermarkt.com/image/"]
