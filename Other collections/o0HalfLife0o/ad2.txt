@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YkkQY4qrrg0ARKuFVwTltw
+! Checksum: ZRHxkHBRuQujENYDFO62Tg
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202407031400
-! Last Modified: 2024年07月03日 14:00
+! Version: 202407032000
+! Last Modified: 2024年07月03日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1851,6 +1851,10 @@ newduba.cn###jq_youxi
 ||jbkqemk.icu^
 ||jdipsuma.top^
 ||fzllis.cn^
+||feofamdak.top^
+||askdlajfbv.top^
+||dajiahao17.top^
+||afqodjc.top^
 ##a[href*=".68hantang.com"]
 ##a[href*=".asd245796.com:"]
 ##a[href*=".asd252466.com:"]
@@ -19124,7 +19128,7 @@ bejson.com##div[id^="shua"] + font[color="red"]
 bejson.com##div[id^="shuangshi"]
 bejson.com##img[src^="data"]
 !#bde4.cc
-52bdys.com###ayx
+52bdys.com###ayx > img
 @@||jsdelivr.net/gh/bde4admin/*/prebid-ads.js$domain=52bdys.com
 52bdys.com##center[style*="background"]
 52bdys.com##div[style^="position: fixed;bottom:"]

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yYAZOVBA1X/N98/hQ1K/Lw
+! Checksum: VNzFfW22VHIz4N8BC2+auw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202407031400
-! Last Modified: 2024年07月03日 14:00
+! Version: 202407032000
+! Last Modified: 2024年07月03日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1851,6 +1851,10 @@ newduba.cn###jq_youxi
 ||jbkqemk.icu^
 ||jdipsuma.top^
 ||fzllis.cn^
+||feofamdak.top^
+||askdlajfbv.top^
+||dajiahao17.top^
+||afqodjc.top^
 ##a[href*=".68hantang.com"]
 ##a[href*=".asd245796.com:"]
 ##a[href*=".asd252466.com:"]
@@ -19124,7 +19128,7 @@ bejson.com##div[id^="shua"] + font[color="red"]
 bejson.com##div[id^="shuangshi"]
 bejson.com##img[src^="data"]
 !#bde4.cc
-52bdys.com###ayx
+52bdys.com###ayx > img
 @@||jsdelivr.net/gh/bde4admin/*/prebid-ads.js$domain=52bdys.com
 52bdys.com##center[style*="background"]
 52bdys.com##div[style^="position: fixed;bottom:"]
@@ -72085,6 +72089,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||api.ipinfodb.com^$xmlhttprequest,domain=management30.com
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||api.touchnote.io^$xmlhttprequest,domain=app.touchnote.com
+@@||api.vk.com/method/statEvents.$~third-party
 @@||assets.msn.com/staticsb/statics/latest/adboxes/$script,~third-party
 @@||att.com/scripts/adobe/prod/$script,~third-party
 @@||att.com/scripts/adobe/virtual/detm-container-hdr.js$~third-party
