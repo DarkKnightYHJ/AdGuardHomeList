@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: NdEgiMN1JTS0hvdQI61C+A
-! Version: 202407041401
+! Checksum: HDtMczN+w/Uxgz35N9mnBA
+! Version: 202407041501
 ! Title: ABP filters
-! Last modified: 04 Jul 2024 14:01 UTC
+! Last modified: 04 Jul 2024 15:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1544,7 +1544,7 @@ zab.ru#$#abort-on-property-read document.body.style
 volley.ru#$#override-property-read Object.prototype.preroll null
 players.com.ua#$#abort-on-property-read localStorage
 inforesist.org#$#abort-on-property-read alert
-dzen.ru#$#hide-if-has-and-matches-style 'div[style]:not(id):not(class)' 'div[style] ^^sh^^ div'
+dzen.ru#$#hide-if-shadow-contains 'iframe'; hide-if-shadow-contains 'style'
 ! Prevent auto reload
 24boxing.com.ua,bilshe.com,businessua.com,f1analytic.com,f1ua.org.ua,football-ukraine.com,footballgazeta.com,footballtransfer.com.ua,glianec.com,nashamama.com,sportanalytic.com,stravy.net,zdorovia.com.ua#$#abort-current-inline-script setInterval reload
 ! Popup/popunder/clickunder
