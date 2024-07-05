@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fGZnpbOBwQb37GT4S9RELA
-! Version: 202407050811
+! Checksum: 6GS+K2BgMTBxwNJCzNt+PA
+! Version: 202407050910
 ! Title: EasyList China+EasyList
-! Last modified: 05 Jul 2024 08:11 UTC
+! Last modified: 05 Jul 2024 09:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1746,6 +1746,7 @@ newduba.cn###jq_youxi
 ||urtlist.top^
 ||ortlisk.top^
 ||dmnxkj.cn^
+||gw2cddpt2hao.cloud^
 ||0uyt5b.cn^
 ||0v1syj.cn^
 ||1028images.com^
@@ -11603,6 +11604,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+baidu.com##.result-op[tpl="vmp_strengthen_brand"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
@@ -89361,6 +89363,7 @@ helpnetsecurity.com##[data-origin][style]
 greenbaycrimereports.com##[data-original-width="820"]
 jeffdornik.com##[data-pin-url]
 extremetech.com##[data-pogo="sidebar"]
+gumtree.com##[data-q="section-middle"] > div[style^="display:grid;margin"]
 washingtonpost.com##[data-qa="article-body-ad"]
 washingtonpost.com##[data-qa="right-rail-ad"]
 ginx.tv##[data-ref]
@@ -90029,7 +90032,6 @@ datacenterdynamics.com,fansshare.com,hairboutique.com,iconarchive.com,imagetwist
 clover.fm##div[style*="width:975px; height:90px;"]
 filesharingtalk.com##div[style="background-color: white; border-width: 2px; border-style: dashed; border-color: white;"]
 askdifference.com##div[style="color: #aaa"]
-gumtree.com##div[style="display:grid;margin-left:6px;margin-right:6px"]
 aceshowbiz.com##div[style="display:inline-block;min-height:300px"]
 kimcartoon.li##div[style="font-size: 0; position: relative; text-align: center; margin: 10px auto; width: 300px; height: 250px; overflow: hidden;"]
 pixiv.net##div[style="font-size: 0px;"] a[target="premium_noads"]
