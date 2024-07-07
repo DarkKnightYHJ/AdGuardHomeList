@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KxWbIrUd/GQDdUamB1lj6w
+! Checksum: RpTHI9luFR3fp4wYKw88jg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202407072000
-! Last Modified: 2024年07月07日 20:00
+! Version: 202407080200
+! Last Modified: 2024年07月08日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -860,7 +860,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /concert_ads-$script
 /content-ads.js
 /content/ads/*$~xmlhttprequest
-/core-ads.js
 /couponAd.php
 /cpmbanners.js
 /css/ads-$stylesheet
@@ -11454,7 +11453,6 @@ _800x80_
 ##.catalog_ads
 ##.category-ad:not(html):not(body):not(.post)
 ##.category-ads:not(html):not(body):not(.post)
-##.category-advertorial
 ##.categoryMosaic-advertising
 ##.categoryMosaic-advertisingText
 ##.cazAd
@@ -15979,6 +15977,7 @@ _800x80_
 ##.taboolaHeight
 ##.taboola__container
 ##.taboola_blk
+##.taboola_body_ad
 ##.taboola_container
 ##.taboola_lhs
 ##.trb_taboola
@@ -56249,6 +56248,7 @@ browsershots.org#@#.advert_area
 ||a49ebd.xyz^$document,popup
 ||a67d12.xyz^$document,popup
 ||a8b68645.xyz^$document,popup
+||acf705ad.xyz^$document,popup
 ||b0eb63.xyz^$document,popup
 ||b211.xyz^$document,popup
 ||b2bf222e.xyz^$document,popup
@@ -61715,6 +61715,7 @@ browsershots.org#@#.advert_area
 ||torrindex.net/static/tinysort.min.js
 ||totalmedia2.ynet.co.il/new_gpt/
 ||townnews.com/tucson.com/content/tncms/live/libraries/flex/components/ads_dfp/
+||tra.scds.pmdstatic.net/advertising-core/
 ||track.10bet.com^
 ||track.effiliation.com^$image,script
 ||traffer.biz/img/banners/
@@ -64960,6 +64961,7 @@ djchuang.com###amazon3
 wtechnews.com###aniBox
 ancient-origins.net###ao-article-outbrain
 ancient-origins.net###ao-sidebar-outbrain
+filmibeat.com###are-slot-rightrail
 mybanktracker.com###article-content > .lazyloaded
 thesun.co.uk###article-footer div[id*="-ads-"]
 timesofmalta.com###article-sponsored
@@ -65660,7 +65662,7 @@ hometheaterreview.com###section-20297-191992
 hometheaterreview.com###section-246-102074
 neoseeker.com###section-pagetop
 searchenginejournal.com###sej-pop-wrapper_v2
-analyticsinsight.net###sgpb-popup-dialog-main-div-wrapper
+analyticsinsight.net,moviedokan.lol,shortorial.com###sgpb-popup-dialog-main-div-wrapper
 v3rmillion.net###sharingPlace
 fedex.com###shop-runner-banner-link
 search.brave.com###shopping
@@ -65906,7 +65908,7 @@ my.juno.com###usWorldTile
 sammobile.com###venatus-hybrid-banner
 afkgaming.com###venatus-takeover
 nutritioninsight.com###verticlblks
-filmibeat.com,goodreturns.in,mykhel.com,oneindia.com###verticleLinks
+goodreturns.in,mykhel.com,oneindia.com###verticleLinks
 ghgossip.com###vi-sticky-ad
 investing.com###video
 sportskeeda.com###video-player-container--
@@ -66412,7 +66414,7 @@ freepik.com##.adobe-grid-design
 flightglobal.com,thriftyfun.com##.adp
 lol.ps##.adpage
 vice.com##.adph
-1sale.com,1v1.lol,7billionworld.com,9jaflaver.com,achieveronline.co.za,canstar.com.au,canstarblue.co.nz,cheapies.nz,climatechangenews.com,cryptonomist.ch,currencyrate.today,downloadtorrentfile.com,economictimes.com,energyforecastonline.co.za,esports.com,eventcinemas.co.nz,ezgif.com,flashx.tv,gamesadshopper.com,geo.tv,govtrack.us,gramfeed.com,hentaikun.com,hockeyfeed.com,i24news.tv,icons8.com,idiva.com,indiatimes.com,inspirock.com,investing.com,m.economictimes.com,mangasect.com,marinetraffic.com,mb.com.ph,mega4upload.com,mehrnews.com,meta-calculator.com,mini-ielts.com,miningprospectus.co.za,motogp.com,mugshots.com,nbc.na,news.nom.co,nsfwyoutube.com,onlinerekenmachine.com,ozbargain.com.au,piliapp.com,readcomicsonline.ru,recipes.net,russia-insider.com,russian-faith.com,savevideo.me,sgcarmart.com,sherdog.com,straitstimes.com,teamblind.com,tehrantimes.com,tellerreport.com,thenews.com.pk,thestar.com.my,viamichelin.com,viamichelin.ie,vijesti.me,y8.com,yummy.ph##.ads
+1sale.com,1v1.lol,7billionworld.com,9jaflaver.com,achieveronline.co.za,bestcrazygames.com,canstar.com.au,canstarblue.co.nz,cheapies.nz,climatechangenews.com,cryptonomist.ch,currencyrate.today,downloadtorrentfile.com,economictimes.com,energyforecastonline.co.za,esports.com,eventcinemas.co.nz,ezgif.com,flashx.tv,gamesadshopper.com,geo.tv,govtrack.us,gramfeed.com,hentaikun.com,hockeyfeed.com,i24news.tv,icons8.com,idiva.com,indiatimes.com,inspirock.com,investing.com,m.economictimes.com,mangasect.com,marinetraffic.com,mb.com.ph,mega4upload.com,mehrnews.com,meta-calculator.com,mini-ielts.com,miningprospectus.co.za,motogp.com,mugshots.com,nbc.na,news.nom.co,nsfwyoutube.com,onlinerekenmachine.com,ozbargain.com.au,piliapp.com,readcomicsonline.ru,recipes.net,russia-insider.com,russian-faith.com,savevideo.me,sgcarmart.com,sherdog.com,straitstimes.com,teamblind.com,tehrantimes.com,tellerreport.com,thenews.com.pk,thestar.com.my,viamichelin.com,viamichelin.ie,vijesti.me,y8.com,yummy.ph##.ads
 moneycontrol.com##.ads-320-50
 business-standard.com##.ads-align
 dallasinnovates.com##.ads-article-body
@@ -66437,6 +66439,7 @@ gameshub.com##.ads-slot
 lowfuelmotorsport.com##.ads-stats
 wallpapers.com##.ads-unit-fts
 ndtv.com##.ads-wrp
+bestcrazygames.com##.ads160600
 auto.hindustantimes.com##.adsHeight300x600
 tech.hindustantimes.com##.adsHeight720x90
 auto.hindustantimes.com##.adsHeight970x250
@@ -66811,6 +66814,7 @@ dissentmagazine.org##.bc_random_banner
 h-online.com##.bcadv
 digminecraft.com##.bccace1b
 fakenamegenerator.com##.bcsw
+boldsky.com##.bd-header-ad
 userbenchmark.com##.be-lb-page-top-banner
 chowhound.com,glam.com,moneydigest.com,outdoorguide.com,svg.com,wrestlinginc.com##.before-ad
 renonr.com##.below-header-widgets
@@ -67112,8 +67116,8 @@ computerweekly.com,techtarget.com,theserverside.com##.cls-hlb-wrapper-desktop
 lcpdfr.com##.clsReductionBlockHeight
 lcpdfr.com##.clsReductionLeaderboardHeight
 mayoclinic.org##.cmp-advertisement__wrapper
-boldsky.com,drivespark.com,filmibeat.com,gizbot.com,goodreturns.in,nativeplanet.com##.cmscontent-article1
-boldsky.com,drivespark.com,filmibeat.com,gizbot.com,goodreturns.in,nativeplanet.com##.cmscontent-article2
+boldsky.com,drivespark.com,gizbot.com,goodreturns.in,nativeplanet.com##.cmscontent-article1
+boldsky.com,drivespark.com,gizbot.com,goodreturns.in,nativeplanet.com##.cmscontent-article2
 boldsky.com,drivespark.com,filmibeat.com,gizbot.com,goodreturns.in,nativeplanet.com,oneindia.com##.cmscontent-left-article
 boldsky.com,drivespark.com,filmibeat.com,gizbot.com,goodreturns.in,nativeplanet.com,oneindia.com##.cmscontent-right1
 careerindia.com##.cmscontent-top
@@ -67418,6 +67422,7 @@ newagebd.net##.editorialMid
 editpad.org##.edsec
 theepochtimes.com##.eet-ad
 clutchpoints.com##.ehgtMe.sc-ed3f1eaf-1
+filmibeat.com##.ele-ad
 sashares.co.za##.elementor-48612
 cryptopolitan.com##.elementor-element-094410a
 hilltimes.com##.elementor-element-5818a09
@@ -67509,7 +67514,6 @@ forum.lowyat.net##.feedgrabbr_widget
 newser.com##.fiavur2
 filecrypt.cc##.filItheadbIockgueue3
 filecrypt.cc,filecrypt.co##.filItheadbIockqueue3
-filmibeat.com##.filmibeat-top-ad
 telugupeople.com##.fineprint
 proprofs.com##.firstadd
 thestranger.com##.fish-butter
@@ -67896,7 +67900,6 @@ inews.co.uk##.inews__mpu
 motorcycle.com##.infeed-ads
 sevenforums.com##.infeed1
 heatmap.news,theweek.com##.infinite-container
-filmibeat.com##.infinite-scroll-add
 mylocation.org##.info a[href^="https://go.expressvpn.com/c/"]
 stocksnap.io##.info-col
 bab.la##.info-panel
@@ -68452,8 +68455,8 @@ softexia.com##.offer
 oneindia.com##.oi-add-block
 oneindia.com##.oi-recom-art-wrap
 oneindia.com##.oi-spons-ad
-boldsky.com,drivespark.com,filmibeat.com,gizbot.com,goodreturns.in,mykhel.com,nativeplanet.com,oneindia.com##.oi-wrapper1
-boldsky.com,drivespark.com,filmibeat.com,gizbot.com,goodreturns.in,mykhel.com,nativeplanet.com,oneindia.com##.oiad
+boldsky.com,drivespark.com,gizbot.com,goodreturns.in,mykhel.com,nativeplanet.com,oneindia.com##.oi-wrapper1
+boldsky.com,drivespark.com,gizbot.com,goodreturns.in,mykhel.com,nativeplanet.com,oneindia.com##.oiad
 gizbot.com##.oiadv
 hamodia.com##.oiomainlisting
 thehackernews.com##.okfix
@@ -68565,8 +68568,8 @@ post-gazette.com##.pgevoke-flexbanner-innerwrapper
 post-gazette.com##.pgevoke-superpromo-innerwrapper
 online.pubhtml5.com##.ph5---banner---container
 timesofindia.com##.phShimmer
-drivespark.com,filmibeat.com,gizbot.com##.photos-add
-drivespark.com,filmibeat.com##.photos-left-ad
+drivespark.com,gizbot.com##.photos-add
+drivespark.com##.photos-left-ad
 washingtontimes.com##.piano-in-article-reco
 washingtontimes.com##.piano-right-rail-reco
 reelviews.net##.picHolder
@@ -68776,6 +68779,7 @@ esports.gg##.relative.esports-inarticle
 astrozop.com##.relative.z-5
 miragenews.com##.rem-i-s
 4shared.com##.remove-rekl
+boldsky.com##.removeStyleAd
 runningmagazine.ca##.repeater-bottom-leaderboard
 bbjtoday.com##.replacement
 m.tribunnews.com##.reserved-topmedium
@@ -68931,8 +68935,7 @@ searchencrypt.com##.serp__top-ads
 minecraftforum.net##.server-forum-after-comment-ad
 save-editor.com##.set_wrapper
 sportbusiness.com##.sf-taxonomy-body__advert-container
-shortorial.com##.sgpb-popup-dialog-main-div-wrapper
-analyticsinsight.net,shortorial.com##.sgpb-popup-overlay
+analyticsinsight.net,moviedokan.lol,shortorial.com##.sgpb-popup-overlay
 stockhouse.com##.sh-ad
 soaphub.com##.sh-sh_belowpost
 soaphub.com##.sh-sh_inpost_1
@@ -69477,6 +69480,7 @@ bobvila.com##.unit-header-container
 sciencedaily.com##.unit1
 sciencedaily.com##.unit2
 gpucheck.com##.unitBox
+pravda.com.ua##.unit_side_banner
 thegamerstation.com##.universal-js-insert
 thegradcafe.com##.upcoming-events
 pcgamingwiki.com##.upcoming-releases.home-card:first-child
@@ -69708,6 +69712,7 @@ blackbeltmag.com##[aria-label="Wix Monetize with AdSense"]
 giantfood.com,giantfoodstores.com,martinsfoods.com##[aria-label^="Sponsored"]
 thehansindia.com##[class*="-ad-"]:not(#inside_post_content_ad_1_before)
 collegedunia.com##[class*="-ad-slot"]
+fotmob.com##[class*="TopBannerWrapper"]
 jagranjosh.com##[class*="_AdColl_"]
 jagranjosh.com##[class*="_BodyAd_"]
 top.gg##[class*="__AdContainer-"]
@@ -69721,6 +69726,7 @@ uploader.link##[class^="ads"]
 weather.us##[class^="dkpw"]
 dallasnews.com##[class^="dmnc_features-ads-"]
 romhustler.org##[class^="leaderboard_ad"]
+filmibeat.com##[class^="oiad"]
 reuters.com##[class^="primary-video__container_"]
 nofilmschool.com##[class^="rblad-nfs_content"]
 thetimes.co.uk##[class^="responsive__InlineAdWrapper-"]
@@ -69904,7 +69910,7 @@ aitextpromptgenerator.com##[href^="https://app.getsitepop.com/"]
 wiki.gg##[href^="https://app.wiki.gg/showcase/"]
 topfiveforex.com##[href^="https://betfury.io/"]
 seganerds.com##[href^="https://betway.com/"]
-greatandhra.com,kitploit.com##[href^="https://bit.ly/"] img
+greatandhra.com,kitploit.com,moviedokan.lol##[href^="https://bit.ly/"] img
 coingolive.com##[href^="https://bitpreco.com/"]
 analyticsindiamag.com##[href^="https://business.louisville.edu/"]
 50gameslike.com,highdemandskills.com,yumyumnews.com##[href^="https://click.linksynergy.com/"]
@@ -70573,8 +70579,6 @@ escorenews.com##noindex
 adblock-tester.com##object[width="240"]
 ft.com##pg-slot
 mashable.com##section.mt-4 > div
-thehansindia.com##section:has(> .to-be-async-loaded-ad)
-thehansindia.com##section:has(> [class*="level_ad"])
 bbc.com##section[data-e2e="advertisement"]
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##shreddit-comments-page-ad
 tempostorm.com##side-banners
@@ -70816,6 +70820,8 @@ yandex.com##li[class*="_card"]:has(a[href^="https://yandex.com/search/_crpd/"])
 dictionary.com,thesaurus.com##main div[class]:has(> [data-type="ad-vertical"])
 rome2rio.com#?#div[aria-labelledby="schedules-header"] > div > div:-abp-contains(Ad)
 windowsreport.com##section.hide-mbl:has(a[href^="https://out.reflectormedia.com/"])
+thehansindia.com##section:has(> .to-be-async-loaded-ad)
+thehansindia.com##section:has(> [class*="level_ad"])
 deadspin.com##section:has(a[href^="https://theinventory.com"])
 tripadvisor.at,tripadvisor.be,tripadvisor.ca,tripadvisor.ch,tripadvisor.cl,tripadvisor.cn,tripadvisor.co,tripadvisor.co.id,tripadvisor.co.il,tripadvisor.co.kr,tripadvisor.co.nz,tripadvisor.co.uk,tripadvisor.co.za,tripadvisor.com,tripadvisor.com.ar,tripadvisor.com.au,tripadvisor.com.br,tripadvisor.com.eg,tripadvisor.com.gr,tripadvisor.com.hk,tripadvisor.com.mx,tripadvisor.com.my,tripadvisor.com.pe,tripadvisor.com.ph,tripadvisor.com.sg,tripadvisor.com.tr,tripadvisor.com.tw,tripadvisor.com.ve,tripadvisor.com.vn,tripadvisor.de,tripadvisor.dk,tripadvisor.es,tripadvisor.fr,tripadvisor.ie,tripadvisor.in,tripadvisor.it,tripadvisor.jp,tripadvisor.nl,tripadvisor.pt,tripadvisor.ru,tripadvisor.se##section[data-automation$="_AdPlaceholder"]:has(.txxUo)
 homedepot.com##section[id^="browse-search-pods-"] > div.browse-search__pod:has(div.product-sponsored)
@@ -70845,11 +70851,14 @@ the-independent.com###taboola-mid-article-thumbnails-ii
 independent.co.uk,the-independent.com###taboola-mid-article-thumbnails-iii
 drivespark.com,goodreturns.in###taboola-mid-category-thumbnails
 lifeandstylemag.com###taboola-right-rail-thumbnails
+ndtv.com##.TpGnAd_ad-cn
 hindustantimes.com##.ht_taboola
 financialexpress.com##.ie-network-taboola
 6abc.com,abcnews.go.com##.taboola
 gizmodo.com,kotaku.com,theonion.com,theroot.com##.taboola-container
 firstpost.com##.taboola-div
+ndtv.com##[class^="ads_"]
+ndtv.com##div:has(> [id^="adslot"])
 weather.com##div[id*="Taboola-sidebar"]
 weather.com##div[id^="Taboola-main-"]
 express.co.uk##div[id^="taboola-"]
@@ -74871,6 +74880,7 @@ newduba.cn###jq_youxi
 ||tupian9999.com^
 ||xxxx88xxxx.com^
 ||xxxx96xxxx.com^
+||bdfjw.cn^
 ##a[href*=".68hantang.com"]
 ##a[href*=".asd245796.com:"]
 ##a[href*=".asd252466.com:"]
@@ -100359,7 +100369,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||atcdn.co.uk/frostbite/
 ||atgsvcs.com/js/atgsvcs.js
 ||ati-host.net/event?
-||atlassian.net/rest/collectors/$third-party
 ||atom-data.io/session/latest/track.html?$third-party
 ||attn.tv/tag/
 ||attn.tv^*/dtag.js
@@ -100381,6 +100390,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||awe.sm/conversions/
 ||aweber.com/form/displays.htm?$image
 ||awesome.section.io^
+||awsapprunner.com/api/frontend/client/metrics
 ||awswaf.com^*/report
 ||awswaf.com^*/telemetry
 ||ax.babe.today^
@@ -103948,6 +103958,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ampltd.medal.tv^
 ||ampltd.top.gg^
 ||ampltd2.medal.tv^
+||anal.doubledouble.top^
 ||analytics-api.dvdfab.
 ||analytics-batch.blitz.gg^
 ||analytics-proxy.springboard.com^
@@ -142337,6 +142348,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||analyzer.fc2.com^
 ||analyzer2.fc2.com^
 ||anyelse.com/stat^
+||askdoctors.jp/assets/packs/js/impression_tracker-
 ||astat.nikkei.com^
 ||astral.nicovideo.jp^
 ||barks.jp/v1/stats
