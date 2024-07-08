@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: l5a5zxx72WRRJGu9zRCBIA
+! Checksum: AgBeKL/g19DviIbk+323Kg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202407080801
-! Last Modified: 2024年07月08日 08:01
+! Version: 202407081400
+! Last Modified: 2024年07月08日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -9149,6 +9149,7 @@ _800x80_
 ##.adheightpromo
 ##.adheighttall
 ##.adherebox
+##.adhesion
 ##.adhesion-block
 ##.adhesion-header
 ##.adhesiveAdWrapper
@@ -16155,6 +16156,7 @@ developers.google.com#@##google-ads
 plaza.rakuten.co.jp#@##headerAd
 airplaydirect.com,zeirishi-web.com#@##header_ad
 665.jp#@##leftad
+si.com#@##mplayer-embed
 tei-c.org#@##msad
 suntory.co.jp#@##page_ad
 box10.com#@##prerollAd
@@ -69914,7 +69916,7 @@ trakt.tv##[data-snigel-id]
 amp.theguardian.com##[data-sort-time="1"]
 vrbo.com##[data-stid="meso-ad"]
 etherscan.io##[data-t8xt5pt6kr-seq="0"]
-swimsuit.si.com##[data-target="ad"]
+si.com##[data-target="ad"]
 coingecko.com##[data-target="ads.banner"]
 the-express.com##[data-tb-non-consent]
 woot.com##[data-test-ui^="advertisementLeaderboard"]
@@ -72920,6 +72922,8 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||v.fwmrm.net/ad/g/1?csid=vcbs_cbsnews_desktop_$xmlhttprequest
 @@||v.fwmrm.net/ad/p/1?$domain=cc.com|channel5.com|cmt.com|eonline.com|foodnetwork.com|nbcnews.com|ncaa.com|player.theplatform.com|simpsonsworld.com|today.com
 @@||v.fwmrm.net/crossdomain.xml$xmlhttprequest
+@@||vms-players.minutemediaservices.com^$script,domain=si.com
+@@||vms-videos.minutemediaservices.com^$xmlhttprequest,domain=si.com
 @@||warpwire.com/AD/
 @@||warpwire.net/AD/
 @@||web-ads.pulse.weatherbug.net/api/ads/targeting/$domain=weatherbug.com
@@ -96294,6 +96298,7 @@ omni.soundestlink.com$image
 ||intellimizeio.com^
 ||irs01.com^
 ||jams.wiki^
+||jazzyzest.cfd^
 ||jcpclick.com^
 ||jubbie.de^
 ||k5a.io^
@@ -96381,6 +96386,7 @@ omni.soundestlink.com$image
 ||pzimff.com^
 ||quantserve.com^
 ||quickkoala.io^
+||quickpcfixer.click^
 ||r42tag.com^
 ||raac33.net^
 ||rapidpanda.io^
