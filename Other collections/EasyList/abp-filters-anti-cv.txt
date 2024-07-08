@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: w8GrOSnH/deY+jE8ZF571g
-! Version: 202407081011
+! Checksum: 7jiVN/bTIQRYQ+zROOUjfA
+! Version: 202407081101
 ! Title: ABP filters
-! Last modified: 08 Jul 2024 10:11 UTC
+! Last modified: 08 Jul 2024 11:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1338,7 +1338,7 @@ allegro.*#$#hide-if-matches-xpath './/div[contains(@data-analytics-view-label,"s
 allegro.*#$#hide-if-matches-xpath './/span[.="Sponsorowane" or .="Sponzorováno"]/ancestor::div[@data-box-id][contains(@data-analytics-tags,"advertising")]';
 allegro.pl#$#hide-if-matches-xpath './/div[contains(@data-analytics-groups,"reklam") or contains(@data-analytics-groups,"kampanijna") or contains(@data-box-name,"Ads")]/ancestor::div[@data-box-name="structure-container"]';
 ! PL
-allegro.*#$#race start; hide-if-matches-xpath './/span[.="Sponsorowane" or .= "Sponsored" or .="Рекламні" or .="Sponzorované"]//ancestor::article'; hide-if-contains-visible-text /Sponsorowane|Sponsored|Рекламні|Sponzorované/ 'article' 'div[id]' 'content'; race stop;
+allegro.*#$#race start; hide-if-matches-xpath './/span[.="Sponsorowane" or .= "Sponsored" or .="Рекламні" or .="Sponzorované"]//ancestor::article'; hide-if-contains-visible-text /Sponsorowane|Sponsored|Рекламні|Sponzorované/ 'article' 'div[id]' 'content'; hide-if-matches-xpath './/div[@data-test-tag="dsa"]/preceding::a[contains(@href,"clicks?emission_unit_")]/ancestor-or-self::article[@data-verification-id][@aria-label]'; race stop;
 ! #CV-705
 www.wp.pl#$#abort-on-property-read SlotRegistrar; abort-current-inline-script PRELOAD randvar
 dobreprogramy.pl#$#abort-on-property-read wp_adv_labels
@@ -1717,7 +1717,7 @@ www.toptruyenx.pro#$#abort-current-inline-script Promise instance
 truyenqqvn.com,animehay.bio#$#abort-current-inline-script document.addEventListener window.open
 audiotruyenfull.com#$#abort-on-property-read adpiaListUrl
 vailonxx.co,phimlongtieng.com,phimlongtieng.net#$#abort-current-inline-script jQuery window.open
-tctruyen.cc,abtruyen.net,phimss.com#$#abort-current-inline-script $ popup
+tctruyen.cc,abtruyen.net#$#abort-current-inline-script $ popup
 nettruyenhq.com#$#abort-current-inline-script Promise break;case
 holyfilm.org#$#abort-current-inline-script window.addEventListener window.open
 www.nettruyenupp.com#$#abort-on-property-read sp
@@ -1731,6 +1731,7 @@ sex.chichnhau.net#$#abort-current-inline-script $ pop
 sexhd88.vip#$#abort-current-inline-script document.addEventListener open
 www.toptruyenx.pro#$#abort-current-inline-script setTimeout open
 cdn2.blueskychilling.online#$#abort-current-inline-script $ open
+phimmoiiii.net#$#abort-current-inline-script addEvent popu
 freeplayervideo.com,abysscdn.com,player-cdn.com,geoip.redirect-ads.com#$#override-property-read open noopFunc
 ! *** abp-filters-hotfix:hotfix.txt ***
 ! FDA-2994
