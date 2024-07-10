@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tJMaQaKIkXUNTeS65AVu2w
-! Version: 202407100901
+! Checksum: NkxOdMkMGkC1qPTJTV6tgg
+! Version: 202407101011
 ! Title: EasyList China+EasyList
-! Last modified: 10 Jul 2024 09:01 UTC
+! Last modified: 10 Jul 2024 10:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -35109,6 +35109,7 @@ _800x80_
 ##a[href^="https://lnkxt.bannerator.com/"]
 ##a[href^="https://lobimax.com/"]
 ##a[href^="https://loboclick.com/"]
+##a[href^="https://lone-pack.com/"]
 ##a[href^="https://losingoldfry.com/"]
 ##a[href^="https://m.do.co/c/"] > img
 ##a[href^="https://maymooth-stopic.com/"]
@@ -42684,6 +42685,7 @@ browsershots.org#@#.advert_area
 ||ciazdymfepv.com^
 ||cibouleamazer.com^
 ||cicamica.xyz^
+||cickofou.com^
 ||cideparenhem.com^
 ||cidrulj.com^
 ||ciedpso.com^
@@ -51710,6 +51712,7 @@ browsershots.org#@#.advert_area
 ||hutajkerfvbman.com^
 ||hutanz.xyz^
 ||hutlockshelter.com^
+||hutoumseet.com^
 ||hutremindbond.com^
 ||huvohjvpaog.com^
 ||huwkiycoup.com^
@@ -78068,6 +78071,7 @@ browsershots.org#@#.advert_area
 ||lody24.com^$popup
 ||logicdate.com^$popup
 ||logicschort.com^$popup
+||lone-pack.com^$popup
 ||loodauni.com^$popup
 ||looew.club^$popup
 ||lookandfind.me^$popup
@@ -85969,7 +85973,7 @@ ip-address.org##.ad-5-300
 geotastic.net##.ad-970x250
 birdwatchingdaily.com##.ad-advertisement-vertical
 buzzfeed.com##.ad-awareness
-britannica.com,courthousenews.com,diabetesjournals.org,imgmak.com,infobel.com,kuioo.com,linkedin.com,pilot007.org,radiotimes.com,soundguys.com##.ad-banner
+britannica.com,courthousenews.com,diabetesjournals.org,imgmak.com,infobel.com,kuioo.com,linkedin.com,pilot007.org,radiotimes.com,soundguys.com,topperlearning.com##.ad-banner
 radiopaedia.org##.ad-banner-desktop-row
 home-designing.com,inc.com,trustpilot.com##.ad-block
 fangoria.com##.ad-block--300x250
@@ -89458,6 +89462,7 @@ thepointsguy.com##[aria-label="Advertisement"]
 wsj.com##[aria-label="Sponsored Offers"]
 blackbeltmag.com##[aria-label="Wix Monetize with AdSense"]
 giantfood.com,giantfoodstores.com,martinsfoods.com##[aria-label^="Sponsored"]
+economictimes.indiatimes.com##[class*="-ad-"]
 thehansindia.com##[class*="-ad-"]:not(#inside_post_content_ad_1_before)
 collegedunia.com##[class*="-ad-slot"]
 fotmob.com##[class*="TopBannerWrapper"]
@@ -90404,6 +90409,7 @@ slickdeals.net##.bp-p-filterGrid_item:has(.bp-c-label--promoted)
 homedepot.com##.browse-search__pod:has([id^="plp_pod_sponsored"])
 doordash.com##.carousel-virtual-wrapper:has([href*="collection_type=sponsored_brand"])
 doordash.com##.ccdtLs:has([data-testid="sponsored:Sponsored"])
+timesofindia.indiatimes.com##.clearfix ~ div:has(> [id*="-gpt-ad-"])
 asda.com##.cms-modules:has([data-module*="Sponsored Products"])
 tvinsider.com#@#.cnx-player-wrapper
 asda.com##.co-item:has(.co-item__sponsored-label)
