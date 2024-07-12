@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: u5RjcPBoSKHU4CYR40v/+A
-! Version: 202407112310
+! Checksum: TqmVg6uwPeTI0OeIqywgbg
+! Version: 202407120050
 ! Title: EasyList China+EasyList
-! Last modified: 11 Jul 2024 23:10 UTC
+! Last modified: 12 Jul 2024 00:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -11677,10 +11677,16 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||singtao.ca/editions/affiliate_
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+orangenews.hk##img[advid]
+ddxs.vip##.content > p > font[color="red"]
+baidu.com##.na-ec-waterfall
 baidu.com##.result-op[tpl="vmp_strengthen_brand"]
 iqiyi.com##a[href^="https://ads.game.iqiyi.com"]
+digitimes.com.tw##a[href*="/webad/"]
+digitimes.com.tw##.dt-ad-block
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
@@ -12854,7 +12860,8 @@ appinn.com###sidebar > .widget:first-child
 ipcfun.com###sidebar > ul > div[style]
 iplaysoft.com###sidebar > ul > li[class^="widget"]:nth-child(-n+3)
 ipcfun.com###sidebar > ul > li[style]
-jandan.net###sidebar > ul[style="height:480px"]
+jandan.net###sidebar > UL:nth-child(2)
+jandan.net##.post[style="padding-left:150px;width:336px;height:280px;"]
 mpyit.com###sidebar a > img
 gaoqingw.com###sidebar a[href^="http"]:not([href*="gaoqingw"])
 appinn.com###sidebar a[rel*="sponsored"]
@@ -39091,6 +39098,7 @@ browsershots.org#@#.advert_area
 ||artistspipe.top^
 ||artlessdeprivationunfriendly.com^
 ||artlessdevote.com^
+||artlikeratan.click^
 ||artoas301endore.com^
 ||artonsbewasand.com^
 ||artoukfarepu.org^
@@ -40172,6 +40180,7 @@ browsershots.org#@#.advert_area
 ||bearagriculture.com^
 ||bearbanepant.com^
 ||beardinrather.com^
+||beardyapii.com^
 ||bearerdarkfiscal.com^
 ||beastintruder.com^
 ||beastsmalefic.uno^
@@ -56179,6 +56188,7 @@ browsershots.org#@#.advert_area
 ||marbleborrowedours.com^
 ||marchedrevolution.com^
 ||marcherfilippo.com^
+||marchesbragged.com^
 ||marchingdishonest.com^
 ||marchingpostal.com^
 ||marcoscrupulousmarks.com^
@@ -64765,6 +64775,7 @@ browsershots.org#@#.advert_area
 ||rurbie.com^
 ||rurdauth.net^
 ||rusenov.com^
+||rushoothulso.xyz^
 ||rushpeeredlocate.com^
 ||rushpushy.com^
 ||russellseemslept.com^
@@ -66623,6 +66634,7 @@ browsershots.org#@#.advert_area
 ||soundingdisastereldest.com^
 ||soundingthunder.com^
 ||soupevents.com^
+||soupoleums.com^
 ||soupteep.xyz^
 ||soupteewhish.com^
 ||souptightswarfare.com^
@@ -67721,6 +67733,7 @@ browsershots.org#@#.advert_area
 ||svyksa.info^
 ||swaggydestroy.com^
 ||swagtraffcom.com^
+||swailcoigns.com^
 ||swailsbondman.com^
 ||swalessidi.com^
 ||swallowaccidentdrip.com^
@@ -92803,11 +92816,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||tiktok.com^$generichide
 @@||tv.youtube.com^$generichide
 @@||twitch.tv^$generichide
-@@||twitter.com^$generichide
-@@||web.archive.org^$generichide
-@@||www.youtube.com^$generichide
-@@||x.com^$generichide
-! @@||web.basemark.com^$generichide
+@@||web.basemark.com^$generichide
 @@||web.telegram.org^$generichide
 @@||whatsapp.com^$generichide
 @@||wikibooks.org^$generichide
@@ -92817,6 +92826,8 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||wikiquote.org^$generichide
 @@||wikiversity.org^$generichide
 @@||wiktionary.org^$generichide
+@@||www.youtube.com^$generichide
+@@||x.com^$generichide
 ! wordpress.org https://wordpress.org/plugins/woocommerce-google-adwords-conversion-tracking-tag/
 @@||ps.w.org^$image,domain=wordpress.org
 @@||s.w.org/wp-content/$stylesheet,domain=wordpress.org
