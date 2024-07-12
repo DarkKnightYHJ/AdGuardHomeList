@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: T4/7SKEVkgcIaz0LQj7+ag
+! Checksum: 6wdq0rvKRgew06czgvvdQA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202407120800
-! Last Modified: 2024年07月12日 08:00
+! Version: 202407121400
+! Last Modified: 2024年07月12日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1838,12 +1838,18 @@ newduba.cn###jq_youxi
 ||205.209.138.102^
 ||23.231.151.252^
 ||67.21.92.*.gif
+||107.167.22.*.gif
 ||cupfox.app^$third-party
+||57573zubo36833.com^
+||imgoss2255.top^
+||tupian88888.com^
 ||tdipsumi.top^
 ||ykcsldm.icu^
 ||izcqyy.xyz^
 ||dmnqfn.xyz^
 ||scoev.cn^
+||fpninv.xyz^
+||srtlisb.top^
 ||tupian9999.com^
 ||xxxx88xxxx.com^
 ||xxxx96xxxx.com^
@@ -11812,6 +11818,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||singtao.ca/editions/affiliate_
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+orangenews.hk##img[advid]
+ddxs.vip##.content > p > font[color="red"]
+baidu.com##.na-ec-waterfall
 baidu.com##.result-op[tpl="vmp_strengthen_brand"]
 iqiyi.com##a[href^="https://ads.game.iqiyi.com"]
 digitimes.com.tw##a[href*="/webad/"]
