@@ -4,7 +4,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2024-07-15T12:01:29.205Z
+! Last modified: 2024-07-15T18:01:20.160Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.24
 !
@@ -43518,6 +43518,7 @@ vkcdnservice.appspot.com^
 !
 !
 !
+||sec.webeyez.com^
 ||michiganrobotflower.com^
 ||uid.mediacorp.sg^
 ||exacttarget.com^
@@ -47205,6 +47206,7 @@ vkcdnservice.appspot.com^
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||akn.analytics.autodesk.com^
 ||marketing.dropbox.com^
 ||ok88okg.infinityscans.net^
 ||evt.24.com^
@@ -56800,9 +56802,9 @@ inapps.appsflyersdk.com^
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 14 Jul 2024 16:54 UTC+7
-! OriginalVersion: 2407141654
-! Blocked: 910 rules
+! Last modified: 15 Jul 2024 23:10 UTC+7
+! OriginalVersion: 2407152310
+! Blocked: 911 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
 !
@@ -57629,6 +57631,7 @@ inapps.appsflyersdk.com^
 ||vieon-tracking.vieon.vn^
 ||vietbuzzad.com^
 ||vietdorje.com^
+||vietnamdaily-log.trithuccuocsong.vn^
 ||vlxx.host^
 ||vnadssb.com^
 ||web-analytic.ghtk.vn^
@@ -57651,9 +57654,9 @@ inapps.appsflyersdk.com^
 !
 ! Title: hostsVN Threat
 ! Description: Only include threat domains
-! Last modified: 14 Jul 2024 16:55 UTC+7
-! OriginalVersion: 2407141655
-! Blocked: 4,486 rules
+! Last modified: 15 Jul 2024 23:12 UTC+7
+! OriginalVersion: 2407152312
+! Blocked: 4,487 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
 !
@@ -61908,6 +61911,7 @@ inapps.appsflyersdk.com^
 ||walmartshoping.com^
 ||warrenmoneytrader.com^
 ||watch-online.49n7wqynho5u.top^
+||wbk9sohp.jdpz.link^
 ||wdxzlv.org^
 ||web-membbership-freefire-garena.com^
 ||web-shopee-vn.com^
