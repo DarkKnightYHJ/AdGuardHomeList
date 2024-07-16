@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 61MFLgBFeZqNTg4L5dFWGA
+! Checksum: DdsmyqcB5MCVeS8TJ+XK8A
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202407160801
-! Last Modified: 2024年07月16日 08:01
+! Version: 202407161400
+! Last Modified: 2024年07月16日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -61670,6 +61670,7 @@ browsershots.org#@#.advert_area
 ||httpslink.com/EdgeOfTheFire
 ||htvapps.com/ad_fallback/
 ||huffpost.com/embed/connatix/$subdocument
+||hvdt8.chimeratool.com^
 ||ibvpn.com/img/banners/
 ||ifoneunlock.com/*_banner_
 ||imsynthesis.pro/banners/$third-party
@@ -65314,7 +65315,7 @@ curseforge.com###cdm-zone-03
 inquirer.net###cdn-life-mrec
 godbolt.org###ces
 romsmania.games###click-widget-banner
-xcalibrscans.com###close-teaser
+animetrilogy.com,xcalibrscans.com###close-teaser
 oneindia.com###closePopupDiv
 slashdot.org###cloud
 globalconstructionreview.com###cm-jobs-block-inner
@@ -65443,6 +65444,7 @@ cnx-software.com###fixeddbar
 topsporter.net###fl-ai-widget-placement
 vscode.one###flamelab-convo-widget
 nanoreview.net###float-sb-right
+animetrilogy.com###floatcenter
 editpad.org###floorad-wrapper
 clintonherald.com,ottumwacourier.com,thetimestribune.com###floorboard_block
 streams.tv###flowerInGarden
@@ -65748,7 +65750,7 @@ megacloud.tv###overlay-center
 mzzcloud.life,rabbitstream.net###overlay-container
 mp4upload.com###overlayads
 drivevideo.xyz###overlays
-animexin.vip###overplay
+animetrilogy.com,animexin.vip###overplay
 vure.cx###page-inner > div > div > a[href^="https://www.vure.cx/shorten-link.php/"]
 vure.cx###page-inner > div > div > div > a[href^="https://www.vure.cx/shorten-link.php/"]
 cyclenews.com###pamnew
@@ -105219,6 +105221,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixiedust.buzzfeed.com^
 ||pks-analytics.raenonx.cc^
 ||pl.letsblock.it^
+||pl.lucida.to^
 ||planetradio.co.uk/crystal/log
 ||plausible.bots.gg^
 ||plausible.dragonfru.it^
@@ -143337,6 +143340,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||getflywheel.com/addons/google-analytics/$~third-party
 @@||getpublica.com/playlist.m3u8$xmlhttprequest
 @@||github.com/gorhill/uBlock/*/src/web_accessible_resources/fingerprint2.js$~third-party
+@@||globalatlanticannuity.com/assets/embed/gtm.js$script,~third-party
 @@||glookup.info/api/json/$domain=grabify.link
 @@||gnar.grammarly.com/events$xmlhttprequest,domain=account.grammarly.com
 @@||groupbycloud.com/gb-tracker-client-3.min.js
