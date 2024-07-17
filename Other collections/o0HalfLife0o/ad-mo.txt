@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BX68xADsPaqLrWV2tS/d6A
+! Checksum: 7HTzUbqEO8odfM/j1MI47w
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202407170801
-! Last Modified: 2024年07月17日 08:01
+! Version: 202407171400
+! Last Modified: 2024年07月17日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -55929,6 +55929,7 @@ browsershots.org#@#.advert_area
 ||networld.hk^$third-party
 ||neudesicmediagroup.com^$third-party
 ||newdosug.eu^$third-party
+||newormedia.com^$third-party
 ||newsadsppush.com^$third-party
 ||newsarmor.com^$third-party
 ||newsnet.in.ua^$third-party
@@ -66315,6 +66316,7 @@ hulu.com##.PauseAdCreative-wrap
 thekitchn.com##.Post__inPostVideoAdDesktop
 stocktwits.com##.Primis_container__KwtjV
 tech.hindustantimes.com##.ProductAffilateWrapper
+atlasobscura.com##.ProgrammaticMembershipCallout--taboola-member-article-container
 plainenglish.io##.PromoContainer_container__sZ3ls
 citybeat.com,clevescene.com,cltampa.com##.PromoTopBar
 sciencealert.com##.Purch_Y_C_0_1-container
@@ -67852,6 +67854,7 @@ gocomics.com##.gc-deck--is-ad
 gocomics.com##.gc-top-advertising
 letsdopuzzles.com##.gda-home-box
 kansascity.com,rotowire.com##.gdcg-oplist
+just-food.com##.gdm-company-profile-unit__container
 naval-technology.com##.gdm-recommended-reports
 gearpatrol.com##.gearpatrol-ad
 geekflare.com##.geekflare-core-resources
@@ -69308,6 +69311,7 @@ numuki.com##.small-banner-responsive-wrapper
 startup.ch##.smallbanner
 food.com##.smart-aside-inner
 food.com##.smart-rail-inner
+watchinamerica.com##.smartmag-widget-codes
 secretchicago.com##.smn-new-gpt-ad
 rugby365.com##.snack-container
 small-screen.co.uk##.snackStickyParent
@@ -70859,6 +70863,7 @@ greyhound-data.com##td[width="160"]
 lyngsat.com##td[width="728"][height="90"]
 eurometeo.com##td[width="738"]
 radiosurvivor.com##text-18
+telescopius.com##tlc-ad-banner
 trademe.co.nz##tm-display-ad
 rarbgaccess.org,rarbgmirror.com,rarbgmirror.org,rarbgproxy.com,rarbgproxy.org,rarbgunblock.com,rarbgunblocked.org##tr > td + td[style*="height:"]
 titantv.com##tr.gridRow > td > [id] > div:first-child
@@ -94841,6 +94846,7 @@ fqsousou.com,kengso.com#@#.user-share
 /oas_analytics.js
 /obPixelFrame/*
 /observations/capture?
+/obtp.js
 /ocount.php
 /ocounter.php
 /odoscope.js
@@ -94872,6 +94878,8 @@ fqsousou.com,kengso.com#@#.user-share
 /ot_e404.gif?
 /OtAutoBlock.js
 /ouibounce.min.js
+/outbrain.js
+/outbrainAd.
 /outLoging.js
 /outLoging2.js
 /owa.Analytics.m.js
@@ -95492,6 +95500,10 @@ fqsousou.com,kengso.com#@#.user-share
 /t/event?
 /t?referer=
 /t?tcid=
+/taboola-header.js
+/taboola.js
+/taboola/loader.js
+/taboolaHead.js
 /taevents-c.js
 /tag/tag.jsp?
 /tag?tags=
@@ -96234,6 +96246,7 @@ _WebVitalsReporter_
 /atlas-trk.prd.msg.ss-inf.net/*$image
 /beacon.krxd.net/*
 /beaconimages.netflix.net/*$image
+/c.vialoops.com/*$image
 /click.*/q/*$image
 /click.em.nike.com/*$image
 /click.email.$image
@@ -101531,7 +101544,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hits.dealer.com^
 ||hits.getelevar.com^
 ||hits.informer.com^
-||hk-trc-events.taboola.com^
 ||hktracker.hankookilbo.com^
 ||hm.baidu.com^$third-party
 ||hocalwire.com/tracking-
@@ -101995,6 +102007,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||osano.com/js/?action_name=
 ||outbrain.com/nanoWidget/externals/cookie/
 ||outbrain.com/widgetOBUserSync/
+||outbrain.com^$third-party
 ||outbrain.com^*/widgetStatistics.js
 ||p.cquotient.com^
 ||p.metrilo.com^
@@ -102507,6 +102520,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.splicky.com^
 ||t.spot.im^
 ||t2.t2b.click^
+||taboola.com^$third-party
+||taboolasyndication.com^$third-party
 ||tag-manager.playbuzz.com^
 ||tag.aticdn.net^
 ||tag.atom.gamedistribution.com^
@@ -103143,23 +103158,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 !||supercalifragilisticexpialidocious.co.uk^
 !||xip.io^
 !||yoogle.com^
-||am-vid-events.taboola.com^
-||convsgmp.taboola.com^
-||la-sync.taboola.com^
-||nr-events.taboola.com^
-||opps.taboola.com^
-||sync.taboola.com^
-||taboola.com/?uid=
-||taboola.com/libtrc/
-||taboola.com/tb?
-||taboola.com^*/json?tim=
-||taboola.com^*/log/
-||taboola.com^*/notify-impression?$third-party
-||taboolasyndication.com/log/
-||taboolasyndication.com^*/log/
-||urc.taboolasyndication.com^
-||vidstat.taboola.com^
-||wf.taboola.com^
 /^https:\/\/cdn\.jsdelivr\.net\/npm\/[-a-z_]{4,22}@latest\/dist\/script\.min\.js$/$script,third-party
 ||frog.wix.com/da-client?
 ||frog.wix.com/fed?
@@ -105892,6 +105890,112 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bing.com^*/GLinkPingPost.aspx$ping,xmlhttprequest
 ###cxense-recs-in-article
 ##.embed-responsive-trendmd
+###around-the-web
+###g-outbrain
+###js-outbrain-module
+###js-outbrain-relateds
+###outbrain
+###outbrain-id
+###outbrain-section
+###outbrain1
+###outbrainWidget
+###outbrain_widget_0
+##.ArticleFooter-outbrain
+##.ArticleOutbrainLocal
+##.OUTBRAIN
+##.Outbrain
+##.article_OutbrainContent
+##.box-outbrain
+##.c2_outbrain
+##.component-outbrain
+##.ob-smartfeed-wrapper
+##.outbrain
+##.outbrain-ads
+##.outbrain-bloc
+##.outbrain-content
+##.outbrain-group
+##.outbrain-module
+##.outbrain-placeholder
+##.outbrain-recommended
+##.outbrain-reserved-space
+##.outbrain-single-bottom
+##.outbrain-widget
+##.outbrain-wrap
+##.outbrain-wrapper
+##.outbrain-wrapper-container
+##.outbrain-wrapper-outer
+##.outbrainWidget
+##.outbrain__main
+##.outbrain_container
+##.outbrain_skybox
+##.outbrainbox
+##.sics-component__outbrain
+##.sidebar-outbrain
+##.voc-ob-wrapper
+##.widget_outbrain
+##.widget_outbrain_widget
+###block-taboolablock
+###js-Taboola-Container-0
+###moduleTaboolaRightRail
+###possible_taboola
+###taboola
+###taboola-above-homepage-thumbnails
+###taboola-below-article-thumbnails
+###taboola-below-article-thumbnails-2
+###taboola-below-disco-board
+###taboola-below-homepage-thumbnails-2
+###taboola-below-homepage-thumbnails-3
+###taboola-below-main-column
+###taboola-belowarticle
+###taboola-bottom
+###taboola-bottom-main-column
+###taboola-div
+###taboola-homepage-thumbnails
+###taboola-homepage-thumbnails-desktop
+###taboola-horizontal-toolbar
+###taboola-in-feed-thumbnails
+###taboola-mid-main-column-thumbnails
+###taboola-native-right-rail-thumbnails
+###taboola-right-rail
+###taboola-right-rail-text-right
+###taboola-right-rail-thumbnails
+###taboola-right-rail-thumbnails-2nd
+###taboola-text-2-columns-mix
+###taboola-vid-container
+###taboola-widget-wrapper
+###taboola_bottom
+###taboola_side
+###taboola_wrapper
+##.divider-taboola
+##.js-taboola
+##.m-article-taboola
+##.mc-column-Taboola
+##.slottaboola
+##.taboola
+##.taboola-banner
+##.taboola-bottom-adunit
+##.taboola-container
+##.taboola-frame
+##.taboola-inbetweener
+##.taboola-like-block
+##.taboola-module
+##.taboola-recommends
+##.taboola-sidebar
+##.taboola-sidebar-container
+##.taboola-skip-wrapper
+##.taboola-thumbnails-container
+##.taboola-vertical
+##.taboola-wrapper
+##.taboolaDiv
+##.taboola_module
+##.taboolaloader
+##.trc-first-recommendation
+##.trc-spotlight-first-recommendation
+##.trc_excludable
+##.trc_spotlight_item
+##[data-taboola-options]
+cnn.com#@##outbrain_widget_0
+atlasobscura.com##.ProgrammaticMembershipCallout--taboola-member-article-container
 ||aliyuncs.com/r.png
 ||gj.mmstat.com^
 ||oneid.mmstat.com^
@@ -143456,12 +143560,14 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||nsfw.xxx/vendor/fingerprint/fingerprint2.min.js$script,~third-party
 @@||nypost.com/blaize/datalayer$~third-party
 @@||nytimes.com^*/EventTracker.js$~third-party
+@@||odb.outbrain.com/utils/get?url=$script,domain=cnn.com
 @@||ondemand.sas.com^$subdocument
 @@||onenote.com^*/aria-web-telemetry
 @@||online-metrix.net/fp/tags.js$domain=donorschoose.org
 @@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
 @@||optimove.net^$domain=app.touchnote.com
 @@||ots.webtrends-optimize.com/$xmlhttprequest,domain=tvlicensing.co.uk
+@@||outbrain.com/outbrain.js$domain=cnn.com
 @@||p.typekit.net/p.css$stylesheet,domain=athleticpropulsionlabs.com|browserstack.com|bungie.net|business.untappd.com|robertsspaceindustries.com
 @@||palmettostatearmory.com/static/$script,~third-party
 @@||pals.pa.gov/vendor/analytics/$~third-party
@@ -143542,6 +143648,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||stats.statbroadcast.com/interface/webservice/event/$~third-party
 @@||stats.wnba.com/templates/angular/tables/events/$~third-party
 @@||steamstatic.com/steam/apps/$image,domain=store.steampowered.com
+@@||taboola.com/libtrc/*/loader.js$domain=dailymail.co.uk|foxsports.com
 @@||tagcommander.com^*/tc_$script
 @@||tags.news.com.au/prod/heartbeat/$script
 @@||taplytics.com^$domain=royalbank.com
