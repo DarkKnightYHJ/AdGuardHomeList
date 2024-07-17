@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: H63IqEvtzJ05cxVE7vJbVQ
-! Version: 202407162301
+! Checksum: 21ORdqxj/2PcpAy2uGSZVw
+! Version: 202407170051
 ! Title: EasyPrivacy
-! Last modified: 16 Jul 2024 23:01 UTC
+! Last modified: 17 Jul 2024 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1998,6 +1998,10 @@
 /sluurpy_track.js
 /smart-pixel.min.js
 /smartpixel-1.js
+/taboola-header.js
+/taboola.js
+/taboola/loader.js
+/taboolaHead.js
 /smartpixel.$domain=~smartpixel.com|~smartpixel.tv
 /smartTag.bundle.js
 /smarttag/smarttag-
@@ -8292,7 +8296,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hits.dealer.com^
 ||hits.getelevar.com^
 ||hits.informer.com^
-||hk-trc-events.taboola.com^
 ||hktracker.hankookilbo.com^
 ||hm.baidu.com^$third-party
 ||hocalwire.com/tracking-
@@ -8440,6 +8443,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||l.ooyala.com^
 ||l.player.ooyala.com^
 ||l.sharethis.com^
+||taboola.com^$third-party
+||taboolasyndication.com^$third-party
 ||l.typesquare.com^
 ||lambda-url.us-east-1.on.aws/chug/event
 ||laurel.macrovision.com^
@@ -9911,24 +9916,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 !||supercalifragilisticexpialidocious.co.uk^
 !||xip.io^
 !||yoogle.com^
-! taboola
-||am-vid-events.taboola.com^
-||convsgmp.taboola.com^
-||la-sync.taboola.com^
-||nr-events.taboola.com^
-||opps.taboola.com^
-||sync.taboola.com^
-||taboola.com/?uid=
-||taboola.com/libtrc/
-||taboola.com/tb?
-||taboola.com^*/json?tim=
-||taboola.com^*/log/
-||taboola.com^*/notify-impression?$third-party
-||taboolasyndication.com/log/
-||taboolasyndication.com^*/log/
-||urc.taboolasyndication.com^
-||vidstat.taboola.com^
-||wf.taboola.com^
 ! Ad-Shield
 ! https://github.com/uBlockOrigin/uAssets/issues/9717
 /^https:\/\/cdn\.jsdelivr\.net\/npm\/[-a-z_]{4,22}@latest\/dist\/script\.min\.js$/$script,third-party
@@ -12724,6 +12711,69 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ! Site specific elements (due to EP)
 ###cxense-recs-in-article
 ##.embed-responsive-trendmd
+! Taboola
+###block-taboolablock
+###js-Taboola-Container-0
+###moduleTaboolaRightRail
+###possible_taboola
+###taboola
+###taboola-above-homepage-thumbnails
+###taboola-below-article-thumbnails
+###taboola-below-article-thumbnails-2
+###taboola-below-disco-board
+###taboola-below-homepage-thumbnails-2
+###taboola-below-homepage-thumbnails-3
+###taboola-below-main-column
+###taboola-belowarticle
+###taboola-bottom
+###taboola-bottom-main-column
+###taboola-div
+###taboola-homepage-thumbnails
+###taboola-homepage-thumbnails-desktop
+###taboola-horizontal-toolbar
+###taboola-in-feed-thumbnails
+###taboola-mid-main-column-thumbnails
+###taboola-native-right-rail-thumbnails
+###taboola-right-rail
+###taboola-right-rail-text-right
+###taboola-right-rail-thumbnails
+###taboola-right-rail-thumbnails-2nd
+###taboola-text-2-columns-mix
+###taboola-vid-container
+###taboola-widget-wrapper
+###taboola_bottom
+###taboola_side
+###taboola_wrapper
+##.divider-taboola
+##.js-taboola
+##.m-article-taboola
+##.slottaboola
+##.taboola
+##.taboola-banner
+##.taboola-bottom-adunit
+##.taboola-container
+##.taboola-frame
+##.taboola-inbetweener
+##.taboola-like-block
+##.taboola-module
+##.taboola-recommends
+##.taboola-sidebar
+##.taboola-sidebar-container
+##.taboola-skip-wrapper
+##.taboola-thumbnails-container
+##.taboola-vertical
+##.taboola-wrapper
+##.taboolaDiv
+##.taboola_module
+##.mc-column-Taboola
+##.taboolaloader
+##.trc-first-recommendation
+##.trc-spotlight-first-recommendation
+##.trc_excludable
+##.trc_spotlight_item
+##[data-taboola-options]
+! Site specific 
+atlasobscura.com##.ProgrammaticMembershipCallout--taboola-member-article-container
 ! Aliexpress
 ||aliyuncs.com/r.png
 ||gj.mmstat.com^
@@ -50287,6 +50337,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||adobedtm.com^*/launch-$script,xmlhttprequest
 @@||adobedtm.com^*/s-code-$script
 @@||adobedtm.com^*/satellite-$script
+@@||taboola.com/libtrc/*/loader.js$domain=dailymail.co.uk|foxsports.com
 @@||aeries.net^*/require/analytics/views/$script,~third-party
 @@||ajio.com/static/assets/vendors~static/chunk/common/libraries/fingerprintjs2.$script,~third-party
 @@||akamaihd.net/nbad/player/*/appmeasurement.js$domain=watch.nba.com
