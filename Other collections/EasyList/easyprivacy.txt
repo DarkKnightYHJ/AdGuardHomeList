@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: PLW3CxKveICJCyw8/k5Uvg
-! Version: 202407182101
+! Checksum: NctFtVPOdwM+wJiBP1dHIQ
+! Version: 202407182201
 ! Title: EasyPrivacy
-! Last modified: 18 Jul 2024 21:01 UTC
+! Last modified: 18 Jul 2024 22:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -11522,6 +11522,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||edge.staging.fullstory.com^
 ||edisound.com/api/p/stats
 ||eec.crunchyroll.com^
+||effect.habr.com^
 ||eharmony.ca/fd/
 ||eharmony.co.uk/bd/
 ||eighten-bloc-party.thebrowser.company/script.js
@@ -12302,6 +12303,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.codeur.com^
 ||stats.davidickedelivery.com^
 ||stats.gateio.ch^
+||stats.habr.com^
 ||stats.ibtimes.co.in^
 ||stats.ibtimes.sg^
 ||stats.justpaste.it^
@@ -50612,6 +50614,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||travel-assets.com/platform-analytics-prime/$domain=chase.com
 @@||tunein.com/api/v1/comscore$~third-party
 @@||userapi.com^*.gif?extra=$image,domain=vk.com
+@@||usplastic.com/js/hawk.js
 @@||uwufufu.com/_nuxt/mixpanel.$~third-party
 @@||vast.com/vimpressions.js$domain=everycarlisted.com
 @@||vidible.tv^*/ComScore.StreamSense.js
