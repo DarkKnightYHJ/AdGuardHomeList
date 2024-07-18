@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uBbKNL9Ij4AbhN3MACnizg
+! Checksum: FpE2QhRA6sb2+NzsV37IsA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202407180200
-! Last Modified: 2024年07月18日 02:00
+! Version: 202407180800
+! Last Modified: 2024年07月18日 08:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1853,6 +1853,10 @@ newduba.cn###jq_youxi
 ||vxdrfr.xyz^
 ||mkscy6.cn^
 ||mikka.app^
+||ieymhkx.icu^
+||bdipsumv.top^
+||juznlx.xyz^
+||molpmh.xyz^
 ||gkypgw.xyz^
 ||lyislol.top^
 ||tgrpzl.xyz^
@@ -11861,6 +11865,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||singtao.ca/editions/affiliate_
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+7itv.com##body > div[style]
 fengchedmp.com##body > div[style]
 huya.com##.huya-ab
 orangenews.hk##img[advid]
@@ -24959,6 +24964,7 @@ m.babytree.com##script + a[class]
 /wp-coin-hive.js
 /wp-content/plugins/confection/bridge.php
 /wp-content/plugins/pageviews/pageviews.min.js
+/wp-content/plugins/woocommerce-google-analytics-integration/*
 /wp-content/plugins/wp-click-track/js/ajax.js
 /wp-content/plugins/wp-clickmap/clickmap.js
 /wp-content/tracker.js
@@ -25431,6 +25437,7 @@ omni.soundestlink.com$image
 ||anonstat.pw^
 ||apeagle.io^
 ||apenterprise.io^
+||apharponloun.com^
 ||apxl.io^
 ||as3.io^
 ||australiarevival.com^
@@ -25494,6 +25501,7 @@ omni.soundestlink.com$image
 ||dkotrack.com^
 ||dlxpix.net^
 ||dm-event.net^
+||dmepyodjotcuks.com^
 ||dmpxs.com^
 ||doublestat.info^
 ||dspx.tv^
@@ -25507,6 +25515,7 @@ omni.soundestlink.com$image
 ||efreecode.com^
 ||egoi.site^
 ||emailsnow.info^
+||enterombacerick.com^
 ||enthusiastgaming.net^
 ||envato.market^
 ||epsilondelta.co^
@@ -25565,6 +25574,7 @@ omni.soundestlink.com$image
 ||glimr.io^
 ||glookup.info^
 ||go-mpulse.net^
+||godiciardstia.com^
 ||googleoptimize.com^
 ||googletagmanager.com^
 ||gw-dv.vip^
@@ -25622,6 +25632,7 @@ omni.soundestlink.com$image
 ||mathilde-ads.com^
 ||maxepv.com^
 ||mb-tracking.com^
+||mbmgivexdvpajr.com^
 ||mcangelus.com^
 ||mdhv.io^
 ||mdstats.info^
@@ -25683,6 +25694,8 @@ omni.soundestlink.com$image
 ||pzapi-ij.com^
 ||pzapi-kg.com^
 ||pzimff.com^
+||q0losid.com^
+||q20jqurls0y7gk8.info^
 ||quantserve.com^
 ||quickkoala.io^
 ||quickpcfixer.click^
@@ -25729,11 +25742,13 @@ omni.soundestlink.com$image
 ||sturton-lation.com^
 ||summerhamster.com^
 ||superpointlesshamsters.com^
+||sy57d8wi.com^
 ||t13.io^
 ||takingbackjuly.com^
 ||targetemsecure.blob.core.windows.net^
 ||tatpek.com^
 ||techpump.com^
+||tepatonol.com^
 ||test.vast^
 ||testingmetriksbre.ru^
 ||thatmonkeybites3.com^
@@ -25764,11 +25779,13 @@ omni.soundestlink.com$image
 ||ustat.info^
 ||venture-365-inspired.com^
 ||venusrevival.com^
+||veozn3f.com^
 ||vfghe.com^
 ||vfgte.com^
 ||videocdnmetrika.com^
 ||videoplayerhub.com^
 ||vkanalytics.net^
+||vmzqqmlpwwmazjnio.com^
 ||vpdcp.com^
 ||vstats.me^
 ||wct-2.com^
@@ -30263,7 +30280,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dotaudiences.com^$third-party
 ||dreamhost.com/*.cgi?$image,third-party
 ||drift.com/impressions/
-||drift.com/targeting/
+||drift.com/targeting/evaluate_with_log
 ||drift.com/track
 ||dugout.co/das2.js
 ||dw.com.com^$script
@@ -33414,6 +33431,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.getshogun.com^
 ||analytics.global.sky.com^
 ||analytics.hashnode.com^
+||analytics.inquisitr.com^
 ||analytics.kaggle.io^
 ||analytics.kooapp.com^
 ||analytics.makeitmeme.com^
@@ -34112,6 +34130,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||marketing.dropbox.com^
 ||massivecams.com/api/events
 ||massivecams.com/api/metrics
+||mat6tube.com/api/stats?
 ||mat6tube.com/stats
 ||mcc-tags.cisco.com^
 ||mcs-ie.tiktokw.eu^
@@ -34376,6 +34395,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||reverbnation.com/api/user/app_events
 ||rfk.biglots.com^
 ||rfk.dsw.com/api/init/1/init.js
+||rgshows.me/js/logger.js
+||rgshows.me/js/statistics.js
 ||ring.staticmoly.me^
 ||risextube.com/t/
 ||roblox.com/_/_/1px.gif
@@ -72315,7 +72336,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||att.com/scripts/adobe/virtual/detm-container-hdr.js$~third-party
 @@||att.com/ui/services_co_myatt_common/$script,~third-party
 @@||att.tv^*/VisitorAPI.js$script,~third-party
-@@||autocomplete.clearbit.com^$xmlhttprequest,domain=dzone.com
+@@||autocomplete.clearbit.com^$xmlhttprequest
 @@||azureedge.net/prod/smi/loader-config.json$domain=pressdemocrat.com
 @@||bam.nr-data.net^$script,domain=kapwing.com
 @@||bgp.he.net/images/flags/*.gif?$image,~third-party
