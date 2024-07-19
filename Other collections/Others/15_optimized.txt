@@ -1,10 +1,12 @@
-! Checksum: vniV6MzAvMH+fGykBbWzkg
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1721370962-3600.patch
+! Checksum: 7YX0dAWnyS7zdoJC0+0rYg
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1721392736-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.68.16
-! TimeUpdated: 2024-07-19T06:32:56+00:00
+! Version: 2.0.68.17
+! TimeUpdated: 2024-07-19T12:35:03+00:00
 ! Expires: 5 days (update frequency)
+||omjqukadtolg.com^
+||piggiepepo.xyz^
 ||austere-familiar.com^
 ||syndicatedsearch.goog^
 ||duxlveokumpmd.com^
@@ -1083,6 +1085,7 @@ serve.bussyhunter.com^
 ||kmsofficial.org^
 ||Kmspico-official.org^
 ||getintopc.today^
+/^94\.242\.247\.(2[0-9]|3[0-2]):/
 /^23\.109\.73\.\d{3}/
 /^188\.42\.84\.\d{1,3}/
 /^139\.45\.19[5-7]\.\d{1,3}/
@@ -40840,6 +40843,7 @@ vkcdnservice.appspot.com^
 ||68646f.xyz^
 ||691f42ad.xyz^
 ||6a6672.xyz^
+||70b927c8.live^
 ||7608d5.xyz^
 ||7ca989e1.xyz^
 ||7e60f1f9.xyz^
@@ -50867,6 +50871,7 @@ inapps.appsflyersdk.com^
 ||leiki.com^
 ||tracking*.euroads.fi^
 ||tbcconnect.ge^
+||appocalypsis.com^
 ||linkwi.se^
 ||erate.co.il^
 ||fortvision.com^
@@ -61189,6 +61194,7 @@ inapps.appsflyersdk.com^
 ||tvpqnh.xyz^
 ||bxoaeju.icu^
 ||nznkaq5.cn^
+||hahusa.top^
 ||wnootzc.icu^
 ||eiuoom.xyz^
 ||bavotr.xyz^
@@ -67661,6 +67667,7 @@ analytics-*.aasaam.com
 ||new-sentry.digikala.com^
 ||sentry.divar.cloud^
 ||actionlog.divar.ir^
+||analytics.fam.ir^
 ||sentry.fidibo.net^
 ||vast.filmnet.ir^
 ||analytics.football360.ir^
@@ -67749,6 +67756,7 @@ analytics-*.aasaam.com
 ||mogo-crypto.net^
 ||tinancefa.org^
 ||chancx.io^
+||falixa.com^
 ||laxsson.com^
 ||tradergpt.ai^
 ||meashstis.ir^
