@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1v6RqD1NDR5aB9CfJcyKjg
+! Checksum: nGCOiwgljaIDRch5YBD26A
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202407190959
-! Last Modified: 2024年07月19日 09:59
+! Version: 202407192000
+! Last Modified: 2024年07月19日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1327,6 +1327,7 @@ tv.vg.no#$#abort-on-property-write __AB__; abort-on-property-read AB;
 ! RM-19
 ! TB
 allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/ancestor::div[@data-box-name="allegro.advertising.adspremium"]';
+allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/ancestor::div[@data-box-name="allegro.ads.dss.banner"][1]'
 ! SA
 allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/parent::div/ancestor::a[@role]';
 ! PC
@@ -1696,7 +1697,7 @@ metruyenchu.com#$#abort-on-property-write window.onclick
 truyentuan.xyz#$#abort-current-inline-script $ btpop
 player-cdn.com#$#override-property-read detectAdBlockAll noopFunc; override-property-read detectAdBlock noopFunc
 player-cdn.com###playback-fake
-empireoutletsnyc.com#$#abort-on-property-read adsRedirectPopups
+mythicalcreaturesguide.com#$#abort-on-property-read adsRedirectPopups
 sexdiaryz.us#$#abort-on-property-read parseInt
 linkneverdie.net#$#abort-current-inline-script document.createElement optad;abort-on-property-read pushOnPageGala
 javnong.cc#$#abort-on-property-read Math.round
@@ -1733,10 +1734,12 @@ cdn2.blueskychilling.online#$#abort-current-inline-script $ open
 phimmoiiii.net#$#abort-current-inline-script addEvent popu
 freeplayervideo.com,abysscdn.com,player-cdn.com,geoip.redirect-ads.com#$#override-property-read open noopFunc
 nettruyenaa.com#$#abort-on-property-read links
-goctruyentranhvui2.com#$#abort-current-inline-script WebAssembly globalThis
+goctruyentranhvui2.com,mobiblog.club,truyenqqviet.com#$#abort-current-inline-script WebAssembly globalThis
 ! *** abp-filters-hotfix:hotfix.txt ***
 ! FDA-2994
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument
+! FD-6566
+howdyho.net,howdyho.pro#@#:not(my-obnaruzhili-blokirovshchik)
 ! *** abp-filters-anti-cv:distribution/abp-filters-partners.txt ***
 ! Filters to be used by distribution partners
 ! #CV-782
