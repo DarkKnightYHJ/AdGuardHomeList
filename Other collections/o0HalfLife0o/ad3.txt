@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: maOUu6sPRDJ0BhbOn9vvCQ
+! Checksum: WrsLbbHmBB2TNJrdq0FEEQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202407182000
-! Last Modified: 2024年07月18日 20:00
+! Version: 202407190959
+! Last Modified: 2024年07月19日 09:59
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1841,6 +1841,13 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||107.167.22.*.gif
 ||cupfox.app^$third-party
+||ofebyk.xyz^
+||mdipsumx.top^
+||jsdelivr.vip^
+||macoms.la^
+||rebojf.xyz^
+||tvpqnh.xyz^
+||bxoaeju.icu^
 ||wnootzc.icu^
 ||eiuoom.xyz^
 ||bavotr.xyz^
@@ -33752,6 +33759,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||edge.staging.fullstory.com^
 ||edisound.com/api/p/stats
 ||eec.crunchyroll.com^
+||effect.habr.com^
 ||eharmony.ca/fd/
 ||eharmony.co.uk/bd/
 ||eighten-bloc-party.thebrowser.company/script.js
@@ -34114,6 +34122,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||logx.optimizely.com^
 ||lolwot.com/B5xaqzSGvMTM.js
 ||lookawoman.com/t/
+||loom.com/insights-api/graphql
+||loom.com/metrics/graphql
 ||lowes.com/gauge/
 ||lyft.com/api/track
 ||lyngsat.com/system/loadclick.js
@@ -34530,6 +34540,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.codeur.com^
 ||stats.davidickedelivery.com^
 ||stats.gateio.ch^
+||stats.habr.com^
 ||stats.ibtimes.co.in^
 ||stats.ibtimes.sg^
 ||stats.justpaste.it^
@@ -71250,6 +71261,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||igen.fr/modules/statistics/statistics.php
 ||insights.v3.decathlon.net^
 ||iphoneaddict.fr/wp-content/*/counter.php
+||iptvgratuit.net/wp-content/*/analytics.js
 ||jeu.net/hits.js
 ||jscrambler.com^$script,domain=airfrance.fr
 ||kwgs.letudiant.fr^
@@ -72628,6 +72640,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||travel-assets.com/platform-analytics-prime/$domain=chase.com
 @@||tunein.com/api/v1/comscore$~third-party
 @@||userapi.com^*.gif?extra=$image,domain=vk.com
+@@||usplastic.com/js/hawk.js
 @@||uwufufu.com/_nuxt/mixpanel.$~third-party
 @@||vast.com/vimpressions.js$domain=everycarlisted.com
 @@||vidible.tv^*/ComScore.StreamSense.js
