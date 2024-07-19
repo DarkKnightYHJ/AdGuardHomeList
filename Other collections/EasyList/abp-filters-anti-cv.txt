@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: DNY84LfC7E3TagAJLYzlXA
-! Version: 202407191701
+! Checksum: QG25VIfvg7IEM68uBxADRg
+! Version: 202407191811
 ! Title: ABP filters
-! Last modified: 19 Jul 2024 17:01 UTC
+! Last modified: 19 Jul 2024 18:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -561,6 +561,7 @@ acmemarkets.com,albertsons.com,andronicos.com,balduccis.com,carrsqc.com,haggen.c
 ebay.*#$#hide-if-matches-xpath './/div[contains(@class,"sponsored-infotip")]/parent::div[starts-with(@class,"ads")]/parent::div[contains(@class,"ads")]/ancestor::div[@id and @aria-label="Advertisement"]'
 ebay.fr#$#hide-if-matches-xpath './/a[@*]/img [@src][contains(@alt,"reconditionné")]/parent::a[@class="srp-banner"]/ancestor::li[contains(@class,"SIMPLE_IMAGE_BANNER")][1]'
 ebay.*#$#hide-if-matches-xpath './/div[@class="srp-1p__ad-column"]/ancestor-or-self::a[@class="srp-1p__link"]'
+ebay.com#$#hide-if-contains-visible-text /Sponsored/ 'div[id^="placement"][style]' div>span ^^sh^^ div[style]
 ! cp
 ebay.*#$#hide-if-matches-xpath './/a[contains(@href,"&amdata=")]//img[@src]//ancestor-or-self::li[contains(@class,"s-item")][1]'
 ! pp
