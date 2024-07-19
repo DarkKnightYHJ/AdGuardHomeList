@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: RN6kDTh68HhueUTZnRpj8A
-! Version: 202407192001
+! Checksum: JtK4lFKBHRUZHzR4sp6X0w
+! Version: 202407192101
 ! Title: ABP filters
-! Last modified: 19 Jul 2024 20:01 UTC
+! Last modified: 19 Jul 2024 21:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -577,6 +577,8 @@ ebay.*#$#hide-if-contains-visible-text /[Ss]ponsored|[Aa]nzeigen|[Ss]ponsorisé|
 ebay.*#$#hide-if-contains-visible-text /.*/ 'div.recs-placement-arrangement' div.recs-grid-subtitle.recs-non-seller-title div ^^sh^^ * iframe *
 ebay.*#$#hide-if-contains-visible-text /.*/ 'div.recs-placement-arrangement' div.recs-item-list-subtitle.recs-non-seller-title div ^^sh^^ * iframe
 ebay.*#$#hide-if-matches-xpath './/div[@class="ads-pd-s2--sponsored"]/ancestor::section[contains(@class,"ads-berries")]/parent::div[@id][@aria-label]'
+ebay.*#$#hide-if-contains-visible-text /.*/ 'div.x-ads-slot>div[data-from^="ads_platform"]' div.recs-item-list-subtitle>div ^^sh^^ * iframe[title^="Sponsored"]
+ebay.*#$#hide-if-contains-visible-text /.*/ 'div[data-interactions*="ADV"]>div.recs-card-container' div.recs-grid-subtitle>div ^^sh^^ * iframe
 ! sp
 ebay.*#$#race start; hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzato|Sponsorowane|Gesponsord|Patrocinado|Anzeige/ 'li.s-item' '* li div>span>div ^^sh^^ span:not([aria-hidden="true"])'; hide-if-contains-and-matches-style /./ li[data-viewport] 'li[data-viewport] .s-item__sep>div ^^sh^^ span' /./ 'overflow-x: visible'; hide-if-contains-visible-text /./ 'li[data-viewport]' '.s-item__sep>div ^^sh^^ span:nth-child(2)'; hide-if-matches-computed-xpath './/div[contains(@class, "s-item__detail")]/span/div[@aria-labelledby = "{{}}"]/ancestor::li' './/style[contains(text(),"size: var")]' /^\\s*div\\.(.*?)_/; hide-if-matches-computed-xpath './/div[contains(@class,"s-item__detail")]/span/span[@aria-labelledby="{{}}"]/ancestor::li' './/script[contains(text(),"CSSStyleDeclaration")]' /getPropertyValue\\(\\"\\-\\-(.*?)\\"/; hide-if-matches-computed-xpath './/div[contains(@class,"s-item__detail")]/span/span[@aria-labelledby="{{}}"]/ancestor::li' './/style[contains(text(),"div:first-line")]' '/0px;\\s\\-\\-(.*?)\\:/'; hide-if-matches-computed-xpath './/li//span[@class="s-item__sep"]/span[@aria-labelledby="{{}}"]/ancestor::li' './/div[@id="srp-river-main"]//div[@class="clipped"]/li//span[@aria-labelledby]/..' '/labelledby=\\"(s-.{7})\\"/'; hide-if-matches-computed-xpath './/li//span/span[@aria-labelledby="{{}}"]/ancestor::li' './/div[@id="srp-river-main"]/div[@class="clipped"]/li//span[@aria-labelledby]/..' '/labelledby=\\"(s-.{7})\\"/'; race stop;
 ebay.*#$#hide-if-matches-computed-xpath './/style[contains(text(),"data:image")][contains(text(),"aria-labelledby")][contains(text(),"{{}}")]' './/style[contains(text(),"display: var")]' /span\.(.*?)\\s/; hide-if-matches-computed-xpath './/span[@class="s-item__sep"]/span[@aria-labelledby = "{{}}"]/ancestor::li' './/style[not(@style)][contains(text(),"data:image")][contains(text(),"aria-labelledby")]' /aria-labelledby=(.*?)\\]/
