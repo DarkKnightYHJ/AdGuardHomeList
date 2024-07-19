@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: zp3jXFHecTWGxfdjacWzsA
-! Version: 202407190611
+! Checksum: 3ObZsZjhb0I6KkfUx1u0Ow
+! Version: 202407190701
 ! Title: ABP filters
-! Last modified: 19 Jul 2024 06:11 UTC
+! Last modified: 19 Jul 2024 07:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1734,7 +1734,7 @@ cdn2.blueskychilling.online#$#abort-current-inline-script $ open
 phimmoiiii.net#$#abort-current-inline-script addEvent popu
 freeplayervideo.com,abysscdn.com,player-cdn.com,geoip.redirect-ads.com#$#override-property-read open noopFunc
 nettruyenaa.com#$#abort-on-property-read links
-goctruyentranhvui2.com#$#abort-current-inline-script WebAssembly globalThis
+goctruyentranhvui2.com,mobiblog.club,truyenqqviet.com#$#abort-current-inline-script WebAssembly globalThis
 ! *** abp-filters-hotfix:hotfix.txt ***
 ! FDA-2994
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument
