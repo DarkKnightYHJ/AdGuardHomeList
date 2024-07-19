@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 3ObZsZjhb0I6KkfUx1u0Ow
-! Version: 202407190701
+! Checksum: toSbGp9/tKc2qLlnUbs6bg
+! Version: 202407190810
 ! Title: ABP filters
-! Last modified: 19 Jul 2024 07:01 UTC
+! Last modified: 19 Jul 2024 08:10 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1328,6 +1328,7 @@ tv.vg.no#$#abort-on-property-write __AB__; abort-on-property-read AB;
 ! RM-19
 ! TB
 allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/ancestor::div[@data-box-name="allegro.advertising.adspremium"]';
+allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/ancestor::div[@data-box-name="allegro.ads.dss.banner"][1]'
 ! SA
 allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/parent::div/ancestor::a[@role]';
 ! PC
