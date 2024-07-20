@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WROL2ez6Ex6iLKv/o0HVXQ
-! Version: 202407200411
+! Checksum: UIf9GkMJYagxgY4upnmVWQ
+! Version: 202407200501
 ! Title: EasyList China+EasyList
-! Last modified: 20 Jul 2024 04:11 UTC
+! Last modified: 20 Jul 2024 05:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -86831,6 +86831,7 @@ ggrecon.com##.artSideWrapBoxSticky
 scmp.com##.article--sponsor
 thelocal.at,thelocal.ch,thelocal.de,thelocal.es,thelocal.fr,thelocal.it,thelocal.no##.article--sponsored
 thehindu.com##.article-ad
+worldsoccertalk.com##.article-banner-desktop
 manilatimes.net##.article-body-content > .fixed-gray-color
 crn.com##.article-cards-ad
 coindesk.com##.article-com-wrapper
@@ -91283,6 +91284,7 @@ thepinknews.com##.video-player__container
 consequence.net##.video_container
 bigthink.com##.wrapper-connatixElements
 bigthink.com##.wrapper-connatixPlayspace
+worldsoccertalk.com##[id*="primis_"]
 offidocs.com##[id^="ja-container-prev"]
 hollywoodreporter.com##[id^="jwplayer"]
 wlevradio.com##a[href^="https://omny.fm/shows/just-start-the-conversation"]
@@ -93022,7 +93024,6 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||lastpass.com/images/ads/$image,~third-party
 @@||letocard.fr/wp-content/uploads/$image,~third-party
 @@||linkbucks.com/tmpl/$image,stylesheet
-@@||live.primis.tech/live/$script,domain=worldsoccertalk.com
 @@||live.primis.tech^$script,domain=eurogamer.net|klaq.com|loudwire.com|screencrush.com|vg247.com|xxlmag.com
 @@||live.primis.tech^$xmlhttprequest,domain=xxlmag.com
 @@||live.streamtheworld.com/partnerIds$domain=iheart.com|player.amperwave.net
