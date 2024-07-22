@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1cLN8E69rc8eyaF8VREI8g
-! Version: 202407221311
+! Checksum: JoWQf0/y18t0kfXeFycQew
+! Version: 202407221401
 ! Title: EasyList China+EasyList
-! Last modified: 22 Jul 2024 13:11 UTC
+! Last modified: 22 Jul 2024 14:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1011,7 +1011,7 @@ newduba.cn###jq_youxi
 ###piao_div_3[style*="width:140px;"]
 ###piao_div_4[style*="width:140px;"]
 ###piao_div_5[style*="width:140px;"]
-###play[style="padding: 10px;"] > a[href="/0705.html"]
+###play[style="padding: 10px;"] > a[href*=".xmcdn.com"]
 ###player-bottom-ads
 ###playerAdvLayer
 ###player_banner[style*="fixed;"]
@@ -1708,6 +1708,9 @@ newduba.cn###jq_youxi
 ||38.33.15.*.gif
 ||67.21.92.*.gif
 ||cupfox.app^$third-party
+!
+||grondrens.com^
+||oyretuk.top^
 !
 ||dv4ku.icu^
 ##a[href*=".68hantang.com"]
@@ -3351,7 +3354,6 @@ newduba.cn###jq_youxi
 ||zxfdbr.xyz^
 ||zxqiwe.cn^
 ||zyfnbl.xyz^
-!
 ##a[href*=".cgn8j9f4j3g.com:"]
 ##a[href*=".cvezsacxz.com/"]
 ##a[href*=".downok.com"]
@@ -74771,6 +74773,7 @@ browsershots.org#@#.advert_area
 ||076f66b2.live^$document,popup
 ||07c225f3.online^$document,popup
 ||07e197.site^$document,popup
+||08f8f073.xyz^$document,popup
 ||09bd5a69.xyz^$document,popup
 ||0ae00c7c.xyz^$document,popup
 ||0c0b6e3f.xyz^$document,popup
@@ -82448,6 +82451,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||thefinancialexpress.com.bd/images/rocket-250-250.png
 ||theindependentbd.com/assets/images/banner/
 ||thephuketnews.com/photo/banner/
+||theplatform.kiwi/ads/
 ||theseoultimes.com/ST/banner/
 ||thespike.gg/images/bc-game/
 ||thisgengaming.com/Scripts/widget2.aspx
