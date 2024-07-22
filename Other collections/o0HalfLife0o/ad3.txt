@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: e4pstaNkwALK1I6Oo8gngg
+! Checksum: 8G3qgZROgQ6hDG/CSPLejw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202407220200
-! Last Modified: 2024年07月22日 02:00
+! Version: 202407220801
+! Last Modified: 2024年07月22日 08:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1843,6 +1843,15 @@ newduba.cn###jq_youxi
 ||107.167.22.*.gif
 ||cupfox.app^$third-party
 ||zqkxlf.com^
+||baijs011.xyz^
+||google-js-09.xyz^
+||zvhlzb.xyz^
+||fmkipgm.icu^
+||gcylkq.xyz^
+||cetlwsf.top^
+||dfan4.icu^
+||lsjazn.xyz^
+||dokfrl.xyz^
 ||25662zubo23739.com^
 ||88362zubo95838.com^
 ||cosmo001.top^
@@ -11892,8 +11901,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 landiannews.com##a[href*="ourl.co"]
-||baijs011.xyz^
-||google-js-09.xyz^
 7itv.com##body > div[style]
 fengchedmp.com##body > div[style]
 huya.com##.huya-ab
@@ -31581,6 +31588,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.cfjump.com^
 ||t.channeladvisor.com^
 ||t.clic2buy.com^
+||t.cometlytrack.com^
 ||t.dgm-au.com^$third-party
 ||t.enuygun.com^
 ||t.fullres.net^
@@ -34307,6 +34315,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ovyerus.com/js/script.js
 ||p.ctpost.com/article?
 ||p.hentaiforce.net^
+||p.lucida.to^
 ||p.minds.com^
 ||p.sfx.ms/is/invis.gif
 ||pac.thescottishsun.co.uk^
@@ -34348,7 +34357,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixiedust.buzzfeed.com^
 ||pks-analytics.raenonx.cc^
 ||pl.letsblock.it^
-||pl.lucida.to^
 ||plausible.bots.gg^
 ||plausible.dragonfru.it^
 ||plausible.omgapi.org^
