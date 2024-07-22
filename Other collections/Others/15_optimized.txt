@@ -1,9 +1,9 @@
-! Checksum: rl5Unb0Sh5ZQbmWwQge1bQ
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1721630188-3600.patch
+! Checksum: xEf5UY68WbVG0c2f3HFgzg
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1721652004-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.68.28
-! TimeUpdated: 2024-07-22T06:33:21+00:00
+! Version: 2.0.68.29
+! TimeUpdated: 2024-07-22T12:36:06+00:00
 ! Expires: 5 days (update frequency)
 ||ljr3.site^
 ||lcarlbvwr.com^
@@ -50118,7 +50118,6 @@ inapps.appsflyersdk.com^
 ||dig.ultimedia.com^
 ||dl.episerver.net^
 ||doppler-client-events.cbsivideo.com^
-||doppler-config.cbsivideo.com^
 ||doppler-reporting.cbsivideo.com^
 ||dotaudiences.com^
 ||dynamic.ziftsolutions.com^
@@ -50543,6 +50542,7 @@ inapps.appsflyersdk.com^
 ||tracker.marinsoftware.com^
 ||tracker.mrpfd.com^
 ||tracker.myyschool.xyz^
+||tracker.nocodelytics.com^
 ||tracker.novage.com.ua^
 ||tracker.openwebtorrent.com^
 ||tracker.services.vaix.ai^
