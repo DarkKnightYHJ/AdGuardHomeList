@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: glD5IGQm91x0AntElTqhlg
+! Checksum: 7Ddm8KeR3Wc1kwjhDPKV+A
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202407240801
-! Last Modified: 2024年07月24日 08:01
+! Version: 202407241400
+! Last Modified: 2024年07月24日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -67882,6 +67882,7 @@ yourstory.com##.dJEWSq
 fxempire.com##.dKBfBG
 cryptorank.io##.dPbBGP
 standard.co.uk##.dXaqls
+vogue.com.au##.dYmYok
 timesofindia.indiatimes.com##.d_jsH.mPws3
 counter.dev,lindaikejisblog.com##.da
 engadget.com##.da-container
@@ -69453,6 +69454,7 @@ boomlive.in##.right_ad_4
 gamemodding.com##.right_banner
 softicons.com##.right_ga
 thehansindia.com##.right_level_7
+footballdb.com##.rightcol_ad
 smartasset.com##.riklam-container
 ip.sb##.rivencloud_ads
 rocket-league.com##.rlg-footer-ads-container
@@ -75561,6 +75563,9 @@ newduba.cn###jq_youxi
 ||ryqgdrh.icu^
 ||ietlwso.top^
 ||jdfzfd.xyz^
+||doujs01.shop^
+||bewr1.com^
+||heatherssb.com^
 ||yfasjfk.icu^
 ||hetlwsu.top^
 ||1p3yg.icu^
@@ -79755,6 +79760,7 @@ $popup,third-party,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downh
 ||yy18.info^*thanks$popup
 !----------------------Specific advert blocking filters-----------------------!
 $image,third-party,domain=lady1.top
+$third-party,xmlhttprequest,websocket,domain=qiyoudy2.com|qiyoudy4.com
 $script,third-party,domain=52movieba.com|audio699.com|kan-tv.com|m.supfree.net|movieffm.net|xiaoxintv.net
 $script,third-party,websocket,domain=52codes.net
 $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|xyg688.xyz|zzzzz688.com
