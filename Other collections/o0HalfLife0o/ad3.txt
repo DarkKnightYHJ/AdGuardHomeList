@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rfoZLOiIaJw4U4lS5K4wAw
+! Checksum: SiZUbynUWq76ZLIVyK55/A
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202407260200
-! Last Modified: 2024年07月26日 02:00
+! Version: 202407260801
+! Last Modified: 2024年07月26日 08:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1848,6 +1848,11 @@ newduba.cn###jq_youxi
 ||38.33.15.*.gif
 ||67.21.92.*.gif
 ||cupfox.app^$third-party
+||dpweupc.icu^
+||clqjyw.xyz^
+||xjpmlf.xyz^
+||ketlwsd.top^
+||dy10000.net^
 ||kwgqaqf.icu^
 ||uicdns.xyz^
 ||qzsvwo.xyz^
@@ -23635,7 +23640,7 @@ m.babytree.com##script + a[class]
 ://collect.*/pageview
 ://collector.*/event
 ://elqtrk.
-://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
+://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://gtrack.*/dye
 ://insights-collector.
 ://internal-matomo.
@@ -27886,6 +27891,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bob-recs.com^$third-party
 ||btg360.com.br^$third-party
 ||clearsale.com.br^$third-party
+||dataroyal.com.br^$third-party
 ||dataunion.com.br^$third-party
 ||denakop.com^$third-party
 ||engageya.com^$third-party
