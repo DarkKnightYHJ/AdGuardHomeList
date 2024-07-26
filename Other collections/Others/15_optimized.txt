@@ -1,10 +1,12 @@
-! Checksum: ZTsAmpWDhfGIh4M4mTFvCg
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1721975816-3600.patch
+! Checksum: NWRl1MP1TpchZ+Lm7E9u+Q
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1721997395-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.68.45
-! TimeUpdated: 2024-07-26T06:33:40+00:00
+! Version: 2.0.68.46
+! TimeUpdated: 2024-07-26T12:33:20+00:00
 ! Expires: 5 days (update frequency)
+||ywmvppnlwwxkgt.com^
+||chouchicky.com^
 /^139\.45\.197\.2(4[0-9]|5[0-4]):/
 ||crewedbangup.com^
 ||prwfwayui.com^
@@ -3287,6 +3289,7 @@ vkcdnservice.appspot.com^
 ||adserved.net^
 ||adserverplus.com^
 ||adserverpub.com^
+||adservf.com^
 ||adservicemedia.dk^
 ||adservon.com^
 ||adservr.de^
@@ -41080,6 +41083,7 @@ vkcdnservice.appspot.com^
 ||6a6672.xyz^
 ||70b927c8.live^
 ||7608d5.xyz^
+||7841ffda.xyz^
 ||7ca989e1.xyz^
 ||7e60f1f9.xyz^
 ||7e809ed7-e553-4e29-acb1-4e3c0e986562.site^
