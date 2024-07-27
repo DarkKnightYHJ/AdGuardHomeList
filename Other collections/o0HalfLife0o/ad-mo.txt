@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OZe+p3LVmdjBTVuhmIfqvg
+! Checksum: teBDABw0iZ2tfE8zaX4XdQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202407271400
-! Last Modified: 2024年07月27日 14:00
+! Version: 202407272000
+! Last Modified: 2024年07月27日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -67536,6 +67536,7 @@ oxygen.com,syfy.com##.blog-post-section__zergnet
 blogto.com##.blogto-sticky-banner
 manhwaindo.id##.blox
 bescore.com##.bn
+firstpost.com##.bn-add
 savefree.in,surattimes.com##.bn-content
 nilechronicles.com##.bn-lg-sidebar
 snow-forecast.com,weather-forecast.com##.bn-placeholder
@@ -71872,6 +71873,7 @@ msn.com###displayAdCard
 msn.com###div[id^="mrr-topad-"]
 msn.com###partners
 msn.com###promotions
+msn.com##.ad-banner-wrapper
 msn.com##.articlePage_bannerAd_wrapper-DS-EntryPoint1-1
 msn.com##.articlePage_eoabNativeAd_new-DS-EntryPoint1-1
 msn.com##.bannerAdContainer-DS-EntryPoint1-1
@@ -142776,6 +142778,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||cookielaw.org^*/OtAutoBlock.js$domain=bancsabadell.com|darkreading.com|uphold.com
 !! cxense.com/document/search?
 @@||cxense.com/document/search?
+!! cxense.com/persisted/execute
+@@||cxense.com/persisted/execute$domain=nippon.com
 !! cxense.com/public/widget/
 @@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|computerbild.de|cxpublic.com|cyclestyle.net|friday.gold|friday.kodansha.co.jp|handelsblatt.com|inquirer.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|savonsanomat.fi|shueisha.co.jp|tn.com.ar|tvnet.lv|wsj.com
 !! cxense.com/cx.cce.js
