@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ACTZtS70XnFmsu/MwBcdLA
-! Version: 202407291010
+! Checksum: jbfDcqiIGaIYZhqjO6A2OA
+! Version: 202407291101
 ! Title: EasyList China+EasyList
-! Last modified: 29 Jul 2024 10:10 UTC
+! Last modified: 29 Jul 2024 11:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -18569,7 +18569,7 @@ fqsousou.com,kengso.com#@#.user-share
 -ads-banner.
 -ads-bottom.
 -ads-manager/$domain=~wordpress.org
--ads/assets/$domain=~web-ads.org
+-ads/assets/$script,domain=~web-ads.org
 -assets/ads.$~script
 -auto-ads-
 -banner-ad_
@@ -75175,6 +75175,7 @@ browsershots.org#@#.advert_area
 ||acf705ad.xyz^$document,popup
 ||af6937a2.live^$document,popup
 ||b0eb63.xyz^$document,popup
+||b0f2f18e.xyz^$document,popup
 ||b211.xyz^$document,popup
 ||b2bf222e.xyz^$document,popup
 ||b51475b8.xyz^$document,popup
