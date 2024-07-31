@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: iC/zwOxgzR00gSd1HDqlsA
-! Version: 202407311601
+! Checksum: KenoCge0r2bN7b/hg+ssaA
+! Version: 202407311701
 ! Title: EasyList China+EasyList
-! Last modified: 31 Jul 2024 16:01 UTC
+! Last modified: 31 Jul 2024 17:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -91755,6 +91755,7 @@ twiman.net##div[class*="my-"][class*="px\]"]
 xhaccess.com,xhamster.com,xhamster.desi,xhamster2.com,xhamster3.com,xhamster42.desi##div[class*="promoMessageBanner-"]
 camsoda.com##div[class^="AdsRight-"]
 ovacovid.com##div[class^="Banner-"]
+cam4.com,cam4.eu##div[class^="SponsoredAds_"]
 hentaicovid.com##div[class^="banner-"]
 xporno.tv##div[class^="block_ads_"]
 hpjav.top##div[class^="happy-"]
@@ -91814,6 +91815,8 @@ xxxcomics.org##video
 tube8.es,tube8.fr,youporngay.com##video[autoplay]
 porndoe.com,redtube.com##video[autoplay][src*="blob:" i]
 porndoe.com,redtube.com##video[autoplay][src*="data:" i]
+! top-level domain wildcard
+cam4.*##div[class^="SponsoredAds_"]
 ! :has()
 porn-w.org##.align-items-center.list-row:has(.col:empty)
 picsporn.net##.box:has(> .dip-exms)
