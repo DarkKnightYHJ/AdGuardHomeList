@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: Ylnof2WRk4Dt35qCqqVmkA
-! Version: 202408012201
+! Checksum: uV1rRrJmO3hOpXzai81Y0w
+! Version: 202408012301
 ! Title: EasyPrivacy
-! Last modified: 01 Aug 2024 22:01 UTC
+! Last modified: 01 Aug 2024 23:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2641,6 +2641,7 @@
 /x.gif?
 /x_track.php?
 /xgemius.js
+/xinhua_webdig.js
 /xiti.js
 /xml/pv.xml?
 /xn_track.min.js
@@ -3197,6 +3198,7 @@ omni.soundestlink.com$image
 ||fastfinch.co^
 ||fastgull.io^
 ||fasttiger.io^
+||featuregates.org^
 ||ffbbbdc6d3c353211fe2ba39c9f744cd.com^
 ||ffe390afd658c19dcbf707e0597b846d.de^
 ||fn-pz.com^
@@ -10464,7 +10466,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||c.seznam.cz^
 ||counter.cnw.cz^
 ||h.imedia.cz^
-||h.seznam.cz/hit/
+||h.seznam.cz/hit
 ||h.seznam.cz/js/dot-small.js
 ||hit.skrz.cz^
 ||i.imedia.cz^
@@ -11839,6 +11841,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||intent.pcworld.idg.com.au^
 ||intent.techadvisor.com^
 ||internal-analytics.odoo.com^
+||internal-e.posthog.com^
 ||internetslang.com/jass/
 ||intg.snapchat.com^
 ||intuitvisitorid.api.intuit.com^
@@ -12755,6 +12758,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||youtube.com/ptracking?
 ||youtube.com/set_awesome?
 ||youtube.com/youtubei/v1/log_event?
+||youtube.com/youtubei/v1/player/heartbeat?
 ||youtube.googleapis.com/youtubei/v1/log_event?
 ||youtubekids.com/api/stats/ads?
 ||youtubekids.com/api/stats/qoe?
@@ -50074,6 +50078,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ! Portuguese
 ||audience-mostread.r7.com^
 ||click.uol.com.br^
+||csplog.kwai-pro.com^
 ||dejavu.mercadolivre.com.br^
 ||dn.pt/tag/
 ||dna.uol.com.br^
@@ -50089,6 +50094,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||log-ads.r7.com^
 ||logger.rm.uol.com.br^
 ||logger.uol.com.br^
+||logsdk.kwai-pro.com^
 ||matt.mercadolivre.com.br^
 ||metrics.uol.com.br^
 ||olx.com.br^*/lurker.
