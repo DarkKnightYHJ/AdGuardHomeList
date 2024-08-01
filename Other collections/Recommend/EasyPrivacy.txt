@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: XR2y4vY9h/f5tbWeNYQyaw
-! Version: 202408012111
+! Checksum: Ylnof2WRk4Dt35qCqqVmkA
+! Version: 202408012201
 ! Title: EasyPrivacy
-! Last modified: 01 Aug 2024 21:11 UTC
+! Last modified: 01 Aug 2024 22:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1899,6 +1899,7 @@
 /rwtag.js
 /s-pcjs.php
 /s.gif?
+/s/js/ta-2.3.js?
 /s/vestigo/measure
 /s_code_global_context.js
 /s_trans.gif?
@@ -7351,6 +7352,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics-cms.whitebeard.me^
 ||analytics-consent-manager-v2-prod.azureedge.net^
 ||analytics-prd.aws.wehaa.net^
+||analytics-prod-alb-292764149.us-west-2.elb.amazonaws.com^
 ||analytics-production.hapyak.com^
 ||analytics-scripts.cablelabs.com^
 ||analytics-sg.tiktok.com^
@@ -11287,6 +11289,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||audacy.com/data-events/
 ||aurum.tirto.id^
 ||auth.services.adobe.com/signin/v1/audit
+||autotrader.com/*/pep?pixallId
 ||autotrader.com/pixall/
 ||avitop.com/aviation/hitlist.asp
 ||b629.electronicdesign.com^
@@ -11594,6 +11597,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||event-api.reverb.com^
 ||event-collector.moviesanywhere.com^
 ||event-router.olympics.com^
+||event.platform.autotrader.com.au^
 ||event.platform.tunein.com^
 ||eventlog.jackpot.de^
 ||events-ingestion.services.gorgias.com^
@@ -11681,6 +11685,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||freeplayervideo.com/cdn-cgi/trace
 ||freeprivacypolicy.com/track/
 ||fresnel-events.vimeocdn.com^
+||fsho.st/tracker.js
 ||ft.com/ingest?
 ||fullscreen.nz/v1/tracking/$domain=threenow.co.nz
 ||fusevideo.io/api/event
@@ -11808,6 +11813,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||imgur.com/imageview.gif?
 ||impressions.svc.abillion.com^
 ||improve.tempest.com^
+||in.brilliant.org^
 ||indeed.com/cmp/_rpc/dwell-log?
 ||indeed.com/cmp/_rpc/flog
 ||indeed.com/cmp/_rpc/logentry
@@ -12192,8 +12198,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||r.3hentai.net^
 ||r.apkpure.net^
 ||r.bbci.co.uk^
-||raenonx.cc/api/analytics
-||raenonx.cc/api/usage
+||raenonx.cc/api/tag
+||raenonx.cc/g/usage/
 ||raindrop.io/pb/api/event
 ||rakuten.com/rmsgjs/soj2.js
 ||ranker.com/api/px
@@ -12453,6 +12459,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||taiwanplus.com/api/video/startVideo
 ||tao.barstoolsports.com^
 ||tapeadsenjoyer.com/stat/
+||tapeadvertisement.com/stat/
 ||tapeantiads.com/stat/
 ||tapeblocker.com/stat/
 ||tapelovesads.org/stat/
@@ -12468,7 +12475,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||target.nationwide.com^
 ||target.nejm.org^
 ||targeting.washpost.nile.works^
-||tarnkappe.info/matjC.js
 ||tc.geniusmonkey.com^
 ||tccd.douglas.
 ||td.airdroid.com^
