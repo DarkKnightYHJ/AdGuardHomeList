@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uoJeJ1UgB4L13mx15+DquQ
+! Checksum: xD0VCLPfJVMS+oAp19c9mg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202408010801
-! Last Modified: 2024年08月01日 08:01
+! Version: 202408020200
+! Last Modified: 2024年08月02日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -522,6 +522,7 @@ ajaxshowtime.com##div.leaderboard_ad + div
 ! RM-61
 @@||woolworths.com.au^$generichide
 woolworths.com.au#$#hide-if-contains-visible-text /\s*Promoted\s*/ 'shared-grid .ng-star-inserted wc-product-tile' 'wc-product-tile ^^sh^^ div.sponsored-text'
+woolworths.com.au#$#hide-if-contains-visible-text /\s*Promoted\s*/ 'div>wc-product-tile' 'wc-product-tile ^^sh^^ div.sponsored-text'
 ! CV-1364
 etoland.co.kr#$#hide-if-matches-xpath './/span/div[contains(@style,"display: flex; justify-content: center; align-items: center; position: relative;")]/ancestor-or-self::span'
 etoland.co.kr#$#abort-on-property-write Element.prototype.remove; abort-on-property-read adshield; override-property-read alert true; abort-on-property-read btoa; override-property-read confirm true;
@@ -827,7 +828,7 @@ bing.com#?#li[class="b_algo"]:-abp-has(a[href="#"]:not([class]))
 ! sl, sc, fbt
 instacart.ca,instacart.com#$#race start; hide-if-has-and-matches-style 'img[alt="Sponsored"]' '#store-wrapper li' '#store-wrapper li div[aria-label="Product"] * ^^sh^^ section ^^sh^^ *'; hide-if-has-and-matches-style 'img[alt="Sponsored"]' '#store-wrapper li' '#store-wrapper li div[aria-label="Product"] * ^^sh^^ *'; hide-if-has-and-matches-style 'section[style]' 'li' 'li div[aria-label="Product"] * ^^sh^^ div ^^sh^^ *'; hide-if-has-and-matches-style 'section[style]' 'div[aria-label="Product"]' 'div[aria-label="Product"] * ^^sh^^ article ^^sh^^ *'; hide-if-has-and-matches-style 'img[alt="Sponsored"]' div[aria-label="Product"] 'div[aria-label="Product"] * ^^sh^^ * ^^sh^^ *'; hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' 'div[aria-label="Product"]' 'div[aria-label="Product"] * ^^sh^^ * ^^sh^^ *'; hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' 'div[aria-label="Product"]' 'div[aria-label="Product"] * ^^sh^^ article>div'; hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' 'div[aria-label="Product"]' 'div[aria-label="Product"] article>div'; hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' 'div[aria-label="Product"]' 'div[aria-label="Product"] div[style]>div[style]'; hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' 'div>li[data-testid]' 'div[aria-label="Product"] div[style]>span'; hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' li div[aria-label="Product"] 'div[aria-label="Product"] aside[style] div>span'; hide-if-has-and-matches-style 'img[alt*="Sponsored"]' div[aria-label="Product"] 'div[aria-label="Product"] *'; hide-if-has-and-matches-style 'img[alt*="spons"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[src*="sponsored"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[alt*="spawnserd"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[alt*="spaahnserd"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[alt*="spawhnserd"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[alt*="spaunsered"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; race stop;
 ! ta, mc
-instacart.ca,instacart.com#$#race start; hide-if-contains-visible-text /./ section 'section ^^sh^^ section ^^sh^^ article>div+*'; hide-if-contains-visible-text /./ section 'section ^^sh^^ article>div+div[aria-hidden]>span'; hide-if-has-and-matches-style 'img[alt="Sponsored"]' div 'div * ^^sh^^ * ^^sh^^ * div[aria-hidden]'; hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' div 'div ^^sh^^ div ^^sh^^ * div[aria-hidden]'; hide-if-has-and-matches-style 'img[alt*="Sponsored"]' span[id] 'span[id] * ^^sh^^ * ^^sh^^ * div[aria-hidden]'; hide-if-has-and-matches-style 'img[alt*="spons"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[src*="sponsored"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[src*="sored_"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spawnserd"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spaahnserd"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spawhnserd"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spaunsered"]' article[id] 'article[id] *' race stop;
+instacart.ca,instacart.com#$#race start; hide-if-contains-visible-text /./ section 'section ^^sh^^ section ^^sh^^ article>div+*'; hide-if-contains-visible-text /./ section 'section ^^sh^^ article>div+div[aria-hidden]>span'; hide-if-has-and-matches-style 'img[alt="Sponsored"]' div 'div * ^^sh^^ * ^^sh^^ * div[aria-hidden]'; hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' div 'div ^^sh^^ div ^^sh^^ * div[aria-hidden]'; hide-if-has-and-matches-style 'img[alt*="Sponsored"]' span[id] 'span[id] * ^^sh^^ * ^^sh^^ * div[aria-hidden]'; hide-if-has-and-matches-style 'img[alt*="spons"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[src*="sponsored"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[src*="sored_"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spawnserd"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spaahnserd"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spawhnserd"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spaunsered"]' article[id] 'article[id] *'; race stop;
 instacart.com#$#hide-if-matches-xpath './/img[@alt="Sponsored"][contains(@src,".svg")]/parent::div[1]'; hide-if-matches-xpath './/div[@class]/span/preceding::img[contains(@src,"image_display_banner")][contains(@alt,"Silk")][not(@type)][not(@srcset)]/ancestor-or-self::section[1]'
 ! fi
 instacart.ca,instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::div[@id="Featured Items"]'
@@ -1344,10 +1345,11 @@ allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/ancestor::div
 allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/ancestor::div[@data-box-name="allegro.ads.dss.banner"][1]'
 ! SA
 allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/parent::div/ancestor::a[@role]';
-! PC
+! PP
 allegro.*##div[data-box-name^="ads"]
 allegro.*#$#hide-if-matches-xpath './/h2[text()][@data-role="replaceable-title"]/following::span[.="Sponsorowane" or .="Sponsored" or .="Спонсоровано" or .="Sponzorováno"]//ancestor::div[contains(@data-analytics-groups,"ads")]'; hide-if-matches-xpath './/h2[text()][@data-role="replaceable-title"]/following::span[.="Sponsorowane" or .="Sponsored" or .="Спонсоровано" or .="Sponzorováno"]/ancestor::div[@style][1]//ancestor::div[@data-box-name="structure-container" or @data-box-name="Car0usel card"]';
 allegro.*#$#hide-if-matches-xpath './/div[contains(@data-analytics-view-label,"sponsored")]/parent::div/ancestor::div[contains(@data-analytics-groups,"ads")]'
+allegro.pl#?#div[data-analytics-groups*="ads.tiles"]:-abp-has(span:-abp-properties(/content: "Sponsorowane";|"Рекламні";|"Sponsored";|"Спонсоровано";/))
 ! HB
 allegro.*#$#hide-if-matches-xpath './/span[.="Sponsorowane" or .="Sponzorováno"]/ancestor::div[@data-box-id][contains(@data-analytics-tags,"advertising")]';
 allegro.pl#$#hide-if-matches-xpath './/div[contains(@data-analytics-groups,"reklam") or contains(@data-analytics-groups,"kampanijna") or contains(@data-box-name,"Ads")]/ancestor::div[@data-box-name="structure-container"]';
@@ -1562,7 +1564,7 @@ volley.ru#$#override-property-read Object.prototype.preroll null
 players.com.ua#$#abort-on-property-read localStorage
 inforesist.org#$#abort-on-property-read alert
 dzen.ru,lena-miro.ru,levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru#$#hide-if-shadow-contains 'iframe'; hide-if-shadow-contains 'style'
-playground.ru#$#prevent-listener load checkVisibility; abort-on-property-read open
+playground.ru#$#prevent-listener load adfoxAsyncParams; abort-on-property-read open
 ! Prevent auto reload
 24boxing.com.ua,bilshe.com,businessua.com,f1analytic.com,f1ua.org.ua,football-ukraine.com,footballgazeta.com,footballtransfer.com.ua,glianec.com,nashamama.com,sportanalytic.com,stravy.net,zdorovia.com.ua#$#abort-current-inline-script setInterval reload
 ! Popup/popunder/clickunder
@@ -1597,7 +1599,7 @@ minigames.mail.ru#$#abort-on-property-read MG_CONFIG.adv.fit_mimic
 mmminigames.mail.ru#$#abort-current-inline-script addEventListener advRefreshInterval
 okminigames.mail.ru#$#override-property-read appDriver.hasVideoAd false
 otvet.mail.ru#$#abort-on-property-read vueApp.$adv.Adblock._adblockDetected
-mail.ru#$#replace-fetch-response /slot/
+mail.ru#$#replace-fetch-response /json/
 mail.ru#$#hide-if-contains-visible-text /Реклама/ 'div.tgb-wrapper' span
 ! #CV-713
 3dn.ru,a-point.info,addfiles.ru,akkordam.ru,all-for-kompa.ru,asia-tv.su,at.ua,autosimgames.ru,clan.su,db-energo.ru,devdrivers.ru,do.am,elegos.ru,elektronika56.ru,elektrosat.ru,fon-ki.com,for-gsm.ru,free-dream.ru,ftechedu.ru,fukushima-news.ru,gals.md,gloria-cedric.ru,goldformat.ru,greenflash.su,igrul-ka.ru,krasnickij.ru,krolmen.ru,megaclips.net,mow-portal.ru,moy.su,my1.ru,narod.ru,newgames.com.ua,novospasskoe-city.ru,omsimclub.ru,online-supernatural.ru,only-paper.ru,others.name,pidru4nik.com,pkrc.ru,play-force.ru,pohoronnoe-byuro.com,pokatushki-pmr.ru,pro-zakupki.ru,project-ss.ru,psxworld.ru,radiodom.org,rocketdockfree.ru,sdr-deluxe.com,soft-game.net,stalker-gsc.ru,stalker-zone.info,stalkermods.ru,svadbatomsk.ru,techmusic.ru,tes-game.ru,torfiles.ru,ucoz.club,ucoz.com,ucoz.net,ucoz.org,ucoz.ru,ucoz.ua,usite.pro,vodopads.ru,vsthouse.ru,xakevsoft.ru,xn--80aeshkkbdj.xn--p1ai,yaminecraft.ru,zona-stalkera.ru#$#abort-on-property-read Object.prototype.clunduse; abort-on-property-read k_init; abort-on-property-read Object.prototype.u_vastplayer
@@ -1719,7 +1721,7 @@ metruyenchu.com#$#abort-on-property-write window.onclick
 truyentuan.xyz#$#abort-current-inline-script $ btpop
 player-cdn.com#$#override-property-read detectAdBlockAll noopFunc; override-property-read detectAdBlock noopFunc
 player-cdn.com###playback-fake
-xoilacs.cc#$#abort-on-property-read adsRedirectPopups
+xoilact.cc#$#abort-on-property-read adsRedirectPopups
 sexdiaryz.us#$#abort-on-property-read parseInt
 linkneverdie.net#$#abort-current-inline-script document.createElement optad;abort-on-property-read pushOnPageGala
 javnong.cc#$#abort-on-property-read Math.round
