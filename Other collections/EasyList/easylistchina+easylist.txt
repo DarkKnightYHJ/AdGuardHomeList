@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9ACeXav/VfI64oK49BLSow
-! Version: 202408020310
+! Checksum: 57d43bDvT/0GiJwrZlYoQg
+! Version: 202408020411
 ! Title: EasyList China+EasyList
-! Last modified: 02 Aug 2024 03:10 UTC
+! Last modified: 02 Aug 2024 04:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -18598,7 +18598,6 @@ fqsousou.com,kengso.com#@#.user-share
 -ad-unit.
 -ad-util.
 -ad.jpg.pagespeed.
--adbanner.
 -ads-banner.
 -ads-bottom.
 -ads-manager/$domain=~wordpress.org
@@ -19115,7 +19114,6 @@ fqsousou.com,kengso.com#@#.user-share
 /css/adsense.
 /css/adv.
 /curveball/ads/*$image
-/custom_ads.js
 /data-file_123.js
 /deliverad/fc.js
 /delivery.ads.
@@ -89242,6 +89240,7 @@ analyticsindiamag.com##[href^="https://business.louisville.edu/"]
 learn-cpp.org##[href^="https://codingforkids.io"]
 wccftech.com##[href^="https://cutt.ly/"]
 yourstory.com##[href^="https://form.jotform.com/"]
+limetorrents.ninjaproxy1.com##[href^="https://gamestoday.org/"]
 ahaan.co.uk,emailnator.com,myip.is,scrolller.com,whereto.stream##[href^="https://go.nordvpn.net/"]
 everybithelps.io##[href^="https://hi.switchy.io/"]
 imagetwist.com##[href^="https://imagetwist.com/pxt/"]
@@ -92343,6 +92342,8 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 ! Fingerprint checks
 @@||fingerprintjs.com^$generichide
 @@||schemeflood.com^$generichide
+! Admiral baits
+@@||succeedscene.com^$script
 ! uBO-CNAME (Specific allowlists)
 @@||akinator.mobi.cdn.ezoic.net^$domain=akinator.mobi
 @@||banner.customer.kyruus.com^$domain=doctors.bannerhealth.com
