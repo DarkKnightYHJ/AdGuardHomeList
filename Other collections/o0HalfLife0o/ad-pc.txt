@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kvn1MuNk2Y1tuDFQMd5Ijg
+! Checksum: fu0pw/0hgMftUfFDDm6r+Q
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202408020801
-! Last Modified: 2024年08月02日 08:01
+! Version: 202408021400
+! Last Modified: 2024年08月02日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -458,7 +458,6 @@ tieba.baidu.com##.tuijian-wrap
 -ad-unit.
 -ad-util.
 -ad.jpg.pagespeed.
--adbanner.
 -ads-banner.
 -ads-bottom.
 -ads-manager/$domain=~wordpress.org
@@ -975,7 +974,6 @@ tieba.baidu.com##.tuijian-wrap
 /css/adsense.
 /css/adv.
 /curveball/ads/*$image
-/custom_ads.js
 /data-file_123.js
 /deliverad/fc.js
 /delivery.ads.
@@ -70929,6 +70927,7 @@ analyticsindiamag.com##[href^="https://business.louisville.edu/"]
 learn-cpp.org##[href^="https://codingforkids.io"]
 wccftech.com##[href^="https://cutt.ly/"]
 yourstory.com##[href^="https://form.jotform.com/"]
+limetorrents.ninjaproxy1.com##[href^="https://gamestoday.org/"]
 ahaan.co.uk,emailnator.com,myip.is,scrolller.com,whereto.stream##[href^="https://go.nordvpn.net/"]
 everybithelps.io##[href^="https://hi.switchy.io/"]
 imagetwist.com##[href^="https://imagetwist.com/pxt/"]
@@ -73997,6 +73996,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||wordpress.org/stats/plugin/$domain=wordpress.org
 @@||fingerprintjs.com^$generichide
 @@||schemeflood.com^$generichide
+@@||succeedscene.com^$script
 @@||akinator.mobi.cdn.ezoic.net^$domain=akinator.mobi
 @@||banner.customer.kyruus.com^$domain=doctors.bannerhealth.com
 @@||hwcdn.net^$script,domain=mp4upload.com
