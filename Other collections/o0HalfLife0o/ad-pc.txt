@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yxm9t5tFBNDZKuQn/pQEiw
+! Checksum: g/6NdRwwvYX3ZSwbD9wjqg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202408031400
-! Last Modified: 2024年08月03日 14:00
+! Version: 202408032000
+! Last Modified: 2024年08月03日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -716,6 +716,7 @@ tieba.baidu.com##.tuijian-wrap
 /ads/banners/*$image
 /ads/bottom.
 /ads/cbr.
+/ads/custom_ads.js
 /ads/delivery.
 /ads/footer.
 /ads/ga-audiences?
@@ -1164,6 +1165,7 @@ tieba.baidu.com##.tuijian-wrap
 /nxst-advertising/dist/htlbid-advertising.min.js
 /oiopub-direct/js.php
 /oncc-ad.js
+/oncc-adbanner.js
 /openads.js
 /owa.MessageAdList.
 /p8network.js
@@ -55587,6 +55589,7 @@ browsershots.org#@#.advert_area
 ||sourcecodeif.com^$document
 ||sprinlof.com^$document
 ||srvpcn.com^$document
+||srvtrck.com^$document
 ||stake.com/*&clickId=$document
 ||streameventzone.com^$document
 ||stt6.cfd^$document
@@ -55595,6 +55598,7 @@ browsershots.org#@#.advert_area
 ||sxlflt.com^$document
 ||tacopush.ru^$document
 ||takemybackup.co^$document
+||tatrck.com^$document
 ||tbao684tryo.com^$document
 ||tertracks.site^$document
 ||theirbellsound.co^$document
@@ -60561,6 +60565,7 @@ browsershots.org#@#.advert_area
 ||srv2trking.com^$popup
 ||srvpcn.com^$popup
 ||srvpub.com^$popup
+||srvtrck.com^$popup
 ||ssdwellsgrpo.info^$popup
 ||ssllink.net^$popup
 ||st-rdirect.com^$popup
@@ -60684,6 +60689,7 @@ browsershots.org#@#.advert_area
 ||taprtopcldfb.co^$popup
 ||tarebearpaw.top^$popup
 ||taroads.com^$popup
+||tatrck.com^$popup
 ||tauphaub.net^$popup
 ||tausoota.xyz^$popup
 ||tcare.today^$popup
@@ -64121,6 +64127,7 @@ browsershots.org#@#.advert_area
 ||zillastream.com/api/$popup
 !----------------------Specific advert blocking filters-----------------------!
 /assets/bn/movie.jpg$image,domain=vidstream.pro
+/pmc-adm-v2/build/setup-ads.js$domain=bgr.com|deadline.com|rollingstone.com
 /resolver/api/resolve/v3/config/?$xmlhttprequest,domain=msn.com
 asgg.php$domain=ghostbin.me|paste.fo
 ||0xtracker.com/assets/advertising/
