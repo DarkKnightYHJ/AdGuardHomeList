@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: sR7uegsnDUCPPEk59mByDg
-! Version: 202408030901
+! Checksum: ySs8tLDC2uJc0bFF3ElKTQ
+! Version: 202408031001
 ! Title: EasyList China+EasyList
-! Last modified: 03 Aug 2024 09:01 UTC
+! Last modified: 03 Aug 2024 10:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -18856,6 +18856,7 @@ fqsousou.com,kengso.com#@#.user-share
 /ads/banners/*$image
 /ads/bottom.
 /ads/cbr.
+/ads/custom_ads.js
 /ads/delivery.
 /ads/footer.
 /ads/ga-audiences?
@@ -73808,6 +73809,7 @@ browsershots.org#@#.advert_area
 ||sourcecodeif.com^$document
 ||sprinlof.com^$document
 ||srvpcn.com^$document
+||srvtrck.com^$document
 ||stake.com/*&clickId=$document
 ||streameventzone.com^$document
 ||stt6.cfd^$document
@@ -73816,6 +73818,7 @@ browsershots.org#@#.advert_area
 ||sxlflt.com^$document
 ||tacopush.ru^$document
 ||takemybackup.co^$document
+||tatrck.com^$document
 ||tbao684tryo.com^$document
 ||tertracks.site^$document
 ||theirbellsound.co^$document
@@ -78792,6 +78795,7 @@ browsershots.org#@#.advert_area
 ||srv2trking.com^$popup
 ||srvpcn.com^$popup
 ||srvpub.com^$popup
+||srvtrck.com^$popup
 ||ssdwellsgrpo.info^$popup
 ||ssllink.net^$popup
 ||st-rdirect.com^$popup
@@ -78915,6 +78919,7 @@ browsershots.org#@#.advert_area
 ||taprtopcldfb.co^$popup
 ||tarebearpaw.top^$popup
 ||taroads.com^$popup
+||tatrck.com^$popup
 ||tauphaub.net^$popup
 ||tausoota.xyz^$popup
 ||tcare.today^$popup
@@ -82370,6 +82375,7 @@ browsershots.org#@#.advert_area
 !----------------------Specific advert blocking filters-----------------------!
 ! *** easylist:easylist/easylist_specific_block.txt ***
 /assets/bn/movie.jpg$image,domain=vidstream.pro
+/pmc-adm-v2/build/setup-ads.js$domain=bgr.com|deadline.com|rollingstone.com
 /resolver/api/resolve/v3/config/?$xmlhttprequest,domain=msn.com
 asgg.php$domain=ghostbin.me|paste.fo
 ||0xtracker.com/assets/advertising/
