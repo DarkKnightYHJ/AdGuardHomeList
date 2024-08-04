@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: nlbeDy0Mt9NpZy7re1S6HQ
-! Version: 202408040301
+! Checksum: 7t8mDAJRkxGyl7K31ig/nQ
+! Version: 202408040411
 ! Title: Fanboy's Annoyance List
-! Last modified: 04 Aug 2024 03:01 UTC
+! Last modified: 04 Aug 2024 04:11 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -35794,6 +35794,7 @@ core77.com###newsletter_signup
 rigzone.com###newsletter_subscription
 charismamag.com,roughstock.com###newsletter_widget
 mapyourshow.com###newsletterform
+kyivindependent.com###newsletters-subscribe-box
 lapresse.ca###newsletters-subscription-box-root
 thenextweb.com###newslettersignup
 silicon.co.uk,silicon.de,silicon.es,silicon.fr,silicon.pt###nl-overlay
@@ -36219,8 +36220,10 @@ folha.uol.com.br,skyandtelescope.org##.c-newsletter
 thisoldhouse.com##.c-newsletter-signup-box
 cnet.com##.c-newsletterInlineUnit
 globalnews.ca,zdnet.com##.c-newsletterSignup
+cnet.com##.c-newsletterSubscribeHighlight
 noovomoi.ca##.c-newslettersticky
 chasingcars.com.au##.c-notification-bar
+texastribune.org##.c-plugin--flush > .c-plugin__inner
 folger.edu##.c-post__blog-sign-up
 eatthis.com##.c-postup-widget
 newstalkzb.co.nz##.c-promo
@@ -37569,7 +37572,9 @@ reclaimthenet.org#?#.elementor-section:-abp-contains(Subscribe for)
 reclaimthenet.org#?#.elementor-widget-container:-abp-contains(tired of censorship)
 salon.com#?#[style="text-align:center"]:-abp-contains(newsletter)
 skepticalraptor.com#?#.wp-block-group__inner-container:-abp-contains(Discover)
+stuff.co.nz#?#.restricted-body.html-content:-abp-contains(Email us)
 taskandpurpose.com#?#.wp-block-quote:-abp-contains(inbox daily)
+texastribune.org#?#p.t-links-underlinedy:-abp-contains(Sign up for The Brief)
 theatlantic.com#?#.LostInventoryMessage_root__YllYq:-abp-contains(newsletter)
 theguardian.com#?#[data-testid="contributions-liveblog-epic"]:-abp-contains(daily newsletter)
 theskimm.com#?#.bg-soft-teal:-abp-contains(Subscribe)
@@ -37645,7 +37650,7 @@ context.news,defector.com,dirt.fyi,goop.com,hellgatenyc.com,nationalworld.com,st
 !! newsletterSign
 scientificamerican.com##[class*="newsletterSign"]
 !! insider.com/businessinsider.com
-businessinsider.com,insider.com##.inline-newsletter-signup
+businessinsider.com,inc.com,insider.com##.inline-newsletter-signup
 !! #newsletterForm
 applefirmwares.com###newsletterForm
 !! .newsletter-subscription
