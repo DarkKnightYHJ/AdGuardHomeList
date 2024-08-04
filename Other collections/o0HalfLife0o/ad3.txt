@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0Puw4nX0V2b8cOVEVkTgzA
+! Checksum: W7GpeA45LM0wYRazrJPHZw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202408040200
-! Last Modified: 2024年08月04日 02:00
+! Version: 202408040801
+! Last Modified: 2024年08月04日 08:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1849,6 +1849,11 @@ newduba.cn###jq_youxi
 ||38.33.15.*.gif
 ||67.21.92.*.gif
 ||cupfox.app^$third-party
+||letlwsl.top^
+||twerilxi.top^
+||eyyngo.xyz^
+||ttad125.com^
+||tzyzlow.cn^
 ||script302.top^
 ||vecggfp.icu^
 ||ubeaui.xyz^
@@ -26761,6 +26766,7 @@ omni.soundestlink.com$image
 ||userreplay.net^$third-party
 ||userreport.com^$third-party
 ||users-api.com^$third-party
+||usertracks.live^$third-party
 ||userzoom.com^$third-party
 ||usesfathom.com^$third-party
 ||usuarios-online.com^$third-party
@@ -32598,6 +32604,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gak.webtoons.com^
 ||gamedistribution.com/collect?
 ||gamejolt.com/tick/
+||gamemonetize.com/account/event.php?
+||gamemonetize.com/account/eventvideo.php?
 ||gamivo.com/tcllc?
 ||gc.newsweek.com/front/js/counter.js
 ||gct.americanexpress.com^
@@ -32765,6 +32773,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||justanswer.com/jatag/
 ||justdial.com/jd-trkr
 ||k.p-n.io/event-stream
+||k.qwant.com^
 ||kaggle.com/api/i/diagnostics.MetricsService
 ||kansascity.com/nyb-zsooli/
 ||kayak.*/vestigo/measure
@@ -70329,6 +70338,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||cc.dalten.cz^
 ||jslog.post.cz^
 ||o2.cz^*-ga_o2cz_bundle.js?
+||sa.kolik.cz^
 ||stat.super.cz^
 ||statistics.csob.cz^
 ||2dehands.be/px/
