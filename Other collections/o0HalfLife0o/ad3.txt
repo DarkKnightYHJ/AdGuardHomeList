@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: W+bwGgHyxhzBY4SnFGfi6g
+! Checksum: D6saKn92NNo9NwfpEFDicw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202408060200
-! Last Modified: 2024年08月06日 02:00
+! Version: 202408060800
+! Last Modified: 2024年08月06日 08:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1849,6 +1849,11 @@ newduba.cn###jq_youxi
 ||38.33.15.*.gif
 ||67.21.92.*.gif
 ||cupfox.app^$third-party
+||baijs04.shop^
+||doujs04.shop^
+||kwumme.xyz^
+||mfemiac.icu^
+||qedgcxi.cn^
 ||w0054.com^
 ||xlmdtiyqbkygtfkh.com^
 ##a[href="https://yk63.me"]
@@ -19711,6 +19716,7 @@ _box_ad_
 ||fanyi.baidu.com/pc/config
 ||fanyi.baidu.com/ait/config/cms/list?
 ||3dmgame.com/static/image/common/pc_tg3dm.
+||fc.3dmgame.com^
 !------------------------Specific element hiding rules------------------------!
 thwiki.cc###a-carousel
 baidu.com##.index-module_drawerHand__aRhcO
@@ -24355,6 +24361,7 @@ omni.soundestlink.com$image
 ||opti-digital.com^
 ||opticksprotection.com^
 ||optistats.ovh^
+||orhdev.com^
 ||ostrichesica.com^
 ||p2r14.com^
 ||p7cloud.net^
@@ -28751,6 +28758,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cloudfront.net/sso.js
 ||cloudfront.net/t.gif
 ||cloudfront.net/t?event=
+||cloudfront.net/tag-manager/
 ||cloudfront.net/track.html
 ||cloudfront.net/track?
 ||cloudfront.net/trackb.html
