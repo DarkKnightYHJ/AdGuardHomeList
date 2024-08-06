@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RtFgPJ0fXdxDO08PdTatTg
+! Checksum: CmhB5diwLsqOvO8hJgYd1A
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202408060800
-! Last Modified: 2024年08月06日 08:00
+! Version: 202408061400
+! Last Modified: 2024年08月06日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -72033,7 +72033,7 @@ avclub.com,deadspin.com,gizmodo.com,jalopnik.com,kotaku.com,theonion.com,theroot
 kidspot.com.au##.secondary-video
 playbuzz.com##.stickyplayer-container
 gamesradar.com,tomsguide.com,tomshardware.com,whathifi.com##.vid-present
-movieweb.com##.video
+movieweb.com,screenrant.com##.video
 petapixel.com##.video-aspect-wrapper
 gearjunkie.com##.video-jwplayer
 bolavip.com##.video-player-placeholder
@@ -95542,6 +95542,8 @@ fqsousou.com,kengso.com#@#.user-share
 ?logType=impression&
 ?logType=trackEvent&
 ?pageviews=$third-party
+?sam-item/*/track-view
+?sam-item/track-impressions
 ?statify_referrer=
 ?type=page&event=
 ?type=pageview&
@@ -142130,6 +142132,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||jslog.post.cz^
 ||o2.cz^*-ga_o2cz_bundle.js?
 ||sa.kolik.cz^
+||seznam.cz^$ping
 ||stat.super.cz^
 ||statistics.csob.cz^
 ||2dehands.be/px/
