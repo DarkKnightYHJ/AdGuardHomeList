@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: wGxORadLZWBGup0XmeYaXg
-! Version: 202408070301
+! Checksum: 8Uz6ryG6SwNsy1XfP+0a0g
+! Version: 202408070410
 ! Title: ABP filters
-! Last modified: 07 Aug 2024 03:01 UTC
+! Last modified: 07 Aug 2024 04:10 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -575,7 +575,7 @@ ebay.*#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsoriz
 ebay.*#$#hide-if-matches-xpath '//span[@data-text="Sponsored"]/ancestor::div[contains(@class,"x-ads-placements")]'
 ebay.*#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzati|Sponsorowane|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|Patrocinado/ 'div[id^="placement"][style] div' div>span[data-text^="Sponsored"]
 ebay.*#$#hide-if-matches-xpath '//div[contains(@class,"x-ads-slot")]/div[@data-from="ads_platform"]/ancestor-or-self::div[contains(@class,"x-ads-slot")]'
-ebay.*#$#hide-if-matches-xpath './/div[contains(@class,"ads-berries")]/ancestor-or-self::div[@aria-label][@role="region"]'
+ebay.*#$#hide-if-matches-xpath './/a[contains(@href,"promoted_items")]/ancestor-or-self::div[contains(@id,"placement")][@role="region"][@aria-label]'
 ebay.*#$#hide-if-contains-visible-text /.*/ div[id][style^="min-height:144px;"]>div>div[id][aria-label] 'div[id][style^="min-height"]>div>span ^^sh^^ div
 ebay.*#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzati|Sponsorowane|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|Patrocinado/ 'div[id*="placement"]>div>div>div[data-interactions]:not([data-interactions*="HOMESPLICE.COMPOSITELISTINGS.AlgoIndex5SimRanker"])' div>div[class^="recs-subtitle-label"][role^="text"]
 ebay.*#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzati|Sponsorowane|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|Patrocinado/ 'div[data-viewport][data-interactions] div.recs-grid-container' div>div[class^="recs-subtitle-label"][role^="text"]
