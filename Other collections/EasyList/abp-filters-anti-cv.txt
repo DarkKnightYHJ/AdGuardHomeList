@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: evvo/nPdoKSbmNE0tUlv2g
-! Version: 202408081221
+! Checksum: DbsLPZq5Cc6qPBdlZcFEvQ
+! Version: 202408081311
 ! Title: ABP filters
-! Last modified: 08 Aug 2024 12:21 UTC
+! Last modified: 08 Aug 2024 13:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1331,6 +1331,7 @@ delfi.lt#$#simulate-mouse-event 'xpath(.//*[@style]/a[contains(@href,"javascript
 tivi.fi#$#hide-if-matches-xpath '//div[contains(text(),"Kaupallinen yhteistyö")]/../../..'
 iltalehti.fi#$#hide-if-matches-xpath '//span[contains(text(),"Kaupallinen yhteistyö")]/../../../..'
 tv.vg.no#$#abort-on-property-write __AB__; abort-on-property-read AB;
+abcnyheter.no#$#hide-if-contains-visible-text /Annonsørinnhold/ 'section div>article[id]' 'article[id] a>div>label'
 ! *** abp-filters-anti-cv:polish.txt ***
 ! RM-19
 ! TB
