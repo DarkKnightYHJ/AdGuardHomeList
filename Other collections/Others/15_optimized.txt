@@ -1,9 +1,9 @@
-! Checksum: vIU+DWKzatz1Yfsu1OZ3eg
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1723163804-3600.patch
+! Checksum: V6u7jjeFBPeozeGZfjXJ2A
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1723185405-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.69.0
-! TimeUpdated: 2024-08-09T00:33:29+00:00
+! Version: 2.0.69.1
+! TimeUpdated: 2024-08-09T06:33:35+00:00
 ! Expires: 5 days (update frequency)
 ||smart1adserver.com^
 ||polisnetwork.io^
@@ -47429,6 +47429,7 @@ vkcdnservice.appspot.com^
 ||d1udjti6mtxz9q.cloudfront.net^
 ||tagman.britishairways.com^
 |piwik.
+||beacon.adelphic.com^
 ||pixels.spotify.com^
 ||ylog.huya.com^
 ||ax.amnezia.org^
@@ -50564,7 +50565,6 @@ inapps.appsflyersdk.com^
 ||baxter.olx.org^
 ||bc.geocities.
 ||beacon-v2.helpscout.net^
-||beacon.adelphic.com^
 ||beacon.affil.walmart.com^
 ||beacon.aimtell.com^
 ||beacon.cdnma.com^
@@ -61867,6 +61867,7 @@ inapps.appsflyersdk.com^
 ||rpeutxu.icu^
 ||shbxugs.cn^
 ||clkwnl.xyz^
+||zjplnz.xyz^
 ||nxrajr.xyz^
 ||hhausq.top^
 ||baijs05.shop^
