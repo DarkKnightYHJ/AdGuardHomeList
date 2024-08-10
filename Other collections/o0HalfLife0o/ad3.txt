@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uVR9mBxHgY5B/h4elCmcFA
+! Checksum: Ow++9GUOJTG08DhPrQRQzQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202408100801
-! Last Modified: 2024年08月10日 08:01
+! Version: 202408101400
+! Last Modified: 2024年08月10日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1782,6 +1782,7 @@ newduba.cn###jq_youxi
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
 ##div#ad_id
+##.ads_topBanner
 ##div#xinxi
 ##div[bannerlist]
 ~ix8.la##div[class^="ADTOPLB_"]
@@ -1852,6 +1853,9 @@ newduba.cn###jq_youxi
 ||cupfox.app^$third-party
 ||gfchck.xyz^
 ||knuinws.icu^
+||shbxukj.cn^
+||lvnzrh.xyz^
+||hrutvncu.top^
 ||utewyc.xyz^
 ||rpeutxu.icu^
 ||shbxugs.cn^
@@ -16195,6 +16199,7 @@ andylain.com,bee.coupons,blogspot.com,blogspot.hk,blogspot.jp,blogspot.tw,comic.
 tangdoucdn.com#@#.video-ad
 i-cable.com#@#.video_ad
 che168.com#@#[data-adid]
+wnacg.com#@#.pcgg
 bitauto.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
@@ -27949,6 +27954,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||thesmilingpencils.com^$third-party
 ||trackfeed.com^$third-party
 ||uncn.jp^$third-party
+||viaklera.com^$third-party
 ||wonder-ma.com^$third-party
 ||zerostats.com^$third-party
 ||ziyu.net^$third-party
@@ -28652,6 +28658,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||brandcdn.com/pixel/
 ||bravenet.com/counter/
 ||braze.eu/api/v3/data/
+||breadpayments.com/log
+||breadpayments.com/stats
 ||browser-intake-datadoghq.com^
 ||browser.covatic.io^
 ||browser.events.data.microsoft.com^$ping
