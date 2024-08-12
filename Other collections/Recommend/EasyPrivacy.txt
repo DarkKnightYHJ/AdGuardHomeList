@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: goeHlGYtFCabIahuktxvlA
-! Version: 202408122100
+! Checksum: y/db4VHb1yvddIIWf3tvNA
+! Version: 202408122201
 ! Title: EasyPrivacy
-! Last modified: 12 Aug 2024 21:00 UTC
+! Last modified: 12 Aug 2024 22:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -332,6 +332,7 @@
 /api/trk?
 /api/v1/firehose?_
 /api/v1/metrics
+/api/v1/reportData/*
 /api/v1/stat?
 /api/v1/streamtelemetry
 /api/v2/collector
@@ -1836,6 +1837,7 @@
 /reftracker.js
 /renderTimingPixel.
 /report_visit.php
+/reportData/nm.gif?
 /reporting/metrics
 /ResonateAnalytics.min.js
 /resource?zones=
