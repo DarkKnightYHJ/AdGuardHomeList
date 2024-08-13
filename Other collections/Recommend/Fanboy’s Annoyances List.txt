@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ydpt6WMC74ecaZx5hsgkKQ
-! Version: 202408130611
+! Checksum: yR6iB3ANG98nWhuKyHAwew
+! Version: 202408130701
 ! Title: Fanboy's Annoyance List
-! Last modified: 13 Aug 2024 06:11 UTC
+! Last modified: 13 Aug 2024 07:01 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -34207,6 +34207,7 @@ fark.com##.custombox-overlay
 commondreams.org##.d-print-none.position-relative
 texastribune.org##.db-frame-pinned
 theguardian.com##.dcr-v2o9qm
+dailysignal.com##.dear_reader
 lambdatest.com##.demo__cta
 streamable.com##.desktop-banner
 themonthly.com.au##.desktop-buttons-row
@@ -34589,6 +34590,7 @@ scribd.com##div[data-testid="sticky-wrapper"]
 softwarekeep.com##img[alt="Banner"]
 gettr.com##img[alt="GETTR coin"]
 ! :has
+dailysignal.com#?#.tds-content > p:-abp-contains(Donate now)
 propublica.org#?#.bb-aside:-abp-contains(Get in Touch)
 stuff.co.nz#?#.common-html-frame.html-content:-abp-contains(how much)
 ! youtube popups
@@ -35612,6 +35614,7 @@ analyticsindiamag.com#?#.elementor-section-content-middle[data-settings="{\"back
 ! fanboy_newsletter_specific_hide.txt
 insiderintelligence.com###ArticleNewsletterBottom
 3f-filippi.com###BannerNewsletter_Container
+newsmax.com###EmailSignupContainer
 air1.com,klove.com###FooterSignUp
 commerce.gov###GD-snippet-form
 kitchenparade.com###HTML1
@@ -37286,7 +37289,7 @@ media4growth.com##.subscribe-ltr
 techpout.com##.subscribe-medium
 meetup.com##.subscribe-modal
 gizmodo.com.au,kotaku.com.au,lifehacker.com.au##.subscribe-newsletter
-wccftech.com,westhawaiitoday.com##.subscribe-now
+hawaiitribune-herald.com,wccftech.com,westhawaiitoday.com##.subscribe-now
 longislandpress.com,metro.us##.subscribe-now-box
 thecanary.co##.subscribe-panel
 tpain.com##.subscribe-popup
@@ -38739,6 +38742,7 @@ rappler.com##.social-share__actions
 officialcharts.com##.social-sharing-bar
 trip101.com##.social-sharing-sidebar
 thehardtimes.net##.social-sharing-wrapper
+hawaiitribune-herald.com##.social-side
 mintpressnews.com,online-tech-tips.com##.social-signup
 mirror.co.uk##.social-sites
 nhm.org##.social-story-bottom
