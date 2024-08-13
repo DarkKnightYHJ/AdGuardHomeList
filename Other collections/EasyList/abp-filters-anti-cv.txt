@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: myB3y9E8PESe3w4haL8bnw
-! Version: 202408122301
+! Checksum: jrJpkm6tdU+ZhsiilUBGPA
+! Version: 202408130051
 ! Title: ABP filters
-! Last modified: 12 Aug 2024 23:01 UTC
+! Last modified: 13 Aug 2024 00:51 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -847,8 +847,8 @@ ipatriot.com##div[class^="textwidget"] > div[class^="pi_"]
 rightwingnews.com##.z-ad-inline
 procoinnews.com##div[id^="adcovery-"]
 procoinnews.com,dailylol.com#$#override-property-read setTimeout noopFunc; abort-on-property-read document.body.innerHTML; override-property-read Object.defineProperty undefined; hide-if-matches-xpath '//main[@class][@role][@id]/parent::div[1]/ancestor-or-self::div[@class][1]';
-! #CV-1416
-www.booking.com#$#hide-if-contains-visible-text /Ad/ 'div div[data-testid^="property-card"]' 'span[aria-expanded] span'
+! #RM-13
+www.booking.com#$#hide-if-contains-visible-text /Ad/ 'div+div[data-testid^="property-card"]' 'span[tabindex] span'
 ! #RM-7
 walmart.ca##div[data-testid="hp-pov-ad-tracking"]
 walmart.ca,walmart.com##div[data-testid^="search-video-in-grid"]

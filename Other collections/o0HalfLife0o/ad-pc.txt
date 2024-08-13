@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GLS5+v6iRR2cfsgWCKe8Lg
+! Checksum: Cf1V94/r/EYKXCpoVR3eKg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202408130200
-! Last Modified: 2024年08月13日 02:00
+! Version: 202408130801
+! Last Modified: 2024年08月13日 08:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -71502,6 +71502,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 -1316632262.cos.
 -1316899192.cos.
 -1321533417.cos.
+-1325890192.cos.
 /k228.oss-
 -1688-wp-media/ads/
 -90mh-gg.
@@ -73192,6 +73193,9 @@ newduba.cn###jq_youxi
 ||38.33.15.*.gif
 ||67.21.92.*.gif
 ||cupfox.app^$third-party
+||pxqqytk.icu^
+||dshjbn.xyz^
+||shbzjkj.cn^
 ||weagehn.icu^
 ||eqygki.xyz^
 ||shbzjgs.cn^
@@ -73199,6 +73203,7 @@ newduba.cn###jq_youxi
 ||jrutvnca.top^
 ||baijs06.shop^
 ||doujs06.shop^
+||ycwuoq.xyz^
 ||11dyw.com^
 ||irutvnco.top^
 ||diskaa.com^
@@ -90425,6 +90430,7 @@ fqsousou.com,kengso.com#@#.user-share
 /api/trk?
 /api/v1/firehose?_
 /api/v1/metrics
+/api/v1/reportData/*
 /api/v1/stat?
 /api/v1/streamtelemetry
 /api/v2/collector
@@ -91929,6 +91935,7 @@ fqsousou.com,kengso.com#@#.user-share
 /reftracker.js
 /renderTimingPixel.
 /report_visit.php
+/reportData/nm.gif?
 /reporting/metrics
 /ResonateAnalytics.min.js
 /resource?zones=
