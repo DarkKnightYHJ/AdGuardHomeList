@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: nThiTpaRNKf62szeZo2v9Q
-! Version: 202408161401
+! Checksum: T8lVYb4/V1ETsWrZT3rfJw
+! Version: 202408161501
 ! Title: ABP filters
-! Last modified: 16 Aug 2024 14:01 UTC
+! Last modified: 16 Aug 2024 15:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1633,7 +1633,7 @@ empireg.ru#$#abort-current-inline-script Math zfgloaded
 ! #CV-697
 agroreview.com#$#abort-current-inline-script encodeURIComponent rcBuf; abort-current-inline-script Object.defineProperty rcBuf; abort-on-property-read advanced_ads_ready;
 ! CV-1364
-eurointegration.com.ua#$#abort-on-property-read as_retry
+eurointegration.com.ua,pravda.com.ua#$#abort-on-property-read as_retry
 ! *** abp-filters-anti-cv:spanish.txt ***
 ! #CV-691
 ! #CV-761
@@ -1740,7 +1740,7 @@ metruyenchu.com#$#abort-on-property-write window.onclick
 truyentuan.xyz#$#abort-current-inline-script $ btpop
 player-cdn.com#$#override-property-read detectAdBlockAll noopFunc; override-property-read detectAdBlock noopFunc
 player-cdn.com###playback-fake
-xoilaci.cc#$#abort-on-property-read adsRedirectPopups
+xoilac86z16.live#$#abort-on-property-read adsRedirectPopups
 sexdiaryz.us#$#abort-on-property-read parseInt
 linkneverdie.net#$#abort-current-inline-script document.createElement optad;abort-on-property-read pushOnPageGala
 javnong.cc#$#abort-on-property-read Math.round
