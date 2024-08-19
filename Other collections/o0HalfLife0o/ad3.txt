@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gDSZ4cAKwv55SQoBTSOBPQ
+! Checksum: Erl26ngNeO+59UcAc/9gGA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202408191400
-! Last Modified: 2024年08月19日 14:00
+! Version: 202408192000
+! Last Modified: 2024年08月19日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1858,6 +1858,7 @@ newduba.cn###jq_youxi
 ||iaindu.cn^
 ||dqlrfmwp.icu^
 ||cewrutf.top^
+||grihaith.com^
 ||cb61190372.com^
 ||uloscw.xyz^
 ||gahejiao.com^
@@ -10643,6 +10644,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 ||imgclh.com/imgs/2024/08/07/569cfb2f078e0c42.
 ||pfkgl.top/images/*.gif
+||laowangblog.com^*-ad
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 wenxuecity.com##DIV[class^="Inarticle_"]
@@ -28573,6 +28575,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ariane.abtasty.com^
 ||arkoselabs.com/metrics/
 ||asayer.io/tracker.js
+||assets.apollo.io/micro/website-tracker/
 ||assets.moneymade.io/js/fp.min.js
 ||assets.yumpu.com/release/*/tracking.js
 ||assistant.watson.appdomain.cloud/analytics/
@@ -29114,6 +29117,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||eventgateway.soundcloud.com^
 ||eventlog.chatlead.com^
 ||eventlog.inspsearchapi.com^
+||events-endpoint.pointandplace.com^
 ||events.air.tv^
 ||events.api.secureserver.net^
 ||events.attentivemobile.com^
@@ -29767,6 +29771,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nude.hu/html/track.js
 ||nvidia.partners/telemetry/
 ||o.aolcdn.com/js/mg1.js
+||observe-nexus.pointandplace.com^
 ||observer.ip-label.net^
 ||ocmail1.in/rtw/$image
 ||oct8ne.com/Visitor/
