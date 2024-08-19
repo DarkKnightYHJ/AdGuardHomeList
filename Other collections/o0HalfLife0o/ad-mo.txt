@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: M61nVLu+SQBjTwp1Ke8OgA
+! Checksum: hEqELMRHi2aSZ1bgWqRxRw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202408190200
-! Last Modified: 2024年08月19日 02:00
+! Version: 202408190801
+! Last Modified: 2024年08月19日 08:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -7813,9 +7813,9 @@ _800x80_
 ##.ad-wp-720
 ##.ad-wppr
 ##.ad-wppr-container
-##.ad-wrap
 ##.ad-wrap-leaderboard
 ##.ad-wrap-transparent
+##.ad-wrap:not(#google_ads_iframe_checktag)
 ##.ad-wrap_wallpaper
 ##.ad-wrapp
 ##.ad-wrapper
@@ -16214,6 +16214,7 @@ videosalon.jp#@#.ad-widget
 lifeinvader.com,marginalreport.net,spanishdict.com,studentski-servis.com#@#.ad-wrapper
 xda-developers.com#@#.ad-zone
 xda-developers.com#@#.ad-zone-container
+nijisenmon.work#@#.ad.widget
 wordparts.ru#@#.ad336
 leffatykki.com#@#.ad728x90
 cw.com.tw#@#.adActive
@@ -65986,7 +65987,7 @@ distractify.com,inquisitr.com,okmagazine.com,qthemusic.com,radaronline.com##.gwo
 thetimes.co.uk##.gyLkkj
 worldpopulationreview.com##.h-64
 tvcancelrenew.com##.h-72
-indaily.com.au##.h-\[100px\]
+indaily.com.au,thenewdaily.com.au##.h-\[100px\]
 indaily.com.au,posemaniacs.com##.h-\[250px\]
 emojipedia.org##.h-\[282px\]
 businessinsider.in##.h-\[300px\]
@@ -66499,7 +66500,6 @@ yardbarker.com##.mb_promo_responsive_right
 firstpost.com##.mblad
 mastercomfig.com##.md-typeset[style^="background:"]
 ctinsider.com##.md\:block.y100
-thenewdaily.com.au##.md\:h-\[250px\]
 bmj.com##.md\:min-h-\[250px\]
 medibang.com##.mdbnAdBlock
 online-translator.com##.mddlAdvBlock
@@ -66556,7 +66556,7 @@ gizmodo.com##.min-h-\[1000px\]
 gizmodo.com,radio.net##.min-h-\[250px\]
 radiome.ar,radiome.at,radiome.bo,radiome.ch,radiome.cl,radiome.com.do,radiome.com.ec,radiome.com.gr,radiome.com.ni,radiome.com.pa,radiome.com.py,radiome.com.sv,radiome.com.ua,radiome.com.uy,radiome.cz,radiome.de,radiome.fr,radiome.gt,radiome.hn,radiome.ht,radiome.lu,radiome.ml,radiome.org,radiome.pe,radiome.si,radiome.sk,radiome.sn,radyome.com##.min-h-\[250px\].mx-auto.w-full.hidden.my-1.lg\:flex.center-children
 uwufufu.com##.min-h-\[253px\]
-instavideosave.net##.min-h-\[280px\]
+instavideosave.net,thenewdaily.com.au##.min-h-\[280px\]
 uwufufu.com##.min-h-\[300px\]
 gizmodo.com##.min-h-\[350px\]
 insiderintelligence.com##.min-h-top-banner
@@ -69399,6 +69399,7 @@ swimswam.com##.polls-461
 avclub.com,deadspin.com,gizmodo.com,jalopnik.com,kotaku.com,theonion.com,theroot.com,thetakeout.com##.related-stories-inset-video
 kidspot.com.au##.secondary-video
 playbuzz.com##.stickyplayer-container
+the-express.com##.stn-video-container
 si.com##.style_hfl21i-o_O-style_uhlm2
 gamesradar.com,tomsguide.com,tomshardware.com,whathifi.com##.vid-present
 sportskeeda.com##.vidazoo-player-container
@@ -73343,6 +73344,8 @@ newduba.cn###jq_youxi
 ||38.33.15.*.gif
 ||67.21.92.*.gif
 ||cupfox.app^$third-party
+||xmlgzr.xyz^
+||swarku.xyz^
 ||cb61190372.com^
 ||uloscw.xyz^
 ||gahejiao.com^
@@ -101173,6 +101176,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.smartmedia.tj^
 ||sal.isanook.com^
 ||stat.matichon.co.th^
+||0.myikas.com^
 ||analitik.bik.gov.tr^
 ||analytics.kkb.com.tr^
 ||c.keltis.com^
@@ -140068,6 +140072,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||metrika.kontur.ru^
 ||mirtesen.ru/js/ms.js
 ||ms.dzen.ru^
+||ms.vk.com^
 ||mts.ru/fe-api/logger
 ||mytoys.ru/ka_z.jpg?
 ||ngs.ru/s/
