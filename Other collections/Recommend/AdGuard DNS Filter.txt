@@ -4,7 +4,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2024-08-19T12:01:29.133Z
+! Last modified: 2024-08-19T14:05:08.978Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.24
 !
@@ -43102,7 +43102,6 @@ vkcdnservice.appspot.com^
 ||bizible.com^
 ||bizo.com^
 ||bizspring.net^
-||bkrtx.com^
 ||bkvtrack.com^
 ||blockbreaker.io^
 ||blockmetrics.com^
@@ -50051,6 +50050,8 @@ inapps.appsflyersdk.com^
 ! Bad: /banner.jpg (should be in general_url.txt)
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
+||pjkyxrd15e.ru^
+||umyeon.com^
 ||advscdn.com^
 ||socdem-enrich.getshop.tv^
 ||newton1.ru^
@@ -52113,7 +52114,6 @@ inapps.appsflyersdk.com^
 ||flowers.moex.com^
 ||delikatsov.com^
 ||relap.mail.ru^
-||api.ucheba.ru^
 ||banners.tapclap.com^
 ||compare.meteoservice.ru^
 ||ad.megapeer.ru^
