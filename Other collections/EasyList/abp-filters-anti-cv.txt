@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: lBLY1kWjb5ZaQNf83NsYcw
-! Version: 202408200911
+! Checksum: CXJelhUVIP1/bslbUWgo9A
+! Version: 202408201001
 ! Title: ABP filters
-! Last modified: 20 Aug 2024 09:11 UTC
+! Last modified: 20 Aug 2024 10:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1798,8 +1798,8 @@ m.youtube.com#$#override-property-read ytInitialPlayerResponse.adSlots undefined
 m.youtube.com,music.youtube.com#$#json-prune 'ytInitialPlayerResponse.adPlacements ytInitialPlayerResponse.playerAds ytInitialPlayerResponse.adSlots playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adBreakHeartbeatParams adSlots.0.adSlotRenderer adSlots.1.adSlotRenderer playerAds.0.playerLegacyDesktopWatchAdsRenderer adPlacements.0.adPlacementRenderer';
 m.youtube.com#$#json-prune 'playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds adSlots playerResponse.adSlots [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots';
 m.youtube.com,music.youtube.com#$#override-property-read ytInitialPlayerResponse.playerConfig.ssapConfig undefined
-m.youtube.com,music.youtube.com#$#override-property-read Object.prototype.adSlots undefined
-m.youtube.com,music.youtube.com#$#override-property-read Object.prototype.adPlacements undefined
+m.youtube.com,music.youtube.com#$#override-property-read playerResponse.adSlots undefined
+m.youtube.com,music.youtube.com#$#override-property-read playerResponse.playerAds undefined
 m.youtube.com,music.youtube.com#$#override-property-read yt.ads.biscotti.getId_ undefined
 m.youtube.com,music.youtube.com#$#override-property-read yt.ads.biscotti.lastId_ undefined
 m.youtube.com,music.youtube.com#$#abort-on-property-write adBreakHeartbeatParams
