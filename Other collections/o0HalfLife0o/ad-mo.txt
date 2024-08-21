@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6eet10kZQkBoL5GjgQWuIw
+! Checksum: sG6FrGo3HG9yOCRs3IVPAA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202408210801
-! Last Modified: 2024年08月21日 08:01
+! Version: 202408211400
+! Last Modified: 2024年08月21日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -7871,7 +7871,6 @@ _800x80_
 ##.ad.small-teaser
 ##.ad.super
 ##.ad.wideboard_tablet
-##.ad.widget
 ##.ad02
 ##.ad03
 ##.ad04
@@ -16214,7 +16213,6 @@ videosalon.jp#@#.ad-widget
 lifeinvader.com,marginalreport.net,spanishdict.com,studentski-servis.com#@#.ad-wrapper
 xda-developers.com#@#.ad-zone
 xda-developers.com#@#.ad-zone-container
-nijisenmon.work#@#.ad.widget
 wordparts.ru#@#.ad336
 leffatykki.com#@#.ad728x90
 cw.com.tw#@#.adActive
@@ -65400,6 +65398,7 @@ scalemates.com##.bwx.hrspb
 forbes.com.au##.bz-viewability-container
 insurancejournal.com##.bzn
 coingraph.us,hosty.uprwssp.org##.c
+dagens.com##.c-1 > .i-2
 globalnews.ca,stuff.tv##.c-ad
 theglobeandmail.com##.c-ad--base
 stuff.tv##.c-ad--mpu-bottom
@@ -66542,6 +66541,7 @@ gogetaroomie.com##.left-space
 10minutemail.net##.leftXL
 livemint.com##.leftblockAd
 thehansindia.com##.level-after-1-2
+websitedown.info##.lftleft
 dexerto.com##.lg\:min-h-\[290px\]
 gizmodo.com##.lg\:min-h-\[300px\]
 mumsnet.com##.lg\:w-billboard
@@ -67174,7 +67174,10 @@ thegatewaypundit.com##.qh1aqgd
 revolution935.com##.qt-sponsor
 coingape.com,dailyboulder.com,townflex.com##.quads-location
 surfline.com##.quiver-google-dfp
+dagens.com##.r-1
 allthatsinteresting.com##.r-11rk87y
+dagens.com##.r-3
+dagens.com##.r-6
 letour.fr##.r-rentraps
 tgstat.com##.r1-aors
 tripadvisor.com##.rSJod
@@ -67258,6 +67261,7 @@ planetizen.com##.revive-sitewide-banner-2__wrapper
 planetizen.com##.revive-sitewide-banner__wrapper
 hindustantimes.com##.rgtAdSection
 timesofindia.indiatimes.com##.rgt_ad
+websitedown.info##.rgtad
 newindian.in##.rhs-ad2
 indianexpress.com##.rhs-banner-carousel
 cnbctv18.com##.rhs-home-second-ad
@@ -69370,19 +69374,31 @@ yandex.*##a[href^="https://yandex.ru/an/count/"]
 yandex.*##li[class*="_card"]:has(a[href^="https://yabs.yandex.ru/count/"])
 yandex.*##li[class*="_card"]:has(a[href^="https://yandex.com/search/_crpd/"])
 modrinth.com##.normal-page__content [href*="bisecthosting.com/"] > img
+modrinth.com##.normal-page__content [href^="http://bloom.amymialee.xyz"] > img
+modrinth.com##.normal-page__content [href^="https://billing.apexminecrafthosting.com/"] > img
+modrinth.com##.normal-page__content [href^="https://billing.bloom.host/"] > img
 modrinth.com##.normal-page__content [href^="https://billing.ember.host/"] > img
 modrinth.com##.normal-page__content [href^="https://billing.kinetichosting.net/"] > img
+modrinth.com##.normal-page__content [href^="https://mcph.info/"] > img
 modrinth.com##.normal-page__content [href^="https://meloncube.net/"] > img
+modrinth.com##.normal-page__content [href^="https://minefort.com/"] > img
 modrinth.com##.normal-page__content [href^="https://nodecraft.com/"] > img
 modrinth.com##.normal-page__content [href^="https://scalacube.com/"] > img
 modrinth.com##.normal-page__content [href^="https://shockbyte.com/"][href*="/partner/"] > img
+modrinth.com##.normal-page__content [href^="https://www.akliz.net/"] > img
+modrinth.com##.normal-page__content [href^="https://www.ocean-hosting.top/"] > img
+curseforge.com##.project-description [href^="/linkout?remoteUrl="][href*="billing.apexminecrafthosting.com"] > img
+curseforge.com##.project-description [href^="/linkout?remoteUrl="][href*="billing.bloom.host"] > img
 curseforge.com##.project-description [href^="/linkout?remoteUrl="][href*="billing.ember.host"] > img
 curseforge.com##.project-description [href^="/linkout?remoteUrl="][href*="billing.kinetichosting.net"] > img
 curseforge.com##.project-description [href^="/linkout?remoteUrl="][href*="bisecthosting.com"] > img
+curseforge.com##.project-description [href^="/linkout?remoteUrl="][href*="mcph.info"] > img
 curseforge.com##.project-description [href^="/linkout?remoteUrl="][href*="meloncube.net"] > img
+curseforge.com##.project-description [href^="/linkout?remoteUrl="][href*="minefort.com"] > img
 curseforge.com##.project-description [href^="/linkout?remoteUrl="][href*="nodecraft.com"] > img
 curseforge.com##.project-description [href^="/linkout?remoteUrl="][href*="scalacube.com"] > img
 curseforge.com##.project-description [href^="/linkout?remoteUrl="][href*="shockbyte.com"] > img
+curseforge.com##.project-description [href^="/linkout?remoteUrl="][href*="www.ocean-hosting.top"] > img
 nme.com###taboola-below-article
 oneindia.com###taboola-mid-article-thumbnails
 the-independent.com###taboola-mid-article-thumbnails-ii
@@ -69505,6 +69521,7 @@ taskandpurpose.com##.empire-unit-prefill-container
 europeanpharmaceuticalreview.com##.europ-fixed-footer
 accuweather.com##.feature-tag
 ibtimes.sg##.featured_video
+unilad.com##.floating-video-player_container__u4D9_
 dailymail.co.uk##.footballco-container
 redboing.com##.fw-ad
 foxsports.com##.fwAdContainer
