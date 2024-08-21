@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sG6FrGo3HG9yOCRs3IVPAA
+! Checksum: K+hcycyEP8AEcz64UMWwNQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202408211400
-! Last Modified: 2024年08月21日 14:00
+! Version: 202408212000
+! Last Modified: 2024年08月21日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -63988,6 +63988,7 @@ scotsman.com###sidebarMPU1
 scotsman.com###sidebarMPU2
 ubergizmo.com###sidebar_card_spon
 trucknetuk.com###sidebarright
+image.pi7.org###sidebarxad
 disqus.com###siderail-sticky-ads-module
 4runnerforum.com,acuraforums.com,blazerforum.com,buickforum.com,cadillacforum.com,camaroforums.com,cbrforum.com,chryslerforum.com,civicforums.com,corvetteforums.com,fordforum.com,germanautoforums.com,hondaaccordforum.com,hondacivicforum.com,hondaforum.com,hummerforums.com,isuzuforums.com,kawasakiforums.com,landroverforums.com,lexusforum.com,mazdaforum.com,mercuryforum.com,minicooperforums.com,mitsubishiforum.com,montecarloforum.com,mustangboards.com,nissanforum.com,oldsmobileforum.com,pontiactalk.com,saabforums.com,saturnforum.com,truckforums.com,volkswagenforum.com,volvoforums.com###sidetilewidth
 gephardtdaily.com###simple-sticky-footer-container
@@ -66121,7 +66122,9 @@ indaily.com.au,posemaniacs.com##.h-\[250px\]
 emojipedia.org##.h-\[282px\]
 businessinsider.in##.h-\[300px\]
 emojipedia.org##.h-\[312px\]
+lolalytics.com##.h-\[600px\]
 supercarblondie.com##.h-\[660px\]
+lolalytics.com##.h-\[90px\]
 thenewdaily.com.au##.h-home-ad-height-stop
 buzzly.art##.h-min.overflow-hidden
 target.com##.h-position-fixed-bottom
@@ -68034,6 +68037,7 @@ vsbattles.com##.vsb_sticky
 notateslaapp.com##.vtwjhpktrbfmw
 wral.com##.vw3Klj
 horoscopes.astro-seek.com##.vyska-sense
+lolalytics.com##.w-\[336px\]
 androidpolice.com##.w-pencil-banner
 wsj.com##.w27771
 userscript.zone##.w300
@@ -68492,6 +68496,7 @@ gametracker.com##[href^="https://www.vultr.com/"]
 wakingtimes.com##[href^="https://www.wendymyersdetox.com/"]
 musicbusinessworldwide.com##[href^="https://wynstarks.lnk.to/"]
 cars.com##[id$="-sponsored"]
+lolalytics.com##[id$=":inline"]
 homedepot.com##[id*="sponsored"]
 producebluebook.com##[id^="BBS"]
 ldoceonline.com##[id^="ad_contentslot"]
@@ -73496,6 +73501,12 @@ newduba.cn###jq_youxi
 ||38.33.15.*.gif
 ||67.21.92.*.gif
 ||cupfox.app^$third-party
+||55726zubo56686.com^
+||sauyv.top^
+||imgoss820.top^
+||6820tp1.com^
+||abcqq36q.vip^
+||tp1902abd.com^
 ||xmlgzr.xyz^
 ||swarku.xyz^
 ||iaindu.cn^
@@ -73512,6 +73523,8 @@ newduba.cn###jq_youxi
 ||lkdyft.xyz^
 ||yuwqsk.xyz^
 ||dkhffh.xyz^
+||iewruto.top^
+||myabcd.cc^
 ||cb61190372.com^
 ||uloscw.xyz^
 ||gahejiao.com^
@@ -101399,7 +101412,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||aax-eu-dub.amazon.com^$script
 ||aax-us-iad.amazon.com^$script
 ||ab-machine.forbes.com^
-||ab.chatgpt.com^
+||ab.chatgpt.com/v1/rgstr
 ||ab.fanatical.com^
 ||abcnews.com/assets/dtci/js/abcnews_visitorId.js
 ||abcnews.com/assets/dtci/js/at.js
@@ -101643,7 +101656,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||change.org/api-proxy/-/event_tracker
 ||channel.io/front/v*/channels/*/events
 ||chatfuel.com/cf-analytics/
-||chatgpt.com/ces/
+||chatgpt.com/ces/v1/t
 ||chatroll.com/t.gif
 ||chewy.com/api/event/
 ||chickadvisor.com/js/detect.min.js
@@ -139987,7 +140000,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||mng.jiji.com/cookie.html
 ||muragon.com/js/normal/gtag-event.js
 ||mwed.jp/assets/packs/js/measurements/
-||newsdig.tbs.co.jp/op/analytics.js
 ||next.rikunabi.com/api/logRecommendRealtimeI2AV2
 ||nhk.or.jp^*/bc.js
 ||nicoad.nicovideo.jp/*/instream/tracking/
