@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OeHO+s0533a2zgH9DiAcfg
+! Checksum: TjbZrGpWQJW/ZvYKyUlJPg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202408212000
-! Last Modified: 2024年08月21日 20:00
+! Version: 202408220200
+! Last Modified: 2024年08月22日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -54694,6 +54694,7 @@ browsershots.org#@#.advert_area
 ||420db600.xyz^$document,popup
 ||45496fee.xyz^$document,popup
 ||4602306b.xyz^$document,popup
+||46276192.xyz^$document,popup
 ||466c4d0f.xyz^$document,popup
 ||485728.xyz^$document,popup
 ||48a16802.site^$document,popup
@@ -73619,6 +73620,8 @@ newduba.cn###jq_youxi
 ||6820tp1.com^
 ||abcqq36q.vip^
 ||tp1902abd.com^
+||ytghtq.xyz^
+||rkwxfi.xyz^
 ||xmlgzr.xyz^
 ||swarku.xyz^
 ||iaindu.cn^
@@ -82425,6 +82428,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||laowangblog.com^*-ad
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+cn.bing.com##.b_bza_pole
 wenxuecity.com##DIV[class^="Inarticle_"]
 18183.com##.ad1
 supercloudsms.com##.container > div > a[id]
