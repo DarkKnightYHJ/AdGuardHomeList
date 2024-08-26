@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: vlEvy6EQNdEc8ENHLWZ0TA
-! Version: 202408262001
+! Checksum: KLVnsMI5nrg52SnZhi/gXw
+! Version: 202408262101
 ! Title: ABP filters
-! Last modified: 26 Aug 2024 20:01 UTC
+! Last modified: 26 Aug 2024 21:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -520,6 +520,9 @@ dlouha-videa.cz#$#abort-on-property-read _0x4c29
 ajaxshowtime.com#?#div:-abp-properties(content: "Advertentie";)
 ajaxshowtime.com##div.leaderboard_ad + div
 ! *** abp-filters-anti-cv:english.txt ***
+! RM-65
+skyscanner.*,tianxun.com#$#hide-if-matches-xpath './/button[contains(@class,"SponsoredInfoButton_adInfoBtn")]/ancestor-or-self::div[@aria-label]/parent::div[1]'
+skyscanner.*#$#hide-if-matches-xpath './/button[contains(@class,"SponsoredInfoButton_adInfoBtn")]/ancestor-or-self::a[contains(@href,"sponsored")][@data-testid]/parent::div[1]'
 ! RM-61
 @@||woolworths.com.au^$generichide
 woolworths.com.au#$#hide-if-contains-visible-text /\s*Promoted\s*/ 'div .ng-star-inserted wc-product-tile' 'wc-product-tile ^^sh^^ div.sponsored-text'
