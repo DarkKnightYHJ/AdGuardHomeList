@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: iD30BsZUXLXuUeuYYUs1HA
-! Version: 202408271101
+! Checksum: 2nDcHOW6u+ZsjVF2VmTVtw
+! Version: 202408271221
 ! Title: ABP filters
-! Last modified: 27 Aug 2024 11:01 UTC
+! Last modified: 27 Aug 2024 12:21 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1355,15 +1355,16 @@ allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/parent::div/a
 allegro.*##div[data-box-name^="ads"]
 allegro.*#$#hide-if-matches-xpath './/h2[text()][@data-role="replaceable-title"]/following::span[.="Sponsorowane" or .="Sponsored" or .="Спонсоровано" or .="Sponzorováno"]//ancestor::div[contains(@data-analytics-groups,"ads")]'; hide-if-matches-xpath './/h2[text()][@data-role="replaceable-title"]/following::span[.="Sponsorowane" or .="Sponsored" or .="Спонсоровано" or .="Sponzorováno"]/ancestor::div[@style][1]//ancestor::div[@data-box-name="structure-container" or @data-box-name="Car0usel card"]';
 allegro.*#$#hide-if-matches-xpath './/div[contains(@data-analytics-view-label,"sponsored")]/parent::div/ancestor::div[contains(@data-analytics-groups,"ads")]'
-allegro.*#?#div[data-analytics-groups*="ads.tiles"]:-abp-has(span:-abp-properties(/content: "Sponsorowane";|"Рекламні";|"Sponsored";|"Sponzorováno";|"Sponzorované";/))
-allegro.*#?#div[data-analytics-groups*="Branded"]:-abp-has(span:-abp-properties(/content: "Sponsorowane";|"Рекламні";|"Sponsored";|"Sponzorováno";|"Sponzorované";/))
+allegro.*#?#div[data-analytics-groups*="ads.tiles"]:-abp-has(span:-abp-properties(/content: "Sponsorowane";|"Спонсороване";|"Sponsored";|"Sponzorováno";|"Sponzorované";/))
+allegro.*#?#div[data-analytics-groups*="Branded"]:-abp-has(span:-abp-properties(/content: "Sponsorowane";|"Спонсороване";|"Sponsored";|"Sponzorováno";|"Sponzorované";/))
+allegro.*#$#hide-if-contains-visible-text /Sponsorowane|Sponsored|Спонсоровано/ 'div[data-box-name^="container.moreOf"], div[data-box-name^="Car0usel card"], div[data-box-name^="bottom car0usels"], div[data-box-name^="car0usels.base"]' 'div>div ^^sh^^ span';
 ! HB
 allegro.*#$#hide-if-matches-xpath './/span[.="Sponsorowane" or .="Sponzorováno"]/ancestor::div[@data-box-id][contains(@data-analytics-tags,"advertising")]';
 allegro.pl#$#hide-if-matches-xpath './/div[contains(@data-analytics-groups,"reklam") or contains(@data-analytics-groups,"kampanijna") or contains(@data-box-name,"Ads")]/ancestor::div[@data-box-name="structure-container"]';
 ! PL
-allegro.*#$#race start; hide-if-matches-xpath './/span[.="Sponsorowane" or .= "Sponsored" or .="Рекламні" or .="Sponzorované"]//ancestor::article'; hide-if-contains-visible-text /Sponsorowane|Sponsored|Рекламні|Sponzorované/ 'article' 'div[id]' 'content'; hide-if-matches-xpath './/div[@data-test-tag="dsa"]/preceding::a[contains(@href,"clicks?emission_unit_")]/ancestor-or-self::article[@data-verification-id][@aria-label]'; race stop;
-allegro.*#?#article:-abp-has(div:-abp-properties(/content: "Sponsorowane";|"Рекламні";|"Sponsored";|"Sponzorováno";|"Sponzorované";/))
-allegro.*#?#article:-abp-has(span:-abp-properties(/content: "Sponsorowane";|"Рекламні";|"Sponsored";|"Sponzorováno";|"Sponzorované";/))
+allegro.*#$#race start; hide-if-matches-xpath './/span[.="Sponsorowane" or .= "Sponsored" or .="Спонсороване" or .="Sponzorované"]//ancestor::article'; hide-if-contains-visible-text /Sponsorowane|Sponsored|Спонсороване|Sponzorované/ 'article' 'div[id]' 'content'; hide-if-matches-xpath './/div[@data-test-tag="dsa"]/preceding::a[contains(@href,"clicks?emission_unit_")]/ancestor-or-self::article[@data-verification-id][@aria-label]'; race stop;
+allegro.*#?#article:-abp-has(div:-abp-properties(/content: "Sponsorowane";|"Спонсороване";|"Sponsored";|"Sponzorováno";|"Sponzorované";/))
+allegro.*#?#article:-abp-has(span:-abp-properties(/content: "Sponsorowane";|"Спонсороване";|"Sponsored";|"Sponzorováno";|"Sponzorované";/))
 ! MISC
 allegro.pl#$#override-property-read adblockEnabledPreferenceUpdated false
 ! #CV-705
@@ -1737,7 +1738,7 @@ thienhatruyen3.com#$#abort-current-inline-script $ pc-popup-2
 sexphimhd.net,gvnvh18.com#$#abort-current-inline-script Math
 xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
 xnxx-sex-videos.com#$#override-property-read user_out false
-truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.my,sieudamtv.dev,ephimchill.com,ophimhdvn3.net,thuvienhd.xyz,xemtv.tvhayhd.tv,www.khophim88s.com,nhentaivn.online,motphimmoi.net,mv.dailyphimz.com,mv.phimbathu.one#$#abort-on-property-read document.cookie
+truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.my,sieudamtv.dev,ephimchill.com,ophimhdvn3.net,thuvienhd.xyz,xemtv.tvhayhd.tv,www.khophim88s.com,nhentaivn.online,mv.dailyphimz.com,mv.phimbathu.one#$#abort-on-property-read document.cookie
 metruyenchu.com#$#abort-on-property-write window.onclick
 ##[href^="//mage98rquewz.com/"]
 truyentuan.xyz#$#abort-current-inline-script $ btpop
