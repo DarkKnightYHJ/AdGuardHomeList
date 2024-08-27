@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: gao9cScrzmdepnq2aUR5yA
-! Version: 202408271501
+! Checksum: LpTPEvOwERLqidZTeD+P4g
+! Version: 202408271611
 ! Title: ABP filters
-! Last modified: 27 Aug 2024 15:01 UTC
+! Last modified: 27 Aug 2024 16:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1161,7 +1161,7 @@ hianime.to#$#hide-if-matches-xpath './/a[contains(@href,"1flix.to")]/img[@alt="1
 hdtodayz.*,moviesjoy.*#$#hide-if-matches-xpath './/img[contains(@style,"width: 100%")]/parent::a[@href][@target]/ancestor::div[@id][contains(@style,"20px")]'
 2kmoviehd.to,hdtodayz.*##div[style*="position: fixed; inset: 0px; pointer-events: auto;"]
 movies2watch.tv#$#prevent-listener break;case $.
-wsj.com#$#hide-if-matches-xpath './/div[contains(@id,"AD")]/parent::div[1]'; hide-if-matches-xpath './/iframe[contains(@src,"ServeAds")]/parent::div/ancestor::div[3]'; hide-if-matches-xpath './/div/a[contains(@href,"ad.doubleclick")]/ancestor::div[contains(@class,"realtor-container") or @style="min-height:320px"]/parent::div';
+wsj.com#$#hide-if-matches-xpath './/div[contains(@id,"AD")]/parent::div[1]'; hide-if-matches-xpath './/iframe[contains(@src,"ServeAds") or contains(@class,"smartad")]/parent::div/ancestor::div[3]'; hide-if-matches-xpath './/div/a[contains(@href,"ad.doubleclick")]/ancestor::div[contains(@class,"realtor-container") or @style="min-height:320px"]/parent::div';
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
@@ -1279,6 +1279,9 @@ wawacity.tokyo,zone-telechargement.tokyo#$#abort-current-inline-script JSON.stri
 ! #CV-761
 ! #CV-691
 ebay.de#$#hide-if-matches-xpath './/a[@*[contains(.,"UnifiedRankingScenario")]]/div[@class]//img[@src]/ancestor-or-self::li[starts-with(@class,"s-item")]'
+! #CV-3379
+tagesspiegel.de#$#hide-if-matches-xpath './/img[@referrerpolicy="unsafe-url"]/parent::div[1]'
+tagesspiegel.de#$#override-property-read adblock_status undefined; abort-current-inline-script document.body.appendChild setTimeout;
 ! Popup/Popunder/Clickunder
 frauporno.com#$#abort-current-inline-script document.querySelectorAll popMagic
 aniworld.to#$#abort-current-inline-script JSON.parse /atob|break/
