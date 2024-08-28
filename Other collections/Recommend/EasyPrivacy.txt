@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: HJ4NLlB3m1Nv02g/K1+SqQ
-! Version: 202408280811
+! Checksum: 6y+wdPN3k5tT7EzZ40WapA
+! Version: 202408280901
 ! Title: EasyPrivacy
-! Last modified: 28 Aug 2024 08:11 UTC
+! Last modified: 28 Aug 2024 09:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -50599,6 +50599,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||qm.redbullracing.com/gtm.js$~third-party
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
 @@||quickmath.com/js/r/web-vitals.js$script,~third-party
+@@||rcb-gis.maps.arcgis.com/apps/instant/minimalist/*/AppMeasurement.js$script,~third-party
 @@||reactandshare.com^$domain=maanmittauslaitos.fi
 @@||realclearpolitics.com/esm/assets/js/admiral.js$~third-party
 @@||realclearpolitics.com/esm/assets/js/analytics/chartbeat.js$~third-party
