@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: p/8YCMOxvTlVrnGjs7Idog
-! Version: 202408301901
+! Checksum: yZMvC0/fx9bkrdhe4AfzzQ
+! Version: 202408302001
 ! Title: ABP filters
-! Last modified: 30 Aug 2024 19:01 UTC
+! Last modified: 30 Aug 2024 20:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -522,7 +522,8 @@ ajaxshowtime.com##div.leaderboard_ad + div
 ! *** abp-filters-anti-cv:english.txt ***
 ! RM-65
 skyscanner.*,tianxun.com#$#hide-if-matches-xpath './/button[contains(@class,"SponsoredInfoButton_adInfoBtn")]/ancestor-or-self::div[@aria-label]/parent::div[1]'
-skyscanner.*#$#hide-if-matches-xpath './/button[contains(@class,"SponsoredInfoButton_adInfoBtn")]/ancestor-or-self::a[contains(@href,"sponsored")][@data-testid]/parent::div[1]'
+skyscanner.*,tianxun.com#$#hide-if-matches-xpath './/button[contains(@class,"SponsoredInfoButton_adInfoBtn")]/ancestor-or-self::a[contains(@href,"sponsored")][@data-testid]/parent::div[1]'
+skyscanner.*,tianxun.com#$#hide-if-matches-xpath './/button[contains(@class,"SponsoredInfoButton_adInfoBtn")]/preceding::div[contains(@class,"ItineraryInlinePlusWrapperHeader_header")][@role="group"][@aria-label]/parent::div[1]'
 ! RM-61
 @@||woolworths.com.au^$generichide
 woolworths.com.au#$#hide-if-contains-visible-text /\s*Promoted\s*/ 'div .ng-star-inserted wc-product-tile' 'wc-product-tile ^^sh^^ div.sponsored-text'
