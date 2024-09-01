@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: eLyr0ctCUawGN4QorTox1g
-! Version: 202409010901
+! Checksum: PKc6ff8CTQ3xcMFO8VqEBA
+! Version: 202409011001
 ! Title: Fanboy's Annoyance List
-! Last modified: 01 Sep 2024 09:01 UTC
+! Last modified: 01 Sep 2024 10:01 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -44878,6 +44878,7 @@ auto.it##div[class^="BoxNewsletter_"]
 auto.it##div[class^="ModalNewsletter_"]
 ilgiorno.it,ilrestodelcarlino.it,iltelegrafolivorno.it,lanazione.it,quotidiano.net##div[class^="Newsletter_"]
 ! Japanese
+bluetti.jp###dynamic-react-root + div:has(> div.needsclick input[id^="email_"])
 somu-lier.jp##.popup-mailmaga
 shokuhin.net##.tdm-popup-modal-over-screen
 nyanpedia.com##a[href="https://info.ipet-ins.com/emagazine_subscribe_nyanpedia.html"] > img
