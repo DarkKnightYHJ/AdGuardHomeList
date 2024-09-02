@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1TEUYzGfI/bAWMxUOiAGVQ
+! Checksum: fGCtCiGHj3bdIyZqn98yFQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202409022000
-! Last Modified: 2024年09月02日 20:00
+! Version: 202409030200
+! Last Modified: 2024年09月03日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -10768,6 +10768,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||gg.7976.top^
 ||abody.39.net^
 ||piaotia.com/scripts/read/style
+||cenyou.net/wp-content/uploads/1200-200.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 wealwomen.com##div[data-cptid]
@@ -29873,6 +29874,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mzbcdn.net/mngr/mtm.js
 ||nastydollars.com/trk/
 ||native-ads-events-api.c4s-rd.services^
+||native-ads-events-api2.c4s-rd.services^
 ||navattic.com/api/events/
 ||naver.net/wcslog.js
 ||navlink.com/__utmala.js
@@ -30342,6 +30344,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stat.moevideo.net^
 ||stat.mydaddy.cc^
 ||stat.segitek.hu^
+||stat.testme.cloud^
 ||stat.u.sb^
 ||stat.web-regie.com^
 ||statdb.pressflex.com^
@@ -30415,6 +30418,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||storage.googleapis.com/snowplow-cto-office-tracker-bucket/
 ||storage.googleapis.com/tm-frend-graffiti/
 ||storage.syncmedia.io/libs/sm_capture_
+||stream-log.dditscdn.com^
 ||streamads.com/view?
 ||streamoptim.com/log.js
 ||streamoptim.com/log/report?
@@ -32617,6 +32621,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||docs.github.com/events
 ||dollartree.com/ccstoreui/*/analytics/
 ||domainit.com/scripts/track.js
+||domaintools.com/buffer.pgif?
 ||dominos.co.uk/qRgAwS/
 ||dotesports.com/sp.js
 ||dp.shoprunner.com^
@@ -33060,6 +33065,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mat6tube.com/api/stats?
 ||mcc-tags.cisco.com^
 ||mcs-ie.tiktokw.eu^
+||mcs-va-useast2a.tiktokv.com^
 ||mcs-va.tiktokv.com^
 ||mcs.tiktokv.us^
 ||mcs.tiktokw.us^
@@ -33589,6 +33595,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||telemetry.adobe.io^
 ||telemetry.algolia.com^
 ||telemetry.api.playstation.com^
+||telemetry.canva.com^
 ||telemetry.firez.one^
 ||telemetry.stytch.com^
 ||telemetry.tradingview.com^
