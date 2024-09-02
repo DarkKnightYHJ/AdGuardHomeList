@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: /Jr/KJM2IaUuI/dii1KenA
-! Version: 202409021501
+! Checksum: Jg5+7d5TzRU83MXlCIwXhQ
+! Version: 202409021611
 ! Title: ABP filters
-! Last modified: 02 Sep 2024 15:01 UTC
+! Last modified: 02 Sep 2024 16:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1275,9 +1275,6 @@ wawacity.*,zone-telechargement.*#$#abort-current-inline-script JSON.stringify
 ! #CV-761
 ! #CV-691
 ebay.de#$#hide-if-matches-xpath './/a[@*[contains(.,"UnifiedRankingScenario")]]/div[@class]//img[@src]/ancestor-or-self::li[starts-with(@class,"s-item")]'
-! #CV-3379
-tagesspiegel.de#$#hide-if-matches-xpath './/img[@referrerpolicy="unsafe-url"]/parent::div[1]'
-tagesspiegel.de#$#override-property-read adblock_status undefined; abort-current-inline-script document.body.appendChild setTimeout;
 ! Popup/Popunder/Clickunder
 frauporno.com#$#abort-current-inline-script document.querySelectorAll popMagic
 aniworld.to#$#abort-current-inline-script JSON.parse /atob|break/
