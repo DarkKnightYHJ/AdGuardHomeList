@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: bka2hntCT2Z60JTcw7DicQ
-! Version: 202409030701
+! Checksum: zj0hvHu2A51wnSmEzdYKGQ
+! Version: 202409030811
 ! Title: ABP filters
-! Last modified: 03 Sep 2024 07:01 UTC
+! Last modified: 03 Sep 2024 08:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1711,8 +1711,8 @@ tinsoikeo.live#$#abort-on-property-read sessionStorage;abort-current-inline-scri
 plvb.xyz,rk.plcdn.xyz#$#abort-on-property-read adsTvc; abort-on-property-read adsPlayer; abort-on-property-read ads; abort-on-property-read keyPlayer; abort-on-property-read adsPopupPlayer;
 hh3dhay.life,hh3dhay.xyz#$#abort-current-inline-script document.createElement /break|case/
 luotphim1.net,mephim.ink,cdnwp.icu#$#json-prune '0.time_mobile 0.time 0.link_video 0.link_video_mobile 0.link 0.link_mobile 1.time_mobile 1.time 1.link_video 1.link_video_mobile 1.link 1.link_mobile'
-cafef.vn,gamek.vn,genk.vn,kenh14.vn,soha.vn,tuoitre.vn,afamily.vn#$#override-property-read ADMStorageFileCDN noopFunc
-cafef.vn,gamek.vn,genk.vn,kenh14.vn,soha.vn,tuoitre.vn,afamily.vn#$#abort-current-inline-script Object.defineProperty ADMStorageFileCDN
+cafef.vn,gamek.vn,genk.vn,kenh14.vn,soha.vn,tuoitre.vn,afamily.vn,thanhnien.vn#$#override-property-read ADMStorageFileCDN noopFunc
+cafef.vn,gamek.vn,genk.vn,kenh14.vn,soha.vn,tuoitre.vn,afamily.vn,thanhnien.vn#$#abort-current-inline-script Object.defineProperty ADMStorageFileCDN
 bongda365f.com#$#override-property-read isSkipAds true
 znews.vn#$#abort-on-property-read adtimaConfig
 baomoi.com#$#abort-on-property-write AdtimaRender
@@ -1759,7 +1759,7 @@ animehay.in#$#abort-current-inline-script document.addEventListener window.open
 audiotruyenfull.com#$#abort-on-property-read adpiaListUrl
 vailonxx.vip,phimlongtieng.com,phimlongtieng.net#$#abort-current-inline-script jQuery window.open
 tctruyen.cc,abtruyen.net#$#abort-current-inline-script $ popup
-nettruyenhq.com,clipss.viet69net.com#$#abort-current-inline-script Promise break;case
+nettruyenha.com,clipss.viet69net.com#$#abort-current-inline-script Promise break;case
 holyfilm.org#$#abort-current-inline-script window.addEventListener window.open
 www.nettruyenupp.com#$#abort-on-property-read sp
 phimtho.net#$#abort-current-inline-script $ p0pUpRandom
