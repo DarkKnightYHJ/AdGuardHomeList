@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CB81PRr55y2Axo6xJCKWTQ
-! Version: 202409051001
+! Checksum: B2mpIcqQSDXV1kmpyraJsQ
+! Version: 202409051101
 ! Title: EasyList
-! Last modified: 05 Sep 2024 10:01 UTC
+! Last modified: 05 Sep 2024 11:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -146,7 +146,6 @@
 /a/?ad=
 /a/display.php?$script
 /ab_fl.js$script
-/ablck/frolod.js
 /ad--unit.htm
 /ad-125.
 /ad-bottom.
@@ -184,7 +183,6 @@
 /ad_bottom.js
 /ad_break?
 /ad_campaign?
-/ad_code.js
 /ad_common.js
 /ad_counter.aspx
 /ad_display.js
@@ -390,7 +388,7 @@
 /adv/mjx.js
 /adv_468.
 /adv_out.js$third-party
-/adv_teasers.js
+/adv_teasers.js$script
 /adv_vert.js
 /AdvAdsV3/*$script,stylesheet
 /advanced-ads-$domain=~wordpress.org
@@ -401,7 +399,6 @@
 /advert3.
 /advert4.
 /advert6.
-/advert8.
 /advert?
 /advertbanner.
 /advertising/banners/*$image
@@ -447,7 +444,7 @@
 /api-ads.
 /api.ad.
 /api.ads.$domain=~ads.instacart.com|~www.ads.com
-/Api/Ad.
+/api/ad.$script
 /api/ads?
 /apopwin.js
 /app/manga/themes/*/ads/pop.js
@@ -544,7 +541,6 @@
 /direct.hd?n=
 /discourse-adplugin-$script
 /displayad?
-/displayAdFrame.
 /dmcads_$script
 /doubleclick.aspx
 /doubleclick.min
@@ -587,7 +583,6 @@
 /footer_ad.js
 /footer_ad.php
 /footer_ads.php
-/footerad.
 /footerads.
 /fro_lo.js
 /froloa.js
@@ -54635,6 +54630,7 @@ browsershots.org#@#.advert_area
 ||72075223.xyz^$document,popup
 ||72560514.xyz^$document,popup
 ||74142961.xyz^$document,popup
+||75690049.xyz^$document,popup
 ||7608d5.xyz^$document,popup
 ||7841ffda.xyz^$document,popup
 ||78b78ff8.xyz^$document,popup
@@ -62030,6 +62026,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||pafvertizing.crazygames.com^
 ||pahaplayers.click/ch/adcashdirect.php
 ||pandora.com/api/v1/ad/
+||pandora.com/web-client-assets/displayAdFrame.
 ||paste.fo/*jpeg$image
 ||pasteheaven.com/assets/images/banners/
 ||pastemagazine.com/common/js/ads-
