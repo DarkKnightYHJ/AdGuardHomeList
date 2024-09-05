@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mPnFM8f1RW/yL5uoK6cgIA
-! Version: 202409050811
+! Checksum: oOf1T4sQUN8w8vM7P8lpiA
+! Version: 202409050901
 ! Title: Fanboy's Annoyance List
-! Last modified: 05 Sep 2024 08:11 UTC
+! Last modified: 05 Sep 2024 09:01 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -35307,6 +35307,7 @@ skysports.com##.android-banner
 filmix.ac##.android-telegram-main
 coincodex.com##.app
 washingtonpost.com##.app-adoption-banner
+flypgs.com##.app-b
 m.calciomercato.com,mygwork.com,prioritypass.com,similarweb.com,spooncast.net,substack.com,whosampled.com##.app-banner
 mygwork.com##.app-banner--overlay
 coinmarketcap.com##.app-banner-new
@@ -35370,6 +35371,7 @@ cityam.com##.breaking-news_liveblog
 smocca.jp##.c-box-app_banner
 warbyparker.com##.c-hYggeK
 filmarks.com##.c-header-download-banner
+flypgs.com##.c-pgs-app
 ctvnews.ca##.c-text > ul > li
 cricbuzz.com##.cbz-leaderboard-banner
 apkpure.com,apkpure.net##.chrome-install-pop
@@ -49569,12 +49571,13 @@ insider.com#@#.commerce-coupons-module
 @@||scripts.finanzen.net/Content/Scripts/web-push/init.min.js$domain=finanzen.net
 ! FD-3741
 @@||api.amplitude.com^$xmlhttprequest,domain=insiderintelligence.com
-! FD-3989 | FD-4031
+! FD-3989 | FD-4031 | FD-6827
 gofeminin.de#@#.cmpwrapper
 gofeminin.de#@#.cmpboxWelcomeGDPR
 insider-inc.com#@##hs-eu-cookie-confirmation
 insiderintelligence.com#@#.osano-cm-window
-@@||cmp.osano.com^$script,subdocument,xmlhttprequest,domain=insider.com|insiderintelligence.com
+emarketer.com#@#.osano-cm-dialog
+@@||cmp.osano.com^$script,subdocument,xmlhttprequest,domain=emarketer.com|insider.com|insiderintelligence.com
 @@||usercentrics.eu^$script,subdocument,xmlhttprequest,domain=boerse-online.de|idealo.co.uk|immonet.de
 @@||js.hs-banner.com^$domain=insider-inc.com
 ! FD-4027
