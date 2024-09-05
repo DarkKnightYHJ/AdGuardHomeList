@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: KH3jZ34c4/lqohSgAtX+8A
-! Version: 202409051101
+! Checksum: rx5DiKpKGShB/JQ29Dbngw
+! Version: 202409051221
 ! Title: ABP filters
-! Last modified: 05 Sep 2024 11:01 UTC
+! Last modified: 05 Sep 2024 12:21 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1095,7 +1095,7 @@ xxxtik.com##app-popup
 xxxtik.com###app-container
 vidmoly.to###adsblock
 vidmoly.to###dos_vlock
-vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded
+vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded; abort-on-property-read window.open;
 @@||nosteam.ro/notcaptcha/adheader.js$domain=nosteamgames.ro
 xvideos.com##div[id^="video-ad"]+div[class]
 xv-ru.com,xvideos.com#$#prevent-listener load exoJsPop101
