@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SZi5tj+lx9sNkUu/YImZvw
-! Version: 202409061701
+! Checksum: Arc0kfcPzaXOxbD2XBWvJw
+! Version: 202409061812
 ! Title: EasyList China+EasyList
-! Last modified: 06 Sep 2024 17:01 UTC
+! Last modified: 06 Sep 2024 18:12 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -19029,7 +19029,7 @@ fqsousou.com,kengso.com#@#.user-share
 /ad.cgi?
 /ad.css?$stylesheet
 /ad.html?
-/ad.min.
+/ad.min.js$script,domain=~qoly.jp
 /ad/a.aspx?
 /ad/dfp/js/dfp.js
 /ad/err?
@@ -19230,7 +19230,7 @@ fqsousou.com,kengso.com#@#.user-share
 /adsmanager/*$domain=~adsmanager.facebook.com|~github.com
 /AdsPlugin.
 /adsrv.
-/adsscript.
+/adsscript.$script
 /adsserv.
 /adsserver.
 /adsservice.
@@ -19276,7 +19276,7 @@ fqsousou.com,kengso.com#@#.user-share
 /advrotator_banner_largo.htm
 /advtBanner.
 /adx2.
-/adz/js/adz.
+/adz/js/adz.$script
 /adzones.js
 /aff-ads.
 /aff/banners/*$image
@@ -19347,7 +19347,6 @@ fqsousou.com,kengso.com#@#.user-share
 /bannerad.
 /bannerad3.js$script
 /bannerads/*$~xmlhttprequest,domain=~coldwellbankerhomes.com
-/banners.*/go/page/*
 /banners.*/piclist?
 /banners.cgi?
 /banners/468$image
@@ -19523,7 +19522,6 @@ fqsousou.com,kengso.com#@#.user-share
 /lazyad-loader.min.js
 /lazyload.ads?
 /left_ads.js
-/leftad.jpg
 /leftad.js
 /leftad.png
 /legion-advertising-atlasastro/*$script
@@ -19568,7 +19566,7 @@ fqsousou.com,kengso.com#@#.user-share
 /nwm-fcn.min.js
 /nwm-pw2.min.js
 /nxst-advertising/dist/htlbid-advertising.min.js
-/oiopub-direct/js.php
+/oiopub-direct/js.php$script
 /oncc-ad.js
 /oncc-adbanner.js
 /openads.js
@@ -19732,7 +19730,7 @@ fqsousou.com,kengso.com#@#.user-share
 /servlet/view/*$script
 /set_adcode?
 /sft-prebid.js
-/show-ad.js
+/show-ad.js$script
 /show_ad.js
 /show_ad?
 /showban.asp?
@@ -20132,7 +20130,6 @@ _widget_ad.
 /prebid9.$script
 /prebid?
 /prebid_$script,third-party
-/prebid_v4.
 /prebidAdcall.
 /prebidLibrary.
 /prebidlink/*$script
