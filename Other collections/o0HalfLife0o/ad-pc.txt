@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MIy7dDeJBWsQmgadShky1Q
+! Checksum: GTyFpJExJH/VDxw4Vzks2A
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202409060801
-! Last Modified: 2024年09月06日 08:01
+! Version: 202409061400
+! Last Modified: 2024年09月06日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -54917,6 +54917,7 @@ browsershots.org#@#.advert_area
 ||02777e.site^$document,popup
 ||03180d2d.live^$document,popup
 ||0395d1.xyz^$document,popup
+||04424170.xyz^$document,popup
 ||05751c.site^$document,popup
 ||072551.xyz^$document,popup
 ||076f66b2.live^$document,popup
@@ -60265,6 +60266,7 @@ browsershots.org#@#.advert_area
 ||mmin.io/embed/
 ||mmosale.com/baner_images/
 ||mmwebhandler.888.com^
+||mnuu.nu^$subdocument
 ||monetize-static.viralize.tv^
 ||moviedollars.com/dynamic_ads/
 ||mps.nbcuni.com/fetch/ext/
@@ -64091,7 +64093,7 @@ webmd.com###hp-ad-container
 laredoute.be,laredoute.ch,laredoute.co.uk,laredoute.com,laredoute.de,laredoute.es,laredoute.fr,laredoute.gr,laredoute.it,laredoute.nl,laredoute.pt,laredoute.ru###hp-sponsored-banner
 blog.hubspot.com###hs_cos_wrapper_blog_post_sticky_cta
 nettiauto.com,nettikaravaani.com,nettikone.com,nettimarkkina.com,nettimokki.com,nettimoto.com,nettivene.com,nettivuokraus.com###huge_banner
-ytmp3.nu###i
+y2mate.nu,ytmp3.nu###i
 robbreport.com###icon-sprite
 maxsports.site,newsturbovid.com###id-custom_banner
 dailysabah.com###id_d_300x250
@@ -65219,6 +65221,7 @@ theasianparent.com##.ads-open-placeholder
 zeenews.india.com##.ads-placeholder-internal
 bangkokpost.com##.ads-related
 gameshub.com##.ads-slot
+batimes.com.ar##.ads-space
 lowfuelmotorsport.com##.ads-stats
 wallpapers.com##.ads-unit-fts
 ndtv.com##.ads-wrp
@@ -65633,6 +65636,7 @@ nationalworld.com##.bfQGof
 mindbodygreen.com##.bftiFX
 theepochtimes.com##.bg-\[\#f8f8f8\]
 hotnewhiphop.com##.bg-ad-bg-color
+batimes.com.ar##.bg-ads-space
 bgr.com##.bg-black
 whatismyisp.com##.bg-blue-50
 republicworld.com##.bg-f0f0f0
@@ -66363,6 +66367,7 @@ motor1.com##.featured__apb
 tvfanatic.com##.feed_holder
 forum.lowyat.net##.feedgrabbr_widget
 whosdatedwho.com##.ff-adblock
+gq.com.au##.ffNDsR
 newser.com##.fiavur2
 filecrypt.cc##.filItheadbIockgueue3
 filecrypt.cc,filecrypt.co##.filItheadbIockqueue3
@@ -67022,6 +67027,7 @@ rebelnews.com##.lighter-gray-bg
 lilo.org##.lilo-ad-result
 getbukkit.org##.limit
 linuxize.com##.linaff
+blackhatworld.com##.link--external.link > .bbImage
 architecturesideas.com##.linkpub_right_img
 babynamegenie.com,forless.com,worldtimeserver.com##.links
 weatherpro.com##.list-city-ad
@@ -67385,6 +67391,8 @@ businesstoday.in##.outer-add-section
 salon.com##.outer_ad_container
 aminoapps.com##.overflow-scroll-sidebar > div
 shtfplan.com##.overlay-container
+isidewith.com##.overlayBG
+isidewith.com##.overlayContent
 sports.ndtv.com##.overlay__side-nav
 operawire.com##.ow-archive-ad
 golfweather.com##.ox300x250
@@ -74024,6 +74032,9 @@ newduba.cn###jq_youxi
 ||kzcayec.icu^
 ||tqbrnd.xyz^
 ||udeias.xyz^
+||fq03.shop^
+||jy05.shop^
+||lrutvncl.top^
 ||wxmmji.xyz^
 ||orutvnck.top^
 ||gedxssashb8.fun^
@@ -98661,6 +98672,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beam.mjhlifesciences.com^
 ||beamanalytics.b-cdn.net^
 ||bee.tc.easebar.com^
+||bendingspoonsapps.com/v4/web-events
 ||bento.agoda.com^
 ||bet365.de/Members/*&affiliate=$subdocument,third-party
 ||betano.de^*?btag=$subdocument,third-party
