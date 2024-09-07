@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /+111Lmk+3EsBojAui5deg
+! Checksum: raKnw1btyqQaT3mkdZZ6aA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202409071400
-! Last Modified: 2024年09月07日 14:00
+! Version: 202409072000
+! Last Modified: 2024年09月07日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1864,6 +1864,7 @@ newduba.cn###jq_youxi
 ||yuqmok.xyz^
 ||212ehae.fun^
 ||brutvncv.top^
+||dsaewew21.fun^
 ||geddsashb3.fun^
 ||grewash1b.fun^
 ||kzcayec.icu^
@@ -71756,6 +71757,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 !! tag.aticdn.net
 @@||tag.aticdn.net^$script,domain=gouv.fr|rte.ie|tv5monde.com|uktvplay.co.uk|visaconcierge.eu|yourstory.com
 !! cdn.optimizely.com/public
+@@||cdn-pci.optimizely.com/public/*/sales_snippet.js$domain=talktalk.co.uk
 @@||cdn.optimizely.com/public/*.json/tag.js$domain=mobile.de
 !! omtrdc.net
 @@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=absa.co.za|att.com|pnc.com|vodafone.it
