@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: eZ83NnBGW5R6NM7B8dP0ow
-! Version: 202409070501
+! Checksum: IxTPNP5dRBxGVO4YcRWTnQ
+! Version: 202409070611
 ! Title: EasyList
-! Last modified: 07 Sep 2024 05:01 UTC
+! Last modified: 07 Sep 2024 06:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -153,13 +153,13 @@
 /ad-choices.
 /ad-engine.js
 /ad-scripts--$script
-/ad-scroll.js
+/ad-scroll.js$script
 /ad-server.$~script
 /ad-third-party?
 /ad.cgi?
 /ad.css?$stylesheet
 /ad.html?
-/ad.min.js$script,domain=~qoly.jp
+/ad.min.js$script
 /ad/a.aspx?
 /ad/dfp/js/dfp.js
 /ad/err?
@@ -261,7 +261,6 @@
 /ads-common.$image,script
 /ads-front.min.js
 /ads-frontend.min.js$script
-/ads-home.js
 /ads-rectangle.
 /ads-right.
 /ads-templateslist.
@@ -328,7 +327,6 @@
 /ads_bg.$image
 /ads_bottom.js
 /ads_controller.js
-/ads_footer.
 /ads_frame.
 /ads_iframe.$subdocument
 /ads_image/*$image
@@ -345,7 +343,7 @@
 /adserve/*$script
 /adserver.$~stylesheet,~xmlhttprequest
 /adserver2.
-/adserver3.
+/adserver3.$image,script
 /adserver?
 /adserving.
 /adsforwp-front.min.css
@@ -369,7 +367,6 @@
 /adswrapper.
 /ads~adsize~
 /adtech;
-/adtext.
 /adTools.
 /adtrack.$domain=~adtrack.ca|~adtrack.yacast.fr
 /adunit/track-view|
@@ -433,8 +430,8 @@
 /amp-ad-$script
 /amp-connatix-$script
 /amp4ads-host-v0.js$script
+/ane-popup-1/ane-popup.js$script
 /ane-popup-banner.js
-/ane-popup.js
 /annonse.
 /annonser.
 /api-ads.
@@ -446,7 +443,7 @@
 /app/manga/themes/*/ads/pop.js
 /apstag.js
 /apu.php?
-/arcads.js
+/arcads.js$script
 /asset/ad/*$image
 /assets/ads/*$~image,domain=~outlook.live.com
 /asyncjs.php$script
@@ -490,7 +487,6 @@
 /bottom-ads.jpg
 /bottom-ads.png
 /bottom_ad.jpg
-/bottom_ad.png
 /bottomad.png
 /bottomads.js
 /bsa-plugin-pro-scripteo/frontend/js/script.js
@@ -518,11 +514,10 @@
 /cpmbanners.js
 /css/ads-$stylesheet
 /css/adsense.
-/css/adv.
+/css/adv.$stylesheet
 /curveball/ads/*$image
 /data-file_123.js
 /deliverad/fc.js$script
-/delivery.ads.
 /delivery.php?zone=
 /delivery/ag.php
 /delivery/apu.php
@@ -541,7 +536,6 @@
 /drsup-admanager-ajax.js
 /dynamicad?
 /ec5bcb7487ff.js
-/embed_ad.php
 /exitpop.js
 /exitpopunder.js
 /exitpopup.js
@@ -597,7 +591,7 @@
 /googleafs.js
 /gospel2Truth.js
 /gpt.js$script,xmlhttprequest
-/gpt_ads-public.js
+/gpt_ads-public.js$script
 /GunosyAdsSDKv2.js
 /headerads1.php
 /homepage_ads/*$domain=~swedishbeauty.com
@@ -781,7 +775,7 @@
 /promo.php?c=$third-party
 /promo/ads/*$~xmlhttprequest
 /promo/affiframe.
-/promotools.
+/promotools.$subdocument
 /proxyadcall?
 /public/ad/*$image
 /public/ads/*$image
@@ -861,7 +855,7 @@
 /set_adcode?
 /sft-prebid.js
 /show-ad.js$script
-/show_ad.js
+/show_ad.js$script
 /show_ad?
 /showban.asp?
 /showbanner.js
@@ -958,7 +952,7 @@
 /videojs.ads-
 /videojs.sda.js$script
 /view/ad/*$subdocument
-/view_banner.php
+/view_banner.php$image
 /viewad.asp
 /viewad.php
 /virtuagirlhd.
@@ -1023,6 +1017,7 @@
 ://affiliates2.$third-party
 ://banner.$third-party
 ://banners.$third-party
+://delivery.ads.
 ://news-*/process.js?id=$third-party
 ://news-*/v2-sw.js$third-party
 ://oascentral.
@@ -1139,9 +1134,9 @@ _widget_ad.
 ! https://github.com/easylist/easylist/issues/11123
 /ed/fol457.
 ! ad-ace (to avoid bait)
-/plugins/ad-ace/assets/js/coupons.js
-/plugins/ad-ace/assets/js/slot-slideup.js
-/plugins/ad-ace/includes/shoppable-images/*
+/plugins/ad-ace/assets/js/coupons.js$script
+/plugins/ad-ace/assets/js/slot-slideup.js$script
+/plugins/ad-ace/includes/shoppable-images/*$script
 ! readcomiconline.li
 /Ads/bid300a.aspx$subdocument
 /Ads/bid300b.aspx$subdocument
@@ -16013,6 +16008,7 @@ adeam.com#@#.atf-wrapper
 dr.dk#@#.banner-ad-container
 popporn.com#@#.block-ad
 shop.asobistore.jp#@#.block-sponsor
+shanjinji.com#@#.bottom_ad
 ixbtlabs.com#@#.bottom_ad_block
 9l.pl#@#.boxAds
 canonsupports.com#@#.box_ads
@@ -22005,6 +22001,7 @@ browsershots.org#@#.advert_area
 ||can-get-some.net^
 ||canadianbedevil.com^
 ||canarystarkcoincidence.com^
+||cancriberths.com^
 ||candiedguilty.com^
 ||candiedtouch.com^
 ||candleannihilationretrieval.com^
@@ -23661,6 +23658,7 @@ browsershots.org#@#.advert_area
 ||corruptclients.com^
 ||corruptsolitaryaudibly.com^
 ||corveseiren.com^
+||cosedluteo.com^
 ||cosesgabbles.top^
 ||cosiequiapo.com^
 ||cosignpresentlyarrangement.com^
@@ -24999,6 +24997,7 @@ browsershots.org#@#.advert_area
 ||dimlmhowvkrag.xyz^
 ||dimlyconfidential.com^
 ||dimmestlasts.top^
+||dimnaamebous.com^
 ||dimnatriazin.com^
 ||dimnessinvokecorridor.com^
 ||dimnessslick.com^
@@ -44942,6 +44941,7 @@ browsershots.org#@#.advert_area
 ||siresouthernpastime.com^
 ||sireundermineoperative.com^
 ||sirmianow.top^
+||siruperunlinks.com^
 ||sisewepod.com^
 ||sismoycheii.cc^
 ||sistercashmerebless.com^
@@ -50084,6 +50084,7 @@ browsershots.org#@#.advert_area
 ||wagtelly.com^
 ||wahile.com^
 ||wahoha.com^
+||waigepsap.net^
 ||waigriwa.xyz^
 ||wailedfrosty.com^
 ||waioowcadhw.xyz^
@@ -50368,6 +50369,7 @@ browsershots.org#@#.advert_area
 ||weekendchinholds.com^
 ||weeklideals.com^
 ||weemofee.com^
+||weensnandow.com^
 ||weephuwe.xyz^
 ||weepingheartache.com^
 ||weepingpretext.com^
@@ -61863,6 +61865,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||gentent.stre4mplay.one^
 ||gentent.streampiay.fun^
 ||getconnected.southwestwifi.com/ads_video.xml
+||globovision.com/js/ads-home.js
 ||gocdkeys.com/images/background
 ||gogoanime.me/zenny/
 ||gontent.powzers.lol^
