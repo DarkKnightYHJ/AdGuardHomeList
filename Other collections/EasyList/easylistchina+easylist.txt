@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: whPTcyjTu9IQ5J7LzMbdlA
-! Version: 202409071401
+! Checksum: iZEc5fu1aHucyNbBELokUw
+! Version: 202409071501
 ! Title: EasyList China+EasyList
-! Last modified: 07 Sep 2024 14:01 UTC
+! Last modified: 07 Sep 2024 15:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -19124,7 +19124,6 @@ fqsousou.com,kengso.com#@#.user-share
 /adplayer.$script,domain=~adplayer.pro
 /adplugin.
 /adpopup.js
-/adpopup.php
 /adrecover.js
 /adright.$domain=~adright.com
 /adriver.$~script,domain=~adriver.co
@@ -19223,7 +19222,7 @@ fqsousou.com,kengso.com#@#.user-share
 /adsimages/*$image,domain=~bdjobstoday.com
 /adsimg/*$image
 /adsinclude.
-/adslide.js
+/adslide.js$script
 /AdsLoad.js
 /adsmanager.nsf/*$image
 /adsmanager/*$domain=~adsmanager.facebook.com|~github.com
@@ -19249,7 +19248,6 @@ fqsousou.com,kengso.com#@#.user-share
 /adv-scroll.
 /adv-socialbar-scroll.js
 /adv.css?
-/adv/mjx.js
 /adv_468.
 /adv_out.js$third-party
 /adv_teasers.js$script
@@ -19543,12 +19541,12 @@ fqsousou.com,kengso.com#@#.user-share
 /mysimpleads/mysa_output.php$script
 /nativead.
 /nativeads-v2.js
-/nativeads.js
+/nativeads.js$script
 /nativeads/script/*$script
 /nativebanner/ane-native-banner.js$script
 /nb/frot_lod.js
 /neverblock/*$script
-/new/floatadv.js
+/new/floatadv.js$script
 /ntv.json?key=
 /Nuggad?
 /nwm-fcn.min.js
@@ -19741,7 +19739,7 @@ fqsousou.com,kengso.com#@#.user-share
 /slide_in_ads_close.gif$image
 /slider_ad.js$script
 /sliderad.js$script
-/small_ad.
+/small_ad.$image,domain=~eh-ic.com
 /smartlinks.epl?
 /sp/delivery/js.php
 /spacedesc=
@@ -20143,7 +20141,6 @@ _prebid8.
 /adblock-detector.
 /adblock-notify-by-bweb/*$script,stylesheet
 /adblock.gif?
-/adblock_detect.
 /adblock_detector.
 /adblock_detector2.
 /adblock_logger.$script
@@ -20151,7 +20148,6 @@ _prebid8.
 /adblockdetection.
 /adBlockDetector/*$script
 /adblocker-leader.
-/adblockkiller.
 /adbuddy.$domain=~adbuddy.be|~adbuddy.beeldstudio.be
 /ads-blocking-detector.
 /anti-adblock/*$~stylesheet
@@ -33967,12 +33963,10 @@ _800x80_
 ##a[href^="http://trk.globwo.online/"]
 ##a[href^="http://troopsassistedstupidity.com/"]
 ##a[href^="http://vnte9urn.click/"]
-##a[href^="http://www.adultdvdempire.com/?partner_id="][href*="&utm_"]
 ##a[href^="http://www.adultempire.com/unlimited/promo?"][href*="&partner_id="]
 ##a[href^="http://www.friendlyduck.com/AF_"]
 ##a[href^="http://www.h4trck.com/"]
 ##a[href^="http://www.iyalc.com/"]
-##a[href^="http://www.mrskin.com/tour"]
 ##a[href^="https://123-stream.org/"]
 ##a[href^="https://1betandgonow.com/"]
 ##a[href^="https://6-partner.com/"]
@@ -34920,6 +34914,7 @@ ekitan.com,kissanadu.com#@#.sidebar-ad
 independent.com#@#.sidebar-ads
 cadlinecommunity.co.uk#@#.sidebar_advert
 proininews.gr#@#.small-ads
+eh-ic.com#@#.small_ad
 hebdenbridge.co.uk#@#.smallads
 geekwire.com#@#.sponsor_post
 toimitilat.kauppalehti.fi#@#.sponsored-article
