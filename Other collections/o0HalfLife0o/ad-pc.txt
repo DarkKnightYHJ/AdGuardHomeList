@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: K+NmBdTyveUzEv9VXg4aqQ
+! Checksum: gvVINlVaN8rREc7Zpw7nFw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202409081400
-! Last Modified: 2024年09月08日 14:00
+! Version: 202409082000
+! Last Modified: 2024年09月08日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -556,7 +556,6 @@ tieba.baidu.com##.tuijian-wrap
 .org/script/compatibility.js$third-party
 .ph/ads/
 .php/ad/
-.php/ads/
 .php?ad=
 .php?adsid=
 .php?adv=
@@ -579,7 +578,7 @@ tieba.baidu.com##.tuijian-wrap
 /a/?ad=
 /a/display.php?$script
 /ab_fl.js$script
-/ad--unit.htm
+/ad--unit.htm|
 /ad-125.
 /ad-choices-$image
 /ad-choices.
@@ -601,8 +600,7 @@ tieba.baidu.com##.tuijian-wrap
 /ad/imp?
 /ad/load_ad?
 /ad/popup.
-/ad300.jpg
-/ad300.js
+/ad300.jpg$image
 /ad300.png$image
 /ad728.png$image
 /ad?count=
@@ -619,7 +617,7 @@ tieba.baidu.com##.tuijian-wrap
 /ad_counter.aspx
 /ad_display.js
 /ad_header.js
-/ad_home.js
+/ad_home.js$script
 /ad_images/*$image,domain=~5nd.com|~dietnavi.com
 /ad_img/*$image
 /ad_manager/*$image,script
@@ -639,7 +637,7 @@ tieba.baidu.com##.tuijian-wrap
 /ad_vert.gif
 /adanalytics.js
 /adaptive_components.ashx?type=ads&
-/adaptvadplayer.js
+/adaptvadplayer.js$script
 /adasync.js
 /adasync.min.js
 /adbanners/*$image
@@ -724,7 +722,6 @@ tieba.baidu.com##.tuijian-wrap
 /ads/spacer.
 /Ads/sponsor.$stylesheet
 /ads/square-$image,domain=~spoolimports.com
-/ads/square.
 /ads/ta_wppas/*$third-party
 /ads/targeted|
 /ads/top.
@@ -773,7 +770,6 @@ tieba.baidu.com##.tuijian-wrap
 /adsimg/*$image
 /adsinclude.
 /adslide.js$script
-/AdsLoad.js
 /adsmanager.nsf/*$image
 /adsmanager/*$domain=~adsmanager.facebook.com|~github.com
 /AdsPlugin.
@@ -793,9 +789,9 @@ tieba.baidu.com##.tuijian-wrap
 /adunits/bcid?
 /adutil.
 /adv-banner-$image
-/adv-scroll-sidebar.js
+/adv-scroll-sidebar.js$script
 /adv-scroll.
-/adv-socialbar-scroll.js
+/adv-socialbar-scroll.js$script
 /adv.css?
 /adv_468.
 /adv_out.js$third-party
@@ -940,14 +936,14 @@ tieba.baidu.com##.tuijian-wrap
 /discourse-adplugin-$script
 /displayad?
 /dmcads_$script
-/doubleclick.min
+/doubleclick.min$script
 /drsup-admanager-ajax.js$script
 /dynamicad?
 /ec5bcb7487ff.js$script
 /exitpop.js$script
 /exitpopunder.js
 /exitpopup.js$script
-/exitsplash.php
+/exitsplash.php$script
 /exoads/*$script
 /exobanner.
 /exoclick.$~script,domain=~exoclick.bamboohr.co.uk|~exoclick.kayako.com
@@ -980,7 +976,7 @@ tieba.baidu.com##.tuijian-wrap
 /fro_lo.js
 /froloa.js
 /frontend_loader.js$script
-/ftt2/js.php
+/ftt2/js.php$script
 /funcript*.php?pub=
 /gdpr-ad-script.js
 /get/?go=1&data=
@@ -1027,14 +1023,14 @@ tieba.baidu.com##.tuijian-wrap
 /infinity.js.aspx?
 /inhouse_ads/*$image
 /inlineads.aspx
-/insertads.js
+/insertads.js$script
 /internAds.css
-/istripper.gif
+/istripper.gif$image
 /jquery.ad.js$script
 /jquery.adi.js$script
 /jquery.adx.js$script
 /jquery.dfp.js$script
-/jquery.openxtag.js
+/jquery.openxtag.js$script
 /jquery.php/?uid=
 /js.ad/size=
 /js.ng/cat=
@@ -1062,7 +1058,7 @@ tieba.baidu.com##.tuijian-wrap
 /localads.aspx
 /log_ad?
 /mads.php?
-/maven/am.js
+/maven/am.js$script
 /mbads?
 /mcad.php
 /media/ads/*$image
@@ -1080,6 +1076,7 @@ tieba.baidu.com##.tuijian-wrap
 /modules/ads/*$~xmlhttprequest
 /MPUAdHelper.js
 /mysimpleads/mysa_output.php$script
+/native/ts-master.$subdocument
 /nativead.
 /nativeads-v2.js
 /nativeads.js$script
@@ -1106,13 +1103,12 @@ tieba.baidu.com##.tuijian-wrap
 /pagead/1p-user-list/*$image
 /pagead/conversion.js
 /pagead/lvz?
-/pagead/osd.
 /pageear.js$script
 /pageear/*$script
 /pagepeel.$~xmlhttprequest
 /pagepeelpro.js
 /partnerads/js/setcookie.js
-/partneradwidget.
+/partneradwidget.$subdocument
 /partnerbanner.$domain=~toltech.cn
 /partners/ads/*$image
 /pcad.js?
@@ -1120,7 +1116,7 @@ tieba.baidu.com##.tuijian-wrap
 /peel_ads.js
 /peelads/*$script
 /pfe/current/*$third-party
-/phpads/adx.js
+/phpads/*$script
 /phpadsnew/*$image,script
 /phpbb_ads/*$~xmlhttprequest
 /pix/ads/*$image
@@ -1162,14 +1158,13 @@ tieba.baidu.com##.tuijian-wrap
 /popunder?
 /popup-domination/*$~stylesheet
 /popup2.js$script
-/popup3.js
+/popup3.js$script
 /popup_ad.js$script
 /popup_ad.php
 /popup_code.php
 /popupads.js$script
 /popupunder.js
 /prbt/v1/ads/?
-/prebid-video.js
 /prerollad.
 /prism_ad/*$script
 /processing/impressions.asp?
@@ -1190,7 +1185,6 @@ tieba.baidu.com##.tuijian-wrap
 /puff_ad?
 /punder.php
 /push/p.js?
-/pustrck.js
 /rad_singlepageapp.js$script
 /railad.jpg
 /RdmAdFeed.js
@@ -1201,13 +1195,12 @@ tieba.baidu.com##.tuijian-wrap
 /reklam.$domain=~github.com|~reklam.com.tr
 /reklam/*$domain=~cloudflare.com|~github.com|~reklam.com.tr
 /reklama/*$domain=~github.com
-/reklama1.js
-/reklama2.jpg
-/reklama2.png
-/reklama3.jpg
-/reklama3.png
+/reklama2.jpg$image
+/reklama2.png$image,domain=~aerokuz.ru
+/reklama3.jpg$image
+/reklama3.png$image
 /reklama4.jpg$image
-/reklama4.png
+/reklama4.png$image
 /reklame/*$~xmlhttprequest
 /ren.gif?
 /report_ad.js
@@ -1253,20 +1246,20 @@ tieba.baidu.com##.tuijian-wrap
 /serveads.php
 /servlet/view/*$script
 /set_adcode?
-/sft-prebid.js
+/sft-prebid.js$script
 /show-ad.js$script
 /show_ad.js$script
 /show_ad?
 /showban.asp?
-/showbanner.js
+/showbanner.js$script
 /side-ads-$~xmlhttprequest
 /side-ads/*$~xmlhttprequest
 /side_ads/*$~xmlhttprequest
 /sidead.
-/sidead1.js
-/sideads.js
-/sidebar_ad.jpg
-/sidebar_ad.png
+/sidead1.js$script
+/sideads.js$script
+/sidebar_ad.jpg$image
+/sidebar_ad.png$image
 /sidebar_ads/*$~xmlhttprequest
 /site=*/size=*/viewid=
 /site=*/viewid=*/size=
@@ -1300,7 +1293,6 @@ tieba.baidu.com##.tuijian-wrap
 /sponsors/ads/*$image
 /squaread.jpg
 /squaread.js
-/static.ad.
 /static/js/4728ba74bc.js$~third-party
 /sticky_ads.js
 /stickyad.js$script
@@ -1317,11 +1309,11 @@ tieba.baidu.com##.tuijian-wrap
 /taboola_header.js
 /taboolaarticle.min.js
 /targetingAd.js
-/targetpushad.js
+/targetpushad.js$script
 /theologicalpresentation.com/*
 /tmbi-a9-header-$script
 /tncms/ads/*$script
-/tnt.ads.
+/tnt.ads.$script
 /top-ad.
 /top_ad.
 /top_ads.
@@ -1340,8 +1332,7 @@ tieba.baidu.com##.tuijian-wrap
 /video-ad.
 /video-ads-player.
 /video-js-ads.
-/video_ad.
-/video_ads.
+/video_ads.$script
 /video_slider3.js
 /videoad.$domain=~videoad.in
 /videoad/*$script
@@ -1394,7 +1385,7 @@ tieba.baidu.com##.tuijian-wrap
 /wpxbz-theme.js$script
 /www/delivery/*$script,subdocument
 /xads.php
-/xpopup.js
+/xpopup.js$script
 /yhs/ads?
 /zcredirect?
 /~cdn/ads/*
@@ -1634,7 +1625,6 @@ _widget_ad.
 /prebid9.$script
 /prebid?
 /prebid_$script,third-party
-/prebidAdcall.
 /prebidlink/*$script
 /pubfig.min.js
 /tagman/*$domain=~abelssoft.de
@@ -1835,7 +1825,6 @@ _atblockdetector/
 /640x100/*
 /640x80-
 /660x120_
-/660x60.
 /700_100_
 /700_200.
 /700x100.
@@ -18149,7 +18138,6 @@ browsershots.org#@#.advert_area
 ||adsrv.me^
 ||adsrv.wtf^
 ||adstarget.net^
-||adstargets.com^
 ||adstean.com^
 ||adstico.io^
 ||adstook.com^
@@ -18486,6 +18474,7 @@ browsershots.org#@#.advert_area
 ||afvwwjcplvq.com^
 ||afwpc.com^
 ||afxjwyg.com^
+||afy.agency^
 ||afywhecpi.com^
 ||agabreloomr.com^
 ||agacelebir.com^
@@ -53008,6 +52997,7 @@ browsershots.org#@#.advert_area
 ||adblocker-instant.xyz^$document
 ||adclickbyte.com^$document
 ||adfgetlink.net^$document
+||adglare.net^$document
 ||aditms.me^$document
 ||adlogists.com^$document
 ||admachina.com^$document
@@ -53754,6 +53744,7 @@ browsershots.org#@#.advert_area
 ||adscendmedia.com^$third-party
 ||adscout.io^$third-party
 ||adscpm.net^$third-party
+||adsenix.com^$third-party
 ||adserve.com^$third-party
 ||adservingfactory.com^$third-party
 ||adservme.com^$third-party
@@ -53779,6 +53770,7 @@ browsershots.org#@#.advert_area
 ||adsrvmedia.com^$third-party
 ||adsrvmedia.net^$third-party
 ||adstargeting.com^$third-party
+||adstargets.com^$third-party
 ||adstatic.com^$third-party
 ||adstean.com^$third-party
 ||adsterra.com^$third-party
@@ -54984,6 +54976,7 @@ browsershots.org#@#.advert_area
 ||7fc8.site^$document,popup
 ||814272c4.xyz^$document,popup
 ||83887336.xyz^$document,popup
+||84631949.xyz^$document,popup
 ||88129513.xyz^$document,popup
 ||88545539.xyz^$document,popup
 ||89263907.xyz^$document,popup
@@ -62472,6 +62465,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||star-history.com/assets/sponsors/
 ||startpage.com/sp/adsense/
 ||startpage.com/sp/Tgz1k/adsense/
+||static.ad.libimseti.cz^
 ||static.fastpic.org^$subdocument
 ||static.getmodsapk.com/cloudflare/ads-images/
 ||staticflickr.com/ap/build/javascripts/prbd-$script,domain=flickr.com
@@ -64077,6 +64071,7 @@ ukutabs.com###howtoreadbutton
 whatismyip.com###hp-ad-banner-top
 webmd.com###hp-ad-container
 laredoute.be,laredoute.ch,laredoute.co.uk,laredoute.com,laredoute.de,laredoute.es,laredoute.fr,laredoute.gr,laredoute.it,laredoute.nl,laredoute.pt,laredoute.ru###hp-sponsored-banner
+krdo.com###hp_promobox
 blog.hubspot.com###hs_cos_wrapper_blog_post_sticky_cta
 nettiauto.com,nettikaravaani.com,nettikone.com,nettimarkkina.com,nettimokki.com,nettimoto.com,nettivene.com,nettivuokraus.com###huge_banner
 y2mate.nu,ytmp3.nu###i
@@ -64291,6 +64286,7 @@ mzzcloud.life,rabbitstream.net###overlay-container
 mp4upload.com###overlayads
 drivevideo.xyz###overlays
 animetrilogy.com,animexin.vip###overplay
+phpbb.com###page-footer > h3
 vure.cx###page-inner > div > div > a[href^="https://www.vure.cx/shorten-link.php/"]
 vure.cx###page-inner > div > div > div > a[href^="https://www.vure.cx/shorten-link.php/"]
 accuradio.com###pageSidebarWrapper
@@ -64821,6 +64817,8 @@ sporcle.com##.IMGgi
 streamingsites.com##.IPdetectCard
 80.lv##.ImagePromo_default
 yandex.com##.ImagesViewer-SidebarAdv
+doodle.com##.JupiterLayout__left-placement-container
+doodle.com##.JupiterLayout__right-placement-container
 inverness-courier.co.uk##.LLKGTX
 nyctourism.com##.Layout_mobileStickyAdContainer__fCbCq
 kentonline.co.uk##.LeaderBack
@@ -66220,7 +66218,7 @@ domaingang.com##.domai-target
 thenationonlineng.net##.dorvekp-post-bottom
 gearlive.com##.double
 capitalfm.com,radiox.co.uk,smoothradio.com##.download
-zeroupload.com##.download-page > a[rel="noopener"] > img
+zeroupload.com##.download-page a[rel="noopener"] > img
 thepiratebay3.to##.download_buutoon
 thesun.co.uk##.dpa-slot
 distractify.com,greenmatters.com,inquisitr.com,okmagazine.com,qthemusic.com,radaronline.com##.dpbdIG
@@ -66886,6 +66884,7 @@ autolist.com##.jsx-2866408628
 garticphone.com##.jsx-3256658636
 essentiallysports.com##.jsx-4249843366
 conservativefiringline.com##.jtpp53
+doodle.com##.jupiter-placement-header-module_jupiter-placement-header__label__caUpc
 theartnewspaper.com##.justify-center.flex.w-full
 aiscore.com##.justify-center.w100
 fastcompany.com##.jw-floating-dismissible
@@ -67046,6 +67045,7 @@ greatbritishlife.co.uk##.lp_track_vertical2
 foodandwine.com##.lrs__wrapper
 lowes.com##.lws_pdp_recommendations_southdeep
 lowes.com##.lws_pdp_recommendations_sponsored
+phpbb.com##.lynkorama
 thestreet.com##.m-balloon-header
 politifact.com##.m-billboard
 aol.com##.m-gam__container
@@ -67163,6 +67163,7 @@ stripes.com##.min-h90
 motortrend.com,mumsnet.com##.min-w-\[300px\]
 theland.com.au##.min-w-mrec
 moviemeter.com##.minheight250
+phpbb.com##.mini-panel:not(.sections)
 kitco.com##.mining-banner-container
 ar15.com##.minis
 247sports.com##.minutely-wrapper
@@ -68697,7 +68698,7 @@ jagranjosh.com##[class*="_BodyAd_"]
 top.gg##[class*="__AdContainer-"]
 everydaykoala.com,playjunkie.com##[class*="__adspot-title-container"]
 everydaykoala.com,playjunkie.com##[class*="__adv-block"]
-cointelegraph.com##[class*="ad-slot"]
+cointelegraph.com,doodle.com##[class*="ad-slot"]
 bitcoinist.com,captainaltcoin.com,cryptonews.com,cryptonewsz.com,cryptopotato.com,insidebitcoins.com,news.bitcoin.com,newsbtc.com,philnews.ph,watcher.guru##[class*="clickout-"]
 manabadi.co.in##[class*="dsc-banner"]
 startribune.com##[class*="htlad-"]
@@ -68813,6 +68814,7 @@ coles.com.au##[data-testid="ad"]
 kijiji.ca##[data-testid="adsense-container"]
 gozofinder.com##[data-testid="advert"]
 coles.com.au##[data-testid="banner-container-desktop"]
+walmart.com##[data-testid="carousel-ad"]
 petco.com##[data-testid="citrus-widget"]
 argos.co.uk##[data-testid="citrus_products-carousel"]
 theweathernetwork.com##[data-testid="content-feed-ad-slot"]
@@ -68827,7 +68829,6 @@ you.com##[data-testid="microsoft-ads"]
 washingtonpost.com##[data-testid="outbrain"]
 washingtonpost.com##[data-testid="placeholder-box"]
 theweathernetwork.com##[data-testid="pre-ad-text"]
-abcnews.go.com##[data-testid="prism-static-embed"]
 abcnews.go.com##[data-testid="prism-sticky-ad"]
 zillow.com##[data-testid="right-rail-ad"]
 greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-testid="sponsored-bar"]
@@ -68939,6 +68940,7 @@ topfiveforex.com##[href^="https://olymptrade.com/"]
 topfiveforex.com##[href^="https://omibet.io/"]
 windows-noob.com##[href^="https://patchmypc.com/"]
 unknowncheats.me##[href^="https://proxy-seller.com/"]
+multi.xxx##[href^="https://prtord.com/"]
 cryptonews.com##[href^="https://rapi.cryptonews.com/"]
 tcbscans.com##[href^="https://readcbr.com/"]
 rebelnews.com##[href^="https://rebelne.ws/"]
@@ -69324,7 +69326,6 @@ timeout.com##div[class^="_sponsoredContainer_"]
 crictracker.com##div[class^="ad-block-"]
 sfchronicle.com##div[class^="ad-module-"]
 fodors.com,thehulltruth.com##div[class^="ad-placeholder"]
-cointelegraph.com##div[class^="ad-slot_"]
 reuters.com##div[class^="ad-slot__"]
 gamingdeputy.com##div[class^="ad-wrapper-"]
 goodrx.com##div[class^="adContainer"]
@@ -70547,7 +70548,7 @@ amateur8.com,maturetubehere.com###nopp
 flashx.tv,xrares.com###nuevoa
 scrolller.com###object_container
 youjizz.com###onPausePrOverlay
-hentaimama.io,underhentai.net,watchhentai.net###overlay
+alldeepfake.ink,hentaimama.io,underhentai.net,watchhentai.net###overlay
 porn300.com,porndroids.com###overlay-video
 22pixx.xyz,imagevenue.com###overlayBg
 hentaiff.com###overplay
@@ -71438,6 +71439,7 @@ faptor.com##.zpot-horizontal-img
 fapnado.xxx##.zpot-vertical
 jizzbunker2.com,xxxdan.com,xxxdan3.com##.zx1p
 tnaflix.com##.zzMeBploz
+hotnudedgirl.top,pbhotgirl.xyz,prettygirlpic.top##[class$="custom-spot"]
 porn300.com,pornodiamant.xxx##[class^="abcnn_"]
 beeg.porn##[class^="bb_show_"]
 hotleaks.tv,javrank.com##[class^="koukoku"]
@@ -74046,6 +74048,7 @@ newduba.cn###jq_youxi
 ||geewdashb3.fun^
 ||ljbrbz.xyz^
 ||mrutvncx.top^
+||dsdsg44.fun^
 ||azenco.xyz^
 ||g11edashb1.fun^
 ||lzzqfj.xyz^
@@ -91531,6 +91534,7 @@ fqsousou.com,kengso.com#@#.user-share
 /apilog?
 /apmrum.min.js
 /app-measurement?
+/app.php/ads/*
 /appdynamics/adrum-
 /appGoogleTagManager-
 /appinsightor.min.js
@@ -102102,6 +102106,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.cdnstr.com^$third-party
 ||analytics.faprika.net^
 ||analytics.kkb.com.tr^
+||analytics.qushad.com^
 ||analytics.turk.pro^$third-party
 ||c.keltis.com^
 ||collector.wawlabs.com^
@@ -102138,6 +102143,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||4shared.com/js/d1VisitsCounter.4min.js
 ||9gag.com/event/
 ||9gag.com/track/
+||a-da.invideo.io^
 ||a-reporting.nytimes.com^
 ||a.electerious.com^
 ||a.tellonym.me^
@@ -102219,6 +102225,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||anal.doubledouble.top^
 ||analytics-api.dvdfab.
 ||analytics-batch.blitz.gg^
+||analytics-dataplane.invideo.io^
 ||analytics-proxy.springboard.com^
 ||analytics-server.arras.cx^
 ||analytics-tracking.meetup.com^
@@ -102275,7 +102282,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api-router.kaspersky-labs.com/logger2/metrics/
 ||api.audio.com/analytics/event
 ||api.channel.io/*/events
+||api.doodle.com/data-layer/track
 ||api.ffm.to/sl/e/$image
+||api.invideo.io/v3/send_analytics_event
 ||api.narrativ.com/favicon.ico
 ||api.streamelements.com/science/
 ||api.takealot.com^$ping
@@ -102407,6 +102416,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||classistatic.com^*/js/lib/prebid-7.5.0.min.js$script,domain=kijiji.ca
 ||click.aliexpress.com^$image
 ||click.nudevista.com^
+||clickindia.com/cimem/ad-post-ajax.php?FormName=browsingHistory
 ||client-log.box.com^
 ||client-metrics.chess.com^
 ||cloudflare.com/_cf/analytics.js
@@ -102609,10 +102619,14 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||event-router.olympics.com^
 ||event.platform.autotrader.com.au^
 ||event.platform.tunein.com^
+||eventhub.au01.miro.com/api/stream
+||eventhub.eu01.miro.com/api/stream
+||eventhub.us01.miro.com/api/stream
 ||eventlog.jackpot.de^
 ||events-prod.autolist.com^
 ||events-tracker.deliveroo.net^
 ||events.api.godaddy.com^
+||events.baselime.io^
 ||events.clips4sale.com^
 ||events.framer.com^
 ||events.mercadolibre.com^
@@ -103147,6 +103161,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.archive.
 ||pixel.archivecaslytosk.onion^
 ||pixel.archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion^
+||pixel.clutter.com^
 ||pixel.convertize.io^
 ||pixel.facebook.com^
 ||pixel.honestjohn.co.uk^
@@ -103437,12 +103452,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stubhub.com/a/icph
 ||stytch.com/sdk/v1/events
 ||suaurl.com/adblock/js/smarttag.js
+||sudokupad.app/api/event
 ||support.github.com/_event
 ||support.github.com/_stats
 ||support.github.com/session/event
 ||support.github.com/session/user
-||svc.eu01.miro.com/api/stream/
-||svc.us01.miro.com/api/stream/
 ||swarm.video/stats/
 ||szrpr.raen.com^
 ||t.9gag.com^
@@ -103613,6 +103627,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trk.decido.io^
 ||trk.tirto.id^
 ||trumba.com/et.aspx?
+||trustradius.com/api/v1/pageview
+||trustradius.com/api/v2/collectMetrics
 ||truthsocial.com/instance/innovid.js
 ||trx3.famousfix.com^
 ||ts.delfi.lt^
