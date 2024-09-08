@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fPZ0ieIW7Tgv/KAUJs+uPQ
-! Version: 202409080811
+! Checksum: DBHFbvLS82nBqtSr7OQtHw
+! Version: 202409080901
 ! Title: EasyList
-! Last modified: 08 Sep 2024 08:11 UTC
+! Last modified: 08 Sep 2024 09:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -168,8 +168,7 @@
 /ad/imp?
 /ad/load_ad?
 /ad/popup.
-/ad300.jpg
-/ad300.js
+/ad300.jpg$image
 /ad300.png$image
 /ad728.png$image
 /ad?count=
@@ -340,7 +339,6 @@
 /adsimg/*$image
 /adsinclude.
 /adslide.js$script
-/AdsLoad.js
 /adsmanager.nsf/*$image
 /adsmanager/*$domain=~adsmanager.facebook.com|~github.com
 /AdsPlugin.
@@ -360,9 +358,9 @@
 /adunits/bcid?
 /adutil.
 /adv-banner-$image
-/adv-scroll-sidebar.js
+/adv-scroll-sidebar.js$script
 /adv-scroll.
-/adv-socialbar-scroll.js
+/adv-socialbar-scroll.js$script
 /adv.css?
 /adv_468.
 /adv_out.js$third-party
@@ -594,14 +592,14 @@
 /infinity.js.aspx?
 /inhouse_ads/*$image
 /inlineads.aspx
-/insertads.js
+/insertads.js$script
 /internAds.css
-/istripper.gif
+/istripper.gif$image
 /jquery.ad.js$script
 /jquery.adi.js$script
 /jquery.adx.js$script
 /jquery.dfp.js$script
-/jquery.openxtag.js
+/jquery.openxtag.js$script
 /jquery.php/?uid=
 /js.ad/size=
 /js.ng/cat=
@@ -757,7 +755,6 @@
 /puff_ad?
 /punder.php
 /push/p.js?
-/pustrck.js
 /rad_singlepageapp.js$script
 /railad.jpg
 /RdmAdFeed.js
@@ -824,7 +821,7 @@
 /show_ad.js$script
 /show_ad?
 /showban.asp?
-/showbanner.js
+/showbanner.js$script
 /side-ads-$~xmlhttprequest
 /side-ads/*$~xmlhttprequest
 /side_ads/*$~xmlhttprequest
@@ -866,7 +863,6 @@
 /sponsors/ads/*$image
 /squaread.jpg
 /squaread.js
-/static.ad.
 /static/js/4728ba74bc.js$~third-party
 /sticky_ads.js
 /stickyad.js$script
@@ -887,7 +883,7 @@
 /theologicalpresentation.com/*
 /tmbi-a9-header-$script
 /tncms/ads/*$script
-/tnt.ads.
+/tnt.ads.$script
 /top-ad.
 /top_ad.
 /top_ads.
@@ -906,7 +902,6 @@
 /video-ad.
 /video-ads-player.
 /video-js-ads.
-/video_ad.
 /video_ads.$script
 /video_slider3.js
 /videoad.$domain=~videoad.in
@@ -1426,7 +1421,6 @@ _atblockdetector/
 /640x100/*
 /640x80-
 /660x120_
-/660x60.
 /700_100_
 /700_200.
 /700x100.
@@ -18128,6 +18122,7 @@ browsershots.org#@#.advert_area
 ||afvwwjcplvq.com^
 ||afwpc.com^
 ||afxjwyg.com^
+||afy.agency^
 ||afywhecpi.com^
 ||agabreloomr.com^
 ||agacelebir.com^
@@ -53399,6 +53394,7 @@ browsershots.org#@#.advert_area
 ||adscendmedia.com^$third-party
 ||adscout.io^$third-party
 ||adscpm.net^$third-party
+||adsenix.com^$third-party
 ||adserve.com^$third-party
 ||adservingfactory.com^$third-party
 ||adservme.com^$third-party
@@ -62145,6 +62141,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||star-history.com/assets/sponsors/
 ||startpage.com/sp/adsense/
 ||startpage.com/sp/Tgz1k/adsense/
+||static.ad.libimseti.cz^
 ||static.fastpic.org^$subdocument
 ||static.getmodsapk.com/cloudflare/ads-images/
 ||staticflickr.com/ap/build/javascripts/prbd-$script,domain=flickr.com
@@ -64031,6 +64028,7 @@ mzzcloud.life,rabbitstream.net###overlay-container
 mp4upload.com###overlayads
 drivevideo.xyz###overlays
 animetrilogy.com,animexin.vip###overplay
+phpbb.com###page-footer > h3
 vure.cx###page-inner > div > div > a[href^="https://www.vure.cx/shorten-link.php/"]
 vure.cx###page-inner > div > div > div > a[href^="https://www.vure.cx/shorten-link.php/"]
 accuradio.com###pageSidebarWrapper
@@ -66786,6 +66784,7 @@ greatbritishlife.co.uk##.lp_track_vertical2
 foodandwine.com##.lrs__wrapper
 lowes.com##.lws_pdp_recommendations_southdeep
 lowes.com##.lws_pdp_recommendations_sponsored
+phpbb.com##.lynkorama
 thestreet.com##.m-balloon-header
 politifact.com##.m-billboard
 aol.com##.m-gam__container
@@ -66903,6 +66902,7 @@ stripes.com##.min-h90
 motortrend.com,mumsnet.com##.min-w-\[300px\]
 theland.com.au##.min-w-mrec
 moviemeter.com##.minheight250
+phpbb.com##.mini-panel:not(.sections)
 kitco.com##.mining-banner-container
 ar15.com##.minis
 247sports.com##.minutely-wrapper
