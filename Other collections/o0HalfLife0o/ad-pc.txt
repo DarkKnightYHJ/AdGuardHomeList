@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gvVINlVaN8rREc7Zpw7nFw
+! Checksum: Dd3/PwKO7OORAkNYiVi9PA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202409082000
-! Last Modified: 2024年09月08日 20:00
+! Version: 202409090200
+! Last Modified: 2024年09月09日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -775,11 +775,10 @@ tieba.baidu.com##.tuijian-wrap
 /AdsPlugin.
 /adsrv.
 /adsscript.$script
-/adsserv.
 /adsservice.
 /adsTracking.$script
 /adstream.
-/adswrapper.
+/adsWrapper.js$script
 /ads~adsize~
 /adtech;
 /adTools.
@@ -790,7 +789,7 @@ tieba.baidu.com##.tuijian-wrap
 /adutil.
 /adv-banner-$image
 /adv-scroll-sidebar.js$script
-/adv-scroll.
+/adv-scroll.$script
 /adv-socialbar-scroll.js$script
 /adv.css?
 /adv_468.
@@ -815,7 +814,6 @@ tieba.baidu.com##.tuijian-wrap
 /advtBanner.
 /adx2.
 /adz/js/adz.$script
-/aff-ads.
 /aff/banners/*$image
 /aff/images/*$image
 /aff_ad?$script
@@ -1107,7 +1105,7 @@ tieba.baidu.com##.tuijian-wrap
 /pageear/*$script
 /pagepeel.$~xmlhttprequest
 /pagepeelpro.js
-/partnerads/js/setcookie.js
+/partnerads/js/*$script
 /partneradwidget.$subdocument
 /partnerbanner.$domain=~toltech.cn
 /partners/ads/*$image
@@ -1308,7 +1306,7 @@ tieba.baidu.com##.tuijian-wrap
 /taboola_8.9.1.js$script
 /taboola_header.js
 /taboolaarticle.min.js
-/targetingAd.js
+/targetingAd.js$script
 /targetpushad.js$script
 /theologicalpresentation.com/*
 /tmbi-a9-header-$script
@@ -1323,7 +1321,6 @@ tieba.baidu.com##.tuijian-wrap
 /utx?cb=$third-party
 /v2/a/push/js/*$third-party
 /v3/ads?
-/valnet-header-ads.
 /vast/?zid=
 /velvet_stack_cmp.js
 /vendors~ads.
@@ -1400,6 +1397,7 @@ tieba.baidu.com##.tuijian-wrap
 ://adserving.
 ://adsserver.
 ://adv.$domain=~adv.asahi.com|~adv.bet|~adv.blue|~adv.chunichi.co.jp|~adv.cincsys.com|~adv.cryptonetlabs.it|~adv.derfunke.at|~adv.design|~adv.digimatix.ru|~adv.ec|~adv.ee|~adv.gg|~adv.hokkaido-np.co.jp|~adv.kompas.id|~adv.lack-girl.com|~adv.mcr.club|~adv.mcu.edu.tw|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.peronihorowicz.com.br|~adv.rest|~adv.ru|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.yomiuri.co.jp|~advancedradiology.com|~advids.co|~farapp.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com
+://aff-ads.
 ://affiliate.$third-party
 ://affiliates.$third-party
 ://affiliates2.$third-party
@@ -1555,7 +1553,7 @@ _widget_ad.
 /myvids/rek/*$script,subdocument
 ://rs-stripe.wsj.com/stripe/image?
 /?l=*&s=*&mprtr=$~third-party,xmlhttprequest
-/push-skin/skin.min.js
+/push-skin/skin.min.js$script
 /search/tsc.php?
 /full-page-script.js$script
 /earn.php?z=$popup,subdocument
@@ -25277,6 +25275,7 @@ browsershots.org#@#.advert_area
 ||diguver.com^
 ||digyniahuffle.com^
 ||diingsinspiri.com^
+||diixqvrpoqs.com^
 ||dikeaxillas.com^
 ||dikkoplida.cam^
 ||diktatslopseed.com^
@@ -36962,6 +36961,7 @@ browsershots.org#@#.advert_area
 ||murkybrashly.com^
 ||murkymouse.online^
 ||murreyequate.com^
+||murtbgab.com^
 ||muscatscurls.click^
 ||muscledarcysilly.com^
 ||musclehaulse.top^
@@ -54892,6 +54892,7 @@ browsershots.org#@#.advert_area
 ||0c0b6e3f.xyz^$document,popup
 ||0d785fd7.xyz^$document,popup
 ||10523745.xyz^$document,popup
+||10753990.xyz^$document,popup
 ||11152646.xyz^$document,popup
 ||1116c5.xyz^$document,popup
 ||11c7a3.xyz^$document,popup
@@ -59896,9 +59897,11 @@ browsershots.org#@#.advert_area
 ||123-stream.org^
 ||1363394706.rsc.cdn77.org^
 ||1437953666.rsc.cdn77.org^
+||1450691516.rsc.cdn77.org^
 ||1529462937.rsc.cdn77.org^
 ||1548164934.rsc.cdn77.org^
 ||1588341617.rsc.cdn77.org^
+||1607162747.rsc.cdn77.org^
 ||1675450967.rsc.cdn77.org^
 ||1736253261.rsc.cdn77.org^
 ||1918837748.rsc.cdn77.org^
@@ -74049,6 +74052,7 @@ newduba.cn###jq_youxi
 ||ljbrbz.xyz^
 ||mrutvncx.top^
 ||dsdsg44.fun^
+||uuajq.top^
 ||azenco.xyz^
 ||g11edashb1.fun^
 ||lzzqfj.xyz^
