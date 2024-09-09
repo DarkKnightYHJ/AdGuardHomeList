@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vstOE8X3elWJaR/r4dXOUg
-! Version: 202409091221
+! Checksum: yBFxHgSn2CjWNJfp4QzzMw
+! Version: 202409091311
 ! Title: EasyList China+EasyList
-! Last modified: 09 Sep 2024 12:21 UTC
+! Last modified: 09 Sep 2024 13:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -10712,6 +10712,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||53bk.com/Baokan/Comja/changepic.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+dcfever.com##.trading_top_banner
 wealwomen.com##div[data-cptid]
 supercloudsms.com##a[style="display: block;"]
 cn.bing.com##.b_bza_pole
@@ -19027,7 +19028,7 @@ fqsousou.com,kengso.com#@#.user-share
 .php?adsid=
 .php?adv=
 .php?clicktag=
-.php?zone_id=
+.php?zone_id=$~xmlhttprequest
 .php?zoneid=
 .pk/ads/
 .popunder.js
@@ -19136,7 +19137,7 @@ fqsousou.com,kengso.com#@#.user-share
 /admanager/*$~object,domain=~admanager.line.biz|~blog.google|~sevio.com
 /admgr.js
 /admitad.js$script
-/adocean.js
+/adocean.js$script
 /adpartner.min.js$script
 /adplayer.$script,domain=~adplayer.pro
 /adplugin.
@@ -19153,7 +19154,7 @@ fqsousou.com,kengso.com#@#.user-share
 /ads-rectangle.
 /ads-right.
 /ads-templateslist.
-/ads-vast-vpaid.js
+/ads-vast-vpaid.js$script
 /ads.bundle.js
 /ads.bundle.min.js
 /ads.cfm?
@@ -19196,7 +19197,6 @@ fqsousou.com,kengso.com#@#.user-share
 /ads/view.php
 /ads/xtcore.
 /ads1.
-/ads160.
 /ads4.
 /ads468.
 /ads468x60.$image
@@ -19213,7 +19213,7 @@ fqsousou.com,kengso.com#@#.user-share
 /ads_banners/*$image
 /ads_bg.$image
 /ads_bottom.js
-/ads_controller.js
+/ads_controller.js$script
 /ads_frame.
 /ads_iframe.$subdocument
 /ads_image/*$image
@@ -19277,7 +19277,7 @@ fqsousou.com,kengso.com#@#.user-share
 /adverts.$~script,domain=~0xacab.org|~adverts.ie|~adverts.org.ua|~github.com|~gitlab.com
 /adverts/*$~xmlhttprequest
 /advrotator.js
-/advrotator_banner_largo.htm
+/advrotator_banner_largo.htm$subdocument
 /advtBanner.
 /adx2.
 /adz/js/adz.$script
@@ -19309,7 +19309,6 @@ fqsousou.com,kengso.com#@#.user-share
 /ane-popup-banner.js$script
 /annonse.
 /annonser.
-/api.ad.
 /api.ads.$domain=~ads.instacart.com|~www.ads.com
 /api/ad.$script
 /api/ads?
@@ -19322,7 +19321,6 @@ fqsousou.com,kengso.com#@#.user-share
 /asyncjs.php$script
 /asyncspc.php$third-party
 /awaps-ad-sdk-$script
-/awe2.js
 /ban.php?
 /ban300.php
 /ban728.php
@@ -19337,7 +19335,6 @@ fqsousou.com,kengso.com#@#.user-share
 /banner.php$domain=~research.hchs.hc.edu.tw
 /banner/affiliate/*$image,subdocument
 /banner/html/zone?zid=
-/banner/sponsors.
 /banner_468.
 /banner_ads/*$~xmlhttprequest,domain=~clickbd.com
 /bannerad.
@@ -19361,7 +19358,7 @@ fqsousou.com,kengso.com#@#.user-share
 /bsa-plugin-pro-scripteo/frontend/js/script.js
 /bsa-pro-scripteo/frontend/js/script.js
 /btag.min.js$third-party
-/buysellads.js
+/buysellads.js$script
 /callAdserver?
 /cgi-bin/ad/*$~xmlhttprequest
 /cgi-bin/ads.cgi
@@ -19378,7 +19375,7 @@ fqsousou.com,kengso.com#@#.user-share
 /common/ads?
 /common_ad.js
 /concert_ads-$script
-/content-ads.js
+/content-ads.js$script
 /content/ads/*$~xmlhttprequest
 /cpmbanners.js
 /css/ads-$stylesheet
@@ -19410,11 +19407,9 @@ fqsousou.com,kengso.com#@#.user-share
 /exitpopup.js$script
 /exitsplash.php$script
 /exoads/*$script
-/exobanner.
 /exoclick.$~script,domain=~exoclick.bamboohr.co.uk|~exoclick.kayako.com
 /exonb/backloaderforload.php
 /expads-blocked.js
-/export/ltv_popup.php
 /exports/tour/*$third-party
 /exports/tour_20/*$subdocument
 /external/ad.
@@ -19507,8 +19502,6 @@ fqsousou.com,kengso.com#@#.user-share
 /jshexi.hj?lb=
 /jspopunder.js$script
 /jspopunder.min.js$script
-/keyade.js
-/layerad.js
 /lazyad-loader.js$script
 /lazyad-loader.min.js$script
 /lazyload.ads?
@@ -19556,17 +19549,16 @@ fqsousou.com,kengso.com#@#.user-share
 /nwm-pw2.min.js
 /nxst-advertising/dist/htlbid-advertising.min.js
 /oiopub-direct/js.php$script
-/oncc-ad.js
-/oncc-adbanner.js
+/oncc-ad.js$script
+/oncc-adbanner.js$script
 /openads.js
 /owa.MessageAdList.
-/p8network.js
 /p?zoneId=
 /page-links-to/dist/new-tab.js
 /page-peel$~xmlhttprequest
 /page/bouncy.php?
 /pagead/1p-user-list/*$image
-/pagead/conversion.js
+/pagead/conversion.js$script
 /pagead/lvz?
 /pageear.js$script
 /pageear/*$script
@@ -19674,9 +19666,8 @@ fqsousou.com,kengso.com#@#.user-share
 /responsive_ads.js$script
 /right_ad.
 /right_ads.
-/rightad.js
+/rightad.js$script
 /rightads.js
-/rotatingad.
 /s.ashx?btag
 /SBA-WP-13.js
 /sbar.json?key=
@@ -19753,7 +19744,6 @@ fqsousou.com,kengso.com#@#.user-share
 /sponsored_ad.
 /sponsored_link.
 /sponsored_text.
-/sponsoredlinks.
 /sponsoredlinks?
 /sponsors/ads/*$image
 /squaread.jpg
@@ -20021,7 +20011,6 @@ _widget_ad.
 ! streamhub.gg/qehyheswr3i8 / uploadhub.to/842q2djqdfub
 /tabu/display.js$script
 ! ezoic
-/cmbdv2.js
 /greenoaks.gif?
 ! (NSFW) exoads on donstick.com sites
 /myvids/click/*$script,subdocument
@@ -20049,6 +20038,8 @@ _widget_ad.
 /detroitchicago/anaheim.js$script
 /detroitchicago/augusta.js$script
 /detroitchicago/boise.js$script
+/detroitchicago/cmbdv2.js$script
+/detroitchicago/cmbv2.js$script
 /detroitchicago/denver.js$script
 /detroitchicago/gateway.js$script
 /detroitchicago/houston.js$script
@@ -80502,6 +80493,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||afloat.ie/images/banners/
 ||afr.com/assets/europa.
 ||aiimgvlog.fun/ad$subdocument
+||aimclicks.com/layerad.js
 ||allkeyshop.com/blog/wp-content/uploads/allkeyshop_background_
 ||allmonitors24.com/ads-
 ||amazon.com/aan/$subdocument
