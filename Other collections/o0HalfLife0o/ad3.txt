@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CthulGw1CE/W86fZRxlB2w
+! Checksum: QhWOQ/deVGdeYurATq3lUw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202409091400
-! Last Modified: 2024年09月09日 14:00
+! Version: 202409092000
+! Last Modified: 2024年09月09日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1871,6 +1871,11 @@ newduba.cn###jq_youxi
 ||jy06.shop^
 ||rewrwrt4.fun^
 ||poiejdhmkjcnd.top^
+||cdickef.top^
+||dzlndygh.com^
+||hccoeutg.com^
+||kaiyuan308.vip^
+||2325fdrf.fun^
 ||azenco.xyz^
 ||g11edashb1.fun^
 ||lzzqfj.xyz^
@@ -24100,6 +24105,7 @@ _trackWebtrekkEvents.
 _view_pixel&$image
 _webanalytics.
 _WebVitalsReporter_
+/ng.gif?
 /ajax/bz?_
 .com/vtrack
 /ls.php?t=
@@ -30054,6 +30060,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||panorama.wixapps.net^
 ||pap.qualityunit.com^$third-party
 ||parallax.askmediagroup.com^
+||paramount.tech/lookup/
 ||parkwhiz.com/events/
 ||parsely.com/keys/$script,third-party
 ||partners.etoro.com^$script
@@ -71444,7 +71451,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||cleverpush.com/channel/$script,domain=bsdex.de|heise.de
 @@||cleverpush.com/sdk/$script,domain=heise.de
 @@||cloudflare.com/ajax/libs/fingerprintjs2/$domain=extracttable.com|fckrasnodar.ru|login.kroton.com.br
-@@||cloudflare.com/cdn-cgi/trace$domain=infyspringboard.onwingspan.com|injora.com|myair.resmed.com
+@@||cloudflare.com/cdn-cgi/trace$domain=infyspringboard.onwingspan.com|injora.com|kiichin.com|myair.resmed.com
 @@||cloudflareinsights.com/beacon.min.js$script,domain=app.uniswap.org
 @@||cloudfront.net/atrk.js$domain=luxuryrealestate.com
 @@||cloudinary.com/perimeterx/$image,domain=perimeterx.com

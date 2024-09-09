@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cL2gDicOoS9aPdjtTgsC5w
+! Checksum: E40V332WKL0i2dm5MCrKKA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202409091400
-! Last Modified: 2024年09月09日 14:00
+! Version: 202409092000
+! Last Modified: 2024年09月09日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -69772,6 +69772,7 @@ darkreader.org##.up:has(.h-logo-link)
 duckduckgo.com##.vertical-section-divider:has(span.badge--ad-wrap)
 neonheightsservers.com##.well:has(ins.adsbygoogle)
 9to5linux.com##.widget:has([href$=".php"])
+evreporter.com##.widget_media_image:not(:has(a[href^="https://evreporter.com/"]))
 bestbuy.ca##.x-productListItem:has([data-automation="sponsoredProductLabel"])
 freshdirect.com##[class*="ProductsGrid_grid_item"]:has([data-testid="marketing tag"])
 livejournal.com##[class*="categories"] + div[class]:has(> [class*="-commercial"])
@@ -71336,6 +71337,7 @@ indianpornvideos.com##.vdo-unit
 xnxxporn.video##.vertbars
 milfporn8.com,ymlporn7.net##.vid-ave-pl
 ymlporn7.net##.vid-ave-th
+xvideos.com##.video-ad
 pornone.com##.video-add
 ad69.com,risextube.com##.video-aside
 sexseeimage.com##.video-block-happy
@@ -74060,6 +74062,11 @@ newduba.cn###jq_youxi
 ||jy06.shop^
 ||rewrwrt4.fun^
 ||poiejdhmkjcnd.top^
+||cdickef.top^
+||dzlndygh.com^
+||hccoeutg.com^
+||kaiyuan308.vip^
+||2325fdrf.fun^
 ||azenco.xyz^
 ||g11edashb1.fun^
 ||lzzqfj.xyz^
@@ -93954,6 +93961,7 @@ _trackWebtrekkEvents.
 _view_pixel&$image
 _webanalytics.
 _WebVitalsReporter_
+/ng.gif?
 /ajax/bz?_
 .com/vtrack
 /ls.php?t=
@@ -99908,6 +99916,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||panorama.wixapps.net^
 ||pap.qualityunit.com^$third-party
 ||parallax.askmediagroup.com^
+||paramount.tech/lookup/
 ||parkwhiz.com/events/
 ||parsely.com/keys/$script,third-party
 ||partners.etoro.com^$script
@@ -141298,7 +141307,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||cleverpush.com/channel/$script,domain=bsdex.de|heise.de
 @@||cleverpush.com/sdk/$script,domain=heise.de
 @@||cloudflare.com/ajax/libs/fingerprintjs2/$domain=extracttable.com|fckrasnodar.ru|login.kroton.com.br
-@@||cloudflare.com/cdn-cgi/trace$domain=infyspringboard.onwingspan.com|injora.com|myair.resmed.com
+@@||cloudflare.com/cdn-cgi/trace$domain=infyspringboard.onwingspan.com|injora.com|kiichin.com|myair.resmed.com
 @@||cloudflareinsights.com/beacon.min.js$script,domain=app.uniswap.org
 @@||cloudfront.net/atrk.js$domain=luxuryrealestate.com
 @@||cloudinary.com/perimeterx/$image,domain=perimeterx.com
