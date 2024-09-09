@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BqPjwnJFrHOnsR/SgqQ+Iw
-! Version: 202409091501
+! Checksum: KFTuPeHUBd/4HngnJEH5SQ
+! Version: 202409091611
 ! Title: EasyList China+EasyList
-! Last modified: 09 Sep 2024 15:01 UTC
+! Last modified: 09 Sep 2024 16:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -19267,7 +19267,6 @@ fqsousou.com,kengso.com#@#.user-share
 /advbanner/*$~image
 /advbanners/*$~image
 /advert.$~script,~xmlhttprequest,domain=~advert.ae|~advert.club|~advert.com.tr|~advert.ee|~advert.ge|~advert.io|~advert.media|~advert.org.pl|~motortrader.com.my
-/advert2.
 /advert?
 /advertbanner.
 /advertising/banners/*$image
@@ -19336,7 +19335,6 @@ fqsousou.com,kengso.com#@#.user-share
 /banner/html/zone?zid=
 /banner_468.
 /banner_ads/*$~xmlhttprequest,domain=~clickbd.com
-/bannerad.
 /bannerad3.js$script
 /bannerads/*$~xmlhttprequest,domain=~coldwellbankerhomes.com
 /banners.*/piclist?
@@ -19349,8 +19347,8 @@ fqsousou.com,kengso.com#@#.user-share
 /banners/aff.
 /banners/affil/*$image
 /banners/affiliate/*$image
-/bottom-ads.jpg
-/bottom-ads.png
+/bottom-ads.jpg$image,domain=~saltwaterisland.com
+/bottom-ads.png$image
 /bottom_ad.jpg
 /bottomad.png$image
 /bottomads.js
@@ -19510,7 +19508,6 @@ fqsousou.com,kengso.com#@#.user-share
 /li.blogtrottr.com/imp?
 /link?z=$subdocument
 /livejasmin.$domain=~livejasmin.com
-/livejasminpopupunder.
 /localads.aspx
 /log_ad?
 /mads.php?
@@ -19533,7 +19530,6 @@ fqsousou.com,kengso.com#@#.user-share
 /MPUAdHelper.js
 /mysimpleads/mysa_output.php$script
 /native/ts-master.$subdocument
-/nativead.
 /nativeads-v2.js
 /nativeads.js$script
 /nativeads/script/*$script
@@ -19739,7 +19735,7 @@ fqsousou.com,kengso.com#@#.user-share
 /sponsorad.png
 /sponsored-links.
 /sponsored_ad.
-/sponsored_link.
+/sponsored_link.gif$image
 /sponsored_text.
 /sponsoredlinks?
 /sponsors/ads/*$image
@@ -19757,7 +19753,6 @@ fqsousou.com,kengso.com#@#.user-share
 /taboola-footer.js$script
 /taboola-header.js$script
 /taboola_8.9.1.js$script
-/taboola_header.js
 /targetingAd.js$script
 /targetpushad.js$script
 /theologicalpresentation.com/*
@@ -19778,7 +19773,6 @@ fqsousou.com,kengso.com#@#.user-share
 /vendors~ads.
 /vghd.gif
 /vghd2.gif
-/video-ad.
 /video-ads-player.
 /video-js-ads.
 /video_ads.$script
@@ -19794,7 +19788,6 @@ fqsousou.com,kengso.com#@#.user-share
 /web/ads/*$image
 /web_ads/*$image
 /webads.htm
-/webads.jpg
 /webads/*$image,domain=~cccc.edu|~meatingplace.com
 /webadverts/ads.pl?
 /welcome_ad.js
@@ -19810,7 +19803,6 @@ fqsousou.com,kengso.com#@#.user-share
 /wp-content/plugins/amazon-product-in-a-post-plugin/*
 /wp-content/plugins/automatic-social-locker/*
 /wp-content/plugins/banner-manager/*$script
-/wp-content/plugins/bhcb/lock.js
 /wp-content/plugins/bookingcom-banner-creator/*
 /wp-content/plugins/bookingcom-text2links/*
 /wp-content/plugins/fasterim-optin/*$~xmlhttprequest
@@ -73454,6 +73446,7 @@ browsershots.org#@#.advert_area
 ||2d979880.xyz^$document,popup
 ||2edef809.xyz^$document,popup
 ||30937261.xyz^$document,popup
+||33848102.xyz^$document,popup
 ||38941752.xyz^$document,popup
 ||3a2e.site^$document,popup
 ||3a55f02d.xyz^$document,popup
@@ -78958,6 +78951,7 @@ browsershots.org#@#.advert_area
 ||trvl-px.com/trvl-px/
 ||turb.cc/fd1/img/promo/
 ||typicalstudent.org^$third-party
+||ubm-us.net/oas/nativead/js/nativead.js
 ||ummn.nu^$subdocument
 ||universal.wgplayer.com^
 ||uploaded.net/img/public/$third-party
