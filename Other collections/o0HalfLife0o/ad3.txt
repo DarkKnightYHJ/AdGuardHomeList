@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QhWOQ/deVGdeYurATq3lUw
+! Checksum: 4sA6xAbd6lK8G56G5wvWWw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202409092000
-! Last Modified: 2024年09月09日 20:00
+! Version: 202409100200
+! Last Modified: 2024年09月10日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -10845,6 +10845,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||53bk.com/Baokan/Comja/changepic.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+dcfever.com##.trading_top_banner
 wealwomen.com##div[data-cptid]
 supercloudsms.com##a[style="display: block;"]
 cn.bing.com##.b_bza_pole
@@ -32637,6 +32638,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||console-telemetry.oci.oraclecloud.com^
 ||consumer.org.nz/session/ping/
 ||containers.appdomain.cloud/api/send-log$domain=ibm.com
+||cookpad.com/*/activity_logs
 ||copilot-telemetry.githubusercontent.com^
 ||count.darkreader.app^
 ||count.rin.ru^
@@ -33315,6 +33317,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pftk.temu.com^
 ||ph.thenextweb.com^
 ||phonearena.com/_track.php
+||pi.ai/proxy/api/event
 ||pikbest.com/?m=Stats&
 ||ping.hashnode.com^
 ||ping.hungama.com^
@@ -34128,6 +34131,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||carolsdaughter.com/IZ/uaPO0cuk/init.js
 ||carters.com/0F3091f3/init.js
 ||chron.com/413gkwMT/init.js
+||cookpad.com/FqtAw5et/init.js
 ||couchsurfing.com/bEcn7fQX/init.js
 ||crunchbase.com/rw7M6iAV/init.js
 ||ctinsider.com/413gkwMT/init.js
@@ -67898,7 +67902,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||go.piccolo.mobi^
 ||go.picsart.com^
 ||go.pinoy.innovatedating.com^
-||go.playbackbone.com^
 ||go.player2app.com^
 ||go.poland.innovatedating.com^
 ||go.polen-app.com^
