@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 83wZEfZmC5/p4HXotZXGPg
+! Checksum: x0ZlTTcH6TgV4p6vIqfrrg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202409112000
-! Last Modified: 2024年09月11日 20:00
+! Version: 202409120200
+! Last Modified: 2024年09月12日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -502,12 +502,11 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad_common.js
 /ad_counter.aspx
 /ad_display.js
-/ad_header.js
+/ad_header.js$script
 /ad_home.js$script
 /ad_images/*$image,domain=~5nd.com|~dietnavi.com
 /ad_img/*$image
 /ad_manager/*$image,script
-/ad_overlay.js
 /ad_pos=
 /ad_position=
 /ad_request.js
@@ -568,7 +567,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads-frontend.min.js$script
 /ads-rectangle.
 /ads-right.
-/ads-templateslist.
+/ads-templateslist.$script
 /ads-vast-vpaid.js?$script
 /ads.bundle.js
 /ads.bundle.min.js
@@ -582,7 +581,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads/banners/*$image
 /ads/cbr.
 /ads/custom_ads.js
-/ads/delivery.
 /ads/footer.$~xmlhttprequest
 /ads/ga-audiences?
 /ads/gam_prebid-$script
@@ -592,7 +590,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads/index.$~xmlhttprequest
 /ads/index/*$~xmlhttprequest,domain=~kuchechina.com
 /ads/leaderboard-$~xmlhttprequest
-/ads/leaderboard.
 /ads/native.js
 /ads/outbrain?
 /ads/popup.
@@ -625,7 +622,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads?zone_id=
 /ads_banners/*$image
 /ads_bg.$image
-/ads_bottom.js
 /ads_controller.js$script
 /ads_frame.
 /ads_iframe.$subdocument
@@ -687,7 +683,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adverts/*$~xmlhttprequest
 /advrotator.js
 /advrotator_banner_largo.htm$subdocument
-/adx2.
 /adz/js/adz.$script
 /aff/banners/*$image
 /aff/images/*$image
@@ -719,7 +714,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /api/ad.$script
 /api/ads?
 /apopwin.js
-/apstag.js
+/apstag.js$script
 /apu.php?
 /arcads.js$script
 /asset/ad/*$image
@@ -778,7 +773,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /combo?darla/*
 /common/ad.js$script
 /common/ads?
-/common_ad.js
+/common_ad.js$script
 /concert_ads-$script
 /content-ads.js$script
 /content/ads/*$~xmlhttprequest
@@ -787,7 +782,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /css/adsense.$stylesheet
 /css/adv.$stylesheet
 /curveball/ads/*$image
-/data-file_123.js
 /deliverad/fc.js$script
 /delivery.php?zone=
 /delivery/ag.php$script,subdocument
@@ -813,7 +807,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /exoads/*$script
 /exoclick.$~script,domain=~exoclick.bamboohr.co.uk|~exoclick.kayako.com
 /exonb/backloaderforload.php
-/expads-blocked.js
 /exports/tour/*$third-party
 /exports/tour_20/*$subdocument
 /external/ad.$script
@@ -912,7 +905,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /li.blogtrottr.com/imp?
 /link?z=$subdocument
 /livejasmin.$domain=~livejasmin.com
-/localads.aspx
 /log_ad?
 /mads.php?
 /maven/am.js$script
@@ -922,7 +914,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /media_ads/*$image
 /mgid.html
 /microad.js
-/mnpw3.js
+/mnpw3.js$script
 /mobile_ad.
 /mobileads.
 /mod_ijoomla_adagency_zone/*$~xmlhttprequest
@@ -948,7 +940,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /oiopub-direct/js.php$script
 /oncc-ad.js$script
 /oncc-adbanner.js$script
-/openads.js
 /owa.MessageAdList.
 /p?zoneId=
 /page-links-to/dist/new-tab.js
@@ -1148,8 +1139,8 @@ pan.baidu.com##.upload-bar.global-clearfix
 /stickyad.js$script
 /stickyads.js$script
 /style_ad.css$stylesheet
-/suurl4.php?
-/suurl5.php
+/suurl4.php?$third-party
+/suurl5.php$third-party
 /suv4.js$third-party
 /suv5.js$third-party
 /taboola-footer.js$script
@@ -1157,12 +1148,11 @@ pan.baidu.com##.upload-bar.global-clearfix
 /taboola_8.9.1.js$script
 /targetingAd.js$script
 /targetpushad.js$script
-/theologicalpresentation.com/*
 /tmbi-a9-header-$script
 /tncms/ads/*$script
 /tnt.ads.$script
 /top-ad.
-/top_ad.
+/top_ad.$~xmlhttprequest,domain=~sunco.co.jp
 /top_ads.
 /triadshow.asp
 /ttj?id=
@@ -1447,7 +1437,7 @@ _widget_ad.
 -prebid/
 .prebid-bundle.
 .prebid.$domain=~prebid.org
-/ad/postbid_handler1.0.9.js
+/ad/postbid_handler1.$script
 /gpt-prebid.js$script
 /pbjsandwichdirecta9-$script
 /plugins/prebidjs/*$script
@@ -16555,6 +16545,7 @@ browsershots.org#@#.advert_area
 ||26485.top^
 ||268stephe5en3king.com^
 ||2690dny5l.com^
+||26ea4af114.com^
 ||26q4nn691.de^
 ||26y7fyw3o.com^
 ||2799f73c61.com^
@@ -23286,6 +23277,7 @@ browsershots.org#@#.advert_area
 ||cocklacock.com^
 ||cocklystats.top^
 ||cockyinaccessiblelighter.com^
+||cockysnailleather.com^
 ||cocoaadornment.com^
 ||cocoaexpansionshrewd.com^
 ||coconutfieryreferee.com^
@@ -25917,6 +25909,7 @@ browsershots.org#@#.advert_area
 ||dttaupjvj.com^
 ||dtx.click^
 ||dtybyfo.com^
+||dtylhedgelnham.com^
 ||dualmarket.info^
 ||dualp.xyz^
 ||duamilsyr.com^
@@ -25955,6 +25948,7 @@ browsershots.org#@#.advert_area
 ||dugothitachan.com^
 ||dugraukeeck.net^
 ||duhafaroalub.com^
+||duhthvtcgp.com^
 ||duili-mtp.com^
 ||duimspruer.life^
 ||dujcubbzog.com^
@@ -32522,6 +32516,7 @@ browsershots.org#@#.advert_area
 ||isolationoranges.com^
 ||isomeremankin.top^
 ||isparkmedia.com^
+||isreputysolomo.com^
 ||issomeoneinth.info^
 ||issuedindiscreetcounsel.com^
 ||isthmjays.click^
@@ -33643,6 +33638,7 @@ browsershots.org#@#.advert_area
 ||keyrunmodel.com^
 ||keywordblocks.com^
 ||keywordsconnect.com^
+||kezytpdsxmw.com^
 ||kfareputfeab.org^
 ||kfbdnyeelfxctc.com^
 ||kffawlmqdahowhr.com^
@@ -35175,6 +35171,7 @@ browsershots.org#@#.advert_area
 ||lstonorallantyne.com^
 ||lsvblpynuezkbf.com^
 ||lszydrtzsh.com^
+||ltapsxz.xyz^
 ||ltassrv.com.s3.amazonaws.com^
 ||ltassrv.com^
 ||ltedinncreasuke.org^
@@ -37531,6 +37528,7 @@ browsershots.org#@#.advert_area
 ||nigooshe.net^
 ||nigure.com^
 ||nihiy.com^
+||nijosgstamb.com^
 ||nikkiexxxads.com^
 ||nilmc7i0w.com^
 ||nilreels.com^
@@ -38867,6 +38865,7 @@ browsershots.org#@#.advert_area
 ||oppressiveconnoisseur.com^
 ||oppressiveoversightnight.com^
 ||oppxzerrufhe.com^
+||opqhihiw.com^
 ||opreseynatcreativei.com^
 ||oprill.com^
 ||opsaupsa.com^
@@ -42555,6 +42554,7 @@ browsershots.org#@#.advert_area
 ||raw-co.com^
 ||rawasy.com^
 ||rawoarsy.com^
+||rawqel.com^
 ||raylnk.com^
 ||raymondcarryingordered.com^
 ||rayshopsshabby.com^
@@ -44238,6 +44238,7 @@ browsershots.org#@#.advert_area
 ||sb-stat1.com^
 ||sb4you1.com^
 ||sb89347.com^
+||sbboppwsuocy.com^
 ||sbfsdvc.com^
 ||sbhight.com^
 ||sbonjqsxicqfo.xyz^
@@ -51770,6 +51771,7 @@ browsershots.org#@#.advert_area
 ||xuclkzjh.com^
 ||xueserverhost.com^
 ||xuffojr.com^
+||xuiqxlhqyo.com^
 ||xuircnbbidmu.com^
 ||xujhdtynpgctncq.com^
 ||xukevxdf.com^
@@ -54855,6 +54857,7 @@ browsershots.org#@#.advert_area
 ||4e68.xyz^$document,popup
 ||4fb60fd0.xyz^$document,popup
 ||54019033.xyz^$document,popup
+||54199287.xyz^$document,popup
 ||54eeeadb.xyz^$document,popup
 ||55cc9d.xyz^$document,popup
 ||56514411.xyz^$document,popup
@@ -65596,7 +65599,7 @@ snokido.com##.bigsquare
 nypost.com,pagesix.com##.billboard-overlay
 electronicproducts.com##.billboard-wrap
 weatherpro.com##.billboard-wrapper
-motorcycle.com,thetruthaboutcars.com,upgradedhome.com##.billboardSize
+autoguide.com,motorcycle.com,thetruthaboutcars.com,upgradedhome.com##.billboardSize
 dev.to##.billboard[data-type-of="external"]
 techspot.com##.billboard_placeholder_min
 netweather.tv##.billheight
@@ -67867,7 +67870,7 @@ coincodex.com##.sidebar-1skyscraper
 ganjapreneur.com##.sidebar-ad-block
 oann.com##.sidebar-ad-slot__ad-label
 jayisgames.com##.sidebar-ad-top
-motorcycle.com##.sidebar-ad-unit
+autoguide.com,motorcycle.com##.sidebar-ad-unit
 computing.co.uk##.sidebar-block
 dailycoffeenews.com##.sidebar-box
 nfcw.com##.sidebar-display
@@ -69639,6 +69642,7 @@ radioreference.com##.box.gradient:has(a[href*="&Click="])
 gpro.net##.boxy:has(#blockblockA)
 slickdeals.net##.bp-p-filterGrid_item:has(.bp-c-label--promoted)
 homedepot.com##.browse-search__pod:has([id^="plp_pod_sponsored"])
+bws.com.au##.card-list-item:has(.productTile.is-Sponsored)
 doordash.com##.carousel-virtual-wrapper:has([href*="collection_type=sponsored_brand"])
 doordash.com##.ccdtLs:has([data-testid="sponsored:Sponsored"])
 asda.com##.cms-modules:has([data-module*="Sponsored Products"])
