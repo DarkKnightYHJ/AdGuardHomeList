@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: DaMO7+TuLLMrjn+yrsoQeQ
-! Version: 202409111401
+! Checksum: lADGc6PYERsc8oumZ5P2Mg
+! Version: 202409111501
 ! Title: EasyList China+EasyList
-! Last modified: 11 Sep 2024 14:01 UTC
+! Last modified: 11 Sep 2024 15:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -18502,7 +18502,7 @@ fqsousou.com,kengso.com#@#.user-share
 /ad_common.js
 /ad_counter.aspx
 /ad_display.js
-/ad_header.js
+/ad_header.js$script
 /ad_home.js$script
 /ad_images/*$image,domain=~5nd.com|~dietnavi.com
 /ad_img/*$image
@@ -18568,7 +18568,7 @@ fqsousou.com,kengso.com#@#.user-share
 /ads-frontend.min.js$script
 /ads-rectangle.
 /ads-right.
-/ads-templateslist.
+/ads-templateslist.$script
 /ads-vast-vpaid.js?$script
 /ads.bundle.js
 /ads.bundle.min.js
@@ -18582,7 +18582,6 @@ fqsousou.com,kengso.com#@#.user-share
 /ads/banners/*$image
 /ads/cbr.
 /ads/custom_ads.js
-/ads/delivery.
 /ads/footer.$~xmlhttprequest
 /ads/ga-audiences?
 /ads/gam_prebid-$script
@@ -18787,7 +18786,6 @@ fqsousou.com,kengso.com#@#.user-share
 /css/adsense.$stylesheet
 /css/adv.$stylesheet
 /curveball/ads/*$image
-/data-file_123.js
 /deliverad/fc.js$script
 /delivery.php?zone=
 /delivery/ag.php$script,subdocument
@@ -18813,7 +18811,6 @@ fqsousou.com,kengso.com#@#.user-share
 /exoads/*$script
 /exoclick.$~script,domain=~exoclick.bamboohr.co.uk|~exoclick.kayako.com
 /exonb/backloaderforload.php
-/expads-blocked.js
 /exports/tour/*$third-party
 /exports/tour_20/*$subdocument
 /external/ad.$script
@@ -18912,7 +18909,6 @@ fqsousou.com,kengso.com#@#.user-share
 /li.blogtrottr.com/imp?
 /link?z=$subdocument
 /livejasmin.$domain=~livejasmin.com
-/localads.aspx
 /log_ad?
 /mads.php?
 /maven/am.js$script
@@ -18948,7 +18944,6 @@ fqsousou.com,kengso.com#@#.user-share
 /oiopub-direct/js.php$script
 /oncc-ad.js$script
 /oncc-adbanner.js$script
-/openads.js
 /owa.MessageAdList.
 /p?zoneId=
 /page-links-to/dist/new-tab.js
@@ -19162,7 +19157,7 @@ fqsousou.com,kengso.com#@#.user-share
 /tncms/ads/*$script
 /tnt.ads.$script
 /top-ad.
-/top_ad.
+/top_ad.$~xmlhttprequest,domain=~sunco.co.jp
 /top_ads.
 /triadshow.asp
 /ttj?id=
@@ -19464,7 +19459,7 @@ _widget_ad.
 -prebid/
 .prebid-bundle.
 .prebid.$domain=~prebid.org
-/ad/postbid_handler1.0.9.js
+/ad/postbid_handler1.$script
 /gpt-prebid.js$script
 /pbjsandwichdirecta9-$script
 /plugins/prebidjs/*$script
