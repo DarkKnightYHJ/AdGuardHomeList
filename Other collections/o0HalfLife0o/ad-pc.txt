@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JW7fzUVAfe4tiXPHRBuFdw
+! Checksum: XDHGnO2ZADdsa5Bp6H0r7w
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202409111400
-! Last Modified: 2024年09月11日 14:00
+! Version: 202409112000
+! Last Modified: 2024年09月11日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -451,7 +451,6 @@ tieba.baidu.com##.tuijian-wrap
 -ad-300x600-
 -ad-458x80.
 -ad-bottom-
--ad-column-
 -ad-manager/$~stylesheet
 -ad-right.
 -ad-sidebar.
@@ -591,7 +590,7 @@ tieba.baidu.com##.tuijian-wrap
 /ad.html?
 /ad.min.js$script
 /ad/a.aspx?
-/ad/dfp/js/dfp.js
+/ad/dfp/*$script
 /ad/err?
 /ad/getban?
 /ad/image/*$image
@@ -645,7 +644,6 @@ tieba.baidu.com##.tuijian-wrap
 /adcommon?
 /adconfig.js$script
 /adcount.js
-/addons/ads.
 /addyn|*;adtech;
 /addyn|*|adtech;
 /adengine.js
@@ -670,7 +668,7 @@ tieba.baidu.com##.tuijian-wrap
 /adpartner.min.js$script
 /adplayer.$script,domain=~adplayer.pro
 /adplugin.
-/adpopup.js
+/adpopup.js$script
 /adrecover.js
 /adright.$domain=~adright.com
 /adriver.$~script,domain=~adriver.co
@@ -709,7 +707,6 @@ tieba.baidu.com##.tuijian-wrap
 /ads/leaderboard.
 /ads/native.js
 /ads/outbrain?
-/ads/popout.
 /ads/popup.
 /ads/rectangle_$subdocument
 /ads/revgen.$script
@@ -830,7 +827,6 @@ tieba.baidu.com##.tuijian-wrap
 /amp4ads-host-v0.js$script
 /ane-popup-1/ane-popup.js$script
 /ane-popup-banner.js$script
-/annonser.
 /api.ads.$domain=~ads.instacart.com|~www.ads.com
 /api/ad.$script
 /api/ads?
@@ -912,7 +908,7 @@ tieba.baidu.com##.tuijian-wrap
 /delivery/fc.php$script,subdocument
 /delivery/lg.php$script,subdocument
 /dfp.min.js$third-party
-/dfp_async.js
+/dfp_async.js$script
 /dfpNew.min.js
 /didna_config.js
 /direct.hd?n=
@@ -924,7 +920,6 @@ tieba.baidu.com##.tuijian-wrap
 /dynamicad?
 /ec5bcb7487ff.js$script
 /exitpop.js$script
-/exitpopunder.js
 /exitpopup.js$script
 /exitsplash.php$script
 /exoads/*$script
@@ -1060,8 +1055,7 @@ tieba.baidu.com##.tuijian-wrap
 /new/floatadv.js$script
 /ntv.json?key=
 /Nuggad?
-/nwm-fcn.min.js
-/nwm-pw2.min.js
+/nwm-pw2.min.js$script
 /nxst-advertising/dist/htlbid-advertising.min.js
 /oiopub-direct/js.php$script
 /oncc-ad.js$script
@@ -1213,7 +1207,7 @@ tieba.baidu.com##.tuijian-wrap
 /sdk/push_web/?zid=
 /select_adv?
 /servead/request/*$script,subdocument
-/serveads.php
+/serveads.php$script
 /servlet/view/*$script
 /set_adcode?
 /sft-prebid.js$script
@@ -1595,7 +1589,6 @@ _prebid8.
 &sadbl=1&chu=
 ?zoneid=*&ab=1
 /webservices/jsparselinks.aspx?$script
-/datomata.widget.js
 /affiliate/referral.asp?site=*&aff_id=
 /bdv_rd2.dbm?enparms
 /jscheck.php?enc=$xmlhttprequest
@@ -30148,6 +30141,7 @@ browsershots.org#@#.advert_area
 ||groguzoo.net^
 ||groininsightclaimed.com^
 ||groinopposed.com^
+||groleepugny.net^
 ||gronsoad.com^
 ||gronsoakoube.net^
 ||grooksom.com^
@@ -70135,7 +70129,7 @@ the-express.com##.stn-video-container
 si.com##.style_hfl21i-o_O-style_uhlm2
 gamesradar.com,tomsguide.com,tomshardware.com,whathifi.com##.vid-present
 sportskeeda.com##.vidazoo-player-container
-justthenews.com,movieweb.com,thegamer.com##.video
+justthenews.com##.video
 petapixel.com##.video-aspect-wrapper
 bowhunter.com,firearmsnews.com,flyfisherman.com,gameandfishmag.com,gunsandammo.com,handgunsmag.com,in-fisherman.com,northamericanwhitetail.com,petersenshunting.com,rifleshootermag.com,shootingtimes.com,wildfowlmag.com##.video-detail-player
 fodors.com##.video-inline
@@ -71434,6 +71428,7 @@ kisscos.net##.video-sponsor
 senzuri.tube##.video-tube-friends
 xhamster.com##.video-view-ads
 china-tube.site,china-tubex.site##.videoAd
+koreanjav.com##.videos > .column:not([id])
 javynow.com##.videos-ad__ad
 porntop.com##.videos-slider--promo
 porndoe.com##.videos-tsq
@@ -71724,6 +71719,7 @@ porngames.com##.contentbox:has(iframe[src^="//"])
 kimochi.info##.gridlove-posts > .layout-simple:has(.gridlove-archive-ad)
 tokyomotion.com##.is-gapless > .has-text-centered:has(> div > .adv)
 4kporn.xxx,crazyporn.xxx,hoes.tube,love4porn.com##.item:has(> [class*="ads"])
+vagina.nl##.list-item:has([data-idzone])
 darknessporn.com,familyporner.com,freepublicporn.com,pisshamster.com,punishworld.com,xanimu.com##.no-gutters > .col-6:has(> #special-block)
 kbjfree.com##.relative.w-full:has(> .video-card[target="_blank"])
 pornhub.com##.sectionWrapper:has(> #bottomVideos > .wrapVideoBlock)
@@ -74120,6 +74116,8 @@ newduba.cn###jq_youxi
 ||uqykeq.xyz^
 ||vxcvd67.fun^
 ||idickeo.top^
+||28t1ya.cn^
+||vfdvdg67.fun^
 ||595image.com^
 ||73336zubo25326.com^
 ||bapa215.top^
