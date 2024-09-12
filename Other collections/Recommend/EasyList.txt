@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JQ7eLwksuGA6N9dyBnyVYA
-! Version: 202409121501
+! Checksum: 7jifeWH2DoRQXQ3gOeO4Yw
+! Version: 202409121601
 ! Title: EasyList
-! Last modified: 12 Sep 2024 15:01 UTC
+! Last modified: 12 Sep 2024 16:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -232,7 +232,6 @@
 /adocean.js$script
 /adpartner.min.js$script
 /adplayer.$script,domain=~adplayer.pro
-/adplugin.
 /adpopup.js$script
 /adrecover.js
 /adright.$domain=~adright.com
@@ -337,7 +336,7 @@
 /adunit/track-view|
 /adunits.
 /adunits/bcid?
-/adutil.
+/adutil.js$script
 /adv-banner-$image
 /adv-scroll-sidebar.js$script
 /adv-scroll.$script
@@ -379,7 +378,6 @@
 /ajaxAd?
 /ajs.php?
 /ajs?zoneid=
-/ak-ads-ns.
 /amazon-ad-link-$stylesheet
 /amazon-associates-link-$~stylesheet
 /amp-ad-$script
@@ -431,7 +429,7 @@
 /bottom-ads.png$image
 /bottom_ad.jpg
 /bottomad.png$image
-/bottomads.js
+/bottomads.js$script
 /bsa-plugin-pro-scripteo/frontend/js/script.js
 /bsa-pro-scripteo/frontend/js/script.js
 /btag.min.js$third-party
@@ -527,7 +525,7 @@
 /gospel2Truth.js
 /gpt.js$script,xmlhttprequest
 /gpt_ads-public.js$script
-/GunosyAdsSDKv2.js
+/GunosyAdsSDKv2.js$script
 /homepage_ads/*$domain=~swedishbeauty.com
 /house-ads/*$image
 /hoverad.js
@@ -669,7 +667,7 @@
 /plugins/ultimate-popunder/*$~stylesheet
 /plugins/wp-moreads/*$~stylesheet
 /plugins/wp125/*$~stylesheet
-/pop_8_2.js
+/pop_8/pop_8_$script
 /pop_ads.js
 /popin-min.js$script
 /popu.js
@@ -808,7 +806,6 @@
 /sponsoredlinks?
 /sponsors/ads/*$image
 /squaread.jpg
-/squaread.js
 /static/js/4728ba74bc.js$~third-party
 /sticky_ads.js
 /stickyad.js$script
@@ -840,7 +837,6 @@
 /vendors~ads.
 /vghd.gif
 /vghd2.gif
-/video-ads-player.
 /video-js-ads.
 /video_ads.$script
 /video_slider3.js
@@ -910,6 +906,7 @@
 ://affiliate.$third-party
 ://affiliates.$third-party
 ://affiliates2.$third-party
+://ak-ads-ns.
 ://banner.$third-party
 ://banners.$third-party
 ://delivery.ads.
@@ -24301,6 +24298,7 @@ browsershots.org#@#.advert_area
 ||dawnfilthscribble.com^
 ||dawplm.com^
 ||dawtsboosted.com^
+||daybeamposit.com^
 ||daybreakarchitecture.com^
 ||daysmenformat.top^
 ||daysstone.com^
@@ -28407,6 +28405,7 @@ browsershots.org#@#.advert_area
 ||frugalitymassiveoldest.com^
 ||frugalrevenge.com^
 ||frugalrushcap.com^
+||frugalseck.com^
 ||fruitfullocksmith.com^
 ||fruitfulthinnersuspicion.com^
 ||fruitlesshooraytheirs.com^
@@ -37746,6 +37745,7 @@ browsershots.org#@#.advert_area
 ||nurcghihmec.com^
 ||nurewsawan.org^
 ||nurewsawaninc.info^
+||nurhagstackup.com^
 ||nurno.com^
 ||nurobi.info^
 ||nuroflem.com^
@@ -39619,6 +39619,7 @@ browsershots.org#@#.advert_area
 ||peemee.com^
 ||peenuteque.net^
 ||peepholelandreed.com^
+||peephoogruku.net^
 ||peer39.net^
 ||peerdomatop.click^
 ||peeredfoggy.com^
@@ -48049,6 +48050,7 @@ browsershots.org#@#.advert_area
 ||trodspivery.com^
 ||troduc.com^
 ||trokemar.com^
+||trolandmattes.com^
 ||trolleydemocratic.com^
 ||trolleydryerfunds.com^
 ||trolleytool.com^
@@ -52148,6 +52150,7 @@ browsershots.org#@#.advert_area
 ||zeeshith.net^
 ||zeewhaih.com^
 ||zefusgk.com^
+||zegnoogho.xyz^
 ||zegrumse.net^
 ||zekeeksaita.com^
 ||zekkdxt.com^
@@ -54666,6 +54669,7 @@ browsershots.org#@#.advert_area
 ||97496b9d.xyz^$document,popup
 ||977878.xyz^$document,popup
 ||97b448.xyz^$document,popup
+||98140548.xyz^$document,popup
 ||9814b49f.xyz^$document,popup
 ||98383163.xyz^$document,popup
 ||9bc639da.xyz^$document,popup
