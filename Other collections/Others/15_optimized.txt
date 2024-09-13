@@ -1,9 +1,9 @@
-! Checksum: znFlHkMMtZhGaTohjYrOWw
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1726231006-3600.patch
+! Checksum: KKKtuET0MnlQkLR5Yl+xTw
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1726238236-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.70.41
-! TimeUpdated: 2024-09-13T12:32:44+00:00
+! Version: 2.0.70.42
+! TimeUpdated: 2024-09-13T14:33:23+00:00
 ! Expires: 5 days (update frequency)
 ||alaudrup.net^
 ||shamnmalcwob.com^
@@ -59679,6 +59679,8 @@ inapps.appsflyersdk.com^
 ||jhlnlt.xyz^
 ||nhjn788.fun^
 ||kdicked.top^
+||fq05.shop^
+||jy07.shop^
 ||egesdashb8.fun^
 ||iuuwuk.xyz^
 ||vdsdsf2.fun^
@@ -65078,6 +65080,7 @@ analytics-*.aasaam.com
 ||a4.overclockers.ua^
 ||novunu.football-plyus.net^
 ||api2.branch.io^$dnsrewrite=0.0.0.0
+@@||res.ads.nicovideo.jp^|
 @@||sax.sina.com.cn^|
 @@||linka.page^|
 @@||track.webgains.com^|
