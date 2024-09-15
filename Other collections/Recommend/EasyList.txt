@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8Bhb1bAr+btG1y3m2eAymQ
-! Version: 202409151611
+! Checksum: eotxo+uHgR6PuNy4SF+VMQ
+! Version: 202409151701
 ! Title: EasyList
-! Last modified: 15 Sep 2024 16:11 UTC
+! Last modified: 15 Sep 2024 17:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -425,7 +425,6 @@
 /cgi-bin/ad/*$~xmlhttprequest
 /click/zone?
 /click?adv=
-/clickadu300.aspx
 /cms_ads.js
 /code/https-v2.js?uid=
 /code/native.js?h=$script
@@ -559,7 +558,7 @@
 /lazyload.ads?
 /left_ads.js$script
 /leftad.js$script
-/leftad.png
+/leftad.png$image
 /legion-advertising-atlasastro/*$script
 /li.blogtrottr.com/imp?
 /link?z=$subdocument
@@ -571,7 +570,6 @@
 /mcad.php
 /media/ads/*$image
 /media_ads/*$image
-/mgid.html
 /microad.js$script
 /mnpw3.js$script
 /mobile_ad.
@@ -686,7 +684,7 @@
 /rad_singlepageapp.js$script
 /railad.jpg
 /RdmAdFeed.js
-/rdrr/renderer.js
+/rdrr/renderer.js$third-party
 /RealMedia/ads/*$~xmlhttprequest
 /redirect/?spot_id=
 /redirect?tid=
@@ -760,7 +758,7 @@
 /size=*/random=*/viewid=
 /skin/ad/*$image,script
 /skin/adv/*$~xmlhttprequest
-/skyscraperad.
+/skyscraperad.$image
 /slide_in_ads_close.gif$image
 /slider_ad.js$script
 /sliderad.js$script
@@ -797,7 +795,7 @@
 /tmbi-a9-header-$script
 /tncms/ads/*$script
 /tnt.ads.$script
-/top-ad.
+/top-ad.$~xmlhttprequest
 /top_ad.$~xmlhttprequest,domain=~sunco.co.jp
 /top_ads.$~xmlhttprequest
 /topad.html$subdocument
@@ -1143,7 +1141,7 @@ _prebid8.
 /ad-blocking-advisor/*$script,stylesheet
 /ad-blocking-alert/*$stylesheet
 /adblock-detect.
-/adblock-detector.
+/adblock-detector.min.js$script
 /adblock-notify-by-bweb/*$script,stylesheet
 /adblock.gif?
 /adblock_detector2.$script
