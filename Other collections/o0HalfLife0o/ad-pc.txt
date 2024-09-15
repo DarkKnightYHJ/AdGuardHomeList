@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BIEA7xMfg2RiijMkMwW0Sw
+! Checksum: XtiwKcQy/hrSuBfiS6nS6w
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202409152000
-! Last Modified: 2024年09月15日 20:00
+! Version: 202409160200
+! Last Modified: 2024年09月16日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -604,7 +604,7 @@ tieba.baidu.com##.tuijian-wrap
 /ad?pos_
 /ad?type=
 /ad_728.jpg$image
-/ad_728.js
+/ad_728.js$script
 /ad_banner/*$image,domain=~ccf.com.cn
 /ad_bottom.jpg$image
 /ad_bottom.js$script
@@ -740,7 +740,7 @@ tieba.baidu.com##.tuijian-wrap
 /adserver.$~stylesheet,~xmlhttprequest
 /adserver3.$image,script
 /adserver?
-/adsforwp-front.min.css
+/adsforwp-front.min.css$stylesheet
 /adsimage/*$image,domain=~kamaz-service.kz|~theatreticketsdirect.co.uk
 /adsimages/*$image,domain=~bdjobstoday.com
 /adsimg/*$image
@@ -777,7 +777,6 @@ tieba.baidu.com##.tuijian-wrap
 /advert?
 /advertbanner.
 /advertising/banners/*$image
-/advertisingWebRenderer.min.js
 /advertisment/*$~image
 /adverts.$~script,domain=~0xacab.org|~adverts.ie|~adverts.org.ua|~github.com|~gitlab.com
 /adverts/*$~xmlhttprequest
@@ -822,8 +821,6 @@ tieba.baidu.com##.tuijian-wrap
 /asyncspc.php$third-party
 /awaps-ad-sdk-$script
 /ban.php?
-/ban300.php
-/ban728.php
 /ban728x90.$image
 /banman/ad.aspx$image
 /banner-ad.$~script
@@ -859,10 +856,8 @@ tieba.baidu.com##.tuijian-wrap
 /buysellads.js$script
 /callAdserver?
 /cgi-bin/ad/*$~xmlhttprequest
-/cgi-bin/ads.cgi
 /click/zone?
 /click?adv=
-/clickadu300.aspx
 /cms_ads.js
 /code/https-v2.js?uid=
 /code/native.js?h=$script
@@ -996,7 +991,7 @@ tieba.baidu.com##.tuijian-wrap
 /lazyload.ads?
 /left_ads.js$script
 /leftad.js$script
-/leftad.png
+/leftad.png$image
 /legion-advertising-atlasastro/*$script
 /li.blogtrottr.com/imp?
 /link?z=$subdocument
@@ -1008,7 +1003,6 @@ tieba.baidu.com##.tuijian-wrap
 /mcad.php
 /media/ads/*$image
 /media_ads/*$image
-/mgid.html
 /microad.js$script
 /mnpw3.js$script
 /mobile_ad.
@@ -1098,7 +1092,6 @@ tieba.baidu.com##.tuijian-wrap
 /popup2.js$script
 /popup3.js$script
 /popup_ad.js$script
-/popup_ad.php
 /popup_code.php$script
 /popupads.js$script
 /prbt/v1/ads/?
@@ -1124,7 +1117,7 @@ tieba.baidu.com##.tuijian-wrap
 /rad_singlepageapp.js$script
 /railad.jpg
 /RdmAdFeed.js
-/rdrr/renderer.js
+/rdrr/renderer.js$third-party
 /RealMedia/ads/*$~xmlhttprequest
 /redirect/?spot_id=
 /redirect?tid=
@@ -1142,7 +1135,6 @@ tieba.baidu.com##.tuijian-wrap
 /resources/ads/*$~xmlhttprequest
 /responsive/ad_$subdocument
 /responsive_ads.js$script
-/right_ad.
 /right_ads.$~xmlhttprequest
 /rightad.js$script
 /s.ashx?btag
@@ -1199,7 +1191,7 @@ tieba.baidu.com##.tuijian-wrap
 /size=*/random=*/viewid=
 /skin/ad/*$image,script
 /skin/adv/*$~xmlhttprequest
-/skyscraperad.
+/skyscraperad.$image
 /slide_in_ads_close.gif$image
 /slider_ad.js$script
 /sliderad.js$script
@@ -1236,12 +1228,13 @@ tieba.baidu.com##.tuijian-wrap
 /tmbi-a9-header-$script
 /tncms/ads/*$script
 /tnt.ads.$script
-/top-ad.
+/top-ad.$~xmlhttprequest
 /top_ad.$~xmlhttprequest,domain=~sunco.co.jp
 /top_ads.$~xmlhttprequest
 /topad.html$subdocument
 /triadshow.asp$script,subdocument
 /ttj?id=
+/umd/advertisingWebRenderer.min.js$script
 /ut.js?cb=
 /utx?cb=$third-party
 /v2/a/push/js/*$third-party
@@ -1263,7 +1256,6 @@ tieba.baidu.com##.tuijian-wrap
 /virtuagirlhd.$image
 /web/ads/*$image
 /web_ads/*$image
-/webads.htm
 /webads/*$image,domain=~cccc.edu|~meatingplace.com
 /webadverts/ads.pl?
 /widget-advert?
@@ -1559,7 +1551,7 @@ _prebid8.
 /ad-blocking-advisor/*$script,stylesheet
 /ad-blocking-alert/*$stylesheet
 /adblock-detect.
-/adblock-detector.
+/adblock-detector.min.js$script
 /adblock-notify-by-bweb/*$script,stylesheet
 /adblock.gif?
 /adblock_detector2.$script
@@ -1567,7 +1559,6 @@ _prebid8.
 /adblockdetect.js$script
 /adblockdetection.
 /adBlockDetector/*$script
-/adblocker-leader.
 /adbuddy.$domain=~adbuddy.be|~adbuddy.beeldstudio.be
 /ads-blocking-detector.$script
 /anti-adblock/*$~stylesheet
@@ -15408,6 +15399,7 @@ _800x80_
 ##a[href^="https://ak.hauchiwu.com/"]
 ##a[href^="https://ak.oalsauwy.net/"]
 ##a[href^="https://ak.psaltauw.net/"]
+##a[href^="https://allhost.shop/aff.php?"]
 ##a[href^="https://auesk.cfd/"]
 ##a[href^="https://ausoafab.net/"]
 ##a[href^="https://aweptjmp.com/"]
@@ -21937,6 +21929,7 @@ browsershots.org#@#.advert_area
 ||bumpexchangedcadet.com^
 ||bumphsquilla.com^
 ||bumpthank.com^
+||bumxmomcu.com^
 ||bunbeautifullycleverness.com^
 ||bundlerenown.com^
 ||bunfreezer.com^
@@ -23931,6 +23924,7 @@ browsershots.org#@#.advert_area
 ||couldobliterate.com^
 ||coumasha.xyz^
 ||counaupsi.com^
+||councernedasesi.com^
 ||counciladvertising.net^
 ||councilheader.com^
 ||counsellinggrimlyengineer.com^
@@ -24182,6 +24176,7 @@ browsershots.org#@#.advert_area
 ||crptentry.com^
 ||crptgate.com^
 ||crrepo.com^
+||crsope.com^
 ||crsspxl.com^
 ||crtracklink.com^
 ||crubtokopat.top^
@@ -25032,6 +25027,7 @@ browsershots.org#@#.advert_area
 ||despotbenignitybluish.com^
 ||despotfifteen.com^
 ||dessertgermdimness.com^
+||dessillucian.com^
 ||dessly.ru^
 ||destinationoralairliner.com^
 ||destinedsponsornominate.com^
@@ -25529,6 +25525,7 @@ browsershots.org#@#.advert_area
 ||djldrhxb.com^
 ||djmwwdrznntss.com^
 ||djmwxpsijxxo.xyz^
+||djosbhwpnfxmx.com^
 ||djphnuhkbjf.com^
 ||djqacscl.com^
 ||djqitgfjfu.com^
@@ -26500,6 +26497,7 @@ browsershots.org#@#.advert_area
 ||ef9i0f3oev47.com^
 ||efanyorgagetni.info^
 ||efdjelx.com^
+||efemsvcdjuov.com^
 ||effacedefend.com^
 ||effaceecho.com^
 ||effacerevealing.com^
@@ -26970,6 +26968,7 @@ browsershots.org#@#.advert_area
 ||epicgameads.com^
 ||epipialbeheira.com^
 ||epitokealraun.top^
+||eplndhtrobl.com^
 ||epmfjjabhfwgkun.com^
 ||epnjbpnncucp.com^
 ||epnredirect.ru^
@@ -30969,6 +30968,7 @@ browsershots.org#@#.advert_area
 ||hightopnews.com^
 ||highwaycpmrevenue.com^
 ||highwaysenufo.guru^
+||hiidevelelastic.com^
 ||hijpdcvwb.com^
 ||hikestale.com^
 ||hikrfneh.xyz^
@@ -33285,6 +33285,7 @@ browsershots.org#@#.advert_area
 ||jotskuffieh.website^
 ||jotterswirrah.com^
 ||jouaboe.com^
+||joucefeet.xyz^
 ||joudauhee.com^
 ||joudotee.com^
 ||joukaglie.com^
@@ -33340,6 +33341,7 @@ browsershots.org#@#.advert_area
 ||jrbbavbmwmleb.top^
 ||jrbbavbmwqwjl.top^
 ||jrfwfwk.com^
+||jrgmooxsln.com^
 ||jrhsjmwtrwiam.com^
 ||jrilbcd.com^
 ||jrilkvjehrjlri.com^
@@ -35427,6 +35429,7 @@ browsershots.org#@#.advert_area
 ||lvlmhyjzdan.com^
 ||lvnnqdgxdlhj.com^
 ||lvodomo.info^
+||lvojjayaaoqym.top^
 ||lvomenbxbyl.com^
 ||lvpcxqcoohcviks.com^
 ||lvsnmgg.com^
@@ -37529,6 +37532,7 @@ browsershots.org#@#.advert_area
 ||news-weekend1.xyz^
 ||news-wew.click^
 ||news-xehola.com^
+||news-xmiyasa.com^
 ||newsaboutsugar.com^
 ||newsadst.com^
 ||newsatads.com^
@@ -43405,6 +43409,7 @@ browsershots.org#@#.advert_area
 ||revstripe.com^
 ||revulsiondeportvague.com^
 ||revupads.com^
+||rewaawoyamvky.top^
 ||rewallesthete.shop^
 ||rewardrush.life^
 ||rewardsaffiliates.com^
@@ -43591,6 +43596,7 @@ browsershots.org#@#.advert_area
 ||riverhit.com^
 ||riverpush.com^
 ||riversingratitudestifle.com^
+||riverstressful.com^
 ||rivetrearrange.com^
 ||rivmuvlnu.com^
 ||rivne.space^
@@ -45780,6 +45786,7 @@ browsershots.org#@#.advert_area
 ||soonlint.com^
 ||soonpersuasiveagony.com^
 ||soonstrongestquoted.com^
+||soopsepsi.net^
 ||soopsulo.xyz^
 ||soosooka.com^
 ||sootconform.com^
@@ -46598,6 +46605,7 @@ browsershots.org#@#.advert_area
 ||stupidityitaly.com^
 ||stupidityscream.com^
 ||stupidspaceshipfestivity.com^
+||stuwhost.net^
 ||stvbiopr.net^
 ||stvkr.com^
 ||stvsmdhfplfrcy.xyz^
@@ -48382,6 +48390,7 @@ browsershots.org#@#.advert_area
 ||trellian.com^
 ||trembleday.com^
 ||tremorhub.com^
+||trenchpoor.net^
 ||trendmouthsable.com^
 ||trenhsasolc.com^
 ||trenhsmp.com^
@@ -51614,6 +51623,7 @@ browsershots.org#@#.advert_area
 ||wwpush22.com^
 ||wwqssmg.com^
 ||wwunnmshmv.xyz^
+||wwvxdhbmlqcgk.xyz^
 ||www6.hentai-zone.com^
 ||www8.upload-pics.com^
 ||wwwadcntr.com^
@@ -51675,6 +51685,7 @@ browsershots.org#@#.advert_area
 ||xads.one^
 ||xadsmart.com^
 ||xageyai.com^
+||xahttwmfmyji.com^
 ||xajqhrrrnxmy.com^
 ||xalienstreamx.com^
 ||xambxhihx.com^
@@ -51805,6 +51816,7 @@ browsershots.org#@#.advert_area
 ||xivmviuynlt.com^
 ||xjakcitm.com^
 ||xjfbhxp.com^
+||xjfqqyrcz.com^
 ||xjincmbrulchml.xyz^
 ||xjkhaow.com^
 ||xjktawqrcaw.com^
@@ -52710,6 +52722,7 @@ browsershots.org#@#.advert_area
 ||zlacraft.com^
 ||zlbvewof.com^
 ||zlebdfhnampju.com^
+||zlhaekgfrqlu.com^
 ||zlink2.com^
 ||zlink6.com^
 ||zlinkc.com^
@@ -54502,6 +54515,7 @@ browsershots.org#@#.advert_area
 ||mixi.media^$third-party
 ||mobday.com^$third-party
 ||mobile-10.com^$third-party
+||monetixads.com^$third-party
 ||multiview.com^$third-party
 ||myaffiliates.com^$third-party
 ||n2s.co.kr^$third-party
@@ -67299,7 +67313,8 @@ extremetech.com##.min-h-24
 copyprogramming.com,imagecolorpicker.com##.min-h-250
 gizmodo.com##.min-h-\[1000px\]
 axios.com##.min-h-\[200px\]
-gizmodo.com,radio.net##.min-h-\[250px\]
+blanktext.co##.min-h-\[230px\]
+blanktext.co,gizmodo.com,radio.net##.min-h-\[250px\]
 radiome.ar,radiome.at,radiome.bo,radiome.ch,radiome.cl,radiome.com.do,radiome.com.ec,radiome.com.gr,radiome.com.ni,radiome.com.pa,radiome.com.py,radiome.com.sv,radiome.com.ua,radiome.com.uy,radiome.cz,radiome.de,radiome.fr,radiome.gt,radiome.hn,radiome.ht,radiome.lu,radiome.ml,radiome.org,radiome.pe,radiome.si,radiome.sk,radiome.sn,radyome.com##.min-h-\[250px\].mx-auto.w-full.hidden.my-1.lg\:flex.center-children
 uwufufu.com##.min-h-\[253px\]
 instavideosave.net,thenewdaily.com.au##.min-h-\[280px\]
@@ -70641,6 +70656,7 @@ hentaiasmr.moe###bottom-tab
 hentaidude.com###box-canai
 cockdude.com###box-txtovka-con
 eporner.com###btasd
+pornstar-scenes.com###chatCamAjaxV0
 sexu.site###closeplay
 anysex.com###content > .main > .content_right
 imagebam.com###cs-link
@@ -70906,7 +70922,7 @@ onlydudes.tv##.b-footer-place
 onlydudes.tv##.b-side-col
 japan-whores.com##.b-sidebar
 rat.xxx##.b-spot
-me-gay.com##.b-uvb-spot
+me-gay.com,redporn.porn##.b-uvb-spot
 buondua.com##.b1a05af5ade94f4004a7f9ca27d9eeffb
 buondua.com##.b2b4677020d78f744449757a8d9e94f28
 pornburst.xxx##.b44nn3rss
@@ -78705,7 +78721,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||52tian.net^*/xuanfu.js
 ||52waha.com/static/js/func_bbs.js
 ||52wmb.com/2014js/cn_
-||52xkdy.com/2020content/
 ||52z.com/images/52zgg/
 ||52zpi.com/gg/
 ||52zy.com/other/js/
@@ -82661,6 +82676,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||xindingwealth.com/js/39.
 ||ufile.cc/pps.js
 ||dajiadu8.com/17mb/script/ad.js
+/mpc/*$domain=52xkdy.com|fydy8.com
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 tmioe.com##.tphf
@@ -88385,7 +88401,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@_300_250.$domain=nanrenwo.net
 @@_370x270.$domain=bairuitool-cn.aliyun-hk03.hicheng.net
 @@_ads_cpc_$domain=90lover.cn
-@@_adview_$domain=52xkdy.com|fydy8.com
+@@/adview_$domain=52xkdy.com|fydy8.com
 @@_cpc_cpm/$domain=youranshare.com
 @@_cpc_cpm_$domain=saraba1st.com
 @@||060s.com/images_ad/*.png
