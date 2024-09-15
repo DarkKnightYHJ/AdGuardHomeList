@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PJk+oh6xw4If9kzYLznIQQ
+! Checksum: YN85r8RyI7wYuEodFAe/Qg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202409150200
-! Last Modified: 2024年09月15日 02:00
+! Version: 202409150801
+! Last Modified: 2024年09月15日 08:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -55050,6 +55050,7 @@ browsershots.org#@#.advert_area
 ||74142961.xyz^$document,popup
 ||75690049.xyz^$document,popup
 ||7608d5.xyz^$document,popup
+||77886044.xyz^$document,popup
 ||7841ffda.xyz^$document,popup
 ||78b78ff8.xyz^$document,popup
 ||7ca989e1.xyz^$document,popup
@@ -63991,7 +63992,7 @@ indy100.com###content_5
 indy100.com###content_6
 indy100.com###content_7
 notebookcheck.net###contenta
-uproxy2.biz###cookieConsentUR99472
+theproxy.lol,uproxy2.biz###cookieConsentUR99472
 alt-codes.net###copyModal .modal-body
 wsj.com###coupon-links
 lordz.io###crossPromotion
@@ -67461,7 +67462,7 @@ bleepingcomputer.com##.noty_bar
 pcgamebenchmark.com##.nova_wrapper
 panda-novel.com,pandasnovel.com##.novel-ins2
 nextpit.com##.np-top-deals
-uproxy2.biz##.nrd-general-d-box
+theproxy.lol,uproxy2.biz##.nrd-general-d-box
 designtaxi.com##.nt
 nowtoronto.com##.nt-ad-wrapper
 designtaxi.com##.nt-displayboard
@@ -74200,6 +74201,10 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cupfox.app^$third-party
 ||hahaql.top^
+||yiucfif.icu^
+||vcxv73.fun^
+||arojgi.xyz^
+||ewqws55.fun^
 ||gkeolwi.icu^
 ||ofqvca.xyz^
 ||vcxv787.fun^
@@ -98926,6 +98931,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gannettdigital.com/capture_logger/
 ||ganon.yahoo.com^
 ||gatehousemedia.com/wickedlocal/ip.js
+||gateway.bridged.media/Engagement/View
+||gateway.bridged.media/Logging/
 ||gateway.dev/log
 ||gateway.foresee.com^
 ||gcion.com/gcion.ashx?
