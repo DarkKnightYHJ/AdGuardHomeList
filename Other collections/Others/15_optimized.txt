@@ -1,9 +1,9 @@
-! Checksum: 4IZC77qNItsNBDk3cCLMIQ
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1726468581-3600.patch
+! Checksum: rDpuWhQtiOQ9cLvESOB8EA
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1726490201-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.70.53
-! TimeUpdated: 2024-09-16T06:33:15+00:00
+! Version: 2.0.70.54
+! TimeUpdated: 2024-09-16T12:33:09+00:00
 ! Expires: 5 days (update frequency)
 ||s0-greate.net^
 ||alaudrup.net^
@@ -21794,7 +21794,6 @@ vkcdnservice.appspot.com^
 ||neshigreek.com^
 ||nessainy.net^
 ||nestledmph.com^
-||net.geo.opera.com^
 ||netcatx.com^
 ||netflopin.com^
 ||nethebravero.com^
@@ -38377,6 +38376,7 @@ vkcdnservice.appspot.com^
 ||21274758.xyz^
 ||224cc86d.xyz^
 ||22dd31.xyz^
+||23879858.xyz^
 ||24052107.live^
 ||258104d2.live^
 ||285b0b37.xyz^
@@ -44459,6 +44459,7 @@ vkcdnservice.appspot.com^
 ||d1udjti6mtxz9q.cloudfront.net^
 ||tagman.britishairways.com^
 |piwik.
+||plausible.paimon.moe^
 ||stats.allenai.org^
 ||logperf.vnexpress.net^
 ||jitsu.ixbt.com^
@@ -59012,6 +59013,7 @@ inapps.appsflyersdk.com^
 ||imgmin133.top^
 ||sgadkc.xyz^
 ||wdickee.top^
+||gtdf33.fun^
 ||hahaql.top^
 ||yiucfif.icu^
 ||vcxv73.fun^
