@@ -1,9 +1,9 @@
-! Checksum: rDpuWhQtiOQ9cLvESOB8EA
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1726490201-3600.patch
+! Checksum: BSQ8rjNSiUz3xSWpp7Zj/A
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1726511806-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.70.54
-! TimeUpdated: 2024-09-16T12:33:09+00:00
+! Version: 2.0.70.55
+! TimeUpdated: 2024-09-16T18:33:15+00:00
 ! Expires: 5 days (update frequency)
 ||s0-greate.net^
 ||alaudrup.net^
@@ -1652,6 +1652,7 @@ vkcdnservice.appspot.com^
 ||34yjwa4u6.com^
 ||357dbd24e2.com^
 ||35volitantplimsoles5.com^
+||360news4u.com^
 ||360popads.com^
 ||360protected.com^
 ||360yield-basic.com^
@@ -3333,6 +3334,7 @@ vkcdnservice.appspot.com^
 ||aigaithojo.com^
 ||aigheebsu.net^
 ||aigneloa.com^
+||aignewha.com^
 ||aigniltosesh.net^
 ||aigretenew.top^
 ||aigsgwowkb.com^
@@ -20124,6 +20126,7 @@ vkcdnservice.appspot.com^
 ||mapeeree.xyz^
 ||maper.info^
 ||maplecurriculum.com^
+||maptitch.net^
 ||maquiags.com^
 ||marapcana.online^
 ||marazma.com^
@@ -20326,6 +20329,7 @@ vkcdnservice.appspot.com^
 ||mcpuwpsh.com^
 ||mcpuwpush.com^
 ||mcqgfoc.com^
+||mcrertpgdjbvj.com^
 ||mcrfncrswbeka.com^
 ||mctailqwjke.com^
 ||mcurrentlyse.shop^
@@ -21794,6 +21798,15 @@ vkcdnservice.appspot.com^
 ||neshigreek.com^
 ||nessainy.net^
 ||nestledmph.com^
+||plenastonk.com^
+||ssfatyozvtbom.com^
+||toisedmoky.com^
+||twoepidemic.com^
+||uhwwrtoesislugj.xyz^
+||wbkfklsl.com^
+||whaickeenie.xyz^
+||xrrdi.com^
+||zlhaekgfrqlu.com^
 ||netcatx.com^
 ||netflopin.com^
 ||nethebravero.com^
@@ -36693,7 +36706,6 @@ vkcdnservice.appspot.com^
 ||zlacraft.com^
 ||zlbvewof.com^
 ||zlebdfhnampju.com^
-||zlhaekgfrqlu.com^
 ||zlink2.com^
 ||zlink6.com^
 ||zlinkc.com^
@@ -37052,6 +37064,7 @@ vkcdnservice.appspot.com^
 ||host-relendbrowseprelend.info^
 ||lookup-domain.com^
 ||mgid.com^
+||protected-redirect.click^
 ||offergate-software20.com^
 ||openwwws.space^
 ||rockwound.site^
@@ -38378,6 +38391,7 @@ vkcdnservice.appspot.com^
 ||22dd31.xyz^
 ||23879858.xyz^
 ||24052107.live^
+||24837724.xyz^
 ||258104d2.live^
 ||285b0b37.xyz^
 ||28d287b9.xyz^
@@ -38570,6 +38584,7 @@ vkcdnservice.appspot.com^
 ||1080872514.rsc.cdn77.org^
 ||10945-2.s.cdn15.com^
 ||10945-5.s.cdn15.com^
+||1116283932.rsc.cdn77.org^
 ||1136707664.rsc.cdn77.org^
 ||1187531871.rsc.cdn77.org^
 ||1208344341.rsc.cdn77.org^
@@ -38588,6 +38603,7 @@ vkcdnservice.appspot.com^
 ||1693418686.rsc.cdn77.org^
 ||1710712823.rsc.cdn77.org^
 ||1736253261.rsc.cdn77.org^
+||1866741353.rsc.cdn77.org^
 ||1918837748.rsc.cdn77.org^
 ||1wnurc.com^
 ||360playvid.com^
@@ -38733,8 +38749,8 @@ vkcdnservice.appspot.com^
 ||popmog.com^
 ||probid.ai^
 ||promos.fling.com^
-||protected-redirect.click^
 ||proto2ad.durasite.net^
+||pub-81f2b77f5bc841c5ae64221394d67f53.r2.dev^
 ||pubfeed.linkby.com^
 ||public.porn.fr^
 ||pushtoast-a.akamaihd.net^
@@ -48049,6 +48065,7 @@ inapps.appsflyersdk.com^
 ||rtc.multiscreensite.com^
 ||rum.azion.com^
 ||rum.azioncdn.net^
+||rum.hlx.page^
 ||rum.ingress.layer0.co^
 ||rum.layer0.co^
 ||rum.perfops.net^
@@ -48114,6 +48131,7 @@ inapps.appsflyersdk.com^
 ||stats.ozwebsites.biz^
 ||stats.polldaddy.com^
 ||stats.prebytes.com^
+||stats.pushloop.io^
 ||stats.sa-as.com^
 ||stats.sawlive.tv^
 ||stats.screenresolution.org^
@@ -52142,6 +52160,7 @@ inapps.appsflyersdk.com^
 ||travelads.be^
 ||vpscash.nl^
 ||xpartners.nl^
+||adnx.de^
 ||bd742.com^
 ||fantecio.com^
 ||gayads.biz^
@@ -63931,7 +63950,6 @@ analytics-*.aasaam.com
 ||sanjagh.net^
 ||ads.safarme.ir^
 ||sabaidea.cloud^
-||theforge.ir^
 ||trustseal.e-rasaneh.ir^
 ||triboon.net^
 ||te1.ir^
