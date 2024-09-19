@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 5y3hzgqtQm2atvQZbeTQxA
-! Version: 202409191611
+! Checksum: dNwu9LbnASGkMzEodOBuvA
+! Version: 202409191701
 ! Title: ABP filters
-! Last modified: 19 Sep 2024 16:11 UTC
+! Last modified: 19 Sep 2024 17:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1200,7 +1200,7 @@ www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"brs_c[^\n]+?("Spon
 www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"(label_field_for_brs|brs_c)[^\n]+?("SponsoredData"|"sponsored_data"),"ad_id"[^\n]+"cursor":"[^"]+"\}/' '{}' 'sponsored_auction_distance'
 www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"(label_field_for_brs|brs_c)[^\n]+?("SponsoredData"|"sponsored_data"),"ad_id"[^\n]+"cursor":"[^"]+"\}/' '{}' 'sponsored_auct_dist'
 www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"brs_c[^\n]+?("SponsoredData"|"sponsored_data"),"ad_id"[^\n]+"cursor":"[^"]+"\}/' '{}' 'auction_dist_for_sponsored'
-www.facebook.com,web.facebook.com#$#json-prune 'require.0.3.0.__bbox.require.{}.3.1.__bbox.result.data.node require.0.3.0.__bbox.require.{}.3.1.__bbox.result.data.node.sponsored_data.ad_id'
+www.facebook.com,web.facebook.com#$#json-prune 'require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.node require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.node.sponsored_data.ad_id'
 ! mp
 www.facebook.com,web.facebook.com##a[href*="ad_preferences"]>span[class][dir]
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[contains(@aria-label,"Marketplace")][@role="main"]//following::a[@aria-label][@href][@role][@tabindex]/parent::div/ancestor::div[@class][contains(@style,"max-width") and contains(@style,"min-width")][1]'
