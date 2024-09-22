@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ukS9aDjl2I66DJnLmmgOuw
+! Checksum: wlmxegxhGn414GADfw/IEw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202409221400
-! Last Modified: 2024年09月22日 14:00
+! Version: 202409222000
+! Last Modified: 2024年09月22日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -1673,7 +1673,7 @@ _460_60.
 _460x60.
 _468-60.
 _468-60_
-_468_60-
+_468_60-$~script
 _468_60.
 _468_60_
 _468_80.
@@ -1813,13 +1813,11 @@ _800x80_
 ###AdColumn
 ###AdContainerTop
 ###AdContent
-###AdContent_0_0_pnlDiv
 ###AdDisclaimer
 ###AdHeader
 ###AdLayer1
 ###AdLayer2
 ###AdMiddle
-###AdPanel
 ###AdPopUp
 ###AdRectangleBanner
 ###AdSense1
@@ -1827,15 +1825,6 @@ _800x80_
 ###AdSense3
 ###AdSenseDiv
 ###AdServer
-###AdServer_Banner_1
-###AdServer_Banner_2
-###AdServer_Banner_3
-###AdServer_Banner_4
-###AdServer_Banner_5
-###AdServer_Banner_6
-###AdServer_Banner_7
-###AdServer_Banner_8
-###AdServer_Banner_9
 ###AdSkyscraper
 ###AdSlot_megabanner
 ###AdSpaceLeaderboard
@@ -1849,7 +1838,6 @@ _800x80_
 ###Ad_Block
 ###Ad_TopLeaderboard
 ###Adbanner
-###Adcode
 ###Adlabel
 ###AdsBannerTop
 ###AdsBillboard
@@ -1889,7 +1877,6 @@ _800x80_
 ###AdvHead
 ###AdvHeader
 ###Adv_Footer
-###Advert1
 ###AdvertMid1
 ###AdvertMid2
 ###AdvertPanel
@@ -1942,7 +1929,6 @@ _800x80_
 ###HeaderAdsBlock
 ###HeroAd
 ###HomeAd1
-###HouseAd
 ###IFrameAd
 ###IFrameAd1
 ###IK-ad-area
@@ -1967,7 +1953,6 @@ _800x80_
 ###Mpu_Top
 ###MyAdsId3
 ###NR-Ads
-###NavAD
 ###OAS2
 ###OASMiddleAd
 ###OASRightAd
@@ -2012,7 +1997,6 @@ _800x80_
 ###above-comments-ad
 ###above-fold-ad
 ###above-footer-ads
-###above-the-fold-ad
 ###aboveAd
 ###aboveNodeAds
 ###above_button_ad
@@ -54142,6 +54126,7 @@ browsershots.org#@#.advert_area
 ||16327739.xyz^$document,popup
 ||164de830.live^$document,popup
 ||16972675.xyz^$document,popup
+||19199675.xyz^$document,popup
 ||19706903.xyz^$document,popup
 ||1a1fb6.xyz^$document,popup
 ||1c52e1e2.live^$document,popup
@@ -64969,7 +64954,7 @@ newsweek.com##.block-ibtmedia-dfp
 endocrineweb.com,practicalpainmanagement.com##.block-oas
 kaotic.com##.block-toplist
 theonion.com##.block-visibility-hide-medium-screen
-9to5linux.com##.block-widget
+9to5linux.com,maxblizz.com##.block-widget
 worldtimebuddy.com##.block2
 macmusic.org##.block440Adv
 betaseries.com##.blockPartner
@@ -68906,6 +68891,7 @@ flaticon.com##li[id^="bn-icon-list"]
 linkvertise.com##lv-redirect-static-ad
 escorenews.com##noindex
 adblock-tester.com##object[width="240"]
+forums.golfwrx.com##ol.cTopicList > li.ipsDataItem:not([data-rowid])
 americanfreepress.net##p > [href] > img
 ft.com##pg-slot
 mashable.com##section.mt-4 > div
@@ -73389,6 +73375,8 @@ newduba.cn###jq_youxi
 ||xxsmad4.com^
 ||baggvon.icu^
 ||hwateru.top^
+||xn--xhq326aj6yqpw.com^
+||vfvdvd99.fun^
 ||jy09.shop^
 ||ky595images.com^
 ||cwaterf.top^
@@ -92905,7 +92893,7 @@ _WebVitalsReporter_
 %2Fevent.gif%3F
 %2Fo.gif&
 %2Fopen.aspx%3F
-&mi_ecmp=
+&mi_ecmp=$image
 -track-email-open?
 .acemlna.com/lt.php?$image
 .acemlna.com/Prod/link-tracker?$image
