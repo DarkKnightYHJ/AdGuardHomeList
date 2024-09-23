@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vlN6tO9wST6mAGUl2KmzAw
-! Version: 202409231221
+! Checksum: suHwRXAC5GjC4Dz8DaHAGA
+! Version: 202409231311
 ! Title: EasyList China+EasyList
-! Last modified: 23 Sep 2024 12:21 UTC
+! Last modified: 23 Sep 2024 13:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -89285,7 +89285,7 @@ porndoe.com,redtube.com##video[autoplay][src*="blob:" i]
 porndoe.com,redtube.com##video[autoplay][src*="data:" i]
 ! top-level domain wildcard
 cam4.*##div[class^="SponsoredAds_"]
-! :has()
+!! :has()
 redgifs.com##.SideBar-Item:has(> [class^="_liveAdButton"])
 porn-w.org##.align-items-center.list-row:has(.col:empty)
 picsporn.net##.box:has(> .dip-exms)

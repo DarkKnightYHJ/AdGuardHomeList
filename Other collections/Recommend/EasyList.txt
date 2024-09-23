@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: e7zuWm4E2IirVSM7pE8a7A
-! Version: 202409231221
+! Checksum: f06zZOmO6ynEA4YJsvKx+A
+! Version: 202409231311
 ! Title: EasyList
-! Last modified: 23 Sep 2024 12:21 UTC
+! Last modified: 23 Sep 2024 13:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -70822,7 +70822,7 @@ porndoe.com,redtube.com##video[autoplay][src*="blob:" i]
 porndoe.com,redtube.com##video[autoplay][src*="data:" i]
 ! top-level domain wildcard
 cam4.*##div[class^="SponsoredAds_"]
-! :has()
+!! :has()
 redgifs.com##.SideBar-Item:has(> [class^="_liveAdButton"])
 porn-w.org##.align-items-center.list-row:has(.col:empty)
 picsporn.net##.box:has(> .dip-exms)
