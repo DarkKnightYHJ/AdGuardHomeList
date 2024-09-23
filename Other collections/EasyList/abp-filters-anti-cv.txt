@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: JCtz7KcxAQFMufUWaLutDg
-! Version: 202409230911
+! Checksum: FtBX/F2zDtiQ4prB1BN5Vg
+! Version: 202409231011
 ! Title: ABP filters
-! Last modified: 23 Sep 2024 09:11 UTC
+! Last modified: 23 Sep 2024 10:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -521,7 +521,7 @@ ajaxshowtime.com#?#div:-abp-properties(content: "Advertentie";)
 ajaxshowtime.com##div.leaderboard_ad + div
 ! *** abp-filters-anti-cv:english.txt ***
 ! CV-3435
-marketwatch.com,wsj.com#$#race start; hide-if-matches-xpath './/iframe[@id][./@*[contains(., "dianomi SmartAd Content")]][contains(@src, "partner_tcf_status")]/preceding::img[@data-src]//ancestor::section[contains(@class,"ad")]'; hide-if-matches-xpath './/div[starts-with(name(@*[starts-with(name(), "data-")]), "data-")]//following::iframe[@id][@src][@*[starts-with(name(), "data-")]]/parent::div[@style]/ancestor::span[@style][@class]/ancestor::div[starts-with(name(@*[starts-with(name(), "data-")]), "data-")]'; hide-if-matches-xpath './/div[starts-with(name(@*[starts-with(name(), "data-")]), "data-")]//following::iframe[@id][@style][@title]/parent::div[@style]/ancestor::span[@style][@class]/ancestor::div[starts-with(name(@*[starts-with(name(), "data-")]), "data-")]'; hide-if-matches-xpath './/iframe[@title][@id][@class][@src][@style]/parent::div[@style]/ancestor::div[3]'; hide-if-matches-xpath './/div/a[contains(@href,"ad.doubleclick")]/ancestor::div[contains(@class,"realtor-container") or @style="min-height:320px"]/parent::div'; race stop;
+marketwatch.com,wsj.com#$#race start; hide-if-matches-xpath './/iframe[@id][./@*[contains(., "dianomi SmartAd Content")]][contains(@src, "partner_tcf_status")]/preceding::img[@data-src]//ancestor::section[contains(@class,"--module ad")]'; hide-if-matches-xpath './/div[starts-with(name(@*[starts-with(name(), "data-")]), "data-")]//following::iframe[@id][@src][@*[starts-with(name(), "data-")]]/parent::div[@style]/ancestor::span[@style][@class]/ancestor::div[starts-with(name(@*[starts-with(name(), "data-")]), "data-")]'; hide-if-matches-xpath './/div[starts-with(name(@*[starts-with(name(), "data-")]), "data-")]//following::iframe[@id][@style][@title]/parent::div[@style]/ancestor::span[@style][@class]/ancestor::div[starts-with(name(@*[starts-with(name(), "data-")]), "data-")]'; hide-if-matches-xpath './/iframe[@title][@id][@class][@src][@style]/parent::div[@style]/ancestor::div[3]'; hide-if-matches-xpath './/div/a[contains(@href,"ad.doubleclick")]/ancestor::div[contains(@class,"realtor-container") or @style="min-height:320px"]/parent::div'; race stop;
 marketwatch.com,wsj.com#$#abort-on-property-write window.__buildAd;
 marketwatch.com#$#hide-if-matches-xpath '//div[count(div)=2 and .//a[starts-with(@href, "#")]]/div[2]/div[3]/span[.//img[contains(@data-src, "cloudfront.net")] and .//iframe[@id and starts-with(@id, "4")]]//ancestor::span//ancestor::div'
 @@||adsafeprotected.com^$domain=marketwatch.com|wsj.com
@@ -1551,7 +1551,7 @@ shanson320.ru#$#abort-current-inline-script document.createElement atob
 coderlessons.com,facenews.ua,fixx.one,its-kids.ru,molitvy.guru,nizhny.ru,pro100hobbi.ru,publy.ru,samelectric.ru,svadba.expert,tehnobzor.ru,vibir.ru,100popugaev.ru#$#abort-on-property-read XMLHttpRequest
 lrepacks.net#$#abort-current-inline-script document.createElement 'delete window'
 igroutka.ru#$#override-property-read Object.prototype.afg true
-sibnet.ru#$#prevent-listener DOMContentLoaded 'smartweek'
+sibnet.ru#$#abort-on-property-read rtpon false
 ivanovonews.ru#$#json-prune banner.ytcode
 porngames.su,rintor.info,rintor.net#$#abort-on-property-read TotemToolsObject
 hardwareluxx.ru#$#abort-current-inline-script jQuery backgroundImage
@@ -1751,7 +1751,7 @@ truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.in,sex.sieudamtv.biz,
 metruyenchu.com#$#abort-on-property-write window.onclick
 ##[href^="//mage98rquewz.com/"]
 truyentuan.xyz#$#abort-current-inline-script $ btpop
-xoilacb.cc#$#abort-on-property-read adsRedirectPopups
+xoilacvv.cc#$#abort-on-property-read adsRedirectPopups
 sexdiaryz.us#$#abort-on-property-read parseInt
 linkneverdie.net,linkneverdie.top,linkneverdie2.com#$#abort-current-inline-script document.createElement optad;abort-on-property-read pushOnPageGala
 javnong.cc#$#abort-on-property-read Math.round
