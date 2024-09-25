@@ -1,9 +1,9 @@
-! Checksum: yO2o4QjbxawM57AUw01lgg
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1727282210-3600.patch
+! Checksum: qMoJYDKWbz+36DRcO7g70Q
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1727289374-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.70.90
-! TimeUpdated: 2024-09-25T16:33:16+00:00
+! Version: 2.0.70.91
+! TimeUpdated: 2024-09-25T18:32:58+00:00
 ! Expires: 5 days (update frequency)
 ||phidianowlet.com^
 ||hfhppxseee.com^
@@ -110,6 +110,8 @@ serve.bussyhunter.com^
 ||exinariuminix.info^
 ||chabadokor.com^
 ||truthfulsensor.com^
+||5.61.55.143^
+||37.1.213.100^
 ||loc.sexymilfspics.com^
 ||go2click.online^
 ||sibergy.com^
@@ -681,6 +683,7 @@ serve.bussyhunter.com^
 /^23\.109\.73\.\d{3}/
 /^188\.42\.84\.\d{1,3}/
 /^139\.45\.19[5-7]\.\d{1,3}/
+||188.72.219.36^
 ||stripe.rs-1028-a.com^
 !+ NOT_OPTIMIZED PLATFORM(windows, mac, android)
 ||hub.fghtem.com^
@@ -1192,6 +1195,7 @@ serve.bussyhunter.com^
 .1.1.1.l80.js^
 .3.n.2.1.l50.js
 .3.n.2.2.l30.js
+||109.123.233.251^
 ||gulf.moneroocean.stream^
 ||trustisimportant.fun^
 ||pool.supportxmr.com^
@@ -26302,6 +26306,7 @@ vkcdnservice.appspot.com^
 ||puwpush.com^
 ||puyjjq.com^
 ||puysis.com^
+||puyyyifbmdh.com^
 ||puzzio.xyz^
 ||puzzlementangrily.com^
 ||puzzlepursued.com^
@@ -29942,6 +29947,7 @@ vkcdnservice.appspot.com^
 ||softendevastated.com^
 ||softenedcollar.com^
 ||softenedimmortalityprocedure.com^
+||softentears.com^
 ||softonicads.com^
 ||softpopads.com^
 ||softspace.mobi^
@@ -36489,6 +36495,7 @@ vkcdnservice.appspot.com^
 ||yrqxygxnpg.com^
 ||yrudsrdignej.com^
 ||yrvzqabfxe.com^
+||yrwqquykdja.com^
 ||yscfsmxrtcifye.com^
 ||yscntxil.com^
 ||ysemblyjusting.info^
@@ -40364,6 +40371,7 @@ vkcdnservice.appspot.com^
 ||ufz.doesxyz.com^
 ||xdrig.com^
 ||usp1.baidu.com^
+||54.222.186.106^
 ||plugin.mobopay.baidu.com^
 ||mo.freeindoapp.com^
 ||reqde.afreecatv.com^
@@ -40775,6 +40783,7 @@ vkcdnservice.appspot.com^
 ://o0e.ru^
 ||1mp.mobi^
 ||247realmedia.com^
+||31.14.252.148^
 ||abtest.swrve.com^
 ||ad*.nexage.com^
 ||ad-brix.com^
@@ -42057,6 +42066,7 @@ vkcdnservice.appspot.com^
 ||log.perfecttitspics.com^
 ||analytics.mbga.jp^
 ||loginside.co.kr^
+||110.93.143.144^
 ||log002.commutil.kr^
 ||analy1.dtnnetwork.be^
 ||cerdmann.com^
@@ -42498,6 +42508,7 @@ vkcdnservice.appspot.com^
 ||123-counter.de^
 ||123compteur.com^
 ||123count.com^
+||180.76.2.18^
 ||1freecounter.com^
 ||1pel.com^
 ||200stran.ru^
@@ -42521,8 +42532,12 @@ vkcdnservice.appspot.com^
 ||4stats.de^
 ||50bang.org^
 ||55labs.com^
+||66.228.52.30^
+||67.228.151.70^
 ||6sc.co^
+||74.55.82.102^
 ||77tracking.com^
+||79.125.117.123^
 ||7bpeople.com^
 ||8020solutions.net^
 ||99counters.com^
@@ -49337,6 +49352,8 @@ inapps.appsflyersdk.com^
 ||midan.io^
 ||sworatio.co^
 ||waycash.net^
+||184.106.248.76^
+||200.72.40.46^
 ||actualtrade.eu^
 ||ad-pub.terra.com.br^
 ||ad.batanga.com^
@@ -50181,19 +50198,29 @@ inapps.appsflyersdk.com^
 ||24new.ru^
 ||2under.ru^
 ||34bogatirya.ru^
+||37.220.26.135^
+||37.220.26.136^
+||37.220.26.137^
 ||3file.info^
 ||3lucosy.com^
 ||3mtr.ru^
 ||468.vologdainfo.ru^
 ||69m.info^
 ||6likosy.com^
+||77.247.178.41^
 ||777-888.ru^
+||78.140.134.198^
+||78.140.149.216^
 ||7dvd.ru^
 ||7offers.ru^
 ||7out.ru^
 ||7porn.ru^
 ||7rtv.com^
+||88.85.75.147^
+||88.85.77.92^
 ||8coins.net^
+||91.207.192.31^
+||95.211.125.226^
 ||9fine.ru^
 ||a.fobos.tv^
 ||a.jurnalu.ru^
@@ -51410,6 +51437,8 @@ inapps.appsflyersdk.com^
 ||zorkabiz.ru^
 ||zqizn.com^
 ||zqmwf.xyz^
+||193.200.64.24^
+||206.54.181.250^
 ||popvalk.com^
 ||bjiuck.com^
 ||greencuttlefish.com^
@@ -52032,6 +52061,7 @@ inapps.appsflyersdk.com^
 !+ NOT_OPTIMIZED
 ||bance.jp^
 ||maillovelove.net^
+||185.161.248.253^
 ||ads.nicovideo.jp^
 ||adserv2.suumo.jp^
 ||ad.woman.mynavi.jp^
@@ -52235,6 +52265,8 @@ inapps.appsflyersdk.com^
 ||d.6xw.com^
 ||mgzjin.cn^
 ||chinagcdxyjng.cn^
+||192.151.218.66^
+||23.224.89.2^
 ||ofd.meng-an.cn^
 ||qienews.cn^
 ||pv.dakawm.cc^
@@ -52246,6 +52278,7 @@ inapps.appsflyersdk.com^
 ||m.qhxcdmfj.cn^
 ||szjyfund.com^
 ||y.21haodianmt.com^
+||156.233.32.123^
 ||i3535.com^
 ||1990tu.com^
 ||web-ad.xyz^
