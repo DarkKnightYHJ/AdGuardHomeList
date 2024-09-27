@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 8DyrhAMNq1fKWcHKJ7iYZw
-! Version: 202409271001
+! Checksum: H5BSsNJ+tqAiHYnDzkEaqQ
+! Version: 202409271101
 ! Title: EasyPrivacy
-! Last modified: 27 Sep 2024 10:01 UTC
+! Last modified: 27 Sep 2024 11:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2622,6 +2622,7 @@
 /wp-monero-miner-util.min.js
 /wp-monero-miner.js
 /wp-monero-miner.min.js
+/wp-rocket/assets/js/lcp-beacon.
 /wp-sentry-browser.min.js
 /wp-slimstat.js
 /wp-slimstat.min.js
@@ -12197,6 +12198,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||progressive.com/Log/
 ||promos.investing.com/*/digibox.gif?
 ||proporn.com/ajax/log/
+||proxima.midjourney.com^
 ||pulpulyy.club/cdn-cgi/trace
 ||pulsar.ebay.com^
 ||pulse.delta.com^
@@ -49912,6 +49914,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||askdoctors.jp/assets/packs/js/impression_tracker-
 ||astat.nikkei.com^
 ||astral.nicovideo.jp^
+||baitoru.com/pu/js/2017/adobe_send_tracking.js
 ||barks.jp/v1/stats
 ||bc.nhk.jp^
 ||beacon.radiko.jp^
