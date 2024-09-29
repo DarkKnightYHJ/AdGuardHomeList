@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 405/rL0a9JR1VETMjUeIsg
-! Version: 202409290901
+! Checksum: iW8xMJ6li/VKtrp8ZOMRVQ
+! Version: 202409291001
 ! Title: EasyList China+EasyList
-! Last modified: 29 Sep 2024 09:01 UTC
+! Last modified: 29 Sep 2024 10:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -19622,6 +19622,7 @@ _widget_ad.
 .prebid-bundle.
 .prebid.$domain=~prebid.org
 /ad/postbid_handler1.$script
+/ads_prebid_async.js$script
 /gpt-prebid.js$script
 /pbjsandwichdirecta9-$script
 /plugins/prebidjs/*$script
