@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: wB3wX50P4Oz7ckc9l3gwSg
-! Version: 202409302201
+! Checksum: qtqRHczA+LoAyxVUWtdkTw
+! Version: 202409302301
 ! Title: ABP filters
-! Last modified: 30 Sep 2024 22:01 UTC
+! Last modified: 30 Sep 2024 23:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -576,7 +576,7 @@ ebay.com#$#hide-if-matches-xpath './/div[@class]/h2[contains(.,"Sponsored")]//an
 ebay.*#$#hide-if-matches-xpath './/div[contains(@class,"sponsored-infotip")]/parent::div[starts-with(@class,"ads")]/parent::div[contains(@class,"ads")]/ancestor::div[@id and @aria-label="Advertisement"]'
 ebay.fr#$#hide-if-matches-xpath './/a[@*]/img [@src][contains(@alt,"reconditionné")]/parent::a[@class="srp-banner"]/ancestor::li[contains(@class,"SIMPLE_IMAGE_BANNER")][1]'
 ebay.*#$#hide-if-matches-xpath './/div[@class="srp-1p__ad-column"]/ancestor-or-self::a[@class="srp-1p__link"]'
-ebay.*#$#hide-if-matches-xpath './/div[@aria-hidden="true"][@*[contains(name(),"data-")]]/ancestor::div[@aria-labelledby]/ancestor-or-self::div[@id][contains(@style,"min-height:")]/ancestor::div[contains(@id,"placement_10")]/parent::div[1]'
+ebay.*#$#hide-if-matches-xpath './/div[@aria-hidden="true"][@*[contains(name(),"data-")]]/ancestor::div[@aria-labelledby]/ancestor-or-self::div[@id][@style]/ancestor::div[contains(@id,"placement_10")]/parent::div[1]'
 ! cp
 ebay.*#$#hide-if-matches-xpath './/section[@data-marko-key][@data-view]//ul[@class]//span[@aria-hidden="true"]/ancestor::div[contains(@class,"__bottom-one-row")]/preceding::a[contains(@data-track,"checksum")]/ancestor-or-self::li[contains(@class,"s-item")][1]'
 ebay.*#$#hide-if-matches-xpath './/span[text()]/preceding-sibling::span[contains(@class,"bsig__sponsoredInfo")][text()]/ancestor-or-self::li[contains(@class,"brwrvr__item-card--list")]'
