@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SIKlU8J+i4Tbq3ieqrsp3Q
+! Checksum: 4mcGLcbgWint2ktI68sfew
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202410011400
-! Last Modified: 2024年10月01日 14:00
+! Version: 202410012000
+! Last Modified: 2024年10月01日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -66468,6 +66468,7 @@ formula1.com##.js-promo-item
 investing.com##.js-promotional
 nicelocal.com##.js-results-slot
 theguardian.com##.js-top-banner
+extratv.com##.js-track-link
 chewy.com##.js-tracked-ad-product
 iobroker.net##.jss125
 paycalculator.com.au##.jss336
@@ -69658,7 +69659,7 @@ pubs.rsc.org###journal-info > .text--centered
 forums.whathifi.com###jwplayer-container-div
 ispreview.co.uk###mobile-takeover-slot-8
 express.co.uk###ovp-primis
-blackamericaweb.com,bossip.com,cassiuslife.com,hiphopwired.com,madamenoire.com,newsone.com,tvone.tv###player-wrapper
+blackamericaweb.com,bossip.com,cassiuslife.com,charlieintel.com,dexerto.com,hiphopwired.com,madamenoire.com,newsone.com,tvone.tv###player-wrapper
 bar-planb.com,hakibavuong.com###player_dev
 charlieintel.com,dexerto.com###primis-player
 flightradar24.com###primisAdContainer
@@ -73704,6 +73705,7 @@ newduba.cn###jq_youxi
 ||38.33.15.*.gif
 ||67.21.92.*.gif
 ||cupfox.app^$third-party
+||zeryt111.fun^
 ||tuxpfiok.icu^
 ||ieryt111.fun^
 ||cwwgqu.xyz^
@@ -82339,6 +82341,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||tsdm39.com/img01/MP3/GG/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+ysgc.fun,ysgc.tv##.swiper-slide > a[target="_blank"]
+ysgc.fun,ysgc.tv##.myui-panel_bd > div > a[target="_blank"]
 msn.cn##gaming-discover-strip
 msn.cn##casual-games-carousel-card
 msn.cn##.game-advertise-container
