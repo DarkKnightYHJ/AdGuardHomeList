@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: em1WPKlcT24eY1en3npPXQ
+! Checksum: VHm8/IiXD05Svl7qUf3hXQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202410010801
-! Last Modified: 2024年10月01日 08:01
+! Version: 202410011400
+! Last Modified: 2024年10月01日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1859,6 +1859,7 @@ newduba.cn###jq_youxi
 ||38.33.15.*.gif
 ||67.21.92.*.gif
 ||cupfox.app^$third-party
+||tuxpfiok.icu^
 ||ieryt111.fun^
 ||cwwgqu.xyz^
 ||ckyriuf.icu^
@@ -1866,6 +1867,7 @@ newduba.cn###jq_youxi
 ||4ir17.icu^
 ||rsyepnq.icu^
 ||xeryt111.fun^
+||aryici.xyz^
 ||opqnkw.xyz^
 ||rk6h3.icu^
 ||ghwqbii.icu^
@@ -71732,7 +71734,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||logly.co.jp/recommend/$image,domain=benesse.ne.jp|sponichi.co.jp
 @@||nakanohito.jp^*/bi.js$domain=kenko-tokina.co.jp|myna.go.jp
 @@||nittsu.com/Tracking/Scripts/Tracking/track.js
-@@||platform.twitter.com/oct.js$domain=ncsoft.jp
 @@||play.dlsite.com/csr/viewer/lib/newrelic.js
 @@||pvtag.yahoo.co.jp^$script,domain=paypaymall.yahoo.co.jp
 @@||rt.rtoaster.jp^$image,domain=ec-store.net
