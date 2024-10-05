@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UEo2/nThVXswwAzZrpUgWA
+! Checksum: 03z0eXnbhA98BsKEuLPP6Q
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202410050200
-! Last Modified: 2024年10月05日 02:00
+! Version: 202410050801
+! Last Modified: 2024年10月05日 08:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1863,6 +1863,12 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||yfoega.xyz^
+||chooncv.icu^
+||mvcngm.xyz^
+||eaqgsw.xyz^
+||pakaujf.icu^
+||ntpnfyga.icu^
 ||sjezce.xyz^
 ||twurseri.top^
 ||d2tf0.icu^
@@ -33827,6 +33833,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js
 ||event.evtm.53.com^
 ||idstatus.sky.com^
+||img2021.navyfederal.org^
 ||imgs.signifyd.com^
 ||mfasa.chase.com/auth/js/jpmc_bb_check.js
 ||olacontent.schwab.com^$script
@@ -71274,8 +71281,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||community.brave.com/t/$xmlhttprequest
 @@||connatix.com/min/connatix.renderer.infeed.min.js$domain=accuweather.com|collider.com|gamepress.gg|salon.com
 @@||console.statsig.com/_next/$~third-party
-@@||content.gap.com/fp/check.js$script,domain=oldnavy.gap.com
-@@||content.gap.com/fp/tags.js$script,domain=oldnavy.gap.com
 @@||coremetrics.com*/eluminate.js
 @@||coxbusiness.com/R136/assets/newrelic/newrelic.js$~third-party
 @@||cpt-static.gannettdigital.com/universal-web-client/master/latest/elements/vendor/adobe/app-measurement.html$xmlhttprequest
