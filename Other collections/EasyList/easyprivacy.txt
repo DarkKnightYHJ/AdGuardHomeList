@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: ibx+xPCd9KjFjQ2FTvvukA
-! Version: 202410061221
+! Checksum: lFGIP4U/TAQeJPp0nEmplg
+! Version: 202410061311
 ! Title: EasyPrivacy
-! Last modified: 06 Oct 2024 12:21 UTC
+! Last modified: 06 Oct 2024 13:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -288,6 +288,7 @@
 /analytics/visit?
 /analytics?http_referer
 /analytics?token=
+/analytics_cookie.js
 /analytics_events.js
 /analytics_js/client.js
 /analytics_prod.js
@@ -10643,6 +10644,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ac.prism-world.jp.net^
 ||acclog001.shop-pro.jp^
 ||acclog002.shop-pro.jp^
+||actagtracker.jp/tag
 ||ad.daum.net^
 ||affiliate.rakuten.co.jp^$script,third-party
 ||analytics-beacon.p.uliza.jp^
