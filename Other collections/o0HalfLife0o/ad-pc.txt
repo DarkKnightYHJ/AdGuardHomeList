@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: i6OaJzjkQiQpfmWZunWj4w
+! Checksum: MEGkWXwM0/fZo5lkNA7IUA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202410070801
-! Last Modified: 2024年10月07日 08:01
+! Version: 202410071400
+! Last Modified: 2024年10月07日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -69789,6 +69789,7 @@ ginx.tv###ginx-floatingvod-containerspacer
 gunsandammo.com###inline-player
 pubs.rsc.org###journal-info > .text--centered
 forums.whathifi.com###jwplayer-container-div
+express.co.uk###mantis-recommender-top-placeholder
 ispreview.co.uk###mobile-takeover-slot-8
 express.co.uk###ovp-primis
 blackamericaweb.com,bossip.com,cassiuslife.com,charlieintel.com,dexerto.com,hiphopwired.com,madamenoire.com,newsone.com,tvone.tv###player-wrapper
@@ -69866,6 +69867,7 @@ hiphopdx.com##.video-player
 bolavip.com##.video-player-placeholder
 benzinga.com##.video-player-wrapper
 thepinknews.com##.video-player__container
+dpreview.com##.videoWrapper
 consequence.net##.video_container
 bigthink.com##.wrapper-connatixElements
 bigthink.com##.wrapper-connatixPlayspace
@@ -73855,6 +73857,9 @@ newduba.cn###jq_youxi
 ||2efgcdcjr000.fun^
 ||clmcam.xyz^
 ||bmqulua.icu^
+||ddlmsoyo.icu^
+||mwurserx.top^
+||yjwxegq.icu^
 ##a[href*=".nhjhu25hd.com:"]
 ||6efgcdcjr000.fun^
 ||bwurserv.top^
@@ -96058,7 +96063,6 @@ omni.soundestlink.com$image
 ||salesviewer.org^$third-party
 ||san-spr-01.net^$third-party
 ||sapha.com^$third-party
-||sardine.ai^$third-party
 ||sas15k01.com^$third-party
 ||say.ac^$third-party
 ||sayutracking.co.uk^$third-party
@@ -98167,6 +98171,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.collarity.com/cws/*http
 ||api.country.is^$third-party
 ||api.iris.tv/update
+||api.sardine.ai/assets/loader.min.js
 ||api.wipmania.com^
 ||apibaza.com/pixel/
 ||apm-engine.meteor.com^$third-party,xmlhttprequest
@@ -101776,8 +101781,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ab-machine.forbes.com^
 ||ab.chatgpt.com/v1/rgstr
 ||ab.fanatical.com^
-||abcnews.com/assets/dtci/js/abcnews_visitorId.js
-||abcnews.com/assets/dtci/js/at.js
 ||abebooks.com/timer.gif?
 ||about.me/track?
 ||abysscdn.com/cdn-cgi/trace
