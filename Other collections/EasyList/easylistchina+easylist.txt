@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: M9N+7pAk4ABwde9Mmy8Mng
-! Version: 202410070711
+! Checksum: 9ZdTRBJAbEoLMrARieFY2A
+! Version: 202410070811
 ! Title: EasyList China+EasyList
-! Last modified: 07 Oct 2024 07:11 UTC
+! Last modified: 07 Oct 2024 08:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -10448,6 +10448,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+wenxuecity.com##div[id*="gg_"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
@@ -11107,12 +11108,9 @@ xiazaizhijia.com###gg_2
 324324.cn###gg_468_60
 324324.cn###gg_728_90
 miniie.com,tisai.com###gg_content
-wenxuecity.com###gg_multitext
-wenxuecity.com###gg_rightside
 kukuw.com###gg_rl
 7654.com###gg_top
 shouji56.com###gg_top_banner
-wenxuecity.com###gg_viewBottom
 baidu.com###ggbtm
 wenku.baidu.com###ggbtm-ads
 huya.com###ggcomment
@@ -79960,6 +79958,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||assets.presearch.com/backgrounds/
 ||atoplay.com/js/rtads.js
 ||atptour.com^*/sponsors/
+||attr-shift.dotabuff.com^
 ||audiotag.info/images/banner_
 ||aurn.com/wp-content/banners/
 ||aveherald.com/images/banners/
@@ -88008,6 +88007,7 @@ healthyrex.com##div.textwidget:has(a[rel="nofollow sponsored"])
 bestbuy.ca##div.x-productListItem:has([class^="sponsoredProduct"])
 timesnownews.com,zoomtventertainment.com##div:has(> .bggrayAd)
 newsfirst.lk##div:has(> [class*="hide_ad"])
+fandomwire.com##div:has(> [data-openweb-ad])
 doordash.com##div:has(> a[data-anchor-id="SponsoredStoreCard"])
 skyscanner.com,skyscanner.net##div:has(> a[data-testid="inline-brand-banner"])
 wolt.com##div:has(> div > div > div > div > div > p:has-text(Sponsored))
