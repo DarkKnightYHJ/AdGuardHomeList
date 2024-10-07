@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MEGkWXwM0/fZo5lkNA7IUA
+! Checksum: bQYa5juNfQ0Y2QX9JCOCwQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202410071400
-! Last Modified: 2024年10月07日 14:00
+! Version: 202410072000
+! Last Modified: 2024年10月07日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -54572,6 +54572,7 @@ browsershots.org#@#.advert_area
 ||10753990.xyz^$document,popup
 ||11152646.xyz^$document,popup
 ||1116c5.xyz^$document,popup
+||11778562.xyz^$document,popup
 ||11c7a3.xyz^$document,popup
 ||1350c3.xyz^$document,popup
 ||14202444.xyz^$document,popup
@@ -61628,6 +61629,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||assets.presearch.com/backgrounds/
 ||atoplay.com/js/rtads.js
 ||atptour.com^*/sponsors/
+||attr-shift.dotabuff.com^
 ||audiotag.info/images/banner_
 ||aurn.com/wp-content/banners/
 ||aveherald.com/images/banners/
@@ -63293,6 +63295,7 @@ all-nettools.com,britsabroad.com,filesharingtalk.com,kiwibiker.co.nz,printroot.c
 myevreview.com###ad_main_bottom
 myevreview.com###ad_main_middle
 free-icon-rainbow.com###ad_responsive
+hulkshare.com###ad_user_banner_2
 coinarbitragebot.com###adathm
 offidocs.com###adbottomoffidocs
 canadianlisted.com###adcsacl
@@ -68848,6 +68851,7 @@ eztv.tf,eztv.yt##a > img[alt="Anonymous Download"]
 cript.to##a.btn[target="_blank"][href^="https://cript.to/"]
 infowars.com##a.css-1yw960t
 darkreader.org##a.logo-link[target="_blank"]
+hulkshare.com##a.nhsIndexPromoteBlock
 steam.design##a.profile_video[href^="https://duobot.com/"]
 marinelink.com##a.sponsored
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[ajaxify*="&eid="] + a[href^="https://l.facebook.com/l.php?u="]
@@ -69606,6 +69610,7 @@ healthyrex.com##div.textwidget:has(a[rel="nofollow sponsored"])
 bestbuy.ca##div.x-productListItem:has([class^="sponsoredProduct"])
 timesnownews.com,zoomtventertainment.com##div:has(> .bggrayAd)
 newsfirst.lk##div:has(> [class*="hide_ad"])
+fandomwire.com##div:has(> [data-openweb-ad])
 doordash.com##div:has(> a[data-anchor-id="SponsoredStoreCard"])
 skyscanner.com,skyscanner.net##div:has(> a[data-testid="inline-brand-banner"])
 wolt.com##div:has(> div > div > div > div > div > p:has-text(Sponsored))
@@ -73851,6 +73856,7 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||oaiqksi.top^
 ||edadmy.xyz^
 ||kgymoc.xyz^
 ||xlxehr.xyz^
@@ -82568,6 +82574,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+wenxuecity.com##div[id*="gg_"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
@@ -83227,12 +83234,9 @@ xiazaizhijia.com###gg_2
 324324.cn###gg_468_60
 324324.cn###gg_728_90
 miniie.com,tisai.com###gg_content
-wenxuecity.com###gg_multitext
-wenxuecity.com###gg_rightside
 kukuw.com###gg_rl
 7654.com###gg_top
 shouji56.com###gg_top_banner
-wenxuecity.com###gg_viewBottom
 baidu.com###ggbtm
 wenku.baidu.com###ggbtm-ads
 huya.com###ggcomment
@@ -101781,10 +101785,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ab-machine.forbes.com^
 ||ab.chatgpt.com/v1/rgstr
 ||ab.fanatical.com^
-||abebooks.com/timer.gif?
 ||about.me/track?
 ||abysscdn.com/cdn-cgi/trace
-||academia.edu/record_hit
+||academia.edu/record_hit?
 ||acast.com/api/stats
 ||accor.com/g/collect?
 ||accuterm.com/data/stat.js
@@ -101859,7 +101862,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics-zone-1.api.leadfamly.com^
 ||analytics.3c5.com^
 ||analytics.academy.com^
-||analytics.adfreetime.com^
 ||analytics.archive.org^
 ||analytics.brave.com^
 ||analytics.chase.com^
@@ -101924,7 +101926,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||armedangels.com/javascript/script.js
 ||arttrk.com/pixel/
 ||as.coinbase.com/metrics
-||atrack.allposters.com^
+||assets.prod.abebookscdn.com/cdn/com/scripts/abepixel-$domain=abebooks.com
 ||ats.alot.com^
 ||audacy.com/data-events/
 ||aulart.com/wp-admin/admin-ajax.php?data_send=pageView
@@ -102456,7 +102458,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ibtimes.com/front/js/counter.js
 ||icgp.ie/overview/js/tracker.php
 ||idiva.com/analytics_
-||iedc.fitbit.com^
 ||iguazu.doordash.com^
 ||ih.newegg.com^
 ||iheart.com/api/v3/playback/reporting
@@ -102799,7 +102800,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.clutter.com^
 ||pixel.convertize.io^
 ||pixel.facebook.com^
-||pixel.honestjohn.co.uk^
 ||pixel.ionos.com^
 ||pixel.nine.com.au^
 ||pixel.tuko.co.ke^
@@ -103156,7 +103156,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tc.geniusmonkey.com^
 ||tccd.douglas.
 ||td.airdroid.com^
-||ted.dailymail.co.uk^
 ||telegraph.prd.api.max.com^
 ||telem.sre.gopuff.com^
 ||telemetry.adobe.io^
@@ -103382,7 +103381,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wiztube.xyz/cdn-cgi/trace
 ||wnyc.org/analytics/
 ||wolfram.com/common/javascript/analytics.js
-||wolfram.com/common/javascript/wal/
+||wolfram.com/common/javascript/wal/latest/walLoad.js
 ||wondershare.com/trk
 ||worldremit.com/web-cms/api/metric
 ||wsj.com/cookies/pixel.gif
