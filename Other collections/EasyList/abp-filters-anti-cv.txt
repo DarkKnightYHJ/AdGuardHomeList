@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: jxtALkFdArvzNxFz/OYEvQ
-! Version: 202410091401
+! Checksum: WDz5u3efhb3Yce5Tv/gOzw
+! Version: 202410091501
 ! Title: ABP filters
-! Last modified: 09 Oct 2024 14:01 UTC
+! Last modified: 09 Oct 2024 15:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -578,8 +578,8 @@ ebay.*#$#hide-if-matches-xpath './/div[contains(@class,"sponsored-infotip")]/par
 ebay.fr#$#hide-if-matches-xpath './/a[@*]/img [@src][contains(@alt,"reconditionné")]/parent::a[@class="srp-banner"]/ancestor::li[contains(@class,"SIMPLE_IMAGE_BANNER")][1]'
 ebay.*#$#hide-if-matches-xpath './/div[@class="srp-1p__ad-column"]/ancestor-or-self::a[@class="srp-1p__link"]'
 ebay.*#$#hide-if-matches-xpath './/div[@aria-hidden="true"][@*[contains(name(),"data-")]]/ancestor::div[@aria-labelledby]/ancestor-or-self::div[@id][@style]/ancestor::div[contains(@id,"placement_10")]/parent::div[1]'
-ebay.*#$#hide-if-contains-visible-text /Sponsored|Anzeige|Sponsorisé|Sponsorizzato|Sponsorowane|Gesponsord|Patrocinado/ 'div[data-testid="x-pda-placements"]>div>div>div' 'div[data-viewport]>span>span>span>button * ^^sh^^ * div[style]'
-ebay.*#$#hide-if-contains-visible-text /Sponsored|Anzeige|Sponsorisé|Sponsorizzato|Sponsorowane|Gesponsord|Patrocinado/ 'div[id^="placement"][style^="min-height:144px;"]>div' 'div[data-viewport]>div * ^^sh^^ * div[style]'
+ebay.*#$#hide-if-contains-visible-text /Sponsored|Anzeige|Sponsorisé|Sponsorizzato|Sponsorowane|Gesponsord|Patrocinado/ 'div[data-testid="x-pda-placements"]>div>div>div' 'div[data-viewport]>span>span>span>button[aria-expanded="false"]>div[style="min-height:1px"]'
+ebay.*#$#hide-if-contains-visible-text /Sponsored|Anzeige|Sponsorisé|Sponsorizzato|Sponsorowane|Gesponsord|Patrocinado/ 'div[id^="placement"][style^="min-height:144px;"]>div' 'div[data-viewport]>div[style="min-height:1px"]'
 ||ir.ebaystatic.com/cr/ads/nuts/berries-with-css-symbol*.js^$script,domain=ebay.*
 ebay.*#$#abort-on-property-read window.ebayAdsBerries.render; abort-on-property-read window.berries
 ! cp
