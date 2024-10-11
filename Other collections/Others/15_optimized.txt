@@ -1,10 +1,14 @@
-! Checksum: vf4wzmcm1BYEeulqYxUz8w
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1728628603-3600.patch
+! Checksum: Z5/YG7Pv8vEZbfNOIvBeNA
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1728650172-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.71.53
-! TimeUpdated: 2024-10-11T06:33:06+00:00
+! Version: 2.0.71.54
+! TimeUpdated: 2024-10-11T12:32:55+00:00
 ! Expires: 5 days (update frequency)
+||pzvai.site^
+||eyewondermedia.com^
+||my.toruftuiov.com^
+||esvpnjdntgr.com^
 ||obtaintrout.com^
 ||zwk7ybbg.net^
 ||65wenv5f.xyz^
@@ -9641,6 +9645,7 @@ vkcdnservice.appspot.com^
 ||differpurifymustard.com^
 ||differsassassin.com^
 ||differsprosperityprotector.com^
+||diffhobbet.click^
 ||difficultydilapidationsodium.com^
 ||difficultyearliestclerk.com^
 ||difficultyefforlessefforlessthump.com^
@@ -14399,6 +14404,7 @@ vkcdnservice.appspot.com^
 ||guitarfelicityraw.com^
 ||gujakqludcuk.com^
 ||gulfimply.com^
+||gullahbaraca.com^
 ||gullible-hope.com^
 ||gullible-lawyer.pro^
 ||gullibleanimated.com^
@@ -19418,6 +19424,7 @@ vkcdnservice.appspot.com^
 ||makingnude.com^
 ||malay.buzz^
 ||maldini.xyz^
+||malduckcompile.com^
 ||maleliteral.com^
 ||malelocated.com^
 ||malignantbriefcaseleading.com^
@@ -25019,6 +25026,7 @@ vkcdnservice.appspot.com^
 ||psugkfqmys.com^
 ||psumainy.xyz^
 ||psungaum.com^
+||psunseewhu.com^
 ||psuphuns.net^
 ||psurdoak.com^
 ||psurigrabi.com^
@@ -29903,6 +29911,7 @@ vkcdnservice.appspot.com^
 ||supposerevenue.com^
 ||suppressedanalogyrain.com^
 ||suppressedbottlesenjoyable.com
+||supqajfecgjv.com^
 ||supremeden.com^
 ||supremeoutcome.com^
 ||supremepresumptuous.com^
@@ -38067,6 +38076,7 @@ vkcdnservice.appspot.com^
 ||d2vwl2vhlatm2f.cloudfront.net^
 ||d2vwsmst56j4zq.cloudfront.net^
 ||d2w92zbcg4cwxr.cloudfront.net^
+||d2w9cdu84xc4eq.cloudfront.net^
 ||d2werg7o2mztut.cloudfront.net^
 ||d2wexw25ezayh1.cloudfront.net^
 ||d2wpx0eqgykz4q.cloudfront.net^
@@ -39045,6 +39055,8 @@ vkcdnservice.appspot.com^
 ||deapi.afreecatv.com^
 ||startup.mobile.yandex.net^
 ||startup-mobile.ap.yandex-net.ru^
+||ad.zijieapi.com^
+||ads*-normal-hl.zijieapi.com^
 ||frontier100-toutiao-lf.fqnovel.com^
 ||ad.snaptube.app^
 ||ad.mobiuspace.net^
@@ -39098,7 +39110,6 @@ vkcdnservice.appspot.com^
 ||adfork.co.kr^
 ||92by17snes4.cc^
 ||ads*-normal-lq.zijieapi.com^
-||ad.zijieapi.com^
 ||pglstatp-toutiao.com^
 ||open.e.kuaishou.cn^
 ||open.e.kuaishou.com^
@@ -39699,6 +39710,23 @@ vkcdnservice.appspot.com^
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||applog.zijieapi.com^
+||feedback-c.zijieapi.com^
+||log*.zijieapi.com^
+||minigame5-normal-hl.zijieapi.com^
+||minigame5-normal-lq.zijieapi.com^
+||mssdk.zijieapi.com^
+||os-mon.zijieapi.com^
+||pc-mon.zijieapi.com^
+||polaris.zijieapi.com^
+||polaris*-normal-*.zijieapi.com^
+||saveu5-normal-lq.zijieapi.com^
+||starkgame.zijieapi.com^
+||timon.zijieapi.com^
+||tnc*.zijieapi.com^
+||view.zijieapi.com^
+||mcs.zijieapi.com^
+||mon.zijieapi.com^
 ||pa-cd.com^
 ||covatic.io^
 ||cdn.gpmdata.ru^
@@ -39932,7 +39960,6 @@ vkcdnservice.appspot.com^
 ||sensors-log.dongqiudi.com^
 ||jokerly.com^
 ||analytics.gnetworks.xyz^
-||mon.zijieapi.com^
 ||statgw.devtodev.com^
 ||dmpmetrics.rcsmetrics.it^
 ||cdn.granify.com^
@@ -43203,18 +43230,6 @@ vkcdnservice.appspot.com^
 ||stopify.co^
 ||toldyouso.lol^
 ||toldyouso.pics^
-||rtc-logger-va.tiktokv.com^
-||rtlog.tiktokv.com^
-||mon*-*.tiktokv.us^
-||mon.us.tiktokv.com^
-||mon-*.tiktokv.com^
-||mon.tiktokv.com^
-||xlog.tiktokv.com^
-||xlog-va.tiktokv.com^
-||xlog*-*.tiktokv.com^
-||mcs-va.tiktokv.com^
-||mcs-va-*.tiktokv.com^
-||analytics.tiktok.com^
 ||yourblocksite.com^
 ||taskapi.net^
 ||beacon-fullpage-predictor.goguardian.com^
@@ -45839,10 +45854,8 @@ inapps.appsflyersdk.com^
 ||adui.tg.meitu.com^
 ||meitustat.com^
 ||analysis.vesync.com^
-||log16-normal-useast5.tiktokv.us^
 ||insights.zennioptical.com^
 ||proxy.telemetry.us-ashburn-1.oci.oraclecloud.com^
-||sf16-telemetry-proxy-oci.tiktokcdn-us.com^
 ||admob-app-id-*.firebaseio.com^
 ||stats.rustore.ru^
 ||vk-analytics.ru^
@@ -45969,7 +45982,6 @@ inapps.appsflyersdk.com^
 ||mon.isnssdk.com^
 ||logs.ironsrc.mobi^
 ||events.mz.unity3d.com^
-||mon*-platform-*.tiktokv.com^
 ||logservice-*.platform.dbankcloud.cn^
 ||ubacollect-*.cloud.dbankcloud.cn^
 ||datacollector-*.dt.dbankcloud.cn^
@@ -46059,8 +46071,6 @@ inapps.appsflyersdk.com^
 ||logend.cookpad.com^
 ||viva.api.xiaoying.co^
 ||ub-xjp.vvbrd.com^
-||rtlog*.tiktokv.us^
-||rtlog*.tiktokv.com^
 ||nelo2-col.linecorp.com^
 ||msga.cupid.iqiyi.com^
 ||ndct-data.video.iqiyi.com^
@@ -46095,7 +46105,6 @@ inapps.appsflyersdk.com^
 ||dflow.log.hunantv.com^
 ||msg.simeji.me^
 ||msg.simeji.baidu.jp^
-||log.tiktokv.com^
 ||beacons*.gvt3.com^
 ||post-log.pushwoosh.com^
 ||appanalysis*.banggood.com^
@@ -46380,6 +46389,24 @@ inapps.appsflyersdk.com^
 ||ws.ksmobile.net^
 ||www-google-analytics.l.google.com^
 ||ymtracking.com^
+||log16-normal-useast5.tiktokv.us^
+||sf16-telemetry-proxy-oci.tiktokcdn-us.com^
+||mon*-platform-*.tiktokv.com^
+||rtlog*.tiktokv.us^
+||rtlog*.tiktokv.com^
+||log.tiktokv.com^
+||rtc-logger-va.tiktokv.com^
+||rtlog.tiktokv.com^
+||mon*-*.tiktokv.us^
+||mon.us.tiktokv.com^
+||mon-*.tiktokv.com^
+||mon.tiktokv.com^
+||xlog.tiktokv.com^
+||xlog-va.tiktokv.com^
+||xlog*-*.tiktokv.com^
+||mcs-va.tiktokv.com^
+||mcs-va-*.tiktokv.com^
+||analytics.tiktok.com^
 ||upoll.umengcloud.com^
 ||utop.umengcloud.com^
 ||analy.qq.com^
@@ -47766,7 +47793,6 @@ inapps.appsflyersdk.com^
 ||log-api.cli.im^
 ||log.hiiir.com^
 ||log.tagtic.cn^
-||mcs.zijieapi.com^
 ||p.tencentmind.com^
 ||pr.nss.netease.com^
 ||r.sax.sina.com.cn^
@@ -50797,6 +50823,23 @@ inapps.appsflyersdk.com^
 ||azol.de^
 ||twiago.com^
 ||bauernative.com^
+||666hh999gg.com^
+||776.jstatic.xyz^
+||kmqianneng66.com^
+||cg-pao-tu.nanyanglk.com^
+||cos1999.top^
+||cosmo202.top^
+||d24fnxkxwarvg8.cloudfront.net^
+||files.xtpag.top^
+||img.175532.com^
+||img.911787.com^
+||tu0379199038.cc^
+||n55ylc001.vip^
+||tu5551976196.cc^
+||dpjzr.top^
+||n55cpw.vip^
+||xpjcg.oss-accelerate.aliyuncs.com^
+||qxwoiv.com^
 ||krbulhb.com^
 ||wl.uqwjdhgv.top^
 ||mm.wxc.cc^
