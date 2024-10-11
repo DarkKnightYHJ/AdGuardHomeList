@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jLKTS6T5UkKrKM8xrQUpOw
+! Checksum: 6PhromBXHKm3uB2AMpU9yA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202410111400
-! Last Modified: 2024年10月11日 14:00
+! Version: 202410112000
+! Last Modified: 2024年10月11日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -7788,7 +7788,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||dagumanhua.com/style/mdagu.js
 ||dailynews.sina.com/gb/ads/
 ||dajiadu8.com/17.js
-||dajiadu8.com/17mb/script/ad.js
+||dajiadu8.com/17mb/script/ad*.js
 ||dajiazhao.com/login/reg.js
 ||dalipan.com/api/taobao
 ||dangdang.com/adall.
@@ -30108,6 +30108,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rltd.io/tags/
 ||roadster.com/roadster_dealer_analytics
 ||rodale.com/ga/
+||roomvo.com/services/event/
 ||route.com/collect
 ||routeapp.io/route-analytics/
 ||rs.sinajs.cn^
@@ -32138,6 +32139,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||statistics.daktilo.com^
 ||stats.vidyome.com^
 ||traffic.wdc.center^
+||web.tv/analytics/
 ||informers.sinoptik.ua^
 ||top.zp.ua/counter/
 ||tracker.multisearch.io^
