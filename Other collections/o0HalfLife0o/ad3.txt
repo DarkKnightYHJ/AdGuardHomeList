@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UhaO2yCnaXN1Ijjklz2kSA
+! Checksum: t9kwthYqsnhEagSbFIGtMg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202410121400
-! Last Modified: 2024年10月12日 14:00
+! Version: 202410130200
+! Last Modified: 2024年10月13日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -158,6 +158,7 @@ z4a.net
 -*-*-*-*.alpha^$script,third-party
 -*-*-*-*.as^$script,third-party
 -*-*-*-*.panda^$script,third-party
+/ad_display.php?ad_pos=
 -1316632262.cos.
 -1316899192.cos.
 -1321533417.cos.
@@ -1871,6 +1872,9 @@ newduba.cn###jq_youxi
 ||sgsosi.xyz^
 ||rnwenpn.icu^
 ||vjharl.xyz^
+||wnojded.icu^
+||xadulxs.cn^
+||4q87v.icu^
 ||amsbce.xyz^
 ||ygipjqf.icu^
 ||gpqkeq.xyz^
@@ -21288,12 +21292,12 @@ m.babytree.com##script + a[class]
 /a8c-analytics.js
 /aap/stats
 /abc.gif?
-/acc/acctag.js
 /access.php?referrer=
 /accessanalyzer/tracker?
 /AccessCounter/index.cgi?
 /accesstracking/*
 /acclog.cgi?
+/acctag.js
 /acecounter/*
 /acecounter_
 /acounter.php?
