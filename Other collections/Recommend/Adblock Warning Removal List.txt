@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: I28A1sVitShrTZHzXIZueg
-! Version: 202410151611
+! Checksum: WSvbl87smslMz/ln944u2Q
+! Version: 202410151701
 ! Title: Adblock Warning Removal List
-! Last modified: 15 Oct 2024 16:11 UTC
+! Last modified: 15 Oct 2024 17:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/antiadblockfilters
 ! Licence: https://easylist.to/pages/licence.html
@@ -1929,6 +1929,8 @@ wotactions.com###ads_warning
 polska-ie.com#@##adsense
 novostroy-m.ru###advert_result
 cxem.net###antiAdBlock
+e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .advert-column
+e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 elhow.ru###b-info-wrapper
 piratia.su###block-warning
 ma.by###bodysubcont > div[style^="padding"]:not([id]):not([class])
@@ -2017,6 +2019,7 @@ doctorrouter.ru##.jgcabd-container
 ppc.world##.js-detected-block
 anime-bit.ru##.layer_box > #header
 dtf.ru,vc.ru##.layout__right-column > div[class*=" "][style] > div[class*=" "] > div:only-child
+e.mail.ru,octavius.mail.ru#@#.letter-list-item-adv
 space.utema.ru##.main-content-padding > div[class]:not([itemprop])
 shuba.life##.md\:u-block
 peers.tv##.moanerwrap
