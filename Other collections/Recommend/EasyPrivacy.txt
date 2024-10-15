@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: y1MQpjSUdoWiqS7VfZlsQg
-! Version: 202410150511
+! Checksum: mgkbFKHzZzBk8abMWVbKrg
+! Version: 202410150611
 ! Title: EasyPrivacy
-! Last modified: 15 Oct 2024 05:11 UTC
+! Last modified: 15 Oct 2024 06:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -835,7 +835,6 @@
 /event_logger
 /event_logging/*
 /eventLog.ajax
-/eventlog.js
 /eventLogServlet?
 /eventproxy/track
 /events-collector.
@@ -11728,6 +11727,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ft.com/ingest?
 ||fullscreen.nz/v1/tracking/$domain=threenow.co.nz
 ||fusevideo.io/api/event
+||g-scale.org/scripts/EventLog.js
 ||g.ign.com^
 ||g.mashable.com^
 ||g.newtimes.com^
@@ -50149,6 +50149,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||propertyguru.com.my/api/consumer/vast-media/impression?
 ! Norwegian
 ||data.nrk.no^
+||kontrollportalen.no/kontroll/javascript/eventlog.js
 ||nrk.no^*/stats/
 ||stats.proff.no^
 ||stm.komplett.no^
