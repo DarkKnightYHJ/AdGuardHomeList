@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rclxLZCgWe6utmNBa7mdFg
-! Version: 202410161311
+! Checksum: u7FkMJyGOi1rD0+rA2W7DQ
+! Version: 202410161401
 ! Title: Fanboy's Annoyance List
-! Last modified: 16 Oct 2024 13:11 UTC
+! Last modified: 16 Oct 2024 14:01 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -49410,3 +49410,12 @@ axelspringer-syndication.de#@#body:not([style*="hidden"]) .cmpboxWelcomeGDPR
 @@||outbrainimg.com^$third-party,image
 ! FD-6974
 @@/notification.min.js$domain=myhomebook.de
+! FD-7002
+@@||consentmanager.net/delivery$script,domain=bildderfrau.de
+! FD-7003
+stepstone.de#@##GDPRConsentManagerContainer
+@@||tags.stepstone.com/utag/*/utag.js$domain=stepstone.de
+! FD-7004
+@@||privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=upday.com
+! FD-7005 | FD-7006 | FD-7007 | FD-7008
+@@||cmp.usercentrics.eu^$script,xmlhttprequest,domain=idealo.it|idealo.fr|idealo.es|idealo.de|idealo.co.uk
