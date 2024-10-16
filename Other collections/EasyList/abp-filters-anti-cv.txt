@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: PMmZ655JTFE7erjcZOVaiA
-! Version: 202410160911
+! Checksum: opohNvF/zc0Mp4e68NLhIw
+! Version: 202410161001
 ! Title: ABP filters
-! Last modified: 16 Oct 2024 09:11 UTC
+! Last modified: 16 Oct 2024 10:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1836,5 +1836,6 @@ m.youtube.com,music.youtube.com#$#override-property-read yt.ads.biscotti.getId_ 
 m.youtube.com,music.youtube.com#$#override-property-read yt.ads.biscotti.lastId_ undefined
 m.youtube.com,music.youtube.com#$#abort-on-property-write adBreakHeartbeatParams
 youtube.com#$#override-property-read Object.prototype.ab_sa_ef undefined
+youtube.com#$#array-override push BISCOTTI_BASED_DETECTION_STATE_IS_CLICK_EVENT_NOT_TRUSTED
 music.youtube.com#$#skip-video 'video.html5-main-video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay"]'; simulate-mouse-event 'span.ytp-ad-preview-container$delay=0'
 m.youtube.com#$#simulate-mouse-event 'span.ytp-ad-preview-container$delay=0'; simulate-mouse-event 'button.ytp-ad-skip-button-modern$continue,delay=100'; simulate-mouse-event 'button.ytp-skip-ad-button$continue,delay=100';
