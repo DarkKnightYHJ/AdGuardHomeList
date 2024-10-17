@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Xj8dioQDECBB3W6m0pb2HA
-! Version: 202410170311
+! Checksum: 5aKkishgm8zv0/V1f+JPjw
+! Version: 202410170411
 ! Title: EasyList China+EasyList
-! Last modified: 17 Oct 2024 03:11 UTC
+! Last modified: 17 Oct 2024 04:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -86047,6 +86047,7 @@ douglas.*##.swiper-slide:has(button[data-testid="sponsored-button"])
 douglas.*##div.product-grid-column:has(button[data-testid="sponsored-button"])
 laredoute.*###hp-sponsored-banner
 lazada.*##.pdp-block__product-ads
+pinterest.*##div[data-grid-item]:has([data-test-pin-id] [data-test-id^="one-tap-desktop"] > a[href^="http"][rel="nofollow"]):not(body > div)
 pricespy.*##.AdPlacementMarginTop-sc-0-3
 pricespy.*##.AdPlacementMarginTop-sc-15ga2eg-3
 pricespy.*##.AdPlacementWrapper-sc-0-3
