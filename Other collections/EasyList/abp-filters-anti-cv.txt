@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: Wpmj74/iemV2CfCKyu3V1A
-! Version: 202410171701
+! Checksum: GT36ITupXVd7NANF1vlqxw
+! Version: 202410171811
 ! Title: ABP filters
-! Last modified: 17 Oct 2024 17:01 UTC
+! Last modified: 17 Oct 2024 18:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1230,6 +1230,7 @@ www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//div[@id="watch_feed
 www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"node":\{"__typename":"VideoHomeFeedUnitSectionComponent"[^\n]+?"sponsored_data":\{"ad_id"[^\n]+?"cursor":null\}/' '{}' 'instream_video_ad_breaks_comet'
 www.facebook.com,web.facebook.com#$#json-prune 'data.scrubber.instream_video_ad_breaks' 'data.scrubber.post_roll_ad_break'
 www.facebook.com,web.facebook.com#$#json-prune 'instream_video_ad_breaks_comet'
+www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"node":\{"__typename":"VideoHomeFeedUnitSectionComponent"[^\n]+?"sponsored_data"[^\n]+?("ad_id"|"SponsoredData")[^\n]+"cursor":"[^"]+"\}/' '{}' '/(instream_video_ad_breaks_comet|__module_operation_InstreamVideoAdBreaksPlayer_video_instream_video_ad_breaks_comet|__module_component_InstreamVideoAdBreaksPlayer_video_instream_video_ad_breaks_comet|InstreamVideoAdBreaksPlayerImpl_adBreaks$normalization.graphql|InstreamVideoAdBreaksPlayerDeferred.react|InstreamVideoAdBreaksPlayerDeferred|InstreamVideoAdBreaksPlayerImpl.react|VideoPlayerRelay_video$defer$InstreamVideoAdBreaksPlayer_video)/'
 ! Rules that don't need to change
 @@||www.facebook.com^$generichide
 @@||web.facebook.com^$generichide
