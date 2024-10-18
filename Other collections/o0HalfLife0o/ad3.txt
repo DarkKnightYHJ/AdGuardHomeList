@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /lEuWPCyfC7Bm5ev9T519g
+! Checksum: rXSlQF+Mi55RiqT61OXJ2w
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202410182000
-! Last Modified: 2024年10月18日 20:00
+! Version: 202410190200
+! Last Modified: 2024年10月19日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1876,6 +1876,9 @@ newduba.cn###jq_youxi
 ||wuresde.top^
 ||ytroytj33.fun^
 ||bld.mobi^
+||x0y081e.xyz^
+||ljvc0.icu^
+||quresdy.top^
 ||cggyyi.xyz^
 ||qdoeki.xyz^
 ||etroytj33.fun^
@@ -22653,6 +22656,7 @@ m.babytree.com##script + a[class]
 /marfeelanalytics.js
 /marketing-analytics.js
 /martypixel?
+/master-amg-plugin/assets/js/page-view-ga.js
 /matomo-tracking.js
 /matomo.js$domain=~github.com
 /matomo.php
@@ -25963,6 +25967,7 @@ omni.soundestlink.com$image
 ||loopa.net.au^$third-party
 ||loopfuse.net^$third-party
 ||lopley.com^$third-party
+||lordoftheentertainingostriches.com^$third-party
 ||losstrack.com^$third-party
 ||lp4.io^$third-party
 ||lporirxe.com^$third-party
@@ -33007,6 +33012,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||jiji.co.ke/tag_event
 ||jockey.com/event/
 ||jockey.com/scripts/omt-base.js
+||joggo.run/api/events
 ||julius.ai/monitoring
 ||jumbo.zomato.com^
 ||juno.com/start/javascript.do?message=
@@ -70229,6 +70235,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||gtm.mandesager.dk^
 ||ia.ekstrabladet.dk^
 ||jv.dk/assets/statistics/
+||nrpukcsgboqr0gz2o8.www.bolighub.dk^
 ||2ememain.be/c3650cdf-
 ||2ememain.be/px/
 ||actu.fr/assets/js/smarttag5280-1.js
