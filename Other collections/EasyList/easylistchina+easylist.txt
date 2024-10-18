@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: if6qMBhIGwTYXnIvEsM/QA
-! Version: 202410181001
+! Checksum: Pcd4YetpFfJpJAL8x6ho1g
+! Version: 202410181101
 ! Title: EasyList China+EasyList
-! Last modified: 18 Oct 2024 10:01 UTC
+! Last modified: 18 Oct 2024 11:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1739,6 +1739,7 @@ newduba.cn###jq_youxi
 ||bmougwx.icu^
 ||magioe.xyz^
 ||wuresde.top^
+||ytroytj33.fun^
 ||cggyyi.xyz^
 ||qdoeki.xyz^
 ||etroytj33.fun^
@@ -82202,6 +82203,7 @@ bbc.com##li[class*="-ListItem"]:has(div.dotcom-ad)
 yandex.com##li[class*="_card"]:has(a[href^="https://yabs.yandex.ru/count/"])
 yandex.com##li[class*="_card"]:has(a[href^="https://yandex.com/search/_crpd/"])
 yahoo.com##li[class="first"]:has([data-ylk*="affiliate_link"])
+zillow.com##li[class^="ListItem-"]:has(#nav-ad-container)
 dictionary.com,thesaurus.com##main div[class]:has(> [data-type="ad-vertical"])
 rome2rio.com#?#div[aria-labelledby="schedules-header"] > div > div:-abp-contains(Ad)
 windowsreport.com##section.hide-mbl:has(a[href^="https://out.reflectormedia.com/"])
