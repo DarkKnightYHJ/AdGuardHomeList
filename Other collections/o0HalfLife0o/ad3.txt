@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QlHGEhK4Zj2c8D+7LkEj3Q
+! Checksum: nyaOpvJnkbytjBki8dCcxg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202410180200
-! Last Modified: 2024年10月18日 02:00
+! Version: 202410180801
+! Last Modified: 2024年10月18日 08:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1866,6 +1866,13 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||jmipzsn.icu^
+||kpmsoq.xyz^
+||osujcq.xyz^
+||ttroytj33.fun^
+||6qyxeob.xyz^
+||bmougwx.icu^
+||magioe.xyz^
 ||cggyyi.xyz^
 ||qdoeki.xyz^
 ||etroytj33.fun^
@@ -30218,7 +30225,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||salescs.com/liveagent/scripts/track.js
 ||salesforce.com/sfga.js
 ||salesloft.com/sl.js
-||salsify-ecdn.com/sdk/
 ||sascdn.com/mh_audience/
 ||sawpf.com/1.0.js$third-party
 ||saymedia.com/latest/tetrapak.js
@@ -71406,6 +71412,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||bookmate.com^*/impressions?$~third-party,xmlhttprequest
 @@||bostonglobe.com/login/js/lib/AppMeasurement.js$~third-party
 @@||browser-intake-datadoghq.com^$domain=pluto.tv
+@@||browser.covatic.io/sdk/v1/bauer.js$script,domain=hellorayo.co.uk
 @@||c.lytics.io/api/tag/$script,domain=time.com
 @@||c.paypal.com/da/r/fb.js$script
 @@||c.webtrends-optimize.com/acs/$image,script,domain=tvlicensing.co.uk
