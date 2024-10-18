@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: pieBZ98+jC2gdN7k+h3AAw
-! Version: 202410182201
+! Checksum: znCgXzgo4XubAsGQ3/2Mfg
+! Version: 202410182301
 ! Title: ABP filters
-! Last modified: 18 Oct 2024 22:01 UTC
+! Last modified: 18 Oct 2024 23:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -856,6 +856,7 @@ ipatriot.com##div[class^="textwidget"] > div[class^="pi_"]
 rightwingnews.com##.z-ad-inline
 procoinnews.com##div[id^="adcovery-"]
 procoinnews.com,dailylol.com#$#override-property-read setTimeout noopFunc; abort-on-property-read document.body.innerHTML; override-property-read Object.defineProperty undefined; hide-if-matches-xpath '//main[@class][@role][@id]/parent::div[1]/ancestor-or-self::div[@class][1]';
+||purple-hit.com^$third-party,script,domain=patriotnationpress.com
 ! #RM-13
 www.booking.com#$#hide-if-contains-visible-text /Ad|Annonce|Annonse|Annons|Annuncio|Anunci|Anuncio|Anúncio|Anzeige|Iklan|Kostað|Mainos|Oglas|Promovată|Publicidad|Publicité|Quảng|Reklaam|Reklam|Reklama|Reklám|Reklāma|Διαφήμιση|[Рр]еклама|إعلان|광고|広告|付费推广|贊助|מודעה|विज्ञापन|โฆษณา/ 'div+div[data-testid^="property-card"]' 'span[tabindex] span'
 ! #RM-7
@@ -1243,7 +1244,7 @@ www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/object[@type="nest
 ! #CV-663
 aupetitparieur.com,meilleurpronostic.fr,mamieastuce.com,vitamiiin.com##div[class] > div[id] > main[class][id]
 ! #CV-170
-lephoceen.fr,supertoinette.com#$#abort-on-property-read setInterval
+supertoinette.com#$#abort-on-property-read setInterval
 ||www.planet.fr/foretimes^
 ||viedemerde.fr/cuckolding^
 ||ladepeche.fr/taffrail^
@@ -1283,6 +1284,7 @@ down-paradise.com,mega-p2p.net#$#abort-on-property-read open
 french-streams.com#$#abort-on-property-read open
 e-sushi.fr#$#abort-on-property-read aEteAffiche
 frandroid.com#$#hide-if-matches-xpath './/div[contains(@class,"-ad-center")]/ancestor::div[@class][1][not(contains(@class,"with-sidebar"))]'
+gamekult.com#$#hide-if-matches-xpath './/a[@href][@data-track-category="native-ad"]/preceding::span[@target="js-modal-ad"]/parent::li[@data-id][1]'
 ! Popup/Popunder
 jetanimes.*,voirseries.*#$#abort-on-property-read open
 manga-scantrad.net,toonanime.*#$#abort-current-inline-script document.querySelectorAll popMagic
