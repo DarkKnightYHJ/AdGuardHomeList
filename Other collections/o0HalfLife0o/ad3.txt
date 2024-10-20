@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Up4jyOx9Nk1NVrs0mgG3Yg
+! Checksum: Gd5JIAlxEvomJmyE6ZQ++w
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202410201400
-! Last Modified: 2024年10月20日 14:00
+! Version: 202410202000
+! Last Modified: 2024年10月20日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1875,6 +1875,7 @@ newduba.cn###jq_youxi
 ||syshwc.xyz^
 ||ouresdk.top^
 ||atorks.xyz^
+||99jinpin.com^
 ##a[href*=".asd257642.com:"]
 ##a[href*=".bjty7.vip"]
 ##a[href*=".hg63222.com"]
@@ -10720,6 +10721,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+siguyy.tv##[style^="position: fixed;"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
@@ -33239,7 +33241,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nid.thetimes.com/prod/sp/nid_sp.js
 ||nike.com/assets/measure/data-capture/
 ||nimbusweb.me/gtlytics.js
-||yes88kks.infinityscans.net^
 ||no9pldds1lmn3.soundcloud.com^
 ||noblocktape.com/stat/
 ||noodle.backmarket.io^
@@ -33942,6 +33943,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||yelp.com/ad_acknowledgment
 ||yelp.com/ad_syndication_user_tracking
 ||yelp.com/spice?
+||yes88kks.infinityscans.net^
 ||yimg.com/aaq/wf/wf-darla-
 ||yodayo.com/scripts/pixel.js
 ||you.com/api/recordEvent
