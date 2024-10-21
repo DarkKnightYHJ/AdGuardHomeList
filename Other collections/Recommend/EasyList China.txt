@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JIpWTGAJJ+2yQ8gqWpmo9Q
-! Version: 202410211311
+! Checksum: x5TpBw2IBEcZtEh3EWkVBg
+! Version: 202410211401
 ! Title: EasyList China
-! Last modified: 21 Oct 2024 13:11 UTC
+! Last modified: 21 Oct 2024 14:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -10599,6 +10599,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+eastmoney.com##div[style^="position: fixed; z-index: 100000; top:"]
 mydrivers.com##.i1vbApifa5
 mydrivers.com##.HSsRgYjfNn
 siguyy.tv##[style^="position: fixed;"]
@@ -16419,6 +16420,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||95306.cn/public/images/ad/
 @@||95504.net/Advertisement_
 @@||95599.cn^*ad
+@@||tangsanbooks.com^$generichide
 @@||99wbwc.com^$generichide
 @@||99ybcc.com^$generichide
 @@||9zvip.net/wp-content/plugins/detect-adblock/js/ads.js
