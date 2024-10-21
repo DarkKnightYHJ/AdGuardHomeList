@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dEsQAXjPxjGYAeQV+2qldg
+! Checksum: XXTooHDH8cInJr4m4zcu5g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202410211400
-! Last Modified: 2024年10月21日 14:00
+! Version: 202410212000
+! Last Modified: 2024年10月21日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1444,8 +1444,10 @@ _widget_ad.
 /beardeddragon/armadillo.js$script
 /beardeddragon/drake.js$script
 /beardeddragon/gilamonster.js$script
+/beardeddragon/iguana.js$script
 /beardeddragon/tortoise.js$script
 /beardeddragon/turtle.js$script
+/beardeddragon/wyvern.js$script
 /detroitchicago/anaheim.js$script
 /detroitchicago/augusta.js$script
 /detroitchicago/boise.js$script
@@ -1481,6 +1483,7 @@ _widget_ad.
 /parsonsmaize/mulvane.js$script
 /parsonsmaize/olathe.js$script
 /tardisrocinante/austin.js$script
+/tardisrocinante/surgeonv2.js$script
 /tardisrocinante/vitals.js$script
 -dfp-prebid-
 -prebid/
@@ -53898,7 +53901,6 @@ browsershots.org#@#.advert_area
 ||glam.com/gad/
 ||go.affiliatesleague.com^
 ||go.bloxplay.com^
-||go.ezodn.com^
 ||go.onelink.me^$image,script
 ||goldmoney.com/~/media/Images/Banners/
 ||google.com/adsense/domains/caf.js
@@ -62650,6 +62652,7 @@ vox.com##[data-concert="leaderboard_top_tablet_desktop"]
 vox.com##[data-concert="outbrain_post_tablet_and_desktop"]
 curbed.com##[data-concert="prelude"]
 vox.com##[data-concert="tablet_leaderboard"]
+polygon.com##[data-concert]
 timesofindia.indiatimes.com##[data-contentprimestatus]
 coingecko.com##[data-controller="button-ads"]
 hedgefollow.com##[data-dee_type^="large_banner"]
@@ -63717,6 +63720,7 @@ popularmechanics.com##[class] > :has(> #article-marketplace-horizontal)
 popularmechanics.com##[class] > :has(> #gpt-ad-vertical-bottom)
 avclub.com,gizmodo.com,jalopnik.com,kotaku.com,theonion.com,theroot.com##[class] > div:has(> [is="bulbs-dfp"])
 fortune.com##[class]:has(> #Leaderboard0)
+polygon.com##[class]:has(> [data-concert])
 thrillist.com##[class^="Container__GridRow-sc-"]:has(> .concert-ad)
 skyscanner.com##[class^="FlightsResults"] > div:has([class^="Sponsored"])
 petco.com##[class^="citrus-carousel-"]:has([class^="carousel__Sponsored"])
@@ -64153,7 +64157,6 @@ history.com##.m-balloon-header--ad
 history.com##.m-in-content-ad
 history.com##.m-in-content-ad-row
 spiegel.de##.ob-dynamic-rec-container.ob-p
-impartialreporter.com,polygon.com##.ob-smartfeed-wrapper
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.results--ads
 mail.google.com##a[href^="http://li.blogtrottr.com/click?"]
 geekzone.co.nz##div.cornered.box > center
@@ -68030,6 +68033,7 @@ newduba.cn###jq_youxi
 ||tfzah.icu^
 ||rbsr0.icu^
 ||buresdv.top^
+||4fs3r.icu^
 ||lalabaos1020.top^
 ||mdqikg.xyz^
 ||sv2fo.icu^
@@ -88286,7 +88290,6 @@ omni.soundestlink.com$image
 ||everesttech.net^
 ||ew3.io^
 ||experianmatch.info^
-||ezodn.com^
 ||ezstat.ru^
 ||f27tltnd.de^
 ||fairdatacenter.de^
@@ -94136,6 +94139,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||shopify-gtm-suite.getelevar.com/getelevar/*/dl-web-pixel-lax-custom.js
 ||shopify.com/shopifycloud/consent-tracking-api/
 ||shopify.com/shopifycloud/web-pixels-manager/
+||shoplift.ai/api/events/
 ||shoplocal.com/it.ashx?
 ||shopnetic.com^$third-party
 ||shorthand.com/analytics/
@@ -94678,6 +94682,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||virtueworldwide.com/ga-test/
 ||virtuoussoftware.com/tracker/
 ||visa.com/logging/logEvent$third-party
+||vissle.me/track/
 ||visual.ly/track.php?
 ||visualstudio.com/_da.gif?
 ||visualwebsiteoptimizer.com/dyn
@@ -134099,6 +134104,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||api.odysee.com/locale/get
 ||api.ouedkniss.com^*&xTrackId=
 ||api.tacotax.fr/v2/amplitude_trackers
+||at.pagesjaunes.fr^
 ||batiactu.com/cap_
 ||bmly.impots.gouv.fr^
 ||boingtv.fr/track_view
@@ -134165,6 +134171,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||ouest-france.fr/v1/javascripts/*-googletag-
 ||ouest-france.fr/v1/javascripts/*-prebid-
 ||p.pagesjaunes.fr^
+||pagesjaunes.fr/pmp/
 ||paruvendu.fr/*/stats/
 ||pixel.dugwood.com^
 ||pixel.ionos.fr^

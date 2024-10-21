@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: eVCvdj6T4bqtjHHNL2qwgw
+! Checksum: irN7bL/zN9S19iqvA2PYyQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202410211400
-! Last Modified: 2024年10月21日 14:00
+! Version: 202410212000
+! Last Modified: 2024年10月21日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1877,6 +1877,7 @@ newduba.cn###jq_youxi
 ||tfzah.icu^
 ||rbsr0.icu^
 ||buresdv.top^
+||4fs3r.icu^
 ||lalabaos1020.top^
 ||mdqikg.xyz^
 ||sv2fo.icu^
@@ -24472,7 +24473,6 @@ omni.soundestlink.com$image
 ||everesttech.net^
 ||ew3.io^
 ||experianmatch.info^
-||ezodn.com^
 ||ezstat.ru^
 ||f27tltnd.de^
 ||fairdatacenter.de^
@@ -30322,6 +30322,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||shopify-gtm-suite.getelevar.com/getelevar/*/dl-web-pixel-lax-custom.js
 ||shopify.com/shopifycloud/consent-tracking-api/
 ||shopify.com/shopifycloud/web-pixels-manager/
+||shoplift.ai/api/events/
 ||shoplocal.com/it.ashx?
 ||shopnetic.com^$third-party
 ||shorthand.com/analytics/
@@ -30864,6 +30865,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||virtueworldwide.com/ga-test/
 ||virtuoussoftware.com/tracker/
 ||visa.com/logging/logEvent$third-party
+||vissle.me/track/
 ||visual.ly/track.php?
 ||visualstudio.com/_da.gif?
 ||visualwebsiteoptimizer.com/dyn
@@ -70285,6 +70287,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||api.odysee.com/locale/get
 ||api.ouedkniss.com^*&xTrackId=
 ||api.tacotax.fr/v2/amplitude_trackers
+||at.pagesjaunes.fr^
 ||batiactu.com/cap_
 ||bmly.impots.gouv.fr^
 ||boingtv.fr/track_view
@@ -70351,6 +70354,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||ouest-france.fr/v1/javascripts/*-googletag-
 ||ouest-france.fr/v1/javascripts/*-prebid-
 ||p.pagesjaunes.fr^
+||pagesjaunes.fr/pmp/
 ||paruvendu.fr/*/stats/
 ||pixel.dugwood.com^
 ||pixel.ionos.fr^
