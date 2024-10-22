@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: Q0orRZqOvniDAjBctF5L7w
-! Version: 202410220812
+! Checksum: aA1j/nuMA3+1dkgCtmrKFg
+! Version: 202410220901
 ! Title: ABP filters
-! Last modified: 22 Oct 2024 08:12 UTC
+! Last modified: 22 Oct 2024 09:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1502,7 +1502,7 @@ kinopoisk.ru#$#hide-if-contains-visible-text /./ 'div[id][class]>div[id][class]'
 gorodrabot.ru#$#abort-on-property-read Object.prototype.storeBlockSettings
 ||doramatv.live^$header=x-yandex-req-id
 drive2.ru#$#hide-if-shadow-contains 'iframe'; hide-if-shadow-contains 'style'
-drive2.ru#$#replace-xhr-response 'blockId'
+drive2.ru#$#abort-on-property-read document.head.attachShadow
 ! #CV-659
 ringside24.com,gagadget.com#$#abort-on-property-read localStorage
 newsyou.info#$#abort-on-property-read localStorage
@@ -1771,7 +1771,7 @@ truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.ing,sieudamtv.lol,eph
 metruyenchu.com#$#abort-on-property-write window.onclick
 ##[href^="//mage98rquewz.com/"]
 truyentuan.xyz#$#abort-current-inline-script $ btpop
-xoilacxi.cc#$#abort-on-property-read adsRedirectPopups
+xoilacxj.cc#$#abort-on-property-read adsRedirectPopups
 sexdiaryz.us#$#abort-on-property-read parseInt
 linkneverdie.net,linkneverdie.top,linkneverdie2.com#$#abort-current-inline-script document.createElement optad;abort-on-property-read pushOnPageGala
 javnong.cc#$#abort-on-property-read Math.round
