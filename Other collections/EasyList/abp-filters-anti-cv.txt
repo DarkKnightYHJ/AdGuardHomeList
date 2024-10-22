@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: vGyMRijRYR10QaUMdcPpVg
-! Version: 202410221701
+! Checksum: Sa2trRLDqeXytKROIYoLfg
+! Version: 202410221811
 ! Title: ABP filters
-! Last modified: 22 Oct 2024 17:01 UTC
+! Last modified: 22 Oct 2024 18:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1183,6 +1183,7 @@ hdtodayz.*,moviesjoy.*#$#hide-if-matches-xpath './/img[contains(@style,"width: 1
 awafim.tv,movies2watch.tv,sflix.*#$#prevent-listener break;case $.
 player.fm#$#hide-if-contains-visible-text /SPONSORED|SPONSORERET|GESPENSERT|PATROCINADO|SPONSORISÉ|DISPONSORI|DITAJA|SPONSOR|SPONSORIZZATO|SZPONZORÁLT|SPONSOROWANY|SPONSORIZAT|ΕΠΙΧΟΡΗΓΟΎΜΕΝΟ|РЕКЛАМА|РЕКЛАМА/ 'div[data-style]' 'div.sponsored-content p.subtitle'
 aniwatchtv.*#$#hide-if-matches-xpath './/a[@href][@target="_blank"]/img[@alt][@style]/ancestor::div[contains(@style," text-align")]'
+pornhub.com#$#hide-if-matches-xpath './/div[contains(text(),"TrafficJunky")]/parent::div[@style]/ancestor::div[@class][@style]/parent::*[1]'
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
@@ -1506,7 +1507,7 @@ kinopoisk.ru#$#hide-if-contains-visible-text /./ 'div[id][class]>div[id][class]'
 gorodrabot.ru#$#abort-on-property-read Object.prototype.storeBlockSettings
 ||doramatv.live^$header=x-yandex-req-id
 drive2.ru#$#hide-if-shadow-contains 'iframe'; hide-if-shadow-contains 'style'
-e.mail.ru#$#json-prune '0'; json-prune '1'; abort-on-property-read document.head.attachShadow
+e.mail.ru#$#json-prune 0 1
 ! #CV-659
 ringside24.com,gagadget.com#$#abort-on-property-read localStorage
 newsyou.info#$#abort-on-property-read localStorage
