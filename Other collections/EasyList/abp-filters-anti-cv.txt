@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: itE+5yc4ziN/jslNL63U5A
-! Version: 202410222301
+! Checksum: lqPj4MXT1b3cdHwSaU8iSA
+! Version: 202410230101
 ! Title: ABP filters
-! Last modified: 22 Oct 2024 23:01 UTC
+! Last modified: 23 Oct 2024 01:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1161,7 +1161,7 @@ gaytxxx.com,transtxxx.com,txxx.com#$#abort-current-inline-script adver
 gaytxxx.com,transtxxx.com,txxx.com#$#json-prune '0.ad_network'
 gaytxxx.com,transtxxx.com,txxx.com#$#abort-on-property-read ExoLoader
 pussyspace.com,pussyspace.net#$#prevent-listener loadex; prevent-listener exoJsPop101;
-torrentgalaxy.to#$#hide-if-matches-xpath './/*[contains(@title, "Ads")]/parent::div/ancestor:: div[@id="click"]/ancestor::div[@onmouseover][@onmouseout]'; hide-if-matches-xpath './/img[contains(@class,"img-")]/parent::div/ancestor::a[contains(@href,"zub.pnp")]/ancestor-or-self::div[1]';
+tgx.rs,torrentgalaxy.*#$#hide-if-matches-xpath './/img[@data-src="bin"]/preceding::a[@onmouseout="#"]/ancestor-or-self::div[@id="stopad"]'
 ||footfetishvid.com/*/*.php^$domain=footfetishvid.com
 ||*.com/*fbeea*.js^$domain=footfetishvid.com
 alions.pro##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"]
