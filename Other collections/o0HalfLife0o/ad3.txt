@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: K9DHWNJxHGh+A6pSlkM9Qw
+! Checksum: +x2q/BBCPvxHYtD3ZcZzUw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202410240801
-! Last Modified: 2024年10月24日 08:01
+! Version: 202410242000
+! Last Modified: 2024年10月24日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1867,6 +1867,11 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 ||moqdy.icu^
+||ohkfmi.xyz^
+||lgkocdi.icu^
+||gjnbf.com^
+||qdjsiyt.icu^
+||huoxun.wang^
 ||rdxqbp.xyz^
 ||sksbgm.xyz^
 ||enkvum.xyz^
@@ -10752,9 +10757,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.com/images/a_d_
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
+.sinaimg.cn/large/008qC0LFgy1hutqvck5ufj30qe02i74t.
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+mydrivers.com###track-link
 eastmoney.com##div[style^="position: fixed; z-index: 100000; top:"]
 mydrivers.com##.i1vbApifa5
 mydrivers.com##.HSsRgYjfNn
@@ -22178,6 +22185,8 @@ m.babytree.com##script + a[class]
 /ezais/analytics?
 /ezytrack.js
 /f.gif?
+/facebook-pixel-worker.js
+/facebook-pixel.js
 /facebook/pixel.js
 /facebook_fbevents.js
 /facebook_pixel_3_1_2.js
@@ -28740,6 +28749,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||appliedsemantics.com/images/x.gif
 ||applovin.com/shopify/*/pixel
 ||appmifile.com/webfile/globalweb/stat/
+||apps.omegatheme.com/facebook-pixel/
 ||appsolutions.com/hitme?$third-party
 ||appspot.com/analytics/
 ||appspot.com/api/track/
@@ -29557,6 +29567,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hit.mybestpro.com^
 ||hits.dealer.com^
 ||hits.getelevar.com^
+||hits.gokwik.co^
 ||hits.informer.com^
 ||hktracker.hankookilbo.com^
 ||hm.baidu.com^$third-party
@@ -30178,6 +30189,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||public.cobrowse.oraclecloud.com/rely/storage/
 ||public.fbot.me/track/
 ||publicbroadcasting.net/analytics/
+||pulse.shopflo.com^
 ||purevideo.com^*/pvshim.gif?
 ||pushly.com/pushly-event-tracker
 ||pushpro.io/api/logging/
@@ -30399,6 +30411,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||squarecdn.com/square-marketplace-js/chunk-analytics-vendors.js
 ||squarecdn.com/square-marketplace-js/chunk-analytics.js
 ||squarespace.com/universal/scripts-compressed/performance-$script,third-party
+||src.freshmarketer.in^
 ||srvmath.com^*/analytics.js
 ||ssa.stepstone.com^
 ||ssc.shopstyle.com/collective.min.js
@@ -31004,6 +31017,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||yimg.com/ss/vops.js
 ||yimg.com/wi/ytc.js
 ||yoast-schema-graph.com^$third-party
+||yotpo.com/widget-assets/yotpo-pixel/
 ||yottaa.com/rapid.min.js
 ||yottaa.net/log-jh
 ||zapcdn.space/zapret.js
@@ -32451,6 +32465,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.tomato.gg^
 ||analytics.tradedoubler.com^
 ||analytics.vedantu.com^
+||analytics.vortexscans.com^
 ||analytics.wavebox.io^
 ||analytics.yugen.to^
 ||analyticsapi.qogita.com^
