@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KwgrNNckBwsYZg2YJ6o1dQ
-! Version: 202410241611
+! Checksum: wISNQhOEz3rOM0DCTCl+Sw
+! Version: 202410241701
 ! Title: EasyList
-! Last modified: 24 Oct 2024 16:11 UTC
+! Last modified: 24 Oct 2024 17:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -41674,6 +41674,7 @@ browsershots.org#@#.advert_area
 ||taprtopcldfb.co^
 ||tapwhigwy.com^
 ||tarafnagging.com^
+||tarcavbul.com^
 ||targechirtil.net^
 ||targhe.info^
 ||tarinstinctivewee.com^
@@ -57114,6 +57115,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ! websocket ads
 $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|xtube.com|youporn.com|youporngay.com
 ! csp
+$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-hashes' 'unsafe-eval',domain=coomer.su
 $csp=script-src 'self' data: 'unsafe-inline' 'unsafe-hashes' 'unsafe-eval',domain=gayforfans.com,~third-party
 ||thegay.com^$csp=default-src 'self' *.ahcdn.com fonts.gstatic.com fonts.googleapis.com https://thegay.com https://tn.thegay.com 'unsafe-inline' 'unsafe-eval' data: blob:
 ! *** easylist:easylist_adult/adult_specific_block_popup.txt ***
