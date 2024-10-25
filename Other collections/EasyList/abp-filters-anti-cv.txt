@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 188KU8PRo1l+R47vduKOsg
-! Version: 202410251001
+! Checksum: Q0BUsAGjprY+hu4OdAI34A
+! Version: 202410251101
 ! Title: ABP filters
-! Last modified: 25 Oct 2024 10:01 UTC
+! Last modified: 25 Oct 2024 11:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1696,7 +1696,7 @@ rojadirecta.fr#$#abort-on-property-read smrtSB; abort-on-property-read smrtSP
 peliculaseroticasonline.tv#$#abort-on-property-write _0x1dc1
 animeflv.cc#$#abort-current-inline-script JSON.parse
 gnula.se,pelismart.com#$#abort-on-property-read localStorage
-animeflv.net,estrenosdoramas.net#$#abort-on-property-read __DOMAIN
+animeflv.net,estrenosdoramas.net#$#abort-on-property-read __DOMAIN; abort-on-property-read window.open
 pornstarsyfamosas.es#$#abort-on-property-write _pop
 animeflv.ac,bajarpelisgratis.com,jkanime.top,pelismart.com,pelismartv.com,pelispoptv.com,series-de.online,torrentdownloads.pro#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
 gnula.nu,pelisnow.to,pelispop.me,tmomanga.com#$#abort-on-property-write JSON.parse
@@ -1709,6 +1709,9 @@ monoschinos2.com#$#abort-on-property-read _0x24d7; abort-on-property-read _0x41e
 cuevana.*,cuevana3.*#$#hide-if-matches-xpath './/a[contains(@rel,"sponsored")]/parent::div[@style][@class="cont"]'
 ||filemoon.sx/ad.js^$domain=cuevana.biz|cuevana3.eu|cuevana3me.net|cuevana4.me
 hispasexy.org#$#hide-if-matches-xpath './/div[@data-element="overlay"]/div[@data-element][@data-izone]/parent::div[1]'
+||animeflv.net/*/ads.js^$domain=animeflv.net
+||odeecmoothaith.net^$script,domain=animeflv.net
+animeflv.net##iframe[style="position: fixed; width: 100%; height: 100%; inset: 0px; opacity: 0; z-index: 2147483647;"]
 ! Popup/Popunder
 gamestorrents.com,gamestorrents.nu,perfectgirls.es#$#abort-on-property-read open
 gnula.nu,xpaja.net#$#abort-current-inline-script String.fromCharCode /atob|btoa|break/
