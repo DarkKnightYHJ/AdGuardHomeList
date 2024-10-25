@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 1LWVgp9wZ9Fpv5cJPwbgcA
-! Version: 202410250901
+! Checksum: 188KU8PRo1l+R47vduKOsg
+! Version: 202410251001
 ! Title: ABP filters
-! Last modified: 25 Oct 2024 09:01 UTC
+! Last modified: 25 Oct 2024 10:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1495,6 +1495,10 @@ filmesonlinegratis.com#$#abort-current-inline-script Math zfgloaded
 ! *** abp-filters-anti-cv:romanian.txt ***
 ! #CV-667
 4bac.ro,filme-bune.biz#$#abort-current-inline-script Math zfgloaded
+filmehd.to#$#hide-if-matches-xpath './/a[@title]/img[@src][@alt][@style]/ancestor-or-self::div[@class][@style]'
+/dwarf.js^$domain=filmehd.to
+/js/dnsads.js?*^$domain=filmehd.to
+filmehd.to##iframe[src][style]
 ! *** abp-filters-anti-cv:russian.txt ***
 ! #CV-244
 zen.yandex.ru##div[class*="is-parent-size_undefined"]
@@ -1785,7 +1789,7 @@ xoilacxj.cc#$#abort-on-property-read adsRedirectPopups
 sexdiaryz.us#$#abort-on-property-read parseInt
 linkneverdie.net,linkneverdie.top,linkneverdie2.com#$#abort-current-inline-script document.createElement optad;abort-on-property-read pushOnPageGala
 javnong.cc#$#abort-on-property-read Math.round
-viet69.do,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenman.com,yurineko.net,vlxyz.tube,hd.javhay.site,phimsexhay669.pro,cliphot69.my,doctruyen3qw.pro,ihentai.wiki,animehay.my,javhd.baby,top1sex.me,sexmup18.com,hentaivn.today,sexvn1.cc,streamvl.top,www.buomtv.me,truyenvn.wiki,cdnstream.sbs,javtiful.com,sex.tuoi69.store,quatvn.fit,tenmientruyengi.net,topviet69.online,phim18hd.sex,vn.sexviet88.xyz,mupdep.net,demo.14412882.com,damsextv.pro,ungtycomicsvip.org,xemphim18.vip,cliphot69.uno,hhtq5.vip,sexdiary.club#$#abort-current-inline-script WebAssembly instantiate
+viet69.do,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenman.com,yurineko.net,vlxyz.tube,hd.javhay.site,phimsexhay669.pro,cliphot69.my,doctruyen3qw.pro,ihentai.wiki,animehay.my,jav.vc,top1sex.me,sexmup18.com,hentaivn.today,sexvn1.cc,streamvl.top,www.buomtv.me,truyenvn.wiki,cdnstream.sbs,javtiful.com,sex.tuoi69.store,quatvn.fit,tenmientruyengi.net,topviet69.online,phim18hd.sex,vn.sexviet88.xyz,mupdep.net,demo.14412882.com,damsextv.pro,ungtycomicsvip.org,xemphim18.vip,cliphot69.uno,hhtq5.vip,sexdiary.club#$#abort-current-inline-script WebAssembly instantiate
 phimtuoitho.site#$#abort-current-inline-script document.documentElement break;case
 phimdinhcao.net,phimlongtieng.net,www.phimdinhcaoz.com#$#abort-on-property-read localStorage
 phimgichill.net#$#abort-current-inline-script jQuery popurl
