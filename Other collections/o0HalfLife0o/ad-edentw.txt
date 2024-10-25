@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0yyqymgQ9b/q/mfRDtLfsg
+! Checksum: Sn/g2vAldShbS65OnfR0dw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202410250801
-! Last Modified: 2024年10月25日 08:01
+! Version: 202410252000
+! Last Modified: 2024年10月25日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1494,6 +1494,10 @@ filmesonlinegratis.com#$#abort-current-inline-script Math zfgloaded
 ! *** abp-filters-anti-cv:romanian.txt ***
 ! #CV-667
 4bac.ro,filme-bune.biz#$#abort-current-inline-script Math zfgloaded
+filmehd.to#$#hide-if-matches-xpath './/a[@title]/img[@src][@alt][@style]/ancestor-or-self::div[@class][@style]'
+/dwarf.js^$domain=filmehd.to
+/js/dnsads.js?*^$domain=filmehd.to
+filmehd.to##iframe[src][style]
 ! *** abp-filters-anti-cv:russian.txt ***
 ! #CV-244
 zen.yandex.ru##div[class*="is-parent-size_undefined"]
@@ -1691,7 +1695,7 @@ rojadirecta.fr#$#abort-on-property-read smrtSB; abort-on-property-read smrtSP
 peliculaseroticasonline.tv#$#abort-on-property-write _0x1dc1
 animeflv.cc#$#abort-current-inline-script JSON.parse
 gnula.se,pelismart.com#$#abort-on-property-read localStorage
-animeflv.net,estrenosdoramas.net#$#abort-on-property-read __DOMAIN
+animeflv.net,estrenosdoramas.net#$#abort-on-property-read __DOMAIN; abort-on-property-read window.open
 pornstarsyfamosas.es#$#abort-on-property-write _pop
 animeflv.ac,bajarpelisgratis.com,jkanime.top,pelismart.com,pelismartv.com,pelispoptv.com,series-de.online,torrentdownloads.pro#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
 gnula.nu,pelisnow.to,pelispop.me,tmomanga.com#$#abort-on-property-write JSON.parse
@@ -1704,6 +1708,9 @@ monoschinos2.com#$#abort-on-property-read _0x24d7; abort-on-property-read _0x41e
 cuevana.*,cuevana3.*#$#hide-if-matches-xpath './/a[contains(@rel,"sponsored")]/parent::div[@style][@class="cont"]'
 ||filemoon.sx/ad.js^$domain=cuevana.biz|cuevana3.eu|cuevana3me.net|cuevana4.me
 hispasexy.org#$#hide-if-matches-xpath './/div[@data-element="overlay"]/div[@data-element][@data-izone]/parent::div[1]'
+||animeflv.net/*/ads.js^$domain=animeflv.net
+||odeecmoothaith.net^$script,domain=animeflv.net
+animeflv.net##iframe[style="position: fixed; width: 100%; height: 100%; inset: 0px; opacity: 0; z-index: 2147483647;"]
 ! Popup/Popunder
 gamestorrents.com,gamestorrents.nu,perfectgirls.es#$#abort-on-property-read open
 gnula.nu,xpaja.net#$#abort-current-inline-script String.fromCharCode /atob|btoa|break/
@@ -1784,12 +1791,12 @@ xoilacxj.cc#$#abort-on-property-read adsRedirectPopups
 sexdiaryz.us#$#abort-on-property-read parseInt
 linkneverdie.net,linkneverdie.top,linkneverdie2.com#$#abort-current-inline-script document.createElement optad;abort-on-property-read pushOnPageGala
 javnong.cc#$#abort-on-property-read Math.round
-viet69.do,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenman.com,yurineko.net,vlxyz.tube,hd.javhay.site,phimsexhay669.pro,cliphot69.my,doctruyen3qw.pro,ihentai.wiki,animehay.my,javhd.baby,top1sex.me,sexmup18.com,hentaivn.today,sexvn1.cc,streamvl.top,www.buomtv.me,truyenvn.wiki,cdnstream.sbs,javtiful.com,sex.tuoi69.store,quatvn.fit,tenmientruyengi.net,topviet69.online,phim18hd.sex,vn.sexviet88.xyz,mupdep.net,demo.14412882.com,damsextv.pro,ungtycomicsvip.org,xemphim18.vip,cliphot69.uno,hhtq5.vip,sexdiary.club#$#abort-current-inline-script WebAssembly instantiate
+viet69.do,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenman.com,yurineko.net,vlxyz.tube,hd.javhay.site,phimsexhay669.pro,cliphot69.my,doctruyen3qw.pro,ihentai.wiki,animehay.my,jav.vc,top1sex.me,sexmup18.com,hentaivn.today,sexvn1.cc,streamvl.top,www.buomtv.me,truyenvn.wiki,cdnstream.sbs,javtiful.com,sex.tuoi69.store,quatvn.fit,tenmientruyengi.net,topviet69.online,phim18hd.sex,vn.sexviet88.xyz,mupdep.net,demo.14412882.com,damsextv.pro,ungtycomicsvip.org,xemphim18.vip,cliphot69.uno,hhtq5.vip,sexdiary.club#$#abort-current-inline-script WebAssembly instantiate
 phimtuoitho.site#$#abort-current-inline-script document.documentElement break;case
 phimdinhcao.net,phimlongtieng.net,www.phimdinhcaoz.com#$#abort-on-property-read localStorage
 phimgichill.net#$#abort-current-inline-script jQuery popurl
 phimgichill.net,hhhay.me,hh3dhay.life,truyengihotnha.com,truyengihotnha.net,tram3d.net,animevietsub.run#$#abort-current-inline-script eval $._Eu
-luotphimq.com,p.thoctv.com#$#abort-current-inline-script document.createElement script
+p.thoctv.com#$#abort-current-inline-script document.createElement script
 mephimnhe1.net#$#abort-current-inline-script jQuery popurl
 xemphimhdc.vip,motchill.plus#$#abort-current-inline-script document.addEventListener linksToOpen
 khoaiphim.com,phimmoinay.tv#$#abort-current-inline-script jQuery click_time
