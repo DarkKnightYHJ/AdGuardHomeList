@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: +RRyLEJuk7WJaQ5MYuogYw
-! Version: 202410251311
+! Checksum: 58ysZsbwvAs1tOBCnuODmg
+! Version: 202410251401
 ! Title: ABP filters
-! Last modified: 25 Oct 2024 13:11 UTC
+! Last modified: 25 Oct 2024 14:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1185,7 +1185,6 @@ hdtodayz.*,moviesjoy.*#$#hide-if-matches-xpath './/img[contains(@style,"width: 1
 awafim.tv,movies2watch.tv,sflix.*#$#prevent-listener break;case $.
 player.fm#$#hide-if-contains-visible-text /SPONSORED|SPONSORERET|GESPENSERT|PATROCINADO|SPONSORISÉ|DISPONSORI|DITAJA|SPONSOR|SPONSORIZZATO|SZPONZORÁLT|SPONSOROWANY|SPONSORIZAT|ΕΠΙΧΟΡΗΓΟΎΜΕΝΟ|РЕКЛАМА|РЕКЛАМА/ 'div[data-style]' 'div.sponsored-content p.subtitle'
 aniwatchtv.*#$#hide-if-matches-xpath './/a[@href][@target="_blank"]/img[@alt][@style]/ancestor::div[contains(@style," text-align")]'
-pornhub.com#$#hide-if-matches-xpath './/div[contains(text(),"TrafficJunky")]/parent::div[@style]/ancestor::div[@class][@style]/parent::*[1]'
 redtube.com,pornhub.com,tube8.com,youporn.com#$#hide-if-matches-xpath './/div[contains(text(),"TrafficJunky")]/parent::div[@style]/ancestor::div[@class][@style]/parent::*[not(self::body) and not(self::div[@class])][1]'
 datanodes.to#$#hide-if-matches-xpath './/a[@rel][@target="_blank"]/img[@alt="Watch Movie"][@style]/ancestor-or-self::div[1]'
 ! Video ads
