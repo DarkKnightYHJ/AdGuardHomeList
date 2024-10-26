@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EMWIUXld32f2c6cjkixWHA
+! Checksum: vbFM4uCTkCMs+tWbTTGH5A
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202410261400
-! Last Modified: 2024年10月26日 14:00
+! Version: 202410262000
+! Last Modified: 2024年10月26日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1583,7 +1583,6 @@ newduba.cn###jq_youxi
 ##.player-info > .recommend-two.recommend-list
 ##.player-news > .news-list
 ##.player-rm > a[href*="/ad.html?url="]
-##.player-rm > a[target="_blank"]
 ##.player-rm-float
 ##.player-tt-rm.rm-list
 ##.player-tt-rmm
@@ -1872,6 +1871,8 @@ newduba.cn###jq_youxi
 ||itjcqlp.icu^
 ||xxqmtod.icu^
 ||qouvxliy.top^
+||ov8ct.icu^
+||fca6f.icu^
 ||sgozmks.icu^
 ||omheth.com^
 ||allkmbr.icu^
@@ -28700,6 +28701,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.collarity.com/cws/*http
 ||api.country.is^$third-party
 ||api.iris.tv/update
+||api.june.so^
 ||api.sardine.ai/assets/loader.min.js$third-party
 ||api.wipmania.com^
 ||apibaza.com/pixel/
@@ -30008,6 +30010,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||organicfruitapps.com/analytics/
 ||orts.wixawin.com^$third-party
 ||osano.com/js/?action_name=
+||otg.mblycdn.com/bundles/cmp.js
 ||outbrain.com/nanoWidget/externals/cookie/
 ||outbrain.com/widgetOBUserSync/
 ||outbrain.com^$third-party
