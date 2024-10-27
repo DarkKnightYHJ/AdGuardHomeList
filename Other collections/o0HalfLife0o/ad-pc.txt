@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QtDEWVbUGkGI5lAGi0PCHw
+! Checksum: h5jLji9QbtM3fOTK+t0rqA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202410270200
-! Last Modified: 2024年10月27日 02:00
+! Version: 202410270801
+! Last Modified: 2024年10月27日 08:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -17656,6 +17656,7 @@ browsershots.org#@#.advert_area
 ||adpod.in^
 ||adpointrtb.com^
 ||adpone.com^
+||adpresenter.de^
 ||adqit.com^
 ||adquery.io^
 ||adrcdn.com^
@@ -20247,6 +20248,7 @@ browsershots.org#@#.advert_area
 ||bigheartedresentfulailment.com^
 ||bigneptunesept.com^
 ||bigrourg.net^
+||bigstoreminigames.space^
 ||bigvids.online^
 ||bigvids.space^
 ||bihunekus.com^
@@ -59285,6 +59287,7 @@ pcquest.com##.ads-div-style
 samehadaku.email##.ads-float-bottom
 thetruthaboutcars.com##.ads-fluid-wrap
 spambox.xyz##.ads-four
+bluewin.ch##.ads-group
 fintech.tv##.ads-img
 freeconvert.com##.ads-in-page
 nationthailand.com##.ads-inarticle-2
@@ -68267,6 +68270,7 @@ newduba.cn###jq_youxi
 ##span[title="neteasefooter"]
 ##style + .a-loading
 ##style + .need_grid_img
+##.player-rm > a[href*=".umtrack.com"]
 ##style + .vdgdo
 ##a[href^="/archives/"] > .post-card > .blog-background[style*="gif;base64"]
 ###banner_links.banner-container
@@ -68290,6 +68294,10 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||qnqtgyq.icu^
+||sjluuom.icu^
+||8gra3.icu^
+||5z2oy.icu^
 ||itjcqlp.icu^
 ||xxqmtod.icu^
 ||qouvxliy.top^
@@ -77199,6 +77207,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+yiche.com##.h-middle-gd-box
+yiche.com##.h-gd-box
 mydrivers.com###track-link
 eastmoney.com##div[style^="position: fixed; z-index: 100000; top:"]
 mydrivers.com##.i1vbApifa5
@@ -82870,6 +82880,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.tw,epinv.com,ff14angler.com,fxpan.com,haoweichi.com,logi.im,lspdfrcn.com,moa.tw,moe48.com,numberempire.com,playok.com,reh.tw,shenfendaquan.com,vaptcha.com#@#ins.adsbygoogle[data-ad-slot]
 !---------------------------------URL Whitelist-------------------------------!
 @@.adserver.$domain=litv.tv
+@@||am730.com.hk^$generichide
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
@@ -93174,6 +93185,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cookiex.ngd.yahoo.com^
 ||copyrightcontent.org/e/
 ||core-apps.b-cdn.net^
+||corvidae.ai/pixel.min.js
 ||count-server.sharethis.com^
 ||count.asnetworks.de^
 ||count.carrierzone.com^
@@ -93587,6 +93599,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||grafana.net/collect/
 ||graphcomment.com/api/thread/*/stats
 ||green-griffin-860.appspot.com^
+||groupbycloud.com/gb-tracker-client-5.min.js
 ||gsp1.baidu.com^
 ||gstatic.com/gadf/ga_dyn.js
 ||gstatic.com/retail/v2_event.js
@@ -98090,6 +98103,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||z.cdp-dev.cnn.com^
 ||z737.thestar.com^
 ||za.qeeq.com^
+||zalando-lounge.*/api/tracking/
+||zalando-prive.*/api/tracking/
 ||zappos.com/err.cgi?
 ||zappos.com/karakoram/js/main.
 ||zenimpact.io/dist/zen_init.min.js
@@ -134201,6 +134216,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||data.sportdeutschland.tv^
 ||dd.betano.com^
 ||dein-plan.de/t.gif
+||deine-tierwelt.de/ajax/responsive/stats.php?
 ||dejure.org/cgi-bin/sitzung.fcgi?
 ||derwesten.de/stats/
 ||dforum.net/counter/
@@ -134808,6 +134824,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||rtl.nl/system/track/
 ||sanoma.nl/pixel/
 ||sat.sanoma.fi^
+||statistiek.rijksoverheid.nl^
 ||stats.fd.nl^
 ||t.ad.nl^$image
 ||t.bd.nl^$image
