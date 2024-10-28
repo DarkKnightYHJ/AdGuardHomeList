@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 62Fq1cxuro6Z7ZIG6yoigA
+! Checksum: hyH1XwUBpIE9lJU8Fw9Kdg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202410282000
-! Last Modified: 2024年10月28日 20:00
+! Version: 202410290200
+! Last Modified: 2024年10月29日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -141,8 +141,8 @@ age.tv,agedm.org##+js(noeval-if, devtoolsDetector)
 ||cdn.aiqingyu1314.com/age/statics/js/notice.js^$script
 ||toutiaoimg.com/origin/$image,domain=agedm.org|acgndmku.com
 ||dd-static.jd.com^$image,domain=subaibaiys.com
-!dandanzan.com,dandanzan10.top,nunuyy5.com##+js(set,webkitRTCPeerConnection,null)
-nnyy.in##.gm-fp-body video:style(max-height:100%!important)
+!dandanzan.net,nunuyy5.com##+js(set,webkitRTCPeerConnection,null)
+dandanzan.net,nnyy.in,nunuyy5.com##.gm-fp-body video:style(max-height:100%!important)
 yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
 yatu.tv,yhdm15.com##+js(set,document.oncontextmenu,trueFunc)
 ||www.yatu.tv:2082/image/*.gif^$image
