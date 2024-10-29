@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: AiXxxti6UhfTBJsUYCof7w
-! Version: 202410291511
+! Checksum: r1AMpWKGKSWW7AAz7Jkbhw
+! Version: 202410291611
 ! Title: EasyList China
-! Last modified: 29 Oct 2024 15:11 UTC
+! Last modified: 29 Oct 2024 16:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1739,6 +1739,7 @@ newduba.cn###jq_youxi
 ||sv5nm.icu^
 ||treferty33.fun^
 ||coublif.top^
+||cadcc.icu^
 ||1gmzo.icu^
 ||crnmyrk.icu^
 ||hdxyj.icu^
@@ -1826,7 +1827,7 @@ newduba.cn###jq_youxi
 ##a[href*=".hg63222.com"]
 ##a[href*=".kaiyunty.live"]
 ##a[href*=".labsda.com"]
-##a[href*=".nhjhu25hd.com:"]
+##a[href*=".nhjhu25hd.com"]
 ##a[href*=".ww1425pw.vip"]
 ##a[href*=".zhuijuwa.app"]
 ##a[href*=".zxzjys.com/"]
@@ -10667,6 +10668,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||huo720.com/files/vidhub.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+element-plus.org##.page-sidebar-row
+cnblogs.com###blog_c1
 layui.dev##div[style*="sentcss.com"]
 yiche.com##.h-middle-gd-box
 yiche.com##.h-gd-box
