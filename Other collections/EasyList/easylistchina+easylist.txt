@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: DkRkAoLXlnliJnj4Hd4T4Q
-! Version: 202410291311
+! Checksum: jaNIMyhVq/FiCnBRek54ag
+! Version: 202410291401
 ! Title: EasyList China+EasyList
-! Last modified: 29 Oct 2024 13:11 UTC
+! Last modified: 29 Oct 2024 14:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -10668,6 +10668,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||huo720.com/files/vidhub.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+layui.dev##div[style*="sentcss.com"]
 yiche.com##.h-middle-gd-box
 yiche.com##.h-gd-box
 mydrivers.com###track-link
@@ -11482,7 +11483,7 @@ dmzj.com###khdDown
 0597kk.com###kk_head_ad
 0597kk.com###kk_oTransContainer2
 1m3d.com###klp_adtop
-zn51.top###klp_hdp
+zn508.cc###klp_hdp
 baidu.com###knowledge-answer
 csdn.net###kp_box_476
 csdn.net###kp_box_58
@@ -12133,7 +12134,7 @@ yahoo.com##.GeminiPortalStreamAd_handleViewport
 3dmgame.com##.Gmaeinfobtn_tab > span
 zhihu.com##.GoodsRecommendCard
 downg.com##.Gs_d[href$=".exe"]
-52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zn51.top##.GzList
+52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zn508.cc##.GzList
 le.com##.H-tg
 chinaz.com##.HeaderAdvert
 diyifanwen.com##.Hzh1
@@ -16079,7 +16080,7 @@ ruanyifeng.com##p[style="text-align:center;font-size: 16px;"]
 zzkdhb.com##p[style^="width: 100%; margin: 0px;"]
 isiyuan.net#?##page-list > ul > .layui-row:-abp-has(.ad)
 pcbeta.com#?#div[class]:-abp-properties(/height: (169|171)px;/)
-zn51.top#?##portal_block_69_content > li:-abp-has(a[href^="http"])
+zn508.cc#?##portal_block_69_content > li:-abp-has(a[href^="http"])
 ruanyifeng.com#?#.asset-content > p:-abp-contains(/二维|助教|0 元|报名费|原价/) + p + p > img
 ruanyifeng.com#?#.asset-content > p:-abp-contains(/二维|助教|0 元|报名费|原价/) + p > img
 runoob.com#?#.sidebar-box:-abp-has(.re-600160)
