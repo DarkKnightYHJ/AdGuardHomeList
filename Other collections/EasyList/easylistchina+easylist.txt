@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WCAKzTyfurzWGGply/Et+w
-! Version: 202410300101
+! Checksum: dgzvbCQN6yUrWBm7oHT1Pw
+! Version: 202410300240
 ! Title: EasyList China+EasyList
-! Last modified: 30 Oct 2024 01:01 UTC
+! Last modified: 30 Oct 2024 02:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1737,6 +1737,7 @@ newduba.cn###jq_youxi
 !
 ||whrwlxg.icu^
 ||bdawrsi.icu^
+||houbliu.top^
 ||mzpecui.icu^
 ||chmueyv.icu^
 ||kemmars.com^
@@ -10670,6 +10671,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 .sinaimg.cn/large/008qC0LFgy1hutqvck5ufj30qe02i74t.
 ||zzzyk.com/js/
 ||huo720.com/files/vidhub.
+||69shuba.cx^*/shu.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 element-plus.org##.page-sidebar-row
@@ -82599,6 +82601,7 @@ vpforums.org##.ipsSideBlock.clearfix:has-text(Affiliates)
 qwant.com##.is-sidebar:has(a[data-testid="advertiserAdsLink"])
 yovizag.com##.jeg_column:has(> .jeg_wrapper > .jeg_ad)
 motortrend.com##.justify-center:has(.nativo-news)
+fortune.com##.jzcxNo
 chewy.com##.kib-carousel-item:has(.kib-product-sponsor)
 yahoo.com##.leading-3:has-text(Advertisement)
 content.dictionary.com##.lp-code:has(> [class$="Ad"])
@@ -82675,6 +82678,7 @@ cargurus.com##[data-cg-ft="car-blade"]:has([data-eyebrow^="FEATURED"])
 cargurus.com##[data-cg-ft="car-blade-link"]:has([data-cg-ft="srp-listing-blade-sponsored"])
 wayfair.com##[data-hb-id="Card"]:has([data-node-id^="ListingCardSponsored"])
 avxhm.se##[data-localize]:has(a[href^="https://canv.ai/"])
+motor1.com##[data-m1-ad-label]
 giantfood.com,giantfoodstores.com,martinsfoods.com##[data-product-id]:has(.flag_label--sponsored)
 petco.com##[data-testid="product-buy-box"]:has([class*="SponsoredText"])
 kayak.com##[role="button"]:has([class*="ad-marking"])
