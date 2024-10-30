@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: h5pIJ1qCSy9FKfgQ3R7n5Q
-! Version: 202410301101
+! Checksum: gqpQCaKHLAgSwIlTdFr0WQ
+! Version: 202410301221
 ! Title: ABP filters
-! Last modified: 30 Oct 2024 11:01 UTC
+! Last modified: 30 Oct 2024 12:21 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1360,11 +1360,10 @@ animeunity.tv#$#abort-on-property-read localStorage
 ! *** abp-filters-anti-cv:lithuanian.txt ***
 ! #CV-766
 delfi.lt#$#abort-on-property-read _dlf.adxtag
-delfi.lt#$#hide-if-matches-xpath './/h3[@class]/a[@href]/ancestor::div[contains(@class,"headline pt-content ")]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@src,"dcdn.lt/images/b")]//ancestor::div[1]'
+delfi.lt#$#hide-if-matches-xpath './/h3[@class]/a[@href]/ancestor::div[contains(@class,"headline pt-content ")]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@src,"dcdn.lt/images/b")]//ancestor::div[1]'; hide-if-matches-xpath './/div[@target="_blank"][@style="display: block; width: 100%; height: 100%; cursor: pointer;"]/ancestor::*[contains(@style,"/ads/adb")]';
 delfi.lt#$#hide-if-matches-xpath './/a[contains(@href,"youtube.com")]/img[@alt]/ancestor-or-self::div[@class="row"]'
 ||adform.net/banners/scripts/adx.js$domain=delfi.lt,rewrite=abp-resource:blank-js
-delfi.lt##[style*="/samsung"]
-delfi.lt#$#hide-if-matches-xpath './/a[@href][contains(@style,"100%")]/parent::*[@style][1]'; hide-if-matches-xpath './/div[contains(text(),"Užsakomasis")]/parent::div[contains(@class,"U-display")]/ancestor::article[1]';
+delfi.lt#$#hide-if-matches-xpath './/a[@href][contains(@style,"100%")]/parent::*[@style][1]'; hide-if-matches-xpath './/div[contains(text(),"Užsakomasis")]/parent::div[contains(@class,"U-display")]/ancestor::article[1]'; hide-if-matches-xpath './/*[contains(text(),"Užsakomasis")]/parent::a[starts-with(name(@*[starts-with(name(), "data-")]), "data-")]/ancestor::div[3]//parent::div/ancestor::div[@class="col"]'; './/*[contains(@class,"pt-content")]/parent::div[starts-with(name(@*[starts-with(name(), "data-")]), "data-")]';
 delfi.lt#$#simulate-mouse-event 'xpath(.//*[@style]/a[contains(@href,"javascript")])$delay=10'
 ! MISC
 15min.lt#$#hide-if-matches-xpath '//div[@class][@style]/img[string-length(@src) >=180]/ancestor::div[@class][1]'
