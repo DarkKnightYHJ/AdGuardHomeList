@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: zBDIUEXHFhBw651Z5axJIg
-! Version: 202410311311
+! Checksum: aJ220Kq1HRDsc9m+6Swc2A
+! Version: 202410311401
 ! Title: ABP filters
-! Last modified: 31 Oct 2024 13:11 UTC
+! Last modified: 31 Oct 2024 14:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1798,7 +1798,7 @@ mephimnhe1.net#$#abort-current-inline-script jQuery popurl
 ww1.xemphimhdc.com,motchill.plus#$#abort-current-inline-script document.addEventListener linksToOpen
 khoaiphim.com,phimmoinay.tv#$#abort-current-inline-script jQuery click_time
 dualeotruyenbbq.com,m.blogtruyenmoi.com#$#abort-current-inline-script document.addEventListener popunder
-lxmanga.online#$#abort-current-inline-script $ PopUnder
+lxmanga.site#$#abort-current-inline-script $ PopUnder
 truyen35.shop#$#abort-current-inline-script jQuery click_ads
 www.toptruyenww.pro#$#abort-current-inline-script Promise instance
 animehay.de#$#abort-current-inline-script document.addEventListener window.open
@@ -1839,7 +1839,7 @@ howdyho.net,howdyho.pro#@#:not(my-obnaruzhili-blokirovshchik)
 ! *** abp-filters-anti-cv:distribution/abp-filters-partners.txt ***
 ! Filters to be used by distribution partners
 ! #CV-782
-www.youtube.com,youtube-nocookie.com#$#race start; skip-video '.video-stream' './/ytd-player/div[@id]//div[contains(@class,"ad-interrupting")]' '-skip-to:3' '-stop-on-video-end:true'; skip-video 'video.html5-main-video' './/div[@id="player"]/div[@id]//div[contains(@class,"ad-interrupting")]' '-skip-to:3' '-stop-on-video-end:true'; race stop; simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=0'; simulate-mouse-event 'button.ytp-skip-ad-button$delay=0';
+www.youtube.com,youtube-nocookie.com#$#race start; skip-video '.video-stream' './/ytd-player/div[@id]//div[contains(@class,"ad-interrupting")]' '-skip-to:3' '-stop-on-video-end:true'; skip-video 'video.html5-main-video' './/div[@id="player"]/div[@id]//div[contains(@class,"ad-interrupting")]' '-skip-to:3' '-stop-on-video-end:true'; race stop;
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read playerResponse.adPlacements undefined;
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
 m.youtube.com#$#override-property-read ytInitialPlayerResponse.playerAds undefined;
