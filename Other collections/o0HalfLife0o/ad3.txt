@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pvCNKjuLQQfYRebfZKv1qw
+! Checksum: WfgzuEMwhu2bR9gdV2DoGg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202410310200
-! Last Modified: 2024年10月31日 02:00
+! Version: 202410310801
+! Last Modified: 2024年10月31日 08:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1868,6 +1868,9 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||qkgllif.icu^
+||extopae.icu^
+||yj2nf.icu^
 ||ioublio.top^
 ||whrwlxg.icu^
 ||bdawrsi.icu^
@@ -10808,6 +10811,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||69shuba.cx^*/shu.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+dk95.com##.advs
 element-plus.org##.page-sidebar-row
 cnblogs.com###blog_c1
 layui.dev##div[style*="sentcss.com"]
@@ -21816,7 +21820,6 @@ m.babytree.com##script + a[class]
 /busting/facebook-tracking/*
 /busting/google-tracking/*
 /bv-analytics.js
-/byside_webcare.js
 /c.gif?
 /c.wrating.com/*
 /c2_count.js
@@ -24636,6 +24639,7 @@ omni.soundestlink.com$image
 ||mdstats.info^
 ||mediamathrdrt.com^
 ||michiganrobotflower.com^
+||minstats.xyz^
 ||mirabelanalytics.com^
 ||mircheigeshoa.com^
 ||mitour.de^
@@ -25380,6 +25384,7 @@ omni.soundestlink.com$image
 ||datadoghq-browser-agent.com^$third-party
 ||datadoghq.eu^$third-party
 ||datadsk.com^$third-party
+||datafa.st^$third-party
 ||datafeedfile.com^$third-party
 ||datafront.co^$third-party
 ||datam.com^$third-party
@@ -31232,6 +31237,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ascpqnj-oam.global.ssl.fastly.net^
 ||cloudfront.net/js/grin-sdk.js
 ||dingxiang-inc.com/ctu-group/constid-js/index.js
+||fpcn.bpsgameserver.com^
 ||fyrsbckgi-c.global.ssl.fastly.net^
 ||ipqualityscore.com/api/$third-party
 ||mhxk.com^*/main/entry.common.$script
