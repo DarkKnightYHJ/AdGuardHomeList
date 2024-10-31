@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6P9Dzfj999SbMi0xWfLh1g
+! Checksum: aXQfbeNDJayR2vhzttf45Q
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202410312000
-! Last Modified: 2024年10月31日 20:00
+! Version: 202411010200
+! Last Modified: 2024年11月01日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1874,6 +1874,7 @@ newduba.cn###jq_youxi
 ||struhuts.com^
 ||joublia.top^
 ||bwz4e.icu^
+||koublid.top^
 ||ioublio.top^
 ||whrwlxg.icu^
 ||bdawrsi.icu^
@@ -10813,6 +10814,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||huo720.com/files/vidhub.
 ||69shuba.cx^*/shu.js
 ||jinnanyq.com/js/zmjw.
+||huiagun.com/template/common.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 dk95.com##.advs
@@ -28540,6 +28542,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||adfox.yandex.ru^
 ||adimo.co/api/tracking/
 ||adlog.com.com^
+||adnz.co/api/ws-events-sink/
 ||adnz.co/dmp/publisher.js
 ||adnz.co/header.js
 ||adobedc.net/collector/
@@ -31819,6 +31822,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cnt.iol.it^
 ||digiland.it/count.cgi?
 ||diritalia.com^*/seosensor.js
+||dmp.citynews.ovh^
 ||dmpcdn.el-mundo.net^
 ||dmpmetrics.rcsmetrics.it^
 ||eage.it/count2.php?
