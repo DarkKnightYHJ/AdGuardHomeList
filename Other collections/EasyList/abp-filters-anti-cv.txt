@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 4oz6ueLSeLMSS8MgnbIcTg
-! Version: 202411012101
+! Checksum: 92BNYwPDqd2AosJXCnXFGA
+! Version: 202411012201
 ! Title: ABP filters
-! Last modified: 01 Nov 2024 21:01 UTC
+! Last modified: 01 Nov 2024 22:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1835,6 +1835,8 @@ chichnhau.mobi#$#abort-current-inline-script $ open
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument
 ! FD-6566
 howdyho.net,howdyho.pro#@#:not(my-obnaruzhili-blokirovshchik)
+! FD-7076
+howdyho.net,howdyho.pro#@#:not(my-obnaruzhili-adblock)
 ! *** abp-filters-anti-cv:distribution/abp-filters-partners.txt ***
 ! Filters to be used by distribution partners
 ! #CV-782
