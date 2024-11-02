@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6JiKVpYG6pSScPFH03GsEA
-! Version: 202411012301
+! Checksum: Dl3gNdzwJOn2bsr9b5YgbQ
+! Version: 202411020101
 ! Title: EasyList China+EasyList
-! Last modified: 01 Nov 2024 23:01 UTC
+! Last modified: 02 Nov 2024 01:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1735,6 +1735,12 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||vuirssd.icu^
+||kjnsgqe.icu^
+||rbift.icu^
+||heiviek.com^
+||wmcbld.top^
+||ifmccdn.icu^
 ||graesol.com^
 ||ctlacnh.icu^
 ||xggcyef.icu^
@@ -18476,7 +18482,7 @@ $image,third-party,domain=258zw.com
 .*ouvxli*.top/$script,third-party
 :6607/qy/$script,third-party
 _rony.js$script,third-party
-||lalabaos10*.top/$script,third-party
+||lalabaos1*.top/$script,third-party
 !
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.6666xsw.com|m.biqugee6.com|m.chenkuan.com|m.jmshuwu.net|wodexiaoshuoh.com
 !#Novels
@@ -80421,6 +80427,7 @@ mathgames.com##.right-ad-override
 news.net##.right-banner-wr > .right
 africanews.com##.right-legend
 essentialenglish.review##.right-panel
+newsweek.com##.right-rail-ads
 jta.org##.right-rail-container
 businessinsider.com##.right-rail-min-height-250
 medpagetoday.com##.right-rail-panel
