@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SeI1NlKel10MlBZYvoHHpQ
-! Version: 202411022101
+! Checksum: GFC6GFsVtNeKB/I/rZItNA
+! Version: 202411022201
 ! Title: EasyList China+EasyList
-! Last modified: 02 Nov 2024 21:01 UTC
+! Last modified: 02 Nov 2024 22:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -79710,7 +79710,6 @@ core77.com##.lower_ad_wrap
 greatbritishlife.co.uk##.lp_track_vertical2
 foodandwine.com##.lrs__wrapper
 lowes.com##.lws_pdp_recommendations_southdeep
-lowes.com##.lws_pdp_recommendations_sponsored
 phpbb.com##.lynkorama
 thestreet.com##.m-balloon-header
 politifact.com##.m-billboard
@@ -82400,11 +82399,9 @@ douglas.*##div.product-grid-column:has(button[data-testid="sponsored-button"])
 laredoute.*###hp-sponsored-banner
 lazada.*##.pdp-block__product-ads
 pinterest.*##div[data-grid-item]:has([data-test-pin-id] [data-test-id^="one-tap-desktop"] > a[href^="http"][rel="nofollow"]):not(body > div)
-pricespy.*##.AdPlacementMarginTop-sc-0-3
-pricespy.*##.AdPlacementMarginTop-sc-15ga2eg-3
-pricespy.*##.AdPlacementWrapper-sc-0-3
-pricespy.*##.StyledAdPlacementWrapper-sc-0-5
-pricespy.*##.StyledAdWrapper-sc-0-1
+pricespy.*##.outsider-ads
+pricespy.*##.pjra-w-\[970px\]
+pricespy.*##div[class^="AdPlacement"]
 walmart.*##[data-testid="carousel-ad"]
 yandex.*##._view_advertisement
 yandex.*##.business-card-title-view__advert
