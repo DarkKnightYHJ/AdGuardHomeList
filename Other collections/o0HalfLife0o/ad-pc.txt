@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Vrp7o7Hb50wG5HTSkIyQvA
+! Checksum: 6F+6QN3v1D3MBRDVQu36kQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202411022000
-! Last Modified: 2024年11月02日 20:00
+! Version: 202411030200
+! Last Modified: 2024年11月03日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -890,6 +890,7 @@ tieba.baidu.com##.tuijian-wrap
 /exoads/*$script
 /exoclick.$~script,domain=~exoclick.bamboohr.co.uk|~exoclick.kayako.com
 /exonb/*$script
+/exonob/*$script
 /exports/tour/*$third-party
 /exports/tour_20/*$subdocument
 /external/ad.$script
@@ -65226,6 +65227,7 @@ empflix.com,tnaflix.com##.mewBlock
 sopornmovies.com##.mexu-bns-bl
 avn.com##.mfc
 online-xxxmovies.com##.middle-spots
+allpornstream.com##.min-h-\[237px\]
 lic.me##.miniplayer
 tryindianporn.com##.mle
 hentaicore.org##.mob-lock
@@ -66508,6 +66510,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||www.ticketmaster.$popup,domain=adclick.g.doubleclick.net
 @@/api/models?$domain=tik.porn
 @@/api/v2/models-online?$domain=tik.porn
+@@||allpornstream.com/api/ads?type=thumbnail$~third-party
 @@||chaturbate.com/in/$subdocument,domain=cam-sex.net
 @@||exosrv.com/video-slider.js$domain=xfreehd.com
 @@||gaynetwork.co.uk/Images/ads/bg/$image,~third-party
@@ -68234,6 +68237,7 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||qoubliy.top^
 ||vuirssd.icu^
 ||kjnsgqe.icu^
 ||rbift.icu^
