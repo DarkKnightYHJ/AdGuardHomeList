@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RG5mqg8FYJhTvEleNiuLlA
-! Version: 202411020701
+! Checksum: UrtQZzSM0Zo6QRHe7Pmv9Q
+! Version: 202411020811
 ! Title: EasyList China+EasyList
-! Last modified: 02 Nov 2024 07:01 UTC
+! Last modified: 02 Nov 2024 08:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -6372,7 +6372,6 @@ $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|xyg688.xyz|zz
 /sungg/*$domain=sun0769.com
 /the_top$domain=28188.com|28188.net
 /tres/recommend/*$domain=ifeng.com
-/vmind.qqvideo.tc.qq.com^
 /w_e_b/de_li_ve_ry/a_j_s.php?zid=$domain=cnlmjx.com
 /web/ad/*$domain=gamer.com.tw
 /webcam.mp4$domain=91porn.com
@@ -6383,7 +6382,6 @@ $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|xyg688.xyz|zz
 ://dmhy.gate.*/*.*?$image
 ://dmhy.org^*.*?$image
 ://www.*.js|$script,third-party,domain=159i.com|r3sub.com|thisav.com
-_vmind.qqvideo.tc.qq.com^
 hxsame.hexun.com$domain=~quote.hexun.com
 |http://*/ad_bj.js?
 ||*.$image,rewrite=abp-resource:1x1-transparent-gif,third-party,domain=rmdown.com
@@ -7868,8 +7866,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||dagou2018.com/js/item
 ||dagumanhua.com/style/mdagu.js
 ||dailynews.sina.com/gb/ads/
-||dajiadu8.com/17.js
-||dajiadu8.com/17mb/script/ad*.js
+||dajiadu8.com/17mb/script/gg.
 ||dajiazhao.com/login/reg.js
 ||dalipan.com/api/taobao
 ||dangdang.com/adall.
@@ -16962,7 +16959,6 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||qq.com/cgi-bin/*?sid=ads
 @@||qq.com/html/mms/nativeads/game_rank.html
 @@||qq.com/json/mms/nativeads/rankings.json
-@@||qq.com/proxyhttp
 @@||qq.com/server/website/CommWebGameSelect_ad.js
 @@||qq.com/web201602/js/ad.js
 @@||qq.com^*?ADTAG=
@@ -76707,6 +76703,7 @@ kvraudio.com###kvr300600
 freeads.co.uk###l_sk1
 inc42.com###large_leaderboard_desktop-0
 peacemakeronline.com###latest_news > center
+flaticon.com###layer_coupon
 elfaro.net###layout-ad-header
 screengeek.net###layoutContainer
 friv.com###lba
@@ -78339,6 +78336,7 @@ firstpost.com##.bn-add
 savefree.in,surattimes.com##.bn-content
 nilechronicles.com##.bn-lg-sidebar
 snow-forecast.com,weather-forecast.com##.bn-placeholder
+flaticon.com##.bn-space-gads
 roll20.net##.bna
 gearspace.com##.bnb--inline
 gearspace.com##.bnb-container
