@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202411061210
+! Version: 202411061230
 ! Title: EasyList
-! Last modified: 06 Nov 2024 12:10 UTC
+! Last modified: 06 Nov 2024 12:30 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -59991,6 +59991,11 @@ darkreader.org##a.logo-link[target="_blank"]
 hulkshare.com##a.nhsIndexPromoteBlock
 steam.design##a.profile_video[href^="https://duobot.com/"]
 marinelink.com##a.sponsored
+cults3d.com##a.tbox-thumb[href^="https://jlc3dp.com/"]
+cults3d.com##a.tbox-thumb[href^="https://shrsl.com/"]
+cults3d.com##a.tbox-thumb[href^="https://us.store.flsun3d.com/"]
+cults3d.com##a.tbox-thumb[href^="https://www.kickstarter.com/"]
+cults3d.com##a.tbox-thumb[href^="https://www.sunlu.com/"]
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[ajaxify*="&eid="] + a[href^="https://l.facebook.com/l.php?u="]
 newstalkflorida.com##a[alt="Ad"]
 moviekhhd.biz##a[alt="Sponsor Ads"]
@@ -60665,6 +60670,7 @@ acmemarkets.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmar
 acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com##.master-product-carousel:has([data-carousel-driven="sponsored-products"])
 motortrend.com##.mb-6:has([data-ad="true"])
 nysun.com##.mr-\[-50vw\]
+boots.com##.oct-listers-hits__item:has(.oct-teaser__listerCriteoAds)
 officedepot.com##.od-col:has(.od-product-card-region-colors-sponsored)
 pollunit.com##.owl-carousel:has(.carousel-ad)
 andronicos.com,haggen.com,randalls.com##.pc-grid-prdItem:has(span[data-qa="prd-itm-spnsrd"])
