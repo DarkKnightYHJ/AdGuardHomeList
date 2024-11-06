@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: aTkMOCOCcqGaGO0KJlmRfQ
-! Version: 202411061701
+! Checksum: mZpAkkkr3uceDNF0+SzTnA
+! Version: 202411061811
 ! Title: Fanboy's Annoyance List
-! Last modified: 06 Nov 2024 17:01 UTC
+! Last modified: 06 Nov 2024 18:11 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -43003,19 +43003,23 @@ nativecamp.net##.hey-nc-bottom-link-banner
 nativecamp.net##.hey-nc-top-banner
 plus.nhk.jp##.hls-player_message
 media.moneyforward.com##.home-ranking
+mastory.jp##.l-fixed
 gazoo.com##.mailmag_link
 media.moneyforward.com##.mp-popin-analytics
 media.moneyforward.com##.mp-recommends
 video.fc2.com,video.laxd.com##.noLoginSticker
 ntv.co.jp##.ntv-pageTop
 realtime-chart.info##.osn_base
+mastory.jp##.p-article__banners
 gamespark.jp,response.jp##.page-top
 mobilenews.jp##.pagetop
 dandy-house.co.jp##.post_content > a[href*="?utm_source"] > img
+mastory.jp##.qualvaBtn
 sp.nicovideo.jp##.searchResult-nicoadNicodicItem
 sofmap.com##.side_bnr
 sports.yahoo.co.jp##.topPage
 video.fc2.com##div[style^="position: fixed; transition: right 1s ease-out 0s; bottom: 165px; padding: 0px; margin: 0px; border: none; z-index: 999;"]
+||amazonaws.com/cdn.ma-site.com/common/chatbots.js$domain=mastory.jp
 ||api.popin.cc^$third-party
 ||bot.agerun.jp^$third-party
 ||img.mixi.net^$third-party,domain=~mixi.jp
@@ -44711,6 +44715,7 @@ auto.it##div[class^="ModalNewsletter_"]
 ilgiorno.it,ilrestodelcarlino.it,iltelegrafolivorno.it,lanazione.it,quotidiano.net##div[class^="Newsletter_"]
 ! Japanese
 bluetti.jp###dynamic-react-root + div:has(> div.needsclick input[id^="email_"])
+mastory.jp##.p-article-mail
 somu-lier.jp##.popup-mailmaga
 twilog.togetter.com##.subscription_banner
 shokuhin.net##.tdm-popup-modal-over-screen
