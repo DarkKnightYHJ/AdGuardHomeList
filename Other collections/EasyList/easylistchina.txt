@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gh71cUfPc5XzjIVnUsqMhg
-! Version: 202411071311
+! Checksum: MxiP4YWwXMU9Hgr2hDxBvQ
+! Version: 202411071401
 ! Title: EasyList China
-! Last modified: 07 Nov 2024 13:11 UTC
+! Last modified: 07 Nov 2024 14:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -10745,6 +10745,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||51miz.com/index.php?m=Ad&
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+nodeloc.com###wghtml
+tvbs.com.tw##div[data-testid="ad-container"]
 iduba.com,newduba.cn##.m_nav_top
 bilibili.com##.adcard-content
 happymh.com##a[href*=".taobao.com"]
@@ -11453,7 +11455,7 @@ javhope.com###havhope
 chaidu.com,kdslife.com###hb
 macd.cn###hbad
 coolaler.com###hd
-jr22.xyz###hd + .wp
+jr31.xyz###hd + .wp
 gdmm.com###hd > .wp > .module
 hackhw.com,ithome.com###hd_float
 ithome.com###hd_float1
@@ -15452,7 +15454,7 @@ szjjzs.com##a[href^="/pic/tiao/"]
 chinacsbs.com##a[href^="/plus/view.php?aid="]
 96weixin.com##a[href^="/show/ads/"]
 fx112.com##a[href^="/union."]
-jr22.xyz##a[href^="ad."]
+jr31.xyz##a[href^="ad."]
 131400.best,vikacg.com,vikacg.xyz##a[href^="http"] > img[src*="/assets/main/"]
 boniu123.cc##a[href^="http"] > img[src*="/bn_"]
 yigujin.cn##a[href^="http"]:not([href$=".html"]) > img[src*="/tp/"]
