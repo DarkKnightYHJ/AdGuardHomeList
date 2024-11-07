@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: qqaJHjTNbHobDA41sfvTaA
-! Version: 202411071101
+! Checksum: 2ZNzIvriG+ywhN0BSg6RgA
+! Version: 202411071221
 ! Title: ABP filters
-! Last modified: 07 Nov 2024 11:01 UTC
+! Last modified: 07 Nov 2024 12:21 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -520,6 +520,8 @@ dlouha-videa.cz#$#abort-on-property-read _0x4c29
 ajaxshowtime.com#?#div:-abp-properties(content: "Advertentie";)
 ajaxshowtime.com##div.leaderboard_ad + div
 ! *** abp-filters-anti-cv:english.txt ***
+! CV-3613
+threenow.co.nz#$#override-property-read Object.prototype.adConfigId undefined; json-prune 'ad_keys cue_points' 'account_id sources';
 ! CV-3435
 marketwatch.com,wsj.com#$#race start; hide-if-matches-xpath './/iframe[@id][./@*[contains(., "dianomi SmartAd Content")]][contains(@src, "partner_tcf_status")]/preceding::img[@data-src]//ancestor::section[contains(@class,"--module ad")]'; hide-if-matches-xpath './/div[starts-with(name(@*[starts-with(name(), "data-")]), "data-")]//following::iframe[contains(@class,"iframe")]//ancestor::*[@class][starts-with(name(@*[starts-with(name(), "data-")]), "data-")]/ancestor::div[3]'; hide-if-matches-xpath './/div[starts-with(name(@*[starts-with(name(), "data-")]), "data-")]//following::iframe[@id][@src][@*[starts-with(name(), "data-")]]/parent::*[@style]/ancestor::*[@class][starts-with(name(@*[starts-with(name(), "data-")]), "data-")]/ancestor::div[3]'; hide-if-matches-xpath './/div[starts-with(name(@*[starts-with(name(), "data-")]), "data-")]//following::iframe[@id][@src][@*[starts-with(name(), "data-")]]/parent::div[@style]/ancestor::*[@class][starts-with(name(@*[starts-with(name(), "data-")]), "data-")]/ancestor::div[3]'; hide-if-matches-xpath './/div[starts-with(name(@*[starts-with(name(), "data-")]), "data-")]//following::iframe[@id][@src][@*[starts-with(name(), "data-")]]/parent::div[@style]/ancestor::span[@class][starts-with(name(@*[starts-with(name(), "data-")]), "data-")]/ancestor::div[3]'; hide-if-matches-xpath './/div[starts-with(name(@*[starts-with(name(), "data-")]), "data-")]//following::iframe[@id][@src][@*[starts-with(name(), "data-")]]/parent::div[@style]/ancestor::span[@style][@class]/ancestor::div[3]'; hide-if-matches-xpath './/div[starts-with(name(@*[starts-with(name(), "data-")]), "data-")]//following::iframe[@id][@src][@*[starts-with(name(), "data-")]]/parent::div[@style]/ancestor::span[@style][@class]/ancestor::div[starts-with(name(@*[starts-with(name(), "data-")]), "data-")]'; hide-if-matches-xpath './/div[starts-with(name(@*[starts-with(name(), "data-")]), "data-")]//following::iframe[@id][@style][@title]/parent::div[@style]/ancestor::span[@style][@class]/ancestor::div[starts-with(name(@*[starts-with(name(), "data-")]), "data-")]'; hide-if-matches-xpath './/iframe[@title][@id][@class][@src][@style]/parent::div[@style]/ancestor::div[3]'; hide-if-matches-xpath './/div/a[contains(@href,"ad.doubleclick")]/ancestor::div[contains(@class,"realtor-container") or @style="min-height:320px"]/parent::div'; race stop;
 marketwatch.com,wsj.com#$#abort-on-property-write window.__buildAd;
@@ -1852,5 +1854,6 @@ m.youtube.com,music.youtube.com#$#override-property-read yt.ads.biscotti.lastId_
 m.youtube.com,music.youtube.com#$#abort-on-property-write adBreakHeartbeatParams
 youtube.com#$#override-property-read Object.prototype.ab_sa_ef undefined
 youtube.com#$#array-override push BISCOTTI_BASED_DETECTION_STATE_IS_CLICK_EVENT_NOT_TRUSTED
+www.youtube.com#$#override-property-read Object.prototype.videoSkipJob_ noopFunc
 music.youtube.com#$#skip-video 'video.html5-main-video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay"]'; simulate-mouse-event 'span.ytp-ad-preview-container$delay=0'
 m.youtube.com#$#simulate-mouse-event 'span.ytp-ad-preview-container$delay=0'; simulate-mouse-event 'button.ytp-ad-skip-button-modern$continue,delay=100'; simulate-mouse-event 'button.ytp-skip-ad-button$continue,delay=100';
