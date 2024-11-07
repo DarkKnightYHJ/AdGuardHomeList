@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 2ZNzIvriG+ywhN0BSg6RgA
-! Version: 202411071221
+! Checksum: y40kkGE7N19gQrIGXcU8mQ
+! Version: 202411071311
 ! Title: ABP filters
-! Last modified: 07 Nov 2024 12:21 UTC
+! Last modified: 07 Nov 2024 13:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1854,6 +1854,6 @@ m.youtube.com,music.youtube.com#$#override-property-read yt.ads.biscotti.lastId_
 m.youtube.com,music.youtube.com#$#abort-on-property-write adBreakHeartbeatParams
 youtube.com#$#override-property-read Object.prototype.ab_sa_ef undefined
 youtube.com#$#array-override push BISCOTTI_BASED_DETECTION_STATE_IS_CLICK_EVENT_NOT_TRUSTED
-www.youtube.com#$#override-property-read Object.prototype.videoSkipJob_ noopFunc
+www.youtube.com#$#override-property-read Object.prototype.videoSkipJob_ noopFunc; override-property-read Object.prototype.web_playlist_queue_multiple_skips_ks false;
 music.youtube.com#$#skip-video 'video.html5-main-video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay"]'; simulate-mouse-event 'span.ytp-ad-preview-container$delay=0'
 m.youtube.com#$#simulate-mouse-event 'span.ytp-ad-preview-container$delay=0'; simulate-mouse-event 'button.ytp-ad-skip-button-modern$continue,delay=100'; simulate-mouse-event 'button.ytp-skip-ad-button$continue,delay=100';
