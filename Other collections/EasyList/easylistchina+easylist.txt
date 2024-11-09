@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: aF+43rXDXH8zcb54B3x1Vw
-! Version: 202411091401
+! Checksum: 134NrgKHPh50yzOBcDFebQ
+! Version: 202411091501
 ! Title: EasyList China+EasyList
-! Last modified: 09 Nov 2024 14:01 UTC
+! Last modified: 09 Nov 2024 15:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -10775,6 +10775,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||xmcdn.com/storages/97b8-customerservice/E7/5E/GKwRIJILApO8AALGLwMrioMa.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+ghxi.com##.widget_html_ad + div[style]
 nodeloc.com###wghtml
 tvbs.com.tw##div[data-testid="ad-container"]
 iduba.com,newduba.cn##.m_nav_top
@@ -15152,7 +15153,8 @@ ikjzd.com##.wv-right-content > .imgTop-right
 taoguba.com.cn##.wz_ad
 55188.com##.wz_text
 eyy5.cn##.wzgg
-tmioe.com##.zpgimg
+tmioe.com##.ztimg
+tmioe.com##a[href*=".zps.im"]
 sohu.com##.x-adv-band-panel
 sohu.com##.x-adv-flogo-panel
 sohu.com##.x-adv-linear-panel
@@ -38245,6 +38247,7 @@ browsershots.org#@#.advert_area
 ||banners5html2.com^
 ||bantengdisgown.shop^
 ||banterteeserving.com^
+||baobabsruesome.com^
 ||bapdvtk.com^
 ||baptrqyesunv.xyz^
 ||barbabridgeoverprotective.com^
@@ -40789,6 +40792,7 @@ browsershots.org#@#.advert_area
 ||conative.network^
 ||concealedcredulous.com^
 ||concealmentbrainpower.com^
+||concedederaserskyline.com^
 ||conceitedfedapple.com^
 ||conceivedtowards.com^
 ||concentrationmajesticshoot.com^
@@ -49503,6 +49507,7 @@ browsershots.org#@#.advert_area
 ||lust-goddess.buzz^
 ||lustasserted.com^
 ||lutachechu.pro^
+||lutoorgourgi.com^
 ||luuming.com^
 ||luvaihoo.com^
 ||luwcp.online^
@@ -50155,6 +50160,7 @@ browsershots.org#@#.advert_area
 ||mhdiaok.com^
 ||mhhr.cloud^
 ||mhkvktz.com^
+||mhndfpbssfcsr.com^
 ||mhqjiaxpenfw.com^
 ||mhvllvgrefplg.com^
 ||mhwpwcj.com^
@@ -61750,6 +61756,7 @@ browsershots.org#@#.advert_area
 ||wmptcd.com^
 ||wmptctl.com^
 ||wmpted.com^
+||wmptengate.com^
 ||wmpuem.com^
 ||wmudsraxwj.xyz^
 ||wmwwmbjkqomr.top^
@@ -66065,6 +66072,7 @@ browsershots.org#@#.advert_area
 ||commodityallengage.com^$popup
 ||compassionaterough.pro^$popup
 ||complementimpassable.com^$popup
+||concedederaserskyline.com^$popup
 ||concentrationmajesticshoot.com^$popup
 ||concord.systems^$popup
 ||condles-temark.com^$popup
@@ -67904,6 +67912,7 @@ browsershots.org#@#.advert_area
 ||ptsixwereksbef.info^$popup
 ||ptugnins.net^$popup
 ||ptupsewo.net^$popup
+||ptwmcd.com^$popup
 ||ptwmjmp.com^$popup
 ||ptyalinbrattie.com^$popup
 ||pubdirecte.com^$popup
@@ -68939,6 +68948,7 @@ browsershots.org#@#.advert_area
 ||witnessjacket.com^$popup
 ||wizardscharityvisa.com^$popup
 ||wlafx4trk.com^$popup
+||wmptengate.com^$popup
 ||wnt-s0me-push.net^$popup
 ||woafoame.net^$popup
 ||woevr.com^$popup
