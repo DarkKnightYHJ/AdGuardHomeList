@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HyQdHNeCpp3/G9S8ScgTNw
+! Checksum: BtNeZg4yWeuFn7dhDiLmBQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202411092000
-! Last Modified: 2024年11月09日 20:00
+! Version: 202411100200
+! Last Modified: 2024年11月10日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -10906,6 +10906,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||xmcdn.com/storages/97b8-customerservice/E7/5E/GKwRIJILApO8AALGLwMrioMa.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+ghxi.com##.widget_html_ad + div[style]
 nodeloc.com###wghtml
 tvbs.com.tw##div[data-testid="ad-container"]
 iduba.com,newduba.cn##.m_nav_top
@@ -15283,7 +15284,8 @@ ikjzd.com##.wv-right-content > .imgTop-right
 taoguba.com.cn##.wz_ad
 55188.com##.wz_text
 eyy5.cn##.wzgg
-tmioe.com##.zpgimg
+tmioe.com##.ztimg
+tmioe.com##a[href*=".zps.im"]
 sohu.com##.x-adv-band-panel
 sohu.com##.x-adv-flogo-panel
 sohu.com##.x-adv-linear-panel
@@ -30434,6 +30436,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||salescs.com/liveagent/scripts/track.js
 ||salesforce.com/sfga.js
 ||salesloft.com/sl.js
+||salesmartly.com/client/log/
+||salesmartly.com/client/station/log?
 ||sascdn.com/mh_audience/
 ||sawpf.com/1.0.js$third-party
 ||saymedia.com/latest/tetrapak.js
@@ -32614,6 +32618,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.ffm.to/sl/e/$image
 ||api.invideo.io/v3/send_analytics_event
 ||api.narrativ.com/favicon.ico
+||api.samsungfind.com/log-collector
 ||api.streamelements.com/science/
 ||api.takealot.com^$ping
 ||api.tsc.ca/Tracking/v1/events/
