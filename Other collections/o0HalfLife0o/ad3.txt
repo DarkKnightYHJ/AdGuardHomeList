@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sSQyaKr0NSCBfTVnT+Y61w
+! Checksum: tsiyCklnnELA8VVCm446yQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202411122000
-! Last Modified: 2024年11月12日 20:00
+! Version: 202411130200
+! Last Modified: 2024年11月13日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1870,6 +1870,7 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 ||stunkrins.com^
+||rjwpwod.icu^
 ||ccobksxz.icu^
 ||utbyvyl.icu^
 ||dchdmhf.cn^
@@ -24151,6 +24152,7 @@ m.babytree.com##script + a[class]
 ://collect.*/pageview
 ://collector.*/event
 ://elqtrk.
+://fallback.*/collector
 ://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://gtrack.*/dye
 ://insights-collector.
@@ -24183,7 +24185,11 @@ m.babytree.com##script + a[class]
 ?event=performance&
 ?event=performancelogger:
 ?local_ga_js=
+?log=player-*&stats_tkn=
+?log=player_*&stats_tkn=
 ?log=stats-
+?log=united-impression&
+?log=xhl-widgets-events&
 ?log_performance_metrics
 ?logType=impression&
 ?logType=trackEvent&
@@ -32812,6 +32818,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||collect.reagroupdata.com.au^
 ||collect.stepstone.co.uk^
 ||collect.thunder-io.com^
+||collector-direct.xhamster.com^
 ||collector-px0py5pczn.octopart.com^
 ||collector.cint.com^
 ||collector.fiverr.com^
@@ -32826,6 +32833,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||collector.xhamster.desi^
 ||collector.xhamster2.com^
 ||collector.xhamster3.com^
+||collector.xhamsterporno.mx^
 ||collider.com/strpixel.png
 ||colvk.viki.io^
 ||confiant.msn.com^
