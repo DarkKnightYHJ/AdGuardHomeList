@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: ckNq2yTqyf3a93Ea0vytyw
-! Version: 202411130901
+! Checksum: zpN3X7E4kKvbj/cn8xMrsw
+! Version: 202411131010
 ! Title: EasyPrivacy
-! Last modified: 13 Nov 2024 09:01 UTC
+! Last modified: 13 Nov 2024 10:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2726,7 +2726,6 @@
 ://tracking.*/beacon/
 ://tracking.*/event
 ?[AQB]&ndh=1&t=
-?act=counter&
 ?action=event&
 ?action=impression&
 ?action=log_promo_impression
@@ -11505,6 +11504,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cnt.xhamster.com^
 ||codecademy.com/analytics/
 ||coincheckup.com/report_events/
+||coincodex.com/cdn-cgi/trace
 ||cointelegraph.com/pixel?
 ||collect.air1.com^
 ||collect.alipay.com^
@@ -11939,6 +11939,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||info.com/pingback
 ||infoq.com/metrics/
 ||informer.com/ajax/article_log.php
+||ingest.coincodex.com^
 ||ingest.make.rvohealth.com^
 ||ingress.linktr.ee^
 ||inq.com/tagserver/logging/logline
