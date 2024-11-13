@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: EWaZjneYWM2DA88eqVUOFA
-! Version: 202411131611
+! Checksum: LCrdno2n1QXKISGt4UDF0Q
+! Version: 202411131701
 ! Title: ABP filters
-! Last modified: 13 Nov 2024 16:11 UTC
+! Last modified: 13 Nov 2024 17:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -520,6 +520,8 @@ dlouha-videa.cz#$#abort-on-property-read _0x4c29
 ajaxshowtime.com#?#div:-abp-properties(content: "Advertentie";)
 ajaxshowtime.com##div.leaderboard_ad + div
 ! *** abp-filters-anti-cv:english.txt ***
+! CV-3560
+groceries.morrisons.com#$#hide-if-matches-xpath './/div[@data-test="products-page"]//*[starts-with(@data-test, "fop-wrapper")]/div[.//*[contains(text(), "Sponsored")] or @class="outer-header-container" and ./span[@data-test="breadcrumb-text"][contains(text(), "Featured")]]'
 ! CV-3613
 threenow.co.nz#$#override-property-read Object.prototype.adConfigId undefined; json-prune 'ad_keys cue_points' 'account_id sources';
 ! CV-3435
