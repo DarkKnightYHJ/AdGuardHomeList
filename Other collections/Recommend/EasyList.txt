@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XDBCYyfrFjSn7R1Oa28fig
-! Version: 202411140411
+! Checksum: Vpi3RXkT/fahkYOGo84yWg
+! Version: 202411140511
 ! Title: EasyList
-! Last modified: 14 Nov 2024 04:11 UTC
+! Last modified: 14 Nov 2024 05:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -221,7 +221,7 @@
 /adlog.php$image
 /admanager.js$script
 /admanager.min.js$script
-/admanager/*$~object,domain=~admanager.line.biz|~blog.google|~sevio.com
+/admanager/*$~object,~xmlhttprequest,domain=~admanager.line.biz|~blog.google|~sevio.com
 /admgr.js$script
 /admitad.js$script
 /adocean.js$script
