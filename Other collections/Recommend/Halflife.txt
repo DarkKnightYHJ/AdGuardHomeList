@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xtlePZU812jPea4ApC7eqg
+! Checksum: 6H+r1Bk/wMgBF7WyHj84ug
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202411140200
-! Last Modified: 2024年11月14日 02:00
+! Version: 202411140801
+! Last Modified: 2024年11月14日 08:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -474,7 +474,8 @@ show.ssports.com
 v.qq.com##.video-card-module > .card-wrap
 v.qq.com##.quick_games.quick_item, div.game-switch-ad
 qq.com##+js(json-prune, ads ad material.video)
-v.qq.com##+js(no-fetch-if, /(beacon|trace)\.qq\.com/)
+v.qq.com,news.qq.com##+js(no-fetch-if, /(beacon|trace)\.qq\.com/)
+v.qq.com,news.qq.com##+js(no-xhr-if, snowflake.qq.com)
 !qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
 !qq.com##+js(aopr, Beacon.prototype.fail)
 @@||union.video.qq.com/fcgi-bin/$script,domain=qq.com
@@ -487,9 +488,14 @@ cm.l.qq.com
 ||gtimg.com/qqlive/
 ||qzonestyle.gtimg.cn/qzone/biz/ac/comm/$script
 |https://imgcache.qq.com/qzone/biz/comm/js/qbs.js
-!||ssp.qq.com/static/web/websites/pcnewsplugin/sspad_$script
-new.qq.com##+js(set, SSPAd.prototype.loadAd, noopFunc)
+news.qq.com##+js(set, SSPAd.prototype.loadAd, noopFunc)
 ||news.ssp.qq.com/app
+||ssp.qq.com/ad^$xhr
+||staticfile.qq.com/datong/$script
+||staticfile.qq.com/qimei/$script
+||vfiles.gtimg.cn/tvideo/js/new_ping_video.js^$script
+||res.ab.qq.com/tab/$script
+||v.qq.com/cache/wuji/object^$script
 bilibili.com##.ad-report, .ad-floor
 bilibili.com##.gg-floor-module,#slide_ad,a[href^="//cm.bilibili.com"]
 ||api.bilibili.com/x/web-show/res/loc?pf=$~script
@@ -2304,6 +2310,7 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||bujlmitd.icu^
 ||stunkrins.com^
 ||rjwpwod.icu^
 ||gheqien.com^
