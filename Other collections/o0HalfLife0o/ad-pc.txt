@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: P7cg9j14o9oy0tyf0YxJJg
+! Checksum: KlCSXMcwoavrhEr+ZBryRQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202411150200
-! Last Modified: 2024年11月15日 02:00
+! Version: 202411150801
+! Last Modified: 2024年11月15日 08:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -58090,6 +58090,7 @@ bdnews24.com##.floating-ad-bottom
 chaseyoursport.com##.floating-adv
 click2houston.com,clickondetroit.com,clickorlando.com,ksat.com,local10.com,news4jax.com##.floatingWrapper
 thehindu.com##.flooting-ad
+frankspeech.com##.flyer-space
 golinuxcloud.com##.flying-carpet
 momjunction.com,stylecraze.com##.flying-carpet-wrapper
 emergencyemail.org,out.com##.footer
@@ -65954,6 +65955,8 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||uaqdgrfr.icu^
+||gzfsqrc.icu^
 ||bujlmitd.icu^
 ||wrdamoe.icu^
 ||iweisio.top^
@@ -133792,6 +133795,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||xeroshoes.co.uk/affiliate/scripts/trackjs.js$~third-party
 @@||xfinity.com/stream/js/api/fingerprint.js$~third-party
 @@||yottaa.net^$script,domain=containerstore.com|hannaandersson.com
+@@||zillow.com/rental-manager/proxy/rental-manager-api/api/v1/users/freemium/analytics/pageViews$~third-party
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 !! https://old.reddit.com/r/uBlockOrigin/comments/1czbcvg/foundit_is_blocking_searches_until_ublock_origin/
 @@||media.foundit.*/trex/public/theme_3/dist/js/userTracking.js$script,~third-party
