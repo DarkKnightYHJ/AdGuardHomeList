@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /msLsZ14R9LWiV7kODOLOw
-! Version: 202411160501
+! Checksum: JPUSh2kjHrApgK+72wkvXA
+! Version: 202411160611
 ! Title: Fanboy's Annoyance List
-! Last modified: 16 Nov 2024 05:01 UTC
+! Last modified: 16 Nov 2024 06:11 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -36701,6 +36701,7 @@ holyrood.com##.rc-subs
 rcrwireless.com##.rcrwi-hubspot-article-form
 news.yahoo.com##.react-wafer-Featurebar
 adage.com##.recirculationCTA
+thedrive.com##.recurrent-newsletter-block
 twz.com##.recurrent-sidebar-newsletter-block
 moneysavingexpert.com##.reference-email-tip-box
 takimag.com##.regcta
@@ -37008,7 +37009,7 @@ artificialintelligence-news.com##.techforge-subscribe-widget
 fangoria.com##.terror-teletype
 turningleftforless.com##.text-2
 jpl.nasa.gov##.text-center.bg-gray-light
-nymag.com,thecut.com##.text-form-wrapper
+nymag.com,thecut.com,vulture.com##.text-form-wrapper
 nodejs.libhunt.com##.text-strong-invite
 realtor.com##.textbanner_link
 thefiscaltimes.com##.tft-subs-block
@@ -48415,6 +48416,7 @@ petsmart.com#@#a[href^="https://www.facebook.com/sharer/sharer.php"]
 ! fanboy_newsletter_allowlist.txt
 @@||e24.no/cnp-assets/components-NewsletterWidget.$~third-party
 @@||el-vidas.nl^*/phpcuong_newsletter/$script
+@@||klaviyo.com/media/js/public/klaviyo_subscribe.js$domain=burner.pro
 @@||lightboxcdn.com/vendor/$script,domain=rydercup.com
 @@||list-manage.com/subscribe/post-json?
 @@||lumingerie.com/min/$script,~third-party
