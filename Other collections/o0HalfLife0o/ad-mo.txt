@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9uL3bEtiZIVNp3uJQ09mwA
+! Checksum: pDFHMrexQzKVn+R37dWpvw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202411171400
-! Last Modified: 2024年11月17日 14:00
+! Version: 202411172000
+! Last Modified: 2024年11月17日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -55379,6 +55379,7 @@ comicsands.com###c7da91bc-8e44-492f-b7fd-c382c0e55bda
 allrecipes.com###cal-app
 bitdegree.org###campaign-modal
 chordify.net###campaign_banner
+thecanary.co###canaryInTextAd1
 academictorrents.com###carbon
 downforeveryoneorjustme.com###carbonDiv
 coinlisting.info###carousel-example-generic
@@ -64192,6 +64193,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 -*-*-*-*.alpha^$script,third-party
 -*-*-*-*.as^$script,third-party
 -*-*-*-*.panda^$script,third-party
+.tv/gg/
 -1316632262.cos.
 -1316899192.cos.
 -1321533417.cos.
@@ -74422,7 +74424,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||taiwannutrition.com/blog/wp-content/plugins/arscode-ninja-popups/
 ||taizexy.com^*.gif
 ||talkfx.*/showTKImg?
-||tangrenjie.tv/gg/
 ||tanju.vip/nyindex.
 ||tanseb.com/vads/
 ||taobaocdn.com^$image,domain=cnblogs.com
@@ -82897,7 +82898,7 @@ theporn.cc##.toolbar-gg
 !#torrentkitty
 ###vpnModal.nordvpn-popup
 ##.nordvpn-popup + .sidebar-vpn
-$script,third-party,domain=torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.se|torrentkitty.tv|torrkitty.com
+$script,third-party,domain=torkitty.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.se|torrentkitty.tv|torrkitty.com
 .tor*/js/jquery.bpopup.
 /nordvpn/autoptimize_
 torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.lol,torrentkitty.net,torrentkitty.se,torrentkitty.tv##a[href*="/aff_"]
@@ -91109,7 +91110,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||direct-collect.dy-api.eu^
 ||direct-events-collector.spot.im^
 ||directnews.co.uk/feedtrack/
-||discovery.com^*/events
+||discovery.evvnt.com/prd/evvnt_discovery_plugin-latest.min.js
 ||disqus.com/api/ping
 ||disqus.com/event.js?$script
 ||disqus.com/stats.html
@@ -91117,16 +91118,13 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||distillery.wistia.com^
 ||dl.episerver.net^
 ||dmcdn.net/behavior/
-||dmdentertainment.com^*/video_debug.gif?
 ||dnnapi.com/analytics/
-||domodomain.com^*/ddsense.aspx?
 ||doppiocdn.com/healthcheck
 ||doppiocdn.org/healthcheck
 ||doppler-beacon.cbsivideo.com^
 ||doppler-client-events.cbsivideo.com^
 ||doppler-reporting.cbsivideo.com^
 ||dotaudiences.com^$third-party
-||dreamhost.com/*.cgi?$image,third-party
 ||drift.com/impressions/
 ||drift.com/targeting/evaluate_with_log
 ||drift.com/track
@@ -91141,8 +91139,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dynamicyield.com/rcomEvent?
 ||dynamicyield.com/uia?
 ||dynamicyield.com/var?
-||e-activist.com^*/broadcast.record.message.open.do?
-||e-merchant.com/^*/edr.js$third-party
 ||e.channelexco.com^
 ||e.ebidtech.com/cv/
 ||e.htplayground.com^
@@ -91150,42 +91146,27 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||early-birds.fr/tracker/
 ||ebayadservices.com/marketingtracking/
 ||ebayrtm.com/rtm?RtmCmd&a=img&$image
-||ebaystatic.com^*/pulsar.js
-||ebaystatic.com^*/rover_$script
-||ebaystatic.com^*/tracking_RaptorheaderJS.js
 ||ec.walkme.com^
 ||ecomm.events^
 ||ecommstats.s3.amazonaws.com^
-||ecustomeropinions.com/survey/nojs.php?
-||ecustomeropinions.com^*/i.php?
 ||edge-hls.doppiocdn.com/ping
-||edge-hls.doppiocdn.live/ping
-||edge-hls.doppiocdn.media/ping
 ||edge.adobedc.net^
 ||edge.bredg.com^$third-party
-||edgesuite.net^*/googleanalyt
-||edkt.io^*/edgekit.min.js
 ||edrone.me/trace?
 ||edw.edmunds.com/edw/edw1x1.gif
 ||eel.transistor.fm^
 ||egmontpublishing.dk/tracking/
-||ele26126.jscrambler.com^
 ||elpais.com/t.gif
-||els-cdn.com^*/analytics.js
 ||emarketeer.com/tracker/
-||embedly.com/widgets/xcomm.html$third-party
-||emihosting.com^*/tracking/
 ||endorsal.io/check/
 ||ensighten.com/error/e.php?
 ||epimg.net/js/gdt/
 ||epl.paypal-communication.com^$script
 ||epromote.co.za/track/
 ||eq.userneeds.com^
-||equalweb.com/statistics.taf
 ||era.easyvoyage.com^
 ||errors.snackly.co^
 ||et.educationdynamics.com^
-||etahub.com^*/track?site_id
 ||etl.springbot.com^
 ||etoro.com/tradesmonitor/
 ||eu-mobile.events.data.microsoft.com^
