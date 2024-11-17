@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XN3EO1Vgn8yFl/kJuKkm+Q
+! Checksum: 9uL3bEtiZIVNp3uJQ09mwA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202411170801
-! Last Modified: 2024年11月17日 08:01
+! Version: 202411171400
+! Last Modified: 2024年11月17日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -65913,6 +65913,8 @@ newduba.cn###jq_youxi
 ||wweisie.top^
 ||yxjcyxy.icu^
 ||dmevejjt.icu^
+||zfwgn.icu^
+||qweisiy.top^
 ||qphkuua.icu^
 ||ngxzkaxf.icu^
 ||qgg7e.icu^
@@ -75006,6 +75008,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||twkan.com/js/otherad
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+cnys.tv###player_pause
 twkan.com##.txtcenter
 element-plus.org##.page-sidebar-parent
 hcbbs.com##.wp > div:not([id]):not([class]) > a > img[src*=".imgdb.cn"]
@@ -87773,7 +87776,6 @@ omni.soundestlink.com$image
 ||iperceptions.com^$third-party
 ||ipfind.com^$third-party
 ||ipfingerprint.com^$third-party
-||ipgeolocation.io^$third-party
 ||ipgp.net^$third-party
 ||ipinfo.info^$third-party
 ||ipinfodb.com^$third-party
@@ -90608,6 +90610,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.blink.net/a/
 ||api.collarity.com/cws/*http
 ||api.country.is^$third-party
+||api.ipgeolocation.io/getip
 ||api.iris.tv/update
 ||api.june.so^
 ||api.sardine.ai/assets/loader.min.js$third-party
