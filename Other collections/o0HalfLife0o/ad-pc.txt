@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sj7NdIwIHR8at/u1aHgKXw
+! Checksum: Us8HFMli+dZA60f+zFC+vg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202411172000
-! Last Modified: 2024年11月17日 20:00
+! Version: 202411180200
+! Last Modified: 2024年11月18日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1099,7 +1099,7 @@ tieba.baidu.com##.tuijian-wrap
 /redirect/?spot_id=
 /redirect?tid=
 /reklam.$domain=~github.com|~reklam.com.tr
-/reklam/*$domain=~cloudflare.com|~github.com|~reklam.com.tr
+/reklam/*$~xmlhttprequest,domain=~cloudflare.com|~github.com|~reklam.com.tr
 /reklama2.jpg$image
 /reklama2.png$image,domain=~aerokuz.ru
 /reklama3.jpg$image
@@ -43889,7 +43889,6 @@ browsershots.org#@#.advert_area
 ||xlviiirdr.com^
 ||xlviirdr.com^
 ||xlvirdr.com^
-||xlvul.ajscdn.com^
 ||xmas-xmas-wow.com^
 ||xmaswrite.com^
 ||xmediaserve.com^
@@ -54942,6 +54941,8 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||rule34.xxx/images/r34_doll.png
 ||rule34hentai.net^$subdocument,~third-party
 ||rusdosug.com/Fotos/Banners/
+||s.bussyhunter.com^
+||s.everydayporn.co^
 ||scatxxxporn.com/static/images/banners/
 ||schoolasiagirls.net/ban/
 ||scoreland.*/tranny.jpg
@@ -63180,7 +63181,7 @@ teenpornvideo.fun##.sponsor-link-desk
 teenpornvideo.fun##.sponsor-link-mob
 pornpics.com,pornpics.de##.sponsor-type-4
 nakedpornpics.com##.sponsor-wrapper
-4kporn.xxx,hoes.tube,love4porn.com##.sponsorbig
+4kporn.xxx,crazyporn.xxx,hoes.tube,love4porn.com##.sponsorbig
 fux.com,pornerbros.com,porntube.com,tubedupe.com##.sponsored
 hoes.tube##.sponsorsmall
 3movs.com,3movs.xxx,bravotube.net,camvideos.tv,cluset.com,deviants.com,dixyporn.com,fapnfuck.com,hello.porn,javcab.com,katestube.com,pornicom.com,sleazyneasy.com,videocelebs.net,vikiporn.com,vjav.com##.spot
@@ -66029,6 +66030,7 @@ newduba.cn###jq_youxi
 ||dmevejjt.icu^
 ||zfwgn.icu^
 ||qweisiy.top^
+||tweisii.top^
 ||qphkuua.icu^
 ||ngxzkaxf.icu^
 ||qgg7e.icu^
@@ -92163,6 +92165,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||prod.benchmarkemail.com/tracker.bundle.js
 ||prod.ew.srp.navigacloud.com^
 ||prod.fennec.atp.fox^
+||prodregistryv2.org^
 ||propps.com/v1/referrer/
 ||providesupport.com/cmd/$image
 ||proxy.dzeio.com^
@@ -94845,6 +94848,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events-tracker.deliveroo.net^
 ||events.api.godaddy.com^
 ||events.baselime.io^
+||events.character.ai^
 ||events.clips4sale.com^
 ||events.framer.com^
 ||events.mercadolibre.com^
