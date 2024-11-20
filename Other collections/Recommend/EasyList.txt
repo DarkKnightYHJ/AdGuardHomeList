@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JiWWEi5D/dO2WR4+Apav8g
-! Version: 202411200311
+! Checksum: TQe/HGAbYgydmPa+1c6GUA
+! Version: 202411200411
 ! Title: EasyList
-! Last modified: 20 Nov 2024 03:11 UTC
+! Last modified: 20 Nov 2024 04:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -388,7 +388,7 @@
 /banner-affiliate-$image
 /banner.asp?$third-party
 /banner.cgi?
-/banner.php$domain=~research.hchs.hc.edu.tw
+/banner.php$~xmlhttprequest,domain=~research.hchs.hc.edu.tw
 /banner/affiliate/*$image,subdocument
 /banner/html/zone?zid=
 /banner_468.$image
@@ -1128,7 +1128,6 @@ _prebid.js
 /ads-blocking-detector.$script
 /anti-adblock/*$~stylesheet
 /blockblock/blockblock.jquery.js$script
-/BlockerBanner/*$xmlhttprequest
 /jgcabd-detect-$script
 /no-adblock/*$script,stylesheet
 _atblockdetector/
@@ -55407,6 +55406,7 @@ newser.com###divWhizzcoRightRail
 hometheaterreview.com###div_block-382-13
 hindustantimes.com###divshopnowRight
 rednationonline.ca###dnn_BannerPane
+uploadfox.net###downloadxaa
 unite-db.com###ds_lb1
 unite-db.com###ds_lb2
 thedailystar.net###dsspHS
