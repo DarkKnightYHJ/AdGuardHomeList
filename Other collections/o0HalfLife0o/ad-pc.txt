@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9VDsctxfFvlqVrX1R/3KUQ
+! Checksum: 5nMn0ckwm6hSFEVbR+12dQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202411211400
-! Last Modified: 2024年11月21日 14:00
+! Version: 202411212000
+! Last Modified: 2024年11月21日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -55738,7 +55738,7 @@ thisismoney.co.uk###fiveDealsWidget
 point2homes.com,propertyshark.com###fixedban
 topsporter.net###fl-ai-widget-placement
 vscode.one###flamelab-convo-widget
-apkmody.mobi###flirtwith-modal
+apkmody.io,apkmody.mobi###flirtwith-modal
 nanoreview.net###float-sb-right
 animetrilogy.com###floatcenter
 editpad.org###floorad-wrapper
@@ -59464,7 +59464,7 @@ letsgodigital.org##.product__wrapper
 nymag.com##.products-package
 nymag.com##.products-package_single
 kohls.com##.products_grid.sponsored-product
-amtraktrains.com##.productslider
+amtraktrains.com,kitchenknifeforums.com##.productslider
 filehippo.com##.program-actions-header__promo
 filehippo.com##.program-description__slot
 as.com,gokunming.com##.prom
@@ -61831,6 +61831,7 @@ skyscanner.com,skyscanner.net##div > a:has(div[class^="DefaultBanner_sponsorship
 manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##div > div:has([data-testid="banner-spr-label"])
 inverse.com##div > p + div:has(amp-ad)
 outlook.live.com##div.customScrollBar > div > div[id][class]:has(img[src$="/images/ads-olk-icon.png"])
+androidauthority.com##div.d_mh:has-text(Latest deals)
 flightradar24.com##div.items-center.justify-center:has(> div#pb-slot-fr24-airplane:empty)
 douglas.at,douglas.be,douglas.ch,douglas.cz,douglas.de,douglas.es,douglas.hr,douglas.hu,douglas.it,douglas.nl,douglas.pl,douglas.pt,douglas.ro,douglas.si,douglas.sk##div.product-grid-column:has(button[data-testid="sponsored-button"])
 costco.ca##div.product:has(.criteo-sponsored)
@@ -66135,6 +66136,8 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 ||aoao11211iis.top^
+||luunels.com^
+||qcixkb1.xyz^
 ||nois5gj.xyz^
 ||qhestrad.com^
 ||vkbxaixl.icu^
@@ -93027,6 +93030,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||userway.org/api/v1/stats
 ||usizy.com/external/pageview
 ||usr.interactiveone.com^
+||utics.nodejibi.in^
 ||utils.global-e.com/set?
 ||utt.pm/utm/
 ||v.shopify.com^
@@ -95006,6 +95010,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events-tracker.deliveroo.net^
 ||events.api.godaddy.com^
 ||events.baselime.io^
+||events.bsky.app^
 ||events.character.ai^
 ||events.clips4sale.com^
 ||events.framer.com^
@@ -132004,7 +132009,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||stg-deeplink.ring.md^
 ||store.echovisuals.com^
 ||store.esquirrel.at^
-||stream.9now.com.au^
 ||studio.joinsalut.com^
 ||subito.openapp.link^
 ||summary.instaread.co^

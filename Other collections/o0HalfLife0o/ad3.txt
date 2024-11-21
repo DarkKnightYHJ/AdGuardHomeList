@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: n8sOHWn5N7yvtXDSth5zZw
+! Checksum: X9l/agA4RInopGsL7OX+Ug
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202411211400
-! Last Modified: 2024年11月21日 14:00
+! Version: 202411212000
+! Last Modified: 2024年11月21日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1878,6 +1878,8 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 ||aoao11211iis.top^
+||luunels.com^
+||qcixkb1.xyz^
 ||nois5gj.xyz^
 ||qhestrad.com^
 ||vkbxaixl.icu^
@@ -31109,6 +31111,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||userway.org/api/v1/stats
 ||usizy.com/external/pageview
 ||usr.interactiveone.com^
+||utics.nodejibi.in^
 ||utils.global-e.com/set?
 ||utt.pm/utm/
 ||v.shopify.com^
@@ -33088,6 +33091,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events-tracker.deliveroo.net^
 ||events.api.godaddy.com^
 ||events.baselime.io^
+||events.bsky.app^
 ||events.character.ai^
 ||events.clips4sale.com^
 ||events.framer.com^
@@ -70086,7 +70090,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||stg-deeplink.ring.md^
 ||store.echovisuals.com^
 ||store.esquirrel.at^
-||stream.9now.com.au^
 ||studio.joinsalut.com^
 ||subito.openapp.link^
 ||summary.instaread.co^
