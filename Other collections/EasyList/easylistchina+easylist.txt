@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CPbZ20G99qFnaP7h0VeUeQ
-! Version: 202411250911
+! Checksum: zbPQcQS4h9eSzKf5MhOusA
+! Version: 202411251011
 ! Title: EasyList China+EasyList
-! Last modified: 25 Nov 2024 09:11 UTC
+! Last modified: 25 Nov 2024 10:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -10912,7 +10912,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||twkan.com/js/otherad
 ||element-plus.org/images/sponsors/
 !------------------------Specific element hiding rules------------------------!
-cn.bing.com##.b_algo:has(p[class^="b_lineclamp2 b_algoSlug "])
+cn.bing.com#?#.b_algo:-abp-has(p[class^="b_lineclamp2 b_algoSlug "])
 szxx.com.cn###A0
 131400.best,vikacg.com,vikacg.xyz##.post-card-list > a
 appinn.com##a[href*=".houdeyun.cn"]
@@ -77181,6 +77181,7 @@ game8.co##.footer-overlay
 dhakatribune.com##.footer-pop-up-ads-sec
 supercars.com##.footer-promo
 filma24.ch##.footer-reklama
+coinpedia.org##.footer-side-sticky
 wtatennis.com##.footer-sponsors
 skidrowcodexreloaded.com,tbsnews.net##.footer-sticky
 searchcommander.com##.footer-widget
@@ -77501,7 +77502,9 @@ globalrph.com##.homepage-middle-ad
 designspiration.com##.homepageBanner
 homes.co.nz##.homepageTopLeader__container
 artandeducation.net##.homepage__banner
+coinpedia.org##.homepage_banner_ad
 swimswam.com##.homepage_block_ads
+coinpedia.org##.homepage_sidebanner_ad
 radiocity.in##.horiozontal-add
 flv2mp3.by,flvto.biz,flvto.com.mx##.horizontal-area
 getmyuni.com##.horizontalRectangle
@@ -79184,6 +79187,7 @@ reverso.net##.top-horizontal
 india.com##.top-horizontal-banner
 spectrum.ieee.org##.top-leader-container
 thedailystar.net##.top-leaderboard
+coinpedia.org##.top-menu-advertise
 sportingnews.com##.top-mpu-container
 webmd.com##.top-picks
 speedtest.net##.top-placeholder
