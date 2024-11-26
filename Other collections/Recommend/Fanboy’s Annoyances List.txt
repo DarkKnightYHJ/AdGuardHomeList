@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ObIYpFZQ+/C1GuQ8n6UvRQ
-! Version: 202411261411
+! Checksum: BceqxCF0yNMVuqSMcUXAaw
+! Version: 202411261511
 ! Title: Fanboy's Annoyance List
-! Last modified: 26 Nov 2024 14:11 UTC
+! Last modified: 26 Nov 2024 15:11 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -49465,7 +49465,7 @@ insider.com#@#.osano-cm-window
 @@||scripts.finanzen.net/js/cmp/cmp.min.js
 ! FD-287 | FD-4288 | FD-6976
 sixx.de,sat1.de#@#cmp-banner
-! FD-4875
+! FD-4875 | FD-7133
 @@||cdn.taboola.com/libtrc/*/loader.js$script
 @@||cdn.taboola.com/libtrc/impl.$script
 @@||cdn.taboola.com/libtrc/card-interference-detector.$script
@@ -49480,6 +49480,8 @@ sixx.de,sat1.de#@#cmp-banner
 #@#.trc_spotlight_item
 #@#.trc-spotlight-first-recommendation
 #@#.trc-first-recommendation
+##.trc_rbox.syndicatedItemUB
+##.trc_related_container div[data-item-syndicated="true"]
 ! FD-5394
 axelspringer-syndication.de#@#body:not([style*="hidden"]) .cmpboxWelcomeGDPR
 ! FD-5391
