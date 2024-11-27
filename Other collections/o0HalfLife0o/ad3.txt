@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gt4FKqyVo/7Wp1AwPenKEA
+! Checksum: aZLOvdSKF9Zo9W8ZRvD3AA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202411271400
-! Last Modified: 2024年11月27日 14:00
+! Version: 202411272000
+! Last Modified: 2024年11月27日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -11063,6 +11063,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 !------------------------Specific element hiding rules------------------------!
 cn.bing.com#?#.b_algo:-abp-has(p[class^="b_lineclamp2 b_algoSlug "])
 szxx.com.cn###A0
+mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(好 物))
 131400.best,vikacg.com,vikacg.xyz##.post-card-list > a
 appinn.com##a[href*=".houdeyun.cn"]
 fitacg.com##a[href*="ifift.com"]
@@ -22132,6 +22133,7 @@ m.babytree.com##script + a[class]
 /cklink.gif?
 /cklog.js
 /clear.gif?
+/click-tracking.js
 /click/impression?
 /click?track=
 /click_metrics-jquery.js
@@ -24228,6 +24230,8 @@ m.babytree.com##script + a[class]
 /wp-useronline/useronline.js
 /wp_stat.php?
 /wpengine-analytics/js/main.js
+/wpr-beacon.js
+/wpr-beacon.min.js
 /wps-visitor-counter/styles/js/custom.js
 /wpstatistics/v1/hit?
 /wrapper/metrics/v1/custom-metrics?
@@ -33502,6 +33506,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||loom.com/metrics/graphql
 ||lowes.com/gauge/
 ||lowes.com/pharos/api/webTelemetry?
+||lucida.su/api/event
 ||lyft.com/api/track
 ||lyngsat.com/system/loadclick.js
 ||m.facebook.com/ajax/weblite_load_logging/
@@ -71179,6 +71184,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||bukalapak.com/banner-redirector/impression
 ||bukalapak.com/track-external-visit
 ||bukalapak.com/track_external.json
+||dt-tracker.mamikos.com^
 ||ktracker.kumparan.com^
 ||mygostore.com/api/log
 ||t.bukalapak.com^
