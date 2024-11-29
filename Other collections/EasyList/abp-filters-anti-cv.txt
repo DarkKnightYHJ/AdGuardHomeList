@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: uYy1TFfYvutQVyuvd63a/w
-! Version: 202411291501
+! Checksum: wsa9k9CeU8SjNNyU75xqIw
+! Version: 202411291611
 ! Title: ABP filters
-! Last modified: 29 Nov 2024 15:01 UTC
+! Last modified: 29 Nov 2024 16:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1778,7 +1778,7 @@ cafef.vn,gamek.vn,genk.vn,kenh14.vn,soha.vn,tuoitre.vn,afamily.vn,thanhnien.vn#$
 bongda365f.com#$#override-property-read isSkipAds true
 znews.vn#$#abort-on-property-read adtimaConfig
 baomoi.com#$#abort-on-property-write AdtimaRender
-xoivo2.online,tructiepdabong5.co,vaoroiz.tv#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
+xoivo2.online,tructiepdabong5.co,ihst.org#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 kenh14.vn#$#override-property-read Constants.allowAds false
 vndoc.com#$#override-property-read seconds 0
 phimvuihd.org#$#override-property-read urlAds ''
@@ -1796,7 +1796,7 @@ thienhatruyen3.com#$#abort-current-inline-script $ pc-popup-2
 sexphimhd.net,www.gvnvh.net#$#abort-current-inline-script Math
 xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
 xnxx-sex-videos.com#$#override-property-read user_out false
-truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.ing,sieudam.vin,ephimchill.com,ophimhdvn3.net,thuvienhd.xyz,xemtivi.tvhayhd.tv,www.khophim88s.com,nhentaivn.online,mv.dailyphimz.com,mv.phimbathu.one#$#abort-on-property-read document.cookie
+truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.ing,sieudam.vin,ephimchill.com,ophimhdvn3.net,thuvienhd.xyz,xemtivi.tvhayhd.tv,www.khophim88s.com,nhentaivn.online,mv.dailyphimz.com,mv.phimbathu.one,sexhihiz.ch#$#abort-on-property-read document.cookie
 metruyenchu.com#$#abort-on-property-write window.onclick
 ##[href^="//mage98rquewz.com/"]
 truyentuan.xyz#$#abort-current-inline-script $ btpop
@@ -1811,7 +1811,7 @@ phimgichill.net#$#abort-current-inline-script jQuery popurl
 phimgichill.net,hhhay.ink,hh3dhay.life,truyengihotnha.com,truyengihotnha.net,tram3d.net,animevietsub.cx#$#abort-current-inline-script eval $._Eu
 p.thoctv.com#$#abort-current-inline-script document.createElement script
 mephimnhe1.net#$#abort-current-inline-script jQuery popurl
-phimhdc.us,motchill.plus#$#abort-current-inline-script document.addEventListener linksToOpen
+phimhdctv.com,motchill.plus#$#abort-current-inline-script document.addEventListener linksToOpen
 khoaiphim.com,phimmoinay.tv#$#abort-current-inline-script jQuery click_time
 dualeotruyenomega.com,m.blogtruyenmoi.com#$#abort-current-inline-script document.addEventListener popunder
 lxmanga.store#$#abort-current-inline-script $ PopUnder
