@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YYwHQ/RB/8bFEBseHfLkIA
+! Checksum: iibRpbj3WkSt0xkvqegDBQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202411290801
-! Last Modified: 2024年11月29日 08:01
+! Version: 202411291400
+! Last Modified: 2024年11月29日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -7632,7 +7632,9 @@ _800x80_
 ##.ad-wrapper--sidebar
 ##.ad-wrapper-250
 ##.ad-wrapper-bg
+##.ad-wrapper-desktop
 ##.ad-wrapper-left
+##.ad-wrapper-mobile
 ##.ad-wrapper-mobile-atf
 ##.ad-wrapper-outer
 ##.ad-wrapper-solid
@@ -16145,6 +16147,7 @@ gizmodo.jp#@#.l-ad
 vukajlija.com#@#.large-advert
 realgfporn.com#@#.large-right-ad
 atea.com,ateadirect.com,knowyourmobile.com,nlk.org.np#@#.logo-ad
+insideevs.com#@#.m1-header-ad
 doda.jp,tubefilter.com#@#.mainAd
 austurfrett.is,boards.4chan.org,boards.4channel.org#@#.middlead
 thespruce.com#@#.mntl-leaderboard-spacer
@@ -56365,7 +56368,7 @@ hellenicshippingnews.com##.bigbanner
 advocate.com##.bigbox_top_ad-wrap
 scienceabc.com##.bigincontentad
 snokido.com##.bigsquare
-9gag.com,aerotime.aero,blackpoolgazette.co.uk,bundesliga.com,farminglife.com,hotstar.com,ipolitics.ca,lep.co.uk,northamptonchron.co.uk,qpbriefing.com,scotsman.com,shieldsgazette.com,talksport.com,techforbrains.com,the-sun.com,thescottishsun.co.uk,thestar.co.uk,thesun.co.uk,thesun.ie##.billboard
+9gag.com,aerotime.aero,blackpoolgazette.co.uk,bundesliga.com,dev.to,farminglife.com,hotstar.com,ipolitics.ca,lep.co.uk,northamptonchron.co.uk,qpbriefing.com,scotsman.com,shieldsgazette.com,talksport.com,techforbrains.com,the-sun.com,thescottishsun.co.uk,thestar.co.uk,thesun.co.uk,thesun.ie##.billboard
 nypost.com,pagesix.com##.billboard-overlay
 electronicproducts.com##.billboard-wrap
 weatherpro.com##.billboard-wrapper
@@ -56425,6 +56428,7 @@ failory.com##.blog-column-ad
 oxygen.com,syfy.com##.blog-post-section__zergnet
 blogto.com##.blogto-sticky-banner
 manhwaindo.id##.blox
+waterworld.com##.blueconic-recommendations
 azscore.com,bescore.com##.bn
 firstpost.com##.bn-add
 savefree.in,surattimes.com##.bn-content
@@ -57203,7 +57207,7 @@ eonline.com##.gallery-rail-sticky-container
 vicnews.com##.gam
 drive.com.au##.gam-ad
 thechainsaw.com##.gam-ad-container
-locksmithledger.com##.gam-slot-builder
+locksmithledger.com,waterworld.com##.gam-slot-builder
 komikindo.tv##.gambar_pemanis
 cdromance.com##.game-container[style="grid-column: span 2;"]
 geoguessr.com##.game-layout__in-game-ad
@@ -57804,6 +57808,7 @@ scamrate.com##.m-t-3
 tech.hindustantimes.com##.m-to-add
 thestreet.com##.m-video-unit
 thegatewaypundit.com##.m0z4dhxja2
+insideevs.com##.m1-apb
 motor1.com##.m1_largeMPU
 poebuilds.net##.m6lHKI
 net-load.com##.m7s-81.m7s
@@ -57952,6 +57957,7 @@ snowmagazine.com##.mod_banners
 lakeconews.com##.mod_ijoomlazone
 civilsdaily.com##.modal
 breakingenergy.com,epicload.com,shine.cn##.modal-backdrop
+cleaner.com##.modal__intent-container
 livelaw.in##.modal_wrapper_frame
 autoevolution.com##.modeladmid
 duckduckgo.com##.module--carousel-products
@@ -59469,8 +59475,9 @@ windows101tricks.com##.zanui-container
 techspot.com##.zenerr
 antimusic.com##.zerg
 pcmag.com##.zmgad-full-width
-bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com,cults3d.com,elnuevoherald.com,fresnobee.com,heraldonline.com,heraldsun.com,idahostatesman.com,islandpacket.com,kansas.com,kansascity.com,kentucky.com,ledger-enquirer.com,macon.com,mcclatchydc.com,mercedsunstar.com,miamiherald.com,modbee.com,myrtlebeachonline.com,newsobserver.com,sacbee.com,sanluisobispo.com,star-telegram.com,sunherald.com,thenewstribune.com,theolympian.com,thestate.com,tri-cityherald.com,weekand.com##.zone
+bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com,cleaner.com,cults3d.com,elnuevoherald.com,fresnobee.com,heraldonline.com,heraldsun.com,idahostatesman.com,islandpacket.com,kansas.com,kansascity.com,kentucky.com,ledger-enquirer.com,macon.com,mcclatchydc.com,mercedsunstar.com,miamiherald.com,modbee.com,myrtlebeachonline.com,newsobserver.com,sacbee.com,sanluisobispo.com,star-telegram.com,sunherald.com,thenewstribune.com,theolympian.com,thestate.com,tri-cityherald.com,weekand.com##.zone
 bellinghamherald.com##.zone-el
+cleaner.com##.zone-sky
 cnn.com##.zone__ads
 marketscreener.com##.zppAds
 haxnode.net##[action^="//href.li/?"]
@@ -65037,6 +65044,11 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||igabcgnh.icu^
+||saizih.com^
+||1gtp.icu^
+||oo3z.icu^
+||idamcso.top^
 ||0dwm.icu^
 ||satfyxbt.icu^
 ||zodoth.com^
@@ -131535,6 +131547,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||gamergen.com/ajax/actualites/addVue
 ||hits.porn.fr^
 ||hlms.ecologie.gouv.fr^
+||horairesdouverture24.fr/ar.js
 ||ianimes.org/img/tracker.gif
 ||ici.radio-canada.ca/v5/*/trace/
 ||igen.fr/modules/statistics/statistics.php
@@ -132003,6 +132016,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||events.ingatlan.com^
 ||hirtv.hu/ajaxx/_stat/
 ||hirtv.hu/nx_general_stat.jpg?
+||nyitvatartas24.hu/ar.js
 ||otthonterkep.hu/c.js
 ||outal.origo.hu^
 ||rtl.hu/_stat/
