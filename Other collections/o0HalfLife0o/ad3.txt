@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FDEiNruuFXc6ksZ0rH+Vpw
+! Checksum: 6c9h0hbdjYHQRvRUVhYxgQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202412010200
-! Last Modified: 2024年12月01日 02:00
+! Version: 202412011400
+! Last Modified: 2024年12月01日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1881,11 +1881,18 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||jcwlsofn.icu^
+||brircel.com^
+||af6s.icu^
+||edamcsw.top^
+||e8d7.icu^
+||aoao12011iis.top^
 ||ruqaks.com^
 ||bmhtwefv.icu^
 ||olkoins.com^
 ||w59g.icu^
 ||sdamcsb.top^
+||ao1201kas.top^
 ||igabcgnh.icu^
 ||saizih.com^
 ||1gtp.icu^
@@ -11091,6 +11098,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||twkan.com/js/otherad
 ||element-plus.org/images/sponsors/
 !------------------------Specific element hiding rules------------------------!
+cn.bing.com#?#.sb_form_placeholder:-abp-has(>.ad-ghost-slug)
 cn.bing.com#?#.b_algo:-abp-has(p[class^="b_lineclamp2 b_algoSlug "])
 szxx.com.cn###A0
 mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(好 物))
@@ -18864,10 +18872,10 @@ $image,third-party,domain=258zw.com
 :6607/qy/$script,third-party
 _rony.js$script,third-party
 ||lalabaos1*.top/$script,third-party
-||ao11*kas.top/$script,third-party
+||ao1*kas.top/$script,third-party
 /\.[a-z]oubli[a-z].top\//$script,third-party
 /\.[a-z]yjqgp[a-z].top\//$script,third-party
-||aoao11*iis.top/$script,third-party
+||aoao1*iis.top/$script,third-party
 /\.[a-z]weisi[a-z].top\//$script,third-party
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.6666xsw.com|m.chenkuan.com|m.jmshuwu.net|wodexiaoshuoh.com
 !#Novels
@@ -31408,7 +31416,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d1t9uctetvi0tu.cloudfront.net^
 ||d1tbj6eaenapdy.cloudfront.net^
 ||d1vg5xiq7qffdj.cloudfront.net^
-||d1wix2gc2cgqis.cloudfront.net^
 ||d1xfq2052q7thw.cloudfront.net^
 ||d1z3r0i09bwium.cloudfront.net^
 ||d1z9vm58yath60.cloudfront.net^
