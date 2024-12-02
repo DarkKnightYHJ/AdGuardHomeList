@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EyiS3c73GQkPRUq6+eRJNQ
+! Checksum: thHCPx30gWT/Fn8aXHRvzA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202412022000
-! Last Modified: 2024年12月02日 20:00
+! Version: 202412030200
+! Last Modified: 2024年12月03日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1888,6 +1888,8 @@ newduba.cn###jq_youxi
 ||dv0i.icu^
 ||4cx5.icu^
 ||criqai.com^
+||fy60.icu^
+||tdamcsi.top^
 ||jcwlsofn.icu^
 ||brircel.com^
 ||af6s.icu^
@@ -11119,7 +11121,7 @@ appinn.com##a[href*=".houdeyun.cn"]
 fitacg.com##a[href*="ifift.com"]
 cnys.tv###player_pause
 twkan.com##.txtcenter
-element-plus.org##.page-sidebar-layout
+element-plus.org##.page-sidebar-group
 element-plus.org#?#div:-abp-has(>.sponsor-item)
 hcbbs.com##.wp > div:not([id]):not([class]) > a > img[src*=".imgdb.cn"]
 sehuatang.net##DIV[class^="show-text"]
@@ -33150,6 +33152,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ea.epochbase.com^
 ||ebay.com/delstats/
 ||ebay.com^*/customer_image_service?
+||ebay.com^*/madrona_loadscripts.js
+||ebaystatic.com/cr/v/c01/c54e60e1-996e-4a53-a314-f44a6b151b40.min.js
+||ebaystatic.com/cr/v/c01/nh24082119176031f8a0afcb42d.js
+||ebaystatic.com/cr/v/c01/ubt241024192c097b9ddc0a81e0a.js
 ||ebaystatic.com^*tracking/configuration.js
 ||ec.thredup.com^
 ||edge.staging.fullstory.com^
