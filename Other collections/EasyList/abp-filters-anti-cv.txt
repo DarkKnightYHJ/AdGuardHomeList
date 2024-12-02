@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: XVJrDpXTERBpwpPGwxfMSw
-! Version: 202412021011
+! Checksum: rw3rz/mt5toVAmme498mNg
+! Version: 202412021101
 ! Title: ABP filters
-! Last modified: 02 Dec 2024 10:11 UTC
+! Last modified: 02 Dec 2024 11:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -931,7 +931,7 @@ mult34.com#$#abort-current-inline-script decodeURI; abort-on-property-read decod
 hdvid.online#$#abort-on-property-read Fingerprint2; abort-on-property-read atob
 123-movies.city,actvid.com,cineb.*,hdtoday.*,hdtodayz.*,solarmovie.*,vidbem.com,upload4earn.org,uploadbyte.com,watchseries.ma,yts.mx,zoechip.com#$#abort-on-property-read localStorage
 dood.pm,dood.so,dood.to,dood.video,dood.watch,dood.la,dood.wf,dood.ws,doods.pro,doodstream.co,doodstream.com,dooood.com,streamsb.net#$#abort-on-property-read DoodPop; abort-on-property-write adb; abort-on-property-write cRAds; abort-on-property-write xRds; abort-on-property-write xPoPAdS
-doood.site,jasminetesttry.com,seaporn.org,vid2faf.site,vidsrc.pro#$#abort-on-property-read window.open
+doood.site,igetintopc.com,jasminetesttry.com,seaporn.org,vid2faf.site,vidsrc.pro#$#abort-on-property-read window.open
 youdbox.com,vudeo.io,vudeo.co,vudeo.net#$#abort-current-inline-script String.fromCharCode XMLHttpRequest
 filecrypt.cc,filecrypt.co#$#abort-on-property-write isAdblock; abort-on-property-write isAdblock2
 hclips.com,upornia.com#$#abort-on-property-read adver
