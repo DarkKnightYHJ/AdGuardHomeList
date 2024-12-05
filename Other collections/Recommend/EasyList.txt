@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: X1UgOECCtsTMt5JLicaClg
-! Version: 202412051011
+! Checksum: V+HmNmkVGxe0aNZEhcS6qg
+! Version: 202412051101
 ! Title: EasyList
-! Last modified: 05 Dec 2024 10:11 UTC
+! Last modified: 05 Dec 2024 11:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -60652,7 +60652,6 @@ time.com##.article-small-sidebar > .sticky-container:has(div[id^="ad-"])
 blitz.gg##.aside-content-column:has(.display-ad)
 beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,greenwichtime.com,houstonchronicle.com,lmtonline.com,manisteenews.com,michigansthumb.com,middletownpress.com,mrt.com,myjournalcourier.com,myplainview.com,mysanantonio.com,newstimes.com,nhregister.com,ourmidland.com,registercitizen.com,sfchronicle.com,stamfordadvocate.com,thehour.com,theintelligencer.com##.b-gray300:has-text(Advertisement)
 olympics.com##.b2p-list__item:has(> .adv-fluid)
-bing.com##.b_algo:has(p[class^="b_lineclamp2 b_algoSlug "])
 outsports.com##.bg-gray-100:has(.adb-os-lb-incontent)
 atlanticsuperstore.ca,fortinos.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca##.block-wrapper:has(.element-header__sponsoredLabel)
 loblaws.ca##.block-wrapper:has([data-track-product-component="carousel||rmp_sponsored"])
@@ -60791,6 +60790,7 @@ svgrepo.com##[class^="style_native"]:has([href*="buysellads.com"])
 tesco.com##[class^="styled__StyledLIProductItem"]:has([class^="styled__StyledOffers"])
 argos.co.uk##[class^="styles__LazyHydrateCard"]:has([class*="ProductCardstyles__FlyoutBadge"])
 argos.co.uk##[class^="styles__LazyHydrateCard-sc"]:has([class*="SponsoredBadge"])
+outlook.live.com##[data-app-section="MessageList"] div[style^="position: absolute; left: 0px; top: 0px"]:has(.ms-Shimmer-container)
 cargurus.com##[data-cg-ft="car-blade"]:has([data-eyebrow^="FEATURED"])
 cargurus.com##[data-cg-ft="car-blade-link"]:has([data-cg-ft="srp-listing-blade-sponsored"])
 avxhm.se##[data-localize]:has(a[href^="https://canv.ai/"])
@@ -60876,7 +60876,7 @@ nicelocal.com##div[style="min-height: 90px;"]:has(iframe[id^="google_ads_"])
 tartaria-faucet.net##div[style^="display"]:has([src^="https://multiwall-ads.shop/"])
 90min.com##figure:has(> div > #mm-player-placeholder-large-screen)
 nex-software.com##h4:has(a[href$="/reimage"])
-bing.com##li.b_algo:has(img.cico.siteicon.rms_img[src^="https://www.bing.com/th?id=O"])
+bing.com##li.b_algo:has(> [class="b_caption"] > p.b_lineclamp2.b_algoslug > span.algoSlug_icon)
 walmart.com##li.items-center:has(div[data-ad-component-type="wpa-tile"])
 walgreens.com##li.owned-brands:has(figure.sponsored)
 macys.com##li.productThumbnailItem:has(.sponsored-items-label)
