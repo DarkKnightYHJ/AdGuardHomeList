@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Gf93/rXF5UIxeN292v8nzQ
+! Checksum: PhL63SQMihTnKdZXskjjfg
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202412050801
-! Last Modified: 2024年12月05日 08:01
+! Version: 202412051400
+! Last Modified: 2024年12月05日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1883,6 +1883,9 @@ newduba.cn###jq_youxi
 ||cupfox.app^$third-party
 ||eatnontf.icu^
 ||khesuts.com^
+||mdamcsx.top^
+||m6d.icu^
+||4i1.icu^
 ||vokzqgjp.icu^
 ||sokars.com^
 ||grerzieds.com^
@@ -11135,6 +11138,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||element-plus.org/images/sponsors/
 !------------------------Specific element hiding rules------------------------!
 b0d8a0f6.com##DIV[id^="content_"]
+bing.com#?#.b_algo:-abp-has(.ad_esltitle)
+bing.com#?#.b_algo:-abp-has(.b_ads1line)
+cn.bing.com#?#.b_algo:-abp-has(.cico>img[src*="bing.com/th?id=O"])
 cn.bing.com#?#.sb_form_placeholder:-abp-has(>.ad-ghost-slug)
 cn.bing.com#?#.b_algo:-abp-has(.cico.siteicon.rms_img[src*="bing.com/th?id=O"])
 szxx.com.cn###A0
