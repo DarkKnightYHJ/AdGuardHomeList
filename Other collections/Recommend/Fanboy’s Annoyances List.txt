@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: koADUUF5veQ66QgEkN8aGw
-! Version: 202412061101
+! Checksum: G8c7R5Rvchbw7stbBmGcCg
+! Version: 202412061221
 ! Title: Fanboy's Annoyance List
-! Last modified: 06 Dec 2024 11:01 UTC
+! Last modified: 06 Dec 2024 12:21 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -37779,6 +37779,7 @@ cafonline.com##.caf-o-footer__socials
 cryptotvplus.com##.call-now-button
 iotsrg.org##.call-to-action
 u.today##.card__subscribe
+u.today##.card__wrap
 cricbuzz.com##.cb-social-td
 androidpcreview.com##.cb__share-box
 today.usc.edu##.cc--social-share
@@ -37815,6 +37816,7 @@ allafrica.com,dailysignal.com##.connect
 earthsky.org##.connect-2
 utexas.edu##.connect-links
 financemagnates.com##.contact-widget__sticky
+u.today##.contacts-social
 dailymail.co.uk##.container-3zJLP
 christian.org.uk##.content__sharing
 carnegieendowment.org##.controls
@@ -38107,7 +38109,7 @@ cointribune.com##.list-single-actions.xl\:w-\[100px\].mt-4.relative
 soundcloud.com##.listenDetails__login
 listenmoneymatters.com##.lmm_external_footer
 analyticsinsight.net##.loftocean-social-share-icon
-bringmethenews.com,dealbreaker.com,psmag.com,si.com,thespun.com,thestreet.com##.m-social
+bitcoinmagazine.com,bringmethenews.com,dealbreaker.com,psmag.com,si.com,thespun.com,thestreet.com##.m-social
 consumerfinance.gov##.m-social-media
 insideevs.com##.m1-article-meta_share
 odditycentral.com##.mashsb-container
@@ -42950,7 +42952,7 @@ mastory.jp##.qualvaBtn
 news.yahoo.co.jp##.riff-BackTop__root
 sp.nicovideo.jp##.searchResult-nicoadNicodicItem
 sofmap.com##.side_bnr
-nicovideo.jp##div[class*="anim-n_slideFadeInFromBottom"]
+nicovideo.jp##div[class*="anim-n_slideFadeInFromBottom"]:not([aria-label]):has(a[data-anchor-area$="floating_premium_banner"])
 ||amazonaws.com/cdn.ma-site.com/common/chatbots.js$domain=mastory.jp
 ||api.popin.cc^$third-party
 ||bot.agerun.jp^$third-party
