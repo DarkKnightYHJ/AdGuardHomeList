@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0qHwHCXyDTX0h24Vs5aUwg
-! Version: 202412060911
+! Checksum: burZVjTsEiJGhuGI3dTEXQ
+! Version: 202412061011
 ! Title: EasyList China+EasyList
-! Last modified: 06 Dec 2024 09:11 UTC
+! Last modified: 06 Dec 2024 10:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1748,6 +1748,7 @@ newduba.cn###jq_youxi
 ||hjimtyu.top^
 ||u6u.icu^
 ||ii3.icu^
+||inzut.com^
 ||eatnontf.icu^
 ||khesuts.com^
 ||mdamcsx.top^
@@ -74516,6 +74517,7 @@ dashnet.org###support
 vk.com,vk.ru###system_msg
 etherscan.io,polygonscan.com###t8xt5pt6kr-0-1
 gumtree.com###tBanner
+cbsnews.com###taboola-around-the-web-video-door
 comicbookrealm.com###tad
 cyclingtips.com,mirror.co.uk###takeover
 romsgames.net###td-top-leaderboard
@@ -80123,7 +80125,7 @@ nicelocal.com##div[style="min-height: 90px;"]:has(iframe[id^="google_ads_"])
 tartaria-faucet.net##div[style^="display"]:has([src^="https://multiwall-ads.shop/"])
 90min.com##figure:has(> div > #mm-player-placeholder-large-screen)
 nex-software.com##h4:has(a[href$="/reimage"])
-bing.com##li.b_algo:has(> [class="b_caption"] > p.b_lineclamp2.b_algoslug > span.algoSlug_icon)
+bing.com##li.b_algo:has([class="b_caption"] > p.b_lineclamp2[class*="b_algo"][class*="slug"] > span.algoSlug_icon)
 walmart.com##li.items-center:has(div[data-ad-component-type="wpa-tile"])
 walgreens.com##li.owned-brands:has(figure.sponsored)
 macys.com##li.productThumbnailItem:has(.sponsored-items-label)
