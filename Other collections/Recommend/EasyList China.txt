@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +DXDUgX1C1FhjfN+p8d36w
-! Version: 202412060251
+! Checksum: 5lBBdxIaNbBcKWVk2F1wJA
+! Version: 202412060331
 ! Title: EasyList China
-! Last modified: 06 Dec 2024 02:51 UTC
+! Last modified: 06 Dec 2024 03:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1716,6 +1716,7 @@ newduba.cn###jq_youxi
 ##style + .vdgdo
 ##.tg-m.tg-site
 ##.tg-pc.tg-site
+##body[ontouchstart] > div[id^="content_"][style="display: block;"]
 ##.relative > div > img[sizes="100vh"][width="0"]
 ##a[href^="/archives/"] > .post-card > .blog-background[style*="gif;base64"]
 ###banner_links.banner-container
@@ -1744,6 +1745,7 @@ newduba.cn###jq_youxi
 ||ugajiwft.icu^
 ||hjimtyu.top^
 ||u6u.icu^
+||ii3.icu^
 ||eatnontf.icu^
 ||khesuts.com^
 ||mdamcsx.top^
@@ -11005,7 +11007,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||twkan.com/js/otherad
 ||element-plus.org/images/sponsors/
 !------------------------Specific element hiding rules------------------------!
-b0d8a0f6.com##div[id^="content_"]
 bing.com#?#.b_algo:-abp-has(.tpmeta:not(.tpmeta:-abp-has(.b_attribution)))
 bing.com#?#.b_algo:-abp-has(.ad_esltitle)
 bing.com#?#.b_algo:-abp-has(.b_ads1line)
