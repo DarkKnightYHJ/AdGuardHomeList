@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6m0SqLy0JVqWj/q4SKVwWA
+! Checksum: ucg4fCBpNMKRhLN6LHPkRw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202412072000
-! Last Modified: 2024年12月07日 20:00
+! Version: 202412080200
+! Last Modified: 2024年12月08日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1890,6 +1890,8 @@ newduba.cn###jq_youxi
 ||shaorgs.cn^
 ||krinkred.com^
 ||zikeke7.com^
+||vh8.icu^
+||kjimtyd.top^
 ||khengrull.com^
 ||ugajiwft.icu^
 ||hjimtyu.top^
@@ -32943,6 +32945,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beacon.shutterfly.com^
 ||beacon.walmart.com^
 ||beacon.wikia-services.com^
+||beacons.digital.disneyadvertising.com^
 ||bearblog.dev/hit/
 ||beforeitsnews.com/core/ajax/counter/count.php^
 ||behance.net/log
@@ -71523,6 +71526,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||tower.jp/bundle/beacon
 ||track.buyma.com^
 ||track.prod.smash.pet^
+||tracker.curama.jp^
 ||tracking.ai.rakuten.co.jp^
 ||tracking.game8.jp^
 ||tracking.gnavi.co.jp^
