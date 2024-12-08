@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SRHRjTVMJiBrMlfP3Q/krg
-! Version: 202412072301
+! Checksum: JFn1yD8QziAwkyZa8edtog
+! Version: 202412080111
 ! Title: EasyList China+EasyList
-! Last modified: 07 Dec 2024 23:01 UTC
+! Last modified: 08 Dec 2024 01:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1743,6 +1743,8 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||attelaoe.com^
+||dsoxgdjv.icu^
 ||nmhbmfxh.icu^
 ||bhukkeks.com^
 ||f7j.icu^
@@ -34397,8 +34399,6 @@ _800x80_
 ##.RC-AD-BOX-MIDDLE
 ##.RC-AD-BOX-TOP
 ##.RC-AD-TOP-BANNER
-! Invideo advert: gizmodo.com,avclub.com,qz.com,lifehacker.com,theroot.com
-##.js_related-stories-inset
 ! element specific
 ##ins.adsbygoogle[data-ad-client]
 ##ins.adsbygoogle[data-ad-slot]
@@ -77034,6 +77034,7 @@ nicelocal.com##.js-results-slot
 theguardian.com##.js-top-banner
 extratv.com##.js-track-link
 chewy.com##.js-tracked-ad-product
+kotaku.com,qz.com,theroot.com##.js_related-stories-inset
 iobroker.net##.jss125
 paycalculator.com.au##.jss336
 calorieking.com##.jss356
