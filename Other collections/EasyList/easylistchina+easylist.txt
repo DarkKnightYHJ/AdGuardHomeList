@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8chOvU0hWFu1vRGLGwEPJw
-! Version: 202412090911
+! Checksum: lrJlqwqpdJlsEFDzVC7LFw
+! Version: 202412091011
 ! Title: EasyList China+EasyList
-! Last modified: 09 Dec 2024 09:11 UTC
+! Last modified: 09 Dec 2024 10:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -19531,7 +19531,6 @@ fqsousou.com,kengso.com#@#.user-share
 /adsAPI.js$script
 /adsbanner-$image
 /adsbanner/*$image
-/adsbox.$~script,domain=~adsbox.com.sg
 /adscontroller.js$script
 /adscroll.js$script
 /adsdelivery/*$subdocument
@@ -19555,7 +19554,7 @@ fqsousou.com,kengso.com#@#.user-share
 /adtech;
 /adtools.js$script
 /adtrack.$domain=~adtrack.ca|~adtrack.yacast.fr
-/adultdvdparadisecompopinsecound.js
+/adultdvdparadisecompopinsecound.js$script
 /adunit/track-view|
 /adunits/bcid?
 /adutil.js$script
@@ -20015,7 +20014,7 @@ fqsousou.com,kengso.com#@#.user-share
 /velvet_stack_cmp.js$script
 /vendors~ads.
 /video_ads.$script
-/videoad.$domain=~videoad.in
+/videoad.$~xmlhttprequest,domain=~videoad.in
 /videoad/*$script
 /videoads/*$~xmlhttprequest
 /videojs.ads-$script,stylesheet
