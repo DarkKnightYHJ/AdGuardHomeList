@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: K1mwmNKQPcIOQDUoKj7/Vw
+! Checksum: Uv2fdlW24KbAc6OFORU2zA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202412112000
-! Last Modified: 2024年12月11日 20:00
+! Version: 202412120200
+! Last Modified: 2024年12月12日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -551,7 +551,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adrecover-new.js$script
 /adrecover.js$script
 /adright.$domain=~adright.com
-/adriver.$~script,domain=~adriver.co
 /ads-250.$image
 /ads-async.$script
 /ads-common.$image,script
@@ -774,7 +773,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /exitpopup.js$script
 /exitsplash.php$script
 /exoads/*$script
-/exoclick.$~script,domain=~exoclick.bamboohr.co.uk|~exoclick.kayako.com
+/exoclick.$~script,~xmlhttprequest,domain=~exoclick.bamboohr.co.uk|~exoclick.kayako.com
 /exonb/*$script
 /exonob/*$script
 /exports/tour/*$third-party
@@ -16642,6 +16641,7 @@ browsershots.org#@#.advert_area
 ||6179b859b8.com^
 ||61t2ll6yy.com^
 ||61zdn1c9.skin^
+||62a77005fb.com^
 ||62ca04e27a.com^
 ||63912b9175.com^
 ||639c909d45.com^
@@ -29852,6 +29852,7 @@ browsershots.org#@#.advert_area
 ||lamplynx.com^
 ||lamppostharmoniousunaware.com^
 ||lampshademirror.com^
+||lamrissmyol.com^
 ||lanceforthwith.com^
 ||landelcut.com^
 ||landitmounttheworld.com^
@@ -57600,7 +57601,7 @@ snowbrains.com##.fuse-slot-dynamic
 psypost.org##.fuse-slot-mini-scroller
 stylecraze.com##.fx-flying-carpet
 fxstreet.com##.fxs_leaderboard
-aframnews.com,afro.com,aurn.com,aviacionline.com,blackvoicenews.com,borneobulletin.com.bn,businessday.ng,businessofapps.com,chargedevs.com,chicagodefender.com,chimpreports.com,coinweek.com,collive.com,coralspringstalk.com,dailynews.co.zw,dailysport.co.uk,dallasvoice.com,defence-industry.eu,dieworkwear.com,draxe.com,gatewaynews.co.za,gayexpress.co.nz,gematsu.com,hamodia.com,islandecho.co.uk,jacksonvillefreepress.com,marshallradio.net,mediaplaynews.com,moviemaker.com,newpittsburghcourier.com,nondoc.com,postnewsgroup.com,richmondshiretoday.co.uk,sammobile.com,savannahtribune.com,spaceref.com,swling.com,talkers.com,talkradioeurope.com,thegolfnewsnet.com,utdmercury.com,waamradio.com,womensagenda.com.au##.g
+aframnews.com,afro.com,aurn.com,aviacionline.com,blackvoicenews.com,borneobulletin.com.bn,brewmasterly.com,businessday.ng,businessofapps.com,carstopia.net,chargedevs.com,chicagodefender.com,chimpreports.com,coinweek.com,collive.com,coralspringstalk.com,dailynews.co.zw,dailysport.co.uk,dallasvoice.com,defence-industry.eu,dieworkwear.com,draxe.com,gatewaynews.co.za,gayexpress.co.nz,gematsu.com,hamodia.com,islandecho.co.uk,jacksonvillefreepress.com,marshallradio.net,mediaplaynews.com,moviemaker.com,newpittsburghcourier.com,nondoc.com,postnewsgroup.com,richmondshiretoday.co.uk,sammobile.com,savannahtribune.com,spaceref.com,swling.com,talkers.com,talkradioeurope.com,thegolfnewsnet.com,utdmercury.com,waamradio.com,womensagenda.com.au##.g
 marionmugshots.com##.g-1
 marionmugshots.com##.g-3
 coinweek.com##.g-389
@@ -61076,6 +61077,7 @@ sainsburys.co.uk##.pt__swiper--grid-item:has(.product-header--citrus[data-testid
 decisiondeskhq.com##.publirAds
 ksl.com##.queue:has(.sponsored)
 olx.com.pk##.react-swipeable-view-container:has([href*="http://onelink.to"])
+downforeveryoneorjustme.com##.relative.bg-white:has-text(PolyBuzz)
 laravel-news.com##.relative:has([wire\:key="article-ad-card"])
 metager.org##.result:has(a[href^="https://metager.org"][href*="/partner/r?"])
 metager.org##.result:has(a[href^="https://r.search.yahoo.com/"])
@@ -65509,6 +65511,8 @@ newduba.cn###jq_youxi
 ||ojimtyk.top^
 ||tteferty33.fun^
 ||suzalsln.com^
+||a7c.icu^
+||ljimtyl.top^
 ||wyvpkmbj.icu^
 ||thunnqyo.com^
 ||wjimtye.top^
@@ -94350,6 +94354,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cloudfront.net/tracker-latest.min.js
 ||cloudfront.net/vis_opt.js
 ||cloudfront.net/vis_opt_no_jquery.js
+||cloudzilla.ai/ingest/
 ||clp-mms.cloudpro.co.uk^
 ||cm-mms.coachmag.co.uk^
 ||cm.nordvpn.com^
