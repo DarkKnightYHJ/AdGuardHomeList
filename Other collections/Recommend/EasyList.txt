@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: QXTp1gmR5LwdFrMd+hMVxQ
-! Version: 202412111311
+! Checksum: R6a7p6/s7G/VaquO6W2siw
+! Version: 202412111411
 ! Title: EasyList
-! Last modified: 11 Dec 2024 13:11 UTC
+! Last modified: 11 Dec 2024 14:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -453,7 +453,7 @@
 /exitpopup.js$script
 /exitsplash.php$script
 /exoads/*$script
-/exoclick.$~script,domain=~exoclick.bamboohr.co.uk|~exoclick.kayako.com
+/exoclick.$~script,~xmlhttprequest,domain=~exoclick.bamboohr.co.uk|~exoclick.kayako.com
 /exonb/*$script
 /exonob/*$script
 /exports/tour/*$third-party
