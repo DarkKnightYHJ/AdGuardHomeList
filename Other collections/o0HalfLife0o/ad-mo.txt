@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QJ74ORQd3mksW+1dd4vH0Q
+! Checksum: YVf4k9j9sR9sKenV+i5sdw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202412130801
-! Last Modified: 2024年12月13日 08:01
+! Version: 202412131400
+! Last Modified: 2024年12月13日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -51294,7 +51294,6 @@ browsershots.org#@#.advert_area
 ||search-carousel-widget.snc-prod.aws.cinch.co.uk^
 ||secure.money.com^$third-party
 ||service.smscoin.com/js/sendpic.js
-||services.zam.com^
 ||shareasale.com/image/$third-party
 ||shink.in/js/script.js
 ||shopmyshelf.us^$third-party
@@ -65522,6 +65521,7 @@ newduba.cn###jq_youxi
 ##style + .vdgdo
 ##.tg-m.tg-site
 ##.tg-pc.tg-site
+##body[ontouchstart] > .wrap > div[id^="content_"][style="display: block;"]
 ##body[ontouchstart] > div[id^="content_"][style="display: block;"]
 ##.relative > div > img[sizes="100vh"][width="0"]
 ##a[href^="/archives/"] > .post-card > .blog-background[style*="gif;base64"]
@@ -65549,6 +65549,8 @@ newduba.cn###jq_youxi
 ||owsrgljb.icu^
 ||ziqniduy.com^
 ||dddstew6cw8.fun^
+||ctimiyf.top^
+||8et.icu^
 ||neldatsy.com^
 ||yqlzccxn.icu^
 ||bjimtyv.top^

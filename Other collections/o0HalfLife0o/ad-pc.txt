@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nh1cDr86q9O1uvxzuy0BrQ
+! Checksum: ECbTNhlR0Qvz/g6BS1m7gQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202412130801
-! Last Modified: 2024年12月13日 08:01
+! Version: 202412131400
+! Last Modified: 2024年12月13日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -51406,7 +51406,6 @@ browsershots.org#@#.advert_area
 ||search-carousel-widget.snc-prod.aws.cinch.co.uk^
 ||secure.money.com^$third-party
 ||service.smscoin.com/js/sendpic.js
-||services.zam.com^
 ||shareasale.com/image/$third-party
 ||shink.in/js/script.js
 ||shopmyshelf.us^$third-party
@@ -65634,6 +65633,7 @@ newduba.cn###jq_youxi
 ##style + .vdgdo
 ##.tg-m.tg-site
 ##.tg-pc.tg-site
+##body[ontouchstart] > .wrap > div[id^="content_"][style="display: block;"]
 ##body[ontouchstart] > div[id^="content_"][style="display: block;"]
 ##.relative > div > img[sizes="100vh"][width="0"]
 ##a[href^="/archives/"] > .post-card > .blog-background[style*="gif;base64"]
@@ -65661,6 +65661,8 @@ newduba.cn###jq_youxi
 ||owsrgljb.icu^
 ||ziqniduy.com^
 ||dddstew6cw8.fun^
+||ctimiyf.top^
+||8et.icu^
 ||neldatsy.com^
 ||yqlzccxn.icu^
 ||bjimtyv.top^
