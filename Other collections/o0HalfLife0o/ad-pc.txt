@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tRIVYazc+30TKo4KOaLjYw
+! Checksum: fIQBAjB/c6HNjpsMWhRkwA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202412132000
-! Last Modified: 2024年12月13日 20:00
+! Version: 202412140200
+! Last Modified: 2024年12月14日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -16654,6 +16654,7 @@ browsershots.org#@#.advert_area
 ||49b6b77e56.com^
 ||49d4db4864.com^
 ||4a9517991d.com^
+||4armn.com^
 ||4b6994dfa47cee4.com^
 ||4b7140e260.com^
 ||4bad5cdf48.com^
@@ -17904,6 +17905,7 @@ browsershots.org#@#.advert_area
 ||afgwsgl.com^
 ||afgzipohma.com^
 ||afiliapub.click^
+||afilliatetraff.com^
 ||afkearupl.com^
 ||afkwa.com^
 ||afloatroyalty.com^
@@ -25890,6 +25892,7 @@ browsershots.org#@#.advert_area
 ||frettedmalta.top^
 ||frezahkthnz.com^
 ||frfetchme.com^
+||frfsjjtis.com^
 ||fri4esianewheywr90itrage.com^
 ||frictionliteral.com^
 ||frictionterritoryvacancy.com^
@@ -29734,6 +29737,7 @@ browsershots.org#@#.advert_area
 ||knownwarn.com^
 ||knpfx.life^
 ||kntodvofiyjjl.xyz^
+||knubletupgrow.shop^
 ||knutenegros.pro^
 ||koabapeed.com^
 ||koafaimoor.net^
@@ -33430,6 +33434,7 @@ browsershots.org#@#.advert_area
 ||oometermerkhet.click^
 ||oomsijahail.com^
 ||oomsoapt.net^
+||oomsurtour.net^
 ||oongouha.xyz^
 ||oonsouque.com^
 ||oopatet.com^
@@ -35251,6 +35256,7 @@ browsershots.org#@#.advert_area
 ||printerswear.com^
 ||printgrownuphail.com^
 ||printsmull.com^
+||prioraslop.com^
 ||priorityblockinghopped.com^
 ||priselapse.com^
 ||prisonfirmlyswallow.com^
@@ -42091,6 +42097,7 @@ browsershots.org#@#.advert_area
 ||villagerreporter.com^
 ||vilmgins.com^
 ||vilpujzmyhu.com^
+||vimaxckc.com^
 ||vincentagrafes.top^
 ||vindicosuite.com^
 ||vindictivegrabnautical.com^
@@ -46747,6 +46754,7 @@ browsershots.org#@#.advert_area
 ||affmoneyy.com^$popup
 ||affpa.top^$popup
 ||affstreck.com^$popup
+||afilliatetraff.com^$popup
 ||afodreet.net^$popup
 ||afre.guru^$popup
 ||afront.io^$popup
@@ -65664,6 +65672,8 @@ newduba.cn###jq_youxi
 ||ctimiyf.top^
 ||8et.icu^
 ||treimphens.com^
+||zr3.icu^
+||htimiyu.top^
 ||neldatsy.com^
 ||yqlzccxn.icu^
 ||bjimtyv.top^
@@ -136047,7 +136057,7 @@ news.qq.com##+js(set, SSPAd.prototype.loadAd, noopFunc)
 ||res.ab.qq.com/tab/$script
 ||v.qq.com/cache/wuji/object^$script
 bilibili.com##.ad-report, .ad-floor
-bilibili.com##.feed-card:has(>div:only-child),div.bili-video-card:has(>div:only-child)
+bilibili.com##.container.is-version8 > .feed-card:has(>div:only-child), .container.is-version8 > .bili-video-card:has(>div:only-child)
 bilibili.com##.gg-floor-module,#slide_ad,a[href^="//cm.bilibili.com"]
 ||api.bilibili.com/x/web-show/res/loc?pf=$~script
 ||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js^$empty
