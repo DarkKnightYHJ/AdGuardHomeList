@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: otWdFc32BDfKXNQsc+dU1w
+! Checksum: QJ74ORQd3mksW+1dd4vH0Q
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202412130200
-! Last Modified: 2024年12月13日 02:00
+! Version: 202412130801
+! Last Modified: 2024年12月13日 08:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -36843,6 +36843,7 @@ browsershots.org#@#.advert_area
 ||rhagoseasta.com^
 ||rhendam.com^
 ||rheneapfg.com^
+||rhiaxplrolm.com^
 ||rhinioncappers.com^
 ||rhinocerosobtrusive.com^
 ||rhombicsomeday.com^
@@ -42658,6 +42659,7 @@ browsershots.org#@#.advert_area
 ||whirlclick.com^
 ||whirltoes.com^
 ||whirlwindofnews.com^
+||whirredbajau.com^
 ||whishannuent.com^
 ||whiskersbonnetcamping.com^
 ||whiskerssituationdisturb.com^
@@ -61163,6 +61165,7 @@ jalopnik.com,kotaku.com,theroot.com##[class]:has(> .related-stories-inset-video)
 polygon.com,vox.com##[class]:has(> [data-concert])
 standard.co.uk##[class]:has(> [data-fluid-zoneid])
 independent.co.uk,standard.co.uk,the-independent.com##[class]:has(> [data-mpu])
+nytimes.com##[class]:has(> [id="ad-top"])
 thrillist.com##[class^="Container__GridRow-sc-"]:has(> .concert-ad)
 skyscanner.com##[class^="FlightsResults"] > div:has([class^="Sponsored"])
 petco.com##[class^="citrus-carousel-"]:has([class^="carousel__Sponsored"])
@@ -65543,6 +65546,9 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||owsrgljb.icu^
+||ziqniduy.com^
+||dddstew6cw8.fun^
 ||neldatsy.com^
 ||yqlzccxn.icu^
 ||bjimtyv.top^
@@ -83295,7 +83301,6 @@ fqsousou.com,kengso.com#@#.user-share
 /analytics.config.js
 /analytics.do
 /analytics.gif?
-/analytics.html?
 /analytics.js/v1/*
 /analytics.plausible.js
 /analytics.prod.$domain=~fifteen.eu
@@ -133085,7 +133090,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||fb.ru/stat/
 ||fontanka.ru/api/metrics/
 ||fotostrana.ru/start/
-||goya.rutube.ru^
+||goya.rutube.ru^$~image
 ||hh.ru/analytics^
 ||hh.ru/stat?
 ||interfax.ru/cnt/
@@ -133416,6 +133421,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||extreme-ip-lookup.com^$script,domain=bulkbarn.ca
 @@||ezodn.com/cmp/gvl.json$xmlhttprequest
 @@||fast.fonts.net/jsapi/core/mt.js$script,domain=bkmedical.com|eclecticbars.co.uk|gables.com|itsolutions-inc.com|senate.gov
+@@||fdi.fiduciarydecisions.com/a/lib/gtag/gtag.js$script,~third-party
+@@||fdi.fiduciarydecisions.com/v/app/components/*/Analytics.js$script,~third-party
 @@||fichub.com/plugins/adobe/lib/AppMeasurement.js$domain=natgeotv.com
 @@||fichub.com/plugins/adobe/lib/VisitorAPI.js$domain=natgeotv.com
 @@||filme.imyfone.com/assets/js/gatrack.js$~third-party
