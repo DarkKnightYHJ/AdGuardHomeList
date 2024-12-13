@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: amfeOh2MlItk/iFB27ndoQ
+! Checksum: mpstQWwWSjfwRTnwhXsV4Q
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202412131400
-! Last Modified: 2024年12月13日 14:00
+! Version: 202412132000
+! Last Modified: 2024年12月13日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -63,6 +63,7 @@ news.qq.com##+js(set, SSPAd.prototype.loadAd, noopFunc)
 ||res.ab.qq.com/tab/$script
 ||v.qq.com/cache/wuji/object^$script
 bilibili.com##.ad-report, .ad-floor
+bilibili.com##.feed-card:has(>div:only-child),div.bili-video-card:has(>div:only-child)
 bilibili.com##.gg-floor-module,#slide_ad,a[href^="//cm.bilibili.com"]
 ||api.bilibili.com/x/web-show/res/loc?pf=$~script
 ||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js^$empty
@@ -1888,6 +1889,7 @@ newduba.cn###jq_youxi
 ||dddstew6cw8.fun^
 ||ctimiyf.top^
 ||8et.icu^
+||treimphens.com^
 ||neldatsy.com^
 ||yqlzccxn.icu^
 ||bjimtyv.top^
