@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: NzwthFxTx+SWy5qDj0bgTw
-! Version: 202412150901
+! Checksum: 64LeGCImO4lAO8eDc+SOCQ
+! Version: 202412151001
 ! Title: EasyList China+EasyList
-! Last modified: 15 Dec 2024 09:01 UTC
+! Last modified: 15 Dec 2024 10:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -39572,6 +39572,7 @@ browsershots.org#@#.advert_area
 ||bryond.com^
 ||bsantycbjnf.com^
 ||bsbrcdna.com^
+||bservr.com^
 ||bsgbd77l.de^
 ||bshrdr.com^
 ||bsilzzc.com^
@@ -46386,7 +46387,6 @@ browsershots.org#@#.advert_area
 ||heavespectaclescoefficient.com^
 ||heavyuniversecandy.com^
 ||hebenonwidegab.top^
-||hebiichigo.com^
 ||hectorfeminine.com^
 ||hectorobedient.com^
 ||hedgehoghugsyou.com^
@@ -80411,7 +80411,10 @@ nicelocal.com##div[style="min-height: 90px;"]:has(iframe[id^="google_ads_"])
 tartaria-faucet.net##div[style^="display"]:has([src^="https://multiwall-ads.shop/"])
 90min.com##figure:has(> div > #mm-player-placeholder-large-screen)
 nex-software.com##h4:has(a[href$="/reimage"])
-bing.com##li.b_algo:has(> [class="b_caption"] > p.b_overflow2)
+bing.com##li.b_algo:has(a[aria-label="Amazon"] .rms_img[src*="id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F"])
+bing.com##li.b_algo:has(a[aria-label="B&H Photo Video"] .rms_img[src*="id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F"])
+bing.com##li.b_algo:has(a[aria-label="Walmart"] .rms_img[src*="id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F"])
+bing.com##li.b_algo:has(a[aria-label="eBay"] .rms_img[src*="id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F"])
 walmart.com##li.items-center:has(div[data-ad-component-type="wpa-tile"])
 walgreens.com##li.owned-brands:has(figure.sponsored)
 macys.com##li.productThumbnailItem:has(.sponsored-items-label)
