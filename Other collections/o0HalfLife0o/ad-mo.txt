@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GbECiPVBhfsdG/NcZanIvQ
+! Checksum: M4o0CwSgBppvJf8OdjaiLA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202412160200
-! Last Modified: 2024年12月16日 02:00
+! Version: 202412160801
+! Last Modified: 2024年12月16日 08:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -15917,6 +15917,7 @@ mastersclub.jp#@#.ads.widget
 getwallpapers.com,wallpaperaccess.com,wallpapercosmos.com,wallpaperset.com#@#.ads1
 jw.org#@#.adsBlock
 cars.mitula.ae#@#.adsList
+bilinovel.com#@#.ads_ad_box
 trustnet.com#@#.ads_right
 search.conduit.com#@#.ads_wrapper
 alluc.org#@#.adsbottombox
@@ -65599,6 +65600,7 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||qonbibff.icu^
 ||wlouqsz.xyz^
 ||hcznaubp.icu^
 ||truxedku.com^
@@ -92135,6 +92137,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||s.pinimg.com/ct/core.js
 ||s.srvsynd.com^
 ||s.vibe.co^
+||s3.amazonaws.com/www.audiencenetwork.ai/
 ||sa.scorpion.co^
 ||saasexch.com/bapi/fe/usd/report/
 ||safe-iplay.com/logger
@@ -133809,7 +133812,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 !! omtrdc.net
 @@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=absa.co.za|att.com|pnc.com|vodafone.it
 !! tags.tiqcdn.com
-@@||tags.tiqcdn.com/utag/*/utag.sync.js$domain=bankofamerica.com|hsbc.co.uk|samsung.com|sony.jp|vmware.com
+@@||tags.tiqcdn.com/utag/*/utag.sync.js$domain=bankofamerica.com|hsbc.co.uk|samsung.com|sony.jp|visible.com|vmware.com
 @@||gs.statcounter.com/chart.php$script,third-party
 @@||statcounter.com/js//fusioncharts.charts.js
 @@||statcounter.com/js/fusioncharts.js
