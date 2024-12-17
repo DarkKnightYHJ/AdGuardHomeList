@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cabHTdC6zWtPyfa+6lw5BA
+! Checksum: MRHhqqWIptsaEV2pYJDuAA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202412170801
-! Last Modified: 2024年12月17日 08:01
+! Version: 202412171400
+! Last Modified: 2024年12月17日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -65,7 +65,7 @@ news.qq.com##+js(set, SSPAd.prototype.loadAd, noopFunc)
 bilibili.com##.ad-report, .ad-floor
 !此规则有效但导致页面加载慢 bilibili.com##.container.is-version8 > .feed-card:has(>div:only-child), .container.is-version8 > .bili-video-card:has(>div:only-child)
 bilibili.com##.gg-floor-module,#slide_ad,a[href^="//cm.bilibili.com"]
-||api.bilibili.com/x/web-show/res/loc?pf=$~script
+||api.bilibili.com/x/web-show/res/locs?$~script
 ||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js^$empty
 ||hdslb.com/bfs/cm/cm-sdk/static/js/pc.js^$script
 acfun.cn##.pause-display-container,#ad-comment,#ad-player-view
@@ -1883,6 +1883,8 @@ newduba.cn###jq_youxi
 ||cupfox.app^$third-party
 ||ihearsoh.com^
 ||juutckrt.icu^
+||qtimiyy.top^
+||4jc.icu^
 ||qonbibff.icu^
 ||n7a.icu^
 ||craegvin.com^
