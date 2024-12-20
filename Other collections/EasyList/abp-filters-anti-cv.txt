@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: khJ2khKX+uyfIDaHeHQZEw
-! Version: 202412201221
+! Checksum: teLBVYcbYTCt9/cTcXwjNA
+! Version: 202412201311
 ! Title: ABP filters
-! Last modified: 20 Dec 2024 12:21 UTC
+! Last modified: 20 Dec 2024 13:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1413,6 +1413,8 @@ allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/parent::span/
 ! SA
 allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/parent::div/ancestor::a[@role]';
 allegro.pl##div[data-box-name^="car0usels.base"][data-analytics-groups*="sponsored_offers_ppc_ads"]
+! PL
+allegro.pl#$#hide-if-contains-visible-text /Sponsorowane|Sponsored|Спонсороване/ 'article' 'div[class]>div ^^sh^^ div>*';
 ! PP
 allegro.*##div[data-box-name^="ads"]
 allegro.*#$#hide-if-matches-xpath './/h2[text()][@data-role="replaceable-title"]/following::span[.="Sponsorowane" or .="Sponsored" or .="Спонсоровано" or .="Sponzorováno"]//ancestor::div[contains(@data-analytics-groups,"ads")]'
