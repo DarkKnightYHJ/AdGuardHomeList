@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VCasl8+p6zQtY2koZWWhCQ
+! Checksum: UovRc+vvGVtpQmAHD3S0NA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202412210801
-! Last Modified: 2024年12月21日 08:01
+! Version: 202412211400
+! Last Modified: 2024年12月21日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -65131,6 +65131,11 @@ newduba.cn###jq_youxi
 ||cupfox.app^$third-party
 ||rktjxj.icu^
 ||orodsmnu.com^
+||muiuim.icu^
+||popsvg.xyz^
+||3vp.icu^
+||vvfgjzwa.icu^
+||hwilmiu.top^
 ||grmzwc.icu^
 ||ppio12200ios.top^
 ||ondraits.com^
@@ -73442,6 +73447,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||element-plus.org/images/sponsors/
 !------------------------Specific element hiding rules------------------------!
 85po.com##.asside-link
+mydrivers.com##div[style="margin: auto;width: 800px;padding: 10px 0;"]
 cn.bing.com#?#.b_algo:-abp-has(p:-abp-properties(AAAAAElFTkSuQmCC))
 bing.com#?#.b_algo:-abp-has(.ad_esltitle)
 bing.com#?#.b_algo:-abp-has(.b_ads1line)
