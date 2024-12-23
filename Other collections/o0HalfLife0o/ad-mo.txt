@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SBuFvx0V6IwicZzJ1VBA/A
+! Checksum: u+1D79WRITO4oBi60/Yd4A
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202412231400
-! Last Modified: 2024年12月23日 14:00
+! Version: 202412232000
+! Last Modified: 2024年12月23日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -65331,6 +65331,7 @@ newduba.cn###jq_youxi
 ||ndlwtl.icu^
 ||swilmib.top^
 ||nx8.icu^
+||irgidshiv.com^
 ||pnpbjt.icu^
 ||tronkuks.com^
 ||ir4.icu^
@@ -73660,6 +73661,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||cdncg.com^*/kangmey
 ||twkan.com/js/otherad
 ||element-plus.org/images/sponsors/
+||httpcn.com^*950-120
 !------------------------Specific element hiding rules------------------------!
 85po.com##.asside-link
 52asus.com###AsusMall-contain
@@ -73951,7 +73953,7 @@ csdn.net###asideCustom36733263
 csdn.net###asideCustom65392991
 baidu.com###asideLeft
 baidu.com###asideRight
-assbbs.com###ass_adv
+assbbs.com##div[id^="ass_adv"]
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###attention-game-wraper_dialog
 vjmedia.com.hk###author-spotlight + .clear + div
 androiddevtools.cn###auto-scroll-ad-box
