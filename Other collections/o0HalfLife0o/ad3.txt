@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vxlQBM4ccwgxZGq5Hwntmw
+! Checksum: MAE/aMmLzjiYTdCzuvFvLw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202412232000
-! Last Modified: 2024年12月23日 20:00
+! Version: 202412240200
+! Last Modified: 2024年12月24日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1892,6 +1892,8 @@ newduba.cn###jq_youxi
 ||swilmib.top^
 ||nx8.icu^
 ||irgidshiv.com^
+||ix4.icu^
+||ewilmiw.top^
 ||pnpbjt.icu^
 ||tronkuks.com^
 ||ir4.icu^
@@ -29907,6 +29909,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.wp.com^
 ||stats.wpmucdn.com^
 ||stats.zotabox.com^
+||stats2.indianpornempire.com^
 ||statsadv.dadapro.com^$third-party
 ||statsapi.screen9.com^
 ||statscollector-1.agora.io^
@@ -71024,6 +71027,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||cdn.getblueshift.com/blueshift.js$script,domain=rentcafe.com
 @@||cdn.heapanalytics.com^$script,domain=libertymutual.com
 @@||cdn.jsdelivr.net^*/fp.min.js$script,domain=cuevana2.io
+@@||cdn.matomo.cloud/tekuchi.matomo.cloud/matomo.js$domain=berkeleygroup.digital
 @@||cdn.mxpnl.com/libs/$script,domain=get.pumpkin.care
 @@||cdn.perfops.net/rom3/rom3.min.js$domain=cdnperf.com
 @@||cdn.segment.com/analytics-next/
@@ -71603,6 +71607,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||linksynergy.com/minified_logic.js$xmlhttprequest
 @@||log000.goo.ne.jp/gcgw.js$domain=nttxstore.jp
 @@||logly.co.jp/recommend/$image,domain=benesse.ne.jp|sponichi.co.jp
+@@||moneypartners.co.jp/web/*/fingerprint.js$~third-party
 @@||nakanohito.jp^*/bi.js$domain=kenko-tokina.co.jp|myna.go.jp
 @@||nittsu.com/Tracking/Scripts/Tracking/track.js
 @@||play.dlsite.com/csr/viewer/lib/newrelic.js
