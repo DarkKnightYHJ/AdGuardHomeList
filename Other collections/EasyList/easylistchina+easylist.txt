@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wb2uRiZYtLhMkaRODGfPvg
-! Version: 202412251701
+! Checksum: lSx6HQURmSv7j/yKUvXe3g
+! Version: 202412251811
 ! Title: EasyList China+EasyList
-! Last modified: 25 Dec 2024 17:01 UTC
+! Last modified: 25 Dec 2024 18:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -70836,6 +70836,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||biblehub.com/botmenu
 ||biblemenus.com/adframe
 ||bigsquidrc.com/wp-content/themes/bsrc2/js/adzones.js
+||bigwarp.io/js/big.js
 ||bioinformatics.org/images/ack_banners/
 ||bit.com.au/scripts/js_$script
 ||bitchute.com/static/ad-sidebar.html
@@ -71712,6 +71713,8 @@ $csp=worker-src 'none',domain=torlock.com|alltube.pl|alltube.tv|centrum-dramy.pl
 ||activistpost.com^$csp=script-src *.leadpages.net *.gstatic.com *.google.com *.googleapis.com *.playwire.com *.facebook.com *.bootstrapcdn.com
 ! kinox
 $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.cloudflare.com *.google.com *.addthis.com *.addthisedge.com *.facebook.net *.twitter.com *.jquery.com *.x.com,domain=kinox.lat|kinos.to|kinox.am|kinox.click|kinox.cloud|kinox.club|kinox.digital|kinox.direct|kinox.express|kinox.fun|kinox.fyi|kinox.gratis|kinox.io|kinox.lol|kinox.me|kinox.mobi|kinox.pub|kinox.sh|kinox.to|kinox.tube|kinox.tv|kinox.wtf|kinoz.to,~third-party
+$popup,third-party,domain=kinos.to|kinox.am|kinox.click|kinox.cloud|kinox.club|kinox.digital|kinox.direct|kinox.express|kinox.fun|kinox.fyi|kinox.gratis|kinox.io|kinox.lat|kinox.lol|kinox.me|kinox.mobi|kinox.pub|kinox.sh|kinox.to|kinox.tube|kinox.tv|kinox.wtf|kinoz.to
+$third-party,xmlhttprequest,domain=kinos.to|kinox.am|kinox.click|kinox.cloud|kinox.club|kinox.digital|kinox.direct|kinox.express|kinox.fun|kinox.fyi|kinox.gratis|kinox.io|kinox.lat|kinox.lol|kinox.me|kinox.mobi|kinox.pub|kinox.sh|kinox.to|kinox.tube|kinox.tv|kinox.wtf|kinoz.to
 ! Specific filters necessary for sites allowlisted with $genericblock filter option
 ! jetzt.de
 @@||jetzt.de^$generichide

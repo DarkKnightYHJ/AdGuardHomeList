@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RjnBlitTc2QZBIo4Y4peYA
+! Checksum: kSRD+RPS831AAfLiPyBsUQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202412252000
-! Last Modified: 2024年12月25日 20:00
+! Version: 202412260200
+! Last Modified: 2024年12月26日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1893,6 +1893,8 @@ newduba.cn###jq_youxi
 ||r4u.icu^
 ||bpxxgkoj.icu^
 ||gmso12251oka.top^
+||6cs.icu^
+||uwilmit.top^
 ||beenedsl.com^
 ||tghrfv.icu^
 ||wwilmie.top^
@@ -10239,6 +10241,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||httpcn.com^*950-120
 !------------------------Specific element hiding rules------------------------!
 85po.com##.asside-link
+appinn.com###sidebar > .widget_block > a
 jnhulz5yys.shop,wuwuplus.shop##.small-icon-container
 52asus.com###AsusMall-contain
 mydrivers.com##div[style="margin: auto;width: 800px;padding: 10px 0;"]
@@ -33410,6 +33413,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vimeo.com/ablincoln/
 ||vimeocdn.com/js_opt/logging_combined.min.js
 ||visualstudio.com/v2/track
+||vivaldi.*/rep/rep.js
 ||vizcloud.co/ping/
 ||vk.com/al_video.php?act=ads_stat
 ||vk.com/al_video.php?act=inc_view_counter
