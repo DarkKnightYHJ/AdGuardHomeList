@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wB6+aKowNIKtE1N/TJmFTw
+! Checksum: 8AZbRFL69eqKyK0Ib5XStw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202412250200
-! Last Modified: 2024年12月25日 02:00
+! Version: 202412250801
+! Last Modified: 2024年12月25日 08:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -65504,6 +65504,8 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||vriesziy.com^
+||rwdjrn.icu^
 ||beenedsl.com^
 ||tghrfv.icu^
 ||wwilmie.top^
@@ -91197,6 +91199,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||statsapi.screen9.com^
 ||statscollector-1.agora.io^
 ||statscollector.sd-rtn.com^
+||statsig.anthropic.com^
 ||statsjs.klevu.com^
 ||statt-collect.herokuapp.com^
 ||stg-data-collector.playbuzz.com^
@@ -93342,6 +93345,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||clarice.streema.com^
 ||classdojo.com/logs/
 ||classistatic.com^*/js/lib/prebid-7.5.0.min.js$script,domain=kijiji.ca
+||claude.ai/sentry^
 ||click.aliexpress.com^$image
 ||click.nudevista.com^
 ||clickindia.com/cimem/ad-post-ajax.php?FormName=browsingHistory
