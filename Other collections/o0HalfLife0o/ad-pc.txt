@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xOCWLmpYsDEyqiz1XZHvTA
+! Checksum: gD6gGRODza/aP3vVzkwEog
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202412301400
-! Last Modified: 2024年12月30日 14:00
+! Version: 202412302000
+! Last Modified: 2024年12月30日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -50586,6 +50586,7 @@ browsershots.org#@#.advert_area
 ||steamtraffic.com^$third-party
 ||streamateaccess.com^$third-party
 ||stripsaver.com^$third-party
+||sultrytraffic.com^$third-party
 ||supuv3.com^$third-party
 ||sv2.biz^$third-party
 ||sweetmedia.org^$third-party
@@ -51382,6 +51383,7 @@ browsershots.org#@#.advert_area
 ||d114isgihvajcp.cloudfront.net^
 ||d1180od816jent.cloudfront.net^
 ||d11enq2rymy0yl.cloudfront.net^
+||d11h0pey8cu31p.cloudfront.net/*/an.js^
 ||d11hjbdxxtogg5.cloudfront.net^
 ||d11p7gi4d9x2s0.cloudfront.net^
 ||d11qytb9x1vnrm.cloudfront.net^
@@ -53624,7 +53626,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||playwire.com/bolt/js/$script,third-party
 ||poptok.com^$third-party
 ||rumble.com^$domain=tiphero.com
-||sonar.viously.com^$domain=~aufeminin.com|~futura-sciences.com|~gamekult.com|~lesnumeriques.com|~marmiton.org|~melty.fr|~nextplz.fr
+||sonar.viously.com^$domain=~aufeminin.com|~futura-sciences.com|~gamekult.com|~jeanmarcmorandini.com|~lesnumeriques.com|~marmiton.org|~melty.fr|~nextplz.fr
 ||sportrecs.com/redirect/embed/
 ||ultimedia.com/js/common/smart.js$script,third-party
 ||vidazoo.com/basev/$script,third-party
@@ -58229,6 +58231,7 @@ cloudwards.net##.max-medium
 buzzheavier.com##.max-w-\[60rem\] > p.mt-5.text-center.text-lg
 spin.com##.max-w-\[970px\]
 mayoclinic.org##.mayoad > .policy
+poe2db.tw##.mb-1 > [href^="/s/tl3"]
 racgp.org.au##.mb-1.small
 wccftech.com##.mb-11
 coinlean.com##.mb-3
@@ -60102,7 +60105,6 @@ cnx-software.com##[href*="url3.cnx-software.com/"]
 linuxlookup.com##[href="/advertising"]
 audiobookbay.is##[href="/ddeaatr"]
 mywaifulist.moe##[href="/nord"]
-poe2db.tw##[href="/s/tl3us"]
 whatsmyreferer.com##[href="http://fakereferer.com"]
 whatsmyreferer.com##[href="http://fakethereferer.com"]
 toumpano.net##[href="http://roz-tilefona.xbomb.net/"]
@@ -61450,6 +61452,7 @@ sciencetimes.com##.player
 bossip.com##.player-wrapper-inner
 theroar.com.au##.pm-video-player__container-outermost
 swimswam.com##.polls-461
+baseball-reference.com,basketball-reference.com,fbref.com,hockey-reference.com,pro-football-reference.com,sports-reference.com##.primis
 appleinsider.com##.primis-ad-wrap
 iheart.com##.provider-stn
 pedestrian.tv##.recent-jobs-widget
@@ -62052,6 +62055,7 @@ kisscos.net###v-overlay
 homemoviestube.com###v_right
 xvideos.com###video-right
 xvideos.com###video-sponsor-links
+javtrailers.com###videoPlayerContainer a[target="_blank"]
 drtuber.com###video_list_banner
 dofap.com###video_overlay_banner
 hentaiplay.net###video_overlays
