@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5lwTL5aTgOb2Ga92+1BnAg
+! Checksum: 89L7YZnauGhsxqy7q5o+DQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202412262000
-! Last Modified: 2024年12月26日 20:00
+! Version: 202412310801
+! Last Modified: 2024年12月31日 08:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1877,6 +1877,8 @@ sieutamphim.com#$#abort-current-inline-script document.addEventListener shopee
 howdyho.net,howdyho.pro#@#:not(my-obnaruzhili-blokirovshchik)
 ! FD-7076
 howdyho.net,howdyho.pro#@#:not(my-obnaruzhili-adblock)
+! FD-7186
+howdyho.net,howdyho.pro#@#html[lang="ru"] :not(my-obnaruzhili-adblock)
 ! *** abp-filters-anti-cv:distribution/abp-filters-partners.txt ***
 ! Filters to be used by distribution partners
 ! #CV-782
