@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Nyex4kZ6a3O/PhtZrNC9zg
+! Checksum: D3Pba0H/2WrP0QOjuvJDBw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202501050801
-! Last Modified: 2025年01月05日 08:01
+! Version: 202501051400
+! Last Modified: 2025年01月05日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -542,7 +542,6 @@ banana.le.com
 ipinyou.com
 ||yoyi.com.cn^3p
 le.com##.min_pause_img
-le.com##.hv_wm_logo
 cctv.com,www.douyu.com##+js(aeld,/visibilitychange|pagehide/)
 ||douyucdn.cn/adxdsp/$image
 !弹幕 ||www.douyu.com/webSocket.worker_$script
@@ -583,8 +582,8 @@ age.tv,agedm.org##+js(noeval-if, devtoolsDetector)
 ||cdn.aiqingyu1314.com/age/statics/js/notice.js^$script
 ||toutiaoimg.com/origin/$image,domain=agedm.org
 ||dd-static.jd.com^$image,domain=subaibaiys.com
-!dandanzan.net,nunuyy5.com##+js(set,webkitRTCPeerConnection,null)
-dandanzan.net,nnyy.in,nunuyy5.com##.gm-fp-body video:style(max-height:100%!important)
+!dandanzan.me,nunuyy5.com##+js(set,webkitRTCPeerConnection,null)
+dandanzan.*,nnyy.in,nunuyy5.com##.gm-fp-body video:style(max-height:100%!important)
 yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
 yatu.tv,yhdm7.com,yhdm95.com,xdm530.com##+js(aopw,document.oncontextmenu)
 ||www.yatu.tv:2082/image/*.gif^$image
@@ -2325,6 +2324,9 @@ newduba.cn###jq_youxi
 ||cupfox.app^$third-party
 ||lirretsn.com^
 ||nmzbrd.icu^
+||hrjciqyu.icu^
+||hdyurliu.top^
+||en6.icu^
 ||airakgyl.com^
 ||scjtfh.xyz^
 ||cdyurlif.top^

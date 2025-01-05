@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: T3/dStZ88P4neiHs39QZQw
+! Checksum: mFxgcuN2wBieNf76QZ9ECg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202501050801
-! Last Modified: 2025年01月05日 08:01
+! Version: 202501051400
+! Last Modified: 2025年01月05日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -15424,6 +15424,7 @@ _800x80_
 ###slashboxes > .deals-rail
 ##.scroll-fixable.rail-right > .deals-rail
 ##.click-track.partner
+##.click-track.shop-window-affiliate
 ##.index-module_adBeforeContent__UYZT
 ##.interstory_first_mobile
 ##.interstory_second_mobile
@@ -65748,6 +65749,9 @@ newduba.cn###jq_youxi
 ||cupfox.app^$third-party
 ||lirretsn.com^
 ||nmzbrd.icu^
+||hrjciqyu.icu^
+||hdyurliu.top^
+||en6.icu^
 ||airakgyl.com^
 ||scjtfh.xyz^
 ||cdyurlif.top^
@@ -93236,6 +93240,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cm-mms.coachmag.co.uk^
 ||cm.nordvpn.com^
 ||cmp.vg.no^*/metrics/
+||cms-stats-view.vitrinabox.com^
 ||cnt.hd21.com^
 ||cnt.iceporn.com^
 ||cnt.viptube.com^
