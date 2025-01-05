@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LGCMF4chZe30lV0o5T+IKw
-! Version: 202501050901
+! Checksum: wqT2NfMO4i0fUmXn2Ms5tA
+! Version: 202501051001
 ! Title: EasyList China+EasyList
-! Last modified: 05 Jan 2025 09:01 UTC
+! Last modified: 05 Jan 2025 10:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -9755,7 +9755,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||cdncg.com^*/FCPXku.
 ||cdncg.com^*/kangmey
 ||twkan.com/js/otherad
-||element-plus.org/images/sponsors/
 ||httpcn.com^*-120
 ||aatv.app/sport/sport.js
 !------------------------Specific element hiding rules------------------------!
@@ -9781,9 +9780,7 @@ appinn.com##a[href*=".houdeyun.cn"]
 fitacg.com##a[href*="ifift.com"]
 cnys.tv###player_pause
 twkan.com##.txtcenter
-element-plus.org##.page-sidebar-panel
-element-plus.org##.page-sidebar-table
-element-plus.org#?#div:-abp-has(>.sponsor-item)
+element-plus.org##div[class^="page-sidebar-"]
 hcbbs.com##.wp > div:not([id]):not([class]) > a > img[src*=".imgdb.cn"]
 sehuatang.net##DIV[class^="show-text"]
 ghxi.com##.widget_html_ad + div[style]
