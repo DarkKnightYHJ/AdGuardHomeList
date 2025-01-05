@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: D3Pba0H/2WrP0QOjuvJDBw
+! Checksum: BqFpNYEVpkp5vxdJZbxptg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202501051400
-! Last Modified: 2025年01月05日 14:00
+! Version: 202501052000
+! Last Modified: 2025年01月05日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2327,6 +2327,7 @@ newduba.cn###jq_youxi
 ||hrjciqyu.icu^
 ||hdyurliu.top^
 ||en6.icu^
+||cachusrw.com^
 ||airakgyl.com^
 ||scjtfh.xyz^
 ||cdyurlif.top^
@@ -10326,8 +10327,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||cdncg.com^*/FCPXku.
 ||cdncg.com^*/kangmey
 ||twkan.com/js/otherad
-||element-plus.org/images/sponsors/
-||httpcn.com^*950-120
+||httpcn.com^*-120
 ||aatv.app/sport/sport.js
 !------------------------Specific element hiding rules------------------------!
 85po.com##.asside-link
@@ -10352,8 +10352,7 @@ appinn.com##a[href*=".houdeyun.cn"]
 fitacg.com##a[href*="ifift.com"]
 cnys.tv###player_pause
 twkan.com##.txtcenter
-element-plus.org##.page-sidebar-table
-element-plus.org#?#div:-abp-has(>.sponsor-item)
+element-plus.org##div[class^="page-sidebar-"]
 hcbbs.com##.wp > div:not([id]):not([class]) > a > img[src*=".imgdb.cn"]
 sehuatang.net##DIV[class^="show-text"]
 ghxi.com##.widget_html_ad + div[style]
