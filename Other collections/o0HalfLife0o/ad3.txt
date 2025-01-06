@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ITzMISVgiVhDNJ1lcySgPQ
+! Checksum: nD5iDf0UG2Sau8djGOR8mw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202501061400
-! Last Modified: 2025年01月06日 14:00
+! Version: 202501062000
+! Last Modified: 2025年01月06日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9848,6 +9848,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||dangbei.net/2022/dbhezi.
 !------------------------Specific element hiding rules------------------------!
 85po.com##.asside-link
+333ood.com###appBox
+333ood.com##div[style$="display: block;"]
+baidu.com##.tieba-pause-ad-container
 laozuo.org###focusslide
 laozuo.org##.container[style="margin-bottom: 3px;"]
 laozuo.org##.widget_ui_orbui
@@ -15472,6 +15475,7 @@ huawei.com#@#.ad-wrap:not(#google_ads_iframe_checktag)
 bitauto.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
+333ood.com#@#.ad-box:not(#ad-banner):not(:empty)
 android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.tw,epinv.com,ff14angler.com,fxpan.com,haoweichi.com,logi.im,lspdfrcn.com,moa.tw,moe48.com,numberempire.com,playok.com,reh.tw,shenfendaquan.com,vaptcha.com#@#ins.adsbygoogle
 android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.tw,epinv.com,ff14angler.com,fxpan.com,haoweichi.com,logi.im,lspdfrcn.com,moa.tw,moe48.com,numberempire.com,playok.com,reh.tw,shenfendaquan.com,vaptcha.com#@#ins.adsbygoogle[data-ad-slot]
 !---------------------------------URL Whitelist-------------------------------!
