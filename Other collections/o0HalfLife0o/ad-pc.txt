@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: x3PMzCQTsPEzLKm4qc+agA
+! Checksum: I5ukDs0d2b87DCoRALzLeA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202501080200
-! Last Modified: 2025年01月08日 02:00
+! Version: 202501080801
+! Last Modified: 2025年01月08日 08:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -22356,6 +22356,7 @@ browsershots.org#@#.advert_area
 ||couwooji.xyz^
 ||coveredsnortedelectronics.com^
 ||coveredstress.com^
+||covertcourse.com^
 ||covettunica.com^
 ||covivado.club^
 ||cowtpvi.com^
@@ -47552,6 +47553,7 @@ browsershots.org#@#.advert_area
 ||coticoffee.com^$popup
 ||countertrck.com^$popup
 ||courageousdiedbow.com^$popup
+||covertcourse.com^$popup
 ||cpacrack.com^$popup
 ||cpalabtracking.com^$popup
 ||cpaoffers.network^$popup
@@ -60601,6 +60603,7 @@ shipt.com##[id^="cms-ad_banner"]
 hola.com##[id^="div-hola-slot-"]
 designtaxi.com##[id^="dt-small-"]
 skyblock.bz##[id^="flips-"]
+getcomics.org##[id^="getco-"]
 eatthis.com##[id^="gm_karmaadunit_widget"]
 designtaxi.com##[id^="in-news-link-"]
 komando.com##[id^="leaderboardAdDiv"]
@@ -65881,6 +65884,8 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||pinjzp.icu^
+||aos01080ss.xyz^
 ||jfrrnf.icu^
 ||e50.icu^
 ||aos01070ss.xyz^
@@ -83135,7 +83140,7 @@ fqsousou.com,kengso.com#@#.user-share
 /impression.track?
 /impression/inline?
 /impression/track?
-/impressions?
+/impressions?$~xmlhttprequest
 /ImpressionsEvent.js
 /in.getclicky.com/*
 /in.gif?url=
@@ -84891,6 +84896,7 @@ _WebVitalsReporter_
 .sendibm1.com/*.gif?
 .sendibm1.com/mk/
 .sendibt2.com/tr/op/$image
+.sendibt3.com/tr/op/$image
 .simplicitycrm.com/rd/
 .smartrmail.co/o/$image
 .smtp.net/o/$image
