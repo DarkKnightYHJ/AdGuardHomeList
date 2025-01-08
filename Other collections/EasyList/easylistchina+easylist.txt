@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HemuX1BdRAOlwyqh34xzsQ
-! Version: 202501081611
+! Checksum: 3AbnafK5J6XAx8l/K4Yo2g
+! Version: 202501081700
 ! Title: EasyList China+EasyList
-! Last modified: 08 Jan 2025 16:11 UTC
+! Last modified: 08 Jan 2025 17:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -17873,7 +17873,7 @@ fqsousou.com,kengso.com#@#.user-share
 -sponsor-ad.
 -sticky-ad-
 -top-ads.
--web-advert-
+-web-advert-$image
 -Web-Advert.
 .adriver.$~object,domain=~adriver.co
 .adrotate.
@@ -17881,13 +17881,12 @@ fqsousou.com,kengso.com#@#.user-share
 .ads-min.
 .ads.controller.
 .ads.css
-.ads.darla.
 .adsbox.
 .advert.$domain=~advert.ae|~advert.ge|~advert.io|~advert.ly|~advert.media|~advert.org.pl
 .ar/ads/
 .ashx?AdID=
 .aspx?adid=
-.az/adv/
+.az/adv/$~xmlhttprequest
 .br/ads/
 .bz/ads/
 .ca/ads/
@@ -18682,7 +18681,6 @@ fqsousou.com,kengso.com#@#.user-share
 ?wpstealthadsjs=
 _ad_250.
 _ad_300.
-_ad_728_
 _ad_banner.
 _ad_bottom.
 _ad_box.
@@ -18697,7 +18695,6 @@ _ad_sidebar_
 _ad_skyscraper.
 _ad_wrapper.
 _adbanner_
-_adbanners.
 _adchoice.
 _adchoices.
 _adhome.
@@ -18728,11 +18725,9 @@ _banner_ad_
 _Banner_Ads_
 _bannerad.
 _BannerAd_
-_bannerads_
 _bottom_ads.
 _bottom_ads_
 _footer_ad_
-_google_ads.
 _gpt_ads.
 _header_ad.
 _header_ad_
@@ -18760,7 +18755,6 @@ _square_ad.
 _sticky_ad.
 _StickyAd.
 _text_ads.
-_textads.
 _top_ad.
 _vertical_ad.
 _web-advert.
@@ -18897,7 +18891,7 @@ _widget_ad.
 /prebid_$script,third-party
 /prebidlink/*$script
 /tagman/*$domain=~abelssoft.de
-_prebid.js
+_prebid.js$script
 !
 &sadbl=1&abtg=$third-party
 &sadbl=1&chu=$third-party
