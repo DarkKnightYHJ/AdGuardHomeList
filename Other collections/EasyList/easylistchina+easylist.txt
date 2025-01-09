@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IIpxjEuVIzxt8v/gwH4l4A
-! Version: 202501090501
+! Checksum: dd47VOK0lI8FKK1F1AUt7w
+! Version: 202501090611
 ! Title: EasyList China+EasyList
-! Last modified: 09 Jan 2025 05:01 UTC
+! Last modified: 09 Jan 2025 06:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -17852,7 +17852,6 @@ fqsousou.com,kengso.com#@#.user-share
 !
 !-----------------------General advert blocking filters-----------------------!
 ! *** easylist:easylist/easylist_general_block.txt ***
--ad-300x600-
 -ad-458x80.
 -ad-manager/$~stylesheet
 -ad-sidebar.
@@ -17878,7 +17877,6 @@ fqsousou.com,kengso.com#@#.user-share
 -right-ad.
 -sidebar-ad.
 -sponsor-ad.
--sticky-ad-
 -top-ads.
 -web-advert-$image
 -Web-Advert.
@@ -17900,8 +17898,8 @@ fqsousou.com,kengso.com#@#.user-share
 .cfm?ad=
 .cgi?ad=
 .ch/adv/
-.click/cuid/?
-.click/rf/
+.click/cuid/?$third-party
+.click/rf/$third-party
 .clkads.
 .club/js/popunder.js
 .cn/sc/*?n=$script,third-party
@@ -17939,7 +17937,6 @@ fqsousou.com,kengso.com#@#.user-share
 .lazyload-ad.
 .lol/js/pub.min.js$third-party
 .lol/sw.js$third-party
-.mx/ads/
 .my/ads/
 .nativeads.
 .net/ad2/$~xmlhttprequest
@@ -17961,10 +17958,10 @@ fqsousou.com,kengso.com#@#.user-share
 .popunder.js
 .pw/ads/
 .ru/ads/
-.shop/gd/
+.shop/gd/$third-party
 .shop/tsk/$third-party
-.top/cuid/?
-.top/gd/*?md=
+.top/cuid/?$third-party
+.top/gd/*?md=$third-party
 /?abt_opts=1&
 /?fp=*&poru=$subdocument
 /?view=ad
@@ -18187,6 +18184,7 @@ fqsousou.com,kengso.com#@#.user-share
 /amazon-associates-link-$~stylesheet
 /amp-ad-$script
 /amp-connatix-$script
+/amp-sticky-ad-$script
 /amp4ads-host-v0.js$script
 /ane-popup-1/ane-popup.js$script
 /ane-popup-banner.js$script
@@ -18695,7 +18693,6 @@ _ad_choices.
 _ad_header.
 _ad_image_
 _ad_layer_
-_ad_leaderboard.
 _ad_right.
 _ad_side.
 _ad_sidebar_
@@ -18714,7 +18711,6 @@ _ads.cgi
 _ads.cms?
 _ads.php?
 _ads_updater-
-_adscommon.
 _adserve.
 _adskin.
 _adskin_
@@ -18756,8 +18752,6 @@ _rightad_
 _sidead.
 _sidebar_ad.
 _sidebar_ad_
-_skinad.
-_small_ad.
 _square_ad.
 _sticky_ad.
 _StickyAd.
@@ -81681,6 +81675,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||ienohikari.net/ad/img/$~third-party
 @@||img.rakudaclub.com/adv/$~third-party
 @@||infotop.jp/html/ad/$image,~third-party
+@@||intelyvale.com.mx/ads/images/$domain=valesdegasolina.mx
 @@||jmedj.co.jp/files/$image,~third-party
 @@||jobs.bg/front_job_search.php$~third-party
 @@||js.assemblyexchange.com/videojs-skip-$domain=worldstar.com
