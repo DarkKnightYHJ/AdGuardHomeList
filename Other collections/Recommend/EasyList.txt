@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: B+26h1zvmDOu0bxrStof3g
-! Version: 202501101001
+! Checksum: z6KqmZyYcOFM0yeVybBq7w
+! Version: 202501101101
 ! Title: EasyList
-! Last modified: 10 Jan 2025 10:01 UTC
+! Last modified: 10 Jan 2025 11:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -61718,6 +61718,7 @@ yahoo.com##div[id^="darla-ad"]
 yahoo.com##div[id^="defaultWFPAD"]
 yahoo.com##div[id^="gemini-item-"]
 yahoo.com##div[style*="/ads/"]
+mail.yahoo.com##li:has(a[href^="https://api.taboola.com/"])
 yahoo.com##li[data-test-locator="stream-related-ad-item"]
 ! youtube
 youtube.com###masthead-ad
