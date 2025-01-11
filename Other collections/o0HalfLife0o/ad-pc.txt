@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OPp7X1k5RYUIzUIynZVeug
+! Checksum: hR5VqoeKUOP6uaPEnjtJ1Q
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202501110801
-! Last Modified: 2025年01月11日 08:01
+! Version: 202501111400
+! Last Modified: 2025年01月11日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -806,7 +806,6 @@ tieba.baidu.com##.tuijian-wrap
 /banner/html/zone?zid=
 /banner_468.$image
 /banner_ads/*$~xmlhttprequest,domain=~clickbd.com
-/bannerad3.js$script
 /bannerads/*$~xmlhttprequest,domain=~coldwellbankerhomes.com
 /banners.*/piclist?
 /banners.cgi?
@@ -1460,7 +1459,6 @@ _prebid.js$script
 /sl/assetlisting/?
 /jquery.peelback.$script
 -adblocker-detection/
--detect-adblock.
 /ad-blocking-advisor/*$script,stylesheet
 /ad-blocking-alert/*$stylesheet
 /adblock-detect.$script
@@ -16978,6 +16976,7 @@ browsershots.org#@#.advert_area
 ||abattoirpleatsprinkle.com^
 ||abazelfan.com^
 ||abbasidquippy.shop^
+||abbateerupted.com^
 ||abberantdiscussion.com^
 ||abberantdoggie.com^
 ||abberantpawnpalette.com^
@@ -22720,6 +22719,7 @@ browsershots.org#@#.advert_area
 ||daejyre.com^
 ||daffaite.com^
 ||daffodilnotifyquarterback.com^
+||dagassapereion.com^
 ||dagheepsoach.net^
 ||dagnar.com^
 ||dagnurgihjiz.com^
@@ -25522,6 +25522,7 @@ browsershots.org#@#.advert_area
 ||flaweyesight.com^
 ||flawgrandparentsmysterious.com^
 ||flaxconfession.com^
+||flaxdescale.com^
 ||flaxierfilmset.com^
 ||flcrcyj.com^
 ||fldes6fq.de^
@@ -33609,6 +33610,7 @@ browsershots.org#@#.advert_area
 ||oshoothoolo.com^
 ||oskiwood.com^
 ||osmeticjewlike.com^
+||osminaclumber.com^
 ||osmosedshrined.top^
 ||ospartners.xyz^
 ||ospreyorceins.com^
@@ -35343,6 +35345,7 @@ browsershots.org#@#.advert_area
 ||projectscupcakeinternational.com^
 ||projectwonderful.com^
 ||prolatecyclus.com^
+||proleclips.com^
 ||prologuerussialavender.com^
 ||prologuetwinsmolecule.com^
 ||promiseyuri.com^
@@ -39961,6 +39964,7 @@ browsershots.org#@#.advert_area
 ||techourtoapingu.com^
 ||techreviewtech.com^
 ||tecominchisel.com^
+||tectureclod.top^
 ||tecuil.com^
 ||tedhilarlymcken.org^
 ||tediousgorgefirst.com^
@@ -39975,6 +39979,7 @@ browsershots.org#@#.advert_area
 ||teepoomo.xyz^
 ||teestoagloupaza.net^
 ||teetusee.xyz^
+||teewhilemath.net^
 ||tefrjctjwuu.com^
 ||tefuse.com^
 ||tegleebs.com^
@@ -40633,6 +40638,7 @@ browsershots.org#@#.advert_area
 ||touchupchows.com^
 ||touchyeccentric.com^
 ||touchytautogs.com^
+||tougaipteehuboo.xyz^
 ||toughdrizzleleftover.com^
 ||tougrauwaizus.net^
 ||touptaisu.com^
@@ -42664,6 +42670,7 @@ browsershots.org#@#.advert_area
 ||wetnesstommer.com^
 ||wetpeachcash.com^
 ||wetsireoverload.com^
+||wevechinse.com^
 ||wewaixor.com^
 ||wewearegogogo.com^
 ||wextap.com^
@@ -65925,6 +65932,9 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 ||riscats.com^
+||jebrhb.icu^
+||bc4.fun^
+||rvxsvwqf.icu^
 ||hdjthzg.cn^
 ||pxhuiben.com^
 ||oliver.pub^
@@ -83546,7 +83556,6 @@ fqsousou.com,kengso.com#@#.user-share
 /njs.gif?
 /nlogger.js
 /nLoggerJB_
-/nlRUM.js
 /nm/itracking?
 /NNAnalyticsWPSites.js
 /no-impression.gif?
@@ -90827,8 +90836,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pikapod.net/script.js
 ||ping-admin.ru^$third-party
 ||ping.dozuki.com^
-||ping.fastsimon.com^
-||ping.instantsearchplus.com^
 ||pings.conviva.com^
 ||pings.vidpulse.com^
 ||pipe-collect.ebu.io^
@@ -132396,7 +132403,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||metrics.bangbros.com/tk.js$~third-party
 @@||mlbstatic.com/mlb.com/adobe-analytics/$script,domain=mlb.com
 @@||mmstat.com/eg.js$script,domain=aliexpress.com
-@@||monkfieldreptile.com/nlrum/nlRUM.js$~third-party
 @@||mopar.com/moparsvc/mopar-analytics-state$~third-party
 @@||mozu.com^*/monetate.js$script,domain=acehardware.com
 @@||mparticle.com/js/v2/*/mparticle.js$script,domain=bk.com|bravotv.com|cnbc.com|gymshark.com|motortrendondemand.com|nbcsports.com
