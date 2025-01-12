@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: r0E01PAqXpGGGUGhv/UsjA
+! Checksum: l9uk95Ua3UBw7kIENzRtpw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202501120200
-! Last Modified: 2025年01月12日 02:00
+! Version: 202501120801
+! Last Modified: 2025年01月12日 08:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -6070,6 +6070,7 @@ _800x80_
 ###yahoo_text_ad
 ###yahooads
 ###yandex_ad
+###yandex_ad2
 ###yatadsky
 ###yrail_ads
 ###yreSponsoredLinks
@@ -12653,6 +12654,9 @@ _800x80_
 ##.jw-ad-visible
 ##.kakao_ad_area
 ##.keen_ad
+##.kiwi-ad-wrapper-300x250
+##.kiwi-ad-wrapper-728x90
+##.kiwi-ad-wrapper-950x80
 ##.kumpulads-post
 ##.kumpulads-side
 ##.kwizly-psb-ad
@@ -15417,9 +15421,6 @@ _800x80_
 ##display-ads
 ##div[aria-label="Ads"]
 ##div[class^="Adstyled__AdWrapper-"]
-##div[class^="Display_displayAd"]
-##div[class^="kiwi-ad-wrapper"]
-##div[class^="native-ad-"]
 ##div[data-ad-placeholder]
 ##div[data-ad-targeting]
 ##div[data-ad-wrapper]
@@ -15447,12 +15448,10 @@ _800x80_
 ##div[id^="gpt_ad_"]
 ##div[id^="lazyad-"]
 ##div[id^="optidigital-adslot"]
-##div[id^="pa_sticky_ad_box_middle_"]
 ##div[id^="rc-widget-"]
 ##div[id^="st"][style^="z-index: 999999999;"]
 ##div[id^="sticky_ad_"]
 ##div[id^="vuukle-ad-"]
-##div[id^="yandex_ad"]
 ##gpt-ad
 ##guj-ad
 ##hl-adsense
@@ -24506,6 +24505,7 @@ browsershots.org#@#.advert_area
 ||endwaysdsname.com^
 ||endymehnth.info^
 ||energeticdryeyebrows.com^
+||energeticprovocation.com^
 ||energeticrecognisepostcard.com^
 ||energypopulationpractical.com^
 ||eneughghaffir.com^
@@ -25028,6 +25028,7 @@ browsershots.org#@#.advert_area
 ||f3f202565b.com^
 ||f43f5a2390.com^
 ||f4823894ba.com^
+||f53d954cc5.com^
 ||f58x48lpn.com^
 ||f59408d48d.com^
 ||f62b2a8ac6.com^
@@ -27706,6 +27707,7 @@ browsershots.org#@#.advert_area
 ||hj6y7jrhnysuchtjhw.info^
 ||hjalma.com^
 ||hjklq.com^
+||hjmawbrxzq.space^
 ||hjrvsw.info^
 ||hjsvhcyo.com^
 ||hjuswoulvp.xyz^
@@ -29131,6 +29133,7 @@ browsershots.org#@#.advert_area
 ||jicamadoless.com^
 ||jicamasosteal.shop^
 ||jiclzori.com^
+||jicmivojvsa.com^
 ||jidroumsaghetu.xyz^
 ||jifflebreasts.com^
 ||jighucme.com^
@@ -30393,6 +30396,7 @@ browsershots.org#@#.advert_area
 ||livezombymil.com^
 ||livingshedhowever.com^
 ||livrfufzios.com^
+||livvbkx-vejj.xyz^
 ||livxlilsq.click^
 ||lixnirokjqp.com^
 ||lizzieforcepincers.com^
@@ -33475,6 +33479,7 @@ browsershots.org#@#.advert_area
 ||opleshouldthink.com^
 ||oplpectation.xyz^
 ||opmxizgcacc.com^
+||opnbylag.com^
 ||opoduchadmir.com^
 ||oponixa.com^
 ||opositeasysemblyjus.info^
@@ -35076,6 +35081,7 @@ browsershots.org#@#.advert_area
 ||ppjdfki.com^
 ||ppjqgbz.com^
 ||pplgwic.com^
+||pplhfhuwyv.com^
 ||ppoommhizazn.com^
 ||pppbr.com^
 ||ppqy.fun^
@@ -38121,6 +38127,7 @@ browsershots.org#@#.advert_area
 ||shatterconceal.com^
 ||shauduptel.net^
 ||shaugacakro.net^
+||shaughixefooz.net^
 ||shauladubhe.com^
 ||shauladubhe.top^
 ||shaulauhuck.com^
@@ -42971,6 +42978,7 @@ browsershots.org#@#.advert_area
 ||wizssgf.com^
 ||wjct3s8at.com^
 ||wjljwqbmmjaqz.top^
+||wjqssnujrbyu.com^
 ||wjtzvvdqvfjd.com^
 ||wjvavwjyaso.com^
 ||wka4jursurf6.com^
@@ -51186,11 +51194,13 @@ browsershots.org#@#.advert_area
 ||1187531871.rsc.cdn77.org^
 ||1208344341.rsc.cdn77.org^
 ||123-stream.org^
+||1244746616.rsc.cdn77.org^
 ||1437953666.rsc.cdn77.org^
 ||1529462937.rsc.cdn77.org^
 ||1548164934.rsc.cdn77.org^
 ||1675450967.rsc.cdn77.org^
 ||1736253261.rsc.cdn77.org^
+||1758664454.rsc.cdn77.org^
 ||1wnurc.com^
 ||26216.stunserver.net/a8.js
 ||360playvid.com^$third-party
@@ -65936,6 +65946,7 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||tndbnriz.icu^
 ||riscats.com^
 ||jebrhb.icu^
 ||bc4.fun^
