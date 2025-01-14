@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: m4i0AoDvLzKkooXPew3aKA
-! Version: 202501141501
+! Checksum: qMVzCT1C3r4BtBS1G3gDZw
+! Version: 202501141611
 ! Title: ABP filters
-! Last modified: 14 Jan 2025 15:01 UTC
+! Last modified: 14 Jan 2025 16:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1017,7 +1017,7 @@ mixdrop.*#$#override-property-read MDCore.adblock 0; abort-current-inline-script
 skidrowreloaded.com#$#abort-on-property-read runPop; abort-current-inline-script open; abort-on-property-read Math.floor
 videzz.net#$#override-property-read isAdBlockDetected false; abort-on-property-read window.open
 aniwatch.*,moviesjoy.*,tapeadvertisement.com#$#abort-on-property-read window.open; abort-current-inline-script document.documentElement break;case $.
-sflix.*#$#abort-current-inline-script parseInt break;case $.
+sflix.*,sflix2.*#$#abort-current-inline-script parseInt break;case $.
 aniwave.*,wallpaperflare.com#$#abort-current-inline-script document.write; abort-on-property-read window.open;
 tvsportslive.*#$#abort-current-inline-script document.createElement /script/; hide-if-matches-xpath './/div[@class][contains(@style, "pointer-events: none;")]/self::div[1]';
 datanodes.to##body > form[method="POST"][target="_blank"] {remove:true;}
