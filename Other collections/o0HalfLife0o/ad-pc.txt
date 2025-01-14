@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ENpDff6gfEx6/I3AvpNnQA
+! Checksum: 3CqLo3dDIGVULsqdU1iv6Q
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202501142000
-! Last Modified: 2025年01月14日 20:00
+! Version: 202501150200
+! Last Modified: 2025年01月15日 02:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -461,7 +461,6 @@ tieba.baidu.com##.tuijian-wrap
 -contrib-ads.$~stylesheet
 -display-ads.
 -footerads.
--housead-
 -page-ad.
 -PcmModule-Taboola-
 -popexit.
@@ -483,7 +482,7 @@ tieba.baidu.com##.tuijian-wrap
 .ashx?AdID=
 .aspx?adid=
 .az/adv/$~xmlhttprequest
-.br/ads/
+.br/ads/$~xmlhttprequest
 .bz/ads/
 .ca/ads/
 .cfm?ad=
@@ -518,7 +517,7 @@ tieba.baidu.com##.tuijian-wrap
 .com/ss/ad/
 .com/watch.*.js?key=
 .cz/adv/
-.cz/affil/
+.cz/affil/$image
 .cz/bannery/
 .fuse-cloud.com/$~xmlhttprequest
 .html?clicktag=
@@ -546,7 +545,7 @@ tieba.baidu.com##.tuijian-wrap
 .php?zoneid=
 .pk/ads/$~xmlhttprequest
 .pw/ads/$~xmlhttprequest
-.ru/ads/
+.ru/ads/$~xmlhttprequest
 .shop/gd/$third-party
 .shop/tsk/$third-party
 .top/cuid/?$third-party
@@ -825,6 +824,7 @@ tieba.baidu.com##.tuijian-wrap
 /bsa-pro-scripteo/frontend/js/script.js$script
 /btag.min.js$third-party
 /buysellads.js$script
+/calcalist_gpt_ads.js$script
 /callAdserver?
 /cgi-bin/ad/*$~xmlhttprequest
 /click/zone?
@@ -1287,12 +1287,9 @@ _ad_right.
 _ad_side.
 _ad_skyscraper.
 _ad_wrapper.
-_adbanner_
 _adchoice.
 _adchoices.
-_adhome.
 _adlabel_
-_adpartner.
 _adplugin.
 _adright.
 _ads.cgi
@@ -1314,7 +1311,6 @@ _BannerAd_
 _bottom_ads.
 _bottom_ads_
 _footer_ad_
-_gpt_ads.
 _header_ad_
 _headerad.
 _images/ad.$image
@@ -1458,7 +1454,6 @@ _prebid.js$script
 /jscheck.php?enc=$xmlhttprequest
 /sl/assetlisting/?
 /jquery.peelback.$script
--adblocker-detection/
 /ad-blocking-advisor/*$script,stylesheet
 /ad-blocking-alert/*$stylesheet
 /adblock-detect.$script
@@ -20299,6 +20294,7 @@ browsershots.org#@#.advert_area
 ||bolssc.com^
 ||bolteffecteddanger.com^
 ||boltepse.com^
+||bomqonpfzx.com^
 ||bonad.io^
 ||bonafides.club^
 ||bondagecoexist.com^
@@ -24289,6 +24285,7 @@ browsershots.org#@#.advert_area
 ||eejersenset.net^
 ||eejipukaijy.net^
 ||eekeeghoolsy.com^
+||eekqdetpwnlj.com^
 ||eekreeng.com^
 ||eekrogrameety.net^
 ||eeksoabo.com^
@@ -36321,6 +36318,7 @@ browsershots.org#@#.advert_area
 ||raigroashoan.net^
 ||raijigrip.com^
 ||raikijausa.net^
+||railingperformance.com^
 ||railroadfatherenlargement.com^
 ||railroadlineal.com^
 ||railroadmanytwitch.com^
@@ -43060,6 +43058,7 @@ browsershots.org#@#.advert_area
 ||witnesssimilarindoors.com^
 ||wittilyfrogleg.com^
 ||wivtuhoftat.com^
+||wiwarrkazg.com^
 ||wizardscharityvisa.com^
 ||wizardunstablecommissioner.com^
 ||wizkrdxivl.com^
@@ -57360,6 +57359,7 @@ crn.com##.bottom-section
 cnbctv18.com##.bottom-sticky
 gamingdeputy.com##.bottom-sticky-offset
 coincodex.com##.bottom6
+openguessr.com##.bottomFooterAds
 auto.hindustantimes.com##.bottomSticky
 softicons.com##.bottom_125_block
 softicons.com##.bottom_600_250_block
@@ -57589,6 +57589,7 @@ slickdeals.net##.commentsAd
 businessinsider.com,insider.com##.commerce-coupons-module
 goal.com,thisislondon.co.uk##.commercial
 telegraph.co.uk##.commercial-unit
+mega.nz##.commercial-wrapper
 hiphopdx.com##.compact
 bitdegree.org##.comparison-suggestion
 audacy.com##.component--google-ad-manager
@@ -62384,7 +62385,7 @@ tripadvisor.com#?#.tkvEM:-abp-contains(Sponsored)
 twitter.com,x.com#?#h2[role="heading"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสมพนธ|परचरत|বজঞপত|تشہیر شدہ|مروج|تبلیغی|מקודם/)
 vofomovies.info#?#a13:-abp-contains( Ad)
 walmart.ca,walmart.com#?#div > div[io-id]:-abp-contains(Sponsored)
-bing.com#?#li.b_algo:has(.rms_img[src*="id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F"]):has(.tptt:-abp-contains(/^(Amazon|Best Buy|Booking\.com|eBay|eDreams|Trip\.com|Tripadvisor|Walmart)$/))
+bing.com#?#li.b_algo:has(.rms_img[src*="id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F"]):has(.tptt:-abp-contains(/^(Amazon|Best Buy|Booking\.com|eBay|eDreams|Lenovo US|Trip\.com|Tripadvisor|Walmart)$/))
 walmart.*#?#div > div[io-id]:-abp-contains(Sponsored)
 euronews.com###o-site-hr__leaderboard-wallpaper.u-show-for-xlarge {remove:true;}
 virtuagirlgirls.com###DynamicBackgroundWrapper
@@ -62995,8 +62996,8 @@ abjav.com,aniporn.com##.left > section
 xxxpicss.com,xxxpicz.com##.left-banners
 babepedia.com##.left_side > .sidebar_block > a
 xxxporntalk.com##.leftsidenav
-missav.ai,missav.city,missav.loan,missav.today,missav.wiki,missav.ws,missav123.com,missav789.com##.lg\:block
-missav.ai,missav.city,missav.loan,missav.today,missav.wiki,missav.ws,missav123.com,missav789.com##.lg\:hidden
+missav.ai,missav.city,missav.loan,missav.today,missav.wiki,missav.ws,missav123.com,missav888.com##.lg\:block
+missav.ai,missav.city,missav.loan,missav.today,missav.wiki,missav.ws,missav123.com,missav888.com##.lg\:hidden
 videosdemadurasx.com##.link
 xxxvogue.net##.link-adv
 escortnews.eu,topescort.com##.link-buttons-container
@@ -63458,7 +63459,7 @@ hentairider.com##[style="height: 250px;padding:5px;"]
 eporner.com##[style="margin: 20px auto; height: 275px; width: 900px;"]
 vjav.com##[style="width: 728px; height: 90px;"]
 xozilla.com##[style^="height: 250px !important; overflow: hidden;"]
-missav.ai,missav.ws,missav123.com,missav789.com##[x-show$="video_details'"] > div > .list-disc
+missav.ai,missav.ws,missav123.com,missav888.com##[x-show$="video_details'"] > div > .list-disc
 pornone.com##a[class^="listing"]
 f95zone.to##a[data-nav-id="AIPorn"]
 f95zone.to##a[data-nav-id="AISexChat"]
@@ -63466,7 +63467,7 @@ boyfriendtv.com##a[href*="&creativeId=popunder-listing"]
 porn.com##a[href*="&ref="]
 asspoint.com,babepedia.com,babesandstars.com,blackhaloadultreviews.com,dbnaked.com,freeones.com,gfycatporn.com,javfor.me,mansurfer.com,newpornstarblogs.com,ok.porn,porn-star.com,porn.com,porndoe.com,pornhubpremium.com,pornstarchive.com,rogreviews.com,sexyandfunny.com,shemaletubevideos.com,spankbang.com,str8upgayporn.com,the-new-lagoon.com,tube8.com,wcareviews.com,xxxonxxx.com,youporn.com##a[href*=".com/track/"]
 badjojo.com,boysfood.com,definebabe.com,efukt.com,fantasti.cc,girlsofdesire.org,imagepix.org,javfor.me,pornxs.com,shemaletubevideos.com,therealpornwikileaks.com##a[href*=".php"]
-blackhaloadultreviews.com,boyfriendtv.com,hentaigasm.com,javjunkies.com,masahub.net,missav.ai,missav.ws,missav123.com,missav789.com,phun.org,porn-w.org##a[href*="//bit.ly/"]
+blackhaloadultreviews.com,boyfriendtv.com,hentaigasm.com,javjunkies.com,masahub.net,missav.ai,missav.ws,missav123.com,missav888.com,phun.org,porn-w.org##a[href*="//bit.ly/"]
 celeb.gate.cc##a[href*="//goo.gl/"]
 taxidrivermovie.com##a[href*="/category/"]
 nude.hu##a[href*="/click/"]
@@ -63581,7 +63582,7 @@ xozilla.xxx##div[style="height: 250px !important; overflow: hidden;"]
 porncore.net##div[style="margin:10px auto;height:200px;width:800px;"]
 javplayer.me##div[style="position: absolute; inset: 0px; z-index: 999; display: block;"]
 simpcity.su##div[style="text-align:center;margin-bottom:20px;"]
-abxxx.com,aniporn.com,missav.ai,missav.ws,missav123.com,missav789.com##div[style="width: 300px; height: 250px;"]
+abxxx.com,aniporn.com,missav.ai,missav.ws,missav123.com,missav888.com##div[style="width: 300px; height: 250px;"]
 sexbot.com##div[style="width:300px;height:20px;text-align:center;padding-top:30px;"]
 pornpics.network##div[style^="height: 250px;"]
 gay0day.com##div[style^="height:250px;"]
@@ -66056,6 +66057,7 @@ newduba.cn###jq_youxi
 ||xmvxo.xyz^
 ||geuba.xyz^
 ||brephras.com^
+||7zb.fun^
 ||nxdefd.icu^
 ||thonkoirs.com^
 ||vftrfmia.icu^
@@ -74112,7 +74114,7 @@ ip138.com###banana
 appinn.com###sidebar > .widget_block > a
 52asus.com###AsusMall-contain
 mydrivers.com##div[style="margin: auto;width: 800px;padding: 10px 0;"]
-cn.bing.com#?#.b_algo:-abp-has(p:-abp-properties(content:*AAAAAElFTkSuQmCC))
+cn.bing.com#?#.b_algo:-abp-has(p:-abp-properties(content:*Jr8IbslwuuoZ9kr8cTrXXkY8lfZL5p8v2TTht91DQxXZU9AB6BpwzkAAU2AAAAAElFTkSuQmCC))
 bing.com#?#.b_algo:-abp-has(.ad_esltitle)
 bing.com#?#.b_algo:-abp-has(.b_ads1line)
 bing.com#?#.sb_form_placeholder:-abp-has(>.ad-ghost-slug)
@@ -93637,6 +93639,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||data.cheatography.com/banana.js
 ||data.guide.photobucket.com^
 ||data.torry.io^
+||data.ublock-browser.com^
 ||data.webullfintech.com/event/
 ||data.whop.com/api/v1/track/
 ||data.younow.com^
