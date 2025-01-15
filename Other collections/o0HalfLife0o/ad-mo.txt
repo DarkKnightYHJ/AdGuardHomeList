@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ubTUEMj/zDgEHfkjFHCJZA
+! Checksum: +mbvUxVRE9Fv+iKVK01gFw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202501150801
-! Last Modified: 2025年01月15日 08:01
+! Version: 202501151400
+! Last Modified: 2025年01月15日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -59619,7 +59619,7 @@ watchinamerica.com##.smartmag-widget-codes
 pressdemocrat.com##.smiPlugin_rail_ad_widget
 secretchicago.com##.smn-new-gpt-ad
 rugby365.com##.snack-container
-small-screen.co.uk##.snackStickyParent
+foottheball.com,small-screen.co.uk##.snackStickyParent
 dailyevergreen.com##.sno-hac-desktop-1
 khmertimeskh.com##.so-widget-sow-image
 u.today##.something
@@ -60248,6 +60248,7 @@ techyv.com##.wpb_raw_code
 premiumtimesng.com##.wpb_raw_code > .wpb_wrapper
 ukutabs.com##.wpb_raw_html
 nationalfile.com##.wpb_wrapper > p
+foottheball.com##.wpb_wrapper.td_block_wrap.vc_raw_html.tdi_46
 coralspringstalk.com##.wpbdp-listings-widget-list
 tejanonation.net##.wpcnt
 americanfreepress.net,sashares.co.za##.wppopups-whole
@@ -61863,6 +61864,7 @@ arboristsite.com##.gb-sponsored-wrapper
 givemesport.com##.gms-videos-container
 gamesradar.com##.in-article
 bringmethenews.com,mensjournal.com,thestreet.com##.is-fallback-player
+gmanetwork.com##.ivs-placeholder
 evoke.ie##.jw-player-video-widget
 anandtech.com##.jwplayer
 gamesradar.com,livescience.com,tomshardware.com,whathifi.com##.jwplayer__widthsetter
@@ -65949,6 +65951,10 @@ newduba.cn###jq_youxi
 ||etallkiq.com^
 ||tbyfz.xyz^
 ||rqvrbf.icu^
+||tovbus.cn^
+||17282.org^
+||btcili.top^
+||04o.fun^
 ||lazzrv.icu^
 ||geinkroll.com^
 ||wusfa.xyz^
@@ -73998,6 +74004,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||aatv.app/sport/sport.js
 ||dangbei.net/2022/dbhezi.
 !------------------------Specific element hiding rules------------------------!
+eastmoney.com##div[style^="position: fixed; z-index:"]
 85po.com##.asside-link
 cnbeta.com.tw##.cb-help
 cnbeta.com.tw##.meta > .fr
