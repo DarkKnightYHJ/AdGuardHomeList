@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RwrY+08q3b6OsO1gELrVqQ
+! Checksum: AoTTKzAppxjFm50eZ83wrA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202501160200
-! Last Modified: 2025年01月16日 02:00
+! Version: 202501160801
+! Last Modified: 2025年01月16日 08:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1876,6 +1876,10 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||ztgha.xyz^
+||djsxm.xyz^
+||0vc.fun^
+||cralphal.com^
 ||zxpaa.xyz^
 ||etallkiq.com^
 ||tbyfz.xyz^
@@ -70771,7 +70775,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||optimove.net^$domain=app.touchnote.com
 @@||ots.webtrends-optimize.com/$xmlhttprequest,domain=tvlicensing.co.uk
 @@||outbrain.com/outbrain.js$domain=cnn.com
-@@||p.typekit.net/p.css$stylesheet,domain=athleticpropulsionlabs.com|browserstack.com|bungie.net|business.untappd.com|robertsspaceindustries.com
+@@||p.typekit.net/p.css$stylesheet,domain=athleticpropulsionlabs.com|browserstack.com|bungie.net|business.untappd.com|petsafe.com|robertsspaceindustries.com
 @@||palmettostatearmory.com/static/$script,~third-party
 @@||pals.pa.gov/vendor/analytics/$~third-party
 @@||parcel.app/webtrack.php?$~third-party

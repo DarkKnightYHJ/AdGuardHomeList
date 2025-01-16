@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kWMShs9S+GGV3Zc6QzIpWA
-! Version: 202501152301
+! Checksum: 0/R3/J6itPASGt9P9gajOw
+! Version: 202501160101
 ! Title: EasyList China
-! Last modified: 15 Jan 2025 23:01 UTC
+! Last modified: 16 Jan 2025 01:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -19,6 +19,7 @@
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.alpha^$script,third-party
 -*-*-*-*.as^$script,third-party
+.xyz:*?x=$script,third-party
 -*-*-*-*.panda^$script,third-party
 .tv/gg/
 /webAdvert.php?ad_name=
@@ -1740,6 +1741,8 @@ newduba.cn###jq_youxi
 ||djsxm.xyz^
 ||0vc.fun^
 ||cralphal.com^
+||ptrmnx.icu^
+||iwpkp.xyz^
 ||zxpaa.xyz^
 ||etallkiq.com^
 ||tbyfz.xyz^
@@ -9850,7 +9853,6 @@ mydrivers.com###track-link
 eastmoney.com##div[style^="position: fixed; z-index: 100000; top:"]
 mydrivers.com##.i1vbApifa5
 mydrivers.com##.HSsRgYjfNn
-siguyy.tv##[style^="position: fixed;"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
