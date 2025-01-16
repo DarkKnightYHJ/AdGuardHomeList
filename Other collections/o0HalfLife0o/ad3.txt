@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AoTTKzAppxjFm50eZ83wrA
+! Checksum: sn7HdtxEPzUcxhdRVXXHSQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202501160801
-! Last Modified: 2025年01月16日 08:01
+! Version: 202501161400
+! Last Modified: 2025年01月16日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -160,6 +160,7 @@ z4a.net
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.alpha^$script,third-party
 -*-*-*-*.as^$script,third-party
+.xyz:*?x=$script,third-party
 -*-*-*-*.panda^$script,third-party
 .tv/gg/
 /webAdvert.php?ad_name=
@@ -1880,6 +1881,9 @@ newduba.cn###jq_youxi
 ||djsxm.xyz^
 ||0vc.fun^
 ||cralphal.com^
+||ptrmnx.icu^
+||iwpkp.xyz^
+||4gu.fun^
 ||zxpaa.xyz^
 ||etallkiq.com^
 ||tbyfz.xyz^
@@ -9988,7 +9992,6 @@ mydrivers.com###track-link
 eastmoney.com##div[style^="position: fixed; z-index: 100000; top:"]
 mydrivers.com##.i1vbApifa5
 mydrivers.com##.HSsRgYjfNn
-siguyy.tv##[style^="position: fixed;"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy

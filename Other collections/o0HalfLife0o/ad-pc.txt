@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: V4FHYka5n7VcgYzmaHSlYA
+! Checksum: eW3goPPBLwNB/gCXpASIMA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202501160801
-! Last Modified: 2025年01月16日 08:01
+! Version: 202501161400
+! Last Modified: 2025年01月16日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -450,7 +450,7 @@ tieba.baidu.com##.tuijian-wrap
 -ad-manager/$~stylesheet
 -ad-sidebar.
 -ad-util.
--ad.jpg.pagespeed.
+-ad.jpg.pagespeed.$image
 -ads-banner.
 -ads-bottom.
 -ads-manager/$domain=~wordpress.org
@@ -459,9 +459,7 @@ tieba.baidu.com##.tuijian-wrap
 -banner-ad_
 -banner-ads-$~script
 -contrib-ads.$~stylesheet
--display-ads.
 -footerads.
--page-ad.
 -PcmModule-Taboola-
 -popexit.
 -popunder.
@@ -472,13 +470,11 @@ tieba.baidu.com##.tuijian-wrap
 -web-advert-$image
 -Web-Advert.
 .adriver.$~object,domain=~adriver.co
-.adrotate.
 .ads-lazy.
 .ads.controller.
-.ads.css
 .adsbox.
 .advert.$domain=~advert.ae|~advert.ge|~advert.io|~advert.ly|~advert.media|~advert.org.pl
-.ar/ads/
+.ar/ads/$~xmlhttprequest
 .ashx?AdID=
 .aspx?adid=
 .az/adv/$~xmlhttprequest
@@ -533,7 +529,7 @@ tieba.baidu.com##.tuijian-wrap
 .ng/ads/
 .nu/ads/
 .org/ad/$domain=~ylilauta.org
-.org/ads/
+.org/ads/$~xmlhttprequest
 .org/pops.js
 .org/script/compatibility.js$third-party
 .ph/ads/
@@ -1022,6 +1018,7 @@ tieba.baidu.com##.tuijian-wrap
 /plg_adbutlerads/*$script,stylesheet
 /plugin/ad/*$script
 /plugins/ad-invalid-click-protector/*$script
+/plugins/adrotate-pro-latest/*$script
 /plugins/adrotate-pro/*$script
 /plugins/adrotate/*$script
 /plugins/ads/*$~xmlhttprequest
@@ -1195,6 +1192,7 @@ tieba.baidu.com##.tuijian-wrap
 /videoad/*$script
 /videoads/*$~xmlhttprequest
 /videojs.ads-$script,stylesheet
+/videojs.ads.css$stylesheet
 /videojs.sda.js$script
 /view/ad/*$subdocument
 /view_banner.php$image
@@ -1286,7 +1284,6 @@ _ad_layer_
 _ad_right.
 _ad_side.
 _ad_skyscraper.
-_ad_wrapper.
 _adchoice.
 _adchoices.
 _adlabel_
@@ -1302,19 +1299,14 @@ _adv_open_x/
 _advertise-$domain=~linkedin.com
 _advertise.
 _advertisment.$~xmlhttprequest
-_affiliate_ad.
 _assets/ads/
 _asyncspc.
-_background_ad.
 _Banner_Ads_
 _BannerAd_
-_bottom_ads.
 _bottom_ads_
 _footer_ad_
-_header_ad_
 _headerad.
 _images/ad.$image
-_images/ad_
 _images/ads/
 _layerad.
 _panel_ads.
@@ -25853,6 +25845,7 @@ browsershots.org#@#.advert_area
 ||foulfurnished.com^
 ||foundationhemispherebossy.com^
 ||foundationhorny.com^
+||foupeestokiy.net^
 ||foupeethaija.com^
 ||fourteenthcongratulate.com^
 ||fouwheepoh.com^
@@ -31302,6 +31295,7 @@ browsershots.org#@#.advert_area
 ||measuredshared.com^
 ||measuringcabinetclerk.com^
 ||measuringrules.com^
+||meatabdicatedelicatessen.com^
 ||meatjav11.fun^
 ||meawo.cloud^
 ||mechaelpaceway.com^
@@ -35335,6 +35329,7 @@ browsershots.org#@#.advert_area
 ||privacycounter.com^
 ||privacynicerresumed.com^
 ||privacysearching.com^
+||private-stage.com^
 ||privateappealingsymphony.com^
 ||privatelydevotionrewind.com^
 ||privilegedmansfieldvaguely.com^
@@ -38260,6 +38255,7 @@ browsershots.org#@#.advert_area
 ||sherryfaithfulhiring.com^
 ||shertuwipsumt.net^
 ||sheschemetraitor.com^
+||shetchoultoocha.net^
 ||shexawhy.net^
 ||shfewojrmxpy.xyz^
 ||shfsdvc.com^
@@ -39355,6 +39351,7 @@ browsershots.org#@#.advert_area
 ||stixeepou.com^
 ||stjpezyt.com^
 ||stoachaigog.com^
+||stoachdarts.com^
 ||stoadivap.com^
 ||stoaglauksargoo.xyz^
 ||stoagnejums.net^
@@ -61664,6 +61661,7 @@ evreporter.com##.widget_media_image:not(:has(a[href^="https://evreporter.com/"])
 cnx-software.com##.widget_text.widget:has([href*="?utm"])
 dotesports.com##.wp-block-gamurs-article-tile:has-text(Sponsored)
 bestbuy.ca##.x-productListItem:has([data-automation="sponsoredProductLabel"])
+mapquest.co.uk##.z-10.justify-center:has-text(Advertisement)
 freshdirect.com##[class*="ProductsGrid_grid_item"]:has([data-testid="marketing tag"])
 livejournal.com##[class*="categories"] + div[class]:has(> [class*="-commercial"])
 momondo.com##[class*="mod-pres-default"]:has(div[class*="ad-badge"])
@@ -64363,6 +64361,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.alpha^$script,third-party
 -*-*-*-*.as^$script,third-party
+.xyz:*?x=$script,third-party
 -*-*-*-*.panda^$script,third-party
 .tv/gg/
 /webAdvert.php?ad_name=
@@ -66083,6 +66082,9 @@ newduba.cn###jq_youxi
 ||djsxm.xyz^
 ||0vc.fun^
 ||cralphal.com^
+||ptrmnx.icu^
+||iwpkp.xyz^
+||4gu.fun^
 ||zxpaa.xyz^
 ||etallkiq.com^
 ||tbyfz.xyz^
@@ -74191,7 +74193,6 @@ mydrivers.com###track-link
 eastmoney.com##div[style^="position: fixed; z-index: 100000; top:"]
 mydrivers.com##.i1vbApifa5
 mydrivers.com##.HSsRgYjfNn
-siguyy.tv##[style^="position: fixed;"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
