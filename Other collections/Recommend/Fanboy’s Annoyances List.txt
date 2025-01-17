@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: oQW/JX/nqWnl01O5+lJxqw
-! Version: 202501172001
+! Checksum: oxIUIOv5cHNcW+X4jpzcsA
+! Version: 202501172101
 ! Title: Fanboy's Annoyance List
-! Last modified: 17 Jan 2025 20:01 UTC
+! Last modified: 17 Jan 2025 21:01 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -47953,3 +47953,7 @@ focus.de#@#article[id^="teaser-"][data-placement]
 @@||sams.11freunde.de/ee/irl1/v1/interact?$domain=11freunde.de
 ! FD-7277
 @@||ttmetrics.faz.net/rest/v1/delivery?$domain=faz.net
+! FD-7270
+@@/iqadcontroller.$script,domain=manager-magazin.de
+@@||g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$script,domain=manager-magazin.de
+@@||g.doubleclick.net/gampad/ads?$xmlhttprequest,domain=manager-magazin.de
