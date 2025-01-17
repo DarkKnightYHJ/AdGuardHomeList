@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: biiafbBqCK9nQa+J+hmKxw
-! Version: 202501171901
+! Checksum: oQW/JX/nqWnl01O5+lJxqw
+! Version: 202501172001
 ! Title: Fanboy's Annoyance List
-! Last modified: 17 Jan 2025 19:01 UTC
+! Last modified: 17 Jan 2025 20:01 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -47894,8 +47894,10 @@ onmeda.de#@#.cmpboxWelcomeGDPR
 @@/sdk.privacy-center.$script,domain=seloger.com
 !
 insider.com#@#.osano-cm-window
-! FD-4270
-@@||scripts.finanzen.net/js/cmp/cmp.min.js
+! FD-4270 | FD-7281
+@@||scripts.finanzen.net/*/cmp/cmp.min.js
+! FD-7282
+@@||script.finanzen.ch/*/cmp/cmp.min.js
 ! FD-287 | FD-4288 | FD-6976
 sixx.de,sat1.de#@#cmp-banner
 ! FD-4875 | FD-7133
@@ -47941,8 +47943,8 @@ stepstone.de#@##GDPRConsentManagerContainer
 @@||cmp.usercentrics.eu^$script,xmlhttprequest,domain=idealo.it|idealo.fr|idealo.es|idealo.de|idealo.co.uk
 ! FD-7009
 emarketer.com#@#.osano-cm-window
-! FD-7045
-@@||usercentrics.eu^$script,subdocument,xmlhttprequest,domain=kombi.de
+! FD-7045 | FD-7279
+@@||usercentrics.eu^$script,subdocument,xmlhttprequest,domain=kombi.de|idealo.at
 ! FD-7268
 focus.de#@#article[id^="teaser-"][data-placement]
 ! FD-7274
