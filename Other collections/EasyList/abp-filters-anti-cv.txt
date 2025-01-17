@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 5fWaTv7odFsGL5yfMF+VRw
-! Version: 202501171221
+! Checksum: Cy/lQPtnSaY9nuS6ZMviQw
+! Version: 202501171311
 ! Title: ABP filters
-! Last modified: 17 Jan 2025 12:21 UTC
+! Last modified: 17 Jan 2025 13:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -540,7 +540,7 @@ woolworths.com.au#$#hide-if-contains-visible-text /\s*Promoted\s*/ 'div>wc-produ
 ! CV-1364
 ||html-load.com^$domain=convertcase.net|manta.com|wfmz.com|golf-live.at|eurointegration.com.ua
 convertcase.net,manta.com,wfmz.com,golf-live.at,eurointegration.com.ua#$#abort-current-inline-script Symbol error-report.com
-smsonline.cloud,infinityfree.com,laleggepertutti.it,winfuture.de,talkwithstranger.com,the-crossword-solver.com,wort-suchen.de,kreuzwortraetsel.de,verkaufsoffener-sonntag.com,word-grabber.com,raetsel-hilfe.de,maketecheasier.com,sportsrec.com,flatpanelshd.com,crosswordsolver.com,motscroises.fr,cruciverba.it,palabr.as,oeffnungszeitenbuch.de,horairesdouverture24.fr,oraridiapertura24.it,nyitvatartas24.hu,motorbikecatalog.com,globalrph.com,forsal.pl,woxikon.*#$#abort-on-iframe-property-read addEventListener
+infinityfree.com,laleggepertutti.it,talkwithstranger.com,kreuzwortraetsel.de,verkaufsoffener-sonntag.com,sportsrec.com,crosswordsolver.com,motscroises.fr,cruciverba.it,motorbikecatalog.com,globalrph.com#$#abort-on-iframe-property-read addEventListener
 ! RM-42
 tesco.com#$#hide-if-contains-visible-text /Sponsored/ ul[id^="list-content"]>li 'div>div>span'
 ! RM-114
