@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: ue+FUExZlrxZD++lwuVq8g
-! Version: 202501162301
+! Checksum: wdOGsXEFx9q2595l2TK7mg
+! Version: 202501170101
 ! Title: ABP filters
-! Last modified: 16 Jan 2025 23:01 UTC
+! Last modified: 17 Jan 2025 01:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -563,7 +563,7 @@ tripadvisor.com#$#hide-if-matches-xpath './/div[@data-curated-shelf-id and .//di
 tripadvisor.com#$#hide-if-matches-xpath '//div[.//div[contains(text(), "Sponsored by: ")]]/ancestor-or-self::span[1]/parent::div[1]'
 tripadvisor.com#$#hide-if-matches-xpath './/span[contains(text(), "SPONSORED")]/../../../preceding-sibling::div[@data-vjs-player="true"]/parent::div'
 tripadvisor.com#$#hide-if-matches-xpath './/div[@data-test-target="hero-gallery"][../following-sibling::div//div[contains(text(),"Sponsored by")]]/parent::div/parent::div'
-tripadvisor.com#$#hide-if-matches-xpath './/video/following::*[@class][contains(translate(text(), "SPONSORED", "sponsored"), "sponsored")][1]/preceding::div[@data-vjs-player]/parent::div/parent::div'
+tripadvisor.com#$#hide-if-matches-xpath './/h2[@class][contains(text(),"Sponsored by")]/preceding::div[@data-vjs-player]/parent::div[not(@class)]'
 tripadvisor.com##[data-sponsored]
 ! RL
 tripadvisor.com,tripadvisor.com.br,tripadvisor.ca,tripadvisor.com.mx,tripadvisor.com.ar,tripadvisor.cl,tripadvisor.co,tripadvisor.com.ve,tripadvisor.co.uk,tripadvisor.it,tripadvisor.es,tripadvisor.de,tripadvisor.fr,tripadvisor.se,tripadvisor.nl,tripadvisor.com.tr,tripadvisor.dk,tripadvisor.at,tripadvisor.com.gr,no.tripadvisor.com,tripadvisor.pt,tripadvisor.ru,tripadvisor.ch,tripadvisor.be,tripadvisor.jp,cn.tripadvisor.com,tripadvisor.in,tripadvisor.com.my,tripadvisor.com.ph,tripadvisor.com.sg,tripadvisor.co.id,tripadvisor.co.kr,th.tripadvisor.com,tripadvisor.com.tw,tripadvisor.com.hk,tripadvisor.co.za,ar.tripadvisor.com,tripadvisor.com.eg,tripadvisor.co.il#$#hide-if-matches-xpath '././/span[contains(.,"Patrocinado") or contains(.,"Annonce") or contains(.,"Sponsored") or contains (.,"Sponsorizzato") or contains(., "Gesponsert") or contains(.,"Sponsrad") or contains(.,"Gesponsord") or contains(.,"Sponsorlu") or contains(.,"Sponsoreret") or contains(.,"Χορηγία") or contains(.,"Sponset") or contains(.,"Реклама") or contains(.,"スポンサー提供") or contains(.,"赞助商") or contains(.,"Bersponsor") or contains(.,"스폰서") or contains(.,"สปอนเซอร์") or contains(.,"贊助商") or contains(.,"贊助") or contains(.,"مدعوم") or contains(.,"מודעה")]/ancestor::header/ancestor-or-self::div[2]'
