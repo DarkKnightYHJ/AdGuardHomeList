@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: OMcoTAO/PzhxkYdudEYfdw
-! Version: 202501202002
+! Checksum: snGorJq43YMxXnhVdolsKw
+! Version: 202501202101
 ! Title: ABP filters
-! Last modified: 20 Jan 2025 20:02 UTC
+! Last modified: 20 Jan 2025 21:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -851,9 +851,12 @@ instacart.ca,instacart.com#$#race start; hide-if-matches-xpath './/img[@alt="Thi
 instacart.ca,instacart.com#$#hide-if-matches-xpath '//div[contains(@id,"-inner")]/ancestor-or-self::article/preceding::span[contains(text(),"Sponsored")]/ancestor-or-self::div[2]'
 instacart.com,instacart.ca#$#abort-on-property-write window.ADBLOCK_DETECTED
 ! #RM-3
+! PP
 lowes.com#$#hide-if-matches-xpath './/div[@class][contains(text(),"Sponsored")]/ancestor::div[@class="carousel-inner-container "]/preceding::h2[@class][@role][contains(text(),"Sponsored")]/ancestor-or-self::div[contains(@class,"recommended")][1]'
-lowes.com#$#hide-if-matches-xpath './/section[@id="listItems"]/div[count(child::div) = 3]/div//div[contains(@class,"LormnProductBadgeStyle")]/ancestor::div[contains(@class,"tile_group")]/*'
-lowes.com#$#hide-if-matches-xpath './/section[@id="listItems"]/div/div[@data-tile=//section[@id="listItems"]/div/div[@class]//span[text()="Sponsored"]/ancestor::div[@data-tile]/@data-tile]/*'; hide-if-matches-xpath './/div[contains(@class,"ekndGJ")]//div[@data-tile=//section[@id="listItems"]//span[text()="Sponsored"]/ancestor::div[@data-tile]/@data-tile]'
+! SA LV
+lowes.com#$#hide-if-contains-visible-text /Sponsored/ 'div[class$="tile_group"][data-row]' 'div[data-selector="prd-lormn-badge"]:not([style])>p>span'
+! SA GV
+lowes.com#$#hide-if-matches-xpath './/section[@id="listItems"]/div/div[@data-tile=//section[@id="listItems"]/div/div[@class]//span[text()="Sponsored"]/ancestor::div[@data-tile]/@data-tile]/*'
 ! #RM-8
 samsclub.com#$#hide-if-matches-xpath './/span[@class="sc-specials-label"]/parent::div/ancestor::div[contains(@class,"promo-static")]/ancestor-or-self::li[1]'
 samsclub.com#$#hide-if-contains-visible-text /Sponsored/ 'div[style][class]' span[class]
