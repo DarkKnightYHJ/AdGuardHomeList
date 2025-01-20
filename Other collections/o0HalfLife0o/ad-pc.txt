@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DrdozGVCE/iw0pQABrSPZg
+! Checksum: bxdfky0lnNtZEwfjuGjCZQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202501200801
-! Last Modified: 2025年01月20日 08:01
+! Version: 202501202000
+! Last Modified: 2025年01月20日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1043,8 +1043,7 @@ tieba.baidu.com##.tuijian-wrap
 /RdmAdFeed.js$script
 /rdrr/renderer.js$third-party
 /RealMedia/ads/*$~xmlhttprequest
-/redirect/?spot_id=
-/redirect?tid=
+/redirect/?spot_id=$third-party
 /reklam/*$~xmlhttprequest,domain=~cloudflare.com|~github.com|~reklam.com.tr
 /reklama2.jpg$image
 /reklama2.png$image,domain=~aerokuz.ru
@@ -1249,8 +1248,6 @@ tieba.baidu.com##.tuijian-wrap
 ?wpstealthadsjs=
 _ad_250.$image
 _ad_300.$image
-_ad_bottom.
-_ad_layer_
 _ads.cms?
 _ads.php?
 _advertise-$domain=~linkedin.com
@@ -1375,7 +1372,6 @@ _prebid.js$script
 /webservices/jsparselinks.aspx?$script
 /affiliate/referral.asp?site=*&aff_id=
 /bdv_rd2.dbm?enparms
-/jscheck.php?enc=$xmlhttprequest
 /sl/assetlisting/?
 /jquery.peelback.$script
 /ad-blocking-advisor/*$script,stylesheet
@@ -36554,6 +36550,7 @@ browsershots.org#@#.advert_area
 ||reddockbedman.com^
 ||redeemforest.com^
 ||redetaailshiletteri.com^
+||redexamination.com^
 ||redfootcoclea.shop^
 ||redheadinfluencedchill.com^
 ||redheadpublicityjug.com^
@@ -44931,12 +44928,14 @@ browsershots.org#@#.advert_area
 ||xdownloadright.com^$document
 ||xlivrdr.com^$document
 ||xml-clickurl.com^$document
+||xml-v4.lensgard-3.online^$document
 ||xoilactv123.gdn^$document
 ||xoilactvcj.cc^$document
 ||xstalkx.ru^$document
 ||xszpuvwr7.com^$document
 ||yohavemix.live^$document
 ||youradexchange.com^$document
+||zavirand.com^$document
 ||123date.me^$third-party
 ||152media.com^$third-party
 ||2beon.co.kr^$third-party
@@ -61483,7 +61482,7 @@ douglas.*##.swiper-slide:has(button[data-testid="sponsored-button"])
 douglas.*##div.product-grid-column:has(button[data-testid="sponsored-button"])
 laredoute.*###hp-sponsored-banner
 lazada.*##.pdp-block__product-ads
-manomano.*##a[href^="/"][href*="?product_id="]:has(svg)
+manomano.*##a[href^="/"][href*="?product_id="][title]:has(span > .svg_tamagoshi)
 manomano.*##div[data-testid="sprbrd-banner"]
 pinterest.*##div[data-grid-item]:has([data-test-pin-id] [data-test-id^="one-tap-desktop"] > a[href^="http"][rel="nofollow"]):not(body > div)
 pv-magazine.*,pv-magazine-usa.com,pv-magazine-australia.com###home-top-rectangle-wrap-1
@@ -61509,7 +61508,6 @@ yandex.*##li[class*="_card"]:has(a[href^="https://yabs.yandex.ru/count/"])
 yandex.*##li[class*="_card"]:has(a[href^="https://yandex.com/search/_crpd/"])
 windowscentral.com###article-body > .hawk-nest[data-widget-id]:has(a[class^="hawk-affiliate-link-"][class$="-button"])
 cars.com###branded-canvas-click-wrapper:has(> #native-ad-html)
-winaero.com###content p:has(~ ins.adsbygoogle)
 radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se###headerTopBar ~ div > div:has(div#RAD_D_station_top)
 gtaforums.com###ipsLayout_mainArea div:has(> #pwDeskLbAtf)
 aleteia.org###root > div[class]:has(> .adslot)
@@ -66090,6 +66088,9 @@ newduba.cn###jq_youxi
 ||ccokamif.top^
 ||saelphol.com^
 ||pfbmht.icu^
+||31y.fun^
+||hcokamiu.top^
+||sterkisg.com^
 ||lagzoids.com^
 ||njnhzh.icu^
 ||8u0.fun^
@@ -90962,6 +90963,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||o.aolcdn.com/js/mg1.js
 ||observe-nexus.pointandplace.com^
 ||observer.ip-label.net^
+||obseu.netgreencolumn.com^
 ||ocmail1.in/rtw/$image
 ||oct8ne.com/Visitor/
 ||octaneai.com^*/utrk
