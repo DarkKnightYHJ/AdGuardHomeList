@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: xvZYK3sfbYr7O3uzliWexA
-! Version: 202501201001
+! Checksum: y7E2/kI41CKg0Pa/LTj3og
+! Version: 202501201101
 ! Title: ABP filters
-! Last modified: 20 Jan 2025 10:01 UTC
+! Last modified: 20 Jan 2025 11:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1886,6 +1886,9 @@ howdyho.net,howdyho.pro#@#:not(my-obnaruzhili-adblock)
 ! FD-7186
 howdyho.net,howdyho.pro#@#html[lang="ru"] :not(my-obnaruzhili-adblock)
 howdyho.net,howdyho.pro#@#html[lang="ru"] :not(my-obnaruzhili-adbl)
+! FD-7283
+mediamarkt.de#@#li[data-index-number]:-abp-contains(Gesponsert)
+mediamarkt.de#@#.sc-72448dee-1.bLECT:-abp-contains(Gesponsert)
 ! *** abp-filters-anti-cv:distribution/abp-filters-partners.txt ***
 ! Filters to be used by distribution partners
 ! #CV-782

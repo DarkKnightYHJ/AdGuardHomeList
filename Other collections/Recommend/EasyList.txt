@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ddYfesK5oA2hEFd/4xEAmg
-! Version: 202501201001
+! Checksum: t17lUeNGdI/BLNi8IStMfA
+! Version: 202501201101
 ! Title: EasyList
-! Last modified: 20 Jan 2025 10:01 UTC
+! Last modified: 20 Jan 2025 11:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -61223,7 +61223,7 @@ douglas.*##.swiper-slide:has(button[data-testid="sponsored-button"])
 douglas.*##div.product-grid-column:has(button[data-testid="sponsored-button"])
 laredoute.*###hp-sponsored-banner
 lazada.*##.pdp-block__product-ads
-manomano.*##a[href^="/"][href*="?product_id="]:has(svg)
+manomano.*##a[href^="/"][href*="?product_id="][title]:has(span > .svg_tamagoshi)
 manomano.*##div[data-testid="sprbrd-banner"]
 pinterest.*##div[data-grid-item]:has([data-test-pin-id] [data-test-id^="one-tap-desktop"] > a[href^="http"][rel="nofollow"]):not(body > div)
 pv-magazine.*,pv-magazine-usa.com,pv-magazine-australia.com###home-top-rectangle-wrap-1
