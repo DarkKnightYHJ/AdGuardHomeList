@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fIDnKUyB66PHhSyi0Y/rhw
-! Version: 202501212201
+! Checksum: MBU1xrQlFx92NrtrbX04Ww
+! Version: 202501212301
 ! Title: EasyList
-! Last modified: 21 Jan 2025 22:01 UTC
+! Last modified: 21 Jan 2025 23:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -42,7 +42,6 @@
 .com/4/js/$third-party
 .com/a?pagetype
 .com/ad/$~image,third-party,domain=~mediaplex.com|~warpwire.com|~wsj.com
-.com/ads?
 .com/adv/$domain=~adv.asahi.com|~advantabankcorp.com|~alltransistors.com|~archiproducts.com|~tritondigital.com
 .com/api/posts?token=$third-party
 .com/sc/*?n=$script,third-party
@@ -100,11 +99,10 @@
 /ad-scripts--$script
 /ad-scroll.js$script
 /ad-server.$~script
-/ad.cgi?
+/ad.cgi?$~xmlhttprequest
 /ad.css?$stylesheet
-/ad.html?
+/ad.html?$~xmlhttprequest
 /ad.min.js$script
-/ad/a.aspx?
 /ad/ad_common.js$script
 /ad/dfp/*$script
 /ad/err?
@@ -223,7 +221,6 @@
 /ads728.$image
 /ads728x90.$image
 /ads?apid
-/ads?callback
 /ads?client=
 /ads?id=
 /ads?object_
@@ -353,7 +350,6 @@
 /btag.min.js$third-party
 /buysellads.js$script
 /calcalist_gpt_ads.js$script
-/callAdserver?
 /cgi-bin/ad/*$~xmlhttprequest
 /click?adv=
 /cms_ads.js$script
@@ -425,7 +421,6 @@
 /get?go=1&data=$subdocument
 /getad?
 /getads?
-/getAdsysCode?
 /GetAdvertisingLeft?
 /globals_ps_afc.js$script
 /google-adsense.js$script
@@ -489,7 +484,6 @@
 /log_ad?
 /mads.php$subdocument
 /maven/am.js$script
-/mbads?
 /media/ads/*$image
 /media_ads/*$image
 /microad.js$script
@@ -531,7 +525,7 @@
 /partnerbanner.$~xmlhttprequest,domain=~toltech.cn
 /partners/ads/*$image
 /pcad.js?
-/peel.php?
+/peel.php?$script
 /peel_ads.js$script
 /peelads/*$script
 /pfe/current/*$third-party
@@ -539,11 +533,11 @@
 /phpadsnew/*$image,script
 /phpbb_ads/*$~xmlhttprequest
 /pix/ads/*$image
-/pixel/puclc?
+/pixel/puclc?$third-party
 /pixel/pure$third-party
-/pixel/purs?
-/pixel/purst?
-/pixel/sbe?
+/pixel/purs?$third-party
+/pixel/purst?$third-party
+/pixel/sbe?$third-party
 /player/ads/*$~xmlhttprequest
 /plg_adbutlerads/*$script,stylesheet
 /plugin/ad/*$script
@@ -670,7 +664,6 @@
 /slider_ad.js$script
 /sliderad.js$script
 /small_ad.$image,domain=~eh-ic.com
-/smartlinks.epl?
 /sp/delivery/*$script
 /spacedesc=
 /spc.php?$script
@@ -802,7 +795,6 @@
 _ad_250.$image
 _ad_300.$image
 _ads.cms?
-_ads.php?
 _advertise-$domain=~linkedin.com
 _advertisment.$~xmlhttprequest
 _images/ad.$image
@@ -899,7 +891,7 @@ _reklama_$domain=~youtube.com
 /detroitchicago/vpp.gif?
 /detroitchicago/wichita.js$script
 /edmonton.webp$script
-/ezcl.webp?
+/ezcl.webp?$script
 /ezf-min.$script
 /ezo/*$script,~third-party,domain=~yandex.by|~yandex.com|~yandex.kz|~yandex.ru|~yandex.ua
 /ezoic/*$script,~third-party
@@ -6047,6 +6039,7 @@ _800x80_
 ##.ad-300-dummy
 ##.ad-300-flex
 ##.ad-300-x-250
+##.ad-300250
 ##.ad-300X250
 ##.ad-300X250-body
 ##.ad-300x
@@ -6091,6 +6084,7 @@ _800x80_
 ##.ad-970
 ##.ad-970-250
 ##.ad-970-90
+##.ad-970250
 ##.ad-970x250
 ##.ad-970x90
 ##.ad-Advert_Placeholder
@@ -54443,7 +54437,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||porngames.tv/js/banner2.js
 ||porngo.tube/tdkfiololwb/
 ||pornhat.com/banner/
-||pornhub.com/_xa/ads_batch
+||pornhub.*/_xa/ads
 ||pornicom.com/jsb/
 ||pornid.name/ffg/
 ||pornid.name/polstr/
@@ -54493,7 +54487,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||rat.xxx/wwp2/
 ||realgfporn.com/js/bbbasdffdddf.php
 ||redgifs.com/assets/js/goCtrl
-||redtube.com/_xa/ads_batch
+||redtube.com/_xa/ads
 ||redtube.com^$subdocument,~third-party
 ||redtube.fm/advertisment.htm
 ||redtube.fm/lcgldrbboxj.php
@@ -54569,7 +54563,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||tsmodelstube.com/fun/$image,~third-party
 ||tubator.com/lookout/ex_rendr3.js
 ||tube.hentaistream.com/wp-includes/js/pop4.js
-||tube8.com/_xa/ads_batch
+||tube8.*/_xa/ads
 ||tubeon.*/templates/base_master/js/jquery.shows2.min.js
 ||tuberel.com/looppy/
 ||tubev.sex/td24f164e52654fc593c6952240be1dc210935fe/
@@ -54640,9 +54634,9 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||yeptube.*/templates/base_master/js/jquery.shows2.min.js
 ||yespornpleasexxx.com/wp-content/litespeed/js/
 ||yotta.scrolller.com^
-||you-porn.com/_xa/ads_batch
+||you-porn.com/_xa/ads
 ||youjizz.com/KWIKY*.mp4$rewrite=abp-resource:blank-mp4,domain=youjizz.com
-||youporn.com/_xa/ads_batch
+||youporn.com/_xa/ads
 ||youporn.com^$script,subdocument,domain=youporn.com|youporngay.com
 ||yourlust.com*/serve
 ||yourlust.com/assets/script.js
