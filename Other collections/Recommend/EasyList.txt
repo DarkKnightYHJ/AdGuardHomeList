@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: l1CZLYHHwWyZKkjzx8SdvQ
-! Version: 202501211701
+! Checksum: iszOkfi805yexh2jNusK0Q
+! Version: 202501211811
 ! Title: EasyList
-! Last modified: 21 Jan 2025 17:01 UTC
+! Last modified: 21 Jan 2025 18:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -15358,6 +15358,8 @@ _800x80_
 ##.van_taboola
 ##.widget_taboola
 ##[data-taboola-options]
+##[data-testid="commercial-label-taboola"]
+##[data-testid^="taboola-"]
 ##amp-embed[type="taboola"]
 ##div[id^="taboola-stream-"]
 ! Zergnet
@@ -25428,6 +25430,7 @@ browsershots.org#@#.advert_area
 ||fpgedsewst.com^
 ||fpnpmcdn.net^
 ||fpukxcinlf.com^
+||fqhnnknhufocejx.com^
 ||fqirjff.com^
 ||fqqcfpka-ui.top^
 ||fqrwtrkgbun.com^
@@ -28725,6 +28728,7 @@ browsershots.org#@#.advert_area
 ||jeopardycruel.com^
 ||jeopardyselfservice.com^
 ||jeperdee.net^
+||jepsauveel.net^
 ||jergocast.com^
 ||jerkisle.com^
 ||jeroud.com^
@@ -30007,6 +30011,7 @@ browsershots.org#@#.advert_area
 ||lioniseunpiece.shop^
 ||lipidicchaoush.com^
 ||lipqkoxzy.com^
+||lipsoowesto.net^
 ||liqikxqpx.com^
 ||liquidfire.mobi^
 ||liquorelectric.com^
@@ -34156,6 +34161,7 @@ browsershots.org#@#.advert_area
 ||phkwimm.com^
 ||phloxsub73ulata.com^
 ||phoackoangu.com^
+||phoakeezeey.net^
 ||phoalard.net^
 ||phoalsie.net^
 ||phoamsoa.xyz^
@@ -42324,6 +42330,7 @@ browsershots.org#@#.advert_area
 ||weebipoo.com^
 ||weedazou.net^
 ||weednewspro.com^
+||weegraphooph.net^
 ||weejaugest.net^
 ||week1time.com^
 ||weekendchinholds.com^
@@ -48225,6 +48232,7 @@ browsershots.org#@#.advert_area
 ||jeekomih.com^$popup
 ||jennyunfit.com^$popup
 ||jennyvisits.com^$popup
+||jepsauveel.net^$popup
 ||jerboasjourney.com^$popup
 ||jeroud.com^$popup
 ||jetordinarilysouvenirs.com^$popup
@@ -50111,6 +50119,7 @@ browsershots.org#@#.advert_area
 ||websphonedevprivacy.autos^$popup
 ||webtrackerplus.com^$popup
 ||wecouldle.com^$popup
+||weegraphooph.net^$popup
 ||weejaugest.net^$popup
 ||weezoptez.net^$popup
 ||wejeestuze.net^$popup
@@ -53201,6 +53210,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||dailynews.lk/wp-content/uploads/2024/02/D-E
 ||data.angel.digital/images/b/$image
 ||deltabravo.net/admax/
+||depressionforums.org/wp-content/uploads/2023/05/balban.jpg.webp
 ||designtaxi.com/js/dt-seo.js
 ||designtaxi.com/small-dt.php$subdocument
 ||detectiveconanworld.com/images/support-us-brave.png
@@ -55840,6 +55850,7 @@ cyclingtips.com,mirror.co.uk###takeover
 romsgames.net###td-top-leaderboard
 based-politics.com###tdi_107
 linuxtoday.com###tdi_46
+depressionforums.org###tdi_72
 cornish-times.co.uk###teads
 the-star.co.ke###teasers
 eetimes.com###techpaperSliderContainer
@@ -57360,6 +57371,7 @@ googlesightseeing.com##.comm-square
 slickdeals.net##.commentsAd
 businessinsider.com,insider.com##.commerce-coupons-module
 goal.com,thisislondon.co.uk##.commercial
+dailystar.co.uk##.commercial-box-style
 telegraph.co.uk##.commercial-unit
 mega.nz##.commercial-wrapper
 hiphopdx.com##.compact
@@ -59740,6 +59752,7 @@ based-politics.com##.tdi_30
 teslaoracle.com##.tdi_48
 coinedition.com##.tdi_59
 ghpage.com##.tdi_63
+depressionforums.org##.tdi_66
 coinedition.com##.tdi_95
 coinedition.com##.tdm-inline-image-wrap
 lankanewsweb.net##.tdm_block_inline_image
@@ -62204,6 +62217,7 @@ bing.com#?#li.b_algo:has(.rms_img[src*="id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB7
 walmart.*#?#div > div[io-id]:-abp-contains(Sponsored)
 ! ABP CSS injection filters
 euronews.com###o-site-hr__leaderboard-wallpaper.u-show-for-xlarge {remove:true;}
+dailystar.co.uk##[data-testid="commercial-above-header-box-1"] {remove:true;}
 ! *** easylist:easylist_adult/adult_specific_hide.txt ***
 virtuagirlgirls.com###DynamicBackgroundWrapper
 porndr.com###PD-Under-player
