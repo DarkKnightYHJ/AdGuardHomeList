@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: gASTiz5QudR5qY343mlQcQ
-! Version: 202501221401
+! Checksum: 9oW+rIA3sMJ8FOZD31xz7g
+! Version: 202501221501
 ! Title: ABP filters
-! Last modified: 22 Jan 2025 14:01 UTC
+! Last modified: 22 Jan 2025 15:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -893,6 +893,7 @@ manomano.*#$#hide-if-matches-xpath './/span[translate(text(), "​", "") = "Spon
 ! BA
 manomano.*#$#hide-if-matches-xpath './/span[.="Sponsorisé" or .="Patrocinado" or .="Sponsorizzato" or .="Sponsored" or .="Gesponsert"]/ancestor::div[@data-testid="parent-middle-banner"]'
 manomano.*#$#hide-if-matches-xpath './/div[@data-testid="banner-spr-label"]/span[.="Sponsorisé" or .="Sponsored" or .="Gesponsert" or .="Sponsorizzato" or .="Patrocinado"]/ancestor::div[@data-testid="parent-middle-banner"]'; hide-if-contains-visible-text /Sponsorisé|Sponsored|Sponsorizzato|Gesponsert|Patrocinado/ 'div[class] div[data-testid$="banner"]' 'div[data-testid$="sponsoredLabel"] span';
+manomano.*#$#hide-if-matches-xpath '//div[./a[@data-testid="sprbrd-logo-link"]]//span[translate(text(), "​", "") = "Sponsorisé" or translate(text(), "​", "") = "Sponsored" or translate(text(), "​", "") = "Gesponsert" or translate(text(), "​", "") = "Patrocinado" or translate(text(), "​", "") = "Sponsorizzato"]/ancestor::button[@data-testid="info-label"]/parent::div/ancestor::div[@data-testid="sprbrd-products"]/parent::div[1]/parent::div[1]'
 ! TP
 manomano.*#$#hide-if-matches-xpath './/span[@role][@data-testid="popoverTriggersponsoredLabel"]/ancestor-or-self::div[@data-testid="sprbrd-banner"]'
 !HP
@@ -1245,6 +1246,9 @@ gameinn.jp##div[id^="bnc_ad"]
 ! Korean sites
 style24.com#$#simulate-mouse-event 'xpath(.//div[@class="popup_main_notice"]//a[@id="btnPopupClose"][@onclick])$delay=0'
 style24.com#$#simulate-mouse-event 'xpath(.//div[@id="popupMainNotice"]//a[@id="btnPopupClose"][@onclick])$delay=0'
+ygosu.com##iframe[src^="https://cdn.nhnace.com"]
+ygosu.com##iframe[src^="https://tab2.clickmon.co.kr"]
+ygosu.com#$#hide-if-matches-xpath '//div[@style="text-align:center"][./iframe[@src]]'
 ! Thai sites
 animetaro.com#$#abort-on-property-read window.open
 ! *** abp-filters-anti-cv:fb_non-graph.txt ***
