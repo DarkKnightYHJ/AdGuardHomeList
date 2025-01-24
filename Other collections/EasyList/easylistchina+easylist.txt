@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JY/hyFPn+JMyL5iHcx/YCw
-! Version: 202501240311
+! Checksum: whX1W1N/w8MDMMixtDrOLg
+! Version: 202501240411
 ! Title: EasyList China+EasyList
-! Last modified: 24 Jan 2025 03:11 UTC
+! Last modified: 24 Jan 2025 04:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1744,6 +1744,9 @@ newduba.cn###jq_youxi
 ||kruraits.com^
 ||6lx.fun^
 ||brerkols.com^
+||pevpbx.icu^
+||e1s.fun^
+||nvpokyko.icu^
 ||scigzetg.com^
 ||bjfsk.xyz^
 ||jltwxisa.icu^
@@ -18074,7 +18077,6 @@ fqsousou.com,kengso.com#@#.user-share
 /ad.min.js$script
 /ad/ad_common.js$script
 /ad/dfp/*$script
-/ad/err?
 /ad/getban?$script
 /ad/image/*$image
 /ad/images/*$image,domain=~studiocalling.it
@@ -18112,7 +18114,6 @@ fqsousou.com,kengso.com#@#.user-share
 /adasync.min.js$script
 /adbanners/*$image
 /adcall?
-/adcgi?
 /adchoice.png$image
 /adcount.js$script
 /addyn|*;adtech;
@@ -18124,7 +18125,6 @@ fqsousou.com,kengso.com#@#.user-share
 /adiframe|*|adtech;
 /adimage.$image,script,stylesheet
 /adimages.$script
-/adj.php?
 /adjs.php$script
 /adlayer.php$script
 /adlog.php$image
@@ -18375,11 +18375,9 @@ fqsousou.com,kengso.com#@#.user-share
 /gdpr-ad-script.js$script
 /get/?go=1&data=$subdocument
 /get?go=1&data=$subdocument
-/GetAdvertisingLeft?
 /globals_ps_afc.js$script
 /google-adsense.js$script
 /google_adsense-$script
-/google_caf.js?
 /gospel2Truth.js$third-party
 /gpt.js$script
 /gpt_ads-public.js$script
@@ -18468,7 +18466,6 @@ fqsousou.com,kengso.com#@#.user-share
 /page-peel$~xmlhttprequest
 /pagead/1p-user-list/*$image
 /pagead/conversion.js$script
-/pagead/lvz?
 /pageear.js$script
 /pageear/*$script
 /pagepeel.$~xmlhttprequest
@@ -18477,7 +18474,6 @@ fqsousou.com,kengso.com#@#.user-share
 /partneradwidget.$subdocument
 /partnerbanner.$~xmlhttprequest,domain=~toltech.cn
 /partners/ads/*$image
-/pcad.js?
 /peel.php?$script
 /peel_ads.js$script
 /peelads/*$script
@@ -18517,7 +18513,6 @@ fqsousou.com,kengso.com#@#.user-share
 /popunder1.js$script
 /popunder1000.js$script
 /popunder2.js$script
-/popunder?
 /popup-domination/*$script
 /popup2.js$script
 /popup3.js$script
@@ -18704,7 +18699,6 @@ fqsousou.com,kengso.com#@#.user-share
 /wpxbz-theme.js$script
 /www/delivery/*$script,subdocument
 /xpopup.js$script
-/yhs/ads?
 /zcredirect?
 /~cdn/ads/*
 ://a.*/ad-provider.js$third-party
@@ -18870,7 +18864,6 @@ _reklama_$domain=~youtube.com
 /prebid7.$script
 /prebid8.$script
 /prebid9.$script
-/prebid?
 /prebid_$script,third-party
 /prebidlink/*$script
 /tagman/*$domain=~abelssoft.de
@@ -69229,6 +69222,7 @@ browsershots.org#@#.advert_area
 ||go.bloxplay.com^
 ||go.onelink.me^$image,script
 ||goldmoney.com/~/media/Images/Banners/
+||google.*/pagead/lvz?
 ||google.com/adsense/domains/caf.js
 ||google.com/adsense/search/ads.js
 ||google.com/adsense/search/async-ads.js
