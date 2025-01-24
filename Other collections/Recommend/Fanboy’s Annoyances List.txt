@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mvltmGTt1dnSP/aR+0eLzg
-! Version: 202501241611
+! Checksum: KmTY/yICuomRrdy7Ead7xA
+! Version: 202501241701
 ! Title: Fanboy's Annoyance List
-! Last modified: 24 Jan 2025 16:11 UTC
+! Last modified: 24 Jan 2025 17:01 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -47856,3 +47856,8 @@ emarketer.com#@#.osano-cm-window
 @@||onesignal.com/api/v*/$domain=gamestar.de
 @@||onesignal.com/sdks/$domain=gamestar.de
 @@||static.cgames.de/gs_cb/assets/js/gtm.js$domain=gamestar.de
+! FD-7302
+@@||bildderfraude.cleverpush.com/iframe$domain=bildderfrau.de
+@@||runforrest.bildderfrau.de/nnamdnas.js?$domain=bildderfrau.de
+@@||static.cleverpush.com/channel/loader/*.js$domain=bildderfrau.de
+@@||static.cleverpush.com/sdk/chunk/*.js$domain=bildderfrau.de
