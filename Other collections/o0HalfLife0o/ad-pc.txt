@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5ztRVJ9gtaZpzMdYEN5ciw
+! Checksum: N6YkeK9e9nqSt8g3ECXxog
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202501232000
-! Last Modified: 2025年01月23日 20:00
+! Version: 202501240801
+! Last Modified: 2025年01月24日 08:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -537,11 +537,10 @@ tieba.baidu.com##.tuijian-wrap
 /ad/ad_common.js$script
 /ad/dfp/*$script
 /ad/err?
-/ad/getban?
+/ad/getban?$script
 /ad/image/*$image
 /ad/images/*$image,domain=~studiocalling.it
 /ad/img/*$image,domain=~eki-net.com|~jiji.com
-/ad/imp?
 /ad300.jpg$image
 /ad300.png$image
 /ad728.png$image
@@ -553,7 +552,6 @@ tieba.baidu.com##.tuijian-wrap
 /ad_banner/*$image,domain=~ccf.com.cn
 /ad_bottom.jpg$image
 /ad_bottom.js$script
-/ad_campaign?
 /ad_counter.aspx$ping
 /ad_header.js$script
 /ad_home.js$script
@@ -578,13 +576,11 @@ tieba.baidu.com##.tuijian-wrap
 /adcall?
 /adcgi?
 /adchoice.png$image
-/adcommon?
 /adcount.js$script
 /addyn|*;adtech;
 /addyn|*|adtech;
 /adengine.js$script
 /adfox/loader.js$script
-/adfshow?
 /adfx.loader.bind.js$script
 /adhandler/*$~subdocument
 /adiframe|*|adtech;
@@ -616,9 +612,9 @@ tieba.baidu.com##.tuijian-wrap
 /ads-vast-vpaid.js?$script
 /ads.bundle.js$script
 /ads.bundle.min.js$script
-/ads.cfm?
+/ads.cfm?$subdocument
 /ads.jplayer.$stylesheet
-/ads.pl?
+/ads.pl?$~xmlhttprequest
 /ads/!rotator/*
 /ads/300.$subdocument
 /ads/acctid=
@@ -626,7 +622,6 @@ tieba.baidu.com##.tuijian-wrap
 /ads/cbr.js$script
 /ads/custom_ads.js$script
 /ads/footer.$~xmlhttprequest
-/ads/ga-audiences?
 /ads/gam_prebid-$script
 /ads/get-ads-by-zones/?zones%
 /ads/image/*$image
@@ -634,10 +629,9 @@ tieba.baidu.com##.tuijian-wrap
 /ads/index.$~xmlhttprequest
 /ads/index/*$~xmlhttprequest,domain=~kuchechina.com
 /ads/leaderboard-$~xmlhttprequest
-/ads/outbrain?
 /ads/rectangle_$subdocument
 /ads/revgen.$script
-/ads/serve?
+/ads/serve?$script
 /ads/show.$script
 /ads/slideup.$script
 /ads/spacer.$image
@@ -654,7 +648,7 @@ tieba.baidu.com##.tuijian-wrap
 /ads?apid
 /ads?client=
 /ads?id=
-/ads?object_
+/ads?object_$script
 /ads?param=
 /ads?zone=
 /ads?zone_id=
@@ -674,7 +668,6 @@ tieba.baidu.com##.tuijian-wrap
 /adserve/*$script
 /adserver.$~stylesheet,~xmlhttprequest
 /adserver3.$image,script
-/adserver?
 /adsforwp-front.min.css$stylesheet
 /adsimage/*$image,domain=~kamaz-service.kz|~theatreticketsdirect.co.uk
 /adsimages/*$image,domain=~bdjobstoday.com
@@ -692,7 +685,6 @@ tieba.baidu.com##.tuijian-wrap
 /adtrack.$domain=~adtrack.ca|~adtrack.yacast.fr
 /adultdvdparadisecompopinsecound.js$script
 /adunit/track-view|
-/adunits/bcid?
 /adutil.js$script
 /adv-banner-$image
 /adv-scroll-sidebar.js$script
@@ -722,7 +714,6 @@ tieba.baidu.com##.tuijian-wrap
 /affiliates/banner$image
 /afr.php?$~xmlhttprequest
 /afx_prid/*$script
-/ajaxAd?
 /ajs.php?$script
 /ajs?zoneid=
 /amazon-ad-link-$stylesheet
@@ -747,7 +738,7 @@ tieba.baidu.com##.tuijian-wrap
 /asyncjs.php$script
 /asyncspc.php$third-party
 /awaps-ad-sdk-$script
-/ban.php?
+/ban.php?$~xmlhttprequest
 /ban728x90.$image
 /banman/ad.aspx$image
 /banner-ad.$~script,~xmlhttprequest
@@ -755,14 +746,14 @@ tieba.baidu.com##.tuijian-wrap
 /banner-ads/*$image,domain=~1agosto.com
 /banner-affiliate-$image
 /banner.asp?$third-party
-/banner.cgi?
+/banner.cgi?$image
 /banner.php$~xmlhttprequest,domain=~research.hchs.hc.edu.tw
 /banner/affiliate/*$image,subdocument
 /banner/html/zone?zid=
 /banner_468.$image
 /banner_ads/*$~xmlhttprequest,domain=~clickbd.com
 /bannerads/*$~xmlhttprequest,domain=~coldwellbankerhomes.com
-/banners.cgi?
+/banners.cgi?$~xmlhttprequest
 /banners/468$image
 /banners/728$image
 /banners/ads-$~xmlhttprequest
@@ -787,7 +778,6 @@ tieba.baidu.com##.tuijian-wrap
 /code/native.js?h=$script
 /code/pops.js?h=$script
 /code/silent.js?h=$script
-/combo?darla/*
 /common/ad.js$script
 /common_ad.js$script
 /concert_ads-$script
@@ -812,7 +802,6 @@ tieba.baidu.com##.tuijian-wrap
 /didna_config.js$script
 /direct.hd?n=
 /discourse-adplugin-$script
-/displayad?
 /dmcads_$script
 /doubleclick.min$script
 /drsup-admanager-ajax.js$script
@@ -848,8 +837,6 @@ tieba.baidu.com##.tuijian-wrap
 /gdpr-ad-script.js$script
 /get/?go=1&data=$subdocument
 /get?go=1&data=$subdocument
-/getad?
-/getads?
 /GetAdvertisingLeft?
 /globals_ps_afc.js$script
 /google-adsense.js$script
@@ -879,7 +866,7 @@ tieba.baidu.com##.tuijian-wrap
 /index-ad.js$script
 /index_ad/*$image
 /index_ads.js$script
-/infinity.js.aspx?
+/infinity.js.aspx?$script
 /inhouse_ads/*$image
 /inlineads.aspx$subdocument
 /insertads.js$script
@@ -934,7 +921,6 @@ tieba.baidu.com##.tuijian-wrap
 /neverblock/*$script
 /new/floatadv.js$script
 /ntv.json?key=
-/Nuggad?
 /nwm-pw2.min.js$script
 /nxst-advertising/dist/htlbid-advertising.min.js
 /oiopub-direct/js.php$script
@@ -1000,7 +986,7 @@ tieba.baidu.com##.tuijian-wrap
 /popup_ad.js$script
 /popup_code.php$script
 /popupads.js$script
-/prbt/v1/ads/?
+/prbt/v1/ads/?_=
 /prism_ad/*$script
 /processing/impressions.asp?
 /production/ad-$script
@@ -1014,7 +1000,6 @@ tieba.baidu.com##.tuijian-wrap
 /publicidade.$~xmlhttprequest
 /publicidade/*$~xmlhttprequest
 /publicidades/*$~xmlhttprequest
-/puff_ad?
 /push/p.js?$third-party
 /rad_singlepageapp.js$script
 /RdmAdFeed.js$script
@@ -1029,7 +1014,7 @@ tieba.baidu.com##.tuijian-wrap
 /reklama4.jpg$image
 /reklama4.png$image
 /reklame/*$~xmlhttprequest
-/ren.gif?
+/ren.gif?$image
 /resources/ads/*$~xmlhttprequest
 /responsive/ad_$subdocument
 /responsive_ads.js$script
@@ -1063,15 +1048,13 @@ tieba.baidu.com##.tuijian-wrap
 /script/xxAG1.js$third-party
 /scripts/js3caf.js$script
 /sdk/push_web/?zid=$third-party
-/select_adv?
 /servead/request/*$script,subdocument
 /serveads.php$script
 /servlet/view/*$script
-/set_adcode?
+/set_adcode?$image
 /sft-prebid.js$script
 /show-ad.js$script
 /show_ad.js$script
-/show_ad?
 /showban.asp?$image
 /showbanner.js$script
 /side-ads-$~xmlhttprequest
@@ -1132,7 +1115,6 @@ tieba.baidu.com##.tuijian-wrap
 /utx?cb=$third-party
 /v2/a/push/js/*$third-party
 /v2/a/skm/*$third-party
-/v3/ads?
 /vast/?zid=
 /velvet_stack_cmp.js$script
 /vendors~ads.
@@ -1223,7 +1205,6 @@ tieba.baidu.com##.tuijian-wrap
 ?wpstealthadsjs=
 _ad_250.$image
 _ad_300.$image
-_ads.cms?
 _advertise-$domain=~linkedin.com
 _advertisment.$~xmlhttprequest
 _images/ad.$image
@@ -1245,7 +1226,7 @@ _reklama_$domain=~youtube.com
 /in/track?data=
 /senddata?site=banner
 /senddata?site=inpage
-/ntfc.php?
+/ntfc.php?$script
 .com/src/ppu/$third-party
 /aas/r45d/vki/*$third-party
 /bultykh/ipp24/7/*$third-party
@@ -1300,7 +1281,7 @@ _reklama_$domain=~youtube.com
 /detroitchicago/tulsa.js$script
 /detroitchicago/tuscon.js$script
 /detroitchicago/vista.js$script
-/detroitchicago/vpp.gif?
+/detroitchicago/vpp.gif?$image
 /detroitchicago/wichita.js$script
 /edmonton.webp$script
 /ezcl.webp?$script
@@ -1350,7 +1331,6 @@ _prebid.js$script
 /adblock-detect.$script
 /adblock-detector.min.js$script
 /adblock-notify-by-bweb/*$script,stylesheet
-/adblock.gif?
 /adblock_detector2.$script
 /adblock_logger.$script
 /adblockdetect.js$script
@@ -18939,6 +18919,7 @@ browsershots.org#@#.advert_area
 ||atthewonderfu.com^
 ||atticepuces.com^
 ||atticshepherd.com^
+||attingepicrate.com^
 ||attractioninvincibleendurance.com^
 ||attractivesurveys.com^
 ||attractwarningkeel.com^
@@ -19412,6 +19393,7 @@ browsershots.org#@#.advert_area
 ||barbecuedilatefinally.com^
 ||barbmerchant.com^
 ||bardatm.ru^
+||bardeearmsize.com^
 ||bardicjazzed.com^
 ||barecurldiscovering.com^
 ||barefootedleisurelypizza.com^
@@ -19726,6 +19708,7 @@ browsershots.org#@#.advert_area
 ||berush.com^
 ||berwickveered.shop^
 ||besandileom.com^
+||besaylecran.com^
 ||besidesparties.com^
 ||besitreggae.com^
 ||besmeargleor.com^
@@ -20886,6 +20869,7 @@ browsershots.org#@#.advert_area
 ||capricetheme.com^
 ||captainad.com^
 ||captchafine.live^
+||captionconjecture.com^
 ||captivatecustomergentlemen.com^
 ||captivatepestilentstormy.com^
 ||captivebleed.com^
@@ -21731,6 +21715,7 @@ browsershots.org#@#.advert_area
 ||cmclean.club^
 ||cmfads.com^
 ||cmhoriu.com^
+||cmjvuwtgfzl.com^
 ||cmpgns.net^
 ||cmpsywu.com^
 ||cmrdr.com^
@@ -23564,6 +23549,7 @@ browsershots.org#@#.advert_area
 ||doastaib.xyz^
 ||doblazikena.com^
 ||doblonsurare.shop^
+||dociblessed.com^
 ||dockboulevardshoes.com^
 ||dockdeity.com^
 ||dockoolser.net^
@@ -29497,6 +29483,7 @@ browsershots.org#@#.advert_area
 ||kauleeci.com^
 ||kauraishojy.com^
 ||kaurieseluxate.com^
+||kauriessizzler.shop^
 ||kaushooptawo.net^
 ||kauzishy.com^
 ||kavanga.ru^
@@ -33908,6 +33895,7 @@ browsershots.org#@#.advert_area
 ||owlerydominos.cam^
 ||owlunimmvn.com^
 ||owndata.network^
+||ownhoodmucro.shop^
 ||ownzzohggdfb.com^
 ||owojqopr.com^
 ||owppijqakeo.com^
@@ -36401,6 +36389,7 @@ browsershots.org#@#.advert_area
 ||rauceesh.com^
 ||raudoufoay.com^
 ||raufajoo.net^
+||rauheestuma.xyz^
 ||raujouca.com^
 ||raumipti.net^
 ||raunooligais.net^
@@ -37005,6 +36994,7 @@ browsershots.org#@#.advert_area
 ||reypelis.tv^
 ||reyungojas.com^
 ||rficarolnak.com^
+||rfidpytri.com^
 ||rfihub.com^
 ||rfihub.net^
 ||rfinidtirz.com^
@@ -37924,6 +37914,7 @@ browsershots.org#@#.advert_area
 ||seatedparanoiaenslave.com^
 ||seatrackingdomain.com^
 ||seatsrehearseinitial.com^
+||seawantyroma.com^
 ||seayipsex.com^
 ||sebateastrier.com^
 ||sebkhapaction.com^
@@ -38924,6 +38915,7 @@ browsershots.org#@#.advert_area
 ||sourceconvey.com^
 ||sourishpuler.com^
 ||sourne.com^
+||southeestais.net^
 ||southmailboxdeduct.com^
 ||southolaitha.com^
 ||southsturdy.com^
@@ -39017,6 +39009,7 @@ browsershots.org#@#.advert_area
 ||spicy-development.pro^
 ||spicy-effect.com^
 ||spicygirlshere.life^
+||spijdawmqvs.com^
 ||spikearsonembroider.com^
 ||spikedelishah.com^
 ||spikethat.xyz^
@@ -39350,6 +39343,7 @@ browsershots.org#@#.advert_area
 ||stillfolder.com^
 ||stimaariraco.info^
 ||stimtavy.net^
+||stimtoughougnax.net^
 ||stimulateartificial.com^
 ||stimulatinggrocery.pro^
 ||stinglackingrent.com^
@@ -41265,6 +41259,7 @@ browsershots.org#@#.advert_area
 ||txeefgcutifv.info^
 ||txgeszx.com^
 ||txjhmbn.com^
+||txtspjaorddrjqq.com^
 ||txumirk.com^
 ||txzaazmdhtw.com^
 ||tyburnpenalty.com^
@@ -42795,6 +42790,7 @@ browsershots.org#@#.advert_area
 ||weshooship.net^
 ||wesicuros.com^
 ||wesmallproclaim.com^
+||westcoa.com^
 ||westernhungryadditions.com^
 ||westernwhetherowen.com^
 ||wet-maybe.pro^
@@ -45310,7 +45306,6 @@ browsershots.org#@#.advert_area
 ||affiliategroove.com^$third-party
 ||affilimatejs.com^$third-party
 ||affilist.com^$third-party
-||affilizz.com^$third-party
 ||afishamedia.net^$third-party
 ||afp.ai^$third-party
 ||afrikad.com^$third-party
@@ -48681,6 +48676,7 @@ browsershots.org#@#.advert_area
 ||karoon.xyz^$popup
 ||katebugs.com^$popup
 ||katecrochetvanity.com^$popup
+||kauriessizzler.shop^$popup
 ||kaya303.lol^$popup
 ||keefeezo.net^$popup
 ||keenmagwife.live^$popup
@@ -50527,6 +50523,7 @@ browsershots.org#@#.advert_area
 ||weliketofuckstrangers.com^$popup
 ||wellhello.com^$popup
 ||wendelstein-1b.com^$popup
+||westcoa.com^$popup
 ||wewearegogogo.com^$popup
 ||wfredir.net^$popup
 ||wg-aff.com^$popup
@@ -57659,7 +57656,7 @@ letras.com##.cnt-space-top
 groceries.asda.com##.co-product-dynamic
 asda.com##.co-product-list[data-module-type="HookLogic"]
 map.riftkit.net##.coachify_wrapper
-100percentfedup.com,247media.com.ng,academicful.com,addapinch.com,aiarticlespinner.co,allaboutfpl.com,alltechnerd.com,americanmilitarynews.com,americansongwriter.com,androidsage.com,animatedtimes.com,anoopcnair.com,askpython.com,asurascans.com,australiangeographic.com.au,autodaily.com.au,bakeitwithlove.com,bipartisanreport.com,bohemian.com,borncity.com,boxingnews24.com,browserhow.com,charlieintel.com,chillinghistory.com,chromeunboxed.com,circuitbasics.com,cjr.org,coincodecap.com,comicbook.com,conservativebrief.com,corrosionhour.com,crimereads.com,cryptobriefing.com,cryptointelligence.co.uk,cryptopotato.com,cryptoreporter.info,cryptoslate.com,cryptotimes.io,dafontfree.io,dailynewshungary.com,dcenquirer.com,dorohedoro.online,engineering-designer.com,epicdope.com,eurweb.com,exeo.app,fandomwire.com,firstcuriosity.com,firstsportz.com,flickeringmyth.com,flyingmag.com,freefontsfamily.net,freemagazines.top,gadgetinsiders.com,gameinfinitus.com,gamertweak.com,gamingdeputy.com,gatewaynews.co.za,geekdashboard.com,getdroidtips.com,goodyfeed.com,greekreporter.com,hard-drive.net,harrowonline.org,hollywoodinsider.com,hollywoodunlocked.com,ifoodreal.com,indianhealthyrecipes.com,inspiredtaste.net,iotwreport.com,jojolandsmanga.com,journeybytes.com,journeyjunket.com,jujustukaisen.com,libertyunlocked.com,linuxfordevices.com,lithub.com,meaningfulspaces.com,medicotopics.com,medievalists.net,mpost.io,mycariboonow.com,mymodernmet.com,mymotherlode.com,nationalfile.com,nexdrive.lol,notalwaysright.com,nsw2u.com,nxbrew.com,organicfacts.net,patriotfetch.com,politizoom.com,premiumtimesng.com,protrumpnews.com,pureinfotech.com,redrightvideos.com,reneweconomy.com.au,reptilesmagazine.com,respawnfirst.com,rezence.com,roadaheadonline.co.za,rok.guide,saabplanet.com,sciencenotes.org,sdnews.com,simscommunity.info,small-screen.co.uk,snowbrains.com,statisticsbyjim.com,storypick.com,streamingbetter.com,superwatchman.com,talkandroid.com,talkers.com,tech-latest.com,techpp.com,techrounder.com,techviral.net,thebeaverton.com,theblueoceansgroup.com,thecinemaholic.com,thecricketlounge.com,thedriven.io,thegamehaus.com,thegatewaypundit.com,thegeekpage.com,thelibertydaily.com,thenipslip.com,theoilrig.ca,thepeoplesvoice.tv,thewincentral.com,trendingpolitics.com,trendingpoliticsnews.com,twistedvoxel.com,walletinvestor.com,washingtonblade.com,waves4you.com,wbiw.com,welovetrump.com,wepc.com,whynow.co.uk,win.gg,windowslatest.com,wisden.com,wnd.com,zerohanger.com,ziperto.com##.code-block
+100percentfedup.com,247media.com.ng,academicful.com,addapinch.com,aiarticlespinner.co,allaboutfpl.com,alltechnerd.com,americanmilitarynews.com,americansongwriter.com,androidsage.com,animatedtimes.com,anoopcnair.com,askpython.com,asurascans.com,australiangeographic.com.au,autodaily.com.au,bakeitwithlove.com,bipartisanreport.com,bohemian.com,borncity.com,boxingnews24.com,browserhow.com,charlieintel.com,chillinghistory.com,chromeunboxed.com,circuitbasics.com,cjr.org,coincodecap.com,comicbook.com,conservativebrief.com,corrosionhour.com,crimereads.com,cryptobriefing.com,cryptointelligence.co.uk,cryptopotato.com,cryptoreporter.info,cryptoslate.com,cryptotimes.io,dafontfree.io,dailynewshungary.com,dcenquirer.com,dorohedoro.online,engineering-designer.com,epicdope.com,eurweb.com,exeo.app,fandomwire.com,firstcuriosity.com,firstsportz.com,flickeringmyth.com,flyingmag.com,freefontsfamily.net,freemagazines.top,gadgetinsiders.com,gameinfinitus.com,gamertweak.com,gamingdeputy.com,gatewaynews.co.za,geekdashboard.com,getdroidtips.com,goodyfeed.com,greekreporter.com,hard-drive.net,harrowonline.org,hollywoodinsider.com,hollywoodunlocked.com,ifoodreal.com,indianhealthyrecipes.com,inspiredtaste.net,iotwreport.com,jojolandsmanga.com,journeybytes.com,journeyjunket.com,jujustukaisen.com,libertyunlocked.com,linuxfordevices.com,lithub.com,meaningfulspaces.com,medicotopics.com,medievalists.net,mpost.io,mycariboonow.com,mymodernmet.com,mymotherlode.com,nationalfile.com,nexdrive.lol,notalwaysright.com,nsw2u.com,nxbrew.com,organicfacts.net,patriotfetch.com,politizoom.com,premiumtimesng.com,protrumpnews.com,pureinfotech.com,redrightvideos.com,reneweconomy.com.au,reptilesmagazine.com,respawnfirst.com,rezence.com,roadaheadonline.co.za,rok.guide,saabplanet.com,sciencenotes.org,sdnews.com,simscommunity.info,small-screen.co.uk,snowbrains.com,statisticsbyjim.com,storypick.com,streamingbetter.com,superwatchman.com,talkandroid.com,talkers.com,tech-latest.com,techaeris.com,techpp.com,techrounder.com,techviral.net,thebeaverton.com,theblueoceansgroup.com,thecinemaholic.com,thecricketlounge.com,thedriven.io,thegamehaus.com,thegatewaypundit.com,thegeekpage.com,thelibertydaily.com,thenipslip.com,theoilrig.ca,thepeoplesvoice.tv,thewincentral.com,trendingpolitics.com,trendingpoliticsnews.com,twistedvoxel.com,walletinvestor.com,washingtonblade.com,waves4you.com,wbiw.com,welovetrump.com,wepc.com,whynow.co.uk,win.gg,windowslatest.com,wisden.com,wnd.com,zerohanger.com,ziperto.com##.code-block
 storytohear.com,thefamilybreeze.com,thetravelbreeze.com,theworldreads.com,womensmethod.com##.code-block > center p
 cookingwithdog.com,streamtelly.com##.code-block-1
 powerpyx.com##.code-block-14
@@ -66173,9 +66170,11 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||01240sop.xyz^
 ||01231sop.xyz^
 ||kruraits.com^
 ||6lx.fun^
+||brerkols.com^
 ||scigzetg.com^
 ||bjfsk.xyz^
 ||jltwxisa.icu^
@@ -81989,8 +81988,8 @@ _rony.js$script,third-party
 /\.[a-z]domsi[a-z].top\//$script,third-party
 .okpp1*.xyz/$script,third-party
 .xxaks*sspao.xyz/$script,third-party
+.012*sop.xyz/$script,third-party
 .okpp0*.xyz/$script,third-party
-/TA390hz2.js
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.6666xsw.com|m.chenkuan.com|m.jmshuwu.net|wodexiaoshuoh.com
 !#Novels
 $object,script,subdocument,third-party,websocket,xmlhttprequest,domain=biqutime.com|00ksw.com|0794.org|114zww.com|123du.vip|123wx.cc|126shu.org|12zw.net|13txt.net|147xiaoshuo.com|156zw.com|17k.com|1biqu.com|1kans.net|1pwx.com|1qxs.com|23hh.com|23qb.com|23qb.net|23sk.net|23us.tw|23wxx.com|23xstxt.net|24kxs.cc|2kxs.info|333uu.org|33yq.org|360xs.com|38kanshu.net|3yt.com|477zw.com|4xiaoshuo.net|4yydstxt226.com|50zw.co|50zw.com|50zww.net|51eshu.com|52bqg.org|52shuku123.org|52xs.net|56shuku.info|59xs.com|6666xsw.com|67shu.net|69kshu.win|69zww.com|7017k.net|777zw.net|779buy.com|77xsw.cc|8181zw.com|81book.com|91zww.com|93xscc.com|99mk.net|9tiefu.com|a6ksw.net|abqg5200.com|aiwx.info|aixiashu.net|aixs.la|aikushuge.com|b520.cc|b5200.net|bamxs.com|bbiquge.cc|bbiquge8.net|bequmo.com|bimixsw.com|biqiuge8.cc|biqudd.com|biqudu.tv|biquge365.net|biquge5200.net|biquge775.com|biquge98.net|xbiquge99.cc|biqugecd.com|biqugen.net|biqugesc.org|biqugewu.net|biqugse.com|biquka.com|aidu123.com|biquluo.net|biququ.info|biqusk.com|biqutsxs.com|biquzw.info|bisowu.cc|bisowu.net|bixia66.cc|bokanx.com|booktxts.com|boquku.com|bqg999.net|bqwxg8.com|bshuku.com|bxwx.live|bxwx00.com|changduzw.com|chenkuan.com|china-wuling.com|damengzhu1.com|ddbqgtxt.cc|diyibanzhu.buzz|diyibanzhu9.pro|dizishu.cc|dobiez.com|doupocangqiong.info|dpcq1.com|dpcq1.net|feibzw.com|fkxs.net|fxsc6.net|gaofuwu.org|gdbzkz.com|gdbzkz.org|guanshuya.com|haitangmi.xyz|hongyeshuzhai.com|huanyue1234.com|ibiqu.org|ibiquges.com|ibiquges.org|ibiquta.net|ibotaodz.org|idzs.org|ijjjxs.net|imianhuatang.info|ishisetianxia.com|ishubao.org|itshang.com|xvipxs.net|iwurexs.info|ixs.la|jcdf99.com|jieshengit.com|jiezhong.cc|jingwubook.com|jmshuwu.net|kanshu5.net|kanshushi.com|lewen123.com|lewenge.info|lewxs.com|liewenn.com|liudatxt.org|longzu5.net|luoqiu.io|lzbao.net|maxreader.la|mcmssc.net|mingrenteahouse.com|mqxs.com|msxsw.com|nuanyuehanxing.com|paoshu8.com|paoshuzw.com|piaotian.la|piaotian55.com|pksge.com|prpcoin.com|qiqidu.net|qishula.com|qishuta.info|qqxsnew.net|qqxsw.so|quge66.com|ranwen.la|rizhaoxs.com|roushuwu6.com|sbooktxt.com|sdhear.com|shanhaimiwenlu.com|shenshuxs.org|shenzu.org|shu008.com|shubaowang.cc|shumi.la|shumil.co|shuquso.com|shuyy8.com|silukex.com|siluwx.org|sinodan.cc|sjks88.com|soduha.la|sthuojia.org|stxsw.com|sxcnw.net|sytxt.cc|tianz.la|tpsge.info|trxs.cc|tutengzw.com|txtduo.com|txtwan.com|tysk.cc|u33.cc|u33.me|wenxuem.com|wenxuemi.cc|whzh-xs.com|woaidu.info|wodexiaoshuoh.com|wolaidu1.com|x23us.us|x81zw.co|xbiqugela.com|xbiquke.com|xdingdian.cc|xhytd.com|xiashuyun.com|xiaxs.info|xinremenxs.com|xiushukong.com|xqianqian.cc|xs5200.com|xs7788.com|xsb-xs.com|xstt5.com|xszww8.net|xuanjiezhimen.org|xuanshu.org|xuessex.com|xwbxsw.com|xxbiqudu.com|xygwh.cc|xyuanzunxs.com|yemancomic.com|ygshu.com|yingsx.com|gytmh.com|ymxwx.com|yqd6.com|ysxs8.vip|yunxs.info|yuyougu.com|zhuishubox.com|zydu3.com|zzs5.info
@@ -85347,6 +85346,7 @@ _WebVitalsReporter_
 .tripadvisor.com/q/$image
 .umusic-online.com^*/o.gif
 .useinsider.com/pixel?$image
+.vzbv.de/-open2/$image
 .warehousefashion.com/warehouse/e/$image
 .webex.com/q/
 .wix.com/_api/ping/
