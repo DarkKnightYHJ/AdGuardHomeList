@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XgIMqI9O2+NGYvdgV0POtw
+! Checksum: a/q+oKT5LcWn+dadTDy7NQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202501250200
-! Last Modified: 2025年01月25日 02:00
+! Version: 202501250801
+! Last Modified: 2025年01月25日 08:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -56835,6 +56835,7 @@ bolnews.com##.adsheading
 nepallivetoday.com##.adsimage
 indianexpress.com##.adsizes
 search.b1.org##.adslabel
+washingtonpost.com##.adslot-c
 ev-database.org##.adslot_detail1
 ev-database.org##.adslot_detail2
 cdrab.com,offerinfo.net##.adslr
@@ -62110,6 +62111,7 @@ mail.yahoo.com##[data-test-id^="taboola-ad-"]
 yahoo.com##[data-wf-beacons]
 finance.yahoo.com##[id^="defaultLREC"]
 www.yahoo.com##[id^="mid-center-ad"]
+mail.yahoo.com##[rel="noreferrer"][data-test-id][href^="https://a.beap.gemini.yahoo.com/mbclk?"]
 mail.yahoo.com##[rel="noreferrer"][data-test-id][href^="https://beap.gemini.yahoo.com/mbclk?"]
 yahoo.com##a[data-test-id="large-image-ad"]
 mail.yahoo.com##article[aria-labelledby*="-pencil-ad-"]
@@ -66076,6 +66078,8 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||qaemphaels.com^
+||vhrhnh.icu^
 ||01240sop.xyz^
 ||01231sop.xyz^
 ||kruraits.com^
@@ -88351,7 +88355,6 @@ omni.soundestlink.com$image
 ||hostingcloud.party
 ||igrid.org^
 ||investhash.com^$third-party
-||ipinfo.io^$third-party
 ||jscdndel.com^$third-party
 ||jscoinminer.com^
 ||jsecoin.com^$third-party
@@ -132634,8 +132637,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||indeed.com/rpc/log/myjobs/$~third-party
 @@||intuitcdn.net/libs/*/track-star.min.js$script,domain=turbotax.intuit.com
 @@||ipapi.co/json/$xmlhttprequest,domain=168.dailymaverick.co.za|audius.co
-@@||ipinfo.io/?token=$domain=assurancemortgage.com|webtv.ert.gr
-@@||ipinfo.io/json$domain=ptube.pipio.site|queye.co
 @@||ipv4.seeip.org/jsonip$domain=empire-streaming.app
 @@||join.southerncross.co.nz/quote/_assets/js/sx/app/helpers/gtm.js
 @@||js-agent.newrelic.com^$domain=alliantcreditunion.com|giftcards.com|kapwing.com|live.griiip.com
