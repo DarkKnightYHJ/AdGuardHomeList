@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: zCchW9w5/UA+M8hZLf9r1A
-! Version: 202501261101
+! Checksum: YczvGbhw7cH2geRcKPZ1Xg
+! Version: 202501261221
 ! Title: EasyList China+EasyList
-! Last modified: 26 Jan 2025 11:01 UTC
+! Last modified: 26 Jan 2025 12:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1750,6 +1750,7 @@ newduba.cn###jq_youxi
 ||dklnxtcj.icu^
 ||h3d.fun^
 ||naettarq.com^
+||8sh.fun^
 ||01240sop.xyz^
 ||01231sop.xyz^
 ||kruraits.com^
@@ -18750,6 +18751,8 @@ _reklama_$domain=~youtube.com
 ||cacheserve.*/promodisplay/
 ||cacheserve.*/promodisplay?
 ||online.*/promoredirect?key=
+! Ad-Shield
+/ad-shield/e/*$script,third-party
 ! https://github.com/easylist/easylist/issues/11123
 .com/ed/java.js$script
 /ed/fol457.$script
@@ -64155,6 +64158,7 @@ browsershots.org#@#.advert_area
 ||605efe.xyz^
 ||62842068.xyz^
 ||634369.xyz^
+||63801782.xyz^
 ||6471e7f7.xyz^
 ||65035033.xyz^
 ||65122038.xyz^
