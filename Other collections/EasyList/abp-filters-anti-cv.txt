@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 1cc18a/HqrCoJMeRyz62RQ
-! Version: 202501271551
+! Checksum: LKazLqe764MKfTCF3irzJQ
+! Version: 202501271701
 ! Title: ABP filters
-! Last modified: 27 Jan 2025 15:51 UTC
+! Last modified: 27 Jan 2025 17:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -893,7 +893,7 @@ manomano.*#$#hide-if-matches-xpath './/span[translate(text(), "​", "") = "Spon
 ! BA
 manomano.*#$#hide-if-matches-xpath './/span[.="Sponsorisé" or .="Patrocinado" or .="Sponsorizzato" or .="Sponsored" or .="Gesponsert"]/ancestor::div[@data-testid="parent-middle-banner"]'
 manomano.*#$#hide-if-matches-xpath './/div[@data-testid="banner-spr-label"]/span[.="Sponsorisé" or .="Sponsored" or .="Gesponsert" or .="Sponsorizzato" or .="Patrocinado"]/ancestor::div[@data-testid="parent-middle-banner"]'; hide-if-contains-visible-text /Sponsorisé|Sponsored|Sponsorizzato|Gesponsert|Patrocinado/ 'div[class] div[data-testid$="banner"]' 'div[data-testid$="sponsoredLabel"] span';
-manomano.*#$#hide-if-matches-xpath '//div[./a[@data-testid="sprbrd-logo-link"]]//span[translate(text(), "​", "") = "Sponsorisé" or translate(text(), "​", "") = "Sponsored" or translate(text(), "​", "") = "Gesponsert" or translate(text(), "​", "") = "Patrocinado" or translate(text(), "​", "") = "Sponsorizzato"]/ancestor::button[@data-testid="info-label"]/parent::div/ancestor::div[@data-testid="sprbrd-products"]/parent::div[1]/parent::div[1]'
+manomano.*#$#hide-if-matches-xpath '//div[./a[@data-testid="sprbrd-logo-link"]]//span[translate(text(), "​", "") = "Sponsorisé" or translate(text(), "​", "") = "Sponsored" or translate(text(), "​", "") = "Gesponsert" or translate(text(), "​", "") = "Patrocinado" or translate(text(), "​", "") = "Sponsorizzato"]/ancestor::button[@data-testid="info-label"]/parent::div/ancestor::div[@data-testid="sprbrd-products"]/parent::div[1]/parent::div[1]'; hide-if-matches-xpath '//div//span[translate(text(), "​", "") = "Sponsorisé" or translate(text(), "​", "") = "Sponsored" or translate(text(), "​", "") = "Gesponsert" or translate(text(), "​", "") = "Patrocinado" or translate(text(), "​", "") = "Sponsorizzato"]/ancestor::button[@data-testid="info-label"]/parent::div/parent::div[1]/parent::div';
 ! TP
 manomano.*#$#hide-if-matches-xpath './/span[@role][@data-testid="popoverTriggersponsoredLabel"]/ancestor-or-self::div[@data-testid="sprbrd-banner"]'
 !HP
@@ -1015,7 +1015,7 @@ mixdrop.*#$#override-property-read MDCore.adblock 0; abort-current-inline-script
 ||noukotumorn.com^$domain=dl-protect.link
 skidrowreloaded.com#$#abort-on-property-read runPop; abort-current-inline-script open; abort-on-property-read Math.floor
 videzz.net#$#override-property-read isAdBlockDetected false; abort-on-property-read window.open
-aniwatch.*,moviesjoy.*,tapeadvertisement.com#$#abort-on-property-read window.open; abort-current-inline-script document.documentElement break;case $.
+animixplay.*aniwatch.*,moviesjoy.*,tapeadvertisement.com#$#abort-on-property-read window.open; abort-current-inline-script document.documentElement break;case $.
 sflix.*,sflix2.*#$#abort-current-inline-script parseInt break;case $.
 aniwave.*,wallpaperflare.com#$#abort-current-inline-script document.write; abort-on-property-read window.open;
 tvsportslive.*#$#abort-current-inline-script document.createElement /script/; hide-if-matches-xpath './/div[@class][contains(@style, "pointer-events: none;")]/self::div[1]';
@@ -1121,7 +1121,7 @@ plagiarismdetector.net,plagiarismchecker.co,duplichecker.com,searchenginereports
 root-nation.com#$#hide-if-matches-xpath './/img[contains(@alt,"")]/parent::div[@class="backstretch"]//ancestor-or-self::img[1]'
 root-nation.com#$#hide-if-matches-xpath '//source/following::img[@src]/ancestor::a[@class]/ancestor-or-self::div[@id="tdi_29"]'
 ||root-nation.com/wp-content/uploads/*background*$image,domain=root-nation.com
-animixplay.to#$#abort-on-property-read String.fromCharCode
+animixplay.*#$#abort-current-inline-script String.fromCharCode
 aqicn.org#$#abort-on-property-read alert
 vuukle.com##a[href*="news.vuukle.com/u/"]
 filmibeat.com,goodreturns.in,mykhel.com,oneindia.com#$#hide-if-matches-xpath './/fw-embed-feed[@channel][@mode][@playlist]/parent::div[@id][@style][1]'
