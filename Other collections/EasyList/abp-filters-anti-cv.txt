@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: WvSrielwsJLrsECwHvTr+Q
-! Version: 202501271901
+! Checksum: bMkIkU3rNpYN5Znwbv4wMg
+! Version: 202501272011
 ! Title: ABP filters
-! Last modified: 27 Jan 2025 19:01 UTC
+! Last modified: 27 Jan 2025 20:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -522,6 +522,10 @@ dlouha-videa.cz#$#abort-on-property-read _0x4c29
 ajaxshowtime.com#?#div:-abp-properties(content: "Advertentie";)
 ajaxshowtime.com##div.leaderboard_ad + div
 ! *** abp-filters-anti-cv:english.txt ***
+! RM-48
+! sp
+atlanticsuperstore.ca,fortinos.ca,loblaws.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#$#hide-if-contains /sponsored|sponsorisé/ 'div:has([data-testid="product-image"]):has([data-testid="product-badge"]):has([data-testid="product-title"])' '[data-testid="product-badge"]'
+atlanticsuperstore.ca,fortinos.ca,loblaws.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#$#hide-if-matches-xpath './/div[.="sponsored" or .="sponsorisé"]/ancestor::div[@data-testid="product-badge"]/preceding::span[text()="You might like"]/parent::div[1]'
 ! CV-3560
 groceries.morrisons.com#$#hide-if-matches-xpath './/div[@data-test="products-page"]//*[starts-with(@data-test, "fop-wrapper")]/div[.//*[contains(text(), "Sponsored")] or @class="outer-header-container" and ./span[@data-test="breadcrumb-text"][contains(text(), "Featured")]]'
 ! CV-3613
