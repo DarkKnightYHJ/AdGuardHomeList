@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 7xc05Lv7Gmysb19c+08VEg
-! Version: 202501281701
+! Checksum: UuEUmTpxA8HFE9LfQGYWWw
+! Version: 202501281811
 ! Title: ABP filters
-! Last modified: 28 Jan 2025 17:01 UTC
+! Last modified: 28 Jan 2025 18:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1425,29 +1425,29 @@ abcnyheter.no#$#hide-if-contains-visible-text /Annonsørinnhold/ 'section div>ar
 ! *** abp-filters-anti-cv:polish.txt ***
 ! RM-19
 ! TB
-allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/ancestor::div[@data-box-name="allegro.advertising.adspremium"]';
-allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/ancestor::div[@data-box-name="allegro.ads.dss.banner"][1]'
-allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/../../div/ancestor::div[@data-role="showcase"]'
-allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/parent::span/ancestor::div[1]/parent::div[@data-box-name]/../../../parent::div[@data-item]'
+allegro.*#$#hide-if-matches-xpath './/span[text()="Sponsorowane" or text()="Спонсороване" or text()="Sponsored" or text()="Sponzorované" or text()="Szponzorált"]/ancestor::div[@data-box-name="allegro.advertising.adspremium"]';
+allegro.*#$#hide-if-matches-xpath './/span[text()="Sponsorowane" or text()="Спонсороване" or text()="Sponsored" or text()="Sponzorované" or text()="Szponzorált"]/ancestor::div[@data-box-name="allegro.ads.dss.banner"][1]'
+allegro.*#$#hide-if-matches-xpath './/span[text()="Sponsorowane" or text()="Спонсороване" or text()="Sponsored" or text()="Sponzorované" or text()="Szponzorált"]/../../div/ancestor::div[@data-role="showcase"]'
+allegro.*#$#hide-if-matches-xpath './/span[text()="Sponsorowane" or text()="Спонсороване" or text()="Sponsored" or text()="Sponzorované" or text()="Szponzorált"]/parent::span/ancestor::div[1]/parent::div[@data-box-name]/../../../parent::div[@data-item]'
 ! SA
 allegro.*#$#hide-if-matches-xpath './/span[text()="Sponsorowane" or text()="Спонсороване" or text()="Sponsored" or text()="Sponzorované" or text()="Szponzorált"]/ancestor::div[1]/ancestor-or-self::article[@class]'
-allegro.pl##div[data-box-name^="car0usels.base"][data-analytics-groups*="sponsored_offers_ppc_ads"]
+allegro.*##div[data-box-name^="car0usels.base"][data-analytics-groups*="sponsored_offers_ppc_ads"]
 ! PL
-allegro.pl#$#hide-if-contains-visible-text /Sponsorowane|Sponsored|Спонсороване/ 'article' 'div[class]>div ^^sh^^ div>*';
+allegro.*#$#hide-if-contains-visible-text /Sponsorowane|Sponsored|Спонсороване|Sponzorované|Szponzorált/ 'article' 'div[class]>div ^^sh^^ div>*';
 ! PP
 allegro.*##div[data-box-name^="ads"]
-allegro.*#$#hide-if-matches-xpath './/h2[text()][@data-role="replaceable-title"]/following::span[.="Sponsorowane" or .="Sponsored" or .="Спонсоровано" or .="Sponzorováno"]//ancestor::div[contains(@data-analytics-groups,"ads")]'
+allegro.*#$#hide-if-matches-xpath './/h2[text()][@data-role="replaceable-title"]/following::span[.="Sponsorowane" or .="Sponsored" or .="Спонсоровано" or .="Sponzorováno" or .="Szponzorált"]//ancestor::div[contains(@data-analytics-groups,"ads")]'
 allegro.*#$#hide-if-matches-xpath './/div[contains(@data-analytics-view-label,"sponsored")]/parent::div/ancestor::div[contains(@data-analytics-groups,"ads")]'
-allegro.*#?#div[data-analytics-groups*="ads.tiles"]:-abp-has(span:-abp-properties(/content: "Sponsorowane";|"Спонсороване";|"Sponsored";|"Sponzorováno";|"Sponzorované";/))
-allegro.*#?#div[data-analytics-groups*="Branded"]:-abp-has(span:-abp-properties(/content: "Sponsorowane";|"Спонсороване";|"Sponsored";|"Sponzorováno";|"Sponzorované";/))
-allegro.pl##div[data-box-name][data-analytics-groups*="allegro.ads"]
+allegro.*#?#div[data-analytics-groups*="ads.tiles"]:-abp-has(span:-abp-properties(/content: "Sponsorowane";|"Спонсороване";|"Sponsored";|"Sponzorováno";|"Sponzorované";|"Szponzorált";/))
+allegro.*#?#div[data-analytics-groups*="Branded"]:-abp-has(span:-abp-properties(/content: "Sponsorowane";|"Спонсороване";|"Sponsored";|"Sponzorováno";|"Sponzorované";|"Szponzorált";/))
+allegro.*##div[data-box-name][data-analytics-groups*="allegro.ads"]
 ! HP
-allegro.pl##div[data-box-name][data-analytics-groups*="Reklamy"]
-allegro.pl##div[data-box-name][data-analytics-tags*="Ads"][data-analytics-groups*="Ads"]
-allegro.pl#$#hide-if-matches-xpath './/ul//span[text()="Sponsorowane"]/../../parent::a/ancestor::li[1]'
-allegro.pl#$#hide-if-matches-xpath './/ul//span[text()="Sponsorowane"]/../../parent::li/ancestor::div[@data-box-id][1]/../../../parent::div[@style]'
+allegro.*##div[data-box-name][data-analytics-groups*="Reklamy"]
+allegro.*##div[data-box-name][data-analytics-tags*="Ads"][data-analytics-groups*="Ads"]
+allegro.*#$#hide-if-matches-xpath './/ul//span[text()="Sponsorowane"]/../../parent::a/ancestor::li[1]'
+allegro.*#$#hide-if-matches-xpath './/ul//span[text()="Sponsorowane"]/../../parent::li/ancestor::div[@data-box-id][1]/../../../parent::div[@style]'
 ! MISC
-allegro.pl#$#override-property-read adblockEnabledPreferenceUpdated true
+allegro.*#$#override-property-read adblockEnabledPreferenceUpdated true
 ! #CV-705
 www.wp.pl#$#abort-on-property-read SlotRegistrar; abort-current-inline-script PRELOAD randvar
 dobreprogramy.pl#$#abort-on-property-read wp_adv_labels
