@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: H4SjacpMZ63oXSoLNemeGA
-! Version: 202501281401
+! Checksum: BlT1XZdnD3KoMSfB+kT0vA
+! Version: 202501281501
 ! Title: ABP filters
-! Last modified: 28 Jan 2025 14:01 UTC
+! Last modified: 28 Jan 2025 15:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1225,6 +1225,8 @@ bitchute.com###advertisement-banner
 eztvx.to#$#hide-if-matches-xpath './/div[@style="top: 0px; left: 0px; width: 1854px; height: 961px; position: fixed; z-index: 2147483647; background-color: transparent;"]/ancestor-or-self::div[1]'
 forexlive.com#$#hide-if-matches-xpath './/div[@id][@class="banner"]/parent::div[contains(@class,"guid")]/ancestor::div[contains(@data-ref,"banner")][1]'
 vidsrc.*,cucuflix.*#$#abort-current-inline-script document.createElement /referrerPolicy.*no-referrer-when-downgrade/;
+evrimagaci.org#$#hide-if-matches-xpath './/div[@class="empower-ad"]/parent::div[contains(@class, "ads-")]'
+neoseeker.com#$#hide-if-contains-visible-text /Advertisement/ 'div[style]' div[style] small;
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
@@ -1402,6 +1404,7 @@ mp3-gratis.it#$#abort-current-inline-script Math zfgloaded
 streamingcommunity.*#$#abort-current-inline-script String.fromCharCode /btoa|break/
 animeunity.tv#$#abort-on-property-read localStorage
 altadefinizione.*#$#abort-current-inline-script document.createElement script; hide-if-matches-xpath './/iframe[@style="position: fixed; width: 100%; height: 100%; inset: 0px; opacity: 0; z-index: 2147483647;"]';
+animeworld.so#$#abort-on-property-read window.open
 ! *** abp-filters-anti-cv:latvian.txt ***
 ! *** abp-filters-anti-cv:lithuanian.txt ***
 ! #CV-766
