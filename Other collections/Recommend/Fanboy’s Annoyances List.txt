@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BLtpmtTqfRJxivZXItYGIQ
-! Version: 202501290901
+! Checksum: n9X9weFHkuwj3ugUnoHa3A
+! Version: 202501291001
 ! Title: Fanboy's Annoyance List
-! Last modified: 29 Jan 2025 09:01 UTC
+! Last modified: 29 Jan 2025 10:01 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -46363,6 +46363,7 @@ fikriyat.com,sabah.com.tr,turkuvazradyolar.com,yeniasir.com.tr##.veriAltBar
 favori.com.tr##.vnotify-container
 yenisafak.com##.ys-cookie-modal
 sekerbank.com.tr##div[class^="cookiebox_cookieBox"]
+macrocenter.com.tr,migros.com.tr,tazedirekt.com##fe-product-cookie-indicator
 icrypex.com##layout-cookies
 !
 ! ---------- Ukrainian ----------
@@ -47841,3 +47842,12 @@ emarketer.com#@#.osano-cm-window
 @@||runforrest.bildderfrau.de/nnamdnas.js?$domain=bildderfrau.de
 @@||static.cleverpush.com/channel/loader/*.js$domain=bildderfrau.de
 @@||static.cleverpush.com/sdk/chunk/*.js$domain=bildderfrau.de
+! FD-7329
+@@||asadcdn.com/adlib/$domain=fitbook.de
+@@||capi.connatix.com^$domain=fitbook.de
+@@||cd.connatix.com/connatix.player.js?$domain=fitbook.de
+@@||cds.connatix.com^$domain=fitbook.de
+@@||g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=fitbook.de
+@@||g.doubleclick.net/tag/js/gpt.js$domain=fitbook.de
+@@||ib.adnxs.com/ut/v3$domain=fitbook.de
+fitbook.de#@#.cnx-player-wrapper
