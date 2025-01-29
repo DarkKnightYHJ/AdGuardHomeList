@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2gn8I+3Dxj/B6sq4W8FCZw
-! Version: 202501292201
+! Checksum: aMZqrimY4NPzw1WD34C5qg
+! Version: 202501292301
 ! Title: EasyList China+EasyList
-! Last modified: 29 Jan 2025 22:01 UTC
+! Last modified: 29 Jan 2025 23:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -78088,6 +78088,7 @@ onlinecourse24.com##.tl-topromote
 the-tls.co.uk##.tls-single-articles__ad-slot-container
 themighty.com##.tm-ads
 trademe.co.nz##.tm-display-ad__wrapper
+trademe.co.nz##.tm-display-sponsored-listing__cards-flex
 thenewstack.io##.tns-sponsors-rss
 nybooks.com##.toast-cta
 spy.com##.todays-top-deals-widget
@@ -79577,6 +79578,7 @@ kroger.com##.AutoGrid-cell:has(.ProductCard-tags > div > span[data-qa="featured-
 nationalgeographic.com##.FrameBackgroundFull--grey:has(.ad-wrapper)
 sbs.com.au##.MuiBox-root:has(> .desktop-ads)
 luxa.org##.MuiContainer-root:has(> ins.adsbygoogle)
+ulta.com##.ProductListingResults__productCard:has(.ProductCard__sponsoredText > p.Text-ds)
 manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##.Ssfiu-:has([data-testid="popoverTriggersponsoredLabel"])
 outlook.live.com##.VdboX[tabindex="0"]:has(img[src="https://res.cdn.office.net/assets/ads/adbarmetrochoice.svg"])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##._6y8t:has(a[href="/ads/about/?entry_product=ad_preferences"])
@@ -80397,6 +80399,7 @@ checkfelix.com,kayak.*,swoodoo.com##div[class*="-adInner"]
 checkfelix.com,kayak.*,swoodoo.com##div[data-resultid]:has(a.IZSg-adlink)
 checkfelix.com,kayak.*,swoodoo.com##div[id^="inline-"]
 ! *** easylist:easylist/easylist_specific_hide_abp.txt ***
+tripadvisor.com#?#[aria-label="Map marker"]:-abp-contains(Sponsored)
 noon.com#?#.swiper-slide:-abp-contains(Sponsored)
 shoprite.com##div[class^="Row"]:has(div[data-component] a[data-testid] picture source[media="(min-width: 1024px)"] + img[class*="ImageTextButtonImage"][src*=".jpg"])
 regexlearn.com#?#.w-full.mb-3:has(a[href="/learn/regex-for-seo"])
@@ -80410,7 +80413,6 @@ euronews.com#?#.m-object:has(.m-object__quote:-abp-contains(/In partnership with
 nordstrom.com#?#ul[style^="padding: 0px; position: relative;"] > li[class]:-abp-contains(Sponsored)
 loblaws.ca#?#[data-testid="product-grid"]>div:-abp-contains(Sponsored)
 semafor.com#?#.suppress-rss:-abp-has(:-abp-contains(Supported by))
-atlanticsuperstore.ca,fortinos.ca,loblaws.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#?#.chakra-container:-abp-contains(Sponsored)
 shipt.com#?#li[class]:-abp-contains(Sponsored)
 argos.co.uk#?#[data-test^="component-slider-slide-"]:-abp-contains(SPONSORED)
 atlanticsuperstore.ca,fortinos.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#?#[data-testid="card"]:-abp-contains(sponsored)
