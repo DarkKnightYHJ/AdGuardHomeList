@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YOyvy9xXU4lM1MjwNu6vGA
+! Checksum: SvJpDRUL2DMbUope2aecqg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202501290801
-! Last Modified: 2025年01月29日 08:01
+! Version: 202501291400
+! Last Modified: 2025年01月29日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -30691,6 +30691,7 @@ browsershots.org#@#.advert_area
 ||losingfunk.com^
 ||losingoldfry.com^
 ||losingtiger.com^
+||losobo.xyz^
 ||lossactivity.com^
 ||lostdormitory.com^
 ||lostinfuture.com^
@@ -64004,7 +64005,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||adswizz.com/sca_newenco/$xmlhttprequest,domain=triplem.com.au
 @@||airplaydirect.com/openx/www/images/$image
 @@||almayadeen.net/Content/VideoJS/js/videoPlayer/VideoAds.js$script,~third-party
-@@||amazon-adsystem.com/aax2/apstag.js$domain=accuweather.com|barstoolsports.com|blastingnews.com|cnn.com|familyhandyman.com|foxbusiness.com|gamingbible.co.uk|history.com|independent.co.uk|inquirer.com|keloland.com|radio.com|rd.com|si.com|sportbible.com|tasteofhome.com|thehealthy.com|time.com|wboy.com|wellgames.com|wkrn.com|wlns.com|wvnstv.com
+@@||amazon-adsystem.com/aax2/apstag.js$domain=accuweather.com|barstoolsports.com|blastingnews.com|cnn.com|familyhandyman.com|foxbusiness.com|gamingbible.co.uk|history.com|independent.co.uk|inquirer.com|keloland.com|radio.com|rd.com|si.com|sportbible.com|tasteofhome.com|the-independent.com|thehealthy.com|time.com|wboy.com|wellgames.com|wkrn.com|wlns.com|wvnstv.com
 @@||amazon-adsystem.com/widgets/q?$image,third-party
 @@||amazonaws.com/prod.iqdcontroller.iqdigital/cdn_iqdspiegel/live/iqadcontroller.js.gz$domain=spiegel.de
 @@||aniview.com/api/$script,domain=gamingbible.co.uk|ladbible.com
@@ -66373,6 +66374,12 @@ newduba.cn###jq_youxi
 ||v4p.fun^
 ||addalzq.com^
 ||6qo.fun^
+||bhanphevg.com^
+||vtbkhl.icu^
+||vmxvcjuf.icu^
+||jdinmia.top^
+||0592.mobi^
+||kdinmid.top^
 ||hdinmiu.top^
 ||xxsmad5.com^
 ||hostolhg.com^
@@ -82219,6 +82226,7 @@ _rony.js$script,third-party
 /\.[a-z]yjqgp[a-z].top\//$script,third-party
 ||aoao1*iis.top/$script,third-party
 ||gmso1*oka.top/$script,third-party
+/\.[a-z]dinmi[a-z].top\//$script,third-party
 /\.[a-z]weisi[a-z].top\//$script,third-party
 /\.[a-z]dyurli[a-z].top\//$script,third-party
 /\.[a-z]domsi[a-z].top\//$script,third-party
@@ -82672,6 +82680,7 @@ fqsousou.com,kengso.com#@#.user-share
 .jp/static/js/track.js
 .net/l.gif?
 .no/app/aas/a
+.pageview-props.js
 .php?action=browse&
 .php?action_name=
 .php?logRefer=
@@ -84551,9 +84560,7 @@ fqsousou.com,kengso.com#@#.user-share
 /scmetrics.*/b/ss/*
 /screencount?vcid=
 /scribd_events?
-/script.pageview-props.js
 /script.tagged-events.outbound-links.js
-/script.tagged-events.pageview-props.js
 /script/pixel.js
 /scriptAnalytics.js
 /scripts.kissmetrics.com/*
@@ -89018,7 +89025,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lddt.de^$third-party
 ||leserservice-tracking.de^$third-party
 ||link-empfehlen24.de^$third-party
-||listrakbi.com^$third-party
 ||lokalleads-cci.com^$third-party
 ||losecounter.de^$third-party
 ||lumitos.com^$third-party
@@ -132861,7 +132867,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||cdn.getblueshift.com/blueshift.js$script,domain=rentcafe.com
 @@||cdn.heapanalytics.com^$script,domain=libertymutual.com
 @@||cdn.jsdelivr.net^*/fp.min.js$script,domain=cuevana2.io
-@@||cdn.listrakbi.com^$script,domain=mackenzie-childs.com
 @@||cdn.matomo.cloud/tekuchi.matomo.cloud/matomo.js$domain=berkeleygroup.digital
 @@||cdn.mxpnl.com/libs/$script,domain=get.pumpkin.care
 @@||cdn.perfops.net/rom3/rom3.min.js$domain=cdnperf.com
