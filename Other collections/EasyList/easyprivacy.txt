@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 3tB4NNFwfIsEa/4Wic6Dyg
-! Version: 202501291221
+! Checksum: Uv2rqgGrlD39Oh65EyyHNQ
+! Version: 202501291311
 ! Title: EasyPrivacy
-! Last modified: 29 Jan 2025 12:21 UTC
+! Last modified: 29 Jan 2025 13:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2719,6 +2719,8 @@
 ://matomo.$domain=~matomo.org
 ://mint.*/?js
 ://piwik.$domain=~matomo.org|~piwik.pro
+://plausible.*/api/event|
+://plausible.*/js/script.
 ://posthog.$script,domain=~posthog.com
 ://segment-api.
 ://segment-cdn.
