@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xoiaoMkCs+McyU4t1yJQdg
+! Checksum: YdXre7uXW8pUjSQcMXK0vw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202501301400
-! Last Modified: 2025年01月30日 14:00
+! Version: 202501302000
+! Last Modified: 2025年01月30日 20:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -20495,7 +20495,7 @@ m.babytree.com##script + a[class]
 ||zol.com.cn/cgimp/zc.js
 ! EasyPrivacy
 !-----------------General tracking systems-----------------!
-&action=js_stats&
+&action=js_stats
 &ev=PageView&
 &EventType=DataDealImpression&
 &EventType=Impression&
@@ -31076,6 +31076,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||acclog002.shop-pro.jp^
 ||actagtracker.jp/tag
 ||ad.daum.net^
+||admin.blog.fc2.com/dctanalyzer.php
 ||affiliate.rakuten.co.jp^$script,third-party
 ||analytics-beacon.p.uliza.jp^
 ||analytics.contents.by-fw.jp^
@@ -31531,6 +31532,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.turk.pro^$third-party
 ||c.keltis.com^
 ||collector.wawlabs.com^
+||core.dehapi.com/ip.php
 ||daioncdn.net/events?
 ||eticaret.pro/pixel/
 ||hulyagedikci.com/vhit.php?
