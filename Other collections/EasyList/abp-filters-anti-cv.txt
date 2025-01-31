@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: n5hiMeEe1RHVgrF14ohT6w
-! Version: 202501311701
+! Checksum: 7WpSZt18Tif8aBjzzEIN8Q
+! Version: 202501311811
 ! Title: ABP filters
-! Last modified: 31 Jan 2025 17:01 UTC
+! Last modified: 31 Jan 2025 18:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -546,7 +546,6 @@ woolworths.com.au#$#hide-if-contains-visible-text /\s*Promoted\s*/ 'div>wc-produ
 ! CV-1364
 ||html-load.com^$domain=convertcase.net|manta.com|wfmz.com|golf-live.at|eurointegration.com.ua
 convertcase.net,manta.com,wfmz.com,golf-live.at,eurointegration.com.ua#$#abort-current-inline-script Symbol error-report.com
-dramabeans.com,picrew.me,sportalkorea.com,edaily.co.kr,honkailab.com,smsonline.cloud,infinityfree.com,laleggepertutti.it,the-crossword-solver.com,nyitvatartas24.hu,oraridiapertura24.it,horairesdouverture24.fr,oeffnungszeitenbuch.de,palabr.as,motscroises.fr,crosswordsolver.com,raetsel-hilfe.de,word-grabber.com,kreuzwortraetsel.de,verkaufsoffener-sonntag.com,wort-suchen.de,cruciverba.it,motorbikecatalog.com,winfuture.de,globalrph.com,forsal.pl,gazetaprawna.pl,onlinegdb.com,woxikon.*#$#abort-on-iframe-property-read HTMLIFrameElement
 ! RM-42
 tesco.com#$#hide-if-contains-visible-text /Sponsored/ ul[id^="list-content"]>li 'div>div>span'
 ! RM-114
