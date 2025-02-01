@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dO3AGjoy0v3N2+os6BRzRA
-! Version: 202502010901
+! Checksum: C1cyTpIVdAID9vQSZEq6XA
+! Version: 202502011001
 ! Title: EasyList
-! Last modified: 01 Feb 2025 09:01 UTC
+! Last modified: 01 Feb 2025 10:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -54747,7 +54747,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||mylistcrawler.com/wp-content/plugins/elfsight-popup-cc/
 ||mylust.com/092-
 ||mylust.com/assets/script.js
-||myreadingmanga.info/vjs/mrm_back.php
+||myreadingmanga.info/vjs/mrm_
 ||mysexgames.com/pix/best-sex-games/
 ||mysexgames.com/plop.js
 ||myvideos.club/api/
@@ -61820,6 +61820,7 @@ thrillist.com##[class^="Container__GridRow-sc-"]:has(> .concert-ad)
 petco.com##[class^="citrus-carousel-"]:has([class^="carousel__Sponsored"])
 svgrepo.com##[class^="style_native"]:has([href*="buysellads.com"])
 tesco.com##[class^="styled__StyledLIProductItem"]:has([class^="styled__StyledOffers"])
+userstyles.org##[class^="styles-grid_gridItems_"] > .hideInMobile:has(> [class^="GoogleAd_"])
 argos.co.uk##[class^="styles__LazyHydrateCard"]:has([class*="ProductCardstyles__FlyoutBadge"])
 argos.co.uk##[class^="styles__LazyHydrateCard-sc"]:has([class*="SponsoredBadge"])
 outlook.live.com##[data-app-section="MessageList"] div[style^="position: absolute; left: 0px; top: 0px"]:has(.ms-Shimmer-container)
