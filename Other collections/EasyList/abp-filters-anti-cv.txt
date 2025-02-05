@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: eivHouKlWW3wG/yckcFsNA
-! Version: 202502051611
+! Checksum: wAXEXAZNzlm6HFR+3ETThA
+! Version: 202502051701
 ! Title: ABP filters
-! Last modified: 05 Feb 2025 16:11 UTC
+! Last modified: 05 Feb 2025 17:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -345,6 +345,7 @@ search.seznam.cz#$#hide-if-matches-xpath './/picture[@class]/img[contains(@src,"
 www.seznam.cz#$#cookie-remover pubmatic
 www.seznam.cz#$#cookie-remover adform
 www.seznam.cz#$#override-property-read sssp noopFunc
+www.seznam.cz#$#json-prune '{}.0adFormat {}.0'; hide-if-matches-xpath './/div[@class]/div/*[contains(text(),"Reklam")]/parent::div[@class]/ancestor-or-self::div[@class and @style][1][not(contains(@class, "w-RadioLayout"))]'; hide-if-matches-xpath './/div[@*[starts-with(name(), "data-") and contains(., "reklama")]]/parent::li[1]';
 ! MISC
 zoznam.sk#$#hide-if-matches-xpath './/div[contains(text(),"Reklama")]/preceding-sibling::div[@class][2]/ancestor::*[3]'
 zoznam.sk#$#hide-if-matches-xpath './/div[@class]/iframe[@id][@title][string-length(@src) > 90]/ancestor::div[1]'
