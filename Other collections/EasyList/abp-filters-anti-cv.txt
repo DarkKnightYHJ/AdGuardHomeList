@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: wAXEXAZNzlm6HFR+3ETThA
-! Version: 202502051701
+! Checksum: UNNaxv4UXNHV0D8sDOzRTA
+! Version: 202502051811
 ! Title: ABP filters
-! Last modified: 05 Feb 2025 17:01 UTC
+! Last modified: 05 Feb 2025 18:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -603,6 +603,7 @@ ebay.com#$#hide-if-contains-visible-text /Sponsored/ 'div[data-testid="x-pda-pla
 ebay.com#$#hide-if-contains-visible-text /Sponsored/ 'div[id*="placement_"]>div' 'div[data-viewport]>span>div[aria-labelledby]>div[aria-hidden]'
 ! cp
 ebay.com#$#hide-if-contains-visible-text /Sponsored/ 'li>div[class="brwrvr__item-card__body"]' 'div>span[class="su-sponsored-label__sep"]>span'
+ebay.com#$#hide-if-matches-xpath './/span[@class="su-sponsored-label__sep"]/preceding::button[contains(@data-track,"AD_CTRL_ATW_ADD")]/ancestor-or-self::li[starts-with(@class,"brwrvr__item-card")][1]'
 ! pp
 ebay.com#$#hide-if-matches-xpath '//div[@role="text"][text()="Sponsored"]/ancestor-or-self::div[@data-viewport][1]'
 ! sp
