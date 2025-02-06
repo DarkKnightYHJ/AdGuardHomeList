@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HMS/7VgIuYu8LBujhl8rnw
-! Version: 202502061611
+! Checksum: zguaO6jSYAkvL/l3MnKPkw
+! Version: 202502061701
 ! Title: Fanboy's Annoyance List
-! Last modified: 06 Feb 2025 16:11 UTC
+! Last modified: 06 Feb 2025 17:01 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -47887,3 +47887,7 @@ handelsblatt.com##.ob-p.ob-dynamic-rec-container
 ! FD-7357
 @@||g.doubleclick.net/gampad/ads?$xmlhttprequest,domain=spiegel.de
 @@||benelph.de^$image,domain=spiegel.de
+! FD-7366
+@@||zeit.de^$generichide
+zeit.de#@#.iqdcontainer
+zeit.de##.ob-widget:has(.ob-p.ob-dynamic-rec-container)
