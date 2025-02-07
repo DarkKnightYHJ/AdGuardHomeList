@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: koUTLm7N8/k2ZfliRLQm9Q
-! Version: 202502071221
+! Checksum: iudiMADsHUHQujiwQNhifA
+! Version: 202502071311
 ! Title: EasyList China+EasyList
-! Last modified: 07 Feb 2025 12:21 UTC
+! Last modified: 07 Feb 2025 13:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1745,6 +1745,7 @@ newduba.cn###jq_youxi
 ||apk02070oo.xyz^
 ||pcqhe.cn^
 ||wdinmae.top^
+||nhz6q.cn^
 ||fagrirtn.com^
 ||rqhajf.icu^
 ||trellq.com^
@@ -80738,6 +80739,7 @@ checkfelix.com,kayak.*,swoodoo.com##div[class*="-adInner"]
 checkfelix.com,kayak.*,swoodoo.com##div[data-resultid]:has(a.IZSg-adlink)
 checkfelix.com,kayak.*,swoodoo.com##div[id^="inline-"]
 ! *** easylist:easylist/easylist_specific_hide_abp.txt ***
+dev.to#?#div[data-display-unit]:-abp-has(span:-abp-contains(Promoted))
 tripadvisor.com#?#[aria-label="Map marker"]:-abp-contains(Sponsored)
 noon.com#?#.swiper-slide:-abp-contains(Sponsored)
 shoprite.com##div[class^="Row"]:has(div[data-component] a[data-testid] picture source[media="(min-width: 1024px)"] + img[class*="ImageTextButtonImage"][src*=".jpg"])

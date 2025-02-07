@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: xihxZsJ8C4cRT8636jeCfA
-! Version: 202502071211
+! Checksum: lf4YoJoQgUPrHoBl3j3Nvw
+! Version: 202502071311
 ! Title: EasyList
-! Last modified: 07 Feb 2025 12:11 UTC
+! Last modified: 07 Feb 2025 13:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -62654,6 +62654,7 @@ checkfelix.com,kayak.*,swoodoo.com##div[class*="-adInner"]
 checkfelix.com,kayak.*,swoodoo.com##div[data-resultid]:has(a.IZSg-adlink)
 checkfelix.com,kayak.*,swoodoo.com##div[id^="inline-"]
 ! *** easylist:easylist/easylist_specific_hide_abp.txt ***
+dev.to#?#div[data-display-unit]:-abp-has(span:-abp-contains(Promoted))
 tripadvisor.com#?#[aria-label="Map marker"]:-abp-contains(Sponsored)
 noon.com#?#.swiper-slide:-abp-contains(Sponsored)
 shoprite.com##div[class^="Row"]:has(div[data-component] a[data-testid] picture source[media="(min-width: 1024px)"] + img[class*="ImageTextButtonImage"][src*=".jpg"])
