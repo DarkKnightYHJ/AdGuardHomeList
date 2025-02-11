@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ZPjZSu/v+qfzowt7B1vxnQ
-! Version: 202502111311
+! Checksum: F1+ME3LSYogode3QCObSsA
+! Version: 202502111411
 ! Title: EasyList China+EasyList
-! Last modified: 11 Feb 2025 13:11 UTC
+! Last modified: 11 Feb 2025 14:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -15599,6 +15599,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.tw,epinv.com,ff14angler.com,fxpan.com,haoweichi.com,logi.im,lspdfrcn.com,moa.tw,moe48.com,numberempire.com,playok.com,reh.tw,shenfendaquan.com,vaptcha.com#@#ins.adsbygoogle[data-ad-slot]
 !---------------------------------URL Whitelist-------------------------------!
 @@.adserver.$domain=litv.tv
+@@||linetv.tw^$generichide
 @@||googleads.g.doubleclick.net^$domain=wandhi.com
 @@||am730.com.hk^$generichide
 @@||mvcat.com^$generichide
@@ -18361,9 +18362,9 @@ fqsousou.com,kengso.com#@#.user-share
 /affiliates/banner$image
 /afr.php?$~xmlhttprequest
 /afx_prid/*$script
-/ajax/banner/vpn|$~third-party,xmlhttprequest
+/ajax/banner/vpn|$xmlhttprequest
 /ajax/banners?page=$~third-party,xmlhttprequest
-/ajax/embed-4/banners|$~third-party,xmlhttprequest
+/ajax/embed-4/banners|$xmlhttprequest
 /ajs.php?$script
 /ajs?zoneid=
 /amazon-ad-link-$stylesheet
