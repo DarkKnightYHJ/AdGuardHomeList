@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: YTmoSyEXGKimb+WXA47UuQ
-! Version: 202502160701
+! Checksum: kOGscBNsG9l4yFZNp6tSTw
+! Version: 202502160811
 ! Title: EasyPrivacy
-! Last modified: 16 Feb 2025 07:01 UTC
+! Last modified: 16 Feb 2025 08:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -51394,6 +51394,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||moneypartners.co.jp/web/*/fingerprint.js$~third-party
 @@||nakanohito.jp^*/bi.js$domain=kenko-tokina.co.jp|myna.go.jp
 @@||nittsu.com/Tracking/Scripts/Tracking/track.js
+@@||onesignal.com/api/v1/sync/$domain=oshibuta.com
 @@||play.dlsite.com/csr/viewer/lib/newrelic.js
 @@||pvtag.yahoo.co.jp^$script,domain=paypaymall.yahoo.co.jp
 @@||rt.rtoaster.jp^$image,domain=ec-store.net
