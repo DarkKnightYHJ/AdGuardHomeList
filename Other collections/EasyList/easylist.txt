@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202502181803
+! Version: 202502181835
 ! Title: EasyList
-! Last modified: 18 Feb 2025 18:03 UTC
+! Last modified: 18 Feb 2025 18:35 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -734,6 +734,7 @@
 ://adn.*/zone/$subdocument
 ://ads.$~image,~xmlhttprequest,domain=~ads.8designers.com|~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.band|~ads.bestprints.biz|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.business.bell.ca|~ads.cafebazaar.ir|~ads.chewy.com|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.doordash.com|~ads.dosocial.ge|~ads.dosocial.me|~ads.elevateplatform.co.uk|~ads.finance|~ads.fund|~ads.google.cn|~ads.google.com|~ads.gree.net|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kazakh-zerno.net|~ads.kifli.hu|~ads.knuspr.de|~ads.listonic.com|~ads.luarmor.net|~ads.magalu.com|~ads.mercadolivre.com.br|~ads.mgid.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.mojagazetka.com|~ads.msstate.edu|~ads.mst.dk|~ads.mt|~ads.nc|~ads.nipr.ac.jp|~ads.olx.pl|~ads.pinterest.com|~ads.remix.es|~ads.rohlik.cz|~ads.rohlik.group|~ads.route.cc|~ads.safi-gmbh.ch|~ads.scotiabank.com|~ads.selfip.com|~ads.shopee.cn|~ads.shopee.co.th|~ads.shopee.com.br|~ads.shopee.com.mx|~ads.shopee.com.my|~ads.shopee.kr|~ads.shopee.ph|~ads.shopee.pl|~ads.shopee.sg|~ads.shopee.tw|~ads.shopee.vn|~ads.siriusxmmedia.com|~ads.smartnews.com|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.tuver.ru|~ads.twitter.com|~ads.typepad.jp|~ads.us.tiktok.com|~ads.viksaffiliates.com|~ads.vk.com|~ads.watson.ch|~ads.x.com|~ads.yandex|~reempresa.org
 ://ads2.
+://adsbb.
 ://adserving.
 ://adsrv.
 ://adsserver.
@@ -51124,8 +51125,6 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||ads.twdcgrid.com^
 ||ads2.videy.co^
 ||ads3.videy.co^
-||adsbb.depositfiles.com^
-||adsbb.depositfiles.org^
 ||adsmg.fanfox.net^
 ||adultswim.com/ad/
 ||adw.heraldm.com^
@@ -52886,7 +52885,6 @@ utne.com###URTK_Middle_300x250
 utne.com###URTK_Right_300x600
 scrabble-solver.com###Upper
 breakingnews.ie###\30 _pweumum7
-helpnetsecurity.com###\32 8d7c1ee_l1
 turbobit.net###__bgd_link
 news-daily.com,outlookindia.com,stripes.com###_snup-rtdx-ldgr1
 ytmp3.cc###a-320-50
@@ -58429,7 +58427,6 @@ qvc.com##[data-module-feature-name^="CRITEO"]
 independent.co.uk##[data-mpu1]
 goal.com##[data-name="ad-leaderboard"]
 polygon.com##[data-native-ad-id^="container"]
-helpnetsecurity.com##[data-origin][style]
 greenbaycrimereports.com##[data-original-width="820"]
 jeffdornik.com##[data-pin-url]
 extremetech.com##[data-pogo="sidebar"]
@@ -58864,6 +58861,7 @@ egamersworld.com##a[href^="https://geni.us/"]
 warm98.com##a[href^="https://giving.cincinnatichildrens.org/donate"]
 disasterscans.com##a[href^="https://go.onelink.me/"]
 forkast.news##a[href^="https://h5.whalefin.com/landing2/"]
+helpnetsecurity.com##a[href^="https://helpnet.link/"] > img
 fileditch.com##a[href^="https://hostslick.com/"]
 douploads.net##a[href^="https://href.li/?"]
 embed.listcorp.com##a[href^="https://j.moomoo.com/"]
@@ -59411,9 +59409,11 @@ yandex.*##._view_advertisement
 yandex.*##.business-card-title-view__advert
 yandex.*##.mini-suggest__item[data-suggest-counter*="/yandex.ru/clck/safeclick/"]
 yandex.*##.ProductGallery
+yandex.*##.Scroller:has(a[href^="https://yabs.yandex.ru/count/"])
 yandex.*##.search-advert-badge
 yandex.*##.search-business-snippet-view__direct
 yandex.*##.search-list-view__advert-offer-banner
+yandex.*##a[href^="https://yabs.yandex.ru/count/"]
 yandex.*##a[href^="https://yandex.ru/an/count/"]
 yandex.*##li[class*="_card"]:has(a[href^="https://yabs.yandex.ru/count/"])
 yandex.*##li[class*="_card"]:has(a[href^="https://yandex.com/search/_crpd/"])
