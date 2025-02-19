@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: QwSYDhU+YvVmBqDuEDn3xA
-! Version: 202502192201
+! Checksum: m9lgDqZDc4p6T67MrlxkDQ
+! Version: 202502192301
 ! Title: EasyList China+EasyList
-! Last modified: 19 Feb 2025 22:01 UTC
+! Last modified: 19 Feb 2025 23:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1740,6 +1740,9 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||stildell.com^
+||dtntnl.icu^
+||hvddxj.icu^
 ||dhannaq.com^
 ||xqrydt.icu^
 ||rsohvot.xyz^
@@ -77296,6 +77299,7 @@ digg.com##article.fp-vertical-story:has(a[href="/channel/promotion"])
 9gag.com##article:has(.promoted)
 mg.co.za##article:has(.sponsored-single)
 tympanus.net##article:has(header:has(.ct-sponsored))
+tumlook.com##article:has-text(Sponsored)
 foxnews.com##article[class|="article story"]:has(.sponsored-by)
 cruisecritic.co.uk##article[data-sentry-component="ContentCard"]:has(a[href^="/sponsored-content/"])
 kijijiautos.ca##article[data-testid="SearchResultListItem"]:has(span[data-testid="PromotionLabel"])
