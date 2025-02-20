@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SKnM6u5/I2fHdN0MiH4TSg
-! Version: 202502200911
+! Checksum: HSMepU6TNZgocoJXUoJpyg
+! Version: 202502200940
 ! Title: EasyList
-! Last modified: 20 Feb 2025 09:11 UTC
+! Last modified: 20 Feb 2025 09:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -51374,6 +51374,9 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||ih1.fileforums.com^
 ||illicium.web.money^$subdocument
 ||illicium.wmtransfer.com^$subdocument
+||images.pushsquare.com/*/1260x250.jpg
+||images.pushsquare.com/*/300x250.jpg
+||images.pushsquare.com/*/300x600.jpg
 ||imagetwist.com/b9ng.js
 ||imdb.com/_json/getads/
 ||imgadult.com/ea2/
@@ -59652,6 +59655,7 @@ hwbusters.com##section.widget:has(> div[data-hwbus-trackbid])
 thehansindia.com##section:has(> .to-be-async-loaded-ad)
 thehansindia.com##section:has(> [class*="level_ad"])
 homedepot.com##section[id^="browse-search-pods-"] > div.browse-search__pod:has(div.product-sponsored)
+pushsquare.com##span:has-text(or Subscribe)
 fxempire.com##span[display="inline-block"]:has-text(Advertisement)
 mirrored.to##tbody > tr:has(> td[data-label="Host"] > img[src="https://www.mirrored.to/templates/mirrored/images/hosts/FilesDL.png"])
 titantv.com##tr:has(> td[align="center"][valign="middle"][colspan="2"][class="gC"])
