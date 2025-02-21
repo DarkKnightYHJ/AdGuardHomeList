@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: EYEWw0FTvszTcCozxA3WiQ
-! Version: 202502211001
+! Checksum: L//wslcs6FbCWsZ4GDiLIA
+! Version: 202502211101
 ! Title: ABP filters
-! Last modified: 21 Feb 2025 10:01 UTC
+! Last modified: 21 Feb 2025 11:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1249,7 +1249,7 @@ eztvx.to#$#hide-if-matches-xpath './/div[@style="top: 0px; left: 0px; width: 185
 forexlive.com#$#hide-if-matches-xpath './/div[@id][@class="banner"]/parent::div[contains(@class,"guid")]/ancestor::div[contains(@data-ref,"banner")][1]'
 vidsrc.*,cucuflix.*#$#abort-current-inline-script document.createElement /referrerPolicy.*no-referrer-when-downgrade/;
 evrimagaci.org#$#hide-if-matches-xpath './/div[@class="empower-ad"]/parent::div[contains(@class, "ads-")]'
-neoseeker.com#$#hide-if-contains-visible-text /Advertisement/ 'div[style]' div[style] small;
+neoseeker.com#$#hide-if-matches-xpath './/div[contains(@style,"text-align:center;")]/div[@style]/small/ancestor-or-self::div[contains(@style,"text-align:center;")]'
 yts.*#$#abort-on-property-read window.__adFormats;
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
