@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4mXsu6Yn7BgvjJWBCm+/Ng
-! Version: 202502211401
+! Checksum: XwMoPmroFF2SxGxvJqkz9A
+! Version: 202502211501
 ! Title: EasyList
-! Last modified: 21 Feb 2025 14:01 UTC
+! Last modified: 21 Feb 2025 15:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -51646,6 +51646,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||lw.musictarget.com^
 ||lycos.com/catman/
 ||machineseeker.com/data/ofni/
+||macys.com/sitemonetization/v1/sponsored-products/
 ||mafvertizing.crazygames.com^
 ||mail-ads.google.com^
 ||mail.aol.com/d/gemini_api/?adCount=
@@ -51732,6 +51733,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||pastemagazine.com/common/js/ads-
 ||pastemytxt.com/download_ad.jpg
 ||path-2-happiness.com/*/select_adv
+||pcexpress.ca/pcx-bff/api/v2/media/ads^
 ||pcmag.com/js/alpine/$domain=speedtest.net
 ||pcwdld.com/SGNg95BS08r9.js
 ||pelisfree.site/js/script_
@@ -57511,6 +57513,7 @@ costco.com##.rm-grid-product
 chemistwarehouse.com.au##.rm__campaign-product__slider-item
 windowsreport.com##.rmdcb
 indiatimes.com##.rmfp
+sephora.com##.rmn-banner
 realitytea.com##.roadblock
 surinenglish.com##.roba
 cults3d.com##.robots-nocontent
@@ -59523,6 +59526,7 @@ backgrounds.wetransfer.net##we-wallpaper
 autoscout24.*##img[referrerpolicy="unsafe-url"]
 douglas.*##.cms-container:has([data-testid="CriteoAdFormatCategoryView"])
 douglas.*##.criteo-product-carousel
+douglas.*##.product-grid-column:has(.criteo-spotlight)
 douglas.*##.product-grid-column:has([data-testid="sponsored-button"])
 douglas.*##.swiper-slide:has(button[data-testid="sponsored-button"])
 douglas.*##[data-testid="product-overview-content-slot"]:has(.criteo-teaser-gold__sponsored)
