@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WQwkr8Tz6UcSsL+NsVWOkQ
-! Version: 202502221101
+! Checksum: 7XR6C39vDIZm1iObMwZqMA
+! Version: 202502221221
 ! Title: EasyList
-! Last modified: 22 Feb 2025 11:01 UTC
+! Last modified: 22 Feb 2025 12:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -876,6 +876,7 @@ _reklama_$domain=~youtube.com
 .prebid.$domain=~prebid.org
 /ad/postbid_handler1.$script
 /ads_prebid_async.js$script
+/dist/adsPrebid.js$script
 /gpt-prebid.js$script
 /pbjsandwichdirecta9-$script
 /plugins/prebidjs/*$script
