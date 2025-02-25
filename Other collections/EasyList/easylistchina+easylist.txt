@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JjEUExQghYGUhg1aDa0edg
-! Version: 202502252201
+! Checksum: PiyuVCnueQreRUFuHTXHRQ
+! Version: 202502252301
 ! Title: EasyList China+EasyList
-! Last modified: 25 Feb 2025 22:01 UTC
+! Last modified: 25 Feb 2025 23:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1741,6 +1741,8 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||zlzgfj.icu^
+||lnptph.icu^
 ||druqodrly.com^
 ||bidotz.icu^
 ||nktydx.icu^
@@ -76726,6 +76728,7 @@ disqus.com##[data-role="ad-content"]
 news.sky.com##[data-role="ad-label"]
 olympics.com##[data-row-type="custom-row-adv"]
 timesofindia.indiatimes.com##[data-scrollga="spotlight_banner_widget"]
+cruisecritic.com##[data-sentry-component="NativeAd"]
 trakt.tv##[data-snigel-id]
 amp.theguardian.com##[data-sort-time="1"]
 timesofindia.indiatimes.com##[data-sp-click="stpPgtn(event)"]
@@ -78559,6 +78562,9 @@ checkfelix.com,kayak.*,swoodoo.com##div[class*="-adInner"]
 checkfelix.com,kayak.*,swoodoo.com##div[data-resultid]:has(a.IZSg-adlink)
 checkfelix.com,kayak.*,swoodoo.com##div[id^="inline-"]
 ! *** easylist:easylist/easylist_specific_hide_abp.txt ***
+shopee.sg#?#div[class="N_YeYe"]:has(> .shopee_ic:-abp-contains(Ad))
+shopee.sg#?#div[class="oMSmr0"]:has(> .shopee_ic:-abp-contains(Ad))
+perplexity.ai#?#.py-sm.group:-abp-contains(Sponsored)
 autotrader.co.uk#?#[data-testid="desktop-search"] li:-abp-contains(Ad)
 dev.to#?#div[data-display-unit]:-abp-has(span:-abp-contains(Promoted))
 tripadvisor.com#?#[aria-label="Map marker"]:-abp-contains(Sponsored)
