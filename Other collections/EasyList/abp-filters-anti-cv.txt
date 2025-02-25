@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: ncAL+WNqlqPatmuyAjeDBg
-! Version: 202502251001
+! Checksum: nJzTJgpQXj4AHIRoV9GYmQ
+! Version: 202502251101
 ! Title: ABP filters
-! Last modified: 25 Feb 2025 10:01 UTC
+! Last modified: 25 Feb 2025 11:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1038,7 +1038,7 @@ mixdrop.*#$#override-property-read MDCore.adblock 0; abort-current-inline-script
 ||noukotumorn.com^$domain=dl-protect.link
 skidrowreloaded.*,vidsrc.*#$#abort-on-property-read runPop; abort-current-inline-script open; abort-on-property-read Math.floor
 videzz.net#$#override-property-read isAdBlockDetected false; abort-on-property-read window.open
-animixplay.*aniwatch.*,moviesjoy.*,tapeadvertisement.com#$#abort-on-property-read window.open; abort-current-inline-script document.documentElement break;case $.
+animixplay.*aniwatch.*,moviesjoy.*,movieshdwatch.*,tapeadvertisement.com#$#abort-on-property-read window.open; abort-current-inline-script document.documentElement break;case $.
 sflix.*,sflix2.*#$#abort-current-inline-script parseInt break;case $.
 aniwave.*,wallpaperflare.com#$#abort-current-inline-script document.write; abort-on-property-read window.open;
 tvsportslive.*#$#abort-current-inline-script document.createElement /script/; hide-if-matches-xpath './/div[@class][contains(@style, "pointer-events: none;")]/self::div[1]';
