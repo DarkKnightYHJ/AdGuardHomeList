@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 9VVUgNQO2qL9JfwXghXTGw
-! Version: 202502261901
+! Checksum: zFHTKTdhzLGZ+PD5lAewDA
+! Version: 202502262011
 ! Title: ABP filters
-! Last modified: 26 Feb 2025 19:01 UTC
+! Last modified: 26 Feb 2025 20:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -523,17 +523,6 @@ dlouha-videa.cz#$#abort-on-property-read _0x4c29
 ajaxshowtime.com#?#div:-abp-properties(content: "Advertentie";)
 ajaxshowtime.com##div.leaderboard_ad + div
 ! *** abp-filters-anti-cv:english.txt ***
-! RM-173
-! SP
-zalando.*#$#hide-if-contains /Sponsorowane|Sponsored|Sponsorisé|Gesponsert|Sponsorizzato|Gesponsord|Sponzorované|Sponsrad|Patrocinado|Sponsoreret|Sponsoroitu|Sponset|Sponsitud|Sponzorirano|Sponzorováno|Sponsorēts|Szponzorált/ 'div[style]>div[data-entity-id]>article' 'button[type^="button"]>span'
-! PP
-zalando.*#$#hide-if-matches-xpath './/button[@type="button"]/span[.="Sponsorowane" or .="Sponsored" or .="Sponsorisé" or .="Gesponsert" or .="Sponsorizzato" or .="Gesponsord" or .="Sponzorované" or .="Sponsrad" or .="Patrocinado" or .="Sponsoreret" or .="Sponsoroitu" or .="Sponset" or .="Sponsitud" or .="Sponzorirano" or .="Sponzorováno" or .="Sponsorēts" or .="Szponzorált"]/preceding::h2/div[contains(.,"Gesponsert")]/ancestor::div[@class and @data-trckng-component]'
-! HP & BA
-zalando.*#$#hide-if-matches-xpath './/button[@type="button"]/span[.="Sponsorowane" or .="Sponsored" or .="Sponsorisé" or .="Gesponsert" or .="Sponsorizzato" or .="Gesponsord" or .= "Sponzorované" or .="Sponsrad" or .="Patrocinado" or.="Sponsoreret" or .="Sponsoroitu" or .="Sponset" or .="Sponsitud" or .="Sponzorirano" or.="Sponzorováno" or .="Sponsorēts" or .= "Szponzorált"]//ancestor::div[@data-trckng-component]/parent::div[@data-entity-id][1]'
-zalando.*#$#hide-if-matches-xpath './/button[@type="button"]/span[.="Sponsorowane" or .="Sponsored" or .="Sponsorisé" or .="Gesponsert" or .="Sponsorizzato" or .="Gesponsord" or .="Sponzorované" or .="Sponsrad" or .="Patrocinado" or .="Sponsoreret" or .="Sponsoroitu" or .="Sponset" or .="Sponsitud" or .="Sponzorirano" or .="Sponzorováno" or .="Sponsorēts" or .="Szponzorált"]/ancestor::div[@labels]//ancestor::div[contains(@id,"tracker")]/parent::div[@class and @data-trckng-component]'
-zalando.*#$#hide-if-matches-xpath './/button[@type="button"]/span[.="Sponsorowane" or .="Sponsored" or .="Sponsorisé" or .="Gesponsert" or .="Sponsorizzato" or .="Gesponsord" or .="Sponzorované" or .="Sponsrad" or .="Patrocinado" or .="Sponsoreret" or .="Sponsoroitu" or .="Sponset" or .="Sponsitud" or .="Sponzorirano" or .="Sponzorováno" or .="Sponsorēts" or .="Szponzorált"]/ancestor::div[@labels]/parent::div/ancestor::div[contains(@id,"tracker")]/parent::div[@class and @data-trckng-component]'
-! CP
-zalando.*##div[data-trckng-component] a[sponsoredFlag]
 ! RM-48
 ! sp
 atlanticsuperstore.ca,fortinos.ca,loblaws.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#$#hide-if-contains /sponsored|sponsorisé/ 'div:has([data-testid="product-image"]):has([data-testid="product-badge"]):has([data-testid="product-title"])' '[data-testid="product-badge"]'
