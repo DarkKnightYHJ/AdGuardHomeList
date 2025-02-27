@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 8hFDOmMg1iZyeWMSRP9Dag
-! Version: 202502271101
+! Checksum: ODAT5bUrbmGbY03Ls02azQ
+! Version: 202502271221
 ! Title: ABP filters
-! Last modified: 27 Feb 2025 11:01 UTC
+! Last modified: 27 Feb 2025 12:21 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1028,7 +1028,7 @@ mixdrop.*#$#override-property-read MDCore.adblock 0; abort-current-inline-script
 skidrowreloaded.*,vidsrc.*#$#abort-on-property-read runPop; abort-current-inline-script open; abort-on-property-read Math.floor
 videzz.net#$#override-property-read isAdBlockDetected false; abort-on-property-read window.open
 animixplay.*aniwatch.*,moviesjoy.*,movieshdwatch.*,tapeadvertisement.com#$#abort-on-property-read window.open; abort-current-inline-script document.documentElement break;case $.
-sflix.*,sflix2.*#$#abort-current-inline-script parseInt break;case $.
+sflix.*,sflix2.*#$#abort-current-inline-script parseInt break;case $.; abort-current-inline-script appendChild iframe
 aniwave.*,wallpaperflare.com#$#abort-current-inline-script document.write; abort-on-property-read window.open;
 tvsportslive.*#$#abort-current-inline-script document.createElement /script/; hide-if-matches-xpath './/div[@class][contains(@style, "pointer-events: none;")]/self::div[1]';
 datanodes.to##body > form[method="POST"][target="_blank"] {remove:true;}
@@ -1871,7 +1871,7 @@ p.thoctv.com#$#abort-current-inline-script document.createElement script
 motchill.ad#$#abort-current-inline-script document.addEventListener linksToOpen
 khoaiphim.com,phimmoinay.tv#$#abort-current-inline-script jQuery click_time
 dualeotruyenbot1.com,m.blogtruyenmoi.com#$#abort-current-inline-script document.addEventListener popunder
-lxmanga.cloud#$#abort-current-inline-script $ PopUnder
+lxmanga.art#$#abort-current-inline-script $ PopUnder
 truyen35.shop#$#abort-current-inline-script jQuery click_ads
 www.toptruyentv.pro#$#abort-current-inline-script Promise instance
 animehay.loan#$#abort-current-inline-script document.addEventListener window.open
