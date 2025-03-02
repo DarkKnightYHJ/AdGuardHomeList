@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cGOnx6GrEfxgKNwb3Jehog
-! Version: 202503020701
+! Checksum: PbLCzU1NrF32O2lfeJYK5A
+! Version: 202503020811
 ! Title: Fanboy's Annoyance List
-! Last modified: 02 Mar 2025 07:01 UTC
+! Last modified: 02 Mar 2025 08:11 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -26649,7 +26649,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.js-cookielayer
 ##.js-cookieloop
 ##.js-cookiemodal
-##.js-cookies
 ##.js-cookies-agree-container
 ##.js-cookies-agreement
 ##.js-cookies-agreement-notification
@@ -40243,6 +40242,8 @@ evertiq.*##.cc-container
 !! .overlay-gdpr-consent/.overlay-wrapper
 lsl.com,sexlivecam.co.uk##.overlay-gdpr-consent
 lsl.com,sexlivecam.co.uk##.overlay-wrapper
+! airbnb
+airbnb.*##[data-testid="main-cookies-banner-container"]
 ! flipsnack.com
 flipsnack.com###cookieNotification
 flipsnack.com##.modal-backdrop
