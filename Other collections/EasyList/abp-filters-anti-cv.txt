@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: n8etbwE6wLlB+MAsX+zuGg
-! Version: 202503031701
+! Checksum: Q5mfombROeVE5wckHRP8Pg
+! Version: 202503031811
 ! Title: ABP filters
-! Last modified: 03 Mar 2025 17:01 UTC
+! Last modified: 03 Mar 2025 18:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -609,6 +609,7 @@ ebay.com#$#hide-if-contains-visible-text /\s*sponsored\s*/ 'div[data-viewport]' 
 ebay.com#$#hide-if-contains-visible-text /Sponsored/ 'div[data-viewport]' 'div[data-viewport] div[role="text"]'
 ! sp
 ebay.*#$#race start; hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzato|Sponsorowane|Gesponsord|Patrocinado|Anzeige/ 'li.s-item' '* li div>span>div ^^sh^^ span:not([aria-hidden="true"])'; hide-if-contains-and-matches-style /./ li[data-viewport] 'li[data-viewport] .s-item__sep>div ^^sh^^ span' /./ 'overflow-x: visible'; hide-if-contains-visible-text /./ 'li[data-viewport]' '.s-item__sep>div ^^sh^^ span:nth-child(2)'; hide-if-matches-computed-xpath './/div[contains(@class, "s-item__detail")]/span/div[@aria-labelledby = "{{}}"]/ancestor::li' './/style[contains(text(),"size: var")]' /^\\s*div\\.(.*?)_/; hide-if-matches-computed-xpath './/div[contains(@class,"s-item__detail")]/span/span[@aria-labelledby="{{}}"]/ancestor::li' './/script[contains(text(),"CSSStyleDeclaration")]' /getPropertyValue\\(\\"\\-\\-(.*?)\\"/; hide-if-matches-computed-xpath './/div[contains(@class,"s-item__detail")]/span/span[@aria-labelledby="{{}}"]/ancestor::li' './/style[contains(text(),"div:first-line")]' '/0px;\\s\\-\\-(.*?)\\:/'; hide-if-matches-computed-xpath './/li//span[@class="s-item__sep"]/span[@aria-labelledby="{{}}"]/ancestor::li' './/div[@id="srp-river-main"]//div[@class="clipped"]/li//span[@aria-labelledby]/..' '/labelledby=\\"(s-.{7})\\"/'; hide-if-matches-computed-xpath './/li//span/span[@aria-labelledby="{{}}"]/ancestor::li' './/div[@id="srp-river-main"]/div[@class="clipped"]/li//span[@aria-labelledby]/..' '/labelledby=\\"(s-.{7})\\"/'; race stop;
+ebay.*#$#hide-if-matches-xpath './/style[1]' '' load;hide-if-matches-xpath '//li[@data-viewport]//span[@role="text" and @aria-labelledby=//span[@class="clipped"][.="Anzeige" or text()="Sponsored" or text()="Sponsorisé" or text()="Sponsorowane" or text()="Gesponsord" or text()="Patrocinado" or text()="Sponsorizzato" or text()="贊助"]/@id]/ancestor::li[@data-viewport]' '' 'auxclick';simulate-mouse-event 'xpath(.//style[@style]/ancestor::html)$event=auxclick,delay=100'
 ! #CV-737
 cnn.com#$#strip-fetch-query-parameter caid warnermediacdn.com; strip-fetch-query-parameter afid warnermediacdn.com; strip-fetch-query-parameter conf_csid warnermediacdn.com; strip-fetch-query-parameter app_csid warnermediacdn.com
 ||warnermedia.com/api/v1/events?*=ad-break*^$xmlhttprequest,domain=cnn.com
