@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1LFVJNqQSq4IKTrUKjkEZg
-! Version: 202503051101
+! Checksum: 34Qu+wsn9Qx2DJC92k+QJA
+! Version: 202503051221
 ! Title: EasyList China+EasyList
-! Last modified: 05 Mar 2025 11:01 UTC
+! Last modified: 05 Mar 2025 12:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1746,6 +1746,7 @@ newduba.cn###jq_youxi
 ||hbxmdf.icu^
 ||ojmv.cn^
 ||rvgtaai.top^
+||vwvj.cn^
 ||nhur.cn^
 ||bybrrn.icu^
 ||hmjmjz.icu^
@@ -44685,6 +44686,7 @@ browsershots.org#@#.advert_area
 ||hrenbjkdas.com^
 ||hrfdulynyo.xyz^
 ||hrihfiocc.com^
+||hrjbylofyso.com^
 ||hrmdw8da.net^
 ||hrogrpee.de^
 ||hrtennaarn.com^
@@ -46103,6 +46105,7 @@ browsershots.org#@#.advert_area
 ||justrelevant.com^
 ||justservingfiles.net^
 ||jutyledu.pro^
+||juvjimicwbauuw.com^
 ||juzaugleed.com^
 ||juztjtsxbojdj.com^
 ||jvcjnmd.com^
@@ -50133,6 +50136,7 @@ browsershots.org#@#.advert_area
 ||optyruntchan.com^
 ||optzsrv.com^
 ||opvanillishan.com^
+||opzvalfafh.com^
 ||oqbaxgolrabl.com^
 ||oqddkgixmqhovv.xyz^
 ||oqejupqb.xyz^
@@ -53568,6 +53572,7 @@ browsershots.org#@#.advert_area
 ||rkdpzcdehop.fun^
 ||rkgwzfwjgk.com^
 ||rkhovdiminatedmo.org^
+||rkksbrkwdqbop.com^
 ||rknwwtg.com^
 ||rkomf.com^
 ||rkoohcakrfu.com^
@@ -54943,6 +54948,7 @@ browsershots.org#@#.advert_area
 ||sketchyrecycleimpose.com^
 ||sketfarinha.shop^
 ||skewserer.com^
+||skgpzivadwdte.buzz^
 ||skhmjezzj.com^
 ||skibbybester.top^
 ||skidgleambrand.com^
@@ -56433,6 +56439,7 @@ browsershots.org#@#.advert_area
 ||tediousgorgefirst.com^
 ||tedtaxi.com^
 ||tedtug.com^
+||teedastoowu.net^
 ||teeglimu.com^
 ||teemmachinerydiffer.com^
 ||teemooge.net^
@@ -58443,6 +58450,7 @@ browsershots.org#@#.advert_area
 ||vigorouslymicrophone.com^
 ||vigourmotorcyclepriority.com^
 ||vigsole.com^
+||vihbuposxci.com^
 ||vihub.ru^
 ||viibest.com^
 ||viibmmqc.com^
@@ -71057,9 +71065,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||pornerbros.com/lolaso/
 ||pornforrelax.com/kiadtgyzi/
 ||porngals4.com/img/b/
-||porngames.tv/images/skyscrapers/
-||porngames.tv/js/banner.js
-||porngames.tv/js/banner2.js
+||porngames.tv/js/hs43jgM.js
 ||porngo.tube/tdkfiololwb/
 ||pornhat.com/banner/
 ||pornhub.*/_xa/ads
@@ -79152,7 +79158,7 @@ vndevtop.com###sidebar_right
 pornhub.com,pornhub.org###singleFeedSection > .emptyBlockSpace
 adult-sex-games.com###skyscraper
 porngames.games###slide-ads
-adultgamesworld.com###slideApple
+adultgamesworld.com,porngames.tv###slideApple
 hentaifox.com###slider
 javfor.tv###smac12403o0
 xbooru.com,xxxymovies.com###smb
@@ -79664,6 +79670,7 @@ fapality.com##.ntw-a
 rule34.xxx##.nutaku-mobile
 boundhub.com##.o3pt
 bdsmx.tube##.oImef0
+porngames.tv##.one-top-link
 lustgalore.com##.opac_bg
 pornchimp.com,pornxbox.com,teenmastube.com,watchmygf.mobi##.opt
 bbporntube.pro##.opve-bns-bl
@@ -79796,8 +79803,7 @@ porngfy.com##.single-sponsored
 babestare.com##.single-zone
 sexvid.xxx##.site_holder
 porn-monkey.com##.size-300x250
-simply-hentai.com##.skyscraper
-porngames.tv##.skyscraper_inner
+porngames.tv,simply-hentai.com##.skyscraper
 pornhub.com##.sniperModeEngaged
 thelittleslush.com##.snppopup
 boycall.com##.source_info
@@ -80281,6 +80287,22 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(image/)
 ! ABP CSS injection filters
 otomi-games.com##.clean-grid-grid-post:has(> [id^="otomi-"] + .clean-grid-grid-post-details-full) {remove:true;}
+! 69games.xxx/gamcore/porcore.com
+classic.gamcore.com###center > .flashes > .wide:has(> a[href][rel])
+69games.xxx###footer
+gamcore.com###preloader_2
+69games.xxx###right
+69games.xxx,gamcore.com###tvnotice
+gamcore.com##.add_game.d-none
+gamcore.com##.item:has(> [href^="/games/fuckyou/"])
+gamcore.com##.row > .d-md-block
+69games.xxx##[class^="leaderboard"]
+gamcore.com##[href*="/ads/"]
+69games.xxx##[id*="tvadbody"]
+classic.gamcore.com##[id]:has(> .warningbox)
+69games.xxx##[id^="center"] .I:has(> [class=""][href])
+69games.xxx,porcore.com##body > [id][style^="position: fixed; top: 0px;"]
+gamcore.com##li.d-md-block > a[rel]
 !-----------------------Allowlists to fix broken sites------------------------!
 ! *** easylist:easylist/easylist_allowlist.txt ***
 @@||2mdn.net/instream/html5/ima3.js$script,domain=earthtv.com|zdnet.com

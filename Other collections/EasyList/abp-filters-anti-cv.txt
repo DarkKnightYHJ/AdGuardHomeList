@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: zFYFwbpSvn1hyc0w/82J3A
-! Version: 202503051101
+! Checksum: jH+hmO5FNw/TMREl22CV8A
+! Version: 202503051221
 ! Title: ABP filters
-! Last modified: 05 Mar 2025 11:01 UTC
+! Last modified: 05 Mar 2025 12:21 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -881,14 +881,6 @@ procoinnews.com,dailylol.com#$#override-property-read setTimeout noopFunc; abort
 ||purple-hit.com^$third-party,script,domain=patriotnationpress.com
 ! #RM-13
 www.booking.com#$#hide-if-contains-visible-text /Ad|Annonce|Annonse|Annons|Annuncio|Anunci|Anuncio|Anúncio|Anzeige|Iklan|Kostað|Mainos|Oglas|Promovată|Publicidad|Publicité|Quảng|Reklaam|Reklam|Reklama|Reklám|Reklāma|Διαφήμιση|[Рр]еклама|إعلان|광고|広告|付费推广|贊助|מודעה|विज्ञापन|โฆษณา/ 'div+div[data-testid^="property-card"]' 'span[tabindex] span'
-! #RM-7
-walmart.ca##div[data-testid="hp-pov-ad-tracking"]
-walmart.ca,walmart.com##div[data-testid^="search-video-in-grid"]
-walmart.ca,walmart.com##div[data-testid^="sba-container"]
-walmart.ca,walmart.com##div[id*="Sponsored"]
-walmart.ca,walmart.com##div[data-testid^="carousel-ad"] > div[id^="ITEM-SponsoredProductCarousel"]
-walmart.ca,walmart.com##div[id^="SEARCH-SponsoredProductCarousel"]
-walmart.com,walmart.ca#$#hide-if-contains-visible-text /Sponsored|Commandité/ 'section div[data-item-id]' div span
 ! #RM-117
 pinterest.*#$#race start; hide-if-contains-visible-text /Bersponsor|Ditaja|Geborg|Gesponsord|Gesponsert|Patrocinado|Promocionado|Sponsored|Sponsoreret|Sponsorisées|Sponsorizat|Sponsorizzato|Sponsoroitu|Sponsorlu|Sponsorowane|Sponsrad|Sponset|Szponzorált|Спонсирοванный|Спонсорирано|Спонсируемый|Спонсорований|Sponzorirano|Sponzorované|Χορηγούμενο/ 'div[role="listitem"][role][style]' 'div[title]' 'content: "Promoted by";' 'font-weight: 600;'; hide-if-matches-xpath '//div[@title][contains(.,"贊助內容") or contains(.,"赞助的 Pin 图") or contains(.,"広告") or contains(.,"후원 핀") or contains(.,"స్పాన్సర్ చేసారు") or contains(.,"স্পনসর করা") or contains(.,"प्रायोजित") or contains(.,"ממומן") or contains(.,"قيد الدعم") or contains(.,"ממומן") or contains(.,"Được tài trợ") or contains(.,"May Sponsor") or contains(.,"Sponsored") or contains(.,"Sponsorisées") or contains(.,"Gesponsert") or contains(.,"Promocionado") or contains(.,"Gesponsord") or contains(.,"Sponsorowane") or contains(.,"Patrocinado") or contains(.,"Sponsorizzato")]/ancestor::div[@data-test-id="pin"]'; race stop;
 ! #RM-14
@@ -1817,6 +1809,7 @@ cuevana3.*,pelisflixhd.art#$#abort-on-property-read decodeURI; abort-current-inl
 animeonline.ninja#$#override-property-read custom_ads_time null; abort-current-inline-script document.createElement script;
 pelisplushd.*,soap2day.*#$#abort-on-property-read window.open
 cuevana.*,cuevana3.*,cuevana4.*,pelisflixhd.art#$#abort-on-property-read window.open; override-property-read WebSocket undefined; abort-on-property-read BetterJsPop
+zonatmo.com#$#abort-current-inline-script String.fromCharCode 2147483647
 ! #CV-368
 rainanime.net#$#abort-on-property-read NativeAd
 ! RM-5

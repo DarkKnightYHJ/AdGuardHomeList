@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: baML5/cgcv+mstGwYfW5cA
-! Version: 202503051051
+! Checksum: 8fu6khzZ65zDE0Wg/msxkw
+! Version: 202503051211
 ! Title: EasyList
-! Last modified: 05 Mar 2025 10:51 UTC
+! Last modified: 05 Mar 2025 12:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -27119,6 +27119,7 @@ browsershots.org#@#.advert_area
 ||hrenbjkdas.com^
 ||hrfdulynyo.xyz^
 ||hrihfiocc.com^
+||hrjbylofyso.com^
 ||hrmdw8da.net^
 ||hrogrpee.de^
 ||hrtennaarn.com^
@@ -28537,6 +28538,7 @@ browsershots.org#@#.advert_area
 ||justrelevant.com^
 ||justservingfiles.net^
 ||jutyledu.pro^
+||juvjimicwbauuw.com^
 ||juzaugleed.com^
 ||juztjtsxbojdj.com^
 ||jvcjnmd.com^
@@ -32567,6 +32569,7 @@ browsershots.org#@#.advert_area
 ||optyruntchan.com^
 ||optzsrv.com^
 ||opvanillishan.com^
+||opzvalfafh.com^
 ||oqbaxgolrabl.com^
 ||oqddkgixmqhovv.xyz^
 ||oqejupqb.xyz^
@@ -36002,6 +36005,7 @@ browsershots.org#@#.advert_area
 ||rkdpzcdehop.fun^
 ||rkgwzfwjgk.com^
 ||rkhovdiminatedmo.org^
+||rkksbrkwdqbop.com^
 ||rknwwtg.com^
 ||rkomf.com^
 ||rkoohcakrfu.com^
@@ -37377,6 +37381,7 @@ browsershots.org#@#.advert_area
 ||sketchyrecycleimpose.com^
 ||sketfarinha.shop^
 ||skewserer.com^
+||skgpzivadwdte.buzz^
 ||skhmjezzj.com^
 ||skibbybester.top^
 ||skidgleambrand.com^
@@ -38867,6 +38872,7 @@ browsershots.org#@#.advert_area
 ||tediousgorgefirst.com^
 ||tedtaxi.com^
 ||tedtug.com^
+||teedastoowu.net^
 ||teeglimu.com^
 ||teemmachinerydiffer.com^
 ||teemooge.net^
@@ -40877,6 +40883,7 @@ browsershots.org#@#.advert_area
 ||vigorouslymicrophone.com^
 ||vigourmotorcyclepriority.com^
 ||vigsole.com^
+||vihbuposxci.com^
 ||vihub.ru^
 ||viibest.com^
 ||viibmmqc.com^
@@ -62715,6 +62722,22 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(image/)
 ! ABP CSS injection filters
 otomi-games.com##.clean-grid-grid-post:has(> [id^="otomi-"] + .clean-grid-grid-post-details-full) {remove:true;}
+! 69games.xxx/gamcore/porcore.com
+classic.gamcore.com###center > .flashes > .wide:has(> a[href][rel])
+69games.xxx###footer
+gamcore.com###preloader_2
+69games.xxx###right
+69games.xxx,gamcore.com###tvnotice
+gamcore.com##.add_game.d-none
+gamcore.com##.item:has(> [href^="/games/fuckyou/"])
+gamcore.com##.row > .d-md-block
+69games.xxx##[class^="leaderboard"]
+gamcore.com##[href*="/ads/"]
+69games.xxx##[id*="tvadbody"]
+classic.gamcore.com##[id]:has(> .warningbox)
+69games.xxx##[id^="center"] .I:has(> [class=""][href])
+69games.xxx,porcore.com##body > [id][style^="position: fixed; top: 0px;"]
+gamcore.com##li.d-md-block > a[rel]
 !-----------------------Allowlists to fix broken sites------------------------!
 ! *** easylist:easylist/easylist_allowlist.txt ***
 @@||2mdn.net/instream/html5/ima3.js$script,domain=earthtv.com|zdnet.com
