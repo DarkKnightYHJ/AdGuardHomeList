@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: Ck2MntuDkfyY7T8siwMEjA
-! Version: 202503061101
+! Checksum: zRqK2VegKBUVjTbXWE7Z8Q
+! Version: 202503061221
 ! Title: ABP filters
-! Last modified: 06 Mar 2025 11:01 UTC
+! Last modified: 06 Mar 2025 12:21 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1531,6 +1531,7 @@ filmy69.pl#$#abort-current-inline-script document.querySelectorAll popMagic
 ! RM-115
 ! sp
 olx.com.br#$#hide-if-matches-xpath './/span[.="DESTAQUE"]/ancestor::section[1]'; hide-if-matches-xpath './/span[.="DESTAQUE"]/ancestor::section[1]/parent::div[contains(@class,"olx-carousel")]';
+olx.pt#$#hide-if-matches-xpath './/div[@color][@letter-spacing][.="TOP"]/parent::div/ancestor::div[@data-testid="l-card"]'
 ! pp & ph
 olx.com.br#$#hide-if-matches-xpath './/p[.="publicidade"]/parent::div[@data-testid="advertising-placeholder" or contains(@class,"ad__")]/parent::div'
 ! RM-5
