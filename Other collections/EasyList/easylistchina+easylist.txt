@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: h0Vp1SFah05tYkpeCIuQ/g
-! Version: 202503052311
+! Checksum: g6xJ1RiY2PPVz8kWzE1wPw
+! Version: 202503060101
 ! Title: EasyList China+EasyList
-! Last modified: 05 Mar 2025 23:11 UTC
+! Last modified: 06 Mar 2025 01:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1748,6 +1748,9 @@ newduba.cn###jq_youxi
 ||rvgtaai.top^
 ||vwvj.cn^
 ||fpfhtr.icu^
+||frthpp.icu^
+||ixtu.cn^
+||gjinuqg.top^
 ||nhur.cn^
 ||bybrrn.icu^
 ||hmjmjz.icu^
@@ -78885,6 +78888,7 @@ checkfelix.com,kayak.*,swoodoo.com##div[class*="-adInner"]
 checkfelix.com,kayak.*,swoodoo.com##div[data-resultid]:has(a.IZSg-adlink)
 checkfelix.com,kayak.*,swoodoo.com##div[id^="inline-"]
 ! *** easylist:easylist/easylist_specific_hide_abp.txt ***
+property24.com#?#.p24_tileContainer:-abp-contains(Sponsored)
 shopee.sg#?#div[class="N_YeYe"]:has(> .shopee_ic:-abp-contains(Ad))
 shopee.sg#?#div[class="oMSmr0"]:has(> .shopee_ic:-abp-contains(Ad))
 perplexity.ai#?#.py-sm.group:-abp-contains(Sponsored)
@@ -80637,6 +80641,7 @@ gamcore.com##li.d-md-block > a[rel]
 @@://localhost:$generichide
 @@||accounts.google.com^$generichide
 @@||ads.microsoft.com^$generichide
+@@||adsmanager.facebook.com^$generichide
 @@||apple.com^$generichide
 @@||atlassian.net^$generichide
 @@||bitbucket.org^$generichide
