@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: gfOIwJJigG61ldxl67iO7w
-! Version: 202503071101
+! Checksum: vGQdr1vIr0PmGTzBO1IzAQ
+! Version: 202503071221
 ! Title: ABP filters
-! Last modified: 07 Mar 2025 11:01 UTC
+! Last modified: 07 Mar 2025 12:21 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -674,7 +674,7 @@ mangareader.net,kiss-anime.ws,animeland.us#$#abort-on-property-read bbHideDiv
 narutohentaidb.com#$#abort-on-property-write BackDropNar; hide-if-matches-xpath './/canvas[contains(@style,"padding")]/ancestor::div[contains(@style,"z-index")][1]';
 ! #CV-659
 filmxy.one##.promo-contents
-y2mate.com#$#abort-on-property-read dispatchEvent; abort-on-property-read window.open;
+y2mate.*#$#abort-on-property-read dispatchEvent; abort-on-property-read window.open; abort-current-inline-script String.fromCharCode 2147483647
 ! #CV-761
 ! Experimental filters
 ||facebook.com/xti.php?
