@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: K+TMkvdoDfUiYEmuWdV+yg
-! Version: 202503071011
+! Checksum: JuLoyKz7JtLp0XknTbEHvg
+! Version: 202503071101
 ! Title: EasyList
-! Last modified: 07 Mar 2025 10:11 UTC
+! Last modified: 07 Mar 2025 11:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -771,6 +771,8 @@ _reklama_$domain=~youtube.com
 ||cacheserve.*/promodisplay/
 ||cacheserve.*/promodisplay?
 ||online.*/promoredirect?key=
+! Filemoon
+?bd=ppd&r=$document
 ! Ad-Shield
 /ad-shield/e/*$script,third-party
 ://www.*.xyz/contents/*/-1/$script,subdocument,third-party,xmlhttprequest
@@ -57105,6 +57107,7 @@ getcomics.org##.getco-content_2
 flickr.com##.getty-search-view
 flickr.com##.getty-widget-view
 marketsfarm.com##.gfm-ad-network-ad
+law.cornell.edu##.gfs
 ganjingworld.com##.ggAdZone_gg-banner-ad_zone__wK3kF
 cometbird.com##.gg_250x250
 cornish-times.co.uk,farnhamherald.com,iomtoday.co.im##.ggzoWi
