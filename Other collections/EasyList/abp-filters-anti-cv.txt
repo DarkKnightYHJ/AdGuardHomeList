@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: vGQdr1vIr0PmGTzBO1IzAQ
-! Version: 202503071221
+! Checksum: QOQvfHCVGCuMSmK2SLts7g
+! Version: 202503071311
 ! Title: ABP filters
-! Last modified: 07 Mar 2025 12:21 UTC
+! Last modified: 07 Mar 2025 13:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1717,7 +1717,7 @@ cosplay-porn.one#$#abort-on-property-read biads
 mag.relax.by#$#abort-on-property-read Object.prototype.branding_url
 conversion.im#$#abort-current-inline-script $ mainContainer
 freescreens.ru,imgbase.ru,imgclick.ru,payforpic.ru,picclick.ru,picforall.ru#$#abort-current-inline-script JSON.parse
-tapochek.net#$#prevent-listener click 'document.cookie.includes'
+tapochek.net#$#prevent-listener click 'window.open'
 rutor.org#$#abort-on-property-read Light.Popup
 bez-smenki.ru#$#abort-current-inline-script $ showPopupextra
 partnerkin.com#$#override-property-read Object.prototype.autoPopups undefined
