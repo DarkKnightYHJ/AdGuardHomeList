@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: g+Vo22HGxM0quBtph6nk6g
-! Version: 202503101701
+! Checksum: 8yGSttWF6RmmuRjRNcfadQ
+! Version: 202503101811
 ! Title: EasyList
-! Last modified: 10 Mar 2025 17:01 UTC
+! Last modified: 10 Mar 2025 18:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -777,9 +777,9 @@ _reklama_$domain=~youtube.com
 ?bd=ppd&r=$document
 ! Ad-Shield
 /ad-shield/e/*$script,third-party
-!://www.*.xyz/contents/*/-1/$script,subdocument,third-party,xmlhttprequest
-!://www.*.xyz/contents/*?h=$script,third-party
-!wss://www.*.xyz/ws^$third-party
+://www.*.xyz/contents/*/-1/$script,subdocument,third-party,xmlhttprequest
+://www.*.xyz/contents/*?h=$script,third-party
+wss://www.*.xyz/ws^$third-party
 ! https://github.com/easylist/easylist/issues/11123
 .com/ed/java.js$script
 /ed/fol457.$script
