@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kpXz7L6hRxRnFDwrGWl7Mg
-! Version: 202503092301
+! Checksum: CxdSxNTnuwFeJPEiad4WvA
+! Version: 202503100051
 ! Title: Fanboy's Annoyance List
-! Last modified: 09 Mar 2025 23:01 UTC
+! Last modified: 10 Mar 2025 00:51 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -3649,6 +3649,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.newsletter-teaser
 ##.newsletter-toaster
 ##.newsletter-top
+##.newsletter-top-menu
 ##.newsletter-trigger
 ##.newsletter-unit
 ##.newsletter-wide
@@ -14021,8 +14022,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###CookiePanel
 ###CookiePanelNegative
 ###CookiePlus
-###CookiePolicy
-###CookiePolicyContainer
 ###CookiePolicyDiv
 ###CookiePolicyHeader
 ###CookiePolicyMessage
@@ -14575,7 +14574,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###agan_gdpr
 ###agree-to-use-cookies
 ###agree-with-cookies
-###agreeCookie
 ###agreeNoticeWrapper
 ###agreeWithCookies
 ###agree_cookie_div
@@ -15741,7 +15739,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###cookie-consent-fab
 ###cookie-consent-holder
 ###cookie-consent-info
-###cookie-consent-info-wrapper
 ###cookie-consent-local
 ###cookie-consent-manager
 ###cookie-consent-message
@@ -28053,7 +28050,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.rgpd-data-control-banner
 ##.rgpd-encart
 ##.rgpd-fixed-bar
-##.rgpd-footer
 ##.rgpd-general-box
 ##.rgpd-info_bar
 ##.rgpd-inner
@@ -28063,7 +28059,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.rgpd-notification
 ##.rgpd-popin
 ##.rgpd-popup
-##.rgpd-wrapper
 ##.rgpd.view
 ##.rgpdBan
 ##.rgpdCookie
@@ -29896,6 +29891,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||techbeat.com/wp-content/custom-php/$third-party
 ||thelovebucks.com^$third-party
 ||theoutplay.com^$third-party
+||timez.ai/widgets/$third-party
 ||tinker.com^$third-party
 ||tippola.com^$third-party
 ||toolbar.avg.com^$third-party
@@ -38121,7 +38117,7 @@ burelfactory.com###shopify-section-cookie-bar
 urbanbar.com###shopify-section-cookie-modal
 hairbro.com###shopify-section-cookie-popup
 arcade1up.com###shopify-section-cookies_consent
-elginusa.com,manlymanco.com,recongearusa.com,seedbarn.com,techmarkit.co.za###shopify-section-fixed-message
+ankerwork.com,elginusa.com,manlymanco.com,recongearusa.com,seedbarn.com,techmarkit.co.za###shopify-section-fixed-message
 koifootwear.com###shopify-section-popup
 itinstock.com###shopui-cookie-popup-container
 edealinfo.com###showFTCMessage
@@ -40892,7 +40888,7 @@ onassis.org##.bottom-0.relative
 !! .bottom-2
 argyle.com,artma-zaproszenia.pl,avif.io,claude.ai,getmerlin.in,lahella.fi,olecams.com,videochaterotico.com,youverify.co##.bottom-2
 !! .bottom-6
-app.houseofcb.com,boostroyal.nl,wimotic.fr##.bottom-6
+airlinkflightschool.com,app.houseofcb.com,boostroyal.nl,wimotic.fr##.bottom-6
 !! .bottom-5
 cinobo.com,jdslabs.com,lukso.network,mymarket.ge,platform.stability.ai,simtex.io,skyline-emu.one,vloot.io##.bottom-5
 !! .bottom-8
@@ -41858,6 +41854,7 @@ bfmtv.com##.footer_social_media
 francebleu.fr##.gfAGVu
 rtl.fr##.gg
 gamekult.com##.gk__footer__social-bar
+gamekult.com##.gk__share
 gamekult.com##.gk__share__label
 lci.tf1.fr,loi1901.com##.google
 foozine.com##.google-news-card
@@ -41877,10 +41874,12 @@ madagascar-tribune.com##.rezo_sociaux
 bledina.com##.rs-icon
 liberation.fr##.sc-eVBRet.htUQLJ
 la-croix.com##.send-article-icon
+melty.fr##.share
 quebeccoupongratuit.com##.share-site
 homap.fr##.share_content_button
 rtl.fr##.shared-logo
 boursedirect.fr##.slide-share
+gameblog.fr##.social-button:not(.comment-button):not(.heart-button)
 nawaat.org##.social-list-single
 agroligne.com##.social-media-inner
 phonandroid.com##.social-networks
@@ -47372,6 +47371,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||muestair.ch/fileadmin/dev/scripts/cookiebar.js$~third-party
 @@||my101.me^$generichide
 @@||mynexity.fr/App_Themes/V3/js/Didomi.js$~third-party
+@@||myspa.me^*/js/cookiebar.js$~third-party
 @@||nectar.com/lib/cookieBanner.js$~third-party
 @@||newpharma.be/dist/cookie_policy.$~third-party
 @@||news.microsoft.com/wp-content/plugins/microsoft-oembeds/$~third-party
