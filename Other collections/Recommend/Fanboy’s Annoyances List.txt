@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FGsV9UNVRgPYsWLM1SFaKQ
-! Version: 202503111401
+! Checksum: xwnQhmlLrcgiPRtz4aNoYA
+! Version: 202503111511
 ! Title: Fanboy's Annoyance List
-! Last modified: 11 Mar 2025 14:01 UTC
+! Last modified: 11 Mar 2025 15:11 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -47930,3 +47930,11 @@ zeit.de##.ob-widget:has(.ob-p.ob-dynamic-rec-container)
 @@||a.omappapi.com/app/js/api.min.js$domain=finanzen.net
 ! FD-7435
 @@||cmp.osano.com^$third-party,domain=emarketer.com
+! FD-7472
+@@||emsservice.de/fileUploads/advertising_research/rekrutierung_ol_400x400_stern_$domain=stern.de
+@@||emsservice.de/systempixel/close_button_$domain=stern.de
+@@||emsservice.de/teasers/*.json$domain=stern.de
+@@||emsservice.de/teasertemplates/*.json$domain=stern.de
+@@||g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=stern.de
+@@||emsservice.de/molten/live/render.dynamic.js$domain=stern.de
+@@||emsservice.de/molten/live/render.layer.js$domain=stern.de
