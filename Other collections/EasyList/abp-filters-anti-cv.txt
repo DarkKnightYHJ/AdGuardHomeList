@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: cO42A2MMhlWegIZvcMmZTg
-! Version: 202503111221
+! Checksum: yKCVwnWruDwmOtFHiCprOQ
+! Version: 202503111311
 ! Title: ABP filters
-! Last modified: 11 Mar 2025 12:21 UTC
+! Last modified: 11 Mar 2025 13:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1411,8 +1411,10 @@ citpekalongan.com,designmyhomee.com,mangacanblog.com,tokusatsuindo.com,unbrick.i
 hotabis.com#$#override-property-read td_ad_background_click_link undefined
 ! Popup/Popunder/Clickunder
 komikcast.me#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
-beritabaru.news,solusi.cyou#$#override-property-read setTimeout noopFunc
+beritabaru.news,solusi.cyou,poop.*#$#override-property-read setTimeout noopFunc
 westmanga.fun#$#abort-on-property-read doOpen1 false; override-property-read puShown1 true; abort-current-inline-script document.cookie
+metrolagu.cam#$#abort-on-property-write window.open;
+poop.*#$#abort-current-inline-script String.fromCharCode 2147483647; abort-on-property-read window.open;
 ! MISC
 komikdewasa.me#$#abort-on-property-write adsbyjuicy; override-property-read R undefined; hide-if-matches-xpath '//a[@target="_blank"]/img[contains(@class,"align")]/ancestor::div[starts-with(@class,"blox")]'; hide-if-matches-xpath '//a[@target="_blank"]/img[contains(@class,"align")]/ancestor-or-self::a[@href][1]'
 ! *** abp-filters-anti-cv:italian.txt ***
