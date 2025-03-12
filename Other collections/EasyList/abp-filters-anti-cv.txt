@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: baA+VAh5K+Qy/whb8LRc8g
-! Version: 202503121401
+! Checksum: b6o3fTInTmIuazUPKAA2bA
+! Version: 202503121511
 ! Title: ABP filters
-! Last modified: 12 Mar 2025 14:01 UTC
+! Last modified: 12 Mar 2025 15:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1040,7 +1040,7 @@ onworks.net#$#override-property-read rewarded 0;
 readcomiconline.li#$#abort-on-iframe-property-read localStorage
 vidsrc.*#$#abort-current-inline-script EventTarget.prototype.addEventListener delete; abort-current-inline-script JSON.parse break;case $.;
 swatchseries.is,watchseriestv.*,coflix.*#$#abort-current-inline-script String.fromCharCode 2147483647
-magasavor.net,rmaxfinishseveral.com,uqload.*#$#abort-on-property-write window.open; abort-current-inline-script EventTarget.prototype.addEventListener delete window;
+magasavor.net,moviesjoy.*,rmaxfinishseveral.com,uqload.*#$#abort-on-property-write window.open; abort-current-inline-script EventTarget.prototype.addEventListener delete window;
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 baytorrent.eu.org,europixhd.com,europixhd.net,file-up.org,force-download.com,force-download.es,force-download.net,gledajonline.net,hdeuropix.io,loadsubs.net,novom.ru,pirateproxy.earth,pirateproxy.live,thehiddenbay.com,thepiratebay.org,thepiratebay.vip,thepiratebay10.org,topeuropix.net,tpb.party,uploadproper.com,uploadproper.net#$#abort-on-property-read atob
@@ -1890,7 +1890,7 @@ p.thoctv.com#$#abort-current-inline-script document.createElement script
 motchill.ad#$#abort-current-inline-script document.addEventListener linksToOpen
 phimmoinay.tv#$#abort-current-inline-script jQuery click_time
 dualeotruyenbotz.com,m.blogtruyenmoi.com#$#abort-current-inline-script document.addEventListener popunder
-lxmanga.art#$#abort-current-inline-script $ PopUnder
+lxmanga.wiki#$#abort-current-inline-script $ PopUnder
 truyen35.shop#$#abort-current-inline-script jQuery click_ads
 www.toptruyentv.pro#$#abort-current-inline-script Promise instance
 animehay.guru#$#abort-current-inline-script document.addEventListener window.open
