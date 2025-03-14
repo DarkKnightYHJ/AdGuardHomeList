@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wP04smJU5l+RebcABOe2TA
-! Version: 202503141511
+! Checksum: LYLeQqQWpbcIPhMEnC8xJw
+! Version: 202503141611
 ! Title: EasyList China+EasyList
-! Last modified: 14 Mar 2025 15:11 UTC
+! Last modified: 14 Mar 2025 16:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -18929,8 +18929,7 @@ _800x80_
 ://adn.*/zone/$popup
 ://ads.$popup,domain=~smartnews.com
 ://adv.$popup,domain=~adv.kompas.id|~adv.lack-girl.com
-?bd=ppd&r=$popup
-?cf=ppd&r=$popup
+=ppd&r=$popup
 ! Commonly used popup scripts on movie/tv streaming sites
 |javascript:*setTimeout$popup
 |javascript:*window.location$popup
