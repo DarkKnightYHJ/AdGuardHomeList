@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: C3NvV6E4LHsNZtWI2wZtOQ
-! Version: 202503170701
+! Checksum: A4fDLtmKuW92v8UwFMI/jA
+! Version: 202503170811
 ! Title: EasyList China+EasyList
-! Last modified: 17 Mar 2025 07:01 UTC
+! Last modified: 17 Mar 2025 08:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -26,6 +26,7 @@
 .xyz:*?c=$script,third-party
 -*-*-*-*.panda^$script,third-party
 .tv/gg/
+.top/api.php?mod=ad&
 /webAdvert.php?ad_name=
 /js/adv-slide-toggle.
 -1316632262.cos.
@@ -1751,6 +1752,10 @@ newduba.cn###jq_youxi
 ||tmdqlk.top^
 ||bkox.cn^
 ||amyapad.top^
+||political-effort.com^
+||tubingacater.com^
+||chorninsm.com^
+||phuustikd.com^
 ||uoqc.cn^
 ||xaiqrania.com^
 ||jipxzz.icu^
@@ -9574,6 +9579,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||adasset.flixfiend.top^
 ||2345.com/guess/v1/adList
 !------------------------Specific element hiding rules------------------------!
+fhxy-a.top##.sd_recpic
 2345.com##.search-right-swiper-news
 2345.com##._isFirstAd
 2345.com##.part-banner > .part-ppt
