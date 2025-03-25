@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bBxsGGN9MNw7fiksX/FxQQ
-! Version: 202503250111
+! Checksum: veCJkzcQAUJ1l+Wom2z6SA
+! Version: 202503250251
 ! Title: Fanboy's Annoyance List
-! Last modified: 25 Mar 2025 01:11 UTC
+! Last modified: 25 Mar 2025 02:51 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -32139,6 +32139,8 @@ washingtonmonthly.com#?#.wp-block-group__inner-container:-abp-contains(Support t
 google.com##.Ryrdad:has-text(Please help us improve)
 developer.android.com##.devsite-snackbar-snack:has-text(Please help us)
 google.com##div[jsname="wA2P2b"]:has-text(How helpful were the results)
+! Paid overlay nag
+youtube.com##.ytp-paid-content-overlay
 ! youtube playables
 www.youtube.com###content > .ytd-rich-section-renderer:has-text(YouTube Playables)
 ! youtube popups
@@ -36364,6 +36366,7 @@ straitstimes.com##.field-name-telegram
 peepingmoon.com##.fixed-action-btn
 onegreenplanet.org##.fixed-ad
 reasonstobecheerful.world##.fixed-social
+blogs.amd.com##.fixed.icon-bar
 indiatoday.in##.fixedshared
 testbook.com##.fl-social
 health.clevelandclinic.org##.flex.gap-rem24px
