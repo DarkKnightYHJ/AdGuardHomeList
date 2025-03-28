@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 2y8eWVi/SH/DrW8oIYMCmQ
-! Version: 202503281311
+! Checksum: kY7cKpIPpQKcpRMeWMZUQA
+! Version: 202503281401
 ! Title: ABP filters
-! Last modified: 28 Mar 2025 13:11 UTC
+! Last modified: 28 Mar 2025 14:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1981,7 +1981,7 @@ m.youtube.com,music.youtube.com#$#abort-on-property-write adBreakHeartbeatParams
 youtube.com#$#override-property-read Object.prototype.ab_sa_ef undefined
 youtube.com#$#array-override push BISCOTTI_BASED_DETECTION_STATE_IS_CLICK_EVENT_NOT_TRUSTED
 www.youtube.com#$#override-property-read Object.prototype.videoSkipJob_ noopFunc; override-property-read Object.prototype.web_playlist_queue_multiple_skips_ks false;
-youtube.com#$#override-property-read Object.prototype.onAbnormalityDetected noopFunc; array-override includes onAbnormalityDetected false
+www.youtube.com#$#override-property-read Object.prototype.raw_player_response.adSlots emptyArray; override-property-read Object.prototype.raw_player_response.playerAds emptyArray; override-property-read Object.prototype.raw_player_response.adPlacements emptyArray;
 youtube.com#$#override-property-read Object.prototype.onAdSkip undefined
 youtube.com#$#override-property-read Object.prototype.ab_det_sc_inj_enf false
 music.youtube.com#$#skip-video 'video.html5-main-video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay"]'; simulate-mouse-event 'span.ytp-ad-preview-container$delay=0'
