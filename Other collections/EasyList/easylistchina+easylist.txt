@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WJY14sTjCTkokGxqVW4jPw
-! Version: 202503291501
+! Checksum: pZXIvHNhIissXCR6udHNvw
+! Version: 202503291611
 ! Title: EasyList China+EasyList
-! Last modified: 29 Mar 2025 15:01 UTC
+! Last modified: 29 Mar 2025 16:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -68258,7 +68258,7 @@ browsershots.org#@#.advert_area
 ! *** easylist:easylist/easylist_specific_block.txt ***
 /assets/bn/movie.jpg$image,domain=vidstream.pro
 /pmc-adm-v2/build/setup-ads.js$domain=bgr.com|deadline.com|rollingstone.com
-/resolver/api/resolve/v3/config/?$xmlhttprequest,domain=msn.com
+/resolver/api/resolve/v3/config/?expType=AppConfig&expInstance=default&apptype=weather&$domain=msn.com
 asgg.php$domain=ghostbin.me|paste.fo
 ||0xtracker.com/assets/advertising/
 ||123.manga1001.top^
@@ -77536,6 +77536,7 @@ bing.com##.b_ad
 bing.com##.b_adBottom
 bing.com##.b_adLastChild
 bing.com##.b_adPATitleBlock
+bing.com##.b_algo:has(> .b_title > h2 > .b_ads1line)
 bing.com##.b_spa_adblock
 bing.com##.mapsTextAds
 bing.com##.mma_il
