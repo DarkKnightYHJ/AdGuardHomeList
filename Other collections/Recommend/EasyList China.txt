@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: M5sdEpV1gV+8R0WBdUKS0A
-! Version: 202504031011
+! Checksum: /YeGtiswXHUh3ov2dFhIPA
+! Version: 202504031101
 ! Title: EasyList China
-! Last modified: 03 Apr 2025 10:11 UTC
+! Last modified: 03 Apr 2025 11:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -9694,7 +9694,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||2345.com/guess/v1/adList
 ||ttdm.me/upload/files/sss/
 ||chinaz.com/statics/images/tuan
+||ad.parkvv.com^
 !------------------------Specific element hiding rules------------------------!
+6parknews.com##.InContent_0
+6parknews.com##.InContent_1
 zzbaike.com#?#.ceo-margin-bottom:-abp-has(img[width="340"])
 zzbaike.com##.ceo_slide2
 oibdgtxw.com#?#.xqbj-list-rows:-abp-has(img[z-image-loader-url*=".gif"])
