@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dV+SaO4k1UJIy+xkZBuNyg
-! Version: 202504041101
+! Checksum: EZhL2SkdTUL+K7/f9oEGJA
+! Version: 202504041221
 ! Title: EasyList China+EasyList
-! Last modified: 04 Apr 2025 11:01 UTC
+! Last modified: 04 Apr 2025 12:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1755,6 +1755,7 @@ newduba.cn###jq_youxi
 ||pmnyzf.icu^
 ||hh04040aoik.com^
 ||hh04041aoik.com^
+||vruzexzl.com^
 ||dreiquksz.com^
 ||so04030koaq.com^
 ||pqnonh.top^
@@ -17386,6 +17387,8 @@ _rony.js$script,third-party
 .cn/Zg389.js$script,third-party
 _vwnrsbjs?
 _vwisbjs?
+.*yydstxt178.com/js/html
+.*yydstxt178.com/js/cdn.js
 !
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.6666xsw.com|m.chenkuan.com|m.jmshuwu.net|wodexiaoshuoh.com
 $csp=script-src 'self' * 'unsafe-inline',domain=1kans.net|biquluo.info|bqgh.com|jmshuwu.net|zk01.net
@@ -18926,7 +18929,6 @@ _prebid.js$script
 _120_600.
 _120_600_
 _120x240.
-_120x240_
 _120x500.
 _120x600-
 _120x600.
