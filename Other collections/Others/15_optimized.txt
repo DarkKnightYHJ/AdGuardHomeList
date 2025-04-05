@@ -1,9 +1,9 @@
-! Checksum: IT6dMpKqhnrJjZet5Dkv9w
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1743855176-3600.patch
+! Checksum: lHMQQHp67Zfz5sxgllcw7w
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1743876654-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.78.60
-! TimeUpdated: 2025-04-05T12:09:35+00:00
+! Version: 2.0.78.61
+! TimeUpdated: 2025-04-05T18:07:43+00:00
 ! Expires: 5 days (update frequency)
 ||onkhwanhuo.com^
 ||srvtensz.com^
@@ -92938,6 +92938,7 @@ inapps.appsflyersdk.com^
 ||itadapi.ithome.com.tw^
 ||zjgfq.com^
 ||207.148.44.179^
+/^(mon|tue|wed|thu|fri|sat|sun)\d{1,2}\.\w{2}\d{1,6}\w{4}\.com$/
 ||xmm.wxc.cc^
 ||srtb.msn.cn^
 ||ad*.on.cc^
@@ -99709,6 +99710,7 @@ inapps.appsflyersdk.com^
 ||pvvxfh.top^
 ||ifqn.cn^
 ||anzeretp.com^
+||jeyd.cn^
 ||ilcq.cn^
 ||rptdhu.top^
 ||okikwul.icu^
