@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mCLI4OqkBIVKQBC0+0Rj7Q
-! Version: 202504081511
+! Checksum: habSgRKpoMZNZm634B/uBA
+! Version: 202504081611
 ! Title: Fanboy's Annoyance List
-! Last modified: 08 Apr 2025 15:11 UTC
+! Last modified: 08 Apr 2025 16:11 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -48010,3 +48010,12 @@ zeit.de##.ob-widget:has(.ob-p.ob-dynamic-rec-container)
 @@||consent.cookiebot.com/*/cc.js?renew$domain=autobild.fi
 @@||consent.cookiebot.com/uc.js?cbid$domain=autobild.fi
 @@||googletagmanager.com/gtm.js?id$domain=autobild.fi
+! FD-7573|7568
+@@||cookielaw.org^$domain=autobild.pluska.sk|awin.com
+autobild.pluska.sk,awin.com#@#.onetrust-pc-dark-filter
+autobild.pluska.sk,awin.com#@##onetrust-banner-sdk
+autobild.pluska.sk,awin.com#@##onetrust-consent-sdk
+! FD-7569
+@@/wrapperMessagingWithoutDetection.js|$script,domain=autoexpress.co.uk
+! FD-7571
+@@/sdk.privacy-center.$script,domain=autoplus.fr
