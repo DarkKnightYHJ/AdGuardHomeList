@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 1i0+8VP04sQyA6OcmQN2Sg
-! Version: 202504080811
+! Checksum: UtIX+uDxHTivKl5B0pQRWQ
+! Version: 202504080911
 ! Title: ABP filters
-! Last modified: 08 Apr 2025 08:11 UTC
+! Last modified: 08 Apr 2025 09:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -899,11 +899,15 @@ www.booking.com#$#hide-if-contains-visible-text /Ad|Annonce|Annonse|Annons|Annun
 pinterest.*#$#race start; hide-if-contains-visible-text /Bersponsor|Ditaja|Geborg|Gesponsord|Gesponsert|Patrocinado|Promocionado|Sponsored|Sponsoreret|Sponsorisées|Sponsorizat|Sponsorizzato|Sponsoroitu|Sponsorlu|Sponsorowane|Sponsrad|Sponset|Szponzorált|Спонсирοванный|Спонсорирано|Спонсируемый|Спонсорований|Sponzorirano|Sponzorované|Χορηγούμενο/ 'div[role="listitem"][role][style]' 'div[title]' 'content: "Promoted by";' 'font-weight: 600;'; hide-if-matches-xpath '//div[@title][contains(.,"贊助內容") or contains(.,"赞助的 Pin 图") or contains(.,"広告") or contains(.,"후원 핀") or contains(.,"స్పాన్సర్ చేసారు") or contains(.,"স্পনসর করা") or contains(.,"प्रायोजित") or contains(.,"ממומן") or contains(.,"قيد الدعم") or contains(.,"ממומן") or contains(.,"Được tài trợ") or contains(.,"May Sponsor") or contains(.,"Sponsored") or contains(.,"Sponsorisées") or contains(.,"Gesponsert") or contains(.,"Promocionado") or contains(.,"Gesponsord") or contains(.,"Sponsorowane") or contains(.,"Patrocinado") or contains(.,"Sponsorizzato")]/ancestor::div[@data-test-id="pin"]'; race stop;
 ! #RM-14
 @@||cvs.com^$generichide
+! BA
 cvs.com#$#hide-if-matches-xpath './/div[@class]/*[contains(@shelf-type,"criteo")]/ancestor::div[@class][1]'
 cvs.com##.stencil-criteo-shelf
+! SP
 cvs.com#$#hide-if-contains-visible-text '/Sponsored/' 'div[style]' 'div[dir^="auto"]'
-cvs.com#$#hide-if-contains /Sponsored/ 'div>div *[new-ec-recommendations] ^^sh^^ * ^^sh^^ * ^^sh^^ section[id] ul>li' 'div>div *[new-ec-recommendations] ^^sh^^ * ^^sh^^ * ^^sh^^ section[id] ul>li>* ^^sh^^ div>div.sponsored-container>span'
+! PP
 cvs.com#$#hide-if-contains /Sponsored/ 'cvs-shop-product-shelf-container' 'cvs-shop-product-shelf-container ^^sh^^ * ^^sh^^ section[id] span'
+cvs.com#$#hide-if-contains /Sponsored/ 'div>div *[new-ec-recommendations] ^^sh^^ * ^^sh^^ * ^^sh^^ section[id] ul>li' 'div>div *[new-ec-recommendations] ^^sh^^ * ^^sh^^ * ^^sh^^ section[id] ul>li>* ^^sh^^ div>div.sponsored-container>span'
+cvs.com#?#div[class*="flex-col"]:-abp-has(>h2:-abp-contains(Sponsored))
 ! #RM-82
 ! PP & SA
 flipkart.com#$#hide-if-matches-xpath './/div[@dir][contains(text(),"You may also like")]/following::div[@style]/div[text()="Sponsored"]/ancestor::div[contains(@style,"transform")]'; hide-if-matches-xpath './/div[@dir][contains(text(),"Sponsored")]/ancestor::div[contains(@style,"align-items") and not(contains(@style,"; width: "))]';
