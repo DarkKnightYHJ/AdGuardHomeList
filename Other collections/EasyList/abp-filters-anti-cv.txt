@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 6lczBB1oBInPFXwQ1AJmjw
-! Version: 202504091011
+! Checksum: 55oIUDj07Pk2QmGxXBRWRQ
+! Version: 202504091101
 ! Title: ABP filters
-! Last modified: 09 Apr 2025 10:11 UTC
+! Last modified: 09 Apr 2025 11:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -563,7 +563,8 @@ woolworths.com.au#$#hide-if-contains-visible-text /\s*Promoted\s*/ 'div>wc-produ
 ! CV-1364
 ||html-load.com^$domain=convertcase.net|manta.com|wfmz.com|golf-live.at|eurointegration.com.ua
 convertcase.net,manta.com,wfmz.com,golf-live.at,eurointegration.com.ua#$#abort-current-inline-script Symbol error-report.com
-sourceforge.net,winfuture.de#$#override-property-read Array.prototype.reverse noopFunc; override-property-read Blob noopFunc;
+sourceforge.net#$#override-property-read Array.prototype.reverse noopFunc; override-property-read Blob noopFunc;
+winfuture.de#$#override-property-read Array.prototype.map noopFunc; override-property-read Blob noopFunc;
 ! RM-42
 tesco.com#$#hide-if-contains-visible-text /Sponsored/ ul[id^="list-content"]>li 'div>div>span'
 ! RM-114
@@ -1896,14 +1897,14 @@ truyen247.pro#$#abort-current-inline-script eval
 sexphimhd.net,www.gvnvh.net#$#abort-current-inline-script Math
 xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
 xnxx-sex-videos.com#$#override-property-read user_out false
-truyensieuhay.com,quangcaoyenbai.com,phimmoi.ing,phimchill.life,thuvienhd.biz,tv.tvhayhd.org,thefaplive.com,mv.dailyphimz.com,mv.phimbathu.one,sexhihiz.ac,anime47.one,teamlanhlung3.shop#$#abort-on-property-read document.cookie
+truyensieuhay.com,quangcaoyenbai.com,phimmoi.ing,phimchill.life,thuvienhd.biz,tv.tvhayhd.org,thefaplive.com,mv.dailyphimz.com,mv.phimbathu.one,sexhihiz.ac,anime47.ink,teamlanhlung3.shop#$#abort-on-property-read document.cookie
 metruyenchu.com#$#abort-on-property-write window.onclick
 ##[href^="//mage98rquewz.com/"]
 aluminiuminsider.com#$#abort-on-property-read adsRedirectPopups
 sexdiaryz.us#$#abort-on-property-read parseInt
 linkneverdie.net,linkneverdie.top,linkneverdie2.com#$#abort-current-inline-script document.createElement optad;abort-on-property-read pushOnPageGala
 javnong.cc#$#abort-on-property-read Math.round
-viet69.lc,truyengihotnay.com,dualeotruyeny.com,yurineko.my,xemsex.tube,phimsexhay669.pro,cliphot69.homes,doctruyen3qui6.pro,ihentai.men,animehay.page,hentaivc.com,streamvl.top,www.buomtv.xyz,truyenvn.ac,javtiful.com,quatvn.love,tenmientruyengi.net,top1phimsex.com,phim18hd.cam,jav.sexviet88.link,demo.14412882.com,sextv18.pro,ungtycomicsvip.org,cliphot69.pics,hhtq5.vip,sexdiary.club,vn2.xvideos69.xxx,umetruyenhay.com,damconuong.live#$#abort-current-inline-script WebAssembly instantiate
+viet69.lc,truyengihotnay.com,dualeotruyeny.com,yurineko.my,v1.xemsex.cam,phimsexhay669.pro,cliphot69.onl,doctruyen3qui6.pro,ihentai.men,animehay.page,hentaivc.com,streamvl.top,www.buomtv.xyz,truyenvn.ac,javtiful.com,quatvn.love,tenmientruyengi.net,top1phimsex.com,phim18hd.cam,jav.sexviet88.link,demo.14412882.com,sextv18.pro,ungtycomicsvip.org,cliphot69.pics,hhtq5.vip,sexdiary.club,vn2.xvideos69.xxx,umetruyenhay.com,damconuong.live#$#abort-current-inline-script WebAssembly instantiate
 phimtuoitho.site#$#abort-current-inline-script document.documentElement break;case
 www.phimdinhcao.online,www.motchill72.com,www.motchill72.com,xnhau.run,teamlanhlung3.shop#$#abort-on-property-read localStorage
 phimgichill.net#$#abort-current-inline-script jQuery popurl
@@ -1919,7 +1920,7 @@ animehay.page#$#abort-current-inline-script document.addEventListener window.ope
 audiotruyenfull.com#$#abort-on-property-read adpiaListUrl
 vailonxx.co,www.motchill72.com,www.motchill72.com#$#abort-current-inline-script jQuery window.open
 tctruyen1.com#$#abort-current-inline-script $ popup
-truyenqqtet.com,viet69.tr#$#abort-current-inline-script Promise break;case
+truyenqqtet.com,viet69moi.net#$#abort-current-inline-script Promise break;case
 holyfilm.org#$#abort-current-inline-script window.addEventListener window.open
 www.nettruyenupp.com#$#abort-on-property-read sp
 phimtho.net#$#abort-current-inline-script $ p0pUpRandom
@@ -1942,7 +1943,7 @@ gocmod.com#$#abort-current-inline-script jQuery popup
 10gb.vn#$#abort-current-inline-script Promise detectedAdblock
 animevietsubs.net#$#abort-on-property-read _0x3f9b
 thichxemphim.top#$#abort-on-property-read affUrls
-thiendia.vin#$#abort-current-inline-script $ open
+thiendia.pro#$#abort-current-inline-script $ open
 sextv18.pro#$#abort-on-property-read Cookies
 sieutamphim.com#$#abort-current-inline-script document.addEventListener shopee
 cdn2.insure885.fun#$#abort-current-inline-script $ aff
