@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: ywDepzMGsq+aktpXqtFmfw
-! Version: 202504111101
+! Checksum: qTc/LJe+5EcbpgcqOzk+Rg
+! Version: 202504111221
 ! Title: EasyPrivacy
-! Last modified: 11 Apr 2025 11:01 UTC
+! Last modified: 11 Apr 2025 12:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2849,6 +2849,7 @@ _WebVitalsReporter_
 /gen_204?$image,other,ping,script
 /generate_204?$image
 ! Server-side GTM
+&event_name=page_view&
 &l=dataLayer&cx=c
 .js?id=GTM-
 /ns.html?id=GTM-
