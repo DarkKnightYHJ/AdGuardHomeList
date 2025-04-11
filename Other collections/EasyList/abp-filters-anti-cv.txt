@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: vUreYVuo34MPRc7RsW2iNA
-! Version: 202504111011
+! Checksum: mLNb09p7J2P8A6w4BG5Ztw
+! Version: 202504111101
 ! Title: ABP filters
-! Last modified: 11 Apr 2025 10:11 UTC
+! Last modified: 11 Apr 2025 11:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -938,7 +938,7 @@ knuspr.de#$#hide-if-matches-xpath '//span[contains(., "Sponsored") or contains(.
 knuspr.de#$#hide-if-matches-xpath '//span[contains(., "Sponsored") or contains(., "Gesponsert")]/ancestor::a[@aria-label]/ancestor::div[@data-test][@class][1]'
 ! #RM-194
 ! SP
-fiverr.com#$#hide-if-matches-xpath '//span[(.//span[text()="A"] and .//span[contains(text(), "d")] and .//span[contains(text(), "by")]) or .//span[contains(text(), "Anzeige")] or .//span[contains(text(), "Anuncio")] or .//span[contains(text(), "Annonce")] or .//span[contains(text(), "Anúncio")] or .//span[contains(text(), "Annuncio")] or .//span[contains(text(), "Advertentie")]]/parent::div/ancestor::div[@class="gig-card-layout"][@impressed-item]'
+fiverr.com#$#hide-if-matches-xpath '//span[(.//span[text()="A"] and .//span[contains(text(), "d")] and (.//span[text()="b"] and .//span[contains(text(), "y")] or .//span[contains(text(), "by")])) or (.//span[text()="Anz"] and .//span[contains(text(), "eige")]) or (.//span[text()="Anu"] and .//span[contains(text(), "ncio de")]) or (.//span[text()="Anú"] and .//span[contains(text(), "ncio por")]) or (.//span[text()="Ann"] and (.//span[contains(text(), "once par")] or .//span[contains(text(), "uncio di")])) or (.//span[text()="Adver"] and .//span[contains(text(), "tentie van")]) or .//span[contains(text(), "Ad by")] or .//span[contains(text(), "Anzeige")] or .//span[contains(text(), "Anuncio")] or .//span[contains(text(), "Annonce")] or .//span[contains(text(), "Anúncio")] or .//span[contains(text(), "Annuncio")] or .//span[contains(text(), "Advertentie")]]/parent::div/ancestor::div[@class="gig-card-layout"][1]'
 ! #RM-193
 ! BA
 staples.com#$#hide-if-matches-xpath './/img[@alt="Sponsored Products"]/parent::picture/ancestor::div[@class][string-length(@class) < 16][1]'
