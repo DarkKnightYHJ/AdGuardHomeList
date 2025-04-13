@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 3TLOb2ljux63ikM0Q/T97g
-! Version: 202504131811
+! Checksum: hzTOHLZGoSWQzybu/6XC3Q
+! Version: 202504131901
 ! Title: EasyPrivacy
-! Last modified: 13 Apr 2025 18:11 UTC
+! Last modified: 13 Apr 2025 19:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2143,10 +2143,12 @@
 /stats/pv.php?
 /stats/record.php?
 /stats/record/*
+/stats/record_visit/*
 /stats/search-log
 /stats/transp.bmp
 /stats/v2/visit?
 /stats/visitors
+/stats/web_vitals/*$ping
 /stats/welcome.php?
 /stats?aid=
 /stats?blog_
@@ -3368,6 +3370,7 @@ omni.soundestlink.com$image
 ||logtail.com^
 ||loopcybersec.com^
 ||lordofthesuperfrogs.com^
+||lrkt-in.com^
 ||lsdm.co^
 ||lyfnh.io^
 ||maggieeatstheangel.com^
@@ -3433,6 +3436,7 @@ omni.soundestlink.com$image
 ||powerrobotflower.com^
 ||prfct.co^
 ||procroanalytics.com^
+||proftrafficcounter.com^
 ||progmxs.com^
 ||pushvisit.xyz^
 ||pxlstat.com^
@@ -11243,6 +11247,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ! Thai
 ||sal.isanook.com^
 ||stat.matichon.co.th^
+||webpushstat.api.engagelab.cc^
 ! Turkish
 ||0.myikas.com^
 ||analitik.bik.gov.tr^
@@ -11350,6 +11355,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||aim.cloudflare.com/__log
 ||airtable.com/internal/
 ||airtel.in/analytics/pixel?
+||aitotop.com^*/collect.js?
 ||aiv-delivery.net/Events/
 ||aiv-delivery.net/v1/ReportEvent
 ||ajax.pngtree.com/api/statistics/
@@ -50345,6 +50351,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||2dehands.be/px/
 ||analytics.rambla.be^
 ||api.rtl.nl/monitoring/
+||azerty.nl/ambannerslider/analytic/
 ||bc34.wijnvoordeel.nl^
 ||bol.com/tracking/
 ||businessinsider.nl^*/tr.php
@@ -50353,6 +50360,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||events.reclamefolder.nl^
 ||expert.nl/daix.js
 ||fd.nl/pixel/
+||filmvandaag.nl/pl/js/script.js
 ||folderz.nl/clickstream/
 ||infonu.nl/t.php?
 ||kieskeurig.nl/collect
@@ -50370,6 +50378,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||pcmweb.nl/track/
 ||pg.totaaltv.nl/api/metrics
 ||pipeline.balkstercourant.nl^$~script
+||pipeline.dvhn.nl^$~script
 ||pipeline.lc.nl^$~script
 ||pipeline.rd.nl^$~script
 ||r.kleertjes.com^
@@ -50961,6 +50970,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||rt.ru/proxy?
 ||rutube.ru/counters.html?
 ||rutube.ru/dbg/player_stat?
+||ruwiki.ru/w/rest.php/metrics/
 ||seedr.ru^*/stats/
 ||servernews.ru/track?
 ||sibnet.ru/counter.php?
@@ -51069,6 +51079,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||stat.nyheter24.se^
 ! Thai
 ||dek-d.com^*/analytic.js
+||play.pp9yy.com/hall/home/heartbeat
+||play.pp9yy.com/hall/v1/netstat/
 ||scribe.wongnai.com^
 ||ta.sanook.com^
 ||thairath.co.th/event/

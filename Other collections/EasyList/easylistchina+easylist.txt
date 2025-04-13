@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7MW57aR94j0AzhPiBeBwpQ
-! Version: 202504131811
+! Checksum: pGai33ax+fT+wpfNNKq2qg
+! Version: 202504131901
 ! Title: EasyList China+EasyList
-! Last modified: 13 Apr 2025 18:11 UTC
+! Last modified: 13 Apr 2025 19:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -18295,7 +18295,6 @@ fqsousou.com,kengso.com#@#.user-share
 /serveads.php$script
 /servlet/view/*$script
 /set_adcode?$image
-/sft-prebid.js$script
 /show-ad.js$script
 /show_ad.js$script
 /showban.asp?$image
@@ -67782,6 +67781,7 @@ browsershots.org#@#.advert_area
 ||serve.williamhillcasino.com^$popup
 ||skiptheadz.com^$popup
 ||skipvideoads.com^$popup
+||skrotrack.com/campaign/$popup
 ||smartblocker.org^$popup
 ||somebestgamesus.com^$popup
 ||spanpromo-link.com^$popup
@@ -68721,6 +68721,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||picrew.me/vol/ads/
 ||pimpandhost.com/mikakoki/
 ||pinkmonkey.com/includes/right-ad-columns.html
+||piratebay.live/static/ads/
 ||pixlr.com/dad/
 ||pixlr.com/fad/
 ||plainenglish.io/assets/sponsors/
@@ -69247,6 +69248,7 @@ $popup,third-party,domain=1337x.buzz|adblockeronstape.me|adblockeronstreamtape.m
 ||short.bitchute.com^$popup
 ||skycheats.com^$popup,domain=elitepvpers.com
 ||t.co^$popup,domain=hltv.org
+||thesurferprotector.com^$popup,domain=piratebay.live
 ||topeuropix.site/svop4/$popup
 ||vpnfortorrents.*?$popup
 ||vtube.to/api/click/$popup
@@ -76077,6 +76079,7 @@ listland.com##a[href^="https://shareasale.com/r.cfm?"]
 wbnq.com,wbwn.com,wjbc.com##a[href^="https://stjude.org/radio/"]
 glory985.com##a[href^="https://sweetbidsflo.irauctions.com/listing/0"]
 veev.to##a[href^="https://t.ly/"]
+piratebay.live##a[href^="https://thesurferprotector.com/"]
 accesswdun.com##a[href^="https://tinyurl.com"] > img
 mastercomfig.com##a[href^="https://tradeit.gg/"]
 scrolller.com##a[href^="https://trk.scrolller.com/"]
