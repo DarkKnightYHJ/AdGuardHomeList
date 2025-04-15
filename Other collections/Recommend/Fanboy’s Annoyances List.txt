@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gvV7BD16RrdjPyBBRFPsIg
-! Version: 202504151011
+! Checksum: b3Cv+q7DhBMwpfBiYA5lSA
+! Version: 202504151101
 ! Title: Fanboy's Annoyance List
-! Last modified: 15 Apr 2025 10:11 UTC
+! Last modified: 15 Apr 2025 11:01 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -48087,3 +48087,6 @@ autobild.lt#@#.cn-position-bottom
 autobild.lt#@#.cookie-notice-container
 autobild.lt#@#div.cookie-notice-visible
 autobild.lt#@#.footer-container ~ div[class*="cookie-notice"]
+! FD-7599
+@@||onesignal.com/api/v*/$domain=autoexpress.co.uk
+@@||onesignal.com/sdks/$domain=autoexpress.co.uk
