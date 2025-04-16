@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: SSIc+OFQwedxN8xZN/sJ0g
-! Version: 202504162201
+! Checksum: Wxs0HFrm+amuKXfmZPtUTg
+! Version: 202504162301
 ! Title: EasyPrivacy
-! Last modified: 16 Apr 2025 22:01 UTC
+! Last modified: 16 Apr 2025 23:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1495,6 +1495,7 @@
 /ms-widgets/tracking-cookies/*
 /ms.analytics-web-3.min.js
 /mtc.js
+/mtifonttracker.js
 /mtiFontTrackingCode.js
 /mtracking.gif?
 /mtvi_reporting.js
@@ -10633,6 +10634,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||adult-trade.nl/lo/track.php
 ||amazonaws.com/prod/v1/track$domain=ixxi.com
 ||analytics.belgacom.be^
+||analytics.hatech.dev^
 ||apm.tnet.nl^
 ||bbvms.com/zone/js/zonestats.js
 ||bol.com/click/
@@ -50365,6 +50367,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||businessinsider.nl^*/tr.php
 ||c.vrt.be^
 ||coolblue.nl/monitoring/
+||e428.tio.nl^
 ||events.reclamefolder.nl^
 ||expert.nl/daix.js
 ||fd.nl/pixel/
@@ -50379,6 +50382,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||marktplaats.nl/metrics/
 ||marktplaats.nl/px/
 ||metrics.nu.nl^
+||metrics.pazzox.be^
 ||njam.tv/tracking/
 ||npo-data.nl/tag/v3/npotag.js
 ||npo-data.nl/tags/tag.min.js
@@ -50415,6 +50419,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||tracking.voordeeluitjes.nl^
 ||tvgids.nl/collect
 ||tweakers.nl/track/
+||two.tio.nl^
 ||txrx.bol.com^
 ||u299.libelle-lekker.be^
 ||vinted.nl/relay/events
