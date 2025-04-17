@@ -1,10 +1,11 @@
-! Checksum: IwzCCNb7SKQZ6QM28ftSyg
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1744849678-3600.patch
+! Checksum: HjR81A3Bv1pfkx90ccTIjQ
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1744870337-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.79.6
-! TimeUpdated: 2025-04-17T00:24:44+00:00
+! Version: 2.0.79.7
+! TimeUpdated: 2025-04-17T06:09:03+00:00
 ! Expires: 5 days (update frequency)
+||orquidea.ai^
 ||few-politics.com^
 ||dreary-hunt.com^
 ||craniolgozzan.com^
@@ -32388,7 +32389,6 @@ vkcdnservice.appspot.com^
 ||domainadvertising.com^
 ||dotomi.com^
 ||doubleclick.com^
-||doubleclick.net^
 ||doubleverify.com^
 ||dreamaquarium.com^
 ||dropkickmedia.com^
@@ -100642,6 +100642,11 @@ inapps.appsflyersdk.com^
 ||51tongji.trafficmanager.net^
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
+||ewdk.cn^
+||fflbpi.top^
+||hbeafcac.top^
+||stildreans.com^
+||uucnmtt.top^
 ||vunqrotm.com^
 ||ghrs.cn^
 ||pjbbhj.icu^
@@ -105555,6 +105560,7 @@ analytics-*.aasaam.com
 ||tracking.ustream.tv^
 ||trackpm.shop2market.com^
 ||adocean.cz^
+||doubleclick.net^
 ||dualstack.adbert-web-lbs-*.elb.amazonaws.com^
 ||vahufapave.com^
 ||cewegncr.com^
