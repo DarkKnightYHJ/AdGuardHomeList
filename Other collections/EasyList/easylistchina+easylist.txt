@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KUPsMawqe19SXgpmIYPBMA
-! Version: 202504172201
+! Checksum: qokDfPLIHdnq929fGUDKSw
+! Version: 202504172301
 ! Title: EasyList China+EasyList
-! Last modified: 17 Apr 2025 22:01 UTC
+! Last modified: 17 Apr 2025 23:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1749,6 +1749,8 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||afvrolvial.com^
+||jcfbgdbd.top^
 ||ewdk.cn^
 ||fflbpi.top^
 ||hbeafcac.top^
@@ -17327,6 +17329,7 @@ _vwisbjs?
 .cc/js/dj1*.js
 .cc/js/dj2*.js
 /js/pfad*.js
+wss://*.top/|
 !
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.6666xsw.com|m.chenkuan.com|m.jmshuwu.net|wodexiaoshuoh.com
 $csp=script-src 'self' * 'unsafe-inline',domain=1kans.net|aidu123.com|biquluo.info|bqgh.com|jmshuwu.net|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com|zk01.net
@@ -76542,7 +76545,6 @@ newspointapp.com##[ctn-style]
 flatpanelshd.com##[data-aa-adunit]
 dribbble.com##[data-ad-data*="ad_link"]
 usnews.com##[data-ad-props]
-petco.com##[data-ad-source]
 androidauthority.com##[data-ad-type]
 charlieintel.com,dexerto.com##[data-ad-unit-id]
 gamelevate.com##[data-adpath]
@@ -77816,6 +77818,7 @@ popculture.com##.wp-block-savage-platform-raptive-ad
 bestbuy.ca##.x-productListItem:has([data-automation="sponsoredProductLabel"])
 mapquest.co.uk##.z-10.justify-center:has-text(Advertisement)
 freshdirect.com##[class*="ProductsGrid_grid_item"]:has([data-testid="marketing tag"])
+petco.com##[class*="atapult-styled"]:has([data-ad-source])
 livejournal.com##[class*="categories"] + div[class]:has(> [class*="-commercial"])
 petco.com##[class*="rmn-banner"]:has([class*="SponsoredText"])
 popularmechanics.com##[class] > :has(> #article-marketplace-horizontal)
@@ -77962,6 +77965,7 @@ thehansindia.com##section:has(> .to-be-async-loaded-ad)
 thehansindia.com##section:has(> [class*="level_ad"])
 tripadvisor.*##section[data-automation$="_AdPlaceholder"]:has(.txxUo)
 homedepot.com##section[id^="browse-search-pods-"] > div.browse-search__pod:has(div.product-sponsored)
+shopee.sg#?#.shopee-header-section:has(> .shopee-header-section__content:-abp-contains(Ad))
 pushsquare.com##span:has-text(or Subscribe)
 fxempire.com##span[display="inline-block"]:has-text(Advertisement)
 staples.com#?#.side-by-side-carousel__carousel_container:-abp-contains(Sponsored Products)
@@ -78561,7 +78565,6 @@ shoprite.com##div[class^="Row"]:has(div[data-component] a[data-testid] picture s
 regexlearn.com#?#.w-full.mb-3:has(a[href="/learn/regex-for-seo"])
 kslnewsradio.com,ksltv.com,ktar.com#?#.wrapper:-abp-contains(Sponsored Articles)
 shopee.sg#?#.shopee-search-item-result__item:-abp-contains(Ad)
-shopee.sg##.shopee-header-section__content:has(.sQyg41)
 kogan.com#?#.rs-infinite-scroll > div:-abp-contains(Sponsored)
 kogan.com#?#._2EeeR:-abp-contains(Sponsored)
 kogan.com#?#.slider-slide:-abp-contains(Sponsored)
