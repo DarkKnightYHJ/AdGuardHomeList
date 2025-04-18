@@ -1,9 +1,9 @@
-! Checksum: f39XxS2kZciByg5McbtbNQ
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1744989037-3600.patch
+! Checksum: EE6a5cXEGl+m5SBMLZ10/A
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1744992652-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.79.13
-! TimeUpdated: 2025-04-18T15:07:20+00:00
+! Version: 2.0.79.14
+! TimeUpdated: 2025-04-18T16:07:36+00:00
 ! Expires: 5 days (update frequency)
 ||4bind2.cfd^
 ||orquidea.ai^
@@ -105553,7 +105553,6 @@ analytics-*.aasaam.com
 ||letysheeps.ru^
 ||a4.overclockers.ua^
 ||novunu.football-plyus.net^
-||api2.branch.io^$dnsrewrite=0.0.0.0
 @@||tlh.gedidigital.it^|
 @@||smtp.focusgroupresearch.com^|
 @@||ap01.records.in.treasuredata.com^|
