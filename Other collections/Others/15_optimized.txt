@@ -1,9 +1,9 @@
-! Checksum: fq8yAwzGwIS3HqorMLuIQw
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1744913561-3600.patch
+! Checksum: 7E804zEOYgBupj+EVD29Bw
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1744936084-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.79.9
-! TimeUpdated: 2025-04-17T18:09:16+00:00
+! Version: 2.0.79.10
+! TimeUpdated: 2025-04-18T00:24:44+00:00
 ! Expires: 5 days (update frequency)
 ||orquidea.ai^
 ||few-politics.com^
@@ -86344,6 +86344,7 @@ vkcdnservice.appspot.com^
 !+ PLATFORM(windows, mac, android)
 ||incoming.telemetry.mozilla.org^
 |piwik.
+||geo.justwatch.com^
 ||sspnm.emol.com^
 ||ssp.emol.com^
 ||stats.emol.com^
@@ -90003,6 +90004,7 @@ inapps.appsflyersdk.com^
 ||data.minute.ly^
 ||data.nexxt.com^
 ||data.queryly.com^
+||data.replo.app^
 ||data.woosmap.com^
 ||datadog-service.mvfglobal.com^
 ||dcinfos-cache.abtasty.com^
@@ -101268,6 +101270,8 @@ inapps.appsflyersdk.com^
 ||51tongji.trafficmanager.net^
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
+||afvrolvial.com^
+||jcfbgdbd.top^
 ||ewdk.cn^
 ||fflbpi.top^
 ||hbeafcac.top^
