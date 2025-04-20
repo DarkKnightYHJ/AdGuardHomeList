@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vuDfcv9xgkL9nQqflAoFPw
-! Version: 202504200701
+! Checksum: ZNPjrAwr47LJviU3GnaFnQ
+! Version: 202504200811
 ! Title: EasyList
-! Last modified: 20 Apr 2025 07:01 UTC
+! Last modified: 20 Apr 2025 08:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -14901,6 +14901,7 @@ _800x80_
 ##div[aria-label="Ads"]
 ##div[class^="Adstyled__AdWrapper-"]
 ##div[data-ad-placeholder]
+##div[data-ad-region]
 ##div[data-ad-targeting]
 ##div[data-ad-wrapper]
 ##div[data-adname]
@@ -50948,6 +50949,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||aurn.com/wp-content/banners/
 ||aveherald.com/images/banners/
 ||azlyrics.com/local/anew.js
+||b-cdn.net^$domain=bunkr.cr|bunkr.si
 ||b.cdnst.net/javascript/amazon.js$script,domain=speedtest.net
 ||b.w3techs.com^
 ||backgrounds.wetransfer.net$image
