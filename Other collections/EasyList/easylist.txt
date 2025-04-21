@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202504210415
+! Version: 202504210453
 ! Title: EasyList
-! Last modified: 21 Apr 2025 04:15 UTC
+! Last modified: 21 Apr 2025 04:53 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1305,8 +1305,9 @@ _800x80_
 ://adn.*/zone/$popup
 ://ads.$popup,domain=~smartnews.com
 ://adv.$popup,domain=~adv.kompas.id|~adv.lack-girl.com
-=c2M9cHBkJnI9OTgxMD$popup,third-party
-?cs=*&pid=$popup
+=cj05ODEwMjI2JnNjPX$popup,third-party
+! filemoon
+/^https:\/\/[0-9a-z]+\.pro\/[0-9a-z]+\?[0-9A-Za-z]+=c[0-9A-Za-z]+%3D%3D$/$popup,third-party
 ! Commonly used popup scripts on movie/tv streaming sites
 |javascript:*setTimeout$popup
 |javascript:*window.location$popup
@@ -28856,6 +28857,7 @@ browsershots.org#@#.advert_area
 ||landslideprisonsimile.com^
 ||landwaycru.com^
 ||laneyounger.com^
+||langrauoz.xyz^
 ||languidintentgained.com^
 ||lanknewcomer.com^
 ||lanky-bar.com^
@@ -34558,6 +34560,7 @@ browsershots.org#@#.advert_area
 ||qgwgweoxulrb.com^
 ||qgxbluhsgad.com^
 ||qhdtlgthqqovcw.xyz^
+||qhnojvbyxfgcf.click^
 ||qhogcyoqrl.com^
 ||qhurchaisrea.org^
 ||qhwyoat.com^
@@ -36766,6 +36769,7 @@ browsershots.org#@#.advert_area
 ||silldisappoint.com^
 ||sillinessglamorousservices.com^
 ||sillyflowermachine.com^
+||silpharapidly.com^
 ||silvaemegmho.shop^
 ||silver-pen.pro^
 ||silveraddition.pro^
@@ -39858,6 +39862,7 @@ browsershots.org#@#.advert_area
 ||vacaneedasap.com^
 ||vacationmonday.com^
 ||vaccinationwear.com^
+||vaccinawedder.shop^
 ||vaccineconvictedseafood.com^
 ||vachoumpuh.net^
 ||vacmomtoudu.net^
@@ -41765,6 +41770,7 @@ browsershots.org#@#.advert_area
 ||zamioculcas2.org^
 ||zampastouzuco.net^
 ||zangocash.com^
+||zanvpkmdslnvg.vip^
 ||zaokko.com^
 ||zaparena.com^
 ||zaphararidged.com^
@@ -45331,6 +45337,7 @@ browsershots.org#@#.advert_area
 ||cyberlink.pro^$popup
 ||cybkit.com^$popup
 ||czh5aa.xyz^$popup
+||d3jqverr.pro^$popup
 ||dadsats.com^$popup
 ||dagnar.com^$popup
 ||daichoho.com^$popup
