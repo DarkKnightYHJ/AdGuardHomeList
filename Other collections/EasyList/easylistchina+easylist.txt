@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5KtMkGF17fb5X2M0jU/RAA
-! Version: 202504220111
+! Checksum: SeS5lvdjl9+wgaUZyp0SjA
+! Version: 202504220251
 ! Title: EasyList China+EasyList
-! Last modified: 22 Apr 2025 01:11 UTC
+! Last modified: 22 Apr 2025 02:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1695,6 +1695,7 @@ newduba.cn###jq_youxi
 ##script + #rbbox
 ##.adpvc
 ##.adpwc
+##.ec-tutu
 ##.pop.pop-bottom
 ##script + .header_rmb
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
@@ -1752,6 +1753,8 @@ newduba.cn###jq_youxi
 ||grimoiksep.com^
 ||iutq.cn^
 ||lhdnba.top^
+||eucnwtw.top^
+||wwcnmte.top^
 ||hgreils.com^
 ||lvqo.cn^
 ||jibtdn.top^
@@ -9666,6 +9669,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||xmcdn.com/storages/f651-customerservice/E3/40/GAqhntALzRUHAAJ3LgOTtToZ.
 ||douyin.com/aweme/v1/web/solution/resource/list/*_banner&
 ||aizhan.com/images/img/apicn.
+||xfvod.pro/images/ad/
 !------------------------Specific element hiding rules------------------------!
 sojson.com##.a-d-img
 sixyin.com##.widget_custom_html
@@ -18540,6 +18544,9 @@ _reklama_$domain=~youtube.com
 ||cacheserve.*/promodisplay/
 ||cacheserve.*/promodisplay?
 ||online.*/promoredirect?key=
+! strat-talk.com forum and others
+/render-ad.php?ad_id=
+/render-sidebar-ad.php?ad_id=
 ! Filemoon
 ?bd=ppd&r=$document
 ! Ad-Shield
@@ -69480,8 +69487,6 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||thedailysheeple.com/images/banners/
 ||thedailysheeple.com/wp-content/plugins/tds-ads-plugin/assets/js/campaign.js
 ||thefinancialexpress.com.bd/images/rocket-250-250.png
-||thegearpage.net/board/render-ad.php
-||thegearpage.net/board/render-sidebar-ad.php
 ||theindependentbd.com/assets/images/banner/
 ||thephuketnews.com/photo/banner/
 ||theplatform.kiwi/ads/
