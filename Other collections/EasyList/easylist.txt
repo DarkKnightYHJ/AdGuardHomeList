@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202504231503
+! Version: 202504231539
 ! Title: EasyList
-! Last modified: 23 Apr 2025 15:03 UTC
+! Last modified: 23 Apr 2025 15:39 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -396,7 +396,6 @@
 /floating-ad-rotator-$script,stylesheet
 /floatingad.js$script
 /floatingads.js$script
-/flyad.js$script
 /footer_ad.js$script,domain=~streamruby.com
 /footer_ads.php$subdocument
 /footerads.php$script
@@ -455,6 +454,7 @@
 /js/adpopup.js$script
 /js/advRotator.js$script
 /js/dfp.js$script
+/js/flyad.js
 /jsAds-1.4.min.js$script
 /jshexi.hj?lb=
 /jspopunder.js$script
@@ -617,6 +617,7 @@
 /script/uBlock.js$third-party
 /script/wait.php?*=$xmlhttprequest
 /script/xxAG1.js$third-party
+/scripts/FlyAd.js
 /scripts/js3caf.js$script
 /sdk/push_web/?zid=$third-party
 /servead/request/*$script,subdocument
@@ -33333,6 +33334,7 @@ browsershots.org#@#.advert_area
 ||parnelfirker.com^
 ||parserskiotomy.com^
 ||parsimoniousinvincible.net^
+||parteinroll.xyz^
 ||parteonroll.xyz^
 ||partial-pair.pro^
 ||partiallyexploitrabbit.com^
@@ -51722,6 +51724,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||blbclassic.org/assets/images/*banners/
 ||blsnet.com/plugins/advertising/getad/
 ||blue.ktla.com^
+||bolamucha.xyz/buceta.php
 ||bookforum.com/api/ads/
 ||booking.com/flexiproduct.html?product=banner$domain=happywayfarer.com
 ||bordeaux.futurecdn.net^
