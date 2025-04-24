@@ -1,10 +1,12 @@
-! Checksum: IemQk7OGVYWHiejRovShIQ
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1745431999-3600.patch
+! Checksum: K0wd9fSsawU0Upq9sKkrpA
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1745454570-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.79.38
-! TimeUpdated: 2025-04-23T18:09:43+00:00
+! Version: 2.0.79.39
+! TimeUpdated: 2025-04-24T00:25:57+00:00
 ! Expires: 5 days (update frequency)
+||yougetwhatyoupayfor.net^
+||sahqtibw.com^
 ||fluxtech.ai^
 ||semygruja.com^
 ||performoo.com^
@@ -34021,6 +34023,7 @@ vkcdnservice.appspot.com^
 ||c.j8jp.com^
 ||c.kkraw.com^
 ||c2shb.pubgw.yahoo.com^
+||cache.myth.dev^
 ||campaigns.williamhill.com^
 ||cdn.ad.page^
 ||cdn.b2.ai^
@@ -34081,6 +34084,7 @@ vkcdnservice.appspot.com^
 ||mktg.evvnt.com^
 ||mmwebhandler.888.com^
 ||monetize-static.viralize.tv^
+||mythdev.b-cdn.net^
 ||neural.myth.dev^
 ||newtabextension.com^
 ||ogads-pa.googleapis.com^
@@ -34271,6 +34275,7 @@ vkcdnservice.appspot.com^
 ||d1crt12zco2cvf.cloudfront.net^
 ||d1csp7vj6qqoa6.cloudfront.net^
 ||d1d7hwtv2l91pm.cloudfront.net^
+||d1dcnte8mfzkpv.cloudfront.net^
 ||d1dh1gvx7p0imm.cloudfront.net^
 ||d1diqetif5itzx.cloudfront.net^
 ||d1djrodi2reo2w.cloudfront.net^
@@ -36459,6 +36464,7 @@ vkcdnservice.appspot.com^
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||unalytics.top^
 ||aisiteanalytics.com^
 ||cdnlogs.org^
 ||pushd.netky.tech^
@@ -90048,6 +90054,7 @@ inapps.appsflyersdk.com^
 ||1558334541.rsc.cdn77.org^
 ||3j0pw4ed7uac-a.akamaihd.net^
 ||51network.com^
+||682a5845.b-cdn.net^
 ||9w2zed1szg.execute-api.us-east-1.amazonaws.com^
 ||a.emea01.idio.episerver.net^
 ||a.getflowbox.com^
@@ -90461,6 +90468,7 @@ inapps.appsflyersdk.com^
 ||mon.domdog.io^
 ||monitor-api.blackcrow.ai^
 ||monitor-frontend-collector.a.bybit-aws.com^
+||monitor.fraudblocker.com^
 ||monitoring.iraiser.eu^
 ||ms-trackingapi.phenompeople.com^
 ||msadsscale.azureedge.net^
@@ -90540,6 +90548,7 @@ inapps.appsflyersdk.com^
 ||pylon.micstatic.com^
 ||qubitanalytics.appspot.com^
 ||rampjs-cdn.system1.com^
+||raven.adeptmind.ai^
 ||reach-id.orbit.tm-awx.com^
 ||realm.hearst3pcc.com^
 ||recs-api.conde.digital^
@@ -90631,6 +90640,7 @@ inapps.appsflyersdk.com^
 ||stats.uscreen.io^
 ||stats.varrando.com^
 ||stats.viddler.com^
+||stats.vodlix.com^
 ||stats.webs.com^
 ||stats.webstarts.com^
 ||stats.zotabox.com^
@@ -101571,6 +101581,9 @@ inapps.appsflyersdk.com^
 ||51tongji.trafficmanager.net^
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
+||thaincoth.com^
+||etbh.cn^
+||pflwta.top^
 ||leirerspfz.com^
 ||ifje.cn^
 ||ngjcvn.top^
