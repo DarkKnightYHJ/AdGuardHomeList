@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KmWu6QlxmdppFm2mkXfupQ
-! Version: 202504251901
+! Checksum: lrltGEst8wFVCPkVpz9z1w
+! Version: 202504252011
 ! Title: EasyList
-! Last modified: 25 Apr 2025 19:01 UTC
+! Last modified: 25 Apr 2025 20:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -60253,6 +60253,7 @@ klz9.com###list-imga center:has(> a[id^="adLink"])
 klz9.com###list-imga center:has(a[href^="https://olimposcans.com/"])
 noon.com###modules-renderer:has([class*="sponsored"])
 indeed.com###mosaic-provider-jobcards li:has(.sponsoredJob)
+noon.com###noon-modules:has([class*="AdBrandVideo"])
 wsj.com###other-buckets > div > div:has(> .uds-ad-container)
 aleteia.org###root > div[class]:has(> .adslot)
 etsy.com###search-results li:has([id^="ad-listing-title-"])
@@ -60419,6 +60420,7 @@ dotesports.com##.wp-block-gamurs-article-tile:has-text(Sponsored)
 popculture.com##.wp-block-savage-platform-raptive-ad
 bestbuy.ca##.x-productListItem:has([data-automation="sponsoredProductLabel"])
 mapquest.co.uk##.z-10.justify-center:has-text(Advertisement)
+sameday.costco.com##[aria-label="Product"]:has(sp-tag)
 freshdirect.com##[class*="ProductsGrid_grid_item"]:has([data-testid="marketing tag"])
 petco.com##[class*="atapult-styled"]:has([data-ad-source])
 livejournal.com##[class*="categories"] + div[class]:has(> [class*="-commercial"])
