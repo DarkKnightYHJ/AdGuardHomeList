@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: e3oYF9GrR9e+gFwedBwHUQ
-! Version: 202504251811
+! Checksum: PwwE8iAnD2oiCZUFnAOGiQ
+! Version: 202504251901
 ! Title: ABP filters
-! Last modified: 25 Apr 2025 18:11 UTC
+! Last modified: 25 Apr 2025 19:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1974,6 +1974,7 @@ mail.ru#@#[href^="https://dzen.ru"]
 ! Filters to be used by distribution partners
 ! #CV-782
 www.youtube.com,youtube-nocookie.com#$#race start; skip-video '.video-stream' './/ytd-player/div[@id]//div[contains(@class,"ad-interrupting")]' '-start-from:1003' '-stop-on-video-end:true'; skip-video 'video.html5-main-video' './/div[@id="player"]/div[@id]//div[contains(@class,"ad-interrupting")]' '-start-from:1005' '-stop-on-video-end:true'; skip-video 'video.html5-main-video' './/div[@id="player"]//div[contains(@class,"ad-interrupting")]' '-start-from:1010' '-stop-on-video-end:true'; race stop;
+www.youtube.com,youtube-nocookie.com#$#array-override push 'AD_PLACEMENT' '' 'value.kind'
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read playerResponse.adPlacements undefined;
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
 m.youtube.com#$#override-property-read ytInitialPlayerResponse.playerAds undefined;
