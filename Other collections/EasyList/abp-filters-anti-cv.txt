@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: Gbr06UEuVViQmAwaoUW3Cg
-! Version: 202504252302
+! Checksum: bEtXYsnpHakvEspM7AQcmw
+! Version: 202504260101
 ! Title: ABP filters
-! Last modified: 25 Apr 2025 23:02 UTC
+! Last modified: 26 Apr 2025 01:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1070,6 +1070,7 @@ onlystream.tv#$#abort-on-property-read BetterJsPop
 hdvid.tv,ovid.pro#$#abort-on-property-read atob; abort-on-property-read encodeURIComponent; abort-on-property-write _pop
 embed.media,fembed.com,fmovies.*,flashx.tv,gaobook.review,hxfile.co,mavplay.xyz,myyouporn.com,solarmovie.*,vaplayer.xyz,vizcloud.xyz,xstreamcdn.com#$#abort-on-property-read AaDetector
 babesxworld.com,lesbian8.com,older-women-porn.com,pifansubs.com,pimpandhost.com,silkengirl.net#$#abort-on-property-read adProvider
+hitomi.la#$#abort-on-property-read AdProvider
 9xupload.me#$#abort-on-property-read eval
 novom.ru#$#abort-on-property-read zoneNativeSett
 govid.me,9xupload.me#$#abort-on-property-read atop
