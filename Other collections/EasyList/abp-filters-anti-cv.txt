@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: Z1IyacwJX4F3ehWAmjjdKA
-! Version: 202504281411
+! Checksum: 1LMhqT+LqowNqe6hABz3oQ
+! Version: 202504281511
 ! Title: ABP filters
-! Last modified: 28 Apr 2025 14:11 UTC
+! Last modified: 28 Apr 2025 15:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -36,6 +36,9 @@ akwam.cc,akoam.com,akoam.net,akwam.co,akwam.cx,akwam.net,akwam.org,akwam.us,gate
 ! *** abp-filters-anti-cv:bulgarian.txt ***
 ! #CV-667
 gledaiseriali.net#$#abort-current-inline-script Math zfgloaded
+! RM-115
+! hp
+olx.bg#$#hide-if-matches-xpath '//a[contains(@href,"promoted")]/parent::div/ancestor-or-self::div[@data-testid="l-card"]/preceding::h2[contains(., "Промо обяви")]/parent::div'
 ! *** abp-filters-anti-cv:chinese.txt ***
 ! #CV-767
 ipv6.baidu.com,xueshu.baidu.com,www.baidu.com,www1.baidu.com#$#hide-if-contains 广告 .c-container '.f13 > .m'; hide-if-contains 广告 #content_right>[class] span[data-tuiguang]
@@ -1544,12 +1547,13 @@ www.wp.pl#$#hide-if-matches-xpath './/span[contains(text(),"Okazje")]/parent::di
 o2.pl##div[class$="cevoIl"]
 money.pl#$#simulate-mouse-event 'xpath(.//div[@class]//div[contains(text(),"REKLAMA")]/following-sibling::div[contains(text(),"Przejdź teraz")])$delay=0'
 ! RM-115
-!sp
+! sp
 olx.pl#$#hide-if-matches-xpath './/div[.="Wyróżnione"]/parent::div/ancestor::div[@data-testid="l-card"]'
+! hp
+olx.pl#$#hide-if-matches-xpath '//a[contains(@href,"promoted")]/parent::div/ancestor-or-self::div[@data-testid="l-card"]/preceding::h2[contains(., "Ogłoszenia promowane")]/parent::div'
 ! MISC
 www.elektroda.pl#$#abort-on-property-read popupStatus; abort-on-property-write welcomeAdContainer
 naekranie.pl#$#abort-on-property-read adQueue
-www.olx.pl#$#hide-if-matches-xpath './/div[@class="vivus_footer"]/h5/ancestor-or-self::div[contains(@class,"vivus")]/ancestor::div[@data-testid="qa-advert-slot"]'
 gierkionline.pl#$#hide-if-matches-xpath './/div[@id]//div[contains(text(),"Reklama")]/parent::div[contains(@class,"banner")]/ancestor::div[@id][@class][1]'
 ! video ads
 ||g.cda.pl/player*?ads&vi*^$xmlhttprequest,domain=cda.pl
@@ -1603,6 +1607,8 @@ filmehd.to##iframe[src][style]
 ! RM-115
 ! sp
 olx.ro#$#hide-if-matches-xpath './/div[.="PROMOVAT"]/parent::div/ancestor::div[@data-testid="l-card"]'
+! hp
+olx.ro#$#hide-if-matches-xpath '//a[contains(@href,"promoted")]/parent::div/ancestor-or-self::div[@data-testid="l-card"]/preceding::h2[contains(., "Anunturi promovate")]/parent::div'
 ! *** abp-filters-anti-cv:russian.txt ***
 ! #CV-244
 zen.yandex.ru##div[class*="is-parent-size_undefined"]
@@ -1791,6 +1797,8 @@ eurointegration.com.ua,pravda.com.ua#$#abort-on-property-read as_retry
 ! RM-115
 ! sp
 olx.*#$#hide-if-matches-xpath './/div[.="ТОП" or .="Промотирана обява"]/parent::div/ancestor::div[@data-testid="l-card"]'
+! hp
+olx.*#$#hide-if-matches-xpath '//a[contains(@href,"promoted")]/parent::div/ancestor-or-self::div[@data-testid="l-card"]/preceding::h2[contains(., "VIP-объявления") or contains(., "VIP-оголошення")]/parent::div'
 ! *** abp-filters-anti-cv:spanish.txt ***
 ! #CV-691
 ! #CV-761
