@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: say3qr/tTL79xs57GtQhcQ
-! Version: 202504282311
+! Checksum: XIn+n4DO2L4Z71Zm+53j9g
+! Version: 202504290111
 ! Title: EasyPrivacy
-! Last modified: 28 Apr 2025 23:11 UTC
+! Last modified: 29 Apr 2025 01:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2609,6 +2609,7 @@
 /w.gif?
 /wa.gif?
 /wa_tracker.js
+/watchdog/hits/collect$xmlhttprequest
 /wcount.php?
 /web-analytics.js
 /web-api/log/*
@@ -7808,6 +7809,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||c3metrics.medifast1.com^
 ||cache2.delvenetworks.com^
 ||cafemedia.com/topics/clickstream-event
+||calendly.com/telemetry.js
 ||californiatimes.com/privacy/$image
 ||calltrack.co^
 ||calltrk.com/companies/
@@ -8980,6 +8982,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||patreon.com/api/tracking
 ||payments-amazon.com^*/analytics.js
 ||payments.amazon.com/cs/uedata
+||paypal.com/credit-presentment/glog?
 ||paypal.com/ptrk/
 ||paypal.com/webapps/mch/cmd/?
 ||paypal.com/xoplatform/logger/api/logger
@@ -9183,6 +9186,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||removeads.workers.dev^
 ||replit.app/tap/
 ||replyat.com/gadgetpagecounter.asp?
+||report.23video.com^
 ||reporting-api.gannettinnovation.com^
 ||reporting.cdndex.io^
 ||reporting.singlefeed.com^
@@ -10380,6 +10384,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||quiz.stroeermediabrands.de/pub/$image
 ||retrack.q-divisioncdn.de^
 ||retresco.de^*/stats/$third-party
+||rum.mauve.eu^
 ||script.idgentertainment.de/gt.js
 ||serverkompetenz.net/cpx.php?
 ||sheego.de/ar/$third-party
@@ -49487,6 +49492,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||basicthinking.de/stats/
 ||behave.sn.at^
 ||berliner-stadtplan.com/t.gif
+||best4tires.com/collect
 ||bilder11.markt.de^
 ||blogmura.com/js/*/gtag-event-
 ||braunschweiger-zeitung.de/stats/
@@ -50727,6 +50733,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||vinted.it/relay/events
 ||virgilio.it/clientinfo.gif?
 ||virgilio.it/js/web-vitals-evnt/tracking.js
+||vistanet.it^*/category_event.js
 ||volkswagen-italia.it^*/tracking/
 ||vvvvid.it^$ping
 ||yachtingnetwork.it/stat/
