@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: rD6TPWcjqylh7qfQ4lU7/A
-! Version: 202504292201
+! Checksum: eAQQUrBGVif9yNCrzYal/Q
+! Version: 202504292251
 ! Title: ABP filters
-! Last modified: 29 Apr 2025 22:01 UTC
+! Last modified: 29 Apr 2025 22:51 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -542,6 +542,11 @@ dlouha-videa.cz#$#abort-on-property-read _0x4c29
 ajaxshowtime.com#?#div:-abp-properties(content: "Advertentie";)
 ajaxshowtime.com##div.leaderboard_ad + div
 ! *** abp-filters-anti-cv:english.txt ***
+! RM-45
+! sp
+rakuten.com#$#hide-if-contains-visible-text /Sponsorisée/ 'div[class*="flex"]' 'div[class*="sponsoredAds"]'
+! pp
+rakuten.com###second_promo
 ! RM-48
 ! sp
 atlanticsuperstore.ca,fortinos.ca,loblaws.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#$#hide-if-matches-xpath '//span[text()="Sponsored" or .="Sponsorisé"]/ancestor-or-self::span[contains(@class,"chakra-badge")]/ancestor::div[contains(@class,"chakra-linkbox")]/ancestor-or-self::div[@class="css-0"][1]'
@@ -1231,8 +1236,6 @@ justwatch.com#$#hide-if-matches-xpath './/div[contains(@class,"ad-pill")]/div[co
 ||js.onclckmn.com/*.js^$script,domain=porntrex.com
 crazygames.com#?#div:-abp-has(> div[class]:-abp-contains(Advertisement)[style*="width"])
 crazyshit.com#$#abort-on-property-read window.cs.ads
-rakuten.com###second_promo
-rakuten.com#$#hide-if-contains-visible-text /Sponsorisée/ 'div[class*="flex-row"]' 'div[class*="flex"]>span[class*="sponsoredTag"]'
 poki.com#$#hide-if-matches-xpath './/div[contains(@style,"height")]/following-sibling::div[@class][contains(.,"Advertisement")]/parent::div[1]'
 bettycrocker.com,pillsbury.com#$#simulate-mouse-event 'xpath(.//div[@class="adAboveSiteHeader"]//span[@class="closeAdButton"][@aria-label])'
 solarmovie.*#$#abort-current-inline-script Math zfgloaded
