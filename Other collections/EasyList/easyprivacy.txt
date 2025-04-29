@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: atW0ME71Ugerp4Q09Mwstg
-! Version: 202504291611
+! Checksum: 1shim6RWGTdudEdlGD3fXw
+! Version: 202504291701
 ! Title: EasyPrivacy
-! Last modified: 29 Apr 2025 16:11 UTC
+! Last modified: 29 Apr 2025 17:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -8413,6 +8413,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||godaddy.com/js/gdwebbeacon.js
 ||gomoxie.solutions^*/events
 ||google.com/analytics/$third-party
+||google.com/ccm/
+||google.com/gmp/
 ||google.com/gsi/log?
 ||googleapis.com/aam.js
 ||googleapis.com/gadasource/gada.js
@@ -49620,6 +49622,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||t-online.de/to/web/click?
 ||t-online.de/toi/html/de/img/transp.bmp?
 ||t.wayfair.de^
+||t2.aboutyou.de^
 ||tagm.eduscho.at^
 ||tarnkappe.info^$ping
 ||taz.de/count/
