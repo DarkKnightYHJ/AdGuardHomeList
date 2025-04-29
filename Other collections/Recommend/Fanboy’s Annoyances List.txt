@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: phKLTwjfuxnYBPkjZYtuKA
-! Version: 202504291011
+! Checksum: OqUTA35VleApyZ6XZP+uSg
+! Version: 202504291101
 ! Title: Fanboy's Annoyance List
-! Last modified: 29 Apr 2025 10:11 UTC
+! Last modified: 29 Apr 2025 11:01 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -41761,6 +41761,7 @@ mastory.jp##.qualvaBtn
 news.yahoo.co.jp##.riff-BackTop__root
 sp.nicovideo.jp##.searchResult-nicoadNicodicItem
 sofmap.com##.side_bnr
+young-machine.com##.widget_block [href^="/game/"]
 filmora.wondershare.jp##.ws-ad-new
 qiita.com##div[data-testid="popup-login"]
 gendai.media##div[data-testid="sidebar-ad-slider"]
@@ -48406,3 +48407,6 @@ autobild.lt#@#.footer-container ~ div[class*="cookie-notice"]
 ! FD-7599
 @@||onesignal.com/api/v*/$domain=autoexpress.co.uk
 @@||onesignal.com/sdks/$domain=autoexpress.co.uk
+! FD-7651
+@@||stepstone.de/viewlets/consent/consent-manager/de/assets/stepstone-de/ccm.js$domain=stepstone.de
+stepstone.de#@##GDPRConsentManagerContainer
