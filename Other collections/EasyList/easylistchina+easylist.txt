@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8Rw6Gwf3bGNNN5o8dhpqSg
-! Version: 202505031011
+! Checksum: O/vfZyKwpd07IZgdZ/DHzA
+! Version: 202505031101
 ! Title: EasyList China+EasyList
-! Last modified: 03 May 2025 10:11 UTC
+! Last modified: 03 May 2025 11:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1747,6 +1747,7 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||ebroktean.com^
 ||okpl05030ai.com^
 ||vtqhelleano.com^
 ||qqosk05030llo.com^
@@ -69936,6 +69937,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||coincheck.com/images/affiliates/
 ||coincodex.com/*/position/ccx_pos-min$script
 ||coingolive.com/assets/img/partners/
+||coinmarketcap.com/static/img/cdp_ad_banner/
 ||computeralliance.com.au/ws/PartsWS.asmx/GetAdvertisingLeft
 ||convert2mp3.club/dr/
 ||coolors.co/ajax/get-ads
@@ -74220,6 +74222,7 @@ powerpyx.com##.code-block-14
 patriotnewsfeed.com##.code-block-4
 scienceabc.com##.code-block-5
 wltreport.com##.code-block-label
+coinmarketcap.com##.coin-ad-banner
 holyrood.com##.col--ad
 mydramalist.com##.col-lg-4 > .clear
 upi.com##.col-md-12 > table
@@ -77246,6 +77249,7 @@ motor1.com##[data-m1-ad-label]
 cnet.com##[data-meta="placeholder-slot"]
 lightnovelcave.com,lightnovelpub.com##[data-mobid]
 qvc.com##[data-module-feature-name^="CRITEO"]
+coindesk.com##[data-module-name="high-impact"]
 independent.co.uk##[data-mpu1]
 goal.com##[data-name="ad-leaderboard"]
 polygon.com##[data-native-ad-id^="container"]
@@ -79216,6 +79220,7 @@ checkfelix.com,kayak.*,swoodoo.com##div[class*="-adInner"]
 checkfelix.com,kayak.*,swoodoo.com##div[data-resultid]:has(a.IZSg-adlink)
 checkfelix.com,kayak.*,swoodoo.com##div[id^="inline-"]
 ! *** easylist:easylist/easylist_specific_hide_abp.txt ***
+coindesk.com#?#.bg-white.flex.gap-6.w-full.shrink.justify-between.md\:justify-normal.lg\:flex-row-reverse:has(.font-metadata.mr-1.uppercase:-abp-contains(Sponsored by))
 temu.com#?#.splide__slide:-abp-contains(AD)
 foodlion.com#?#.product-grid-cell:-abp-contains(Sponsored)
 manomano.*#?#[data-testid="productCardListing"]:-abp-contains(/Patrocinado|Gesponsert|Sponsorisé|Sponsorizzato/)
