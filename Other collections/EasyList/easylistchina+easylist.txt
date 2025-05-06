@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FjXtMnhUTxyfTcMon0HfZw
-! Version: 202505052301
+! Checksum: Wo6W76XYXJMWY+WfnPfD9g
+! Version: 202505060111
 ! Title: EasyList China+EasyList
-! Last modified: 05 May 2025 23:01 UTC
+! Last modified: 06 May 2025 01:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1751,6 +1751,7 @@ newduba.cn###jq_youxi
 ||qsko05060mas.com^
 ||pwchaukoieor.com^
 ||nzoj.cn^
+||gawnaze.com^
 ||yqqv.cn^
 ||zxiws.cn^
 ||qiwqaagnaell.com^
@@ -78472,6 +78473,7 @@ noon.com###modules-renderer:has([class*="sponsored"])
 indeed.com###mosaic-provider-jobcards li:has(.sponsoredJob)
 noon.com###noon-modules:has([class*="AdBrandVideo"])
 wsj.com###other-buckets > div > div:has(> .uds-ad-container)
+momondo.com###resultWrapper [role="group"]:has(> [class*="-adInner"])
 aleteia.org###root > div[class]:has(> .adslot)
 etsy.com###search-results li:has([id^="ad-listing-title-"])
 scribd.com###sidebar > div:has(> div > [data-e2e^="dismissible-ad-header"])
@@ -79372,6 +79374,7 @@ checkfelix.com,kayak.*,swoodoo.com##div[class*="-adInner"]
 checkfelix.com,kayak.*,swoodoo.com##div[data-resultid]:has(a.IZSg-adlink)
 checkfelix.com,kayak.*,swoodoo.com##div[id^="inline-"]
 ! *** easylist:easylist/easylist_specific_hide_abp.txt ***
+target.com#?#[data-test="productCardVariantRecommendation"]:-abp-contains(Sponsored)
 coindesk.com#?#.bg-white.flex.gap-6.w-full.shrink.justify-between.md\:justify-normal.lg\:flex-row-reverse:has(.font-metadata.mr-1.uppercase:-abp-contains(Sponsored by))
 temu.com#?#.splide__slide:-abp-contains(AD)
 foodlion.com#?#.product-grid-cell:-abp-contains(Sponsored)
