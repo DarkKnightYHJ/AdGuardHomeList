@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: p6bXA7v51ijxIivht/1ZjA
-! Version: 202505071511
+! Checksum: IUaXpNqwsndOwYNhoSulzA
+! Version: 202505071611
 ! Title: ABP filters
-! Last modified: 07 May 2025 15:11 UTC
+! Last modified: 07 May 2025 16:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -576,6 +576,7 @@ tesco.com#$#hide-if-contains-visible-text /Sponsored/ ul[id^="list-content"]>li 
 ! RM-114
 ! sp
 target.com#$#hide-if-contains-visible-text /Sponsored/ 'div[data-test*="ProductCardWrapper"]' 'p[data-test="sponsoredText"]'
+target.com#$#hide-if-contains /Sponsored/ 'li[class]' 'div[style] div[data-test="sponsoredText"]'
 ! #RM-75
 ! sp
 bol.com#?#ul[class][data-test="products"] li:-abp-has(span:-abp-contains(/Gesponsord|Sponsorisé/))
@@ -1552,8 +1553,8 @@ www.wp.pl#$#hide-if-matches-xpath './/span[contains(text(),"Okazje")]/parent::di
 o2.pl##div[class$="cevoIl"]
 money.pl#$#simulate-mouse-event 'xpath(.//div[@class]//div[contains(text(),"REKLAMA")]/following-sibling::div[contains(text(),"Przejdź teraz")])$delay=0'
 ! RM-115
-! sp
-olx.pl#$#hide-if-matches-xpath './/div[.="Wyróżnione"]/parent::div/ancestor::div[@data-testid="l-card"]'
+! sp (.pt|.pl|.ro|.*)
+olx.*#?#div:-abp-has(> div:-abp-has(> div:-abp-has(> a div:-abp-has(> div:-abp-properties(/content: "Wyróżnione";|"TOP";|"ТОП";|"PROMOVAT";|"Промотирана обява";/)))))
 ! hp
 olx.pl#$#hide-if-matches-xpath '//a[contains(@href,"promoted")]/parent::div/ancestor-or-self::div[@data-testid="l-card"]/preceding::h2[contains(., "Ogłoszenia promowane")]/parent::div'
 ! MISC
@@ -1566,8 +1567,6 @@ gierkionline.pl#$#hide-if-matches-xpath './/div[@id]//div[contains(text(),"Rekla
 filmy69.pl#$#abort-current-inline-script document.querySelectorAll popMagic
 ! *** abp-filters-anti-cv:portuguese.txt ***
 ! RM-115
-! sp
-olx.pt#$#hide-if-matches-xpath './/div[.="TOP"]/parent::div/ancestor::div[@data-testid="l-card"]'
 ! hp
 olx.pt#$#hide-if-matches-xpath '//a[contains(@href,"promoted")]/parent::div/ancestor-or-self::div[@data-testid="l-card"]/preceding::h2[contains(., "Destaques no OLX")]/parent::div'
 olx.com.br#$#hide-if-matches-xpath './/span[.="DESTAQUE" or .="Destaque" or .="Impulsionado"]/ancestor::section[1]'; hide-if-matches-xpath './/span[.="DESTAQUE"]/ancestor::section[1]/parent::div[contains(@class,"olx-carousel")]';
@@ -1612,8 +1611,6 @@ filmehd.to#$#hide-if-matches-xpath './/a[@title]/img[@src][@alt][@style]/ancesto
 /js/dnsads.js?*^$domain=filmehd.to
 filmehd.to##iframe[src][style]
 ! RM-115
-! sp
-olx.ro#$#hide-if-matches-xpath './/div[.="PROMOVAT"]/parent::div/ancestor::div[@data-testid="l-card"]'
 ! hp
 olx.ro#$#hide-if-matches-xpath '//a[contains(@href,"promoted")]/parent::div/ancestor-or-self::div[@data-testid="l-card"]/preceding::h2[contains(., "Anunturi promovate")]/parent::div'
 ! *** abp-filters-anti-cv:russian.txt ***
@@ -1765,7 +1762,7 @@ bez-smenki.ru#$#abort-current-inline-script $ showPopupextra
 partnerkin.com#$#override-property-read Object.prototype.autoPopups undefined
 comedy-radio.ru,radioromantika.ru,veseloeradio.ru#$#abort-on-property-read yaContextCb
 tornado.3dn.ru#$#abort-on-property-read wrapper.addEventListener
-kinoblin.ru,serialai.ru#$#prevent-listener mousedown pop.doEvent
+kinoblin.ru,pornoakt.info,serialai.ru#$#prevent-listener mousedown pop.doEvent
 agronews.ua#$#prevent-listener DOMContentLoaded 'adId'
 bzrus.pro#$#prevent-listener new 'window.location'; prevent-listener userpause 'Math.random'
 sex-studentki.gold,seks-studentki.pro#$#prevent-listener DOMContentLoaded click_time
@@ -1802,8 +1799,6 @@ agroreview.com#$#abort-current-inline-script encodeURIComponent rcBuf; abort-cur
 ! CV-1364
 eurointegration.com.ua,pravda.com.ua#$#abort-on-property-read as_retry
 ! RM-115
-! sp
-olx.*#$#hide-if-matches-xpath './/div[.="ТОП" or .="Промотирана обява"]/parent::div/ancestor::div[@data-testid="l-card"]'
 ! hp
 olx.*#$#hide-if-matches-xpath '//a[contains(@href,"promoted")]/parent::div/ancestor-or-self::div[@data-testid="l-card"]/preceding::h2[contains(., "VIP-объявления") or contains(., "VIP-оголошення")]/parent::div'
 ! *** abp-filters-anti-cv:spanish.txt ***
