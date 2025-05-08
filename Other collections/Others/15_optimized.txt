@@ -1,9 +1,9 @@
-! Checksum: LUnLQnWcm/79Y/+FtWZsUw
-! Diff-Path: ../patches/15_optimized/15_optimized-s-1746664169-3600.patch
+! Checksum: fHqcjKe1ylqz3/HkAO0HTg
+! Diff-Path: ../patches/15_optimized/15_optimized-s-1746684833-3600.patch
 ! Title: AdGuard DNS filter (Optimized)
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.79.94
-! TimeUpdated: 2025-05-08T00:26:04+00:00
+! Version: 2.0.79.95
+! TimeUpdated: 2025-05-08T06:10:08+00:00
 ! Expires: 5 days (update frequency)
 ||gusoclji.com^
 ||lolostan.com^
@@ -35672,6 +35672,7 @@ vkcdnservice.appspot.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
 ||kib.hu^
+||analytics.turk.pro^
 ||metric-api.newrelic.com^
 ||conduit-beacon.mtvnservices.com^
 ||redfast.com^
@@ -91700,7 +91701,6 @@ inapps.appsflyersdk.com^
 ||0.myikas.com^
 ||analitik.bik.gov.tr^
 ||analytics.faprika.net^
-||analytics.turk.pro^
 ||c.keltis.com^
 ||sayac.kapital.com.tr^
 ||track.livasoft.com.tr^
@@ -95605,6 +95605,9 @@ inapps.appsflyersdk.com^
 ||booli-logger.prod.booli.se^
 ||boost-cdn.manatee.dk^
 ||borsvarlden-banners.azurewebsites.net^
+||bostad24.se^
+||bostadslistan.se^
+||bostadsportal.se^
 ||brandy.bonniernewslifestyle.se^
 ||browser-http-intake.logs.datadoghq.com^
 ||browser-http-intake.logs.datadoghq.eu^
@@ -95721,6 +95724,7 @@ inapps.appsflyersdk.com^
 ||hapyak.com^
 ||heroaffiliates.com^
 ||hsadspixel.net^
+||hyrio.se^
 ||h.online-metrix.net^
 ||iba.feedblitz.com^
 ||iconosquare.com^
@@ -95808,6 +95812,9 @@ inapps.appsflyersdk.com^
 ||r.existenz.se^
 ||recirculation.spot.im^
 ||regstat.se^
+||rentia.se^
+||rentify.se^
+||rentler.se^
 ||resor-external.barnsemester.se^
 ||retargettracker.com^
 ||revive.edgeflyfishing.com^
@@ -101649,6 +101656,7 @@ inapps.appsflyersdk.com^
 ||oaokes.icu^
 ||sqif.cn^
 ||fmlmbf.top^
+||uuso05081qhs.xyz^
 ||ebrid.cn^
 ||wtrotilloye.com^
 ||dnjxds.top^
