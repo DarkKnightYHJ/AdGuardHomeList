@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: ObSDgPXZtFaqN/BFmgVdwQ
-! Version: 202505090701
+! Checksum: JjYn02u495n6QgiOo+EtWg
+! Version: 202505090812
 ! Title: EasyPrivacy
-! Last modified: 09 May 2025 07:01 UTC
+! Last modified: 09 May 2025 08:12 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3809,7 +3809,6 @@ omni.soundestlink.com$image
 ||ambercrow.com^$third-party
 ||amikay.com^$third-party
 ||amnet.tw^$third-party
-||amp.vg^$third-party
 ||amplitude.com^$third-party
 ||amung.us^$third-party
 ||analitycs.net^$third-party
@@ -7492,6 +7491,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||amazonaws.com^*/prod_analytics
 ||amazonpay.com/customerInsight?
 ||amp-error-reporting.appspot.com^
+||amp.vg/track/
 ||amplifypixel.outbrain.com^
 ||ampproject.org/preconnect.gif
 ||ams-pageview-public.s3.amazonaws.com^
@@ -51705,6 +51705,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||online-metrix.net/fp/tags.js$domain=donorschoose.org
 @@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
 @@||openfpcdn.io/botd/v1$script,domain=collinsdictionary.com
+@@||opex.xplan.iress.com.au/js/xiled/util/pageview.js$~third-party
 @@||optimove.net^$domain=app.touchnote.com
 @@||ots.webtrends-optimize.com/$xmlhttprequest,domain=tvlicensing.co.uk
 @@||outbrain.com/outbrain.js$domain=cnn.com
