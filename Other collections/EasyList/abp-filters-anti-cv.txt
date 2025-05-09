@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: BD4geBS1nmWadV+KLgAkGA
-! Version: 202505090911
+! Checksum: 65bfftJK158gMfMVZ/YiFQ
+! Version: 202505091011
 ! Title: ABP filters
-! Last modified: 09 May 2025 09:11 UTC
+! Last modified: 09 May 2025 10:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1977,7 +1977,7 @@ howdyho.net,howdyho.pro#@#html[lang="ru"] :not(my-obnaruzhili-adbl)
 ! FD-7283
 mediamarkt.de#@#li[data-index-number]:-abp-contains(Gesponsert)
 mediamarkt.de#@#.sc-72448dee-1.bLECT:-abp-contains(Gesponsert)
-! FD-7601
+! FD-7601 | FD-7710
 @@||ad.mail.ru/adp/?_SITEZONE=15&json=1^$xmlhttprequest,domain=mail.ru
 @@||dzen.ru/api/web/v*/$domain=mail.ru
 @@||dzen.ru/zen-partner/mailru-morda$domain=mail.ru
@@ -1985,6 +1985,8 @@ mediamarkt.de#@#.sc-72448dee-1.bLECT:-abp-contains(Gesponsert)
 mail.ru#@#.mailru-visibility-check
 mail.ru#@#.tgb-wrapper
 mail.ru#@#[href^="https://dzen.ru"]
+@@://mail.ru/$csp=connect-src 'self' *.imgsmail.ru *.mail.ru ok.ru vk.com data: blob:
+mail.ru#@#[href*="https://dzen.ru"]
 ! *** abp-filters-anti-cv:distribution/abp-filters-partners.txt ***
 ! Filters to be used by distribution partners
 ! #CV-782
