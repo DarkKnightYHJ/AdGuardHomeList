@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: NmPVXjy5aW5aV+K5IGR8DQ
-! Version: 202505092301
+! Checksum: 3V2mMAE2ikwIjZaT2Jenfg
+! Version: 202505100111
 ! Title: EasyPrivacy
-! Last modified: 09 May 2025 23:01 UTC
+! Last modified: 10 May 2025 01:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -897,6 +897,7 @@
 /facebook/pixel.js
 /facebook_fbevents.js
 /facebook_pixel_3_1_2.js
+/FacebookEvent/PageView$xmlhttprequest
 /facebookpixel.js
 /facebookproductad/views/js/pixel.
 /faciliti-tag.min.js
@@ -5376,6 +5377,7 @@ omni.soundestlink.com$image
 ||recruitics.com^$third-party
 ||redcounter.net^$third-party
 ||redfastlabs.com^$third-party
+||redirectify.app^$third-party
 ||redistats.com^$third-party
 ||redstatcounter.com^$third-party
 ||reedbusiness.net^$third-party
@@ -7220,6 +7222,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cszz.ru^$third-party
 ||culturaltracking.ru^$third-party
 ||detmir-stats.ru^$third-party
+||diginetica.net^$third-party
 ||dircont3.com^$third-party
 ||directcrm.ru^$third-party
 ||e-kuzbass.ru^$third-party
@@ -7703,6 +7706,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ariane.abtasty.com^
 ||arkoselabs.com/metrics/
 ||asayer.io/tracker.js
+||aservice.cloud/trc/mastertag
 ||assets.apollo.io/micro/website-tracker/
 ||assets.hearstapps.com/commerce/release/affiliate-bundle.
 ||assets.moneymade.io/js/fp.min.js
@@ -8433,6 +8437,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||geoip.instiengage.com^
 ||geoip.nekudo.com^
 ||geolocation.outreach.com^
+||geoproapp.com/api/record
 ||geoservice.curse.com^
 ||geotags.refinery89.com^
 ||getelevar.com/shops/*/events.js
@@ -9219,6 +9224,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rapidspike.com/static/js/timingpcg.min.js
 ||raven.adeptmind.ai^
 ||raygun.io/events?
+||raygun.io/ping?
 ||rayn.io/contextual_targeting
 ||rbl.ms/res/users/tracking/
 ||reach-id.orbit.tm-awx.com^
@@ -11487,6 +11493,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ! *** easylist:easyprivacy/easyprivacy_specific.txt ***
 ||1024tera.com/api/analytics?
 ||123rf.com/apicore-index/traffic_log
+||1rer.hummel.net^
 ||1win.com^$ping
 ||40svintageporn.com/hit
 ||4hds.com/js/camstats.js
@@ -13193,6 +13200,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||v.ctrl.blog^
 ||vagrantup.com/api/auth/_log
 ||vanityfair.com/user-context?referrer
+||vbox7.com/aj/player-stats?
 ||vf.startpage.com^
 ||video.mobile.yahoo.com/log|$xmlhttprequest
 ||vidsrc.icu/js/script-custom.js
@@ -50168,6 +50176,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||gtm.mandesager.dk^
 ||ia.ekstrabladet.dk^
 ||jv.dk/assets/statistics/
+||matas.dk/internal/Tracking/
+||minetilbud.dk/api/web/logViewAdvertPage
+||minetilbud.dk^*/Statistics.asmx
 ||nrpukcsgboqr0gz2o8.www.bolighub.dk^
 ! French
 ||2ememain.be/c3650cdf-
@@ -51143,6 +51154,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||wtk.pl/js/WTKStats.js
 ||yctjw54slxrwwlh.trybawaryjny.pl^
 ! Portuguese
+||ab.g.globo/event
 ||audience-mostread.r7.com^
 ||click.afiliados.uol.com.br^
 ||click.uol.com.br^
@@ -51188,6 +51200,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||track.olx.com.br^
 ||tracker.bt.uol.com.br^
 ||tracker.publico.pt^
+||trackid.globoid.globo.com^
 ||uai.com.br^*/analytics.js
 ||udr.uol.com.br^
 ||uni7.uniplaces.com^
