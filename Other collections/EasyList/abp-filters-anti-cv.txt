@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: BjLb3u4kHCVCWziSn8xl3A
-! Version: 202505121411
+! Checksum: zi6RhIRrB+J5FepjTHo65Q
+! Version: 202505121511
 ! Title: ABP filters
-! Last modified: 12 May 2025 14:11 UTC
+! Last modified: 12 May 2025 15:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -648,6 +648,7 @@ ebay.*#$#hide-if-contains-visible-text /(S*p*o*n*s*o*r*e*d|A*n*z*e*i*g*e|S*p*o*n
 ebay.*#$#hide-if-contains-visible-text /(Sponsored|Anzeige|Sponsorisé|Commandité|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato)/ 'div[data-viewport]' 'div[data-viewport] div[role="text"]'
 ! sp
 ebay.*#$#hide-if-matches-xpath './/span[contains(@class,"items-carousel")][contains(.,"Sponsored") or contains(.,"Anzeigen") or contains(.,"Sponsorisés") or contains(.,"Commandités") or contains(.,"Promocionado") or contains(.,"Gesponsord") or contains(.,"Sponsorowane") or contains(.,"Patrocinado") or contains(.,"Sponsorizzati") or contains(.,"贊助")]/ancestor::div[@data-hscroll]/parent::li[1]'
+ebay.com#$#hide-if-matches-xpath '//div[@class="srp-river"]//li[@data-marko-key]//span[starts-with(@class,//div[@hidden]/div[@id and text()="Sponsored"]/@id)]/ancestor::li[@data-marko-key]' '//div[@class="srp-river"]' load; hide-if-matches-xpath '//div[@class="srp-river"]//li[@data-marko-key]//span[starts-with(@aria-labelledby,//div[@hidden]/div[@id and text()="Sponsored"]/@id)]/ancestor::li[@data-marko-key]' '//div[@class="srp-river"]' load;
 ! #CV-737
 cnn.com#$#strip-fetch-query-parameter caid warnermediacdn.com; strip-fetch-query-parameter afid warnermediacdn.com; strip-fetch-query-parameter conf_csid warnermediacdn.com; strip-fetch-query-parameter app_csid warnermediacdn.com
 ||warnermedia.com/api/v1/events?*=ad-break*^$xmlhttprequest,domain=cnn.com
