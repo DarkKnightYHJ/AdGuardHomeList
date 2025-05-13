@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1hGg44Rb3xmAnmlAPYVnWw
-! Version: 202505131011
+! Checksum: HEScigJ/V0L87Yiure90ug
+! Version: 202505131051
 ! Title: EasyList
-! Last modified: 13 May 2025 10:11 UTC
+! Last modified: 13 May 2025 10:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -59091,6 +59091,7 @@ noon.com###modules-renderer:has([class*="sponsored"])
 noon.com###noon-modules:has([class*="AdBrandVideo"])
 wsj.com###other-buckets > div > div:has(> .uds-ad-container)
 momondo.com###resultWrapper [role="group"]:has(> [class*="-adInner"])
+euobserver.com###root > div > div:has(#dfp-billboard)
 aleteia.org###root > div[class]:has(> .adslot)
 etsy.com###search-results li:has([id^="ad-listing-title-"])
 scribd.com###sidebar > div:has(> div > [data-e2e^="dismissible-ad-header"])
