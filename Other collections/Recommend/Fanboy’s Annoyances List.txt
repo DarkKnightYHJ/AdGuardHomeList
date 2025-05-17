@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0Wlpex125wf+dXrt7etLng
-! Version: 202505171811
+! Checksum: lNyVg+qRMR0kKC3hrgtLmg
+! Version: 202505171901
 ! Title: Fanboy's Annoyance List
-! Last modified: 17 May 2025 18:11 UTC
+! Last modified: 17 May 2025 19:01 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -41208,6 +41208,7 @@ globalblue.com,globalblue.ru##.gbnew-cookie-bar
 ! *** easylist:easylist_cookie/easylist_cookie_specific_ABP.txt ***
 ! easylist_cookie_specific_ABP.txt
 !#if ext_abp
+revolut.com##div[role="dialog"]:has-text(/Cookies|cookies/)
 minhaconexao.com.br#?#section[id][class]:-abp-has(:scope > div[class] > button[class][onclick^="onClickCookiesBannerWeb"])
 ! Scripts
 eduface.ru,edumsko.ru#@#.cookies_popup
