@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202505170723
+! Version: 202505170953
 ! Title: EasyList
-! Last modified: 17 May 2025 07:23 UTC
+! Last modified: 17 May 2025 09:53 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -42991,6 +42991,7 @@ browsershots.org#@#.advert_area
 ||behave.com^$third-party
 ||belointeractive.com^$third-party
 ||benfly.net^$third-party
+||beop.io^$third-party
 ||beringmedia.com^$third-party
 ||bestcasinopartner.com^$third-party
 ||bestcontentcompany.top^$third-party
@@ -43123,6 +43124,7 @@ browsershots.org#@#.advert_area
 ||coinmedia.co^$third-party
 ||cointraffic.io^$third-party
 ||coinzilla.io^$third-party
+||collectiveaudience.co^$third-party
 ||commissionfactory.com.au^$third-party
 ||commissionmonster.com^$third-party
 ||comscore.com^$third-party
@@ -58617,6 +58619,7 @@ sashares.co.za##a[data-wpel-link="external"]
 pinterest.at,pinterest.ca,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt##a[href*="&epik="]
 imgpile.com,linuxjournal.com,threatpost.com##a[href*="&utm_campaign="]
 hitbullseye.com##a[href*="&utm_medium="]
+codelist.cc##a[href*=".pxf.io/"] > img
 chicagoprowrestling.com##a[href*="//thecmf.com/"] > img
 chicagoprowrestling.com##a[href*="//www.aliciashouse.org/"] > img
 pcgamestorrents.com##a[href*="/gameadult/"]
@@ -60025,6 +60028,12 @@ yahoo.com##div[id^="darla-ad"]
 yahoo.com##div[id^="defaultWFPAD"]
 yahoo.com##div[id^="gemini-item-"]
 yahoo.com##div[style*="/ads/"]
+yahoo.com##div[style="height: 250px; width: 300px;"]
+yahoo.com##div[style="height: 250px; width: 970px;"]
+yahoo.com##div[style="height: 90px; width: 728px;"]
+yahoo.com##div[style="height:250px;width:300px"]
+yahoo.com##div[style="height:250px;width:970px"]
+yahoo.com##div[style="height:90px;width:728px"]
 mail.yahoo.com##li:has(a[href^="https://api.taboola.com/"])
 yahoo.com##li[data-test-locator="stream-related-ad-item"]
 ! youtube
