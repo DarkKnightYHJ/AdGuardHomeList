@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: rSL3Ahy4IdxigKrzYHbIjA
-! Version: 202505191321
+! Checksum: LCvdomtXjf5NgQdhiByJ9A
+! Version: 202505191411
 ! Title: ABP filters
-! Last modified: 19 May 2025 13:21 UTC
+! Last modified: 19 May 2025 14:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1776,6 +1776,8 @@ mercadolibre.*#$#hide-if-matches-xpath './/span[contains(@class,"ui-recommendati
 ! tb
 mercadolivre.com.br#$#hide-if-matches-xpath '//h2[contains(@class,"hero__right-section-text-promoted-typography")][text()]/ancestor-or-self::div[contains(@class,"andes-card")][@id]'
 mercadolibre.*#$#hide-if-matches-xpath '//h2[contains(@class,"hero__right-section-text-promoted-typography")][text()]/ancestor-or-self::div[contains(@class,"andes-card")][@id]'
+! ba
+mercadolivre.*,mercadolibre.*#$#hide-if-matches-xpath './/span[@class="ui-billboard-ad__title"]/ancestor::div[@id="ui-billboard-ad"]'
 ! #RM-6
 ! HP
 cdiscount.com#$#hide-if-matches-xpath './/img[contains(@src,"sponso")]/parent::a/ancestor::div[contains(@style,"background-color: rgb(255, 255, 255);")][.//div[contains(@style,"color: rgb(41, 56, 71);")]]'
