@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: ZH3YiCSLmhymFIEyoA7fvA
-! Version: 202505191701
+! Checksum: kwCME6S/0FTw4maYeDIiEQ
+! Version: 202505191811
 ! Title: ABP filters
-! Last modified: 19 May 2025 17:01 UTC
+! Last modified: 19 May 2025 18:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1655,7 +1655,7 @@ cafef.vn,gamek.vn,genk.vn,kenh14.vn,soha.vn,tuoitre.vn,afamily.vn,thanhnien.vn#$
 bongda365f.com#$#override-property-read isSkipAds true
 znews.vn#$#abort-on-property-read adtimaConfig
 baomoi.com#$#abort-on-property-write AdtimaRender
-www.supervisorkuehl.com#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
+whoopiandmaya.com#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 kenh14.vn#$#override-property-read Constants.allowAds false
 vndoc.com#$#override-property-read seconds 0
 phimvuihd.org#$#override-property-read urlAds ''
@@ -1665,7 +1665,7 @@ clipsex.xxx,gm.phimsexnhanh.tv,clipsex.cam,ww1.ditnhau.cc,ww12.sexkhongchemoi.co
 www.iosviet.com#$#override-property-read timer 0
 saigon24.net#$#abort-current-inline-script document.getElementById myModal
 cliphot69.pics#$#override-property-read a_vid 0
-www.supervisorkuehl.com#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
+whoopiandmaya.com#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
 www.diendancauduong.com#$#abort-on-property-read antiAdBlockerHandler
 ! Popup/Popunder/Clickunder
 fembed.com,survey-smiles.com,m.blogtruyenvn.org,viettoons.tv,vinaurl.net,anime7.site,anh.moe,maclife.io,xemphimjav.us,hoctot.hocmai.vn,ohaha79xxx.site,samtruyentranh.com,player.phimapi.com,noitu.site#$#abort-on-property-read open
@@ -1717,7 +1717,7 @@ animehay.tax#$#abort-current-inline-script Number ;break;case
 gocmod.com#$#abort-current-inline-script jQuery popup
 10gb.vn#$#abort-current-inline-script Promise detectedAdblock
 animevietsubs.net#$#abort-on-property-read _0x3f9b
-thichxemphim1.site#$#abort-on-property-read affUrls
+thichxemphim.live#$#abort-on-property-read affUrls
 motchill85.com,trumtruyen.live#$#abort-current-inline-script setTimeout Aff
 thiendia.pro#$#abort-current-inline-script $ open
 vlsexsuong.pro#$#abort-on-property-read Cookies
