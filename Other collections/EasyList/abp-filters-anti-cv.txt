@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: pIiZTfPo/WivofzAFqhqJQ
-! Version: 202505201231
+! Checksum: abV6fF8isOIJhlpHd1uBCQ
+! Version: 202505201321
 ! Title: ABP filters
-! Last modified: 20 May 2025 12:31 UTC
+! Last modified: 20 May 2025 13:21 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1905,7 +1905,7 @@ bol.com##section[data-group-name^="sponsored-products"]
 ! #RM-78
 ! SP & BA
 noon.com#$#hide-if-matches-xpath './/div[@class][contains(text(),"Sponsored") or contains(text(),"إعلان")]/ancestor::a[@href]/ancestor-or-self::div[contains(@class,"ProductBoxLinkHandler")]'
-noon.com#$#hide-if-matches-xpath './/span[@style][contains(text(),"Sponsored")]/ancestor::div[contains(@id,"adProductsListBanner-")][@style]/parent::div/parent::div[@id="modules-renderer"]'
+noon.com#$#hide-if-matches-xpath './/span[@style][contains(text(),"Sponsored")]/ancestor::div[contains(@id,"adProductsListBanner-")][@style]/parent::div/parent::div[@id="noon-modules"]'
 ! PP
 noon.com#$#hide-if-matches-xpath './/span[.="Ad"]/ancestor::a/parent::div[@data-qa]/parent::div[contains(@class,"PdpTopSlotDesktop_pdpContainer")]'
 noon.com#$#hide-if-matches-xpath './/span[@class][contains(text(),"Sponsored")]/ancestor::div[@id][1]/parent::div[@style][contains(@id,"adMultiProductsBanner")]/ancestor::div[contains(@class,"PdpWidgets_widgetContaine")]'
