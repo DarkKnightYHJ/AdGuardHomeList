@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: O+u6me+FieTtEFpm3QDitw
-! Version: 202505202311
+! Checksum: PAa3PO6aUU/Mrzq8ODA7Hg
+! Version: 202505210111
 ! Title: ABP filters
-! Last modified: 20 May 2025 23:11 UTC
+! Last modified: 21 May 2025 01:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1554,7 +1554,6 @@ horo.mail.ru,pogoda.mail.ru,tv.mail.ru#$#abort-on-property-read MrgContext
 minigames.mail.ru#$#abort-on-property-read MG_CONFIG.adv.fit_mimic
 mmminigames.mail.ru#$#abort-current-inline-script addEventListener advRefreshInterval
 okminigames.mail.ru#$#override-property-read appDriver.hasVideoAd false
-otvet.mail.ru#$#abort-on-property-read vueApp.$adv.Adblock._adblockDetected
 ~3igames.mail.ru,~account.mail.ru,~auto.mail.ru,~biz.mail.ru,~blog.mail.ru,~bonus.mail.ru,~calendar.mail.ru,~calls.mail.ru,~cloud.mail.ru,~connect.mail.ru,~deti.mail.ru,~dobro.mail.ru,~e.mail.ru,~finance.mail.ru,~gibdd.mail.ru,~health.mail.ru,~help.mail.ru,~hi-tech.mail.ru,~horo.mail.ru,~kino.mail.ru,~lady.mail.ru,~love.mail.ru,mail.ru,~mcs.mail.ru,~minigames.mail.ru,~mmminigames.mail.ru,~my.mail.ru,~news.mail.ru,~notes.mail.ru,~o2.mail.ru,~octavius.mail.ru,~okminigames.mail.ru,~otvet.mail.ru,~pets.mail.ru,~player-smotri.mail.ru,~pogoda.mail.ru,~todo.mail.ru,~top.mail.ru,~touch.mail.ru,~tv.mail.ru,~vfokuse.mail.ru,~widgets.mail.ru#$#replace-fetch-response 'result' '.' 'banner'
 mail.ru#$#hide-if-contains-visible-text /Реклама/ 'div.tgb-wrapper' span
 e.mail.ru#$#array-override push /adv-content|slot/
