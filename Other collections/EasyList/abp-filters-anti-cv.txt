@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 5jIxyvy9aReayWWkRO81DQ
-! Version: 202505221411
+! Checksum: clVl417G3zv8+KWuW20RQg
+! Version: 202505221511
 ! Title: ABP filters
-! Last modified: 22 May 2025 14:11 UTC
+! Last modified: 22 May 2025 15:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1959,7 +1959,7 @@ knuspr.de#$#hide-if-matches-xpath '//span[contains(., "Sponsored") or contains(.
 staples.com#$#hide-if-matches-xpath './/img[@alt="Sponsored Products"]/parent::picture/ancestor::div[@class][string-length(@class) < 16][1]'
 ! #RM-194
 ! SP
-fiverr.com#$#hide-if-matches-xpath './/div[contains(@class, "gig-card-layout")]//span/div[@class="bmo8dz1" and string-length(@class) = 7]/ancestor-or-self::div[@class="gig-card-layout"][1]'
+fiverr.com#$#hide-if-contains-and-matches-style '' 'div.gig-card-layout' 'span>div' /./ /PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iMTgiIGZpbGw9Im5vb/
 ! #RM-146
 ! ba
 mundi.com.br#$#hide-if-contains-visible-text /Anúncio/ 'div[role][tabindex^="0"]' 'div[class]>div'
