@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: clVl417G3zv8+KWuW20RQg
-! Version: 202505221511
+! Checksum: AiYwNPZz5fKMcxa/xSmzYA
+! Version: 202505221611
 ! Title: ABP filters
-! Last modified: 22 May 2025 15:11 UTC
+! Last modified: 22 May 2025 16:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1469,7 +1469,6 @@ l2top.ru#$#abort-current-inline-script $ cleanAndEval
 rsload.net#$#abort-current-inline-script window.addEventListener load
 musify.club#$#abort-on-property-read get_ya_browser
 kakoysegodnyaprazdnik.ru,xn--80aaiebcrjcibi8adgdtsm9z.xn--p1ai#$#abort-on-property-read google_jobrunner
-cq.ru#$#prevent-listener DOMContentLoaded 'banners'
 ||cq.ru^$xmlhttprequest,header=cq-cache-bypassed
 shanson320.ru#$#abort-current-inline-script document.createElement atob
 coderlessons.com,facenews.ua,fixx.one,its-kids.ru,molitvy.guru,nizhny.ru,pro100hobbi.ru,publy.ru,samelectric.ru,svadba.expert,tehnobzor.ru,vibir.ru,100popugaev.ru#$#abort-on-property-read XMLHttpRequest
