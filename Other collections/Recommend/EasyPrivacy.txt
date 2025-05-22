@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: c7FwKfPsg7ItsDf7/k5KHA
-! Version: 202505221231
+! Checksum: 8b7sayab1WTp+YmQ0OcbIA
+! Version: 202505221321
 ! Title: EasyPrivacy
-! Last modified: 22 May 2025 12:31 UTC
+! Last modified: 22 May 2025 13:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2803,6 +2803,7 @@
 ://posthog.$script,domain=~posthog.com
 ://segment-api.
 ://segment-cdn.
+://stats.*/code/e.js
 ://t.targito.
 ://track.*/collect
 ://track.*/dye
@@ -6948,6 +6949,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||0stats.com^$third-party
 ||24log.it^$third-party
 ||accessi.it^$third-party
+||brevo.com^$third-party
 ||buzzoole.com^$third-party
 ||contatoreaccessi.com^$third-party
 ||cpmktg.com^$third-party
@@ -6994,6 +6996,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||webmobile.ws^$third-party
 ||websanalytic.com^$third-party
 ||whoseesyou.com^$third-party
+||yodalytics.com^$third-party
 ! Japanese
 ||accaii.com^$third-party
 ||accesstrade.net^$third-party
@@ -50910,7 +50913,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||sst.colemanfurniture.com^
 ||stats.splinder.com^
 ||stats.stylight.it^
-||stats.suedtirolerjobs.it^
 ||t.mediaset.it^
 ||tantifilm.top^*/ping
 ||timinternet.it/timmobilestatic/img/*.gif?
