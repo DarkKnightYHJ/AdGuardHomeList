@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: hfRKXcb2AiJIUqBM+vq1kw
-! Version: 202505262301
+! Checksum: UCToARC1gB0Ux6oxNbMnFw
+! Version: 202505270111
 ! Title: ABP filters
-! Last modified: 26 May 2025 23:01 UTC
+! Last modified: 27 May 2025 01:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -2060,6 +2060,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||eejestonsou.net^
 ||eidersrettory.com^
 ||encystkokil.com^
+||errandsracket.com^
 ||evertsmiggles.com^
 ||fabricforrel.com^
 ||feastfirefly.shop^
@@ -2117,6 +2118,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||oaxaubauls.com^
 ||odzcakey.com^
 ||ondatraflemish.com^
+||onlinehentai.tv^
 ||ostlerscil.com^
 ||otomacotelugu.com^
 ||platedmanlily.com^
@@ -2142,6 +2144,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||stulmunshent.com^
 ||stylf.com^
 ||synochaauca.com^
+||tacksnocks.top^
 ||taffykhirka.com^
 ||tammycooly.com^
 ||tampurunrig.com^
@@ -2165,11 +2168,11 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||yocksniacins.com^
 ! Regex rules
 ! Example: https://diwhuteshu.com/cmDf9.6kbt2/5blWStWBQz9dNODhgR4/NFTLEa0yN/SM0i0gO_DOgK1MMoTvQ/2c
-/^https?:\/\/[-a-z]{6,}\.(?:com?|info|pro|xyz)\/[a-d][-\.\/_A-Za-z][DHWXm][-\.\/_A-Za-z][59FVZ][-\.\/_A-Za-z][6swyz][-\.\/_A-Za-z][-\/_0-9a-zA-Z][-\.\/_A-Za-z][-\/_0-9a-zA-Z]{22,162}$/$third-party,match-case,script,xmlhttprequest,domain=bokepindo13.yoga
+/^https?:\/\/[-a-z]{6,}\.(?:com?|info|pro|xyz)\/[a-d][-\.\/_A-Za-z][DHWXm][-\.\/_A-Za-z][59FVZ][-\.\/_A-Za-z][6swyz][-\.\/_A-Za-z][-\/_0-9a-zA-Z][-\.\/_A-Za-z][-\/_0-9a-zA-Z]{22,162}$/$match-case,script,third-party,xmlhttprequest,domain=bokepindo13.yoga
 ! Example: https://paupsoborofoow.net/tag.min.js
-/^https?:\/\/[a-z]{8,15}\.(?:com|net)\/tag\.min\.js$/$third-party,script,match-case,domain=yomovies.golf|bolly4u.cx|kita.rest
+/^https?:\/\/[a-z]{8,15}\.(?:com|net)\/tag\.min\.js$/$match-case,script,third-party,domain=bolly4u.cx|kita.rest|yomovies.golf
 ! Example: https://on.lariidclee.com/gRxJoLFglkw/58823 & https://cf.dusksgaumish.com/rsqhHFN6IjGgcXgm/36606
-/^https?:\/\/(?:[a-z]+\.)?[0-9a-z]+(?:[-.][0-9a-z]+)?\.[a-z]{2,7}\/[0-9a-zA-Z]{3,26}\/\d{4,6}(?:\?[_a-z]=[-0-9a-z]+)?$/$third-party,match-case,script,domain=spedostream.com
+/^https?:\/\/(?:[a-z]+\.)?[0-9a-z]+(?:[-.][0-9a-z]+)?\.[a-z]{2,7}\/[0-9a-zA-Z]{3,26}\/\d{4,6}(?:\?[_a-z]=[-0-9a-z]+)?$/$match-case,script,third-party,domain=spedostream.com
 ! Example: https://adv.clickadu.net/get/2015067?zoneid= & https://appointeeivyspongy.com/get/1906172?zoneid= & https://isolatedovercomepasted.com/get/1897252?zoneid=
-/^https?:\/\/(?:[a-z]+\.)?[0-9a-z-]+\.[a-z]{2,7}\/get\/\d{6,7}(?:\?zoneid=.*)?$/$third-party,match-case,script,domain=nungxthai.me|pornnungxxx.me|xnxx.health
+/^https?:\/\/(?:[a-z]+\.)?[0-9a-z-]+\.[a-z]{2,7}\/get\/\d{6,7}(?:\?zoneid=.*)?$/$match-case,script,third-party,domain=nungxthai.me|pornnungxxx.me|xnxx.health
 ! *** abp-filters-anti-cv:3rd-party/cloudfront.txt ***
