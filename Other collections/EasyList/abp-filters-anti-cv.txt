@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: bE6TrZuAOKBqZj9S+EhSuw
-! Version: 202505271011
+! Checksum: hTolfkpAXhv+h3u9ENtx5A
+! Version: 202505271101
 ! Title: ABP filters
-! Last modified: 27 May 2025 10:11 UTC
+! Last modified: 27 May 2025 11:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1549,6 +1549,7 @@ sex-studentki.gold,seks-studentki.pro#$#prevent-listener DOMContentLoaded click_
 yastatic.net#$#abort-on-property-read Object.prototype.vast
 cosmonova-broadcast.tv#$#override-property-read amodule.data false
 rutube.ru#$#override-property-read Object.prototype.advert undefined
+player.starlight.digital#$#replace-fetch-response testadv
 ! #CV-547
 auto.mail.ru,hi-tech.mail.ru,cloud.mail.ru,horo.mail.ru,pogoda.mail.ru,tv.mail.ru#$#abort-on-property-write _mimic
 horo.mail.ru,pogoda.mail.ru,tv.mail.ru#$#abort-on-property-read MrgContext
