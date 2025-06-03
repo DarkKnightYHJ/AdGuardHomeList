@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: ivkjmgy2CpCrseCQ7Qe22w
-! Version: 202506031231
+! Checksum: EPDD9gNe3QQywQ2K+yWMng
+! Version: 202506031321
 ! Title: ABP filters
-! Last modified: 03 Jun 2025 12:31 UTC
+! Last modified: 03 Jun 2025 13:21 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1958,6 +1958,30 @@ fiverr.com#$#hide-if-contains-visible-text /Ad\ by/ 'div.gig-card-layout' 'span>
 ! #RM-146
 ! ba
 mundi.com.br#$#hide-if-contains-visible-text /Anúncio/ 'div[role][tabindex^="0"]' 'div[class]>div'
+! #RM-207
+||app.golfgalaxy.com^$domain=golfgalaxy.com|dickssportinggoods.com
+||telulr.golfgalaxy.com^$domain=golfgalaxy.com|dickssportinggoods.com
+||smetrics.golfgalaxy.com^$domain=golfgalaxy.com|dickssportinggoods.com
+||metrics.golfgalaxy.com^$domain=golfgalaxy.com|dickssportinggoods.com
+||app.dickssportinggoods.com^$domain=golfgalaxy.com|dickssportinggoods.com
+||inqjal.dickssportinggoods.com^$domain=golfgalaxy.com|dickssportinggoods.com
+||smetrics.dickssportinggoods.com^$domain=golfgalaxy.com|dickssportinggoods.com
+||mi.dickssportinggoods.com/p/js/1.js^$domain=golfgalaxy.com|dickssportinggoods.com
+||tag.*/scripts/px.gif?ch=2$domain=golfgalaxy.com|dickssportinggoods.com
+||tag.*/scripts/px.gif?ch=1$domain=golfgalaxy.com|dickssportinggoods.com
+||ad-*-prod.tagdelivery.com/request?$domain=golfgalaxy.com|dickssportinggoods.com
+||ad-*-prod.tagdelivery.com/impression?$domain=golfgalaxy.com|dickssportinggoods.com
+||ad.doubleclick.net/activity;register_conversion=$domain=golfgalaxy.com|dickssportinggoods.com
+||hlserve.com/Delivery/ClientPaths/Library/hook.js?$domain=golfgalaxy.com|dickssportinggoods.com
+||tpc.googlesyndication.com/sodar/$domain=golfgalaxy.com|dickssportinggoods.com
+||securepubads.g.doubleclick.net/pagead/$domain=golfgalaxy.com|dickssportinggoods.com
+||securepubads.g.doubleclick.net/gampad/ads?$domain=golfgalaxy.com|dickssportinggoods.com
+||securepubads.g.doubleclick.net/static/topics/topics_frame.html$subdocument,document,domain=golfgalaxy.com|dickssportinggoods.com
+||pagead2.googlesyndication.com^$subdocument,other,image,xmlhttprequest,domain=golfgalaxy.com|dickssportinggoods.com
+||googlesyndication.com/safeframe^$subdocument,document,domain=golfgalaxy.com|dickssportinggoods.com
+||ads.nextdoor.com/public/pixel/ndp.js$domain=golfgalaxy.com|dickssportinggoods.com
+golfgalaxy.com,dickssportinggoods.com##.google-ad-container
+dickssportinggoods.com##div[id*="dickssportinggoods/stores/top_banner_"]
 ! *** abp-filters-hotfix:hotfix.txt ***
 ! FDA-2994
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument
