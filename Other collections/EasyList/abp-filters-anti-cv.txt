@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: XFz9pr76+kpwk69QL7lyBQ
-! Version: 202506042001
+! Checksum: NmCYnkV6aJBvIZk6MF1ATw
+! Version: 202506042101
 ! Title: ABP filters
-! Last modified: 04 Jun 2025 20:01 UTC
+! Last modified: 04 Jun 2025 21:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1106,6 +1106,7 @@ neoseeker.com#$#hide-if-matches-xpath './/div[contains(@style,"text-align:center
 yts.*,yts-official.*#$#abort-on-property-read window.__adFormats;
 web.netmovies.*#$#hide-if-matches-xpath './/iframe[@style="width: 100% !important; height: 100% !important; margin: 0px; padding: 0px; border: none; outline: none; box-sizing: border-box; position: fixed; color-scheme: none; inset: 0px; overflow: hidden; z-index: 2147483646; display: block !important;"]/ancestor-or-self::iframe[1]'
 megacloud.*#$#hide-if-matches-xpath './/div[@id="megacloud-player"]//a[@id="closeBanner"][@style]'
+motortrend.com#$#hide-if-matches-xpath './/div[contains(@id,"ad-id-curated_abovenavad")][@data-ad="true"]/parent::div[contains(@class,"cls-helper")][1]'
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
