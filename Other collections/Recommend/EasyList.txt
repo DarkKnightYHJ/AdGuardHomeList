@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YztqQKsHK5C57BJ19BuTjw
-! Version: 202506060301
+! Checksum: KSbys4fZeol3TA5X/w1GAw
+! Version: 202506060411
 ! Title: EasyList
-! Last modified: 06 Jun 2025 03:01 UTC
+! Last modified: 06 Jun 2025 04:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -17992,6 +17992,7 @@ browsershots.org#@#.advert_area
 ||amylo.site^
 ||amyzjjwelnnnn.top^
 ||amzrjywmzllvm.top^
+||amzrjywmzlrvb.top^
 ||amzrjyzjolzvm.top^
 ||anacampaign.com^
 ||anaemiaperceivedverge.com^
@@ -41743,6 +41744,7 @@ browsershots.org#@#.advert_area
 ||ype7.com^
 ||ypedyumnpafvy.xyz^
 ||ypersonalrecome.com^
+||ypjwngduqswyyyl.com^
 ||yprocedentwith.com^
 ||yqeuu.com^
 ||yqjshgx.bar^
@@ -60306,17 +60308,17 @@ yahoo.com##div[style="height:90px;width:728px"]
 mail.yahoo.com##li:has(a[href^="https://api.taboola.com/"])
 yahoo.com##li[data-test-locator="stream-related-ad-item"]
 ! youtube
-! youtube.com###masthead-ad
 ! youtube.com###mealbar-promo-renderer
+youtube.com###below.ytd-watch-flexy.style-scope > ytd-merch-shelf-renderer.ytd-watch-flexy.style-scope > #main.style-scope.ytd-merch-shelf-renderer
+youtube.com###primary.ytd-two-column-browse-results-renderer.style-scope > ytd-rich-grid-renderer.ytd-two-column-browse-results-renderer.style-scope > #masthead-ad.ytd-rich-grid-renderer.style-scope
 youtube.com###shorts-inner-container > .ytd-shorts:has(> .ytd-reel-video-renderer > ytd-ad-slot-renderer)
-! youtube.com##.YtdShortsSuggestedActionStaticHostContainer
-! youtube.com##.ytd-merch-shelf-renderer
+youtube.com##.ytReelMetapanelViewModelHost > .ytReelMetapanelViewModelMetapanelItem > yt-shorts-suggested-action-view-model.ytShortsSuggestedActionViewModelStaticHost
+youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope > #contents.ytd-item-section-renderer.style-scope > ytd-search-pyv-renderer.ytd-item-section-renderer.style-scope
+youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope > #items.ytd-watch-next-secondary-results-renderer.style-scope > ytd-ad-slot-renderer.ytd-watch-next-secondary-results-renderer.style-scope
 ! www.youtube.com##.ytp-featured-product
 youtube.com##.ytp-suggested-action > button.ytp-suggested-action-badge
 m.youtube.com##lazy-list > ad-slot-renderer
-! youtube.com##ytd-ad-slot-renderer
 youtube.com##ytd-rich-item-renderer:has(> #content > ytd-ad-slot-renderer)
-! youtube.com##ytd-search-pyv-renderer
 m.youtube.com##ytm-companion-slot[data-content-type] > ytm-companion-ad-renderer
 m.youtube.com##ytm-rich-item-renderer > ad-slot-renderer
 !
