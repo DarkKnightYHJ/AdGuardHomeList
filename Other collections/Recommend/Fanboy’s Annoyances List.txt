@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WtKhzJ1k1BaqeM793QdQ+w
-! Version: 202506060411
+! Checksum: FrgYNnswVS59OSAT8qJDLQ
+! Version: 202506060511
 ! Title: Fanboy's Annoyance List
-! Last modified: 06 Jun 2025 04:11 UTC
+! Last modified: 06 Jun 2025 05:11 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -31875,6 +31875,7 @@ deviantart.com##.ReactModalPortal + div[class]:has(> iframe[title="DealerAdIfram
 airfry.pro##.bg-gradient-to-br:has-text(Cookbook)
 eventbrite.com##.event-card:has([class*="EventCardPromoted-module"])
 jinxxy.com##.grid > .relative:has(.block[href^="https://"])
+tripadvisor.*##a[href^="https://www.tripadvisor"][target="_blank"]:has(> section[aria-label])
 twitter.com,x.com##aside[role="complementary"]:has(> a[href="/i/premium_sign_up"])
 blitz.gg##div[class]:has(> .placeholder > [href^="/pro?utm_"])
 deviantart.com##div[role="complementary"] > div[class]:has(> div > iframe[title="DealerAdIframe"])
