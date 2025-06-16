@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: csnLxY4vjPa8eR5MTJmEvA
-! Version: 202506161411
+! Checksum: 9LmDM/LbjXR5pQu3yO2OPQ
+! Version: 202506161511
 ! Title: ABP filters
-! Last modified: 16 Jun 2025 14:11 UTC
+! Last modified: 16 Jun 2025 15:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -822,7 +822,7 @@ srsone.top#$#override-property-read googlecx noopFunc
 animepahe.ru,animepahe.org,animepahe.com#$#abort-on-property-read document.querySelector
 mediafire.com#$#abort-current-inline-script isWithinRect Pop
 videojav.com,pornpapa.com,fapguru.com#$#abort-on-property-read document.querySelectorAll
-4kporn.xxx,cambro.tv,mangovideo.club#$#abort-current-inline-script crakPopInParams; abort-on-property-read onload
+4kporn.xxx,cambro.tv,mangovideo.club#$#abort-current-inline-script crakPopInParams; abort-on-property-write onload
 redtube.*,pornhub.*,tube8.*,youporn.com#$#abort-current-inline-script Object.defineProperty trafficjunky
 redtube.com,tube8.com,tube8.es,tube8.fr,tube8.net##a[href*="advertising"]
 cine.to#$#abort-on-property-read document.head.appendChild
@@ -1103,6 +1103,8 @@ yts.*,yts-official.*#$#abort-on-property-read window.__adFormats;
 web.netmovies.*#$#hide-if-matches-xpath './/iframe[@style="width: 100% !important; height: 100% !important; margin: 0px; padding: 0px; border: none; outline: none; box-sizing: border-box; position: fixed; color-scheme: none; inset: 0px; overflow: hidden; z-index: 2147483646; display: block !important;"]/ancestor-or-self::iframe[1]'
 megacloud.*#$#hide-if-matches-xpath './/div[@id="megacloud-player"]//a[@id="closeBanner"][@style]'
 motortrend.com#$#hide-if-matches-xpath './/div[contains(@id,"ad-id-curated_abovenavad")][@data-ad="true"]/parent::div[contains(@class,"cls-helper")][1]'
+@@||hanime.tv^$generichide
+hanime.tv#$#override-property-read ABLK false
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
