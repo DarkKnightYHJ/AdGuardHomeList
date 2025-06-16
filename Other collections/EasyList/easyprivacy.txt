@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 3P75OwQMEn8uOB2+6TTabQ
-! Version: 202506152311
+! Checksum: b/KtKpgc+v4HkvzoXOiv4A
+! Version: 202506160131
 ! Title: EasyPrivacy
-! Last modified: 15 Jun 2025 23:11 UTC
+! Last modified: 16 Jun 2025 01:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2446,6 +2446,7 @@
 /tracking_pixel
 /tracking_unitary/*
 /trackingApi?type=
+/trackingClient.bundle.js
 /trackingCode-
 /trackingCode.js
 /trackingcookies.
@@ -3445,8 +3446,8 @@ omni.soundestlink.com$image
 ||hzstats.com^
 ||i218435.net^
 ||ia-dmp.com^
-||iconmediapixel.com^
 ||icg-in.com^
+||iconmediapixel.com^
 ||iconnode.com^
 ||id-ward.com^
 ||idx.lat^
@@ -50918,6 +50919,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||tracking.gaslicht.com^
 ||tracking.voordeeluitjes.nl^
 ||tvgids.nl/collect
+||tweakers.net/ajax/clicks/
 ||tweakers.nl/track/
 ||two.tio.nl^
 ||txrx.bol.com^
@@ -51548,7 +51550,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||umschool.net/_jts/api/s/track
 ||vedomosti.ru/boom?
 ||vesti.ru/counter/
-||vkvideo.ru/al_video.php?
+||vkvideo.ru/al_video.php?act=track
 ||vstat.rtr-vesti.ru^
 ||xapi.ozon.by/perf-metrics-collector/
 ||xapi.ozon.ru^$ping
