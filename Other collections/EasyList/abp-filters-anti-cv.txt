@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: sEF1trVHtu7s/jxsF+40QQ
-! Version: 202506181231
+! Checksum: p3I+hsUBWQZWEtZ5FHlasg
+! Version: 202506181321
 ! Title: ABP filters
-! Last modified: 18 Jun 2025 12:31 UTC
+! Last modified: 18 Jun 2025 13:21 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -286,6 +286,7 @@ horoskopy.cz,seznamzpravy.cz#$#hide-if-matches-xpath '//iframe[@src][@id]/parent
 novinky.cz#$#hide-if-matches-xpath './/div[@class][@style]/ancestor-or-self::div[@*="RENDERED" or @*="INITIALIZED" or @*="mol-advert"]'
 novinky.cz#$#hide-if-matches-xpath './/div[contains(@class,"ogm-advert-rectangle-inscreen")]'
 novinky.cz#$#replace-xhr-response /\{[^}]*"adFormat"[^}]*\}/g '{}' 'requestId'; hide-if-matches-xpath '//article[@*[starts-with(name(), "data-")] = "advert-item"]/parent::div[1]'
+novinky.cz#$#json-prune 'responsive width height'; abort-current-inline-script customElements.define;
 seznamzpravy.cz,sport.cz#$#hide-if-matches-xpath '//div[@class]/div[@*="mol-advert"]'
 ! #CV-780
 .cz/*,,*,|$xmlhttprequest,domain=ahaonline.cz|info.cz|onetv.cz
