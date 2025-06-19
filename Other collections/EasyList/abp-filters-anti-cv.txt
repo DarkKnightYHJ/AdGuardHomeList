@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: WWXUvs6GPan7vQDRzGciiQ
-! Version: 202506191511
+! Checksum: xI1z+yIvUFIwnCiVUB/ezA
+! Version: 202506191611
 ! Title: ABP filters
-! Last modified: 19 Jun 2025 15:11 UTC
+! Last modified: 19 Jun 2025 16:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -544,7 +544,7 @@ marketwatch.com#$#hide-if-contains-visible-text /Advertisement/ 'div[class^="con
 ! CV-1364
 ||html-load.com^$domain=convertcase.net|manta.com|wfmz.com|golf-live.at|eurointegration.com.ua|sourceforge.net|bab.la|pons.com|loawa.com|gazetaprawna.pl|malaymail.com|tz.de|winfuture.de|gutefrage.net|dictionary.cambridge.org|collinsdictionary.com
 ||error-report.com^$domain=sourceforge.net|bab.la|pons.com|loawa.com|gazetaprawna.pl|malaymail.com|tz.de|winfuture.de|gutefrage.net|dictionary.cambridge.org|huffpost.com|collinsdictionary.com
-convertcase.net,manta.com,wfmz.com,golf-live.at,eurointegration.com.ua,gazetaprawna.pl,sourceforge.net#$#abort-current-inline-script Symbol error-report.com
+convertcase.net,manta.com,wfmz.com,golf-live.at,eurointegration.com.ua#$#abort-current-inline-script Symbol error-report.com
 malaymail.com,dictionary.cambridge.org,collinsdictionary.com#$#abort-current-inline-script setTimeout /error-report.com/
 dictionary.cambridge.org,sourceforge.net,bab.la,pons.com,loawa.com,gazetaprawna.pl,malaymail.com,tz.de,winfuture.de,gutefrage.net,huffpost.com,collinsdictionary.com#$#blob-override '/.*/' 'modified'
 dictionary.cambridge.org,sourceforge.net,bab.la,pons.com,loawa.com,gazetaprawna.pl,malaymail.com,tz.de,winfuture.de,gutefrage.net,collinsdictionary.com#$#override-property-read window.confirm noopFunc
