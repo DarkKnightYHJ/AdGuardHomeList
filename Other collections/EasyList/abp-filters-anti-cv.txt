@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: cvoU9Ul1EG4MZVqgB6XizA
-! Version: 202506231321
+! Checksum: tlSzIlZBJUgETBvCnz9ghA
+! Version: 202506231411
 ! Title: ABP filters
-! Last modified: 23 Jun 2025 13:21 UTC
+! Last modified: 23 Jun 2025 14:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -544,6 +544,7 @@ marketwatch.com#$#hide-if-contains-visible-text /Advertisement/ 'div[class^="con
 ! CV-1364
 ||html-load.com^$script,xmlhttprequest,domain=convertcase.net|manta.com|wfmz.com|golf-live.at|eurointegration.com.ua|sourceforge.net|bab.la|pons.com|loawa.com|gazetaprawna.pl|malaymail.com|tz.de|winfuture.de|gutefrage.net|dictionary.cambridge.org|collinsdictionary.com
 ||error-report.com^$domain=sourceforge.net|bab.la|pons.com|loawa.com|gazetaprawna.pl|malaymail.com|tz.de|winfuture.de|gutefrage.net|dictionary.cambridge.org|huffpost.com|collinsdictionary.com
+dictionary.cambridge.org,bab.la,pons.com,loawa.com,gazetaprawna.pl,tz.de,winfuture.de,gutefrage.net,collinsdictionary.com#$#abort-on-iframe-property-write src
 gazetaprawna.pl,sourceforge.net,collinsdictionary.com#$#abort-on-iframe-property-write onmessage; prevent-listener visibilitychange; override-property-read frameElement undefined; abort-on-iframe-property-read contentWindow;
 convertcase.net,manta.com,wfmz.com,golf-live.at,eurointegration.com.ua#$#abort-current-inline-script Symbol error-report.com
 malaymail.com,dictionary.cambridge.org,collinsdictionary.com#$#abort-current-inline-script setTimeout /error-report.com/
@@ -1647,6 +1648,7 @@ aoe.vn#$#abort-on-property-read parseInt
 gametv.vn#$#abort-current-inline-script $ homeModal
 watchsb.com#$#abort-on-property-read __Y
 tinsoikeo.live#$#abort-on-property-read sessionStorage;abort-current-inline-script $ window.open
+tusachmanga.com#$#abort-current-inline-script $ window.open
 motchill.fail,ohaytv.pro#$#abort-on-property-read sessionStorage
 plvb.xyz,rk.plcdn.xyz#$#abort-on-property-read adsTvc; abort-on-property-read adsPlayer; abort-on-property-read ads; abort-on-property-read keyPlayer; abort-on-property-read adsPopupPlayer;
 hh3dhay.life,hh3dhay.xyz#$#abort-current-inline-script document.createElement /break|case/
