@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fWrNgC1hNYgWgNET60cyTQ
-! Version: 202506260911
+! Checksum: INCZexN2iF8rC8YUaMDLUQ
+! Version: 202506261011
 ! Title: EasyList
-! Last modified: 26 Jun 2025 09:11 UTC
+! Last modified: 26 Jun 2025 10:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -797,7 +797,10 @@ _reklama_$domain=~youtube.com
 ?bd=ppd&r=$document
 ! Ad-Shield
 /ad-shield/e/*$script,third-party
+/anymanagerrecover.js
+://loader.*.com/loader.min.js|$script,~third-party
 ://www.*.com/content/*/-1/$script,subdocument,third-party,xmlhttprequest
+://www.*.com/content/*/a/$subdocument,third-party,domain=~com|~edu|~gov|~net|~org
 ://www.*.com/script/*.com.js|$script,third-party
 ://www.*.com/script/*.org.js|$script,third-party
 ://www.*.xyz/content/*/-1/$script,subdocument,third-party,xmlhttprequest
@@ -25588,6 +25591,7 @@ browsershots.org#@#.advert_area
 ||fgbnnholonge.info^
 ||fgcurevocpkmh.space^
 ||fgeivosgjk.com^
+||fgfgwhvlpupud.com^
 ||fgglmbniqymcrqr.com^
 ||fgjaelzvzxtdq.rocks^
 ||fgjyhsfpywrgw.com^
@@ -32633,6 +32637,7 @@ browsershots.org#@#.advert_area
 ||monadplug.com^
 ||monarchstraightforwardfurnish.com^
 ||monassumph.shop^
+||monastydru.org^
 ||moncoerbb.com^
 ||monetag.com^
 ||monetarysportystamp.com^
@@ -33491,6 +33496,7 @@ browsershots.org#@#.advert_area
 ||nmfkkmyv.com^
 ||nmgwoawuwbnsj.space^
 ||nmhqtdyoacehfo.com^
+||nmhtwujmecgzi.store^
 ||nmimatrme.com^
 ||nmkli.com^
 ||nmvtgpccrnjttdv.com^
@@ -54430,6 +54436,8 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||linuxtracker.org/images/dw.png
 ||livescore.az/images/banners
 ||loader.crosswordsolver.com^
+||loader.the-crossword-solver.com^
+||loader.word-grabber.com^
 ||loader.worldhistory.org^
 ||lordchannel.com/adcash/
 ||lowfuelmotorsport.com/assets/img/partners/$image
