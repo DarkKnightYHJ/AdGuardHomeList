@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: t9z+j4XIURPOjiHKwANvkQ
-! Version: 202506272101
+! Checksum: oSs5xc+g++E+iKtmT27o9w
+! Version: 202506272211
 ! Title: ABP filters
-! Last modified: 27 Jun 2025 21:01 UTC
+! Last modified: 27 Jun 2025 22:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -284,7 +284,9 @@ ahaonline.czinfo.cz,onetv.cz,novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz,k
 ||userscontent.com^$image,domain=ahaonline.cz|info.cz|iprima.cz|kinobox.cz|kupi.cz|lidovky.cz|nasepenize.cz|novinky.cz|onetv.cz|sport.cz|super.cz
 horoskopy.cz,seznamzpravy.cz#$#hide-if-matches-xpath '//iframe[@src][@id]/parent::div[@class]/ancestor-or-self::div[@class][1][not(starts-with(@class,"twitter"))]'
 novinky.cz#$#hide-if-matches-xpath './/div[@class][@style]/ancestor-or-self::div[@*="RENDERED" or @*="INITIALIZED" or @*="mol-advert"]'
-novinky.cz#$#hide-if-matches-xpath './/div[contains(@class,"ogm-advert-rectangle-inscreen")]'
+novinky.cz#$#hide-if-matches-xpath '//div[@data-advert="sticky-container"]'
+novinky.cz#$#hide-if-matches-xpath '//span[text()]/ancestor::a[contains(@href,"ad-info")][@target]/ancestor-or-self::article/parent::div[1]'
+novinky.cz#$#hide-if-matches-xpath '//div[@*="mol-advert-content"]/ancestor::div[@class][contains(@style,"max-width:")]/parent::div[1]'
 novinky.cz#$#replace-xhr-response /\{[^}]*"adFormat"[^}]*\}/g '{}' 'requestId'; hide-if-matches-xpath '//article[@*[starts-with(name(), "data-")] = "advert-item"]/parent::div[1]'
 novinky.cz#$#json-prune 'responsive width height'; abort-current-inline-script customElements.define;
 seznamzpravy.cz,sport.cz#$#hide-if-matches-xpath '//div[@class]/div[@*="mol-advert"]'
@@ -944,7 +946,7 @@ upload.ee,ianimes.co,ianimes.top#$#abort-on-property-read adcashMacros
 gamefront.com#$#abort-current-inline-script $ AdBlock
 kickassanime.io##.ka-ax-wrp.mb-3
 imagefap.com#$#abort-on-property-read popCookie
-igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#hide-if-matches-xpath './/img[@alt][starts-with(@src,"/wp-content/uploads/")]/ancestor-or-self::a[contains(@href,"offer=")]/parent::div[1]'
+igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#hide-if-matches-xpath './/img[@alt][starts-with(@src,"/wp-content/uploads/")]/ancestor-or-self::a[contains(@href,"?affer=")]/parent::div[1]'
 igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#abort-on-property-write advanced_ads_ready; prevent-listener iframe; abort-current-inline-script addEventListener document.createElement; abort-on-property-read window.open; abort-current-inline-script document.documentElement break;case $.
 searchenginereports.net#$#abort-on-property-read adsbygoogle
 amyscans.com##div[class*="code-block"]
