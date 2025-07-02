@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: Z+zEv6A78QQKaWU/wFqTuQ
-! Version: 202507021111
+! Checksum: 7/T+mI6gH5fJ2M7y33VMyg
+! Version: 202507021221
 ! Title: ABP filters
-! Last modified: 02 Jul 2025 11:11 UTC
+! Last modified: 02 Jul 2025 12:21 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1838,7 +1838,7 @@ www.booking.com#$#hide-if-contains-visible-text /Ad|Annonce|Annonse|Annons|Annun
 cvs.com#$#hide-if-matches-xpath './/div[@class]/*[contains(@shelf-type,"criteo")]/ancestor::div[@class][1]'
 cvs.com##.stencil-criteo-shelf
 ! SP
-cvs.com#$#hide-if-contains-visible-text /(Sponsored)/ 'div[style="width: 25%;"]' 'div[dir^="auto"]'
+cvs.com#$#hide-if-contains-visible-text /(Sponsored)/ 'div[style^="width:"]' 'div[dir^="auto"]'
 ! PP
 cvs.com#$#hide-if-contains /Sponsored/ 'cvs-shop-product-shelf-container' 'cvs-shop-product-shelf-container ^^sh^^ * ^^sh^^ section[id] span'
 cvs.com#$#hide-if-contains /Sponsored/ 'div>div *[new-ec-recommendations] ^^sh^^ * ^^sh^^ * ^^sh^^ section[id] ul>li' 'div>div *[new-ec-recommendations] ^^sh^^ * ^^sh^^ * ^^sh^^ section[id] ul>li>* ^^sh^^ div>div.sponsored-container>span'
