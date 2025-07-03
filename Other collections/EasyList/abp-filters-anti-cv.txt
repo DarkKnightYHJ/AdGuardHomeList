@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: bQn8UlDyz6CobRSZYktU+w
-! Version: 202507032201
+! Checksum: rPn5rzOwB+3uFCqeHeph0Q
+! Version: 202507032311
 ! Title: ABP filters
-! Last modified: 03 Jul 2025 22:01 UTC
+! Last modified: 03 Jul 2025 23:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1954,7 +1954,8 @@ tokopedia.com#$#hide-if-contains /^Ad$/ 'div[data-testid^="divProductGrid"], div
 tokopedia.com#$#hide-if-contains /^Ad$/ 'div[class$="carousel"]>div[class][style]' 'a[class][data-theme] span'
 ! #RM-176
 ! sp
-aboutyou.*#$#hide-if-matches-xpath './/a[@data-product-tile-gallery-mode-hover]/following::button/span[@class][@style]/ancestor::li[contains(@data-testid,"productTileTracker")]'; aboutyou.*#$#hide-if-has-and-matches-style 'span' 'li[data-testid*="productTileTracker"]' 'button.w1app11q' '/display.*flex/';
+aboutyou.*#$#hide-if-matches-xpath './/a[@data-product-tile-gallery-mode-hover]/following::button/span[@class][@style]/ancestor::li[contains(@data-testid,"productTileTracker")]'
+aboutyou.*#$#hide-if-has-and-matches-style 'span' 'li[data-testid*="productTileTracker"]' 'button[class^="w1app11q"][tabindex="-1"]' 'line-height'
 ! pp
 aboutyou.*#$#hide-if-matches-xpath './/a[@data-product-tile-gallery-mode-hover]/following::button/span[@class][@style]/ancestor::li[contains(@data-testid,"productTileTracker")]/parent::ul[@data-testid]/ancestor::section[@style]'
 ! #RM-180
