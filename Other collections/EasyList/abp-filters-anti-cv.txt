@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: RGQCpBvSHhv6rC5Clm3+Nw
-! Version: 202507071701
+! Checksum: E8/0EpT0h4wMrXPJg+qnVA
+! Version: 202507071811
 ! Title: ABP filters
-! Last modified: 07 Jul 2025 17:01 UTC
+! Last modified: 07 Jul 2025 18:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1401,7 +1401,7 @@ filmehd.to##iframe[src][style]
 zen.yandex.ru##div[class*="is-parent-size_undefined"]
 ~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,~telephony.yandex.ru,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr##div[class*="item_type_"][class*="item_rendered"]
 ||razlozhi.ru^$script,header=report-to
-avtovzglyad.ru,dni.ru,baby.ru,selflib.me#$#abort-on-property-read Ya
+avtovzglyad.ru,baby.ru,dni.ru,kufar.by,russian7.ru,selflib.me,ura.news,www.goha.ru,3dnews.ru#$#abort-on-property-read Ya
 kakprosto.ru#$#abort-current-inline-script document.createElement String.fromCharCode; abort-on-property-write window.yaProxy; abort-on-property-write Object.defineProperty
 ||liveinternet.ru^$xmlhttprequest,header=Uniformat-Product-Type
 otzovik.com#$#abort-on-property-read Object.prototype.RtbBlockCreateWrapper
@@ -1437,7 +1437,6 @@ gidonline.eu,torrent-soft.net#$#abort-on-property-read atob
 sm.news#$#abort-current-inline-script decodeURIComponent blocked
 7ogorod.ru,autonevod.ru,shtrafsud.ru,tophallclub.ru,zazloo.ru#$#abort-on-property-read fpm_attr
 hitfm.ua,kissfm.ua,radiorelax.ua,radioroks.ua,rusradio.ua#$#abort-on-property-write prerole_length
-www.goha.ru,3dnews.ru,avtovzglyad.ru,baby.ru,dni.ru,kufar.by,ura.news#$#abort-on-property-read Ya
 myjane.ru,omskpress.ru,astrakhan.ru,tambovnet.org#$#abort-on-property-read kav_cn
 krolik.biz#$#abort-current-inline-script document.createElement
 sinoptik.ua#$#abort-on-property-read SIN.globals.ADBLOCK_DETECTED
