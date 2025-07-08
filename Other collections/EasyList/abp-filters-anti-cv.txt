@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 8tQ+A0jrQ2Bu/9qjuOUfqg
-! Version: 202507081611
+! Checksum: xm3aqrThBvJ4DqNcyoPtuw
+! Version: 202507081711
 ! Title: ABP filters
-! Last modified: 08 Jul 2025 16:11 UTC
+! Last modified: 08 Jul 2025 17:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1830,6 +1830,7 @@ ebay.*#$#hide-if-matches-xpath './/span[contains(@class,"items-carousel")][conta
 ebay.*#$#hide-if-contains-visible-text /(Sponsored|Anzeige|Sponsorisé|Commandité|Sponsorizzato|Sponsorowane|Gesponsord|Patrocinado)/ 'ul.srp-results>li.s-item' 'span[data-w]' 'color: rgba(0,0,0,1)' '-ignore-padding:true' '-disable-bg-color-check: true'
 ebay.*#$#hide-if-contains-and-matches-style /Sponsored|Anzeige|Sponsorisé|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助/ li 'div.s-item__detail > span.s-item__sep > div ^^sh^^ span' /./ ' height: 20px;'
 ebay.*#$#hide-if-contains-visible-text /(Sponsored|Anzeige|Sponsorisé|Commandité|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助)/ li 'span.s-item__sep > span[aria-labelledby]'
+ebay.*#$#hide-if-has-and-matches-style * li 'li span.s-item__sep > div[aria-labelledby]' /./ '/transform: matrix3d\\([-\\.\\d]+, [-\\.\\d]+, [-\\.\\d]+, [-\\.\\d]+, [-\\.\\d]+, 1/'
 ! #RM-13
 www.booking.com#$#hide-if-contains-visible-text /Ad|Annonce|Annonse|Annons|Annuncio|Anunci|Anuncio|Anúncio|Anzeige|Iklan|Kostað|Mainos|Oglas|Promovată|Publicidad|Publicité|Quảng|Reklaam|Reklam|Reklama|Reklám|Reklāma|Διαφήμιση|[Рр]еклама|إعلان|광고|広告|付费推广|贊助|מודעה|विज्ञापन|โฆษณา/ 'div+div[data-testid^="property-card"]' 'span[tabindex] span'
 ! #RM-14
