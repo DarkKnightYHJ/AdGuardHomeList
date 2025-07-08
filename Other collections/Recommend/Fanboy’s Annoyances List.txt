@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9Z5+YuOIYJYZLlY7QwGpzw
-! Version: 202507080711
+! Checksum: KVKVaT113WY27WGxZDcRQw
+! Version: 202507080811
 ! Title: Fanboy's Annoyance List
-! Last modified: 08 Jul 2025 07:11 UTC
+! Last modified: 08 Jul 2025 08:11 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -31870,6 +31870,7 @@ softwarekeep.com##img[alt="Banner"]
 gettr.com##img[alt="GETTR coin"]
 msn.com##views-right-rail
 ! :has
+woolworths.co.nz###cartology-product-cig-tile:has-text(Start Free Trial)
 twitter.com,x.com###layers[style="z-index: 1;"]:has(div[role="dialog"] a[href="/i/premium_sign_up"][style])
 deviantart.com##.ReactModalPortal + div[class]:has(> iframe[title="DealerAdIframe"])
 airfry.pro##.bg-gradient-to-br:has-text(Cookbook)
@@ -31878,6 +31879,7 @@ jinxxy.com##.grid > .relative:has(.block[href^="https://"])
 theworld.org##.mui-style-9ulf7o-root:has-text(Donate today!)
 tripadvisor.*##a[href^="https://www.tripadvisor"][target="_blank"]:has(> section[aria-label])
 twitter.com,x.com##aside[role="complementary"]:has(> a[href="/i/premium_sign_up"])
+woolworths.co.nz##cdx-cta:has-text(Learn more)
 blitz.gg##div[class]:has(> .placeholder > [href^="/pro?utm_"])
 deviantart.com##div[role="complementary"] > div[class]:has(> div > iframe[title="DealerAdIframe"])
 ! :-abp-contains
