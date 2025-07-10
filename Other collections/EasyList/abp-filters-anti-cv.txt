@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: +eOOvxP1Ip+sVxXSvEdjHA
-! Version: 202507101231
+! Checksum: zomQ725qT7hQuj0Uz3KKvQ
+! Version: 202507101311
 ! Title: ABP filters
-! Last modified: 10 Jul 2025 12:31 UTC
+! Last modified: 10 Jul 2025 13:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1976,6 +1976,9 @@ fiverr.com##div[data-impression-collected="true"]:has(a[href*="ad_key="])
 ! #RM-146
 ! ba
 mundi.com.br#$#hide-if-contains-visible-text /Anúncio/ 'div[role][tabindex^="0"]' 'div[class]>div'
+! #RM-112
+! mc
+sameday.costco.com#$#hide-if-matches-xpath '//div[@id]/a//div[descendant::span[contains(text(), "Spons")] and descendant::span[contains(@style, "inline-flex")]]/ancestor::div[3]'
 ! #RM-207
 ||app.golfgalaxy.com^$domain=golfgalaxy.com|dickssportinggoods.com
 ||telulr.golfgalaxy.com^$domain=golfgalaxy.com|dickssportinggoods.com
