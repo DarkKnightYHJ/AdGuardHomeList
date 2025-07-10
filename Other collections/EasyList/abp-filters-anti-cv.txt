@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: Z7s7YBMy62A+MdOLKsEzWA
-! Version: 202507101701
+! Checksum: Rs9zr5pqwGqfQ/T0SSa1Rg
+! Version: 202507101811
 ! Title: ABP filters
-! Last modified: 10 Jul 2025 17:01 UTC
+! Last modified: 10 Jul 2025 18:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -290,6 +290,8 @@ novinky.cz#$#hide-if-matches-xpath '//div[@*="mol-advert-content"]/ancestor::div
 novinky.cz#$#replace-xhr-response /\{[^}]*"adFormat"[^}]*\}/g '{}' 'requestId'; hide-if-matches-xpath '//article[@*[starts-with(name(), "data-")] = "advert-item"]/parent::div[1]'
 novinky.cz#$#json-prune 'responsive width height'; abort-current-inline-script customElements.define;
 seznamzpravy.cz,sport.cz#$#hide-if-matches-xpath '//div[@class]/div[@*="mol-advert"]'
+novinky.cz#$#hide-if-matches-xpath '//iframe[@sandbox][contains(@style, "width: 100%")]/ancestor::div[@*[starts-with(name(), "data-") and contains(name(), "advert")]]/parent::div[1]'
+novinky.cz#$#abort-on-iframe-property-write postMessage; abort-on-property-write $sf; abort-on-iframe-property-read addEventListener;
 ! #CV-780
 .cz/*,,*,|$xmlhttprequest,domain=ahaonline.cz|info.cz|onetv.cz
 =autapay/*,|$xmlhttprequest,domain=ahaonline.cz|info.cz|onetv.cz
