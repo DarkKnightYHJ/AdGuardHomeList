@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: /nh7mgLUD7fllycVixBCHA
-! Version: 202507171321
+! Checksum: xxlUN5JmSifI1wGMgXijZw
+! Version: 202507171411
 ! Title: ABP filters
-! Last modified: 17 Jul 2025 13:21 UTC
+! Last modified: 17 Jul 2025 14:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1974,7 +1974,7 @@ knuspr.de#$#hide-if-matches-xpath '//span[contains(., "Sponsored") or contains(.
 staples.com#$#hide-if-matches-xpath './/img[@alt="Sponsored Products"]/parent::picture/ancestor::div[@class][string-length(@class) < 16][1]/ancestor::div[.//div[@role="listitem"]][1]'
 ! #RM-194
 ! SP
-fiverr.com#$#race start; hide-if-contains-visible-text /Ad\ by/ 'div.gig-card-layout' 'span>span'; hide-if-matches-xpath '//div[@class="gig-card-layout"][.//img[contains(@src, "agHFT05EAvKXDbvc.png") or contains(@src, "bnTGzfwOOnlzreMw.png") or contains(@src, "U9cnE4LOje2h2EmJ.png") or contains(@src, "JcMEKQ6h1VvQM5P0.png")]]'; race stop;
+fiverr.com#$#race start; hide-if-contains-visible-text /Ad\ by/ 'div.gig-card-layout' 'span>span'; hide-if-matches-xpath '//div[@class="gig-card-layout"][.//img[contains(@src, "agHFT05EAvKXDbvc.png") or contains(@src, "bnTGzfwOOnlzreMw.png") or contains(@src, "U9cnE4LOje2h2EmJ.png") or contains(@src, "JcMEKQ6h1VvQM5P0.png") or contains(@src, "JGewspVgkF9MK4h6.png") or contains(@src, "2A4XWa3iGyWPnnWT.png") or contains(@src, "GTyrHxLcGDg3p2ml.png") or contains(@src, "GgNMzQScUbBlENxW.png")]]'; race stop;
 fiverr.com##div[data-impression-collected="true"]:has(a[href*="ad_key="])
 ! #RM-146
 ! ba
