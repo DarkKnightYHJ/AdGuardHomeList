@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: catbxKZAT0LyPHIxLUu8gA
-! Version: 202507221011
+! Checksum: ofkM3z/Fn4tsjltMZVr1ew
+! Version: 202507221111
 ! Title: ABP filters
-! Last modified: 22 Jul 2025 10:11 UTC
+! Last modified: 22 Jul 2025 11:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1670,7 +1670,7 @@ cafef.vn,gamek.vn,genk.vn,kenh14.vn,soha.vn,tuoitre.vn,afamily.vn,thanhnien.vn#$
 bongda365f.com#$#override-property-read isSkipAds true
 znews.vn#$#abort-on-property-read adtimaConfig
 baomoi.com#$#abort-on-property-write AdtimaRender
-farmedanddangerous.org#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
+tipplingclub.com#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 kenh14.vn#$#override-property-read Constants.allowAds false
 vndoc.com#$#override-property-read seconds 0
 phimvuihd.org#$#override-property-read urlAds ''
@@ -1680,11 +1680,11 @@ clipsex.xxx,gm.phimsexnhanh.tv,clipsex.cam,ww1.ditnhau.cc,ww12.sexkhongchemoi.co
 www.iosviet.com#$#override-property-read timer 0
 saigon24.net#$#abort-current-inline-script document.getElementById myModal
 cliphot69.pics#$#override-property-read a_vid 0
-farmedanddangerous.org#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
+tipplingclub.com#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
 www.diendancauduong.com#$#abort-on-property-read antiAdBlockerHandler
 xem15.net#$#json-prune props.children.[].props.tvc
 ! Popup/Popunder/Clickunder
-fembed.com,survey-smiles.com,viettoons.tv,vinaurl.net,anime10.site,anh.moe,maclife.io,xemphimjav.us,hoctot.hocmai.vn,ohaha79xxx.site,samtruyentranh.com,player.phimapi.com,noitu.site#$#abort-on-property-read open
+fembed.com,survey-smiles.com,viettoons.tv,vinaurl.net,anime11.site,anh.moe,maclife.io,xemphimjav.us,hoctot.hocmai.vn,ohaha79xxx.site,samtruyentranh.com,player.phimapi.com,noitu.site#$#abort-on-property-read open
 tvhay.top#$#abort-current-inline-script JSON.parse atob
 truyen247.pro#$#abort-current-inline-script eval
 www.gvnvh.net#$#abort-current-inline-script Math
@@ -1696,7 +1696,7 @@ metruyenchu.com#$#abort-on-property-write window.onclick
 momofilmfest.com#$#abort-on-property-read adsRedirectPopups
 linkneverdie.net,linkneverdie.top,linkneverdie2.com#$#abort-current-inline-script document.createElement optad;abort-on-property-read pushOnPageGala
 javnong.cc#$#abort-on-property-read Math.round
-viet69.fo,truyengihotnay.com,dualeotruyenp.com,yurineko.my,haysex.ai,phimsexhay669.pro,cliphot69.beer,doctruyen3qui12.pro,ihentai.cloud,animehay.ceo,hentaivl.top,streamvl.top,buomtv.live,truyenvn.shop,javtiful.com,quatvn.love,tenmientruyengi.net,vn53phimsexhay.com,phim18hdxx.com,vn5.sexviet88.xyz,demo.14412882.com,sexmup3x.net,cliphot69.pics,hhtq5.vip,sexdiary.club,vn2.xvideos69.xxx,umetruyenhay.com,damconuong.cam,truyenqqgo.com,clipsexsub3x.net,sayhentaii.art#$#abort-current-inline-script WebAssembly instantiate
+viet69.fo,truyengihotnay.com,dualeotruyenp.com,yurineko.my,haysex.ai,phimsexhay669.pro,cliphot69.beer,doctruyen3qui12.pro,ihentai.cloud,animehay.ceo,hentaivl.top,streamvl.top,buomtv.live,truyenvn.shop,javtiful.com,quatvn.love,tenmientruyengi.net,vn55phimsexhay.com,phim18hdxx.com,vn5.sexviet88.xyz,demo.14412882.com,sexmup3x.net,cliphot69.pics,hhtq5.vip,sexdiary.club,vn2.xvideos69.xxx,umetruyenhay.com,damconuong.run,truyenqqgo.com,clipsexsub3x.net,sayhentaii.art#$#abort-current-inline-script WebAssembly instantiate
 www.phimdinhcao.online,motchill97.com,xnhau.sh,teamlanhlung8.shop,xemphimjav.us#$#abort-on-property-read localStorage
 phimgichill.net#$#abort-current-inline-script jQuery popurl
 phimgichill.net,hh3dhay.life,tram3d.net,animevietsub.cam#$#abort-current-inline-script eval $._Eu
@@ -1978,7 +1978,7 @@ knuspr.de#$#hide-if-matches-xpath '//span[contains(., "Sponsored") or contains(.
 staples.com#$#hide-if-matches-xpath './/img[@alt="Sponsored Products"]/parent::picture/ancestor::div[@class][string-length(@class) < 16][1]/ancestor::div[.//div[@role="listitem"]][1]'
 ! #RM-194
 ! SP
-fiverr.com#$#race start; hide-if-contains-visible-text /Ad\ by/ 'div.gig-card-layout' 'span>span'; hide-if-matches-xpath '//div[@class="gig-card-layout"][.//img[contains(@src, "agHFT05EAvKXDbvc.png") or contains(@src, "bnTGzfwOOnlzreMw.png") or contains(@src, "U9cnE4LOje2h2EmJ.png") or contains(@src, "JcMEKQ6h1VvQM5P0.png") or contains(@src, "JGewspVgkF9MK4h6.png") or contains(@src, "2A4XWa3iGyWPnnWT.png") or contains(@src, "GTyrHxLcGDg3p2ml.png") or contains(@src, "GgNMzQScUbBlENxW.png") or contains(@src, "UP4Ej9TdL292hSPa.png") or contains(@src, "TAPk94dcjBsPvK9M.png") or contains(@src, "eSMzWAklGy8xYXPq.png") or contains(@src, "N1Gclm5BgpEBeYOG.png") or contains(@src, "3uNJLRyzL3oTAJw7.png") or contains(@src, "zdDl6LsZaOqbCNFQ.png") or contains(@src, "P2vg0q2Qj5qz3fln.png") or contains(@src, "TyuiUv3NNGlsGr7W.png")]]'; race stop;
+fiverr.com#$#race start; hide-if-contains-visible-text /Ad\ by/ 'div.gig-card-layout' 'span>span'; hide-if-matches-xpath '//div[@class="gig-card-layout"][.//img[contains(@src, "agHFT05EAvKXDbvc.png") or contains(@src, "bnTGzfwOOnlzreMw.png") or contains(@src, "U9cnE4LOje2h2EmJ.png") or contains(@src, "JcMEKQ6h1VvQM5P0.png") or contains(@src, "JGewspVgkF9MK4h6.png") or contains(@src, "2A4XWa3iGyWPnnWT.png") or contains(@src, "GTyrHxLcGDg3p2ml.png") or contains(@src, "GgNMzQScUbBlENxW.png") or contains(@src, "UP4Ej9TdL292hSPa.png") or contains(@src, "TAPk94dcjBsPvK9M.png") or contains(@src, "eSMzWAklGy8xYXPq.png") or contains(@src, "N1Gclm5BgpEBeYOG.png") or contains(@src, "3uNJLRyzL3oTAJw7.png") or contains(@src, "zdDl6LsZaOqbCNFQ.png") or contains(@src, "P2vg0q2Qj5qz3fln.png") or contains(@src, "TyuiUv3NNGlsGr7W.png")]]';hide-if-matches-xpath '//div[@class="gig-card-layout"][.//img[contains(@src, "agHFT05EAvKXDbvc.png") or contains(@src, "bnTGzfwOOnlzreMw.png") or contains(@src, "U9cnE4LOje2h2EmJ.png") or contains(@src, "JcMEKQ6h1VvQM5P0.png") or contains(@src, "JGewspVgkF9MK4h6.png") or contains(@src, "2A4XWa3iGyWPnnWT.png") or contains(@src, "GTyrHxLcGDg3p2ml.png") or contains(@src, "GgNMzQScUbBlENxW.png") or contains(@src, "UP4Ej9TdL292hSPa.png") or contains(@src, "TAPk94dcjBsPvK9M.png") or contains(@src, "eSMzWAklGy8xYXPq.png") or contains(@src, "N1Gclm5BgpEBeYOG.png") or contains(@src, "Wj7tHayc9nQLH3Mh.png") or contains(@src, "4mLDlXnnf66HBEt1.png") or contains(@src, "NZfW27JrvQYc7l1j.png") or contains(@src, "TCmrzRBoCcQMTm5F.png")]]'; race stop;
 fiverr.com##div[data-impression-collected="true"]:has(a[href*="ad_key="])
 ! #RM-146
 ! ba
