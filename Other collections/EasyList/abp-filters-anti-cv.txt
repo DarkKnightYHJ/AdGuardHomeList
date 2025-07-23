@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: qmdCIPB6o4eHbJCOhgAuJg
-! Version: 202507231711
+! Checksum: AQ1VlrfWlFO9USP7+CNsEw
+! Version: 202507231821
 ! Title: ABP filters
-! Last modified: 23 Jul 2025 17:11 UTC
+! Last modified: 23 Jul 2025 18:21 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1799,7 +1799,7 @@ cdiscount.com#$#hide-if-matches-xpath './/article[contains(@class,"sponsored")]/
 ! PL
 cdiscount.com#$#hide-if-matches-xpath './/input[contains(@name,"Sponsored")]/ancestor::*[(self::article[contains(@class,"c-productCard")] and parent::li) or (self::form and ancestor::div[contains(@class,"prdtBlocInline")])]/ancestor::li[1]'; hide-if-canvas-contains Sponsorisé; hide-if-contains-and-matches-style '' 'li , div.l-fp-row' 'li custom-mentions , custom-mentions ^^sh^^ canvas' /./ 'background-image: repeating';  hide-if-contains-and-matches-style '' li 'custom-mentions ^^sh^^ canvas' '' 'display: none';
 ! #RM-8
-samsclub.com#$#race start; hide-if-contains-visible-text /(Sponsored)/ 'div > div[io-id]' 'div[data-testid^="variant-"] > div > div'; hide-if-matches-xpath './/span[@class="sc-specials-label"]/parent::div/ancestor::div[contains(@class,"promo-static")]/ancestor-or-self::li[1]; race stop;
+samsclub.com#$#race start; hide-if-contains-visible-text /(Sponsored)/ 'div > div[io-id]' 'div[data-testid^="variant-"] > div > div'; hide-if-matches-xpath './/span[@class="sc-specials-label"]/parent::div/ancestor::div[contains(@class,"promo-static")]/ancestor-or-self::li[1]'; race stop;
 samsclub.com#$#hide-if-contains-visible-text /Sponsored/ 'div[style][class]' span[class]
 samsclub.com#$#hide-if-matches-xpath './/span[@class="sc-specials-label"]/parent::div/ancestor::div[contains(@class,"buy-box")]/parent::div[1]'
 samsclub.com#$#hide-if-matches-xpath './/span[@class="sc-specials-label"]/following::a[@role="button"]/ancestor::div[@class="sc-sba-modules-logo"]/parent::div[contains(@class,"sc-sba-modules")][1]'
