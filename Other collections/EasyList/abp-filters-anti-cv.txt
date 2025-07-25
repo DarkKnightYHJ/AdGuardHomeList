@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 4wvYEcdxifUuRAL+eBqOVw
-! Version: 202507251451
+! Checksum: +xKijByIowzsGS1akUw74g
+! Version: 202507251551
 ! Title: ABP filters
-! Last modified: 25 Jul 2025 14:51 UTC
+! Last modified: 25 Jul 2025 15:51 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1563,6 +1563,7 @@ yastatic.net#$#abort-on-property-read Object.prototype.vast
 cosmonova-broadcast.tv#$#override-property-read amodule.data false
 rutube.ru#$#override-property-read Object.prototype.advert undefined
 player.starlight.digital#$#replace-fetch-response testadv
+lumex.space#$#replace-fetch-response /endtag|pausebanner|rolls/ '.' 'ads'
 ! #CV-547
 auto.mail.ru,hi-tech.mail.ru,cloud.mail.ru,horo.mail.ru,pogoda.mail.ru,tv.mail.ru#$#abort-on-property-write _mimic
 horo.mail.ru,pogoda.mail.ru,tv.mail.ru#$#abort-on-property-read MrgContext
