@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: TMlzkkRkpGEKg27fZEtcDw
-! Version: 202507301331
+! Checksum: UsutLGWDwDBv9hrinQqrOQ
+! Version: 202507301401
 ! Title: EasyList
-! Last modified: 30 Jul 2025 13:31 UTC
+! Last modified: 30 Jul 2025 14:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -18951,6 +18951,7 @@ browsershots.org#@#.advert_area
 ||auntieminiature.com^
 ||auntishmilty.com^
 ||auntreorblike.rest^
+||auntskaracul.shop^
 ||auphothuns.net^
 ||aurarclubber.shop^
 ||auras-loves-dreams.com^
@@ -30813,6 +30814,7 @@ browsershots.org#@#.advert_area
 ||kjljgkybjlnom.top^
 ||kjpfxbojgminv.site^
 ||kjpndvehwwq.com^
+||kjqhkqlllrjrl.online^
 ||kjsrpkibdjtyy.online^
 ||kjsvvnzcto.com^
 ||kjtmcaqwjgatx.xyz^
@@ -40191,6 +40193,7 @@ browsershots.org#@#.advert_area
 ||selwrite.com^
 ||semaisetything.com^
 ||semasu.net^
+||semeionfleet.cyou^
 ||semitaehecte.digital^
 ||semqraso.net^
 ||semsicou.net^
@@ -42858,6 +42861,7 @@ browsershots.org#@#.advert_area
 ||toptrendyinc.com^
 ||topworkredbay.shop^
 ||toquetbircher.com^
+||torchfriendlypay.com^
 ||tordiondisnew.shop^
 ||torebureaucracytrade.com^
 ||torejogging.com^
@@ -66920,6 +66924,8 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-abp-properties(data:)
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-abp-properties(image/)
 ! ABP CSS injection filters
+hitomi.la##.content > div[class]:not([class*="-"]) {min-height:45px !important;}
+hitomi.la##.top-content > div[class]:not([class*="-"]) {min-height:45px !important;}
 otomi-games.com##.clean-grid-grid-post:has(> [id^="otomi-"] + .clean-grid-grid-post-details-full) {remove:true;}
 ! 69games.xxx/gamcore/porcore.com
 classic.gamcore.com###center > .flashes > .wide:has(> a[href][rel])
