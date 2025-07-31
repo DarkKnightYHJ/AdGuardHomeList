@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: /GClVOYuVgD1fuIRdZS8lw
-! Version: 202507310911
+! Checksum: qFGj2WwjURCS1D9FDq14ag
+! Version: 202507311011
 ! Title: ABP filters
-! Last modified: 31 Jul 2025 09:11 UTC
+! Last modified: 31 Jul 2025 10:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1676,7 +1676,7 @@ cafef.vn,gamek.vn,genk.vn,kenh14.vn,soha.vn,tuoitre.vn,afamily.vn,thanhnien.vn#$
 bongda365f.com#$#override-property-read isSkipAds true
 znews.vn#$#abort-on-property-read adtimaConfig
 baomoi.com#$#abort-on-property-write AdtimaRender
-afterearth.com#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
+consocollaborative.com#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 kenh14.vn#$#override-property-read Constants.allowAds false
 vndoc.com#$#override-property-read seconds 0
 phimvuihd.org#$#override-property-read urlAds ''
@@ -1686,7 +1686,7 @@ clipsex.xxx,gm.phimsexnhanh.tv,clipsex.cam,ww1.ditnhau.cc,ww12.sexkhongchemoi.co
 www.iosviet.com#$#override-property-read timer 0
 saigon24.net#$#abort-current-inline-script document.getElementById myModal
 cliphot69.pics#$#override-property-read a_vid 0
-afterearth.com#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
+consocollaborative.com#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
 www.diendancauduong.com#$#abort-on-property-read antiAdBlockerHandler
 xem15.net#$#json-prune props.children.[].props.tvc
 ! Popup/Popunder/Clickunder
