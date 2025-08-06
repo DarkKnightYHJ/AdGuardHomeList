@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: MQyq7OL2XxGbyZKo/Y59+w
-! Version: 202508061711
+! Checksum: LsWHA8+M10oNIGtRI3X8HA
+! Version: 202508061821
 ! Title: ABP filters
-! Last modified: 06 Aug 2025 17:11 UTC
+! Last modified: 06 Aug 2025 18:21 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -560,7 +560,7 @@ dictionary.cambridge.org,sourceforge.net,bab.la,pons.com,loawa.com,gazetaprawna.
 loawa.com,malaymail.com,gutefrage.net,dictionary.cambridge.org#$#abort-current-inline-script setTimeout /EventTarget.*prototype.*addEventListener.*Map/
 huffpost.com#$#json-prune 'RT-1562-AdShield-script-on-Huffpost RT-1720-ads_bullwhip-hp'
 timesofindia.indiatimes.com,sankei.com,sourceforge.net,dictionary.cambridge.org,bab.la,pons.com,loawa.com,gazetaprawna.pl,tz.de,winfuture.de,gutefrage.net,collinsdictionary.com#$#override-property-read googletag emptyObj; event-override message disable /^r_/; prevent-listener message /postMessage|error-report|adb/;
-timesofindia.indiatimes.com,sankei.com,sourceforge.net,dictionary.cambridge.org,bab.la,loawa.com,gazetaprawna.pl,tz.de,winfuture.de,gutefrage.net,collinsdictionary.com#$#override-property-read performance.getEntriesByType noopFunc; override-property-read window.requestIdleCallback undefined; override-property-read ResizeObserver undefined; override-property-read document.cookie '';
+timesofindia.indiatimes.com,sankei.com,sourceforge.net,dictionary.cambridge.org,bab.la,loawa.com,gazetaprawna.pl,tz.de,winfuture.de,gutefrage.net,collinsdictionary.com#$#override-property-read performance.getEntriesByType noopFunc; override-property-read window.requestIdleCallback undefined; override-property-read ResizeObserver undefined;
 timesofindia.indiatimes.com#$#abort-on-iframe-property-read localStorage;  override-property-read window.confirm noopFunc; override-property-read pbjs emptyObj; abort-on-iframe-property-read sessionStorage; override-property-read dataLayer emptyArray; abort-on-iframe-property-read caches;
 pons.com#$#override-property-read performance.getEntriesByType noopFunc; override-property-read window.requestIdleCallback undefined;
 ||0.loader.gutefrage.net/article^$script,domain=gutefrage.net
