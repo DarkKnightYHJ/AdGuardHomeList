@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: Nwg94sHSewYY83opIDYCqg
-! Version: 202508111331
+! Checksum: VblTG5PxKzpmxELeY3c0WA
+! Version: 202508111411
 ! Title: EasyPrivacy
-! Last modified: 11 Aug 2025 13:31 UTC
+! Last modified: 11 Aug 2025 14:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3256,9 +3256,11 @@ _WebVitalsReporter_
 /wizrocketmail.net/r?$image
 /znsrc.com/c/*$image
 ://2ip.*/member_photo/$third-party
+://c-hh-point-jp.*.cuenote.jp/c/$image
 ://cl.melonbooks.co.jp/c/$image
 ://e.*/open?$image
 ://email.*/o/$image
+://links.flickr.com/s/eo/$image
 ://links.paypal.*/eos/$image
 ://parcel-api.delivery-status.*/open/$image
 ://t.order.*/r/?id=$image
@@ -52641,6 +52643,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||play.dlsite.com/csr/viewer/lib/newrelic.js
 @@||pvtag.yahoo.co.jp^$script,domain=paypaymall.yahoo.co.jp
 @@||query.petametrics.com^$image,xmlhttprequest,domain=mechacomic.jp
+@@||r10s.jp/com/img/home/t.gif?$domain=24.rakuten.co.jp
 @@||realestate.yahoo.co.jp/buy/assets/pages/shared/services/LoggingService.js$~third-party
 @@||rt.rtoaster.jp^$image,domain=ec-store.net
 @@||rtoaster.jp/Rtoaster.js$domain=peachjohn.co.jp|satofull.jp
