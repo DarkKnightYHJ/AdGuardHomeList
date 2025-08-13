@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: y1geTGEpWqZTNPblgXJ6jQ
-! Version: 202508131701
+! Checksum: De4RYABR8avuu5J5PN7ILw
+! Version: 202508131811
 ! Title: ABP filters
-! Last modified: 13 Aug 2025 17:01 UTC
+! Last modified: 13 Aug 2025 18:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -566,6 +566,7 @@ pons.com#$#override-property-read performance.getEntriesByType noopFunc; overrid
 ||0.loader.gutefrage.net/article^$script,domain=gutefrage.net
 ||0.as.sourceforge.net/article^$script,domain=sourceforge.net
 ||0.content-loader.com/article^$script,third-party,domain=timesofindia.indiatimes.com|sankei.com|dictionary.cambridge.org|bab.la|pons.com|loawa.com|gazetaprawna.pl|winfuture.de|collinsdictionary.com|malaymail.com|tz.de
+||dbloader.leboncoin.info^$script,third-party,domain=leboncoin.fr
 ! #CV-1935
 ##.jag8CityBio212023
 reddit.com##.jag8CityBio212023
