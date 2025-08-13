@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: z7dLXMd9I64gGyLJebyg8Q
-! Version: 202508131501
+! Checksum: 5a215LABShyGFoj067diQA
+! Version: 202508131611
 ! Title: ABP filters
-! Last modified: 13 Aug 2025 15:01 UTC
+! Last modified: 13 Aug 2025 16:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1135,6 +1135,7 @@ slickdeals.net#$#hide-if-matches-xpath '//span[contains(text(),"Sponsored")][@da
 ||xanimu.com/ablck$domain=xanimu.com
 ||xanimu.com/*.php$domain=xanimu.com
 ||ark.tubi.video/v2/*.mp4^$domain=tubitv.com
+mega.nz#$#replace-fetch-response '/aurl/' '' /mega.co.nz/
 ! Japanese sites
 nikaraw.com#$#abort-on-property-read afStorage
 nicovideo.jp##a[href^="https://click.speee-ad.jp"]
@@ -1624,7 +1625,7 @@ cuevana.*,cuevana3.*,cuevana4.*#$#hide-if-matches-xpath './/a[contains(@rel,"spo
 ||filemoon.sx/ad.js^$domain=cuevana.biz|cuevana3.eu|cuevana3me.net|cuevana4.me
 hispasexy.org#$#hide-if-matches-xpath './/div[@data-element="overlay"]/div[@data-element][@data-izone]/parent::div[1]'
 ||animeflv.net/*/ads.js^$domain=animeflv.net
-||odeecmoothaith.net^$script,domain=animeflv.net
+animeflv.net#$#abort-current-inline-script globalThis break;case; abort-current-inline-script EventTarget.prototype.addEventListener delete window;
 animeflv.net##iframe[style="position: fixed; width: 100%; height: 100%; inset: 0px; opacity: 0; z-index: 2147483647;"]
 ||e95da74cd9.*.js^$domain=animefenix.tv
 ! Popup/Popunder
@@ -1639,7 +1640,7 @@ iguarras.com,iputitas.net,ytanime.tv#$#abort-on-property-read afScript
 comicsporno.xxx,eshentai.tv,felizporno.com,hentaila.com,hentaila.tv,hentaisenpai.org,latinohentai.com,mespornogratis.com,orgasmatrix.com,pornoreino.com,pornocolombiano.net,subtaboo.com,xculitos.com#$#abort-current-inline-script document.querySelectorAll popMagic
 pelisflixhd.art,series-de.online#$#abort-on-property-read doSecondPop; abort-on-property-read doSecondPopU
 animefenix.com#$#abort-on-property-read p18
-pelisflixhd.art,peliculasyseries.gratis,ver-peliculas.gratis,verpeliculasio.online#$#abort-on-property-write window.open
+pelisflixhd.art,peliculasyseries-online.com,verpeliculasio.online#$#abort-on-property-write window.open
 monoschinos2.com#$#abort-current-inline-script EventTarget.prototype.addEventListener encodeURIComponent
 seriesyonkis.cx#$#abort-on-property-read window.atob; abort-on-property-read open; abort-on-property-read _0x4c81
 cuevana3.*,pelisflixhd.art#$#abort-on-property-read decodeURI; abort-current-inline-script Math break;case $.; abort-on-property-write popUpUrl
