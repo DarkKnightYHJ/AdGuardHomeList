@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 0o7Ud1/WgKuLX4iI01TdMw
-! Version: 202508151321
+! Checksum: NO2coqlg2JHDTmo0fwI1oA
+! Version: 202508151401
 ! Title: EasyPrivacy
-! Last modified: 15 Aug 2025 13:21 UTC
+! Last modified: 15 Aug 2025 14:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2828,6 +2828,7 @@
 ://plausible.*/api/event|
 ://plausible.*/js/script.
 ://posthog.$script,domain=~posthog.com
+://rum.collector.
 ://segment-api.
 ://segment-cdn.
 ://stat.*/pageview/$xmlhttprequest
@@ -7628,6 +7629,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analyticcdn.globalmailer.com^
 ||analyticcdn.wlmediahub.com^
 ||analytics-1.cavai.com^
+||analytics-api.gemcommerce.com^
 ||analytics-api.klickly.com^
 ||analytics-cf.bigcrunch.com^
 ||analytics-cms.whitebeard.me^
@@ -13120,6 +13122,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||snapchat.com/web/metrics
 ||snohetta.com/js/plascript.js
 ||sofire.terabox.app^
+||solarwinds.com/ra-$script
 ||solidcams.com/api/metrics
 ||solvusoft.com^*/scripts/visitor.js
 ||sortlist.cloud/log
