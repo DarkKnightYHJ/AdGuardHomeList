@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: tFc7J8wvo41GuKIR6BS4JQ
-! Version: 202508182202
+! Checksum: HQdshoRjU0yxZTLiuxKmkw
+! Version: 202508182301
 ! Title: ABP filters
-! Last modified: 18 Aug 2025 22:02 UTC
+! Last modified: 18 Aug 2025 23:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -956,7 +956,7 @@ upload.ee,ianimes.co,ianimes.top#$#abort-on-property-read adcashMacros
 gamefront.com#$#abort-current-inline-script $ AdBlock
 kickassanime.io##.ka-ax-wrp.mb-3
 imagefap.com#$#abort-on-property-read popCookie
-igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#race start; hide-if-matches-xpath './/img[@alt][starts-with(@src,"/wp-content/uploads/")]/ancestor-or-self::a[starts-with(@href,"/offernf?")]/parent::div[1]'; hide-if-matches-xpath './/a[contains(@href,"affernf?") or contains(@href,"/gameadult/")]/parent::div[1]'; hide-if-matches-xpath './/a[contains(@href,"ffernf?") or contains(@href,"/gameadult/")]/parent::div[1]'; hide-if-matches-xpath './/a[contains(@href,"eefernf?") or contains(@href,"/gameadult/")]/parent::div[1]'; hide-if-matches-xpath './/a[contains(@href,"uffer") or contains(@href,"/gameadult/")]/parent::p[@style][1]'; hide-if-matches-xpath './/a[contains(@href,"affer") or contains(@href,"/gameadult/")]/parent::p[@style][1]'; race stop;
+igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#race start; hide-if-matches-xpath './/img[@alt][starts-with(@src,"/wp-content/uploads/")]/ancestor-or-self::a[starts-with(@href,"/offernf?")]/parent::div[1]'; hide-if-matches-xpath './/a[contains(@href,"affernf?") or contains(@href,"/gameadult/")]/parent::div[1]'; hide-if-matches-xpath './/a[contains(@href,"ffernf?") or contains(@href,"/gameadult/")]/parent::div[1]'; hide-if-matches-xpath './/a[contains(@href,"eefernf?") or contains(@href,"/gameadult/")]/parent::div[1]'; hide-if-matches-xpath './/a[contains(@href,"uffer") or contains(@href,"/gameadult/")]/parent::p[@style][1]'; hide-if-matches-xpath './/a[contains(@href,"efern") or contains(@href,"/gameadult/")]/parent::p[1]'; race stop;
 igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#abort-on-property-write advanced_ads_ready; prevent-listener iframe; abort-current-inline-script addEventListener document.createElement; abort-on-property-write window.open; abort-current-inline-script document.documentElement break;case $.
 searchenginereports.net#$#abort-on-property-read adsbygoogle
 amyscans.com##div[class*="code-block"]
@@ -2220,6 +2220,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||dopiestdappled.com^
 ||dotefour.com^
 ||drammerxylinid.com^
+||duppedbawsunt.life^
 ||dyedmurders.com^
 ||eidersrettory.com^
 ||encystkokil.com^
@@ -2297,6 +2298,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||jgtjw.com^
 ||johannatailor.com^
 ||justspoisure.com^
+||karakuloutmate.com^
 ||katsuprosillo.com^
 ||kellethelix.com^
 ||kilehkatrina.top^
@@ -2401,6 +2403,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||shboshbok.com^
 ||shrewkabonga.com^
 ||sleevervillas.help^
+||smokestallyho.com^
 ||snarkalit.com^
 ||socagercornet.com^
 ||spacemancreativedom.net^
@@ -2414,6 +2417,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||suffarilbf.com^
 ||suffersguntub.com^
 ||synochaauca.com^
+||tackerhelosis.com^
 ||tacksnocks.top^
 ||taffykhirka.com^
 ||talliedpurring.com^
@@ -2433,6 +2437,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||totoabalyric.com^
 ||towerloftier.com^
 ||tracliakopek.top^
+||trippetforhow.com^
 ||truttatrimmer.top^
 ||trypsinneutral.com^
 ||tubingacater.com^
@@ -2470,6 +2475,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||yamanaisleepry.com^
 ||yarningbursal.com^
 ||yawnfulharpa.com^
+||yb23b.com^
 ||yb28b.com^
 ||yocksniacins.com^
 ||yogisgeishas.com^
