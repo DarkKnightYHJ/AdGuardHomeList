@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: N5CBatgtH+KIkOGlQib2ZQ
-! Version: 202508181901
+! Checksum: 6L901UgM2DHmLNoOYrNptQ
+! Version: 202508182011
 ! Title: ABP filters
-! Last modified: 18 Aug 2025 19:01 UTC
+! Last modified: 18 Aug 2025 20:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1813,7 +1813,7 @@ samsclub.com##div[class="analytics"][data-strategy="Sponsored products"]
 samsclub.com##.sc-plp-cards-vast-ad
 ! #RM-9
 ! sl, sc
-instacart.*#$#race start; hide-if-matches-xpath './/span[text()]/following::span[@style="display: inline-grid;"][text()]/ancestor-or-self::div[@aria-label="Product"]/parent::h3/ancestor::li[1]/ancestor-or-self::*[self::li[not(@data-testid)] or self::div[child::li/@data-testid]][1]'; hide-if-matches-xpath './/span[text()]/following::sp-tag/ancestor::div[@aria-label="Product"]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li] or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/span[text()]/ancestor-or-self::ad-tag/ancestor::div[@aria-label="Product"]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li] or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/span[text()]/ancestor-or-self::ad-fp-tag/ancestor::div[@aria-label="Product"]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li] or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/span[text()]/ancestor-or-self::ad-fsp-tag/ancestor::div[@aria-label="Product"]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li] or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/span[text()]/ancestor-or-self::ad-fspsp-tag/ancestor::div[@aria-label="Product"]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li] or self::li[not(parent::div)]][1]'; race stop;
+instacart.*#$#race start; hide-if-matches-xpath './/span[text()]/following::span[@style="display: inline-grid;"][text()]/ancestor-or-self::div[@aria-label="Product"]/parent::h3/ancestor::li[1]/ancestor-or-self::*[self::li[not(@data-testid)] or self::div[child::li/@data-testid]][1]'; hide-if-matches-xpath './/span[text()]/following::sp-tag/ancestor::div[@aria-label="Product"]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li] or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/span[text()]/ancestor-or-self::ad-tag/ancestor::div[@aria-label="Product"]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li] or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/span[text()]/ancestor-or-self::ad-fp-tag/ancestor::div[@aria-label="Product"]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li] or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/span[text()]/ancestor-or-self::ad-fsp-tag/ancestor::div[@aria-label="Product"]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li] or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/span[text()]/ancestor-or-self::ad-fspsp-tag/ancestor::div[@aria-label="Product"]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li] or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/span[text()]/ancestor-or-self::ad-fpsp-tag/ancestor::div[@aria-label="Product"]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li] or self::li[not(parent::div)]][1]'; race stop;
 ! ta
 instacart.*#$#race start; hide-if-matches-xpath './/div[contains(@style,"display:")]/following::span[text()]/preceding::div[@aria-hidden="true"]/preceding::img[contains(@alt,"Sponsored")]/ancestor-or-self::div[@id][@class][1]'; hide-if-matches-xpath './/span[text()]/following::span[contains(@style,"display: inline")][text()]/preceding::div[@aria-hidden="true"]/preceding::img[contains(@alt,"Sponsored")]/ancestor-or-self::div[@id][@class][1]'; race stop;
 ! tc
@@ -2007,9 +2007,9 @@ fiverr.com#$#race start; hide-if-contains-and-matches-style '' 'div.gig-card-lay
 mundi.com.br#$#hide-if-contains-visible-text /Anúncio/ 'div[role][tabindex^="0"]' 'div[class]>div'
 ! #RM-112
 ! ca
-sameday.costco.com#$#hide-if-matches-xpath './/div[@style]/following::span[text()]/preceding::div[@aria-hidden="true"]/preceding::img[contains(@alt,"Sponsored")]/ancestor-or-self::div[@id][@class][1]'
+sameday.costco.*#$#hide-if-matches-xpath './/div[@style]/following::span[text()]/preceding::div[@aria-hidden="true"]/preceding::img[contains(@alt,"Sponsored")]/ancestor-or-self::div[@id][@class][1]'
 ! mc
-sameday.costco.com#$#race start; hide-if-matches-xpath '//div[@id]/a//div[descendant::span[contains(text(), "Spons")] and descendant::span[contains(@style, "inline-")]]/ancestor::div[3]'; hide-if-matches-xpath '//div[@id]/a//div[descendant::span[contains(text(), "Spons")] and descendant::span[contains(text(), "ored")]]/ancestor::div[3]'; race stop;
+sameday.costco.*#$#race start; hide-if-matches-xpath '//div[@id]/a//div[descendant::span[contains(text(), "Spons")] and descendant::span[contains(@style, "inline-")]]/ancestor::div[3]'; hide-if-matches-xpath '//div[@id]/a//div[descendant::span[contains(text(), "Spons")] and descendant::span[contains(text(), "ored")]]/ancestor::div[3]'; race stop;
 ! #RM-207
 ||app.golfgalaxy.com^$domain=golfgalaxy.com|dickssportinggoods.com
 ||telulr.golfgalaxy.com^$domain=golfgalaxy.com|dickssportinggoods.com
