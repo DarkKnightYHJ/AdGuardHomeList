@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: IDWprughSwfD8HR4ySO2Cg
-! Version: 202508190811
+! Checksum: imCWJGeXzLrJxbNcUmK/6w
+! Version: 202508190911
 ! Title: ABP filters
-! Last modified: 19 Aug 2025 08:11 UTC
+! Last modified: 19 Aug 2025 09:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1943,6 +1943,7 @@ noon.com#$#hide-if-matches-xpath './/div[@class][contains(text(),"Sponsored") or
 noon.com#$#hide-if-matches-xpath '//span[@style][contains(text(),"Ad")]/ancestor::div[contains(@class,"PdpTopSlotDesktop")]/parent::div[contains(@class,"topSlotContainer")]/ancestor::div[contains(@class,"ProductDetailsDesktop_topSection")][1]'
 noon.com#$#hide-if-matches-xpath './/img[contains(@src,"ads/banner")]/parent::div/ancestor::div[@style="opacity: unset;"]/parent::a/parent::div/parent::div[contains(@class,"AdBanner")]'
 noon.com#$#hide-if-matches-xpath './/img[contains(@src,"ad")]/ancestor::div[contains(@class,"Ad")]/parent::div/parent::div[contains(@id,"adMultiProductsBanner")]/parent::div[1]';
+noon.com#$#hide-if-matches-xpath './/div/*[@width][@fill="none"][@viewBox]/*[@fill="white"][@fill-opacity]/ancestor::a[contains(@class,"productBoxLink")]/parent::div[@data-qa]//parent::div[contains(@class,"Recommendations_")]/ancestor::div[contains(@class,"PdpRecommendations")][1]'
 ! HP
 noon.com#$#hide-if-matches-xpath './/div[@class][contains(text(),"Sponsored") or contains(text(),"إعلان")]/ancestor::a[@href]/ancestor-or-self::div[contains(@class,"ProductCarouselDesktop_emblaSlide")][1]'
 noon.com#$#hide-if-matches-xpath './/div[@class][contains(text(),"Ad") or contains(text(),"مدفوع")]/ancestor::a[@href]/ancestor-or-self::div[contains(@class,"ProductCarouselDesktop_emblaSlide")][1]'
