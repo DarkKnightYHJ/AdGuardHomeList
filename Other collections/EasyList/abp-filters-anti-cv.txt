@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: DDNyW8gpGHt3RaDPU/9vJQ
-! Version: 202508220902
+! Checksum: l0RYQKMq1jSOkOFcOblXsQ
+! Version: 202508221011
 ! Title: ABP filters
-! Last modified: 22 Aug 2025 09:02 UTC
+! Last modified: 22 Aug 2025 10:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -2007,6 +2007,7 @@ mundi.com.br#$#hide-if-contains-visible-text /Anúncio/ 'div[role][tabindex^="0"
 sameday.costco.*#$#hide-if-matches-xpath './/div[@style]/following::span[text()]/preceding::div[@aria-hidden="true"]/preceding::img[contains(@alt,"Sponsored")]/ancestor-or-self::div[@id][@class][1]'
 ! mc
 sameday.costco.*#$#race start; hide-if-matches-xpath '//div[@id]/a//div[descendant::span[contains(text(), "Spons")] and descendant::span[contains(@style, "inline-")]]/ancestor::div[3]'; hide-if-matches-xpath '//div[@id]/a//div[descendant::span[contains(text(), "Spons")] and descendant::span[contains(text(), "ored")]]/ancestor::div[3]'; race stop;
+sameday.costco.*#$#override-property-read ADBLOCK_DETECTED false
 ! #RM-207
 ||app.golfgalaxy.com^$domain=golfgalaxy.com|dickssportinggoods.com
 ||telulr.golfgalaxy.com^$domain=golfgalaxy.com|dickssportinggoods.com
