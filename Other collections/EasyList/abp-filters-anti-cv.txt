@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: PnI4pxomC5/4P4yIKZWhDg
-! Version: 202508272201
+! Checksum: wGCY8zT1rOMqnPTBFVWaPA
+! Version: 202508272301
 ! Title: ABP filters
-! Last modified: 27 Aug 2025 22:01 UTC
+! Last modified: 27 Aug 2025 23:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1127,6 +1127,7 @@ xhamster.*#$#hide-if-matches-xpath './/div[contains(@data-role,"banner")]//div[c
 mixdrop.*#$#abort-current-inline-script $ String.fromCharCode; override-property-read MDCore.adblock 0;
 planetminecraft.com#$#hide-if-matches-xpath '//b[text()="ADVERTISEMENT"]/ancestor-or-self::li[@data-type="advert"]'
 mangakakalot.gg##div[class^="fly-ads"]
+wfmz.com#$#hide-if-matches-xpath '//span[contains(@class,"label-flag-sponsored")]/ancestor-or-self::article[@id][1]'
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
