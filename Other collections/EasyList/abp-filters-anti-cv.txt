@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 5IXKALRvcymcWAJWlyKPHw
-! Version: 202508271101
+! Checksum: Q6vvVJBJHNqWoMo0xnK2BQ
+! Version: 202508271221
 ! Title: ABP filters
-! Last modified: 27 Aug 2025 11:01 UTC
+! Last modified: 27 Aug 2025 12:21 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1928,11 +1928,11 @@ bol.com##section[data-group-name^="sponsored-products"]
 bol.com#$#hide-if-matches-xpath './/span[.="Gesponsord" or .="Sponsorisé"]/parent::button[@aria-label]/ancestor::div[contains(@class,"display-header__dsa")]/ancestor::div[@data-group-name="branded-shelves"]'
 ! #RM-78
 noon.com##img[src^="ad-tag"]
-! SP & BA
-noon.com#$#hide-if-matches-xpath './/div[@class][contains(text(),"Sponsored") or contains(text(),"إعلان")]/ancestor::a[@href]/ancestor-or-self::div[contains(@class,"ProductBoxLinkHandler")]'
-noon.com#$#hide-if-matches-xpath './/div[@class][contains(text(),"Ad") or contains(text(),"مدفوع")]/ancestor::a[@href]/ancestor-or-self::div[contains(@class,"ProductBoxLinkHandler")]'
+noon.com##div[id*="adBannerModule"]
+! SP
+noon.com#$#race start; hide-if-matches-xpath './/*[local-name()="svg"][@width][@fill="none"]/*[local-name()="rect"]/ancestor::a[@class][@href]/parent::div[1]'; hide-if-matches-xpath './/div[@class][contains(text(),"Ad") or contains(text(),"مدفوع")]/ancestor::a[@href]/ancestor-or-self::div[contains(@class,"ProductBoxLinkHandler")]'; hide-if-matches-xpath './/div[@class][contains(text(),"Sponsored") or contains(text(),"إعلان")]/ancestor::a[@href]/ancestor-or-self::div[contains(@class,"ProductBoxLinkHandler")]'; hide-if-matches-xpath './/img[contains(@src,"ad-")]/ancestor::a[@href]/ancestor-or-self::div[contains(@class,"ProductBoxLinkHandler")]'; race stop;
+!BA
 noon.com#$#hide-if-matches-xpath './/span[@style][contains(text(),"Sponsored")]/ancestor::div[contains(@id,"adProductsListBanner-")][@style]/parent::div/parent::div[@id="noon-modules"]'
-noon.com#$#hide-if-matches-xpath './/img[contains(@src,"ad-")]/ancestor::a[@href]/ancestor-or-self::div[contains(@class,"ProductBoxLinkHandler")]';
 noon.com#$#hide-if-matches-xpath './/img[contains(@src,"ads/banner-")]/parent::span/ancestor::div/parent::div[contains(@class,"Banner")]';
 ! PP
 noon.com#$#hide-if-matches-xpath './/*[.="Ad"]/ancestor::a/parent::div[@data-qa]/parent::div[contains(@class,"Recommendations_")]/ancestor::div[contains(@class,"PdpRecommendations")][1]'
