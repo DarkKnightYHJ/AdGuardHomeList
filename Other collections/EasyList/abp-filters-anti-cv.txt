@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: ptasNniuFFAMXzA3xn1hQQ
-! Version: 202508281701
+! Checksum: boAIcfuFMpQkVUaR3Sw17Q
+! Version: 202508281811
 ! Title: ABP filters
-! Last modified: 28 Aug 2025 17:01 UTC
+! Last modified: 28 Aug 2025 18:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1233,6 +1233,9 @@ frandroid.com#$#hide-if-matches-xpath './/div[@class="post-card__cover-inner"]/p
 gamekult.com#$#hide-if-matches-xpath './/a[@href][@data-track-category="native-ad"]/preceding::span[@target="js-modal-ad"]/parent::li[@data-id][1]'
 oxtorrent.*#$#hide-if-matches-xpath './/div[@style="position: fixed; inset: 0px; z-index: 2147483647; background: black; opacity: 0.01; height: 961px; width: 1854px;"]';
 anime-sama.fr#$#hide-if-matches-xpath './/a[contains(@href,"paid_referral")]/img/ancestor::div[@id][1]';
+automobile-propre.com#$#hide-if-matches-xpath '//div[contains(@class,"optidigital-ad-center-sticky")]/preceding::p[contains(text(),"annonce")]/parent::div[contains(@class,"max-md:!hidden")][1]'
+automobile-propre.com##div[data-ref="halfpage-ad"]
+automobile-propre.com##div[class*="ad-desktop"]
 ! Popup/Popunder
 jetanimes.*,voirseries.*#$#abort-on-property-read open
 manga-scantrad.net,toonanime.*#$#abort-current-inline-script document.querySelectorAll popMagic
