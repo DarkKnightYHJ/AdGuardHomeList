@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: EzUAfXoLdUmrsSitpAYugw
-! Version: 202508282011
+! Checksum: A8DgO3CS5AHi9BOlKIihPQ
+! Version: 202508282101
 ! Title: ABP filters
-! Last modified: 28 Aug 2025 20:11 UTC
+! Last modified: 28 Aug 2025 21:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -551,8 +551,12 @@ threenow.co.nz#$#override-property-read Object.prototype.adConfigId undefined; j
 marketwatch.com,wsj.com#$#abort-on-property-write window.__buildAd;
 marketwatch.com#$#hide-if-contains-visible-text /Advertisement/ 'div[class^="container"]' 'div>span'
 ! CV-1364
-||html-load.com^$script,xmlhttprequest,domain=convertcase.net|manta.com|wfmz.com|golf-live.at|eurointegration.com.ua|sourceforge.net|bab.la|pons.com|loawa.com|gazetaprawna.pl|malaymail.com|tz.de|winfuture.de|gutefrage.net|dictionary.cambridge.org|collinsdictionary.com|sankei.com|timesofindia.indiatimes.com
+||html-load.com^$script,xmlhttprequest,domain=convertcase.net|manta.com|wfmz.com|golf-live.at|eurointegration.com.ua|sourceforge.net|bab.la|pons.com|loawa.com|gazetaprawna.pl|malaymail.com|tz.de|winfuture.de|dictionary.cambridge.org|collinsdictionary.com|sankei.com|timesofindia.indiatimes.com
 ||error-report.com^$domain=sourceforge.net|bab.la|pons.com|loawa.com|gazetaprawna.pl|malaymail.com|tz.de|winfuture.de|gutefrage.net|dictionary.cambridge.org|huffpost.com|collinsdictionary.com|sankei.com|timesofindia.indiatimes.com
+||content-loader.com/loader.min.js^$script,domain=gutefrage.net
+||html-load.com/loader.min.js^$script,domain=gutefrage.net
+||loader.gutefrage.net/loader.min.js^$script,domain=gutefrage.net
+gutefrage.net#$#abort-current-inline-script fetch /error-report\.com\/report/
 sourceforge.net,dictionary.cambridge.org,bab.la,loawa.com,gazetaprawna.pl,tz.de,winfuture.de,gutefrage.net,collinsdictionary.com#$#event-override message trusted /unfilled/; event-override visibilitychange disable;
 convertcase.net,manta.com,wfmz.com,golf-live.at,eurointegration.com.ua#$#abort-current-inline-script Symbol error-report.com
 malaymail.com,dictionary.cambridge.org#$#abort-current-inline-script setTimeout /error-report.com/
@@ -2380,6 +2384,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||thornenotacust.shop^
 ||thripeldesi.com^
 ||thummingnats.com^
+||tibiaescourer.com^
 ||tiepinshazings.com^
 ||tinnerydunging.com^
 ||togaefaffy.com^
@@ -2389,6 +2394,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||towerloftier.com^
 ||tracliakopek.top^
 ||trippetforhow.com^
+||tripsisvellums.com^
 ||truttatrimmer.top^
 ||trypsinneutral.com^
 ||tubingacater.com^
