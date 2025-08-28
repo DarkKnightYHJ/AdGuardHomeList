@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: E00Q8Ci+6zUi1b/1l0+M5A
-! Version: 202508281222
+! Checksum: OHHNfJgrtlWS3A7JM3nFKg
+! Version: 202508281321
 ! Title: EasyList China
-! Last modified: 28 Aug 2025 12:22 UTC
+! Last modified: 28 Aug 2025 13:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -10273,6 +10273,7 @@ meijutt.*/js/pcjs/
 ||lancdn.com/public/images/view/Tencent-
 !------------------------Specific element hiding rules------------------------!
 zhihu.com##.Pc-word-new
+bilibili.com##.layerWrapperRoot > div[style^="width: 1220px;"]
 landiannews.com##.content-gg
 mydrivers.com##div[style="text-align: center;margin-top: 10px;"]
 msn.cn##above-river-block
@@ -18048,6 +18049,8 @@ wss://*.*.top/$third-party
 ||deqixs.com/config/
 //cdn.*/uni-ggs.js$third-party
 ||bqge9.com/static/ad01.js
+||440012.xyz/js/wapm.js
+||116xs.com/js/backbone.js
 ##.row.nav-bottom + div[style^="display: block; position: relative; width: 0px; height:"]
 ##a[href*="aHR0cHM6Ly9xc2Z2bDExLmFsYXp2LmNvbS8zNzA4Lmh0bWw="]
 !
