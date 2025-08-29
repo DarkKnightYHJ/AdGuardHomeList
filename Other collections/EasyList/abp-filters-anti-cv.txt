@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 7NiZex3nO+8X00KA/ezNNQ
-! Version: 202508291611
+! Checksum: zFq4SVvBCOCEPOs3tdFocA
+! Version: 202508291701
 ! Title: ABP filters
-! Last modified: 29 Aug 2025 16:11 UTC
+! Last modified: 29 Aug 2025 17:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1298,7 +1298,7 @@ hotsexstory.xyz#$#abort-current-inline-script document.querySelectorAll popMagic
 moredesi.com#$#abort-on-property-read __formatsGetters
 ! *** abp-filters-anti-cv:indonesian.txt ***
 ! #CV-667
-citpekalongan.com,designmyhomee.com,mangacanblog.com,tokusatsuindo.com,unbrick.id#$#abort-current-inline-script Math zfgloaded
+citpekalongan.com,mangacanblog.com,tokusatsuindo.com,unbrick.id#$#abort-current-inline-script Math zfgloaded
 hotabis.com#$#override-property-read td_ad_background_click_link undefined
 ! Popup/Popunder/Clickunder
 komikcast.me#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
@@ -1308,7 +1308,7 @@ metrolagu.cam#$#abort-on-property-write window.open;
 poop.*#$#abort-current-inline-script String.fromCharCode 2147483647; abort-on-property-read window.open;
 bokepindo13.*,bokepindoh.*#$#abort-on-property-read open
 ! MISC
-komikdewasa.me#$#abort-on-property-write adsbyjuicy; override-property-read R undefined; hide-if-matches-xpath '//a[@target="_blank"]/img[contains(@class,"align")]/ancestor::div[starts-with(@class,"blox")]'; hide-if-matches-xpath '//a[@target="_blank"]/img[contains(@class,"align")]/ancestor-or-self::a[@href][1]'
+komikdewasa.*#$#abort-on-property-write adsbyjuicy; override-property-read R undefined; prevent-listener click tampilkanUrl; abort-on-property-write window.open; hide-if-matches-xpath '//a[@target="_blank"]/img[contains(@class,"align")]/ancestor::div[starts-with(@class,"blox")]'; hide-if-matches-xpath '//a[@target="_blank"]/img[contains(@class,"align")]/ancestor-or-self::a[@href][1]'
 ! *** abp-filters-anti-cv:italian.txt ***
 ! #CV-667
 mp3-gratis.it#$#abort-current-inline-script Math zfgloaded
@@ -1400,7 +1400,6 @@ filmy69.pl#$#abort-current-inline-script document.querySelectorAll popMagic
 anitube.*#$#abort-on-property-write _pop
 ! MISC
 filmesonlinegratis.com#$#abort-on-property-read atob
-cinevision.online#$#abort-on-property-write atob
 topflix.fm#$#abort-current-inline-script String.fromCharCode XMLHttpRequest
 onifile.com#$#abort-on-property-read _pop
 pobre.wtf#$#abort-on-property-read window.banners.1
