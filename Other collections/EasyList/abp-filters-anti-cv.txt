@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 7bhqg7qsPY71gcLZbZqaBw
-! Version: 202508291101
+! Checksum: 5TFFaZ4w6nmqb5/dRcg2WA
+! Version: 202508291221
 ! Title: ABP filters
-! Last modified: 29 Aug 2025 11:01 UTC
+! Last modified: 29 Aug 2025 12:21 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1933,11 +1933,6 @@ newegg.com##div[class*="-sponsored"]
 ! #RM-68
 cars.com#$#hide-if-matches-xpath './/spark-badge[@variant="text"][@class="sp-badge"]/following::spark-button[@data-sponsored="true"]/ancestor-or-self::div[contains(@class,"inventory-")][1]'
 cars.com#$#hide-if-matches-xpath './/span[contains(@class,"hero-cta-tag")][contains(text(),"Sponsored")]/preceding::img[@class="sponsored-hero-cta"]/ancestor::a[@aria-describedby][contains(@href,"adclick")]/ancestor-or-self::section[@id="primary-hero"]'
-! #RM-75
-! pp
-bol.com##section[data-group-name^="sponsored-products"]
-! ba
-bol.com#$#hide-if-matches-xpath './/span[.="Gesponsord" or .="Sponsorisé"]/parent::button[@aria-label]/ancestor::div[contains(@class,"display-header__dsa")]/ancestor::div[@data-group-name="branded-shelves"]'
 ! #RM-78
 noon.com##img[src^="ad-tag"]
 noon.com##div[id*="adBannerModule"]
