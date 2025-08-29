@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: zFq4SVvBCOCEPOs3tdFocA
-! Version: 202508291701
+! Checksum: PS8OdcmtGIcLyU3Ip/i8Gg
+! Version: 202508291811
 ! Title: ABP filters
-! Last modified: 29 Aug 2025 17:01 UTC
+! Last modified: 29 Aug 2025 18:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1993,7 +1993,7 @@ tokopedia.com#$#hide-if-contains /^Ad$/ 'div[class$="carousel"]>div[class][style
 ! #RM-176
 ! sp
 aboutyou.*#$#hide-if-matches-xpath './/a[@data-product-tile-gallery-mode-hover]/following::button/span[@class][@style]/ancestor::li[contains(@data-testid,"productTileTracker")]'
-aboutyou.*#$#hide-if-has-and-matches-style 'span' 'li[data-testid*="productTileTracker"]' 'button[class^="w1app11q"][tabindex="-1"]' 'line-height'
+aboutyou.*#$#hide-if-canvas-contains /(Sponsored|Gesponsert|Gesponsord|Спонсорирано|Sponsoreret|Sponsoreeritud|Χορηγούμενο|Patrocinado|Sponzorirano|Sponsoroitu|Szponzorált|Sponsorisé|Sponsorizzato|Sponsorēts|Remiama|Sponsorowane|Sponzorováno|Sponzorované|Sponsorizat)/ 'li[data-testid*="productTileTracker"]' 'button[class^="w1app11q"][tabindex="-1"]'
 ! pp
 aboutyou.*#$#hide-if-matches-xpath './/a[@data-product-tile-gallery-mode-hover]/following::button/span[@class][@style]/ancestor::li[contains(@data-testid,"productTileTracker")]/parent::ul[@data-testid]/ancestor::section[@style]'
 ! #RM-180
