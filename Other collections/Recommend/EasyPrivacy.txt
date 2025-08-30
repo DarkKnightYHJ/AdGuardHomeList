@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 97QsKRwUIj3SVhuP29zi5Q
-! Version: 202508301401
+! Checksum: aGSHJfOD1hndilaSAZi+5w
+! Version: 202508301501
 ! Title: EasyPrivacy
-! Last modified: 30 Aug 2025 14:01 UTC
+! Last modified: 30 Aug 2025 15:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -335,6 +335,7 @@
 /api/bfb_write_log
 /api/click/*?c=
 /api/cmp_tracker|
+/api/collect|$ping,xmlhttprequest
 /api/drpStats
 /api/event-rfkj/*
 /api/front/v2/observability$ping
@@ -9937,6 +9938,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.cordial.io^
 ||track.digitalriver.com^
 ||track.emerse.com^
+||track.fusionmedia.io^
 ||track.hubspot.com^
 ||track.hydro.online^
 ||track.juno.com^
