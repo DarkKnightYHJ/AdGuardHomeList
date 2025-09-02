@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: GCYrtpNabxcZr9mRKub6Tg
-! Version: 202509012311
+! Checksum: T9wP2fZHMOZXcN4ObSKseg
+! Version: 202509020111
 ! Title: EasyPrivacy
-! Last modified: 01 Sep 2025 23:11 UTC
+! Last modified: 02 Sep 2025 01:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1919,6 +1919,7 @@
 /referrer_tracking.js
 /reftracker.js
 /renderTimingPixel.
+/replay?ddsource=
 /report_ga_events/*
 /report_visit.php
 /reportData/nm.gif?
@@ -2826,7 +2827,7 @@
 ://l.*/counter.php?id=$script,~third-party
 ://l.*/script.php?i=$script,~third-party
 ://lightning.*/launch/
-://matomo.$domain=~matomo.org
+://matomo.$domain=~matomo.dhjensen.dk|~matomo.org
 ://metrics-collector.
 ://mint.*/?js
 ://piwik.$domain=~matomo.org|~piwik.pro
@@ -12226,6 +12227,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cultofmac.com/djrxqhzkbsgf.js
 ||cvs.com/tnadstlinj.js
 ||cwt.citywire.info^
+||cxgpt1.goindigo.in/forward/v2/track
 ||d.analyticsmania.com^
 ||d.skk.moe^
 ||d401.dollartree.com^
