@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9xGy8ymCN/wXsNljr3/Rfg
-! Version: 202509021402
+! Checksum: 6nfg4Gav3FOG0DnvGlYHZg
+! Version: 202509021511
 ! Title: EasyList China+EasyList
-! Last modified: 02 Sep 2025 14:02 UTC
+! Last modified: 02 Sep 2025 15:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -36290,6 +36290,7 @@ browsershots.org#@#.advert_area
 ||alienspurdon.digital^
 ||aliformfikery.cfd^
 ||alightattendancemerger.com^
+||alightrecentliterature.com^
 ||alikepublicity.com^
 ||alikepuzzled.cfd^
 ||alinegare.shop^
@@ -37107,6 +37108,7 @@ browsershots.org#@#.advert_area
 ||ashamedbirchpoorly.com^
 ||ashamedresist.com^
 ||ashamedtriumphant.com^
+||ashameskirmishcontinuing.com^
 ||ashasvsucoce.com^
 ||ashcdn.com^
 ||ashhgo.com^
@@ -41745,6 +41747,7 @@ browsershots.org#@#.advert_area
 ||curberjeepney.qpon^
 ||curbsubdued.click^
 ||curiarascope.cfd^
+||curiositycow.com^
 ||curioushingefast.com^
 ||curiouslyconcern.com^
 ||curledduotone.cfd^
@@ -44018,6 +44021,7 @@ browsershots.org#@#.advert_area
 ||embogsoarers.com^
 ||embogtangier.shop^
 ||emboguepistler.world^
+||embolicpenlop.com^
 ||embolipursued.cfd^
 ||embossdoncy.world^
 ||embowerdatto.com^
@@ -46344,6 +46348,7 @@ browsershots.org#@#.advert_area
 ||genderorganiccensus.com^
 ||geneindustriousbennet.com^
 ||generalizebusinessman.com^
+||generationdissolvedplease.com^
 ||generationparchmentqueen.com^
 ||generationscrap.com^
 ||genericlink.com^
@@ -47535,6 +47540,7 @@ browsershots.org#@#.advert_area
 ||hanypkwwltkhj.online^
 ||happedfraps.qpon^
 ||happierfaceup.rest^
+||happilyfreakishobedience.com^
 ||happinessunderneathmotion.com^
 ||happy-davinci-53144f.netlify.com^
 ||happy2dates.com^
@@ -55152,6 +55158,7 @@ browsershots.org#@#.advert_area
 ||obarnedearie.shop^
 ||obcswpfk.xyz^
 ||obedieval.my.id^
+||obeseglobewimp.com^
 ||obetmwbxfdswe.store^
 ||obeus.com^
 ||obexgivey.cyou^
@@ -57888,6 +57895,7 @@ browsershots.org#@#.advert_area
 ||promerycergerful.com^
 ||promo-bc.com^
 ||promobenef.com^
+||promptconnectcouncilman.com^
 ||promptsgod.com^
 ||promptspewage.shop^
 ||pronouncedlaws.com^
@@ -59452,6 +59460,7 @@ browsershots.org#@#.advert_area
 ||reenakun.com^
 ||reephethedu.com^
 ||reepsotograg.net^
+||reeptuthaithe.com^
 ||reeslethrust.world^
 ||refacedpearlet.qpon^
 ||refbanners.com^
@@ -66602,6 +66611,7 @@ browsershots.org#@#.advert_area
 ||vshujjdvemznb.store^
 ||vsimyppptdxdo.site^
 ||vslpnvutywvnb.space^
+||vsovrhrdpry.com^
 ||vssnsveyhfx.com^
 ||vstserv.com^
 ||vstwm.com^
@@ -68279,6 +68289,7 @@ browsershots.org#@#.advert_area
 ||xqwrdegbmdfrv.top^
 ||xqxgcdhfkccgg.site^
 ||xrfdxsywgenhp.online^
+||xrfltqzxwupzh.store^
 ||xrfophbcrlrk.com^
 ||xrixoympautym.space^
 ||xrkadrlrfsmmirh.xyz^
@@ -71629,6 +71640,7 @@ browsershots.org#@#.advert_area
 ||rogerouch.com^
 ||sn2rrlv57qpss5w-qk8llu.xyz^
 ||sneakyangrilypromptlyupon.com^
+||softlyacrossany.com^
 ||squeakyscofffar.com^
 ||ts28ll0tk23t2n9pl0n327.xyz^
 ||unfortunatelyafter.com^
@@ -87191,6 +87203,7 @@ aads.com,ad-maven.com,adcash.com,admitad.com,adskeeper.com,adspyglass.com,adsupp
 ##.ad.reform-top
 ##.reform-top-container
 ! Amazon
+amazon.*###faceoutContainer:has(> [class$="sponsored-label"])
 amazon.*###nav-swmslot
 amazon.*###sc-rec-bottom
 amazon.*###sc-rec-right
@@ -87229,7 +87242,6 @@ amazon.*##div[cel_widget_id^="sp-desktop-carousel_handsfree-browse"]
 amazon.*##div[class*="_dpNoOverflow_"][data-idt]
 amazon.*##div[class*="SponsoredProducts"]
 amazon.*##div[data-a-carousel-options*="\\\"isSponsoredProduct\\\":\\\"true\\\""]
-amazon.*##div[data-ad-id]
 amazon.*##div[data-cel-widget="sp-rhf-desktop-carousel_desktop-rhf_1"]
 amazon.*##div[data-cel-widget="sp-shiptrack-desktop-carousel_desktop-yo-shiptrack_0"]
 amazon.*##div[data-cel-widget^="multi-brand-video-mobile_DPSims_"]
@@ -87241,6 +87253,7 @@ amazon.*##div[id^="sp_detail"]
 amazon.*##span[cel_widget_id^="MAIN-FEATURED_ASINS_LIST-"]
 amazon.*##span[cel_widget_id^="MAIN-loom-desktop-brand-footer-slot_hsa-id-CARDS-"]
 amazon.*##span[cel_widget_id^="MAIN-loom-desktop-top-slot_hsa-id-CARDS-"]
+!amazon.*##div[data-ad-id]
 !
 modivo.at,modivo.bg,modivo.cz,modivo.de,modivo.ee,modivo.fr,modivo.gr,modivo.hr,modivo.hu,modivo.it,modivo.lt,modivo.lv,modivo.pl,modivo.ro,modivo.si,modivo.sk,modivo.ua##.display-container
 modivo.at,modivo.bg,modivo.cz,modivo.de,modivo.ee,modivo.fr,modivo.gr,modivo.hr,modivo.hu,modivo.it,modivo.lt,modivo.lv,modivo.pl,modivo.ro,modivo.si,modivo.sk,modivo.ua##.promoted-slider-wrapper
