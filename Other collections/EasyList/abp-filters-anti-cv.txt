@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 61baTM/I7UlCHqG8mq1sYA
-! Version: 202509081231
+! Checksum: Rgi2cy6o6iwyhg7yIHetIw
+! Version: 202509081321
 ! Title: ABP filters
-! Last modified: 08 Sep 2025 12:31 UTC
+! Last modified: 08 Sep 2025 13:21 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -566,8 +566,6 @@ pons.com#$#override-property-read performance.getEntriesByType noopFunc; overrid
 ||0.as.sourceforge.net/article^$script,domain=sourceforge.net
 ||0.content-loader.com/article^$script,third-party,domain=timesofindia.indiatimes.com|sankei.com|dictionary.cambridge.org|bab.la|pons.com|loawa.com|gazetaprawna.pl|winfuture.de|collinsdictionary.com|malaymail.com|tz.de
 ||dbloader.leboncoin.info^$script,third-party,domain=leboncoin.fr
-||html-load.com/loader.min.js^$script,domain=wetter.com
-||content-loader.com/loader.min.js^$script,domain=wetter.com
 wetter.com#$#override-property-read document.head.appendChild noopFunc
 ! #CV-1935
 ##.jag8CityBio212023
@@ -1526,7 +1524,6 @@ sdamgia.ru#$#abort-on-property-read Object.prototype.getRenderToElement
 vgtimes.ru#$#json-prune 'data.0.attributes.bannerId'
 liveball.cc,liveball.uno#$#abort-on-property-read ABNS
 zab.ru#$#abort-on-property-read document.body.style
-volley.ru#$#override-property-read Object.prototype.preroll null
 players.com.ua#$#abort-on-property-read localStorage
 inforesist.org#$#abort-on-property-read alert
 dzen.ru,lena-miro.ru,levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru#$#hide-if-shadow-contains 'iframe'; hide-if-shadow-contains 'style'
