@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BkQ2pOSsibgImCmCxTf8cg
-! Version: 202509080701
+! Checksum: kDE9Qm/QyVkdKz/fhWsT9Q
+! Version: 202509080811
 ! Title: EasyList
-! Last modified: 08 Sep 2025 07:01 UTC
+! Last modified: 08 Sep 2025 08:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -234,7 +234,7 @@
 /adsdelivery/*$subdocument
 /adserv.$script
 /adserve/*$script
-/adserver.$~stylesheet,~xmlhttprequest,domain=~adserver.flytant.com
+/adserver.$~stylesheet,~xmlhttprequest
 /adserver3.$image,script
 /adsforwp-front.min.css$stylesheet
 /adsimage/*$image,domain=~kamaz-service.kz|~theatreticketsdirect.co.uk
@@ -766,7 +766,7 @@
 ://adsbb.
 ://adserving.
 ://adsrv.
-://adsserver.$~xmlhttprequest
+://adsserver.$~xmlhttprequest,domain=~adsserver.flytant.com
 ://adv.$third-party,domain=~adv.asahi.com|~adv.bet|~adv.blue|~adv.chunichi.co.jp|~adv.cincsys.com|~adv.cryptonetlabs.it|~adv.design|~adv.digimatix.ru|~adv.ec|~adv.ee|~adv.gg|~adv.hokkaido-np.co.jp|~adv.kompas.id|~adv.lack-girl.com|~adv.mcr.club|~adv.mcu.edu.tw|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.peronihorowicz.com.br|~adv.rest|~adv.ru|~adv.sciconnect.unsw.edu.au|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.yomiuri.co.jp|~advancedradiology.com|~advids.co|~farapp.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com
 ://aff-ads.
 ://affiliate.$third-party
@@ -18182,6 +18182,7 @@ browsershots.org#@#.advert_area
 ||animits.com^
 ||animoseelegy.top^
 ||animositycandiedcalmly.com^
+||animosofossil.help^
 ||aninter.net^
 ||anisaldisker.click^
 ||anisewarish.digital^
@@ -18904,6 +18905,7 @@ browsershots.org#@#.advert_area
 ||auchoons.net^
 ||aucmistaibs.net^
 ||aucmoartoas.com^
+||aucooltiwitsaih.net^
 ||audaciousedifice.com^
 ||audiblemidsummerasia.com^
 ||audiblereflectionsenterprising.com^
@@ -25144,6 +25146,7 @@ browsershots.org#@#.advert_area
 ||duncantrt.cyou^
 ||dunceryopera.shop^
 ||dunderaffiliates.com^
+||dungeonconner.click^
 ||dunkashtraycolloquial.com^
 ||dunkingmacuca.digital^
 ||dunsathelia.click^
@@ -27124,6 +27127,7 @@ browsershots.org#@#.advert_area
 ||fixedlyfully.com^
 ||fixedopening.com^
 ||fixesnetwork.com^
+||fixeswavycultural.com^
 ||fixingcreepingstarter.com^
 ||fixittoday.biz^
 ||fixpass.net^
@@ -34609,6 +34613,7 @@ browsershots.org#@#.advert_area
 ||lylowerhughe.com^
 ||lylufhuxqwi.com^
 ||lymckensecuryren.org^
+||lymqochwnf.com^
 ||lynnepoddige.cfd^
 ||lyofmsxgupzvk.online^
 ||lyowbbvkqznny.top^
@@ -44694,6 +44699,7 @@ browsershots.org#@#.advert_area
 ||southedtottie.shop^
 ||southflannelclassic.com^
 ||southmauling.world^
+||soutnuuto.xyz^
 ||souushdopa.click^
 ||souvamoo.net^
 ||souvenirsrecognize.com^
@@ -45429,6 +45435,7 @@ browsershots.org#@#.advert_area
 ||succeedknockweapons.com^
 ||successesstudents.com^
 ||successorblushingplace.com^
+||succubicocopan.cfd^
 ||sucnaegzvbrhu.site^
 ||sucocune.com^
 ||sucthjya.com^
@@ -45682,6 +45689,7 @@ browsershots.org#@#.advert_area
 ||sxdmitcjdkgiw.space^
 ||sxdsvaicpjnzg.website^
 ||sxeythdkvmjyl.online^
+||sxgqqsngkzozy.website^
 ||sxidblabmvaod.site^
 ||sxjvnyieakqua.website^
 ||sxkhtdmsd.com^
@@ -60909,6 +60917,7 @@ browsershots.org#@#.advert_area
 ||cdn.streambeast.io/angular.js
 ||cdn77.org^$domain=pricebefore.com
 ||cdnads.geeksforgeeks.org^
+||cdnintech.com/web/frontend/www/assets/*/js/adsLoader.js
 ||cdnpk.net/freepik/images/creative?$domain=freepik.com
 ||cdnpk.net/sponsor/$domain=freepik.com
 ||cdnpk.net/v2/images/search?$domain=freepik.com
@@ -64316,6 +64325,7 @@ forbes.com,windowscentral.com##.ad-unit
 sofascore.com##.ad-unit-container
 ndtvprofit.com##.ad-with-placeholder-m__place-holder-wrapper__--JIw
 trueachievements.com##.ad-wrap
+intechopen.com##.ad-wraper
 gbnews.com,smithsonianmag.com,tasty.co##.ad-wrapper
 uncrate.com##.ad-wrapper-970
 insurancebusinessmag.com##.ad-wrapper-billboard-v2
@@ -64484,6 +64494,7 @@ india.com##.ads-in-content
 freeconvert.com##.ads-in-page
 nationthailand.com##.ads-inarticle-2
 readcomicsonline.ru##.ads-large
+intechopen.com##.ads-link
 kiz10.com##.ads-medium
 freemalaysiatoday.com##.ads-medium-desktop
 theasianparent.com##.ads-open-placeholder
