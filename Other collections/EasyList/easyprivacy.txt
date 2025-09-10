@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: PFDbxjHclhK6E5bERY64ZA
-! Version: 202509101221
+! Checksum: l1X5fl3QODT8lZ5R5jhN/Q
+! Version: 202509101311
 ! Title: EasyPrivacy
-! Last modified: 10 Sep 2025 12:21 UTC
+! Last modified: 10 Sep 2025 13:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -52660,6 +52660,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||cmp.telerama.fr/js/telerama.min.js$~third-party
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
 @@||forecast.lemonde.fr/p/event/pageview?$image,~third-party
+@@||franceinfo.fr/assets/*/piano-analytics/piano-analytics-$~third-party,script
 @@||helix.videotron.com/js/api/fingerprint.js$~third-party
 @@||logic-immo.com/lib/xiti/xiti.js$script,~third-party
 @@||mabanque.fortuneo.fr/js/front/fingerprint2.js$script,domain=mabanque.fortuneo.fr
