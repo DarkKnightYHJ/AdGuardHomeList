@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: DJoAZCHcEj6eyBlcKArzFA
-! Version: 202509102201
+! Checksum: Z2uNQTSDm6LVS98sxQ0WNw
+! Version: 202509102301
 ! Title: ABP filters
-! Last modified: 10 Sep 2025 22:01 UTC
+! Last modified: 10 Sep 2025 23:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1123,6 +1123,7 @@ asurascanz.com#$#hide-if-matches-xpath './/a[@rel="sponsored"]/parent::div[@styl
 /backend_loader$script,domain=rule34.xxx
 theyeshivaworld.com#$#hide-if-matches-xpath './/img[contains(@src,"ads")]/parent::a/ancestor::div[contains(@class,"jag-container")][1]'; hide-if-matches-xpath './/iframe[@title="Bitbean Ad"]/parent::div[1]'
 redd.tube#$#abort-on-property-read config
+stuff.co.nz#$#hide-if-matches-xpath '//div[@class="sponsored-container"]/div[@class="sponsored"]/ancestor-or-self::a[@class="cx-item"]'
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
