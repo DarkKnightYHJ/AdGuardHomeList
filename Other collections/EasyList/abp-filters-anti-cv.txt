@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: Ul+u0OrZZXrTBuWaVIc0wA
-! Version: 202509102011
+! Checksum: +bjAXw0TH+6eqBSr7C0jAQ
+! Version: 202509102101
 ! Title: ABP filters
-! Last modified: 10 Sep 2025 20:11 UTC
+! Last modified: 10 Sep 2025 21:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -849,7 +849,6 @@ cocostream.org,idope.cyou,playmods.net,youtube4kdownloader.com,yts2.*,yts-offici
 latinblog.tv#$#abort-on-property-write _cpp
 camsstream.com#$#abort-current-inline-script onload;
 buzzheavier.com,hdtube.porn,hentaihaven.icu,hentaikai.com,leaktape.*,flashbang.sh,trashbytes.net,filecrypt.cc,filecrypt.co,ytstv.me,yts.*,yts-official.*#$#abort-on-property-read atob
-filecrypt.cc,filecrypt.co#$#abort-current-inline-script document.createElement Math.random
 newser.com#$#prevent-listener load object
 masahub.net,sbanh.com,sbembed.com,sblona.com,sblongvu.com,sbrapid.com,streamsb.com,streamsb.net#$#abort-on-property-read decodeURI; abort-on-property-read mm
 ||*.com/*b8121.js^$script,domain=mult34.com
