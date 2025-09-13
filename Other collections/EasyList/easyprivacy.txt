@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 6gfmqTYCza1wAZPjmIlSUQ
-! Version: 202509132201
+! Checksum: /uuEPiFDZC6ZhhuRzRq51Q
+! Version: 202509132301
 ! Title: EasyPrivacy
-! Last modified: 13 Sep 2025 22:01 UTC
+! Last modified: 13 Sep 2025 23:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2888,6 +2888,7 @@
 ?type=page&event=
 ?type=pageview&
 ?v=2&tid=G-$~third-party
+?wmcAction=wmcTrack&
 _beacon?
 _c.gif?c=
 _chartbeat.js
@@ -11277,6 +11278,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tag.triboomedia.it^
 ||tourmake.it^*/stat/
 ||tourmake.it^*/stats?
+||tps.trovaprezzi.it^
 ||tr.brand-fresh.it^
 ||tr.bt.matrixspa.it^
 ||track.cedsdigital.it^
@@ -51666,6 +51668,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||log.kinolights.com^
 ||log.tossinvest.com^
 ||log.zdnet.co.kr^
+||nam.veta.naver.com^
 ||naver.com/jackpotlog/
 ||naver.com/PostView.nhn?$image
 ||ntm.pstatic.net/scripts/ntm_$domain=naver.com
@@ -51676,7 +51679,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||shinsegae.com/topNPopup.do
 ||sp.naver.com^
 ||ssgdfs.com/kr/common/getPageIcfCd
+||ssl.pstatic.net/static.news/*/js/generated/aside.statistics.js$domain=media.naver.com|news.naver.com
 ||ssl.pstatic.net/static/coreplayer/mclog/media-capable-log.js$domain=naver.com
+||ssl.pstatic.net/tveta/libs/glad/*/gfp-display-sentry-logger.js$domain=news.naver.com
 ||stat.i3.dmm.com^
 ||stat.tiara.daum.net^
 ||stat.tiara.kakao.com^
