@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: pT9rSunu6MzyvZ3oZAMSgw
-! Version: 202509151511
+! Checksum: 66EbKcpNLS6RT3HBSGOIWQ
+! Version: 202509151611
 ! Title: ABP filters
-! Last modified: 15 Sep 2025 15:11 UTC
+! Last modified: 15 Sep 2025 16:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -886,7 +886,7 @@ gaytxxx.com,transtxxx.com,txxx.com#$#abort-on-property-read jwplayer.utils.Timer
 ||txxx.com/*x/*.js$domain=gaytxxx.com|transtxxx.com|txxx.com
 9hentai.*#$#prevent-listener click saveLastEvent
 sendspace.com#$#abort-on-property-read runad false
-engvideo.net,hianime.to,hollymoviehd.cc,ling-online.net#$#abort-current-inline-script document.documentElement break;case
+engvideo.net,hianime.*,hollymoviehd.cc,ling-online.net#$#abort-current-inline-script document.documentElement break;case
 eporner.com#$#override-property-read exo99HL3903jjdxtrnLoad null; abort-on-property-read window.location.replace.getadb; cookie-remover ADBp
 freshsexvideos.com,sexvideos.rodeo,xxxvideo.link,ixxx.onl,xvideosx.one,xxxpor.org,xmxx.live#$#cookie-remover tgpOut; abort-current-inline-script document.querySelectorAll popMagic; override-property-read setTimeout noopFunc;
 porntrex.com#$#abort-on-property-write preventDefault
@@ -912,7 +912,7 @@ onworks.net#$#override-property-read rewarded 0;
 readcomiconline.li#$#abort-on-iframe-property-read localStorage
 boosterx.stream,vidsrc.*#$#abort-current-inline-script EventTarget.prototype.addEventListener delete; abort-current-inline-script JSON.parse break;case $.;
 coflix.*,fmovies.*,swatchseries.is,vidply.com,watchseriestv.*#$#abort-current-inline-script String.fromCharCode 2147483647
-hianime.to,magasavor.net,moviesjoy.*,pkembed.*,rmaxfinishseveral.com,uqload.*,bigwarp.*,savefiles.com,vide0.net#$#abort-on-property-write window.open; abort-current-inline-script EventTarget.prototype.addEventListener delete window;
+hianime.*,magasavor.net,moviesjoy.*,pkembed.*,rmaxfinishseveral.com,uqload.*,bigwarp.*,savefiles.com,vide0.net#$#abort-on-property-write window.open; abort-current-inline-script EventTarget.prototype.addEventListener delete window;
 pornproxy.*#$#abort-current-inline-script document.createElement /script/; abort-on-property-write PopCookieTimeout; abort-on-property-read PopURL
 sexvid.*#$#abort-on-property-read atob; abort-current-inline-script document.write /promo/; override-property-read window.diptr undefined; abort-on-property-read window.pu; abort-current-inline-script document.write iframe;
 gogoanimes.*,bigclatterhomesguideservice.com,dramacool.sr,hltv.org,japscan.me,maxfinishseveral.com,movies-watch.com.pk,movies2watch.tv,nosteam.ro,readcomiconline.li,reputationsheriffkennethsand.com,root-nation.com,soap2day.*,solarmovie.*,toongod.com,watchseriestv.*,yomovies.cloud#$#abort-on-property-read window.open
@@ -1080,7 +1080,7 @@ poki.com#$#hide-if-matches-xpath './/div[contains(@style,"height")]/following-si
 bettycrocker.com,pillsbury.com#$#simulate-mouse-event 'xpath(.//div[@class="adAboveSiteHeader"]//span[@class="closeAdButton"][@aria-label])'
 solarmovie.*#$#abort-current-inline-script Math zfgloaded
 kickassanime.*,streamwish.*#$#hide-if-matches-xpath './/div[contains(@class, "jw-wrapper")]/div[contains(@style,"position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;")]'
-hianime.to#$#hide-if-matches-xpath './/a[contains(@href,"1flix.to")]/img[@alt="1flix"][@style]/ancestor::div[@style]'
+hianime.*#$#hide-if-matches-xpath './/a[contains(@href,"1flix.to")]/img[@alt="1flix"][@style]/ancestor::div[@style]'
 hdtodayz.*,moviesjoy.*#$#hide-if-matches-xpath './/img[contains(@style,"width: 100%")]/parent::a[@href][@target]/ancestor::div[@id][contains(@style,"20px")]'
 2kmoviehd.to,hdtodayz.*##div[style*="position: fixed; inset: 0px; pointer-events: auto;"]
 awafim.tv,movies2watch.tv,sflix2.*,sflix.*,uqload.*#$#prevent-listener break;case $.
