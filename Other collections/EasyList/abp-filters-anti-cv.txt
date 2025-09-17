@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: OuqbER5T2ZlpCEyPN0aHCg
-! Version: 202509171811
+! Checksum: wf6Y+3Er0XatTutaJaAqGA
+! Version: 202509171902
 ! Title: ABP filters
-! Last modified: 17 Sep 2025 18:11 UTC
+! Last modified: 17 Sep 2025 19:02 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1775,6 +1775,7 @@ tripadvisor.com#$#hide-if-matches-xpath './/div[count(.//div) >= 5]//div[not(*[n
 ! #RM-3
 ! PP
 lowes.com#$#hide-if-matches-xpath './/div[@class][contains(text(),"Sponsored")]/ancestor::div[@class="carousel-inner-container "]/preceding::h2[@class][@role][contains(text(),"Sponsored")]/ancestor-or-self::div[contains(@class,"recommended")][1]'
+lowes.com#$#hide-if-matches-xpath '//p[text()="Sponsored"]/ancestor-or-self::div[contains(@data-testid,"lws_pdp_recommendations_sponsored_")][1]'
 ! SA LV
 lowes.com#$#hide-if-contains-visible-text /Sponsored/ 'div[class$="tile_group"][data-row]' 'div[data-selector="prd-lormn-badge"]:not([style])>p>span'
 ! SA GV
