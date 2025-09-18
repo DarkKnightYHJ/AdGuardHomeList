@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: czIo9kB2hM33uEB2APxL1w
-! Version: 202509182201
+! Checksum: 2M6OVZpNbaP7lSxDIHDMiA
+! Version: 202509182301
 ! Title: ABP filters
-! Last modified: 18 Sep 2025 22:01 UTC
+! Last modified: 18 Sep 2025 23:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -2030,6 +2030,7 @@ dickssportinggoods.com##div[id*="dickssportinggoods/stores/top_banner_"]
 ! #RM-108
 ! ba
 slickdeals.net#$#hide-if-matches-xpath '//span[contains(text(),"Sponsored")][@data-partial="sponsor"]/ancestor-or-self::div[@data-role="announcementBar"][1]'
+slickdeals.net#$#hide-if-matches-xpath '//div[contains(@class,"displayAdContainer searchPage__")]/ancestor-or-self::div[@class="searchPage__headerContent"][1]'
 ! *** abp-filters-hotfix:hotfix.txt ***
 ! FDA-2994
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument
@@ -2171,6 +2172,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||chambulwacs.com^
 ||chirruprevest.com^
 ||chivwtusseh.com^
+||chooragobioid.com^
 ||closishcool.com^
 ||coeliabumpee.com^
 ||coesitecubbing.com^
@@ -2274,6 +2276,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||kolhozclarain.com^
 ||lawscrax.com^
 ||lawzyscapoid.com^
+||lepidpomps.com^
 ||lettenfluoric.com^
 ||libbardavarish.shop^
 ||liftjoinant.com^
@@ -2423,6 +2426,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||unruthwhiz.com^
 ||upfleeacraze.com^
 ||urgingslaurae.com^
+||vacantazon.com^
 ||verninchange.com^
 ||versinehopper.com^
 ||vextslows.com^
@@ -2437,6 +2441,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||widdermixtec.com^
 ||wiltinfume.com^
 ||wolfmandiked.com^
+||woodsytenline.com^
 ||yaigy.com^
 ||yarningbursal.com^
 ||yawnfulharpa.com^
