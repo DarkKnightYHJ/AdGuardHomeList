@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202509182010
+! Version: 202509182109
 ! Title: EasyList
-! Last modified: 18 Sep 2025 20:10 UTC
+! Last modified: 18 Sep 2025 21:09 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 18f7790f2f4fbd7d444f58159558b6b8780834fd
+! Commit: b85f951993a67e48752eb0e5597f68aa656c496a
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -32788,6 +32788,7 @@ browsershots.org#@#.advert_area
 ||jgzmqlkqnkqjv.top^
 ||jhakuzzvcilbv.website^
 ||jhbjkqqykibyt.buzz^
+||jhbncnmpwfpgf.space^
 ||jhbrggmoyarhwri.xyz^
 ||jhcccvxqnkdit.website^
 ||jhebhefcekqpi.site^
@@ -35017,6 +35018,7 @@ browsershots.org#@#.advert_area
 ||livezombymil.com^
 ||livid-management.pro^
 ||lividgod.pro^
+||lividprompt.pro^
 ||livrestyromas.top^
 ||livvbkx-vejj.xyz^
 ||livxlilsq.click^
@@ -37186,6 +37188,7 @@ browsershots.org#@#.advert_area
 ||mtddzanzcserh.space^
 ||mtdzxyfhzn.com^
 ||mteitdoivvxjy.site^
+||mteunmspbflnomp.com^
 ||mtgbhhzgsfp.com^
 ||mthcplolzrszh.online^
 ||mtkgyrzfygdh.com^
@@ -42948,6 +42951,7 @@ browsershots.org#@#.advert_area
 ||qznksxyvzngeq.site^
 ||qzoxaijuvxzwv.online^
 ||qzpifnofrtvrd.store^
+||qzpnlrckbpcwe.online^
 ||qztqjcwpbbttr.store^
 ||qztuqvcdfyphx.store^
 ||qzwycfdqgpmkw.site^
@@ -48119,6 +48123,7 @@ browsershots.org#@#.advert_area
 ||tslomhfys.com^
 ||tslzggdkpwvyk.online^
 ||tsml.fun^
+||tsnkqqzsnlfsn.store^
 ||tsouvwkpdg.net^
 ||tsouvwkpdg.xyz^
 ||tspops.com^
@@ -68298,6 +68303,7 @@ woot.com##[data-test-ui="advertisement-cdm-zone-06"]
 drivencarguide.co.nz##[data-test-ui="outbrain-suggestions"]
 woot.com##[data-test-ui^="advertisementLeaderboard"]
 target.com##[data-test="featuredProducts"]
+target.com##[data-test="recommended_products_placement_adaptpdp_sponsored_items"]
 zillow.com##[data-test="search-list-first-ad"]
 target.com##[data-test="sponsored-text"]
 reuters.com##[data-testid="CnxPlayer"]
@@ -70424,6 +70430,7 @@ checkfelix.com,kayak.*,swoodoo.com##div[class*="-adInner"]
 checkfelix.com,kayak.*,swoodoo.com##div[data-resultid]:has(a.IZSg-adlink)
 checkfelix.com,kayak.*,swoodoo.com##div[id^="inline-"]
 ! *** easylist:easylist/easylist_specific_hide_abp.txt ***
+target.com#?#[data-test="ProductCardVariantRecommendation"]:-abp-contains(Sponsored)
 samsclub.com#?#li[data-slide]:-abp-contains(Sponsored)
 coles.com.au#?#[role="presentation"]:has([data-testid="product-tile"]:-abp-contains(Sponsored))
 bjs.com#?#[data-cnstrc-recommendations]:-abp-contains(Sponsored Products)
