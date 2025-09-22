@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: lGypOavVqKFCKF4vuj1YcQ
-! Version: 202509222101
+! Checksum: 6qnKA9Vaih7R1Ae5Pl09WQ
+! Version: 202509222201
 ! Title: Fanboy's Annoyance List
-! Last modified: 22 Sep 2025 21:01 UTC
+! Last modified: 22 Sep 2025 22:01 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -256,6 +256,7 @@ _backToTop.
 /js-mobile-*/header_$script
 /js/jquery.smartbanner.js|
 /js/jquery.smartbanner.min.js|
+/mobile-app-invite-banner.umd.min.js
 /mobile-welcome-overlay/*$script
 /MobileDownloadBanner.js
 /smart-app-banner.js
@@ -1861,6 +1862,8 @@ _social_footer_
 ##.source-woocommerce.nx-notification
 ##.wpcsn-notification-inner
 ##.yo-notification
+! google review popup
+##.es-badge-container
 ! advocate.com (Video PIP following)
 ##.vjs-pip-y-bottom
 ! medium nag
@@ -2841,8 +2844,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##a[href^="http://www.mobi24.net/"]
 ##a[href^="https://www.mobi24.net/"]
 ##amp-app-banner
-! google review popup
-##.es-badge-container
 ! substack
 ##.subscription-widget-wrap > .show-subscribe
 ! spot.im Notifications
