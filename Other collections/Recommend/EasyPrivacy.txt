@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 7NKZqzTV2VtHe27ITQm0Fg
-! Version: 202509240321
+! Checksum: TY3ETN6VhsWiMYGExnfWyg
+! Version: 202509240411
 ! Title: EasyPrivacy
-! Last modified: 24 Sep 2025 03:21 UTC
+! Last modified: 24 Sep 2025 04:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -626,6 +626,7 @@
 /cocoon-master/lib/analytics/access.
 /codesters-analytics.
 /CofinaHits.js
+/cogi-etracker.js
 /cohesion-latest.min.js
 /coinhive.min.js
 /coinimp-cache/*
@@ -2831,6 +2832,7 @@
 ://datacollector.*/event
 ://dwh-prod.*/de.npg/
 ://elqtrk.
+://estats.*/code/e.js
 ://fallback.*/collector
 ://fathom.$domain=~fathom.care|~fathom.fm|~fathom.info|~fathom.io|~fathom.lib.uchicago.edu|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://gtrack.*/dye
@@ -6207,6 +6209,7 @@ omni.soundestlink.com$image
 ||whoaremyfriends.net^$third-party
 ||whoisonline.net^$third-party
 ||whoisvisiting.com^$third-party
+||whomyip.com^$third-party
 ||whosclickingwho.com^$third-party
 ||wickedreports.com^$third-party
 ||wideangle.co^$third-party
@@ -8901,6 +8904,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||isacglobal.com/sa.js
 ||isitelab.io/ite_sitecomV1ANA.min.js
 ||iterable.com/analytics.js
+||itmwpb.com/wp-content/plugins/advertise/modules/stats/assets/track.js
 ||iturl.in/analytics?
 ||iubenda.com/write?
 ||iyisayfa.net/inc.php?
@@ -9545,6 +9549,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rejoiner.com/tracker/
 ||relaymedia.com/ping?$third-party
 ||removeads.workers.dev^
+||replayapp.io/collect/
 ||replit.app/tap/
 ||replyat.com/gadgetpagecounter.asp?
 ||report.23video.com^
@@ -9981,6 +9986,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tm.vendemore.com^
 ||tmp.argusplatform.com/js/wid.tracker.js
 ||tms.fmm.io^
+||tmssl.akamaized.net/js/news-viewport-tracking.js
 ||tmtarget.com/tracking/
 ||to.getnitropack.com^
 ||toast.com/log
@@ -10204,6 +10210,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||uadblocker.com/pixel1.php?$third-party
 ||ubm.docu.info^
 ||uc.cn/collect?
+||uc.shiprocket.in/v1/track/
 ||ucounter.ucoz.net^
 ||ucoz.net/stat/
 ||uct.service.usercentrics.eu^
@@ -10219,6 +10226,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||unpkg.com/web-vitals?
 ||uptime.com/static/rum/$third-party
 ||uptime.fastrr.com^
+||uptime2.fastrr.com^
 ||upvert.io/api/v3/pixel/
 ||uriports.com/reports/$third-party
 ||urldefense.com^$image,third-party
@@ -11872,7 +11880,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sayac.kapital.com.tr^
 ||statistics.daktilo.com^
 ||stats.vidyome.com^
-||tmssl.akamaized.net/js/news-viewport-tracking.js$domain=transfermarkt.com.tr
 ||track.livasoft.com.tr^
 ||traffic.wdc.center^
 ||web.tv/analytics/
@@ -12462,6 +12469,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||essentiallysports.com/growth/engagement/
 ||et.nytimes.com^
 ||et.tidal.com^
+||etracker.noon.com^
 ||etsy.com/bcn/beacon
 ||etsy.com/clientlog
 ||etui.fs.ml.com^
