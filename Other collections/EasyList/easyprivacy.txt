@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: ZDkxN4P/F+LrQP6Pl1q8Gw
-! Version: 202509241101
+! Checksum: kyuZK41HG1SZjRUvFcBOVQ
+! Version: 202509241231
 ! Title: EasyPrivacy
-! Last modified: 24 Sep 2025 11:01 UTC
+! Last modified: 24 Sep 2025 12:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -50220,6 +50220,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||ens.tagblatt.ch^
 ||epimetheus.navigator.web.de^
 ||epochtimes.de/mp/track/
+||eum.instana.rewe-group.com^
 ||event-collector.prd.data.s.joyn.de^
 ||events.limango.com^
 ||fc.vodafone.de^
@@ -50281,6 +50282,10 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||redaktionstest.net/cdn/$ping
 ||remp-beam.golem.de^
 ||responder.wt.heise.de^
+||rewe.de/api/xrd/events
+||rewe.de/api/xrd/page-data/data-layer
+||rewe.de/shop/api/productlist/impressions
+||rewe.de/shop/api/productlist/interactions
 ||ricardo.ch/api/browser-statistics/
 ||rt.bunte.de^
 ||ruw.de/js/trackSidebarClicks.js
