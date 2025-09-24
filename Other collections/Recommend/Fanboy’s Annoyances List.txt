@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: oj0T5jXEu0aI1Euxrh2r6w
-! Version: 202509240811
+! Checksum: f+CymOp9w3z4/vf72xJFIQ
+! Version: 202509240911
 ! Title: Fanboy's Annoyance List
-! Last modified: 24 Sep 2025 08:11 UTC
+! Last modified: 24 Sep 2025 09:11 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -31658,6 +31658,7 @@ dev.to##.popover-billboard--menuopenupwards
 escoffier.edu##.popup-overlay
 notesfrompoland.com##.popup-trigger
 wttw.com##.popup_background
+station-drivers.com##.popup_body
 wttw.com##.popup_wrapper
 flaticon.com##.premium-autop
 theglobeandmail.com##.premium-chain-rail
@@ -49182,10 +49183,9 @@ zeit.de##.ob-widget:has(.ob-p.ob-dynamic-rec-container)
 @@||sdk.mrf.io/statics/marfeel-sdk.js?$domain=autobild.es
 @@||sdk.privacy-center.org/*/loader.js?$domain=autobild.es
 @@||sdk.privacy-center.org/sdk/*/modern/$domain=autobild.es
-! FD-7565 | FD-7590
-@@||consent.cookiebot.com/*/cc.js?renew$domain=autobild.fi|icondigizine.de
-@@||consent.cookiebot.com/uc.js$domain=autobild.fi|icondigizine.de
-@@||googletagmanager.com/gtm.js?id$domain=autobild.fi
+! FD-7590
+@@||consent.cookiebot.com/*/cc.js?renew$domain=icondigizine.de
+@@||consent.cookiebot.com/uc.js$domain=icondigizine.de
 ! FD-7573|7568
 @@||cookielaw.org^$domain=autobild.pluska.sk|awin.com
 autobild.pluska.sk,awin.com#@#.onetrust-pc-dark-filter
@@ -49217,22 +49217,10 @@ autobild.lt#@#.footer-container ~ div[class*="cookie-notice"]
 stepstone.de#@##GDPRConsentManagerContainer
 ! FD-7669
 autobild.lt#@##social-links
-! FD-7709
-@@||consent.cookiebot.eu/*/cc.js?$domain=autobild.fi
-@@||consent.cookiebot.eu/Framework/IAB/consent-sdk*.js$domain=autobild.fi
-@@||consent.cookiebot.eu/uc.js?cbid$domain=autobild.fi
-@@||consentcdn.cookiebot.eu/sdk/bc-v4.min.html$domain=autobild.fi
 ! FD-7711
 @@||sdk.privacy-center.org/sdk/*/modern$domain=autotip.auto.cz
 ! FD-7744
 @@||w.usabilla.com^$script,domain=autoweek.nl
-! FD-7914
-@@||cd.connatix.com/connatix.player.js?$domain=bz-berlin.de
-@@||cds.connatix.com/a/player.$domain=bz-berlin.de
-@@||cds.connatix.com/p/596856/$domain=bz-berlin.de
-@@||capi.connatix.com/core/$domain=bz-berlin.de
-@@||ib.adnxs.com/ut/v3$domain=bz-berlin.de
-bz-berlin.de#@#.cnx-player-wrapper
 ! FD-7916
 @@||micro.rubiconproject.com/prebid/dynamic/*.js?$domain=bildderfrau.de
 ! FD-7938
