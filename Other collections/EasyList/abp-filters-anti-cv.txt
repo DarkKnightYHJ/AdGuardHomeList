@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 0byz41+R2DD5+1N5yiMK3A
-! Version: 202509291701
+! Checksum: O4QZiDLuPUWcOAl+fWKtXA
+! Version: 202509291811
 ! Title: ABP filters
-! Last modified: 29 Sep 2025 17:01 UTC
+! Last modified: 29 Sep 2025 18:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -366,7 +366,10 @@ www.idnes.cz#$#hide-if-matches-xpath '//div[@*[starts-with(name(), "data-") and 
 wwww.idnes.cz#$#hide-if-matches-xpath './/img[@title="reklama"]/parent::div/ancestor::div[contains(@id,"hypertext")][@class]'
 csfd.cz#$#hide-if-matches-xpath '//span[@class="ads-title"][text()="Reklama"]/ancestor-or-self::div[contains(@class,"column-half")][1]'
 csfd.cz#$#hide-if-matches-xpath '//span/following::span[@class="news-type-info"][text()="Reklama"]/ancestor-or-self::article[contains(@class,"article-hp-news")]'
+csfd.cz#$#hide-if-matches-xpath '//p[contains(@class,"box-banner-text")][text()="Reklama"]/parent::div[@class][1]'
 pluska.sk#$#hide-if-matches-xpath '//div[text()="Reklama"]/ancestor-or-self::div[contains(@class,"reklama")]/parent::div[contains(@class,"ReklamnyBox_wrapper")][1]'
+pluska.sk#$#hide-if-matches-xpath '//span[contains(@class,"basic-article-sponsored-text")][text()="Sponzorované"]/ancestor-or-self::a[contains(@class,"article-tabs_link")]/parent::li[1]'
+pluska.sk#$#hide-if-matches-xpath '//span[contains(@class,"Article_sponsored-text")][text()="Sponzorované"]/ancestor-or-self::div[contains(@native-perf-recommender-type,"campaign-provider-")][1]'
 ! MISC
 centrum.cz##div[class^="sasic-ad"]
 centrum.sk#$#hide-if-matches-xpath '//div[text()="Reklama"]/ancestor-or-self::div[contains(@class,"ReklamnyBox_")]'
