@@ -1,6 +1,6 @@
 # Title: 📔 Dandelion Sprouts nordiske filtre (for AdGuard Home, AdGuard for Android/Windows/macOS sine DNS-filtreringer, AdGuard Private DNS, og Pi-Hole FTL ≥5.22)
 # Translated title: Dandelion Sprout's Nordic Filters (for AdGuard Home, AdGuard for Android/Windows/macOS' DNS filtering, AdGuard Private DNS, and Pi-Hole FTL ≥5.22)
-# Version: 31August2025v1
+# Version: 30September2025v1
 # 🇳🇴：Beskrivelse: Dette er en mindre versjon av «Dandelion Sprouts nordiske filtre", designet for brukere av programvarer som ikke støtter adblocker-syntaker. Den tar primært for seg svindler, skadevare, og reklamer på norske, danske, islandske, og færøyske nettsteder.
 # 🇩🇰：Beskrivelse: Dette er en slankere version af »Dandelion Sprouts nordiske filtre« beregnet til brugere af softwareværktøjer, der ikke understøtter adblocker-syntakser. Den er primært rettet mod svindel, malware og reklamer på danske, norske, islandske og færøske hjemmesider.
 # Description: This is a slimmer version of "Dandelion Sprout's Nordic Filters", intended for users of software tools that doesn't support adblocker syntaxes. It chiefly targets scams, malware and adverts, on Norwegian, Danish, Icelandic and Faroese websites.
@@ -676,6 +676,11 @@
 ||tnord.click^
 ||tnord.qpon^
 ||tnordh.shop^
+||dk-sundhed.com^
+||sundhed-info.com^
+||sundhedinfo.com^
+||info-sundhed.com^
+||infopostdk.com^
 # ——— Entries for IP and CIDR addresses hosting various of the sites above. ———
 1.14.61.188
 3.248.18.175
@@ -729,18 +734,19 @@
 47.76.132.29
 212.224.107.120
 196.251.85.197
+158.94.209.89
 2001:67c:21e0::ad
-||104.160.10.0/24^
-||165.231.154.0/24^
-||165.231.10.0/24^
-||165.231.152.0/24^
-||196.196.52.0/24^
-||196.196.155.0/24^
-||196.240.121.0/24^
-||196.242.179.0/24^
-||196.245.52.0/24^
-||196.245.56.0/24^
-||193.143.1.0/24^
+/^104\.160\.10\.(1?\d{1,2}|2[0-4]\d|25[0-5])$/
+/^165\.231\.154\.(1?\d{1,2}|2[0-4]\d|25[0-5])$/
+/^165\.231\.10\.(1?\d{1,2}|2[0-4]\d|25[0-5])$/
+/^165\.231\.152\.(1?\d{1,2}|2[0-4]\d|25[0-5])$/
+/^196\.196\.52\.(1?\d{1,2}|2[0-4]\d|25[0-5])$/
+/^196\.196\.155\.(1?\d{1,2}|2[0-4]\d|25[0-5])$/
+/^196\.240\.121\.(1?\d{1,2}|2[0-4]\d|25[0-5])$/
+/^196\.242\.179\.(1?\d{1,2}|2[0-4]\d|25[0-5])$/
+/^196\.245\.52\.(1?\d{1,2}|2[0-4]\d|25[0-5])$/
+/^196\.245\.56\.(1?\d{1,2}|2[0-4]\d|25[0-5])$/
+/^193\.143\.1\.(1?\d{1,2}|2[0-4]\d|25[0-5])$/
 # ——— Anti-phishing filters for tools that support wildcards, are below this line. ———
 # ——— Don't be worried if you see entries that resemble major Nordic websites; those are wildcard entries for use with e.g. Samsung Knox, that attempts to stop phishing sites that have stolen the website brands in question. ———
 ||vg.no.$dnstype=~CNAME
