@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: MY/OR/ALSsyVrqjaMpX2BA
-! Version: 202510021511
+! Checksum: XYnDifvW0VOzHFviy+ahVg
+! Version: 202510021611
 ! Title: ABP filters
-! Last modified: 02 Oct 2025 15:11 UTC
+! Last modified: 02 Oct 2025 16:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -2014,7 +2014,7 @@ knuspr.de#$#hide-if-matches-xpath '//span[contains(., "Sponsored") or contains(.
 staples.com#$#hide-if-matches-xpath './/img[@alt="Sponsored Products"]/parent::picture/ancestor::div[@class][string-length(@class) < 16][1]/ancestor::div[.//div[@role="listitem"]][1]'
 ! #RM-194
 ! SP
-fiverr.com#$#race start; hide-if-contains-and-matches-style '' 'div.gig-card-layout' 'span>img[alt]' '/./' '; width: 4'; hide-if-contains-visible-text /Ad\ by/ 'div.gig-card-layout' 'span>span'; hide-if-matches-xpath '//span[contains(@class,"rvvxln1")]/ancestor-or-self::div[contains(@class,"gig-wrapper-impressions")]/parent::div[@class="gig-card-layout"][1]'; race stop;
+fiverr.com##div.gig-card-layout:has(img[src*="OZFqhkpkj4rzV28c.png"], img[src*="QKYiNoKD17FwRIF5.png"], img[src*="aiT2m7sbl2hXXOa6.png"], img[src*="cQnTumUw98ivhYML.png"])
 ! #RM-146
 ! ba
 mundi.com.br#$#hide-if-contains-visible-text /Anúncio/ 'div[role][tabindex^="0"]' 'div[class]>div'
