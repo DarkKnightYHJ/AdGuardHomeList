@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202510110612
+! Version: 202510110703
 ! Title: EasyList
-! Last modified: 11 Oct 2025 06:12 UTC
+! Last modified: 11 Oct 2025 07:03 UTC
 ! Expires: 4 days (update frequency)
-! Commit: f38a3b765941ce8ad82e5613610fd2a830689464
+! Commit: edbb344fc712df12442afb52d6de39028088a87b
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -817,6 +817,8 @@ _reklama_$domain=~youtube.com
 ! Ad-Shield
 /ad-shield/e/*$script,third-party
 /anymanagerrecover.js
+://0.www.*/player/*/a/$third-party,xmlhttprequest
+://0.www.*/player/*/m/$script,third-party
 ://0.www.*/players/*/-1/$script,third-party,xmlhttprequest
 ://loader.*.com/loader.min.js|$script,~third-party
 ://www.*.com/*/-1/327/$script,subdocument,third-party,xmlhttprequest
@@ -827,6 +829,8 @@ _reklama_$domain=~youtube.com
 ://www.*.xyz/players/*/a/$subdocument,third-party
 ://www.*.xyz/players/*?h=$script,third-party
 ://www.*.xyz/script/*.com.js|$script,third-party
+://www.*/player/*/a/$third-party,xmlhttprequest
+://www.*/player/*/m/$script,third-party
 wss://www.*.xyz/ws^$third-party
 ! https://github.com/easylist/easylist/issues/11123
 .com/ed/java.js$script
@@ -25186,6 +25190,7 @@ browsershots.org#@#.advert_area
 ||dvulz.org^
 ||dvvndprgsjdni.store^
 ||dvwedvktkcsvw.vip^
+||dvxasfriw.com^
 ||dvxrxm-cxo.top^
 ||dvymkekwkkgdi.space^
 ||dvypar.com^
@@ -36136,6 +36141,7 @@ browsershots.org#@#.advert_area
 ||momentjav182.fun^
 ||momentumjob.com^
 ||momijoy.ru^
+||mommaaloxite.shop^
 ||mommetretrain.click^
 ||mommygravelyslime.com^
 ||momogrunch.cfd^
@@ -47534,6 +47540,7 @@ browsershots.org#@#.advert_area
 ||sumlesspearler.life^
 ||summeanwhile.com^
 ||summerday.christmas^
+||summertenons.cyou^
 ||summitinfantry.com^
 ||sumnertelomic.shop^
 ||sumpopulent.help^

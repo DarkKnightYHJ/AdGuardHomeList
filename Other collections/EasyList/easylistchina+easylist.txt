@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bBCq4333orFHaVPkjpIFUg
-! Version: 202510110611
+! Checksum: 2hjBHyUouqMwDRcQhrnEiA
+! Version: 202510110701
 ! Title: EasyList China+EasyList
-! Last modified: 11 Oct 2025 06:11 UTC
+! Last modified: 11 Oct 2025 07:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1762,6 +1762,8 @@ newduba.cn###jq_youxi
 ||sbkpsa.icu^
 ||xbxfdn.icu^
 ||m81mfege2.com^
+||1paujqtq9.com^
+||ggo10111lq.com^
 ||wxx776sxqk.com^
 ||br0vjqh7pe.com^
 ||ggo10100lq.com^
@@ -19278,6 +19280,8 @@ _reklama_$domain=~youtube.com
 ! Ad-Shield
 /ad-shield/e/*$script,third-party
 /anymanagerrecover.js
+://0.www.*/player/*/a/$third-party,xmlhttprequest
+://0.www.*/player/*/m/$script,third-party
 ://0.www.*/players/*/-1/$script,third-party,xmlhttprequest
 ://loader.*.com/loader.min.js|$script,~third-party
 ://www.*.com/*/-1/327/$script,subdocument,third-party,xmlhttprequest
@@ -19288,6 +19292,8 @@ _reklama_$domain=~youtube.com
 ://www.*.xyz/players/*/a/$subdocument,third-party
 ://www.*.xyz/players/*?h=$script,third-party
 ://www.*.xyz/script/*.com.js|$script,third-party
+://www.*/player/*/a/$third-party,xmlhttprequest
+://www.*/player/*/m/$script,third-party
 wss://www.*.xyz/ws^$third-party
 ! https://github.com/easylist/easylist/issues/11123
 .com/ed/java.js$script
@@ -54597,6 +54603,7 @@ browsershots.org#@#.advert_area
 ||momentjav182.fun^
 ||momentumjob.com^
 ||momijoy.ru^
+||mommaaloxite.shop^
 ||mommetretrain.click^
 ||mommygravelyslime.com^
 ||momogrunch.cfd^
@@ -65995,6 +66002,7 @@ browsershots.org#@#.advert_area
 ||sumlesspearler.life^
 ||summeanwhile.com^
 ||summerday.christmas^
+||summertenons.cyou^
 ||summitinfantry.com^
 ||sumnertelomic.shop^
 ||sumpopulent.help^
@@ -74715,6 +74723,7 @@ browsershots.org#@#.advert_area
 ||ughjubilantly.com^
 ||unfortunatelyafter.com^
 ||untostakejiggle.com^
+||upbeatdualyahoo.com^
 ||uprightfondly.com^
 ||w9l4tr4013tn5mo27t0w.xyz^
 ||whoseabacus.com^

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yMWT7An/krPJj28iW8Stdw
-! Version: 202510110611
+! Checksum: +CLZtiT1ZpJkdNmqHrRdQQ
+! Version: 202510110701
 ! Title: EasyList
-! Last modified: 11 Oct 2025 06:11 UTC
+! Last modified: 11 Oct 2025 07:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -813,6 +813,8 @@ _reklama_$domain=~youtube.com
 ! Ad-Shield
 /ad-shield/e/*$script,third-party
 /anymanagerrecover.js
+://0.www.*/player/*/a/$third-party,xmlhttprequest
+://0.www.*/player/*/m/$script,third-party
 ://0.www.*/players/*/-1/$script,third-party,xmlhttprequest
 ://loader.*.com/loader.min.js|$script,~third-party
 ://www.*.com/*/-1/327/$script,subdocument,third-party,xmlhttprequest
@@ -823,6 +825,8 @@ _reklama_$domain=~youtube.com
 ://www.*.xyz/players/*/a/$subdocument,third-party
 ://www.*.xyz/players/*?h=$script,third-party
 ://www.*.xyz/script/*.com.js|$script,third-party
+://www.*/player/*/a/$third-party,xmlhttprequest
+://www.*/player/*/m/$script,third-party
 wss://www.*.xyz/ws^$third-party
 ! https://github.com/easylist/easylist/issues/11123
 .com/ed/java.js$script
@@ -36132,6 +36136,7 @@ browsershots.org#@#.advert_area
 ||momentjav182.fun^
 ||momentumjob.com^
 ||momijoy.ru^
+||mommaaloxite.shop^
 ||mommetretrain.click^
 ||mommygravelyslime.com^
 ||momogrunch.cfd^
@@ -47530,6 +47535,7 @@ browsershots.org#@#.advert_area
 ||sumlesspearler.life^
 ||summeanwhile.com^
 ||summerday.christmas^
+||summertenons.cyou^
 ||summitinfantry.com^
 ||sumnertelomic.shop^
 ||sumpopulent.help^
@@ -56250,6 +56256,7 @@ browsershots.org#@#.advert_area
 ||ughjubilantly.com^
 ||unfortunatelyafter.com^
 ||untostakejiggle.com^
+||upbeatdualyahoo.com^
 ||uprightfondly.com^
 ||w9l4tr4013tn5mo27t0w.xyz^
 ||whoseabacus.com^
