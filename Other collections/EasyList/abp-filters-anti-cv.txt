@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: Tn1En3PdhfltMkm0juxlfA
-! Version: 202510160811
+! Checksum: kFbtEsARuhaumcv7S4RrUg
+! Version: 202510160911
 ! Title: ABP filters
-! Last modified: 16 Oct 2025 08:11 UTC
+! Last modified: 16 Oct 2025 09:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -292,6 +292,7 @@ novinky.cz#$#json-prune 'responsive width height'; abort-current-inline-script c
 seznamzpravy.cz,sport.cz#$#hide-if-matches-xpath '//div[@class]/div[@*="mol-advert"]'
 novinky.cz#$#hide-if-matches-xpath '//iframe[@sandbox][contains(@style, "width: 100%")]/ancestor::div[@*[starts-with(name(), "data-") and contains(name(), "advert")]]/parent::div[1]'
 novinky.cz#$#abort-on-iframe-property-write postMessage; abort-on-property-write $sf; abort-on-iframe-property-read addEventListener;
+novinky.cz,seznam.cz#$#cookie-remover /^adb$|adb\.key|^[a-z]{5,11}$/; cookie-remover qusnyQusny;
 ! #CV-780
 .cz/*,,*,|$xmlhttprequest,domain=ahaonline.cz|info.cz|onetv.cz
 =autapay/*,|$xmlhttprequest,domain=ahaonline.cz|info.cz|onetv.cz
@@ -923,6 +924,7 @@ gogoanimes.*,bigclatterhomesguideservice.com,dramacool.sr,hltv.org,japscan.me,ma
 bigwarp.*,mangakakalot.gg,savefiles.com,vide0.net,jilliandescribecompany.com#$#abort-current-inline-script WebAssembly atob;
 torkitty.*#$#prevent-listener click handlePopunder
 /api/users/*&ev=*$script,domain=supjav.com
+streamm4u.com.co#$#prevent-listener beforeunload (); abort-on-property-write _g_sb_click
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 baytorrent.eu.org,europixhd.com,europixhd.net,file-up.org,force-download.com,force-download.es,force-download.net,gledajonline.net,hdeuropix.io,loadsubs.net,novom.ru,pirateproxy.earth,pirateproxy.live,thehiddenbay.com,thepiratebay.org,thepiratebay.vip,thepiratebay10.org,topeuropix.net,tpb.party,uploadproper.com,uploadproper.net#$#abort-on-property-read atob
@@ -931,7 +933,7 @@ gogoanimes.*,rarbg.to,rarbg2019.org,rarbgaccess.org,rarbgdata.org,rarbgget.org,r
 toon69.com#$#abort-on-property-read adConfig
 onlystream.tv#$#abort-on-property-read BetterJsPop
 hdvid.tv#$#abort-on-property-read atob; abort-on-property-read encodeURIComponent; abort-on-property-write _pop
-embed.media,fembed.com,fmovies.*,flashx.tv,gaobook.review,hxfile.co,mavplay.xyz,myyouporn.com,solarmovie.*,vaplayer.xyz,vizcloud.*,xstreamcdn.com#$#abort-on-property-read AaDetector
+embed.media,fembed.com,fmovies.*,flashx.tv,gaobook.review,hxfile.co,mavplay.xyz,myyouporn.com,streamm4u.com.co,solarmovie.*,vaplayer.xyz,vizcloud.*,xstreamcdn.com#$#abort-on-property-read AaDetector
 babesxworld.com,lesbian8.com,older-women-porn.com,pifansubs.com,pimpandhost.com,silkengirl.net#$#abort-on-property-read adProvider
 hitomi.la#$#abort-on-property-read AdProvider
 9xupload.me#$#abort-on-property-read eval
@@ -1837,7 +1839,7 @@ instacart.*##li:has(fp-ads-tag):not(:has(h2))
 ! ta
 instacart.*##div[id][class]:has(> div:first-child > a img[alt*="Sponsored"], > div[aria-hidden="true"]:last-child)
 ! tc
-instacart.*##div[id][class]:has(> a img[alt="Advertisement"]):has(li:first-of-type a div[style*="display:"] span)
+instacart.*##div[id][class]:has(> a > img):has(ul li:first-of-type a div[style*="display:"] span)
 ! mc
 instacart.*##div[id][class]:has(> a > div:first-child img):has(> a div[style*="display:"] span)
 ! tp
