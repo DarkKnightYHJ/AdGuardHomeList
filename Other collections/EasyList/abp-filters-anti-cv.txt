@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: WhnmixZp8Dqsv+g7DGYonA
-! Version: 202510162011
+! Checksum: fh9r7CHbL6+dbGCFHJMWGA
+! Version: 202510162101
 ! Title: ABP filters
-! Last modified: 16 Oct 2025 20:11 UTC
+! Last modified: 16 Oct 2025 21:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1866,7 +1866,7 @@ ebay.*#$#hide-if-contains /.+/ 'div[id^="placement"][style]' 'div[id^="placement
 ebay.*#$#hide-if-contains-visible-text /(S*p*o*n*s*o*r*e*d|A*n*z*e*i*g*e|S*p*o*n*s*o*r*i*s*é|P*a*t*r*o*c*i*n*a*d*o|S*p*o*n*s*o*r*i*z*z*a*t*o)/ 'div[class="brwrvr__item-card__body"]' 'span[class="su-sponsored-label__sep"] > span[aria-labelledby][role="text"]'
 ! pp
 ebay.*#$#hide-if-contains-visible-text /(\s*sponsored\s*|\s*anzeigen\s*|\s*sponsorisés\s*|\s*commandités\s*|\s*sponsorowane\s*|\s*gesponsord\s*|\s*patrocinados\s*|\s*sponsorizzati\s*)/ 'div[data-viewport]' 'div[data-viewport] h2'
-ebay.*#$#hide-if-contains-visible-text /(S*p*o*n*s*o*r*e*d|A*n*z*e*i*g*e|S*p*o*n*s*o*r*i*s*é|C*o*m*m*a*n*d*i*t*é|P*a*t*r*o*c*i*n*a*d*o|S*p*o*n*s*o*r*i*z*z*a*t*o)/ 'div[data-viewport]' 'div[class^="TfWp"]'
+ebay.*#$#hide-if-contains-visible-text /(S*p*o*n*s*o*r*e*d|A*n*z*e*i*g*e|S*p*o*n*s*o*r*i*s*é|C*o*m*m*a*n*d*i*t*é|P*a*t*r*o*c*i*n*a*d*o|S*p*o*n*s*o*r*i*z*z*a*t*o)/ 'div[data-viewport]' 'div[class^="djaH"]'
 ebay.*#$#hide-if-contains-visible-text /(Sponsored|Anzeige|Sponsorisé|Commandité|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato)/ 'div[data-viewport]' 'div[data-viewport] div[role="text"]'
 ebay.*#$#hide-if-contains-visible-text /(Sponsored|Anzeige|Sponsorisé|Commandité|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助)/ 'div[class][data-testid] div[id^="placement"]' 'div ^^sh^^ *[role^="text"]'; hide-if-contains-visible-text /(Sponsored|Anzeige|Sponsorisé|Commandité|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助)/ 'div[class][data-testid] div[id^="placement"] ^^sh^^ > div' 'div ^^sh^^ *[role^="text"]'; hide-if-contains-visible-text /(Sponsored|Anzeige|Sponsorisé|Commandité|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助)/ 'div[class][data-testid] div[id^="placement"][style] ^^sh^^ *' 'div ^^sh^^ *';
 ebay.*#$#hide-if-contains-visible-text /(S*p*o*n*s*o*r*e*d|A*n*z*e*i*g*e|S*p*o*n*s*o*r*i*s*é|C*o*m*m*a*n*d*i*t*é|P*a*t*r*o*c*i*n*a*d*o|S*p*o*n*s*o*r*i*z*z*a*t*o)/ 'div[id][data-slot][data-from], section, div:not(.lightbox-dialog__main):not([class*="lightbox"]):not([id*="vas-"])' 'div[id][data-slot][data-from]>div[id], section, div:not(.lightbox-dialog__main):not([class*="lightbox"]):not([id*="vas-"]):not([class*="brw-multimedia"]) ^^sh^^ *'
@@ -2224,6 +2224,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||chivwtusseh.com^
 ||chooragobioid.com^
 ||closishcool.com^
+||coateebyth.com^
 ||coeliabumpee.com^
 ||coesitecubbing.com^
 ||corylussunroof.com^
@@ -2284,6 +2285,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||ganglyjoannes.shop^
 ||garotemuruxi.com^
 ||garrafaspotted.com^
+||gearmanswings.com^
 ||geishastending.com^
 ||gemaricspieled.com^
 ||gestatejiggly.com^
@@ -2326,6 +2328,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||iodolruddock.com^
 ||iridialachkan.com^
 ||isoptichabiru.com^
+||issuedkuvasz.com^
 ||ivdjs.com^
 ||januaryverby.com^
 ||jaspersfamilia.cyou^
@@ -2376,6 +2379,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||nairydeices.com^
 ||nasrolrt.com^
 ||ndrimmers.com^
+||nhanweigh.com^
 ||ningposkidi.com^
 ||noritesfarrago.com^
 ||nosydorymen.com^
@@ -2426,6 +2430,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||randeriridium.com^
 ||ratitesbogging.com^
 ||reatushaithal.com^
+||recrampwiped.com^
 ||redcapsunlime.com^
 ||reekiercoupler.com^
 ||regodipylon.com^
@@ -2465,6 +2470,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||tacksnocks.top^
 ||taffykhirka.com^
 ||taituranite.click^
+||taiverturena.com^
 ||talliedpurring.com^
 ||tammycooly.com^
 ||tampurunrig.com^
