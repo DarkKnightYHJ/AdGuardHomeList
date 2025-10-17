@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: S/n11c+T1O8PfeQWcrSgnA
-! Version: 202510171502
+! Checksum: bkjGapM20fOD/CmS1bODGw
+! Version: 202510171611
 ! Title: ABP filters
-! Last modified: 17 Oct 2025 15:02 UTC
+! Last modified: 17 Oct 2025 16:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1094,7 +1094,8 @@ poki.com#$#hide-if-matches-xpath './/div[contains(@style,"height")]/following-si
 bettycrocker.com,pillsbury.com#$#simulate-mouse-event 'xpath(.//div[@class="adAboveSiteHeader"]//span[@class="closeAdButton"][@aria-label])'
 solarmovie.*#$#abort-current-inline-script Math zfgloaded
 kickassanime.*,streamwish.*#$#hide-if-matches-xpath './/div[contains(@class, "jw-wrapper")]/div[contains(@style,"position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;")]'
-hianime.*#$#hide-if-matches-xpath './/a[contains(@href,"1flix.to")]/img[@alt="1flix"][@style]/ancestor::div[@style]'
+hianime.*#$#hide-if-matches-xpath './/a[contains(@href,"flix")]/img[@alt="flix"][@style]/ancestor::div[@style]'
+hianime.*#$#prevent-listener pointerdown; abort-on-iframe-property-read localStorage; abort-on-iframe-property-read Math.random
 hdtodayz.*,moviesjoy.*#$#hide-if-matches-xpath './/img[contains(@style,"width: 100%")]/parent::a[@href][@target]/ancestor::div[@id][contains(@style,"20px")]'
 2kmoviehd.to,hdtodayz.*##div[style*="position: fixed; inset: 0px; pointer-events: auto;"]
 awafim.tv,movies2watch.tv,sflix2.*,sflix.*,uqload.*#$#prevent-listener break;case $.
