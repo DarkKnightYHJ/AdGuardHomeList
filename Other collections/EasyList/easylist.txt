@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202510170613
+! Version: 202510170708
 ! Title: EasyList
-! Last modified: 17 Oct 2025 06:13 UTC
+! Last modified: 17 Oct 2025 07:08 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 02c5b0e7100d638e1c7022b3c46c29f246d60b46
+! Commit: 0804d855c0c1b3ab8542599da6d5485e7f9180a9
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -679,6 +679,7 @@
 /sticky_ads.js$script
 /stickyad.js$script
 /stickyads.js$script
+/storage/js/videojs.sda.js$script
 /style_ad.css$stylesheet
 /suurl4.php?$third-party
 /suurl5.php$third-party
@@ -713,7 +714,6 @@
 /videoads/*$~xmlhttprequest
 /videojs.ads-$script,stylesheet
 /videojs.ads.css$stylesheet
-/videojs.sda.js$script
 /view/ad/*$subdocument
 /view_banner.php$image
 /virtuagirlhd.$image
@@ -991,6 +991,7 @@ _prebid.js$script
 /anti-adblock/*$~stylesheet
 /blockblock/blockblock.jquery.js$script
 /jgcabd-detect-$script
+/js/adblockdetect.js$script
 /no-adblock/*$script,stylesheet
 ! *** easylist:easylist/easylist_general_block_dimensions.txt ***
 -120-600.
@@ -25665,6 +25666,7 @@ browsershots.org#@#.advert_area
 ||easythedate-casual.com^
 ||eatcarvedfootprints.com^
 ||eautifulasaweathercoc.org^
+||eavakddcdofik.site^
 ||eavefrom.net^
 ||eavesdroppingfurniture.com^
 ||eaxmvpgmvsazo.site^
@@ -29427,6 +29429,7 @@ browsershots.org#@#.advert_area
 ||gpcrn.com^
 ||gpfhlajkvdhvv.space^
 ||gpidiqhuncc.com^
+||gpjqjerjtp.com^
 ||gplansforourc.org^
 ||gplywfirosiwd.one^
 ||gpmznplrczobob.com^
@@ -29956,6 +29959,7 @@ browsershots.org#@#.advert_area
 ||gysfelkqbm.com^
 ||gyspsffbmfefx.space^
 ||gystqpfwfxqno.global^
+||gyvaafyvnvna.net^
 ||gywwzmejfzkrs.site^
 ||gyxhwdysotvbj.store^
 ||gyxkbiekaghco.website^
@@ -39381,6 +39385,7 @@ browsershots.org#@#.advert_area
 ||ojibwaythermal.world^
 ||ojjbpxsbkxhmp.xyz^
 ||ojllcpefclund.store^
+||ojlusben.com^
 ||ojmwaovzzvlqa.top^
 ||ojmxepaealxj.com^
 ||ojokavacpkcjv.space^
@@ -55098,6 +55103,7 @@ browsershots.org#@#.advert_area
 ||zfgvoltwlszda.site^
 ||zfjuaamsogmdl.site^
 ||zfuldyycbvbiz.space^
+||zfvrtgmskvtsu.store^
 ||zfvsnpir-cxx.buzz^
 ||zfvvgetsulfjm.site^
 ||zfzaxpljtwejp.site^
@@ -72890,6 +72896,7 @@ zooplus.*##div[data-zta="product-card"]:has(.z-sponsored-tag)
 etherscan.io###ContentPlaceHolder1_maintable > .card > .row:has(a[href="/contactusadvertise"])
 windowscentral.com###article-body > .hawk-nest[data-widget-id]:has(a[class^="hawk-affiliate-link-"][class$="-button"])
 cars.com###branded-canvas-click-wrapper:has(> #native-ad-html)
+mytempsms.com###container-ad > .col-sm-12[style]:has(> .adsbygoogle)
 news.mydramalist.com###content > .app-body > div:has(.htlad-header_top)
 familytreenow.com###ftn_detail_left_side_organic
 gocomics.com###header-content-start:has([data-testid="advertising-unit"])
@@ -72974,6 +72981,7 @@ templateshub.net##.col-lg-4.col-md-6:has(> div.singel-course)
 appleinsider.com##.col-sm-12 > :has([id^="div-gpt-ad-"])
 autotrader.com##.col-xs-12.col-sm-4:has([data-cmp="inventorySpotlightListing"])
 costco.com##.col-xs-12:has([data-bi-placement^="Criteo_Product_Display"])
+mytempsms.com##.content > .container[style]:has(> .adsbygoogle)
 psprices.com##.creative:has-text(remove advertising)
 infinitestart.com##.cs-sidebar__inner > .widget:has(> ins.adsbygoogle)
 alphacoders.com##.css-grid-content:has(> .in-thumb-ad-css-grid)
