@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: ez+/yfN8N2YNTRYNfh4Ulg
-! Version: 202510201321
+! Checksum: 1gtKLtO3PN8MfK5gfTNMzw
+! Version: 202510201401
 ! Title: ABP filters
-! Last modified: 20 Oct 2025 13:21 UTC
+! Last modified: 20 Oct 2025 14:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1843,12 +1843,14 @@ samsclub.com##div[class="analytics"][data-strategy="Sponsored products"]
 ! #RM-9
 ! sl, sc
 instacart.*##li:has(fp-ads-tag):not(:has(h2))
+instacart.*#$#hide-if-matches-xpath './/*[ self::div[span[text()="Spons"] and span[contains(text(), "ored")]] or self::*[@data-fp-eligible] ]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li] or self::li[not(parent::div)]][1]'
 ! ta
 instacart.*##div[id][class]:has(> div:first-child > a img[alt*="Sponsored"], > div[aria-hidden="true"]:last-child)
 ! tc
 instacart.*##div[id][class]:has(> a > img):has(ul li:first-of-type a div[style*="display:"] span)
 ! mc
 instacart.*##div[id][class]:has(> a > div:first-child img):has(> a div[style*="display:"] span)
+instacart.*##div:has(> div > div > h2 + span):has(img[alt="Advertisement"])
 ! tp
 instacart.*##div:has(> div > div > h2 + span):has(div[role="region"] ul[role="presentation"])
 instacart.*#$#abort-on-property-write window.ADBLOCK_DETECTED; abort-current-inline-script setTimeout ic-detect-ad-block; override-property-read adblockDetected false;
