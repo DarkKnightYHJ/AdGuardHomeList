@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: RKE825uycnVT0kLJmJXiBg
-! Version: 202510212011
+! Checksum: YMQqFIZQHkjhK2i4+gyBLw
+! Version: 202510212101
 ! Title: ABP filters
-! Last modified: 21 Oct 2025 20:11 UTC
+! Last modified: 21 Oct 2025 21:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1257,6 +1257,7 @@ automobile-propre.com#$#hide-if-matches-xpath '//div[contains(@class,"optidigita
 automobile-propre.com##div[data-ref="halfpage-ad"]
 automobile-propre.com##div[class*="ad-desktop"]
 pausemusicale.com#$#hide-if-matches-xpath './/div[contains(@id,"hit-inc-")][@style="min-height:280px"]'
+lenouvelliste.ch##.components-advertisement
 ! Popup/Popunder
 jetanimes.*,voirseries.*#$#abort-on-property-read open
 manga-scantrad.net,toonanime.*#$#abort-current-inline-script document.querySelectorAll popMagic
