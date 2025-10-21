@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: aoV6CPG2SN/bkJ36RjY48g
-! Version: 202510211221
+! Checksum: QEFbuRKDVGVcJvChYADxLA
+! Version: 202510211321
 ! Title: ABP filters
-! Last modified: 21 Oct 2025 12:21 UTC
+! Last modified: 21 Oct 2025 13:21 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1436,7 +1436,7 @@ filmehd.to##iframe[src][style]
 zen.yandex.ru##div[class*="is-parent-size_undefined"]
 ~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,~telephony.yandex.ru,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr##div[class*="item_type_"][class*="item_rendered"]
 ||razlozhi.ru^$script,header=report-to
-avtovzglyad.ru,baby.ru,dni.ru,kufar.by,russian7.ru,selflib.me,ura.news,www.goha.ru,3dnews.ru#$#abort-on-property-read Ya
+avtovzglyad.ru,baby.ru,dni.ru,kufar.by,russian7.ru,selflib.me,www.goha.ru,3dnews.ru#$#abort-on-property-read Ya
 kakprosto.ru#$#abort-current-inline-script document.createElement String.fromCharCode; abort-on-property-write window.yaProxy; abort-on-property-write Object.defineProperty
 ||liveinternet.ru^$xmlhttprequest,header=Uniformat-Product-Type
 otzovik.com#$#abort-on-property-read Object.prototype.RtbBlockCreateWrapper
