@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: Mj9dFL//INaCa89X5Y78eg
-! Version: 202510211012
+! Checksum: 1Owp5W+ywdsLgyJ9k1lEyg
+! Version: 202510211101
 ! Title: ABP filters
-! Last modified: 21 Oct 2025 10:12 UTC
+! Last modified: 21 Oct 2025 11:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -567,7 +567,7 @@ dictionary.cambridge.org,sourceforge.net,bab.la,pons.com,loawa.com,gazetaprawna.
 loawa.com,malaymail.com,dictionary.cambridge.org#$#abort-current-inline-script setTimeout /EventTarget.*prototype.*addEventListener.*Map/
 huffpost.com#$#json-prune 'RT-1562-AdShield-script-on-Huffpost RT-1720-ads_bullwhip-hp'
 timesofindia.indiatimes.com,sankei.com,sourceforge.net,dictionary.cambridge.org,bab.la,loawa.com,gazetaprawna.pl,tz.de,winfuture.de,gutefrage.net,collinsdictionary.com#$#override-property-read googletag emptyObj; event-override message disable /^r_/; prevent-listener message /postMessage|error-report|adb/;
-timesofindia.indiatimes.com,sankei.com,sourceforge.net,dictionary.cambridge.org,bab.la,loawa.com,gazetaprawna.pl,tz.de,winfuture.de,gutefrage.net,collinsdictionary.com#$#override-property-read performance.getEntriesByType noopFunc; override-property-read window.requestIdleCallback undefined; override-property-read ResizeObserver undefined;
+timesofindia.indiatimes.com,sankei.com,sourceforge.net,bab.la,loawa.com,gazetaprawna.pl,tz.de,winfuture.de,gutefrage.net,collinsdictionary.com#$#override-property-read performance.getEntriesByType noopFunc; override-property-read window.requestIdleCallback undefined; override-property-read ResizeObserver undefined;
 timesofindia.indiatimes.com#$#abort-on-iframe-property-read localStorage; override-property-read pbjs emptyObj; abort-on-iframe-property-read sessionStorage; override-property-read dataLayer emptyArray; abort-on-iframe-property-read caches;
 pons.com#$#override-property-read performance.getEntriesByType noopFunc; override-property-read window.requestIdleCallback undefined;
 ||0.loader.gutefrage.net/article^$script,domain=gutefrage.net
