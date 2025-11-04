@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: niVAUNiJDoNOw1vRwmgyzA
-! Version: 202511040911
+! Checksum: 8bNkOmYLWAIiXp5eym1Blw
+! Version: 202511041011
 ! Title: ABP filters
-! Last modified: 04 Nov 2025 09:11 UTC
+! Last modified: 04 Nov 2025 10:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -575,12 +575,12 @@ pons.com#$#override-property-read performance.getEntriesByType noopFunc; overrid
 ||0.as.sourceforge.net/article^$script,domain=sourceforge.net
 ||0.content-loader.com/article^$script,third-party,domain=timesofindia.indiatimes.com|sankei.com|dictionary.cambridge.org|bab.la|pons.com|loawa.com|gazetaprawna.pl|winfuture.de|collinsdictionary.com|malaymail.com|tz.de
 ||dbloader.leboncoin.info^$script,third-party,domain=leboncoin.fr
-gutefrage.net,timesofindia.indiatimes.com,tz.de,wetter.com,winfuture.de#$#override-property-read Date.now noopFunc
+gutefrage.net,timesofindia.indiatimes.com,tz.de,winfuture.de#$#override-property-read Date.now noopFunc
 gutefrage.net,timesofindia.indiatimes.com,tz.de,wetter.com,winfuture.de#$#abort-on-property-write window.confirm
 gutefrage.net,timesofindia.indiatimes.com,tz.de,wetter.com,winfuture.de#$#abort-on-property-write window.alert
 ||fb.html-load.com^$script,domain=gutefrage.net|timesofindia.indiatimes.com|tz.de|wetter.com|winfuture.de
 ||content-loader.com^$script,domain=gutefrage.net|timesofindia.indiatimes.com|tz.de|wetter.com|winfuture.de
-gutefrage.net,timesofindia.indiatimes.com,tz.de,wetter.com,winfuture.de#$#override-property-read Element.prototype.remove noopFunc
+gutefrage.net,timesofindia.indiatimes.com,tz.de,winfuture.de#$#override-property-read Element.prototype.remove noopFunc
 ||html-load.com/players/*/70/$xmlhttprequest, domain=mentalfloss.com
 ! #CV-1935
 ##.jag8CityBio212023
