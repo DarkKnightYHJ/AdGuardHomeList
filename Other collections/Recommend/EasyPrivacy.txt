@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: kDL2eSlwjKwSuVrY28W6Rw
-! Version: 202511042101
+! Checksum: L1FPLztY2NgkS1PwrH9gPg
+! Version: 202511042201
 ! Title: EasyPrivacy
-! Last modified: 04 Nov 2025 21:01 UTC
+! Last modified: 04 Nov 2025 22:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2274,7 +2274,6 @@
 /status/impression?
 /storeAdvImpression.jsp
 /storefront.google-analytics-4.min.js
-/stormcaster.js
 /stp.gif?
 /stracking.js
 /sTrackStats.js
@@ -52516,7 +52515,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||palmettostatearmory.com/static/$script,~third-party
 @@||pals.pa.gov/vendor/analytics/$~third-party
 @@||parcel.app/webtrack.php?$~third-party
-@@||parliament.nz/*/stormcaster.js$script,~third-party
 @@||parsely.com/keys/$script,domain=wmmr.com|wrif.com
 @@||paypal.com/xoplatform/logger/api/logger$domain=play.leagueofkingdoms.com
 @@||paypalobjects.com/*/pageView.js$script,domain=paypal.com
@@ -52854,7 +52852,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||tag.aticdn.net/piano-analytics.js$script,domain=toureiffel.paris
 @@||tra.scds.pmdstatic.net/sourcepoint/$domain=businessinsider.fr|caminteresse.fr|capital.fr|geo.fr|voici.fr
 @@||trustcommander.net/iab-tcfapi/tcfapi.js$script,domain=tf1info.fr
-@@||usine-digitale.fr/*/stormcaster.js$script,~third-party
 !
 !---------- Arabic ----------
 !
