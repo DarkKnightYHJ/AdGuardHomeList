@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: TJujS4HhrX8YQQC5N/uO+Q
-! Version: 202511041101
+! Checksum: ZSScWCKQTHm0UpVc9CzjNw
+! Version: 202511041231
 ! Title: ABP filters
-! Last modified: 04 Nov 2025 11:01 UTC
+! Last modified: 04 Nov 2025 12:31 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1176,7 +1176,7 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 2chan.net#$#abort-on-iframe-property-read document.currentScript;
 2chan.net##iframe[src^="https://dec.2chan.net/bin/"]
 hitomi.la#$#hide-if-matches-xpath './/iframe[@id][@sandbox][@scrolling]/parent::div[@id][1]'
-game8.jp#$#hide-if-matches-xpath './/iframe[@src]/parent::div[@style]/ancestor::div[@id][1]'
+game8.jp#$#hide-if-matches-xpath './/iframe[@src]/parent::div[@style]/ancestor::div[contains(@id, "img_")][1]
 ! Korean sites
 style24.com#$#simulate-mouse-event 'xpath(.//div[@class="popup_main_notice"]//a[@id="btnPopupClose"][@onclick])$delay=0'
 style24.com#$#simulate-mouse-event 'xpath(.//div[@id="popupMainNotice"]//a[@id="btnPopupClose"][@onclick])$delay=0'
