@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: cqC3xrHD5babWW3pFuGCBQ
-! Version: 202511071611
+! Checksum: zYmZid3UODufE8x99X8uQg
+! Version: 202511071702
 ! Title: ABP filters
-! Last modified: 07 Nov 2025 16:11 UTC
+! Last modified: 07 Nov 2025 17:02 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -575,13 +575,13 @@ pons.com#$#override-property-read performance.getEntriesByType noopFunc; overrid
 ||0.as.sourceforge.net/article^$script,domain=sourceforge.net
 ||0.content-loader.com/article^$script,third-party,domain=timesofindia.indiatimes.com|sankei.com|dictionary.cambridge.org|bab.la|pons.com|loawa.com|gazetaprawna.pl|winfuture.de|collinsdictionary.com|malaymail.com|tz.de
 ||dbloader.leboncoin.info^$script,third-party,domain=leboncoin.fr
-collinsdictionary.com,bab.la,timesofindia.indiatimes.com,winfuture.de#$#override-property-read Date.now noopFunc
+collinsdictionary.com,bab.la,timesofindia.indiatimes.com,nouvelobs.com,winfuture.de#$#override-property-read Date.now noopFunc
 gutefrage.net,timesofindia.indiatimes.com,tz.de,wetter.com,winfuture.de#$#abort-on-property-write window.confirm
 gutefrage.net,timesofindia.indiatimes.com,tz.de,wetter.com,winfuture.de#$#abort-on-property-write window.alert
 ||fb.html-load.com^$script,domain=gutefrage.net|timesofindia.indiatimes.com|tz.de|wetter.com|winfuture.de
 ||content-loader.com^$script,domain=gutefrage.net|timesofindia.indiatimes.com|tz.de|wetter.com|winfuture.de
-collinsdictionary.com,bab.la,tz.de,timesofindia.indiatimes.com,winfuture.de#$#override-property-read Element.prototype.remove noopFunc
-||*/loader.min.js|$script,domain=bab.la|collinsdictionary.com
+collinsdictionary.com,bab.la,tz.de,timesofindia.indiatimes.com,nouvelobs.com,winfuture.de#$#override-property-read Element.prototype.remove noopFunc
+||*/loader.min.js|$script,domain=bab.la|collinsdictionary.com|nouvelobs.com
 ||asloader.tz.de^$script,domain=tz.de
 tz.de##iframe[src*="report.error-report.com/modal"]
 ||html-load.com/players/*/70/$xmlhttprequest, domain=mentalfloss.com
