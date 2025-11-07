@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 6D76WK918/u10hkgM3lVjA
-! Version: 202511071101
+! Checksum: chJedz8b7+uVrPjEnxFrfw
+! Version: 202511071211
 ! Title: ABP filters
-! Last modified: 07 Nov 2025 11:01 UTC
+! Last modified: 07 Nov 2025 12:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1708,7 +1708,7 @@ cafef.vn,gamek.vn,genk.vn,kenh14.vn,soha.vn,tuoitre.vn,afamily.vn,thanhnien.vn#$
 bongda365f.com#$#override-property-read isSkipAds true
 znews.vn#$#abort-on-property-read adtimaConfig
 baomoi.com#$#abort-on-property-write AdtimaRender
-schooldisciplinedata.org#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
+activeeon.com#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 kenh14.vn#$#override-property-read Constants.allowAds false
 vndoc.com#$#override-property-read seconds 0
 phimvuihd.org#$#override-property-read urlAds ''
@@ -1718,7 +1718,7 @@ clipsex.cam,ww12.sexkhongchemoi.com#$#override-property-read video.adVast ''
 www.iosviet.com#$#override-property-read timer 0
 saigon24.net#$#abort-current-inline-script document.getElementById myModal
 cliphot69.pics#$#override-property-read a_vid 0
-schooldisciplinedata.org#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
+activeeon.com#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
 www.diendancauduong.com#$#abort-on-property-read antiAdBlockerHandler
 xem16.net#$#json-prune props.children.[].props.tvc
 hh2d.tv#$#abort-current-inline-script $ adblock
@@ -1737,8 +1737,8 @@ metruyenchu.com#$#abort-on-property-write window.onclick
 theicec.com#$#abort-on-property-read adsRedirectPopups
 linkneverdie.net,linkneverdie.top,linkneverdie2.com#$#abort-current-inline-script document.createElement optad;abort-on-property-read pushOnPageGala
 sex.javnong.cc#$#abort-on-property-read Math.round
-viet69.nu,dualeotruyenlv.com,yurineko.my,haysexvl.net,cliphot69.shop,doctruyen3qui16.com,ihentai.cloud,animehay.life,hentaivc.com,streamvl.top,buomtv.media,truyenvn.shop,javtiful.com,quatvn.love,phimsexhayvn49.com,phim18hdxx.com,vn5.sexviet88.xyz,demo.14412882.com,xem.sexnung3x.com,cliphot69.pics,hhtq5.vip,sexdiary.club,vn2.xvideos69.xxx,umetruyenz.org,damconuong.co,truyenqqgo.com,clipsexsub3x.net,sayhentaii.ink,motphim.pokemonviet.com,lxmanga.my,phimlongtieng.net#$#abort-current-inline-script WebAssembly instantiate
-www.motchill30.com,xnhau.sh,teamlanhlung8.shop,xemphimjav.us#$#abort-on-property-read localStorage
+viet69.nu,dualeotruyenlv.com,yurineko.my,haysexvl.net,cliphot69.shop,doctruyen3qui16.com,ihentai.cloud,animehay.life,hentaivc.com,streamvl.top,buomtv.media,truyenvn.shop,javtiful.com,quatvn.love,phimsexhayvn50.com,phim18hdxx.com,vn5.sexviet88.xyz,demo.14412882.com,xem.sexnung3x.com,cliphot69.pics,hhtq5.vip,sexdiary.club,vn2.xvideos69.xxx,umetruyenz.org,damconuong.co,truyenqqgo.com,clipsexsub3x.net,sayhentaii.ink,motphim.pokemonviet.com,lxmanga.my,phimlongtieng.net#$#abort-current-inline-script WebAssembly instantiate
+www.motchill32.com,xnhau.sh,teamlanhlung8.shop,xemphimjav.us#$#abort-on-property-read localStorage
 hh3dhay.life,tram3d.net,animevietsub.show#$#abort-current-inline-script eval $._Eu
 p.thoctv.com,phimlongtieng.net#$#abort-current-inline-script document.createElement script
 motchill.ad#$#abort-current-inline-script document.addEventListener linksToOpen
@@ -1768,7 +1768,7 @@ animehay.life#$#abort-current-inline-script Number ;break;case
 gocmod.com#$#abort-current-inline-script jQuery popup
 10gb.vn#$#abort-current-inline-script Promise detectedAdblock
 animevietsub9.com#$#abort-on-property-read _0x3f9b
-www.motchill30.com,trumtruyen.xyz#$#abort-current-inline-script setTimeout Aff
+www.motchill32.com,trumtruyen.xyz#$#abort-current-inline-script setTimeout Aff
 xem.sexnung3x.com#$#abort-on-property-read Cookies
 childish2x1.fun,childish2x2.fun,tekora.space#$#abort-current-inline-script $ aff
 javhd.shop#$#abort-current-inline-script document.addEventListener Click
@@ -1788,7 +1788,7 @@ audiotruyenfull.com#$#abort-current-inline-script setTimeout Aff
 pheclip.vet,phim18vip.one#$#abort-current-inline-script $ pop
 vozer.io#$#abort-current-inline-script document.addEventListener atob
 thiendia1.vip#$#abort-current-inline-script document.addEventListener adState
-schooldisciplinedata.org#$#abort-current-inline-script jQuery open
+activeeon.com#$#abort-current-inline-script jQuery open
 ! *** abp-filters-anti-cv:RM.txt ***
 ! #RM-1
 tripadvisor.com#$#hide-if-matches-xpath './/a[contains(text(),"Sponsored")][@target="_blank"]/parent::div/ancestor::div[@class][2]'
@@ -2117,6 +2117,7 @@ mail.ru#@#[href*="https://dzen.ru"]
 ! Filters to be used by distribution partners
 ! #CV-782
 www.youtube.com,youtube-nocookie.com#$#race start; skip-video '.video-stream' './/ytd-player/div[@id]//div[contains(@class,"ad-interrupting")]' '-skip-to:1'; skip-video 'video.html5-main-video' './/div[@id="player"]/div[@id]//div[contains(@class,"ad-interrupting")]' '-skip-to:1.5'; skip-video 'video.html5-main-video' './/div[@id="player"]//div[contains(@class,"ad-interrupting")]' '-skip-to:1.8'; race stop;
+www.youtube.com,youtube-nocookie.com#$#map-override get 'bytes_slot'
 www.youtube.com#$#map-override set AD_PLACEMENT '' value.kind;
 www.youtube.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adSlots emptyArray; override-property-read ytInitialPlayerResponse.adPlacements emptyArray;override-property-read ytInitialPlayerResponse.playerAds emptyArray;
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read playerResponse.adPlacements undefined;
