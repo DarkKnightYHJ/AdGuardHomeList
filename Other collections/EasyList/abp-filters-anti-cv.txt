@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: JdYV4Chcd9zlLwXTEQAyLg
-! Version: 202511131101
+! Checksum: Nw/x3QmwNGsKLDwB4IW5gg
+! Version: 202511131231
 ! Title: ABP filters
-! Last modified: 13 Nov 2025 11:01 UTC
+! Last modified: 13 Nov 2025 12:31 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -940,6 +940,7 @@ lukesitturn.com,xatovjatsosg.com#$#abort-on-property-write window.zfgloadedinpag
 vidfast.*,moviesapi.*,vidlink.*,primewire.*#$#abort-on-property-read runPop;
 ||*.website/*^$xmlhttprequest,domain=knaben.xyz
 knaben.xyz#$#debug; abort-on-property-read Adcash
+actvid.*#$#abort-on-property-write window.open; abort-current-inline-script addEventListener HTMLAllCollection;
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 baytorrent.eu.org,europixhd.com,europixhd.net,file-up.org,force-download.com,force-download.es,force-download.net,gledajonline.net,hdeuropix.io,loadsubs.net,novom.ru,pirateproxy.earth,pirateproxy.live,thehiddenbay.com,thepiratebay.org,thepiratebay.vip,thepiratebay10.org,topeuropix.net,tpb.party,uploadproper.com,uploadproper.net#$#abort-on-property-read atob
@@ -1154,6 +1155,8 @@ showboxmovies.net,xprime.tv,uqload.*,up4stream.*#$#abort-current-inline-script d
 perezhilton.com##.lazy-ad-parent
 1flix.*#$#abort-current-inline-script Array.prototype.reduce;
 theflixertv.*#$#hide-if-matches-xpath './/div[@dir][@style][attribute::*[starts-with(name(), "data-")]]/ancestor-or-self::*[1]'
+mangago.*#$#abort-current-inline-script document.documentElement break;case;
+/embed-1/e-1/banners|$xmlhttprequest,domain=actvid.rs
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
@@ -1269,6 +1272,7 @@ automobile-propre.com##div[data-ref="halfpage-ad"]
 automobile-propre.com##div[class*="ad-desktop"]
 pausemusicale.com#$#hide-if-matches-xpath './/div[contains(@id,"hit-inc-")][@style="min-height:280px"]'
 lenouvelliste.ch##.components-advertisement
+cnews.fr#$#hide-if-matches-xpath './/div[contains(@class,"-ads")]/parent::div[1]'
 ! Popup/Popunder
 jetanimes.*,voirseries.*#$#abort-on-property-read open
 manga-scantrad.net,toonanime.*#$#abort-current-inline-script document.querySelectorAll popMagic
@@ -2281,6 +2285,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||dinkiersenhora.com^
 ||dirgesimious.com^
 ||discepttaked.com^
+||dizdivrc.com^
 ||doethemydea.com^
 ||doftighaiwuh.net^
 ||dogfalcons.com^
@@ -2583,6 +2588,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||unfumedvamoses.com^
 ||ungreeninwrit.com^
 ||unhangignore.com^
+||unlashchaule.qpon^
 ||unrigscsc.com^
 ||unruthwhiz.com^
 ||upfleeacraze.com^
