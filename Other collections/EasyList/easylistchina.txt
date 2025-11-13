@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jbGX6iYuxxfxikNQWq7IDA
-! Version: 202511122302
+! Checksum: l2YZBh1+IiGWKbPHS2DLsA
+! Version: 202511130112
 ! Title: EasyList China
-! Last modified: 12 Nov 2025 23:02 UTC
+! Last modified: 13 Nov 2025 01:12 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1766,6 +1766,9 @@ newduba.cn###jq_youxi
 ||0h9yewgei.com^
 ||xxts11130zs.com^
 ||rf10b9mq8.com^
+||lls11130ko.com^
+||airline49.top^
+||vkur.cn^
 ||9r0v0go0el.com^
 ||f6jd4k4xgo.com^
 ||lls11120ko.com^
@@ -10209,6 +10212,7 @@ meijutt.*/js/pcjs/
 ||natgeomedia.com/js/ads-parallax.
 ||shipin188.com/66
 /\/[a-z]+$/$script,third-party,domain=gimy.com.tw
+||rouman5.com/js/clickadu.
 !------------------------Specific element hiding rules------------------------!
 zhihu.com##.Pc-word-new
 baozimh.org#?#.relative:-abp-has(>.bg-red-500)
@@ -10298,9 +10302,9 @@ baidu.com##.tieba-pause-ad-container
 laozuo.org###focusslide
 laozuo.org##.container[style="margin-bottom: 3px;"]
 laozuo.org##.widget_ui_orbui
-rouman5.com,roum20.xyz##div[style^="display: flex;"]
-rouman5.com,roum20.xyz##ins
-rouman5.com,roum20.xyz###headlessui-portal-root
+rouman5.com##div[style^="display: flex;"]
+rouman5.com##ins
+rouman5.com###headlessui-portal-root
 sohu.com##.middle-insert-ad
 163.com##.hp_textlink1_ad
 163.com##.post_columnad_top
