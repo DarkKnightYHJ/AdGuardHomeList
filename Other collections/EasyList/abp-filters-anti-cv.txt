@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: NeDJQv61wn1+OLwapu5YLQ
-! Version: 202511141321
+! Checksum: onkeDjoEk9g3OaAxBsG/AA
+! Version: 202511141411
 ! Title: ABP filters
-! Last modified: 14 Nov 2025 13:21 UTC
+! Last modified: 14 Nov 2025 14:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1596,7 +1596,7 @@ bez-smenki.ru#$#abort-current-inline-script $ showPopupextra
 partnerkin.com#$#override-property-read Object.prototype.autoPopups undefined
 comedy-radio.ru,radioromantika.ru,veseloeradio.ru#$#abort-on-property-read yaContextCb
 tornado.3dn.ru#$#abort-on-property-read wrapper.addEventListener
-kinoblin.ru,pornoakt.info,serialai.ru#$#prevent-listener mousedown pop.doEvent
+kinoblin.ru,pornoakt.*,serialai.ru#$#prevent-listener mousedown pop.doEvent
 agronews.ua#$#prevent-listener DOMContentLoaded 'adId'
 sex-studentki.gold,seks-studentki.pro#$#prevent-listener DOMContentLoaded click_time
 megaprogz.ru,programhub.ru#$#override-property-read portal.isRedirectToYandexSearchAfterDownloadEnabled false; prevent-listener download isMonetized
