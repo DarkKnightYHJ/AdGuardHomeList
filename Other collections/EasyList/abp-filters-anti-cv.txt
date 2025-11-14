@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: duhQfRuoVn9IQ/SVjPsEWQ
-! Version: 202511141511
+! Checksum: rr0RC5HznvAceFxRIm/a7w
+! Version: 202511141611
 ! Title: ABP filters
-! Last modified: 14 Nov 2025 15:11 UTC
+! Last modified: 14 Nov 2025 16:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1654,7 +1654,7 @@ pornstarsyfamosas.es#$#abort-on-property-write _pop
 animeflv.ac,bajarpelisgratis.com,jkanime.top,pelismart.com,pelismartv.com,pelispoptv.com,series-de.online,torrentdownloads.pro#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
 gnula.nu,pelisnow.to,pelispop.me,tmomanga.com#$#abort-on-property-write JSON.parse
 futbollatam.com#$#abort-on-property-read attr; abort-on-property-read mm
-gnula.cc,series24.nu#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse; abort-on-property-read asgPopScript
+gnula.cc#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse; abort-on-property-read asgPopScript
 calidadcine.net,seriesmetro.net#$#abort-on-property-read afStorage
 latinblog.tv,peladas69.com#$#abort-on-property-read __formatsGetters
 animefenix.org,animeonline.ninja,audaciousdefaulthouse.com#$#abort-on-property-read window.open
@@ -1688,6 +1688,7 @@ animeonline.ninja#$#override-property-read custom_ads_time null; abort-current-i
 pelisplushd.*,soap2day.*#$#abort-on-property-read window.open
 cuevana.*,cuevana3.*,cuevana4.*,pelisflixhd.art#$#abort-on-property-read window.open; override-property-read WebSocket undefined; abort-on-property-read BetterJsPop
 zonatmo.com#$#abort-current-inline-script String.fromCharCode 2147483647
+series24.*#$#abort-on-property-read aclib.runPop
 ! #CV-368
 rainanime.net#$#abort-on-property-read NativeAd
 ! *** abp-filters-anti-cv:turkish.txt ***
@@ -2362,6 +2363,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||loftmentiple.com^
 ||longlysolates.help^
 ||lunularcense.com^
+||macacusdame.com^
 ||mahubraces.com^
 ||maihikuh.com^
 ||maraywreath.com^
