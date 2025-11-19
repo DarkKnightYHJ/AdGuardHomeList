@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 1agGcGmuVgkqTlOYUGKHBQ
-! Version: 202511191401
+! Checksum: rqBghIFvf4rml0kjk1KQlA
+! Version: 202511191511
 ! Title: ABP filters
-! Last modified: 19 Nov 2025 14:01 UTC
+! Last modified: 19 Nov 2025 15:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -2184,6 +2184,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||ablockoverfix.com^
 ||acorusdawdler.com^
 ||acrosemeconin.com^
+||adfgetlink.net^
 ||afgodscarpe.com^
 ||ageismssoning.com^
 ||agogtowie.com^
@@ -2229,6 +2230,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||bubblessudsman.com^
 ||buteopung.com^
 ||bututpoopsie.com^
+||bvczfysynljyd.store^
 ||cainginpenicil.com^
 ||calyxesdefames.com^
 ||canelorets.com^
@@ -2240,6 +2242,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||chambulwacs.com^
 ||chirruprevest.com^
 ||chivwtusseh.com^
+||cirndgqfhryutn.com^
 ||closishcool.com^
 ||coateebyth.com^
 ||coeliabumpee.com^
@@ -2256,7 +2259,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||cuppedajitter.com^
 ||cuseccharm.com^
 ||cutoffclerks.com^
-||danaisumbeset.com^
 ||dd133.com^
 ||deckedpreeze.com^
 ||dentileazurite.com^
@@ -2270,6 +2272,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||dinusoronoko.com^
 ||dirgesimious.com^
 ||discepttaked.com^
+||displayvertising.com^
 ||dizdivrc.com^
 ||doethemydea.com^
 ||dogfalcons.com^
@@ -2403,6 +2406,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||nappieoxbows.com^
 ||nasrolrt.com^
 ||ndrimmers.com^
+||netembed.xyz^
 ||newtsbowk.com^
 ||nhanweigh.com^
 ||ningposkidi.com^
@@ -2490,6 +2494,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||sterolsawaited.com^
 ||stoodhiplike.com^
 ||stuffedclipse.com^
+||stummelbeelbow.com^
 ||stulmunshent.com^
 ||suffarilbf.com^
 ||sunstaytorous.click^
@@ -2560,6 +2565,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||wangheebehav.com^
 ||washwayrefool.com^
 ||wastabljellib.com^
+||wbngpvlpgqmmh.com^
 ||weznkotoko.com^
 ||whichmeu.com^
 ||widdermixtec.com^
@@ -2590,5 +2596,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 /^https:\/\/[a-z]{8,12}\.com\/en\/(?:[a-z]{2,10}\/){0,2}[a-z]{2,}\?(?:[a-z]+=[^&=?\s]*?&)*?id=[12]\d{6}/$match-case,script,third-party,domain=nungxthai.me|pornnungxxx.me|xnxx.health
 ! Example: https://df.fingudotlet.com/rnbPxfaHQHbZl2Xvd/ewQng
 /^https:\/\/(?:[a-z]{2}\.)?[a-z]{7,14}\.com\/[a-z](?=[a-z]*[0-9A-Z])[0-9A-Za-z]{10,27}\/[A-Za-z]{5}$/$match-case,script,third-party,domain=cineby.app
+! Example: https://streamcloud.my/37809-high-potential-stream-deutsch.html
+/^https:\/\/supervideo\.cc\/[0-9]+\.js\b/$script,domain=supervideo.cc
 ! *** abp-filters-anti-cv:3rd-party/cloudfront.txt ***
 ||d1pk6uu6wqrpce.cloudfront.net^
