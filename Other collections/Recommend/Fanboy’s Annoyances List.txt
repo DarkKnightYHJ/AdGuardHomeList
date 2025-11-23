@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5nOfLLi3aKA4afEmqw/Gzw
-! Version: 202511230422
+! Checksum: Ei4Ln1Y6/0e6b84l9LAuNQ
+! Version: 202511230501
 ! Title: Fanboy's Annoyance List
-! Last modified: 23 Nov 2025 04:22 UTC
+! Last modified: 23 Nov 2025 05:01 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -35669,7 +35669,7 @@ interestingengineering.com##.t-bg-surface-zero.t-p-6:has-text(Newsletter)
 heatpumped.org##.text-wt-background:has-text(Subscribe)
 freedomnews.tv##.to-fntv-purple\/20:has-text(Breaking News Alerts)
 autonews.com##.u-space-y-6.u-items-center:has-text(Staying current)
-finance.yahoo.com##.variant-default.card:has-text(newsletter)
+finance.yahoo.com##.variant-default.card:has-text(/newsletter|Sign up for/)
 ensemblemagazine.co.nz##.w-embed:has-text(Sign up now)
 newsroom.paypal-corp.com##.wd_dkblue-background:has-text(Stay up to date)
 thenewlede.org##.widget_custom_html:has-text(newsletter)
@@ -42902,12 +42902,15 @@ play.radionorba.it##share-view
 !
 !---------- Japanese Specific Media Elements ----------
 !
+qiita.com##.ac-MdContent + div[class^="style-"]:has(> button[class^="style-"][aria-label][title])
 blog.esuteru.com##.article-button-simple
 bizgate.nikkei.com##.c-single-sns
 seikatsusha-ddm.com##.p-under-sns
 univ-journal.jp##.snsSpace
 anglers.jp##.socials
 news.yahoo.co.jp##[class^="ArticleShare"]
+qiita.com##[class^="style-"] > [class^="style-"] > div[class^="style-"]:has(> button[aria-label][title][aria-describedby] + p[id][role="tooltip"])
+qiita.com##[href^="https://b.hatena.ne.jp/entry/"]
 ||imyfone.com/assets/js/media_share/
 ||taishurx.jp/js/web/sns_header.js
 !
