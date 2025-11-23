@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /qRTPb6+C6X3yZlfuHKzjw
-! Version: 202511231221
+! Checksum: WDqQda2qKVm+HVd6EPPVZQ
+! Version: 202511231311
 ! Title: Fanboy's Annoyance List
-! Last modified: 23 Nov 2025 12:21 UTC
+! Last modified: 23 Nov 2025 13:11 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -42902,7 +42902,6 @@ play.radionorba.it##share-view
 !
 !---------- Japanese Specific Media Elements ----------
 !
-qiita.com##.ac-MdContent + div[class^="style-"]:has(> button[class^="style-"][aria-label][title])
 blog.esuteru.com##.article-button-simple
 bizgate.nikkei.com##.c-single-sns
 seikatsusha-ddm.com##.p-under-sns
@@ -42911,6 +42910,7 @@ anglers.jp##.socials
 news.yahoo.co.jp##[class^="ArticleShare"]
 qiita.com##[class^="style-"] > [class^="style-"] > div[class^="style-"]:has(> button[aria-label][title][aria-describedby] + p[id][role="tooltip"])
 qiita.com##[href^="https://b.hatena.ne.jp/entry/"]
+qiita.com##div[id^="AdventCalendar"] hr ~ div[class^="style-"]:has(> button[class^="style-"][aria-label][title])
 ||imyfone.com/assets/js/media_share/
 ||taishurx.jp/js/web/sns_header.js
 !
