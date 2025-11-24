@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5XTRaqQhI5dfK/P6WxpEKQ
-! Version: 202511242212
+! Checksum: 9qzUP7vo+UmEhdh4VMdkgg
+! Version: 202511242311
 ! Title: EasyList China+EasyList
-! Last modified: 24 Nov 2025 22:12 UTC
+! Last modified: 24 Nov 2025 23:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1666,8 +1666,7 @@ newduba.cn###jq_youxi
 ##div[onclick*="/ky"][onclick*="open"]
 ##div[onclick*="?i_code="]
 ##div[role="listitem"] > div > div > .bannerliststyle
-##div[style=" max-width:990px; margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:990px; margin:0 auto;"] > a > img[height="60px"]
+##body > div[style=" max-width:990px; margin:0 auto;"]:first-child > a[target="_blank"]
 ##div[style="margin:10px auto;width: 930px;height: 250px;"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style^="position"][onclick^="window.open"]
@@ -1766,6 +1765,8 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||d89sze2uu.com^
+||j33xvvanl.com^
 ||xyf21yawkj.com^
 ||1mb71rr5oo.com^
 ||xjx11240ts.com^
@@ -10357,8 +10358,10 @@ meijutt.*/js/pcjs/
 ||mysteel.com/ads/
 ||wujinyuzhou.top/ny/*00x
 ||wujinyuzhou.top/ny/ny852x116.
+||ping0.cc/static/images/ad/
 !------------------------Specific element hiding rules------------------------!
 zhihu.com##.Pc-word-new
+ping0.cc##.adeles
 hcbbs.com##.plc > .pct + :last-child
 mysteel.com###float-adv
 91porna.com##.dx-banner-item
@@ -47773,6 +47776,7 @@ browsershots.org#@#.advert_area
 ||glochatuji.com^
 ||glogoowo.net^
 ||gloochelraisse.net^
+||gloomy-piece.pro^
 ||gloongadrar.com^
 ||gloophoa.net^
 ||gloostaimsou.net^
@@ -49464,6 +49468,7 @@ browsershots.org#@#.advert_area
 ||hoawhokonegro.net^
 ||hobblehorrifiedfox.com^
 ||hoboedbebump.help^
+||hobsukocmohu.net^
 ||hocevqttpeekw.store^
 ||hockeyhavoc.com^
 ||hocmcwljpstpj.com^
@@ -50339,6 +50344,7 @@ browsershots.org#@#.advert_area
 ||iliketomakingpics.com^
 ||iliqdfncivkkp.online^
 ||illfated-eat.com^
+||illfated-fill.pro^
 ||illicitdandily.cam^
 ||illinformed-camp.pro^
 ||illinformed-imagination.com^
@@ -53162,6 +53168,7 @@ browsershots.org#@#.advert_area
 ||laptweakbriefly.com^
 ||larasub.conxxx.pro^
 ||larchesrotates.com^
+||lardylathercenter.com^
 ||larentisol.com^
 ||large-permission.pro^
 ||largeconfusion.com^
@@ -61451,6 +61458,7 @@ browsershots.org#@#.advert_area
 ||qck7qlh2ll9t6q6o5i4293jio.rest^
 ||qckwwrbyjejwi.website^
 ||qcmlcwymvatsn.site^
+||qcmwqrsdqzfu.com^
 ||qcnpyyughyluz.online^
 ||qcnragymlulzk.website^
 ||qcoatmemznenu.site^
@@ -68149,6 +68157,7 @@ browsershots.org#@#.advert_area
 ||tunnitcocas.cfd^
 ||tunobwjyfcoad.online^
 ||tunosrxqt.xyz^
+||tunwgntfqgbsw.website^
 ||tuoeblgszfyut.store^
 ||tupiglanseghu.net^
 ||tur-tur-key.com^
@@ -69261,6 +69270,7 @@ browsershots.org#@#.advert_area
 ||uzpjrqgtrymrs.site^
 ||uzpuaveerqjei.site^
 ||uzpwejzqjtqdg.store^
+||uzqkpdlevazyt.site^
 ||uzsgqbicwknzl.online^
 ||uzukakccaflam.space^
 ||uzvcffe-aw.vip^
@@ -71358,6 +71368,7 @@ browsershots.org#@#.advert_area
 ||wsmyfmoetturw.online^
 ||wsnrtolmohidt.online^
 ||wspfskknmnzvq.rocks^
+||wsqultqgnocyn.website^
 ||wsshehasnomoney.com^
 ||wssnddllssomv.space^
 ||wsssaunhzztxj.store^
