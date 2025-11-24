@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: ModJTGPau8ut9iwZwAEtUA
-! Version: 202511241232
+! Checksum: uLCUwMQdBuZVDwQokQM5LA
+! Version: 202511241321
 ! Title: ABP filters
-! Last modified: 24 Nov 2025 12:32 UTC
+! Last modified: 24 Nov 2025 13:21 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1836,11 +1836,13 @@ lowes.com#$#hide-if-contains-visible-text /Sponsored/ 'div[class$="tile_group"][
 ! SA GV
 lowes.com#$#hide-if-matches-xpath './/section[@id="listItems"]/div/div[@data-tile=//section[@id="listItems"]/div/div[@class]//span[text()="Sponsored"]/ancestor::div[@data-tile]/@data-tile]/*'
 ! #RM-4
+! HP
+acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,jewelosco.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#$#hide-if-matches-xpath './/span[contains(text(),"Weekly ad")]/parent::div[contains(@class,"carousel")]/ancestor::div[@class="h-100"][1]/parent::div[@data-slick-index]';
+! CP
+acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,jewelosco.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#$#hide-if-matches-xpath './/product-item-al-v2[@data-qa][.//span[contains(text(),"Weekly ad")]]';
 ! PP
 acmemarkets.com,albertsons.com,andronicos.com,balduccis.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#$#race start; hide-if-matches-xpath './/div[contains(text(),"Sponsored")]/parent::div/ancestor::div[contains(@class,"slick-product")][1]'; hide-if-matches-xpath './/span[contains(text(),"Sponsored")]/parent::div/ancestor::div[contains(@class,"slick-product")][1]'; race stop;
 acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#$#hide-if-contains Sponsored 'div[class^="slick-slide"] meals-card[style]' 'span>span'
-acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,jewelosco.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#$#hide-if-matches-xpath './/product-item-al-v2[@data-qa][.//span[contains(text(),"Weekly ad")]]' ; --show more weekly ads
-acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,jewelosco.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#$#hide-if-matches-xpath './/span[contains(text(),"Weekly ad")]/parent::div[contains(@class,"carousel")]/ancestor::div[@class="h-100"][1]/parent::div[@data-slick-index]';  -- homepage
 ! PL
 acmemarkets.com,albertsons.com,andronicos.com,balduccis.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#$#hide-if-matches-xpath './/div/span[contains(@data-qa,"spnsrd")][text()="Sponsored"]/parent::div/ancestor::div[contains(@class,"position-relative")][1]/parent::*[contains(@class,"prdItem")]'; hide-if-matches-xpath '//span[text()="Sponsored"][@aria-hidden="false"]/ancestor::div[contains(@class,"position-relative")][1]';
 ! #RM-5
@@ -2237,6 +2239,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||bututpoopsie.com^
 ||cainginpenicil.com^
 ||calyxesdefames.com^
+||cancannicolas.com^
 ||canelorets.com^
 ||caromedlusk.com^
 ||cashooshut.com^
@@ -2300,10 +2303,12 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||ghurrytacoma.com^
 ||girnalnemean.com^
 ||glazenrattoon.com^
+||gleegnussaultee.com^
 ||goeducklactase.com^
 ||goingsrosehip.com^
 ||gooddemands.com^
 ||goodieracer.com^
+||gorgeirido.com^
 ||gtdslaters.com^
 ||guddledberith.com^
 ||gulsachbevil.com^
@@ -2334,6 +2339,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||jgtjw.com^
 ||joshedsnight.com^
 ||justspoisure.com^
+||kalingacurvant.com^
 ||karakuloutmate.com^
 ||keywordbara.com^
 ||khayaltenses.com^
