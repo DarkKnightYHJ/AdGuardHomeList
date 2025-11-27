@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JW+SfpNSYLWBZz74HHT9iw
-! Version: 202511271411
+! Checksum: gqyFfS4QT7ejEcsKOpCcPQ
+! Version: 202511271511
 ! Title: Fanboy's Annoyance List
-! Last modified: 27 Nov 2025 14:11 UTC
+! Last modified: 27 Nov 2025 15:11 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -49125,24 +49125,6 @@ autobild.lt#@##social-links
 ! FD-7938
 bildderfrau.de#@#.cleverpush-backdrop
 bildderfrau.de#@#.cleverpush-confirm
-! FD-8010 - 8012
-@@||asadcdn.com/adlib/pages/*.js$domain=bz-berlin.de|fitbook.de|myhomebook.de|petbook.de|stylebook.de|techbook.de|travelbook.de|welt.de
-@@||asadcdn.com/adlib/beta/branches/abtest/hashMap.json$domain=bz-berlin.de|fitbook.de|myhomebook.de|petbook.de|stylebook.de|techbook.de|travelbook.de|welt.de
-@@||asadcdn.com/adlib/hashMap.json$domain=bz-berlin.de|fitbook.de|myhomebook.de|petbook.de|stylebook.de|techbook.de|travelbook.de|welt.de
-@@||asadcdn.com/adlib/libmodules/extensions/connatix.$domain=bz-berlin.de|fitbook.de|myhomebook.de|petbook.de|stylebook.de|techbook.de|travelbook.de|welt.de
-@@||asadcdn.com/adlib/libmodules/desktop/renderedCallback.$domain=bz-berlin.de|fitbook.de|myhomebook.de|petbook.de|stylebook.de|techbook.de|travelbook.de|welt.de
-@@||asadcdn.com/adlib/libmodules/desktop/xstream.$domain=bz-berlin.de|fitbook.de|myhomebook.de|petbook.de|stylebook.de|techbook.de|travelbook.de|welt.de
-@@||asadcdn.com/adlib/libmodules/desktop/passbackCall.$domain=bz-berlin.de|fitbook.de|myhomebook.de|petbook.de|stylebook.de|techbook.de|travelbook.de|welt.de
-@@||asadcdn.com/adlib/libmodules/desktop/defineTag.$domain=bz-berlin.de|fitbook.de|myhomebook.de|petbook.de|stylebook.de|techbook.de|travelbook.de|welt.de
-@@||asadcdn.com/adlib/libmodules/desktop/doAdCall.$domain=bz-berlin.de|fitbook.de|myhomebook.de|petbook.de|stylebook.de|techbook.de|travelbook.de|welt.de
-@@||asadcdn.com/adlib/libmodules/desktop/calc.$domain=bz-berlin.de|fitbook.de|myhomebook.de|petbook.de|stylebook.de|techbook.de|travelbook.de|welt.de
-@@||asadcdn.com/adlib/libmodules/desktop/addCSS.$domain=bz-berlin.de|fitbook.de|myhomebook.de|petbook.de|stylebook.de|techbook.de|travelbook.de|welt.de
-@@||asadcdn.com/adlib/libmodules/desktop/autoReloader.$domain=bz-berlin.de|fitbook.de|myhomebook.de|petbook.de|stylebook.de|techbook.de|travelbook.de|welt.de
-@@||asadcdn.com/adlib/libmodules/desktop/init.$domain=bz-berlin.de|fitbook.de|myhomebook.de|petbook.de|stylebook.de|techbook.de|travelbook.de|welt.de
-@@||asadcdn.com/adlib/libmodules/desktop/ast.$domain=bz-berlin.de|fitbook.de|myhomebook.de|petbook.de|stylebook.de|techbook.de|travelbook.de|welt.de
-@@||asadcdn.com/adlib/libmodules/desktop/analyseResponse.$domain=bz-berlin.de|fitbook.de|myhomebook.de|petbook.de|stylebook.de|techbook.de|travelbook.de|welt.de
-@@||asadcdn.com/adlib/libmodules/desktop/sightLoader.$domain=bz-berlin.de|fitbook.de|myhomebook.de|petbook.de|stylebook.de|techbook.de|travelbook.de|welt.de
-@@||asadcdn.com/adlib/libmodules/desktop/setPageOpts.$domain=bz-berlin.de|fitbook.de|myhomebook.de|petbook.de|stylebook.de|techbook.de|travelbook.de|welt.de
 ! FD-8080 | FD-8099
 @@||cmp.dreamlab.pl^$xmlhttprequest,script,domain=auto-swiat.pl|businessinsider.com.pl
 @@||csr.onet.pl^$xmlhttprequest,domain=auto-swiat.pl|businessinsider.com.pl
@@ -49150,56 +49132,8 @@ bildderfrau.de#@#.cleverpush-confirm
 @@||sdk.mrf.io/statics/marfeel-sdk.js$domain=businessinsider.es
 ! FD-8112
 @@||connatix.com$domain=finanzen.net
-! FD-8151
-@@||businessinsider.de/wp-content/uploads/*_300x250.$image,domain=businessinsider.de
 ! FD-8152
 @@||static.cleverpush.com^$domain=bildderfrau.de
-! FD-8169
-@@||sophi.io/assets/demeter/$script,domain=faz.net
-! FD-8171
-@@||adspirit.de/adclick.php$popup,domain=jetzt.de
-! FD-8174 | FD-8175 | FD-8176 | FD-8178
-@@||googletagmanager.com/gtm.js?$domain=idealo.es|idealo.co.uk|idealo.fr|idealo.it
 ! FD-8185
-@@||googletagmanager.com/gtm.js?$domain=businessinsider.jp
 @@||g.doubleclick.net/tag/js/gpt.js$domain=businessinsider.jp
 @@||g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=businessinsider.jp
-! FD-8203
-@@||adspirit.de/adclick.php$popup,domain=sueddeutsche.de
-@@||adspirit.de/banner/$image,domain=sueddeutsche.de
-@@||adspirit.de/adscript.php$script,domain=sueddeutsche.de
-@@||adspirit.de/adasync.min.js$domain=sueddeutsche.de
-! FD-8204
-@@||sdk.mrf.io/statics/marfeel-sdk.js$domain=computerhoy.20minutos.es
-! FD-8233
-@@||kameleoon.eu/engine.js$domain=welt.de
-@@||kameleoon.eu/ip^$domain=welt.de
-! FD-8237
-@@||googletagmanager.com/gtm.js?id=GTM-M7PZ8QT^$domain=autoplus.fr
-@@||sdk.mrf.io/statics/marfeel-sdk.js$domain=autoplus.fr
-@@||icu.newsroom.bi/ingest.php$xmlhttprequest,domain=autoplus.fr
-autoplus.fr#@#.follow-text
-! FD-8238
-@@||cxense.com/public/widget/data?$script,domain=businessinsider.jp
-@@||cxense.com/cx.js$domain=businessinsider.jp
-! FD-8266
-@@||asadcdn.com/adlib/pages/*.js$domain=businessinsider.de
-@@||asadcdn.com/adlib/beta/branches/abtest/hashMap.json$domain=businessinsider.de
-@@||asadcdn.com/adlib/hashMap.json$domain=businessinsider.de
-@@||asadcdn.com/adlib/libmodules/extensions/connatix.$domain=businessinsider.de
-@@||asadcdn.com/adlib/libmodules/desktop/renderedCallback.$domain=businessinsider.de
-@@||asadcdn.com/adlib/libmodules/desktop/xstream.$domain=businessinsider.de
-@@||asadcdn.com/adlib/libmodules/desktop/passbackCall.$domain=businessinsider.de
-@@||asadcdn.com/adlib/libmodules/desktop/defineTag.$domain=businessinsider.de
-@@||asadcdn.com/adlib/libmodules/desktop/doAdCall.$domain=businessinsider.de
-@@||asadcdn.com/adlib/libmodules/desktop/calc.$domain=businessinsider.de
-@@||asadcdn.com/adlib/libmodules/desktop/addCSS.$domain=businessinsider.de
-@@||asadcdn.com/adlib/libmodules/desktop/autoReloader.$domain=businessinsider.de
-@@||asadcdn.com/adlib/libmodules/desktop/init.$domain=businessinsider.de
-@@||asadcdn.com/adlib/libmodules/desktop/ast.$domain=businessinsider.de
-@@||asadcdn.com/adlib/libmodules/desktop/analyseResponse.$domain=businessinsider.de
-@@||asadcdn.com/adlib/libmodules/desktop/sightLoader.$domain=businessinsider.de
-@@||asadcdn.com/adlib/libmodules/desktop/setPageOpts.$domain=businessinsider.de
-@@||ib.adnxs.com/ut/v3$domain=businessinsider.de
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=businessinsider.de
-@@||connatix.com^$domain=businessinsider.de
