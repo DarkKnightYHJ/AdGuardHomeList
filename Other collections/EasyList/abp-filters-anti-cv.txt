@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: pzEZN+CFXBoqWqrzuSlQmg
-! Version: 202512011501
+! Checksum: cVcmeGjpS89uLIS2ybfUpA
+! Version: 202512011611
 ! Title: ABP filters
-! Last modified: 01 Dec 2025 15:01 UTC
+! Last modified: 01 Dec 2025 16:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -580,7 +580,6 @@ gutefrage.net,timesofindia.indiatimes.com,tz.de,wetter.com,winfuture.de#$#abort-
 gutefrage.net,timesofindia.indiatimes.com,tz.de,wetter.com,winfuture.de#$#abort-on-property-write window.alert
 tz.de,timesofindia.indiatimes.com,winfuture.de#$#override-property-read Element.prototype.remove noopFunc
 gutefrage.net#$#override-property-read window.navigator.connection.rtt 1001
-||*/loader.min.js|$script,domain=gutefrage.net
 ||asloader.tz.de^$script,domain=tz.de
 tz.de##iframe[src*="report.error-report.com/modal"]
 ||html-load.com/players/*/70/$xmlhttprequest, domain=mentalfloss.com
