@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 5bgwQGUWl7S8m3eDDH1WIg
-! Version: 202512040912
+! Checksum: 0otW/1zFhJkacGvQ5vZQsA
+! Version: 202512041011
 ! Title: ABP filters
-! Last modified: 04 Dec 2025 09:12 UTC
+! Last modified: 04 Dec 2025 10:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1722,7 +1722,7 @@ cafef.vn,gamek.vn,genk.vn,kenh14.vn,soha.vn,tuoitre.vn,afamily.vn,thanhnien.vn#$
 bongda365f.com#$#override-property-read isSkipAds true
 znews.vn#$#abort-on-property-read adtimaConfig
 baomoi.com#$#abort-on-property-write AdtimaRender
-whatrecovery.org#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
+strummerville.com#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 kenh14.vn#$#override-property-read Constants.allowAds false
 vndoc.com#$#override-property-read seconds 0
 xemphimhd.top#$#override-property-read urlAds ''
@@ -1732,7 +1732,7 @@ ww12.sexkhongchemoi.com#$#override-property-read video.adVast ''
 www.iosviet.com#$#override-property-read timer 0
 saigon24.net#$#abort-current-inline-script document.getElementById myModal
 cliphot69.pics#$#override-property-read a_vid 0
-whatrecovery.org#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
+strummerville.com#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
 www.diendancauduong.com#$#abort-on-property-read antiAdBlockerHandler
 xem16.net#$#json-prune props.children.[].props.tvc
 hh2d.tv#$#abort-current-inline-script $ adblock
@@ -1802,7 +1802,7 @@ audiotruyenfull.com#$#abort-current-inline-script setTimeout Aff
 pheclip.love,phim18vip.one#$#abort-current-inline-script $ pop
 vozer.io#$#abort-current-inline-script document.addEventListener atob
 thiendia1.vip#$#abort-current-inline-script document.addEventListener adState
-whatrecovery.org#$#abort-current-inline-script jQuery open
+strummerville.com#$#abort-current-inline-script jQuery open
 phimmoifm.io#$#prevent-listener click ads
 www.asu.baby#$#abort-on-property-read initialAdURLs
 ! *** abp-filters-anti-cv:RM.txt ***
