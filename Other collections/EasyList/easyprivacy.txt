@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: A7Tg0pgVZ02Cn0S/ZOu/fQ
-! Version: 202512051611
+! Checksum: WKHUidbb7Dvykio6TudKiw
+! Version: 202512051711
 ! Title: EasyPrivacy
-! Last modified: 05 Dec 2025 16:11 UTC
+! Last modified: 05 Dec 2025 17:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2866,6 +2866,7 @@
 ://segment-cdn.
 ://signal.*/hardal
 ://signals.*/hardal
+://sp.*/sp/h|$xmlhttprequest
 ://stat.*/pageview/$xmlhttprequest
 ://stats.*/code/e.js
 ://t.targito.
@@ -9789,6 +9790,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||soundestlink.com/rest/forms/v2/track/
 ||sourceforge.net/tracker/$~xmlhttprequest
 ||sp-wukong-tracker.b-cdn.net^
+||sp.pcid.ca^
 ||sp.tinymce.com^
 ||spa-tracker.spapi.io^
 ||sparklit.com/counter/
