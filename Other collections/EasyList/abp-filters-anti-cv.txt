@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: o7J7oVqyju2Gy9eVjuiJdw
-! Version: 202512051011
+! Checksum: 1aki2YWMC/sPqQJgJ6FTVw
+! Version: 202512051101
 ! Title: ABP filters
-! Last modified: 05 Dec 2025 10:11 UTC
+! Last modified: 05 Dec 2025 11:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1121,6 +1121,7 @@ naughtymachinima.com#$#abort-on-property-read window.open; abort-on-property-rea
 fullporner.com#$#abort-on-property-read ad; abort-on-property-read ad_list
 animepahe.*#$#abort-on-property-read _0x43d1; abort-on-property-read _0x53b5
 receive-smss.com#$#abort-on-property-read adBlockEnabled
+afreesms.com#$#abort-current-inline-script document.getElementById window.open
 smallseotools.com#$#abort-current-inline-script $ ga_pop
 ||smallseotools.com/webimages/garamar*.png^$image,domain=smallseotools.com
 duplichecker.com#$#hide-if-matches-xpath './/img[@class="img-responsive"][@src]/preceding::a[@target="blank"][@rel="nofollow"]/ancestor-or-self::div[1]'
