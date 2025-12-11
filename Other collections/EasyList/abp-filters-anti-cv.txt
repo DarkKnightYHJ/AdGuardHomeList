@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 1bi4DBYgvd3SJdhwTqkuxQ
-! Version: 202512102301
+! Checksum: Eid9NxI73tzR6HbtZx3bpw
+! Version: 202512110121
 ! Title: ABP filters
-! Last modified: 10 Dec 2025 23:01 UTC
+! Last modified: 11 Dec 2025 01:21 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -2694,4 +2694,5 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 /^https:\/\/supervideo\.cc\/[0-9]+\.js\b/$script,domain=supervideo.cc
 ! *** abp-filters-anti-cv:3rd-party/cloudfront.txt ***
 ||d1pk6uu6wqrpce.cloudfront.net^
+||d1zhmd1pxxxajf.cloudfront.net^
 ||d2n5v45616cm6u.cloudfront.net^
