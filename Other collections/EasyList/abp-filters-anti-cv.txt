@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: dluMZ/PkeaS5zIWAcdQanQ
-! Version: 202512111231
+! Checksum: eFi1IaMRQ9R//FjYupDr+Q
+! Version: 202512111321
 ! Title: ABP filters
-! Last modified: 11 Dec 2025 12:31 UTC
+! Last modified: 11 Dec 2025 13:21 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -866,7 +866,7 @@ wco.*,wcostream.*#$#abort-current-inline-script document.createElement adsbox; o
 3movierulz.tv,7-up.net,7deadlysins.tv,abcvideo.cc,avimobilemovies.co,aznewhomes4u.com,batimovie.com,canonprinterdownload.com,celebritiesempire.com,dailyuploads.net,dood.*,doods.*,dooodster.*,doodstream.*,downloadgamexbox.com,dragonballsuperdub.com,dramacool.movie,dramacool.video,fanproj.net,filmovi.co,fullasianmovies.com,gamepc18.net,giaoxudaiphu.com,haqqinda.az,hot-chicks.website,hotshotgamers.net,hunstulovers.net,indishare.org,isohunt.lol,isohuntz.net,kshows.to,livecricket.is,mobilemovies.info,movies123.xyz,mybet.tips,myrightspot.com,naijal.com,pornlibrary.net,premiumkeyesetnod32.blogspot.com,prostream.to,putlocker68.com,putlockers.fm,putlockertv.ist,sandup.co,thevideobee.to,uqload.*,vidbem.com,vidbm.com,videojinni.com,vidfast.*,vidlox.me,vidshar.tv,vidshare.tv,vidstreaming.io,vostfrserie.biz,watchblackclover.com,watchdbzsuper.tv,watchmha2dub.com,watchshokugeki.com,youdbox.com#$#abort-current-inline-script Math zfgloaded
 ! #CV-685
 vidshare.tv,govid.*,hdvid.tv,gomovies.*,gostream.nu,openloadmovies.*,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
-game3rb.com,kissjav.*#$#abort-on-property-read open; abort-current-inline-script WebAssembly Promise; abort-current-inline-script WebAssembly atob;
+game3rb.com,kissjav.*,myvidplay.com#$#abort-on-property-read open; abort-current-inline-script WebAssembly Promise; abort-current-inline-script WebAssembly atob;
 123putlocker.club#$#abort-current-inline-script _0xbc13
 ! #CV-692
 yuudrive.me,thevid.net,biter.tv,flashx.tv#$#abort-on-property-read _pop
@@ -1042,6 +1042,7 @@ seeflix.*,stellarthread.com#$#abort-on-property-read aclib
 sendvid.com#$#abort-current-inline-script document.createElement break;case $.; abort-on-property-read open
 tabootube.to#$#prevent-listener click popMaigc
 /money.js$domain=cinemora.ru
+upns.*,rpmvip.com,playerp2p.*,callistanise.com#$#hide-if-matches-xpath './/div[contains(translate(@style, " ", ""), "position:fixed;inset:0px;z-index:2147483647")]/self::div'
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 baytorrent.eu.org,europixhd.com,europixhd.net,file-up.org,force-download.com,force-download.es,force-download.net,gledajonline.net,hdeuropix.io,loadsubs.net,novom.ru,pirateproxy.earth,pirateproxy.live,thehiddenbay.com,thepiratebay.org,thepiratebay.vip,thepiratebay10.org,topeuropix.net,tpb.party,uploadproper.com,uploadproper.net#$#abort-on-property-read atob
