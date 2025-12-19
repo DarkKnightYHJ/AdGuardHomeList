@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4B3Fvp3K5kg3BDRBh9x2PA
-! Version: 202512191511
+! Checksum: ZixMchJorjL7EfTzxjSgUg
+! Version: 202512191612
 ! Title: EasyList China+EasyList
-! Last modified: 19 Dec 2025 15:11 UTC
+! Last modified: 19 Dec 2025 16:12 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -10442,6 +10442,10 @@ meijutt.*/js/pcjs/
 ||sphdigital.com.sg/_plat/$domain=zaobao.com.sg
 !------------------------Specific element hiding rules------------------------!
 zhihu.com##.Pc-word-new
+yahoo.com##li[id^="taboola-twhk-"]
+yahoo.com###StreamMidCenter2Ad-0
+yahoo.com##div[id^="sda-"][id$="-iframe"]
+yahoo.com##.bg-card-bg-1[class*="300px"]
 h-ciyuan.com##.responsive-figure
 warcraftlogs.com##span[id^="ap-"]
 warcraftlogs.com##span[id^="apsf-"]
@@ -15454,9 +15458,6 @@ sina.cn##div[data-adid]
 yahoo.com##div[data-content="廣告"]:not(#sda-MAST-iframe)
 yahoo.com##.taboola-ad-item-wrapper
 yahoo.com##.stream-responsive-ad-item
-yahoo.com###sda-top-right-iframe
-yahoo.com###sda-mid-right-iframe
-yahoo.com###sda-mid-right-2-iframe
 wealwomen.com##div[data-cptid]
 cqmmgo.com##div[data-id*="_adv_"]
 freejavbt.com##div[data-selector*="ai-insert-"]
@@ -54511,6 +54512,7 @@ browsershots.org#@#.advert_area
 ||km8wm6j65kijh2i.cfd^
 ||kmaagycbjbnwf.site^
 ||kmbjerbaafdn.global^
+||kmbybrorhv.com^
 ||kmcsqxlrwvxyh.space^
 ||kmeomhssuzekc.online^
 ||kmevwkkqe.com^
@@ -59517,6 +59519,7 @@ browsershots.org#@#.advert_area
 ||nriqlylnauefl.online^
 ||nrknstdms.com^
 ||nrkvxlqmaweawo.com^
+||nrmrmjgbbwhqw.com^
 ||nrnma.com^
 ||nrnmbyjsyxgr.xyz^
 ||nrpzvhtauq.com^
@@ -66665,6 +66668,7 @@ browsershots.org#@#.advert_area
 ||sadbasindinner.com^
 ||saderror.pro^
 ||safbifdgjlptd.website^
+||safdfbzqjjhef.website^
 ||safe-connection21.com^
 ||safebk.shop^
 ||safebrowsdv.com^
@@ -68149,6 +68153,7 @@ browsershots.org#@#.advert_area
 ||snathesinswing.qpon^
 ||snbets.com^
 ||sncyt.com^
+||sndzrfmkqawfk.online^
 ||sneakintriguecasting.com^
 ||sneakunwanted.com^
 ||sneakyadministration.com^
@@ -75184,6 +75189,7 @@ browsershots.org#@#.advert_area
 ||xefqptxw.com^
 ||xegxxzcluwfqo.website^
 ||xehohzlxizbpf.site^
+||xeicappcjzraw.website^
 ||xeihjicekoxgs.space^
 ||xeiqculqoqvw.com^
 ||xeitnipcoefge.store^
