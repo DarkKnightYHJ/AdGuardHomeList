@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: x1NvP1dhdf0qp2+p8GhPBw
-! Version: 202512192201
+! Checksum: EUA2SmeJUMD64JVgw7VT8A
+! Version: 202512192311
 ! Title: ABP filters
-! Last modified: 19 Dec 2025 22:01 UTC
+! Last modified: 19 Dec 2025 23:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -592,153 +592,153 @@ text-compare.com#$#override-property-read Element.prototype.remove noopFunc
 text-compare.com#$#abort-on-property-write window.confirm
 text-compare.com#$#abort-on-property-write window.alert
 ||*/loader.min.js|$script,domain=text-compare.com
-||error-report.com^,domain=text-compare.com
+||error-report.com^$domain=text-compare.com
 text-compare.com##iframe[src*="report.error-report.com/modal"]
 picrew.me#$#override-property-read Element.prototype.remove noopFunc
 picrew.me#$#abort-on-property-write window.confirm
 picrew.me#$#abort-on-property-write window.alert
 ||*/loader.min.js|$script,domain=picrew.me
-||error-report.com^,domain=picrew.me
+||error-report.com^$domain=picrew.me
 picrew.me##iframe[src*="report.error-report.com/modal"]
 slashdot.org#$#override-property-read Element.prototype.remove noopFunc
 slashdot.org#$#abort-on-property-write window.confirm
 slashdot.org#$#abort-on-property-write window.alert
 ||*/loader.min.js|$script,domain=slashdot.org
-||error-report.com^,domain=slashdot.org
+||error-report.com^$domain=slashdot.org
 slashdot.org##iframe[src*="report.error-report.com/modal"]
 sourceforge.net#$#override-property-read Element.prototype.remove noopFunc
 sourceforge.net#$#abort-on-property-read window.confirm
 sourceforge.net#$#abort-on-property-read window.alert
 ||*/loader.min.js|$script,domain=sourceforge.net
-||error-report.com^,domain=sourceforge.net
+||error-report.com^$domain=sourceforge.net
 sourceforge.net##iframe[src*="report.error-report.com/modal"]
 si.com#$#override-property-read Element.prototype.remove noopFunc
 si.com#$#abort-on-property-write window.confirm
 si.com#$#abort-on-property-write window.alert
 ||*/loader.min.js|$script,domain=si.com
-||error-report.com^,domain=si.com
+||error-report.com^$domain=si.com
 si.com##iframe[src*="report.error-report.com/modal"]
 si.com##div[id][class][style]:has(div[id][data-gpid]) {remove:true;}
 vwvortex.com#$#override-property-read Date.now noopFunc
 ||*/loader.min.js|$script,domain=vwvortex.com
-||error-report.com^,domain=vwvortex.com
+||error-report.com^$domain=vwvortex.com
 watchuseek.com#$#override-property-read Date.now noopFunc
 ||*/loader.min.js|$script,domain=watchuseek.com
-||error-report.com^,domain=watchuseek.com
+||error-report.com^$domain=watchuseek.com
 inven.co.kr#$#override-property-read Element.prototype.remove noopFunc
 inven.co.kr#$#abort-on-property-write window.confirm
 inven.co.kr#$#abort-on-property-write window.alert
 ||*/loader.min.js|$script,domain=inven.co.kr
 ||*/script.min.js|$script,domain=m.inven.co.kr
-||error-report.com^,domain=inven.co.kr
+||error-report.com^$domain=inven.co.kr
 inven.co.kr##iframe[src*="report.error-report.com/modal"]
 ecouter-en-direct.com##div>div[class^="ad_mobil"] {remove:true;}
 ecouter-en-direct.com#$#override-property-read window.navigator.connection.rtt 1001
 ||*/loader.min.js|$script,domain=ecouter-en-direct.com
-||error-report.com^,domain=ecouter-en-direct.com
+||error-report.com^$domain=ecouter-en-direct.com
 wordhippo.com#$#override-property-read window.navigator.connection.rtt 1001
 ||*/loader.min.js|$script,domain=wordhippo.com
-||error-report.com^,domain=wordhippo.com
+||error-report.com^$domain=wordhippo.com
 percentagecalculator.net#$#override-property-read window.navigator.connection.rtt 1001
 ||*/loader.min.js|$script,domain=percentagecalculator.net
-||error-report.com^,domain=percentagecalculator.net
+||error-report.com^$domain=percentagecalculator.net
 ||asloader.tz.de^$script,domain=tz.de
 tz.de##iframe[src*="report.error-report.com/modal"]
-||html-load.com/players/*/70/$xmlhttprequest, domain=mentalfloss.com
+||html-load.com/players/*/70/$xmlhttprequest,domain=mentalfloss.com
 ||dbloader.leboncoin.info^$script,third-party,domain=leboncoin.fr
 ||*/loader.min.js|$script,domain=invoice-generator.com
-||error-report.com^,domain=invoice-generator.com
+||error-report.com^$domain=invoice-generator.com
 invoice-generator.com#$#override-property-read window.navigator.connection.rtt 1001
 ||*/loader.min.js|$script,domain=dictionary.cambridge.org
-||error-report.com^,domain=dictionary.cambridge.org
+||error-report.com^$domain=dictionary.cambridge.org
 dictionary.cambridge.org#$#override-property-read window.navigator.connection.rtt 1001
 ||*/loader.min.js|$script,domain=collinsdictionary.com
-||error-report.com^,domain=collinsdictionary.com
+||error-report.com^$domain=collinsdictionary.com
 collinsdictionary.com#$#override-property-read window.navigator.connection.rtt 1001
 ||*/loader.min.js|$script,domain=issuya.com
-||error-report.com^,domain=issuya.com
+||error-report.com^$domain=issuya.com
 issuya.com#$#override-property-readElement.prototype.removenoopFunc
 issuya.com#$#abort-on-property-write window.confirm
 issuya.com#$#abort-on-property-write window.alert
 issuya.com##iframe[src*="report.error-report.com/modal"]
 ||*/loader.min.js|$script,domain=motorbikecatalog.com
-||error-report.com^,domain=motorbikecatalog.com
+||error-report.com^$domain=motorbikecatalog.com
 motorbikecatalog.com#$#override-property-read window.navigator.connection.rtt 1001
 ||*/loader.min.js|$script,domain=sportsseoul.com
-||error-report.com^,domain=sportsseoul.com
+||error-report.com^$domain=sportsseoul.com
 sportsseoul.com#$#replace-outbound-values'atob''c3RyaW5n''false'
 sportsseoul.com#$#override-property-read Element.prototype.remove noopFunc
 sportsseoul.com#$#abort-on-property-write window.confirm
 sportsseoul.com#$#abort-on-property-write window.alert
 sportsseoul.com##iframe[src*="report.error-report.com/modal"]
 ||*/loader.min.js|$script,domain=flatpanelshd.com
-||error-report.com^,domain=flatpanelshd.com
+||error-report.com^$domain=flatpanelshd.com
 flatpanelshd.com#$#replace-outbound-values'atob''c3RyaW5n''false'
 flatpanelshd.com#$#override-property-read Element.prototype.remove noopFunc
 flatpanelshd.com#$#abort-on-property-write window.confirm
 flatpanelshd.com#$#abort-on-property-write window.alert
 flatpanelshd.com##iframe[src*="report.error-report.com/modal"]
 ||*/loader.min.js|$script,domain=cool-style.com.tw
-||error-report.com^,domain=cool-style.com.tw
+||error-report.com^$domain=cool-style.com.tw
 cool-style.com.tw#$#replace-outbound-values'atob''c3RyaW5n''false'
 cool-style.com.tw#$#override-property-read Element.prototype.remove noopFunc
 cool-style.com.tw#$#abort-on-property-write window.confirm
 cool-style.com.tw#$#abort-on-property-write window.alert
 cool-style.com.tw##iframe[src*="report.error-report.com/modal"]
 ||*/loader.min.js|$script,domain=pressian.com
-||error-report.com^,domain=pressian.com
+||error-report.com^$domain=pressian.com
 pressian.com#$#replace-outbound-values'atob''c3RyaW5n''false'
 pressian.com#$#override-property-read Element.prototype.remove noopFunc
 pressian.com#$#abort-on-property-write window.confirm
 pressian.com#$#abort-on-property-write window.alert
 pressian.com##iframe[src*="report.error-report.com/modal"]
 ||*/loader.min.js|$script,domain=crosswordsolver.com
-||error-report.com^,domain=crosswordsolver.com
+||error-report.com^$domain=crosswordsolver.com
 crosswordsolver.com#$#override-property-read window.navigator.connection.rtt 1001
 crosswordsolver.com#$#hide-if-matches-xpath './/div[contains(@class,"ad-container")]/parent::div[1]'
 ||*/loader.min.js|$script,domain=kreuzwortraetsel.de
-||error-report.com^,domain=kreuzwortraetsel.de
+||error-report.com^$domain=kreuzwortraetsel.de
 kreuzwortraetsel.de#$#override-property-read window.navigator.connection.rtt 1001
 kreuzwortraetsel.de#$#hide-if-matches-xpath './/div[contains(@class,"mta-label")]/parent::div[1]'
 ||*/loader.min.js|$script,domain=verkaufsoffener-sonntag.com
-||error-report.com^,domain=verkaufsoffener-sonntag.com
+||error-report.com^$domain=verkaufsoffener-sonntag.com
 verkaufsoffener-sonntag.com#$#override-property-read window.navigator.connection.rtt 1001
 verkaufsoffener-sonntag.com#$#hide-if-matches-xpath './/div[contains(@class,"g ")][.//div[contains(@class,"ads-") or contains(@id,"sticky")]//parent::div[1]]'
 ||*/loader.min.js|$script,domain=word-grabber.com
-||error-report.com^,domain=word-grabber.com
+||error-report.com^$domain=word-grabber.com
 word-grabber.com#$#override-property-read window.navigator.connection.rtt 1001
 ||*/loader.min.js|$script,domain=raetsel-hilfe.de
-||error-report.com^,domain=raetsel-hilfe.de
+||error-report.com^$domain=raetsel-hilfe.de
 raetsel-hilfe.de#$#override-property-read window.navigator.connection.rtt 1001
 raetsel-hilfe.de#$#hide-if-matches-xpath './/div[contains(@class,"ad-container")]/parent::div[1]'
 ||*/loader.min.js|$script,domain=woxikon.de
-||error-report.com^,domain=woxikon.de
+||error-report.com^$domain=woxikon.de
 woxikon.de#$#override-property-read window.navigator.connection.rtt 1001
-||error-report.com^,domain=oraridiapertura24.it
+||error-report.com^$domain=oraridiapertura24.it
 ||*/loader.min.js|$script,domain=oraridiapertura24.it
 oraridiapertura24.it#$#override-property-read window.navigator.connection.rtt 1001
 oraridiapertura24.it#$#hide-if-matches-xpath './/div[contains(@class,"anzeigenlabel")]/parent::div[@style][not(@id)]'
-||error-report.com^,domain=the-crossword-solver.com
+||error-report.com^$domain=the-crossword-solver.com
 ||*/loader.min.js|$script,domain=the-crossword-solver.com
 the-crossword-solver.com#$#override-property-read window.navigator.connection.rtt 1001
 the-crossword-solver.com#$#hide-if-matches-xpath './/div[contains(@id,"slot-sticky")]/parent::div[1]'
 ||*/loader.min.js|$script,domain=laleggepertutti.it
-||error-report.com^,domain=laleggepertutti.it
+||error-report.com^$domain=laleggepertutti.it
 laleggepertutti.it#$#override-property-read window.navigator.connection.rtt 1001
 ||*/loader.min.js|$script,domain=avsforum.com
-||error-report.com^,domain=avsforum.com
+||error-report.com^$domain=avsforum.com
 avsforum.com#$#override-property-read window.navigator.connection.rtt 1001
 ||*/loader.min.js|$script,domain=fansided.com
-||error-report.com^,domain=fansided.com
+||error-report.com^$domain=fansided.com
 fansided.com#$#override-property-read Element.prototype.remove noopFunc
 fansided.com#$#abort-on-property-read window.confirm
 fansided.com#$#abort-on-property-read window.alert
 fansided.com##iframe[src*="report.error-report.com/modal"]
 ||*/loader.min.js|$script,domain=oxfordlearnersdictionaries.com
-||error-report.com^,domain=oxfordlearnersdictionaries.com
+||error-report.com^$domain=oxfordlearnersdictionaries.com
 oxfordlearnersdictionaries.com#$#override-property-read window.navigator.connection.rtt 1001
 ||*/loader.min.js|$script,domain=worldhistory.org
-||error-report.com^,domain=worldhistory.org
+||error-report.com^$domain=worldhistory.org
 worldhistory.org#$#abort-on-property-read AHE.canonicalPath false
 maketecheasier.com##*[id^="img_"]:not([data-ad-client]):is([data-google-container-id], [data-google-query-id])
 maketecheasier.com##iframe[id^="img_"][data-google-container-id]:not([data-ad-client])
