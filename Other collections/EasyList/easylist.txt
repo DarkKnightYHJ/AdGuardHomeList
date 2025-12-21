@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202512210614
+! Version: 202512210710
 ! Title: EasyList
-! Last modified: 21 Dec 2025 06:14 UTC
+! Last modified: 21 Dec 2025 07:10 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 3cd1df6efa690e39fb6249bb118dc2b5072023cf
+! Commit: 07c527630679cc246691f49612406604bbe3d0ce
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -262,7 +262,12 @@
 /adv_out.js$third-party
 /adv_vert.js$script
 /AdvAdsV3/*$script,stylesheet
-/advanced-ads-$script,stylesheet,domain=~transinfo.pl|~wordpress.org
+/advanced-ads-layer/public/assets/js/layer.js
+/advanced-ads-pro.js$script
+/advanced-ads-pro.min.js$script
+/advanced-ads-pro/assets/dist/front.js$script
+/advanced-ads-pro/assets/js/postscribe.js$script
+/advanced-ads/public/assets/js/advanced.min.js$script
 /advbanner.frontend.js$script
 /advert.$~script,~xmlhttprequest,domain=~advert.ae|~advert.club|~advert.com.tr|~advert.ee|~advert.ge|~advert.io|~advert.media|~advert.org.pl|~motortrader.com.my
 /advertising/ad-shield.js$script
@@ -18484,6 +18489,7 @@ browsershots.org#@#.advert_area
 ||annuarybeeper.click^
 ||annulmentequitycereals.com^
 ||annulusagt.com^
+||anodachwrhdbv.space^
 ||anodeovistic.rest^
 ||anodicgomavel.shop^
 ||anomalahervati.help^
@@ -29832,6 +29838,7 @@ browsershots.org#@#.advert_area
 ||g8tor.com^
 ||g9qnk89pd5ic.com^
 ||gaaekexcvdkur.site^
+||gabbleddipodidupbuild.cyou^
 ||gablockchunner.help^
 ||gablockheavers.qpon^
 ||gaboonspooked.cyou^
@@ -34418,6 +34425,7 @@ browsershots.org#@#.advert_area
 ||ixaxwiexuwcry.space^
 ||ixbfaxlyvbqfd.space^
 ||ixcirsgywnnmi.website^
+||ixcswknfty.com^
 ||ixehvtycykhik.store^
 ||ixendtolyio.com^
 ||ixgyezjgpsnob.store^
@@ -40284,6 +40292,7 @@ browsershots.org#@#.advert_area
 ||nbxcijnlqfrbd.website^
 ||nbyljnyrtyhx.com^
 ||nbzemeyiknni7o3l7riictvi.rest^
+||ncaapttwuw.com^
 ||ncb6i6mbeiig3xq19c.cfd^
 ||nceneverdreamsofc.org^
 ||ncetdrzpalozq.space^
@@ -50997,6 +51006,7 @@ browsershots.org#@#.advert_area
 ||superrgood.com^
 ||supers-date-themeetup.com^
 ||supersedeforbes.com^
+||supershopping.pro^
 ||superstitionscarecrowunbelievable.com^
 ||superstitionstrainconvincing.com^
 ||superstriker.net^
@@ -58179,6 +58189,7 @@ browsershots.org#@#.advert_area
 ||yzsinffpguits.space^
 ||yzsmvphqdnsdk.website^
 ||yzswlkwqkkndh.space^
+||yztieslfdokbq.website^
 ||yzusmqxulljzm.website^
 ||yzwtg89j.xyz^
 ||yzwtz.com^
@@ -59814,6 +59825,7 @@ browsershots.org#@#.advert_area
 ||adshot.de^$third-party
 ||adsiduous.com^$third-party
 ||adsight.nl^$third-party
+||adsinteractive.com^$third-party
 ||adslivecorp.com^$third-party
 ||adsmart.hk^$third-party
 ||adsninja.ca^$third-party
