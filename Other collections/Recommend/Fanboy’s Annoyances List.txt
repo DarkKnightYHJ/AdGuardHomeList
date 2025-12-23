@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kFsmpcX6gvfkLsy1BqAiFQ
-! Version: 202512232211
+! Checksum: kiAfvuIBAEflPuL51UNAKw
+! Version: 202512232311
 ! Title: Fanboy's Annoyance List
-! Last modified: 23 Dec 2025 22:11 UTC
+! Last modified: 23 Dec 2025 23:11 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -4051,6 +4051,8 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.markup.body > .subscribe-widget
 ##.pc-reset > ._container_cjrxc_1
 ##.single-post-container > .subscribe-footer
+##article.newsletter-post div[role="dialog"][aria-label="Subscribe modal"]
+##article.newsletter-post div[role="dialog"][aria-label="Subscribe modal"] + div[class^="background-"]
 ! alextimes.com
 ##.cpcta-flyin
 ! nlgate Newsletter
@@ -7825,6 +7827,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.end-social
 ##.entry-aside-shares
 ##.entry-bottom-share
+##.entry-content-share
 ##.entry-footer-share
 ##.entry-meta-share
 ##.entry-meta-social
@@ -32415,7 +32418,7 @@ sears.com##.tap-top
 nasilemaktech.com##.td-read-down
 club386.com,nme.com##.td-scroll-up
 adguard.com##.theme-back-to-top-button
-ansa.it,asianews.it,cacm.acm.org,californiacitynews.org,cnbctv18.com,consolecreatures.com,dmgmori.co.jp,ekathimerini.com,forza.nu,gbnews.com,gunsandammo.com,justapack.com,linuxlookup.com,porngem.com,thedebrief.org,thegrayzone.com##.to-top
+ansa.it,asianews.it,cacm.acm.org,californiacitynews.org,cnbctv18.com,consolecreatures.com,dmgmori.co.jp,ekathimerini.com,forza.nu,gbnews.com,gunsandammo.com,justapack.com,linuxlookup.com,porngem.com,thedebrief.org,thegrayzone.com,wbdg.org##.to-top
 groningerbelang.nl,sinaval.org.br,swm-network.de,synagogewinterswijk.nl##.to-top-container
 denvergazette.com,hampshire-hotels.com,hotelsgravenhof.nl,radaris.com##.toTop
 abitare-in-altoadige.it,automobilismo.it,bostonherald.com,ciclismo.it,cyclistmagazine.it,dailysignal.com,freeviewnz.tv,germany.travel,haier.com,motociclismo.it,nrc.nl,shopperplus.ca,sivtimes.com,svp.eu,thefappening.wiki,velaemotore.it,visitnsw.com,wikiway.com,wohnen-in-suedtirol.it##.top
