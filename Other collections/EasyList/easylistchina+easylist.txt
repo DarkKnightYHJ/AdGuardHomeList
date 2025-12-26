@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9VLecczFZuXnVkEf4JtMsQ
-! Version: 202512260621
+! Checksum: A/GyLXIUyzYijSeJULJlVw
+! Version: 202512260711
 ! Title: EasyList China+EasyList
-! Last modified: 26 Dec 2025 06:21 UTC
+! Last modified: 26 Dec 2025 07:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1740,6 +1740,8 @@ newduba.cn###jq_youxi
 ##.a-media.ex-728-90
 ##a[clickmode="cpt"]
 ###foot > #btmBox
+##.player-rma > a[target="_blank"]
+##.player-tl > a[target="_blank"]
 ##.home-qf > div[class*="img-qf"]
 ##.home-qf > div[class*="img-ad"]
 ##.module-player > .dds_w
@@ -1784,6 +1786,8 @@ newduba.cn###jq_youxi
 ||ujhu.cn^
 ||1gqd0o687z.com^
 ||aa52jm08ly.com^
+||ainb12261zh.com^
+||nvielkaa.com^
 ||1pt7wq8di.com^
 ||4d45i6p0g.com^
 ||5bess6df0.com^
@@ -10566,6 +10570,7 @@ meijutt.*/js/pcjs/
 ||douyucdn.cn/adxdsp/
 !------------------------Specific element hiding rules------------------------!
 zhihu.com##.Pc-word-new
+weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(img[src="https://d.sinaimg.cn/prd/1005/891/2025/03/21/icon_auth_white.png"])
 douyu.com#?#div[class^="body__"] > div[class^="card__"] > span > span[class^="card__"]:-abp-has(span[class^="cardTypeLabel"]:-abp-contains(广告))
 h-ciyuan.com##.theiaStickySidebar .widget_media_image
 h-ciyuan.com#?#.gridview-grid-post:-abp-has(a[title*="Ad』"])
@@ -48060,6 +48065,7 @@ browsershots.org#@#.advert_area
 ||flexlinks.com^
 ||flfahkpekwzfb.site^
 ||flfevzewxynrf.website^
+||flfyyzdgpyydo.space^
 ||flgacawxvxozr.space^
 ||flgch4eegy54z5czrzy.cfd^
 ||flgdaoepeuiqs.store^
@@ -48475,6 +48481,7 @@ browsershots.org#@#.advert_area
 ||fqpkobrusjzaa.space^
 ||fqpwvcgctwjlo.online^
 ||fqpyypqsklxar.site^
+||fqrbxvizrmsjj.space^
 ||fqtikzsaznhux.online^
 ||fqtjp.one^
 ||fqtmnnxabkkud.space^
@@ -49645,6 +49652,7 @@ browsershots.org#@#.advert_area
 ||gjppotslrjlov.website^
 ||gjqghspetwnkz.store^
 ||gjqlxuffmatsp.online^
+||gjqqxktrdnmad.site^
 ||gjrlcxthtkeab.site^
 ||gjwkufnkofzgj.online^
 ||gjwmlhzgzucfn.website^
@@ -68003,6 +68011,7 @@ browsershots.org#@#.advert_area
 ||rwwmbymaezkla.top^
 ||rwwmbymaezljq.top^
 ||rwwmbymajvmkw.top^
+||rwwmbymajvqba.top^
 ||rwxpkychnthdx.space^
 ||rwylatoun.life^
 ||rwzvqzvqkzkra.top^
@@ -77168,6 +77177,7 @@ browsershots.org#@#.advert_area
 ||xjvuwqwmdwu.com^
 ||xkakkewixszu.com^
 ||xkanzuqreeloy.store^
+||xkggddiyjm.com^
 ||xkhjonrijnvvy.online^
 ||xkihevzkxjtdq.website^
 ||xkisdsaazwzch.online^
