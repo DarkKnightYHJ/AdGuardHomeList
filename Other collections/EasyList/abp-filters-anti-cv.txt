@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: lm8t7JjsnNX7fW4H7adEVw
-! Version: 202601121611
+! Checksum: Uj9yYw3thmqtFwFbof4cvA
+! Version: 202601121712
 ! Title: ABP filters
-! Last modified: 12 Jan 2026 16:11 UTC
+! Last modified: 12 Jan 2026 17:12 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -600,9 +600,6 @@ slashdot.org#$#abort-on-property-write window.alert
 ||*/loader.min.js|$script,domain=slashdot.org
 ||error-report.com^$domain=slashdot.org
 slashdot.org##iframe[src*="report.error-report.com/modal"]
-si.com#$#override-property-read Element.prototype.remove noopFunc
-si.com#$#abort-on-property-write window.confirm
-si.com#$#abort-on-property-write window.alert
 ||*/loader.min.js|$script,domain=si.com
 ||error-report.com^$domain=si.com
 si.com##iframe[src*="report.error-report.com/modal"]
