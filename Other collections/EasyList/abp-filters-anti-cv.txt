@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: uXyQVA7CFfTCE4W93qoTKQ
-! Version: 202601151411
+! Checksum: JXEmQ/HoEwPv1e8xkVhAWw
+! Version: 202601151511
 ! Title: ABP filters
-! Last modified: 15 Jan 2026 14:11 UTC
+! Last modified: 15 Jan 2026 15:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -677,20 +677,9 @@ pressian.com##iframe[src*="report.error-report.com/modal"]
 ||error-report.com^$domain=crosswordsolver.com
 crosswordsolver.com#$#override-property-read window.navigator.connection.rtt 1001
 crosswordsolver.com#$#hide-if-matches-xpath './/div[contains(@class,"ad-container")]/parent::div[1]'
-||*/loader.min.js|$script,domain=kreuzwortraetsel.de
-||error-report.com^$domain=kreuzwortraetsel.de
-kreuzwortraetsel.de#$#override-property-read window.navigator.connection.rtt 1001
-kreuzwortraetsel.de#$#hide-if-matches-xpath './/div[contains(@class,"mta-label")]/parent::div[1]'
 ||error-report.com^$domain=verkaufsoffener-sonntag.com
 verkaufsoffener-sonntag.com#$#override-property-read window.navigator.connection.rtt 1001
 verkaufsoffener-sonntag.com#$#hide-if-matches-xpath './/div[contains(@class,"g ")][.//div[contains(@class,"ads-") or contains(@id,"sticky")]//parent::div[1]]'
-||*/loader.min.js|$script,domain=word-grabber.com
-||error-report.com^$domain=word-grabber.com
-word-grabber.com#$#override-property-read window.navigator.connection.rtt 1001
-||*/loader.min.js|$script,domain=raetsel-hilfe.de
-||error-report.com^$domain=raetsel-hilfe.de
-raetsel-hilfe.de#$#override-property-read window.navigator.connection.rtt 1001
-raetsel-hilfe.de#$#hide-if-matches-xpath './/div[contains(@class,"ad-container")]/parent::div[1]'
 ||*/loader.min.js|$script,domain=woxikon.de
 ||error-report.com^$domain=woxikon.de
 woxikon.de#$#override-property-read window.navigator.connection.rtt 1001
@@ -705,9 +694,6 @@ the-crossword-solver.com#$#hide-if-matches-xpath './/div[contains(@id,"slot-stic
 ||*/loader.min.js|$script,domain=laleggepertutti.it
 ||error-report.com^$domain=laleggepertutti.it
 laleggepertutti.it#$#override-property-read window.navigator.connection.rtt 1001
-||*/loader.min.js|$script,domain=avsforum.com
-||error-report.com^$domain=avsforum.com
-avsforum.com#$#override-property-read window.navigator.connection.rtt 1001
 ||*/loader.min.js|$script,domain=fansided.com
 ||error-report.com^$domain=fansided.com
 fansided.com##iframe[src*="report.error-report.com/modal"]
