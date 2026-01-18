@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202601181219
+! Version: 202601181324
 ! Title: EasyList
-! Last modified: 18 Jan 2026 12:19 UTC
+! Last modified: 18 Jan 2026 13:24 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 0093a893c2990d66963dd860625934a81430b49b
+! Commit: 0e81824c0df7dcfbedcac1257941d49d47523b00
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -21764,6 +21764,7 @@ browsershots.org#@#.advert_area
 ||bulgingextraordinary.com^
 ||bulginglair.com^
 ||bulgingreact.com^
+||bulimiaour.cyou^
 ||buljlwaclnocq.site^
 ||bulky-battle.com^
 ||bullaninique.cyou^
@@ -24931,6 +24932,7 @@ browsershots.org#@#.advert_area
 ||dakafxgnqcpmm.website^
 ||dakirbump.qpon^
 ||dakoitsredlegsfrankly.cyou^
+||dakoitymorrice.cyou^
 ||dakotatitlist.cfd^
 ||dakuobdkppvld.space^
 ||daldk.com^
@@ -29305,6 +29307,7 @@ browsershots.org#@#.advert_area
 ||fingercough.xyz^
 ||fingerrealistic.com^
 ||fingudotlet.com^
+||finicalnuzzled.shop^
 ||finifyjubate.shop^
 ||finisheddaysflamboyant.com^
 ||finisheddisdainsmug.com^
@@ -31452,6 +31455,7 @@ browsershots.org#@#.advert_area
 ||gnweykgfnrqwg.net^
 ||gnxszedepbbef.online^
 ||gnxzfqmoyvvjt.website^
+||gnylrhejoejyesm.com^
 ||gnzfwmyurtkii.website^
 ||go-g3t-push.net^
 ||go-g3t-s0me.net^
@@ -42870,6 +42874,7 @@ browsershots.org#@#.advert_area
 ||oatmealmontleymontleyremove.com^
 ||oaukohmnsqhkok.net^
 ||oavflbxumnubk.website^
+||oavggcvukxs.com^
 ||oavurognaurd.net^
 ||oawkaajvnfkcu.site^
 ||oawosoulsouso.net^
@@ -48968,6 +48973,7 @@ browsershots.org#@#.advert_area
 ||revrtb.net^
 ||revstripe.com^
 ||revupads.com^
+||revvedeurasiadimitry.cyou^
 ||revwneghofvae.online^
 ||rewarding-love.com^
 ||rewardjav128.fun^
@@ -51786,6 +51792,7 @@ browsershots.org#@#.advert_area
 ||softballpeckrobust.com^
 ||softchest.com^
 ||softcloudgrove.com^
+||softeighty.qpon^
 ||softenedimmortalityprocedure.com^
 ||softentears.com^
 ||softonicads.com^
@@ -56001,6 +56008,7 @@ browsershots.org#@#.advert_area
 ||uommyhvsmzozp.website^
 ||uoolxh3g7ntj85o.cfd^
 ||uooumilwtodnh.website^
+||uoptxvqdacicy.space^
 ||uopvpepvmrepe.website^
 ||uorksewkwesln.space^
 ||uoutube.com^
@@ -56185,6 +56193,7 @@ browsershots.org#@#.advert_area
 ||usainoad.net^
 ||usaraexturb.cfd^
 ||usbrowserspeed.com^
+||uscahcjmcjyuj.space^
 ||usckthgqdbflv.site^
 ||usdjhvbme.com^
 ||usdspxxgwqqzn.online^
@@ -56366,6 +56375,7 @@ browsershots.org#@#.advert_area
 ||uxqudtzzbkhfq.website^
 ||uxrcoqdzdzajy.site^
 ||uxrnqtpdltdsthj.xyz^
+||uxtvedolpjbpp.site^
 ||uxtzpzxryhbvh.online^
 ||uxweydwrulieb.website^
 ||uxwinyafloqfy.store^
@@ -58014,6 +58024,7 @@ browsershots.org#@#.advert_area
 ||weekly-stock.com^
 ||weeklymaintenance.pro^
 ||weeoffer.com^
+||weepedaliyas.cyou^
 ||weephostessscissors.com^
 ||weepy-attack.com^
 ||weepylack.com^
@@ -58366,6 +58377,7 @@ browsershots.org#@#.advert_area
 ||wideorganizati.com^
 ||wideprophetbeast.com^
 ||widespreadcomponent.com^
+||widestcarter.qpon^
 ||widgetbucks.com^
 ||widgetly.com^
 ||widiaoexhe.top^
@@ -70712,6 +70724,8 @@ browsershots.org#@#.advert_area
 @@||jetzt.de^$generichide
 ! dood.pm
 /^https?:\/\/www\.[0-9a-z]{8,}\.com\/[0-9a-z]{1,4}\.js$/$script,third-party,domain=dood.la|dood.pm|dood.sh|dood.so|dood.to|dood.watch|dood.ws
+! gsmarena.com
+/\.gsmarena\.com\/[0-9]+\.[a-z]+\?s?Search=/$xmlhttprequest,domain=gsmarena.com
 ! Internal use of EL
 ||raw.githubusercontent.com/easylist/easylist/master/docs/1x1.gif
 ||raw.githubusercontent.com/easylist/easylist/master/docs/2x2.png$third-party
@@ -77754,7 +77768,6 @@ cars.com##[id$="-sponsored"]
 lolalytics.com##[id$=":inline"]
 bridgebase.com##[id*="_ad"]
 homedepot.com##[id*="sponsored"]
-gsmarena.com##[id][style="display: block;"]
 80.lv##[id^="Image_bner_"]
 ldoceonline.com##[id^="ad_contentslot"]
 bestbuy.ca,bestbuy.com##[id^="atwb-ninja-carousel"]
