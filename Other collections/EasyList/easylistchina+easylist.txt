@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HuG7QyhUwXEkd7JBviu9kQ
-! Version: 202601260712
+! Checksum: NfRdyfrd8yyK9ngmfuiJKg
+! Version: 202601260821
 ! Title: EasyList China+EasyList
-! Last modified: 26 Jan 2026 07:12 UTC
+! Last modified: 26 Jan 2026 08:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1748,6 +1748,7 @@ newduba.cn###jq_youxi
 ##.home-qf > div[class*="img-ad"]
 ##.module-player > .dds_w
 ##.content > .dds_w
+##.elementor-popup-modal
 ###interstitial_fade[style^="display: block"]
 ##body > div.container[style="margin-bottom: 10px;"] > script:first-child ~ div[style="height:60px;width:100%;"]
 ##a[href="https://t.me/bokaiyunwujiankaiyun"]
@@ -10779,8 +10780,11 @@ meijutt.*/js/pcjs/
 ||711dm.com/color.
 ||joyacg.top/wp-content/uploads/*-640
 ||wnacg.com/game/
+||affxc.com^*-792-180.
+||affxc.com/topbanner-
 !------------------------Specific element hiding rules------------------------!
 zhihu.com##.Pc-word-new
+dailijichang.com,qv2ray.org##.elementor-sticky--active[data-settings*="bottom"]
 supercloudsms.com##.container > img
 muinz.top##.module
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(img[src="https://d.sinaimg.cn/prd/1005/891/2025/03/21/icon_auth_white.png"])
@@ -13391,7 +13395,6 @@ playno1.com##.eis_mtm[style="border-top:1px dashed #CDCDCD;padding-top:10px; pad
 backchina.com##.eis_subnav_area
 subaibai.com##.el-dialog__wrapper
 unikoshardware.com##.elementor-image > a[href^="https://bit.ly/"]
-unikoshardware.com##.elementor-popup-modal
 eprice.com.tw##.emome-ad
 huya.com##.end-ab-banner
 huya.com##.end-ab-wrap
@@ -41921,6 +41924,7 @@ browsershots.org#@#.advert_area
 ||ceugowvfyotxp.online^
 ||ceuktgxqznmne.site^
 ||ceuuogduqksxv.online^
+||ceuyknnwbtqkm.space^
 ||ceveq.click^
 ||cevichebland.cyou^
 ||cevoansoultum.net^
@@ -47712,6 +47716,7 @@ browsershots.org#@#.advert_area
 ||etqzttxmlrgxm.space^
 ||etrem.site^
 ||etterismypersonal.com^
+||ettqeirvwtxah.online^
 ||etuaoleums.help^
 ||etukuqstzpkzz.space^
 ||etvurlcoygadl.site^
@@ -49472,6 +49477,7 @@ browsershots.org#@#.advert_area
 ||fquyv.one^
 ||fqvwalkffipfi.site^
 ||fqwbbdsgoabfx.com^
+||fqwgbfspbmtqj.com^
 ||fqxqdeobcusbj.website^
 ||fqzjprfzxplwo.website^
 ||fqzouodvgiqub.website^
@@ -53582,6 +53588,7 @@ browsershots.org#@#.advert_area
 ||hxithjdtkguge.com^
 ||hxjhfqrolubqs.space^
 ||hxkeammfkgejm.space^
+||hxkevwpnebbisv.com^
 ||hxkivgrszuolf.site^
 ||hxkppxedfmggz.online^
 ||hxlcunmryxpzq.space^
@@ -54194,6 +54201,7 @@ browsershots.org#@#.advert_area
 ||imiclick.org^
 ||imiclk.com^
 ||imidicsecular.com^
+||imidsmoudiescoter.cfd^
 ||imirkin6.com^
 ||imitateupsettweak.com^
 ||imitrck.net^
@@ -68755,6 +68763,7 @@ browsershots.org#@#.advert_area
 ||rebindsrodge.cfd^
 ||reboantzarf.com^
 ||reboardwhoop.cfd^
+||reboastdromeestoc.cyou^
 ||reboilstourly.rest^
 ||rebootsormers.com^
 ||rebopsmurly.com^
@@ -78709,6 +78718,7 @@ browsershots.org#@#.advert_area
 ||wcwhhhstvg.com^
 ||wcwijbtqgajxf.global^
 ||wcx4whygpeln92mfyp9zvf6e.cfd^
+||wcxnhozavolcv.online^
 ||wcyvjdpduqxym.site^
 ||wdcwmeklhgnfc.xyz^
 ||wderfvqphkzih.space^
@@ -80289,6 +80299,7 @@ browsershots.org#@#.advert_area
 ||xiknitnaso.com^
 ||xikxomyzutsto.site^
 ||xilflksioan.net^
+||xilpcschzrgnp.site^
 ||xilqvrnnjvosz.site^
 ||ximybkpxwu.com^
 ||ximzuwcbbgwhu.online^
