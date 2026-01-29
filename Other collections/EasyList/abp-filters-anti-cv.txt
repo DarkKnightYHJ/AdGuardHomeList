@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 9bUI/r+33jfWHq0WnwN7hw
-! Version: 202601290821
+! Checksum: Dq7llwxl7Q1jJZrbP+Mmjw
+! Version: 202601290931
 ! Title: ABP filters
-! Last modified: 29 Jan 2026 08:21 UTC
+! Last modified: 29 Jan 2026 09:31 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1849,7 +1849,7 @@ cafef.vn,gamek.vn,genk.vn,kenh14.vn,soha.vn,tuoitre.vn,afamily.vn,thanhnien.vn#$
 bongda365f.com#$#override-property-read isSkipAds true
 znews.vn#$#abort-on-property-read adtimaConfig
 baomoi.com#$#abort-on-property-write AdtimaRender
-snltheexhibition.com#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
+mamby.com#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 kenh14.vn#$#override-property-read Constants.allowAds false
 vndoc.com#$#override-property-read seconds 0
 phimvuihd.net#$#override-property-read urlAds ''
@@ -1857,7 +1857,7 @@ n.thapcam53.pro#$#simulate-mouse-event '#modalasd$continue,delay=300'
 xemphim.site,animet.org,motchillzz.site#$#override-property-read maxAds 0
 www.iosviet.com#$#override-property-read timer 0
 saigon24.net#$#abort-current-inline-script document.getElementById myModal
-snltheexhibition.com#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
+mamby.com#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
 www.diendancauduong.com#$#abort-on-property-read antiAdBlockerHandler
 xem16.net#$#json-prune props.children.[].props.tvc
 hh2d.tv#$#abort-current-inline-script $ adblock
@@ -1926,8 +1926,8 @@ audiotruyenfull.com#$#abort-current-inline-script setTimeout Aff
 pheclip.love,phim18vip.one,sieudam.sh#$#abort-current-inline-script $ pop
 vozer.io#$#abort-current-inline-script document.addEventListener atob
 thiendia1.vip#$#abort-current-inline-script document.addEventListener adState
-snltheexhibition.com#$#abort-current-inline-script jQuery open
-phimmoic.org,motchillie.org#$#prevent-listener click ads
+mamby.com#$#abort-current-inline-script jQuery open
+phimmoii.to,motchillie.org#$#prevent-listener click ads
 www.asu.baby#$#abort-on-property-read initialAdURLs
 basmaticw5.co.uk#$#abort-current-inline-script window.addEventListener Ads
 www.rophim.nl#$#prevent-listener click isSwapping
