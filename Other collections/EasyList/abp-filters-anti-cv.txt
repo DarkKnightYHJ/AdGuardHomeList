@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: YbQx6VnNpmE8kXlyeF0dmA
-! Version: 202601301341
+! Checksum: s4O0IZEWV/q3IrdrQawRUQ
+! Version: 202601301421
 ! Title: ABP filters
-! Last modified: 30 Jan 2026 13:41 UTC
+! Last modified: 30 Jan 2026 14:21 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -2297,6 +2297,7 @@ www.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/d
 www.youtube.com,youtube-nocookie.com#$#event-override click trusted; simulate-mouse-event 'button.ytp-skip-ad-button.ytp-ad-component--clickable$delay=0'; simulate-mouse-event 'button.ytp-skip-ad-button$delay=0';
 www.youtube.com#$#map-override set /AD_PLACEMENT_KIND_/ '' value.kind
 www.youtube.com#$#replace-outbound-value JSON.stringify '"clientName":"WEB"' '"clientName":"WEB","clientScreen":"CHANNEL"'
+www.youtube.com#$#replace-outbound-value JSON.stringify '{"contentPlaybackContext"' '{"adPlaybackContext":{"pyv":true},"contentPlaybackContext"'; replace-outbound-value JSON.stringify appInstallData appInstallData2;
 www.youtube.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adSlots emptyArray; override-property-read ytInitialPlayerResponse.adPlacements emptyArray;override-property-read ytInitialPlayerResponse.playerAds emptyArray;
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read playerResponse.adPlacements undefined;
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
