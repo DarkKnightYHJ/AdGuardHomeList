@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: aijOPxXbBAnGyLamNZZ0Rg
-! Version: 202602012312
+! Checksum: DH3e910MjcWr/l1qGFCF4A
+! Version: 202602020151
 ! Title: EasyPrivacy
-! Last modified: 01 Feb 2026 23:12 UTC
+! Last modified: 02 Feb 2026 01:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1800,6 +1800,7 @@
 /pixelcounter.$domain=~pixelcounter.co.uk|~pixelcounter.com|~pixelcounter.dev|~pixelcounter.org|~pixelcounters.co.uk|~pixelcounters.uk
 /pixeljs/*
 /pixelNew.js
+/PixelPageView?
 /pixelpropagate.js
 /pixels.jsp?
 /pixels/track?
@@ -8001,7 +8002,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.bit.ly/*/clicks?$third-party
 ||api.blink.net/a/
 ||api.collarity.com/cws/*http
+||api.config-security.com/first
 ||api.country.is^$third-party
+||api.croct.io^
 ||api.gleap.io/sessions/ping
 ||api.ipgeolocation.io/getip
 ||api.iris.tv/update
@@ -12320,6 +12323,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.makeitmeme.com^
 ||analytics.maxroll.gg^
 ||analytics.ml.homedepot.ca^
+||analytics.morphe.software^
 ||analytics.mouthshut.com^
 ||analytics.nike.com^
 ||analytics.ovh.com^
