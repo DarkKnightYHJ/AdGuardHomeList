@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: DQ3EvGYsFYnO3g8kHW4RxQ
-! Version: 202602031241
+! Checksum: yYoFvhlBZDOXEiitTHu6Jw
+! Version: 202602031351
 ! Title: ABP filters
-! Last modified: 03 Feb 2026 12:41 UTC
+! Last modified: 03 Feb 2026 13:51 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1038,7 +1038,7 @@ lukesitturn.com,xatovjatsosg.com,voe.sx#$#abort-on-property-write window.zfgload
 vidfast.*,moviesapi.*,vidlink.*,primewire.*#$#abort-on-property-read runPop;
 ||*.website/*^$xmlhttprequest,domain=knaben.xyz
 hyhd.org,knaben.xyz,vidsrc-embed.ru#$#abort-on-property-read Adcash
-actvid.*,cataz.*,cineb.*,himovies.sx,movies4us.co,musichq.*,theflixertv.to#$#abort-on-property-write window.open; abort-current-inline-script addEventListener HTMLAllCollection;
+actvid.*,cataz.*,cineb.*,himovies.sx,movies4us.co,musichq.*,theflixertv.*#$#abort-on-property-write window.open; abort-current-inline-script addEventListener HTMLAllCollection;
 epicplayplay.*#$#abort-current-inline-script document.createElement /fakeelement/
 watchserieshd.stream#$#abort-current-inline-script JSON.parse break;case $.
 cloudnestra.com,seeflix.*,stellarthread.com#$#abort-on-property-read aclib
@@ -1058,6 +1058,7 @@ bingespree.net#$#abort-current-inline-script document.write atob
 aagmaal.*#$#override-property-read univresalP noopFunc; abort-current-inline-script document.documentElement break;case $.
 xpornium.net#$#abort-on-property-write _pop; prevent-listener '' dtnoppu; abort-current-inline-script document.createElement window.open
 livecamrips.*#$#prevent-listener click window.open;
+||cdn.trustpielote.com^$domain=bigfuck.tv
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 baytorrent.eu.org,europixhd.com,europixhd.net,file-up.org,force-download.com,force-download.es,force-download.net,gledajonline.net,hdeuropix.io,loadsubs.net,novom.ru,pirateproxy.earth,pirateproxy.live,thehiddenbay.com,thepiratebay.org,thepiratebay.vip,thepiratebay10.org,topeuropix.net,tpb.party,uploadproper.com,uploadproper.net#$#abort-on-property-read atob
@@ -1094,7 +1095,7 @@ megagames.com#$#abort-on-property-write $jscomp
 clicknupload.co,clicknupload.link,clicknupload.org,clicknupload.to#$#abort-current-inline-script String.fromCharCode shift
 tubesafari.com,youdbox.com#$#abort-on-property-read encodeURIComponent
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-fmovies.*,hurawatch.cc,theflixer.tv#$#abort-on-property-read window.zfgstorage
+fmovies.*,hurawatch.cc,theflixer.*#$#abort-on-property-read window.zfgstorage
 bf0skv.org,dopebox.to,fmovies.*,theflixertv.*,luluvid.com#$#abort-current-inline-script document.createElement delete window
 omegascans.org#$#abort-on-property-read window.__adFormats
 liveru.sx#$#abort-on-property-read window.b5bb198737
@@ -1193,7 +1194,7 @@ truyen-hentai.com#$#hide-if-matches-xpath './/*[@class]/ancestor-or-self::div[co
 truyen-hentai.com#$#abort-on-property-read Math.random; prevent-listener getexoloader; abort-on-property-read initCustomEvent;
 simply-hentai.com#$#hide-if-matches-xpath './/div[contains(@style,"pointer")]/parent::div[@style]/ancestor::div[@id][1]/ancestor::div[contains(@class,"text-center")][1]'; hide-if-matches-xpath './/a[contains(@href,"chaturbate")]/parent::*[@class]/ancestor::div[contains(@class,"col")][1]';
 xgroovy.com#$#hide-if-matches-xpath './/div[@class and @style]/div[@class][@id]/div[@class]/ancestor-or-self::div[@class][contains(@style,"order")][1]'; hide-if-matches-xpath './/a[@real-href][@onmouseup]//div[@style]/ancestor::div[@class][2]';
-xgroovy.com#$#abort-on-property-write exoAdSubId; abort-on-property-write AdProvider;
+bigfuck.tv,xgroovy.com#$#abort-on-property-write exoAdSubId; abort-on-property-write AdProvider;
 ||tubesafari.com/*/new_popunder.js$domain=tubesafari.com
 tubesafari.com#$#override-property-read initialize_page noopFunc
 ||older-women-porn.com/black-credit-71cc^$domain=older-women-porn.com
@@ -1299,6 +1300,7 @@ movies7to.net#$#hide-if-matches-xpath '//body/div[(contains(@class, "banner-ngan
 aagmaal.*#$#hide-if-matches-xpath './/a[@target][@rel="noopener"]/parent::div/ancestor::div[@id="text-html-widget-2"]'
 uncutprime.com#$#hide-if-matches-xpath './/a[contains(@href,"pornzen") or contains(@href,"PornZen")]/ancestor::div[starts-with(@class,"happy-footer")]'
 dopebox.*#$#abort-on-property-write window.top.postMessage; abort-current-inline-script document.documentElement break;case $.
+bigfuck.tv,leslez.com#$#hide-if-matches-xpath './/a[contains(@href,"wolf-327b.com") or contains(@href,"trustpielote.com")]/parent::div[1]'
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
