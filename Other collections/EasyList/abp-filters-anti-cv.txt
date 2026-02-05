@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 9+ow4O1salrcT2ltZfN+Mg
-! Version: 202602051122
+! Checksum: /5r6PccTz2XdiWZZkg2uTQ
+! Version: 202602051241
 ! Title: ABP filters
-! Last modified: 05 Feb 2026 11:22 UTC
+! Last modified: 05 Feb 2026 12:41 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -2052,7 +2052,6 @@ ebay.com##div[class$="vl-leaderboard-ad"]
 ebay.*#$#hide-if-matches-xpath '//div[contains(@class,"carousel--slides carousel--peek")]/preceding::h2[contains(.,"Sponsored")]/ancestor-or-self::div[@data-viewport][1]'
 ebay.com#$#hide-if-matches-xpath3 '//li[@data-marko-key][.//h2][.//span[contains(@class,"subtitle")]//span[contains(replace(text(),"[\u2066-\u2069]",""),"Sponsored")]]'
 ! ba
-ebay.*#$#hide-if-contains-visible-text /(Sponsored|Anzeige|Sponsorisé|Commandité|Patrocinado|Sponsorizzato)/ 'div[id^="placement"]'
 ebay.com#$#hide-if-contains-visible-text /Sponsored/ 'div[data-testid="x-pda-placements"]>div>div>div' 'div[data-viewport]>span>div>div ^^sh^^ *'
 ebay.*#$#hide-if-contains-visible-text /(Sponsored|Anzeige|Sponsorisé|Commandité|Patrocinado|Sponsorizzato)/ 'div[class^="YJDr"]>div' 'div[style*="color: #707070"]'
 ! ta
