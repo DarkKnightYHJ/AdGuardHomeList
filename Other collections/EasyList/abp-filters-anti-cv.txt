@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: LKVgswvpsivx4a1sUSldXg
-! Version: 202602061522
+! Checksum: RD9/Zpecph/1c+yAU7lfig
+! Version: 202602061631
 ! Title: ABP filters
-! Last modified: 06 Feb 2026 15:22 UTC
+! Last modified: 06 Feb 2026 16:31 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -2090,7 +2090,6 @@ ebay.com#$#hide-if-matches-xpath './/*[child::div[@id][contains(@style,"min-heig
 ebay.*#$#hide-if-contains-visible-text /Sponsored|Anzeige|Sponsorisé|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato/ 'ul>li' 'ul> li span[aria-labelledby]' '-ignore-padding:true' 'color: rgba(0, 1, 0, 0)' '-disable-bg-color-check: true'
 ebay.*#$#hide-if-matches-computed-xpath './/ul/li//div[@aria-labelledby][@class="{{}}"]/ancestor::li' './/style[contains(text(), "base64,") and string-length(substring-before(substring-after(text(), "base64,"), ")")) mod 4 != 0 ]' '/sans-serif;}.(.*) \\[aria/'; hide-if-matches-computed-xpath './/ul/li//div[@aria-labelledby][@class="{{}}"]/ancestor::li' './/style[contains(substring-after(text(), "base64,"), "AAAAUE" ) and string-length( substring-before(substring-after(text(), "base64,"), ")") ) != 1712 or contains(substring-after(text(), "base64,"), "AAAAUA" ) and string-length( substring-before(substring-after(text(), "base64,"), ")") ) != 1708 or contains(substring-after(text(), "base64,"), "AAAAUI" ) and string-length( substring-before(substring-after(text(), "base64,"), ")") ) != 1720 or contains(substring-after(text(), "base64,"), "AAAAUM" ) and string-length( substring-before(substring-after(text(), "base64,"), ")") ) != 1724 or contains(substring-after(text(), "base64,"), "AAAAUO" ) and string-length( substring-before(substring-after(text(), "base64,"), ")") ) != 1728]' '/sans-serif;}.(.*) \\[aria/';
 ebay.*#$#hide-if-svg-contains /[\u061C\u2060-\u2069]/ 'ul > li' 'ul > li b[aria-labelledby]' '-position-threshold:10'; hide-if-svg-contains /[sS\u0455\u0405$5](?:.{0,15}.){6,8}.{0,15}[dD\u0500\u0501éÉ]/ 'ul > li' 'ul > li b[aria-labelledby]' '-position-threshold:10';
-ebay.*#$#hide-if-matches-xpath './/script[contains(text(),"SRP")]' '' 'load'; hide-if-contains-visible-text /(Sponsored|Anzeige|Sponsorisé|Commandité|Sponsorizzato|Sponsorowane|Gesponsord|Patrocinado)/ 'script[style]~ div.srp-main ul > li[data-viewport]' 'script[style]~ div.srp-main ul > li[data-viewport] *[aria-hidden]'
 ! #RM-13
 www.booking.com#$#hide-if-contains-visible-text /Ad|Annonce|Annonse|Annons|Annuncio|Anunci|Anuncio|Anúncio|Anzeige|Iklan|Kostað|Mainos|Oglas|Promovată|Publicidad|Publicité|Quảng|Reklaam|Reklam|Reklama|Reklám|Reklāma|Διαφήμιση|[Рр]еклама|إعلان|광고|広告|付费推广|贊助|מודעה|विज्ञापन|โฆษณา/ 'div+div[data-testid^="property-card"]' 'span[tabindex] span'
 ! #Pkgs
