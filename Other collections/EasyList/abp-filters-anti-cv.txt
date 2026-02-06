@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: akamwXDPG7BZNLqqZqwbYg
-! Version: 202602061121
+! Checksum: l1BRvKj/ToVA+xhmgRyd8A
+! Version: 202602061241
 ! Title: ABP filters
-! Last modified: 06 Feb 2026 11:21 UTC
+! Last modified: 06 Feb 2026 12:41 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -33,6 +33,8 @@ topcinema.*#$#abort-current-inline-script document.createElement delete window
 ! #CV-754
 akwam.*,akoam.*,gateanime.com#$#abort-on-property-read String.fromCharCode
 ! *** abp-filters-anti-cv:bulgarian.txt ***
+! MISC
+filmifen.com#$#bort-on-property-write window.open; prevent-listener DOMContentLoaded href;
 ! *** abp-filters-anti-cv:chinese.txt ***
 ! #CV-767
 ipv6.baidu.com,xueshu.baidu.com,www.baidu.com,www1.baidu.com#$#hide-if-contains 广告 .c-container '.f13 > .m'; hide-if-contains 广告 #content_right>[class] span[data-tuiguang]
@@ -1304,6 +1306,7 @@ aagmaal.*#$#hide-if-matches-xpath './/a[@target][@rel="noopener"]/parent::div/an
 uncutprime.com#$#hide-if-matches-xpath './/a[contains(@href,"pornzen") or contains(@href,"PornZen")]/ancestor::div[starts-with(@class,"happy-footer")]'
 dopebox.*#$#abort-on-property-write window.top.postMessage; abort-current-inline-script document.documentElement break;case $.
 bigfuck.tv,leslez.com#$#hide-if-matches-xpath './/a[contains(@href,"wolf-327b.com") or contains(@href,"trustpielote.com")]/parent::div[1]'
+paperio.*#$#override-property-read checktimeForAds falseFunc;
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
@@ -2438,7 +2441,9 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||caromedlusk.com^
 ||cashooshut.com^
 ||cayosunhairs.com^
+||ccfigtpmeaqnq.website^
 ||chambulwacs.com^
+||cheaplyhumiliatedhunt.com^
 ||chivwtusseh.com^
 ||closishcool.com^
 ||coateebyth.com^
@@ -2713,6 +2718,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||shanksmagh.com^
 ||shboshbok.com^
 ||shovelsbezzled.com^
+||shingonannates.com^
 ||shrewkabonga.com^
 ||shumackeels.com^
 ||skewlycrepy.com^
