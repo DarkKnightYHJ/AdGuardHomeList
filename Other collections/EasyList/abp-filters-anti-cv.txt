@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: AXsdlljlP0Mx5/LCup2Xfw
-! Version: 202602102031
+! Checksum: EFYprnwI0BkB/lTkSzvKhQ
+! Version: 202602102131
 ! Title: ABP filters
-! Last modified: 10 Feb 2026 20:31 UTC
+! Last modified: 10 Feb 2026 21:31 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -34,7 +34,7 @@ topcinema.*#$#abort-current-inline-script document.createElement delete window
 akwam.*,akoam.*,gateanime.com#$#abort-on-property-read String.fromCharCode
 ! *** abp-filters-anti-cv:bulgarian.txt ***
 ! MISC
-filmifen.com#$#bort-on-property-write window.open; prevent-listener DOMContentLoaded href;
+filmifen.com#$#abort-on-property-write window.open; prevent-listener DOMContentLoaded href;
 ! *** abp-filters-anti-cv:chinese.txt ***
 ! #CV-767
 ipv6.baidu.com,xueshu.baidu.com,www.baidu.com,www1.baidu.com#$#hide-if-contains 广告 .c-container '.f13 > .m'; hide-if-contains 广告 #content_right>[class] span[data-tuiguang]
