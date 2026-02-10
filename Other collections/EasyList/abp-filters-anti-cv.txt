@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: YdqNZ2Ab1S3RJtWaVvBq2w
-! Version: 202602101441
+! Checksum: 6wBi4i53/eJogPMItvJhNg
+! Version: 202602101551
 ! Title: ABP filters
-! Last modified: 10 Feb 2026 14:41 UTC
+! Last modified: 10 Feb 2026 15:51 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1981,10 +1981,7 @@ riverrunbookstore.com#$#abort-current-inline-script jQuery open
 vuetips.com,motchilll.ac,onflix.me#$#prevent-listener click ads
 www.asu.baby#$#abort-on-property-read initialAdURLs
 thaizabbbyging.co.uk#$#abort-current-inline-script window.addEventListener Ads
-cap3.life#$#prevent-listener click setTimeout
-cap3.life#$#prevent-listener click d .art-control-fullscreen
-cap3.life#$#prevent-listener fullscreenchange e.target
-cap3.life#$#prevent-listener click e.target
+cap3.life#$#prevent-listener click /setTimeout|e\.target/; prevent-listener click d .art-control-fullscreen; prevent-listener fullscreenchange e.target;
 ! *** abp-filters-anti-cv:RM.txt ***
 ! #RM-1
 tripadvisor.com#$#hide-if-matches-xpath './/a[contains(text(),"Sponsored")][@target="_blank"]/parent::div/ancestor::div[@class][2]'
