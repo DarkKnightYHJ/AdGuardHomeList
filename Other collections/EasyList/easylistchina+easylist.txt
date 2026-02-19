@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4MTEQM0k7YDK1hTD62uWaA
-! Version: 202602191431
+! Checksum: F/b1NDh7JDmgIbA2s6IXSw
+! Version: 202602191541
 ! Title: EasyList China+EasyList
-! Last modified: 19 Feb 2026 14:31 UTC
+! Last modified: 19 Feb 2026 15:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -19818,6 +19818,8 @@ _reklama_$domain=~youtube.com
 ||cacheserve.*/promodisplay/
 ||cacheserve.*/promodisplay?
 ||online.*/promoredirect?key=
+! univresalP popup/redirect
+.com/smartpop/$document
 ! https://github.com/AdguardTeam/AdguardFilters/commit/934912b3e760e068a91cd6cb502096a55ab1ca16
 ! Block parked domains. Sometimes it is not immediately obvious that it is dead
 ! https://ww7.linkviet.xyz/?usid=23&utid=10895304252
@@ -20316,6 +20318,7 @@ _800x80_
 &zoneid=*&direct=$popup
 .co/ads/$popup
 .com/ads?$popup
+.com/smartpop/$popup,third-party
 .fuse-cloud.com/$popup
 .net/adx.php?$popup
 .prtrackings.com$popup
@@ -39477,6 +39480,7 @@ browsershots.org#@#.advert_area
 ||bcayuytkwglcg.site^
 ||bccqnruipevxy.website^
 ||bccvmiowktvd.com^
+||bcekwxmi8uv1v3y8e6urgv16l.rest^
 ||bcfdievadiiss.space^
 ||bcfrangpur.help^
 ||bcgwetajinklt.website^
@@ -50441,6 +50445,7 @@ browsershots.org#@#.advert_area
 ||foveolecoulomb.cyou^
 ||fovggfhnmxtgk.space^
 ||fovyoqbhjnpvr7.cfd^
+||fowentshaka.shop^
 ||fowlpwlythika.space^
 ||fowlsgum.com^
 ||fowoalroap.net^
@@ -55370,6 +55375,7 @@ browsershots.org#@#.advert_area
 ||igleebulewho.net^
 ||igloohq.com^
 ||iglugouphoaze.net^
+||ignateignatepredominanteatable.com^
 ||ignateignatetame.com^
 ||ignfyiutriw.com^
 ||igniterafzelia.qpon^
@@ -58317,6 +58323,7 @@ browsershots.org#@#.advert_area
 ||kfarfnjomuxg.com^
 ||kfbjqsqbvnmrj.site^
 ||kfbndkkbjbxkq.site^
+||kfctoydop.com^
 ||kfdlhmuxhvlbc.website^
 ||kfeiovrksdezl.online^
 ||kfesymenamzyz.online^
@@ -61848,6 +61855,7 @@ browsershots.org#@#.advert_area
 ||menisongreaser.qpon^
 ||menkindhamauls.cyou^
 ||mensalagapai.qpon^
+||mensedphotic.cfd^
 ||mentallyissue.com^
 ||mentaryrewet.qpon^
 ||mentionbounceclimate.com^
@@ -63456,6 +63464,7 @@ browsershots.org#@#.advert_area
 ||n7wrq5mv2g4gj4.rest^
 ||n91hg.com^
 ||n98ekbp8kyqx52r7or2n5iwcjt.cfd^
+||n9pw8z8rb6t34179vq43z57cp1zi.cfd^
 ||n9s74npl.de^
 ||naacixmdxcfba.store^
 ||naamsurgedaeolia.cfd^
@@ -65811,7 +65820,6 @@ browsershots.org#@#.advert_area
 ||onegamespicshere.com^
 ||oneijnarbxrvk.space^
 ||onemboaran.com^
-||onenightfriend.com^
 ||oneojobwpbmaq.site^
 ||oneotheacon.cc^
 ||oneratecoalboxexciter.cfd^
@@ -65845,6 +65853,7 @@ browsershots.org#@#.advert_area
 ||onlineragged.com^
 ||onlinetroubledike.com^
 ||onlinneoffers.com^
+||onlthqwg.xyz^
 ||only-event.pro^
 ||onlyassigncoherence.com^
 ||onlyforyougiirl.com^
@@ -79399,6 +79408,7 @@ browsershots.org#@#.advert_area
 ||ukbltxlyrcxww.website^
 ||ukconomouswom.org^
 ||ukcxfuplkmixq.site^
+||ukdjksceidatptb.com^
 ||ukegpnsbemegy.store^
 ||ukentaspectsofc.org^
 ||ukenthascaptureu.com^
@@ -85214,6 +85224,7 @@ browsershots.org#@#.advert_area
 ||ywisyocks.com^
 ||ywjkuslteoiyt.site^
 ||ywjvjschozjzq.online^
+||ywkjptehnjlwt.space^
 ||ywlkcbmjagqkm.site^
 ||ywlkeeedaayuf.space^
 ||ywoiznxuqsoiy.space^
@@ -85555,6 +85566,7 @@ browsershots.org#@#.advert_area
 ||zfzgznmppocpu.site^
 ||zfziwjgxrorda.website^
 ||zgannmebawpes.online^
+||zgaxadxsycppa.website^
 ||zgcsyhtcwozaw.site^
 ||zgfubuaenxdzl.site^
 ||zgfyftltnhkgs.website^
@@ -86137,6 +86149,7 @@ browsershots.org#@#.advert_area
 ||zymoticbleu.cyou^
 ||zynewaylxyxex.buzz^
 ||zynnrgeptfjhg.online^
+||zypdunyryonff.online^
 ||zypenetwork.com^
 ||zysjkaffgdzaz.website^
 ||zyusywfejzbya.fun^
