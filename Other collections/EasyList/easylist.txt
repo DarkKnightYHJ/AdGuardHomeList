@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603010709
+! Version: 202603010825
 ! Title: EasyList
-! Last modified: 01 Mar 2026 07:09 UTC
+! Last modified: 01 Mar 2026 08:25 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 5d56e7478e071ec4fcca09e9ca816cf323c9d903
+! Commit: 6aac1a19d612d8a3e8a4eaa224ed3cdeae4afb1b
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -14617,6 +14617,9 @@ _800x80_
 ##span[id^="ezoic-pub-ad-placeholder-"]
 ##topadblock
 ##zeus-ad
+! various popups
+###modal[doskip][prclck]
+##in-page-message[doskip]
 ! katv.com/cbs12.com/abergavennychronicle.com/tenby-today.co.uk
 ##.DisplayAd_Native__XCll3
 ##.MPUstyled__MPUWrapper-sc-100o0l7-0
@@ -23453,6 +23456,7 @@ browsershots.org#@#.advert_area
 ||cdiyzfawrobzi.space^
 ||cdjeuxtnufsha.space^
 ||cdkxlueviaxry.com^
+||cdlfzyukmnvtu.site^
 ||cdmxgkjxfwpww.online^
 ||cdn-adtech.com^
 ||cdn-adtrue.com^
@@ -24966,6 +24970,7 @@ browsershots.org#@#.advert_area
 ||confinementroguerecital.com^
 ||confirmationbiscuitdescriptive.com^
 ||conflabbegan.com^
+||conformityexpertgrounds.com^
 ||confrontation2.fun^
 ||confrontationdrunk.com^
 ||confrontationquizmastertrifle.com^
@@ -27547,6 +27552,7 @@ browsershots.org#@#.advert_area
 ||djxejkswghqlq.site^
 ||djxh1.com^
 ||djxtphppxkzkx.website^
+||dkcarxqotiviv.website^
 ||dkcbuqudvsbkb.site^
 ||dkdeelybfxooo.website^
 ||dkdnqhyoapq.com^
@@ -35958,6 +35964,7 @@ browsershots.org#@#.advert_area
 ||hknqnedmychml.online^
 ||hknztzqlkjzhc.space^
 ||hkpjnieraypcn.site^
+||hkrshvakrvcvc.website^
 ||hkrxmmyfysvyf.site^
 ||hksjllpkpesxb.site^
 ||hksklwfpqhdmb.website^
@@ -36515,6 +36522,7 @@ browsershots.org#@#.advert_area
 ||hszitmwllttjk.space^
 ||htajztellrgmu.space^
 ||htaospdsuqiwm.online^
+||htcgcwfh.xyz^
 ||htcwyzu.bar^
 ||htdixisbyvulc.store^
 ||htdvt.com^
@@ -38436,6 +38444,7 @@ browsershots.org#@#.advert_area
 ||ivcsmrt.com^
 ||ivcymdknugpjt.site^
 ||ivdwjeibgjyvyj.com^
+||ivfisudhru.com^
 ||ivgjsutqwoehq.online^
 ||ivhuajmjwjuru.website^
 ||ivioukpnweuhr.space^
@@ -40071,6 +40080,7 @@ browsershots.org#@#.advert_area
 ||kbe4ugg1vkb7w9.cyou^
 ||kbex72oiu2ycl1c3.cfd^
 ||kbfizeskyyfkt.store^
+||kbfsrlnmhtgas.space^
 ||kbfsvytxe.com^
 ||kbhgnyiogmrcl.store^
 ||kbhskcsiawspn.store^
@@ -44096,6 +44106,7 @@ browsershots.org#@#.advert_area
 ||mettend-hamous.xyz^
 ||metumpsidles.cfd^
 ||meultomhbkptq.store^
+||meuxdcfzpyipb.space^
 ||mewardboaedontripal.cyou^
 ||mewgzllnsp.com^
 ||mewiththeb.com^
@@ -50474,6 +50485,7 @@ browsershots.org#@#.advert_area
 ||pkwjdpjwfbzty.space^
 ||pkwnjhfomfpok.online^
 ||pkyeditdzyscv.space^
+||pkykiobhm.com^
 ||pkyrdvdcsuiua.site^
 ||pkzxulxtgggxz.space^
 ||placardimmute.qpon^
@@ -87258,6 +87270,7 @@ cnet.com##.c-avLazyStickyVideo
 cnet.com##.c-shortcodeVideo_wrap
 stuff.tv##.c-squirrel-embed
 cartoonbrew.com##.cb-ad
+iphoneincanada.ca##.cls-video-container-9GFn3u0f
 rd.com,tasteofhome.com##.cnx-inline-player-wrapper
 dailymail.co.uk##.commercial-player
 techwalla.com##.component-article-section-jwplayer-wrapper
