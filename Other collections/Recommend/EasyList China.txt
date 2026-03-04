@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gq58mS9AzKE94HgajJCrPA
-! Version: 202603040821
+! Checksum: XiUpsOjtpYEjuCkrLb8ExA
+! Version: 202603040931
 ! Title: EasyList China
-! Last modified: 04 Mar 2026 08:21 UTC
+! Last modified: 04 Mar 2026 09:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -10755,8 +10755,10 @@ meijutt.*/js/pcjs/
 ||wnacg.com/game/
 ||thjfcs.cn/hc237/uploads/default/other/2025-12-10/81a0f876800ea81616864d841f102ef4.
 ||bad.news/scripts?
+||gliacloud.com^$domain=thisiscm.com
 !------------------------Specific element hiding rules------------------------!
 zhihu.com##.Pc-word-new
+novel543.com,thisiscm.com##.gadBlock
 creaders.net##.m-y[width="1024"]
 mgsfhw.com,mgsgirls.com##.widget_media_image
 mgsfhw.com,mgsgirls.com##.affs
@@ -17212,9 +17214,9 @@ guailie.com#@#.google-ad
 !#7
 !#8
 !#91porny.com
-xinhua110.com,91porny.org,jstv600.com##.footer + .block
-xinhua110.com,91porny.org,jstv600.com#?#.card:-abp-has(>.card-image>a[href^="http"])
-xinhua110.com,91porny.org,jstv600.com###main > div[id^="rd"]
+xinhua348.com,xinhua110.com,91porny.org,jstv600.com##.footer + .block
+xinhua348.com,xinhua110.com,91porny.org,jstv600.com#?#.card:-abp-has(>.card-image>a[href^="http"])
+xinhua348.com,xinhua110.com,91porny.org,jstv600.com###main > div[id^="rd"]
 !
 ###playerJsvLayer.jsv-layer
 91porny.com##.container-fluid.p-0[class*="mb-"]
