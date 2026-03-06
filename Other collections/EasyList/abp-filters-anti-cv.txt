@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 8hfeF1dCEOTX0cWcfLmIAA
-! Version: 202603061721
+! Checksum: ivyxFBTK6tr3b+YadtJ+9Q
+! Version: 202603061831
 ! Title: ABP filters
-! Last modified: 06 Mar 2026 17:21 UTC
+! Last modified: 06 Mar 2026 18:31 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -29,7 +29,7 @@ actionz.tv,cimaclub.com,cimaclub.in,elmstba.com,hawak.net,lodynet.*#$#abort-on-p
 egy.*,egybest.*,egybest2.*,iegy.*#$#abort-on-property-read open
 akhbara24.news,anime4up.*,arabseed.*,asia2tv.*,cima-club.*,cima4u.*,cimalina.*,egy-live.online,egynow.*,faselhd.*,hawak.net,iegybest.co,lodynet.*,manga.ae,moshahda.net,movizland.online,egyanime.com,egydead.*,shahed4u.*,shaheed4u.*,shahid4uu.*,shahidd4u.*,tuktukcinema.*,witanime.com,yalla-shoot.today#$#abort-current-inline-script document.documentElement /atob|case|JSON.parse/; abort-current-inline-script String.fromCharCode /atob|break/; abort-on-property-write JSON.parse; abort-current-inline-script Math /atob|break/;
 cima-club.*#$#abort-on-property-read window.zfgstorage
-topcinema.*#$#abort-current-inline-script document.createElement delete window
+topcinema.*#$#abort-current-inline-script document.createElement 'delete window'
 ! #CV-754
 akwam.*,akoam.*,gateanime.com#$#abort-on-property-read String.fromCharCode
 ! *** abp-filters-anti-cv:bulgarian.txt ***
@@ -1041,7 +1041,7 @@ onworks.net#$#override-property-read rewarded 0;
 readcomiconline.li#$#abort-on-iframe-property-read localStorage
 boosterx.stream,dinisglows.com,flaswish.com,jkanime.*,mdfx9dc8n.net,vidsrc.*,vidfast.*,moviesapi.*,vidlink.*,primewire.*#$#abort-current-inline-script EventTarget.prototype.addEventListener delete; abort-current-inline-script JSON.parse /break;case \$/;
 coflix.*,dhtpre.com,fmovies.*,swatchseries.*,vidhidepro.com,vidply.com,watchseriestv.*,watchflix.*#$#abort-current-inline-script String.fromCharCode 2147483647
-9n8o.com,abstream.to,advertape.*,bflix.*,bigwarp.*,f16px.com,cdn1.site,cloudnestra.com,dlhd.*,dudestream2.com,freestreams-live1.*,g9r6.com,gamehub.cam,hianime.*,ico3c.com,magasavor.net,m1xdrop.net,moviesjoy.*,livecamrips.*,pkembed.*,rmaxfinishseveral.com,savefiles.com,seeflix.*,seriesonline.*,stellarthread.com,strmup.*,streamtape.*,s1p1cd.com,uqload.*,ups2up.*,vidnest.fun,vide0.net,vidup.to,vidzy.org,voe.sx,watchug.*,xpornium.net#$#abort-on-property-write window.open; abort-current-inline-script EventTarget.prototype.addEventListener delete window;
+9n8o.com,abstream.to,advertape.*,asnwish.com,bflix.*,bigwarp.*,f16px.com,cdn1.site,cloudnestra.com,dlhd.*,dudestream2.com,freestreams-live1.*,g9r6.com,gamehub.cam,hianime.*,ico3c.com,magasavor.net,m1xdrop.net,movielair.cc,moviesjoy.*,livecamrips.*,pkembed.*,rmaxfinishseveral.com,savefiles.com,seeflix.*,seriesonline.*,stellarthread.com,strmup.*,streamtape.*,s1p1cd.com,uqload.*,ups2up.*,vidnest.fun,vide0.net,vidup.to,vidzy.org,voe.sx,watchug.*,xpornium.net#$#abort-on-property-write window.open; abort-current-inline-script EventTarget.prototype.addEventListener 'delete window';
 pornproxy.*#$#abort-current-inline-script document.createElement /script/; abort-on-property-write PopCookieTimeout; abort-on-property-read PopURL
 sexvid.*#$#abort-on-property-read atob; abort-current-inline-script document.write /promo/; override-property-read window.diptr undefined; abort-on-property-read window.pu; abort-current-inline-script document.write iframe;
 gogoanimes.*,bigclatterhomesguideservice.com,dramacool.sr,hltv.org,japscan.me,maxfinishseveral.com,movies-watch.com.pk,nosteam.ro,readcomiconline.li,reputationsheriffkennethsand.com,root-nation.com,soap2day.*,solarmovie.*,toongod.com,watchseriestv.*,yomovies.*#$#abort-on-property-read window.open
@@ -1118,7 +1118,7 @@ clicknupload.co,clicknupload.link,clicknupload.org,clicknupload.to#$#abort-curre
 tubesafari.com,youdbox.com#$#abort-on-property-read encodeURIComponent
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.*#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
 fmovies.*,hurawatch.cc,theflixer.*#$#abort-on-property-read window.zfgstorage
-bf0skv.org,dopebox.to,movies2watch.tv,fmovies.*,theflixertv.*,luluvid.com#$#abort-current-inline-script document.createElement delete window
+bf0skv.org,dopebox.to,movies2watch.tv,fmovies.*,theflixertv.*,luluvid.com#$#abort-current-inline-script document.createElement 'delete window'
 movies2watch.tv#$#abort-current-inline-script document.createElement DOMTokenList;
 omegascans.org#$#abort-on-property-read window.__adFormats
 liveru.sx#$#abort-on-property-read window.b5bb198737
@@ -1235,7 +1235,7 @@ pussyspace.com,pussyspace.net#$#prevent-listener loadex; prevent-listener exoJsP
 tgx.rs,torrentgalaxy.*#$#hide-if-matches-xpath './/img[@data-src="bin"]/preceding::a[@onmouseout="#"]/ancestor-or-self::div[@id="stopad"]'
 ||footfetishvid.com/*/*.php^$domain=footfetishvid.com
 ||*.com/*fbeea*.js^$domain=footfetishvid.com
-alions.pro,hgcloud.to,audinifer.com,hanerix.com##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"]
+asnwish.com,alions.pro,hgcloud.to,audinifer.com,hanerix.com##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"]
 justwatch.com#$#hide-if-matches-xpath './/div[contains(@class,"ad-pill")]/div[contains(@aria-label,"advertisement")]/p[text()]/ancestor::div[starts-with(@class,"title-list-grid__item sponsored-recommendation")]'
 247spades.com,247solitaire.com#$#override-property-read games247.ads.loadBanner300x250 undefined
 ||*.6ec7e42994.com/*.js^$script,domain=lscomic.com
@@ -1336,6 +1336,7 @@ akazukinbtc.thefap.net#$#abort-current-inline-script EventTarget.prototype.addEv
 kickasstorrents.*#$#abort-on-property-write ospen
 egydead.*#$#abort-current-inline-script Promise JSON.parse
 hltv.org#$#hide-if-matches-xpath '//img[contains(@class,"day-only") or contains(@class, "night-only")][@loading="lazy"]/ancestor::a[@rel]/parent::div[@id]'
+asnwish.com,movielair.cc#$#abort-current-inline-script document.createElement __directlink; abort-current-inline-script document.createElement /blocked\.html/
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
@@ -1863,11 +1864,11 @@ cuevana.*,cuevana3.*,cuevana4.*#$#hide-if-matches-xpath './/a[contains(@rel,"spo
 ||filemoon.sx/ad.js^$domain=cuevana.biz|cuevana3.eu|cuevana3me.net|cuevana4.me
 hispasexy.org#$#hide-if-matches-xpath './/div[@data-element="overlay"]/div[@data-element][@data-izone]/parent::div[1]'
 ||animeflv.net/*/ads.js^$domain=animeflv.net
-animeflv.net#$#abort-current-inline-script globalThis /break|case/; abort-current-inline-script EventTarget.prototype.addEventListener delete window;
+animeflv.net#$#abort-current-inline-script globalThis /break|case/; abort-current-inline-script EventTarget.prototype.addEventListener 'delete window';
 animeflv.net##iframe[style="position: fixed; width: 100%; height: 100%; inset: 0px; opacity: 0; z-index: 2147483647;"]
 ||e95da74cd9.*.js^$domain=animefenix.tv
 somoskudasai.com#$#hide-if-matches-xpath '//div[contains(@class,"text-end ")][contains(text(),"ADS")]'; hide-if-matches-xpath '//img/ancestor-or-self::div[contains(@id,"AADIV")][1]'
-saohgdasregions.fun#$#abort-current-inline-script document.createElement delete window;
+saohgdasregions.fun#$#abort-current-inline-script document.createElement 'delete window';
 ! Popup/Popunder
 gamestorrents.com,gamestorrents.nu#$#abort-on-property-read open
 gnula.nu,xpaja.net#$#abort-current-inline-script String.fromCharCode /atob|btoa|break/
@@ -2246,7 +2247,6 @@ target.com#$#hide-if-contains /Sponsored/ 'li[class]' 'div[style] div[data-test=
 olx.*#?#div:-abp-has(> div:-abp-has(> div:-abp-has(> a div:-abp-has(> div:-abp-properties(/content: "Wyróżnione";|"TOP";|"ТОП";|"PROMOVAT";|"Промотирана обява";/)))))
 olx.*#$#hide-if-matches-xpath '//div[text()="Wyróżnione" or text()="TOP" or text()="ТОП" or text()="PROMOVAT" or text()="Промотирана обява"]/ancestor::div[@data-testid="l-card"][1]'
 olx.com.br#$#hide-if-matches-xpath './/div[.="Destaque"][@aria-label]/ancestor::section[1]'; hide-if-matches-xpath './/span[.="DESTAQUE" or .="Destaque" or .="Impulsionado"]/ancestor::section[1]';
-olx.*#$#hide-if-canvas-contains /(WYRÓŻNIONE)|(TOP)|(PROMOVAT)|(ПРОМОТИРАНА)/ 'div[id]' 'div>canvas[style]'
 olx.com.br#$#hide-if-matches-xpath './/h2[contains(text(),"Você pode gostar")][.//following::picture/following-sibling::div[@data-ds-component="AdBadge"][text()="Destaque"]/ancestor::section[1]/ancestor::div[@class="olx-core-carousel"]]/ancestor::div[contains(@class,"flex-col wrapper___")]'
 ! pp & ph
 olx.com.br#$#hide-if-matches-xpath './/p[.="publicidade"]/parent::div[@data-testid="advertising-placeholder" or contains(@class,"ad__")]/parent::div'
@@ -2271,7 +2271,6 @@ tokopedia.com#$#hide-if-contains /^Ad$/ 'div[class$="carousel"]>div[class][style
 ! #RM-176
 ! sp
 aboutyou.*#$#hide-if-matches-xpath './/a[@data-product-tile-gallery-mode-hover]/following::button/span[@class][@style]/ancestor::li[contains(@data-testid,"productTileTracker")]'
-aboutyou.*#$#hide-if-canvas-contains /(Sponsored|Gesponsert|Gesponsord|Спонсорирано|Sponsoreret|Sponsoreeritud|Χορηγούμενο|Patrocinado|Sponzorirano|Sponsoroitu|Szponzorált|Sponsorisé|Sponsorizzato|Sponsorēts|Remiama|Sponsorowane|Sponzorováno|Sponzorované|Sponsorizat)/ 'li[data-testid*="productTileTracker"]' 'button[class^="w1app11q"][tabindex="-1"]'
 ! pp
 aboutyou.*#$#hide-if-matches-xpath './/span[@data-testid][contains(text(),"Sponsored") or contains(text(),"Gesponsert") or contains(text(),"Gesponsord") or contains(text(),"Спонсорирано") or contains(text(),"Sponsoreret") or contains(text(),"Sponsoreeritud") or contains(text(),"Χορηγούμενο") or contains(text(),"Patrocinado") or contains(text(),"Sponzorirano") or contains(text(),"Sponsoroitu") or contains(text(),"Szponzorált") or contains(text(),"Sponsorisé") or contains(text(),"Sponsorizzato") or contains(text(),"Sponsorēts") or contains(text(),"Remiama") or contains(text(),"Sponsorowane") or contains(text(),"Sponzorováno") or contains(text(),"Sponzorované") or contains(text(),"Sponsorizat")]/ancestor::section[@style][@data-testid][1]'
 ! #RM-180
