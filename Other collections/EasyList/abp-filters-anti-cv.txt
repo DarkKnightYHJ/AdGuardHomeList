@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: ivyxFBTK6tr3b+YadtJ+9Q
-! Version: 202603061831
+! Checksum: /8PSL6Uv+40M9Zswk5kcbw
+! Version: 202603061921
 ! Title: ABP filters
-! Last modified: 06 Mar 2026 18:31 UTC
+! Last modified: 06 Mar 2026 19:21 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -42,7 +42,7 @@ ipv6.baidu.com,xueshu.baidu.com,www.baidu.com,www1.baidu.com#$#hide-if-contains 
 baidu.com#$#hide-if-contains 广告 #content_right>div .ec-tuiguang
 baidu.com#$#hide-if-contains 广告 #content_left>div .ec-tuiguang
 ! MISC
-torrentkitty.tv#$#abort-on-property-read _fupfgk;abort-on-property-read _nyjdy
+torrentkitty.tv#$#abort-on-property-read _fupfgk; abort-on-property-read _nyjdy
 178.com,nga.cn#$#abort-on-property-write __LOAD_BBS_ADS_12
 cn.bing.com#$#hide-if-contains 360 #b_results>li .b_adProvider
 2345.com#$#abort-current-inline-script setDefaultTheme
@@ -1018,7 +1018,7 @@ engvideo.net,hianime.*,hollymoviehd.cc,ling-online.net,ups2up.*#$#abort-current-
 eporner.com#$#override-property-read exo99HL3903jjdxtrnLoad null; abort-on-property-read window.location.replace.getadb; cookie-remover ADBp
 freshsexvideos.com,sexvideos.rodeo,xxxvideo.link,ixxx.onl,xvideosx.one,xxxpor.org,xmxx.live#$#cookie-remover tgpOut; abort-current-inline-script document.querySelectorAll popMagic; override-property-read setTimeout noopFunc;
 porntrex.com#$#abort-on-property-write preventDefault
-lscomic.com#$#abort-on-property-read window.advanced_ads_ready;abort-on-property-write window.advanced_ads_ready_queue;
+lscomic.com#$#abort-on-property-read window.advanced_ads_ready; abort-on-property-write window.advanced_ads_ready_queue;
 aniwatchtv.*,kunmanga.com#$#abort-current-inline-script document.createElement /break|case/
 andyday-tv.lol,andydayz.*,andyday.*,freemovies.*,seriesonline.*,streamcloud.*,soaper.tv,kickassanime.*,theflixertv.*,putlocker.vip,vidco.pro#$#abort-current-inline-script document.documentElement /break;case \$/
 kickassanime.*,vidco.pro#$#override-property-read ifmax true
@@ -1552,7 +1552,7 @@ delfi.lt#$#abort-on-property-read _dlf.adxtag
 delfi.lt#$#hide-if-matches-xpath './/h3[@class]/a[@href]/ancestor::div[contains(@class,"headline pt-content ")]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@src,"dcdn.lt/images/b")]//ancestor::div[1]'; hide-if-matches-xpath './/div[@target="_blank"][@style="display: block; width: 100%; height: 100%; cursor: pointer;"]/ancestor::*[contains(@style,"/ads/adb")]';
 delfi.lt#$#hide-if-matches-xpath './/a[contains(@href,"youtube.com")]/img[@alt]/ancestor-or-self::div[@class="row"]'
 ||adform.net/banners/scripts/adx.js$domain=delfi.lt,rewrite=abp-resource:blank-js
-delfi.lt#$#hide-if-matches-xpath './/a[@href][contains(@style,"100%")]/parent::*[@style][1]'; hide-if-matches-xpath './/div[contains(text(),"Užsakomasis")]/parent::div[contains(@class,"U-display")]/ancestor::article[1]'; hide-if-matches-xpath './/*[contains(text(),"Užsakomasis")]/parent::a[starts-with(name(@*[starts-with(name(), "data-")]), "data-")]/ancestor::div[3]//parent::div/ancestor::div[@class="col"]'; './/*[contains(@class,"pt-content")]/parent::div[starts-with(name(@*[starts-with(name(), "data-")]), "data-")]';
+delfi.lt#$#hide-if-matches-xpath './/a[@href][contains(@style,"100%")]/parent::*[@style][1]'; hide-if-matches-xpath './/div[contains(text(),"Užsakomasis")]/parent::div[contains(@class,"U-display")]/ancestor::article[1]'; hide-if-matches-xpath './/*[contains(text(),"Užsakomasis")]/parent::a[starts-with(name(@*[starts-with(name(), "data-")]), "data-")]/ancestor::div[3]//parent::div/ancestor::div[@class="col"]'; hide-if-matches-xpath './/*[contains(@class,"pt-content")]/parent::*[starts-with(name(@*[starts-with(name(), "data-")]), "data-")]'; hide-if-matches-xpath './/*[contains(@class,"supported-content")]/parent::*[starts-with(name(@*[starts-with(name(), "data-")]), "data-")];
 delfi.lt#$#simulate-mouse-event 'xpath(.//*[@style]/a[contains(@href,"javascript")])$delay=10'
 ! MISC
 15min.lt#$#hide-if-matches-xpath '//div[@class][@style]/img[string-length(@src) >=180]/ancestor::div[@class][1]'
@@ -1904,7 +1904,7 @@ dtarihi.com#$#simulate-mouse-event 'xpath(.//div[@class][contains(@style,"displa
 ! *** abp-filters-anti-cv:vietnamese.txt ***
 ! MISC
 blog.abit.vn#$#simulate-mouse-event '#ads_popup .close$continue,delay=500'
-phimhdplus.com#$#json-prune ads;abort-current-inline-script setTimeout click_time
+phimhdplus.com#$#json-prune ads; abort-current-inline-script setTimeout click_time
 aoe.vn#$#abort-on-property-read parseInt
 gametv.vn#$#abort-current-inline-script $ homeModal
 tusachmanga99.com#$#abort-current-inline-script $ window.open
@@ -1916,7 +1916,7 @@ cafef.vn,gamek.vn,genk.vn,kenh14.vn,soha.vn,tuoitre.vn,afamily.vn,thanhnien.vn#$
 bongda365f.com#$#override-property-read isSkipAds true
 znews.vn#$#abort-on-property-read adtimaConfig
 baomoi.com#$#abort-on-property-write AdtimaRender
-xoilaczzlz.tv#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
+xoilaczzlz.tv#$#override-property-read adsPlayer ''; override-property-read adsTvcs ''
 kenh14.vn#$#override-property-read Constants.allowAds false
 vndoc.com#$#override-property-read seconds 0
 phimvuihd.one#$#override-property-read urlAds ''
@@ -1945,7 +1945,7 @@ truyensieuhay.com,quangcaoyenbai.com,phimchill.life,tv.tvhayhd.org,thefaplive.co
 metruyenchu.com#$#abort-on-property-write window.onclick
 ##[href^="//mage98rquewz.com/"]
 seltzerland.com#$#abort-on-property-read adsRedirectPopups
-linkneverdie.net,linkneverdie.top,linkneverdie2.com#$#abort-current-inline-script document.createElement optad;abort-on-property-read pushOnPageGala
+linkneverdie.net,linkneverdie.top,linkneverdie2.com#$#abort-current-inline-script document.createElement optad; abort-on-property-read pushOnPageGala
 sex.javnong.cc#$#abort-on-property-read Math.round
 viet69.ke,dualeotruyenky.com,yurineko.my,lauxanh9x.net,cliphot69.shop,doctruyen3qhubs.com,ihentai.network,chuyentiepanimehay.one,hentaivc.blog,streamvl.top,buomtv.media,truyenvn.shop,javtiful.com,quatvn.my,phimsexhayvn96.com,phim18hdxx.com,vn6.sexviet88.xyz,demo.14412882.com,xem.phimnung3x.pro,hhtq5.vip,sexdiary.club,vn2.xvideos69.xxx,umetruyenz.org,damconuong.city,truyenqqno.com,clipsexsub3x.net,sayhentai.vc,motphim.pokemonviet.com,lxmanga.space,phimlongtieng.net,newtruyentranh7.com,www.sieutamphim.pro,vevocloud.com,sex.xinh3x.me,sexviet88.xyz,viet69.ke,goctruyentranhvui19.com,viet69vn.at#$#abort-current-inline-script WebAssembly instantiate
 www.motchill49.com,teamlanhlung8.shop,xemphimjav.xyz#$#abort-on-property-read localStorage
@@ -1966,7 +1966,7 @@ phimtho.cc#$#abort-current-inline-script $ p0pUpRandom
 tailieumoi.vn#$#override-property-read linkAff null
 cunghocvui.com#$#abort-current-inline-script document.addEventListener opened_window_shoppe
 truyensextv.com,yanhh3d.club,z.chinav.sex#$#abort-current-inline-script document.addEventListener opup
-imail.edu.vn#$#abort-current-inline-script setTimeout Aff;abort-current-inline-script setTimeout ad_block
+imail.edu.vn#$#abort-current-inline-script setTimeout Aff; abort-current-inline-script setTimeout ad_block
 www.toptruyenss.com#$#abort-current-inline-script setTimeout open
 rophim.moe,motphimww.biz#$#abort-current-inline-script addEvent popu
 freeplayervideo.com,abysscdn.com,player-cdn.com,playhydrax.com,www.bachnguyetquang.online#$#override-property-read open noopFunc
@@ -2112,7 +2112,7 @@ ebay.*##div.-cKW.O4Nv:has(> div > div.j2R0 > span.oTB_)
 ebay.*#$#json-prune 'modules.{}.containers.[].cardContainers ADS_AND_MERCH_LIST_V2'; hide-if-matches-xpath '//div[starts-with(@class, "vim vim-ds6")]//div[@data-viewport][position() > 1]';
 ! sp
 ebay.*#$#race start; hide-if-contains-and-matches-style /Sponsored|Anzeige|Sponsorisé|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助/ 'li[data-viewport][id] div > div[aria-labelledby]' 'div > div[aria-labelledby] > div[aria-hidden="true"]' '/; filter: none/' '/color: rgb\\(0, 0, 0.*; filter: none/'; hide-if-contains-and-matches-style /Sponsored|Anzeige|Sponsorisé|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助/ 'li[data-viewport][id] div > div[aria-labelledby]' 'div > div[aria-labelledby] > div[aria-hidden="true"]' '/; filter: invert/' '/color: rgb\\(0, 0, 0.*; filter: invert/'; hide-if-contains-and-matches-style /Sponsored|Anzeige|Sponsorisé|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助/ 'li[data-viewport][id] div > div[aria-labelledby]' 'div > div[aria-labelledby] > div[aria-hidden="true"]' '/; filter: none/' '/color: rgb\\(255, 255, 255.*; filter: invert/'; hide-if-contains-and-matches-style /Sponsored|Anzeige|Sponsorisé|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助/ 'li[data-viewport][id] div > div[aria-labelledby]' 'div > div[aria-labelledby] > div[aria-hidden="true"]' '/; filter: invert/' '/color: rgb\\(255, 255, 255.*; filter: none/'; race stop;
-ebay.*#$#race start;hide-if-contains-and-matches-style /Sponsored|Anzeige|Sponsorisé|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助/ 'li div.s-item__detail div[aria-labelledby]' 'li div.s-item__detail div[aria-labelledby] > div' '/; filter: none/' '/color: rgb\\(0, 0, 0.*; filter: none/';hide-if-contains-and-matches-style /Sponsored|Anzeige|Sponsorisé|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助/ 'li div.s-item__detail div[aria-labelledby]' 'li div.s-item__detail div[aria-labelledby] > div' '/; filter: invert/' '/color: rgb\\(0, 0, 0.*; filter: invert/';hide-if-contains-and-matches-style /Sponsored|Anzeige|Sponsorisé|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助/ 'li div.s-item__detail div[aria-labelledby]' 'li div.s-item__detail div[aria-labelledby] > div' '/; filter: none/' '/color: rgb\\(255, 255, 255.*; filter: invert/';hide-if-contains-and-matches-style /Sponsored|Anzeige|Sponsorisé|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助/ 'li div.s-item__detail div[aria-labelledby]' 'li div.s-item__detail div[aria-labelledby] > div' '/; filter: invert/' '/color: rgb\\(255, 255, 255.*; filter: none/';race stop; hide-if-matches-xpath './/li//div[contains(@class,"s-item__detail")]//div[@aria-labelledby][@style]/div[text()]/ancestor::li'
+ebay.*#$#race start; hide-if-contains-and-matches-style /Sponsored|Anzeige|Sponsorisé|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助/ 'li div.s-item__detail div[aria-labelledby]' 'li div.s-item__detail div[aria-labelledby] > div' '/; filter: none/' '/color: rgb\\(0, 0, 0.*; filter: none/'; hide-if-contains-and-matches-style /Sponsored|Anzeige|Sponsorisé|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助/ 'li div.s-item__detail div[aria-labelledby]' 'li div.s-item__detail div[aria-labelledby] > div' '/; filter: invert/' '/color: rgb\\(0, 0, 0.*; filter: invert/'; hide-if-contains-and-matches-style /Sponsored|Anzeige|Sponsorisé|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助/ 'li div.s-item__detail div[aria-labelledby]' 'li div.s-item__detail div[aria-labelledby] > div' '/; filter: none/' '/color: rgb\\(255, 255, 255.*; filter: invert/'; hide-if-contains-and-matches-style /Sponsored|Anzeige|Sponsorisé|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助/ 'li div.s-item__detail div[aria-labelledby]' 'li div.s-item__detail div[aria-labelledby] > div' '/; filter: invert/' '/color: rgb\\(255, 255, 255.*; filter: none/'; race stop; hide-if-matches-xpath './/li//div[contains(@class,"s-item__detail")]//div[@aria-labelledby][@style]/div[text()]/ancestor::li'
 ebay.*#$#hide-if-matches-xpath './/span[contains(.,"Sponsored") or contains(.,"Anzeigen") or contains(.,"Sponsorisés") or contains(.,"Commandités") or contains(.,"Promocionado") or contains(.,"Gesponsord") or contains(.,"Sponsorowane") or contains(.,"Patrocinado") or contains(.,"Sponsorizzati") or contains(.,"贊助")]/ancestor::div[@data-hscroll]/parent::li[contains(@class,"ITEMS_CAROUSEL")][1]'
 ebay.*#$#hide-if-contains-visible-text /(Sponsored|Anzeige|Sponsorisé|Commandité|Sponsorizzato|Sponsorowane|Gesponsord|Patrocinado)/ 'ul.srp-results>li.s-item' 'span[data-w]' 'color: rgba(0,0,0,1)' '-ignore-padding:true' '-disable-bg-color-check: true'
 ebay.*#$#hide-if-contains-and-matches-style /Sponsored|Anzeige|Sponsorisé|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助/ li 'div.s-item__detail > span.s-item__sep > div ^^sh^^ span' /./ ' height: 20px;'
@@ -2121,7 +2121,7 @@ ebay.*#$#hide-if-contains-visible-text /(S*p*o*n*s*o*r*e*d|A*n*z*e*i*g*e|S*p*o*n
 ebay.*#$#hide-if-contains-visible-text /(Sponsored|Anzeige|Sponsorisé|Commandité|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助)/ li[data-viewport][id] 'span[class^="s-item__sep"] > div ^^sh^^ *'
 ebay.*#$#hide-if-contains-image '/(53706f6e736f726564|416e7a65696765|53706f6e736f726973c3a9|436f6d6d616e646974c3a9|53706f6e736f726f77616e65|476573706f6e736f7264|506174726f63696e61646f|53706f6e736f72697a7a61746f|e8b48ae58aa9)/' 'ul > li' 'ul > li div[aria-labelledby]'
 ebay.*#$#hide-if-has-and-matches-style 'span' 'ul > li' 'ul > li span.s-item__sep' /./ '/; width: [1-9]/'
-ebay.*#$#race start; hide-if-contains-and-matches-style /Sponsored|Anzeige|Sponsorisé|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助/ 'li[data-viewport][id] span > div[aria-labelledby]' 'span > div[aria-labelledby] > div[aria-hidden="true"]' '/; filter: none/' '/color: rgb\\(0, 0, 0.*; filter: none/'; hide-if-contains-and-matches-style /Sponsored|Anzeige|Sponsorisé|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助/ 'li[data-viewport][id] span > div[aria-labelledby]' 'span > div[aria-labelledby] > div[aria-hidden="true"]' '/; filter: invert/' '/color: rgb\\(0, 0, 0.*; filter: invert/'; hide-if-contains-and-matches-style /Sponsored|Anzeige|Sponsorisé|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助/ 'li[data-viewport][id] span > div[aria-labelledby]' 'span > div[aria-labelledby] > div[aria-hidden="true"]' '/; filter: none/' '/color: rgb\\(255, 255, 255.*; filter: invert/'; hide-if-contains-and-matches-style /Sponsored|Anzeige|Sponsorisé|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助/ 'li[data-viewport][id] span > div[aria-labelledby]' 'span > div[aria-labelledby] > div[aria-hidden="true"]' '/; filter: invert/' '/color: rgb\\(255, 255, 255.*; filter: none/'; race stop;hide-if-matches-xpath './/li//div[@class="s-card__footer--row"]//div[@aria-labelledby][@style]/ancestor::li'
+ebay.*#$#race start; hide-if-contains-and-matches-style /Sponsored|Anzeige|Sponsorisé|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助/ 'li[data-viewport][id] span > div[aria-labelledby]' 'span > div[aria-labelledby] > div[aria-hidden="true"]' '/; filter: none/' '/color: rgb\\(0, 0, 0.*; filter: none/'; hide-if-contains-and-matches-style /Sponsored|Anzeige|Sponsorisé|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助/ 'li[data-viewport][id] span > div[aria-labelledby]' 'span > div[aria-labelledby] > div[aria-hidden="true"]' '/; filter: invert/' '/color: rgb\\(0, 0, 0.*; filter: invert/'; hide-if-contains-and-matches-style /Sponsored|Anzeige|Sponsorisé|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助/ 'li[data-viewport][id] span > div[aria-labelledby]' 'span > div[aria-labelledby] > div[aria-hidden="true"]' '/; filter: none/' '/color: rgb\\(255, 255, 255.*; filter: invert/'; hide-if-contains-and-matches-style /Sponsored|Anzeige|Sponsorisé|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助/ 'li[data-viewport][id] span > div[aria-labelledby]' 'span > div[aria-labelledby] > div[aria-hidden="true"]' '/; filter: invert/' '/color: rgb\\(255, 255, 255.*; filter: none/'; race stop; hide-if-matches-xpath './/li//div[@class="s-card__footer--row"]//div[@aria-labelledby][@style]/ancestor::li'
 ebay.*#$#hide-if-svg-contains /S.*p.*o.*n.*s.*o.*r.*e.*d|A.*n.*z.*e.*i.*g.*e|S.*p.*o.*n.*s.*o.*r.*i.*s.*é|C.*o.*m.*m.*a.*n.*d.*i.*t.*é|P.*a.*t.*r.*o.*c.*i.*n.*a.*d.*o|S.*p.*o.*n.*s.*o.*r.*i.*z.*z.*a.*t.*o/ 'ul > li' 'ul > li *[aria-labelledby]'
 ebay.*#$#hide-if-contains-visible-text /(Sponsored)|(Anzeige)|(Sponsorisé)|(Commandité)|(Patrocinado)|(Sponsorizzato)/ 'ul > li' 'ul > li span[aria-labelledby]'
 ebay.com#$#hide-if-matches-xpath './/*[child::div[@id][contains(@style,"min-height")]]/child::*[(self::div[@id][contains(@style,"min-height")]) or (self::section and preceding-sibling::*[self::div[@id][contains(@style,"min-height")]] and not(preceding-sibling::*[not(self::div[@id][contains(@style,"min-height")]) and not(self::section) and following-sibling::section and preceding-sibling::div[@id][contains(@style,"min-height")]]))]'
@@ -2361,7 +2361,7 @@ www.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/d
 www.youtube.com,youtube-nocookie.com#$#event-override click trusted; simulate-mouse-event 'button.ytp-skip-ad-button.ytp-ad-component--clickable$delay=0'; simulate-mouse-event 'button.ytp-skip-ad-button$delay=0';
 www.youtube.com#$#map-override set /AD_PLACEMENT_KIND_/ '' value.kind
 www.youtube.com#$#replace-outbound-value JSON.stringify '"clientName":"WEB"' '"clientName":"WEB","clientScreen":"CHANNEL"'
-www.youtube.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adSlots emptyArray; override-property-read ytInitialPlayerResponse.adPlacements emptyArray;override-property-read ytInitialPlayerResponse.playerAds emptyArray;
+www.youtube.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adSlots emptyArray; override-property-read ytInitialPlayerResponse.adPlacements emptyArray; override-property-read ytInitialPlayerResponse.playerAds emptyArray;
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read playerResponse.adPlacements undefined;
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
 m.youtube.com#$#override-property-read ytInitialPlayerResponse.playerAds undefined;
