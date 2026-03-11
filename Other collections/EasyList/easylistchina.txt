@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 69lZGSELGqv6kCw1XbD11Q
-! Version: 202603110641
+! Checksum: 0AayHlLfWPdK8K63/i0Cvw
+! Version: 202603110731
 ! Title: EasyList China
-! Last modified: 11 Mar 2026 06:41 UTC
+! Last modified: 11 Mar 2026 07:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -10888,6 +10888,7 @@ meijutt.*/js/pcjs/
 ||cilipa.com^*0.js
 ||ttks.tw/js/otherad.
 ||*.mp4$rewrite=abp-resource:blank-mp3,domain=huavod.com
+||pan0304.com/ads.
 !------------------------Specific element hiding rules------------------------!
 zhihu.com##.Pc-word-new
 vpstop.cn##a[href*="/ClickAd"]
@@ -10902,7 +10903,8 @@ iplark.com##div[style="position: relative;"]
 cngold.org#?#.w310:-abp-has(>.swiper-company)
 cngold.org##.headCompanys
 cngold.org##.mainRight > .border_top:first-child
-ping0.cc##.myeles
+ping0.cc##.xxeles
+ping0.cc###adxright
 cngold.org##.foot_megagame
 cngold.org##.fixed_jt
 hanime1.me#?#div[style*="text-align:"]:-abp-has(>div[style*="color: white"])

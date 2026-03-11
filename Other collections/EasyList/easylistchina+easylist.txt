@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bFZus8ccI+Fn/JwbU14MdA
-! Version: 202603110641
+! Checksum: UY4XOD+RfqXt37XKI6mbcw
+! Version: 202603110731
 ! Title: EasyList China+EasyList
-! Last modified: 11 Mar 2026 06:41 UTC
+! Last modified: 11 Mar 2026 07:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -10890,6 +10890,7 @@ meijutt.*/js/pcjs/
 ||cilipa.com^*0.js
 ||ttks.tw/js/otherad.
 ||*.mp4$rewrite=abp-resource:blank-mp3,domain=huavod.com
+||pan0304.com/ads.
 !------------------------Specific element hiding rules------------------------!
 zhihu.com##.Pc-word-new
 vpstop.cn##a[href*="/ClickAd"]
@@ -10904,7 +10905,8 @@ iplark.com##div[style="position: relative;"]
 cngold.org#?#.w310:-abp-has(>.swiper-company)
 cngold.org##.headCompanys
 cngold.org##.mainRight > .border_top:first-child
-ping0.cc##.myeles
+ping0.cc##.xxeles
+ping0.cc###adxright
 cngold.org##.foot_megagame
 cngold.org##.fixed_jt
 hanime1.me#?#div[style*="text-align:"]:-abp-has(>div[style*="color: white"])
@@ -55232,6 +55234,7 @@ browsershots.org#@#.advert_area
 ||hwtzmbrsazskv.space^
 ||hwubmdahfxzku.website^
 ||hwugaspawa.com^
+||hwuhkabi.in^
 ||hwyijnwehlsrq.website^
 ||hwzuwlghfqizh.space^
 ||hxaeqktmhvawj.space^
@@ -56712,6 +56715,7 @@ browsershots.org#@#.advert_area
 ||isabellalive.cfd^
 ||isagogeidyler.cyou^
 ||isawthenews.com^
+||isazoxytimaliacrudes.cyou^
 ||isbnrs.com^
 ||isboost.co.jp^
 ||ischarct.shop^
@@ -73689,6 +73693,7 @@ browsershots.org#@#.advert_area
 ||rvhbufmwvafov.site^
 ||rvijxxhfcmjtd.space^
 ||rviqayltwu.love^
+||rvktcaqqyhuay.space^
 ||rvlcabsakhoog.space^
 ||rvmhvgrtdzjof.space^
 ||rvolkknctgbvy.site^
@@ -80231,6 +80236,7 @@ browsershots.org#@#.advert_area
 ||ujiqkgxnuzofp.site^
 ||ujjzkcqcgidfv.space^
 ||ujkvzzmbmgvdx.online^
+||ujldaumawxqqe.site^
 ||ujlqgbvetzjmf.space^
 ||ujlqnxrgbmtgg.online^
 ||ujmbkieuybw.com^
@@ -84317,6 +84323,7 @@ browsershots.org#@#.advert_area
 ||wttnezsassgeq.website^
 ||wttpwvlurczpe.rocks^
 ||wtxqkplrdszqm.space^
+||wtyhyzvsxlpeb.space^
 ||wtzqznypmadeo.store^
 ||wuaafacwszsqh.store^
 ||wubbmfsxhjtyber.com^
@@ -85063,6 +85070,7 @@ browsershots.org#@#.advert_area
 ||xqjasiudpfzsi.website^
 ||xqjfylqpjryru.space^
 ||xqkqqtzljvwaj.space^
+||xqkxhwjirgfky.com^
 ||xqkyaeyjigb.com^
 ||xqqmcnphocpku.website^
 ||xqqqpwtzcrwrj.site^
