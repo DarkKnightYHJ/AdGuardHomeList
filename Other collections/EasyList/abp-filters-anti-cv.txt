@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: C3w45PtAi7DAzfhvffapew
-! Version: 202603111251
+! Checksum: y81UBA9LlFu0l2OS+GCnBw
+! Version: 202603111351
 ! Title: ABP filters
-! Last modified: 11 Mar 2026 12:51 UTC
+! Last modified: 11 Mar 2026 13:51 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -697,6 +697,14 @@ slashdot.org#$#abort-current-inline-script Element.prototype.setAttribute /asloa
 slashdot.org#$#abort-on-property-write EventTarget.prototype.addEventListener;
 wetter.com#$#override-property-read wcomAdBlock noopFunc false
 spendwithpennies.com#$#abort-current-inline-script document.createElement /html-load/
+sallysbakingaddiction.com,natashaskitchen.com,spendwithpennies.com,tastesbetterfromscratch.com,themediterraneandish.com,thewoksoflife.com,downshiftology.com,onceuponachef.com,halfbakedharvest.com,skinnytaste.com#$#replace-xhr-response /[\s\S]*/ '' /pub_300x250/
+sallysbakingaddiction.com,natashaskitchen.com,spendwithpennies.com,tastesbetterfromscratch.com,themediterraneandish.com,thewoksoflife.com,downshiftology.com,onceuponachef.com,halfbakedharvest.com,skinnytaste.com#$#abort-on-property-read Intl.DateTimeFormat false
+@@||*/abd.js^$domain=sallysbakingaddiction.com|natashaskitchen.com|spendwithpennies.com|tastesbetterfromscratch.com|themediterraneandish.com|thewoksoflife.com|downshiftology.com|onceuponachef.com|halfbakedharvest.com|skinnytaste.com
+programme-tv.net#$#abort-current-inline-script btoa /last_bfa_at/
+programme-tv.net#$#override-property-read navigator.onLine false
+||*/loader.min.js^$script,domain=programme-tv.net
+||error-report.com/report$domain=programme-tv.net
+programme-tv.net#$#prevent-element-src-loading iframe /report\.error-report\.com/
 ! #CV-1935
 ##.jag8CityBio212023
 reddit.com##.jag8CityBio212023
