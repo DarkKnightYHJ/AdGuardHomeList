@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: Yb1FBW7obAixvI0TeJpVHg
-! Version: 202603131631
+! Checksum: PQLgzbpxy4TDeqBTnDpEUQ
+! Version: 202603131721
 ! Title: ABP filters
-! Last modified: 13 Mar 2026 16:31 UTC
+! Last modified: 13 Mar 2026 17:21 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -700,11 +700,6 @@ spendwithpennies.com#$#abort-current-inline-script document.createElement /html-
 sallysbakingaddiction.com,natashaskitchen.com,spendwithpennies.com,tastesbetterfromscratch.com,themediterraneandish.com,thewoksoflife.com,downshiftology.com,onceuponachef.com,halfbakedharvest.com,skinnytaste.com#$#replace-xhr-response /[\s\S]*/ '' /pub_300x250/
 sallysbakingaddiction.com,natashaskitchen.com,spendwithpennies.com,tastesbetterfromscratch.com,themediterraneandish.com,thewoksoflife.com,downshiftology.com,onceuponachef.com,halfbakedharvest.com,skinnytaste.com#$#abort-on-property-read Intl.DateTimeFormat false
 @@||*/abd.js^$domain=sallysbakingaddiction.com|natashaskitchen.com|spendwithpennies.com|tastesbetterfromscratch.com|themediterraneandish.com|thewoksoflife.com|downshiftology.com|onceuponachef.com|halfbakedharvest.com|skinnytaste.com
-programme-tv.net,voici.fr,femmeactuelle.fr,programme.tv,caminteresse.fr#$#prevent-element-src-loading iframe /report\.error-report\.com/
-programme-tv.net,voici.fr,femmeactuelle.fr,programme.tv,caminteresse.fr#$#abort-current-inline-script btoa /last_bfa_at/
-programme-tv.net,voici.fr,femmeactuelle.fr,programme.tv,caminteresse.fr#$#override-property-read navigator.onLine false
-||*/loader.min.js^$script,domain=programme-tv.net|voici.fr|femmeactuelle.fr|programme.tv|caminteresse.fr
-||error-report.com/report$domain=programme-tv.net|voici.fr|femmeactuelle.fr|programme.tv|caminteresse.fr
 ! #CV-1935
 ##.jag8CityBio212023
 reddit.com##.jag8CityBio212023
@@ -1772,7 +1767,6 @@ liveball.*#$#abort-on-property-read ABNS
 zab.ru#$#abort-on-property-read document.body.style
 players.com.ua#$#abort-on-property-read localStorage
 inforesist.org#$#abort-on-property-read alert
-dzen.ru,lena-miro.ru,levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru#$#hide-if-shadow-contains 'iframe'; hide-if-shadow-contains 'style'
 dzen.ru#$#override-property-read Object.prototype.adFoxParameters null
 gencit.info#$#abort-on-property-read Radish
 bb.lv#$#abort-on-property-read adjustBackground false
@@ -2723,6 +2717,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||papaneecorche.com^
 ||pcb840.com^
 ||pearcryptic.com^
+||peccantdhurna.com^
 ||perksburian.com^
 ||persinners.com^
 ||pilleustrig.com^
