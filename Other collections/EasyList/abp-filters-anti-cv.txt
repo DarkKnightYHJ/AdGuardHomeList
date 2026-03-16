@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: oJFCthR6GhNgKxB02K7QFg
-! Version: 202603161451
+! Checksum: uaLyZJZbbJ5xGmAxYiu97A
+! Version: 202603161601
 ! Title: ABP filters
-! Last modified: 16 Mar 2026 14:51 UTC
+! Last modified: 16 Mar 2026 16:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -63,7 +63,7 @@ nivod5.tv,nivod9.tv#$#override-property-read detailParams.is_ad_play false
 hdzone.org#$#abort-current-inline-script Math zfgloaded
 ! *** abp-filters-anti-cv:czech.txt ***
 ! #CV-655
-kinobox.cz,novinky.cz,fights.cz,hudebniskupiny.cz,ahaonline.cz,super.cz#$#prevent-listener beforeunload (); cookie-remover /^_?adb/;
+ahaonline.cz,fights.cz,hudebniskupiny.cz,kinobox.cz,novinky.cz,super.cz#$#prevent-listener beforeunload (); cookie-remover /^_?adb/;
 sauto.cz#$#override-property-read sssp undefined
 super.cz#$#override-property-read sspPositions null
 iprima.cz##.sas_center, .px-ad, .sas_mone, .mone_box, .ifr-passback, [data-sas_status], div[id^="sas_"], div[class^="mas_mone_"], [data-alter_area="leaderboardpremium-1"], [data-alter_area="boardbottom-1"], .ifr-masshack, .px-zone, .sas_megaboard, .ifr-classflak, [data-sas-creative], #cnn_reklama, div[class^="mas_"], ._sasia_fcid, [class^="mas"][class$="_clue"]
@@ -146,16 +146,16 @@ kinobox.cz,nasepenize.cz##a[target="_blank"]>img[class*="-click-"]
 kinobox.cz,nasepenize.cz##.sticky[stickystop]
 kinobox.cz,nasepenize.cz##[class$=" sticky"]
 kinobox.cz,nasepenize.cz##div[class$="-rightcJ"]
-kinobox.cz,nasepenize.cz,fights.cz,spisovatele.cz##.SC_TBlock
-kinobox.cz,nasepenize.cz,fights.cz##.pe-link
-kinobox.cz,nasepenize.cz,fights.cz##.wrap-advert
-kinobox.cz,nasepenize.cz,fights.cz##.quaquaquakva
-kinobox.cz,nasepenize.cz,fights.cz##[href*=";cdata="]
+fights.cz,kinobox.cz,nasepenize.cz,spisovatele.cz##.SC_TBlock
+fights.cz,kinobox.cz,nasepenize.cz##.pe-link
+fights.cz,kinobox.cz,nasepenize.cz##.wrap-advert
+fights.cz,kinobox.cz,nasepenize.cz##.quaquaquakva
+fights.cz,kinobox.cz,nasepenize.cz##[href*=";cdata="]
 fights.cz###desktop-square-top, #desktop-leader-top, .desktop-square-top, .desktop-leader-top
 fights.cz##.banner-add
 nasepenize.cz###side-offer-wrap
 nasepenize.cz#?#:-abp-has(>[class$="selfpromo"])
-kinobox.cz,nasepenize.cz,fights.cz##[id*="tmAdVideo"], [class=" pe-banner"]
+fights.cz,kinobox.cz,nasepenize.cz##[id*="tmAdVideo"], [class=" pe-banner"]
 fights.cz,spisovatele.cz##body>a[target="_blank"]
 /dynamic^$image,domain=kupi.cz
 ||super.cz/*&*=$subdocument,domain=super.cz
@@ -165,21 +165,21 @@ fights.cz,spisovatele.cz##body>a[target="_blank"]
 seznamzpravy.cz/*seznamzpravy.cz$subdocument
 seznamzpravy.cz/*ssp.js
 seznamzpravy.cz/*cmp*$script
-novinky.cz,super.cz,sport.cz,seznamzpravy.cz,kupi.cz,horoskopy.cz##[data-cy], [data-e2e-advert], a[href*="adurl="]
-novinky.cz,super.cz,sport.cz,kupi.cz##.burRman
-novinky.cz,super.cz,sport.cz,horoskopy.cz##div[data-impressionurl]
-novinky.cz,super.cz,sport.cz,seznamzpravy.cz,horoskopy.cz##.sssp-posCont, .sssp-resizeCont
-novinky.cz,super.cz,sport.cz,seznamzpravy.cz,horoskopy.cz#?#div:-abp-has(>p:-abp-contains(Reklama))
-novinky.cz,super.cz,sport.cz,seznamzpravy.cz,horoskopy.cz#$#abort-on-property-write sssp
-novinky.cz,super.cz,sport.cz,seznamzpravy.cz,kupi.cz##[data-e2e-zoneid]
-novinky.cz,super.cz,sport.cz,kupi.cz###adCommercialBackground
-novinky.cz,super.cz,sport.cz,kupi.cz##.ads
-novinky.cz,super.cz,sport.cz,kupi.cz##.Rggheysn
-novinky.cz,super.cz,sport.cz,kupi.cz##.combi__ad
-novinky.cz,super.cz,sport.cz,kupi.cz##.dynamic_Rggheysn
-novinky.cz,kupi.cz,sport.cz,super.cz##._ad_branding_container
-novinky.cz,super.cz,sport.cz,kupi.cz##iframe[data-cy-loaded]
-novinky.cz,kupi.cz,sport.cz,super.cz##.superPrclanek
+horoskopy.cz,kupi.cz,novinky.cz,seznamzpravy.cz,sport.cz,super.cz##[data-cy], [data-e2e-advert], a[href*="adurl="]
+kupi.cz,novinky.cz,sport.cz,super.cz##.burRman
+horoskopy.cz,novinky.cz,sport.cz,super.cz##div[data-impressionurl]
+horoskopy.cz,novinky.cz,seznamzpravy.cz,sport.cz,super.cz##.sssp-posCont, .sssp-resizeCont
+horoskopy.cz,novinky.cz,seznamzpravy.cz,sport.cz,super.cz#?#div:-abp-has(>p:-abp-contains(Reklama))
+horoskopy.cz,novinky.cz,seznamzpravy.cz,sport.cz,super.cz#$#abort-on-property-write sssp
+kupi.cz,novinky.cz,seznamzpravy.cz,sport.cz,super.cz##[data-e2e-zoneid]
+kupi.cz,novinky.cz,sport.cz,super.cz###adCommercialBackground
+kupi.cz,novinky.cz,sport.cz,super.cz##.ads
+kupi.cz,novinky.cz,sport.cz,super.cz##.Rggheysn
+kupi.cz,novinky.cz,sport.cz,super.cz##.combi__ad
+kupi.cz,novinky.cz,sport.cz,super.cz##.dynamic_Rggheysn
+kupi.cz,novinky.cz,sport.cz,super.cz##._ad_branding_container
+kupi.cz,novinky.cz,sport.cz,super.cz##iframe[data-cy-loaded]
+kupi.cz,novinky.cz,sport.cz,super.cz##.superPrclanek
 super.cz##.sklikReklama
 kupi.cz##[data-sssp]
 seznamzpravy.cz##article[data-dot="mol-timeline-item-advert"]
@@ -190,71 +190,71 @@ seznamzpravy.cz#$#override-property-read Object.prototype.antiAdblock.postMessag
 seznamzpravy.cz#$#override-property-read Object.prototype.aabPagePostMessageType false
 seznamzpravy.cz#$#prevent-listener message window.top
 seznamzpravy.cz#$#hide-if-contains-visible-text /Rek̃lama/ 'div[class*="g_bd"]'
-novinky.cz,kupi.cz,sport.cz,super.cz##.Aldremas, .plachta-middle
-novinky.cz,kupi.cz,sport.cz,super.cz##iframe[data-cx-loaded]
-novinky.cz,kupi.cz,sport.cz,super.cz##.plachta-overall-img
+kupi.cz,novinky.cz,sport.cz,super.cz##.Aldremas, .plachta-middle
+kupi.cz,novinky.cz,sport.cz,super.cz##iframe[data-cx-loaded]
+kupi.cz,novinky.cz,sport.cz,super.cz##.plachta-overall-img
 sport.cz##.combi_text__ad
 sport.cz##div#page > .combi
 sport.cz##div[class*="ogm-advert-static"]
 sport.cz##li[class$="ogm-timeline-advert"]
 sport.cz###adSklikUnderArticle
-novinky.cz,kupi.cz,sport.cz,super.cz##[id^="tetrahedron"], .tetrahedron
-novinky.cz,kupi.cz,sport.cz,super.cz##[data-e4e-advert], .basafoxy
-novinky.cz,kupi.cz,sport.cz,super.cz##.oktagram_image
-novinky.cz,kupi.cz,sport.cz,super.cz##.oktapoid, [id^="oktapoid"]
-novinky.cz,kupi.cz,sport.cz,super.cz##a[title="R_eklama"]
-novinky.cz,kupi.cz,sport.cz,super.cz##[data-e11i="ogm-branding-advert"], [class="combi"]
-novinky.cz,kupi.cz,sport.cz,super.cz##[class$="Flax"]
-novinky.cz,kupi.cz,sport.cz,super.cz##[id$="-ad-container"]
-novinky.cz,kupi.cz,sport.cz,super.cz###sf0
-novinky.cz,kupi.cz,sport.cz,super.cz##a[title="Rekᥣama"]
-novinky.cz,kupi.cz,sport.cz,super.cz##a[href*="__CLICKTHRU__"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[class$="ad-wrapper"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="adfibeg="]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="adcurl="]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="adblock"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="?adocurl"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="_goes_through_the_woods="]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="klik"][href*="truu"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="/bimbu?"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="adb"][href*="collocation="]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[id^="adPrClanek_"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[href*="herm"][href*="seznam"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##.ssp_top
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[href*="Seznam_"][href*="adb"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[href*="/pimpu?"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[href*="_Branding"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[href*="_leaderboard"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##iframe[frameborder="no"][scrolling="no"][style*="display: block;"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##iframe[hehehe="no"][scrolling="no"][style*="display: block;"]
+kupi.cz,novinky.cz,sport.cz,super.cz##[id^="tetrahedron"], .tetrahedron
+kupi.cz,novinky.cz,sport.cz,super.cz##[data-e4e-advert], .basafoxy
+kupi.cz,novinky.cz,sport.cz,super.cz##.oktagram_image
+kupi.cz,novinky.cz,sport.cz,super.cz##.oktapoid, [id^="oktapoid"]
+kupi.cz,novinky.cz,sport.cz,super.cz##a[title="R_eklama"]
+kupi.cz,novinky.cz,sport.cz,super.cz##[data-e11i="ogm-branding-advert"], [class="combi"]
+kupi.cz,novinky.cz,sport.cz,super.cz##[class$="Flax"]
+kupi.cz,novinky.cz,sport.cz,super.cz##[id$="-ad-container"]
+kupi.cz,novinky.cz,sport.cz,super.cz###sf0
+kupi.cz,novinky.cz,sport.cz,super.cz##a[title="Rekᥣama"]
+kupi.cz,novinky.cz,sport.cz,super.cz##a[href*="__CLICKTHRU__"]
+horoskopy.cz,kupi.cz,novinky.cz,sport.cz,super.cz##[class$="ad-wrapper"]
+horoskopy.cz,kupi.cz,novinky.cz,sport.cz,super.cz##a[href*="adfibeg="]
+horoskopy.cz,kupi.cz,novinky.cz,sport.cz,super.cz##a[href*="adcurl="]
+horoskopy.cz,kupi.cz,novinky.cz,sport.cz,super.cz##a[href*="adblock"]
+horoskopy.cz,kupi.cz,novinky.cz,sport.cz,super.cz##a[href*="?adocurl"]
+horoskopy.cz,kupi.cz,novinky.cz,sport.cz,super.cz##a[href*="_goes_through_the_woods="]
+horoskopy.cz,kupi.cz,novinky.cz,sport.cz,super.cz##a[href*="klik"][href*="truu"]
+horoskopy.cz,kupi.cz,novinky.cz,sport.cz,super.cz##a[href*="/bimbu?"]
+horoskopy.cz,kupi.cz,novinky.cz,sport.cz,super.cz##a[href*="adb"][href*="collocation="]
+horoskopy.cz,kupi.cz,novinky.cz,sport.cz,super.cz##[id^="adPrClanek_"]
+horoskopy.cz,kupi.cz,novinky.cz,sport.cz,super.cz##[href*="herm"][href*="seznam"]
+horoskopy.cz,kupi.cz,novinky.cz,sport.cz,super.cz##.ssp_top
+horoskopy.cz,kupi.cz,novinky.cz,sport.cz,super.cz##[href*="Seznam_"][href*="adb"]
+horoskopy.cz,kupi.cz,novinky.cz,sport.cz,super.cz##[href*="/pimpu?"]
+horoskopy.cz,kupi.cz,novinky.cz,sport.cz,super.cz##[href*="_Branding"]
+horoskopy.cz,kupi.cz,novinky.cz,sport.cz,super.cz##[href*="_leaderboard"]
+horoskopy.cz,kupi.cz,novinky.cz,sport.cz,super.cz##iframe[frameborder="no"][scrolling="no"][style*="display: block;"]
+horoskopy.cz,kupi.cz,novinky.cz,sport.cz,super.cz##iframe[hehehe="no"][scrolling="no"][style*="display: block;"]
 novinky.cz##a[title="Rekɭama"]
 novinky.cz##[class*="feed-item-advert"]
 novinky.cz##a[href*=";CREFURL="]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[id^="outstream_container_"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz###sznad-video-takeover
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[data-blahakvaka]
+horoskopy.cz,kupi.cz,novinky.cz,sport.cz,super.cz##[id^="outstream_container_"]
+horoskopy.cz,kupi.cz,novinky.cz,sport.cz,super.cz###sznad-video-takeover
+horoskopy.cz,kupi.cz,novinky.cz,sport.cz,super.cz##[data-blahakvaka]
 novinky.cz##a[href*="&partId="]
 novinky.cz##a[title][target="_blank"][href^="//www.novinky.cz/"]
 novinky.cz##div[style^="background-Image:"], [style^="bACkgrOund-imAge:"]
 sport.cz##iframe[frameborder][scrolling][src^="https://www.sport.cz/"]
 super.cz##iframe[frameborder][scrolling][src^="https://www.super.cz/"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##iframe[frameporder]
+horoskopy.cz,kupi.cz,novinky.cz,sport.cz,super.cz##iframe[frameporder]
 kupi.cz##iframe[frameborder][scrolling][src^="https://www.kupi.cz/"]
 kupi.cz##[class$="_ssp"], [class^="ssp_"]
 novinky.cz,sport.cz,super.cz##[class$="_main__ad"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[id^="branding-"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[data-oblohakava]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##iframe[ramefamorderx]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##._ad_branding_positioner
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="BANNER"]
-novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="ghx_content"]
+horoskopy.cz,kupi.cz,novinky.cz,sport.cz,super.cz##[id^="branding-"]
+horoskopy.cz,kupi.cz,novinky.cz,sport.cz,super.cz##[data-oblohakava]
+horoskopy.cz,kupi.cz,novinky.cz,sport.cz,super.cz##iframe[ramefamorderx]
+horoskopy.cz,kupi.cz,novinky.cz,sport.cz,super.cz##._ad_branding_positioner
+horoskopy.cz,kupi.cz,novinky.cz,sport.cz,super.cz##a[href*="BANNER"]
+horoskopy.cz,kupi.cz,novinky.cz,sport.cz,super.cz##a[href*="ghx_content"]
 novinky.cz##article[data-dot^="advert-item"]
 novinky.cz##section[role^="complementary"]
 novinky.cz##div[class*="advert-static"]
 novinky.cz##div[class*="banner-ad"]
 novinky.cz##article[class$="advert-item--default"]
 novinky.cz##img[src*="1T4PK70hS2C"]
-novinky.cz,super.cz,sport.cz##.barMan
+novinky.cz,sport.cz,super.cz##.barMan
 novinky.cz,seznamzpravy.cz,sport.cz##div[data-adtrackingtemporaryurl]
 novinky.cz,seznamzpravy.cz,sport.cz##div[style="background-color: rgb(255, 255, 255);"] > a[href][target="_blank"]
 ahaonline.czinfo.cz,onetv.cz##a[href*="verdsi="][href*="&ip="]
@@ -262,7 +262,7 @@ ahaonline.czinfo.cz,onetv.cz##[href*="&token="][target="_blank"]
 ahaonline.czinfo.cz,onetv.cz##a[href^="//api.mgid.com/"]
 ahaonline.czinfo.cz,onetv.cz##div[style*='background-image: url("https://www.']
 ahaonline.czinfo.cz,onetv.cz##.ad-skycrapper
-ahaonline.czinfo.cz,onetv.cz,kinobox.cz##[id*="Adform"]
+ahaonline.czinfo.cz,kinobox.cz,onetv.cz##[id*="Adform"]
 ahaonline.czinfo.cz,onetv.cz##div[style*="background-image"][style*="branding"]
 ahaonline.czinfo.cz,onetv.cz##.article-advertisement
 ahaonline.czinfo.cz,onetv.cz##div[id^="cnc-"][class^="cnc-"]
@@ -278,8 +278,8 @@ ahaonline.cz,info.cz,kinobox.cz,kupi.cz,nasepenize.cz,onetv.cz##a.tracked-event[
 ahaonline.cz,info.cz,kinobox.cz,kupi.cz,nasepenize.cz,novinky.cz,onetv.cz,sport.cz,super.cz###ads-leader, #ads-leader-board
 ahaonline.cz,info.cz,kinobox.cz,kupi.cz,nasepenize.cz,novinky.cz,onetv.cz,sport.cz,super.cz##.foto-iframe-ads
 ahaonline.czinfo.cz,onetv.cz#?#div:-abp-has(>small:-abp-contains(Reklama))
-ahaonline.czinfo.cz,onetv.cz,novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz,kinobox.cz,nasepenize.cz,fights.cz##a[href*="?adurl="]
-ahaonline.czinfo.cz,onetv.cz,novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz,kinobox.cz,nasepenize.cz,fights.cz##a[href*="mondor_hopToSeti"]
+ahaonline.czinfo.cz,fights.cz,horoskopy.cz,kinobox.cz,kupi.cz,nasepenize.cz,novinky.cz,onetv.cz,sport.cz,super.cz##a[href*="?adurl="]
+ahaonline.czinfo.cz,fights.cz,horoskopy.cz,kinobox.cz,kupi.cz,nasepenize.cz,novinky.cz,onetv.cz,sport.cz,super.cz##a[href*="mondor_hopToSeti"]
 ||d49-a.sdn.cz^$image,domain=ahaonline.cz|info.cz|iprima.cz|kinobox.cz|kupi.cz|lidovky.cz|nasepenize.cz|novinky.cz|onetv.cz|sport.cz|super.cz
 ||userscontent.com^$image,domain=ahaonline.cz|info.cz|iprima.cz|kinobox.cz|kupi.cz|lidovky.cz|nasepenize.cz|novinky.cz|onetv.cz|sport.cz|super.cz
 horoskopy.cz,seznamzpravy.cz#$#hide-if-matches-xpath '//iframe[@src][@id]/parent::div[@class]/ancestor-or-self::div[@class][1][not(starts-with(@class,"twitter"))]'
@@ -326,7 +326,7 @@ miniplayer/safety=^$xmlhttprequest,domain=ahaonline.cz|info.cz|onetv.cz
 hlouhopAes=no5$xmlhttprequest,domain=ahaonline.cz|info.cz|onetv.cz
 /ledo2vnyce=$xmlhttprequest,domain=ahaonline.cz|info.cz|onetv.cz
 /doubleclick_dmm^*/file.mp4$media,domain=ahaonline.cz|info.cz|onetv.cz|iprima.cz
-novinky.cz,super.cz,sport.cz##[class*="ClickThrough"]
+novinky.cz,sport.cz,super.cz##[class*="ClickThrough"]
 preroll$xmlhttprequest,domain=iprima.cz
 midroll$xmlhttprequest,domain=iprima.cz
 postroll$xmlhttprequest,domain=iprima.cz
@@ -381,40 +381,40 @@ centrum.cz##div[class^="sasic-ad"]
 centrum.sk#$#hide-if-matches-xpath '//div[text()="Reklama"]/ancestor-or-self::div[contains(@class,"ReklamnyBox_")]'
 zoznam.sk#$#hide-if-matches-xpath './/div[contains(text(),"Reklama")]/preceding-sibling::div[@class][2]/ancestor::*[3]'
 zoznam.sk#$#hide-if-matches-xpath './/div[@class]/iframe[@id][@title][string-length(@src) > 90]/ancestor::div[1]'
-info.cz,lupa.cz,hnonline.sk#$#abort-current-inline-script Math.random adb
-expres.cz,tiscali.cz,osobnosti.cz#$#prevent-listener beforeunload (); cookie-remover /^_?adb/;
+hnonline.sk,info.cz,lupa.cz#$#abort-current-inline-script Math.random adb
+expres.cz,osobnosti.cz,tiscali.cz#$#prevent-listener beforeunload (); cookie-remover /^_?adb/;
 blesk.cz,expres.cz#$#cookie-remover /^adb$|adb\.key|^[a-z]{5,11}$/
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz##.inserted_rtb
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz##[id^="ad-"]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz##[data-track-ad]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz##leaderBoard
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz##.movingAd
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz###brandingCreativeWrapper
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz##[data-google-container-id], .is_stuck
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz##a[href*=";adfibeg="]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz#?#div:-abp-has(>[class$="selfpromo"])
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz##[class^="stickyContentBottom_"]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz##.ad__in
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz##.ad-skywrapper
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz##iframe[id^="iframeWrapper-"]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz##[class^="ad "]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz##a[href*="Banner"]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz##a[href*="pubsrcid="]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz##.ads
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz##a[href*="banner"]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz##.sticky-content
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz##.SC_TBlock
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz###leader_board
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz##.ad-skyscrapper
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz###Moitor-1
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz##div[style*="_banner_branding_cnc_"]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz###banner_id
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz###banner
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz###creativelink
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz##.rollWrapper
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz###ValRageBottom
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz##a[href*="branding"]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz,expres.cz#?#div:-abp-has(>a[href$="/personalizovana-reklama/"])
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##.inserted_rtb
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##[id^="ad-"]
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##[data-track-ad]
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##leaderBoard
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##.movingAd
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz###brandingCreativeWrapper
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##[data-google-container-id], .is_stuck
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##a[href*=";adfibeg="]
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz#?#div:-abp-has(>[class$="selfpromo"])
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##[class^="stickyContentBottom_"]
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##.ad__in
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##.ad-skywrapper
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##iframe[id^="iframeWrapper-"]
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##[class^="ad "]
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##a[href*="Banner"]
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##a[href*="pubsrcid="]
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##.ads
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##a[href*="banner"]
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##.sticky-content
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##.SC_TBlock
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz###leader_board
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##.ad-skyscrapper
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz###Moitor-1
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##div[style*="_banner_branding_cnc_"]
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz###banner_id
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz###banner
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz###creativelink
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##.rollWrapper
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz###ValRageBottom
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##a[href*="branding"]
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz#?#div:-abp-has(>a[href$="/personalizovana-reklama/"])
 blesk.cz##.gam-wrapper
 expres.cz##div[data-redistribute="ad"]
 /partnerJsApi/v3?previousZHashes=&hash=*&clbk=sklik$script,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|blesk.cz|dama.cz|e15.cz|mojezdravi.cz|zeny.cz|zive.cz
@@ -443,63 +443,63 @@ blesk.cz##div[class^="sticky-wrapper"]
 expres.cz##[class^="r-main"]
 expres.cz#$#hide-if-contains-visible-text /[a-zA-Z]/ '*[class][id]' span[id][data-rsize]
 dama.cz##[class*="ads-"]
-zeny.cz,auto.cz##[data-track-ad]
+auto.cz,zeny.cz##[data-track-ad]
 reflex.cz##img[title$=".cz"][src^="https://www.reflex.cz/"]
 auto.cz##.halfpageAd, [class*="wrapperH-prapper"], [class*="billboard-bottom"], img[width='970'][height="310"], [data-io-article-url] a[target='_top'], video[id^="video-"][preload="auto"][webkit-playsinline="webkit-playsinline"], [class*="ads-leader"], #KoqisAoAce
 www.blesk.cz##[class*="-wrapperf-prapper"], [class*="pikyTentBot_"], #stickyBottomRightAbsolute, [class="lol__out"], img[width='970'][height="310"], a[style*="blewid: 970px; height: 310px"], div[id*="-hor"]
 autorevue.cz##.bx-sky, .bx-rectangle-article
 maminka.cz##div[class*="bx-sky "]
 dama.cz##div[class^="sky-wrap"]
-maminka.cz,blesk.cz,reflex.cz,e15.cz##a[class*="-combined"]
+blesk.cz,e15.cz,maminka.cz,reflex.cz##a[class*="-combined"]
 blesk.cz#$#abort-current-inline-script  adbDetect; prevent-listener beforeunload (); override-property-read adBlockerFound undefined;
-tiscali.cz,osobnosti.cz,karaoketexty.cz###stickyBanner
+karaoketexty.cz,osobnosti.cz,tiscali.cz###stickyBanner
 tiscali.cz##a[target="_blank"][href*="tiscali.cz"]>img[src*="tiscali.cz"]
-tiscali.cz,osobnosti.cz,karaoketexty.cz##.btitle-right
-tiscali.cz,osobnosti.cz,karaoketexty.cz##a[href*="IdBnrP="][href*="IdCamp="]
-tiscali.cz,osobnosti.cz,karaoketexty.cz##[id^="pxBanner"]
-tiscali.cz,osobnosti.cz,karaoketexty.cz###clickLayer
+karaoketexty.cz,osobnosti.cz,tiscali.cz##.btitle-right
+karaoketexty.cz,osobnosti.cz,tiscali.cz##a[href*="IdBnrP="][href*="IdCamp="]
+karaoketexty.cz,osobnosti.cz,tiscali.cz##[id^="pxBanner"]
+karaoketexty.cz,osobnosti.cz,tiscali.cz###clickLayer
 karaoketexty.cz###stickyWrap
 karaoketexty.cz##.ad_large_square
-tiscali.cz,osobnosti.cz,karaoketexty.cz##a[target="_blank"]>img[class*="-click-"]
-tiscali.cz,osobnosti.cz,karaoketexty.cz##.sticky[stickystop]
-tiscali.cz,osobnosti.cz,karaoketexty.cz##[class$=" sticky"]
+karaoketexty.cz,osobnosti.cz,tiscali.cz##a[target="_blank"]>img[class*="-click-"]
+karaoketexty.cz,osobnosti.cz,tiscali.cz##.sticky[stickystop]
+karaoketexty.cz,osobnosti.cz,tiscali.cz##[class$=" sticky"]
 karaoketexty.cz##[class$="_rightcolumn"]
 karaoketexty.cz###sky_right_col
 osobnosti.cz##.hide-screenbot
-tiscali.cz,osobnosti.cz,karaoketexty.cz##div[class$="-rightcJ"]
-tiscali.cz,osobnosti.cz,karaoketexty.cz##.SC_TBlock
-tiscali.cz,osobnosti.cz,karaoketexty.cz##.pe-link
-tiscali.cz,osobnosti.cz,karaoketexty.cz##.wrap-advert
-tiscali.cz,osobnosti.cz,karaoketexty.cz##.quaquaquakva
-tiscali.cz,osobnosti.cz,karaoketexty.cz##[href*=";cdata="]
+karaoketexty.cz,osobnosti.cz,tiscali.cz##div[class$="-rightcJ"]
+karaoketexty.cz,osobnosti.cz,tiscali.cz##.SC_TBlock
+karaoketexty.cz,osobnosti.cz,tiscali.cz##.pe-link
+karaoketexty.cz,osobnosti.cz,tiscali.cz##.wrap-advert
+karaoketexty.cz,osobnosti.cz,tiscali.cz##.quaquaquakva
+karaoketexty.cz,osobnosti.cz,tiscali.cz##[href*=";cdata="]
 tiscali.cz##.bs-hp
 tiscali.cz###desktop-square-top, #desktop-leader-top, .desktop-square-top, .desktop-leader-top
 tiscali.cz##[class*="-ld-top"]
-tiscali.cz,osobnosti.cz,karaoketexty.cz##[id*="tmAdVideo"], [class=" pe-banner"]
+karaoketexty.cz,osobnosti.cz,tiscali.cz##[id*="tmAdVideo"], [class=" pe-banner"]
 expres.cz##.barMan
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz,expres.cz##a[href*="verdsi="][href*="&ip="]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz,expres.cz##[href*="&token="][target="_blank"]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz,expres.cz##a[href^="//api.mgid.com/"]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz##div[style*='background-image: url("https://www.']
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz##.ad-skycrapper
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz,osobnosti.cz,tiscali.cz,karaoketexty.cz##[id*="Adform"]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz##div[style*="background-image"][style*="branding"]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz##.article-advertisement
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz##div[id^="cnc-"][class^="cnc-"]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz,karaoketexty.cz##div[class$="-banner"]
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##a[href*="verdsi="][href*="&ip="]
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##[href*="&token="][target="_blank"]
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##a[href^="//api.mgid.com/"]
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##div[style*='background-image: url("https://www.']
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##.ad-skycrapper
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,karaoketexty.cz,maminka.cz,mojezdravi.cz,osobnosti.cz,reflex.cz,tiscali.cz,zeny.cz,zive.cz##[id*="Adform"]
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##div[style*="background-image"][style*="branding"]
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##.article-advertisement
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##div[id^="cnc-"][class^="cnc-"]
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,karaoketexty.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##div[class$="-banner"]
 auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,karaoketexty.cz,maminka.cz,mojezdravi.cz,osobnosti.cz,reflex.cz,tiscali.cz,zeny.cz,zive.cz##div[id$="horiz"]
 auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,karaoketexty.cz,maminka.cz,mojezdravi.cz,osobnosti.cz,reflex.cz,tiscali.cz,zeny.cz,zive.cz##iframe[src*=" javascript: window"]
 auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,karaoketexty.cz,maminka.cz,mojezdravi.cz,osobnosti.cz,reflex.cz,tiscali.cz,zeny.cz,zive.cz##.pe-banner
 auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,karaoketexty.cz,maminka.cz,mojezdravi.cz,osobnosti.cz,reflex.cz,tiscali.cz,zeny.cz,zive.cz##.advert
 auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,karaoketexty.cz,maminka.cz,mojezdravi.cz,osobnosti.cz,reflex.cz,tiscali.cz,zeny.cz,zive.cz##a[href*="?action=ppl&cid="]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz,expres.cz##div[style*="background-image: url("][style*="background-repeat: no-repeat;"]
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##div[style*="background-image: url("][style*="background-repeat: no-repeat;"]
 auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,karaoketexty.cz,maminka.cz,mojezdravi.cz,osobnosti.cz,reflex.cz,tiscali.cz,zeny.cz,zive.cz##a.tracked-event[data-tid]
 auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,karaoketexty.cz,maminka.cz,mojezdravi.cz,osobnosti.cz,reflex.cz,tiscali.cz,zeny.cz,zive.cz##a.tracked-event[href*="&tcid="]
 auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,karaoketexty.cz,maminka.cz,mojezdravi.cz,osobnosti.cz,reflex.cz,tiscali.cz,zeny.cz,zive.cz###ads-leader, #ads-leader-board
 auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,karaoketexty.cz,maminka.cz,mojezdravi.cz,osobnosti.cz,reflex.cz,tiscali.cz,zeny.cz,zive.cz##.foto-iframe-ads
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz,expres.cz#?#div:-abp-has(>small:-abp-contains(Reklama))
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz,tiscali.cz,osobnosti.cz,karaoketexty.cz##a[href*="?adurl="]
-auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz,tiscali.cz,osobnosti.cz,karaoketexty.cz##a[href*="mondor_hopToSeti"]
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz#?#div:-abp-has(>small:-abp-contains(Reklama))
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,karaoketexty.cz,maminka.cz,mojezdravi.cz,osobnosti.cz,reflex.cz,tiscali.cz,zeny.cz,zive.cz##a[href*="?adurl="]
+auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,karaoketexty.cz,maminka.cz,mojezdravi.cz,osobnosti.cz,reflex.cz,tiscali.cz,zeny.cz,zive.cz##a[href*="mondor_hopToSeti"]
 ||d49-a.sdn.cz^$image,domain=auto.cz|autorevue.cz|blesk.cz|dama.cz|e15.cz|expres.cz|karaoketexty.cz|kinobox.cz|kupi.cz|lidovky.cz|maminka.cz|mojezdravi.cz|nasepenize.cz|novinky.cz|osobnosti.cz|reflex.cz|sport.cz|super.cz|tiscali.cz|zeny.cz|zive.cz
 ||userscontent.com^$image,domain=auto.cz|autorevue.cz|blesk.cz|dama.cz|e15.cz|expres.cz|karaoketexty.cz|kinobox.cz|kupi.cz|lidovky.cz|maminka.cz|mojezdravi.cz|nasepenize.cz|novinky.cz|osobnosti.cz|reflex.cz|sport.cz|super.cz|tiscali.cz|zeny.cz|zive.cz
 karaoketexty.cz#$#hide-if-matches-xpath './/a[string-length(@href) >120][@target="_blank"]/ancestor-or-self::a[@href]'
@@ -1504,12 +1504,12 @@ xnxx-sexfilme.com#$#hide-if-matches-xpath './/span[contains(text(),"Advertisemen
 ||pushpad.xyz^$third-party,domain=xnxx-sexfilme.com
 ! *** abp-filters-anti-cv:hebrew.txt ***
 ! #CV-890
-walla.co.il,sheee.co.il##iframe[id]:not([src])[frameborder="0"][scrolling="no"]:not(#rufous-sandbox)
-walla.co.il,sheee.co.il##div[data-slot-name]
-walla.co.il,sheee.co.il##[data-google-av-flags]
-walla.co.il,sheee.co.il##[src^="https://tpc.googlesyndication.com/simgad/"]
-walla.co.il,sheee.co.il##a[on^="tap:exit-api.exit(target='landingPage',_googClickLocation="]
-walla.co.il,sheee.co.il##a[href^="https://kvdhzjfrudaxrleb."], a[href*="/m.php?ziga="]
+sheee.co.il,walla.co.il##iframe[id]:not([src])[frameborder="0"][scrolling="no"]:not(#rufous-sandbox)
+sheee.co.il,walla.co.il##div[data-slot-name]
+sheee.co.il,walla.co.il##[data-google-av-flags]
+sheee.co.il,walla.co.il##[src^="https://tpc.googlesyndication.com/simgad/"]
+sheee.co.il,walla.co.il##a[on^="tap:exit-api.exit(target='landingPage',_googClickLocation="]
+sheee.co.il,walla.co.il##a[href^="https://kvdhzjfrudaxrleb."], a[href*="/m.php?ziga="]
 ! #CV-1158
 haaretz.co.il#$#hide-if-contains-and-matches-style /Labels/ section h3[class]
 haaretz.co.il#$#hide-if-contains-and-matches-style /Labels/ section h2[class]
@@ -1568,37 +1568,37 @@ abcnyheter.no#$#hide-if-contains-visible-text /Annonsørinnhold/ 'section div>ar
 www.wp.pl#$#abort-on-property-read SlotRegistrar; abort-current-inline-script PRELOAD randvar
 dobreprogramy.pl#$#abort-on-property-read wp_adv_labels
 abczdrowie.pl#$#abort-on-property-read slot.parentElement
-autokult.pl,fotoblogia.pl,kafeteria.pl,komorkomania.pl,medycyna24.pl,smaczneblogi.pl,gadzetomania.pl#$#abort-on-property-read __wpApi
-autokult.pl,fotoblogia.pl,kafeteria.pl,komorkomania.pl,medycyna24.pl,smaczneblogi.pl,gadzetomania.pl#$#abort-current-inline-script document.getElementsByTagName slParent
-abczdrowie.pl,parenting.pl,nerwica.com,twojeip.wp.pl,echirurgia.pl#$#abort-current-inline-script document.querySelector registerSlot
+autokult.pl,fotoblogia.pl,gadzetomania.pl,kafeteria.pl,komorkomania.pl,medycyna24.pl,smaczneblogi.pl#$#abort-on-property-read __wpApi
+autokult.pl,fotoblogia.pl,gadzetomania.pl,kafeteria.pl,komorkomania.pl,medycyna24.pl,smaczneblogi.pl#$#abort-current-inline-script document.getElementsByTagName slParent
+abczdrowie.pl,echirurgia.pl,nerwica.com,parenting.pl,twojeip.wp.pl#$#abort-current-inline-script document.querySelector registerSlot
 money.pl#$#abort-current-inline-script document.querySelector querySelector
 money.pl#?#div:-abp-has(> img[src$="/bg.png"])
 finanse.wp.pl#$#abort-on-property-read prebidConfig.hbA
-gwiazdy.wp.pl,film.wp.pl,teleshow.wp.pl,wawalove.wp.pl,opinie.wp.pl,moto.wp.pl,finanse.wp.pl#$#abort-on-property-read prebidConfig.hb
+film.wp.pl,finanse.wp.pl,gwiazdy.wp.pl,moto.wp.pl,opinie.wp.pl,teleshow.wp.pl,wawalove.wp.pl#$#abort-on-property-read prebidConfig.hb
 pogoda.wp.pl#$#abort-on-property-read prebidConfig.config.floorprices
 autokult.pl#?#figure[class^="insert"]:-abp-has(var + script)
 autokult.pl#$#abort-on-property-write scriptTag
-autokult.pl,kardiolo.pl,autocentrum.pl,horoskop.wp.pl#$#abort-on-property-write rekid
+autocentrum.pl,autokult.pl,horoskop.wp.pl,kardiolo.pl#$#abort-on-property-write rekid
 dom.wp.pl,twojeip.wp.pl#$#abort-on-property-read rekid
-facet.wp.pl,ksiazki.wp.pl,tech.wp.pl,money.pl,moneyv.wp.pl#$#abort-on-property-read pbjs.bidderSettings
+facet.wp.pl,ksiazki.wp.pl,money.pl,moneyv.wp.pl,tech.wp.pl#$#abort-on-property-read pbjs.bidderSettings
 kuchnia.wp.pl#$#abort-on-property-read pbjs.libLoaded
 turystyka.wp.pl#$#abort-on-property-read pbjsChunk
 dom.wp.pl,facet.wp.pl#?#.view-first:-abp-has(a[onclick*="var img = document.createElement('img');"])
 o2.pl,wp.pl#?#div:-abp-has(> script:-abp-contains(adsFirstRegisterSlot))
 money.pl#?#div:-abp-has(> div > script:-abp-contains(registerPlaceholder))
-pudelek.pl,money.pl#?#div:-abp-has(> div > script:-abp-contains(registerPlaceholder))
+money.pl,pudelek.pl#?#div:-abp-has(> div > script:-abp-contains(registerPlaceholder))
 parenting.pl#$#abort-on-property-read slot
-dom.wp.pl,wiadomosci.wp.pl,wawalove.wp.pl,turystyka.wp.pl,teleshow.wp.pl,opinie.wp.pl,gwiazdy.wp.pl,ksiazki.wp.pl,film.wp.pl,facet.wp.pl,kobieta.wp.pl,kuchnia.wp.pl,moto.wp.pl,tech.wp.pl,gry.wp.pl,finanse.wp.pl#$#abort-on-property-write window.INITIAL_STATE.ui
-parenting.pl,echirurgia.pl,dobreprogramy.pl,abczdrowie.pl,wp.pl#$#override-property-read rekid undefined; override-property-read rekids undefined;
+dom.wp.pl,facet.wp.pl,film.wp.pl,finanse.wp.pl,gry.wp.pl,gwiazdy.wp.pl,kobieta.wp.pl,ksiazki.wp.pl,kuchnia.wp.pl,moto.wp.pl,opinie.wp.pl,tech.wp.pl,teleshow.wp.pl,turystyka.wp.pl,wawalove.wp.pl,wiadomosci.wp.pl#$#abort-on-property-write window.INITIAL_STATE.ui
+abczdrowie.pl,dobreprogramy.pl,echirurgia.pl,parenting.pl,wp.pl#$#override-property-read rekid undefined; override-property-read rekids undefined;
 o2.pl,wp.pl#?#div:-abp-has(> script:-abp-contains(=== 'function'))
-polygamia.pl,echirurgia.pl,kardiolo.pl,dobreprogramy.pl,o2.pl,kafeteria.pl,parenting.pl,autokult.pl,pudelek.pl,nerwica.com,medycyna24.pl,money.pl,smaczneblogi.pl,komorkomania.pl,gadzetomania.pl,open.fm,fotoblogia.pl,abczdrowie.pl,autocentrum.pl,wp.pl,~poczta.wp.pl#$#hide-if-matches-xpath './/div[@class and @* and not (@id)]//a[@class and @* and not (@id)][string-length(@href)>1000]//div[@class]//img[@class and @* and not (@id)][string-length(@src)>100]/ancestor::div[@class and @* and not(@id)][3]'
-echirurgia.pl,kardiolo.pl,dobreprogramy.pl,o2.pl,kafeteria.pl,parenting.pl,autokult.pl,pudelek.pl,nerwica.com,medycyna24.pl,money.pl,smaczneblogi.pl,komorkomania.pl,gadzetomania.pl,open.fm,fotoblogia.pl,abczdrowie.pl,autocentrum.pl,wp.pl,~poczta.wp.pl#$#hide-if-matches-xpath '//a[string-length(@href)>1000]/img[@class and @*[not(name() = "class")]][string-length(@src)>125]'
-polygamia.pl,echirurgia.pl,kardiolo.pl,dobreprogramy.pl,o2.pl,kafeteria.pl,parenting.pl,autokult.pl,pudelek.pl,nerwica.com,medycyna24.pl,money.pl,smaczneblogi.pl,komorkomania.pl,gadzetomania.pl,open.fm,fotoblogia.pl,abczdrowie.pl,autocentrum.pl,wp.pl,~poczta.wp.pl,~sportowefakty.wp.pl#$#hide-if-matches-xpath '//div[@class and @*[not(@class)]=""]/div[not(*) and not(normalize-space())][@class and @*[not(@class)]=""]/ancestor::div[@class and @*[not(@class)]=""][contains(@class," ")][contains(@*[not(@class)]," ")][string-length(@*[not(@class)]) > 25][not(starts-with(@class,"app-container") or starts-with(@class,"sticky-wrapper"))]'
-echirurgia.pl,dobreprogramy.pl,o2.pl,autokult.pl,pudelek.pl,money.pl,wp.pl#$#hide-if-matches-xpath '//div[@id]/a[@id]/img[string-length(@src) < 120][contains(normalize-space()," ")][@class="img-full show"]/ancestor::div[1]'
-kafeteria.pl,medycyna24.pl,komorkomania.pl,gadzetomania.pl,fotoblogia.pl,echirurgia.pl,dobreprogramy.pl,o2.pl,autokult.pl,pudelek.pl,money.pl,wp.pl,~sportowefakty.wp.pl#$#hide-if-matches-xpath '//div[@*]/div[@class][contains(normalize-space()," ")]/iframe[@*][string-length(@src) < 150] /ancestor::div[3][@*]'
-kafeteria.pl,medycyna24.pl,komorkomania.pl,gadzetomania.pl,fotoblogia.pl,echirurgia.pl,dobreprogramy.pl,o2.pl,autokult.pl,pudelek.pl,money.pl,wp.pl#$#hide-if-matches-xpath '//div[@*]/p[contains(normalize-space(), " ")][@*]/preceding-sibling::label[1][@class]/ancestor::div[2]'
+abczdrowie.pl,autocentrum.pl,autokult.pl,dobreprogramy.pl,echirurgia.pl,fotoblogia.pl,gadzetomania.pl,kafeteria.pl,kardiolo.pl,komorkomania.pl,medycyna24.pl,money.pl,nerwica.com,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,smaczneblogi.pl,wp.pl#$#hide-if-matches-xpath './/div[@class and @* and not (@id)]//a[@class and @* and not (@id)][string-length(@href)>1000]//div[@class]//img[@class and @* and not (@id)][string-length(@src)>100]/ancestor::div[@class and @* and not(@id)][3]'
+abczdrowie.pl,autocentrum.pl,autokult.pl,dobreprogramy.pl,echirurgia.pl,fotoblogia.pl,gadzetomania.pl,kafeteria.pl,kardiolo.pl,komorkomania.pl,medycyna24.pl,money.pl,nerwica.com,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,pudelek.pl,smaczneblogi.pl,wp.pl#$#hide-if-matches-xpath '//a[string-length(@href)>1000]/img[@class and @*[not(name() = "class")]][string-length(@src)>125]'
+abczdrowie.pl,autocentrum.pl,autokult.pl,dobreprogramy.pl,echirurgia.pl,fotoblogia.pl,gadzetomania.pl,kafeteria.pl,kardiolo.pl,komorkomania.pl,medycyna24.pl,money.pl,nerwica.com,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,smaczneblogi.pl,~sportowefakty.wp.pl,wp.pl#$#hide-if-matches-xpath '//div[@class and @*[not(@class)]=""]/div[not(*) and not(normalize-space())][@class and @*[not(@class)]=""]/ancestor::div[@class and @*[not(@class)]=""][contains(@class," ")][contains(@*[not(@class)]," ")][string-length(@*[not(@class)]) > 25][not(starts-with(@class,"app-container") or starts-with(@class,"sticky-wrapper"))]'
+autokult.pl,dobreprogramy.pl,echirurgia.pl,money.pl,o2.pl,pudelek.pl,wp.pl#$#hide-if-matches-xpath '//div[@id]/a[@id]/img[string-length(@src) < 120][contains(normalize-space()," ")][@class="img-full show"]/ancestor::div[1]'
+autokult.pl,dobreprogramy.pl,echirurgia.pl,fotoblogia.pl,gadzetomania.pl,kafeteria.pl,komorkomania.pl,medycyna24.pl,money.pl,o2.pl,pudelek.pl,~sportowefakty.wp.pl,wp.pl#$#hide-if-matches-xpath '//div[@*]/div[@class][contains(normalize-space()," ")]/iframe[@*][string-length(@src) < 150] /ancestor::div[3][@*]'
+autokult.pl,dobreprogramy.pl,echirurgia.pl,fotoblogia.pl,gadzetomania.pl,kafeteria.pl,komorkomania.pl,medycyna24.pl,money.pl,o2.pl,pudelek.pl,wp.pl#$#hide-if-matches-xpath '//div[@*]/p[contains(normalize-space(), " ")][@*]/preceding-sibling::label[1][@class]/ancestor::div[2]'
 money.pl#$#hide-if-matches-xpath '//div[@id]/following::a[@class]/img[string-length(@src) < 130]/ancestor::div[1]'
-polygamia.pl,echirurgia.pl,kardiolo.pl,dobreprogramy.pl,o2.pl,kafeteria.pl,parenting.pl,autokult.pl,pudelek.pl,nerwica.com,medycyna24.pl,money.pl,smaczneblogi.pl,komorkomania.pl,gadzetomania.pl,open.fm,fotoblogia.pl,abczdrowie.pl,autocentrum.pl,wp.pl,~poczta.wp.pl#$#hide-if-matches-xpath '//ul[@class]/li[string-length(@class)<=25][contains(normalize-space(), " ")]/img[string-length(@src) >140]/following-sibling::span/a[string-length(@href) > 2000]/ancestor::li'
+abczdrowie.pl,autocentrum.pl,autokult.pl,dobreprogramy.pl,echirurgia.pl,fotoblogia.pl,gadzetomania.pl,kafeteria.pl,kardiolo.pl,komorkomania.pl,medycyna24.pl,money.pl,nerwica.com,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,smaczneblogi.pl,wp.pl#$#hide-if-matches-xpath '//ul[@class]/li[string-length(@class)<=25][contains(normalize-space(), " ")]/img[string-length(@src) >140]/following-sibling::span/a[string-length(@href) > 2000]/ancestor::li'
 poczta.o2.pl#$#hide-if-matches-xpath './/a[@class][contains(@href,"wp.pl/")]/parent::div[@style]/ancestor-or-self::div[@class][@slot="NATIVE_FEED"]/parent::div[1]'
 poczta.o2.pl#$#hide-if-matches-xpath './/div[@class]/iframe[@sandbox][contains(@src,"wpcdn.pl/tag/poczta.o2.pl/")]/ancestor::div[string-length(@class) >30]'
 poczta.o2.pl#$#hide-if-matches-xpath '//div[@class]/following-sibling::a[@target="_blank"]/following::div[@class][@id][@style]/preceding::div[@class][1]'
@@ -1656,21 +1656,21 @@ filmehd.to##iframe[src][style]
 ! *** abp-filters-anti-cv:russian.txt ***
 ! #CV-244
 zen.yandex.ru##div[class*="is-parent-size_undefined"]
-~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,~telephony.yandex.ru,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr##div[class*="item_type_"][class*="item_rendered"]
+~market.yandex.by,~market.yandex.kz,~market.yandex.ru,~market.yandex.ua,~telephony.yandex.ru,yandex.by,yandex.fr,yandex.kz,yandex.ru,yandex.ua,yandex.uz##div[class*="item_type_"][class*="item_rendered"]
 ||razlozhi.ru^$script,header=report-to
-avtovzglyad.ru,baby.ru,dni.ru,kufar.by,russian7.ru,selflib.me,www.goha.ru,3dnews.ru#$#abort-on-property-read Ya
+3dnews.ru,avtovzglyad.ru,baby.ru,dni.ru,kufar.by,russian7.ru,selflib.me,www.goha.ru#$#abort-on-property-read Ya
 kakprosto.ru#$#abort-current-inline-script document.createElement String.fromCharCode; abort-on-property-write window.yaProxy; abort-on-property-write Object.defineProperty
 ||liveinternet.ru^$xmlhttprequest,header=Uniformat-Product-Type
 otzovik.com#$#abort-on-property-read Object.prototype.RtbBlockCreateWrapper
 gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru#$#abort-on-property-read Object.prototype.showRTB
-yandex.by,yandex.fr,yandex.kz,~telephony.yandex.ru,yandex.ru,yandex.ua,yandex.uz##[class*="mg-grid__"]>div[class*=_status_success]
+~telephony.yandex.ru,yandex.by,yandex.fr,yandex.kz,yandex.ru,yandex.ua,yandex.uz##[class*="mg-grid__"]>div[class*=_status_success]
 kinopoisk.ru#$#hide-if-contains-visible-text /./ 'div[id][class]>div[id][class]' 'div ^^sh^^ * ^^sh^^ div[data-test]'
 24smi.org#$#abort-on-property-write document.cookie; cookie-remover /^/
 gorodrabot.ru#$#abort-on-property-read Object.prototype.storeBlockSettings
 ||doramatv.live^$header=x-yandex-req-id
 drive2.ru#$#hide-if-shadow-contains 'iframe'; hide-if-shadow-contains 'style'
 ! #CV-659
-ringside24.com,gagadget.com#$#abort-on-property-read localStorage
+gagadget.com,ringside24.com#$#abort-on-property-read localStorage
 newsyou.info#$#abort-on-property-read localStorage
 24tv.ua##.b_reklama
 azov-sea.info##[valign="middle"]
@@ -1693,7 +1693,7 @@ gidonline.eu,torrent-soft.net#$#abort-on-property-read atob
 sm.news#$#abort-current-inline-script decodeURIComponent blocked
 7ogorod.ru,autonevod.ru,shtrafsud.ru,tophallclub.ru,zazloo.ru#$#abort-on-property-read fpm_attr
 hitfm.ua,kissfm.ua,radiorelax.ua,radioroks.ua,rusradio.ua#$#abort-on-property-write prerole_length
-myjane.ru,omskpress.ru,astrakhan.ru,tambovnet.org#$#abort-on-property-read kav_cn
+astrakhan.ru,myjane.ru,omskpress.ru,tambovnet.org#$#abort-on-property-read kav_cn
 krolik.biz#$#abort-current-inline-script document.createElement
 sinoptik.ua#$#abort-on-property-read SIN.globals.ADBLOCK_DETECTED
 agroportal.ua#$#abort-on-property-read abn
@@ -1708,7 +1708,7 @@ softportal.com#$#abort-on-property-read popupShowInterval; abort-on-property-rea
 www.ixbt.com#$#abort-on-property-read adv_obj; abort-current-inline-script document.getElementById branding
 city.ogo.ua#$#abort-on-property-read myatu_bgm
 erofishki.cc,fishki.net#$#abort-on-property-read fishki.adv
-agronom.com.ua,botanichka.ru,dyvys.info,fainaidea.com,itech.co.ua,mediasat.info,moika78.ru,1informer.com#$#abort-on-property-read td_ad_background_click_target
+1informer.com,agronom.com.ua,botanichka.ru,dyvys.info,fainaidea.com,itech.co.ua,mediasat.info,moika78.ru#$#abort-on-property-read td_ad_background_click_target
 gdz-putina.fun,gdz.ninja,gdz.ru,gdzotputina.club,gdzputina.net,gdzputina.ru,megaresheba.com,megaresheba.ru,resheba.me,spishi.fun,zoobrilka.net#$#abort-on-property-write app.book.external
 ||sports.ru^$script,header=x-robots-tag
 ||www.e1.ru^$script,header=x-yandex-req-id
@@ -1723,14 +1723,14 @@ shaiba.kz#$#abort-current-inline-script $ 1xbet
 liveforums.ru#$#abort-on-property-read tnAdditionalParams
 musify.club#$#abort-current-inline-script $ get_ya_browser
 fenglish.site,mp3spy.cc#$#abort-current-inline-script JSON.parse atob
-times.zt.ua,f1comp.ru,tagaev.com#$#abort-on-property-read PUM.getPopup
+f1comp.ru,tagaev.com,times.zt.ua#$#abort-on-property-read PUM.getPopup
 l2top.ru#$#abort-current-inline-script $ cleanAndEval
 rsload.net#$#abort-current-inline-script window.addEventListener load
 musify.club#$#abort-on-property-read get_ya_browser
 kakoysegodnyaprazdnik.ru,xn--80aaiebcrjcibi8adgdtsm9z.xn--p1ai#$#abort-on-property-read google_jobrunner
 ||cq.ru^$xmlhttprequest,header=cq-cache-bypassed
 shanson320.ru#$#abort-current-inline-script document.createElement atob
-coderlessons.com,facenews.ua,fixx.one,its-kids.ru,molitvy.guru,nizhny.ru,pro100hobbi.ru,publy.ru,samelectric.ru,svadba.expert,tehnobzor.ru,vibir.ru,100popugaev.ru#$#abort-on-property-read XMLHttpRequest
+100popugaev.ru,coderlessons.com,facenews.ua,fixx.one,its-kids.ru,molitvy.guru,nizhny.ru,pro100hobbi.ru,publy.ru,samelectric.ru,svadba.expert,tehnobzor.ru,vibir.ru#$#abort-on-property-read XMLHttpRequest
 igroutka.ru#$#override-property-read Object.prototype.afg true
 sibnet.ru#$#prevent-listener DOMContentLoaded '/EventTracker|utm_campaign/'
 ivanovonews.ru#$#json-prune banner.ytcode
@@ -1779,8 +1779,8 @@ kriminal.net.ua#$#abort-on-property-read screen.width
 ! Prevent auto reload
 24boxing.com.ua,bilshe.com,businessua.com,f1analytic.com,f1ua.org.ua,football-ukraine.com,footballgazeta.com,footballtransfer.com.ua,glianec.com,nashamama.com,sportanalytic.com,stravy.net,zdorovia.com.ua#$#abort-current-inline-script setInterval reload
 ! Popup/popunder/clickunder
-animew.ru,freehat.cc,hlamer.ru,lostpix.com,oxax.tv,cunofilms.ru,potokcdn.com,prostoporno.help,tivix.co,tt-cup.com,uploadimagex.com,vmusi.ru,volynpost.com,wowskill.ru,xittv.net,zerno-ua.com#$#abort-on-property-read open
-3dn.ru,domahatv.com,piratam.net,piratca.net,sexitorrent.com,sextor.org,xtorrent.net,xxxrip.net,torrent-pirat.com,porn720.biz,pornopuk.com,hentai-mood.me,hentai-share.one,huyamba.tv,xxxtor.com#$#abort-current-inline-script document.querySelectorAll popMagic
+animew.ru,cunofilms.ru,freehat.cc,hlamer.ru,lostpix.com,oxax.tv,potokcdn.com,prostoporno.help,tivix.co,tt-cup.com,uploadimagex.com,vmusi.ru,volynpost.com,wowskill.ru,xittv.net,zerno-ua.com#$#abort-on-property-read open
+3dn.ru,domahatv.com,hentai-mood.me,hentai-share.one,huyamba.tv,piratam.net,piratca.net,porn720.biz,pornopuk.com,sexitorrent.com,sextor.org,torrent-pirat.com,xtorrent.net,xxxrip.net,xxxtor.com#$#abort-current-inline-script document.querySelectorAll popMagic
 hdkinoteatr.com#$#abort-on-property-read cuec
 fapreactor.com,pornreactor.cc#$#abort-current-inline-script Math decodeURIComponent
 budport.com.ua#$#abort-current-inline-script $ append
@@ -1788,7 +1788,7 @@ aces.gg#$#abort-current-inline-script $ window.open
 penzainform.ru#$#abort-current-inline-script $ divWrapper
 drlink.online#$#abort-current-inline-script Math.random toString
 freehat.cc#$#abort-on-property-read advFirstClickOpenNewTab
-anifap.com,anifap.xyz,anitokyo.org,anitokyo.tv,hcdn.online,kinofilm.co,anipoisk.org#$#abort-on-property-read ClickUndercookie
+anifap.com,anifap.xyz,anipoisk.org,anitokyo.org,anitokyo.tv,hcdn.online,kinofilm.co#$#abort-on-property-read ClickUndercookie
 cosplay-porn.one#$#abort-on-property-read biads
 mag.relax.by#$#abort-on-property-read Object.prototype.branding_url
 conversion.im#$#abort-current-inline-script $ mainContainer
@@ -1801,7 +1801,7 @@ comedy-radio.ru,radioromantika.ru,veseloeradio.ru#$#abort-on-property-read yaCon
 tornado.3dn.ru#$#abort-on-property-read wrapper.addEventListener
 kinoblin.ru,pornoakt.*,serialai.ru#$#prevent-listener mousedown pop.doEvent
 agronews.ua,agroreview.com,agroweek.com#$#prevent-listener DOMContentLoaded 'adId'; prevent-listener click 'track_ad_click'; abort-on-property-write localStorage
-sex-studentki.gold,seks-studentki.pro#$#prevent-listener DOMContentLoaded click_time
+seks-studentki.pro,sex-studentki.gold#$#prevent-listener DOMContentLoaded click_time
 megaprogz.ru,programhub.ru#$#override-property-read portal.isRedirectToYandexSearchAfterDownloadEnabled false; prevent-listener download isMonetized
 lrepacks.net#$#abort-current-inline-script document.createElement 'delete window'; prevent-listener click 'pop'; prevent-listener /click|mousedown/ setClickedUrl;
 ! Video ads
@@ -1811,7 +1811,7 @@ rutube.ru#$#override-property-read Object.prototype.advert undefined
 player.starlight.digital#$#replace-fetch-response testadv
 lumex.space#$#replace-fetch-response /endtag|pausebanner|rolls/ '.' 'ads'
 ! #CV-547
-auto.mail.ru,hi-tech.mail.ru,cloud.mail.ru,horo.mail.ru,pogoda.mail.ru,tv.mail.ru#$#abort-on-property-write _mimic
+auto.mail.ru,cloud.mail.ru,hi-tech.mail.ru,horo.mail.ru,pogoda.mail.ru,tv.mail.ru#$#abort-on-property-write _mimic
 horo.mail.ru,pogoda.mail.ru,tv.mail.ru#$#abort-on-property-read MrgContext
 minigames.mail.ru#$#abort-on-property-read MG_CONFIG.adv.fit_mimic
 mmminigames.mail.ru#$#abort-current-inline-script addEventListener advRefreshInterval
@@ -1821,13 +1821,13 @@ mail.ru#$#hide-if-contains-visible-text /Реклама/ 'div.tgb-wrapper' span
 e.mail.ru#$#array-override push /adv-content|slot/
 ! #CV-713
 3dn.ru,a-point.info,addfiles.ru,akkordam.ru,all-for-kompa.ru,asia-tv.su,at.ua,autosimgames.ru,clan.su,db-energo.ru,devdrivers.ru,do.am,elegos.ru,elektronika56.ru,elektrosat.ru,fon-ki.com,for-gsm.ru,free-dream.ru,ftechedu.ru,fukushima-news.ru,gals.md,gloria-cedric.ru,goldformat.ru,greenflash.su,igrul-ka.ru,krasnickij.ru,krolmen.ru,megaclips.net,mow-portal.ru,moy.su,my1.ru,narod.ru,newgames.com.ua,novospasskoe-city.ru,omsimclub.ru,online-supernatural.ru,only-paper.ru,others.name,pidru4nik.com,pkrc.ru,play-force.ru,pohoronnoe-byuro.com,pokatushki-pmr.ru,pro-zakupki.ru,project-ss.ru,psxworld.ru,radiodom.org,rocketdockfree.ru,sdr-deluxe.com,soft-game.net,stalker-gsc.ru,stalker-zone.info,stalkermods.ru,svadbatomsk.ru,techmusic.ru,tes-game.ru,torfiles.ru,ucoz.club,ucoz.com,ucoz.net,ucoz.org,ucoz.ru,ucoz.ua,usite.pro,vodopads.ru,vsthouse.ru,xakevsoft.ru,xn--80aeshkkbdj.xn--p1ai,zona-stalkera.ru#$#abort-on-property-read Object.prototype.clunduse; abort-on-property-read k_init; abort-on-property-read Object.prototype.u_vastplayer
-kinogo.eu,gidonline.eu#$#abort-on-property-read target_script
+gidonline.eu,kinogo.eu#$#abort-on-property-read target_script
 ! #CV-685
-vsetut.su,animedia.tv#$#abort-on-property-read zfgformats
+animedia.tv,vsetut.su#$#abort-on-property-read zfgformats
 ! #CV-715
-informator.ua,kriminal.tv,112ua.tv,newsoneua.tv,gorodkiev.com.ua,volynpost.com,uanews.org.ua,dialogs.org.ua,technoportal.com.ua,pingvin.pro,fakty.ua,cikavosti.com,versii.if.ua#$#abort-on-property-read weekCallbacks
+112ua.tv,cikavosti.com,dialogs.org.ua,fakty.ua,gorodkiev.com.ua,informator.ua,kriminal.tv,newsoneua.tv,pingvin.pro,technoportal.com.ua,uanews.org.ua,versii.if.ua,volynpost.com#$#abort-on-property-read weekCallbacks
 ! #CV-716
-kop.net.ua,1news.com.ua,365news.biz,4mama.ua,agroter.com.ua,apnews.com.ua,asiaplustj.info,autotema.org.ua,autotheme.info,avtodream.org,beauty.ua,chas.cv.ua,cheline.com.ua,cikavosti.com,ck.ua,cn.ua,comments.ua,cvnews.cv.ua,day.kyiv.ua,depo.ua,dv-gazeta.info,dyvys.info,economistua.com,expert.in.ua,fedpress.ru,firtka.if.ua,forpost.media,fraza.com,gazeta1.com,glavnoe.ua,glavnoe24.ru,glavpost.ua,golosinfo.com.ua,gorodkiev.com.ua,grad.ua,greenpost.ua,ifnews.org.ua,inforpost.com,inkorr.com,itechua.com,iz.com.ua,kh.ua,khersonline.net,kolizhanka.com.ua,kr.ua,krymr.com,kurskcity.ru,liga.net,lvnews.org.ua,mega-music.pro,mi100.info,mind.ua,moirebenok.ua,mycompplus.ru,nakanune.ru,promin.cv.ua,mistosumy.com,nashbryansk.ru,newsua.one,newsoneua.tv,news24today.info,ngp-ua.info,nnews.com.ua,novavlada.info,novynarnia.com,np.pl.ua,odessa-life.od.ua,ogo.ua,panoptikon.org,pg11.ru,pik.net.ua,pingvin.pro,planetanovosti.com,pl.com.ua,podpricelom.com.ua,politnavigator.net,poltava365.com,portal.lviv.ua,pravdatutnews.com,prm.ua,procherk.info,profootball.ua,radiosvoboda.org,ratel.kz,real-vin.com,reporter.ua,risu.ua,rivne.media,rivnenews.com.ua,rusjev.com,russianshowbiz.info,rv.ua,rvnews.rv.ua,showdream.org,sport-kr.com.ua,strana.news,strana.today,sud.ua,te.ua,tenews.org.ua,telekritika.ua,theageoffootball.com,treebuna.info,tverigrad.ru,tverisport.ru,tvoymalysh.com.ua,uainfo.org,uanews.org.ua,uatv.ua,ukranews.com,ukrrain.com,unn.com.ua,vchaspik.ua,versii.if.ua,vgolos.com.ua,viva.ua,vlast.kzvnn24.ru,volnorez.com.ua,volyninfa.com.ua,volyninfo.com,volynpost.com,volynua.com,vsviti.com.ua,westnews.info,womo.ua,wona.com.ua,wworld.com.ua,zbirna.com,zp.ua#$#abort-current-inline-script document.createElement /ru-n4p|ua-n4p|загрузка.../
+1news.com.ua,365news.biz,4mama.ua,agroter.com.ua,apnews.com.ua,asiaplustj.info,autotema.org.ua,autotheme.info,avtodream.org,beauty.ua,chas.cv.ua,cheline.com.ua,cikavosti.com,ck.ua,cn.ua,comments.ua,cvnews.cv.ua,day.kyiv.ua,depo.ua,dv-gazeta.info,dyvys.info,economistua.com,expert.in.ua,fedpress.ru,firtka.if.ua,forpost.media,fraza.com,gazeta1.com,glavnoe.ua,glavnoe24.ru,glavpost.ua,golosinfo.com.ua,gorodkiev.com.ua,grad.ua,greenpost.ua,ifnews.org.ua,inforpost.com,inkorr.com,itechua.com,iz.com.ua,kh.ua,khersonline.net,kolizhanka.com.ua,kop.net.ua,kr.ua,krymr.com,kurskcity.ru,liga.net,lvnews.org.ua,mega-music.pro,mi100.info,mind.ua,mistosumy.com,moirebenok.ua,mycompplus.ru,nakanune.ru,nashbryansk.ru,news24today.info,newsoneua.tv,newsua.one,ngp-ua.info,nnews.com.ua,novavlada.info,novynarnia.com,np.pl.ua,odessa-life.od.ua,ogo.ua,panoptikon.org,pg11.ru,pik.net.ua,pingvin.pro,pl.com.ua,planetanovosti.com,podpricelom.com.ua,politnavigator.net,poltava365.com,portal.lviv.ua,pravdatutnews.com,prm.ua,procherk.info,profootball.ua,promin.cv.ua,radiosvoboda.org,ratel.kz,real-vin.com,reporter.ua,risu.ua,rivne.media,rivnenews.com.ua,rusjev.com,russianshowbiz.info,rv.ua,rvnews.rv.ua,showdream.org,sport-kr.com.ua,strana.news,strana.today,sud.ua,te.ua,telekritika.ua,tenews.org.ua,theageoffootball.com,treebuna.info,tverigrad.ru,tverisport.ru,tvoymalysh.com.ua,uainfo.org,uanews.org.ua,uatv.ua,ukranews.com,ukrrain.com,unn.com.ua,vchaspik.ua,versii.if.ua,vgolos.com.ua,viva.ua,vlast.kzvnn24.ru,volnorez.com.ua,volyninfa.com.ua,volyninfo.com,volynpost.com,volynua.com,vsviti.com.ua,westnews.info,womo.ua,wona.com.ua,wworld.com.ua,zbirna.com,zp.ua#$#abort-current-inline-script document.createElement /ru-n4p|ua-n4p|загрузка.../
 marieclaire.ua#$#abort-current-inline-script redram /загрузка.../
 karpatnews.in.ua,kg-portal.ru#$#abort-current-inline-script document.createElement Math.random
 vsviti.com.ua#$#abort-on-property-read tdAnimationStack.init
@@ -1909,8 +1909,8 @@ tusachmanga99.com#$#abort-current-inline-script $ window.open
 motchillk.soy#$#abort-on-property-read sessionStorage
 rk.plcdn.xyz#$#abort-on-property-read adsTvc; abort-on-property-read adsPlayer; abort-on-property-read ads; abort-on-property-read keyPlayer; abort-on-property-read adsPopupPlayer;
 hh3dhay.life,hh3dhay.xyz#$#abort-current-inline-script document.createElement /break|case/
-cafef.vn,gamek.vn,genk.vn,kenh14.vn,soha.vn,tuoitre.vn,afamily.vn,thanhnien.vn#$#override-property-read ADMStorageFileCDN noopFunc
-cafef.vn,gamek.vn,genk.vn,kenh14.vn,soha.vn,tuoitre.vn,afamily.vn,thanhnien.vn#$#abort-current-inline-script Object.defineProperty ADMStorageFileCDN
+afamily.vn,cafef.vn,gamek.vn,genk.vn,kenh14.vn,soha.vn,thanhnien.vn,tuoitre.vn#$#override-property-read ADMStorageFileCDN noopFunc
+afamily.vn,cafef.vn,gamek.vn,genk.vn,kenh14.vn,soha.vn,thanhnien.vn,tuoitre.vn#$#abort-current-inline-script Object.defineProperty ADMStorageFileCDN
 bongda365f.com#$#override-property-read isSkipAds true
 znews.vn#$#abort-on-property-read adtimaConfig
 baomoi.com#$#abort-on-property-write AdtimaRender
@@ -1919,7 +1919,7 @@ kenh14.vn#$#override-property-read Constants.allowAds false
 vndoc.com#$#override-property-read seconds 0
 phimvuihd.one#$#override-property-read urlAds ''
 n.thapcam53.pro#$#simulate-mouse-event '#modalasd$continue,delay=300'
-xemphim.site,animet.org,motchillzz.site#$#override-property-read maxAds 0
+animet.org,motchillzz.site,xemphim.site#$#override-property-read maxAds 0
 www.iosviet.com#$#override-property-read timer 0
 saigon24.net#$#abort-current-inline-script document.getElementById myModal
 northernlightsccs.com#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
@@ -1933,22 +1933,22 @@ monkeydtruyen.com#$#simulate-mouse-event '.affClick[style=" display:block; "]' '
 /player/html.php?aid=*&video_id=*&referer=https*xnhau.hot*^$domain=xnhau.hot
 cmangax15.com#$#cookie-remover ads_num true
 ! Popup/Popunder/Clickunder
-vinaurl.net,anime13.site,zpic.io,maclife.io,vietsub.site,hoctot.hocmai.vn,keysmatterinc.com,samtruyentranh.com,player.phimapi.com,noitu.site,sachmoi.net,xfast.sbs,anime47.best,s2.phimsexvn1.blog#$#abort-on-property-read open
+anime13.site,anime47.best,hoctot.hocmai.vn,keysmatterinc.com,maclife.io,noitu.site,player.phimapi.com,s2.phimsexvn1.blog,sachmoi.net,samtruyentranh.com,vietsub.site,vinaurl.net,xfast.sbs,zpic.io#$#abort-on-property-read open
 tvhay.top#$#abort-current-inline-script JSON.parse atob
 truyen247.pro#$#abort-current-inline-script eval
 www.gvnvh18z.com#$#abort-current-inline-script Math
 xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
 xnxx-sex-videos.com#$#override-property-read user_out false
-truyensieuhay.com,quangcaoyenbai.com,phimchill.life,tv.tvhayhd.org,thefaplive.com,mv.dailyphimz.com,mv.phimbathu.one,sexhihi.fit,anime47.best,teamlanhlung8.shop,forum.timfshare.com,ungtycomicsau.com,honghotduongpho.vn,chich69.top,comong.info#$#abort-on-property-read document.cookie
+anime47.best,chich69.top,comong.info,forum.timfshare.com,honghotduongpho.vn,mv.dailyphimz.com,mv.phimbathu.one,phimchill.life,quangcaoyenbai.com,sexhihi.fit,teamlanhlung8.shop,thefaplive.com,truyensieuhay.com,tv.tvhayhd.org,ungtycomicsau.com#$#abort-on-property-read document.cookie
 metruyenchu.com#$#abort-on-property-write window.onclick
 ##[href^="//mage98rquewz.com/"]
 seltzerland.com#$#abort-on-property-read adsRedirectPopups
 linkneverdie.net,linkneverdie.top,linkneverdie2.com#$#abort-current-inline-script document.createElement optad; abort-on-property-read pushOnPageGala
 sex.javnong.cc#$#abort-on-property-read Math.round
-viet69.ly,dualeotruyenqr.com,yurineko.my,choiboi.net,cliphot69.shop,doctruyen3qhubk.com,ihentai.network,chuyentiepanimehay.one,hentaivc.cc,streamvl.top,buomtv.media,truyenvn.shop,javtiful.com,quatvn.my,phimsexhayvn96.com,phim18hdxx.com,vn6.sexviet88.xyz,demo.14412882.com,mupsexphim.net,hhtq5.vip,sexdiary.club,vn2.xvideos69.xxx,umetruyenz.org,damconuong.plus,truyenqqno.com,clipsexsub3x.net,sayhentai.vc,motphim.pokemonviet.com,lxmanga.space,phimlongtieng.net,newtruyentranh8.com,www.sieutamphim.pro,vevocloud.com,sex.xinh3x.me,sexviet88.xyz,goctruyentranhvui19.com,viet69vn.at,misskon.com,luottruyen3.com#$#abort-current-inline-script WebAssembly instantiate
-www.motchill50.com,teamlanhlung8.shop,vietsub.site#$#abort-on-property-read localStorage
+buomtv.media,choiboi.net,chuyentiepanimehay.one,cliphot69.shop,clipsexsub3x.net,damconuong.plus,demo.14412882.com,doctruyen3qhubk.com,dualeotruyenqr.com,goctruyentranhvui19.com,hentaivc.cc,hhtq5.vip,ihentai.network,javtiful.com,luottruyen3.com,lxmanga.space,misskon.com,motphim.pokemonviet.com,mupsexphim.net,newtruyentranh8.com,phim18hdxx.com,phimlongtieng.net,phimsexhayvn96.com,quatvn.my,sayhentai.vc,sex.xinh3x.me,sexdiary.club,sexviet88.xyz,streamvl.top,truyenqqno.com,truyenvn.shop,umetruyenz.org,vevocloud.com,viet69.ly,viet69vn.at,vn2.xvideos69.xxx,vn6.sexviet88.xyz,www.sieutamphim.pro,yurineko.my#$#abort-current-inline-script WebAssembly instantiate
+teamlanhlung8.shop,vietsub.site,www.motchill50.com#$#abort-on-property-read localStorage
 xnhau.hot#$#prevent-listener click /acquirecardedsullen|POPUNDER_INTERVAL|lastPopunderTime/; abort-current-inline-script document.addEventListener lastPopunderTime;
-hh3dhay.life,tram3d.online,animevietsub.how,animevietsub.mx#$#abort-current-inline-script eval $._Eu
+animevietsub.how,animevietsub.mx,hh3dhay.life,tram3d.online#$#abort-current-inline-script eval $._Eu
 phimlongtieng.net#$#abort-current-inline-script document.createElement script
 dualeotruyenqr.com#$#abort-current-inline-script document.addEventListener popunder
 lxmanga.space#$#abort-current-inline-script $ PopUnder
@@ -1958,7 +1958,7 @@ chuyentiepanimehay.one#$#abort-current-inline-script document.addEventListener w
 audiotruyenfull.com#$#abort-on-property-read adpiaListUrl
 vailonxx.me#$#abort-current-inline-script jQuery window.open
 tctruyen.org#$#abort-current-inline-script $ popup
-truyenqqtto.com,phim.haysex.asia#$#abort-current-inline-script Promise /break|case/
+phim.haysex.asia,truyenqqtto.com#$#abort-current-inline-script Promise /break|case/
 www.nettruyenupp.com#$#abort-on-property-read sp
 phimtho.cc#$#abort-current-inline-script $ p0pUpRandom
 tailieumoi.vn#$#override-property-read linkAff null
@@ -1966,20 +1966,20 @@ cunghocvui.com#$#abort-current-inline-script document.addEventListener opened_wi
 truyensextv.com,yanhh3d.sh,z.chinav.sex#$#abort-current-inline-script document.addEventListener opup
 imail.edu.vn#$#abort-current-inline-script setTimeout Aff; abort-current-inline-script setTimeout ad_block
 www.toptruyenssz.com#$#abort-current-inline-script setTimeout open
-rophim.moe,motphimww.biz#$#abort-current-inline-script addEvent popu
-freeplayervideo.com,abysscdn.com,player-cdn.com,playhydrax.com,www.bachnguyetquang.online#$#override-property-read open noopFunc
-freeplayervideo.com,abysscdn.com,player-cdn.com,playhydrax.com#$#abort-current-inline-script document.getElementById openPop
+motphimww.biz,rophim.moe#$#abort-current-inline-script addEvent popu
+abysscdn.com,freeplayervideo.com,player-cdn.com,playhydrax.com,www.bachnguyetquang.online#$#override-property-read open noopFunc
+abysscdn.com,freeplayervideo.com,player-cdn.com,playhydrax.com#$#abort-current-inline-script document.getElementById openPop
 nettruyenar.com#$#abort-on-property-read links
-sextop1.uno,hhvsub1.com#$#abort-current-inline-script WebAssembly globalThis
+hhvsub1.com,sextop1.uno#$#abort-current-inline-script WebAssembly globalThis
 hh3dhay.*#$#abort-current-inline-script Symbol /break|case/
 gocmod.com#$#abort-current-inline-script jQuery popup
 animevietsub9.com#$#abort-on-property-read _0x3f9b
-www.motchill50.com,trumtruyen.xyz#$#abort-current-inline-script setTimeout Aff
+trumtruyen.xyz,www.motchill50.com#$#abort-current-inline-script setTimeout Aff
 mupsexphim.net#$#abort-on-property-read Cookies
-childish2x1.fun,childish2x2.fun,tekora.space,lottedira.store,tekora.fun#$#abort-current-inline-script $ aff
+childish2x1.fun,childish2x2.fun,lottedira.store,tekora.fun,tekora.space#$#abort-current-inline-script $ aff
 javhd.shop#$#abort-current-inline-script document.addEventListener Click
 ios.codevn.net#$#abort-current-inline-script jQuery Popup
-economic45882.shop,cdn4.tiptoe34x1.fun#$#abort-current-inline-script $ arrDirectLink
+cdn4.tiptoe34x1.fun,economic45882.shop#$#abort-current-inline-script $ arrDirectLink
 laophatgia.net#$#abort-current-inline-script document.getElementsByClassName reading-content
 teamlanhlungday.store#$#abort-current-inline-script $ window.open
 teamlanhlungday.store#$#abort-current-inline-script setTimeout aff
@@ -1994,7 +1994,7 @@ pheclip.love,phim18vip.top,sieudam.sh#$#abort-current-inline-script $ pop
 vozer.io#$#abort-current-inline-script document.addEventListener atob
 thiendia1.vip#$#abort-current-inline-script document.addEventListener adState
 northernlightsccs.com#$#abort-current-inline-script jQuery open
-phimmoiz.ac,graphqlize.org,onflix.my#$#prevent-listener click ads
+graphqlize.org,onflix.my,phimmoiz.ac#$#prevent-listener click ads
 www.asu.baby#$#abort-on-property-read initialAdURLs
 prawngarden.com#$#abort-current-inline-script window.addEventListener Ads
 cap3.ink#$#prevent-listener click /setTimeout|e\.target/; prevent-listener click d .art-control-fullscreen; prevent-listener fullscreenchange e.target;
