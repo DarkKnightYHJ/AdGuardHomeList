@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: f8bT10MvBMoQzWNFJDA0tw
-! Version: 202603241132
+! Checksum: 6H20sWX3lFjVtyg8Wmxo3Q
+! Version: 202603241301
 ! Title: ABP filters
-! Last modified: 24 Mar 2026 11:32 UTC
+! Last modified: 24 Mar 2026 13:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -84,35 +84,35 @@ iprima.cz#$#hide-if-matches-xpath '//p[@class="appendix"][text()="Reklama"]/pare
 ?v127|$script,domain=iprima.cz
 /area=halfpagead$xmlhttprequest,domain=iprima.cz
 /area=branding$xmlhttprequest,domain=iprima.cz
-ahaonline.czinfo.cz,onetv.cz##.inserted_rtb
-ahaonline.czinfo.cz,onetv.cz##[id^="ad-"]
-ahaonline.czinfo.cz,onetv.cz##[data-track-ad]
-ahaonline.czinfo.cz,onetv.cz##leaderBoard
-ahaonline.czinfo.cz,onetv.cz##.movingAd
-ahaonline.czinfo.cz,onetv.cz###brandingCreativeWrapper
-ahaonline.czinfo.cz,onetv.cz##[data-google-container-id], .is_stuck
-ahaonline.czinfo.cz,onetv.cz##a[href*=";adfibeg="]
-ahaonline.czinfo.cz,onetv.cz#?#div:-abp-has(>[class$="selfpromo"])
-ahaonline.czinfo.cz,onetv.cz##[class^="stickyContentBottom_"]
-ahaonline.czinfo.cz,onetv.cz##.ad__in
-ahaonline.czinfo.cz,onetv.cz##.ad-skywrapper
-ahaonline.czinfo.cz,onetv.cz##iframe[id^="iframeWrapper-"]
-ahaonline.czinfo.cz,onetv.cz##[class^="ad "]
-ahaonline.czinfo.cz,onetv.cz##a[href*="Banner"]
-ahaonline.czinfo.cz,onetv.cz##a[href*="pubsrcid="]
-ahaonline.czinfo.cz,onetv.cz##a[href*="banner"]
-ahaonline.czinfo.cz,onetv.cz##.sticky-content
-ahaonline.czinfo.cz,onetv.cz###leader_board
-ahaonline.czinfo.cz,onetv.cz##.ad-skyscrapper
-ahaonline.czinfo.cz,onetv.cz###Moitor-1
-ahaonline.czinfo.cz,onetv.cz##div[style*="_banner_branding_cnc_"]
-ahaonline.czinfo.cz,onetv.cz###banner_id
-ahaonline.czinfo.cz,onetv.cz###banner
-ahaonline.czinfo.cz,onetv.cz###creativelink
-ahaonline.czinfo.cz,onetv.cz##.rollWrapper
-ahaonline.czinfo.cz,onetv.cz###ValRageBottom
-ahaonline.czinfo.cz,onetv.cz##a[href*="branding"]
-ahaonline.czinfo.cz,onetv.cz#?#div:-abp-has(>a[href$="/personalizovana-reklama/"])
+onetv.cz##.inserted_rtb
+onetv.cz##[id^="ad-"]
+onetv.cz##[data-track-ad]
+onetv.cz##leaderBoard
+onetv.cz##.movingAd
+onetv.cz###brandingCreativeWrapper
+onetv.cz##[data-google-container-id], .is_stuck
+onetv.cz##a[href*=";adfibeg="]
+onetv.cz#?#div:-abp-has(>[class$="selfpromo"])
+onetv.cz##[class^="stickyContentBottom_"]
+onetv.cz##.ad__in
+onetv.cz##.ad-skywrapper
+onetv.cz##iframe[id^="iframeWrapper-"]
+onetv.cz##[class^="ad "]
+onetv.cz##a[href*="Banner"]
+onetv.cz##a[href*="pubsrcid="]
+onetv.cz##a[href*="banner"]
+onetv.cz##.sticky-content
+onetv.cz###leader_board
+onetv.cz##.ad-skyscrapper
+onetv.cz###Moitor-1
+onetv.cz##div[style*="_banner_branding_cnc_"]
+onetv.cz###banner_id
+onetv.cz###banner
+onetv.cz###creativelink
+onetv.cz##.rollWrapper
+onetv.cz###ValRageBottom
+onetv.cz##a[href*="branding"]
+onetv.cz#?#div:-abp-has(>a[href$="/personalizovana-reklama/"])
 ||domnovrek.com^$third-party
 /partnerJsApi/v3?previousZHashes=&hash=*&clbk=sklik$script,domain=ahaonline.cz|info.cz|onetv.cz
 &uid=ssp-$script,domain=ahaonline.cz|info.cz|onetv.cz
@@ -254,29 +254,29 @@ novinky.cz##img[src*="1T4PK70hS2C"]
 novinky.cz,sport.cz,super.cz##.barMan
 novinky.cz,seznamzpravy.cz,sport.cz##div[data-adtrackingtemporaryurl]
 novinky.cz,seznamzpravy.cz,sport.cz##div[style="background-color: rgb(255, 255, 255);"] > a[href][target="_blank"]
-ahaonline.czinfo.cz,onetv.cz##a[href*="verdsi="][href*="&ip="]
-ahaonline.czinfo.cz,onetv.cz##[href*="&token="][target="_blank"]
-ahaonline.czinfo.cz,onetv.cz##a[href^="//api.mgid.com/"]
-ahaonline.czinfo.cz,onetv.cz##div[style*='background-image: url("https://www.']
-ahaonline.czinfo.cz,onetv.cz##.ad-skycrapper
-ahaonline.czinfo.cz,kinobox.cz,onetv.cz##[id*="Adform"]
-ahaonline.czinfo.cz,onetv.cz##div[style*="background-image"][style*="branding"]
-ahaonline.czinfo.cz,onetv.cz##.article-advertisement
-ahaonline.czinfo.cz,onetv.cz##div[id^="cnc-"][class^="cnc-"]
-ahaonline.czinfo.cz,onetv.cz##div[class$="-banner"]
+onetv.cz##a[href*="verdsi="][href*="&ip="]
+onetv.cz##[href*="&token="][target="_blank"]
+onetv.cz##a[href^="//api.mgid.com/"]
+onetv.cz##div[style*='background-image: url("https://www.']
+onetv.cz##.ad-skycrapper
+kinobox.cz,onetv.cz##[id*="Adform"]
+onetv.cz##div[style*="background-image"][style*="branding"]
+onetv.cz##.article-advertisement
+onetv.cz##div[id^="cnc-"][class^="cnc-"]
+onetv.cz##div[class$="-banner"]
 ahaonline.cz,info.cz,iprima.cz,kinobox.cz,kupi.cz,nasepenize.cz,novinky.cz,onetv.cz,sport.cz,super.cz##div[id$="horiz"]
 ahaonline.cz,info.cz,iprima.cz,kinobox.cz,kupi.cz,nasepenize.cz,novinky.cz,onetv.cz,sport.cz,super.cz##iframe[src*=" javascript: window"]
 ahaonline.cz,info.cz,iprima.cz,kinobox.cz,kupi.cz,nasepenize.cz,novinky.cz,onetv.cz,sport.cz,super.cz##.pe-banner
 ahaonline.cz,info.cz,iprima.cz,kinobox.cz,kupi.cz,nasepenize.cz,novinky.cz,onetv.cz,sport.cz,super.cz##.advert
 ahaonline.cz,info.cz,iprima.cz,kinobox.cz,kupi.cz,nasepenize.cz,novinky.cz,onetv.cz,sport.cz,super.cz##a[href*="?action=ppl&cid="]
-ahaonline.czinfo.cz,onetv.cz##div[style*="background-image: url("][style*="background-repeat: no-repeat;"]
+onetv.cz##div[style*="background-image: url("][style*="background-repeat: no-repeat;"]
 ahaonline.cz,info.cz,kinobox.cz,kupi.cz,nasepenize.cz,onetv.cz##a.tracked-event[data-tid]
 ahaonline.cz,info.cz,kinobox.cz,kupi.cz,nasepenize.cz,onetv.cz##a.tracked-event[href*="&tcid="]
 ahaonline.cz,info.cz,kinobox.cz,kupi.cz,nasepenize.cz,novinky.cz,onetv.cz,sport.cz,super.cz###ads-leader, #ads-leader-board
 ahaonline.cz,info.cz,kinobox.cz,kupi.cz,nasepenize.cz,novinky.cz,onetv.cz,sport.cz,super.cz##.foto-iframe-ads
-ahaonline.czinfo.cz,onetv.cz#?#div:-abp-has(>small:-abp-contains(Reklama))
-ahaonline.czinfo.cz,fights.cz,horoskopy.cz,kinobox.cz,kupi.cz,nasepenize.cz,novinky.cz,onetv.cz,sport.cz,super.cz##a[href*="?adurl="]
-ahaonline.czinfo.cz,fights.cz,horoskopy.cz,kinobox.cz,kupi.cz,nasepenize.cz,novinky.cz,onetv.cz,sport.cz,super.cz##a[href*="mondor_hopToSeti"]
+onetv.cz#?#div:-abp-has(>small:-abp-contains(Reklama))
+fights.cz,horoskopy.cz,kinobox.cz,kupi.cz,nasepenize.cz,novinky.cz,onetv.cz,sport.cz,super.cz##a[href*="?adurl="]
+fights.cz,horoskopy.cz,kinobox.cz,kupi.cz,nasepenize.cz,novinky.cz,onetv.cz,sport.cz,super.cz##a[href*="mondor_hopToSeti"]
 ||d49-a.sdn.cz^$image,domain=ahaonline.cz|info.cz|iprima.cz|kinobox.cz|kupi.cz|lidovky.cz|nasepenize.cz|novinky.cz|onetv.cz|sport.cz|super.cz
 ||userscontent.com^$image,domain=ahaonline.cz|info.cz|iprima.cz|kinobox.cz|kupi.cz|lidovky.cz|nasepenize.cz|novinky.cz|onetv.cz|sport.cz|super.cz
 horoskopy.cz,seznamzpravy.cz#$#hide-if-matches-xpath '//iframe[@src][@id]/parent::div[@class]/ancestor-or-self::div[@class][1][not(starts-with(@class,"twitter"))]'
@@ -1352,7 +1352,7 @@ www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[
 ! wp
 www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrizato]{11}|[Sponsrowane]{11}|[Anzeig]{6}|[Patrocnado]{11}|स्पॉन्सर्ड/ 'div#watch_feed div[class^="_"]' 'a[href="#"][role="link"]'; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrizato]{11}|[Sponsrowane]{11}|[Anzeig]{6}|[Patrocnado]{11}|स्पॉन्सर्ड/ 'div#watch_feed div[class^="_"]' 'a[href^="?__cft__"] span'; hide-if-contains-visible-text /./ 'div#watch_feed div[class^="_"]' 'span>a[aria-label][attributionsrc][href^="?__cft__"][role="link"]>span>span[aria-labelledby]'; hide-if-contains-visible-text /./ 'div#watch_feed div[class^="_"]' 'span>a[attributionsrc][href*="/ads/about/"][role="link"][tabindex="0"]>span'; hide-if-contains-visible-text /./ 'div#watch_feed div[class^="_"]' 'span>a[attributionsrc][href="#"][role="link"][tabindex="0"]>span>span[aria-labelledby]>span[style]'; race stop;
 ! det
-www.facebook.com,web.facebook.com#$#override-property-read Env.nxghljssj false; override-property-read GHLDetectionUtilsPreludeSafe.isJSONParseShimmedImpl falseFunc;
+www.facebook.com,web.facebook.com#$#override-property-read Env.xvsijlg4 false; override-property-read GHLDetectionUtilsPreludeSafe.isJSONParseShimmedImpl falseFunc;
 ! Rules that don't need to change
 @@||www.facebook.com^$generichide
 @@||web.facebook.com^$generichide
@@ -1881,7 +1881,7 @@ metruyenchu.com#$#abort-on-property-write window.onclick
 seltzerland.com#$#abort-on-property-read adsRedirectPopups
 linkneverdie.net,linkneverdie.top,linkneverdie2.com#$#abort-current-inline-script document.createElement optad; abort-on-property-read pushOnPageGala
 sex.javnong.cc#$#abort-on-property-read Math.round
-buomtv.media,phimmat.net,chuyentiepanimehay.one,cliphot69.shop,clipsexsub3x.net,damconuong.plus,demo.14412882.com,doctruyen3qhubk.com,dualeotruyenqr.com,goctruyentranhvui19.com,hentaivc.cc,hhtq5.vip,ihentai.network,javtiful.com,luottruyen3.com,lxmanga.space,misskon.com,motphim.pokemonviet.com,phim.mupnung3x.net,newtruyentranh8.com,phim18hdxx.com,phimlongtieng.net,phimsexhayvn96.com,quatvn.my,sayhentai.vc,sex.xinh3x.me,sexdiary.club,sexviet88.xyz,streamvl.top,truyenqqno.com,truyenvn.shop,umetruyenz.org,vevocloud.com,viet69.ly,viet69vn.at,vn2.xvideos69.xxx,vn6.sexviet88.xyz,www.sieutamphim.pro,yurineko.my#$#abort-current-inline-script WebAssembly instantiate
+buomtv.media,phimmat.net,chuyentiepanimehay.one,cliphot69.shop,clipsexsub3x.net,damconuong.plus,demo.14412882.com,doctruyen3qhubk.com,dualeotruyenqr.com,goctruyentranhvui19.com,hentaivc.cc,hhtq5.vip,ihentai.network,javtiful.com,luottruyen3.com,lxmanga.space,misskon.com,motphim.pokemonviet.com,phim.mupnung3x.net,newtruyentranh8.com,phim18hdxx.com,phimlongtieng.net,phimsexhayvn96.com,quatvn.my,sayhentai.vc,sex.xinh3x.me,sexdiary.club,sexviet88.xyz,streamvl.top,truyenqqno.com,truyenvn.shop,umetruyenz.org,vevocloud.com,viet69.ly,viet69vn.at,vn2.xvideos69.xxx,vn6.sexviet88.xyz,www.sieutamphim.pro,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
 teamlanhlung8.shop,vietsub.site,www.motchill51.com#$#abort-on-property-read localStorage
 xnhau.hot#$#prevent-listener click /acquirecardedsullen|POPUNDER_INTERVAL|lastPopunderTime/; abort-current-inline-script document.addEventListener lastPopunderTime;
 animevietsub.how,animevietsub.mx,hh3dhay.life,tram3d.online#$#abort-current-inline-script eval $._Eu
@@ -2358,6 +2358,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||acrosemeconin.com^
 ||afgodscarpe.com^
 ||ageismssoning.com^
+||airingsjerky.com^
 ||akhlamesouchy.com^
 ||algediduala.com^
 ||allicinarenig.com^
@@ -2438,6 +2439,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||climabetons.com^
 ||closishcool.com^
 ||cloudscape84.net^
+||cloutypartim.com^
 ||cluinglwo.qpon^
 ||coateebyth.com^
 ||coesitecubbing.com^
@@ -2459,6 +2461,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||curtcoracii.com^
 ||cuseccharm.com^
 ||cutoffclerks.com^
+||cuvetteacknown.com^
 ||cyberspace92.net^
 ||dabblespaver.com^
 ||dalkawe.com^
@@ -2510,6 +2513,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||fermataintima.com^
 ||filtreyoking.com^
 ||findcompere.com^
+||fletherpetos.com^
 ||flossedmoiled.com^
 ||fogramcolcine.com^
 ||fondleaegipan.shop^
@@ -2620,6 +2624,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||maihikuh.com^
 ||maltedsanxious.com^
 ||maltobrolly.com^
+||mambasscious.com^
 ||mappersavarish.com^
 ||maraywreath.com^
 ||martingfingian.com^
@@ -2727,6 +2732,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||scandiakenyan.com^
 ||scarcehepatitis.com^
 ||schizypdq.com^
+||schmoesnutcake.com^
 ||scrivencaccias.com^
 ||seamylygeum.com^
 ||seepedenticed.com^
@@ -2790,6 +2796,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||tiarajustina.com^
 ||tibiaescourer.com^
 ||tiepinshazings.com^
+||tiffysangei.com^
 ||tinnerydunging.com^
 ||togaefaffy.com^
 ||tollboagane.com^
