@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: AXjoyXGe5Y01CVFN5EjL0Q
-! Version: 202603271442
+! Checksum: cFVAT0T9NpIF7aoaqOEm2A
+! Version: 202603271541
 ! Title: ABP filters
-! Last modified: 27 Mar 2026 14:42 UTC
+! Last modified: 27 Mar 2026 15:41 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -621,9 +621,9 @@ slashdot.org#$#abort-current-inline-script Element.prototype.setAttribute /asloa
 slashdot.org#$#abort-on-property-write EventTarget.prototype.addEventListener;
 wetter.com#$#override-property-read wcomAdBlock noopFunc false
 spendwithpennies.com#$#abort-current-inline-script document.createElement /html-load/
-amybakesbread.com,downshiftology.com,halfbakedharvest.com,krollskorner.com,natashaskitchen.com,onceuponachef.com,sallysbakingaddiction.com,simply-delicious-food.com,skinnytaste.com,spendwithpennies.com,tastesbetterfromscratch.com,themediterraneandish.com,thewoksoflife.com,titlecaseconverter.com,whec.com#$#replace-xhr-response /[\s\S]*/ '' /pub_300x250/
-amybakesbread.com,downshiftology.com,halfbakedharvest.com,krollskorner.com,natashaskitchen.com,onceuponachef.com,sallysbakingaddiction.com,simply-delicious-food.com,skinnytaste.com,spendwithpennies.com,tastesbetterfromscratch.com,themediterraneandish.com,thewoksoflife.com,titlecaseconverter.com,whec.com#$#abort-on-property-read Intl.DateTimeFormat false
-@@||*/abd.js^$domain=amybakesbread.com|downshiftology.com|halfbakedharvest.com|krollskorner.com|natashaskitchen.com|onceuponachef.com|sallysbakingaddiction.com|simply-delicious-food.com|skinnytaste.com|spendwithpennies.com|tastesbetterfromscratch.com|themediterraneandish.com|thewoksoflife.com|titlecaseconverter.com|whec.com
+amybakesbread.com,downshiftology.com,halfbakedharvest.com,krollskorner.com,natashaskitchen.com,onceuponachef.com,sallysbakingaddiction.com,simply-delicious-food.com,skinnytaste.com,spendwithpennies.com,tastesbetterfromscratch.com,theloopywhisk.com,themediterraneandish.com,thewoksoflife.com,titlecaseconverter.com,whec.com#$#replace-xhr-response /[\s\S]*/ '' /pub_300x250/
+amybakesbread.com,downshiftology.com,halfbakedharvest.com,krollskorner.com,natashaskitchen.com,onceuponachef.com,sallysbakingaddiction.com,simply-delicious-food.com,skinnytaste.com,spendwithpennies.com,tastesbetterfromscratch.com,theloopywhisk.com,themediterraneandish.com,thewoksoflife.com,titlecaseconverter.com,whec.com#$#abort-on-property-read Intl.DateTimeFormat false
+@@||*/abd.js^$domain=amybakesbread.com|downshiftology.com|halfbakedharvest.com|krollskorner.com|natashaskitchen.com|onceuponachef.com|sallysbakingaddiction.com|simply-delicious-food.com|skinnytaste.com|spendwithpennies.com|tastesbetterfromscratch.com|theloopywhisk.com|themediterraneandish.com|thewoksoflife.com|titlecaseconverter.com|whec.com
 ||error-report.com^$domain=programme.tv
 ||*/loader.min.js^$script,domain=programme.tv
 programme.tv^$csp=script-src-attr 'none'
@@ -1057,7 +1057,7 @@ vidmoly.*#$#override-property-read HTMLAnchorElement.prototype.click noopFunc; p
 apnetv.xys#$#abort-on-property-write adScript.src; abort-current-inline-script document.createElement loadScript
 krakenfiles.com#$#prevent-listener DOMContentLoaded window.location.href; override-property-read redirectUrls.length 0;
 abtranny.com#$#abort-current-inline-script document.createElement popunder_ssp_url; abort-current-inline-script document.createElement vast_url; override-property-read _834t32miib undefined
-seriesonline.*,vidup.to,watchseries.*#$#abort-current-inline-script addEventListener HTMLAllCollection;
+seriesonline.*,vsembed.*,vidup.to,watchseries.*#$#abort-current-inline-script addEventListener HTMLAllCollection;
 streamingcommunityz.*,watchflix.*#$#abort-on-property-read dispatchEvent; hide-if-matches-xpath './/div[(@style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;") or (@class and starts-with(@style, "pointer-events: none; position: absolute; top: 0px; left: 0px; width:"))]';
 smashyplayer.*#$#abort-on-property-write cache_loader
 4anime.*#$#abort-current-inline-script eval /break;case \$\./
@@ -2548,6 +2548,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||enrolcopals.com^
 ||enstatehelibus.com^
 ||enstoolpart.com^
+||eodnprwxgjixj.online^
 ||epicureholer.com^
 ||epidemictuna.com^
 ||erodiumvodums.com^
@@ -2652,6 +2653,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||kolhozclarain.com^
 ||kosseanmudpack.com^
 ||krubutedessan.com^
+||5e4316klk7bv7c.rest^
 ||kueunpick.com^
 ||lakeletbothria.com^
 ||languestweezed.com^
@@ -2856,6 +2858,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||tuckedshowing.com^
 ||turbodeter.com^
 ||twiltpyoid.com^
+||qujye8zbujrup1g7g.cfd^
 ||tyliontentful.com^
 ||tzetzessmoking.com^
 ||uncodedsmoothy.com^
