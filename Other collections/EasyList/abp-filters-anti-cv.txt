@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: jbQX8TFYlk8UzXWYc0ASbA
-! Version: 202603301311
+! Checksum: 6t7+pUdzHjeH9xXfnRk7dw
+! Version: 202603301451
 ! Title: ABP filters
-! Last modified: 30 Mar 2026 13:11 UTC
+! Last modified: 30 Mar 2026 14:51 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -621,9 +621,9 @@ slashdot.org#$#abort-current-inline-script Element.prototype.setAttribute /asloa
 slashdot.org#$#abort-on-property-write EventTarget.prototype.addEventListener;
 wetter.com#$#override-property-read wcomAdBlock noopFunc false
 spendwithpennies.com#$#abort-current-inline-script document.createElement /html-load/
-amybakesbread.com,downshiftology.com,halfbakedharvest.com,krollskorner.com,natashaskitchen.com,onceuponachef.com,sallysbakingaddiction.com,simply-delicious-food.com,skinnytaste.com,spendwithpennies.com,tastesbetterfromscratch.com,theloopywhisk.com,themediterraneandish.com,thewoksoflife.com,titlecaseconverter.com,whec.com#$#replace-xhr-response /[\s\S]*/ '' /pub_300x250/
-amybakesbread.com,downshiftology.com,halfbakedharvest.com,krollskorner.com,natashaskitchen.com,onceuponachef.com,sallysbakingaddiction.com,simply-delicious-food.com,skinnytaste.com,spendwithpennies.com,tastesbetterfromscratch.com,theloopywhisk.com,themediterraneandish.com,thewoksoflife.com,titlecaseconverter.com,whec.com#$#abort-on-property-read Intl.DateTimeFormat false
-@@||*/abd.js^$domain=amybakesbread.com|downshiftology.com|halfbakedharvest.com|krollskorner.com|natashaskitchen.com|onceuponachef.com|sallysbakingaddiction.com|simply-delicious-food.com|skinnytaste.com|spendwithpennies.com|tastesbetterfromscratch.com|theloopywhisk.com|themediterraneandish.com|thewoksoflife.com|titlecaseconverter.com|whec.com
+amybakesbread.com,disneydining.com,disneyfoodblog.com,downshiftology.com,halfbakedharvest.com,krollskorner.com,natashaskitchen.com,onceuponachef.com,sallysbakingaddiction.com,simply-delicious-food.com,skinnytaste.com,spendwithpennies.com,tastesbetterfromscratch.com,theloopywhisk.com,themediterraneandish.com,thewoksoflife.com,titlecaseconverter.com,whec.com#$#replace-xhr-response /[\s\S]*/ '' /pub_300x250/
+amybakesbread.com,disneydining.com,disneyfoodblog.com,downshiftology.com,halfbakedharvest.com,krollskorner.com,natashaskitchen.com,onceuponachef.com,sallysbakingaddiction.com,simply-delicious-food.com,skinnytaste.com,spendwithpennies.com,tastesbetterfromscratch.com,theloopywhisk.com,themediterraneandish.com,thewoksoflife.com,titlecaseconverter.com,whec.com#$#abort-on-property-read Intl.DateTimeFormat false
+@@||*/abd.js^$domain=amybakesbread.com|disneydining.com|disneyfoodblog.com|downshiftology.com|halfbakedharvest.com|krollskorner.com|natashaskitchen.com|onceuponachef.com|sallysbakingaddiction.com|simply-delicious-food.com|skinnytaste.com|spendwithpennies.com|tastesbetterfromscratch.com|theloopywhisk.com|themediterraneandish.com|thewoksoflife.com|titlecaseconverter.com|whec.com
 ||error-report.com^$domain=programme.tv
 ||*/loader.min.js^$script,domain=programme.tv
 programme.tv^$csp=script-src-attr 'none'
@@ -1459,6 +1459,7 @@ mairesdefrance.com##div>a[href*="smartadserver.com"]
 fs-miroir6.lol##div[style^="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;"] {remove:true;}
 journaldugeek.com#$#hide-if-matches-xpath './/div[contains(@class,"bg-neutral-100")]/following::div[contains(@id,"adslot")][@style]/ancestor::div[contains(@class,"text-center")]'
 fs14.lol,fss.lol#$#abort-current-inline-script String.fromCharCode 2147483647
+ledemondujeu.com#$#prevent-element-src-loading script player.fabster.com
 ! Popup/Popunder
 french-streams.com,down-paradise.com,mega-p2p.net,jetanimes.*,voirseries.*#$#abort-on-property-read open
 manga-scantrad.net,toonanime.*#$#abort-current-inline-script document.querySelectorAll popMagic
