@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: oSgNCxv3jlNGFSp25P6zbg
-! Version: 202604011142
+! Checksum: PrwGL8EWKqkKOQuvSA2etw
+! Version: 202604011311
 ! Title: ABP filters
-! Last modified: 01 Apr 2026 11:42 UTC
+! Last modified: 01 Apr 2026 13:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1063,6 +1063,7 @@ smashyplayer.*#$#abort-on-property-write cache_loader
 4anime.*#$#abort-current-inline-script eval /break;case \$\./
 mov2day.*#$#abort-on-property-read LieDetector; abort-on-property-read window.open; abort-current-inline-script String.fromCharCode 2147483647
 rootz.so#$#prevent-listener click preventDefault; abort-on-property-read window.open
+hdstream4u.com#$#hide-if-matches-xpath '//div[starts-with(@style,"position:fixed;inset:0;z-index:2147483647;background:black;opacity:0.01")]/ancestor-or-self::div[1]'; cookie-remover aff
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 bagas31.info#$#abort-on-property-write atob
@@ -2408,6 +2409,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ##[href="https://adstub.net/gaza88/"]
 ##img[width="728"][height="90"]
 ! *** abp-filters-anti-cv:3rd-party/adservers.txt ***
+||2tk74zbwj5h394.cfd^
 ||30orbine.net^
 ||33brisk.net^
 ||35processors.net^
