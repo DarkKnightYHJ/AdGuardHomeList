@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: G+MYYdJDBbdCZtHI3FR74g
-! Version: 202604020952
+! Checksum: 6uWnuv8EsdBlnP2S+Qpf+w
+! Version: 202604021131
 ! Title: ABP filters
-! Last modified: 02 Apr 2026 09:52 UTC
+! Last modified: 02 Apr 2026 11:31 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1064,6 +1064,8 @@ smashyplayer.*#$#abort-on-property-write cache_loader
 mov2day.*#$#abort-on-property-read LieDetector; abort-on-property-read window.open; abort-current-inline-script String.fromCharCode 2147483647
 rootz.so#$#prevent-listener click preventDefault; abort-on-property-read window.open
 hdstream4u.com#$#hide-if-matches-xpath '//div[starts-with(@style,"position:fixed;inset:0;z-index:2147483647;background:black;opacity:0.01")]/ancestor-or-self::div[1]'; cookie-remover aff
+sulasok.*,sulasokvids.*#$#abort-current-inline-script  Date.now shouldRun;
+vidara.*#$#abort-on-property-read popundersPerIP; abort-current-inline-script String.fromCharCode 2147483647
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 bagas31.info#$#abort-on-property-write atob
@@ -1368,6 +1370,7 @@ onecall2ch.com#$#hide-if-matches-xpath './/div[contains(@class,"-ad") or contain
 ||spiritednow.xyz/ad^$subdocument,domain=pressian.com
 appmedia.jp#$#hide-if-matches-xpath './/div[contains(@id,"ad_")]/parent::div[1]'
 ||i2ad.jp^$third-party,domain=appmedia.jp
+chichi-pui.com#$#hide-if-matches-xpath './/*[@class]/ancestor::aside[contains(@class,"advertisement")]'
 ! Korean sites
 style24.com#$#simulate-mouse-event 'xpath(.//div[@class="popup_main_notice"]//a[@id="btnPopupClose"][@onclick])$delay=0'
 style24.com#$#simulate-mouse-event 'xpath(.//div[@id="popupMainNotice"]//a[@id="btnPopupClose"][@onclick])$delay=0'
