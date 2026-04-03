@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: tQ4SgwAxieRch3qj+Ke9aA
-! Version: 202604031032
+! Checksum: 0PhnM9gbFxkOvY87Ahtg4w
+! Version: 202604031121
 ! Title: EasyPrivacy
-! Last modified: 03 Apr 2026 10:32 UTC
+! Last modified: 03 Apr 2026 11:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -9303,6 +9303,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||livestory.io/*/collect
 ||llama.fi/script.js
 ||lma.npaw.com^
+||lnk.to/~/tr/visit
 ||loader-cdn.azureedge.net^
 ||loader.mantis-intelligence.com^
 ||location3.com/analytics/
@@ -10022,6 +10023,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||smartertravel.com/ext/pixel/
 ||smarthint.co/Scripts/i/SmartHintTrack.Full.min.js
 ||smarthint.co/track/
+||smarturl.it/~/tr/visit
 ||smrt.as^
 ||snapkit.com/v1/sdk/metrics/
 ||snaps.vidiemi.com^$third-party
@@ -53279,6 +53281,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||cbsi.map.fastly.net^
 @@||content.ingbank.pl^
 @@||ct.ddc.venmo.com.fpc.datadome.co^$domain=id.venmo.com
+@@||curiositystream.com.first-party-js.datadome.co^$script,domain=curiositystream.com
 @@||datadome.garena.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=auth.garena.com
 @@||dd.blackhawknetwork.com.first-party-js.datadome.co^$domain=redeem.rewardlink.com
 @@||dd.qa.moneygram.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=moneygram.com
