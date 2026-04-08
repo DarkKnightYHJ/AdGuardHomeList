@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: tSffrdhRosqhEUb9cKFqvA
-! Version: 202604081142
+! Checksum: bHpVKHz5xJwUhf3rn8j6hA
+! Version: 202604081302
 ! Title: ABP filters
-! Last modified: 08 Apr 2026 11:42 UTC
+! Last modified: 08 Apr 2026 13:02 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -621,9 +621,9 @@ slashdot.org#$#abort-current-inline-script Element.prototype.setAttribute /asloa
 slashdot.org#$#abort-on-property-write EventTarget.prototype.addEventListener;
 wetter.com#$#override-property-read wcomAdBlock noopFunc false
 spendwithpennies.com#$#abort-current-inline-script document.createElement /html-load/
-amazingribs.com,amybakesbread.com,budgetbytes.com,disneydining.com,disneyfoodblog.com,downshiftology.com,halfbakedharvest.com,krollskorner.com,natashaskitchen.com,onceuponachef.com,recipetineats.com,sallysbakingaddiction.com,simply-delicious-food.com,skinnytaste.com,spendwithpennies.com,tastesbetterfromscratch.com,theloopywhisk.com,themediterraneandish.com,thewoksoflife.com,titlecaseconverter.com,whec.com#$#replace-xhr-response /[\s\S]*/ '' /pub_300x250/
-amazingribs.com,amybakesbread.com,budgetbytes.com,disneydining.com,disneyfoodblog.com,downshiftology.com,halfbakedharvest.com,krollskorner.com,natashaskitchen.com,onceuponachef.com,recipetineats.com,sallysbakingaddiction.com,simply-delicious-food.com,skinnytaste.com,spendwithpennies.com,tastesbetterfromscratch.com,theloopywhisk.com,themediterraneandish.com,thewoksoflife.com,titlecaseconverter.com,whec.com#$#abort-on-property-read Intl.DateTimeFormat false
-@@||*/abd.js^$domain=amazingribs.com|amybakesbread.com|budgetbytes.com|disneydining.com|disneyfoodblog.com|downshiftology.com|halfbakedharvest.com|krollskorner.com|natashaskitchen.com|onceuponachef.com|recipetineats.com|sallysbakingaddiction.com|simply-delicious-food.com|skinnytaste.com|spendwithpennies.com|tastesbetterfromscratch.com|theloopywhisk.com|themediterraneandish.com|thewoksoflife.com|titlecaseconverter.com|whec.com
+acouplecooks.com,amazingribs.com,amybakesbread.com,budgetbytes.com,disneydining.com,disneyfoodblog.com,downshiftology.com,halfbakedharvest.com,krollskorner.com,natashaskitchen.com,onceuponachef.com,recipetineats.com,sallysbakingaddiction.com,simply-delicious-food.com,skinnytaste.com,spendwithpennies.com,tastesbetterfromscratch.com,theloopywhisk.com,themediterraneandish.com,thewoksoflife.com,titlecaseconverter.com,whec.com#$#replace-xhr-response /[\s\S]*/ '' /pub_300x250/
+acouplecooks.com,amazingribs.com,amybakesbread.com,budgetbytes.com,disneydining.com,disneyfoodblog.com,downshiftology.com,halfbakedharvest.com,krollskorner.com,natashaskitchen.com,onceuponachef.com,recipetineats.com,sallysbakingaddiction.com,simply-delicious-food.com,skinnytaste.com,spendwithpennies.com,tastesbetterfromscratch.com,theloopywhisk.com,themediterraneandish.com,thewoksoflife.com,titlecaseconverter.com,whec.com#$#abort-on-property-read Intl.DateTimeFormat false
+@@||*/abd.js^$domain=acouplecooks.com|amazingribs.com|amybakesbread.com|budgetbytes.com|disneydining.com|disneyfoodblog.com|downshiftology.com|halfbakedharvest.com|krollskorner.com|natashaskitchen.com|onceuponachef.com|recipetineats.com|sallysbakingaddiction.com|simply-delicious-food.com|skinnytaste.com|spendwithpennies.com|tastesbetterfromscratch.com|theloopywhisk.com|themediterraneandish.com|thewoksoflife.com|titlecaseconverter.com|whec.com
 ||error-report.com^$domain=programme.tv
 ||*/loader.min.js^$script,domain=programme.tv
 programme.tv^$csp=script-src-attr 'none'
