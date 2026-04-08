@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: bHpVKHz5xJwUhf3rn8j6hA
-! Version: 202604081302
+! Checksum: C7+XwzzFbw+3nh2OmgC4hw
+! Version: 202604081452
 ! Title: ABP filters
-! Last modified: 08 Apr 2026 13:02 UTC
+! Last modified: 08 Apr 2026 14:52 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1074,6 +1074,7 @@ vidara.*#$#abort-on-property-read popundersPerIP; abort-current-inline-script St
 ||1337x.*/ma.js^$domain=1337x.to
 1337x.*#$#abort-on-property-write window.onload false
 younetu.*#$#abort-on-property-read doSecondPop
+netu.ac#$#abort-on-property-read BetterJsPop; abort-on-property-read PopURL; abort-on-property-write window.open; abort-current-inline-script document.createElement 'delete window'; override-property-read adblockcheck false;
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 bagas31.info#$#abort-on-property-write atob
