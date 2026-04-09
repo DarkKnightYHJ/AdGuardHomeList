@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: UWalTqn5swFDThdwkXzt/w
-! Version: 202604091512
+! Checksum: dmmQjtHXHt3LDau+a9lFBw
+! Version: 202604091652
 ! Title: EasyPrivacy
-! Last modified: 09 Apr 2026 15:12 UTC
+! Last modified: 09 Apr 2026 16:52 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -345,6 +345,7 @@
 /api-insights/log?
 /api/0/stats
 /api/adplogger/*
+/api/ads-bff-client/*
 /api/adtracking$xmlhttprequest
 /api/async.php?t=user&m=pagehits&
 /api/bfb_write_log
@@ -11416,6 +11417,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||66hao.cc^
 ||adv-sv-stat.focus.cn^
 ||aixifan.com/acsdk/log.min.js?
+||aizhantj.com*/tjpv/?cc=
 ||alicdn.com/tkapi/click.js
 ||alimama.cn/inf.js
 ||alipay.com/common/um/lsa.swf
