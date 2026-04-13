@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: K8JRl5iNjVm76R7/gayj3g
-! Version: 202604131751
+! Checksum: +FEp6PTIa/3zV45vtrZR0Q
+! Version: 202604131912
 ! Title: ABP filters
-! Last modified: 13 Apr 2026 17:51 UTC
+! Last modified: 13 Apr 2026 19:12 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1032,7 +1032,7 @@ torkitty.*#$#prevent-listener click handlePopunder
 /api/users/*&ev=*$script,domain=supjav.com
 streamm4u.com.co#$#prevent-listener beforeunload (); abort-on-property-write _g_sb_click
 lukesitturn.com,voe.sx,xatovjatsosg.com#$#abort-on-property-write window.zfgloadedinpage;
-moviesapi.*,primewire.*,vidfast.*,vidlink.*#$#abort-on-property-read runPop;
+moviesapi.*,primewire.*,vidfast.*,vidlink.*#$#abort-on-property-read runPop; abort-current-inline-script TextEncoder /shown_at/;
 ||*.website/*^$xmlhttprequest,domain=knaben.xyz
 hyhd.org,knaben.xyz,vidsrc-embed.ru#$#abort-on-property-read Adcash
 actvid.*,cataz.*,cineb.*,himovies.sx,movies2watch.tv,movies4us.co,musichq.*,theflixertv.*#$#abort-on-property-write window.open; abort-current-inline-script addEventListener HTMLAllCollection;
