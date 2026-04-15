@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 4e+75M5cqcw+48ZMCu7phw
-! Version: 202604151331
+! Checksum: picJiCq+20ZyWxPBHFGtBg
+! Version: 202604151451
 ! Title: ABP filters
-! Last modified: 15 Apr 2026 13:31 UTC
+! Last modified: 15 Apr 2026 14:51 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1930,7 +1930,7 @@ afamily.vn,cafef.vn,gamek.vn,genk.vn,kenh14.vn,soha.vn,thanhnien.vn,tuoitre.vn#$
 bongda365f.com#$#override-property-read isSkipAds true
 znews.vn#$#abort-on-property-read adtimaConfig
 baomoi.com#$#abort-on-property-write AdtimaRender
-northernlightsccs.com#$#override-property-read adsPlayer ''; override-property-read adsTvcs ''
+jurasudfoot.com#$#override-property-read adsPlayer ''; override-property-read adsTvcs ''
 kenh14.vn#$#override-property-read Constants.allowAds false
 vndoc.com#$#override-property-read seconds 0
 mphim.top#$#override-property-read urlAds ''
@@ -1938,7 +1938,7 @@ n.thapcam53.pro#$#simulate-mouse-event '#modalasd$continue,delay=300'
 animet.org,motchillzz.site,xemphim.site#$#override-property-read maxAds 0
 www.iosviet.com#$#override-property-read timer 0
 saigon24.net#$#abort-current-inline-script document.getElementById myModal
-northernlightsccs.com#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
+jurasudfoot.com#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
 www.diendancauduong.com#$#abort-on-property-read antiAdBlockerHandler
 xem16.net#$#json-prune props.children.[].props.tvc
 hh2d.top#$#abort-current-inline-script $ adblock
@@ -2006,7 +2006,7 @@ audiotruyenfull.com,teamlanhlungday.store,trumtruyen.xyz,www.motchill55.com#$#ab
 pheclip.site,phim18vip.top,sieudam.sh#$#abort-current-inline-script $ pop
 quykhu.com#$#abort-current-inline-script document.addEventListener atob
 thiendia3.com#$#abort-current-inline-script document.addEventListener adState
-northernlightsccs.com#$#abort-current-inline-script jQuery open
+jurasudfoot.com#$#abort-current-inline-script jQuery open
 michorussellweekend.ie,onflix.my,phimmoichill.so#$#prevent-listener click ads
 www.asu.baby#$#abort-on-property-read initialAdURLs
 cocoa-luxury.com#$#abort-current-inline-script window.addEventListener Ads
