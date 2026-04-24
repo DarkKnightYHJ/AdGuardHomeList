@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 7i4RA14t1Ufqf1GE/IirOg
-! Version: 202604241451
+! Checksum: ZvQOTMyFNEJhvA4ktIME0A
+! Version: 202604241641
 ! Title: ABP filters
-! Last modified: 24 Apr 2026 14:51 UTC
+! Last modified: 24 Apr 2026 16:41 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -497,7 +497,7 @@ bab.la,collinsdictionary.com,dictionary.cambridge.org,gazetaprawna.pl,loawa.com,
 dictionary.cambridge.org,loawa.com,malaymail.com#$#abort-current-inline-script setTimeout /EventTarget.*prototype.*addEventListener.*Map/
 huffpost.com#$#json-prune 'RT-1562-AdShield-script-on-Huffpost RT-1720-ads_bullwhip-hp'
 bab.la,collinsdictionary.com,dictionary.cambridge.org,gazetaprawna.pl,gutefrage.net,loawa.com,sankei.com,sourceforge.net,timesofindia.indiatimes.com,tz.de,winfuture.de#$#override-property-read googletag emptyObj; event-override message disable /^r_/; prevent-listener message /postMessage|error-report|adb/;
-bab.la,collinsdictionary.com,gazetaprawna.pl,gutefrage.net,loawa.com,sankei.com,sourceforge.net,timesofindia.indiatimes.com,tz.de,winfuture.de#$#override-property-read performance.getEntriesByType noopFunc; override-property-read window.requestIdleCallback undefined; override-property-read ResizeObserver undefined;
+bab.la,collinsdictionary.com,gazetaprawna.pl,gutefrage.net,sankei.com,sourceforge.net,timesofindia.indiatimes.com,tz.de,winfuture.de#$#override-property-read performance.getEntriesByType noopFunc; override-property-read window.requestIdleCallback undefined; override-property-read ResizeObserver undefined;
 timesofindia.indiatimes.com#$#abort-on-iframe-property-read localStorage; override-property-read pbjs emptyObj; abort-on-iframe-property-read sessionStorage; override-property-read dataLayer emptyArray; abort-on-iframe-property-read caches;
 pons.com#$#override-property-read performance.getEntriesByType noopFunc; override-property-read window.requestIdleCallback undefined;
 ||0.loader.gutefrage.net/article^$script,domain=gutefrage.net
@@ -1464,9 +1464,9 @@ lephoceen.fr##div[class*="ad_ad__"]
 ||mssjxgfk.gos.autoplus.fr^$script
 ||ovtyvnei.g00.closermag.fr^$script
 ! #CV-368
-extreme-down.*,extreme-download.*,voiranime.com#$#abort-on-property-read NativeAd
+extreme-down.*,extreme-download.*,voiranime.*#$#abort-on-property-read NativeAd
 ! #CV-667
-voiranime.com#$#abort-current-inline-script document.createElement String.fromCharCode
+voiranime.*#$#abort-current-inline-script document.createElement String.fromCharCode
 extreme-down.*,extreme-download.*,filmtelecharger.net,libertyvf.co,libertyvf.com,libertyvf.tv,streaming-one.com#$#abort-current-inline-script Math zfgloaded
 ! MISC
 hqq.*,netu.tv#$#abort-on-property-read ownerid
@@ -1684,6 +1684,9 @@ filmehd.to#$#hide-if-matches-xpath './/a[@title]/img[@src][@alt][@style]/ancesto
 /dwarf.js^$domain=filmehd.to
 /js/dnsads.js?*^$domain=filmehd.to
 filmehd.to##iframe[src][style]
+! MISC
+hotnews.ro#$#abort-current-inline-script document.getElementById /hn-skin-wrap/
+hotnews.ro#$#hide-if-matches-xpath './/source/following-sibling::img[@src]/parent::picture/ancestor::a[contains(@rel,"sponsored")]'
 ! *** abp-filters-anti-cv:russian.txt ***
 ! #CV-244
 zen.yandex.ru##div[class*="is-parent-size_undefined"]
