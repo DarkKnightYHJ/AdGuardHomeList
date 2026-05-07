@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PDTs4aycDwastT3qzKBcJg
-! Version: 202605062341
+! Checksum: IAd5JshANCshy1TEFxPriA
+! Version: 202605070231
 ! Title: EasyList China
-! Last modified: 06 May 2026 23:41 UTC
+! Last modified: 07 May 2026 02:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -18778,12 +18778,14 @@ bejson.com##img[src^="data"]
 !#bing.com
 ||bing.com/AdsFetch?
 bing.com##.OpInNwWndw
+cn.bing.com##.b_bza_pole
 bing.com##.b_algo:has(.ad_esltitle)
 bing.com##.b_algo:has(.b_ads1line)
 bing.com##li[class="b_algo"]:has(.b_attribution[data-partnertag]+p[class])
 bing.com##.sb_form_placeholder:has(>.ad-ghost-slug)
 bing.com###b_results > li:has(.b_adProvider)
-cn.bing.com##.b_bza_pole
+bing.com,~www.bing.com##.b_algo:has(p[style="display: none !important;"])
+bing.com,~www.bing.com#?#.b_algo p:-abp-properties(display: inline-block;)
 !#Bingfeng.tw
 bingfeng.tw###adbt
 bingfeng.tw##.wow-ad-link
