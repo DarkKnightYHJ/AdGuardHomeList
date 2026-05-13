@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: r2/A91A4gtsmd0nnsNZf1g
-! Version: 202605131602
+! Checksum: HQ1NVNxv/nYfWAQeMw31xA
+! Version: 202605131842
 ! Title: EasyList China+EasyList
-! Last modified: 13 May 2026 16:02 UTC
+! Last modified: 13 May 2026 18:42 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -105501,6 +105501,7 @@ mangadex.org##a[href^="https://www.runoperagx.com/"]
 yandex.com##a[href^="https://yandex.ru/an/count/"]
 healthline.com##article > [class] > [class^="css"]:has([data-ad="true"])
 top.gg##article.items-start:has(a[rel="sponsored"])
+top.gg##article.w-full.flex.flex-col:has(a[rel="sponsored"])
 9gag.com##article:has(.promoted)
 mg.co.za##article:has(.sponsored-single)
 tympanus.net##article:has(header:has(.ct-sponsored))
