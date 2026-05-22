@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: B4+ltpy1la/B1JcrNsie+w
-! Version: 202605221611
+! Checksum: +8eYdZjex/HPH7dFUQup6A
+! Version: 202605221841
 ! Title: ABP filters
-! Last modified: 22 May 2026 16:11 UTC
+! Last modified: 22 May 2026 18:41 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -58,6 +58,7 @@ ahri8.top,madouqu.com#$#abort-current-inline-script document.querySelectorAll po
 editcode.net#$#abort-current-inline-script setTimeout openAd
 69xx.one,theav.xyz,theporn.cc#$#override-property-read is_show false
 18ky3.com#$#override-property-read open noopFunc
+8tsu.net#$#abort-on-property-read open
 ! Video ads
 iyingshi9.tv#$#override-property-read YZM.ads.state false
 tvbanywherena.com#$#strip-fetch-query-parameter ad_config_id
@@ -1206,6 +1207,7 @@ tranny.one#$#abort-on-property-read trAdLibLoaded
 attackertv.vip#$#abort-on-iframe-property-read open
 player.videasy.net,vidfast.*,embdmstrplayer.com#$#abort-on-iframe-property-read open
 noodlemagazine.com,ukdevilz.com#$#override-property-read zfgcodeloadedonclick 1
+stravers.live#$#json-prune list
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 bagas31.info#$#abort-on-property-write atob
