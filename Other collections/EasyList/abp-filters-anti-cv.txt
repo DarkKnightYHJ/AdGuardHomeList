@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: wHd4Pa2rg9MGq3aVhnAzEQ
-! Version: 202605280741
+! Checksum: BSBjhGaPVIRFak/2oHW80A
+! Version: 202605281121
 ! Title: ABP filters
-! Last modified: 28 May 2026 07:41 UTC
+! Last modified: 28 May 2026 11:21 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1197,8 +1197,8 @@ multiup.io#$#abort-current-inline-script decodeURI decodeURIComponent; abort-cur
 m1xdrop.*#$#abort-current-inline-script document.createElement; abort-on-property-read window.open;
 flixcdn.*,moviesapi.*#$#abort-on-property-write cache_loader.init; abort-on-property-read window.open
 vidora.*#$#override-property-read cRAds false
-myflixerfree.com#$#abort-on-property-write _showApk
-korean18x.com,movies2watch.*,youtubetoany.com#$#abort-current-inline-script atob popundersPerIP
+myflixerfree.com,streamm4u.*#$#abort-on-property-write _showApk
+hypnoporn.net,korean18x.com,movies2watch.*,youtubetoany.com#$#abort-current-inline-script atob popundersPerIP
 fbox.art,youtubetoany.com#$#abort-on-property-write zfgformats; abort-on-property-write window.open; abort-current-inline-script EventTarget.prototype.addEventListener 'delete window';
 attackertv.vip,movies2watch.*#$#abort-on-property-write zfgformats;
 putlocker.best#$#abort-current-inline-script Math.random _yyvciulw; abort-on-property-read aclib false;
@@ -1209,6 +1209,7 @@ player.videasy.net,vidfast.*,embdmstrplayer.com#$#abort-on-iframe-property-read 
 noodlemagazine.com,ukdevilz.com#$#override-property-read zfgcodeloadedonclick 1
 stravers.live#$#json-prune list
 hentaipins.com,tube18.*#$#abort-current-inline-script pop_init; abort-on-property-read popundrCheck;
+vidzy.*#$#abort-on-property-write cRAds
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 bagas31.info#$#abort-on-property-write atob
@@ -2135,7 +2136,7 @@ metruyenchu.com#$#abort-on-property-write window.onclick
 prevailion.com#$#abort-on-property-read adsRedirectPopups
 linkneverdie.net,linkneverdie.top,linkneverdie2.com#$#abort-current-inline-script document.createElement optad; abort-on-property-read pushOnPageGala
 sex.javnong.cc#$#abort-on-property-read Math.round
-buomtv.life,phimsex247.net,animehay03.site,cliphot69.wiki,clipphimsex3x.net,damconuong.lol,demo.14412882.com,doctruyen3qhub.org,dualeotruyengl.com,hentaivkl.com,hhtq5.vip,qmanga.art,javtiful.com,luottruyen6.com,lxmanga.space,misskon.com,mupsexphim.com,newtruyentranh10.com,phim18hdxx.com,phimlongtieng.net,phimsexhayvzz.com,quatvn.my,sayhentai.sh,sex.xinh3x.me,sexdiary.club,sexviet88.it.com,streamvl.top,truyenqqko.com,truyenvn.sbs,umetruyenz.org,vevocloud.com,viet69.be,viet69vn.at,vn2.xvideos69.xxx,sexviet88.it.com,www.sieutamphim.pro,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
+buomtv.life,phimsex247.net,animehay03.site,cliphot69.wiki,clipphimsex3x.net,damconuong.lol,demo.14412882.com,doctruyen3qhub.org,dualeotruyengl.com,hentaivkl.com,hhtq5.vip,qmanga.art,javtiful.com,luottruyen6.com,lxmanga.space,misskon.com,mupsexphim.com,phim18hdxx.com,phimlongtieng.net,phimsexhayvzz.com,quatvn.my,sayhentai.sh,sex.xinh3x.me,sexdiary.club,sexviet88.it.com,streamvl.top,truyenqqko.com,truyenvn.sbs,umetruyenz.org,vevocloud.com,viet69.be,viet69vn.at,vn2.xvideos69.xxx,sexviet88.it.com,www.sieutamphim.pro,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
 teamlanhlung8.shop,javgiga.wordpress.com,www.aphim6.com#$#abort-on-property-read localStorage
 xnhau.shop#$#prevent-listener click /acquirecardedsullen|POPUNDER_INTERVAL|lastPopunderTime/; abort-current-inline-script document.addEventListener lastPopunderTime;
 animevietsub.site,animevietsub.site,hh3dhay.life,tram3d.online#$#abort-current-inline-script eval $._Eu
@@ -2151,7 +2152,6 @@ tctruyen.org#$#abort-current-inline-script $ popup
 phim.haysex.asia,truyenqqtto.com#$#abort-current-inline-script Promise /break|case/
 ombak700.org#$#abort-on-property-read sp
 phimtho.cc#$#abort-current-inline-script $ p0pUpRandom
-tailieumoi.vn#$#override-property-read linkAff null
 cunghocvui.com#$#abort-current-inline-script document.addEventListener opened_window_shoppe
 truyensextv.com,yanhh3d.ad,z.chinav.sex#$#abort-current-inline-script document.addEventListener opup
 imail.edu.vn#$#abort-current-inline-script setTimeout Aff; abort-current-inline-script setTimeout ad_block
