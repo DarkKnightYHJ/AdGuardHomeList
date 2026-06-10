@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: poSKzgOu9RoPyKagOnm0xA
-! Version: 202606101242
+! Checksum: LFddd2AhXDPzvbOXOgm46w
+! Version: 202606101622
 ! Title: ABP filters
-! Last modified: 10 Jun 2026 12:42 UTC
+! Last modified: 10 Jun 2026 16:22 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -2546,6 +2546,7 @@ sameday.costco.*##div[id]:has(> a[href*="/brands/"] img[src*="display.instacart.
 sameday.costco.*##div[id]:has(> a[href*="/store/costco/brands/"] img[src*="display.instacart.com"]):has(> section > div > div[role="region"][aria-label="browse items"])
 sameday.costco.*##div[id]:has(> div[id$="-content"] li[data-testid="compact-shoppable-header"])
 sameday.costco.*##div[id]:has(> a[href*="/brands/"] img[src*="display.instacart.com"]):has(> section div[role="region"][aria-label="items carousel"])
+sameday.costco.*##div[id]:has(> a[href*="/brands/"] img[src*="display.instacart.com"]):has(> section div[data-testid="shoppable-list-sliding-carousel"])
 ! mc
 sameday.costco.*#$#race start; hide-if-matches-xpath '//div[@id]/a//div[descendant::span[contains(text(), "Spons")] and descendant::span[contains(text(), "ored")]]/ancestor::div[3]'; hide-if-matches-xpath '//div[@id]/a//div[descendant::span[contains(text(), "Spo")] and descendant::span[contains(text(), "d")]]/ancestor::div[3]'; hide-if-matches-xpath '//div[@id]/div[contains(@id,"-inner")][a[img[contains(@alt,"Ad")]] or .//div[starts-with(@id,"video-player")]]/parent::div'; hide-if-matches-xpath '//div[@id]/div[contains(@id,"-content")][a[img[contains(@alt,"Ad")]] or .//div[starts-with(@id,"video-player")]]/parent::div'; hide-if-matches-xpath '//div[@id]/section[contains(@id,"-content")][a[img[contains(@alt,"Ad")]] or .//div[starts-with(@id,"video-player")]]/parent::div'; race stop;
 sameday.costco.*#$#abort-current-inline-script setTimeout ic-detect-ad-block; override-property-read ADBLOCK_DETECTED false
@@ -2588,7 +2589,7 @@ nextdoor.com#$#hide-if-contains-visible-text /S[^a-z0-9]*p[^a-z0-9]*[oο][^a-z0-
 nextdoor.com#$#hide-if-matches-xpath '//div[a//span[contains(@class,"Badge")][text()="Ad"]]/parent::div/..'
 ! #RM-88
 ! pp
-nordstron.com#$#hide-if-matches-xpath './/header/h3[.="Sponsored"]/ancestor::div[contains(@id,"sponsored")]/parent::div'
+nordstrom.com#$#hide-if-matches-xpath './/header/h3[.="Sponsored"]/ancestor::div[contains(@id,"sponsored")]/parent::div'
 ! sa
 nordstrom.com#$#hide-if-contains-visible-text Sponsored 'article' 'span'
 ! *** abp-filters-hotfix:hotfix.txt ***
@@ -2722,7 +2723,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||arisingwinze.com^
 ||ashlingzanyish.com^
 ||aspcafarcie.com^
-||assyriaupbuild.com^
 ||astraon255.net^
 ||astrayentireillegimateillegimate.com^
 ||atauntoxray.com^
@@ -2932,7 +2932,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||gorgeirido.com^
 ||graduateamazingly.com^
 ||gregariousstretch.com^
-||grewiabromus.com^
 ||gridfrom1111.net^
 ||grrmucosas.com^
 ||gtcpicnics.com^
@@ -3096,6 +3095,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||patchstoopedconceited.com^
 ||pcb840.com^
 ||peculiaritieswatcher.com^
+||pedigreeamiableferry.com^
 ||peeredupseize.com^
 ||persinners.com^
 ||pilesteroidprogramming.com^
@@ -3112,6 +3112,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||primary808.net^
 ||proceduresto3.net^
 ||profitable-grocery.com^
+||providepinprickkidnapping.com^
 ||publicretia.com^
 ||pucaanova.com^
 ||qs251.com^
