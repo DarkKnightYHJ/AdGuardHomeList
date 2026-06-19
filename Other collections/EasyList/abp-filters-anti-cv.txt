@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: IHI8SZMy6lURMUFS5J07hQ
-! Version: 202606191112
+! Checksum: L3AM01BdyAEw1UvmbqHcJw
+! Version: 202606191502
 ! Title: ABP filters
-! Last modified: 19 Jun 2026 11:12 UTC
+! Last modified: 19 Jun 2026 15:02 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -719,6 +719,10 @@ billboard.com#$#override-property-read d3d3LmJpbGxib2FyZC5jb21fb25sb2Fk undefine
 ||d2iofuc7qmlf14.cloudfront.net^$script,rewrite=abp-resource:blank-js,domain=9gag.com
 9gag.com#$#override-property-read Navigator.prototype.onLine false
 ||drawbut.com/article/$domain=9gag.com
+||*/sdk.js^$script,domain=9gag.com
+9gag.com$csp=script-src-attr 'none'
+9gag.com#$#abort-current-inline-script eval /x9jeqms309w/
+9gag.com#$#override-property-read x9jeqms309w true
 ||error-report.com^$domain=geoguessr.com
 geoguessr.com#$#override-property-read window.navigator.connection.rtt 2000
 ||*/loader.min.js|$script,domain=geoguessr.com
@@ -791,6 +795,9 @@ freeconvert.com#$#hide-if-matches-xpath './/div[@data-aa-adunit]|.//iframe[conta
 freeconvert.com#$#override-property-read window.xrlmeiw299me trueFunc
 freeconvert.com##[data-aa-adunit] iframe
 freeconvert.com#$#override-property-read as_1889650819 true; override-property-read as_-801144803 true; override-property-read as_1404239042 true; override-property-read as_1550702599 true; override-property-read as_-538880852 true; override-property-read as_-1173987845 true; override-property-read as_-1027524288 true; override-property-read as_1177859557 true; override-property-read as_2022485055 true; override-property-read as_-67098396 true; override-property-read as_1537073278 true; override-property-read as_1683536835 true; override-property-read as_1649642013 true; override-property-read as_-1041153609 true; override-property-read as_-293477881 true
+||*/lib.js^$script,domain=freeconvert.com
+freeconvert.com$csp=script-src-attr 'none'
+freeconvert.com#$#override-property-read as_-1456619792 true; override-property-read as_1514845309 true; override-property-read as_-292031020 true; override-property-read as_-1380101829 true; override-property-read as_1310693793 true; override-property-read as_-632426101 true; override-property-read as_-1701653056 true; override-property-read as_989142566 true; override-property-read as_-953977328 true; override-property-read as_-1345201726 true; override-property-read as_1345593896 true; override-property-read as_-597525998 true
 ||html-load.com^$script,domain=gamewith.jp
 ||content-loader.com^$script,domain=gamewith.jp
 ||error-report.com^$domain=gamewith.jp
@@ -810,6 +817,10 @@ scribd.com#$#prevent-element-src-loading script /lib\.js/
 ||*/loader.min.js^$script,domain=scribd.com
 ||whoeverbeyond.com^$script,domain=scribd.com
 scribd.com#$#override-property-read as_-390371468 true; override-property-read as_-128107517 true; override-property-read as_1588632892 true; override-property-read as_1249684672 true; override-property-read as_-462196583 true; override-property-read as_-801144803 true;
+||*/sdk.js^$script,domain=scribd.com
+scribd.com$csp=script-src-attr 'none'
+scribd.com#$#abort-current-inline-script eval /xz8ei73yz0sn/
+scribd.com#$#override-property-read xz8ei73yz0sn true; override-property-read xeilgl2yq60f true
 ||html-load.com^$script,domain=index.hr
 ||blindlyandpfft.com^$script,domain=index.hr
 ||content-loader.com^$script,domain=index.hr
@@ -847,6 +858,10 @@ euronews.com#$#override-property-read Navigator.prototype.onLine false
 oricon.co.jp#$#override-property-read Navigator.prototype.onLine false
 ||html-load.com^$script,domain=namemc.com
 namemc.com#$#override-property-read as_2073418414 true; override-property-read as_-1320722721 true; override-property-read as_-1188240253 true; override-property-read as_1177859557 true; override-property-read as_-1027524288 true; override-property-read as_2022485055 true; override-property-read as_01828408771 true; override-property-read as_91055421694 true; override-property-read as_856308330 true; override-property-read as_-1349075515 true; override-property-read as_1700933828 true; override-property-read as_1212759660 true; override-property-read as_-992624185 true; override-property-read as_2057385158 true;
+||*/loader.min.js^$script,domain=namemc.com
+||content-loader.com^$domain=namemc.com
+namemc.com$csp=script-src-attr 'none'
+namemc.com#$#override-property-read as_-1456619792 true; override-property-read as_1514845309 true; override-property-read as_-292031020 true; override-property-read as_-1380101829 true; override-property-read as_1310693793 true; override-property-read as_-632426101 true; override-property-read as_-1701653056 true; override-property-read as_989142566 true; override-property-read as_-953977328 true; override-property-read as_-1345201726 true; override-property-read as_1345593896 true; override-property-read as_-597525998 true
 fandom.com#$#prevent-element-src-loading script /lib\.js/
 ||*/lib.js^$script,third-party,domain=fandom.com
 ||html-load.com^$script,domain=kuruma-news.jp
