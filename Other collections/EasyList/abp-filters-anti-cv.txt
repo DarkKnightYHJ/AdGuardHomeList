@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: aNVVu0bqvDszcDZVBh688g
-! Version: 202606250452
+! Checksum: AlipQjkwFKQ32mb5QycFlQ
+! Version: 202606250901
 ! Title: ABP filters
-! Last modified: 25 Jun 2026 04:52 UTC
+! Last modified: 25 Jun 2026 09:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -2257,13 +2257,13 @@ www.iosviet.com#$#override-property-read timer 0
 saigon24.net#$#abort-current-inline-script document.getElementById myModal
 xoilaczkkz.tv#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
 www.diendancauduong.com#$#abort-on-property-read antiAdBlockerHandler
-xem16.net#$#json-prune props.children.[].props.tvc
+xem20.net#$#json-prune props.children.[].props.tvc
 hh2d.top#$#abort-current-inline-script $ adblock
 tram3d.site#$#abort-current-inline-script setTimeout appendChild
 cliphubs.com,viet69hay.site#$#abort-current-inline-script document.addEventListener pop
 monkeydtruyen.com#$#simulate-mouse-event '.affClick[style=" display:block; "]' '.affClick img'
 ||s.shopee.vn^$popup,domain=monkeydtruyen.com
-/player/html.php?aid=*&video_id=*&referer=https*xnhau.hot*^$domain=xnhau.la
+/player/html.php?aid=*&video_id=*&referer=https*xnhau.hot*^$domain=xnhau.kim
 cmangax17.com#$#cookie-remover ads_num true
 truyenfull.today#$#override-property-read ads_show 0
 ! Popup/Popunder/Clickunder
@@ -2272,20 +2272,20 @@ truyen247.pro#$#abort-current-inline-script eval
 www.gvnvh18z.com#$#abort-current-inline-script Math
 xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
 xnxx-sex-videos.com#$#override-property-read user_out false
-anime47.best,chichvn.men,comong.info,forum.timfshare.com,honghotduongpho.vn,mv.dailyphimz.com,mv.phimbathu.one,phimchill.life,quangcaoyenbai.com,vnsexhihi.net,thefaplive.com,truyensieuhay.com,qmhsex.cc#$#abort-on-property-read document.cookie
+anime47.best,chichvn.men,comong.info,forum.timfshare.com,honghotduongpho.vn,mv.dailyphimz.com,mv.phimbathu.one,phimchill.life,quangcaoyenbai.com,xemsexhihi.biz,thefaplive.com,truyensieuhay.com,qmhsex.cc#$#abort-on-property-read document.cookie
 metruyenchu.com#$#abort-on-property-write window.onclick
 ##[href^="//mage98rquewz.com/"]
 linkneverdie.net,linkneverdie.top,linkneverdie2.com#$#abort-current-inline-script document.createElement optad; abort-on-property-read pushOnPageGala
 sex.javnong.cc#$#abort-on-property-read Math.round
-buomtv.life,websexviet.net,animehay06.site,cliphot69.shop,phimsexsuong3x.net,damconuong.shop,demo.14412882.com,doctruyen3qhub1.com,dualeotruyenpt.com,hentaivkl.com,hhtq5.vip,qmanga.art,javtiful.com,luottruyen9.com,lxmanga.space,misskon.com,mupsexphim.com,phim18hdxx.com,phimlongtieng.net,vipphimsexhay.com,quatvn.biz,sayhentai.cx,sex.xinh3x.me,sexdiary.club,sexviet88.it.com,streamvl.top,truyenqqko.com,truyenvn.sbs,umetruyenz.org,vevocloud.com,viet69.be,viet69vn.at,xvideos.xemvl.xxx,sexviet88.it.com,www.sieutamphim.pro,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
+buomtv.life,websexviet.net,animehay07.site,cliphot69.shop,phimsexsuong3x.net,damconuong.shop,demo.14412882.com,doctruyen3qhub1.com,dualeotruyendc.com,hentaivkl.com,hhtq5.vip,qmanga.art,javtiful.com,luottruyen10.com,lxmanga.space,misskon.com,mupsexphim.com,phim18hdxx.com,phimlongtieng.net,vipphimsexhay.com,quatvn.biz,sayhentai.cx,sex.xinh3x.me,sexdiary.club,sexviet88.it.com,streamvl.top,truyenqqko.com,truyenvn.sbs,umetruyenz.org,vevocloud.com,viet69.be,viet69vn.at,xvideos.xemvl.xxx,sexviet88.it.com,www.sieutamphim.pro,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
 javgiga.wordpress.com,www.1phim6.com#$#abort-on-property-read localStorage
-xnhau.la#$#prevent-listener click /acquirecardedsullen|POPUNDER_INTERVAL|lastPopunderTime/; abort-current-inline-script document.addEventListener lastPopunderTime;
+xnhau.kim#$#prevent-listener click /acquirecardedsullen|POPUNDER_INTERVAL|lastPopunderTime/; abort-current-inline-script document.addEventListener lastPopunderTime;
 animevietsub.pl,animevietsub.pl,hh3dhay.life,tram3d.online#$#abort-current-inline-script eval $._Eu
 phimlongtieng.net#$#abort-current-inline-script document.createElement script
-dualeotruyenpt.com#$#abort-current-inline-script document.addEventListener popunder
+dualeotruyendc.com#$#abort-current-inline-script document.addEventListener popunder
 lxmanga.space#$#abort-current-inline-script $ PopUnder
 www.toptruyenzone4.com#$#abort-current-inline-script Promise instance
-animehay06.site#$#abort-current-inline-script document.addEventListener window.open; override-property-read list_link_popup emptyArray
+animehay07.site#$#abort-current-inline-script document.addEventListener window.open; override-property-read list_link_popup emptyArray
 audiotruyenfull.com#$#abort-on-property-read adpiaListUrl
 vailonxx.me#$#abort-current-inline-script jQuery window.open
 tctruyen.org#$#abort-current-inline-script $ popup
@@ -2322,9 +2322,9 @@ quykhu.com#$#abort-current-inline-script document.addEventListener atob
 thiendia3.com#$#abort-current-inline-script document.addEventListener adState
 xoilaczkkz.tv#$#abort-current-inline-script jQuery open
 www.asu.baby#$#abort-on-property-read initialAdURLs
-cliphotgirl.com#$#abort-current-inline-script window.addEventListener Ads
+cliphot88.com#$#abort-current-inline-script window.addEventListener Ads
 cap3.pics#$#prevent-listener click /setTimeout|e\.target/; prevent-listener click d .art-control-fullscreen; prevent-listener fullscreenchange e.target;
-animehay06.site#$#prevent-listener click popup
+animehay07.site#$#prevent-listener click popup
 rophimzz.online,motphimz.ac#$#prevent-listener click ads
 laodong.vn#$#abort-current-inline-script window.addEventListener AdBlock
 ! *** abp-filters-anti-cv:RM.txt ***
