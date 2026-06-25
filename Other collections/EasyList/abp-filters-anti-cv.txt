@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: mSi41+eAxn5A6A7T3ygr1w
-! Version: 202606251212
+! Checksum: kuTAPZzdWZsOGm3sIQUW/g
+! Version: 202606251532
 ! Title: ABP filters
-! Last modified: 25 Jun 2026 12:12 UTC
+! Last modified: 25 Jun 2026 15:32 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -652,7 +652,7 @@ programme.tv#$#prevent-element-src-loading script /loader\.min\.js/
 programme-tv.net#$#prevent-element-src-loading script /\/feed\//; prevent-element-src-loading script /\/cache\//
 ||error-report.com/report$domain=voici.fr|femmeactuelle.fr|caminteresse.fr
 ||*/loader.min.js^$script,domain=voici.fr|femmeactuelle.fr|caminteresse.fr
-voici.fr,femmeactuelle.fr,caminteresse.fr#$#override-property-read navigator.onLine false
+voici.fr,femmeactuelle.fr,caminteresse.fr#$#override-property-read Navigator.prototype.onLine false
 voici.fr,femmeactuelle.fr,caminteresse.fr#$#abort-current-inline-script btoa /last_bfa_at/
 voici.fr,femmeactuelle.fr,caminteresse.fr#$#prevent-element-src-loading iframe /report\.error-report\.com/
 ||html-load.com^$script,domain=voici.fr|femmeactuelle.fr|caminteresse.fr
@@ -690,6 +690,8 @@ indiewire.com#$#override-property-read d3d3LmluZGlld2lyZS5jb21fb25sb2Fk undefine
 deadline.com^$csp=script-src-attr 'none'
 ||*/loader.min.js^$script,domain=deadline.com
 ||error-report.com^$domain=deadline.com
+||blahwhoever.com/feed/$domain=deadline.com
+||blahwhoever.com/session/$domain=deadline.com
 deadline.com#$#prevent-element-src-loading script /loader\.min\.js/
 deadline.com#$#override-property-read confirm noopFunc
 deadline.com#$#override-property-read ZGVhZGxpbmUuY29tX29ubG9hZA== undefined
@@ -802,7 +804,7 @@ freeconvert.com#$#override-property-read as_971745573 true; override-property-re
 ||html-load.com^$script,domain=gamewith.jp
 ||content-loader.com^$script,domain=gamewith.jp
 ||error-report.com^$domain=gamewith.jp
-gamewith.jp#$#override-property-read navigator.onLine false
+gamewith.jp#$#override-property-read Navigator.prototype.onLine false
 kuruma-news.jp#$#override-property-read adshield.isAdBlockerDetected false
 ||error-report.com^$subdocument,domain=kuruma-news.jp
 ||html-load.com^$domain=kuruma-news.jp
@@ -834,22 +836,20 @@ index.hr#$#override-property-read as_971745573 true; override-property-read as_6
 ||duhrawhide.com/session/$domain=index.hr
 ||content-loader.com/session/$domain=index.hr
 ||html-load.com/session/$domain=index.hr
-idokep.hu#$#override-property-read adshield.isAdBlockerDetected false
-||html-load.com^$script,domain=idokep.hu
-||content-loader.com^$script,domain=idokep.hu
-idokep.hu#$#prevent-element-src-loading script /\/(cache|article|session)\//
-idokep.hu#$#override-property-read as_-1173987845 true; override-property-read as_-1027524288 true; override-property-read as_1177859557 true; override-property-read as_2022485055 true; override-property-read as_-67098396 true; override-property-read as_1537073278 true; override-property-read as_1683536835 true; override-property-read as_1649642013 true; override-property-read as_-1041153609 true; override-property-read as_-293477881 true; override-property-read as_1310693793 true; override-property-read as_-1380101829 true; override-property-read as_-632426101 true; override-property-read as_971745573 true; override-property-read as_-419675937 true
-idokep.hu#$#override-property-read as_-1495539072 true; override-property-read as_-1349075515 true; override-property-read as_856308330 true
-idokep.hu#$#override-property-read as_-1139087742 true; override-property-read as_-992624185 true; override-property-read as_1212759660 true
-idokep.hu#$#override-property-read Navigator.prototype.onLine false
 ||html-load.com^$script,domain=vimm.net
 ||error-report.com^$domain=vimm.net
-vimm.net#$#override-property-read navigator.onLine false
+vimm.net#$#override-property-read Navigator.prototype.onLine false
+||html-load.cc^$script,domain=worldofsolitaire.com
+||error-report.com^$domain=worldofsolitaire.com
+||html-load.cc^$script,domain=wenxuecity.com
+||error-report.com^$domain=wenxuecity.com
+||html-load.cc^$script,domain=hfboards.com
+||error-report.com^$domain=hfboards.com
 trilltrill.jp#$#prevent-element-src-loading script /\/feed\//
 ||flux-cdn.com/client/trill/trill.min.js^$script,domain=trilltrill.jp
 ||html-load.com^$script,domain=trilltrill.jp
 ||*/loader.min.js|$script,domain=trilltrill.jp
-trilltrill.jp#$#override-property-read navigator.onLine false
+trilltrill.jp#$#override-property-read Navigator.prototype.onLine false
 trilltrill.jp#$#override-property-read document.write noopFunc
 ||html-load.com^$script,domain=euronews.com
 euronews.com#$#override-property-read as_1155195780 true; override-property-read as_279146697 true; override-property-read as_242250477 true; override-property-read as_1177859557 true; override-property-read as_-1027524288 true; override-property-read as_2022485055 true; override-property-read as_0-1060912359 true; override-property-read as_9-1833899436 true; override-property-read as_1-889137453 true; override-property-read as_856308330 true; override-property-read as_-1349075515 true; override-property-read as_1700933828 true; override-property-read as_1212759660 true; override-property-read as_-992624185 true; override-property-read as_2057385158 true;
@@ -865,7 +865,7 @@ euronews.com#$#override-property-read as_971745573 true; override-property-read 
 ||html-load.com/session/$domain=euronews.com
 ||html-load.com/feed/$domain=oricon.co.jp
 ||content-loader.com/feed/$domain=oricon.co.jp
-||cdn.caprofitx.com/media/$domain=oricon.co.jp
+||cdn.caprofitx.com^$domain=oricon.co.jp
 oricon.co.jp#$#override-property-read Navigator.prototype.onLine false
 fandom.com#$#prevent-element-src-loading script /lib\.js/
 ||*/lib.js^$script,third-party,domain=fandom.com
@@ -929,6 +929,8 @@ trafficnews.jp#$#override-property-read xyo1fm0txa8c true; override-property-rea
 trafficnews.jp#$#abort-current-inline-script eval /xekqfk1c60a/
 ||trafficnews.jp$csp=script-src-attr 'none'
 ||*/sdk.js^$script,domain=trafficnews.jp
+! #CV-4780
+theisleofthanetnews.com#$#hide-if-matches-xpath './/a[contains(@href,"communityjournalism") or contains(@href,"academyfmthanet") or contains(@href,"impress.press") or contains(@href,"cookeandco") or contains(@href,"rsp.co.uk") or contains(@href,"ekctraining.ac.uk") or contains(@href,"com.cab.despatch") or contains(@href,"thepalacecinema.co") or contains(@href,"javessecurity.com") or contains(@href,"medixishealthcare.co") or contains(@href,"foodanddrinkshop") or contains(@href,"unionchurchmargate.org/food-for-thought") or contains(@href,"hbthanet.com") or contains(@href,"johnston-marketing.co") or contains(@href,"thanet.domestics")]/img[@data-ll-status]/ancestor::div[2]'
 ! #CV-1935
 ##.jag8CityBio212023
 reddit.com##.jag8CityBio212023
