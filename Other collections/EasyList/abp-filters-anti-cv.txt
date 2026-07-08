@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: rJ0XMt0mq/l14Kq8bpUfMw
-! Version: 202607081051
+! Checksum: yFS0+snQqJafPxD7odlFlA
+! Version: 202607081352
 ! Title: ABP filters
-! Last modified: 08 Jul 2026 10:51 UTC
+! Last modified: 08 Jul 2026 13:52 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -874,7 +874,7 @@ vimm.net#$#override-property-read Navigator.prototype.onLine false
 ||error-report.com^$domain=wenxuecity.com
 ||html-load.cc^$script,domain=hfboards.com
 ||error-report.com^$domain=hfboards.com
-trilltrill.jp#$#prevent-element-src-loading script /\/feed\//
+||duhquietly.com^$domain=trilltrill.jp
 ||flux-cdn.com/client/trill/trill.min.js^$script,domain=trilltrill.jp
 ||html-load.com^$script,domain=trilltrill.jp
 ||*/loader.min.js|$script,domain=trilltrill.jp
@@ -883,12 +883,14 @@ trilltrill.jp#$#override-property-read document.write noopFunc
 ||error-report.com^$domain=trilltrill.jp
 trilltrill.jp$csp=script-src-attr 'none'
 ||*/core.js^$script,domain=trilltrill.jp
-trilltrill.jp#$#override-property-read as_647643726 true
-trilltrill.jp#$#override-property-read as_1724902207 true
+trilltrill.jp#$#override-property-read as_647643726 true; override-property-read as_1724902207 true
 ||blahwhoever.com^$script,domain=trilltrill.jp
 ||cdn.caprofitx.com^$script,domain=trilltrill.jp
 ||poorlylift.com^$script,domain=trilltrill.jp
 trilltrill.jp#$#override-property-read as_1198118810 true; override-property-read as_1104579809 true; override-property-read as_1217148544 true; override-property-read isAdShieldTurn false
+trilltrill.jp#$#override-property-read as_1070684987 true; override-property-read as_-2058917661 true; override-property-read as_-640454281 emptyObj; override-property-read as_448569654 emptyObj
+trilltrill.jp#$#prevent-element-src-loading script /\/(feed|session|script)\//
+trilltrill.jp#$#override-property-read confirm trueFunc
 ||html-load.com^$script,domain=euronews.com
 euronews.com#$#override-property-read as_1155195780 true; override-property-read as_279146697 true; override-property-read as_242250477 true; override-property-read as_1177859557 true; override-property-read as_-1027524288 true; override-property-read as_2022485055 true; override-property-read as_0-1060912359 true; override-property-read as_9-1833899436 true; override-property-read as_1-889137453 true; override-property-read as_856308330 true; override-property-read as_-1349075515 true; override-property-read as_1700933828 true; override-property-read as_1212759660 true; override-property-read as_-992624185 true; override-property-read as_2057385158 true;
 ||html-load.com/feed/$domain=euronews.com
@@ -1902,6 +1904,9 @@ french-stream.*#$#abort-on-property-write _vrhxb; abort-on-property-write _uhkee
 euautopieces.fr#$#hide-if-matches-xpath './/div[contains(@class,"popup-overflow")]/parent::div[contains(@id,"traffic_banner_wrapper")]'
 orange.fr#$#hide-if-matches-xpath './/div[.="Annonce"]/parent::div[@id="in8-skyscraper-display"]'
 orange.fr#$#hide-if-matches-xpath '//div[contains(@class,"media-advert-rm-center")][.//div[@class="position-relative"]//div[starts-with(@id,"oan_ora_")]]'; hide-if-matches-xpath '//div[@id="totemColumn"][.//div[contains(@class,"tag-rm")]]'
+jeanmarcmorandini.com#$#hide-if-matches-xpath './/div/div[contains(@class,"jmm_ads") and contains(@id,"jmm_ads")]/ancestor::div[@class="ban-bottom-desktop"]'
+jeanmarcmorandini.com##div[class*="jmm_ads"][id*="jmm_ads"]
+jeanmarcmorandini.com##div[class*="jmm-ads"][id*="jmm-ads"]
 ! Popup/Popunder
 french-streams.com,down-paradise.com,mega-p2p.net,jetanimes.*,voirseries.*#$#abort-on-property-read open
 supersexeamateur.com,manga-scantrad.net,toonanime.*#$#abort-current-inline-script document.querySelectorAll popMagic
