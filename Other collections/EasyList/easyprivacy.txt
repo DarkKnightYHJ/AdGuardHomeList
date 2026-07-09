@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: y6/xoTGDulsGyvu8DsSXPg
-! Version: 202607082351
+! Checksum: 64wJxf09h+zIyCnjK9YnBA
+! Version: 202607090442
 ! Title: EasyPrivacy
-! Last modified: 08 Jul 2026 23:51 UTC
+! Last modified: 09 Jul 2026 04:42 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -9200,6 +9200,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||insight.mintel.com^$third-party
 ||insight.rapid7.com^$third-party
 ||insights.algolia.io^
+||insights.playpilot.net^
 ||insights.sitesearch360.com^
 ||insitez.blob.core.windows.net^
 ||instagram.com/logging/
@@ -53201,6 +53202,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||extreme-ip-lookup.com^$script,domain=bulkbarn.ca
 @@||ezodn.com/cmp/gvl.json$xmlhttprequest
 @@||fast.fonts.net/jsapi/core/mt.js$script,domain=abeautifuldominion.com|bkmedical.com|eclecticbars.co.uk|gables.com|itsolutions-inc.com|kinsfarmmarket.com|senate.gov|toyotagazooracing.com
+@@||fastly-analytics.com/debug_resolver$xmlhttprequest,domain=fastly-debug.com
 @@||fathom.video/embed/$subdocument
 @@||fdi.fiduciarydecisions.com/a/lib/gtag/gtag.js$script,~third-party
 @@||fdi.fiduciarydecisions.com/v/app/components/*/Analytics.js$script,~third-party
