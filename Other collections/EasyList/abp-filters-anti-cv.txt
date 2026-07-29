@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: QIBORSalGnjZeSHDYkIpkA
-! Version: 202607291352
+! Checksum: XxtxJgtZXoJxyYDVHabALA
+! Version: 202607291612
 ! Title: ABP filters
-! Last modified: 29 Jul 2026 13:52 UTC
+! Last modified: 29 Jul 2026 16:12 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -853,6 +853,7 @@ kuruma-news.jp#$#override-property-read adshield.isAdBlockerDetected false
 ||drawbut.com^$domain=kuruma-news.jp
 ||gadzooksrudely.com^$domain=kuruma-news.jp
 ||grubbytrain.com^$domain=kuruma-news.jp
+||pishrust.com^$domain=kuruma-news.jp
 @@||error-report.com^$xmlhttprequest,domain=kuruma-news.jp
 ||content-loader.com^$script,rewrite=abp-resource:blank-js,domain=kuruma-news.jp
 kuruma-news.jp^$csp=script-src-attr 'none'
@@ -905,10 +906,14 @@ euronews.com#$#override-property-read as_971745573 true; override-property-read 
 euronews.com#$#replace-argument Element.prototype.setAttribute 1 '/error-report|new Promise|;await new|:\\[?window|&&window,|void 0\\]|location\\.href|void 0\\|\\|window|,window,|void 0,window|\\[0,window\\]|\\)\\.join\\(String\\.fromCharCode|adShieldError/' ''
 ||grubbytrain.com/feed/$domain=euronews.com
 ||grubbytrain.com/session/$domain=euronews.com
+||html-load.com^$script,domain=oricon.co.jp
 ||html-load.com/feed/$domain=oricon.co.jp
 ||content-loader.com/feed/$domain=oricon.co.jp
 ||cdn.caprofitx.com^$domain=oricon.co.jp
 oricon.co.jp#$#override-property-read Navigator.prototype.onLine false
+oricon.co.jp#$#replace-argument Element.prototype.setAttribute 1 ',11,4)' ''
+fandom.com#$#replace-fetch-response '/<!doctype html>.*/' '' '"/5441/'
+fandom.com#$#replace-fetch-response '/<script data-wrapper-id="ads-configuration-.*/' '' 'ads-configuration'
 fandom.com#$#prevent-element-src-loading script /lib\.js/
 ||*/lib.js^$script,third-party,domain=fandom.com
 fandom.com#$#abort-current-inline-script eval /ZnVuY3Rpb24/
@@ -1005,7 +1010,8 @@ calculatorsoup.com^$csp=script-src-attr 'none'
 ||duhquietly.com^$domain=calculatorsoup.com
 ||gadzooksrudely.com^$domain=calculatorsoup.com
 ||grubbytrain.com^$script,domain=calculatorsoup.com
-calculatorsoup.com#$#override-property-read as_-1377875130 emptyObj; override-property-read as_-936640185 emptyObj; override-property-read as_-643962645 true; override-property-read as_-1878905411 emptyObj; override-property-read as_711290288 emptyObj; override-property-read as_169284756 true; override-property-read as_1070684987 true; override-property-read as_1104579809 true; override-property-read as_1217148544 true
+||pishrust.com^$domain=calculatorsoup.com
+calculatorsoup.com#$#override-property-read as_1242808210 true; override-property-read as_-700311684 true; override-property-read as_-1039259904 true; override-property-read as_1278692676 true
 calculatorsoup.com#$#override-property-read isAdShieldTurn false
 calculatorsoup.com#$#replace-argument Element.prototype.setAttribute 1 ';await new' ''
 hk01.com^$csp=script-src-attr 'none'
@@ -1061,9 +1067,11 @@ doviz.com#$#override-property-read isAdShieldTurn false
 ||duhquietly.com^$script,domain=nemzetisport.hu
 ||gadzooksrudely.com^$script,domain=nemzetisport.hu
 ||grubbytrain.com^$domain=nemzetisport.hu
+||pishrust.com^$domain=nemzetisport.hu
 ||error-report.com^$domain=nemzetisport.hu
 nemzetisport.hu#$#override-property-read as_-1056586001 emptyObj; override-property-read as_77491024 emptyObj; override-property-read as_1259647322 true; override-property-read as_-1760847712 emptyObj; override-property-read as_76111661 emptyObj; override-property-read as_240537169 true; override-property-read as_1070684987 true; override-property-read as_1104579809 true; override-property-read as_1217148544 true
 nemzetisport.hu#$#override-property-read isAdShieldTurn false
+nemzetisport.hu#$#hide-if-contains-visible-text /hirdetés/ 'div[data-x][data-x-type]' 'span'
 ||tunebat.com$csp=script-src-attr 'none'
 ||html-load.com^$script,domain=tunebat.com
 ||content-loader.com^$script,domain=tunebat.com
@@ -2484,7 +2492,7 @@ tram3d.mom#$#abort-current-inline-script setTimeout appendChild
 cliphubs.com,viet69hay.autos#$#abort-current-inline-script document.addEventListener pop
 monkeydtruyen.com#$#simulate-mouse-event '.affClick[style=" display:block; "]' '.affClick img'
 ||s.shopee.vn^$popup,domain=monkeydtruyen.com
-/player/html.php?aid=*&video_id=*&referer=https*xnhau.hot*^$domain=xnhau.video
+/player/html.php?aid=*&video_id=*&referer=https*xnhau.hot*^$domain=xnhau.guru
 cmangax18.com#$#cookie-remover ads_num true
 truyenfull.live#$#override-property-read ads_show 0
 ! Popup/Popunder/Clickunder
@@ -2493,14 +2501,14 @@ truyen247.pro#$#abort-current-inline-script eval
 www.gvnvh18z.com#$#abort-current-inline-script Math
 xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
 xnxx-sex-videos.com#$#override-property-read user_out false
-anime47.best,chichvn.vip,comong.info,forum.timfshare.com,honghotduongpho.vn,mv.dailyphimz.com,mv.phimbathu.one,phimchill.life,quangcaoyenbai.com,xemsexhihi.me,thefaplive.com,truyensieuhay.com,qmhsex.lat#$#abort-on-property-read document.cookie
+anime47.best,chichvn.vip,comong.info,forum.timfshare.com,honghotduongpho.vn,mv.dailyphimz.com,mv.phimbathu.one,phimchill.life,quangcaoyenbai.com,vlsexhihi.net,thefaplive.com,truyensieuhay.com,qmhsex.best#$#abort-on-property-read document.cookie
 metruyenchu.com#$#abort-on-property-write window.onclick
 ##[href^="//mage98rquewz.com/"]
 linkneverdie.net,linkneverdie.top,linkneverdie2.com#$#abort-current-inline-script document.createElement optad; abort-on-property-read pushOnPageGala
 sex.javnong.cc#$#abort-on-property-read Math.round
-buomtv.baby,clipsexviet.mobi,animehay10.site,cliphot69.click,phimsexsuong3x.net,damconuong.store,demo.14412882.com,doctruyen3qhub3.com,dualeotruyendl.com,hentaivkl.pro,hhtq5.vip,qmanga.art,javtiful.com,luottruyen14.com,lxmanga.space,misskon.com,mupsexphim.com,phim18hd.site,phimlongtieng.net,vipphimsexhay.com,quatvn.hair,sayhentai.cx,xinh3x.it.com,sexdiary.club,sexviet88.nl,streamvl.top,truyenqqko.com,truyenvn.sbs,umetruyenz.org,vevocloud.com,viet69.be,viet69vn.at,xvideos.xemvl.xxx,sexviet88.nl,www.sieutamphim.pro,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
+buomtv.baby,sexviet247.net,animehay10.site,cliphot69.click,phimsexsuong3x.net,damconuong.store,demo.14412882.com,doctruyen3qhub3.com,dualeotruyendl.com,hentaivkl.pro,hhtq5.vip,qmanga.art,javtiful.com,luottruyen14.com,lxmanga.space,misskon.com,mupsexphim.com,phim18hd.site,phimlongtieng.net,vipphimsexhay.com,quatvn.hair,sayhentai.cx,xinh3x.it.com,sexdiary.club,sexviet88.nl,streamvl.top,truyenqqko.com,truyenvn.sbs,umetruyenz.org,vevocloud.com,viet69.be,viet69vn.at,xvideos.xemvl.xxx,sexviet88.nl,www.sieutamphim.pro,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
 javgiga.wordpress.com,www.1phim16.com#$#abort-on-property-read localStorage
-xnhau.video#$#prevent-listener click /acquirecardedsullen|POPUNDER_INTERVAL|lastPopunderTime/; abort-current-inline-script document.addEventListener lastPopunderTime;
+xnhau.guru#$#prevent-listener click /acquirecardedsullen|POPUNDER_INTERVAL|lastPopunderTime/; abort-current-inline-script document.addEventListener lastPopunderTime;
 animevietsub.ad,animevietsub.ad,tram3d.my#$#abort-current-inline-script eval $._Eu
 phimlongtieng.net#$#abort-current-inline-script document.createElement script
 dualeotruyendl.com#$#abort-current-inline-script document.addEventListener popunder
@@ -2545,7 +2553,7 @@ xoilaczkkz.tv#$#abort-current-inline-script jQuery open
 www.asu.baby#$#abort-on-property-read initialAdURLs
 cap3.boats#$#prevent-listener click /setTimeout|e\.target/; prevent-listener click d .art-control-fullscreen; prevent-listener fullscreenchange e.target;
 animehay10.site#$#prevent-listener click popup
-rophims.fm,motphimw.blue,phimmoiw.fm#$#prevent-listener click ads
+rophims.cx,motphimw.blue,phimmoiw.fm#$#prevent-listener click ads
 laodong.vn#$#abort-current-inline-script window.addEventListener AdBlock
 18tube.my#$#abort-current-inline-script document.addEventListener ads
 ! *** abp-filters-anti-cv:RM.txt ***
@@ -2833,7 +2841,7 @@ olx.com.br###advertising-top-banner
 otomoto.*#?#[data-testid="financing-widget-simulator-entrypoint"]:has(span:has-text(reklama))
 otomoto.*#$#abort-on-property-read Baxter.targeting.ad_price; abort-on-property-read Baxter.targeting.ad_title; override-property-read Baxter.targeting emptyObj;
 ! #RM-117
-pinterest.*#$#race start; hide-if-contains-visible-text /Bersponsor|Ditaja|Geborg|Gesponsord|Gesponsert|Patrocinado|Promocionado|Sponsored|Sponsoreret|Sponsorisées|Sponsorizat|Sponsorizzato|Sponsoroitu|Sponsorlu|Sponsorowane|Sponsrad|Sponset|Szponzorált|Спонсирοванный|Спонсорирано|Спонсируемый|Спонсорований|Sponzorirano|Sponzorované|Χορηγούμενο/ 'div[role="listitem"][role][style]' 'div[title]' 'content: "Promoted by";' 'font-weight: 600;'; hide-if-matches-xpath '//div[@title][contains(.,"贊助內容") or contains(.,"赞助的 Pin 图") or contains(.,"広告") or contains(.,"후원 핀") or contains(.,"స్పాన్సర్ చేసారు") or contains(.,"স্পনসর করা") or contains(.,"प्रायोजित") or contains(.,"ממומן") or contains(.,"قيد الدعم") or contains(.,"ממומן") or contains(.,"Được tài trợ") or contains(.,"May Sponsor") or contains(.,"Sponsored") or contains(.,"Sponsorisées") or contains(.,"Gesponsert") or contains(.,"Promocionado") or contains(.,"Gesponsord") or contains(.,"Sponsorowane") or contains(.,"Patrocinado") or contains(.,"Sponsorizzato")]/ancestor::div[@data-test-id="pin"]'; race stop;
+pinterest.*#$#race start; hide-if-contains-visible-text /Bersponsor|Ditaja|Geborg|Gesponsord|Gesponsert|Patrocinado|Promocionado|Sponsored|Sponsoreret|Sponsorisées|Sponsorizat|Sponsorizzato|Sponsoroitu|Sponsorlu|Sponsorowane|Sponsrad|Sponset|Szponzorált|Спонсирοванный|Спонсорирано|Спонсируемый|Спонсорований|Sponzorirano|Sponzorované|Χορηγούμενο/ 'div[role="listitem"][role][style]' 'div[title]' 'content: "Promoted by";' 'font-weight: 600;'; hide-if-matches-xpath '//div[@data-test-id="pinrep-footer"]//*[not(*)][contains("|Ad|Sponsored|Sponsorisé|Sponsorisées|Gesponsert|Gesponsord|Promocionado|Patrocinado|Sponsorizzato|Sponsorowane|広告|贊助內容|赞助的 Pin 图|후원 핀|ממומן|قيد الدعم|Được tài trợ|May Sponsor|प्रायोजित|স্পনসর করা|స్పాన్సర్ చేసారు|",concat("|",normalize-space(substring-before(concat(normalize-space(.),"\u2022"),"\u2022")),"|"))]/ancestor::div[@data-grid-item="true"][1]'; hide-if-matches-xpath '//div[@title][contains(.,"贊助內容") or contains(.,"赞助的 Pin 图") or contains(.,"広告") or contains(.,"후원 핀") or contains(.,"స్పాన్సర్ చేసారు") or contains(.,"স্পনসর করা") or contains(.,"प्रायोजित") or contains(.,"ממומן") or contains(.,"قيد الدعم") or contains(.,"ממומן") or contains(.,"Được tài trợ") or contains(.,"May Sponsor") or contains(.,"Sponsored") or contains(.,"Sponsorisées") or contains(.,"Gesponsert") or contains(.,"Promocionado") or contains(.,"Gesponsord") or contains(.,"Sponsorowane") or contains(.,"Patrocinado") or contains(.,"Sponsorizzato")]/ancestor::div[@data-test-id="pin"]'; race stop;
 ! #RM-167
 ! HP&PP
 tokopedia.com#$#hide-if-contains /^Ad$/ 'div[data-testid^="divProductGrid"], div[data-testid^="divProduct"]>div' 'div>div[class][data-testid][data-action]>div[data-testid] a span[data-testid]'
