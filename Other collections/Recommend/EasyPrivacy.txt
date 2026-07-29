@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: vmJEsUV0Ma+5+YHTpDKtcw
-! Version: 202607291612
+! Checksum: 1d1+pffgDs9pe8eZkWxPfQ
+! Version: 202607291752
 ! Title: EasyPrivacy
-! Last modified: 29 Jul 2026 16:12 UTC
+! Last modified: 29 Jul 2026 17:52 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -536,6 +536,7 @@
 /btrack.php?
 /bugcounter.php?
 /bundle-analytics.js
+/bundle.tracing.min.js
 /bundle.tracking.js
 /bundle/analytics.
 /bunsen/events/*
@@ -1157,6 +1158,8 @@
 /googleTracker.js
 /googleTracking.js
 /gosquared.js$script
+/gosstat_gokw.gif?
+/gosstat_gomp.gif?
 /graphql/track-pageview$xmlhttprequest
 /grumi-ip.js
 /gs-analytics-init.js
@@ -13757,6 +13760,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ohm-dot-hackster-io.appspot.com^
 ||oklink.com/jsstat/
 ||okx.com/jsstat/sb?
+||ol-collector.quillbot.com^
 ||onboarding-ui.frontiersin.org/api/onboarding-ui/v1/session/logged
 ||oneroof.co.nz/*/record-log/
 ||online-umwandeln.de/analytics.js
