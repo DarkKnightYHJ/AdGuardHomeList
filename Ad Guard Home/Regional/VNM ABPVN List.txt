@@ -1,7 +1,7 @@
 #Android host file - Adaway
 #
 # Title: ABPVN Hosts
-# Updated: 30 Jul 2026 14:09 UTC+7
+# Updated: 03 Aug 2026 14:52 UTC+7
 # License: ABPVN
 # Please report any unblocked ads or problems by email or in our forums
 # Email: support@abpvn.com
@@ -11446,9 +11446,12 @@
 0.0.0.0 sg-tracker.appads.in
 0.0.0.0 www.appads.in
 #[api-*.bidmachine.io]
+0.0.0.0 bidmachine.io
 0.0.0.0 api-apac.bidmachine.io
+0.0.0.0 api-eu-a.bidmachine.io.
 0.0.0.0 api-eu.bidmachine.io
 0.0.0.0 api-us.bidmachine.io
+0.0.0.0 api.bidmachine.io
 #[deltadna.net]
 0.0.0.0 deltadna.net
 0.0.0.0 balanced-collect.deltadna.net
@@ -12910,12 +12913,31 @@
 0.0.0.0 track.attributionapp.com
 #[everestop.io]
 0.0.0.0 everestop.io
+0.0.0.0 am.everestop.io
 0.0.0.0 d.everestop.io
 0.0.0.0 f.everestop.io
 0.0.0.0 s.everestop.io
-0.0.0.0 t.everestop.io
 0.0.0.0 w.everestop.io
+0.0.0.0 www.everestop.io
 0.0.0.0 x.everestop.io
+#[thecatmachine.com]
+0.0.0.0 thecatmachine.com
+0.0.0.0 am.thecatmachine.com
+0.0.0.0 d.thecatmachine.com
+0.0.0.0 f.thecatmachine.com
+0.0.0.0 s.thecatmachine.com
+0.0.0.0 w.thecatmachine.com
+0.0.0.0 www.thecatmachine.com
+0.0.0.0 x.thecatmachine.com
+#[blueduckredapple.com]
+0.0.0.0 blueduckredapple.com
+0.0.0.0 am.blueduckredapple.com
+0.0.0.0 d.blueduckredapple.com
+0.0.0.0 f.blueduckredapple.com
+0.0.0.0 s.blueduckredapple.com
+0.0.0.0 w.blueduckredapple.com
+0.0.0.0 www.blueduckredapple.com
+0.0.0.0 x.blueduckredapple.com
 #[logs.insight.rapid7.com]
 0.0.0.0 logs.insight.rapid7.com
 0.0.0.0 eu.data.logs.insight.rapid7.com
@@ -14393,6 +14415,14 @@
 0.0.0.0 ac.enticecreep.com
 0.0.0.0 api.enticecreep.com
 0.0.0.0 tr.enticecreep.com
+#[easybrain.com]
+0.0.0.0 consent.easybrain.com
+0.0.0.0 cross-promo-provider.easybrain.com
+0.0.0.0 ets.easybrain.com
+0.0.0.0 gamestats.easybrain.com
+0.0.0.0 s3-analytics-events.easybrain.com
+0.0.0.0 s3-ca-liveops.easybrain.com
+0.0.0.0 s3-playable-ads.easybrain.com
 # --- GroupVN block ---
 #[adtimaserver]
 0.0.0.0 adtimaserver.vn
@@ -19980,6 +20010,7 @@
 0.0.0.0 refraintsarcoma.com
 0.0.0.0 regnow.com
 0.0.0.0 regulationprivilegescan.top
+0.0.0.0 reinscreendecompose.com
 0.0.0.0 rel-s.com
 0.0.0.0 relationshipcourseably.com
 0.0.0.0 relmaxtop.com
@@ -21035,8 +21066,6 @@
 0.0.0.0 wyhifdpatl.com
 0.0.0.0 wynvalur.com
 0.0.0.0 x-traceur.com
-0.0.0.0 x.blueduckredapple.com
-0.0.0.0 x.thecatmachine.com
 0.0.0.0 x2sfa.javgg.eu
 0.0.0.0 x7i0.com
 0.0.0.0 x7r3mk6ldr.com
@@ -21670,7 +21699,6 @@
 0.0.0.0 s.media-imdb.com
 0.0.0.0 s.ntv.io
 0.0.0.0 s.yjtag.jp
-0.0.0.0 s3-analytics-events.easybrain.com
 0.0.0.0 safegraph.com
 0.0.0.0 salecycle.com
 0.0.0.0 salesiq.zoho.com
