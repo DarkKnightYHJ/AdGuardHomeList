@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 0LVqvnpq9djz+8PD/aRmDQ
-! Version: 202608051353
+! Checksum: Kas74E+RkEreXMry0/Ha4A
+! Version: 202608051632
 ! Title: ABP filters
-! Last modified: 05 Aug 2026 13:53 UTC
+! Last modified: 05 Aug 2026 16:32 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1125,12 +1125,6 @@ gamebanana.com$csp=script-src-attr 'none'
 ||*/core.js^$script,domain=gamebanana.com
 gamebanana.com#$#abort-current-inline-script eval /xx44zp0c391/
 gamebanana.com#$#override-property-read xx44zp0c391 true
-||stg.lox.legalendowmad.com^$script,domain=gamesradar.com
-||error-report.com^$domain=gamesradar.com
-||content-loader.com^$script,domain=gamesradar.com
-gamesradar.com#$#prevent-element-src-loading script /\/(feed|cache|article|media)\//
-||dkyerkk91s4fa.cloudfront.net^$script,domain=gamesradar.com
-gamesradar.com#$#override-property-read as_-1039259904 true; override-property-read as_1278692676 true; override-property-read as_1637906397 true; override-property-read as_1298958177 true
 ! #CV-4780
 theisleofthanetnews.com#$#hide-if-matches-xpath './/a[contains(@href,"communityjournalism") or contains(@href,"academyfmthanet") or contains(@href,"impress.press") or contains(@href,"cookeandco") or contains(@href,"rsp.co.uk") or contains(@href,"ekctraining.ac.uk") or contains(@href,"com.cab.despatch") or contains(@href,"thepalacecinema.co") or contains(@href,"javessecurity.com") or contains(@href,"medixishealthcare.co") or contains(@href,"foodanddrinkshop") or contains(@href,"unionchurchmargate.org/food-for-thought") or contains(@href,"hbthanet.com") or contains(@href,"johnston-marketing.co") or contains(@href,"thanet.domestics")]/img[@data-ll-status]/ancestor::div[2]'
 ! #CV-1935
@@ -2309,7 +2303,6 @@ ivanovonews.ru#$#json-prune banner.ytcode
 porngames.su,rintor.info,rintor.net#$#abort-on-property-read TotemToolsObject
 hardwareluxx.ru#$#abort-current-inline-script jQuery backgroundImage
 4pda.to#$#hide-if-matches-xpath './/a[@target="_blank"]/img[@alt="" and @title=""]/parent::a/ancestor::*[@id and @class][1]'; hide-if-matches-xpath './/a[@href][@title][@target="_blank"]/img[@itemprop]/parent::a[@href]'; hide-if-matches-xpath './/a[@href][@target="_blank"]/img[@title and @border]/ancestor::*[2]'; hide-if-matches-xpath './/*[@id and @class]/article[@class="post" and @itemscope]/ancestor-or-self::*[1]';
-igromania.ru,kanobu.ru#$#json-prune results.fixed
 motorpage.ru#$#json-prune '0.BannerId 1.BannerId 2.BannerId 3.BannerId 4.BannerId 5.BannerId 6.BannerId'
 nsportal.ru#$#abort-on-property-read addDownloadPrefixToLinks false
 biqle.org,biqle.ru#$#prevent-listener /click|mousedown/ 'popunder'
@@ -3720,7 +3713,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||shboshbok.com^
 ||shingonannates.com^
 ||shipimagesbolt.online^
-||shopmy.us^
 ||shovelsbezzled.com^
 ||shrewkabonga.com^
 ||shumackeels.com^
