@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: ad0MQ1hocv1uGDSQsWuwpA
-! Version: 202608131541
+! Checksum: JJt/T9L+5o58sC+Az+SC3g
+! Version: 202608131641
 ! Title: ABP filters
-! Last modified: 13 Aug 2026 15:41 UTC
+! Last modified: 13 Aug 2026 16:41 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1143,6 +1143,7 @@ gamebanana.com$csp=script-src-attr 'none'
 gamebanana.com#$#abort-current-inline-script eval /xx44zp0c391/
 gamebanana.com#$#override-property-read xx44zp0c391 true
 spreadsheetpoint.com#$#abort-current-inline-script String.prototype.match __adblocker
+onlineradiobox.com,fandom.com,base64decode.org,9gag.com#$#override-property-read Navigator.prototype.userAgent 'AdsBot-Google'; override-property-read Navigator.prototype.userAgentData undefined
 ! #CV-4780
 theisleofthanetnews.com#$#hide-if-matches-xpath './/a[contains(@href,"communityjournalism") or contains(@href,"academyfmthanet") or contains(@href,"impress.press") or contains(@href,"cookeandco") or contains(@href,"rsp.co.uk") or contains(@href,"ekctraining.ac.uk") or contains(@href,"com.cab.despatch") or contains(@href,"thepalacecinema.co") or contains(@href,"javessecurity.com") or contains(@href,"medixishealthcare.co") or contains(@href,"foodanddrinkshop") or contains(@href,"unionchurchmargate.org/food-for-thought") or contains(@href,"hbthanet.com") or contains(@href,"johnston-marketing.co") or contains(@href,"thanet.domestics")]/img[@data-ll-status]/ancestor::div[2]'
 ! #CV-1935
@@ -1587,6 +1588,17 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 superflixapi.pro#$#prevent-listener /click|touchend/ /pop_opened/
 xn--kcksk7a2bl5le7b6doc1h3f.com#$#prevent-listener /click|touchend/ /triggerPop/
 popcornmovies.*#$#prevent-element-src-loading script /\\.(cfd|qpon|rest)\\//
+dramafren.org#$#prevent-window-open /otieu/ 2 iframe
+xvideos-full.com#$#prevent-window-open /overloadenjoy/ 2 iframe
+pornx.to#$#prevent-window-open /./ 1 iframe
+comix.to#$#prevent-window-open /./ 2 iframe
+pdftoshokan.com#$#prevent-window-open ok_ 1000 iframe
+mlsbd.co,streamvid.*,voyeur-house.org,reallifecams.net#$#prevent-window-open /.*/ 1000 iframe
+kawaii-anime.com#$#prevent-window-open _blank 1000 iframe
+/rollbar.min.css$script,domain=streamingnow.mov
+||vidnees.workers.dev/fetch?url=$domain=vidnest.fun
+vidnest.*#$#prevent-window-open /[?&](step1|step2|param4|zid|tvc)=/ 2 obj
+streamingnow.mov#$#prevent-window-open _blank 2 obj
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 bagas31.info#$#abort-on-property-write atob
@@ -1888,13 +1900,6 @@ zdnet.com##.c-pageArticleSingle_player.c-avStickyVideo
 myflixerfree.*#$#override-property-read vastAdData undefined
 ||cdn.staticmoly.me/*$domain=vidmoly.biz
 eliteprospects.com#$#hide-if-matches-xpath './/div[contains(@class,"AdSlot_")]/parent::aside[starts-with(@class,"AdSlot_")]'
-dramafren.org#$#prevent-window-open /otieu/ 2 iframe
-xvideos-full.com#$#prevent-window-open /overloadenjoy/ 2 iframe
-pornx.to#$#prevent-window-open /./ 1 iframe
-comix.to#$#prevent-window-open /./ 2 iframe
-pdftoshokan.com#$#prevent-window-open ok_ 1000 iframe
-mlsbd.co,streamvid.*,voyeur-house.org,reallifecams.net#$#prevent-window-open /.*/ 1000 iframe
-kawaii-anime.com#$#prevent-window-open _blank 1000 iframe
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
@@ -3244,6 +3249,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||cashooshut.com^
 ||casteschagoma.com^
 ||cathinunquit.com^
+||caulkedwhys.shop^
 ||cautelaunsent.com^
 ||cautiousfloor.com^
 ||cayosunhairs.com^
@@ -3362,6 +3368,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||edenizemortary.com^
 ||effic.pro^
 ||eidersrettory.com^
+||ejpeyuforzksu.online^
 ||electron8.net^
 ||elihucyprus.com^
 ||eliminatedfertilizer.com^
@@ -3447,6 +3454,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||gentrycheaper.com^
 ||gerentstaperly.com^
 ||gestatejiggly.com^
+||gfkffnyncyicj.space^
 ||ghabovethec.info^
 ||ghurrytacoma.com^
 ||gigglemagnetismunaired.com^
@@ -3764,6 +3772,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||ruddytoph.com^
 ||runtime8000.com^
 ||russismvarsha.com^
+||rvpfhiincsu.com^
 ||sableviolet.com^
 ||sadpicture.com^
 ||sandboxto370.com^
@@ -3953,6 +3962,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||visageagar.com^
 ||votingcompetencetendon.com^
 ||vowelywisely.com^
+||vulturkipskin.cfd^
 ||vyar221.net^
 ||waivinggilim.com^
 ||warkedmalie.com^
@@ -3968,6 +3978,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||wiltinfume.com^
 ||winksullenwaistcoat.com^
 ||wistfulseverely.com^
+||witsafenuddleunbaked.qpon^
 ||wochuadaribah.com^
 ||wolfmandiked.com^
 ||woodsytenline.com^
