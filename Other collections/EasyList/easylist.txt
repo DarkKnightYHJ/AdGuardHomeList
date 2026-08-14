@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202608142113
+! Version: 202608142213
 ! Title: EasyList
-! Last modified: 14 Aug 2026 21:13 UTC
+! Last modified: 14 Aug 2026 22:13 UTC
 ! Expires: 4 days (update frequency)
-! Commit: fd255b204434ee8b398090202ba4b3f6c68d4ef5
+! Commit: 2e52d642ce999b2e63115e03a309ca6cbc0eaed7
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -27466,6 +27466,7 @@ browsershots.org#@#.advert_area
 ||etphoneme.com^
 ||etqkkwmmjcvtp.website^
 ||etqyveeihyh7uu.rest^
+||etrownlnplynt.website^
 ||ettalecture.cyou^
 ||etuisveiner.cyou^
 ||etukuqstzpkzz.space^
@@ -32991,6 +32992,7 @@ browsershots.org#@#.advert_area
 ||impartialpath.com^
 ||impartsmilk.com^
 ||impassableoffend.com^
+||impassioned-boat.pro^
 ||impassioned-vacation.com^
 ||impeccable-career.pro^
 ||impeccablebrain.pro^
@@ -34199,6 +34201,7 @@ browsershots.org#@#.advert_area
 ||jgovdupigzozf.online^
 ||jgqccztrsqbtb.website^
 ||jgqpddekjd.com^
+||jgrjauxhvhbas.website^
 ||jgsceqkcobpvh.website^
 ||jgwlomfinvizq.site^
 ||jgwrdbgzpgugv.space^
@@ -34434,6 +34437,7 @@ browsershots.org#@#.advert_area
 ||joesojwvykmdi.com^
 ||joeyesfavn.cfd^
 ||jofddomgfztan.website^
+||jofyaljkygvbqh.com^
 ||joggingavenge.com^
 ||jogryvgycqjph.store^
 ||johnsgait.qpon^
@@ -36118,6 +36122,7 @@ browsershots.org#@#.advert_area
 ||laundryhdlc.shop^
 ||launoiibcxdom.site^
 ||laurelcourtesyreservation.com^
+||lauterbumbles.cfd^
 ||lautercompile.shop^
 ||lavaretfixings.cfd^
 ||lavatoryhitschoolmaster.com^
@@ -36868,6 +36873,7 @@ browsershots.org#@#.advert_area
 ||lnbkckhipmi.com^
 ||lnbqvaoxbhkze.website^
 ||lnddkooitabnj.online^
+||lndiikqekcqar.space^
 ||lndusvdcfllil.website^
 ||lnecjgfxtmyul.online^
 ||lnfksfxtuojmk.site^
@@ -37366,6 +37372,7 @@ browsershots.org#@#.advert_area
 ||lxadqdidnsnzd.online^
 ||lxbwquyuoovrx.space^
 ||lxfiflqhawqzr.space^
+||lxgiykiqe.com^
 ||lxgnfvnuagkua.website^
 ||lxhhadogycyur.com^
 ||lxhwfufvlksxl.site^
@@ -43418,6 +43425,7 @@ browsershots.org#@#.advert_area
 ||potawe.com^
 ||potboilexedrae.cfd^
 ||potencyidrooping.com^
+||poteyebullae.shop^
 ||potholeresumer.cfd^
 ||pothutepu.com^
 ||potionsfurther.com^
@@ -52438,6 +52446,7 @@ browsershots.org#@#.advert_area
 ||umokmojaxtwrj.online^
 ||umommy.cyou^
 ||umpirerevved.com^
+||umptydaudit.cyou^
 ||umqosmlnjdrwl.site^
 ||umrgdvvdgxjto.store^
 ||umsetsummon.com^
@@ -76244,7 +76253,8 @@ businessday.co.za,sowetan.co.za,timeslive.co.za#?#.content-list-block:has-text(N
 capwages.com#?#.gap-1.items-center.flex-col.flex:has-text(Remove Ads)
 aliexpress.com#?##card-list > .search-item-card-wrapper-gallery:has(a.search-card-item[href*="&aem_p4p_detail="] div[class*="cards--image--"] > div[class*="multi--ax--"]:has-text(/^(?:AD|An[uú]ncio|광고|広告)$/)):has(+ .search-item-card-wrapper-gallery a.search-card-item:not([href*="&aem_p4p_detail="]))
 chatgpt.com#?#.opacity-100.transition-opacity.ease-out:has-text(Sponsored options)
-chatgpt.com#?#[class^="border-"]:has-text(Sponsored)
+chatgpt.com#?#[class^="border-"]:not([class*="sidebar"]):has-text(Ad)
+chatgpt.com#?#[class^="border-"]:not([class*="sidebar"]):has-text(Sponsored)
 china.ahk.de#?#.b-main__section:has(h2.homepage-headline:has-text(Advertisement))
 cleantechnica.com#?#.zox-side-widget:has-text(/^Advertis/)
 coincarp.com#?#.border-bottom:has-text(Sponsored)
