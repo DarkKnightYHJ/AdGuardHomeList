@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 13O7dRScTSj4w4fagEdSDA
-! Version: 202608201521
+! Checksum: FbI/9wUmNoVs+w/36Zdf2w
+! Version: 202608201622
 ! Title: ABP filters
-! Last modified: 20 Aug 2026 15:21 UTC
+! Last modified: 20 Aug 2026 16:22 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -3031,6 +3031,11 @@ kroger.com##.kac-product-grid-cell:has(.kac-product-badge--sponsored)
 ! sp
 dribbble.com#$#hide-if-contains /Promoted/ 'article' 'article drb-tooltip > div'
 dribbble.com##article:has([data-track-cta="Learn more about Promoted Services"])
+! #RM-222
+chatgpt.com#$#hide-if-matches-xpath 'id("thread")//h3[normalize-space(text())="Sponsored"]/ancestor::div[starts-with(@class,"border-") and not(.//div[@data-message-author-role])][1] | id("thread")//span[normalize-space(text())="Ad"]/ancestor::div[starts-with(@class,"border-") and not(.//div[@data-message-author-role])][1]' 'id("thread")'
+chatgpt.com#$#hide-if-matches-xpath '//div[contains(concat(" ",normalize-space(@class)," ")," opacity-100 ") and contains(concat(" ",normalize-space(@class)," ")," transition-opacity ") and contains(concat(" ",normalize-space(@class)," ")," ease-out ") and contains(.,"Sponsored options")]'
+chatgpt.com#$#hide-if-matches-xpath 'id("thread")//div[starts-with(@class,"border-") and not(contains(@class,"sidebar")) and contains(.,"Ad")]'
+chatgpt.com#$#hide-if-matches-xpath 'id("thread")//div[starts-with(@class,"border-") and not(contains(@class,"sidebar")) and contains(.,"Sponsored")]'
 ! *** abp-filters-hotfix:hotfix.txt ***
 ! FDA-2994
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument
