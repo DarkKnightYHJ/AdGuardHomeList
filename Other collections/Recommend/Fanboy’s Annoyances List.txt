@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dW/bdQ6vIs7rf3GjZD+Stw
-! Version: 202608201422
+! Checksum: zTOuARVc8fVd0xuRHZBPQQ
+! Version: 202608201521
 ! Title: Fanboy's Annoyance List
-! Last modified: 20 Aug 2026 14:22 UTC
+! Last modified: 20 Aug 2026 15:21 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -13021,6 +13021,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.tgla7-share
 ##.th-sharecounts
 ##.tha__socialItem
+##.thb-share-product
 ##.thb-social-links-container
 ##.thb-social-top
 ##.the-social-links
@@ -29719,6 +29720,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||ntvsw.com^$third-party
 ||partishion.com^$third-party
 ||pathlime.com^$third-party
+||poosh.wizzo.media^
 ||popmechanic.ru^$third-party
 ||propush.net^$third-party
 ||pt.appirits.com^$third-party
@@ -32615,7 +32617,7 @@ laluce.news##.spu-box
 di.com.pl,emol.com,orizzontescuola.it###slidebox
 lepratiquedugabon.com,olx.ua###btn-top
 sputnik-abkhazia.ru,sputnik-georgia.ru,sputnik-ossetia.ru,sputniknewslv.com##.arrowup
-humanresourcesonline.net,wanda.cn##.backtop
+humanresourcesonline.net,realestate.jpost.com,wanda.cn##.backtop
 dealabs.com,mydealz.de###softMessages-list
 tumblr.com#?#[style="background-color: rgb(124, 92, 255); color: rgb(255, 255, 255);"]:abp-contains(Join over 100 million people)
 groupon.de,groupon.fr###spotlight
@@ -32711,6 +32713,7 @@ reddit.com##.xPromoAppStoreFooter
 youtube.com##.ytmPaidContentOverlayHost
 dexerto.com##.z-\[1101\]
 meet.google.com##[aria-label="Receive desktop notifications from Meet"]
+jpost.com##div[class^="PushNotificationPrompt_"]
 wallapop.com##div[class^="app-smart-banner_"]
 ! aerzteblatt.de###pushy
 segre.com###body_modal_5bNRsFSmILUgICbhc8pp
@@ -37064,6 +37067,7 @@ min.io##.footer-social-wrapper
 popsci.com##.footer-socials-wrapper
 investmentexecutive.com##.footer-top
 harborsweets.com##.footer-top-bar
+jpost.com##.footer-top-container-social-icons-wrapper
 goingawesomeplaces.com##.footer-widgets
 argonauts.ca,cfl.ca##.footer1
 newsclick.in##.footerContainer
@@ -37465,6 +37469,7 @@ dailymail.co.uk##.prevNextWrapper-1Vg7e
 opiumpulses.com##.product-nav-tabs-social
 inspiredtaste.net##.profile-icons
 thetruthaboutcars.com##.project-actions-header
+realestate.jpost.com##.prop_social
 sports.ndtv.com##.pst_scl
 androidheadlines.com##.push-notification
 cbn.com##.py-4.flex-wrap.flex
@@ -43177,8 +43182,15 @@ rik.cy##.single-article__share-options
 !---------- Hebrew Site Specific Hiding Rules ----------
 !
 glz.co.il###shareIcon
+bizportal.co.il##.a_footer_social
+maariv.co.il##.article-google-button-container
+maariv.co.il##.article-media-links-container
+bhol.co.il##.article_soci_bar
 mekomit.co.il##.foo_t_n_r_icon
+bhol.co.il##.google_preferences
 mekomit.co.il##.single_bottom_discovers_p1_share
+bhol.co.il##.soci_ul
+bhol.co.il##.whatsapp_con
 !
 !---------- Hungarian Specific Media Elements ----------
 !
@@ -44123,6 +44135,8 @@ cgtnturk.com##.top-social-media
 ||rtl.be^*/box-newsletters.js
 ||sibforms.com/serve/$domain=leptidigital.fr
 ||vlan.qualifioapp.com^
+! Hebrew
+||calcalist.co.il/mvc/long/2019/CtechNewsletter/Signup/
 ! Hungarian
 ||link.sportal.blikk.hu/join/
 ! Italian
@@ -44384,7 +44398,9 @@ hrpro.gr##.newsletter-wrapper
 ! Hebrew
 10dakot.co.il##.aside_subscribe
 jfc.org.il##.ays-pb-modals
+bizportal.co.il##.biz_newsletter_join_wrap
 mekomit.co.il##.newsletter-popup
+bizportal.co.il##.newsletter-register
 mekomit.co.il##.newsletter-subscribe
 mekomit.co.il##.newsletter_head
 mekomit.co.il##.page_lb_mask
