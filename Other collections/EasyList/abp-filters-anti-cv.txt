@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: m4C0hgF2le5TSVwVB9lwiw
-! Version: 202608250922
+! Checksum: NzSpnS36//1j/wA3lOVjtw
+! Version: 202608251012
 ! Title: ABP filters
-! Last modified: 25 Aug 2026 09:22 UTC
+! Last modified: 25 Aug 2026 10:12 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1224,6 +1224,8 @@ y2mate.*#$#abort-on-property-read dispatchEvent; abort-on-property-read window.o
 ||facebook.net^*/fbevents.js$third-party
 ||facebook.com/tr$third-party
 ||connect.facebook.net^*/fbds.js$third-party
+||facebook.com/privacy_sandbox/topics/registration/$third-party
+||connect.facebook.net/log/fbevents_telemetry/$third-party
 ! #CV-661
 kansas.com,marketrealist.com,thenewstribune.com#$#abort-on-property-read $aproxy
 9to5google.com,9to5mac.com,9to5toys.com##iframe[data-google-container-id]
@@ -1391,6 +1393,8 @@ bing.com#?#li[class="b_algo"]:-abp-has(a[href="#"]:not([class]))
 ! #CV-1914
 instagram.com#$#hide-if-contains-visible-text '/Ad|Anzeige|Gesponsert|Sponsored|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/' 'article>div[class]' 'span[class]';
 instagram.com#$#json-prune data.xdt_injected_story_units.ad_media_items
+||instagram.com/tr/$third-party
+||instagram.com/tr?$third-party
 ! #CV-1940
 ||adgarden.market^$domain=factfeed.com|mdrntoday.com|travelroo.com
 factfeed.com,mdrntoday.com,travelroo.com###vidazooAd
@@ -1994,7 +1998,7 @@ www.facebook.com,web.facebook.com#$#replace-xhr-response '/"instream_video_ad_br
 www.facebook.com,web.facebook.com#$#json-override 'jsonpath($.data.node)' null '' /SponsoredData/;
 www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /^(?:[Aa][Dd]|Sponsored|esondSpored|.*Spored.*|(?=.*[sS])(?=.*[pP])(?=.*[oO])(?=.*[rR])(?=.*[dD])[a-zA-Z]+)$/ 'div[aria-posinset]' 'div[aria-posinset] a[href^="?"] span:not([style*="top"])'
 www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /^[^A-Za-z0-9]*(?:(?:[AaDd][^A-Za-z0-9]*){2,3}|(?:[SsPpOoNnRrIiEeDdÉé][^A-Za-z0-9]*){9,11}|(?:[CcOoMmAaNnDdIiTtÉéEe][^A-Za-z0-9]*){9,11}|(?:[PpAaTtRrOoCcIiNnDdEe][^A-Za-z0-9]*){10,12}|(?:[BbEeRrSsPpOoNn][^A-Za-z0-9]*){9,11}|(?:[SsPpOoNnRrIiZzAaTtEe][^A-Za-z0-9]*){12,14}|(?:[SsPpOoNnRrOoWwAaEe][^A-Za-z0-9]*){11,13}|(?:[ĐđƯưỢợCcTtÀàIiRr][^A-Za-z0-9]*){9,11})$/i 'div[aria-posinset]' 'div[aria-posinset] a[href^="?"], div[aria-posinset] a[href="#"]'
-www.facebook.com,web.facebook.com#$#hide-if-contains '/^(?:Sponsored|Ad|Sponsorisé|Commandité|Patrocinado|Bersponsor|Sponsorizzato|Sponsorowane|Được tài trợ)$/' 'div[aria-posinset]' 'div[aria-posinset] use ^^svg^^';
+www.facebook.com,web.facebook.com#$#hide-if-contains '/^(?:Sponsored|Ad|Sponsorisé|Commandité|Patrocinado|Bersponsor|Sponsorizzato|Sponsorowane|Được tài trợ)$/' 'div[aria-posinset]' 'div[aria-posinset] use ^^svg^^'; hide-if-contains '/^(?:Sponsored|Ad|Sponsorisé|Commandité|Patrocinado|Bersponsor|Sponsorizzato|Sponsorowane|Được tài trợ)$/' 'div[aria-posinset]' 'div[aria-posinset] use ^^svg^^ use ^^svg^^';
 www.facebook.com,web.facebook.com##div[aria-posinset] a[href^="?"] span[style*="absolute"]
 www.facebook.com,web.facebook.com##div[aria-posinset] a[href="#"] span[style*="absolute"]
 ! rp
@@ -2006,7 +2010,8 @@ www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//div[@role="main"]//
 www.facebook.com,web.facebook.com#$#replace-xhr-response '/"node":\{(?:"__typename":"MarketplaceFeedAdStory"[^\\n]+?"sponsored_data":|[^\\n]*?"sponsored_data":\{"__typename":"SponsoredData")[^\\n]+\}(?=,"cursor":)/' '"node":null'
 www.facebook.com,web.facebook.com#$#json-prune 'data.marketplace_home_feed.edges.[-].node.ad_id_string'; json-override 'jsonpath($.data.node)' null '' /ad_id_string/
 ! sb
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="complementary"]//following::a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and contains(.,"cobaltFerry")]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'
+www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="complementary"]//following::a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and contains(.,"verdantTiller")]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'
+WWW.facebook.com,web.facebook.com##div[role="complementary"] a[attributionsrc]
 ! sp
 www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrwae]{12}|[Patrocind]{11}|[Sponsrizat]{13}|[Anzeig]{6}/ 'div[role=feed] div[role=article]' a[href^="?__cft__"]; race stop;
 ! det
