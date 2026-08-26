@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jkETWjlqqNm40Dj0ICw8Rw
-! Version: 202608252312
+! Checksum: EcH5K1T1to6tZazKhzo78Q
+! Version: 202608260102
 ! Title: Fanboy's Annoyance List
-! Last modified: 25 Aug 2026 23:12 UTC
+! Last modified: 26 Aug 2026 01:02 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -32084,6 +32084,8 @@ google.com#?#div[jsname="wA2P2b"]:has-text(How helpful were the results)
 www.google.com#?#[aria-describedby="promo_desc_id"]:has-text(/Time for a new laptop|Gemini, |Choose Chrome|built by Google|Search differently|Cherchez différemment|Search just got easier|Try more ways|Switch to Chrome|Keep things dark/)
 ! Paid overlay nag
 youtube.com##.ytp-paid-content-overlay
+! youtube offers
+youtube.com###offer-module
 ! youtube playables
 www.youtube.com#?##content > .ytd-rich-section-renderer:has-text(YouTube Playables)
 ! youtube popups
@@ -45553,6 +45555,7 @@ shate-m.by##.blocker
 atlant.by##.confirm-panel
 kommunarka.by##.cookies-start
 cosmos-telecom.by##.cookies__wrapper
+beltelecom.by##.jqmWindow
 hoster.by##.m-cookies-informer
 domain.by##.notice-ck-wrapper
 profit.by##.policy-footer
