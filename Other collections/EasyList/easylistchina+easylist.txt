@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kq/1T/eIF9bhWH1U78lx3A
-! Version: 202609082122
+! Checksum: /ThHO874SK/usmMqUmXXTg
+! Version: 202609082341
 ! Title: EasyList China+EasyList
-! Last modified: 08 Sep 2026 21:22 UTC
+! Last modified: 08 Sep 2026 23:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1758,6 +1758,9 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||propeller73.com^
+||55nw8b63i.com^
+||nplsxlziftfbnk.com^
 ||no99z05m4p.com^
 ||pmpantdgzvttbk.com^
 ||kowt80ufwg.com^
@@ -19133,8 +19136,8 @@ $object,script,subdocument,third-party,websocket,xmlhttprequest,domain=156xsbb.c
 @@||libs.baidu.com^$domain=zyywenxue.com|11bqg.com|xbotaodz.com|0794.org|12zw.net|1biqu.com|23hh.com|23sk.net|23wxx.com|3yt.com|4xiaoshuo.net|56shuku.info|777zw.net|81book.com|99mk.net|aiwx.info|aixs.la|aikushuge.com|bequmo.com|bimixsw.com|biqivge.cc|biqudu.tv|biquge775.com|biquge98.net|biqugecd.com|aidu123.com|biqutsxs.com|bshuku.com|bxwx.live|bxwx.org|damengzhu1.com|gdbzkz.info|hongyeshuzhai.com|ibiquges.com|ibiquges.org|ibotaodz.org|imianhuatang.info|ishisetianxia.com|ishubao.org|xvipxs.net|iwurexs.info|ixs.la|lewenge.cc|liewenn.com|liudatxt.org|paoshu8.com|paoshuzw.com|pksge.com|qishuta.info|shu008.com|shumil.co|silukex.com|siluwx.org|sthuojia.org|tutengzw.com|u33.cc|wenxuem.com|xbiquke.com|xdingdian.cc|xiaxs.info|xs5200.com|xszww8.net|xuanshu.org|xuessex.com|yqd6.com|yunxs.info|zjsw.org|zzs5.info
 @@||zstatic.net^$script,domain=niuyankan.top
 !
-/\.[a-z]+[\:\/]/$~image,third-party,domain=bijiyd.com|7zhens.com|wamuku.cc|scmmxs.com|jinduxs.com|buhesw.com|luenbook.cc|zahubook.com|heciwk.com|quhesw.com|erzuwk.com|bowoxs.com|guashuge.com|mudanxs.com|mzbook.cc|haduks.com|caimozw.com|zaaizw.com|bogeks.com|haxu8.com|pucixs.com|tuqisw.com|xueyisw.com|zuye8.com|yawoxs.com|guwoxs.com|jiufuzw.com|beianxs.com|shuying6.com|mafusw.com|cule9.com|riquzw.com|xingksw.com|enbusw.com|ruyisw.com|zuxiku.com|jinmusb.com|hunshuge.com|puyewk.com|kaaiwk.com|hadu520.com|qubosw.com|meisibook.com|cuaizw.cc|boxue8.cc|cipubook.com|ququsk.cc|yiyezao.com|shanhuxs.com|jiutusw.com|chahuax.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|puquz.com|wuwusk.com
-$csp=script-src 'self' * 'unsafe-inline',domain=bijiyd.com|7zhens.com|wamuku.cc|scmmxs.com|jinduxs.com|buhesw.com|luenbook.cc|zahubook.com|heciwk.com|quhesw.com|erzuwk.com|bowoxs.com|guashuge.com|mudanxs.com|mzbook.cc|haduks.com|caimozw.com|zaaizw.com|bogeks.com|haxu8.com|pucixs.com|tuqisw.com|xueyisw.com|zuye8.com|yawoxs.com|guwoxs.com|jiufuzw.com|beianxs.com|shuying6.com|mafusw.com|cule9.com|riquzw.com|xingksw.com|enbusw.com|ruyisw.com|zuxiku.com|jinmusb.com|hunshuge.com|puyewk.com|kaaiwk.com|hadu520.com|qubosw.com|meisibook.com|cuaizw.cc|boxue8.cc|cipubook.com|ququsk.cc|yiyezao.com|shanhuxs.com|jiutusw.com|chahuax.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|puquz.com|wuwusk.com
+/\.[a-z]+[\:\/]/$~image,third-party,domain=bijiyd.com|7zhens.com|wamuku.cc|scmmxs.com|jinduxs.com|buhesw.com|luenbook.cc|zahubook.com|heciwk.com|quhesw.com|erzuwk.com|bowoxs.com|guashuge.com|mudanxs.com|mzbook.cc|haduks.com|caimozw.com|zaaizw.com|bogeks.com|haxu8.com|pucixs.com|tuqisw.com|xueyisw.com|zuye8.com|yawoxs.com|guwoxs.com|jiufuzw.com|beianxs.com|shuying6.com|mafusw.com|cule9.com|xingksw.com|enbusw.com|ruyisw.com|zuxiku.com|jinmusb.com|hunshuge.com|puyewk.com|kaaiwk.com|hadu520.com|qubosw.com|meisibook.com|cuaizw.cc|boxue8.cc|cipubook.com|ququsk.cc|yiyezao.com|shanhuxs.com|jiutusw.com|chahuax.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|puquz.com|wuwusk.com
+$csp=script-src 'self' * 'unsafe-inline',domain=bijiyd.com|7zhens.com|wamuku.cc|scmmxs.com|jinduxs.com|buhesw.com|luenbook.cc|zahubook.com|heciwk.com|quhesw.com|erzuwk.com|bowoxs.com|guashuge.com|mudanxs.com|mzbook.cc|haduks.com|caimozw.com|zaaizw.com|bogeks.com|haxu8.com|pucixs.com|tuqisw.com|xueyisw.com|zuye8.com|yawoxs.com|guwoxs.com|jiufuzw.com|beianxs.com|shuying6.com|mafusw.com|cule9.com|xingksw.com|enbusw.com|ruyisw.com|zuxiku.com|jinmusb.com|hunshuge.com|puyewk.com|kaaiwk.com|hadu520.com|qubosw.com|meisibook.com|cuaizw.cc|boxue8.cc|cipubook.com|ququsk.cc|yiyezao.com|shanhuxs.com|jiutusw.com|chahuax.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|puquz.com|wuwusk.com
 !#onemanhua.com
 $script,third-party,domain=colamanga.com
 @@.com/js/a_d/$domain=colamanga.com
@@ -39190,6 +39193,7 @@ browsershots.org#@#.advert_area
 ||batheunits.com^
 ||bathtubdriblet.shop^
 ||batilevwwijjj.online^
+||batinglathers.shop^
 ||batismarkhor.shop^
 ||batlingtraiked.cfd^
 ||batplexure.qpon^
@@ -48332,6 +48336,7 @@ browsershots.org#@#.advert_area
 ||fmeounjodrepw.site^
 ||fmhyfxdijrmtf.site^
 ||fmipurdtuta.com^
+||fmjhlfcdkgyht.online^
 ||fmkains.com^
 ||fmklxjiivnlqt.site^
 ||fmkqghjoqctvz.space^
@@ -49015,6 +49020,7 @@ browsershots.org#@#.advert_area
 ||fxiumiymwffyv.space^
 ||fxjllndtgqsaf.site^
 ||fxmnba.com^
+||fxmxyihwrnwkg.com^
 ||fxnrjqnlbfoap.site^
 ||fxqikdwtgabho.website^
 ||fxqixgyrslaqo.store^
@@ -49291,6 +49297,7 @@ browsershots.org#@#.advert_area
 ||gb1aff.com^
 ||gbads.net^
 ||gbblpbibctqex.site^
+||gbcamahjbcsff.site^
 ||gbcfhktlqkxcn.online^
 ||gbdavwxmjtdwpv.com^
 ||gbdifgyealbpd.site^
@@ -49503,6 +49510,7 @@ browsershots.org#@#.advert_area
 ||getxml.org^
 ||getyourapp.info^
 ||getyoursoft.ru^
+||geurimkcteyrq.space^
 ||geuztg37kv8qklg.rest^
 ||gevncboh.com^
 ||gevqylgklqzso.site^
@@ -49602,6 +49610,7 @@ browsershots.org#@#.advert_area
 ||giddyplastic.pro^
 ||giddyrabiddaylight.com^
 ||giemcusetaqqe.space^
+||gifpxobkcwkpk.online^
 ||gifted-dealer.pro^
 ||giftedhazelsecond.com^
 ||giftedimplacablefacile.com^
@@ -50124,6 +50133,7 @@ browsershots.org#@#.advert_area
 ||grailerfisty.com^
 ||grailrank.qpon^
 ||graineduphroes.cfd^
+||graipogreism.shop^
 ||graithexpire.com^
 ||grallichalvas.com^
 ||grammyopiate.com^
@@ -51733,6 +51743,7 @@ browsershots.org#@#.advert_area
 ||hrjarhlgpebrw.site^
 ||hrknqbbxmyvyo.site^
 ||hrllzdgzyzoiy.website^
+||hrnliywumxxp.com^
 ||hrogrpee.de^
 ||hrpbmvgbihfac.site^
 ||hrqecm0d.xyz^
@@ -52544,6 +52555,7 @@ browsershots.org#@#.advert_area
 ||implialelegiac.com^
 ||impliednauseous.com^
 ||implix.com^
+||imponessmidginmetho.cfd^
 ||importantoperativestudied.com^
 ||importantputrescent.com^
 ||importclearanceblocks.com^
@@ -52607,6 +52619,7 @@ browsershots.org#@#.advert_area
 ||incasklordomalimier.cfd^
 ||incegceozdsrt.space^
 ||incentivemountdisprove.com^
+||inchedriviera.cfd^
 ||inchesray.com^
 ||inchinghilda.cfd^
 ||incidentallyhorace.com^
@@ -55102,6 +55115,7 @@ browsershots.org#@#.advert_area
 ||kpfbksehrvell.space^
 ||kphsqtglfxqim.space^
 ||kpkhqxvshdozq.online^
+||kpkqvqjvypgog.site^
 ||kpnacrabkhcbq.site^
 ||kpngcxgdpdfih.space^
 ||kpnvsjbpwhtmj.online^
@@ -55141,6 +55155,7 @@ browsershots.org#@#.advert_area
 ||kraftthoron.qpon^
 ||krakenrowel.qpon^
 ||krankenwagenmotor.com^
+||krantzbanuyo.shop^
 ||krddufisqivnq.website^
 ||krdtvkoyuhwjs.site^
 ||krfaihltnqyrr.website^
@@ -57479,6 +57494,7 @@ browsershots.org#@#.advert_area
 ||meet-romance-girls.com^
 ||meet-romanceconnects.com^
 ||meet-womans-meets.com^
+||meeteatenempodia.cyou^
 ||meetersguineabidarka.qpon^
 ||meetflirtmatch.com^
 ||meetingactual.com^
@@ -58666,6 +58682,7 @@ browsershots.org#@#.advert_area
 ||mwkljcqfgyvmw.site^
 ||mwllnmobmruyj.online^
 ||mwllnzblxxylc.space^
+||mwnfizmdfgcxs.space^
 ||mwqxkshueflnl.site^
 ||mwrgi.com^
 ||mwtwnxrwepytx.site^
@@ -59456,6 +59473,7 @@ browsershots.org#@#.advert_area
 ||nlarqgyehwhbl.site^
 ||nlbjczvymnrcw.site^
 ||nlcbwxqatftpr.website^
+||nlerkltdcsznn.space^
 ||nlezowlzrllro.site^
 ||nlglokvwajqxo.site^
 ||nlhdswomqdoux.site^
@@ -59875,6 +59893,7 @@ browsershots.org#@#.advert_area
 ||nuqxpulhjilij.space^
 ||nurbljwhtkhhs.space^
 ||nurbscfcwsggp.site^
+||nurgyloyssaim.online^
 ||nurobi.info^
 ||nurseryillnesssensation.com^
 ||nurseryinflectedshare.com^
@@ -60256,6 +60275,7 @@ browsershots.org#@#.advert_area
 ||odourtaste.com^
 ||odoxejocyekiu.space^
 ||odrbykkefvfxi.space^
+||odrubhzmqkghv.site^
 ||oduauledfalmc.online^
 ||odulfytvuuibr.space^
 ||odyjsxwapjvac.online^
@@ -60404,6 +60424,7 @@ browsershots.org#@#.advert_area
 ||ogtndopapgldg.website^
 ||ogtsesfvshtsk.website^
 ||oguaumtdjyqoe.online^
+||ogudroypkerns.com^
 ||ogvobjflitbwa.com^
 ||ogwsktwhfwlky.space^
 ||ogxrnlidijwxg.website^
@@ -61875,6 +61896,7 @@ browsershots.org#@#.advert_area
 ||peltryrecurl.cyou^
 ||pemmhrrqksncr.space^
 ||pemsrv.com^
+||pemtpakqatzuz.site^
 ||penancyvinetta.shop^
 ||penbardvenatic.qpon^
 ||pencillacklesslackless.com^
@@ -64395,6 +64417,7 @@ browsershots.org#@#.advert_area
 ||quickieboilingplayground.com^
 ||quickloadbinpack.click^
 ||quickwittedconclusion.com^
+||quickwitteddeath.com^
 ||quidamprebend.cfd^
 ||quiet-assets.xyz^
 ||quiet-cdn.shop^
@@ -64954,6 +64977,7 @@ browsershots.org#@#.advert_area
 ||rebootsormers.com^
 ||rebozosmatches.cyou^
 ||rebrandkaolins.cfd^
+||rebsoljuhmrdy.com^
 ||rebukedelinquent.com^
 ||rebuylengest.cfd^
 ||rebwrcpzujwbs.website^
@@ -77509,6 +77533,7 @@ browsershots.org#@#.advert_area
 ||ztudfmvgxozex.space^
 ||ztvsvcuxlyjtz.online^
 ||ztwynkeinevag.website^
+||ztyusskzkjvct.space^
 ||ztzmrimaxpegw.site^
 ||zubivu.com^
 ||zubniivgigntj.website^
