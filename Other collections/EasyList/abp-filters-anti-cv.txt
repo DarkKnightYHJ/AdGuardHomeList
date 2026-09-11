@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: WzTb28+9IrDHEazJdRzwzQ
-! Version: 202609111722
+! Checksum: enqc8Tyk6km8kkstGO2BrA
+! Version: 202609112022
 ! Title: ABP filters
-! Last modified: 11 Sep 2026 17:22 UTC
+! Last modified: 11 Sep 2026 20:22 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -3310,13 +3310,6 @@ slickdeals.net##.displayAdContainer
 ! #RM-7
 ! BA
 walmart.*#$#hide-if-matches-xpath './/div[text()="Sponsored"]//ancestor::section[@data-dca-type]/ancestor::span/parent::div[@data-testid="buy-box-ad"]'
-! #RM-223
-! hp
-nextdoor.com#$#hide-if-contains-visible-text /S[^a-z0-9]*p[^a-z0-9]*[oο][^a-z0-9]*n[^a-z0-9]*s[^a-z0-9]*[oο][^a-z0-9]*r[^a-z0-9]*e[^a-z0-9]*d/i '[data-feed-item-type="PROMO"]'
-nextdoor.com#$#hide-if-contains-visible-text Ad 'div[data-testid] span>div[id]' 'div[id][style] ^^sh^^ * span'
-! la
-nextdoor.com#$#hide-if-matches-xpath '//div[a//span[contains(@class,"Badge")][text()="Ad"]]/parent::div/..'
-nextdoor.com#$#hide-if-matches-xpath '//span[@data-block][translate(normalize-space(.),"\u0410\u0430\u0391\u03B1\u2060\u200B\u200C\u200D\uFEFF","AaAa")="Ad"][not(ancestor::div[@data-testid="feed-item-card"])]/ancestor::div[@role][@data-block][1]/ancestor::div[3]'
 ! #RM-88
 ! pp
 nordstrom.com#$#hide-if-matches-xpath './/header/h3[.="Sponsored"]/ancestor::div[contains(@id,"sponsored")]/parent::div'
