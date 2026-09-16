@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: z/v0yVgWzGavbkYXwD0l/g
-! Version: 202609160051
+! Checksum: uRQLOucKeiK2z9PUGORc+A
+! Version: 202609160702
 ! Title: EasyPrivacy
-! Last modified: 16 Sep 2026 00:51 UTC
+! Last modified: 16 Sep 2026 07:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -272,6 +272,7 @@
 /analytics-reporter/*
 /analytics-sdk.
 /analytics-secure.js
+/analytics-talk-content-tracking.
 /analytics-tracker/*
 /analytics-tracking.js
 /analytics-worker.iife.js
@@ -1184,6 +1185,7 @@
 /gtm.js
 /gtm.min.js
 /gtm/gtm-
+/gtm4wp-$script
 /gtmDataLayer.js
 /gtmTracking.js
 /gv-analytics/riveted.js
@@ -1874,7 +1876,6 @@
 /plugins/affiliate-wp/assets/js/tracking.min.js
 /plugins/catman/*
 /plugins/civic-science/js/pixel.js
-/plugins/duracelltomi-google-tag-manager/*
 /plugins/exactmetrics-
 /plugins/nimiq/*$script
 /plugins/nsmg-tracking/*
@@ -52677,6 +52678,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||sidecar.unext.jp/track/
 ||so-zou.jp/js/ga.js
 ||socialxup.com/api/sale-accounts
+||socialxup.com/api/track
 ||softonic.jp/web-stats
 ||ssai.api.streaks.jp/*/ad_info?
 ||stats.nhk.or.jp^
