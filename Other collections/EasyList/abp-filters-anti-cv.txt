@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: sUMBohuaT/G/Xj3hd1qW8g
-! Version: 202610021553
+! Checksum: jbV9Y3bbam875m8Jmpz7qQ
+! Version: 202610022102
 ! Title: ABP filters
-! Last modified: 02 Oct 2026 15:53 UTC
+! Last modified: 02 Oct 2026 21:02 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -379,6 +379,9 @@ csfd.cz#$#hide-if-matches-xpath '//p[contains(@class,"box-banner-text")][text()=
 pluska.sk#$#hide-if-matches-xpath '//div[text()="Reklama"]/ancestor-or-self::div[contains(@class,"reklama")]/parent::div[contains(@class,"ReklamnyBox_wrapper")][1]'
 pluska.sk#$#hide-if-matches-xpath '//span[contains(@class,"basic-article-sponsored-text")][text()="Sponzorované"]/ancestor-or-self::a[contains(@class,"article-tabs_link")]/parent::li[1]'
 pluska.sk#$#hide-if-matches-xpath '//span[contains(@class,"Article_sponsored-text")][text()="Sponzorované"]/ancestor-or-self::div[contains(@native-perf-recommender-type,"campaign-provider-")][1]'
+CV-4923
+kurzy.cz#$#hide-if-matches-xpath 'id("ram")//div[(substring(@id,4,1)="_" and not(starts-with(@id,"ram")) and not(contains(@id,"header")) and not(contains(@id,"cid"))) or starts-with(@id,"ssp-zone-")]'
+kurzy.cz#$#replace-xhr-response '/a_adv[s]?[.]c[(][^a-z](?!cid|headertime|headerindexes|headerlogin)/i' '$&zz'
 ! MISC
 centrum.cz##div[class^="sasic-ad"]
 centrum.sk#$#hide-if-matches-xpath '//div[text()="Reklama"]/ancestor-or-self::div[contains(@class,"ReklamnyBox_")]'
@@ -770,6 +773,7 @@ variety.com^$csp=script-src-attr 'none'
 variety.com#$#prevent-element-src-loading script /loader\\.min\\.js/
 variety.com#$#override-property-read confirm noopFunc
 variety.com#$#override-property-read dmFyaWV0eS5jb21fb25sb2Fk undefined
+variety.com#$#json-override isActive false autoRecovery
 billboard.com^$csp=script-src-attr 'none'
 ||*/loader.min.js^$script,domain=billboard.com
 ||error-report.com^$domain=billboard.com
@@ -779,6 +783,7 @@ billboard.com^$csp=script-src-attr 'none'
 billboard.com#$#prevent-element-src-loading script /loader\\.min\\.js/
 billboard.com#$#override-property-read confirm noopFunc
 billboard.com#$#override-property-read d3d3LmJpbGxib2FyZC5jb21fb25sb2Fk undefined
+billboard.com#$#json-override isActive false autoRecovery
 ||html-load.com^$script,domain=9gag.com
 ||aroundsadly.com/session/$domain=9gag.com
 ||*/p.js?$script,domain=9gag.com
@@ -1094,6 +1099,7 @@ trafficnews.jp#$#abort-current-inline-script eval /xekqfk1c60a/
 coolmathgames.com$csp=script-src-attr 'none'
 coolmathgames.com#$#abort-current-inline-script eval /xx44zp0c391/
 coolmathgames.com#$#override-property-read xx44zp0c391 true
+coolmathgames.com#$#json-override isActive false autoRecovery
 ||error-report.com^$domain=coolmathgames.com
 calculatorsoup.com^$csp=script-src-attr 'none'
 ||stg.html-load.com^$script,domain=calculatorsoup.com
@@ -1584,7 +1590,7 @@ factfeed.com,mdrntoday.com,travelroo.com#$#hide-if-matches-xpath './/div[contain
 ||reviewacousticguitar.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|gamebanana.com|gameslantern.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com
 ||superstarorganizer.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|gamebanana.com|gameslantern.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com
 ||replantable.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|gamebanana.com|gameslantern.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com
-||dusthorses.com^^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|gamebanana.com|gameslantern.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com
+||dusthorses.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|gamebanana.com|gameslantern.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com
 ! Popup/Popunder/Clickunder
 0123movies.*,123freemovies.net,123movies.*,123movieshub.tc,adblockeronstreamtape.*,adblockplustape.com,adblockstreamtape.*,animepahe.*,anitube.*,bigtitsxxxfree.com,cineby.*,cinevo.nl,configspc.com,dood.*,doods.*,doodstream.*,dooodster.*,fastream.to,govid.*,hclips.com,hd-analporn.com,hentai2w.com,hotmovs.com,hxfile.co,komikcast.com,mavavid.com,mstream.fun,mstream.icu,mstream.tech,mystream.io,mystream.to,onetouchtv.me,pandamovies.pw,perfectgirls.*,porn.com,porndollz.com,pornhat.com,prmovies.*,realgfporn.com,rule34hentai.net,shavetape.cash,stapadblockuser.xyz,stapewithadblock.monster,strcloud.*,streamadblocker.xyz,streamadblockplus.com,streamadblockplus.xyz,streamta.pe,streamtape.*,streamtapeadblock.art,strtape.*,strtapeadblock.me,tapewithadblock.org,vidstreaming.io,vidstreamz.online,w-123movies.com,xnxxvideo.pro,xvideosxporn.com#$#abort-on-property-read open
 adblockeronstreamtape.*,adblockplustape.com,adblockstreamtape.*,adblockstrtape.link,baytorrent.eu.org,dood.*,doods.*,doodstream.*,dooodster.*,europixhd.com,europixhd.net,fileflares.com,gledajonline.net,govid.*,hdeuropix.io,hxfile.co,isohunt.lol,isohuntz.net,javjunkies.com,javmost.com,latinblog.tv,limetorrents.info,loadsubs.net,mixdrop.*,mypiratebay.*,myyouporn.com,openpirate.org,piratebay.cloud,piratebay.live,piratebay.party,piratebay.world,piratebayproxy.live,piratebays.wtf,pirateproxy.earth,pirateproxy.live,pirateproxy.surf,pirateproxy.us,proxyninja.org,shavetape.cash,stapadblockuser.xyz,stapewithadblock.monster,strcloud.*,streamadblocker.xyz,streamadblockplus.com,streamadblockplus.xyz,streamta.pe,streamtape.*,strtape.*,strtapeadblock.me,tapewithadblock.org,thehiddenbay.com,thepiratebay.org,thepiratebay.vip,thepiratebay.zone,thepiratebay0.org,thepiratebay10.org,topeuropix.net,tpb.party,tpb.red,vidoz8.com,vidshare.tv,voe.sx,youdbox.com#$#abort-on-property-write _pop
@@ -3425,13 +3431,13 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ! Regex filters
 /^https:\/\/[a-z]{8,15}\.(?:(com|net)\/(?:\d{1,3}\/)?tag\.min\.js$)/$script,third-party
 /^https?:\/\/[a-z0-9]{5,15}\.(?:com|net)\/tag\.min\.js$/$third-party,script
-/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{5,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/\d{4,6}(?:\?[_a-z]=[0-9a-z-]+)?$/$subdocument,script,xmlhttprequest,third-party,match-case
+/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{5,}\.[a-z]{3,7}\/[a-z](?:[a-z]{2,}[0-9A-Z]|[a-z][0-9A-Z][0-9a-zA-Z]|[0-9A-Z][0-9a-zA-Z]{2})[0-9a-zA-Z]*\/\d{4,6}(?:\?[_a-z]=[0-9a-z-]+)?$/$subdocument,script,xmlhttprequest,third-party,match-case
 /^https?:\/\/[a-z]{8,15}\.xyz\/$/$xmlhttprequest,third-party
 /^https:\/\/[a-z]{8,12}\.com\/en\/(?:[a-z]{2,10}\/){0,2}[a-z]{2,}\?(?:[a-z]+=[^&=?\s]*?&)*?id=[12]\d{6}/$script,third-party,match-case
-/^https?:\/\/[-a-z]{6,}\.(?:com?|info|pro|xyz)\/[a-d][-\.\/_A-Za-z][DHWXm][-\.\/_A-Za-z][59FVZ][-\.\/_A-Za-z][6swyz][-\.\/_A-Za-z][-\/_0-9a-zA-Z][-\.\/_A-Za-z][-\/_0-9a-zA-Z]{22,162}$/$third-party,match-case,script,xmlhttprequest
+/^https?:\/\/[-a-z]+\.(?:com?|info|pro|xyz)\/[a-d][-\.\/_A-Za-z][DHWXm][-\.\/_A-Za-z][59FVZ][-\.\/_A-Za-z][6swyz][-\.\/_A-Za-z][-\/_0-9a-zA-Z][-\.\/_A-Za-z][\x2d-\x7a]{22,}$/$third-party,match-case,script,xmlhttprequest
 /^https:\/\/[-a-z]{8,}\.com\/[f-i](?=[a-z]*[0-9A-Z_-])[0-9A-Z_a-z-]{3,}\/[0-9a-z][-\/0-9A-Z_a-z]{118,132}$/$script,xmlhttprequest,match-case,third-party
-/^https:\/\/(?:[a-z]{2}\.)?[a-z]{7,14}\.com\/[a-z](?=[a-z]*[0-9A-Z])[0-9A-Za-z]{10,27}\/[A-Za-z]{5}$/$script,third-party,match-case
-/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{5,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/\d{3,6}(?:\?[_a-z]=[-0-9a-z]+)?$/$script,third-party,match-case
+/^https:\/\/(?:[a-z]{2}\.)?[a-z]{7,}\.com\/[a-z](?:[a-z]{0,2}[0-9A-Z][0-9a-zA-Z]{7}|[a-z]{3,5}[0-9A-Z][0-9a-zA-Z]{4}|[a-z]{6,8}[0-9A-Z][0-9a-zA-Z]|[a-z]{9,}[0-9A-Z])[0-9a-zA-Z]*\/[A-Za-z]{5}$/$script,third-party,match-case
+/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{5,}\.[a-z]{3,7}\/[a-z](?:[a-z]{2,}[0-9A-Z]|[a-z][0-9A-Z][0-9a-zA-Z]|[0-9A-Z][0-9a-zA-Z]{2})[0-9a-zA-Z]*\/\d{3,6}(?:\?[_a-z]=[-0-9a-z]+)?$/$script,third-party,match-case
 ! Specific regex
 /\.[a-z]{3,5}\/[0-9a-z]{8,12}\/[0-9a-z]{8,12}\.js$/$script,domain=555.porn|hclips.com|hdzog.com|hotmovs.com|imzog.com|inporn.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|pornzog.com|privatehomeclips.com|puporn.com|see.xxx|senzuri.tube|shemalez.com|shemalez.tube|sss.xxx|thegay.com|thegay.porn|thegay.tube|thegay.pro|tubepornclassic.com|tuberel.com|txxx.com|txxx.tube|txxx.porn|txxx.pro|txxx.tv|txxxporn.tube|upornia.com|upornia.tube|vjav.com|vjav.tube|voyeurhit.com|vxxx.com|bdsmx.tube|blackporn.tube|mrgay.tube|bigdick.tube|xmilf.com|voyeurhit.tube|hdzog.tube|teenorgy.video|hotmovs.tube|asiantv.fun|pornclassic.tube|pornhits.com|sextu.com|in-porn.com|manysex.com|onlyporn.tube|manysex.tube|aniporn.com|abxxx.com|gaytxxx.com|xjav.tube|abjav.com|transtxxx.com
 /^https:\/\/[a-z]{3,5}\.[a-z]{10,14}\.top\/[a-z]{10,16}\/[a-z]{5,6}(?:\?d=\d)?$/$script,third-party,match-case,domain=bokepindoh.cc|bokepindoh.fun|bokepindoh.lol|bokepindoh.my|bokepindoh.pw|bokepindoh.to|bokepindoh.top|bokepindoh.tv|bokepindoh.party|bokepindoh.uno|bokepindoh.jp.net
