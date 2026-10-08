@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: kF5T/+xY3jyTgwpsvZxOMg
-! Version: 202610080221
+! Checksum: w2LaPz7W+ESeEs+EVTMv8w
+! Version: 202610080952
 ! Title: ABP filters
-! Last modified: 08 Oct 2026 02:21 UTC
+! Last modified: 08 Oct 2026 09:52 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -3306,7 +3306,7 @@ otomoto.*#?#[data-testid="financing-widget-simulator-entrypoint"]:has(span:has-t
 otomoto.*#$#abort-on-property-read Baxter.targeting.ad_price; abort-on-property-read Baxter.targeting.ad_title; override-property-read Baxter.targeting emptyObj;
 ! #RM-117
 pinterest.*#?#div[data-grid-item]:has(div[title]:-abp-contains(/^(Ad|Sponsored|Sponsorisé|Gesponsert|Gesponsord|Promocionado|Patrocinado|Sponsorizzato|Sponsorowane|広告|贊助內容|赞助的 Pin 图|후원 핀|ממומן|قيد الدعم|Được tài trợ|प्रायोजित|স্পনসর করা|స్పాన్సర్ చేసారు|Спонсорований)$/))
-pinterest.com#$#json-prune 'resource_response.data.[-].promoter resource_response.data.results.[-].promoter'
+pinterest.com#$#json-prune 'resource_response.data.[-].ad_data resource_response.data.results.[-].ad_data'
 ! #RM-167
 ! HP&PP
 tokopedia.com#$#hide-if-contains /^Ad$/ 'div[data-testid^="divProductGrid"], div[data-testid^="divProduct"]>div' 'div>div[class][data-testid][data-action]>div[data-testid] a span[data-testid]'
@@ -3573,7 +3573,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||arhatsfenman.com^
 ||aricinquerida.com^
 ||aridweakness.com^
-||ariososhands.com^
 ||ariososlepage.com^
 ||arisingwinze.com^
 ||aroseflowe.com^
@@ -3801,6 +3800,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||discepttaked.com^
 ||discreditperspirepoetry.com^
 ||discussiondaub.com^
+||dismastlemosi.com^
 ||distaltenths.com^
 ||distinguishanatotal.com^
 ||dittoforgive.com^
@@ -3810,6 +3810,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||dogfalcons.com^
 ||dolesdao.com^
 ||doletenantregards.com^
+||donsshims.cfd^
 ||dopiestdappled.com^
 ||dormiebevue.com^
 ||drainedrerolls.com^
@@ -3828,10 +3829,10 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||edenizemortary.com^
 ||effic.pro^
 ||eidersrettory.com^
-||elanbullose.com^
 ||electron8.net^
 ||elementalconsessionconsession.com^
 ||eliminatedfertilizer.com^
+||elowriderst.com^
 ||emanatelaxism.com^
 ||emeerunoily.com^
 ||emergehewhall.qpon^
@@ -3936,6 +3937,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||ghabovethec.info^
 ||ghurrytacoma.com^
 ||gigglemagnetismunaired.com^
+||girellaharelip.com^
 ||girlgamingempire.org^
 ||glamournakedemployee.com^
 ||glazenrattoon.com^
@@ -3977,8 +3979,8 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||halmfrisii.com^
 ||hambonejataco.com^
 ||hardyforges.com^
-||hattyrhombi.com^
 ||haydntaal.com^
+||hceiobdbsc.icu^
 ||hdwetwindle.com^
 ||hebamicmopeds.com^
 ||hedgybache.com^
@@ -4097,7 +4099,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||lancetsupflow.com^
 ||landslidegraphsystems.com^
 ||latcherjeannieturrets.click^
-||latticetaur.com^
 ||lawmanbevor.com^
 ||lawscrax.com^
 ||laymanesprit.com^
@@ -4131,7 +4132,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||loveplumbertailor.com^
 ||lumbarssweepup.com^
 ||lwqegdiqhs.icu^
-||macacusdame.com^
 ||maidismsnackle.com^
 ||maihikuh.com^
 ||majoonevernia.com^
@@ -4291,6 +4291,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||preyfultarried.com^
 ||pricinganalytics.cfd^
 ||primary808.net^
+||prism-drift-cdn-46.workers.dev^
 ||prism-marble-cdn-48.workers.dev^
 ||prizefamily.com^
 ||proceduresto3.net^
@@ -4355,6 +4356,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||runtime8000.com^
 ||rupeesetnas.qpon^
 ||russismvarsha.com^
+||rustytableclearance.com^
 ||rutchcrosby.cyou^
 ||sableviolet.com^
 ||sabutanjirble.com^
@@ -4438,6 +4440,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||squeasyfantoms.com^
 ||stanzytkyx.com^
 ||stareobjectedcipher.com^
+||steedbee.com^
 ||sterolsawaited.com^
 ||stgnvt25.cfd^
 ||stibilpirra.com^
@@ -4579,6 +4582,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||vd.7vid.net^
 ||vector26060.com^
 ||verdedagon.com^
+||verninchange.com^
 ||versinehopper.com^
 ||vextslows.com^
 ||vidstats.top^
