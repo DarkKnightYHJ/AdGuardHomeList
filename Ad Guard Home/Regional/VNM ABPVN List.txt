@@ -1,7 +1,7 @@
 #Android host file - Adaway
 #
 # Title: ABPVN Hosts
-# Updated: 05 Oct 2026 14:57 UTC+7
+# Updated: 12 Oct 2026 16:00 UTC+7
 # License: ABPVN
 # Please report any unblocked ads or problems by email or in our forums
 # Email: support@abpvn.com
@@ -2084,6 +2084,8 @@
 0.0.0.0 www.adsensecustomsearchads.com
 #[app-ads-services.com]
 0.0.0.0 app-ads-services.com
+0.0.0.0 muf.app-ads-services.com
+0.0.0.0 odf.app-ads-services.com
 0.0.0.0 odm.app-ads-services.com
 0.0.0.0 www.app-ads-services.com
 #[microsoft.com]
@@ -4327,11 +4329,13 @@
 #[branch.io]
 0.0.0.0 api.branch.io
 0.0.0.0 api2.branch.io
+0.0.0.0 api3.branch.io
 0.0.0.0 branch.io
 0.0.0.0 cdn.branch.io
+0.0.0.0 dsp.branch.io
 0.0.0.0 gdpr.branch.io
 0.0.0.0 go.branch.io
-0.0.0.0 growth.branch.io
+0.0.0.0 protected-api.branch.io
 0.0.0.0 start.branch.io
 0.0.0.0 video.branch.io
 0.0.0.0 vulcan.branch.io
@@ -11248,6 +11252,7 @@
 0.0.0.0 app-shake.xml-eu.ak-is2.net
 0.0.0.0 app-shake.xs.ak-is2.net
 0.0.0.0 bappaads.xml.ak-is2.net
+0.0.0.0 branchdsp.rtb-ui.ak-is2.net
 0.0.0.0 cachegorilla.xml.ak-is2.net
 0.0.0.0 ctrtraffic.fs.ak-is2.net
 0.0.0.0 danarimedia.xml.ak-is2.net
@@ -13616,17 +13621,26 @@
 0.0.0.0 d1.ads.rmbl.ws
 0.0.0.0 d2.ads.rmbl.ws
 0.0.0.0 d4.ads.rmbl.ws
-#[adjust]
-0.0.0.0 analytics.adjust.cn
+#[adjust.com]
 0.0.0.0 analytics.adjust.com
-0.0.0.0 analytics.adjust.io
-0.0.0.0 analytics.adjust.net.in
-0.0.0.0 analytics.adjust.world
-0.0.0.0 analytics.eu.adjust.com
-0.0.0.0 app.adjust.cn
 0.0.0.0 app.adjust.com
+0.0.0.0 s2s.adjust.com
+0.0.0.0 view.adjust.com
+#[analytics.*.adjust.com]
+0.0.0.0 analytics.eu.adjust.com
+0.0.0.0 analytics.tr.adjust.com
+0.0.0.0 analytics.us.adjust.com
+#[adjust.cn]
+0.0.0.0 analytics.adjust.cn
+0.0.0.0 app.adjust.cn
+#[adjust.io]
+0.0.0.0 analytics.adjust.io
 0.0.0.0 app.adjust.io
+#[adjust.net.in]
+0.0.0.0 analytics.adjust.net.in
 0.0.0.0 app.adjust.net.in
+#[adjust.world]
+0.0.0.0 analytics.adjust.world
 0.0.0.0 app.adjust.world
 #[bright]
 0.0.0.0 bright-sdk.com
@@ -17673,6 +17687,7 @@
 0.0.0.0 bridesmaidspamimmortal.com
 0.0.0.0 bridgetrack.com
 0.0.0.0 brigadedelegatesandbox.com
+0.0.0.0 briggie.org
 0.0.0.0 brightadnetwork.com
 0.0.0.0 brightcriticism.com
 0.0.0.0 brightinfo.com
@@ -17717,6 +17732,7 @@
 0.0.0.0 bvmcdn.net
 0.0.0.0 bvtpk.com
 0.0.0.0 bwp.download.com
+0.0.0.0 bx.meayis.cfd
 0.0.0.0 bytefrom2010.com
 0.0.0.0 bzyfzusiqohk.com
 0.0.0.0 c.bannerflow.net
@@ -18107,6 +18123,7 @@
 0.0.0.0 d2j042cj1421wi.cloudfront.net
 0.0.0.0 d2kk0o3fr7ed01.cloudfront.net
 0.0.0.0 d2lahoz916es9g.cloudfront.net
+0.0.0.0 d2pf0ys5xus6n.cloudfront.net
 0.0.0.0 d2qnx6y010m4rt.cloudfront.net
 0.0.0.0 d2sbzwmcg5amr3.cloudfront.net
 0.0.0.0 d2ty8gaf6rmowa.cloudfront.net
@@ -18130,6 +18147,7 @@
 0.0.0.0 d3rjndf2qggsna.cloudfront.net
 0.0.0.0 d3u598arehftfk.cloudfront.net
 0.0.0.0 d3v3bqdndm4erx.cloudfront.net
+0.0.0.0 dadgah.org
 0.0.0.0 dads.wedobest.com.cn
 0.0.0.0 dadsimz.com
 0.0.0.0 daejyre.com
@@ -18159,6 +18177,7 @@
 0.0.0.0 dbxexsnxxzwwo.com
 0.0.0.0 dc-storm.com
 0.0.0.0 dcbbwymp1bhlf.cloudfront.net
+0.0.0.0 dd.gillyspencie.com
 0.0.0.0 dd1xbevqx.com
 0.0.0.0 ddzk5l3bd.com
 0.0.0.0 dead-put.com
@@ -18411,6 +18430,7 @@
 0.0.0.0 european-toplist.de
 0.0.0.0 euroranking.de
 0.0.0.0 eusta.de
+0.0.0.0 evasivewashoutsociety.com
 0.0.0.0 evergage.com
 0.0.0.0 evzhzppj5kel.com
 0.0.0.0 eweconciliate.com
@@ -18475,6 +18495,7 @@
 0.0.0.0 feuageepitoke.com
 0.0.0.0 fhsmtrnsfnt.com
 0.0.0.0 fhvfd.com
+0.0.0.0 fhyatbab.in
 0.0.0.0 fibqukktuv.in
 0.0.0.0 fiksu.com
 0.0.0.0 filezoness.com
@@ -18625,6 +18646,7 @@
 0.0.0.0 gmhyebojlimvqbc.com
 0.0.0.0 gmxvmvptfm.com
 0.0.0.0 gnenuelnn.com
+0.0.0.0 gnschdti.com
 0.0.0.0 go-clicks.de
 0.0.0.0 go-rank.de
 0.0.0.0 go.bigbang.solutions
@@ -19563,6 +19585,7 @@
 0.0.0.0 ocio.leadzu.com
 0.0.0.0 oclasrv.com
 0.0.0.0 od.stimefloccus.shop
+0.0.0.0 odloqsduxqha.in
 0.0.0.0 odnvkuocmow.in
 0.0.0.0 odqdkealzr.com
 0.0.0.0 oewa.at
@@ -20007,6 +20030,7 @@
 0.0.0.0 qn.unspedtaction.com
 0.0.0.0 qnbeenbgsx.com
 0.0.0.0 qnenxwwxzav.com
+0.0.0.0 qnfonjdhdpx.com
 0.0.0.0 qnp16tstw.com
 0.0.0.0 qnsr.com
 0.0.0.0 qo.errorrespan.com
@@ -20039,6 +20063,7 @@
 0.0.0.0 r.leadzu.com
 0.0.0.0 r.trwl1.com
 0.0.0.0 r0ckeet.com
+0.0.0.0 rabon.org
 0.0.0.0 radiate.com
 0.0.0.0 radiumone.com
 0.0.0.0 radxabsah.com
@@ -20878,6 +20903,7 @@
 0.0.0.0 uumkcycj.com
 0.0.0.0 uvopoefe.com
 0.0.0.0 uwoaptee.com
+0.0.0.0 ux.bagwigvendee.cfd
 0.0.0.0 uyunad.com
 0.0.0.0 uz.louchefunnel.shop
 0.0.0.0 v6rxv5coo5.com
