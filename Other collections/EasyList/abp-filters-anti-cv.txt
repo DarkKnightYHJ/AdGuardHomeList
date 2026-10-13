@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: lJrWPnvnBTGh/TQzrf9ZQA
-! Version: 202610131526
+! Checksum: YMbgVX9MhQ0CzcEPgDVQHg
+! Version: 202610132052
 ! Title: ABP filters
-! Last modified: 13 Oct 2026 15:26 UTC
+! Last modified: 13 Oct 2026 20:52 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1729,7 +1729,7 @@ cine.to#$#abort-on-property-read document.head.appendChild
 nhentai.net#$#override-property-read _n_app.popunder null;
 asianporn.li,bunkr-albums.io,familyporn.tv,forums.socialmediagirls.com,masahub.net,rule34.*#$#abort-on-property-write zfgloadedpopup;
 hitomi.la#$#override-property-read popsource null; override-property-read adsdir null; override-property-read ad_cookieconsent false; override-property-read D4zz undefined; abort-on-property-read _pop; abort-on-property-read hitomi; abort-on-property-read open; override-property-read ad_idzone null; abort-on-property-read ylmkAp.addZone; override-property-read ad_popup_fallback false; prevent-listener /click|load/ popMagic; abort-current-inline-script EventTarget.prototype.addEventListener wpadmngr
-8teenxxx.com,between-legs.com,pornblade.com,pornfelix.com#$#prevent-listener /click|load/ popMagic
+8teenxxx.com,between-legs.com,pornblade.com,pornfelix.com,xxxcinema.tube#$#prevent-listener /click|load/ popMagic
 ahvsh.com,sbanh.com,sbembed.com,sblona.com,sblongvu.com,sbplay2.com,sbrapid.com,streamhide.to,streamsb.com,streamsb.net,streamwish.*,viewsb.com#$#abort-on-property-read __Y
 sxyprn.*#$#abort-current-inline-script vast_urls; override-property-read D4zz undefined
 *$script,third-party,domain=sxyprn.com
@@ -1935,6 +1935,7 @@ filthyhero.com#$#override-property-read opener null
 ||filthyhero.com/bounce-test.js^$script,domain=filthyhero.com
 stellarconductornexus.com#$#prevent-window-open /./
 streamingnow.mov,stellarconductornexus.com#$#override-property-read AtcshAltNm noopFunc
+xxxcinema.tube#$#prevent-window-open /./ 1000
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 bagas31.info#$#abort-on-property-write atob
@@ -2172,6 +2173,7 @@ theflixertv.*#$#hide-if-matches-xpath './/div[@dir][@style][attribute::*[starts-
 streamcloud.my#$#hide-if-matches-xpath './/div[@style="pointer-events: none; position: absolute; top: 0px; left: 0px; width: 1839px; height: 1815px; z-index: 2147483647;"]/self::*[1]'
 /player/html.php?aid=*&video_id=*&referer=https*kissjav*^$domain=kissjav.li|kissjav.com
 /getimage.php$domain=gay-torrents.net
+||spellknight.com^$script,domain=independent.co.uk
 kissjav.li##.asside-link
 flaswish.com#$#abort-on-property-read myScriptManager; abort-on-property-read hg_plugin_MN.init
 sourceforge.net#$#hide-if-matches-xpath './/a[contains(@href,"campaign=display")]/parent::div[@class][1]'
@@ -2254,6 +2256,7 @@ xhamster.*,xhamster1.desi,xhamster2.com,xhamster3.com,xhamster19.com,xhaccess.co
 ||porndoe.com/movie/preroll/*$media,rewrite=abp-resource:blank-mp4,domain=porntrex.com
 ||xanimu.com/ablck$domain=xanimu.com
 ||xanimu.com/*.php$domain=xanimu.com
+||bxcdn.net^$media,domain=xxxcinema.tube,rewrite=abp-resource:blank-mp4
 ||ark.tubi.video/v2/*.mp4^$domain=tubitv.com
 mega.nz#$#replace-fetch-response '/aurl/' '' /mega.co.nz/
 ||up4stream.com/*.mp4^$domain=ups2up.fun
