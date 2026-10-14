@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: b2qkPKDfPzOgw/OrBCb+CQ
-! Version: 202610141103
+! Checksum: dLJO4mpv0iiFVxuPvoAX1Q
+! Version: 202610141622
 ! Title: EasyPrivacy
-! Last modified: 14 Oct 2026 11:03 UTC
+! Last modified: 14 Oct 2026 16:22 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1248,6 +1248,7 @@
 /i.gif?
 /i.php?i=
 /i.png?id=
+/i/api/kn/afterclick/*$~third-party,xmlhttprequest
 /i2a.js
 /i2yesCounter.js
 /i?e=pv&url=
@@ -52706,6 +52707,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||d-log.tv-asahi.co.jp^
 ||d.tv-asahi.co.jp^
 ||daiichi-kamotsu.co.jp/js/google_analytics.js
+||dmm.co.jp/js/tracking.min.js
 ||dmm.com/analytics/
 ||dmm.com/imp?
 ||doda.jp/DodaCommon/Html/js/RtoasterTrack.js
@@ -52812,6 +52814,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||socialxup.com/api/track
 ||softonic.jp/web-stats
 ||ssai.api.streaks.jp/*/ad_info?
+||stat.i3.dmm.com/plus/tracking.js
 ||stats.nhk.or.jp^
 ||sy.ameba.jp^
 ||sy.amebame.com^
