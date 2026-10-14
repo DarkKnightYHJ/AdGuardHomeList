@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: W/qDYgA6ql5EwwhgA8AdCA
-! Version: 202610141622
+! Checksum: 90DZbu/gtPzfkitppQTdwg
+! Version: 202610142012
 ! Title: ABP filters
-! Last modified: 14 Oct 2026 16:22 UTC
+! Last modified: 14 Oct 2026 20:12 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1424,6 +1424,8 @@ myinstants.com#$#json-override isActive false applyRatio
 myinstants.com#$#json-override isActive false isUnregistered
 myinstants.com#$#abort-on-property-read as_1156903863; abort-on-property-read as_1614097408
 u.gg#$#json-override isActive false applyRatio
+u.gg#$#json-override isActive false isUnregistered
+u.gg#$#abort-on-property-read as_-246219512; abort-on-property-read as_601861503
 spreadsheetpoint.com#$#abort-current-inline-script String.prototype.match __adblocker
 /^https:\/\/[a-z]{3,5}\.[a-z]{7,}\.com\/[a-z]{3,}\/[A-Za-z0-9_-]{4,10}\.js$/$script,third-party,match-case,domain=base64decode.org|deadline.com|euronews.com|fandom.com|goldderby.com|index.hr|indiewire.com|rollingstone.com
 /^https:\/\/[a-z]{3,5}\.[a-z]{6,}\.com\/[a-z]{3,}\/[A-Za-z0-9_-]+\.js$/$script,third-party,match-case,domain=fandom.com
