@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: XlENrdBW4xevFMSJ8L/pIw
-! Version: 202610151352
+! Checksum: WinzfvlKhRlfl3rmBrI9EQ
+! Version: 202610151752
 ! Title: ABP filters
-! Last modified: 15 Oct 2026 13:52 UTC
+! Last modified: 15 Oct 2026 17:52 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -530,7 +530,6 @@ timesofindia.indiatimes.com,winfuture.de#$#override-property-read Date.now noopF
 gutefrage.net,timesofindia.indiatimes.com,tz.de,winfuture.de#$#abort-on-property-write window.confirm
 gutefrage.net,timesofindia.indiatimes.com,tz.de,winfuture.de#$#abort-on-property-write window.alert
 timesofindia.indiatimes.com,tz.de,winfuture.de#$#override-property-read Element.prototype.remove noopFunc
-gutefrage.net#$#override-property-read window.navigator.connection.rtt 1001
 bab.la##[data-iaw="container"]
 bab.la##[data-google-query-id]
 bab.la##iframe[src^="data:text/html;base64,"][style*="z-index:2147483647"] {remove:true;}
@@ -584,10 +583,8 @@ ecouter-en-direct.com##div>div[class^="ad_mobil"] {remove:true;}
 ecouter-en-direct.com#$#override-property-read window.navigator.connection.rtt 1001
 ||*/loader.min.js|$script,domain=ecouter-en-direct.com
 ||error-report.com^$domain=ecouter-en-direct.com
-wordhippo.com#$#override-property-read window.navigator.connection.rtt 1001
 ||*/loader.min.js|$script,domain=wordhippo.com
 ||error-report.com^$domain=wordhippo.com
-percentagecalculator.net#$#override-property-read window.navigator.connection.rtt 1001
 ||*/loader.min.js|$script,domain=percentagecalculator.net
 ||error-report.com^$domain=percentagecalculator.net
 ||asloader.tz.de^$script,domain=tz.de
@@ -599,7 +596,6 @@ leboncoin.fr#$#prevent-element-src-loading script /[^A-Za-z0-9]script[^A-Za-z0-9
 ||html-load.com^$script,domain=dictionary.cambridge.org
 ||*/loader.min.js|$script,domain=dictionary.cambridge.org
 ||error-report.com^$domain=dictionary.cambridge.org
-dictionary.cambridge.org#$#override-property-read window.navigator.connection.rtt 1001
 ||*/sdk.js|$script,domain=dictionary.cambridge.org
 ||error-report.com/report$domain=dictionary.cambridge.org
 ||whoeverbeyond.com^$domain=dictionary.cambridge.org
@@ -614,7 +610,6 @@ issuya.com#$#abort-on-property-write window.alert
 issuya.com##iframe[src*="report.error-report.com/modal"]
 ||*/loader.min.js|$script,domain=motorbikecatalog.com
 ||error-report.com^$domain=motorbikecatalog.com
-motorbikecatalog.com#$#override-property-read window.navigator.connection.rtt 1001
 motorbikecatalog.com#$#json-override isActive false isUnregistered
 motorbikecatalog.com#$#abort-on-property-read as_-1353912456; abort-on-property-read as_-1400790884; abort-on-property-read as_-1241598911; abort-on-property-read as_-899760603
 ||*/loader.min.js|$script,domain=flatpanelshd.com
@@ -639,21 +634,16 @@ pressian.com#$#abort-on-property-write window.confirm
 pressian.com#$#abort-on-property-write window.alert
 pressian.com##iframe[src*="report.error-report.com/modal"]
 ||error-report.com^$domain=crosswordsolver.com
-crosswordsolver.com#$#override-property-read window.navigator.connection.rtt 1001
 crosswordsolver.com#$#hide-if-matches-xpath './/div[contains(@class,"ad-container")]/parent::div[1]'
 ||error-report.com^$domain=verkaufsoffener-sonntag.com
-verkaufsoffener-sonntag.com#$#override-property-read window.navigator.connection.rtt 1001
 verkaufsoffener-sonntag.com#$#hide-if-matches-xpath './/div[contains(@class,"g ")][.//div[contains(@class,"ads-") or contains(@id,"sticky")]//parent::div[1]]'
 ||*/loader.min.js|$script,domain=woxikon.de
 ||error-report.com^$domain=woxikon.de
-woxikon.de#$#override-property-read window.navigator.connection.rtt 1001
 ||error-report.com^$domain=oraridiapertura24.it
 ||*/loader.min.js|$script,domain=oraridiapertura24.it
-oraridiapertura24.it#$#override-property-read window.navigator.connection.rtt 1001
 oraridiapertura24.it#$#hide-if-matches-xpath './/div[contains(@class,"anzeigenlabel")]/parent::div[@style][not(@id)]'
 ||error-report.com^$domain=the-crossword-solver.com
 ||*/loader.min.js|$script,domain=the-crossword-solver.com
-the-crossword-solver.com#$#override-property-read window.navigator.connection.rtt 1001
 the-crossword-solver.com#$#hide-if-matches-xpath './/div[contains(@id,"slot-sticky")]/parent::div[1]'
 ||*/loader.min.js|$script,domain=laleggepertutti.it
 ||error-report.com^$domain=laleggepertutti.it
@@ -663,7 +653,6 @@ laleggepertutti.it#$#override-property-read window.navigator.connection.rtt 1001
 fansided.com##iframe[src*="report.error-report.com/modal"]
 ||*/loader.min.js|$script,domain=oxfordlearnersdictionaries.com
 ||error-report.com^$domain=oxfordlearnersdictionaries.com
-oxfordlearnersdictionaries.com#$#override-property-read window.navigator.connection.rtt 1001
 ||content-loader.com^$script,domain=oxfordlearnersdictionaries.com
 ||html-load.com^$script,domain=oxfordlearnersdictionaries.com
 ||d3d4gnv047l844.cloudfront.net^$script,domain=oxfordlearnersdictionaries.com
@@ -913,7 +902,6 @@ goodto.com#$#abort-on-property-read as_330297837; abort-on-property-read as_1184
 ||error-report.com^$domain=golfmonthly.com
 golfmonthly.com#$#timer-override 1 3000 noop timeout; timer-override 1 getBoundingClientRect noop interval; timer-override 1 body.remove noop interval
 ||*/loader.min.js|$script,domain=golfmonthly.com
-golfmonthly.com#$#override-property-read window.navigator.connection.rtt 1001
 golfmonthly.com#$#abort-on-property-write window.alert
 golfmonthly.com#$#abort-on-property-write window.confirm
 golfmonthly.com#$#prevent-element-src-loading iframe /report\\.error-report\\.com/
@@ -1327,6 +1315,8 @@ puckpedia.com#$#prevent-element-src-loading script /html-load\\.com|content-load
 ||error-report.com^$domain=movie-locations.com
 ||error-report.com^$domain=newsinlevels.com
 ||*/loader.min.js|$script,domain=newsinlevels.com
+@@||html-load.com/loader.min.js$script,domain=movie-locations.com
+movie-locations.com#$#json-override isUnregistered true isUnregistered
 newsinlevels.com#$#override-property-read Navigator.prototype.onLine false
 leagueofgraphs.com#$#override-property-read __as_e true
 last.fm#$#override-property-read __as_e true
@@ -4130,6 +4120,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||grrmucosas.com^
 ||grumpaccidia.com^
 ||gruntedwildest.com^
+||gtcinfight.cfd^
 ||gtdslaters.com^
 ||guardeewansith.com^
 ||guddledberith.com^
@@ -4438,6 +4429,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||pilotijuly.com^
 ||pincersmidnight.com^
 ||pitpropsizygia.com^
+||pioletfroom.com^
 ||plaitluctual.com^
 ||plumbicwooler.com^
 ||plungescreeve.com^
@@ -4752,6 +4744,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||verdedagon.com^
 ||verninchange.com^
 ||versinehopper.com^
+||verutumcohoshcerci.cyou^
 ||vextslows.com^
 ||vidstats.top^
 ||viduageessenic.com^
