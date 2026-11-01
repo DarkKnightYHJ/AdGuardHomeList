@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: Nhwf92G/5PdBt87daR7vUQ
-! Version: 202611011532
+! Checksum: 90B8HpdASibVKPiXo16gPA
+! Version: 202611012002
 ! Title: ABP filters
-! Last modified: 01 Nov 2026 15:32 UTC
+! Last modified: 01 Nov 2026 20:02 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -3847,6 +3847,8 @@ mail.ru#@#.tgb-wrapper
 mail.ru#@#[href^="https://dzen.ru"]
 @@://mail.ru/$csp=connect-src 'self' *.imgsmail.ru *.mail.ru ok.ru vk.com data: blob:
 mail.ru#@#[href*="https://dzen.ru"]
+! FD-9084
+oradesibiu.ro#@#DIV[class^="banner"]
 ! *** abp-filters-anti-cv:distribution/abp-filters-partners.txt ***
 ! Filters to be used by distribution partners
 ! #CV-782
