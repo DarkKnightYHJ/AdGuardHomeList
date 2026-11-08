@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: /+R/Prx9LdG7OXI/rDCmng
-! Version: 202611081722
+! Checksum: K/vHxdrCyHepP2yfS6TPOg
+! Version: 202611082132
 ! Title: EasyPrivacy
-! Last modified: 08 Nov 2026 17:22 UTC
+! Last modified: 08 Nov 2026 21:32 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -382,6 +382,7 @@
 /api/sentry/tunnel$xmlhttprequest
 /api/stat?
 /api/stn/audience|$xmlhttprequest
+/api/t/gtm/*
 /api/track?guid
 /api/trk?
 /api/v1/EndpointTracker
@@ -567,6 +568,7 @@
 /callbacks/stats?
 /capture_client.js
 /CaptureStat.asmx
+/ccm/collect?
 /cdn-cgi/beacon/*
 /cdn-cgi/ping?$image
 /cdn-cgi/rum?
@@ -670,6 +672,7 @@
 /CofinaHits.js
 /cogi-etracker.js
 /cohesion-latest.min.js
+/cohesion/xs2.html
 /coinhive.min.js
 /coinimp-cache/*
 /collect.gif?
@@ -677,6 +680,7 @@
 /collect/?dp=
 /collect/kasupport
 /collect/kf?
+/collect/metric|
 /collect/pageview?
 /collect/pv?
 /collect/stats?
@@ -850,6 +854,7 @@
 /dynamicyield/*
 /dynaTraceMonitor?
 /e.gif?
+/e?k=*&v=$image
 /e_stat?g_id=
 /eatms.js
 /ecanalytics.js
@@ -1122,6 +1127,7 @@
 /geoLocationData/v1/*
 /geov2.js
 /get/live/web/_/*$script,~third-party
+/get_cookie_id?cookie_domain=
 /get_geoip?
 /get_site_data?requestUUID=
 /getbglog.js
@@ -1576,6 +1582,7 @@
 /metrics/bambuser.min.js
 /metrics/event?
 /metrics/ga.js
+/metrics/ga/*
 /metrics/init?
 /metrics/onload
 /metrics/ping?
@@ -2180,6 +2187,7 @@
 /sfCounter/*
 /sfdc/networktracking.js
 /sftouch?branchId=
+/sgtm/g/*
 /sgtracker.js
 /shared/sentry/*
 /sherlock.gif?
@@ -2417,6 +2425,7 @@
 /tagging?env=
 /tagmanager/event?
 /tagmanager/pptm.js
+/tagmetrics/*
 /tags.js?org_id=
 /tailtarget.js
 /talpa-analytics-pro/*
@@ -2448,6 +2457,7 @@
 /tjp_beacon.js
 /tjx-tracking-data.js
 /tking/ajax_track_stats?
+/tms?id=
 /tncms/tracking.js
 /token?referer=
 /tongji.js
@@ -2705,6 +2715,8 @@
 /uutils.fcg?
 /v.gif?
 /v1/adn/visit|
+/v1/events/publish|
+/v1/external/visitor|
 /v1/log/web-vitals$xmlhttprequest
 /v1/pixel.js
 /v1/pixel?
@@ -2975,6 +2987,7 @@
 ://rum.collector.
 ://segment-api.
 ://segment-cdn.
+://sgtm.
 ://signal.*/hardal
 ://signals.*/hardal
 ://sp.*/sp/h|$xmlhttprequest
@@ -3129,7 +3142,7 @@ _WebVitalsReporter_
 /tag/proxy?id=G-
 ://gtm.*.js?st=
 ://load.*.js?st=$~third-party
-://sgtm.*.js?
+://sgtm.
 ://tagging.*.js?aw=
 ://tagging.*/settings.js
 ! Taggrs.io
@@ -4074,6 +4087,7 @@ omni.soundestlink.com$image
 ||ablsrv.com^$third-party
 ||ablyft.com^$third-party
 ||abmr.net^$third-party
+||absmartly.io^$third-party
 ||absolstats.co.za^$third-party
 ||abtshield.com^$third-party
 ||acc-hd.de^$third-party
@@ -4182,6 +4196,7 @@ omni.soundestlink.com$image
 ||albacross.com^$third-party
 ||alcmpn.com^$third-party
 ||alenty.com^$third-party
+||alketech.eu^$third-party
 ||alltracked.com^$third-party
 ||alocdn.com^$third-party
 ||alpixtrack.com^$third-party
@@ -4298,6 +4313,7 @@ omni.soundestlink.com$image
 ||baikalize.com^$third-party
 ||bam-x.com^$third-party
 ||baptisttop1000.com^$third-party
+||baqend.com^$third-party
 ||baremetrics.com^$third-party
 ||barilliance.net^$third-party
 ||basicstat.com^$third-party
@@ -8143,6 +8159,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ape-tagit.timeinc.net^
 ||apester.com/event^
 ||api-analytics-prd.pelcro.com^
+||api-engage-us.sitecorecloud.io^
 ||api-iam.intercom.io/messenger/web/metrics
 ||api-location-prd.pelcro.com^$domain=newsweek.com
 ||api-pf.nw18.com/cdp-api/api/data
@@ -8190,6 +8207,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||app.clickfunnels.com/assets/pushcrew.js
 ||app.clickfunnels.com/assets/userevents/application.js
 ||app.clickfunnels.com/cf.js
+||app.factori.ai/personica.js
+||app.lifesight.io/personica.js
 ||app.link/_r?$script,third-party
 ||app.octaneai.com/get_analytics_engine/
 ||app.opmnstr.com/v2/geolocate/
@@ -9874,6 +9893,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.mtrcs.samba.tv^
 ||pixel.newscred.com^
 ||pixel.nudgify.com^
+||pixel.profound.click^
 ||pixel.propublica.org^
 ||pixel.pub.lilyai.net^
 ||pixel.quantserve.com^
@@ -10487,6 +10507,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tag.statshop.fr^
 ||tag.unifyintent.com^
 ||tagger.opecloud.com^
+||tagging.conde.digital^
 ||tagging.shiftdigitalapps.io^
 ||taggstar.com^*/taggstar.min.js
 ||tags.catapultx.com^
@@ -12519,6 +12540,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pub.servidoresge.com^
 ||recogerconsentimiento.com/consent/
 ||rt.cdnmedia.tv^
+||rum.haystack.es^
 ||s3wfg.com/js/vortexloader.js
 ||segment.lalr.co^
 ||smarte.rs/log
@@ -13869,6 +13891,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||monitor.channel4.com^
 ||monitor.ebay.com^
 ||monitor.lifemiles.com/collect
+||monster.com/visitor/tracking-v11.js
 ||morningstar.com/api/v1/analytics
 ||motorsport.com/stat/
 ||mov.t-mobile.com/p/js/1.js
@@ -14116,6 +14139,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||prop.astonvillanews.co.uk^
 ||proporn.com/ajax/log/
 ||proxima.midjourney.com^
+||psychcentral.com/api/drivers/
 ||pt.blubrry.com^
 ||public.tableau.com/inst?v=
 ||public.tableau.com/public/apis/audit-event
