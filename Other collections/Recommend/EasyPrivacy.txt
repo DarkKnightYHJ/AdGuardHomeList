@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: fpfobZHhG4hMstPnoafdtw
-! Version: 202611101153
+! Checksum: aa/MsCJhprnHZbMsBdSnsQ
+! Version: 202611101954
 ! Title: EasyPrivacy
-! Last modified: 10 Nov 2026 11:53 UTC
+! Last modified: 10 Nov 2026 19:54 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -404,6 +404,7 @@
 /api/v3/getPageVisits
 /api/v3/trackSegmentEvent
 /api/video/stats/*$xmlhttprequest
+/api/viewcontent.php?
 /api/web/v1/tracker$ping
 /api_adlog.php?
 /api_ip_info.php
@@ -4472,7 +4473,6 @@ omni.soundestlink.com$image
 ||cbtrk.net^$third-party
 ||cccpmo.com^$third-party
 ||ccgateway.net^$third-party
-||ccmbg.com^$third-party
 ||ccscserver.com^$third-party
 ||cdn-net.com^$third-party
 ||cdnlibjs.com^$third-party
@@ -8298,6 +8298,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||assets.trendii.com/pixel/main.js
 ||assets.yumpu.com/release/*/tracking.js
 ||assistant.watson.appdomain.cloud/analytics/
+||astatic.ccmbg.com/hz.js
 ||asterpix.com/tagcloudview/
 ||async-px-eu.dynamicyield.com^
 ||async-px.dynamicyield.com^
